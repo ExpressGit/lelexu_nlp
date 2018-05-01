@@ -1,0 +1,187 @@
+微型机 与 应用 
+ WEIXINGJIYUYINGYONG 
+ 1999 年 3 月 第 18 卷 第 3 期 vol.18 No.3 
+ 
+ 
+ 
+ 用 JAVA 语言 开发 Proxy 费用 查询 系统 
+ 董莉敏 　 李志兰 
+ 　 　 摘 　 要 ： 一个 允许 用户 随时 查询 上网 费用 的 费用 查询 系统 ， 该 系统 包括 1 个 客户机 程序 和 1 个 服务器程序 。 客户机 程序 是 1 个 JAVAApplet ， 服务器程序 是 1 个 JAVA 应用程序 。 
+ 　 　 关键词 ： Proxy 费用 查询 系统 　 客户机 　 服务器 　 Java 语言 
+ 　 　 Proxy 的 日志 记录 了 网络 用户 访问 Internet 资源 的 情况 ， 有 IP地址 、 URL 、 数据 流量 等 信息 ， 网管 中心 根据 日志 计算 用户 的 上网 费用 并 按 月 通知 用户 。 用户 不能 主动 查询 ， 只能 被动 等待 。 
+ 　 　 本文 介绍 的 查询 系统 允许 用户 随时 查询 上网 费用 ， 根据 日志 提供 的 数据 ， 服务器程序 随时 更新 费用 信息 ， 保证 提供 给 用户 的 是 当月 的 最新 信息 。 
+ 　 　 根据 系统 要求 ， 查询 协议 由 以下 4 步 组成 ： 
+ 　 　 ( 1 ) 用户 下载 客户机 程序 。 ( 2 ) 用户 输入 IP地址 并 和 服务器程序 建立 通信 。 ( 3 ) 服务器程序 响应 用户 请求 ， 根据 用户 的 IP地址 查询 并 向 用户 反馈 最新 的 费用 信息 。 ( 4 ) 通信 完毕 ， 双方 中止 连接 。 
+ 1 　 客户机 程序设计 
+ 　 　 客户机 程序 是 1 个 JAVAApplet ， 由 用户 下载 并 在 浏览器 中 作为 1 个 线程 生成 。 只有 当 用户 输入 IP地址 后 ， 线程 才 开始 启动 。 线程 的 主体 中 打开 1 个 连 到 服务器 的 套 接字 ( Socket ) ， 与 服务器 建立 连接 ， 然后 创建 2 个 与 服务器 通信 的 输入 流 和 输出 流 ， 用 输出 流将 IP地址 传到 服务器 ， 用 输入 流 接收 服务器 的 反馈 信息 ， 包括 用户 的 上网 费用 及 费用 的 最近 更新 日期 ， 并 将 其 显示 在 相应 的 框中 。 通信 结束 后 ， 中止 和 服务器 的 连接 ， 包括 关闭 Socket 、 输入 流 和 输出 流等 。 该 Applet 的 代码 如下 ： 
+ importjava . awt . * ; 
+ importjava . applet . * ; 
+ importjava . io . * ; 
+ importjava . net . * ; 
+ publicclassPCClientextendsAppletimplementsRunnable { 
+ privatestaticfinalintSERVERPORT = 1666 ; 　 / / 端口号 
+ privateThreadnewThread = null ; 
+ privateStringresponse = null , IP = null ; 
+ privateTextFieldcredit , time ; 
+ publicvoidinit ( ) { 　 / / Applet 初始化 ， 创建 输入 / 输出 窗口 
+ 　 　 setLayout ( newFlowLayout ( ) ) ; 
+ 　 　 setFont ( newFont ( “ TimesRoman ” , Font . BOLD , 10 ) ) ; 
+ 　 　 add ( newLabel ( “ PLEASEENTERYOURIPADDRESS ” ) ) ; 
+ 　 　 add ( TextField ( 30 ) ) ; 　 / / IP地址 输入 域 
+ 　 　 add ( newLabel ( “ BYTHEFOLLOWINGTIME ” ) ) ; 
+ 　 　 time = newTextField ( 30 ) ; 　 / / 时间 显示 域 
+ 　 　 add ( time ) ; 
+ 　 　 add ( newLabel ( “ YOURPROXYCREDITTHISMONTH ” ) ) ; 
+ 　 　 credit = newTextField ( 30 ) ; 　 / / 费用 显示 域 
+ 　 　 add ( credit ) ; 
+ 　 　 show ( ) ; } 
+ publicvoidpaint ( Graphicsg ) { 　 / / 画 矩形框 口 
+ 　 　 intwidth = size ( ) . width ; 
+ 　 　 intheight = size ( ) . height ; 
+ 　 　 g . drawRect ( 1 , 1 , width - 10 , height - 10 ) ; } 
+ publicvoidrun ( ) { 
+ 　 　 Socketclientsocket = null ; 
+ 　 　 DataInputStreamclientReceive = null ; 
+ 　 　 PrintStreamclientSend = null ; 
+ 　 　 try { 　 　 　 / / 和 服务器 建立 连接 
+ 　 　 　 clientsocket = newSocket ( “ hunter ” , SERVERPORT ) ; 
+ 　 　 　 clientSend = newPrintStream ( clientsocket . getOutputStream ( ) ) ; 
+ 　 　 　 clientReceive = newDataInputStream ( clientsocket . getInputStream ( ) ) ; 
+ 　 　 　 clientSend . println ( IP ) ; 　 / / 传 用户 的 IP地址 到 服务器 
+ 　 　 　 response = clientReceive . readLine ( ) ; 　 / / 监听 服务器 传来 
+ / / 的 时间 信息 
+ 　 　 　 time . setText ( response ) ; 　 / / 显示 时间 信息 
+ 　 　 　 response = clientReceive . readLine ( ) ; 　 / / 监听 服务器 传来 
+ / / 的 费用 信息 
+ 　 　 　 credit . setText ( response ) ; 　 / / 显示 费用 信息 
+ 　 　 } catch ( IOExceptionexcept ) { 
+ 　 　 　 System . out . println ( “ I / OFailed : ” + except ) ; 
+ 　 　 　 System . exit ( 1 ) ; 
+ 　 　 } finally { 
+ 　 　 　 　 try { 　 　 / / 中止 连接 
+ 　 　 　 　 if ( clientReceive ! = null ) clientReceive = null 
+ 　 　 　 　 if ( clientSend ! = null ) clientSend = null ; 
+ 　 　 　 　 if ( clientsocket ! = null ) clientsocket . close ( ) ; 
+ 　 　 　 　 } catch ( IOExceptionexcept ) { 
+ 　 　 　 　 　 System . out . println ( “ I / OFailed : ” + except ) ; 
+ 　 　 　 　 　 System . exit ( 1 ) ; } } } 
+ publicInsetsinsets ( ) { returnnewInsets ( 20 , 20 , 20 , 20 ) ; } 
+ publicbooleanaction ( Eventevt , Objectobj ) { 
+ 　 　 if ( evt . targetinstanceOfTextField ) { 
+ 　 　 　 　 IP = ( ( TextField ) evt . target ) . getText ( ) ; / / 读取 用户 输 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 / / 入 的 IP地址 
+ 　 　 　 　 newThread = newThread ( this ) ; / / 创建 并 启动 监听 线程 
+ 　 　 　 　 newThread . start ( ) ; 
+ 　 　 　 　 returntrue ; } 
+ 　 　 　 　 returnsuper . handleEvent ( evt ) ; } 
+ publicvoidstop ( ) { newThread . stop ( ) ; } } 
+ 2 　 服务器程序 设计 
+ 　 　 服务器程序 由 2 个类 PCServer 和 PCHandler 组成 ， PCServer 负责 随时 更新 费用 信息 并 等待 客户端 的 连接 ， 当 客户端 连接 上后 ， 它 创建 PCHandler 的 实例 ， 负责 与 客户端 的 通信 。 服务器程序 是 并发 的 ， 可 同时 接收 多个 客户机 程序 的 请求 。 
+ 　 　 日志 由 多条 记录 组成 ， 每条 记录 包含 若干 数据项 。 实例 化 PCServer 时 ， 打开 日志 文件 ， 按行 读取 记录 ， 对 每 一行 进行 令牌 化 处理 ， 分离 出 其中 的 数据项 。 对 分离 出 的 数据项 进行 句法分析 ， 句法分析 包括 跟踪 已经 遇到 过 的 IP地址 和 进行 流量 统计 。 跟踪 主要 依赖于 java . util 包中 的 Hashtable 类 提供 的 功能 ， Hashtable 类 实现 了 字典 数据结构 ， 字典 包含 1 对 入口 ， 第 1 部分 称为 关键字 key ( 这里 是 IP地址 ) ， 第 2 部分 称为 值 value ( 这里 是 流量 ) ， 由于 该类 不 支持 基本 数据类型 ， 所以 把 计数器 放在 Integer 对象 中 进行 流量 统计 。 值 的 存取 利用 put ( key , value ) 和 get ( key ) 方法 。 PCHandler 利用 get ( key ) 进行 查询 。 
+ 　 　 下面 是 服务器程序 代码 ， 为了 节省 篇幅 ， 部分 方法 的 实现 作 了 省略 。 
+ importjava . io . * ; 
+ importjava . util . * ; 
+ importjava . net . * ; 
+ publicclassPCServer { 
+ 　 privatestaticfinalintSERVERPORT = 1666 ; 　 / / 服务器 的 监 
+ / / 听 端口 
+ 　 privatestaticFilePROXYFILE = newFile ( “ ＼ homel ＼ access ” ) ; 　 / / 打开 日志 文件 
+ 　 privateServerSocketlistenSocket = null ; 
+ 　 privateHashtablePCInfo ; 
+ 　 privateStringcurrentMonth = “ Jun ” ; 
+ 　 privatebooleankeepRunning = true ; 
+ 　 privatelongproxyFileMod ; 
+ 　 privateDateproxyInfoTime ; 
+ 　 publicstaticvoidmain ( Stringargs ［ ］ ) { 
+ 　 PCServerserver = newPCServer ( ) ; 
+ 　 server . serveClients ( ) ; } 
+ 　 publicPCServer ( ) { 
+ 　 if ( ! loadCredit ( ) ) { 　 / / 装载 费用 信息 
+ 　 　 System . out . println ( “ UnabletoloadProxy ” ) ; 
+ 　 　 System .. exit ( 1 ) ; } 
+ 　 try { 
+ 　 　 listenSocket = newServerSocket ( SERVERPORT ) ; 
+ 　 } catch ( IOExceptionexcept ) { 
+ 　 　 System . out . println ( “ Unabletolistenonport ” + SERVERPORT + except ) ; 
+ 　 　 System . exit ( 1 ) ; } } 
+ 　 publicvoidserveClients ( ) { 
+ 　 SocketclientSocket = null ; 
+ 　 PCHandlernewHandler ; 
+ 　 try { 
+ 　 　 while ( keepRunning ) { 
+ 　 　 clientSocket = listenSocket . accept ( ) ; 　 / / 等待 客户端 的 连接 
+ 　 　 if ( currentMonth ! = getCurrentMonth ( ) ) currentMonth = getCurrentMonth ( ) ; 
+ 　 　 / / 如果 日志 文件 被 Proxy 服务器 修改 ， 更新 费用 信息 
+ 　 　 if ( proxyFileMod ! = PROXYFILE . lastModified ( ) ) loadCredit 
+ ( ) ; 
+ 　 　 newHandler = newPCHandler ( clientSocket , PCInfo , proxyInfoTime ) ; 
+ 　 　 ThreadnewThread = newThread ( newHandler ) ; 
+ 　 　 newThread . start ( ) ; } 
+ 　 　 listenSocket . close ( ) ; 
+ 　 } cath ( IOExceptionexcept ) { 
+ 　 　 　 System . out . println ( “ I / OFailed ” + except ) ; 
+ 　 　 　 System . exit ( 1 ) ; } } 
+ 　 protectedvoid 
+ 　 if ( keepRunning ) keepRunning = false ; } 
+ 　 publicStringgetCurrentMonth ( ) { 　 / / 获取 当前 月份 
+ 　 String ［ ］ month = { “ Jan ” , “ Feb ” , “ Mar ” , “ Apr ” , “ May ” , “ Jun ” , “ Jul ” , “ Aug ” , “ Sep ” , “ Oct ” , “ Nov ” ， “ Dec ” } ; 
+ 　 returnmonth ［ ( newDate ( ) ) . getMonth ( ) ］ ' ; } 
+ 　 publicbooleanloadCredit ( ) { 
+ 　 DataInputStreamfile ; 
+ 　 StringTokenizertokenize ; 
+ 　 Stringstring , token , Ipaddr = null , bytes = null ; 
+ 　 Stringdelim = “ ＼ t ＼ n ＼ r ” ; 
+ 　 PCInfo = newHashtable ( ) ; 
+ 　 try { 
+ 　 　 file = newDataInputStream ( newFileInputSream ( PROXYFILE ) ) ; 
+ 　 　 file . readLine ( ) ; 
+ 　 　 while ( ( string = file . readLine ( ) ) ! = null ) { 日志 句法分析 } 
+ 　 　 proxyFileMod = PROXY - FILE . lastModified ( ) ; 　 / / 保存 文件 
+ / / 修改 日期 
+ 　 　 proxyInfoTime = newDate ( ) ; 　 / / 保存 当前 时间 
+ 　 　 returntrue ; } } 
+ / / … … 
+ classPCHandlerimplementsRunnable { 
+ 　 privateSocketme = null ; 
+ 　 privatePrintStreamclientSend = null ; 
+ 　 privateDataInputStreamclientReceive = null ; 
+ 　 privateHashtablePCInfo ; 
+ 　 privateDatedate ; 
+ 　 publicPCHandler ( Socketme , HashtablePCInfo , Datedate ) { 
+ 　 　 this . me = me ; 
+ 　 　 this . PCInfo = PCInfo ; 
+ 　 　 this . date = date ; } 
+ 　 publicvoid 
+ 　 　 StringclientAddress ; 
+ 　 　 Floatcredit ; 
+ 　 　 try { 
+ 　 　 　 clientSend = newPrintStream ( me . getOutputStream ( ) ) ; 
+ 　 　 　 clientReceive = newDataInputStream ( me . getInputStream ( ) ) ; 
+ 　 　 　 clientAddress = clientReceive . readLine ( ) ; 
+ 　 　 　 clientSend . println ( date . toString ( ) ) ; 
+ 　 　 　 credit = newFloat ( getCredit ( clientAddress ) * 0.02 ) ; 
+ 　 　 　 clientSend . println ( credit . toString ( ) + “ yuan ” ) ; 
+ 　 　 } catch ( IOExceptionexcept ) { 
+ 　 　 　 　 System . out . println ( “ I / OFailed ” + except ) ; 
+ 　 　 　 　 System . exit ( 1 ) ; 
+ 　 　 } finally { 
+ 　 　 　 　 try { 
+ 　 　 　 　 　 if ( clientSend ! = null ) clientSend . close ( ) ; 
+ 　 　 　 　 　 if ( clientReceive ! = null ) clientReceive . close ( ) ; 
+ 　 　 　 　 　 if ( me ! = null ) me . close ( ) ; 
+ 　 　 　 　 } catch ( IOExceptionexcept ) { 
+ 　 　 　 　 　 　 System . out . println ( “ I / OFailed ” + except ) ; 
+ 　 　 　 　 　 　 System . exit ( 1 ) ; } } } 
+ 　 publicintgetCredit ( StringclientAddress ) { 
+ 　 　 Integerbytes ; 
+ 　 　 bytes = ( Integer ) PCInfo . get ( clientAddress ) ; 
+ 　 　 if ( bytes = = null ) return0 ; 
+ 　 　 returnbytes . intValue ( ) ; } } 
+ 3 　 小结 
+ 　 　 本 系统 已 在 南京师范大学 校园网 上 运行 ， 给 校园网 用户 提供 了 极大 的 方便 ， 提高 了 网管 中心 的 工作效率 。 本 系统 的 设计 思想 非常 简捷 且 易于 实现 ， 不仅 适用 于 Proxy 费用 查询 ， 还 适用 于 其它 需要 网上 查询 的 场合 ， 如 email 费用 查询 、 股票 查询 等 。 系统 开发工具 采用 SymantecCafe1.5 。 
+ 作者 单位 ： 董莉敏 　 南京师范大学 计算机科学 与 教育系 ( 210024 ) 　 
+ 李志兰 　 南京师范大学 网络 中心 ( 210024 ) 　 
+ 参考文献 
+ 　 1 　 MarketosJ 著 ， 杨武杰 译 . JAVA 编程技术 与 技巧 . 北京 ： 电子 工业 出版社 ， 1997 
+ 　 2 　 VanhelsuweL 著 ， 邱仲 潘译 . JAVA 从 入门 到 精通 . 北京 ： 电子 工业 出版社 ， 1997 
+ ( 收稿 日期 ： 1998 - 09 - 03 ) 

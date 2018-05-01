@@ -1,0 +1,130 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 2000 　 Vol.11 　 No.4 　 P.435 - 440 
+ 
+ 
+ 
+ 
+ 基于 模型 的 人体 动画 方法 
+ 劳 志强 　 潘云鹤 
+ 摘要 　 文章 从 点点 对应 ， 线线 对应 入手 ， 首先 给出 了 根据 已知 二维 影像 特征 求得 与其 对应 的 三维 模型 特征参数 的 方法 ， 然后 给出 了 已知 人体 二维 影像 特征 求解 三维 人体模型 特征参数 方法 的 详细描述 . 基于 这一 思想 ， 实现 了 一个 动画 系统 Video & AnimationStudio . 文章 最后 给出 了 一个 由该 系统 实现 的 人体 行走 的 例子 . 
+ 关键词 　 人体 动画 ， 影像 特征 和 模型 特征 的 对应 关系 . 
+ 中图法 分类号 　 TP391 
+ AModel - BasedApproachtoHumanAnimation 
+ 　 LAOZhi - qiang 　 PANYun - he 
+ 　 （ StateKeyLaboratoryofCAD & CG 　 ZhejiangUniversity 　 Hangzhou 　 310027 ） 
+ （ InstituteofArtificialIntelligence 　 ZhejiangUniversity 　 Hangzhou 　 310027 ） 
+ 　 Abstract 　 　 Inthispaper , startingfrompoint - pointandline - linecorrespondence , adetaileddescriptionofthecalculationofprojectionparametersfor2Dvideofeaturesand3Dmodelfeaturescorrespondenceispresentedfirstly . Thenadetaileddescriptionofthecalculationofprojectionparametersfor2Dhumanvideofeaturesand3Dhumanmodelfeaturescorrespondenceisgiven . Atthesametime , ananimationexampleofhumanwalkingisintroducedwhichisproducedbyananimationsystemcalledVideo & AnimationStudio . Thesystemisdesignedaccordingtotheaboveidea . 
+ 　 Keywords 　 Humananimation , correspondencebetweenvideofeaturesandmodelfeatures . 
+ 　 　 Asweknow , therearetwocategoriesforthecurrentcomputervisionsystems : DepthReconstructionbasedSystems ( DRS ) ［ 1 ～ 4 ］ andKnowledgebasedSystems ( KS ) ［ 5 ～ 7 ］ . DRSextractimagefeatures ( suchasspatialvision , motion , texture , etc . ) fromtheimage , thenforma2.5 Dsketchandmatchthesefeatureswith3Dmodel . InDRS , alltherecognitionworkwasdonein3DspacewhileinKSperceptionalorganizationwasemployedtoform2DPerceptionalStructureGroupingsfromimagefeatures , thenknowledgematchprocedureisusedtogetmappingparameterswith3Dmodel . 
+ Wetrytofindamethodforbridgingthegapbetween2Dimagesandknowledgeof3Dobjectswithoutanypreliminaryderivationofdepth . Aquantitativemethodisusedtosimultaneouslydeterminethebestviewpointandobjectparametervaluesforfittingtheprojectionofa3Dmodeltogiven2Dfeatures . Thismethodallowsafewinitialhypothesizedmatchestobeextendedbymakingaccuratequantitativepredictionsforthelocationsofthoseobjectfeaturesintheimage . Thisprovidesahighlyreliablemethodforverifyingthepresenceofaparticularobject , sinceitcanmakeuseofthespatialinformationintheimagetothefulldegreeofavailableresolution . Thefinaljudgmentastothepresenceoftheobjectcanbebasedononlyasubsetofthepredictedfeatures , sincetheproblemisusuallygreatlyover - constrainedduetothelargenumberofvisualpredictionsfromthemodelcomparedwiththenumberoffreeparameters . 
+ 1 　 SolvingforSpatialCorrespondence 
+ 　 　 ManyareasofAIareaimedattheinterpretationofdatabyfindingconsistentcorrespondencesbetweenthedataandpriorknowledgeofthedomain . Inourapplication , weneedtodefinetheconsistencyconditionsforjudgingcorrespondencebetweenimagedataand3Dknowledge . UnlikemanyotherareasofAI , animportantcomponentofthisknowledgeisquantitativespatialinformationthatrequiresspecificmathematicaltechniquesforachievingcorrespondence . Theparticularconstraintthatwewishtoapplycanbestatedasfollows : 
+ Thelocationsofallprojectedmodelfeaturesinanimagemustbeconsistentwiththeprojectionfromasingleviewpoint . 
+ Thepreciseproblemwewishtosolveisasfollows : givenasetofknowncorrespondencesbetween3Dmodelpointsand2Dimagepoints , whatarethevaluesoftheunknownprojectionandmodelparametersthatwillresultintheprojectionofthegivenmodelpointsintothecorrespondingimagepoints . 
+ TheapproachtakeninthispaperistolinearizetheprojectionequationsandapplyNewton ' smethodforthenecessarynumberofiterations . 
+ 1.1 　 ApplicationofNewton ' smethod 
+ 　 　 InthefieldofCGwecandescribetheprojectionofa3Dmodelpointp ( x , y , z ) intoa2Dimagepoint ( u , v ) withthefollowingequations : 
+ ( x , y , z ) = R ( p - t ) , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ wheretisa3Dtranslationvector , Ristherotationmatrixwhichtransformspointpintheoriginalmodelcoordinatesintoapoint ( x , y , z ) incamera - centeredcoordinates . Thesearecombinedinthesecondequationwithaparameterfproportionaltothecamerafocallengthtoperformperspectiveprojectionintoanimagepoint ( u , v ) . 
+ 　 　 Ourtaskistosolvefort , Randpossiblyf , givenanumberofmodelpointsandtheircorrespondinglocationsinanimage . InordertoapplyNewton ' smethod , wemustbeabletocalculatethepartialderivativesofuandvwithrespecttoeachoftheunknownparameters . However , itisdifficulttocalculatethesepartialderivativesforthisstandardformoftheprojectionequation . 
+ Thepartialderivativeswithrespecttothetranslationparameterscanbemosteasilycalculatedbyfirstreparameterizingtheprojectionequationstoexpressthetranslationsintermsofthecameracoordinatesystemratherthanmodelcoordinates . Thiscanbedescribedbythefollowingequations : 
+ ( x , y , z ) = Rp , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ HerethevariablesRandfremainthesameasinEqs . ( 1 ) and ( 2 ) , butthevectorthasbeenreplacedbytheparameters , Dx , DyandDz . Thetwotransformsareequivalentwhen 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ Inthenewparameterization , DxandDysimplyspecifythelocationoftheobjectontheimageplaneandDzspecifiesthedistanceoftheobjectfromthecamera . Aswillbeshownbelow , thisformulationmakesthecalculationofpartialderivativeswithrespecttothetranslationparametersalmosttrivial . 
+ 　 　 WearestillleftwiththeproblemofrepresentingtherotationRintermsofitsthreeunderlyingparameters . ThesolutiontothissecondproblemisbasedontherealizationthatNewton ' smethoddoesnotinfactrequireanexplicitrepresentationoftheindividualparameters . Therefore , wehavechosentotaketheinitialspecificationofRasgivenandaddtoitincrementalrotations φ x , φ y , and φ zaboutthex , y , zaxesofthecurrentcameracoordinatesystem . 
+ 　 　 Anotheradvantageofusingthe φ 　 sastheconvergenceparametersisthatthederivativesofx , y , z ( andthereforeofuandv ) withrespecttothemcanbeexpressedinastrikinglysimpleform . Forexample , thederivativeofxatapointwithrespecttoacounterclockwiserotationof φ zaboutthezaxisissimply - y . Thisfollowsfromthefactthat ( x , y , z ) = ( rcos φ z , rsin φ z , z ) , whereristhedistanceofthepointfromthezaxis , andthereforeTable1givesthesederivativesforallcombinationsofvariables . 
+ Table1 　 Thepartialderivativesofx , y , zwithrespectto φ x , φ y , φ z 
+ 
+ 　 xyz 
+ φ x0 - zy 
+ φ yz0 - x 
+ φ z - yx0 
+ 
+ 　 　 UsingEqs . ( 3 ) and ( 4 ) , itisnowstraightforwardtoaccomplishouroriginalobjectiveofcalculatingthepartialderivativesofuandvwithrespecttoeachoftheoriginalcameraparameters . Forexample , Eq . ( 4 ) tellsusthat ( substitutingc = ( z + Dz ) - 1 ) : similarly , Alltheotherderivativescanbecalculatedinasimilarway . Table2givesthederivativesofuandvwithrespecttoeachofthesevenparametersofourcameramodel . 
+ Table2 　 Thepartialderivativesofuandvwithrespecttoeachofthecameraviewpointparameters 
+ 
+ 　 uv 
+ Dx10 
+ Dy01 
+ Dz - fc2x - fc2y 
+ φ x - fc2xy - fc ( z + cy2 ) 
+ φ yfc ( z + cx2 ) fc2xy 
+ φ z - fcyfcx 
+ fcxcy 
+ 
+ 　 　 Ourtaskineachiterationofthemulti - dimensionalNewtonconvergenceisbetosolveforavectorofcorrections : h = ［ △ Dx , △ Dy , △ Dz , △ φ x , △ φ y , △ φ z ］ . Ifthefocallengthfisunknown , then △ fwouldalsobeaddedtothisvector . Giventhepartialderivativesofuandvwithrespecttoeachvariableparameter , theapplicationofNewton ' smethodisstraightforward . Foreachpointinthemodelwhichshouldmatchsomecorrespondingpointintheimage , wefirstprojectthemodelpointontotheimageusingthecurrentparameterestimatesandthenmeasuretheerrorinitspositioncomparedwiththegivenimagepoint . Theuandvcomponentsoftheerrorcanbeusedindependentlytocreateseparatelinearizedconstraints . Thenwehave 
+ 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 　 　 　 　 　 　 　 　 　 ( 7 ) 
+ Foreachpointcorrespondencewederivetwoequations . Fromthreepointcorrespondenceswecanderivesixequationsandproduceacompletelinearsystemwhichcanbesolvedforallsixcamera - modelcorrections ( △ Dx , △ Dy , △ Dz , △ φ x , △ φ y , △ φ z ) . 
+ Dx = Dx + △ Dx , Dy = Dy + △ Dy , Dz = Dz + △ Dz , 
+ φ x = φ x + △ φ x , φ y = φ y + △ φ y , φ z = φ z + △ φ z . 
+ ( 8 ) 
+ 　 　 ThenuseEq . ( 8 ) toshrinkbyaboutonestepofmagnitudeofvector ( Dx , Dy , Dz , φ x , φ y , φ z ) , andnomorethanafewiterationswouldbeneededevenforhighaccuracy . 
+ 　 　 Inmostapplicationsofthismethodwewillbegivenmorethanthreecorrespondencesbetweenmodelandimage . InthiscasetheGaussianleast - squaresmethodcaneasilybeapplied . 
+ 1.2 　 Useofline - to - linecorrespondences 
+ 　 　 Inmostapplications , thefeaturecorrespondencebetweenimageandmodelwasgivenintheformoffeaturelinesinsteadoffeaturepoints . Inthiscircumstance , modificationsshouldbemadeontheabovemethod . WeshouldsubstitutetheerrorontherightsideofEqs . ( 6 ) and ( 7 ) withthedistancebetweenprojectionlineandimagelineinsteadofthatbetweenprojectionpointandimagepoint . Asthedistancebetweenunparallellinesisnotafixedvalue , soweusethedistancefrompointtolinetosubstitutethedistancebetweenlines . Werepresentlineequationasfollows : ( substituting ) 
+ - kmu + kv = d , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 9 ) 
+ wheredistheperpendiculardistancefromtheoriginpointtotheline , mistheslantoftheline , sowehave 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 10 ) 
+ Thenwehave 
+ 　 　 Similarlywehave 
+ 　 　 　 　 　 　 ( 11 ) 
+ NowEqs . ( 6 ) and ( 7 ) canberepresentedasfollows 
+ 　 　 　 　 　 　 　 　 　 ( 12 ) 
+ WithEqs . ( 11 ) and ( 12 ) , wecanhave 
+ 　 　 　 　 　 　 ( 13 ) 
+ whereEdistheperpendiculardistancefromthetwoendpointsofcorrespondingimagelinetotheprojectionline . Asonelinehastwoendpoints , sotherearetwoequationssimilartoEq . ( 13 ) foreachlinecorrespondence . Withthreelines , wecanhaveacompletelinearsystem , andthesolutionis ( △ Dx , △ Dy , △ Dz , △ φ x , △ φ y , △ φ z ) . Thenwecanadjustvector ( Dx , Dy , Dz , φ x , φ y , φ z ) . WithNewton ' smethodemployed , theprojectionparametersintheline - linecorrespondenceconditionarereached . 
+ 2 　 TheCorrespondencebetweenVideoHumanFeaturesand3DModelHumanFeatures 
+ 2.1 　 Projectionparameterscalculationfor3Dhumanmodel 
+ 　 　 Firstly , wegivethedatastructureofimagepointand3Dmodelpointasfollows : 
+ Pointonimage : 
+ typedefstructIMAGE - POINT { 　 　 　 　 　 　 　 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 floatx ; 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 floaty ; 
+ } IMAGE - POINT ; 
+ Pointonmodel : 
+ typedefstructMODEL - POINT { 　 　 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 floatx ; 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 floaty ; 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 floatz ; 
+ } MODEL - POINT ; 
+ Nowwecancalculateprojectionparametersofacertainpartin3Dhumanmodel . Supposeitscorrespondingfeaturelinesontheimageare 
+ li : ( StartPti , EndPti ) , ( i = 1 , 2 , 3 ) 
+ andtheircorrespondingmodellinesare 
+ l ′ i : ( StartPt ′ i , EndPt ′ i ) , ( i = 1 , 2 , 3 ) . 
+ Performingprojectiontransformationonlinel ′ i ( i = 1 , 2 , 3 ) , wecangetl ″ i ( i = 1 , 2 , 3 ) , 
+ l ″ i : ( StartPt ″ i , EndPt ″ i ) , i = ( 1 , 2 , 3 ) , 
+ where 
+ 
+ Theslantforlinel ' ' i ( i = 1 , 2 , 3 ) isthenthedistancefrompointStartPti ( i = 1 , 2 , 3 ) tolinel ″ i ( i = 1 , 2 , 3 ) is 
+ 
+ 2.2 　 Conversionfromprojectionparameterstohumanmotionmodel 
+ 　 　 Whenthecalculationofprojectionparametersforeverypartofhumanmodelisfinished , weneedtoconverttheseparameterstofittheskeletonstructureofhumanmodel , thenspatialparametersofthevectorsthatcorrespondtoeachpartofthehumanmodelcanbecalculated . Thustheconversionfromprojectionparameterstohumanmotionmodeliscompleted . 
+ 2.3 　 Theimplementationofprojectionparameterscontrolledhumanmotion 
+ 　 　 Basedontheaboveidea , wehavedevelopedavideo - basedanimationsystemcalledVideo & AnimationStudio . Figures1 ( a ) ( b ) to2 ( a ) ( b ) showahumanwalkingexampleimplementedbyVideo & AnimationStudio . Thefiguresontheleftsidearevideodataandasetofskeletonfeaturesdefinedbyus , whilethefiguresontherightsidearethemotionofthehumanmodelwhichiscontrolledbythesetsofskeletonfeaturesinthevideo . 
+ 
+ Fig.1 
+ 
+ Fig.2 
+ 3 　 Conclusions 
+ 　 　 Fromtheexperimentalresult , wecanseethattheresultofthismethodissatisfying . Buttherearefourpointsthatshouldbenoted : 1 . Thechoiceofinitialvaluesforprojectionparametersisveryimportant . Actuallywecangetasetofmoreaccurateinitialvaluesbyusingsomeinteractivemethods.2 . Thechoiceoffeaturelinesinvideoisalsoveryimportant . Theyshouldbethesplineofvideohuman.3 . AsfortheerrorinNewton ' smethod , we ' dliketoregardthebodyasawhole . Theerrorofaspecificpartofthebodycanbesomehowunsatisfying , buttheerrorofthewholebodyshouldbetheminimum.4 . Asfortheprocessingofvideo , moredetaileddescriptioncanbefoundinRef . [ 8 ] . 
+ 劳 志强 （ 浙江大学 CAD ＆ CG 国家 重点 实验室 　 杭州 　 310027 ） 
+ （ 浙江大学 人工智能 研究所 　 杭州 　 310027 ） 　 
+ 潘云鹤 （ 浙江大学 CAD ＆ CG 国家 重点 实验室 　 杭州 　 310027 ） 
+ （ 浙江大学 人工智能 研究所 　 杭州 　 310027 ） 
+ References 
+ 1 ， GibsonJJ . TheEcologicalApproachtoVisualPerception . Houghton - Mifflin . Boston , MA , 1979 
+ 2 ， MarrD . Vision ( Freeman , SanFrancisco , 1982 ) 
+ 3 ， BarnardST . Interpretingperspectiveimages . ArtificialIntelligence , 1983 , 21 : 435 ～ 462 
+ 4 ， BarrowHG , TenenbaumJM . Interpretinglinedrawingsasthree - dimensionalsurfaces . ArtificialIntelligence , 1981 , 17 : 75 ～ 116 
+ 5 ， BrooksRA . Symbolicreasoningamong3 - Dmodelsand2 - Dimages . ArtificialIntelligence , 1981 , 17 : 285 ～ 348 
+ 6 ， HochbergJE , BrooksV . Pictorialrecognitionasanunlearnedability : astudyofonechild ' sperformance . AmericanJournalofPsychology , 1962 , 75 : 624 ～ 628 
+ 7 ， LoweDG . Solvingfortheparametersofobjectmodelsfromimagedescriptions . In : ProceedingsARPAImageUnderstandingWorkshop , CollegePark , MD , 1980.121 ～ 127 
+ 8 ， LaoZhi - qiang . Studyonimaginary - basedintelligentanimationtechniques . ZhejiangUniversity , 1997 
+ ( 劳 志强 . 基于 形象思维 的 智能 动画 技术 的 研究 ［ 博士学位 论文 ］ . 浙江大学 , 1997 ) 
+ 
+ 

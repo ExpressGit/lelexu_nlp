@@ -1,0 +1,93 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1998 年 第 18 卷 第 4 期 No.4 Vol.181998 
+ 科技期刊 
+ 
+ 镍 铜 氧化物 对吐氏 酸 废水 臭氧 氧化 的 催化作用 * 
+ 张 彭义 　 祝万鹏 　 ( 清华大学 环境 科学 与 工程系 ， 环境模拟 与 污染 控制 国家 联合 重点 实验室 ， 北京 100084 ) 
+ 许 　 强 　 ( 浙江省 宁波 环保 科研 设计院 ， 宁波 315010 ) 
+ 文 　 摘 　 染料 中间体 废水 等 难 生物降解 废水 是 目前 水 处理 研究 的 焦点 。 用 浸渍 法 和 附着 沉淀法 制备 了 以 γ - Al2O3 为 载体 的 负载 型 镍 、 铜 氧化物 催化剂 ， 并 以 催化 吐氏酸 废水 的 臭氧 氧化 。 研究 结果表明 ， 镍 、 铜 单组分 和 双组分 氧化物 催化剂 能 不同 程度 地 提高 臭氧 的 利用效率 ， 其中 附着 沉淀法 制备 的 Ni - Cu - Urea - 1 催化剂 活性 最高 ， 当 臭氧 投加量 为 0.82 g / L 时 ， 其臭 氧化 指数 为 1.1 ； 助剂 钾 对 催化剂 活性 的 影响 与 制备 方法 有关 ， 当 用 浸渍 法 制备 时 ， 助剂 钾能 提高 催化剂 活性 ， 而 附着 沉淀法 时则 不利 。 
+ 关键词 　 吐氏酸 废水 　 固体 催化剂 　 催化 臭 氧化 
+ CatalyzedozonationoftobiasacidwastewaterbyNiandCuoxides . ZhangPengyi , ZhuWanpeng ( StateKeyJointLaboratoryonEnvironmentalSimulationandPollutionControl , DepartmentofEnvironmentalScienceandEngineering , TsinghuaUniversity , Beijing100084 ) ; XuQiang ( NingboEnvironmentalProtectionDesignInstitute , Ningbo315010 ) . ChinaEnvironmentalScience.1998 , 18 ( 4 ) : 310 ～ 313 
+ Abstract — Poorlybiodegradablewastewater , suchasdyeintermediatewastewater , isatpresenttheresearchfocusofwatertreatment . Thispaperstudiesthecatalyzedozonationoftobiasacidwastewater , atypicaldyeintermediatewastewater , withcatalystsofNiandCuoxideswhichareloadedoverthe γ - Al2O3carrierbythemethodsofimpregnationorabsorption - precipitation . Itisshownthat , catalystsofsingleoxideandcomplexoxidescanimproveozonationefficiencyinvaryingdegrees , andcatalystNi - Cu - Urea - 1preparedbytheimpregnationmethodhasthehighestactivity . Whentheozonedosagearrivesto0.82 g / L , itsozonationindexis1.1 . Inaddition , theeffectofadditiveKonthecatalyticperformanceispreliminarilyinvestigated . 
+ Keywords : tobiasacidwastewater 　 solidcatalyst 　 catalyzedozonation 
+ 　 　 臭氧 具有 很强 的 氧化 与 杀菌 能力 ， 在 水 处理 中 的 应用 已有 一百多年 的 历史 。 目前 广泛 地 用于 饮用水 消毒 、 循环 冷却水 和 废水 的 处理 〔 1 〕 。 然而 臭氧 处理 成本 高 ， 特别 对于 难 降解 有机 废水 ， 普通 的 臭氧 氧化 法 存在 投加量 大 、 利用率 低等 问题 。 为了 提高 臭氧 氧化 的 速率 和 效率 ， 国内外 探索 了 催化 臭 氧化 ， 如 紫外光 催化 〔 2 〕 、 固体 催化剂 催化 〔 3 〕 。 催化 臭 氧化 的 机理 是 在 紫外光 和 催化剂 的 作用 下 ， 强化 臭氧 氧化 过程 ， 即 加强 羟基 自由基 的 产生 和 氧化 还原 循环 。 本文 研究 了 负载 型 镍 、 铜 氧化物 催化剂 对吐氏 酸 臭氧 氧化 的 催化作用 。 
+ 1 　 试验 方法 
+ 1.1 　 催化剂 制备 
+ 　 　 分别 采用 浸渍 法 、 附着 沉淀法 制备 负载 型 催化剂 。 选用 的 催化剂 载体 为 工业用 γ - Al2O3 ， 其 外形 为 球形 颗粒 ， 直径 2.5 ～ 4.5 mm ， 比 表面积 约 为 250m2 / g 。 催化剂 活性 组分 均 为 分析 纯 硝酸盐 ， 即 Ni ( NO3 ) 2 、 Cu ( NO3 ) 2 和 KNO3 。 
+ 　 　 浸渍 法是 常用 的 负载 型 催化剂 制备 方法 ， 主要 包括 浸渍 - 干燥 - 焙烧 等 步骤 。 首先 将 γ - Al2O3 载体 在 浓度 为 6 ％ ～ 7 ％ （ 以 金属元素 重量计 ） 的 硝酸盐 溶液 中 （ 对于 多组分 ， 则 是 混合 溶液 ） 浸渍 4h ， 然后 在 85 ℃ 下 干燥 ， 450 ℃ 下 焙烧 4h 。 重复 1 次 即 得到 试验 用 的 4 种 催化剂 ， 即 Ni - 02 、 Cu - 02 、 Ni - Cu - 02 、 Ni - Cu - K - 02 （ 催化剂 名称 中 ， 前面 的 元素 表示 其中 含有 的 活性 组分 ， 数字 表示 浸渍 次数 ） 。 
+ 　 　 此外 ， 还 用 附着 沉淀法 〔 4 〕 制备 了 Ni - Cu - Urea - 1 、 Ni - Cu - Urea - 2 和 Ni - Cu - K - Urea 等 3 种 双组分 催化剂 。 该 方法 是 在 浸渍 液中 预先 加入 沉淀剂 的 母体 ， 如 尿素 ， 待 扩散 、 吸附 过程 完成 （ 达到 平衡 ） 后 ， 通过 改变 温度 等 条件 ， 使 沉淀剂 母体 产生 沉淀物 种 ， 将 活性 组分 均匀 沉积 在 载体 上 。 具体步骤 是 将 一定量 的 分析 纯 尿素 溶解 在 硝酸盐 溶液 中 ， 然后 将 γ - Al2O3 载体 在 其中 浸 4h ； 再 将 浸有 γ - Al2O3 的 溶液 用 水浴加 热至 55 ℃ ， 保持 5h ； 其余 步骤 同 浸渍 法 。 附着 沉淀法 中 ， 载体 只 浸渍 1 次 。 
+ 1.2 　 吐氏酸 废水 的 催化 臭 氧化 试验 
+ 　 　 试验 的 吐氏酸 废水 取自 天津 某 化工厂 ， 用 自来水 稀释 至 初始 COD 约 1500mg / L ， 色度 300 倍 （ 稀释 倍数 法 ） ， 并用 氨水 调节 pH 值到 9.0 。 臭氧 气由 XFZ - 5 型 臭氧 发生器 产生 ， 流量 为 0.05 m3 / h ， 其中 臭氧浓度 为 21 ～ 27mg / L 。 
+ 　 　 试验 用 反应器 为 一个 带 旋转 筐 的 圆柱 反应器 ， 尺寸 为 200 × 250mm ， 圆柱 中央 的 旋转 筐 内装 催化剂 ， 如图 1 所示 。 试验 时 ， 先 将 一定量 （ 约 105g ） 催化剂 装入 旋转 筐 内 ， 然后 加入 4L 吐氏酸 废水 ， 再 通入 臭氧 ， 每隔 20min 取 水样 和 气样 分析 ， 分别 测 水样 的 COD 和 气样 的 臭氧浓度 。 根据 臭氧 进气 和 尾气 中 臭氧 的 浓度 计算 臭氧 消耗量 。 
+ 
+ 图 1 　 催化 臭 氧化 反应 装置 
+ Fig.1 　 Reactorforcatalyzedozonation 
+ 2 　 结果 与 分析 
+ 2.1 　 催化剂 活性 组分 含量 
+ 　 　 用 原子 吸收光谱 法测定 了 1 次 浸渍 后 、 2 次 浸渍 后 催化剂 中 金属 含量 ， 结果 见表 1 ， 表 1 中 同时 给出 制备 每种 催化剂 浸渍 液 组成 和 浓度 。 
+ 表 1 　 各种 催化剂 活性 组分 含量 （ w / w% ） 
+ Table1 　 Metalcontentinthecatalysts ( w / w% ) 
+ 
+ 催化剂 名称 浸渍 液 组成 　 浸渍 液 浓度 1 次 浸渍 焙烧 后 的 
+ 金属 含量 2 次 浸渍 焙烧 后 
+ 的 金属 含量 
+ Ni - 02Ni ( NO3 ) 26.54 . 888.52 
+ Cu - 02Cu ( NO3 ) 27.06 . 6912.48 
+ Ni - Cu - 02Ni ( NO3 ) 25.205 . 188.82 
+ 　 Cu ( NO3 ) 21.423 . 203.31 
+ Ni - Cu - K - 02Ni ( NO3 ) 24.734 . 898.16 
+ 　 Cu ( NO3 ) 21.271 . 723.38 
+ 　 KNO30.47 没有 测定 0.80 
+ Ni - Cu - Urea - 1Ni ( NO3 ) 25.203 . 64 
+ 　 Cu ( NO3 ) 21.422 . 04 
+ 　 CO ( NH2 ) 2 
+ Ni - Cu - Urea - 2Ni ( NO3 ) 21.30 没有 测定 
+ 　 Cu ( NO3 ) 24.80 
+ 　 CO ( NH2 ) 2 
+ Ni - Cu - K - UreaNi ( NO3 ) 24.733 . 35 
+ 　 Cu ( NO3 ) 21.272 . 00 
+ 　 KNO30.470 . 81 
+ 　 CO ( NH2 ) 2 
+ 
+ 　 　 由表 1 可见 ， 在 过量 浸渍 的 情况 下 ， 由于 浸渍 液 组成 以及 浸渍 条件 不同 ， 各种 催化剂 的 金属 含量 是 各不相同 的 。 载体 中 金属 含量 随 浸渍 次数 而 增加 ， 正是 因为 浸渍 次数 的 不同 ， 浸渍 法 制备 的 催化剂 的 金属 含量 普遍 高于 附着 沉淀法 的 含量 ； 而 对于 Ni2 + ， 比较 经 1 次 浸渍 后 催化剂 中 Ni2 + 的 含量 ， 浸渍 法 催化剂 的 含量 高于 附着 沉淀法 ， 而 Cu2 + 则 不 完全 如此 。 此外 ， 浸渍 液中 加入 硝酸钾 后 ， 相应 的 催化剂 中 Ni2 + 、 Cu2 + 的 含量 变化 不 大 。 另外 ， 在 附着 沉淀法 制备 的 催化剂 中 Cu2 + 的 含量 多数 高于 对应 的 浸渍 液 的 浓度 ， 而 Ni2 + 的 含量 则 基本上 都 低于 对应 的 浸渍 液 浓度 ， 这 可用 Ni2 + 和 Cu2 + 的 氢氧化物 具有 不同 的 溶度积 常数 来 解释 。 在 附着 沉淀法 中 ， 浸渍 液中 的 尿素 由于 受 热分解 产生 OH － ， 与 溶液 中 的 Ni2 + 和 Cu2 + 发生 反应 ， 分别 产生 Ni ( OH ) 2 、 Cu ( OH ) 2 沉淀 ， 并 沉积 在 载体 的 内外 表面 。 这 两种 沉淀 在 25 ℃ 时 的 溶度积 常数 〔 5 〕 分别 为 2 × 10 - 15 和 2.6 × 10 - 19 ， 因此 ， Cu2 + 比 Ni2 + 更 容易 沉积 在 载体 上 。 
+ 2.2 　 各种 催化剂 对 臭氧 氧化 的 催化活性 
+ 　 　 催化剂 的 催化活性 可用 COD 去除率 和 臭 氧化 指数 OI （ OzonationIndex ） 表示 。 OI 的 含义 为 每 去除 单位 COD 所 消耗 的 臭氧 量 ( gO3 / gCOD ) 。 废水 中 所 消耗 的 臭氧 量 包括 由于 氧化 有机物 等 而 消耗 的 及 自分解 而 不 发挥 氧化作用 而 消耗 的 ， 从 理论 上 可以 推算 ， 当 全部 的 臭氧 都 用来 去除 COD 即起 氧化作用 时 ， OI 值为 1 ， 这 也 是 OI 值 的 理论 最小值 。 OI 值越 小 ， 说明 臭氧 的 有效 利用率 越高 ， 也 就是 催化剂 的 活性 越高 。 
+ 2.2 . 1 　 单组分 催化剂 Ni - 02 、 Cu - 02 催化 臭 氧化 活性 　 如图 2 所示 ， 当 臭氧 投加量 为 0.74 g / L 时 ， Ni - 02 、 Cu - 02 的 OI 指数 分别 为 1.30 和 1.62 ， 而 空白 γ - Al2O3 则 为 1.90 。 也就是说 去除 每公斤 COD ， 在 Ni - 02 、 Cu - 02 催化 下 ， 所 消耗 的 臭氧 量 分别 比 空白 的 γ - Al2O3 降低 31.6% 和 14.7% ， 表明 2 种 催化剂 均 能 提高 臭氧 的 有效 使用 效率 ， 有 一定 的 催化活性 。 
+ 2.2 . 2 　 浸渍 法 制备 的 双组分 催化剂 Ni - Cu - 02 、 Ni - Cu - K - 02 的 催化活性 　 如图 3 所示 ， 与 空白 的 γ - Al2O3 相比 ， Ni - Cu - 02 、 Ni - Cu - K - 02 均 有 一定 的 催化活性 ， 尤其 是 后者 的 活性 较 高 ； 但是 在 整个 反应 阶段 内 ， 其 活性 并不比 Ni - 02 高出 多少 ， 这 说明 ， 将 具有 催化作用 的 2 种 活性 组分 简单 地 同时 浸渍 在 载体 上 并 不能 显著 提高 催化剂 的 活性 。 
+ 
+ 图 2 　 Ni - 02 和 Cu - 02 的 催化活性 
+ Fig.2 　 CatalyticperformanceofNi - 02andCu - 02 
+ 
+ 图 3 　 Ni - Cu - 02 和 Ni - Cu - K - 02 催化活性 
+ Fig.3 　 CatalyticperformanceofNi - Cu - 02 
+ andNi - Cu - K - 02 
+ 2.2 . 3 　 附着 沉淀法 制备 的 双组分 催化剂 　 如图 
+ 4 ， 图 5 所示 ， 当 臭氧 投加量 为 0.82 g / L 时 ， Ni - Cu - Urea - 1 的 OI 值 达到 1.10 ， 已 接近 理论值 1.0 ， 同时 COD 去除率 达到 51% 以上 ； 而 其余 2 种 催化活性 一般 。 Ni - Cu - Urea - 1 与 Ni - Cu - 02 相比 ， 浸渍 液 成分 相同 ， 制备 方法 不同 ， 则 催化活性 有 很大 差别 。 用 浸渍 法 制备 的 Ni - Cu - 02 没有 表现 出 活性 组分 之间 正向 的 协同 催化作用 ； 而用 附着 沉淀法 制备 的 Ni - Cu - Urea - 1 表现 出 2 种 活性 组分 之间 有 一定 的 协同 催化作用 。 另外 ， Ni - Cu - Urea - 1 与 Ni - Cu - Urea - 2 相比 ， 只是 制备 时 浸渍 液 的 比例 不同 （ 制备 Ni - Cu - Urea - 1 时 Ni ( NO3 ) 2 ∶ Cu ( NO3 ) 2 为 4 ∶ 1 ， 而 Ni - Cu - Urea - 2 则 为 1 ∶ 4 ） ， 而 活性 相差 很大 ， 这 说明 浸渍 液 的 组成 和 制备 方法 与 催化剂 的 活性 有 密切 的 关系 。 
+ 2.2 . 4 　 助剂 钾 在 不同 制备 方法 下 的 作用 　 如图 
+ 6 所示 ， 比较 Ni - Cu - 02 和 Ni - Cu - K - 02 、 Ni - Cu - Urea - 1 和 Ni - Cu - K - Urea - 1 的 催化活性 ， 可以 看到 在 用 浸渍 法 制备 时 ， 助剂 K 能 改善 催化剂 的 活性 ； 而 在 附着 沉淀法 制备 时 ， 非但 不能 提高 催化剂 活性 ， 反而 使 催化 性能 下降 。 
+ 
+ 图 4 　 附着 沉淀法 制备 的 催化剂 OI 值 
+ Fig.4 　 Catalyticperformanceofcatalystsprepared 
+ byabsorption - precipitationmethod 
+ 
+ 图 5 　 附着 沉淀法 制备 催化剂 的 COD 去除率 
+ Fig.5 　 CODremovalrateinthecasesofcatalystspreparedbyabsorption - precipitationmethod 
+ 
+ 图 6 　 助剂 钾 在 不同 制备 方法 时 的 作用 
+ Fig.6 　 EffectofadditiveKondifferentpreparationmethods 
+ 3 　 结论 
+ 3.1 　 镍 、 铜 离子 在 载体 上 的 沉积 与其 氢氧化物 的 溶度积 常数 有关 。 
+ 3.2 　 用 浸渍 法 和 附着 沉淀法 制备 的 Ni 、 Cu 活性 组分 催化剂 对吐氏 酸 废水 的 臭氧 氧化 有 一定 的 催化作用 ， 其中 用 附着 沉淀法 制备 的 Ni - Cu - Urea - 1 催化剂 表观 活性 最高 。 
+ 3.3 　 助剂 钾能 改善 浸渍 法 制备 的 催化剂 的 活性 ， 但 不利于 附着 沉淀法 制备 的 催化剂 。 
+ 参考文献 
+ 1 　 张 彭义 , 祝万鹏 . 臭氧 水 处理 技术 的 进展 . 环境 科学 进展 , 1995 , 3 ( 6 ) : 18 ～ 24 
+ 2 　 TakahashiN . Ozonationofseveralorganiccompoundshavinglowmolecularweightunderultravioletirradiation . Ozone : ScienceandEngineering , 1990 , 12 ( 1 ) : 1 ～ 17 
+ 3 　 TarkovskayaIA ， StavitskayaSS , LukYanchukVM , etal . Useofcoalcatalysisforoxidation - destructivetreatmentofsewage . KhimiyaiTekhnologiyaVody , 1993 , 15 ( 7 / 8 ) : 578 ～ 584 
+ 4 　 庞 斯莱特 （ 比 ） 等 编 . 梁育德 等 译 . 催化剂 的 制备 Ⅲ － 制备 非均相 催化剂 的 科学 基础 . 北京 : 化学工业 出版社 , 1993.1 ～ 53 
+ 5 　 常 文保 ， 李克安编 . 简明 分析化学 手册 . 北京 : 北京大学出版社 , 1981.53 , 55 
+ 
+ 作者简介 
+ 张 彭义 　 男 ， 1970 年 2 月生 。 现为 清华大学 环境 科学 与 工程系 科研 助理 。 主要 从事 水 和 废水 的 高级 氧化 技术 研究 、 环境 现场 评估 等 。 曾 参加 “ 染料 工业废水 综合治理 技术 与 工艺 研究 ” 、 “ 草浆 造纸 废水处理 中日合作 研究 ” 、 “ 太阳光 激发 半导体 催化 处理 工业废水 和 光 反应器 的 研究 ” 、 “ 中国 环保 产业 投资 背景 分析 ” 、 “ 典型 染料 的 催化 臭 氧化 研究 ” 、 “ 摩托罗拉 若干个 场址 的 PhaseI 、 II 现场 评估 ” 等 项目 。 发表 论文 12 篇 。 
+ 收稿 日期 ： 1997 - 09 - 22 
+ * 中科院 生态环境 中心 环境 水化学 实验室 开放 基金 资助 项目 

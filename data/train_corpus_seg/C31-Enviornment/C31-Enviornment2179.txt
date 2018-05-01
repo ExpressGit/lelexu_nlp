@@ -1,0 +1,38 @@
+环境 科学研究 
+ RESEARCHOFENVIRONMENTALSCIENCES 
+ 2001Vol.14 No.3 P.59 - 61 
+ 
+ 
+ 
+ 
+ 常温 循环 流化床 烟气 脱硫 床料 的 扫描电镜 分析 
+ 樊 保国 　 项 光明 　 祁 海鹰 　 陈昌 和 　 徐旭常 　 
+ 摘 　 要 ： 用 扫描电镜 对 循环 流化床 排烟 脱硫 实验 装置 的 床料 进行 了 分析 研究 ， 得出 了 床料 的 能谱 图 、 床料 中 的 元素 百分 含量 以及 床料 的 外观 形貌 。 反应 后 床料 硫含量 的 增加 和 反应 后 床料 外缘 所 形成 的 一层 氢氧化钙 和 硫酸盐 膜 说明 流化床 中 的 床料 起 了 脱硫剂 载体 的 作用 ， 证实 了 循环 流化床 烟气 脱硫 装置 中 的 脱硫 反应 。 
+ 关键词 ： 排烟 脱硫 ； 　 循环 流化床 床料 ； 　 扫描电镜 
+ 分类号 ： X701.3 　 文献 标识码 ： A 
+ 文章 编号 ： 1001 - 6929 ( 2001 ) 03 - 0059 - 03 
+ 1001 - 6929 ( 2001 ) 03 - 0059 - 03 
+ FANBao - guo （ TheStateKeyLaboratoryofCleanCombustionofCoal , TsinghuaUniversity , Beijing100084 , China ） 　 
+ XIANGGuang - ming （ TheStateKeyLaboratoryofCleanCombustionofCoal , TsinghuaUniversity , Beijing100084 , China ） 　 
+ QIHai - ying （ TheStateKeyLaboratoryofCleanCombustionofCoal , TsinghuaUniversity , Beijing100084 , China ） 　 
+ CHENChang - he （ TheStateKeyLaboratoryofCleanCombustionofCoal , TsinghuaUniversity , Beijing100084 , China ） 　 
+ XUXu - chang （ TheStateKeyLaboratoryofCleanCombustionofCoal , TsinghuaUniversity , Beijing100084 , China ） 　 
+ 
+ Abstract ： Aninvestigationhasbeenperformedonthebedmaterialofcirculatingfluidizedbedfluegasdesulphurizerbyascanningelectronmicroscope ( SME ) . Theenergyspectrum , theelementcontentandtheappearancewereobtained . Inreactedbedmaterialthesulfurcontentincreasedandthethinlayerofhydroxidecalciumaswellassulfatecalciumformedaroundthesolidparticles . Itsignifiedthatthebedmaterialplayedtheroleofcarrierofdesulphurizationandthedesulphurizationreactiontookplaceincirculatingfluidizedbed . 
+ Keywords ： fluegasdesulphurization ; 　 bedmaterialofcirculatingfluidizedbed ; 　 SME 
+ 
+ 基金项目 ： 国家 重点 基础 研究 专项经费 资助 项目 ( G19990222 ) 
+ 作者简介 ： 樊 保国 ( 1962 - ) ， 男 ， 山西 洪洞县 人 ， 博士 研究生 . 
+ 作者 单位 ： 樊 保国 （ 清华大学 煤 的 清洁 燃烧 技术 国家 重点 实验室 ， 北京 100084 ） 　 
+ 　 　 　 　 　 项 光明 （ 清华大学 煤 的 清洁 燃烧 技术 国家 重点 实验室 ， 北京 100084 ） 　 
+ 　 　 　 　 　 祁 海鹰 （ 清华大学 煤 的 清洁 燃烧 技术 国家 重点 实验室 ， 北京 100084 ） 　 
+ 　 　 　 　 　 陈昌 和 （ 清华大学 煤 的 清洁 燃烧 技术 国家 重点 实验室 ， 北京 100084 ） 　 
+ 　 　 　 　 　 徐旭常 （ 清华大学 煤 的 清洁 燃烧 技术 国家 重点 实验室 ， 北京 100084 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ SauerH , AndersR . OperatingexperiencewithaDryFGDplantusingaCFBatthebrowncoalfiredpowerstationinborken [ R ] . LurgiGmbH : FederalRepublicofGermany , 1989 . 
+ ［ 2 ］ 樊 保国 . 循环 流化床 烟气 脱硫 技术 的 试验 研究 [ D ] . 北京 ： 清华大学 , 1996 . 
+ ［ 3 ］ 廖乾初 , 蓝 芬兰 . 扫描电镜 原理 及 应用 技术 [ M ] . 北京 ： 冶金工业 出版社 , 1990.142 . 
+ 
+ 收稿 日期 ： 2000 年 7 月 14 日 
+ 出版日期 ： 2001 年 5 月 30 日 

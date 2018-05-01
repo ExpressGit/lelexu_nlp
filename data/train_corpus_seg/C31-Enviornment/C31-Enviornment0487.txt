@@ -1,0 +1,92 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1999 年 第 19 卷 　 第 5 期 　 Vol.19 No.51999 
+ 
+ 
+ 
+ 水中 痕量 亚硝酸盐 氮 的 反相 流动 注射 — 光度 测定 
+ 王镇浦 　 吴宏 　 陈国松 
+ 摘要 ： 建立 了 测定 水中 痕量 亚硝酸盐 氮 的 N - ( 1 - 萘基 ) 乙二胺 - 反 相 流动 注射 - 分光 光度法 . 将 N - ( 1 - 萘基 ) 乙二胺 二 盐酸盐 溶液 注入 到 水样 和 对 氨基 苯磺 酰胺 溶液 的 混合 流 , 在 l λ max540nm 处 对 反应 形成 的 红色 染料 进行 分光 光度 检测 . 线性 范围 为 0.004 ～ 0.18 mg / L 亚硝酸盐 氮 , 检测 限为 0.0012 mg / L , 测定 频率 为 50 次 / h . 本法 灵敏度 高 、 选择性 好 、 分析 速度 快 . 应用 本法 测定 南京 玄武湖 湖水 中 痕量 亚硝酸盐 氮 , 测定 结果 的 相对 标准偏差 为 3.5% , 与 N - ( 1 - 萘基 ) 乙二胺 分光 光度法 ( 国标 法 ) 测定 结果 相 比较 的 平均 相对误差 为 - 4.2% , 表明 本法 测定 结果 具有 满意 的 精密度 和 准确度 . 
+ 关键词 ： 流动 注射 分析 ； 分光 光度法 ； 亚硝酸盐 氮 ； N - ( 1 - 萘基 ) 乙二胺 ； 水 
+ 中 图 分类号 ： X830.2 文献 标识码 ： B 文章 编号 ： 1000 - 6923 ( 1999 ) 05 - 0469 - 03 
+ Reversedphaseflowinjection - spectrophotometricdeterminationoftracenitritenitrogeninwater . 
+ WANGZhen - pu , WUHong , CHENGuo - song 
+ ( DepartmentofAppliedChemistry , NanjingUniversityofChemicalTechnology , Nanjing210009 , China ) . ChinaEnvironmentalScience.1999 , 19 ( 5 ) ： 469 ～ 471 
+ Abstract ： N - ( 1 - Naphthyl ) ethylenediamine - reversedphaseflowinjection - spectrophotometricdeterminationoftracenitritenitrogeninwaterwasstudied . N - ( 1 - Naphthyl ) ethylenediaminedihydrochloridesolutionwasinjectedintothemixedflowofthewatersampleandsulfanilamidesolution . Reddyeformedbythereactionswasspectrophotometricallydetectedatl λ max540nm . Thelinearrangeis0.004 to0.18 mg / Lnitritenitrogenwiththedetectionlimitof0.0012 mg / Landthedeterminationfrequencyof50timesperhour . Thismethodhashighsensitivity , goodselectivityandfastanalyticalspeed . IthasbeenappliedtothedeterminationoftracenitritenitrogeninXuanwuLakewaterinNanjingwithrelativestandarddeviationof3.5% forthedeterminationresultsandmeanrelativeerrorof - 4.2% forthedeterminationresultscomparedwiththatofN - ( 1 - naphthyl ) ethylenediaminespectrophotometrymethod ( nationalstandardmethod ) , indicatingsatisfactoryprecisionandaccuracyofthedeterminationresults . 
+ Keywords ： flowinjectionanalysis ； spectrophotometry ； nitritenitrogen ； N - ( 1 - naphthyl ) ethylenediamine ； water 
+ 　 　 亚硝酸盐 可 使 人体 正常 的 血红蛋白 氧化 成为 高铁 血红蛋白 , 出现 组织 缺氧 症状 ; 还 可以 与 仲 胺类 反应 生成 亚硝胺 类 , 其中 许多 化合物 为 致癌物 . 水中 痕量 亚硝酸盐 氮 的 测定方法 主要 有 N - ( 1 - 萘基 ) 乙二胺 ( NED ) 分光 光度法 [ 1 - 3 ] 、 α - 萘胺 分光 光度法 [ 4 ] 、 离子 色谱法 [ 3 ] 和 流动 注射 分析法 ( FIA ) . 流动 注射 分析法 主要 有 FIA - 电化学 法 [ 5 ] 、 FIA - 化学发光 法 和 FIA - 分光 光度法 [ 6 ] 等 . 鉴于 NED 分光 光度法 为 国标 法 [ 1 ] 和 国际标准 法 ( ISO 法 ) [ 2 ] , FIA 与 分光 光度法 联用 可 大大缩短 分析 时间 , 反相 FIA ( rFIA ) 的 灵敏度 比 FIA 高得 多 , 试剂 消耗量 也 大大减少 , 故 本文 建立 了 测定 痕量 亚硝酸盐 氮 的 NED - rFIA - 分光 光度法 . 将 其 应用 于 测定 水 和 废水 中 痕量 亚硝酸盐 氮 , 取得 了 满意 的 结果 . 本文 研究 结果 未见 文献 报道 . 
+ 1 实验 部分 
+ 1.1 试剂 和 仪器 
+ 　 　 亚硝酸盐 氮 标准溶液 用 NaNO2 ( AR ) 配制 250mg / L 储备 溶液 , 用 KMnO4 法 标定 后 , 将 其 稀释 成 2.00 mg / L 标准溶液 ; 1.00 g / LNED 二 盐酸盐 溶液 溶解 0.250 gNED 二 盐酸盐 ( AR ) 和 10gNaCl ( AR ) , 稀释 至 250mL ; 20.0 g / L 对 氨基 苯磺 酰胺 ( SA ) 溶液 称取 5.00 gSA ( AR ) , 溶于 13mL 浓 盐酸 , 稀释 至 250mL ; 无 亚硝酸盐 水于 蒸馏水 中 加入 少许 KMnO4 晶体 , 使 其 呈 红色 , 再加 Ba ( OH ) 2 使 其 呈 碱性 , 置于 全 玻璃 蒸馏器 中 蒸馏 , 弃去 50mL 初馏液 , 收集 中间 约 70 ％ 不 含锰 的 馏 出液 , 用作 配置 试剂 溶液 和 实验 用水 . 
+ 　 　 PU8800 型 自动记录 分光 光度计 ( 英国 ) 和 752 型 紫外 光栅 分光 光度计 ; RD - 4 型 八 通道 层状 压片 蠕动泵 ; 进样阀 ( 黄海 水产 研究所 ) ; HCS - M 型 比色 数据处理 仪 . 
+ 1.2 试样 预处理 
+ 　 　 向 每 100mL 有 颜色 和 悬浮物 的 水样 中 加入 2mLPb ( OH ) 2 悬浮液 , 搅拌 静置 , 过滤 , 弃去 25mL 初 滤液 . 
+ 1.3 实验 方法 
+ 　 　 NED - rFIA - 分光 光度法 的 最佳 流路 条件 和 最佳 显色 条件 如图 1 所示 . 测定 时间 和 采样 时间 分别 为 30 、 40s , 测定 频率 为 50 次 / h . 以 2.00 mg / L 亚硝酸盐 氮 标准溶液 配制 成 间隔 0.020 mg / L 的 0.00 ~ 0.18 mg / L 范围 内 的 10 个 校准 溶液 系列 , 控制 SA 溶液 ( R2 ) 和 亚硝酸盐 试样 ( S ) 的 流量 分别 为 0.80 和 1.00 mL / min , NED 二 盐酸盐 注入 体积 为 40.0 mL , 反应 管 长度 L1 和 L2 分别 为 50 , 150cm , 在 540nm 处 测量 吸 光度 值 , 绘制 成 回归 校准 曲线 . 以待 测 水样 代替 校准 溶液 操作 而测 得 吸 光度 值 , 由 校准 曲线 求得 待测 水样 中 亚硝酸盐 氮 . 
+ 
+ 图 1NED - rFIA - 分光 光度法 流路 
+ Fig.1 FlowcircuitofNED - rFIA - spectrophotometry 
+ A . 蠕动泵 B . 反应 管 C . 进样阀 D . 分光 光度计 R1.1 . 00g / L 
+ NED 二 盐酸盐 溶液 R2.20 . 0g / LSA 溶液 S . 亚硝酸盐 氮 试样 
+ VR1 . R1 注入 体积 L1 和 L2 . 反应 管 长度 
+ 2 结果 与 讨论 
+ 2.1 最佳 流路 条件 的 确定 
+ 2.1 . 1SA 溶液 ( R2 ) 流速 的 影响 R2 流速 为 0.80 mL / min 时 , 吸 光度 达到 最大值 . 
+ 2.1 . 2 试样 流速 的 影响 试样 流速 为 1.00 mL / min 时 , 吸 光度 达到 最大值 . 
+ 2.1 . 3NED 二 盐酸盐 溶液 注入 体积 ( VR1 ) 的 影响 VR1 大于 40mL 后 , 吸 光度 趋于 最大值 . 
+ 2.1 . 4 反应 管 长度 的 影响 管长 L1 为 50cm ( 内径 为 0.5 mm ) 时 , 吸 光度 趋于稳定 的 最大值 ; 管长 L2 为 150cm ( 内径 为 0.5 mm ) 时 , 吸 光度 趋于稳定 的 最大值 . 
+ 2.2 最佳 显色 条件 的 确定 
+ 2.2 . 1 吸收光谱 和 测量 波长 在 pH 值约 为 1.8 的 酸性 介质 中 , NO2 - 先 与 SA 反应 生成 重氮盐 , 继而 与 NED 盐酸盐 偶联 生成 红色 染料 . 其 吸收光谱 如图 2 所示 . 本 文选 最大 吸收 波长 540nm 为 测量 波长 . 
+ 
+ 图 2 红色 染料 的 吸收光谱 
+ Fig.2 Absorptionspectrumofreddye 
+ 2.2 . 2SA 溶液 浓度 的 影响 SA 溶液 浓度 达 20.0 g / L 时 , 吸 光度 趋于稳定 的 最大值 . 
+ 2.2 . 3NED 二 盐酸盐 浓度 的 影响 NED 二 盐酸盐 达 1.00 g / L 时 , 吸 光度 趋于稳定 的 最大值 . 
+ 2.2 . 4 盐酸 溶液 浓度 的 影响 盐酸 溶液 浓度 为 0.70 mol / L 时 , 吸 光度 达到 最大值 . 
+ 2.3 共存 离子 或 物质 的 影响 
+ 　 　 在 最佳 实验 条件 下 , 对于 0.10 mg / L 亚硝酸盐 氮 , 测定 的 相对误差 不 超过 ± 5 ％ 时 , 共存 离子 或 物质 允许 存在 的 浓度 如表 1 所示 . 由表 1 可见 , 本法 的 选择性 好 . 
+ 2.4 线性 范围 、 灵敏度 和 检测 限 
+ 　 　 按 1.3 操作 , 绘制 回归 校准 曲线 ( 图 3 ) . 其 回归方程 为 A = 2.485 c ＋ 0.0095 ( c 为 mg / L ) , 相关系数 为 0.9988 ( n = 10 ) . 灵敏度 为 2.485 L / mg . 亚硝酸盐 氮 测定 的 线性 范围 为 0.004 ~ 0.18 mg / L . 按 IUPAC 对 检测 限 的 规定 , 测得 其值 为 0.0012 mg / L . 
+ 表 1 共存 离子 或 物质 的 影响 
+ Table1Effectofcoexistingionsorsubstances 
+ 
+ 允许浓度 ( mg / L ) 共存 离子 或 物质 允许浓度 ( mg / L ) 共存 离子 或 
+ 物质 
+ 　 K + , Na + , Mg2 + , NO3 - , Cl - 100Cu2 + , Hg2 + , Pb2 + 
+ 800SO42 - , PO43 - , EDTA10Fe3 + 
+ 500HCO3 - 2 氯胺 
+ 300Ca2 + , NH4 + 1S2O32 - 
+ 200CO32 - , Mn2 + 0.5 S2 - , Cl2 
+ 
+ 2.5 精密度 和 准确度 
+ 　 　 对 含 0.100 mg / L 亚硝酸盐 氮 的 溶液 , 按 1.3 操作 , 10 次 测定 结果 的 平均值 为 0.099 mg / L , 相对 标准偏差 ( RSD ) 为 0.5 ％ , 平均 相对误差 为 - 1% . 
+ 
+ 图 3 校准 曲线 
+ Fig.3 Calibrationcurve 
+ 2.6 试样 分析 
+ 　 　 采用 NED - rFIA - 分光 光度法 测定 南京 玄武湖 湖水 中 的 痕量 亚硝酸盐 氮 , 并 与 NED 分光 光度法 ( 国标 法 ) 测定 结果 进行 对照 ( 表 2 ) . 由表 2 可见 , 本法 测定 结果 具有 满意 的 准确度 和 精密度 . 
+ 表 2 湖水 中 亚硝酸盐 氮 测定 结果 ( mg / L ) 
+ Table2Determinationresultsofnitritenitrogeninlakewater ( mg / L ) 
+ 
+ NED - rFIA - 分光 光度法 
+ 测定 结果 平均值 RSD ( % ) NED 分光 光度法 ( 国标 法 ) 
+ 测定 结果 平均值 RSD ( % ) 
+ 0.046 , 0.047 , 0.0480 . 0463.50 . 048 , 0.047 , 0.0480 . 0483.5 
+ 0.046 , 0.044 , 0.044 　 　 0.045 , 0.049 , 0.050 　 　 
+ 
+ 3 结论 
+ 3.1 基于 亚硝酸盐 氮 在 酸性 介质 中 相继 与 对 氨基 苯磺 酰胺 和 N - ( 1 - 萘基 ) 乙二胺 ( NED ) 反应 形成 红色 染料 , 建立 了 测定 水中 痕量 亚硝酸盐 氮 的 NED - 反 相 流动 注射 ( rFIA ) - 分光 光度法 . 
+ 3.2 FIA 或 rFIA 与 分光 光度 联用 可 大大缩短 分析 时间 , rFIA 的 灵敏度 比 FIA 高得 多 , 试剂 消耗量 也 大大减少 . 
+ 3.3 应用 本法 测定 南京 玄武湖 湖水 中 痕量 亚硝酸盐 氮 , 结果 具有 满意 的 准确度 和 精密度 . 
+ 基金项目 ： 江苏省 科学基金 资助 项目 ( 41050 ) 
+ 作者简介 ： 王镇浦 ( 1937 - ) , 男 , 江苏 镇江人 , 南京 化工大学 教授 . 主要 从事 化学 计量学 法 及其 分子光谱 和 液相 色谱 多元分析 应用 、 新 有机 试剂 的 合成 、 性能 和 分析 应用 以及 水 和 废水 中 痕量 污染物 的 流动 注射 - 分光 光度 在线 检测 等 项 研究 工作 . 曾 主持 8 个 省部级 科研项目 的 研究 , 其中 3 个 项目 获省 、 部级 科技进步 二 、 三等奖 , 3 个 项目 通过 国家 和 省 、 部级 鉴定 , 出版 译著 4 本 . 发表 论文 186 篇 . 
+ 作者 单位 ： 王镇浦 　 陈国松 　 南京 化工大学 应用 化学系 , 江苏 南京 210009 
+ 　 　 　 　 　 吴宏 现在 徐州 师范大学 化学系 工作 
+ 参考文献 ： 
+ 　 [ 1 ] GB / T7493 - 1987 , 水质 亚硝酸 氮 的 测定 - 分光 光度法 [ S ] . 
+ 　 [ 2 ] 王镇浦 , 沈鸿礼 , 张相臣 译 . 水质 词汇 水质 取样 和 分析方法 国际标准 ( ISO ) [ M ] . 北京 : 水利电力 出版社 , 1989.208 - 215 . 
+ 　 [ 3 ] 国家 环境保护局 . 水 和 废水 监测 分析方法 ( 第 3 版 ) [ M ] . 北京 : 中国 环境 科学出版社 , 1989.260 - 266 . 
+ 　 [ 4 ] FreseniusW , QuentinKE , SchneiderW . 张曼平 , 陆贤昆 , 张亚利 等 译 . 水质 分析 [ M ] . 北京 : 北京大学出版社 , 1991.135 - 139 . 
+ 　 [ 5 ] ChamsiAY , FoggAG . Oxidativeflowinjectionamperometricdeterminationofnitriteatanelectrochemicallypre - treatedglassycarbonelectrode [ J ] . Analyst , 1988 , 113 ( 11 ) : 1723 - 1727 . 
+ 　 [ 6 ] ShiratoF , OkajimaY , MaekoyaC , etal . Determinationofnitrite , nitrateandammoniumnitrogensinsoilbyFIA [ J ] . BunsekiKagaku , 1989 , 38 ( 9 ) : 413 - 418 . 
+ 收稿 日期 ： 1999 - 01 - 03 

@@ -1,0 +1,27 @@
+上海 航天 
+ AEROSPACESHANGHAI 
+ 2001Vol.18 No.2 P.44 - 50 
+ 
+ 
+ 
+ 
+ CPL 技术 在 FY - 1C 卫星 中 的 应用 
+ 赵小翔 　 
+ 摘 　 要 ： 为 使 FY - 1C 卫星 上 的 镉 镍 电池 可 向 空间 散热 ， 以 降低 工作温度 ， 采用 了 毛细 泵 回路 （ CPL ） 技术 。 介绍 CPL 的 工作 原理 、 主要 组成 以及 在 卫星 上 控制 星载 设备 温度 应用 的 设计 技术 ， 给出 了 在 地面 进行 的 各项 热 性能 试验 情况 。 卫星 在 轨 运行 测试 验证 表明 ， 卫星 温度 处于 最佳 状态 ， 镉 镍 电池组 的 温度控制 在 （ 4 ～ 9 ） ℃ 的 范围 内 ， 6 台 镉 镍 电池 之间 温差 小于 3 ℃ , 满足 镉 镍 电池 的 特殊 温度 要求 。 
+ 关键词 ： 卫星 电池 ； 热控制 ； 镉 镍 电池组 ； 温度控制 
+ 分类号 ： TM912.2 　 文献 标识码 ： A 
+ 文章 编号 ： 1006 － 1630 ( 2001 ) 02 － 0044 － 07 
+ TheApplicationoftheCapillaryPumpedLoopinFY - 1CSatellite 
+ ZHAOXiao - xiang （ No.509 InstituteofSAST , Shanghai200240 , China ） 　 
+ 
+ Abstract ： ThepapermainlyintroducestheworkingprincipleandcomposingoftheCapillaryPumpedLoop （ CPL ） , andthedesignofCPLusedinsatellite . Thedataofgroundthermalperformancetestandoforbitaltelemetryarealsoshown . Theresultsofin - orbitoperationshowthatthetemperaturesofsixbatteriesarecontrolledintherangeof ( 4 ～ 9 ) ℃ , andthedifferenceintemperatureamongthemisless3 ℃ tomeetthespecificrequirementsoftemperatureforCd - Nibattery . 
+ Keywords ： Satellitebattery ； Thermalcontrol ; Cd - Nibattery ； Temperaturecontrol 
+ 作者简介 ： 赵小翔 ( 1965 - ) ， 男 ， 研究员 ， FY - 1C 卫星 热 控系统 副 主任 设计师 ， 研究 领域 ： 航天器 热 控制系统 的 设计 。 
+ 作者 单位 ： 赵小翔 （ 上海 航天技术 研究院 509 所 ， 上海 200240 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ StengerFJ . Experimentalfeasibilitystudyofwater - filledcapillary - pumpedheat - transferloop [ M ] . NASATMX - 1310 , NASALewisResearchCenter , Cleveland , Ohio , 1966 . 
+ 
+ 收稿 日期 ： 2000 年 11 月 16 日 
+ 修稿 日期 ： 2001 年 1 月 5 日 
+ 出版日期 ： 2001 年 4 月 25 日 

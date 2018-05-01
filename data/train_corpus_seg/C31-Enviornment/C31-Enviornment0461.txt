@@ -1,0 +1,131 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1999 年 　 第 19 卷 　 第 4 期 　 Vol.19 　 No.4 　 1999 
+ 
+ 
+ 
+ 概率 分析法 在 污水 海洋 排放 近区 模拟 中 的 应用 
+ 陈刚 　 钟坚 　 何强 
+ 摘要 ： 污水 海洋 排放 时 需要 分析 排放口 近区 的 羽流 几何 特性 和 稀释 特性 , 概率 分析法 是 其中 重要 的 方法 之一 . 本文 阐述 了 概率 分析法 的 基本原理 , 通过 实例 演示 了 概率 分析法 应用 于 污水 海洋 排放 近区 模拟 分析 的 过程 . 根据 概率 分析法 所 提供 的 结果 , 总结 了 概率 分析法 的 优点 , 即 提供 了 排放口 近区 的 全面 信息 , 由此 可以 进行 后续 工作 , 如远区 模拟 和 风险 评估 ; 结合 实例 , 指出 了 应用 概率 分析法 的 局限 , 它 对 输入 信息量 和 计算速度 ( 计算 工作量 ) 的 要求 较 高 ; 随 计算机 运算 速度 的 提高 和 自动 监测技术 的 发展 , 应用 概率 分析法 的 这 一 局限 可以 克服 , 因此 , 概率 分析法 具有 广阔 的 应用 前景 . 
+ 关键词 ： 污水 海洋 排放 ； 近区 ； 概率 分析法 
+ 中 图 分类号 ： X145X55 文献 标识码 ： A 文章 编号 ： 1000 - 6923 ( 1999 ) 04 - 0349 - 04 
+ Theapplicationofprobabilisticanalysisapproachinthenearfieldmodelingofoceanoutfall . 
+ CHENGang1 , ZHONGJian2 , HEQiang1 ( 1 . DepartmentofEnvironmentalScienceandEngineering , TsinghuaUniversity , Beijing100084 , China ； 2 . DrainageManagementBureauofShenzhen , Shenzhen518030 , China ) ChinaEnvironmentalScience.1999 , 19 ( 4 ) ： 349 ～ 352 
+ Abstract ： Itisnecessarytoanalysethecharacteristicsoftheplumeandinitialdilutioninthenearfieldofoceanoutfall . Probabilisticanalysisapproachisoneofapproachesappliedintheanalysis . Inthispaper , theprincipleofprobabilisticanalysisapproachisaddressed . Throughacasestudy , howtoapplythisapproachisdemonstratedinthenearfieldmodelingofoceanoutfall . Fromtheresultsobtained , themeritsofprobabilisticanalysisapproachwhichprovidesawholeinformationofthenearfield , thusmakingthefarfieldmodelingandriskassessmentavailable . Whereas , thereexitslimitsinapplyingprobabilisticanalysisapproach , thatis , requiringagreatdealofinputsandquicklycomputingbecauseofthegreatamountofcomputingwork . Withtheimprovementofcomputingandautomaticmeasurement , thelimitsofapplyingprobabilisticanalysisapproachcanbeovercomed , andthisapproachcanbewidelyusedinfuture . 
+ Keywords ： oceanoutfall ； nearfield ； probabilisticanalysisapproach 
+ 　 　 污水 海洋 排放 是 污水处理 和 处置 的 一种 常用 方法 , 在 污水 的 海洋 排放 中 , 需要 合理 利用 海洋 的 稀释 和 净化 容量 , 否则 , 会 造成 海洋污染 和 海洋 的 生态 破坏 . 这 需要 在 污水排放 前 进行 周密 的 设计 和 评估 , 污水 海洋 排放 的 近区 模拟 是 其中 最为 重要 的 一个 环节 . 概率 分析法 ( ProbabilisticAnalysisApproach ) 和 “ 最 不利 案例 法 ” ( Worst - caseApproach ) 是 污水 海洋 排放 近区 模拟 的 主要 方法 [ 1 ] . 
+ 　 　 概率 分析法 很 早就 用于 污水 海洋 处置 初始 稀释 度 的 分析 中 [ Roberts1980 ] , 但 由于 最 不利 案例 法 的 简单 易用 , 概率 分析法 开始 并未 得到 广泛应用 , 直到 最近 概率 分析法 在 污水 海洋 处置 中 的 优点 才 重新得到 重视 , 并 被 应用 于 海滩 和 海岸 污染物 浓度 的 评价 中 [ 1 ] . 本文 结合 实例 , 阐述 如何 将 概率 分析法 用于 污水 海洋 排放 近区 模拟 中 . 
+ 1 概率 分析法 
+ 1.1 概率 分析法 的 原理 
+ 　 　 概率 分析法 考虑 了 影响 初始 稀释 度 等 其它 指标 的 不同 参数 之间 的 互相 组合 , 分析 结果 以 累积 频率 或 超标 频率 描述 初始 稀释 度 的 分布 . 根据 统计 理论 [ 2 ] , 如果 将 观察 的 数据 分成 许多 组 , 将 每组 内 的 数据 频数 ( 组 频数 ) 除以 数据 总数 即 表示 该组 的 频率 , 表示 如下 : 
+ 组 频率 = 组 频数 / 数据 总数 
+ ( 1 ) 
+ 累积 频率 可 表示 为 小于 或 等于 某一 数值 的 数据 频数 ( 累积 频数 ) 除以 数据 总数 : 
+ 累积 频率 ≤ 累积 频数 / 数据 总数 
+ ( 2 ) 
+ 1.2 初始 稀释 度 的 概率 
+ 按照 概率 分析法 的 原理 , 初始 稀释 度 的 概率 描述 如下 [ 3 ] : 
+ 
+ ( 3 ) 
+ 式 中 : D 为 初始 稀释 度 ; p ( D ) 为 初始 稀释 度 概率密度函数 ; N 为 初始 稀释 度 的 数据 总数 ; M ( D ) 为 稀释 度值 在 D - ( D ) / 2 到 D + ( D ) / 2 范围 内 的 数据 数 , 即组 频数 . 
+ 根据 ( 3 ) 式 , 就 可 得到 累积 概率 P ( D ) : 
+ 
+ ( 4 ) 
+ 超标 概率 则 定义 为 : dD 
+ 
+ ( 5 ) 
+ 　 　 对于 某一 初始 稀释 度 数值 D , P ( D ) 的 涵义 为 初始 稀释 度 小于 或 等于 D 的 时间 百分数 ; 而 EP ( D ) 则 是 初始 稀释 度 大于 D 的 时间 百分数 . 
+ 　 　 由 P ( D ) 和 EP ( D ) 就 可 评价 污水排放 给 海洋环境 带来 的 风险 级别 . 排放口 设计 准则 或 水质标准 可用 某一 规定 的 最 不利 初始 稀释 度 Ds 来 表示 , 还 可用 累积 概率函数 P ( Ds ) 或 超标 概率 EP ( Ds ) 来 表示 . 
+ 1.3 其它 参数 的 概率 
+ 　 　 与 初始 稀释 度 概率 分析法 类似 , 对于 污水 海洋 排放 处置 的 其它 一些 参数 , 如 初始 稀释 区 纵向 范围 、 羽流 抬升 高度 等 , 均 可以 按照 式 ( 3 ) ～ ( 5 ) 定义 其 累积 概率函数 和 超标 概率函数 . 
+ 　 　 在 实际 情况 中 , 累积 概率 常用 统计 的 频率 来 近似 概率分布 . 
+ 2 实例 研究 
+ 　 　 在 实例 研究 中 , 以 广东 担杆 海峡 某一拟 选 排放口 ( SouthLamma ) 丰水期 为例 , 根据 该处 现场 实测 的 海洋 物理 参数 ( 如 水温 、 盐度 、 流速 和 水深 ) 以及 污水排放 参数 ( 流量 、 扩散器 结构 参数 、 污水 温度 、 污水 盐度 等 ) , 采用 最新 的 Lagrangian 水力学 近区 模型 — Jetlag3 模型 来 模拟 污水 海洋 排放 情况 下 近区 的 初始 稀释 度 、 羽流 抬升 高度 、 初始 稀释 区 纵向 范围 等 参数 , 并 以 概率 分析法 来 分析 这些 参数 的 概率分布 特性 . 
+ 2.1 近区 模拟 的 参数 
+ 　 　 污水排放 量 Q = 26m3 / s , 污水 温度 T0 = 23.5 ℃ , 污水 盐度 S0 = 8 ‰ . 
+ 　 　 扩散器 结构 参数 : 多孔 竖管 扩散器 , 竖管 数为 16 , 每一竖管 上 的 喷口 数为 6 . 
+ 　 　 海洋 物理 参数 : 现场 实测 丰水期 大潮 连续 27h 、 小潮 27h , 共 54h 的 水深 、 水温 、 盐度 和 流速 , 其中 水温 、 盐度 和 流速 沿 水深 方向 设置 5 层 监测点 , 因 数据 较 多 , 此处 不予 列出 . 
+ 　 　 以上 数据 按照 Jetlag3 模型 的 输入 要求 进行 处理 后 , 用 Jetlag3 模型模拟 污水排放 情况 下 预测 的 初始 稀释 度 , 羽流 几何 特征参数 ( 羽流 抬升 高度 z 、 初始 稀释 区 纵向 范围 x 等 ) . 丰水期 54h 的 模拟 结果 见表 1 所示 , 图 1 示意 了 羽流 的 几何 特征 . 
+ 
+ 图 1 羽流 几何 尺寸 示意 
+ Fig.1 Schematicdiagramofplumecharacteristics 
+ 2.2 模拟 结果 的 统计分析 
+ 　 　 从 模拟 结果 ( 表 1 ) 可以 看出 , 初始 稀释 度 的 范围 在 20 ～ 180 之间 , 初始 稀释 区 纵向 范围 在 20 ～ 120m , 羽流 抬升 高度 在 6 ～ 21m . 根据 概率 分析法 的 原理 , 按式 ( 3 ) ～ ( 5 ) 的 定义 , 取 适当 的 组 间距 ( 即式 中 D ) , 计算 相应 的 频率 密度 函数 值 , 最终 可以 作出 概率分布 曲线 ( 图 2 ) . 其它 特性 的 概率分布 也 可 同样 获得 . 
+ 表 1 预测 的 初始 稀释 度 和 羽流 几何 特征参数 
+ Table1Predictedinitialdilutionandplumecharacteristics 
+ 时间 ( h ) Dx ( m ) z ( m ) 时间 ( h ) Dx ( m ) z ( m ) 时间 ( h ) Dx ( m ) z ( m ) 
+ 112562.212 . 61912068.47 . 73714258.414 . 2 
+ 210952.18 . 72014272.58 . 83812555.914 . 0 
+ 313069.48 . 42110050.710 . 93910644.114 . 5 
+ 4172101.58 . 8227238.712 . 8405733.117 . 2 
+ 515985.98 . 8232235.515 . 5413434.818 . 4 
+ 6179108.98 . 8245931.917 . 2424429.316 . 9 
+ 714473.78 . 32510646.613 . 8432533.513 . 3 
+ 810551.18 . 42614467.310 . 3443433.616 . 4 
+ 98238.712 . 02714677.78 . 7456932.614 . 8 
+ 106631.915 . 2289243.412 . 7469344.811 . 7 
+ 116934.313 . 0292933.917 . 0478037.515 . 0 
+ 123530.612 . 6304229.111 . 94810650.411 . 8 
+ 135932.210 . 6314232.917 . 54911057.110 . 4 
+ 148640.28 . 3322634.518 . 3509750.611 . 3 
+ 159650.08 . 03311742.615 . 6519849.711 . 8 
+ 1611458.17 . 93413049.314 . 85211749.713 . 9 
+ 1713171.48 . 13513061.313 . 0538835.614 . 8 
+ 1815182.68 . 43612365.112 . 2542637.019 . 9 
+ 
+ 注 : D 为 初始 稀释 度 x 为 初始 稀释 区 纵向 范围 z 为 羽流 抬升 高度 
+ 
+ 图 2 预测 的 初始 稀释 度 概率分布 曲线 
+ Fig.2 Theprobabilisticcharacteristicsofthepredictedinitialdilution 
+ 2.3 概率分析 结果 
+ 2.3 . 1 不同 保证率 下 的 初始 稀释 度 根据 初始 稀释 度 的 概率分布 , 可 得到 不同 保证率 下 的 初始 稀释 度 数值 ( 表 2 ) . 保证率 = 1 － 累积 百分率 . 
+ 2.3 . 2 不同 累积 频率 下 的 初始 稀释 区 纵向 范围 ( x ) 根据 初始 稀释 区 纵向 范围 ( x ) 的 概率分布 , 可 得到 不同 累积 频率 的 初始 稀释 区 纵向 范围 数值 ( 表 3 ) . 
+ 2.3 . 3 不同 累积 频率 下 的 羽流 抬升 高度 ( z ) 根据 羽流 抬升 高度 ( z ) 的 概率分布 , 可 得到 不同 累积 频率 的 羽流 抬升 高度 数值 ( 表 4 ) . 
+ 表 2 预测 的 初始 稀释 度 的 概率分析 结果 
+ Table2Probabilisticanalysisresultsofpredicted 
+ initialdilution 
+ 保证率 
+ ( % ) 初始 稀释 度 ( 倍 ) 保证率 
+ ( % ) 初始 稀释 度 
+ ( 倍 ) 
+ 903440108 
+ 805230120 
+ 706920130 
+ 608910144 
+ 5099 　 　 
+ 
+ 表 3 预测 的 初始 稀释 区 纵向 范围 ( x ) 的 概率分析 结果 
+ Table3Probabilisticanalysisresultsofpredicteddownstreamdistance ( x ) 
+ 累积 百分率 ( % ) x ( m ) 累积 百分率 ( % ) x ( m ) 
+ 1032.36050 . 6 
+ 2033.87057 . 2 
+ 3035.68066 . 0 
+ 4040.69073 . 3 
+ 5047.9 　 　 
+ 
+ 　 
+ 表 4 预测 的 羽流 抬升 高度 ( z ) 的 概率分析 结果 
+ Table4Probabilisticanalysisresultsofpredicted 
+ plumeheight ( z ) 
+ 累积 百分率 ( % ) z ( m ) 累积 百分率 ( % ) z ( m ) 
+ 108.46013 . 2 
+ 208.87014 . 6 
+ 3010.48015 . 3 
+ 4011.89017 . 1 
+ 5012.6 　 　 
+ 
+ 3 结论 
+ 3.1 从 实例 中 可以 看出 , 概率 分析法 提供 了 污水排放 时 不同 概率 下 的 初始 稀释 度 、 初始 稀释 区 纵向 范围 、 羽流 抬升 高度 等 信息 . 根据 这些 信息 可以 进行 远区 模拟 、 风险 评价 、 混合区 的 划分 和 扩散器 结构 的 优化 设计 . 
+ 3.2 概率 分析法 要求 的 输入 信息 很多 . 本例 中 涉及 大 、 小潮 共 54h 的 数据 , 并且 每 小时 需 同时 测量 从 上 至 下 5 层 海水 的 温度 、 盐度 和 流速 . 现实 中要 连续 地 获得 以上 的 输入 信息 要求 大量 的 人力 和 费用 ; 同时 要求 的 计算 工作 也 是 巨大 的 , 这 就是 以往 概率 分析法 未 获得 广泛应用 的 主要 原因 , 随着 一些 自动 监测仪器 的 出现 和 普遍 使用 , 很 容易 获得 上述 连续 的 输入 信息 ; 随着 计算机 运算 速度 的 快速 提高 , 模拟计算 时间 可以 缩短 . 因此 , 概率 分析法 具有 广阔 的 应用 前景 . 
+ 3.3 应用 概率 分析法 可以 用来 进行 模型 的 修正 . 水力学 模型 中 的 许多 参数 是 通过 实验 和 现场 情况 获得 的 , 应用 概率 分析法 , 在 保持 长期 的 实测 分析 和 模拟 分析 对照 之后 , 可以 修正 模型 中 的 一些 参数 取值 , 使得 模型 更 符合实际 . 
+ 作者简介 ： 陈刚 ( 1974 - ) , 男 , 四川 宜宾 人 , 清华大学 环境 科学 与 工程系 研究生 , 主要 从事 环境工程 的 研究 工作 . 曾 参与 “ 香港 策略性 污水排放 计划 环境影响 评价 研究 ” ( SSDS - EIA ) . 发表 论文 1 篇 . 
+ 致谢 ： 国家海洋局 南海 监测中心 ( 广州 ) 提供 了 文中 的 模拟 输入 , 对于 他们 的 帮助 在 此 致以 谢意 . 同时 还要 感谢 尚风 先生 对 模型模拟 所 做 的 大量 前期工作 以及 黄河 宁 博士 对于 近区 模拟 的 指导 . 
+ 
+ 作者 单位 : 陈刚 　 何强 　 清华大学 环境 科学 与 工程系 , 北京 100084 ； 
+ 　 　 　 　 　 钟坚 　 深圳市 排水 管理处 , 广东 深圳 518030 
+ 参考文献 : 
+ [ 1 ] HeningHuangPhD . AreviewofoceandischargeoftreatedmunicipalwastewaterintheUnitedStats [ R ] . HazenandSawyer , P . C . Raleigh , NorthCarolina , USA.1996 . 
+ [ 2 ] 傅灌 , 胡蓓华 . 基本 统计 方法 教程 [ M ] . 上海 : 华东师范大学出版社 , 1989 . 
+ [ 3 ] HeningHuang , JohnRProni , JohnJTsai . Probabilisticapproachtoinitialdilutionofoceanoutfalls [ J ] . WaterEnvironmentResearch , 1994 , 66 ( 6 ) : 787 - 793 . 
+ 
+ 收稿 日期 ： 1998 - 11 - 17 

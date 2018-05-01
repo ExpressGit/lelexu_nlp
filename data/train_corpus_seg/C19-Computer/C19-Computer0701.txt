@@ -1,0 +1,63 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 5 期 Vol.24 No.51998 
+ 
+ 
+ 
+ 关于 Razumikhin - Type 定理 的 衰变 估计 
+ 侯春海 　 　 钱积 新 
+ 关键词 　 Razumikhin - Type 定理 ， 衰变 估计 . 
+ OntheDecayEstimateforRazumikhin - TypeTheorems 
+ HOUCHUNHAI 　 　 QIANJIXIN 
+ ( InstituteofIndustrialProcessControl , NationalLaboratoryofIndustrial 
+ ControlTechnology , ZhejiangUniversity , Hangzhou 　 310027 ) 
+ Keywords 　 Razumikhin - Typetheorems , decayestimate . 
+ 1 　 引言 
+ 　 　 在 研究 系统 的 稳定性 过程 中 ， 专家 们 不但 想得到 关于 稳定性 的 定性描述 ， 而且 更 希望 得到 定量 信息 . 多年 来 ， 动态 系统 的 定量 稳定性 分析 研究 一直 受到 专家 的 关注 . 就 时滞 系统 而言 ， 1982 年 T . Mori 等 人 给出 带有 定常 时滞 的 线性 时 不变 系统 的 衰变 估计 ， 1994 年 B . Lehman 和 K . Shujaee 对 一类 纯 滞后 时变 泛函 微分方程 解 的 衰变 估计 ［ 1 ］ . 进行 研究 ［ 2 ］ . 楚 天广 和 王照 林 应用 比较 原理 的 方法 研究 了 时滞 系统 的 实用 稳定性 ［ 3 ， 4 ］ . 
+ 　 　 众所周知 ， Razumikhin - Type 定量 是 指用 通常 Lyapunov 函数 ， 加上 Razumikhin - Type 条件 而 得到 的 一系列 与 常 微分方程 平行 的 种种 稳定性 与 不稳定性 准则 ， 在 研究 纯 滞后 泛函 微分方程 解 的 稳定性 过程 中 ， Razumikhin - Type 定理 发挥 着 重要 作用 ［ 5 ］ . 近年来 ， 应用 Razumikhin - Type 定理 对 时滞 系统 进行 稳定性 分析 愈来愈 引起 工程师 们 的 重视 ［ 6 ］ . 所以 ， 研究 Razumikhin - Type 定理 的 衰变 估计 具有 极大 的 理论 与 应用 价值 . 虽然 已有 应用 Razumikhin - Type 比较 原理 研究 时滞 系统 的 定量 稳定性 的 报导 ［ 3 ］ ， 但是 针对 Razumikhin - Type 定理 的 实际 应用 ， 具体 给出 其 定量 渐近 描述 的 研究成果 并 不多见 . 本文 从 Razumikhin - Type 定理 的 应用 角度 出发 给出 其 衰变 估计 ， 从而 为 工程设计 提供 理论依据 . 
+ 2 　 符号 及 定义 
+ 　 　 表示 “ 对 所有 的 ” 或 “ 对任 给 的 ” ， 表示 “ 均 存在 ” 或 “ 均 可 找到 ” ； R = ( - ∞ , + ∞ ) ， R + = ［ 0 , + ∞ ］ ； ［ s ］ ： 不 大于 s 的 最大 整数 . 设 u : R → R 为 连续函数 ， 则 定义 
+ 　 　 ( 1 ) 
+ 　 　 ( 2 ) 
+ ( 1 ) 式 中 的 r 为 正数 ， 在 以下 的 讨论 中 也 假设 r 为 正数 . 
+ 3 　 主要 定理 
+ 　 　 定理 1 . 连续函数 u : R → R ＋ 满足 下述 条件 ： 若 存在 q ＞ 1 ， α ＞ 0 ， 且 当 r ( t ) ＜ qu ( t ) , t ≥ t0 时 ， ( t ) ≤ - α u ( t ) ， 则 有 
+ 　 ( 3 ) 
+ 其中 　 
+ 　 　 证明 . 1 ) 先 证明 
+ 　 　 使用 文献 ［ 5 ］ 中 Theorem4.1 的 证明 过程 ， 容易 证明 本步 结果 . 
+ 　 　 2 ) 再 证明 
+ 　 　 首先 假设 ： t * ∈ ［ t , t + r ］ ， 使得 . 若否 ， 由 有 
+ 　 　 ( 4 ) 
+ 由 已知 条件 可知 ， ， 有 ( ) ≤ - α u ( ) ≤ 0 ， 因此 
+ 　 　 ( 5 ) 
+ 而 这 是 矛盾 的 . 因此 ， 假设 成立 . 
+ 　 　 若令 ， 则 有 t 场师 1 . 下面 分 两种 情况 加以 说明 
+ 　 　 ( a ) Ω 2 = φ ； 此时 Ω 1 = Ω 1 ∪ Ω 2 = ［ t * ， t * + r ］ ， 所以 ， ∈ ［ t * ， t * + r ］ ， 有 r ( ) ≥ u ( ) . 应用 1 ) 的 结论 可 得 ， ∈ ［ t * ， t * + r ］ ， 有 r ( t ) ≥ r ( ) ≥ u ( ) . 这样 由式 ( 1 ) 可得 r ( t ) ≥ ( t * + r ) ≥ ( t + 2r ) . 
+ 　 　 ( b ) Ω 2 ≠ φ ； 由 函数 u 的 连续性 可知 ， ∈ Ω 2 ， 可定义 非 空集合 T ( ) = ｛ l ｜ l ， ｜ Ω 2 ｝ . 取 l ( ) = inf ｛ T ( ) ｝ ， 因为 t * ∈ Ω 1 ， 则 和 有 l ( t ) ∈ Ω 1 . 这 是因为 ， 若 l ( ) Ω 1 ， 则 必有 l ( ) ∈ Ω 2 ， 且 t * ＜ l ( ) ， 这样 由 函数 u 的 连续性 可知 ， l ( ) 不是 T ( ) 的 下 确界 ， 这 与 l ( ) 的 定义 相 矛盾 . 
+ 　 　 此外 ， 由 已知 条件 可知 ， ∈ Ω 2 ， 在 区间 ( l ( ) , ) 上 ， 函数 u 单调 不增 ， 因此 必有 u ( l ( ) ) ≥ u ( ) . 由 l ( ) ∈ Ω 1 可知 u ( l ( ) ) ≤ r ( l ( ) ) / . 又 由 1 ) 的 结论 可得 r ( l ( ) ) ≤ r ( t ) ， 因此 可 得 ， ∈ Ω 2 ， r ( t ) ≥ r ( l ( ) ) ≥ u ( l ( ) ) ≥ u ( ) . 小师 1 ， 有 r ( t ) ≥ r ( ) ≥ u ( ) . 
+ 　 　 这样 ， 就 有 以下 结论 ： ∈ Ω 1 ∪ Ω 2 = ［ t * ， t * + r ］ ， 有 r ( t ) ≥ u ( ) ， 因此 ， 通过 取上 确界 ， 由式 ( 1 ) 可知 ， r ( t ) ≥ ( t + r ) ≥ ( t + 2r ) . 这样 ， 本步 结果 得证 . 
+ 　 　 3 ) 证明 式 ( 3 ) 成立 
+ 　 　 由 2 ) 可知 ， t ≥ t0 ， 2r ( t - 2r ) ≥ 2r ( t ) ， 依此类推 可得式 ( 3 ) 成立 . 
+ 　 　 因此 ， 定理 得证 . 
+ 　 　 考虑 如下 的 纯 滞后 泛函 微分方程 　 　 
+ ( t ) = f ( t , xt ) ， 　 　 ( 6 ) 
+ 其中 f : R × C → Rn 是 一致 连续函数 ， C = C ( ［ - r , 0 ］ , Rn ) ， xt ( θ ) = x ( t + θ ) ， - r ≤ θ ≤ 0 . 
+ 　 　 从 Razumikhin - Type 定理 的 应用 角度 出发 ， 不但 可以 得到 以下 Razumikhin - Type 纯 滞后 泛函 微分方程 的 解 的 定性 稳定性 描述 — — 一致 渐近 稳定 ， 而且 还 可 给出 其 定量 描述 — — 衰变 估计 . 
+ 　 　 定理 2 . 对于 系统 ( 6 ) ， 若 存在 一个 连续 非负 函数 V : R × Rn → R ＋ ， 且 满足 
+ 　 　 i ) V ( t , x ( t ) ) = 0 ， 当且 仅 当 x ( t ) = 0 ； 
+ 　 　 ii ) q ＞ 1 ， α ＞ 0 ， 使得 若 r ( t , x ( t ) ) ＜ qv ( t , x ( t ) ) ， t ≥ t0 ， 有 ( t , x ( t ) ) ≤ - α V ( t , x ( t ) ) . 则 
+ 　 　 ( 7 ) 
+ 其中 
+ 　 　 证明 . 可 由 定理 1 直接 导出 . 
+ 　 　 注 . 条件 i ) — ii ) 可以 保证系统 ( 6 ) 的 零解 的 一致 渐近 稳定性 . 之所以 能 得到 这样 的 结论 而 不 需要 附加 文献 ［ 5 ］ 中 ( 4.2 ) 的 无限小 上 界 条件 ， 这是 由于 条件 ii ) 比 相应 的 Razumikhin - Type 定理 的 条件 ( 文献 ［ 5 ］ 中 第 127 页 ( 4.4 ) 强 的 缘故 . 
+ 　 　 针对 Razumikhin - Type 定理 的 实际 应用 ， 本文 给出 相应 的 衰变 估计 ， 这 对于 第一阶段 的 工程设计 有着 重要 意义 . 
+ 作者 单位 ： ( 浙江大学 工业 控制技术 研究所 、 工业 控制技术 国家 重点 实验室 　 310027 　 杭州 ) 
+ 参考文献 
+ 　 1 　 MoriT , FukumaN , KuwaharaM . Onanestimateofthedecayrateforstablelinearsystems . Int . J . Contr . , 1982 , 36 ( 1 ) : 95 — 97 
+ 　 2 　 LehmanB , ShujaeeK . Delayindependentstabilityconditionsanddecayestimatesfortimevaryingfunctionaldifferentialequations . IEEETrans . Autom . Control , 1994 ， AC - 39 ( 8 ) ： 1673 — 1676 
+ 　 3 　 楚 天广 ， 王照 林 . 时滞 系统 的 实用 稳定 和 Liapunov 稳定性 . 力学 学报 ， 1996 ， 28 ： 200 — 206 
+ 　 4 　 王照 林 ， 楚 天广 . 非线性 力学 中 的 比较 原理 与 应用 . 中国 科学 ( A 辑 ) ， 1993 ， 23 ( 10 ) ： 1070 — 1078 
+ 　 5 　 HaleJK . Theoryoffunctionaldifferentialequation , NewYork : Springer - Verlag , 1977 . 
+ 　 6 　 ChunhaiH , JixinQ . StabilitycriterionforLQregulatorsincludingdelayedperturbations . Int . J . Syst . Sci . , 1997 ， 28 ( 3 ) ： 321 — 323 
+ 收稿 日期 　 1996 － 09 － 27 

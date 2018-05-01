@@ -1,0 +1,104 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1999 年 第 19 卷 第 6 期 Vol.19 No.61999 
+ 
+ 
+ 
+ 滚筒式 高温 堆肥 中 微生物 种类 数量 的 研究 
+ 冯明谦 　 刘德明 
+ 摘要 ： 定量 地 研究 了 城市 生活 垃圾 高温 好 氧 堆肥 中 微生物 的 种类 和 数量 . 分离 鉴定 出 了 细菌 5 属 20 株 、 霉菌 8 属 13 株 、 放线菌 1 属 3 株 、 酵母菌 2 属 2 株 . 探明 了 高温 好 氧 堆肥 能 杀灭 绝大多数 细菌 , 细菌 和 霉菌 是 堆肥 的 优势 类群 , 芽孢 杆菌 和 曲霉菌 是 优势 种 . 
+ 关键词 ： 城市 生活 垃圾 ； 高温 好 氧 堆肥 ； 微生物 种类 数量 
+ 中 图 分类号 ： X171 文献 标识码 ： A 
+ Studyonmicrobespeciesforhigh - temperaturecompostingofhorizontalcylinder . 
+ FENGMing - qian 
+ ( SouthwestMunicipalEngineeringDesignandResearchInstituteofChina , Chengdu610081 , China ) 
+ LIUDe - ming 
+ ( DepartmentofBiology , SichuanUniversity , Chengdu610065 , China ) . ChinaEnvironmentalScience.1999 , 19 ( 6 ) ： 490 ～ 492 
+ Abstract ： Thisthesisstudiesquantitativelymicrobespeciesofmunicipalsolidwaste ( M . S . W ) high - temperatureaerobiccomposting . Thereare20strainsbacteriaof5genus , 13strainsmouldsof8genus , 3strainsactinomycesof1genus , 2strainsyeastsof2genusinhigh - temperatureaerobiccomposting . High - temperatureaerobiccompostingisabletokillmostbacteria ; bacteriaandmouldsaredominantcommunity ; bacillusandaspergillusaredominantspecies . 
+ Keywords ： municipalsolidwaste ( M . S . W ) ； high - temperatureaerobiccomposting ； microbespecies 
+ 　 　 滚筒式 高温 好 氧 堆肥 是 微生物 在 旋转 卧式 发酵 滚筒 中 分解 有机物 形成 腐殖 物 的 生化 过程 . 该法 堆肥 周期短 、 供氧 均匀 、 机械化 程度 高 、 无害化 彻底 , 便于 大规模 连续 操作 运行 , 在 国外 应用 广泛 [ 1 ] . 国内 从 90 年代 初 开始 研究 动态 发酵 , 但 研究 应用 多以 工艺 为主 , 对 发酵 中 微生物 的 研究 很少 . 为了 探明 滚筒式 高温 发酵 中 微生物 的 变化规律 , 探索 用 人工 接种 方法 提高 垃圾处理 效率 的 可能性 , 作者 设计 制造 了 长 7.0 m 、 直径 1.0 m , 处理量 为 2000kg / d 的 卧式 发酵 滚筒 , 在 进行 工艺 试验 的 同时 , 进行 了 微生物 分离 鉴定 工作 . 
+ 1 　 分析方法 
+ 1.1 样品 采集 
+ 　 　 采集 样品 两批 , 每批 4 个样 , 即 发酵 前 物料 、 滚筒 进料 前端 ( 50 ～ 54 ℃ ) 物料 、 滚筒 中部 ( 55 ～ 62 ℃ ) 及 出料 端 ( 60 ℃ 左右 ) 的 物料 , 每个 样品 采集 200g . 
+ 1.2 培养基 
+ 　 　 细菌 分离 培养基 牛肉 膏 、 蛋白 胨 培养基 [ 2 ] , 1kg / cm2 灭菌 20min 后 , 加制 霉素 30 单位 / mL . 
+ 　 　 霉菌 分离 培养基 查氏 培养基 [ 2 ] 0.56 kg / cm2 灭菌 20min 后 , 加 青霉素 2000 单位 / mL 、 链霉素 100 单位 / mL ; 放线菌 分离 培养基 高氏 1 号 培养基 [ 2 ] 1kg / cm2 灭菌 20min 后 , 加 青霉素 2000 单位 / mL , 链霉素 100 单位 / mL , 制 霉素 30 单位 / mL ; 酵母菌 分离 培养基 麦芽 汁 培养基 [ 2 ] 0.56 kg / cm2 灭菌 20min 后 , 加 青霉素 2000 单位 / mL , 链霉素 100 单位 / mL . 鉴定 培养基 按规定 标准 制作 [ 3 ] . 
+ 1.3 活菌数 测定 
+ 　 　 采用 平板 稀释 培养 计数法 . 
+ 1.4 菌种 鉴定 
+ 　 　 将 挑选出 的 各 微生物 菌种 反复 分离 纯化 , 按 “ 伯杰 氏 细菌 鉴定 手册 ( 第八版 ) ” 、 “ 常见 与 常用 真菌 ” 、 “ 一般 细菌 常用 鉴定 方法 ” 、 “ 微生物 实验 手册 ” 等 方法 进行 , 以 形态 特征 为主 , 辅以 必要 的 生理 生化 实验 , 将 各 菌株 鉴定 到 属 . 
+ 2 　 结果 与 讨论 
+ 2.1 发酵 滚筒 中 微生物 数量 的 变化趋势 滚筒 中 不同 部位 ( 不同 温度 ) 的 微生物 数量 分析 结果 见表 1 , 表 2 . 
+ 表 1 第一批 样品 中 微生物 数量 的 变化 * ( 个 / g ( 干 ) ) 
+ Table1Variationofmicrobenumbersinfirstsample 
+ 样品 
+ 菌种 发酵 前 活菌数 进料 前端 活菌数 中部 物料 活菌 数出 料端 
+ 活菌数 
+ 细菌 2.8151093 . 2851082.4551062 . 135104 
+ 霉菌 2.3151041 . 4351041.9051039 . 395101 
+ 放线菌 2.6451022 . 145102 　 6.265101 
+ 酵母菌 2.9751021 . 435102 　 　 
+ 
+ 注 : * 发酵 前 物料 温度 33 ℃ , 水份 40% 进料 前端 物料 温度 54 ℃ , 水份 44% 
+ 中部 物料 温度 62 ℃ , 水份 38% 出料 端 物料 温度 60 ℃ , 水份 36% 
+ 表 2 第二批 样品 中 微生物 数量 的 变化 ( 个 / g ( 干 ) ) 
+ Table2Variationofmicrobenumbersinsecondsample 
+ 样品 菌种 发酵 前 活菌数 进料 前端 
+ 活菌数 中部 物料 活菌 数出 料端 活菌数 
+ 细菌 1.2751093 . 6651081.0651068 . 445105 
+ 霉菌 1.4451052 . 2651061.6251046 . 265101 
+ 放线菌 2.1851031 . 1351026.565101 　 
+ 酵母菌 1.4451037 . 545101 　 　 
+ 
+ 注 : 同表 1 
+ 　 　 从表 1 , 表 2 中 可以 看出 , 发酵 前 垃圾 中 微生物 的 数量 很 高 , 细菌 数量 达 2.815109 个 / g ( 干 ) . 这 与 城市 垃圾 中 一般 细菌 数量 在 106 ～ 1025 个 / g ( 干 ) 之间 吻合 [ 4 ] . 发酵 前 垃圾 中 微生物 的 数量 很 高 , 可能 与 采样 季节 气温 较 高 、 样品 不够 新鲜 、 在 分析 前 垃圾 已 开始 发酵 增殖 有关 . 微生物 的 数量 还 随 采样 季节 和 样品 不同 而 有 差异 . 无论是 在 发酵 前 、 发酵 后 或 发酵 过程 中 , 细菌 的 数量 总是 最大 , 霉菌 次之 , 放线菌 和 酵母菌 相对 较少 . 例如 在 发酵 前 的 样品 中 , 细菌 比 霉菌 高出 4 ～ 5 个 数量级 , 比 放线菌 和 酵母菌 高出 6 ～ 7 个 数量级 . 发酵 后 的 样品 中 细菌 较 多 , 霉菌 较 少 , 放线菌 和 酵母菌 极少 . 在 发酵 过程 中 , 细菌 是 优势种群 , 对 发酵 升温 具有 较大 的 作用 . 
+ 　 　 物料 经 发酵 后 , 无论 哪 一类 微生物 的 数量 均 大幅度 下降 , 其中 , 细菌 变化 幅度 最大 . 发酵 后 的 样品 中 , 细菌 数量 比 发酵 前 降低 4 ～ 5 个 数量级 , 霉菌 降低 约 3 个 数量级 . 这 也 表明 滚筒 发酵 确能 杀灭 大部分 微生物 , 能 达到 无害化 的 要求 . 
+ 　 　 在 发酵 过程 中 , 60 ℃ 左右 的 温度 ( 滚筒 中部 及 出料 端 ) 比 50 ℃ 左右 的 温度 ( 进料 前端 ) 对 微生物 的 杀灭 作用 高 10 倍 以上 . 垃圾 中 绝大部分 微生物 是 在 这 一 温度 区 被 杀灭 的 . 
+ 2.2 菌种 鉴定 结果 
+ 　 　 两批 样品 中共 分离 出 细菌 5 属 20 株 ; 霉菌 8 属 13 株 ; 放线菌 3 株 , 属链 霉菌 属 ; 酵母菌 2 属 2 株 . 
+ 2.2 . 1 芽孢 杆菌属 ( Bacillussp . ) 共 17 株 . 
+ 2.2 . 2 假单 孢菌 属 ( Pseudomonassp . ) 1 株 ; 乳 杆菌属 ( Lactobacillussp . ) 1 株 ; 葡萄球菌 属 ( Staphylococcussp . ) 1 株 ; 埃希氏 属 ( Escherichiasp . ) 1 株 ; 曲霉 属 ( Aspergillussp . ) 共 5 株 ; 毛霉 属 ( Mucorsp . ) 共 2 株 ; 红 曲霉 属 ( Monascussp . ) 1 株 ; 青霉 属 ( Penicilliumsp . ) 1 株 ; 地霉属 ( Geotrichumsp . ) 1 株 ; 木霉属 ( Trichodermasp . ) 1 株 ; 脉 孢菌 属 ( Neurosporasp . ) 1 株 ; 头孢霉属 ( Cephalosporiumsp . ) 1 株 ; 酵母 属 ( Saccharomycessp . ) 1 株 ; 裂殖酵母 属 ( Schizosaccharomycessp . ) 1 株 , 菌落 白色 , 平坦 ; 放线菌 属 ( Streptomycessp . ) 3 株 . 
+ 2.3 发酵 过程 中 微生物 相 的 变化 
+ 　 　 两批 样品 中 ( 不同 部位 ) 所 分离 到 的 微生物 见表 3 , 表 4 . 
+ 表 3 第一批 样品 中 微生物 种群 的 变化 
+ Table3Variationofmicrobecommunityvariesoffirstsample 
+ 物料 细菌 霉菌 放线菌 酵母菌 
+ 发酵 前 Bacillussp . 
+ EscherichiaPseudomo - nassp . 
+ Lactobacillussp . Aspergillussp . Penicilliu - m 
+ sp . Mucorsp . Streptom - ycessp . Schizosaccha - romycessp . 
+ 前端 物料 Bacillussp . 
+ Lectobacillussp . Aspergillussp . Monascussp . Geotrichu - msp . Streptom - yces . 
+ sp . Schizosaccha - romycessp . 
+ 中部 
+ 物料 Bacillussp . Aspergillussp . 　 　 
+ 出料 
+ 端 Bacillussp . MonascusStreptom - ycessp . 　 
+ 
+ 表 4 第二批 样品 中 微生物 种群 的 变化 
+ Table4Variationofmicrobecommunityvariesofsecondsample 
+ 物料 细菌 霉菌 放线菌 酵母菌 
+ 发酵 前 Bacillussp . 
+ Staphylo - coccussp . Tricodermasp . 
+ Neurosporasp . Streptom - ycessp . Saccharomycessp . 
+ 前端 物料 Bacillussp . 
+ Staphylococ - cussp . AspergillusspCephalospriumsp . Streptom - ycessp . 　 
+ 中部 物料 Bacillussp . Aspergillussp . Cephalosporiumsp . Streptom - ycessp . 　 
+ 出料 端 Bacillussp . Aspergillussp . Mucor 
+ sp . 　 　 
+ 
+ 　 　 发酵 过程 中 微生物 种群 分布 最 明显 的 特点 是 滚筒 发酵 使 微生物 种类 逐渐 趋于 单一 . 发酵 前 的 样品 中 都 包含 有 细菌 、 霉菌 、 放线菌 和 酵母菌 , 在 发酵 后 的 样品 中 , 检出 频率 最高 的 是 细菌 和 霉菌 , 放线菌 和 酵母菌 检出率 很 低 . 就 细菌 而言 , 发酵 前 的 样品 中 涉及 的 种类 较 多 ( 随 样品 不同 而异 ) , 而 发酵 后 只有 芽孢 杆菌属 ( Bacillussp . ) 的 菌株 检出率 最高 , 其它 细菌 未能 检出 . 结合 前面 的 数量 分析 , 芽孢 杆菌 是 发酵 后 样品 中 的 主要 类群 . 霉菌 的 分布 情况 类似 于 细菌 , 但 发酵 中以 哪些 霉菌 为主 , 随 样品 不同 而 有 较大 差异 . 
+ 3 　 小结 
+ 3.1 生活 垃圾 中 自带 的 微生物 种类 繁多 , 数量 极大 . 细菌 数量 最大 , 约 为 109 个 细胞 / g ( 干 ) , 涉及 5 个 属 ; 霉菌 数量 次之 , 约 为 105 个 孢子 / g ( 干 ) , 涉及 8 个 属 ; 放线菌 和 酵母菌 相对 较 少 , 均 为 103 个 细胞 / g ( 干 ) , 分别 涉及 一个 属 和 两个 属 . 细菌 和 霉菌 是 参与 发酵 的 主要 类群 . 
+ 3.2 垃圾 经 滚筒 发酵 后 , 微生物 的 数量 大幅度 下降 , 微生物 种类 趋于 单一 . 发酵 前 样品 中 细菌 、 霉菌 、 放线菌 和 酵母菌 均 有 较 高 的 检出率 , 发酵 后 样品 中 只有 细菌 中 的 芽孢 杆菌 和 少数 种类 霉菌 有 较 高 的 检出率 , 它们 生长 繁殖 较 快 , 均 能 产生 抗逆性 较强 的 芽孢 或 孢子 , 生命力 强 , 是 堆肥 的 优势 种 . 
+ 3.3 城市 生活 垃圾 经 滚筒 发酵 ( 停留时间 48h ) 后 , 能 较 迅速 杀灭 绝大多数 细菌 , 达到 无害化 目的 . 
+ 基金项目 ： “ 八五 ” 国家 科技 攻关项目 ( 85 - 909 - 07 - 01 ) 
+ 作者简介 ： 冯明谦 ( 1965 - ) , 男 , 四川 射洪 人 , 中国 市政工程 西南 设计 研究院 高级 工程师 , 硕士 , 主要 从事 给排水 、 垃圾处理 的 设计 和 科研工作 . 参加 了 “ 七五 ” 国家 科技 攻关项目 “ 东北地区 稳定 塘 技术 研究 ” , 负责 “ 八五 ” 国家 科技 攻关项目 “ 滚筒式 高温 好 氧 堆肥 技术 研究 ” , 参加 了 “ 九五 ” 国家 科技 攻关项目 “ 旋转式 机械 格栅 研究 ” 等 科研项目 , 发表 论文 3 篇 . 
+ 作者 单位 ： 冯明谦 　 中国 市政工程 西南 设计 研究院 , 四川 成都 610081 
+ 　 　 　 　 　 刘德明 　 四川大学 生物系 , 四川 成都 610065 
+ 参考文献 
+ 　 [ 1 ] 　 陈世 和 , 张所明 . 城市 垃圾堆 肥 原理 与 工艺 [ M ] . 上海 : 复旦大学 出版社 , 1990.7 . 
+ 　 [ 2 ] 　 武汉大学 , 复旦大学 生物系 . 微生物学 [ M ] . 北京 : 高等教育出版社 , 1979.84 . 
+ 　 [ 3 ] 　 中国科学院 微生物 所 细菌 分类 组 . 一般 细菌 常用 鉴定 方法 [ J ] . 北京 : 科学出版社 , 1978.139 - 194 . 
+ 　 [ 4 ] 　 郑安介 . 全国 环境卫生 科学 论文集 [ C ] . 北京 : 中国 环境 科学出版社 , 1998.429 . 
+ 收稿 日期 ： 1999 - 03 - 05 

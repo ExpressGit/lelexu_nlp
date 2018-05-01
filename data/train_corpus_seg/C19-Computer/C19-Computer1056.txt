@@ -1,0 +1,99 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 5 期 Vol.24 No.51998 
+ 
+ 
+ 
+ Lur ' e 多 非线性 系统 的 镇定 与 L2 - 增益 控制 的 MI 方法 1 ) 
+ 郭 　 雷 　 忻 　 欣 　 冯纯伯 
+ 摘 　 要 　 考虑 Lur ' e 多 非线性 系统 的 镇定 与 L2 - 增益 控制 问题 . 对 Lur ' e 多 非线性 系统 表示 控制 对象 , 设计 状态 反馈 和 输出 反馈 控制器 使 闭环 系统 分别 是 绝对 稳定 和 L2 增益 有限 的 . 基于 矩阵 不等式 ( MI ) 方法 给出 了 镇定 与 L2 - 增益 控制 问题 的 可解 条件 , 并 讨论 了 控制器 的 设计 方法 . 
+ 关键词 　 Lur ' e 多 非线性 系统 , 绝对 稳定性 , L2 增益 有限性 , 矩阵 不等式 . 
+ ANMIAPPROACHTOSTABILIZATIONANDL2 - GAIN 
+ CONTROLPROBLEMSFORLUR ' ESYSTEMS 
+ GUOLEI 　 　 XINXIN 　 　 FENGCHUNBO 
+ ( ResearchInstituteofAutomation , SoutheastUniversity , Nanjing210018 ) 
+ Abstract 　 ConsiderstabilizationandL2 - gaincontrolproblemsforLur ' esystems : ForgeneralizedplantsdescribedbyLur ' esystems , todesignstate - feedbackanddynamicaloutput - feedbackcontrollerssuchthattheclosed - loopsystemsareabsolutelystableandL2 - gainfinite , respectively . Solvableconditionsarepresentedbasedonmatrixinequility ( MI ) approach . Somefeasibledesignalgorithmsarediscussed . 
+ Keywords 　 Lur ' esystem , absolutelystable , L2 - gainfinite , matrixinequility . 
+ 1 　 引言 
+ 　 　 非线性 系统 的 镇定 和 L2 增益 控制 ( H ∞ ) 问题 是 目前 控制 理论 研究 的 一个 热点 ［ 1 , 2 ］ . 文献 ［ 2 ］ 针对 只有 一个 非线性 环节 的 Lur ' e 系统 , 给出 输出 反馈 镇定 问题 的 可解 条件 , 该 条件 涉及 依赖 不定 参数 的 两个 耦合 的 Riccati 方程 ; 文献 ［ 1 ］ 针对 只有 一个 非线性 环节 的 Lur ' e 系统 , 提出 了 一个 L2 - 增益 控制 问题 可解 的 充分条件 . 本文 考虑 Lur ' e 多 非线性 系统 , 基于 矩阵 不等式 ( MI ) 方法 给出 镇定 与 L2 - 增益 控制 问题 的 可解 条件 , 并 提出 了 控制器 的 设计 方法 . 
+ 　 　 被控 的 广义 对象 为 
+ 　 　 ( 1 ) 
+ 其中 pT = ( p1 ( t ) , … , pnp ( t ) ) T , pi ( t ) = ⅵ 読 ( qi ( t ) ) , i = 1 , 2 , … , np . 而 ⅵ 読 ( σ ) 满足 扇区 条件 ［ 0 , 1 ］ 
+ 0 ≤ σ ⅵ 読 ( σ ) ≤ σ 2 , 　 　 ( 2 ) 
+ x ∈ Rn , w ∈ Rnw , u ∈ Rnu , y ∈ Rny , z ∈ Rnz 分别 表示 状态 , 外部 输入 , 控制 , 量测 和 被控 向量 . q ∈ Rnp , p ∈ Rnp 分别 表示 Lur ' e 控制 信号 和 控制变量 . 
+ 　 　 镇定 问题 ： 设计 控制器 Σ C 使 闭环 Lur ' e 系统 绝对 稳定 . 
+ 　 　 L2 增益 ( H ∞ ) 控制 问题 : 设计 控制器 Σ C 使 闭环 Lur ' e 系统 绝对 稳定 且 满足 zTz ＜ γ 2wTw . 
+ 　 　 设 Σ C 为 nc 阶 动态 输出 反馈 控制器 , 其 动态 方程 为 
+ 　 　 ( 3 ) 
+ 　 　 闭环 系统 为 Σ cl 
+ 　 　 ( 4 ) 
+ 其中 
+ 　 　 ( 5 ) 
+ 　 　 ( 6 ) 
+ 且 
+ 　 　 当 u = 0 时 , 记 Lur ' e 系统 ( 1 ) 为 ( 1 ) ′ . ( 1 ) ′ 的 稳定性 和 L2 增益 有限性 分别 归结为 下列 形式 的 Lyapunov 函数 和 储存 ( Storage ) 函数 的 存在 性 
+ 　 　 ( 7 ) 
+ 其中 P ＞ 0 , Λ ∶ 　 = diag ( λ i , … , λ np } ≥ 0 , CTq ∶ 　 = ( CT1 , q , … , CTnp , q ) . 形如 ( 7 ) 的 V ( x ) 的 存在 性 等价 于 Popov 判据 ［ 2 ］ . 
+ 　 　 文献 ［ 3 ］ 总结 了 线性 矩阵 不等式 ( LMI ) 的 进展 , 下面 的 两个 引理 把 Lur ' e 系统 的 稳定性 和 L2 增益 有限性 归结为 LMI 的 可 解性 . ( 引理 1 来自 文献 ［ 3 ］ ) 
+ 　 　 引理 1 ( 稳定 条件 ) . Lur ' e 系统 ( 1 ) ′ , 若 存在 P ＞ 0 , Λ ≥ 0 , T ∶ 　 = diag { t1 , … , tnp } ≥ 0 满足 
+ 　 　 ( 8 ) 
+ 则 ( 1 ) ′ 绝对 稳定 . 
+ 　 　 引理 2 ( L2 增益 有限 条件 ) . 对 Lur ' e 系统 ( 1 ) ′ , 若 存在 P ＞ 0 , Λ ≥ 0 , T ∶ = diag { t1 , … , tnp } ≥ 0 满足 
+ 　 　 ( 9 ) 
+ 则 ( 1 ) ′ L2 增益 有限 . 
+ 　 　 引理 2 与 文献 ［ 3 ］ 第 8.4 . 2 节 有所不同 : 1 ) 此时 Dzw ≠ 0 ; 2 ) 考虑 了 稳定性 约束 . 
+ 　 　 证明 从略 . 可 仿照 文献 ［ 3 ］ 用 S - 过程 ( S - procedure ) 得到 . 
+ 　 　 注 1 . 当 np = 1 时 , 上述 两个 引理 中 的 条件 分别 等价 于 存在 形 如 ( 7 ) 式 的 Lyapunov 函数 和 储存 函数 . 
+ 2 　 主要 结果 
+ 2.1 　 状态 反馈 情形 
+ 　 　 考虑 状态 反馈 律 u = Kx ， 此时 闭环 系统 状态 矩阵 为 Acl = A + B ＼ - uK , 代入 对象 ( 1 ) , 并记 Q ∶ 　 = P - 1 , KQ = R , 应用 引理 1 有 
+ 　 　 ( 10 ) 
+ 因而 可 得 
+ 　 　 定理 1 . 若 存在 Q ( ＞ 0 ) , R 满足 ( 10 ) , 则 存在 状态 反馈 镇定 控制 律 u = Kx , K = RQ - 1 . 
+ 　 　 下边 考虑 L2 增益 有限 控制 问题 , 此时 ( 9 ) 等价 于 
+ 　 　 　 ( 11 ) 
+ 类似 地有 
+ 　 　 定理 2 . 若 存在 Q ( ＞ 0 ) , R 满足 式 ( 11 ) , 则 存在 状态 反馈 L2 增益 有限 控制 律 u = Kx , K = RQ - 1 . 
+ 　 　 注 2 . ( 10 ) , ( 11 ) 式 都 是 关于 Q , R , Λ 的 双线性 不等式 ( BLMI ) . 对 BLMI , 文献 ［ 4 ］ 给出 局部 算法 ； 文献 ［ 5 ］ 提出 了 一种 全局 优化 算法 . 
+ 2.2 　 输出 反馈 情形 
+ 　 　 将 Σ cl 的 系数 阵 代入 式 ( 8 ) , 则 式 ( 8 ) 等价 于 
+ Ω + BGC + CTGTBT ＜ 0 , 　 　 ( 12 ) 
+ 其中 
+ 　 　 ( 13a ) ， ( 13b ) 
+ 　 　 ( 13c ) 
+ 式 ( 12 ) 成立 当且 仅 当 下列 两 式 成立 ( Q ∶ 　 = P - 1 ) 
+ 　 　 ( 14 ) 
+ 　 　 ( 15 ) 
+ 相应 于 ( 6 ) 式 的 分块 , 取 
+ 　 　 ( 16 ) 
+ 这时 
+ 　 　 把 式 ( 6 ) , ( 16 ) 代入 式 ( 14 ) , ( 15 ) , 则 有 
+ 
+ 　 　 ( 17 ) 
+ 　 　 ( 18 ) 
+ 　 　 定理 3 . 若 存在 X ＞ 0 , Y ＞ 0 满足 ( 17 ) , ( 18 ) 且 ， 则 对象 ( 1 ) 存在 输出 反馈 镇定 控制器 . 这时 , 镇定 控制器 的 阶次 nc = rank ( X - Y - 1 ) . 
+ 　 　 证明 . 由 以上 推导 可知 , 定理 3 条件 满足 等价 于 对 闭环 系统 引理 1 的 条件 满足 , 故 闭环 系统 渐近 稳定 . 结合 式 ( 5 ) ， ( 6 ) ， ( 16 ) 知 控制器 阶次 等于 P22 的 维数 , 即 rank ( X - Y - 1 ) . 证毕 . 
+ 　 　 注 3 . 镇定 问题 即 Savkin 和 Petersen ［ 2 ］ 的 “ 具 Lyapunov 形式 的 绝对 镇定 ” 问题 , 但 文献 ［ 2 ］ 要求 对象 满足 限制 条件 : ( A ， Bp ) 可控 , ( A , Cq ) 可观 , 且 BTuCTqCqBu ＞ 0 . 
+ 　 　 同理 可 得 
+ 　 　 定理 4 . 若 存在 X ＞ 0 , Y ＞ 0 满足 
+ 　 　 ( 19 ) 
+ 　 ( 20 ) 
+ 且 其中 
+ M1 ∶ = XBp + ATCTq Λ + CTqT , 
+ M2 ∶ = Λ CqBp + BTpCTq Λ - 2T , 
+ N1 ∶ = Bp - ATYCTq Λ + YCTqT , 
+ N2 ∶ = - Λ CqYCTq Λ + Dzp , 
+ 则 对象 ( 1 ) L2 增益 控制 问题 存在 输出 反馈 控制器 . 这时 , 控制器 的 阶次 nc = rank ( X - Y - 1 ) . 
+ 　 　 证明 从略 . 
+ 　 　 注 4 . 从 计算 的 观点 来看 , 对于 待定 矩阵 X , Y , Λ , T , ( 17 ) , ( 19 ) 式 是 线性 矩阵 不等式 ( LMI ) , 而式 ( 18 ) ， ( 20 ) 是 多 线性 矩阵 不等式 ( MLMI ) . 一种 方法 是 先用 内点 法解出 LMI ( 17 ) 或 ( 19 ) , 得到 一组 X ， Λ ， T ， 然后 再 与 式 ( 18 ) 或 ( 20 ) 和 约束 不等式 联立 形成 另 一个 LMI 求得 Y . 另 一种 方法 是 先 给定 参数 阵 T , 然后 根据 定理 3 , 4 求解 双线性 矩阵 不等式 ( BLMI ) ［ 4 ， 5 ］ . 
+ 3 　 结语 
+ 　 　 本文 研究 了 Lur ' e 多 非线性 系统 的 镇定 与 L2 - 增益 控制 问题 . 基于 矩阵 不等式 ( MI ) 方法 给出 了 对 Lur ' e 多 非线性 系统 表示 的 控制 对象 . 存在 状态 反馈 和 输出 反馈 控制器 使 闭环 系统 分别 是 绝对 稳定 和 L2 增益 有限 的 的 可解 条件 ， 并 讨论 了 控制器 的 设计 方法 ， 控制器 的 参数 依赖于 一类 特殊 的 BLMI 的 解 . 
+ 　 　 1 ) 国家自然科学基金 与 中国 博士后 科学基金 资助 课题 . 
+ 作者 单位 ： ( 东南大学 自动化 所 　 南京 　 210018 ) 
+ 参考文献 
+ 　 1 　 ZhanW , WangLY , LiuYetal . H ∞ controlforsystemswithsectorboundnonlinearities . In : Proc . ofIFACWorldCongress , 1996 
+ 　 2 　 SavkinAV , PetersenIR . AmethodforrobuststabilizationrelatedtothePopovstabilitycriterion . Int . J . Control , 1995 , 62 ( 5 ) : 1105 - 1115 
+ 　 3 　 BoydSetal . Linearmatrixinequalityinsystemandcontroltheory , In : SIAMStudiesinAppliedMathematics , Philadelphia : 1994 
+ 　 4 　 GohKCetal . Bilinearmatrixinequalitypropertiesandcomputationalmethods . In : Proc . ofACC , 1994 , 850 - 855 
+ 　 5 　 GohKCetal . AglobaloptimizationapproachfortheBMIproblem . In : Proc . ofIEEEonCDC , 1994 , 2009 - 2014 
+ 　 　 收稿 日期 　 1996 - 06 - 10 

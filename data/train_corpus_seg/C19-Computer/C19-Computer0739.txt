@@ -1,0 +1,87 @@
+自动化 学报 
+ AGTAAUTOMATICASINICA 
+ 1999 年 第 25 卷 第 2 期 Vol.25 No.21999 
+ 
+ 
+ 
+ 
+ 
+ Q 学习 算法 在 库存 控制 中 的 应用 1 ) 
+ 蒋国飞 　 吴沧浦 
+ 摘 　 要 　 Q 学习 算法 是 Watkins 提出 的 求解 信息 不 完全 马尔可夫 决策问题 的 一种 强化 学习 方法 . 这里 提出 了 一种 新 的 探索 策略 ， 并 将 该 策略 和 Q 学习 算法 有效 结合 来 求解 一类 典型 的 有 连续 状态 和 决策空间 的 库存 控制 问题 . 仿真 表明 ， 该 方法 所 求解 的 控制策略 和 用值 迭代法 在 模型 已知 的 情况 下 所 求得 的 最优 策略 非常 逼近 ， 从而 证实 了 Q 学习 算法 在 一些 系统 模型 未知 的 工程 控制 问题 中 的 应用 潜力 . 
+ 关键词 　 Q 学习 ， 马尔可夫 决策 过程 ， 库存 控制 ， 连续 状态 和 决策空间 ， 探索 策略 . 
+ INVENTORYCONTROLUSINGQ - LEARNING 
+ JIANGGuofeiWuCangpu 
+ ( DepartmentofAutomaticControl , BeijingInstituteofTechnology , Beijing100081 ) 
+ Abstract 　 Q - learningisareinforcementlearningmethodtosolveMarkoviandecisionproblemswithincompleteinformation . Inthispaper , wepresentanovelexplorationstrategyanduseQ - learningmethodwiththisstrategytosolveatypicalinventorycontrolproblemwithcontinuousstateanddecisionspace . SimulationresultsareincludedtoshowthattheoptimalpolicygivenbyQ - learningcanwellapproximatetotheaccurateone . 
+ Keywords 　 Q - learning , Markoviandecisionproblem , inventorycontrol , continuousstateanddecisionspace , explorationstrategy . 
+ 1 　 引言 
+ 　 　 Q 学习 算法 是 求解 信息 不 完全 马尔可夫 决策问题 的 一种 有效 的 强化 学习 方法 . 自从 Watkins ［ 1 ］ 在 1989 年 提出 Q 学习 算法 并 证明 了 其 收敛性 后 ， 该 算法 在 强化 学习 研究 领域 中 得到 了 人们 的 普遍 关注 . 然而 ， 目前 对 Q 学习 算法 的 应用 研究 还 很 不够 ， 基本上 限于 人工智能 方面 ， 如 最 短 路径 搜索 问题 ［ 1 ， 2 ］ 、 动物 觅食 游戏 ［ 3 ］ 等 ， 实际 应用 的 例子 很少 ； 另一方面 对 该 算法 的 研究 也 只 局限于 一些 离散 状态 和 决策空间 . 迄今为止 还 没有 见到 在 连续 状态 和 决策空间 上 应用 的 例子 ， 而 实际 应用 中 许多 随机 控制系统 的 状态 和 决策 是 连续 的 . 本文 通过 离散 化 问题 的 状态 和 决策空间 ， 提出 用 Q 学习 算法 来 求解 运筹学 中 一类 典型 的 有 连续 状态 和 决策空间 的 库存 控制 问题 ， 同时 针对 决策空间 离散 化后 可行 控制 数目 较大 的 情况 ， 提出 了 一种 新 的 探索 策略 ， 来 对 控制 和 探索 之间 的 冲突 进行 有效 的 折衷 . 
+ 　 　 先 简述 有限 马尔可夫 决策问题 的 模型 如下 ： 在 每个 时间 步 k = 1 , 2 , … , 控制器 观察 马氏 过程 的 状态 为 xk ， 选择 决策 ak ， 收到 即时 报酬 rk ， 并 使 系统 转移 到 下 一个 状态 yk , 转移 概率 为 Pxk , yk ( ak ) . 控制 目的 是 寻求 一 最优控制 策略 ， 使 报酬 函数 最大 ， 其中 0 ≤ γ ≤ 1 为 折扣 因子 . 
+ 　 　 在 一些 实际 例子 中 ， 状态 转移 概率 和 所 获 报酬 是 未知 的 ， 求解 这 类 信息 不 完全 的 马氏 决策问题 有 两种 主要 方法 ： 贝叶斯 方法 和 非 贝叶斯 方法 . 而 非 贝叶斯 方法 又 分为 直接 法和非 直接 法 . 直接 法是 不 估计 系统 模型 而 直接 基于 观察 值来 求解 最优 策略 ［ 2 ］ . Q 学习 算法 属于 直接 法 . 
+ 　 　 给定 一个 策略 π ， 定义 Q 值为 在 状态 x ， 控制 a 及 后续 策略 π 下 的 报酬 折扣 和 的 期望 . 即 
+ 
+ ( 1 ) 
+ 其中 　 学习 就是 要 在 转移 概率 和 所 获 报酬 未知 的 情况 下 估计 最优 策略 的 Q 值 . 定义 其中 π * 表示 最优 策略 . 
+ 　 　 在线 Q 学习 方法 实现 如下 ： 在 每个 时间 步 k ， 观察 当前 状态 xk ， 选择 和 执行 控制 ak ， 再 观察 后继 状态 yk 及 接受 即时 报酬 rk ， 然后 根据 下 式 调整 Qk - 1 值 ： 
+ 
+ ( 2 ) 
+ 其中 　 α k 为 学习 因子 ， 
+ 　 　 Watkins ［ 1 ］ 证明 了 学习 因子 序列 ｛ α k ｝ 在 满足 一定 的 条件 下 ， 如果 任 一个 ( x , a ) 二元 组能 用 方程 ( 2 ) 进行 无穷 多次 迭代 ， 则 当 k → ∞ 时 ， Qk ( x , a ) 以 概率 1 收敛 于 Q * ( x , a ) . 
+ 2 　 库存 控制 及其 有限 马氏 决策 过程 模型 
+ 　 　 设 xk 是 产品 在 k 段 开始 时 的 库存量 ， uk 是 k 段 开始 时 的 订货量 ( 假设 订 了 货 即可 立即 交货 ) ， wk 是 k 段 中 的 需求量 ， 是 一个 随机变量 ， R 是 产品 的 仓库 库存 限量 . h ( h ≥ 0 ) 是 单位 产品 的 库存 费用 , p ( p ＞ 0 ) 是 单位 产品 的 脱 需 费用 ， c ( c ＞ 0 ) 是 单位 产品 的 订货 费用 . 假定 如 需求量 超出 可能 的 供应量 时 ， 不 允许 先 记帐 而后 补 ， 即 xk 不 允许 取 负值 . 此时 可 建立 库存 优化 控制 问题 的 模型 如下 ： 
+ 　 　 1 ) 状态 转移 规律 由 下列 方程 确定 
+ 
+ ( 3 ) 
+ 　 　 2 ) wk ( k = 0 , 1 , … ) 的 概率分布 相同 且 相互 独立 ； 
+ 　 　 3 ) 控制 的 目的 是 选择 订货 策略 uk ( xk ) 来 极小 化 指标 函数 
+ 
+ ( 4 ) 
+ 其中 γ 为 折扣 因子 ， C ( u ) 为 如下 定义 函数 ： 
+ 
+ ( 5 ) 
+ 　 　 如果 产品 的 仓库 库存 没有 限量 ( 即 取消 ( 3 ) 式 中 的 约束 xk + uk ≤ R ) ， Bertsekas 在 文献 ［ 4 ］ 中 证明 了 当 p ＞ c 时 可 求得 以上 问题 的 最优 策略 为 
+ 
+ ( 6 ) 
+ 其中 S * 为 函数 的 极小 点 ， 而 为 满足 G ( y ) = K + G ( S * ) 的 y 的 最小值 . 
+ 　 　 用 Q 学习 算法 求解 马氏 决策问题 ， 不须 知道 过程 的 状态 转移 规律 ， 只要 在 决策 过程 中 能 观测 到 系统 的 四元组 序列 ( xk , uk , r ( xk , uk ) , yk ) ( 其中 xk 为 当前 状态 ， uk 为 当前 控制 ， r ( xk , uk ) 为 在 系统 状态 xk 上 执行 控制 uk 后 得到 的 报酬 ， yk 为 后继 状态 . ) ， 就 能 通过 学习 求得 问题 的 最优 策略 . 在 仿真 中 ， 以上 所 建立 的 库存 控制 模型 代表 实际 过程 向 Q 学习 提供 这个 四元组 序列 . 而 在 实际 应用 中 ， 在线 Q 学习 算法 可以 直接 从 系统 观测 这个 四元组 序列 . 
+ 　 　 要 应用 Q 学习 方法 来 求解 以上 有 连续 状态 和 决策空间 的 库存 控制 问题 ， 首先 需 将 状态 和 决策空间 离散 化后 建立 一个 信息 不 完全 的 有限 马尔可夫 决策 过程 . 设将 状态 离散 化成 N 段 ， x = 0 , 1 ， … ， i , … , j , … , N ; 将 控制 离散 化成 M 段 ， u = 0 , 1 , … , k , … , M ； 格子 点 间距 为 L . wk 为 一个 连续 的 随机变量 ， 不 需要 离散 化 . 这样 就 可以 推出 即时 报酬 r ( i , k ) = C ( k . L ) + hmax ( 0 , i . L + k . L - wk ) + pmax ( 0 , wk - i . L - k . L ) ； 状态 转移 概率 Pij ( k ) = P ( j . L ≤ max ( 0 , i . L + k . L - wk ) ＜ ( j + 1 ) . L ) . 然而 由于 随机 需求量 wk 的 概率分布 是 未知 的 ， 所以 式 中 的 Pij ( k ) 实际上 也 是 未知 的 . 在 仿真 中 系统 状态 根据 式 ( 3 ) 进行 转移 并 集结 到 相应 的 格子 点上 . 在 决策空间 离散 化后 ， 为了 加快 Q 学习 算法 的 收敛 速度 和 求得 最优 策略 ， 下面 提出 了 一种 新 的 探索 策略 来 选择 控制 行为 . 
+ 3 　 探索 策略 
+ 　 　 在 Q 学习 方法 的 实现 中 ， 有 多种 探索 方法 ［ 5 ］ . 但 最为 常用 的 是 Boltzmann 分布 探索 . 假定 在 时间 步 k 时 ， 状态 为 xk , 控制 a ∈ A ( xk ) ， A ( xk ) 是 状态 为 xk 时 的 控制 集合 . 定义 E ( a ) = Q ( xk , a ) ， a ∈ A ( xk ) . 则 控制器 用 以下 概率 来 选择 控制 a 
+ 
+ ( 7 ) 
+ 其中 T 为 温度 因子 ， 随着 学习 进行 而 逐渐 衰减 . 
+ 　 　 根据 Boltzmann 分布 探索 方法 的 特点 ， 在 其 基础 上 提出 了 一种 新 的 基于 计数器 的 直接 探索 方法 . 在 每个 时间 步 k ， 控制器 用 以下 概率 来 选择 控制 a 
+ 
+ ( 8 ) 
+ 其中 Pexploit ( a ) 为 Boltzmann 分布 探索 ， 如式 ( 7 ) 所示 . 式 ( 8 ) 中 的 Γ ( 0 ＜ Γ ＜ 1 ) 选一 固定值 或 一 简单 的 分段 函数 . 而式 ( 8 ) 中 的 Pexplore ( a ) 由下式 确定 
+ 
+ ( 9 ) 
+ 其中 
+ 
+ ( 10 ) 
+ ( 10 ) 式 中 n ( xk , a ) 为 到 时间 步 k 为止 ， 系统 在 状态 xk 执行 控制 ak 的 次数 . α , β 为 常数 且 满足 α ＞ 0 , β ＞ 0 . 参数 m ( m ＞ 0 ) 随 学习 进行 而 逐渐 衰减 到 零 . 由于 0 ≤ Pexplore ( a ) ≤ 1 , 0 ≤ Pexploit ( a ) ≤ 1 , 由 ( 8 ) 式 显然 可证 0 ≤ P ( a ) ≤ 1 及 在 学习 过程 的 初始 阶段 ， 对 衋 ∈ A ( xk ) ， 式 ( 7 ) 中 的 温度 T 和 式 ( 10 ) 中 的 参数 m 越大 ， Pexploit ( a ) 分布 越 均匀 而 Pexplore ( a ) 的 分布 越有 差异 ， 此时 系统 将 主要 根据 Pexplore ( a ) 来 选择 控制 行为 ， 从而 保证 环境 被 充分 探索 和 获取 各种 控制 经验 . 随着 学习 的 进行 ， T ， m 逐渐 衰减 ， a ∈ A ( xk ) , Eexplore ( a ) 的 值 将 逐渐 趋向 一致 ， 从而 使 Eexploit ( a ) 分布 越有 差异 而 Eexplore ( a ) 的 分布 越为 均匀 ， 此时 代表 控制 经验 的 Eexploit 在 控制 行为 a 的 选择 中 逐渐 增加 了 作用 而 代表 环境 探索 的 Eexplore 逐渐 减少 作用 ， 从而 增加 已有 控制 经验 的 利用 和 改善 系统控制 性能 . 随着 学习 的 进一步 进行 ， m , T 将 趋向于 零 ， a ∈ A ( xk ) ， 为 集合 A ( xk ) 中 控制 的 个数 ， 此时 系统 将 主要 根据 Pexploit ( a ) 来 选择 控制 行为 ， 从而 来 充分利用 控制 经验 和 保证 算法 的 收敛 速度 . 在 m , T 都 趋于 零时 探索 策略 实质 上 已 变成 一半 均匀分布 探索 ， 即以 概率 值为 Γ 选择 对应 Q 值 最大 的 控制 ， 而 以 概率 值为 1 - Γ 随机 均匀 地 在 所有 可行 控制 中 进行 选择 ， 这样 在 学习 过程 的 最后 阶段 一方面 能 保证 算法 的 收敛 速度 ， 另一方面 也 仍然 保留 了 对 环境 的 一定 探索 以 求得 最优 策略 . 
+ 4 　 仿真 及 结果 
+ 　 　 在 仿真 实例 中 ， 产品 的 仓库 库存 限量 R = 100.0 ， 单位 产品 的 库存 费用 h = 1.0 , 单位 产品 的 脱 需 费用 p = 9.0 ， 单位 产品 的 订货 费用 c = 2.0 ， 订货 固定 费用 K = 0.0 . 折扣 因子 γ = 0.90 . 随机 需求 wk 服从 ( 50 ， 102 ) 的 正态分布 . 在 模型 已知 时 ， 将 状态 、 控制 分别 离散 化成 N = M = 50 段 ， 格子 点 间距 为 L = 2.0 ， 用值 迭代法 求得 问题 的 最优 策略 如图 1 所示 . 同时 在 模型 未知 时 ， 将 状态 、 控制 分别 离散 化成 N = M = 25 段 ， 格子 点 间距 为 L = 4.0 . Q 学习 方法 结合 新 的 基于 计数器 的 探索 方法 在 经过 15.9 万次 迭代 后 求得 问题 的 控制策略 如图 2 所示 ， 继续 迭代 控制策略 可 收敛 到 图 1 所示 的 最优 策略 . 而 Q 学习 方法 结合 Boltzmann 分布 探索 在 经过 32.4 万次 迭代 后 求得 问题 的 控制策略 如图 3 所示 ， 但 该 方法 在 经过 上 千万次 迭代 后 仍然 不能 完全 收敛 到 问题 的 最优 策略 . 图 1 - 3 中 u ( x ) 表示 控制策略 ， x 表示 状态 . 
+ 
+ 　 　 图 1 　 　 　 　 　 　 　 　 　 图 2 　 　 　 　 　 　 　 　 　 图 3 
+ 注 ． 图 1 设 模型 已知 时 ， 用值 迭代法 求解 的 最优 策略 　 N = M = 50L = 2.0 ； 
+ 　 　 图 2 设 模型 未知 时 ， 用 Q 学习 算法 结合 新 的 探索 策略 求解 的 控制策略 　 N = M = 25L = 4.0 ； 
+ 　 　 图 3 设 模型 未知 时 ， 用 Q 学习 算法 结合 Boltzmann 分布 探索 策略 求解 的 控制策略 　 N = M = 25L = 4.0 . 
+ 　 　 比较 图 1 、 图 2 可知 ， Q 学习 算法 所 求得 的 控制策略 和 在 模型 已知 的 情况 下用值 迭代法 求得 问题 的 最优 策略 非常 逼近 ， 均 为 ( 6 ) 式 所示 的 S * 策略 ， S * 约 为 60.0 . 而且 仿真 表明 通过 Q 学习 的 继续 迭代 ， 图 2 所示 的 控制策略 可以 收敛 到 最优 策略 . 这一 结果 说明 了 在 系统 模型 未知 的 情况 下 ， 通过 离散 化 问题 的 状态 和 决策空间 ， 可以 用 Q 学习 算法 来 求解 某些 有 连续 状态 和 决策空间 的 马氏 决策问题 的 最优 策略 . 同时 通过 比较 图 2 、 图 3 可知 ， 新 的 探索 策略 和 Boltzmann 分布 探索 相比 ， 不仅 提高 了 学习 速度 而且 求解 的 控制策略 明显 更 逼近 最优 解 以至 能 收敛 到 最优 解 . 
+ 5 　 结语 
+ 　 　 本文 讨论 了 Q 学习 算法 及 相关 的 探索 技术 ， 提出 了 一种 新 的 探索 策略 并 将 该 策略 和 Q 学习 算法 有效 结合 来 求解 一类 典型 的 有 连续 状态 和 决策空间 的 库存 控制 问题 . 仿真 表明 ： 该 方法 所 求解 的 控制策略 和 用值 迭代法 在 模型 已知 的 情况 下 所 求得 的 最优 策略 非常 逼近 ， 从而 证实 了 Q 学习 算法 在 一些 系统 模型 未知 的 工程 控制 问题 中 的 应用 潜力 . 
+ 1 ) 国家自然科学基金 资助 项目 . 
+ 作者简介 ： 蒋国飞 　 1971 年生 ， 1993 年 毕业 于 北京理工大学 自动控制 系 . 现为 北京理工大学 博士生 . 主要 研究 方向 是 最优控制 和 智能 控制 等 . 
+ 　 　 吴沧浦 　 简介 见 本刊 第 20 卷 第 6 期 . 
+ 作者 单位 ： 北京理工大学 自动控制 系 　 北京 　 100081 
+ 参考文献 
+ 1 　 WatkinsCJCH . Learningfromdelayedrewards . Ph . D . Dissertation , King ' sCollege , UK , 1989 
+ 2 　 BartoAG , BradtkeSJ , SinghSP . Learningtoactusingreal - timedynamicprogramming . ArtificialIntelligence , 1995 , 72 : 81 - 135 
+ 3 　 LinLJ . Self - improvingreactiveagentsbasedonreinforcementlearning , planningandteaching . MachineLearning , 1992 , 8 : 293 - 321 
+ 4 　 BerstekasDP . DynamicProgrammingandStochasticControl . NewYork ： AcademicPress , 1976 
+ 5 　 ThrunSB . Theroleofexplorationinlearningcontrol . HandbookofIntelligentControl : Neural , FuzzyandAdaptiveApproaches . NY ： VanostrandReinhold , 1992 
+ 6 　 SuttonRS , BartoAG , WilliamsRJ . Reinforcementlearningisdirectadaptiveoptimalcontrol . IEEEControlSystemMagazine , 1992 , 12 ( 2 ) : 19 - 22 
+ 7 　 PengJ . Efficientdynamicprogramming - basedlearningforcontrol . Ph . D . thesis , NortheasternUniversity , USA , 1993 
+ 收稿 日期 　 1997 - 04 - 14 
+ 收 修改稿 日期 　 1997 - 11 - 10 

@@ -1,0 +1,86 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1999 年 第 25 卷 第 6 期 Vol.25 No.61999 
+ 
+ 
+ 
+ 线性 定常 系统 镇定 问题 的 输出 反馈 解 
+ 钱 　 春 
+ 摘 　 要 　 研究 了 通过 Riccati 方程 中 矩阵 D 的 选择 ， 以 实现 由 输出 反馈 u = - Ly 来 镇定 系统 的 目的 . 关于 上述 问题 OFSLQ 问题 有解 D ， 以 使 相应 的 Riccati 方程 存在 正定 解 P ， 满足 ， 且 给出 对 某个 L ， 有 B ′ P = LC 的 充要条件 . 
+ 关键词 　 镇定 ， 输出 反馈 . 
+ OUTPUTFEEDBACKSOLUTIONFORTHEPROBLEM 
+ OFSTABILIZATIONOFLINEARTIME - INVARINGSYSTEM 
+ QIANChun 
+ ( DepartmentofCivilEngineering , ZhejiangUniversity , Hangzhou 　 310027 ) 
+ Abstract 　 ThispaperisconcernedwiththeproblemofchoosingmatrixDintheRiccatiequationsothatthesystemcanbestabilizedbytheoutputfeedbacku = - Ly . Anecessaryandsufficientconditionforthisquestionisobtained , namely , OFSLQhasasolutionDsuchthatAREhasthepositivedefinitesolutionPsatisfying , andforsome , L , B ' P = LC . 
+ Keywords 　 Stabilization , outputfeedback . 
+ 1 　 引言 
+ 　 　 考虑 一个 线性系统 
+ 　 　 ( 1 ) 
+ 其中 x ∈ Rn 是 状态 ， u ∈ Rr 是 控制 ， y ∈ Rm 是 输出 ， 假定 ( A ， B ) 能控 . 对式 ( 1 ) 研究 的 一个 非常 重要 的 课题 就是 ， 如何 通过 反馈 控制 律 的 确定 ， 以 达到 镇定 系统 的 目的 . 线性系统 理论 的 一个 基本 定理 保证 了 在 ( A ， B ) 能控 的 假定 下 ， 闭环 极点 可任意 配置 ， 即任 给 一组 “ 对称 ” 谱 Σ ， 存在 K ， 使 σ ( A + BK ) = Σ ， 因而 上述 问题 是 有解 的 . 直接 计算 反馈 矩阵 K 已有 了 许多 算法 . 一般说来 ， 满足 上述 要求 的 K 不 唯一 . 文献 ［ 1 ～ 4 ］ 都 对 本 问题 进行 了 研究 ， 但 得出 的 结论 均 有 一定 的 局限性 . 
+ 　 　 本文 讨论 使 系统 ( 1 ) 闭环 稳定 的 输出 反馈 矩阵 L 的 存在 性 问题 ， 通过 Riccati 方程 
+ ARE : PA + A ′ P - PBB ′ P + D ′ D = 0 　 　 ( 2 ) 
+ 中 矩阵 D 的 选择 来 实现 ， 给出 与 上述 问题 等价 的 OFSLQ 问题 ( 即 选择 D ， 使 对称 解 P = Ric ( A , B , D ) 存在 ， 且 对 某个 L ∈ Rr × m ， 有 B ′ P = LC ) 有解 D 及 正定 解 P 的 一个 充分 必要条件 . 此 条件 不 受 输入 、 输出 维数 的 限制 ， 较具 一般性 . 
+ 2 　 QFSLQ 有解 的 充要条件 
+ 　 　 本文 定理 证明 所 需 的 一些 结果 归纳 为 两个 引理 ， 证明 见 文献 ［ 5 ］ . 
+ 　 　 引理 1 . T ( z ) ∈ ｛ PR ｝ 当且 仅 当 对 任何 非 奇异 矩阵 G ， 有 G ′ T ( z ) G ∈ ｛ PR ｝ . 其中 ｛ PR ｝ 表示 所有 正 实矩阵 的 集合 . 
+ 　 　 引理 2 . 设 ( A ， B ) 能控 ， ( K ， A ) 能观 ， 则 方程组 
+ 　 　 ( 3 ) 
+ 有解 P ∈ Rn × n , Q ∈ Rk × n , M ∈ Rk × r ， 且 P > 0 的 充要条件 是 
+ T ( z ) = J + K ( zI - A ) - 1B ∈ ｛ PR ｝ . 　 　 ( 4 ) 
+ 如 在 状态 空间 的 某 组基下 ， 将 ( A ， B ， C ) 进行 能 观性 结构 分解 ， 得到 
+ 　 　 ( 5 ) 
+ 其中 H 为 变换 矩阵 ， Aij ∈ Rni × nj , Bj ∈ Rnj × r ( i , j = 1 , 2 ; n1 + n2 = n ) , C2 ∈ Rm × n2 ， 且 ( C2 ， A22 ) 是 能观 的 . 易知 这类 变换 不 影响 OFSLQ 问题 的 可 解性 . 因此 ， 今后 把 有关 矩阵 直接 写成 变换 后 的 形式 . 同时 ， OFSLQ 问题 的 可 解性 研究 ， 可 只 针对 ( C ， A ) 能观 的 情形 进行 而 不失 一般性 . 
+ 　 　 本文 的 主要 目标 是 反馈 镇定 系统 ( 1 ) ， 因此 ( A ， B ) 能 稳是 必要 的 . 在 此 假定 下 ， 有 两个 条件 可 保证 A - BB ′ P 渐近 稳定 ， 即 
+ 　 　 ( i ) P 是 ARE ( 2 ) 的 正定 解 ； 
+ 　 　 ( ii ) ( D ， A ) 能 检测 ， 且 P 是 ARE ( 2 ) 的 非 负解 . 
+ 证明 从略 ， 而 ( D ， A ) 能观 同时 保证 了 ( i ) 和 ( ii ) 成立 ， 这 是 更 强 的 条件 . 
+ 　 　 下面 ， 建立 OFSLQ 问题 有解 的 一个 充分 必要条件 . 由于 C 行满 秩 ， rankC = m , 为 方便 起 见 ， 假设 ( A ， B ， C ) 已 具有 
+ 
+ 形式 ， 其中 Aij ∈ Rni × nj , Bj ∈ Rnj × r ( i , j = 1 , 2 ; n1 = n - m ; n2 = m ) . 
+ 　 　 定理 1 . 设 ( A ， B ) 能控 ， ( C ， A ) 能观 ， 则 OFSLQ 问题 有解 D ， 且 P = Ric ( A , B , D ) > 0 的 充分 必要条件 是 
+ 　 　 ( i ) Γ = ｛ K ; B1 + KB2 = 0 ｝ ≠ ? , 　 　 ( 6 ) 
+ 　 　 ( ii ) 存在 K ∈ Γ 和 G > 0 ， 使得 
+ T ( z ) = T ( z ; K , G ) ∈ ｛ PR ｝ , 　 　 ( 7 ) 
+ 其中 
+ 
+ 　 　 证明 . 先证 必要性 . 设 D = ［ D1 , D2 ］ , Dj ∈ Rk × nj ( j = 1 , 2 ) 是 OFSLQ 的 解 ， 且 P = ㏑ ic ( A ， B ， D ) > 0 . 将 P 与 A 一样 分块 
+ 　 　 ( 8 ) 
+ 则 显然 有 P11 > 0 , P22 > 0 . 由 B ′ P = LC 可知 
+ B ′ 1P11 + B ′ 2P ′ 12 = 0 , 　 　 ( 9 ) 
+ 因此 P - 111P12 ∈ Γ ， 这 表明 条件 ( i ) 是 必要 的 . 定义 
+ 　 　 ( 10 ) 
+ 式 中 K = P - 111P12 . 然后 令 AK = S - 1AS , BK = S - 1B , DK = DS , CK = CS , PK = S ′ PS ， 则 有 〥 K = ［ D1 , DK2 ］ , PK = diag ( P11 , PK22 ) ， 其中 DK2 = D2 - D1K , PK22 = P22 - K ′ P11K . 由 ( A ， B ) 能控 ， ( C ， A ) 能观 ， 显然 有 ( AK , BK ) 和 ( CK , AK ) 分别 能控 和 能观 . 从 P = Ric ( A , B , D ) 又 可 推知 PK = Ric ( AK , BK , DK ) ， 则 有 
+ P11AK11 + ( AK11 ) ′ P11 = - D ′ 1D1 , 　 　 ( 11 ) 
+ P11AK12 + ( AK21 ) ′ PK22 = - D ′ 1DK2 , 　 　 ( 12 ) 
+ ( DK2 ) ′ DK2 = PK22B2B ′ 2PK22 - PK22AK22 - ( AK22 ) ′ PK22 . 　 　 ( 13 ) 
+ 同时 ( AK , BK ) 能控 和 ( CK , AK ) 能观 分别 蕴含 了 ( AK11 , AK12 ) 能控 和 ( AK21 ， AK11 ) 能观 ， 而 PK22 > 0 ， 故 ( PK22AK21 ， AK11 ) 亦 能观 . 于是 由 引理 2 知 ， 当式 ( 11 ) ～ ( 13 ) 有解 P11 , D1 , DK2 ， 即 P11 > 0 时 ， ， 其中 
+ 
+ 令 G = ( PK22 ) - 1 ， 则 由 引理 1 知 
+ 　 　 ( 14 ) 
+ 由 ， 显然 有 T ( z ) 的 元素 在 Rez > 0 中 解析 ， 在 虚轴 上 至多 只有 单重 极点 . 若 i ω 0 是 T ( z ) 的 某个 元素 的 极点 ， 则 它 必是 ( z ) 某个 元素 的 极点 . 当 ω 0 有限 时 ， 由 ( z ) ≥ 0 及 当 ω 0 = ∞ 时 ， 由 可知 T ( z ) 亦 有 此 性质 ， 且易知 T ′ ( - i ω ) + ㏕ ( i ω ) ≥ 0 . 所以 T ( z ; K , G ) ∈ ｛ PR ｝ ， 从而 证明 了 条件 ( ii ) 是 必要 的 . 定理 的 必要性 得证 . 
+ 　 　 再证 充分性 . 设 条件 ( i ) 和 ( ii ) 成立 ， 即 存在 K ∈ Γ 和 G > 0 使 T ( z ; K , G ) ∈ ｛ PR ｝ . 令 PK22 = G - 1 > 0 ， 并 颠倒 上面 的 推理 步骤 ， 就 可 证明 式 ( 11 ) ～ ( 13 ) 有解 P11 , D1 , DK2 , 且 P11 > 0 . 将 K ∈ Γ 代入 式 ( 10 ) 得到 S ， 然后 令 ， 则 易知 P 是 关于 ( A ， B ， D ) 的 Riccati 方程 的 解 ， 且 满足 式 ( 9 ) . 由 B ′ 1P11 + B ′ 2P ′ 12 = 0 可知 ， 若令 L = B ′ 1P12 + B ′ 2P22 ， 则 有 B ′ P = LC . 另一方面 ， P11 > 0 和 PK22 > 0 保证 了 P > 0 ， 因此 可知 P 满足 ， 从而 P = Ric ( A ， B ， D ) . 充分性 得证 . 
+ 　 　 最后 应 指出 ， 使 T ( z ; K , G ) ∈ ｛ PR ｝ 的 矩阵 K ∈ Γ 和 G > 0 一般 不 唯一 ， 因而 OFSLQ 问题 的 解 D 也 不 一定 唯一 . 
+ 
+ 3 　 实例 
+ 　 　 实例 将 说明 本文 得出 的 充要条件 适用 于 m ≠ r ， 即 输入 、 输出 维数 不 相等 的 情形 ， 较具 一般性 . 
+ 　 　 例 . 
+ 
+ 此时 n = 3 , m = 2 , r = 1 , m > r . 
+ 　 　 通过 计算 易知 ( A ， B ) 能控 ， ( C ， A ) 能观 . 若取 K = ( 0 , 0 ) ， 
+ 
+ 其中 0 < g1 ≤ 4 , g4 > 0 ， 则 可知 T ( Z ； K ， G ) ∈ ｛ PR ｝ . 此时 方程 ( 2 ) 有解 
+ 
+ 且 显然 A — BB ′ P 稳定 ， ( D ， A ) 能观 ， 取 L = ［ 2 , 2 ］ ， 则 B ′ P = LC . 故 相应 的 OFSLQ 问题 有解 . 
+ 
+ 4 　 结论 
+ 　 　 本文 给出 了 OFSLQ 问题 有解 的 一个 充分 必要条件 ， 即 Γ ≠ ? 以及 T ( z ; K , G ) ∈ ｛ PR ｝ . 所 给 例子 说明 ， 其 结果 不 局限于 输入 、 输出 维数 相同 的 情形 . 但 前 已 指出 ， OFSLQ 问题 的 解 D 不 一定 唯一 ， 如何 利用 这 多余 的 自由度 以 满足 其它 设计 要求 ， 如 鲁棒性 等 ， 还 可 继续 研究 . 
+ 作者简介 ： 钱 　 春 　 1967 年生 ， 1989 年于 浙江大学 应用 数学系 毕业 ， 1992 年 获 运筹学 与 控制论 专业 硕士学位 ， 1993 年 在 美国 DEC 公司 计算机 培训 . 在 各类 学术刊物 上 发表 论文 10 余篇 . 研究 方向 为 最优控制 . 
+ 作者 单位 ： 浙江大学 土木系 　 杭州 　 310027 
+ 参考文献 
+ 1 　 LevineWS , AthansM . Onthedeterminationoftheoptimalconstantoutputfeedbackgainsforlinearmultivariablesystems . IEEE , Trans . Autom . Control , 1970 , AC - 15 : 44 ～ 48 
+ 2 　 DavisonEJ , WangSH . Onpoleassignmantinlinearmultivariblesystemsusingoutputfeedback . IEEETrans . Autom . Control , 1975 , AC - 20 : 516 ～ 518 
+ 3 　 LinHuang , ZhongLi . Fundermentedtheoremforoptimaloutputfeedbackproblemwithquadraticperformancecriterion , IntJ . Control , 1989 , 50 ( 6 ) : 2341 ～ 2347 
+ 4 　 GuGuoxiang . Ontheexistenceoflinearoptimalcontrolwithoutputfeedback . SIAMJ . ControlOptim , 1990 , 28 ( 3 ) : 711 ～ 719 
+ 5 　 AndersonBDO . Asystemtheorycriterionforpositiverealmatrices . SIAMJ . Control , 1967 , 5 ( 2 ) : 171 ～ 182 
+ 收稿 日期 　 1997 - 11 - 12 　 　 收 修改稿 日期 　 1998 - 05 - 15 

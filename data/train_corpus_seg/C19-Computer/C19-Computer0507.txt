@@ -1,0 +1,90 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 第 23 卷 第 1 期 Vol.23 No.11997 
+ 
+ 
+ 
+ 基于 长 序列 立体图 象 的 运动 参数 LS 估计 
+ 黄浴 　 袁保宗 
+ 摘 　 要 　 将 目标 的 运动 表示 为 一个 匀速 旋转 且 旋转 中心 做匀 加速 平移 的 模型 ， 由此 构造 出 一个 由长 序列 立体图 象 、 基于 反对 称 矩阵 分解 ( SSD ) 求解 模型 参数 的 线性 最小 二乘 ( LS ) 算法 . 文中 给出 了 计算机 模拟 的 结果 . 
+ 关键词 　 长 序列 立体图 象 ， 运动 参数估计 ， 计算机 视觉 . 
+ LSMOTIONESTIMATIONBASEDONALONG 
+ SEQUENCEOFSTEREOIMAGES 
+ HUANGYU 　 YUANBAOZONG 
+ ( InstituteofInformationScience , NorthernJiaotongUniversity , Beijing100044 ) 
+ Abstract 　 Inthispapaer , firsttheobject ' smotionisdescribedtobeaconstantrotationabouttherotationcenterwhichtranslatesinaconstantaccelerationmode , thenaskew - symmetricdecomposition ( SSD ) - basedleastsquares ( LS ) algorithmofestimatingthemodel ' sparametersfromalongsequenceofstereoimagesisproposed . Resultsofcomputersimulationsaregiven . 
+ Keyword 　 Longsequenceofstereoimages , Estimationofmotionparameters , Computervision . 
+ 1 　 引言 
+ 　 　 在 计算机 视觉 领域 ， 序列 图象 的 三维 运动 分析 占有 重要 的 地位 ， 而 其 方法 大致 分为 两类 ［ 1 ］ ： 光流法 和 特征 对应 法 . 以往 的 运动 估计 方法 基于 二帧 或 三 帧 图象 ， 其 缺点 在于 没有 充分利用 所 获得 的 信息 ， 而长 序列 图象 为此 提供 了 一条 新途径 ［ 2 ］ . 基于 长 序列 图象 的 运动 估计 方法 的 关键问题 是 运动 建模 . 
+ 　 　 本文 建立 一种 以 目标 为 中心 的 运动 模型 ， 由此 构造 出 一个 由长 序列 立体图 象中 的 目标 对应 特征 点估计 模型 参数 的 LS 算法 . 文中 给出 了解 的 唯一性 分析 和 计算机 模拟 结果 . 
+ 2 　 长 序列 图象 中 目标 的 运动 模型 
+ 　 　 在 大多数 基于 两帧 的 运动 分析方法 中 采用 以 镜头 为 中心 的 描述 方式 ［ 1 ］ ， 即 
+ Xn = Rn - 1Xn - 1 + tn - 1 , 　 　 　 ( 1 ) 
+ 其中 Xn = ｛ pn1 , pn2 , … pnm ｝ 是 n 时刻 的 目标 特征 pni 点集 ， n = 0 , 1 , … f - 1 , f 为 离散 采样 时刻 数 ， m 是 所取 特征 点数 ， 而 Rn - 1 , tn - 1 分别 为 ( n - 1 ) 时刻 至 n 时刻 运动 的 旋转 矩阵 和 平移 向量 . 这里 默认 旋转 中心 位于 坐标系 的 原点 . 
+ 　 　 目标 的 运动 还 可 视为 围绕 一个 3 - D 空间 点 ( 旋转 中心 ) 的 旋转 及 该点 相对 镜头 的 平移 ， 即 下面 以 目标 为 中心 的 描述 方式 
+ 　 　 　 　 ( 2 ) 
+ 其中 On , Tn - 1 分别 是 n 时刻 的 旋转 中心 及其 从 ( n - 1 ) 时刻 至 n 时刻 的 平移 向量 ， Xn , Rn - 1 同 ( 1 ) 式 . ( 2 ) 式 给出 了 旋转 中心 ， 故比 ( 1 ) 式 更 利于 目标 真实 运动 的 描述 . 
+ 　 　 在 模型 的 实用性 和 算法 的 复杂性 之间 折衷 ， 采用 匀 加速 平移 和 匀速 旋转 模型 ， 即 
+ Rn = R , Tn = T0 + Ta , 　 n = 1 , 2 … ， f - 1 . 　 　 　 ( 3 ) 
+ ( 3 ) 式 代入 ( 2 ) 式 得 
+ 　 　 　 　 ( 4 ) 
+ 　 　 在 此 需注意 On 的 多义性 ， 即 旋转轴 上 的 任意 一点 均 可 做 旋转 中心 ， 故令 O0 满足 约束条件 
+ O0 = ［ O0x , O0y , O0z ］ T , 　 O0z = d , 　 　 　 ( 5 ) 
+ 其中 d 为 常数 . 
+ 3 　 基于 SSD 的 运动 估计 最小 二乘 算法 
+ 　 　 已知 目标 的 特征 点集 Xn = ｛ pn1 , pn2 , … pnm ｝ ， 而 未知 模型 参数 是 R ， Ta , O0 , T0 ( 12 个 未知 变量 ) ， 以下 推导 求解 上述 参数 的 算法 . 
+ 　 　 首先 ， 根据 ( 2 ) 式 所 求解 的 问题 转化 为 
+ 　 　 　 　 ( 6 ) 
+ 其中 
+ 　 　 先 给出 Carley 定理 ［ 3 ］ 如下 
+ 　 　 定理 1 　 在 一个 反对 称 矩阵 和 旋转 矩阵 ( 其 特征值 不 等于 - 1 ) 之间 存在 以下 一一对应 关系 
+ R = ( I - Sk ) - 1 ( I - Sk ) ＜ = ＞ Sk = ( R + I ) - 1 ( R - I ) ， 　 　 　 ( 7 ) 
+ 其中 k = ［ k1 , k2 , k3 ］ T 称为 Carley 向量 ， 而 对应 的 反对 称 矩阵 是 
+ 　 　 　 　 ( 8 ) 
+ 　 　 将 ( 7 ) 式 代入 ( 6 ) 式 ， 问题 又 转化 为 
+ 　 　 　 　 ( 9 ) 
+ 其中 un , i = qn , i + qn - 1 , i , υ n , i = qn , i - qn - 1 , i . 
+ ( 9 ) 式 等价 于 
+ D . k = c 　 　 　 　 ( 10 ) 
+ 正则方程 的 求解 . 
+ 其中 
+ 　 　 若 Carley 向量 得到 ， 则 可 由 ( 7 ) 式 求出 R . 
+ 　 　 以下 讨论 方程 ( 10 ) 解 的 唯一性 . 首先 令 
+ 
+ 
+ 
+ 
+ 　 　 　 　 ( 11 ) 
+ 其中 mij 属于 矩阵 M 的 元素 ， i , j = 1 , 2 , 3 . 这样 可 得 
+ D = ω I - SST , 　 c = - u . 　 　 　 ( 12 ) 
+ 　 　 定理 2 　 方程 ( 10 ) 存在 唯一 解 〈 = 〉 rank ( S ) ≥ 2 . 
+ 　 　 证明 　 SST 半 正定 ， υ i 为 其 特征值 ， υ i ≥ 0 ， i = 1 , 2 , 3 ; 
+ 
+ 　 　 证毕 . 
+ 　 　 R 得到 之后 ， 可 构造 方程组 
+ 
+ 简记 为 
+ A . y = b , f ≥ 3 . 　 　 　 ( 13 ) 
+ 其中 l = ( f - 1 ) ( f - 2 ) / 2 , 　 f ≥ 3 . 显然 rank ( A ) = 8 ， 因此 需 利用 约束条件 ( 5 ) ， 这样 得到 方程组 
+ 　 　 　 ( 14 ) 
+ 其中 eT3 = ［ 0 , 0 , 1 , 0 , … , 0 ］ 1 × 9 , y 的 最小 二乘 解为 
+ 　 　 　 ( 15 ) 
+ 4 　 计算机 模拟 结果 及 结束语 
+ 　 　 首先 随机 产生 初始 3D 特征 点集 ， 即 X0 = ｛ p0i = ( x0i , y0i , z0i ) , i = 1 , 2 , 3 } , 其中 x0i , y0i , z0i 取自 ［ - 4 ， 4 ］ ， i = 1 ， 2 ， 3 ； 旋转 运动 的 三个 欧拉角 α ， β ， γ 在 ［ - 10 ° ， 10 ° ］ ， 初始 旋转 中心 各 分量 ( z 分量 已知 ) 在 ［ - 3 ， 3 ］ ， 初始 平移 向量 各 分量 在 ［ 1 ， 1.5 ］ ， 加速 平移 向量 各 分量 在 ［ 0 ， 0.5 ］ ， 则 由 上述 参数 可 得到 Xn = { pni , pn2 , pn3 } , n = 1 , 2 , … ， f - 1 . 
+ 　 　 立体 视觉 成 象 系统 构造 如下 ： 两 镜头 光轴 均 平行 于 z 轴 ， 左右 镜头 中心 位于 x 轴 ， 二者 的 中点 为 原点 . 基线 长 = 6 ， 焦距 = 1 . 通过 透视 成 象 ， 特征 点 pni 分别 在 左右 镜头 得象点 pLni , PRni , 附加 高斯 噪声 于象 坐标 ； 再 根据 三角测量 得到 含噪 的 X ′ n = { p ′ n1 , p ′ n2 , p ′ n3 } , n = 1 , 2 , … ， f - 1 . 
+ 　 　 现 f 从 4 至 10 变化 ， SNR = 30dB ； 按 上节 算法 求解 运动 参数 ， 模拟 次数 = 30 . 实验 结果 见图 1 . ( a ) 关于 初始 平移 向量 . ( b ) 关于 加速 平移 向量 . ( c ) 关于 旋转 角 α ， β ， γ . 由图 1 可见 ， 在 不 增加 特征 点数 ( 取为 3 ) 的 情况 下 ， 估计 精度 随帧 数 增加 而 提高 . 
+ 　 　 最后 ， 可 在 ( 6 ) 式 引入 权函数 Wn , i ， 即得 
+ 　 　 　 ( 16 ) 
+ 其中 n = 0 , 1 , … ， f - 1 . 这里 Wn , i 可取 0 - 1 值以 适应 图象 序列 中 目标 特征 点 的 遮蔽 ( 0 ) 和 可见 ( 1 ) ， 也 可取 为鲁棒 统计学 中 的 Tukey 函数 ［ 4 ］ 迭代 地 消除 出格 点 的 干扰 ［ 5 ］ . 
+ 
+ 
+ 
+ 图 1 　 运动 参数估计 的 误差 曲线 
+ 作者 单位 ： 该 研究 得到 国家 高科技 “ 863 ” 项目 的 资助 . 项目编号 ： 863 - 306 - 03 - 01 . 
+ 参考文献 
+ ［ 1 ］ AggarwalJK , NandhakummarN . Onthecomputationofmotionfromsequencesofimages : areview . inProc . IEEE , 1988 , 76 ( 8 ) : 917 - 935 . 
+ ［ 2 ］ 黄浴 ， 袁保宗 . 序列 图象 运动 分析 及其 在 单 镜头 长 序列 图象 方面 的 进展 . 铁道 学报 ， 1994 ， 16 ( 4 ) : 35 - 42 . 
+ ［ 3 ］ BottemaO , RothB . TheoreticalKinematics . NewYork : NorthHolland , 1979 . 
+ ［ 4 ］ HuberPJ . Robuststatistics . NewYork : JohnWiley , 1981 . 
+ ［ 5 ］ HuangY , YuanB . RobustLSmotionestimationfromalongsequenceofstereoimages . Proc . ofInt . Conf . onNeuralNetworkandSignalProcessing , Nanjing , China , November , 1995 . 
+ 收稿 日期 　 1995 - 02 - 07 

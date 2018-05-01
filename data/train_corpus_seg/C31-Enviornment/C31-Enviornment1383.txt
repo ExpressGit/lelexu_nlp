@@ -1,0 +1,138 @@
+环境 科学 学报 
+ ACTASCIENTIAECIRCUMSTANTIAE 
+ 1999 年 第 19 卷 第 6 期 Vol.19 No.61999 
+ 
+ 
+ 
+ 北极冰 化学元素 含量 及其 分布 * 
+ 方精云 　 刘少创 
+ 摘要 　 报道 了 北极冰 主要 化学元素 的 浓度 分布 及其 变化 . 在 测定 的 31 种 成分 中 ， 高于 仪器 检测 限 的 10 种元素 B 、 Mg 、 V 、 As 、 Rb 、 Sr 、 Ca 、 K 、 S 、 Na 和 硬度 被 用来 统计分析 . 结果表明 ， 同一 地区 ， 元素 浓度 相对 稳定 ， 不同 地区 浓度 有 较大 差异 . 元素 浓度 与 纬度 关系 的 相关 分析 显示 ， 随 纬度 增加 ， 各 元素 浓度 显著 降低 . 同一 冰层 元素 浓度 的 变化 与 深度 无关 . 元素 间 相关矩阵 揭示 ， 元素 浓度 间 存在 显著 的 相关 关系 ， 并且 相关系数 均 为 正值 ， 即 随 某 一 元素 浓度 的 增加 ， 其他 元素 的 浓度 也 随之 增加 . 导致 这一 现象 的 原因 有待于 进一步 分析 . 
+ 关键词 　 北极冰 ; 化学成分 ; 冰层 ; 纬度 ; 统计分析 . 
+ Contentsanddistributionofchemicalelementsinarcticice 
+ FANGJingyun ( DepartmentofUrban & EnvironmentalSciences , PekingUniversit , Beijing100871 ) 
+ LIUShaochuang ( InstituteofRemotSensingApplications , AcademicofScience , Beijing100101 ) 
+ Abstract 　 ContentsandthedistributionofmainchemicalelementsiniceinCanadianArcticSeaarereported . Tenelements , B , Mg , V , As , Rb , Sr , Ca , K , S , Na , andhardnessweredetected , andthedatawereusedforstatisticalanalysis . Theresultsshowedthatthecontentofanelementhasasimilarvalueinthesameplace , butdifferenceisfoundfromplacetoplace . Contentofanelementdecreaseswithincreasinglatitude , butkeepsunchangedindifferentdepthinthesameiceprofile . Acorrelationmatrixshowsthattherearestrongcorrelationsbetweencontentsofdifferentelements , namely , contentofanelementincreaseswiththatofothers , butthecauseisunknownyet . 
+ Keywords 　 Arcticice , chemicalelement , iceprofile , latitude , statisticalanalysis . 
+ 　 　 北冰洋 构成 北极圈 的 中心 ， 是 地球 上 最大 的 海水 冰原 . 据 测算 ， 北极 的 陆地 总面积 为 148 × 107km2 ［ 1 ］ ， 冬天 北冰洋 的 冰面 面积 可达 23 × 107km2 ［ 2 ］ ， 到 了 面积 最小 的 9 月份 ， 冰面 面积 仍 可达 8 × 107km2 ［ 3 ］ . 如此 巨大 的 冰面 其 环境 状况 如何 ， 自然 是 人们 所 十分关心 的 . 为此 ， 我国 首次 北极 科考 的 环境 考察 内容 之一 是 调查 北极冰 中 化学元素 含量 . 关于 北极 冰雪 中 某些 化学元素 或 其 同位素 的 含量 及其 分布 的 研究 , 国外 已有 不少 报道 ［ 4 — 7 ］ , 但 冰雪 中 多种 化学元素 含量 , 尤其 是 它们 的 地理分布 特征 的 研究 却 不多见 . 作者 在 这次 科考 过程 中 ， 对 北极冰 进行 了 大 范围 的 取样 ， 取样 地理 跨度 南起 北纬 74 ° 48 ′ N 的 Resolute ， 北 至 北极点 ， 共 取得 冰样 31 个 . 这些 样品 为 研究 北极冰 的 化学元素 背景 及其 地理分布 特征 提供 了 宝贵 资料 . 
+ 1 　 材料 和 方法 
+ 1.1 　 材料 
+ 　 　 1995 年 4 — 5 月 ， 在 高纬度 北极 地区 共 采集 样品 31 个 ， 其中 在 Resolute 和 Eureka 分别 掘起 200cm ( R - 2 ) 、 100cm ( R - 1 ) 和 50cm ( Eu - 1 ) 的 冰层 剖面 各 1 个 . 样品 采集 后 置于 低温 ( ＜ 0 ℃ ) 中 保存 . 于 1995 年 6 月 和 12 月 分别 在 中科院 生态环境 研究 中心 和 国家 地质 实验 测试中心 用 ICP 和 ICP - MS 等 仪器 测定 冰中 主要 化学元素 含量 . 测定方法 见 文献 ［ 8 ］ . 
+ 1.2 　 仪器 
+ 　 　 将 保存 于 低温 下 的 冰 自然 融化 后 ， 采用 不同 仪器 对 30 种 化学元素 含量 和 硬度 进行 了 测定 . 
+ 　 　 ( 1 ) CP - MS ( VGPlasmaQuad ) . 功率 : 1.25 kW ； 载气 ： 0.7 L / min . 
+ 　 　 测试项目 ： Be , B , Ti , V , Cr , Mn , Co , Ni , Cu , Zn , Ga , As , Rb , Sr , Y , Zr , Nb , Cd , Ba , Hg , Pb , Th . 
+ 　 　 ( 2 ) ICP - AES ( JA - 1160 ) . 功率 : 1.0 kW , 载气 ： 0.5 L / min ; 反射 功率 ＜ 5W ; 冷却 气 ： 0.5 L / min . 测试项目 ： Si , Al , Fe , Ca , Mg , Na , P . 
+ 　 　 ( 3 ) 用 原子 吸收 分光 光度计 ( Z - 8000 ) ， 测定 K . 波长 769.9 nm ， 狭缝 1.3 nm ， 灯电 7.5 mA . 
+ 2 　 结果 和 讨论 
+ 2.1 　 主要 元素 含量 
+ 　 　 31 个 样品 30 种 化学 组分 的 测定 结果显示 ， 不少 元素 的 含量 值 低于 仪器 检测 限 或 在 其 附近 变动 . 为 便于 分析 元素 含量 的 地理分布 规律 和 元素 间 的 关系 ， 将 高于 检测 限 的 10 种元素 和 硬度 列于 表 1 ， 并 分别 求 出 不同 地点 的 平均 元素 含量 和 标准差 以及 它们 的 平均值 ( 表 2 ) . 在 表 2 中 ， 位于 北纬 86 ° 30 ′ 的 临时 冰上 机场 附近 ( 见表 1 的 样号 B29 ) 所获 数据 末 列入 计算 ， 这 是因为 该 冰上 临时 机场 每天 有 数次 飞机 升降 ， 此处 的 冰 已 受到 飞机 升降 的 显著 影响 . 冰 化学元素 含量 的 高低 不仅 与 冰 冻结 时 的 海水 化学成分 有关 ， 也 与 冰层 的 形成 时间 及 当时 的 环境 状况 有关 ， 但 要 确切 地 弄清 其 原因 是 相当 困难 的 . 因为 北冰洋 的 冰 和 海水 始终 处于 流动 之中 ， 因此 ， 我们 在 某处 获得 的 样品 到底 来自 何处 并 不 清楚 . 另外 ， 我们 也 难以 确认 冰层 形成 的 时间 . 
+ 　 　 本次 所取 冰样 多 为 多年 冰 ， 是 海水 经 数年 交替 冻结 而成 . 为 比较 冰 的 化学元素 含量 与 海水 的 化学元素 含量 之间 的 差异 ， 在 表 2 中 还 分别 列出 了 位于 ResoluteBay 的 R - 2 号 冰层 剖面 之下 的 海水 样品 ( 见表 1 的 样号 B16 ) 的 化学元素 含量 ， 以及 全球 海水 的 平均 元素 含量 ［ 9 ］ . 从表 2 可知 ， 北极冰 平均 元素 含量 与 海水 的 化学元素 含量 相差 较大 . 这 主要 是 由于 冰层 形成 后 ， 由 重力 作用 和 雨水 淋洗 作用 导致 冰中 化学元素 沉降 的 缘故 . 这里 ， 我们 定义 冰层 的 某 一 元素 含量 ( Ci ) 与 海水 中该 元素 的 含量 ( Cs ) 的 百分比 值为 沉降 指数 ( Dropindex , Di ) , 即 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ K 、 Ca 、 Mg 这类 主要 以 离子 形态 存在 于 海水 中 的 碱金属 或 碱土金属 元素 均 呈现出 较 小 的 Di 值 ， 即 沉降 速率 快 ， 而象 As 和 B 这类 非 金属元素 的 Di 值 甚大 ， 表现 出 相当 强 的 稳定性 ， 沉降 速率 慢 . 
+ 2.2 　 元素 浓度 的 纬 向 分布 和 垂直 分布 
+ 　 　 表 3 列出 表层 冰 主要 元素 含量 与 纬度 之间 的 关系 以及 2 个 冰层 剖面 ( R - 1 和 R - 2 ) 主要 化学元素 含量 与 冰层 深度 的 关系 . 11 种 化学成分 的 含量 与 纬度 之间 均 显示 了 显著 的 负相关 关系 ， 其 显著性 概率 ( P 值 ) 均 小于 0.06% . 即 随着 纬度 的 增加 ， 元素 含量 逐渐 降低 . 另一方面 ， 在 同一 冰层 中 ( R - 1 和 R - 2 ) ， 随着 深度 的 变化 ， 各 元素 含量 并 不 显示 有 规则 的 变化 ( 表 4 ) . 除了 剖面 R - 2 中 的 元素 V ( P = 4.22% ) 和 S ( P = 22.39% ) 之外 ， 其他 元素 的 P 值均 大于 30 ％ ， 说明 元素 含量 与 深度 之间 无 显著性 相关 . 虽然 我们 所 取样 的 冰层 为 不同 年份 形成 的 多年 冰 ， 但 冰层 并 不厚 ( 最厚 的 冰层 ( R - 2 ) ， 冰厚 也 仅 为 2m ) ， 也就是说 形成 的 年数 并不多 ， 因而 化学元素 在 冰层 剖面 中 的 分布 尚 不能 明确 地 显示 出来 . 另一方面 也 似乎 说明 ， 在 所 研究 冰层 ， 不同 年份 形成 的 冰 ， 其 元素 含量 没有 显著性 不同 . 
+ 表 1 　 北极冰 主要 化学元素 的 含量 ( μ g / g ) 及 有关 采样 特征 
+ Table1Concentrationsofmainchemicalelementsinarcticiceindifferentsamples 
+ 
+ 采样 地点 纬度 ( N ) 经度 ( W ) 冰层 号样 号 深度 
+ cmBMgVAsRbSrCaKSNa 硬度 
+ Resolute74 ° 48 ′ 94 ° 59 ′ R - 1B10 — 50.36227 . 00.0420 . 0110.0261 . 0961.275 . 6268.017001090 
+ 74 ° 48 ′ 94 ° 59 ′ B2200.27167 . 00.0340 . 0070.0210 . 8445.346 . 6113.0133080 
+ 74 ° 48 ′ 94 ° 59 ′ B3400.18119 . 00.0280 . 0040.0140 . 6432.833 . 353.1899572 
+ 74 ° 48 ′ 94 ° 59 ′ B4600.34314 . 00.0530 . 0120.0291 . 3787.489 . 6231.024401510 
+ 74 ° 48 ′ 94 ° 59 ′ B5800.31281 . 00.0510 . 0120.0271 . 1175.684 . 1190.021901350 
+ 74 ° 48 ′ 94 ° 59 ′ B61000.27224 . 00.0430 . 0130.0251 . 0061.858 . 5134.017301080 
+ Resolute74 ° 48 ′ 94 ° 59 ′ R - 2B70 — 50.26206 . 00.0420 . 0110.0241 . 2057.154 . 8194.01730991 
+ 74 ° 48 ′ 94 ° 59 ′ B8200.23155 . 00.0340 . 0130.0220 . 9242.743 . 4104.01270745 
+ 74 ° 48 ′ 94 ° 59 ′ B9400.19151 . 00.0390 . 0120.0190 . 8041.242 . 0110.01150725 
+ 74 ° 48 ′ 94 ° 59 ′ B10600.23168 . 00.0340 . 0110.0210 . 9046.145 . 368.21250807 
+ 74 ° 48 ′ 94 ° 59 ′ B11800.24187 . 00.0350 . 0110.0230 . 9550.149 . 2111.01410895 
+ 74 ° 48 ′ 94 ° 59 ′ B121000.20183 . 00.0350 . 0090.0190 . 8148.548 . 2162.01440875 
+ 74 ° 48 ′ 94 ° 59 ′ B131200.22182 . 00.0240 . 0120.0210 . 8547.848 . 862.21400869 
+ 74 ° 48 ′ 94 ° 59 ′ B141500.19180 . 00.0250 . 0090.0180 . 7548.747 . 862.01370863 
+ 74 ° 48 ′ 94 ° 59 ′ B152000.32180 . 00.0320 . 0150.0291 . 1847.848 . 4103.01380861 
+ 74 ° 48 ′ 94 ° 59 ′ B16 海水 0.28954 . 00.0580 . 0130.0361 . 47277.0319 . 0284.097304620 
+ Eureka79 ° 59 ′ 85 ° 56 ′ Eu - 1B170 — 50.15157 . 00.0330 . 0070.0130 . 6041.942 . 7230.01440751 
+ 79 ° 59 ′ 85 ° 56 ′ B18200.14134 . 00.0290 . 0050.0120 . 5837.636 . 893.01050646 
+ 79 ° 59 ′ 85 ° 56 ′ B19500.12134 . 00.0280 . 0060.0110 . 5337.637 . 084.51060646 
+ 极点 附近 89 ° 13 ′ ？ P - 1B200 — 20.14152 . 00.0310 . 0100.0130 . 6040.341 . 6132.01220727 
+ 89 ° 13 ′ ？ B21100.0768 . 3 - 0.0090 . 0070.3716 . 720.1 - 538323 
+ 89 ° 13 ′ ？ B22200.15107 . 00.0260 . 0060.0120 . 5832.432 . 288.2835521 
+ 极点 附近 89 ° 38 ′ ？ P - 2B230 — 20.0324 . 90.0090 . 0020.0030 . 208.27 . 428.1212123 
+ 89 ° 38 ′ ？ B24100.0217 . 7 - 0.0020 . 0020.146 . 05.5 - 17488 
+ 89 ° 38 ′ ？ B2520 - 3.20 . 007 - 0.0000 . 030.91 . 25.43116 
+ 冰上 机场 86 ° 30 ′ ？ P - 3B29 表层 0.24318 . 00.0510 . 0080.0220 . 9084.895 . 0286.025701520 
+ 北极点 90 ° 00 ′ 90 ° 00 ′ P - 4B30 表层 0.0743 . 80.0110 . 0030.0060 . 3414.214 . 458.5370216 
+ 北极点 90 ° 00 ′ 90 ° 00 ′ P - 5B31 表层 0.0337 . 50.011 - 0.0020 . 1113.612 . 846.5301189 
+ 
+ 表 2 　 不同 地点 北极冰 的 主要 化学元素 平均 含量 及 沉降 指数 
+ Table2 　 Averageconcentrationanddropindex ( Di ) ofmainchemicalelementsindifferenticesamples 
+ 
+ 化学 
+ 成分 ResoluteEureka89.13 Nin 
+ latitude89.38 Nin 
+ latitudeNorthPole 北极 海水 含量 ， 
+ μ g / gDi , 
+ % 
+ 平均 含量 , 
+ μ g / g 平均 含量 , 
+ μ g / g 平均 含量 , 
+ μ g / g 平均 含量 , 
+ μ g / g 平均 含量 , 
+ μ g / g 平均 含量 , 
+ μ g / g 
+ B0.29 ± 0.060 . 23 ± 0.040 . 14 ± 0.020 . 03 ± 0.010 . 050.19 ± 0.100 . 2867.9 
+ Mg222.00 ± 71.57176 . 89 ± 16.81141 . 67 ± 13.2815 . 27 ± 11.0540 . 6146.28 ± 78.19954 . 022.4 
+ V0.04 ± 0.010 . 03 ± 0.010 . 03 ± 00.01 ± 00.010 . 03 ± 0.010 . 05851.7 
+ As0.01 ± 00.01 ± 00.01 ± 0000.01 ± 00.01376 . 9 
+ Rb0.02 ± 0.010 . 02 ± 00.01 ± 0000.02 ± 0.010 . 03655.6 
+ Sr1.01 ± 0.250 . 93 ± 0.160 . 57 ± 0.040 . 12 ± 0.090 . 220.71 ± 0.361 . 4748.3 
+ Ca60.68 ± 19.7647 . 78 ± 4.5539 . 03 ± 2.485 . 03 ± 3.7413 . 940.13 ± 20.88277 . 014.5 
+ K64.62 ± 22.2147 . 54 ± 3.7338 . 83 ± 3.354 . 70 ± 3.1813 . 641.05 ± 22.21319 . 012.9 
+ S164.85 ± 79.72108 . 49 ± 44.95135 . 83 ± 81.6616 . 75 ± 16.0552 . 5113.82 ± 67.98284 . 040.1 
+ Na1715.00 ± 559.601378 . 00 ± 161.771183 . 00 ± 222.34139 . 00 ± 95.44335 . 001151.00 ± 605.01973011 . 8 
+ 硬度 947.00 ± 531.00847 . 89 ± 80.34681 . 00 ± 60.6275 . 67 ± 54.56202 . 00675.35 ± 393.07462014 . 6 
+ 
+ 表 3 　 表层 冰 ( 0 — 20cm ) 主要 化学元素 含量 与 纬度 之间 的 相关系数 ( R ) 及其 显著性 概率 ( P ) 
+ Table3Correlationcoefficient ( R ) ofthecontentofchemicalelementstolatitudeandtheirprobability ( P , % ) . 
+ 
+ 元素 BMgVAsRbSrCaKSNa 硬度 
+ R - 0.88 - 0.85 - 0.84 - 0.62 - 0.90 - 0.87 - 0.85 - 0.83 - 0.68 - 0.85 - 0.63 
+ P , % 0.010 . 010.060 . 030.000 . 000.000 . 000.010 . 000.01 
+ 
+ 表 4 　 冰层 剖面 的 主要 化学元素 含量 与 冰层 深度 的 相关 及 显著性 概率 
+ Table4 　 Correlationcoefficient ( R ) ofthecontentofchemicalelementstoiceprofiledepth 
+ intwoiceprofilesandprobability ( P , % ) . 
+ 
+ 元素 BMgVAsRbSrCaKSNa 硬度 
+ R - 1R - 0.130 . 400.460 . 510.280 . 240.410 . 21 - 0.160 . 410.48 
+ 　 P , % 80.4343 . 6836.2630 . 3258.5064 . 6742.2269 . 1575.6941 . 5135.10 
+ R - 2R0.300 . 14 - 0.680 . 160.27 - 0.03 - 0.020 . 07 - 0.45 - 0.090 . 12 
+ 　 P , % 43.6772 . 614.2267 . 4548.8693 . 0696.2185 . 8122.3981 . 6975.20 
+ 
+ 2.3 　 元素 含量 间 的 相关性 
+ 　 　 元素 含量 间 的 相互 关系 具有 重要 的 生物 地球化学 意义 ［ 10 ］ . 图 1 给出 各 元素 间 的 相互 关系 趋势 ( 左 下部 ) 以及 相关系数 和 显著性 相关 概率 ( 右 上部 ) . 10 种元素 含量 和 总 硬度 之间 均 显示 了 显著 的 正 相关 关系 ， 即 随 某 一 元素 浓度 的 增加 ， 其他 元素 含量 也 显著 增加 ， 并且 增加 的 趋势 几乎 是 线性 的 . 关于 淡水 河流 元素 间 的 关系 有 一些 研究 ［ 11 — 13 ］ ， 但 海水 中 的 元素 含量 间 相互 关系 很少 见 报道 . 
+ 
+ 
+ 图 1 　 北极冰 的 10 种 化学元素 及 硬度 间 的 相关性 
+ Fig.1 Correlationshipsamongcontentsofmainchemicalelementsinarcticice 
+ 　 　 样品 采集 得到 中国 首次 北极 科考队 队员 的 大力协助 ， 化学元素 测试 得到 殷兴军 等 先生 的 大力 帮助 . 在 此 一并 致谢 . 
+ * 国家 杰出青年 科学基金 部分 资助 ； 北极 考察 费用 得到 南德 经济 集团 资助 . 
+ 作者 单位 : 方精云 　 北京大学 城市 与 环境 学系 ， 北京 　 100871 
+ 刘少创 　 中国科学院 遥感 应用 研究所 ， 北京 　 100101 
+ 参考文献 
+ 1 　 AMAP . InterimReporttothethirdMinisterialConference : ArcticEnvironmentalProtectionStrategy . ArcticMonitoringandAssessmentProgramme ( AMAP ) , Inuvik , Canada.1996 
+ 2 　 CCAFF . CircumpolarProtectedAreasNetwork - StrategyandActionPlan . ConservationofArcticFloraandFauna ( CAFF ) . HabitatconservationreportNo.6 . Trondheim . Norway.1996 
+ 3 　 EAA / NPI . StateoftheEuropeanArcticEnvironment . HansenJR , HanssonR , NorrisS ( eds ) . EuropeanEnvironmentAgency / NorwegianPolarInstitute ( EEA / NPI ) . EEAEnvironmentalMonographNo . NorskPolarinstituttMeddelelserNo.141 . 1996 
+ 4 　 LandyMP , PeelDA , WolffEW . TracemetalsinremoteArcticsnows : naturaloranthropogenic ? Nature , 1980 , 284 : 574 — 575 
+ 5 　 NeftelA , BeerJ , OeschgerH , ZurcherF . SulphateandnitrateconcentrationsinsnowfromSouthGreenland1895 — 1978 . Nature , 1985 , 314 : 611 — 613 
+ 6 　 VermetteSV , BinghamVG . TraceelementsinFrobisherBayRainwater . Arctic , 1986 , 39 : 177 — 179 
+ 7 　 BoutronCF , DucrozFM , GorlachU , & JaffrezoJL . VariationsinheavymetalconcentrationsinfrechGreenlandsnowfromJanuarytoAugust . AtmosphericEnvironment , 1993 , 27A ( 17 / 18 ) : 2773 — 2779 
+ 8 殷 万宁 . 等离子体 质谱法 测定 天然 水中 痕量 元素 . 岩矿 测试 , 1991 , 10 ( 3 ) : 171 — 174 
+ 9 　 陈静生 等 . 环境 地球化学 ， 北京 ： 海洋 出版社 . 1990 
+ 10 李永祺 ， 丁 美丽 . 海洋污染 生物学 . 北京 ： 海洋 出版社 . 1991 
+ 11 乐 嘉祥 ， 王德春 . 中国 河流 水化学 ， 地理学 报 , 1963 , 29 : 1 — 9 
+ 12GibbsRJ . WaterChenistryoftheAmazonRives , GeochimicaetCosmochimicaActa , 1972 , 36 : 1060 — 1066 
+ 13 　 HuMH . MajorionchemistryofsomelargeChineserivers . Nature , 1982 , 239 : 550 — 553 
+ 1998 - 04 - 28 收到 原稿 
+ 1999 - 01 - 29 收到 修改稿 

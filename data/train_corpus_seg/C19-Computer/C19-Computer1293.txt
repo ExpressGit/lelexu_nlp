@@ -1,0 +1,113 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 2000 　 Vol.26 　 No.1 　 P.116 - 120 
+ 
+ 
+ 
+ 不 确定 系统 具有 圆盘 区域 极点 约束 的 鲁棒控制 
+ 俞立 　 陈 国定 　 杨马英 
+ 摘要 对 一类 不 确定 线性系统 ， 提出 了 存在 状态 反馈 控制 律 ， 使得 闭环 系统 的 所有 极点 均 位于 一 给定 圆盘 中 的 一个 充分 必要条件 . 结合 控制 律 反馈 增益 参数 极小 化 的 要求 ， 建立 了 一个 具有 线性 矩阵 不等式 约束 的 凸 优化 问题 ， 通过 该 问题 的 解 ， 可以 构造 一个 具有 较 小 反馈 增益 参数 和 给定 要求 的 控制 律 . 所 提出 的 方法 既 可 应用 到 连续 系统 ， 也 可 应用 到 离散系统 . 
+ 关键词 不确定性 ， 鲁棒控制 ， 线性 矩阵 不等式 ， 极点 配置 . 
+ ROBUSTCONTROLOFUNCERTAINLINEARSYSTEM 
+ WITHDISKPOLECONSTRAINTS 
+ YULiCHENGuodingYANGMaying 
+ ( CollegeofInformationEngineering , ZhejiangUniversityofTechnology , Hangzhou310032 ) 
+ AbstractForaclassofuncertainlinearsystems , anecessaryandsufficientconditionfortheexistenceofstatefeedbackcontrollawswhichassigntheclosed 瞝 ooppolesinaprespecifieddiskisderivedintermsoflinearmatrixinequalityies ( LMIs ) . TheproblemofdesigningthecontrollerswithsmallergainparametersisformulatedasaconvexprogrammewithLMIconstrains , whichcanbesolvedbytheexistingLMIsoftware . Theproposedmethodisapplicabletobothcontinuousanddiscretetimesystems . 
+ KeywordsUncertainty , robustcontrol , LMI , poleplacement . 
+ 1 引言 
+ 　 　 正如 文献 ［ 1 ］ 所 阐述 的 , 一个 线性系统 的 所有 极点 均 在 复 平面 上 的 一个 适当 圆盘 中将 保证 其 具有 一定 的 稳态 和 动态 性能 . 近年来 , 已 提出 了 一些 方法 , 将 线性系统 的 所有 极点 配置 在 一个 给定 的 圆盘 中 ［ 1 ， 2 ］ . 最近 , 不 确定 系统 具有 圆盘 区域 闭环 极点 约束 的 鲁棒控制 研究 也 取得 了 一些 进展 ［ 3 ～ 6 ］ . 然而 , 文献 ［ 3 ］ 要求 解 一个 带 参数 的 离散 型 Riccati 方程 , 所 提出 的 方法 未必 总能 成功 ; 文献 ［ 4 ］ 尽管 给出 了 一个 凸 优化 的 设计 方法 , 但 它 要求 对系统 进行 增维 , 并且 难以 将 对系统 和 控制 律 的 一些 其它 要求 结合 进去 ; 文献 ［ 5 ］ 和 ［ 6 ］ 的 结果 只能 适用 于 状态 矩阵 中 存在 扰动 的 系统 , 且 提出 的 条件 仅仅 是 充分 的 , 因此 , 限制 了 其 应用 范围 . 另一方面 , 在 求解 文献 ［ 3 ］ , ［ 5 ］ 和 ［ 6 ］ 所 导出 的 Riccati 矩阵 方程 时 , 需先 选定 一些 设计 参数 , 然而 目前 并 没有 根据 使得 问题 有解 或 满足 其它 要求 来 选取 这些 参数 的 有效 方法 . 
+ 　 　 对 一类 不 确定 线性系统 , 本文 提出 了 将 闭环 系统 极点 配置 在 一个 给定 圆盘 中 的 状态 反馈 控制 律 的 存在 性 条件 及 基于 线性 矩阵 不等式 的 凸 优化 设计 方法 , 所 得到 的 控制 律 具有 较 小 的 反馈 增益 参数 . 提出 的 方法 形式 简单 , 处理 方便 , 在 设计 中 可以 有效 地 处理 附加 约束 . 而且 克服 了 在 设计 过程 中需 人为 确定 一些 设计 参数 的 不足 . 同时 本文 提出 的 方法 既 可以 应用 到 连续 系统 , 也 可以 应用 到 离散系统 . 因此 , 它 给出 了 这 一类 问题 的 一个 完整 解 . 
+ 2 问题 的 描述 
+ 　 　 考虑 由 以下 状态方程 描述 的 一类 不 确定 连续 或 离散 线性系统 
+ δ ［ x ( t ) ］ = ( A + Δ A ) x ( t ) + ( B + Δ B ) u ( t ) . 　 ( 1 ) 
+ 其中 分别 是 系统 的 状态 和 控制 向量 ； δ 是 一个 算子 , 对 连续 系统 , δ 是 微分 算子 , 即 对 离散系统 , δ 表示 延迟 算子 , 即 δ ［ x ( t ) ］ = x ( t + 1 ) ； A ， B 是 具有 适当 维数 的 实 常数 矩阵 , Δ A ， Δ B 表示 系统 的 扰动 , 且 假定 具有 以下 的 形式 
+ ［ Δ A Δ B ］ = DF ［ E1E2 ］ , 　 ( 2 ) 
+ 其中 D , E1 , E2 是 具有 适当 维数 的 实 常数 矩阵 , 是 满足 
+ FTF ≤ I 　 ( 3 ) 
+ 的 未知 矩阵 , 上式 中 的 I 表示 适当 维数 的 单位矩阵 . 
+ 　 　 本文 的 目的 是 确定 一个 状态 反馈 控制 律 
+ u ( t ) = Kx ( t ) , 　 ( 4 ) 
+ 使得 对 所有 允许 的 扰动 , 闭环 系统 
+ δ ［ x ( t ) ］ = ［ A + BK + DF ( E1 + E2K ) ］ x ( t ) 　 ( 5 ) 
+ 的 所有 极点 均 位于 预先 给定 的 中心 在 q + j0 , 半径 为 r 的 圆盘 D ( q , r ) 中 . 这样 一个 问题 称为 是 不 确定 系统 ( 1 ) 的 鲁棒 D 镇定 问题 , 控制 律 ( 4 ) 称为 系统 ( 1 ) 的 一个 D 稳定化 控制 律 . 
+ 3D 稳定化 控制 律 存在 的 条件 
+ 　 　 引理 1 ［ 7 ］ 设 A 是 任一 方阵 , 则 σ ( A ) D ( q , r ) 当且 仅 当 存在 矩阵 X > 0 , 使得 
+ И А ( 6 ) 
+ 其中 σ ( A ) 表示 矩阵 的 谱 集 . 
+ 　 　 引理 2 ［ 8 ］ . 对 给定 的 具有 适当 维数 的 矩阵 Y ， H 和 E , 其中 Y 是 对称 的 , 则 对 所有 满足 FTF ≤ I 的 矩阵 F , 
+ 
+ 成立 , 当且 仅 当 存在 一个 常数 ε > 0 , 使得 
+ 
+ 　 　 以下 的 定理 1 给出 了 系统 ( 1 ) 存在 D 稳定化 控制 律 的 一个 充分 必要条件 . 
+ 　 　 定理 1 . 对 所有 满足 ( 2 ) 和 ( 3 ) 式 的 扰动 , 闭环 系统 ( 5 ) 的 所有 极点 均 在 圆盘 D ( q , r ) 中 ， 当且 仅 当 存在 对称 矩阵 X > 0 , 使得 
+ 　 ( 7 ) 
+ 　 　 证明 . 根据 引理 1 , σ ( A + BK + DF ( E1 + E2K ) ) D ( q , r ) 当且 仅 当 存在 对称 矩阵 X > 0 , 使得 
+ 　 ( 8 ) 
+ 定义 矩阵 Y 
+ 
+ 则 ( 8 ) 式 可以 等价 地 写成 
+ 
+ 根据 引理 2 , 上式 对 所有 满足 FTF ≤ I 的 矩阵 F 成立 当且 仅 当 存在 常数 ε > 0 , 使得 
+ 
+ 即 
+ И 
+ 取则 可得 上式 等价 于 矩阵 不等式 ( 7 ) . 定理 得证 . 
+ 4D 稳定化 控制 律 设计 
+ 　 　 基于 上 一节 导出 的 D 稳定化 控制 律 存在 条件 , 本节 将 提出 D 稳定化 控制 律 的 设计 方法 . 
+ 　 　 定理 2 . 对 给定 的 圆盘 D ( q , r ) , 系统 ( 1 ) 存在 D 稳定化 控制 律当且 仅 当 存在 矩阵 Q ∈ Rm × n 和 对称 正定 矩阵 X ∈ Rn × n , 使得 
+ 　 ( 9 ) 
+ 当 ( 9 ) 式 存在 解 Q 和 X > 0 时 , K = QX - 1 是 系统 ( 1 ) 的 一个 D 稳定化 控制 律 的 增益 矩阵 . 
+ 　 　 证明 . 由 矩阵 的 Schur 补 性质 可知 : 矩阵 不等式 ( 7 ) 等价 于 
+ 　 ( 10 ) 
+ 因此 ， 若取 Q = KX ， 则 从 定理 1 即可 得 证本 定理 . 
+ 　 　 不等式 ( 9 ) 是 关于 矩阵 变量 Q 和 X 的 线性 矩阵 不等式 , 所有 满足 ( 9 ) 式 的 Q 和 X 构成 一个 凸集 , 可以 应用 有关 LMI 的 现成 软件 方便 地 判断 该集 是否 非空 并 产生 一个 特解 . 同时 , 定理 2 也 给出 了 系统 ( 1 ) 的 所有 D 稳定化 控制 律 的 一个 刻划 . 利用 这个 性质 , 可以 设计 满足 一些 特定 要求 的 D 稳定化 控制 律 . 特别 的 , 具有 较 小 反馈 增益 参数 的 控制 律 往往 更能 符合实际 的 要求 . 以下 , 我们 给出 这 一类 D 稳定化 控制 律 的 设计 方法 . 
+ 　 　 考虑 
+ 
+ 其中 α > 0 , β > 0 , 由于 K = QX - 1 , 则 
+ 
+ 因此 可以 通过 使得 α 和 β 的 极小 化来 保证 D 稳定化 控制 律 具有 较 小 的 反馈 增益 参数 . 
+ 　 　 引理 3.1 ) QTQ < α I 当且 仅 当 
+ 　 ( 11 ) 
+ 2 ) X - 1 < β I 当且 仅 当 
+ 　 ( 12 ) 
+ 　 　 证明 . 由 矩阵 的 玈 chur 补 性质 容易 得到 该 引理 的 结论 . 
+ 　 　 不等式 ( 11 ) 和 ( 12 ) 分别 是 关于 ( α , Q ) 和 ( β , X ) 的 线性 矩阵 不等式 . 因此 , 为 要 得到 系统 ( 1 ) 的 具有 较 小 反馈 增益 参数 的 D 稳定化 控制 律 , 建立 以下 的 优化 问题 : 
+ 玬 in ( α + β ) 　 ( 13 ) 
+ 玸 ． t ( 9 ) , ( 11 ) , 　 ( 12 ) . 
+ 问题 ( 13 ) 是 一个 具有 LMI 约束 的 凸 优化 问题 , 因此 可以 应用 MATLAB 软件 的 LMI 工具包 中 的 mincx 命令 求解 之 . 若该 问题 有解 提供 了 不 确定 系统 ( 1 ) 的 一个 具有 较 小 反馈 增益 参数 的 D 稳定化 控制 律 . 
+ 5 例子 
+ 　 　 例 1 . 考虑 以下 的 不 确定 离散系统 
+ И x ( t + 1 ) = ( A + DFE1 ) x ( t ) + ( B + DFE2 ) u ( t ) , 
+ 其中 
+ И 
+ 要求 将 闭环 系统 的 所有 极点 配置 在 圆盘 D ( 0.5 , 0.5 ) 中 . 
+ 　 　 应用 本文 提出 的 方法 , 满足 这样 要求 的 一个 鲁棒 D 稳定化 状态 反馈 控制 律 是 
+ u = ［ 0.8065 - 0.9852 - 0.9919 ］ . 
+ 　 　 例 2 ［ 6 ］ . 考虑 不 确定 连续 系统 
+ 
+ 其中 
+ 
+ 要求 设计 一个 状态 反馈 控制 律 , 使得 闭环 系统 的 所有 极点 位于 圆盘 D ( - 3 , 2 ) 中 . 
+ 　 　 应用 本文 提出 的 方法 , 可 得 满足要求 的 一个 控制 律 是 
+ 
+ 文献 ［ 6 ］ 所 得到 的 控制 律 是 
+ 
+ 显然 , 利用 本文 的 方法 所 得到 的 控制 律 具有 更 小 的 反馈 增益 参数 , 同时 , 不 象 文献 ［ 5 ］ 那样 , 本文 的 方法 无需 人为 地去 确定 一些 参数 . 整个 设计 过程 更加 系统化 . 
+ 国家自然科学基金 （ 69974036 ） 、 国家教育部 优秀 年轻 教师 基金 和 浙江省 自然科学 基金 资助 项目 。 
+ 俞立 1961 年生 . 1982 年 在 南开大学 获 学士学位 ， 后 在 浙江大学 获 硕士 与 博士学位 ， 1993 年 至 1995 年 留学 瑞士联邦 高工 . 现为 浙江工业大学 信息 工程学院 教授 ， 副 院长 . 在 国内外 发表 论文 80 余篇 . 主要 研究 方向 为 鲁棒控制 , 时滞 系统 的 分析 和 控制 , 分散控制 等 . 
+ 陈 国定 1962 年生 . 1990 年 在 浙江大学 获 硕士学位 ， 现任 浙江工业大学 副教授 . 主要 研究 方向 为 不 确定 系统 的 鲁棒控制 理论 与 应用 ， 工业 过程 计算机 控制技术 等 . 
+ 杨马英 1966 年生 ， 分别 于 1986 年 ， 1989 年 和 1996 年 在 浙江大学 工业 自动化 获学士 、 硕士 和 博士学位 ， 现为 浙江工业大学 副教授 . 研究 方向 为 预测 控制 理论 与 应用 ， 不 确定 系统 鲁棒控制 等 . 
+ 俞立 ( 浙江工业大学 信息 工程学院 杭州 310032 ) 
+ 陈 国定 ( 浙江工业大学 信息 工程学院 杭州 310032 ) 
+ 杨马英 ( 浙江工业大学 信息 工程学院 杭州 310032 ) 
+ 参考文献 
+ 1 ， HaddadWM , BernsteinDS . Controllerdesignwithregionalpoleconstraints . 獻 EEETrans . onAutomaticControl , 1992 , 37 ( 1 ) : 54 ～ 69 、 
+ 2 ， FurutaK , KimSB . Poleassignmentinaspecifieddisk . 獻 EEETrans . onAutomaticControl , 1987 , 32 ( 5 ) : 423 ～ 427 
+ 3 ， GarciaG , BernussouJ . Poleassignmentforuncertainsystemsinaspecifieddiskbystatefeedback . 獻 EEETrans . onAutomaticControl , 1995 , 40 ( 1 ) : 184 ～ 190 
+ 4 ， GarciaG , BernussouJ , CamozziP . Diskpolelocationforuncertainsystemsthroughconvexoptimization . 獻 nt . J . RobustandNonlinearControl , 1996 , 6 ( 1 ) : 189 ～ 199 
+ 5 ， 王子 栋 , 孙翔 , 郭治 . 区域 极点 约束 下 线性 离散系统 的 Riccati 鲁棒控制 . 自动化 学报 , 1996 , 22 ( 4 ) : 468 ～ 471 
+ 6 ， WangZidong , TangGuoqing , ChenXuemin . Robustcontrollerdesignforuncertainlinearsystemswithcircularpoleconstraints . 獻 nt . J . Control , 1996 , 65 ( 6 ) : 1045 ～ 1054 
+ 7 ， GahinetP , NemitroviskiA , LaubA 玡 tal . TheLMIControlToolbox . TheMathworks , Inc . , 1995 . 
+ 8 ， XieL . Outputfeedback 獺 ∞ controlofsystemswithparameteruncertainty . Int . J . Control , 1996 , 63 ( 4 ) : 741 ～ 750 
+ 
+ 收稿 日期 1997 - 10 - 13 收修稿 日期 1999 - 05 - 20 

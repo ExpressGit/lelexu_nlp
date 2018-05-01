@@ -1,0 +1,79 @@
+环境 科学 学报 
+ ACTASCIENTIAECIRCUMSTANTIAE 
+ 1999 年 　 第 19 卷 　 第 4 期 　 Vol.19 　 No.4 　 1999 
+ 
+ 
+ 
+ UV － B 辐射 对 小麦 叶 抗氧化 系统 的 影响 
+ 陈 　 拓 　 任红旭 　 王勋陵 
+ 摘要 　 研究 了 温室 种植 的 小麦 在 0 ( CK ) 、 8.82 kJ / m2 ( T1 ) 和 12.6 kJ / m2 ( T2 ) 三种 剂量 的 紫外线 B ( UV - B ) 辐射 下 抗氧化 系统 的 变化 及其 原因 . UV - B 辐射 诱导 了 H2O2 的 合成 、 还原型 抗坏血酸 ( AsA ) 和 还原型 谷胱甘肽 ( GSH ) 含量 的 增加 、 过氧化氢 酶 ( CAT ) 、 愈 创木酚 过氧化物 酶 ( PPOX ) 、 抗坏血酸 过氧化物 酶 ( APx ) 和 谷胱甘肽 还原酶 ( GR ) 活性 升高 ， 而类 胡萝卜素 ( Car ) 稍 有所 降低 、 超氧 歧化酶 ( SOD ) 活性 几乎 不受 UVB 辐射 影响 . 分析表明 ， UVB 辐射 引起 的 抗氧化 系统 变化 可能 是 UVB 辐射 下 活性氧 的 积累 引起 的 . 
+ 关键词 　 小麦 ； UV - B 辐射 ； 抗氧化 系统 . 
+ InfluenceofenhancedUVBradiationonantioxidantsystemsinwheatleaves 
+ CHENTuo , RENHongxu , WANGXunling 
+ ( DepartmentofBiology , LanzhouUniversity , Lanzhou730000 ) 
+ Abstract 　 Thechangesofantioxidantsysteminwheatleavesexposedto0 ( CK ) , 8.82 kJ / m2 ( T1 ) and12.6 kJ / m2 ( T2 ) werestudied . UnderthereactionofUVBH2O2formated , ascorbicacidandglutathioneincreased ; activityofcatalase , peroxidase , ascorbatspecificperoxidaseandglutathionereductaseenhanced ; superoxidedismutasealmostremainedconstant ; carotenoidcontentslightlyreduced . TheanalysisindicatesthattheaccumulationofH2O2inducedbyUVBradiationmayinfluencethebiosynthsisofantioxidantsystems . 
+ Keywords 　 wheat ( TritucumaestivumL . ) , UVBradiation , antioxidantsystems . 　 
+ 
+ 　 　 由于 平流层 臭氧层 减薄 导致 的 到达 地表 紫外线 B 增强 是 当今 全球性 环境 问题 之一 ， 倍受 各国 科学家 关注 . 大量 的 模拟 试验 结果表明 ： 在 增强 UV - B 辐射 下 ， 许多 植物 — — 在 检测 的 近 300 种 植物 中有 三分之二 的 植物 — — 的 生长 和 生物量 都 有 明显 的 降低 ［ 1 ］ . 这 可能 与 活性氧 代谢 的 紊乱 有关 ［ 2 ］ ， 因为 活性氧 能 抑制 CO2 固定 、 参与 叶绿素 的 降解 、 加速 叶片 的 衰老 和 膜 脂 过氧化 . 目前 普遍认为 ， 抗氧化 系统 是 高等植物 清除 活性氧 的 重要 防御 系统 . 植物 对 逆境 胁迫 抗性 的 大小 与其 有效性 密切相关 ［ 3 ］ . 然而 ， 增强 UV - B 辐射 对 抗氧化 系统 的 影响 研究 较 少 ， 甚至 出现 了 一些 自相矛盾 的 结果 ［ 2 ， 4 ］ . 为此 ， 本 试验 以 小麦 为 受试 材料 ， 较 系统地 研究 了 增强 UV - B 辐射 下 抗氧化 系统 的 变化 ， 并 探讨 了 其 变化 的 原因 . 
+ 
+ 1 　 材料 与 方法 
+ 1.1 　 材料 与 UV - B 处理 
+ 　 　 92 - 5005 品系 春小麦 ( TriticumaestivumL . ) 种子 经 5% 次氯酸钠 消毒 30min , 用 自来水 冲洗 ， 浸泡 过夜 后 ， 种植 温室 内 . 温室 条件 为 ： 昼夜 温度 30 ℃ / 15 ℃ ， 光照 PAR400 — 600 μ mol / ( m \ + 2 * s ) ， 相对湿度 70% . 待长 出 3 片 真叶 后 进行 UV - B 处理 . UV - B 由 宝鸡 光源 研究所 研制 的 秦牌 紫外 灯管 ( 波长 峰值 310nm ) 提供 ， 每天 处理 8h ( 9 ： 00 — 17 ： 00 ) . 每隔 7 天 剪取 同一 叶位 的 叶片 测定 各项 生理 指标 . 
+ 1.2 　 各项 生理 指标 的 测定 
+ 　 　 H2O2 参照 晏斌 等 的 方法 ［ 2 ］ . AsA 含量 测定 参照 Mishra 等 的 方法 ［ 5 ］ ． 按晏斌 等 的 方法 测定 GSH 含量 ［ 2 ］ . 类 胡萝卜素 含量 的 测定 按 Middleton 等 的 方法 进行 ［ 6 ］ . 
+ 　 　 SOD 活性 的 测定 按照 Giannopolitis 等 的 方法 ［ 7 ］ . 1 酶 活 单位 定义 为 抑制 NBT 还原 50% 所 需 的 酶 量 . PPOX 和 CAT 活性 的 测定 参照 Japoap 等 的 方法 ［ 8 ］ ， 分别 取 消光系数 26.6 ( mmol / L ) - 1cm - 1 和 3.6 ( mmol / L ) - 1cm - 1 计算 酶 活性 . GR 参照 Foyer 等 的 方法 ［ 9 ］ , APx 参照 Nakano 等 的 方法 ［ 10 ］ ， 分别 取 消光系数 6.2 ( mmol / L ) - 1cm - 1 和 2.8 ( mmol / L ) - 1cm - 1 进行 酶 活性 的 计算 . 
+ 
+ 2 　 结果 
+ 　 　 UV - B 辐射 下 ， H2O2 含量 升高 ， 并且 ， 不同 UV - B 辐射 剂量 处理 ， 升高 程度 不 一样 ， 辐射 剂量 越大 ， H2O2 升高 的 越 多 ( 表 1 ) . 说明 UV - B 辐射 伤害 可能 与 活性氧 引起 的 氧化 胁迫 有关 . 
+ 　 　 表 1 显示 了 AsA 和 GSH 含量 的 变化 . AsA 含量 在 UV - B 辐射 下 增加 ， 但 在 T2 处理 后期 显著 下降 ， 可能 与 活性氧 的 大量 积累 有关 ［ 3 ］ ； GSH 含量 与 对照 相比 一直 较大 ， 但 T2 处理 后期 其 增加 幅度 有所 降低 . Car 含量 在 UV - B 辐射 下 稍 有 降低 ， 它 的 降低 可能 与 UV - B 辐射 诱导 的 氧 自由基 合成 有关 ， 也 可能 是 植物 为了 保证 其 光合 效率 的 缘故 ［ 6 ］ . 
+ 表 1 　 UV - B 处理 下 H2O2 和 一些 抗氧化 因子 含量 的 变化 
+ Table1ConcentrationchangeinH2O2andsomeantioxidantsunderUVBradiation 
+ 
+ 处理 天数 ， 周 1234 处理 天数 ， 周 1234 
+ 　 CK32.0047 . 1461.14 　 　 CK2.544 . 205.187 . 78 
+ H2O2T143.2462 . 0083.42 　 AsAT12.248 . 768.809 . 72 
+ 　 T260.2881 . 14128.85 　 　 T27.9212 . 027.163 . 62 
+ 　 CK18.8818 . 2317.39 　 　 CK0.410 . 570.510 . 50 
+ GSHT119.1320 . 0029.00 　 CarT10.560 . 580.480 . 43 
+ 　 T224.9128 . 2624.11 　 　 T20.390 . 430.350 . 34 
+ 
+ * 单位 ： H2O2 : mmol / g ( FW ) , AsA : μ mol / g ( FW ) , GSH : mg / g ( FW ) , Car : mg / g ( FW ) 
+ 　 　 GR 和 APx 是 清除 高等植物 叶绿体 内 H2O2 的 重要 酶 ［ 3 ］ . UV - B 处理 下 它们 活性 的 变化 表现 相似 的 模式 ， 除 T2 处理 前期 稍微 降低 外 ， 其 活性 增加 ， 特别 是 T2 处理 下 增加 明显 ( 表 2 ) . 
+ 　 　 UV - B 处理 下 ， PPOX 和 CAT 活性 明显 升高 ( 表 2 ) ， 间接 地 说明 UV - B 辐射 诱导 了 活性氧 自由基 的 产生 ； 而 SOD 活性 几乎 没有 受到 影响 ， 也许 正常 情况 下 植物 体内 SOD 量 对于 清除 UV - B 辐射 期间 产生 的 较 高 活性氧 水平 是 足够 的 . 
+ 表 2 　 UV - B 处理 下 抗氧化 酶 活性 的 变化 
+ Table2ActivitingchangeofantioxidantenzymesunderUVBradiation 
+ 
+ 处理 天数 ， 周 1234 处理 天数 ， 周 1234 
+ 　 CK1.140 . 872.333 . 31 　 CK0.380 . 350.761 . 14 
+ GRT11.392 . 012.864 . 81APxT10.590 . 901.451 . 63 
+ 　 T20.992 . 283.595 . 12 　 T20.320 . 551.791 . 95 
+ 　 CK1.93 . 945.079 . 01 　 CK19.7521 . 9524.8749 . 61 
+ CATT13.945 . 449.2112 . 17PPOXT139.7741 . 8343.7843 . 96 
+ 　 T28.2313 . 1618.2920 . 60 　 T242.8345 . 2267.1769 . 03 
+ 　 CK2.522 . 603.283 . 34 
+ SODT12.542 . 533.103 . 35 
+ 　 T22.572 . 683.133 . 41 
+ 
+ * 单位 ： GR , APx , CAT 和 PPOX : nmol / ( min / . g ( FW ) ) ; SOD : unit / ( min . g ( FW ) ) 
+ 3 　 讨论 
+ 　 　 由 活性氧 引起 的 氧化 胁迫 是 绿色植物 不可避免 的 现象 . 但 正常 情况 下 ， 植物 体内 活性氧 的 产生 和 清除 之间 存在 动态 的 平衡 ， 主要 是 高等植物 体内 抗氧化 系统 在 灭活 活性氧 中起 了 重要 作用 ［ 4 ］ ， 如 SOD 能 使 1O2 歧化 生成 H2O2 和 O2 ， 主要 定 位于 过氧化 体中 的 PPOX 和 CAT 有利于 过氧化 自由基 的 分解 ， 主要 存在 于 叶绿体 的 AsAGSH 循环系统 与 H2O2 的 去 毒性 有关 ， Car 在 光氧化 过程 中 具有 清除 氧 自由基 的 能力 等 ， 抗氧化 系统 的 这种 作用 在 多种 逆境 胁迫 中 被 观察 到 了 . 研究 表明 其灭活 活性氧 的 有效性 对于 植物 在 逆境 中 的 能否 存活 至关重要 ［ 4 ， 5 ］ . UV - B 辐射 下 抗氧化 系统 中 某 一部分 的 变化 在 国内外 已有 一些 报道 ， 但 所得 结果 有所 差异 ， 甚至 相反 ［ 2 , 4 , 11 , 12 ］ . 这 可能 与 实验者 使用 的 材料 不同 有关 . 本 试验 结果显示 ， UV - B 辐射 引起 了 抗氧化 系统 的 变化 ， 具体表现 为 AsA 和 GSH 含量 增加 ， CAT 、 PPOX 、 APx 和 GR 活性 升高 ， 说明 在 UV - B 辐射 下 抗氧化 系统 灭活 活性氧 的 有效性 加强 ； 而 Car 含量 稍 有 降低 ， 可能 是 Car 是 高能量 短波 辐射 的 猝灭剂 ， 它 能 保护 光 系统 免受 光氧化 的 破坏 ， 同时 其 含量 与 光合 效率 指数 负相关 ［ 6 ］ ， 因此 Car 含量 的 降低 也许 是 UV - B 辐射 对 其 的 破坏 或 植物 为了 保证 其 光合 效率 的 缘故 ； SOD 活性 几乎 没有 变化 ， 也许 正常 情况 下 植物 体内 SOD 量 对于 清除 UV - B 辐射 期间 产生 的 较 高 活性氧 水平 是 足够 的 . 可是 另一方面 ， UV - B 辐射 诱导 了 氧 自由基 的 产生 ， 本 试验 结果 与 晏斌 等 的 结果 一致 ［ 2 ］ ， 后者 认为 UV - B 辐射 下 活性氧 的 积累 是 UV - B 降低 SOD 活性 的 结果 . 从本 试验 结果 推测 ， UV - B 辐射 诱导 的 活性氧 的 积累 并 不是 由 UV - B 影响 了 抗氧化 系统 而 直接 引起 的 . 这 意味着 UV - B 辐射 下 活性氧 的 积累 有 另外 的 途径 . 众所周知 ， 紫外线 具有 比 可见光 更 高 的 能量 ， 因此 在 照射 植物 就 可能 产生 更 多 的 活性氧 . Mishra 等 认为 活性氧 的 积累 能 诱导 抗氧化 系统 的 生物 合成 ［ 5 ］ . 可见 UV - B 辐射 引起 的 抗氧化 系统 变化 可能 是 UV - B 辐射 下 活性氧 的 积累 引起 的 . 
+ * 本文 受到 国家自然科学基金 ( 批号 ： 3947004 ) 和 博士点 基金 ( 批号 ： 39670132 ) 资助 
+ * * 现 通讯 址 ： 中科院 兰州 冰川 冻土 所 冰芯 与 寒区 环境 开放 实验室 
+ 作者 单位 ： ( 兰州大学 生物系 ， 兰州 　 730000 ) 
+ 参考文献 
+ 　 1 　 TeviniM , TeramuraAH . UVBeffectsonterrestrialplants . PhotochemPhotobiol , 1989 , 40 : 479 — 487 
+ 　 2 　 晏斌 ， 戴秋杰 . 紫外线 B 对 水稻 叶 组织 中 活性氧 代谢 及膜 系统 的 影响 . 植物 生理学 报 ， 1996 ， 22 ： 373 — 378 
+ 　 3 　 KrauseGH . Photoinhibitionofphotosynthesis : Anevaluationofdamagingandprotectivemechanisms . PhysiolPlant , 1988 , 74 : 566 — 574 
+ 　 4 　 WillekensH , CampWV , MonmtaguMVetal . Ozone , sulfurdioxideandultravioletBhavesimilareffectsonmRNAacumulationofantioxidantgenesinNicotianaplumbaginifolial . PlantPhysiol , 1994 , 106 : 1007 — 1014 
+ 　 5 　 MishraNP , MishraRK , SinghalGS . Changesintheactivitiesofantioxidantenzymesduringexposureofintactwheatlevestostrongvisiblelightatdifferenttemperatureinthepesenceofproteinsynthesisinhibitors . PlantPhysiol , 1993 , 102 : 903 — 910 
+ 　 6 　 MiddletonEM , TeramuraAH . TheroleofflavonolglycosidesandcarotenoidsinprotectingsoybeanfromultravioletBdamage . PlantPhysiol , 1993 , 103 : 741 — 752 
+ 　 7 　 GiannopolitisCN , RiesSK . SuperoxidedismutasesI , Occurrenceinhigherplants . PlantPhysiol , 1977 , 59 : 309 — 314 
+ 　 8 　 JagoapV , BhargavaS . VariationinantioxidantmetabolismofdroughttolerantanddroughtsusceptiblevarietiesofSorghumbicolor ( L . ) Moerchexposedtohighlight , lowwaterandhightemperaturestress . JPlantPhysiol , 1995 , 145 : 195 — 197 
+ 　 9 　 FoyerCH , HalliwellB . Thepresenceofglutathioneandglutathionereductaseinchloroplasts : Aproposedroleinascorbicacidmetabolism . Planta , 1976 , 133 ： 21 — 25 
+ 　 10 　 NakanoY , AsadaK . Hydrogenperoxideisscaverngenbyascorbatespecificperoxidaseinspinachchloroplasts . PlantCellPhysiol , 1981 , 145 : 195 — 197 
+ 　 11 　 李 宏文 ， 史 绮 ， 曹阳 等 . 紫外光 对 几种 水生植物 过氧化氢 酶 ( CAT ) 活性 的 影响 . 环境 科学 ， 1993 ， 14 ( 4 ) ： 74 — 77 
+ 　 12 　 StridA . AlterationinexpressionofdefencegenesinPisumsativumafterexposuretosupplementaryultravioletBradiation . PlantCellPhysiol , 1993 , 34 : 949 — 953 
+ 1997 - 12 - 19 收到 原稿 
+ 1998 - 06 - 09 收到 修改稿 
+ 
+ 

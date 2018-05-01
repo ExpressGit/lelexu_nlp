@@ -1,0 +1,70 @@
+环境 科学研究 
+ RESEARCHOFENVIRONMENTALSCIENCES 
+ 2001Vol.14 No.3 P.12 - 16 
+ 
+ 
+ 
+ 
+ 环境 激素 对鱼 的 影响 
+ 赵 劲松 　 袁星 　 
+ 摘 　 要 ： 环境 激素 是 存在 于 环境 之中 ， 以 某种 方式 干扰 正常 内分泌 功能 的 天然 或 合成 的 化合物 。 鱼 在 水生 生态系统 之中 分布 广泛 ， 是 在 食物链 中 具有 重要 位置 的 物种 ， 在 毒理学 和 生态 风险 评价 中 具有 重要 的 实验 价值 。 文中 对鱼 暴露 于 一些 常见 环境 激素 时 ， 受 激素 调节 的 生殖 和 发育 过程 所 受到 的 影响 及 相应 机理 进行 了 探讨 。 同时 介绍 了 鱼 应用 于水 环境 中 激素 的 筛选 与 监测 评价 的 方法 。 
+ 关键词 ： 环境 激素 ； 鱼类 ； 生殖 和 发育 ； 监测 方法 
+ 分类号 ： X503.225 　 文献 标识码 ： A 
+ 文章 编号 ： 1001 - 6929 ( 2001 ) 03 - 0012 - 05 
+ TheEffectsofEndocrine - DisruptingChemicalsonFish 
+ ZHAOJin - song （ DepartmentofEnvironmentalScience , NortheastNormalUniversity , Changchun130024 , China ） 　 
+ YUANXing （ DepartmentofEnvironmentalScience , NortheastNormalUniversity , Changchun130024 , China ） 　 
+ 
+ Abstract ： Endocrine - disruptingchemicals ( EDCs ) arenaturalorman - madeagentspresentingintheenvironmentthatinterfereinsomewaywithnormalendocrinefunction . Fishiswidelydistrbutedintheaquaticecosystem . Fishhastheimportantpositioninthefoodchainandhasthesignificantexperimentalvalueintoxicologyandriskassessment . TheeffectsofcertainEDCsonhormone - regulatedreproductionanddevelopmentprocessesoffishandrelevantmechanisms , aswellasthemethodsofscreening , detectionandassessmentforEDCs , arereviewed . 
+ Keywords ： endocrine - disruptingchemicals ; fish ; reproductionanddevelopment ; methodsofdetection 
+ 
+ 作者简介 ： 赵 劲松 ( 1978 - ) ， 男 ， 安徽 巢湖 人 ， 硕士 研究生 . 
+ 作者 单位 ： 赵 劲松 （ 东北师范大学 环境 科学系 ， 吉林长春 130024 ） 　 
+ 　 　 　 　 　 袁星 （ 东北师范大学 环境 科学系 ， 吉林长春 130024 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ KavlockRJ , DastonGP , DeRosaC , etal . Researchneedsforriskassessmentofhealthandenvironmentaleffectsofendocrinedisrupters : AreportoftheU . S . EPA - sponsoredworkshop . EnvironHealthPerspect , 1996 , 104 : 715 ～ 740 . 
+ ［ 2 ］ EuropeanCommunity . Europeanworkshopontheimpactofendocrinedisruptersonhumanhealthandwildlife . Paris , France : WorkshoppublicationEUR17549 , 1997 . 
+ ［ 3 ］ ArcandH , LiasD , BensonWH . Fishreproduction : Anecologicallyrelevantindicatorofendocrinedisruption . EnvironToxicolChem , 1998 , 17 : 4957 . 
+ ［ 4 ］ BillinghurstZ , ClareAs , MatsumuraK , etal . Inductionofcyprismajorproteininbarnaclelarvaebyexposureto4 - n - nonylphenoland17 β - oestradiol . AquaticToxicol , 2000 , 47 : 203 ～ 212 . 
+ ［ 5 ］ TongSeongKhim , KyuTaeLee , Chul - HwanKoh . Alkyphenols , polycyclicaromatichydrocarbons , andorganochlorinesinsedimentfromLakeShihwa , Korea : instrumentalandbioanalyticalcharacterization . EinvironToxicolChem , 1999 , 18 : 2424 ～ 2432 . 
+ ［ 6 ］ LarssonDGJ , Adolfsson - EriciM , ParkkonenJ , etal . Ethinyloestradiol — — anundesiredfishcontraceptive ? AquaticToxicol , 1999 , 45 : 91 ～ 97 . 
+ ［ 7 ］ AnkleyG , MihaichE , StahlR , etal . Overviewofaworkshoponscreeningmethodsfordetectingpotential ( anti - ) estrogenic / androgenicchemicalsinwildlife . EnvironToxicolChem , 1998 , 17 : 68 ～ 87 . 
+ ［ 8 ］ PinterJ , ThomasP . Characterizationofaprogestogenreceptorintheovaryofthespottedseatrout , Cynoscionnebulosus . BiolReprod , 1995 , 52 : 667 ～ 675 . 
+ ［ 9 ］ PinterJ , ThomasP . Theovarianprogestogenreceptorinthespottedseatrout , Cynoscionnebulosus , demonstratessteroidspecificitydifferentfromprogesteronereceptorsinotherver - tebrates . JSteroidBiochemMolBiol , 1997 , 60 : 13 ～ 119 . 
+ ［ 10 ］ PurdomCE , HardimanPA , ByeVJ , etal . Estrogeniceffectsofeffluentsfromsewagetreatmentsworks . ChemEcol , 1994 , 8 : 275 ～ 285 . 
+ ［ 11 ］ HarrisonPTC , HumfreyCDN , LitchfieldM , etal . AssessmentonEnvironmentalOestrogens : ConsequencestoHumanHealthandWildlife . Leicester , UK : MRCInstituteforEnvironmentandHealth , 1995 . 
+ ［ 12 ］ JoblingS , SheahanD , OsborneJA , etal . Inhibitionoftesticulargrowthinrainbowtrout ( Oncorhynchusmykiss ) exposedtoestrogenicalkylphenolicchemicals . EnvironToxicolChem , 1996 , 15 : 194 ～ 202 . 
+ ［ 13 ］ LouisT , GlenVanDerKraak . Useofaseriesofhomologousinvitroandinvivoassaystoevaluatetheendocrinemodulatingactionsof β - sitosterolinrainbowtrout . AquaticToxicol , 1998 , 43 : 149 ～ 162 . 
+ ［ 14 ］ McMasterME , VanDerKraakGJ , PorttCB , etal . Changesinhepaticmixed - functionoxygenase ( MFO ) activity , plasmasteroidlevelsandageatmaturityofawhitesucker ( Catostomuscommersoni ) populationexposedtobleachedkraftpulpmilleffluent . AquaticToxicol , 1991 , 21 : 199 ～ 218 . 
+ ［ 15 ］ MunkittrickKR , PorttCB , VanDerKraakGJ , etal . Impactofbleachedkraftmilleffluentonpopulationcharacteristics , liverMFOactivity , andserumsteroidlevelsofaLakeSuperiorwhitesucker ( Catostomuscommersoni ) Population . CanJFishAquatSci.1991 , 48 : 1371 ～ 1380 . 
+ ［ 16 ］ DavisWP , BartoneSA . Effectsofkraftmilleffluentonthesexualityoffishes : anenvironmentalearlywarning ? In : ColbornT , ClementC , eds . , Chemicallyinducedalterationsinsexualandfunctionaldevelopment : Thewildlife / humanconnection . NewJersey : PrincetonScientificPublishingCo . Inc , 1992.113 ～ 127 . 
+ ［ 17 ］ VanDerKraakGJ , MunkittrickKR , McMasterME , etal . Exposuretobleachedkraftpulpmilleffluentdisruptsthepituitary - gonadalaxisofwhitesuckeratmultiplesites . ToxicolApplPharmacol , 1992 , 115 : 224 ～ 233 . 
+ ［ 18 ］ HowellWM , BlackDA , BortoneSA . Abnormalexpressionofsecondarysexcharactersinapopulationofmosquitofish , Gambusiaaffinisholbrooki : evidenceforenvironmentallyinducedmasculinization . Copeia , 1980 , 4 : 676 ～ 681 . 
+ ［ 19 ］ ThomasP . EffectsofAroclor1254andcadmiumonreproductiveendocrinefunctionandovariangrowthinAtlanticcroaker . MarEnvironRes , 1990 , 28 : 499 ～ 503 . 
+ ［ 20 ］ MocciaRD , LeatherlandJF , SonstegardRA . QuantitativeinterlakecomparisonofthyroidpathologyinGreatLakescoho ( Oncorhynchuskisutch ) andchinook ( Oncorhynchustschawytscha ) salmon . CancerRes , 1981 , 41 : 2200 ～ 2210 . 
+ ［ 21 ］ LeatherlandJ . EndocrineandreproductivefunctioninGreatLakessalmon . In : ColbornT , ClementC , eds . Chemicallyinducedalterationsinsexualandfunctionaldevelopment : Thewildlife / humanconnection . NewJersey : PrincetonScientificPublishingCo . Inc , 1992.129 ～ 145 . 
+ ［ 22 ］ TongZhou , JudithSW , HenryBJA , etal . Thyroidalstatusofmummichogs ( Fundulusheteroclitus ) fromapollutedversusareferencehabitat . EnvironToxicolChem , 1999 , 18 : 2817 ～ 2823 . 
+ ［ 23 ］ KnudsenFR , PottingerTG . Interactionofendocrinedisruptingchemicals , singlyandincombination , withestrogen - , androgen - , andcorticosteroid - bindingsitesinrainbowtrout ( Oncorhynchusmykiss ) . AquaticToxicol , 1999 , 44 : 159 ～ 170 . 
+ ［ 24 ］ U . S . EnvironmentalProtectionAgency . Specialreportonenvironmentalendocrinedisruption : Aneffectsassessmentandanalysis . Washington , D . C . : EPA / 630 / R - 96 / 012 , 1997 . 
+ ［ 25 ］ MuellerGC , KimUH . Displacementofestradiolfromestrogenreceptorsbysimplealkylphenols . Endocrinology , 1978 , 102 : 1429 ～ 1435 . 
+ ［ 26 ］ WhiteR , JoblingS , HoareSA , etal . Environmentallypersistentalkylphenoliccompoundsareestrogenic . Endocrinology , 1994 , 135 : 175 ～ 182 . 
+ ［ 27 ］ KelceWR , WongCI , WilsonEM . Environmentalantiandrogens . AbstractSOTAnnualmeeting.1995 . 254 . 
+ ［ 28 ］ KelceWR , StoneCR , LawsSC , etal . PersistentDDTmetabolitep , p ′ - DDEisapotentandrogenreceptorantagonist . Nature , 1995 , 375 : 581 ～ 585 . 
+ ［ 29 ］ U . S . EnvironmentalProtectionAgency . Short - termmethodsforestimatingthechronictoxicityofeffluentsandreceivingwaterstofreshwaterorganisms , 3rded . Cincinnati , OH : EPA600 / 4 - 91 - 002 , 1994 . 
+ ［ 30 ］ OrganizationforEconomicCooperationandDevelopment . OECDguidelinesfortestingofchemicals . Section2 . Guideline210 . Fishearly - lifestagetoxicitytest . Paris , France , 1992 . 
+ ［ 31 ］ U . S . EnvironmentalProtectionAgency . User ' sguideforconductinglifecyclechronictoxicitytestswithfatheadmin - nows ( Pimephalespromelas ) . Duluth , MN : EPA600 / 8 - 81 - 011 , 1982 . 
+ ［ 32 ］ U . S . EnvironmentalProtectionAgency . GuidelinesforconductingearlylifestagetoxicitytestswithJapanesemedaka ( Oryziaslatipes ) . Duluth , MN : EPA600 / 3 - 01 - 063 , 1991 . 
+ ［ 33 ］ DonohoeRM , CurtisLR . Estrogenicactivityofchlor - decone , o , p ′ - DDTando , p ′ - DDEinjuvenilerainbowtrout : In - ductionofvitellogenesisandinteractionwithhepaticestrogenbindingsites . AquatToxicol , 1996 , 36 : 31 ～ 52 , 169 ～ 174 . 
+ ［ 34 ］ TrudeauVL , WadeMG , VanDerKraakGJ , etal . Effectsof17 β - estradiolonpituitaryandtesticularfunctioninmalegoldfish . CanJZool , 1993 , 71 : 1131 ～ 1136 . 
+ ［ 35 ］ MatsuyamaM , AdachiS , NagahamaY , etal . Diurnalrhythmofoocytedevelopmentandplasmasteroidhormonelevelsinthefemaleredseabream , Pagrusmajor , duringthespawningseason . Aquaculture , 1990 , 73 : 357 ～ 372 . 
+ ［ 36 ］ ThomasP , SmithJ . Bindingofxenobioticstotheestrogenreceptorofspottedseatrout : Ascreeningassayforpotentialestrogeniceffects . MarEnvironRes , 1993 , 35 : 147 ～ 151 . 
+ ［ 37 ］ GhoshS , ThomasP . Antagonisticeffectsofxenobioticsonsteroid - inducedfinalmaturationofAtlanticcroakeroocytesinvitro . MarEnvironRes , 1995 , 39 : 159 ～ 163 . 
+ ［ 38 ］ GrayMA , MetcalfeCD . Inductionoftestis - ovainJapanesemedaka ( Oryziaslatipes ) exposedtop - nonylphenol . EnvironToxicolChem , 1996 , 16 : 1082 ～ 1086 . 
+ ［ 39 ］ DianaMP , DouglasBN , DonaldET . Aninvivomodelfishsystemtotestchemicaleffectsonsexualdifferentiationanddevelopment : exposuretoethinylestradiol . AquaticToxicol , 2000 , 48 : 37 ～ 50 . 
+ ［ 40 ］ LindseyAA , TomGP . Exposureoffemalejuvenilerainbowtrouttoalkylphenoliccompoundsresultsinmodificationstogrowthandovosomaticindex . EnvironToxicolChem , 1998 , 17 : 679 ～ 686 . 
+ ［ 41 ］ AfonsoLOB , CampbellPM , IwamaGK , etal . TheeffectofthearomataseinhibitorFadrozoleandtwopolynucleararomatichydrocarbonsonsexsteroidsecretionbyovarianfolliclesofcohosalmon . GenCompEndocrinol , 1997 , 106 : 169 ～ 174 . 
+ ［ 42 ］ KahnI , ThomasP . DisruptionofneuroendocrinefunctioninAtlanticcroakerexposedtoAroclor1254 . MarEnvironRes , 1996 , 42 : 145 ～ 149 . 
+ 
+ 收稿 日期 ： 2000 年 11 月 8 日 
+ 出版日期 ： 2001 年 5 月 30 日 

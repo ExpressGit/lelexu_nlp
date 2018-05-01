@@ -1,0 +1,143 @@
+环境 科学 学报 
+ ACTASCIENTIAECIRCUMSTANTIAE 
+ 1999 年 　 第 19 卷 　 第 4 期 　 Vol.19 　 No.4 　 1999 
+ 
+ 
+ 
+ 煤中 部分 潜在 毒害 微量元素 在 表生 条件 下 的 化学 活动性 
+ 冯新斌 　 洪 　 冰 　 倪 建宇 　 洪业 汤 　 
+ 摘要 　 利用 连续 化学 浸取 实验 方法 ， 对 采自 贵州省 二叠纪 龙潭 组 的 32 个 煤样 中 的 10 种 潜在 毒害 微量元素 的 化学 活动性 进行 了 研究 . 结果表明 ： 煤中 Hg 、 As 、 Se 、 Cd 、 Cu 、 Pb 等 元素 具有 极强 的 化学 活动性 ， 其中 平均 83.8% 的 Hg 、 93.5% 的 As 、 80.3% 的 Se 、 63.3% 的 Cd 、 71.1% 的 Cu 和 86.8% 的 Pb 可以 被 带 出 煤 中 而 进入 表生 环境 ； 煤中 Zn 的 化学 活动性 次之 ， 只有 平均 46.6% 的 Zn 可能 迁移 进入 环境 中 ； Tl 、 Cr 、 Ni 的 化学 活动性 最差 ， 平均 可 浸取 比例 分别 是 22.9% 、 19.7% 和 25.7% . 煤中 潜在 毒害 微量元素 的 化学 活动性 取决于 其 在 煤 中 的 赋存 状态 . 存在 于 硫酸盐 、 碳酸盐 、 硫化物 和 部分 有机 相中 的 元素 在 风化 过程 中 很 容易 被 带 出 ， 而 存在 于 硅酸盐 矿物 相中 的 元素 在 表生 条件 下 是 非常 稳定 的 . 
+ 关键词 　 煤 ； 潜在 毒害 微量元素 ； 赋存 状态 ； 化学 活动性 ； 表生 环境 . 
+ Chemicalmobilityofpotentiallytoxictraceelementsincoalatsurfaceconditions 
+ FENGXinbin , HONGBing , NIJanyu , HONGYetang 
+ ( StateKeyLaboratoryofEnvironmentalGeochemicstry , InstituteofGeochemistry , ChineseAcademyofSciences , Guiyang550002 ) 
+ Abstract 　 Themobilityof10potentiallytoxictraceelements ( PTTE ) ( As , Cd , Cr , Cu , Hg , Ni , Pb , Se , TlandZn ) from32coalsamplesofLongtanGroupformedinPermianPeriodinGuizhouProvince , Chinawasinvestigatedusingsequentialextractionprocedures . TheresultsdemonstratetahtHg , As , Se , Cd , Cuandpbhavethehighestmobilityatsurfaceconditions , andtheaverageextractablefractionsofthemare83.8% , 93.5% , 80.3% , 63.3% 71.1% and86.8% ofthetotal , respectively . TheelementsincloalwiththelowestleachabilityincludeTl , Cr , andNi , andtheaverageextractablefractionsofthemare22.9% , 19.7% and25.7% , respectively . Zinchasanintermediatebehavior , andtheaverageleachablefractionis46.6% . TheresultsdemonstratedthatmobilityofPTTEincoaldependsonthemodeofoccurrenceoftheseelements . Theelementsassociatedwithsulfates , carbonates , sulfidesandsomeorganicmatterincoalshowthehighestextractionratesduringweatheringprocess , whileelementswithsilicateaffinitiesareinertatsurfaceconditions . 
+ Keywords 　 coal , traceelements , modesofoccurrence , chemicalmobility , surfaceenvironment . 
+ 　 　 
+ 　 　 由于 泥炭 化 和 煤化 过程 所处 的 特殊 地球化学 条件 ， 使 煤 中 富集 了 多种 微量元素 ， 尤其 是 潜在 毒害 微量元素 ( PTTE ) ， 煤中 有机质 和 成岩 期 形成 的 矿物 充当 了 这些 微量元素 的 捕 集器 ［ 1 ］ . 当 煤炭 被 开采 堆放 到 地表 后 ， 由于 所处 的 物理化学 条件 改变 ， 煤中 那些 在 还原 环境 下 形成 的 硫化物 ( 如 黄铁矿 ) 遇到 地表水 或 暴露 于 空气 中后 开始 发生 分解 ， 同时 产生 大量 酸性 废水 ( AMD ) . 这种 酸性 水 具有 很强 的 浸取 能力 ， 可以 将 煤 中 相当 部分 的 微量元素 ， 特别 是 潜在 毒害 微量元素 带入 表生 生态环境 中 ， 造成 严重 的 环境污染 . 这种 环境污染问题 不仅 在 煤层 露头 处 发生 ， 而且 还 在 煤炭 堆放 场 、 煤矸石 山 和 洗煤 废渣 堆处 出现 . 尤其 是 酸雨 严重 的 西南地区 ( 如 贵州省 ) ， 这种 污染 问题 相当 普遍 ， 应予以 足够 的 重视 . 
+ 　 　 连续 化学 浸取 实验 已 被 运用 于 研究 土壤 、 工业 废弃物 和 其它 固体 样品 中 微量元素 的 化学 活动性 及 化学 形态 分布 ［ 2 — 5 ］ . 本 研究 利用 这种 方法 对 贵州省 二叠纪 龙潭 组煤 中 潜在 毒害 微量元素 As 、 Cd 、 Cr 、 Cu 、 Hg 、 Pb 、 Ni 、 Se 、 Tl 、 Zn 等 元素 的 化学 活动性 进行 了 研究 . 通过 这一 研究 ， 弄清 了 在 煤炭 被 开采 到 地表 后 煤 中 这些 潜在 毒害 微量元素 可以 被 酸性 废水 带出 的 比例 ， 为 评价 这 类 环境污染 的 程度 以及 制定 防治 措施 提供 了 理论依据 . 
+ 
+ 1 　 实验 
+ 1.1 　 样品 的 采集 
+ 　 　 晚 二叠纪 龙潭 组 地层 为 贵州省 境内 最 重要 的 含 煤 地层 . 在 贵州省 六枝 、 水城 、 盘江 和 贵阳 等 四大 煤田 的 19 个 煤矿 ， 对 目前 正在 开采 的 主要 煤层 进行 了 系统 采样 ， 共采 原煤 样 32 个 . 采样 方法 为 井下 剖面 刻槽 取样 . 
+ 1.2 　 分析方法 
+ 　 　 煤样 的 连续 化学 浸取 方案 是 在 Querol 等 ［ 6 ］ 对 煤样 和 Fernandez - Turiel 等 ［ 7 ］ 对 飞灰样 中 微量 重金属 的 赋存 状态 研究 方法 的 基础 上 改进 的 ( 见表 1 ) . 
+ 　 　 上述 浸取 液中 的 As 、 Se 、 Pb 、 Cd 、 Tl 等 元素 用 石墨 炉 无 火焰 原子 吸收光谱 法测定 ； Cr 、 Cu 、 Zn 、 Ni 等 元素 用 火焰 原子 吸收光谱 法测定 ； Hg 用 两次 金汞 齐冷 原子 吸收光谱 法测定 ［ 8 ］ . 
+ 　 　 煤中 各 元素 总量 的 测定 步骤 为 ： 取 0.1 g 煤样 于 内筒 为 聚四氟乙烯 ， 外套 为 不锈钢 的 密闭 溶样 器 中 ， 加入 HF 和 HNO3 进行 溶样 ， 定容后 ， 各 元素 的 测定方法 同上 . 
+ 　 　 表 1 还 列出 了 每 一 浸取 步骤 浸 取出 元素 的 赋存 状态 . 由于 既 使 是 硝酸 浸出 的 那 部分 元素 ， 在 表生 条件 下 也 是 容易 被 风化 而 带 出 煤 中 的 ， 而 残留 在 硝酸 浸取 后 的 残渣 中 的 那 部分 元素 主要 赋存 于 硅酸盐 矿物 晶格 中 ， 它们 在 自然 条件 下 是 稳定 的 ［ 6 ］ ， 因此 ， 上述 四步 浸 取出 的 元素 含量 之 和 代表 了 每 一 元素 在 自然 条件 下 可能 被 带入 表生 环境 中 的 总量 ， 该 总量 占 煤 中 各 元素 含量 的 百分比 的 大小 反映 了 煤 中 这 一 元素 在 表生 环境 下 的 化学 活动性 . 
+ 表 1 　 煤中 潜在 毒害 微量元素 的 化学 连续 浸取 方案 
+ Table1Schemeofsequentialextractionofpotentiallytoxictraceelementsincoal 
+ 
+ 步 　 骤 浸取 方法 形 　 　 态 
+ 14g 煤样 于 聚乙烯 离心管 中 ， 加入 20ml 蒸馏 去离子水 ， 室温 下 振荡 15h ， 离心 ， 滤液 加浓 NHO32.5 mL ， 用 蒸馏 去离子水 定容 至 50mL ， 残渣 在 40 ℃ 条件 下 烘干 . 水溶 态 
+ 2 上述 残渣 中 加入 20mL1mol / LNH \ - 4Ac ( pH = 7 ) , 以下 程序 同 步骤 1 . 交换 态 
+ 3 上述 残渣 中 加入 20mol1mol / LNH \ - 4Ac ( pH = 5 ) , 以下 程序 同 步骤 1 . 碳酸盐 结合态 
+ 4 上述 残渣 移入 衬里 为 聚四氟乙烯 ， 外套 为 不锈钢 的 高压 密闭 溶样 器 中 ， 加入 优级 纯 浓 HNO32.5 mL ， 在 95 ℃ 条件 下 消化 15h ， 离心分离 ， 滤液 用 蒸馏 去离子水 定容 至 50mL . 有机质 及 硫化物 
+ 结合态 
+ 
+ 　 　 注 ： NH4Ac 的 pH 值用 25% HAc 溶液 和 25% NH4OH 溶液 调配 
+ 　 　 利用 X射线 粉晶 衍射 法 确定 每 一步 浸取 实验 后 残渣 中 主要 矿物 组成 的 变化 情况 . 根据 每 一步 浸取 残渣 的 X射线 衍射 图 ， 计算 出 每 一 矿物 相净 选择 反射强度 ( XRD ) ( 与 样品 中 矿物 相 的 含量 成正比 ) . 由于 石英 在 整个 浸取 实验 过程 中是 稳定 的 ， 因此 各 矿物 相 的 XRD 强度 与 石英 的 之 比 成为 一种 可靠 的 内标 ， 其它 矿物 XRD 强度 与 石英 的 比值 变化 ， 可以 准确 地 反映 出 浸取 实验 过程 中 矿物 组成 的 变化 . 利用 背景 XRD 强度 与 石英 的 XRD 强度 之 比 可以 反映 浸取 前后 残渣 中 无定形 有机质 含量 的 变化 情况 ［ 6 ］ ( 2 θ 角为 25 ° 时 的 背景 XRD 强度 ， 代表 煤中 无定形 的 有机质 ) . 
+ 
+ 2 　 结果 与 讨论 
+ 2.1 　 连续 化学 浸取 实验 过程 中 煤样 矿物 组成 变化规律 
+ 　 　 选取 LD - 40 、 LM - 06 、 SL - 12 、 SD - 14 、 PH - 34 和 LDA - 37 等 6 个 样品 ， 对 其 煤样 和 连续 浸取 实验 残渣 的 矿物 组成 进行 了 研究 ， 结果 列于 表 2 . 对 煤样 的 X射线 粉晶 衍射 研究 表明 ， 不同 煤样 中 的 矿物 组成 是 有 差异 的 ， 但 煤 中 主要 矿物 有 硅酸盐 矿物 石英 、 高岭石 、 伊利石 、 斜长石 等 、 碳酸盐 矿物 方解石 、 白云石 、 硫化物 矿物 黄铁矿 、 白铁矿 、 硫酸盐 矿物 石膏 等 ， 还 存在 少量 未 检出 的 其它 副 矿物 . 从表 2 中 可以 看出 ， 在 连续 化学 浸取 实验 过程 中 ， 矿物 转化 过程 主要 有 以下 几种 ： 在 蒸馏 去离子水 浸取 过程 中 ， 石膏 溶解 ； 在 pH 值为 7 和 5 的 醋酸 铵 溶液 浸取 过程 中 方解石 、 白云石 溶解 ； 在 硝酸 浸取 过程 中 黄铁矿 、 白铁矿 和 部分 样品 的 少量 有机 相 溶解 . 
+ 表 2 　 6 个 煤样 各 浸取 步骤 的 残渣 矿物 分布 情况 ( 单位 为 每秒 计数 ) 
+ Table2Themineraldistributioninoriginalcoalsamplesandresiduesofsequentialextractionofsixcoalsamples ( theunitiscountss - 1 ) 
+ 
+ 样号 　 QPMCDGKFIBGP / QM / QC / QBG / QD / QG / Q 
+ LD04O22362312461833 　 　 ＜ dl3402836030.10 . 10.80 . 3 
+ W23411642511454 　 　 ＜ dl226 ＜ dl6110.10 . 10.60 . 3 
+ Ac720871592231102 　 　 ＜ dl234 ＜ dl5830.10 . 10.50 . 3 
+ Ac53014193382 ＜ dl 　 　 ＜ dl3001958860.10 . 100.3 
+ NA2730 ＜ dl ＜ dl ＜ dl 　 　 2613002807330000.3 
+ LM0O967318459352 　 　 605286 　 4940.30 . 50.40 . 5 
+ W1156312368238 　 　 673318 　 5400.30 . 30.20 . 5 
+ Ac7990370403 ＜ dl 　 　 556287 　 5400.40 . 400.5 
+ Ac5876482720 ＜ dl 　 　 696370 　 3470.60 . 800.4 
+ NA1284 ＜ dl ＜ dl ＜ dl 　 　 727310 　 5500000.4 
+ SL12O2456220 　 1364326 　 1219 　 　 5560.1 　 0.60 . 20.1 
+ W2103224 　 1111258 　 1124 　 　 4310.1 　 0.50 . 20.1 
+ Ac72900178 　 998355 　 1128 　 　 5670.1 　 0.30 . 20.1 
+ Ac53425237 　 ＜ dl ＜ dl 　 1071 　 　 7050.1 　 00.20 
+ NA3333 ＜ dl 　 ＜ dl ＜ dl 　 890 　 　 7270 　 00.20 
+ SD14O1199189261699 　 462576 　 　 3740.20 . 20.60 . 3 　 0.4 
+ W1663145399846 　 ＜ dl577 　 　 4660.10 . 20.50 . 3 　 0 
+ Ac71054157246235 　 ＜ dl494 　 　 4000.20 . 20.20 . 4 　 0 
+ Ac5987258500 ＜ dl 　 ＜ dl609 　 　 3690.30 . 500.4 　 0 
+ NA1601 ＜ dl ＜ dl ＜ dl 　 ＜ dl512 　 　 6770000.4 　 0 
+ PH34O2971185 　 608 　 2041430 　 　 4330.1 　 0.20 . 15 　 0.1 
+ W3086237 　 825 　 ＜ dl1601 　 　 5000.1 　 0.30 . 16 　 0 
+ Ac73111218 　 840 　 ＜ dl1531 　 　 4500.1 　 0.30 . 14 　 0 
+ Ac54126261 　 ＜ dl 　 ＜ dl1576 　 　 5830.1 　 00.14 　 0 
+ NA4329 ＜ dl 　 ＜ dl 　 ＜ dl1324 　 　 5100 　 00.12 　 0 
+ LDA 
+ 37O1847401667443 　 166375326 　 3520.20 . 40.20 . 2 　 0.1 
+ W1933392481538 　 ＜ dl415361 　 4320.20 . 30.30 . 2 　 0 
+ Ac72248454613343 　 ＜ dl446380 　 4580.20 . 30.20 . 2 　 0 
+ Ac51902655704 ＜ dl 　 ＜ dl334403 　 3070.30 . 400.2 　 0 
+ NA2891 ＜ dl ＜ dl ＜ dl 　 ＜ dl287300 　 3830000.1 　 0 
+ 
+ 　 　 注 ： O 表示 原始 煤样 ； W 表示 蒸馏 去 离子 浸取 残渣 ； Ac7 指 pH 值为 7 的 醋酸 铵 溶液 浸取 残渣 ； Ac5 指 pH 值为 5 的 醋酸 铵 溶液 浸取 残渣 ； NA 指 硝酸 浸取 残渣 ； C 代表 方解石 ； D 代表 白云石 ； F 为 斜长石 ； G 为 石膏 ； I 为 伊利石 ； K 为 高岭石 ； M 为 白铁矿 ； P 为 黄铁矿 ； Q 为 石英 ； BG 代表 X射线 背景 衍射 强度 ； ＜ dl 指 低于 检出限 
+ 
+ 2.2 　 煤中 潜在 毒害 微量元素 的 化学 活动性 
+ 　 　 研究 表明 ， 由 硝酸 浸取 的 那 部分 微量元素 在 自然 条件 下 经过 长时间 的 作用 ， 很 容易 被 风化 分解 后 带入 环境 中 ［ 6 ］ . 因此 ， 本 研究 中 四步 连续 浸取 态 微量元素 含量 之 和 代表 了 在 自然 条件 下 长期 作用 后 可能 带入 环境 中 的 总量 . 
+ 表 3 　 煤中 Ag 、 As 、 Se 、 Cd 、 Tl 、 Cr 、 Ni 、 Pb 、 Cu 、 Zn 等 潜在 毒害 微量元素 连续 化学 浸取 实验 结果 统计表 ( n = 32 ) 
+ Table3TheconcentrationsofHg 、 Se 、 Cd 、 Tl 、 Cr 、 Ni 、 PbCu 、 Zninleachatefromsequentialextractionofcoalsamples ( n = 32 ) 
+ 
+ 　 WAc7Ac5NA 浸取 态 之 和 总量 
+ 含量 ， 
+ μ g / g 
+ 含量 , 
+ μ g / g 所 占 百 
+ 分率 ， % 含量 , 
+ μ g / g 所 占 百 
+ 分率 ， % 含量 ， 
+ μ g / g 所 占 百 
+ 分率 ， % 含量 ， 
+ μ g / g 所 占 百 
+ 分率 ， % 含量 ， 
+ μ g / g 所 占 百 
+ 分率 ， % 
+ Hg 均值 0.00120 . 230.00090 . 160.00050 . 090.46083 . 30.46283 . 80.552 
+ 　 SD0.0023 　 0.0009 　 0.0017 　 0.53 　 0.53 　 0.565 
+ AS 均值 0.0110 . 140.0030 . 0420.0060 . 077.3793 . 27.3993 . 57.91 
+ 　 SD0.033 　 0.013 　 0.013 　 5.35 　 5.54 　 5.26 
+ Se 均值 0.0813 . 380.0321 . 350.0512 . 121.7673 . 41.9280 . 32.40 
+ 　 SD0.13 　 0.017 　 0.031 　 0.85 　 0.91 　 1.05 
+ Cd 均值 0.0010 . 700.01910 . 400.04122 . 260.05630 . 00.11763 . 30.185 
+ 　 SD0.002 　 0.039 　 0.053 　 0.047 　 0.098 　 0.176 
+ Tl 均值 0.0030 . 910.03610 . 420.0236 . 710.0174 . 90.0822 . 90.349 
+ 　 SD0.008 　 0.051 　 0.038 　 0.041 　 0.087 　 0.198 
+ Cr 均值 0.0390 . 0820.1180 . 250.0300 . 0639.2419 . 39.42719 . 747.95 
+ 　 SD0.165 　 0.23 　 0.094 　 8.68 　 8.70 　 36.07 
+ Ni 均值 0.140 . 440.411 . 291.0863 . 406.5720 . 68.2025 . 731.91 
+ 　 SD0.28 　 0.56 　 0.96 　 6.30 　 6.71 　 28.15 
+ Pb 均值 0.151 . 200.0010 . 0991.5312 . 199.2173 . 410.8986 . 812.55 
+ 　 SD0.12 　 0.01 　 2.11 　 5.33 　 6.87 　 4.68 
+ Cu 均值 0.370 . 810.751 . 653.587 . 827.5360 . 732.2271 . 145.35 
+ 　 SD1.75 　 1.37 　 4.04 　 18.29 　 21.95 　 25.54 
+ Zn 均值 0.531 . 191.503 . 403.638 . 2014.9533 . 820.6146 . 644.23 
+ 　 SD1.51 　 1.94 　 3.01 　 12.16 　 12.57 　 14.05 
+ 
+ 　 　 注 ： W 表示 蒸馏 去 离子 浸取 态 ； Ac7 指 pH 值为 7 的 醋酸 铵 溶液 浸取 态 ； Ac5 指 pH 值为 5 的 醋酸 铵 溶液 浸取 态 ； NA 指 硝酸 浸取 态 . SD 指 标准偏差 . 
+ 　 　 表 3 列出 了 32 个 煤样 连续 化学 浸取 液中 潜在 毒害 微量元素 含量 的 统计 结果 ， 从表 3 中 可以 看出 ， 煤中 HgAsSeCdCuPb 等 元素 在 表生 环境 下 具有 极强 的 化学 活动性 ， 其中 平均 83.8% 的 Hg93.5% 的 As80.3% 的 Se63.3% 的 Cd71.1% 的 Cu 和 86.8% 的 Pb 可以 被 带 出 煤 中 而 进入 表生 环境 中 ； 煤中 Zn 的 化学 活动性 次之 ， 只有 平均 46.6% 的 Zn 可能 迁移 进入 环境 中 ； TlCrNi 的 化学 活动性 最差 ， 平均 可 浸取 比例 分别 是 22.9% 、 19.7% 和 25.7% . 从表 3 和 图 1 可以 看出 ， HgAsSeCuPb 等 元素 由 HNO \ - 3 浸取 的 量 占 煤样 总量 的 大部分 ( Hg 平均 占 83.3% ， As 平均 占 93.2% ， Se 平均 占 73.4% ， Cu 平均 占 60.7% ， Pb 平均 占 73.4% ) . 从前 文 的 讨论 中 可以 得出 ， 在 硝酸 浸取 过程 中 ， 硫化物 完全 溶解 ， 同时 部分 样中 一小部分 有机质 也 发生 溶解 ， 从 元素 地球化学 性质 来看 ， 这些 元素 都 属 亲 硫 元素 ， 因此 ， HgAsSeCuPb 应 主要 以 硫化物 的 形式 赋存 于 煤 中 ， 当然 不能 排除 有 少部分 是 与 煤 中 有机质 相结合 的 可能性 . 煤中 由 硝酸 浸取 的 Cd 的 量 平均 占 煤 中 总量 的 30% ， 由 pH 为 5 的 醋酸 铵 溶液 浸取 的 Cd 占 22.26% ， 另外 还有 36.7% 的 Cd 赋存 于 硝酸 浸取 的 残渣 中 ， 由此可见 ， 煤中 Cd 可能 主要 赋存 于 硅酸盐 矿物 、 硫化物 和 碳酸盐 矿物 相中 . 煤中 平均 53.4% 的 Zn 存留 于 硝酸 浸取 的 残渣 中 ， 主要 赋存 于 硅酸盐 矿物 晶格 内 ， 另外 ， 还有 平均 33.8% 的 Zn 被 硝酸 浸取 出来 ， 因此 煤中 Zn 主要 赋存 于 硫化物 和 硅酸盐 矿物 相中 . 煤中 77.1% 的 Tl80.3% 的 Cr 和 74.3% 的 Ni 主要 赋存 于 硅酸盐 相中 . 
+ 
+ 
+ 图 1 　 煤中 HgAsSeCdTlCrNiPbCuZn 等 元素 各 浸取 态占 煤 中 各 元素 总量 的 百分比 
+ Fig.1 TheratiosofAsCdCrCuHgPbNiSeTlandZnconclntrationsineachleachatewithrespecttothoseinbulkcoalsamples 
+ 　 　 从 以上 的 讨论 可以 看出 ， 煤中 潜在 毒害 微量元素 在 表生 环境 中 的 化学 活动性 取决于 其 在 煤 中 的 赋存 状态 . 存在 于 硫酸盐 、 碳酸盐 、 硫化物 和 部分 有机 相中 的 元素 在 风化 过程 中 很 容易 被 带 出 ， 而 存在 于 硅酸盐 矿物 相中 的 元素 在 表生 条件 下 是 非常 稳定 的 . 正是 由于 潜在 毒害 微量元素 在 不同 地区 、 同一 地区 不同 煤层 中 赋存 状态 的 不同 ， 导致 了 其 在 表生 环境 中 的 化学 活动性 的 差异 . 
+ * 中国科学院 “ 九五 ” 重点 基金 ( KZ952S1407 ) 和 贵州省 自然科学 基金 资助 课题 
+ 作者 单位 : （ 中国科学院 地球化学 研究所 环境 地球化学 国家 重点 实验室 ， 贵 550002 阳 ） 
+ 参考文献 
+ 　 1 　 SwaineDJ . TraceElementsinCoal . London : Butterworths.1990 . 8 
+ 　 2 　 TessierA , CampbellPGC , BissoM . Sequentialextractionprocedureforthespeciationofparticulatetracemetals . AnalChem , 1979 , 51 : 844 
+ 　 3TessierA , CampbellPGC , BissonM . Particulatetracemetalspeciationistreamsedimentsandrelationshipswithgrainsize : implicationsforgeochemicalexploration . JGeochemExplor , 1982 , 16 : 77 
+ 　 4WadgeA , HuttonM . Theleachabilityandchemicalspeciationofselectedtraceelementsinflyashfromcoalcombustionandrefuseincineration . EnvironmentPllution , 1987 , 48 : 85 
+ 　 5 冯新斌 ， 陈业材 ， 朱 卫国 . 土壤 中 汞 的 存在 形式 的 研究 . 矿物学 报 ， 1996 ， 16 ( 2 ) ： 218 
+ 　 6QuerolX , JuanR , LopezSolerAetal . Mobilityoftraceelementsfromcoalandcombustionwastes . Fuel , 1996 , ( 7 ) : 821 
+ 　 7FernandezTurielJLCarvalhoWde , CabanasMetal . Mobilityofheavymetalsfromcoalflyash . EnvironmentalGeology , 1994 , 23 : 264 
+ 　 8 冯新斌 ， 倪 建宇 ， 洪业 汤 等 . 贵州省 煤中 挥发性 和 半 挥发性 微量元素 分布 规律 的 初步 研究 . 环境 化学 ， 1998 ， 17 ( 2 ) ： 148 
+ 1997 - 10 - 21 收到 原稿 
+ 1998 - 04 - 01 收到 修改稿 
+ 
+ 

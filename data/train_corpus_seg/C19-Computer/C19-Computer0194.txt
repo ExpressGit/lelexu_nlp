@@ -1,0 +1,123 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 2000 　 Vol.11 　 No.3 　 P.293 - 299 
+ 
+ 
+ 
+ 扩充 析取 逻辑程序 的 争论 语义 
+ 王克文 　 周 立柱 　 陈 火旺 
+ 摘要 　 该文 探讨 争论 推理 在 扩充 逻辑程序 中 的 实现 及其 关系 问题 . 基于 “ 相干 原理 ” ， 建立 了 扩充 逻辑程序 的 争论 推理 框架 ， 多种 争论 推理 形式 都 可以 嵌入 其中 . 特别 是 提出 了 一种 谨慎 语义 Acc . 同时 又 定义 了 良基 语义 的 一种 合理 扩充 Mod , 以 处理 较为 大胆 的 推理 形式 . 另外 也 研究 了 相关 的 理论 性质 . 
+ 关键词 　 析取 逻辑程序 ， 明显 否定 ， 争论 推理 ， 语义 . 
+ 中图法 分类号 　 TP18 
+ AnArgumentation - BasedFrameworkforExtendedDisjunctiveLogicPrograms 
+ WANGKe - wen 　 ZHOULi - zhu 
+ ( DepartmentofComputerScienceandTechnologyTsinghuaUniversity 　 Beijing 　 100084 ) 
+ WANGKe - wen 
+ ( StateKeyLaboratoryforNovelSoftwareTechnologyNanjingUniversity 　 Nanjing210093 ) 
+ CHENHuo - wang 
+ ( SchoolofComputerChangshaInstituteofTechnologyChangsha 　 410073 ) 
+ Abstract 　 Aninvestigationintotherelationshipbetweenargumentationanddisjunctivelogicprogramswithexplicitnegation ( EDLP ) isconducted . Byemployingthecoherenceprinciple , anargumentation - theoreticframeworkforEDLPispresented , inwhichvariousformsofargumentationcanbeperformed . Inparticular , askepticalsemanticsAccisintroducedinanaturalway . Toprovideamoresuitableformofargumentation , alessskepticalsemanticsModisalsodefinedwhichnaturallyextendsthewell - foundedmodel . 
+ 　 Keywords 　 Disjunctivelogicprogram , explicitnegation , argumentation , semantics . 
+ 　 　 Traditionallogicprogramsarenotsufficientlyexpressivefortasksofrepresentinglargeclassesofknowledgebases , andthushavebeenextendedaccordingtothefollowingtwoconsiderations : 
+ 　 　 1 . Disjunctiveinformationcannotbefullyanddirectlyexpressedintraditionallogicprograms , whichisproventobeamajorobstacletousingtheminvariousknowledgedomains . Inparticular , itconstitutesamajorobstacletousinglogicprogrammingasadeclarativespecificationlanguageforsoftwareengineering . Asaresult , theclassofdisjunctivelogicprogramsisintroducedbyallowingdisjunctiontoappearintheheadsofclausesoflogicprograms . Disjunctiveprogramsnotonlyallowmoredirectrepresentationofincompleteinformation , butalsotheyaremoreexpressivethantraditionalones . 
+ 　 　 However , theproblemofdefiningasuitablesemanticsisproventobeadifficultone , asevidencedbyalotofstudies ( seeRef . ［ 1 ］ forasurvey ) . Theargumentation - theoretic 　 frameworksdefinedinRefs . ［ 2 , 3 ］ seemtobesuchtwopromisingsemantics . 
+ 　 　 2 . Thenegativeinformationinthetraditionallogicprogrammingisimplicitandrepresentedbythedefaultnegation . Apropositionisassumedfalseifthereisnoreasontobelievethatitistrue . However , asarguedbysomeresearchers , explicitnegativeinformationcannotbeexpressedinlogicprogramswithoutexplicitnegationthoughitiscrucialinapplyinglogicprogrammingtodiagnosis , databaseupdates , anddeclarativedebugging . Inrecentyears , researchershaveunderstoodtheimportanceofextendinglogicprogrammingbyintroducingexplicitnegation . Thisenhancementoflogicprogrammingimmediatelyleadstothenewbasicproblemofhowtodealwithcontradictioninsuchextendeddisjunctiveprograms . 
+ 　 　 Argumentationconstitutesamajorpartofhumanintelligence . Theabilitytobeengagedinargumentsisimportantforpeopletounderstandnewproblems , toperformscientificreasoning , toexpressanddefendtheiropinionintheirdailylife . Thebasicideaofargumentativereasoningisthatastatementisbelievableifitcanbearguedsuccessfullyagainsttheattackingarguments . Inotherwords , whetherornotarationalagentbelievesinastatementdependsonwhetherornottheargumentsupportingthisstatementcanbesuccessfullydefendedagainstthecounter - arguments . 
+ 　 　 Butsurprisingly , notmuchattentionhasbeenpaidsofartotheargumentationinextendeddisjunctiveprogrammingthoughthesekindsofreasoningareprominentinlegalreasoning , defeasiblereasoningandnonmonotonicreasoning . Thus , thegoalofthispaperistoprovideasemanticframeworkforperformingargumentationinextendeddisjunctiveprograms . WedosobyincorporatingthecoherenceprincipleintotheapproachproposedinRef . ［ 2 ］ . 
+ 1 　 CoherenceHypotheses 
+ 　 　 Withoutlossofgenerality , wewillconsideronlypropositionallogicprograms . Therewillbetwokindsofnegationsinthelogicprogramsconsideredinthispaper , thatis , thedefaultnegation ‘ ～ ’ andtheexplicitnegation ‘ ’ . Foranyatoma , ‘ aistrue ’ meansthataisprovableinthegivenlogicprogramsystem ; ‘ ～ aistrue ’ , however , meansthattheattempttoproveafails . Thedisjunction ‘ ｜ ’ inlogicprogrammingistheso - calledepistemicdisjunction . 
+ 　 　 Anobjectiveliterallisanatomaoritsexplicitnegationa ; adisjunctl1 ｜ ... ｜ lrofobjectiveliteralsl1 , ... , lrissaidtobeadisjunctiveobjectiveliteral . Thedefaultnegation ～ lofanobjectiveliteralisasubjectiveliteralandadisjunctivesubjectiveliteralisadisjunct ～ l1 ｜ ... ｜ ～ lrofsubjectiveliterals ～ l1 , ... , ～ lr . WeuseOP , SP , DOPandDSPtodenotethesetsofallobjectiveliterals , subjectiveliterals , disjunctiveobjectiveliteralsanddisjunctivesubjectiveliterals , respectively . 
+ 　 　 Wefirstgivethesyntaxofextendeddisjunctivelogicprograms . 
+ Definition1.1 AnextendeddisjunctiveprogramPisafinitesetofclausesoftheform 
+ l1 ｜ ... ｜ lr ← lr + 1 , ... , ls , ～ ls + 1 , ... , ～ lt , 
+ whereli ＇ sareobjectiveliterals . 
+ 　 　 IfweconsiderOPastheHerbrandbase ( inparticular , anobjectiveliteralistakenasanew ‘ atom ’ ) asinthetraditionallogicprogramming , thensomenotionsintroducedinRef . ［ 2 ］ , suchasexpansionandcanonicalform , canbeeasilygeneralizedtoextendeddisjunctiveprograms . 
+ 　 　 Definition1.2 . A ( disjunctive ) assumption α ofPmeansadisjunctivesubjectiveliteral . Asubset Δ ofDSPisa ( disjunctive ) hypothesisofPif ‖ Δ ‖ = Δ . 
+ Thetaskofdefiningasemanticsforlogicprogramsisinfacttodeterminethesetsofliteralsthatshouldbeinferredfromtheprogram . Sincetheincorporationofexplicitnegationmakesthereasoningofprogramsextraordinarilycomplicated , theargumentation - theoreticframeworkdefinedinRef . ［ 2 ］ cannotbedirectlygeneralizedtoextendeddisjunctiveprograms . 
+ 　 　 Intherestofthissection , wewillformulateausefulprinciple ( thecoherenceprinciple ) introducedinRef . ［ 4 ］ inthesettingofextendeddisjunctiveprogramming . Thisprinciplewillgreatlysimplifytheapproachofnegationsandallowustodefineanintuitivesemanticframeworkthatcanproperlyhandledifferentnegationsandcontradictions . Thecoherenceprincipleguaranteesthat ～ aistruewheneveraistrue . Inotherwords , ouracceptablehypothesis Δ shouldpossesssuchaproperty : ifacanbeinferredfromanextendeddisjunctiveprogramPunderthehypothesis Δ , then ～ aisalsoinferred . Wenowformulatethisintuitiveprincipleinthefollowingdefinition . 
+ 　 　 Definition1.3 . Let Δ beahypothesisofextendeddisjunctiveprogramP . ThenthecoherencehypothesisCohP ( Δ ) ofPisdefinedas 
+ 
+ whereministheminimalfirst - orderinferencebytakingallobjectiveandsubjectiveliteralsasnewatoms . 
+ 　 　 ThefunctionofCohP ( Δ ) istocollectalltheassumptionsthatareinferredbytheoriginalhypothesis Δ . ThismeansthatourrealhypothesiswillbeCohP ( Δ ) oncewetakethehypothesis Δ . 
+ 　 　 Corollary1.1 . Foranyhypothesis Δ ofanextendeddisjunctiveprogramP , thefollowingtwoitemshold : 1 . Δ CohP ( Δ ) ; 2 . CohP ( CohP ( Δ ) ) = CohP ( Δ ) . 
+ 　 　 Example1.1 . LettheextendeddisjunctiveprogramPconsistofthefollowingthreeclauses : 
+ 
+ Then . Thisexamplealsoshowsthat , ingeneral , 
+ 　 　 Formtheexampleabovewecanseethatthenotionofcoherencehypothesescharacterizestheintendedrelationshipbetweendefaultnegationandexplicitnigation ( thatis , theintuitionofthecogerenceprinciple ) . However , thereisnorelationbetweenanatomaanditsnegativeobjectiveliteralaatpresent . Intuitively , atleastweshouldguaranteethat , ifaisprovable , amustnotbeinferredfromP ( i . e . ～ ashouldbeprovable ) . Considerthefollowingexample . 
+ 　 　 Example1.2 . Supposethatonehastotaketrainorbus , insteadoftakingairplane , iftheweatherisbad . Now , today ' sweatherisreallybad . ThenthisknowledgebasecanbeexpressedastheextendeddisjunctiveprogramP : 
+ 
+ Sincebad - weatherholdsatpresent , weoftenimplicitlyassumethatbad - weatherdoesnothold . Thatis , bad - weatherholdsifandonlyifbothbad - weatherand ～ bad - weatherholdatthesametime . Therefore , Pactuallyexpressesthefollowingprogram : 
+ 
+ 　 　 Definition1.4 . LetPbeanextendeddisjunctiveprogram . TheintendedprogramPIofPistheextendeddisjunctiveprogrambyreplacingeveryclauseoftheforml1 ｜ ... ｜ lr ← lr + 1 , ... , ls , ～ ls + 1 , ... , ～ ltbyanotherl1 ｜ ... ｜ lr ← lr + 1 , ～ lr + 1 , ... , ls , ～ ls , ls + 1 , ... , lt . Pwillbeanextendeddisjunctiveprogramifwedonotstateexplicitly . 
+ 　 　 Intherestofthispaper , wheneveranextendeddisjunctiveprogramismentionedwealwaysmeanitsintendedprogram . 
+ 2 　 AcceptabilityofHypotheses 
+ 　 　 Inthissection , wewillseekbasicconditionsfordeterminingacceptablehypotheses . First , areasonableagentshouldnotdirectlyderivecontradictoryconclusionsfromanacceptablehypothesis . Thus , thefollowingdefinitionisinorder . 
+ 　 　 Definition2.1 . Let Δ beahypothesisofextendeddisjunctiveprogramP . Δ isself - consistentiftherearenoobjectiveliteralsl1 , ... , lm ∈ OPsuchthatforalli = 1 , ... , mimpliesboth ～ l1 ｜ ... ｜ ～ lm ∈ CohP ( Δ ) and 
+ 　 　 TheintuitionofthisdefinitionisthatdirectcontradictionscannotbeinferredfromPunderaself - consistenthypothesis Δ . Inouropinion , anacceptablehypothesisshouldbeself - consistent . Itisnothardtoseethattherereallyexisthypothesesthatarenotself - consistent . Forexample , supposethatP = { a ← ～ b ; b ← ～ a } . Take Δ = ‖ ～ b ‖ , thenCohP ( Δ ) = ‖ ～ a , ～ b ‖ . Thus , Δ isnotself - consistentsincebut ～ b ∈ Δ . 
+ 　 　 Bythedefinitionabove , thefollowingcorollaryisobvious . 
+ 　 　 Corollary2.1 . ForanydisjunctiveprogramPthatcontainsnoexplicitnegation , Ppossessesatleastoneself - consistenthypothesis . 
+ 　 　 Proof . Take Δ = , thenCohP ( Δ ) = . Itisobviousthatisaself - consistenthypothesisofP . 
+ 　 　 Thisconclusionwillnotholdforprogramsthatcontainexplicitnegation . ConsiderP = { a ← ; a ← } , CohP ( ) = ‖ ～ a ‖ but . Thus , isnotaself - consistenthypothesisofP . Infact , Ppossessesnoself - consistenthypotheses . ThiscoincideswithourintuitiononP . 
+ 　 　 Definition2.2 . Anextendeddisjunctiveprogramisself - consistentifisaself - consistenthypothesisofP . 
+ 　 　 ThefollowingtheoremsaysthattheconditioninDefinition2.2 istheweakestconditionthatguaranteestheexistenceofself - consistenthypothesesforP . 
+ Theorem2.1 . AnextendeddisjunctiveprogramPhasatleastoneself - consistenthypothesisifandonlyifPisself - consistent . 
+ 　 　 Proof . Theconditionisobviouslysufficient . Fornecessity , byDefinition2.1 , Pwouldhavenoself - consistenthypothesesifisnotaself - consistenthypothesisofP . 
+ 　 　 Ingeneral , noteveryself - consistenthypothesisrepresentstheintendedmeaningofP . Forexample , P = { a ｜ b ← ～ c } . Intuitively , thedefaultnegation ～ cofcshouldbetrue , whichimpliesthata ｜ bisalsoderivablefromP . Therefore , ～ aand ～ bcannotholdatthesametime . However , Δ ′ = ‖ ～ a , ～ b ‖ isself - consistent . Thismeansthattheclassofself - consistenthypothesesmustbefurtherconstrained . Tothisend , basedontheparadigmofargumentation , wewillintroducethedefinitionofacceptablehypothesesaftersomenotationsaredefined . 
+ 　 　 Wesaythatahypothesis Δ deniesanassumption β = ～ l1 ｜ ... ｜ ～ lnofPifforalli = 1 , ... , n . 
+ 　 　 Definition2.3 . Let Δ and Δ ′ betwohypothesesofP . Δ issaidtoattack Δ ′ , denotedasifoneofthefollowingconditionsissatisfied : 
+ 　 　 1 . thereexistsanassumption β ∈ Δ ′ suchthat Δ denies β ; 
+ 　 　 2 . thereexistassumptions ～ l1 , ... , ～ ln ∈ Δ ′ suchthat 
+ 　 　 Theabovecondition ( 2 ) meansthat Δ may ' deny ' morethanone ( non - disjunctive ) hypothesisof Δ ′ . Noticethatonlythecondition ( 1 ) aboveisnotenoughtoreflecttheattackrelation . Forexample , P = { a ｜ 
+ b ← } , then Δ = attacks Δ ′ = ‖ ～ a , ～ b ‖ though Δ deniesnoassumptionin Δ ′ . 
+ 　 　 SimilartothedefinitionofacceptablehypothesesinRef . ［ 2 ］ , wehavethefollowingfundamentalconcept . 
+ 　 　 Definition2.4 . Let Δ beahypothesisofP . Anassumption β = ～ l1 ｜ ... ｜ ～ lmofPisacceptablewithrespectto Δ ifforanyhypothesis Δ ′ ofPthatdenies β . 
+ 　 　 A 璓 ( Δ ) denotesthesetofallacceptablehypothesesofPwrt Δ . 
+ Theintuitionofthisdefinitionisthat : foranyhypothesis Δ ′ thatdenies β , Δ willdefend β byattacking Δ ′ . Intuitively , if Δ isanacceptablehypothesisofP , theneachassumptionofCohP ( Δ ) shouldbeacceptablewithrespectto Δ . 
+ 　 　 Definition2.5 . Let Δ beaself - consistenthypothesisofP . Δ issaidtobeacceptableifCohP ( Δ ) AP ( Δ ) . 
+ 　 　 FromCorollary1.1 , thefollowingresultisobvious . 
+ 　 　 Corollary2.2 . If Δ isacceptable , thensoisCohP ( Δ ) . Moreover , A 璓 ( Δ ) = AP ( CohP ( Δ ) ) . 
+ 　 　 Example2.1 . LetPconsistoftwoclauses : 
+ a ｜ b ← ～ c 
+ c ← 
+ Then Δ = ‖ ～ c ‖ isacceptablebut Δ ′ = ‖ ～ a , ～ b ‖ isnot . 
+ 　 　 Theorem2.2 . LetPbeanextendeddisjunctiveprogram . IfPisself - consistent , thenithasatleastoneacceptablehypothesis . 
+ 　 　 Proof . Take Δ 0 = CohP ( ) . Wewanttoprovethat Δ 0isacceptable . Sinceisself - consistent , sois Δ 0 . Toshowthat Δ 0AP ( Δ 0 ) , itsufficestoprovethatif , then Δ ′ mustnotbeself - consistent . Infact , suppose Δ ′ attacks β = ～ l1 ｜ ... ｜ ～ ln ∈ Δ 0 . ThenCohP ( Δ ′ ) ∪ foralli = 1 , ... , n . Ontheotherhand , by β ∈ CohP ( ) , wehave . Again , , thus . Thisimpliesthat . Therefore , Δ 0AP ( Δ 0 ) . ByCorollary1.1 , Δ 0 = CohP ( Δ 0 ) , andthustheconclusionfollows . 
+ 　 　 Definition2.6 . ThesemanticsAcc ( P ) ofextendeddisjunctiveprogramisdefinedasthesetofallacceptablehypothesesofP . 
+ 　 　 Bythedefinitionabove , theinferencedefinedbysemanticsAcc ( P ) correspondstotheintersectionofallacceptablehypothesesofP . WeknowthatCohP ( ) istheleastacceptablehypothesisofP . Thus , Acc ( P ) = CohP ( ) . Thissemanticsisobviouslytooskepticaltoinferanythingfromsomeprograms . 
+ 　 　 Example2.2 . LetPconsistoftwoclauses : 
+ 
+ ThenCohP ( ) = ‖ ～ a ‖ . However , itisobviousthattheassumption ～ dshouldalsobeacceptable . Thus , alittlemorecreduloussemanticsishighlyneeded . 
+ 3 　 ModerateHypotheses 
+ 　 　 Supposethatthereisanagentwhosereasoningwillbeconsideredreasonablebyallotherrationalagents . Therefore , thehypothesesacceptedbythisagentwillbeconsistentwithotheracceptablehypotheses . If Δ 0isanacceptablehypothesisofouragent , then Δ 0 ∪ Δ ′ isalwaysself - consistentforanyacceptablehypothesis Δ ′ . 
+ 　 　 Definition3.1 . Ahypothesis Δ 0ofPismoderateifitisamaximalmemberofthehypothesesthatsatisfythefollowingcondition : foranyacceptablehypothesis Δ ofP , ‖ Δ ∪ Δ 0 ‖ isalsoacceptable . 
+ 　 　 Wecanshowthateachself - consistentprogrampossessestheuniquemoderatehypothesis . 
+ 　 　 Theorem3.1 . IfanextendeddisjunctiveprogramPisself - consistent , thenPhastheuniquemoderatehypothesis . 
+ 　 　 Proof . First , toprovetheexistenceofmoderatehypothesis : bytheproofofTheorem2.1 , CohP ( ) isanacceptablehypothesisofPandCohP ( ) Δ foranyhypothesis Δ . Thus , CohP ( ) ∪ Δ isstillacceptableif Δ isacceptable . WriteDP = { Δ 0 : Δ 0isanacceptablehypothesisofPsuchthat ‖ Δ 0 ∪ Δ ‖ isacceptableforanyacceptablehypothesis Δ } . ThenCohP ( ) ∈ DPandthusDP ≠ . ByZorn ' slemma , thepartiallyorderedset ( DP , ) hasamaximalelement Δ mod , whichisexactlyamoderatehypothesisofP . 
+ 　 　 Next , toshowtheuniquenessofmoderatehypothesis : supposethatPhasanothermoderatehypothesis Δ ′ , then = ‖ Δ mod ∪ Δ ′ ‖ isacceptable , and ∪ Δ isacceptableforanyacceptablehypothesis Δ . However , Δ modand Δ ′ , bythemaximalityof Δ modand Δ ′ , wehave Δ ′ = = Δ mod . 
+ 　 　 ThemoderatesemanticsMod ( P ) isdefinedbyitsuniquemoderatehypothesis . Thissemanticsprovidesanaturalargumentation - basedextensionofthewell - foundedsemantics . ByTheorem3.1 , Modiscompletefortheclassofself - consistentprograms . 
+ 　 　 Anextendeddisjunctiveprogramissaidtobeconsistentifithasatleastoneanswerset ［ 5 ］ . Noticethatsomeself - consistentprogramsarenotconsistent , whichmeansthatoursemanticsModcanhandleinconsistentprogramsbetter ( seethefollowingexample ) . 
+ 　 　 Example3.1 . Pconsistsofthreeclauses : 
+ 
+ 簟 b , ～ c ‖ , whichisexactlyourintuitiononP . 
+ 　 　 Corollary3.1 . Everymoderatehypothesisisanacceptableone . 
+ 　 　 Proof . ItfollowsdirectlyfromDefinition3.1 . 
+ 　 　 SinceCohP ( ) istheleastacceptablehypothesis , thefollowingresultisobvious . 
+ 　 　 Corollary3.2 . IfanextendeddisjunctiveprogramPisself - consistentand Δ mod ( P ) itsmoderatehypothesis , thenCohP ( ) Δ mod ( P ) . 
+ 　 　 Thiscorollarysaysthat , ingeneral , thesemanticsModismorecredulousthanAcc . 
+ 　 　 ConsidertheprograminExample2.2 . Itisstraightforwardtoverifythat Δ mod 
+ 4 　 Conclusion 
+ 　 　 Byexploitingthecoherenceprinciple , wehaveestablishedanargumentation - theoreticframeworkforextendeddisjunctiveprograms . Inparticular , wedefineawell - foundedsemanticsmodanditspropertiesarestudiedincludingitscompletenessanduniquenessfortheclassofself - consistentlogicprograms . InthisframeworkwecanalsointroduceotherformsofargumentationsimilartotheDASinRef . ［ 3 ］ , buttheywillbemorecomplicated . Therearesomeinterestingresearchdirections . Onepossibilityistocompareoursemanticswithotheronesforextendeddisjunctiveprograms , suchastheanswersetsemanticsandtheabductivesemanticsinRef . ［ 6 ］ . Ourframeworkcanalsobegeneralizedtotheclassofbi - disjunctivelogicprogramswithexplicitnegation ［ 7 ］ . Moreimportantly , aproceduralinterpretationforModishighlyneeded . 
+ ThisresearchissupportedbytheNationalNaturalScienceFoundationofChina ( 国家自然科学基金 , No.69883008 , 69773027 ) , theNationalFoundationResearchProgrammeofChina ( 国家 基础 研究 发展 规划 项目 , No . G1999032704 ) , andtheITSchoolofTsinghuaUniversity ( 清华大学 信息 学院 基础 创新 研究 ) . WANGKe - wenwasbornin1962 . HeisanassociateprofessorintheDepartmentofcomprterScienceandTechnology , TsinghuaUniversity . HereceivedhisPh . D . degreeintheoryoflogicprogrammingfromNankaiUniversity . Hiscurrentresearchareasincludedatabases , logicprogrammingandartificialintelligence . ZHOULi - zhuwasbornin1947 . HeisaprofessorandtheheadoftheDepartmentofComprterScienceandTechnology , TsinghuaUniversity . Hisresearchinterestsincludedatabasesystems , datawarehouseandinformationsystems . CHENHuo - wangwasbornin1936 . HeisaprofessoroftheSchoolofComputer , ChangshaInstituteofTechnology . Hisresearchinterestsincludeartificialintelligenceandsoftwareengineering . 
+ Manuscriptreceived1998 - 05 - 21 , accepted1998 - 09 - 31 
+ 作者 单位 ： 王克文 ( 清华大学 计算机科学 与 技术 系 　 北京 　 100084 ) 
+ 周 立柱 ( 清华大学 计算机科学 与 技术 系 　 北京 　 100084 ) 
+ 王克文 ( 南京大学 计算机软件 新 技术 国家 重点 实验室 　 南京 　 210093 ) 
+ 陈 火旺 ( 国防科学技术大学 计算机 学院 　 长沙 　 410073 ) 
+ References 
+ 1 ， MinkerJ . Overviewofdisjunctivelogicprogramming . AnnalsofMathematicsandArtificialIntelligence , 1994 , 12 : 1 ～ 24 
+ 2 ， WangK , ChenH , WuQ . Argumentationindisjunctivelogicprogramming . ScienceinChina ( SeriesE ) , 1998 , 41 ( 1 ) : 106 ～ 112 
+ 3 ， WangK , ChenH , WuQ . Credulousargumentationwiththedisjunctivestablesemantics . ScienceinChina ( SeriesE ) , 1998 , 41 ( 3 ) : 330 ～ 336 
+ 4 ， PereiraL , AlferesJ . Well - foundedsemanticsforlogicprogramswithexplicitnegation . In : NeumannBed . Proceedingsofthe10thECAI . NewJersey : JohnWiley & Sons , 1992.102 ～ 106 
+ 5 ， GelfondM . Foundationsoflogicprogramming . In : BrewkaGed . PrinciplesofKnowledgeRepresentation . CSLIPublications , CambridgeUniversityPress , 1996.69 ～ 127 
+ 6 ， WangK , ChenH , WuQ . Consistency - Basedabductionwithextendeddisjunctivelogicprograms . ScienceinChina ( SeriesE ) , 1997 , 40 ( 6 ) : 574 ～ 582 
+ 7 ， WangK , ChenH . Abduction , argumentationandbi - disjunctivelogicprograms . In : JurgenD , PereiraL , PrzymusinkiTeds . ProceedingsoftheLPKR ' 97 , PortJefferson . NewYork , LNAI1471 , Springer , Berlin , 1998.139 ～ 163 

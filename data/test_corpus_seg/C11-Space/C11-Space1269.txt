@@ -1,0 +1,210 @@
+航空 材料 学报 
+ JOURNALOFAERONAUTICALMATERIALS 
+ 1999 年 　 第 19 卷 　 第 2 期 　 Vol.19 　 No.2 　 1999 
+ 
+ 
+ 
+ 钼 合金 在 高温 热 机械 应力 循环 下 的 疲劳 性能 
+ な ┗ 莼 　 科恩 　 普吕 维纳 热 
+ 摘要 ： 对 钼 合金 进行 了 应力 控制 高温 低周 等温 疲劳 和 同 相位 热 机械 疲劳 试验 。 对于 等温 疲劳 试验 选取 的 实验 温度 为 350 ℃ 和 500 ℃ ， 对于 热 机械 疲劳 试验 循环 温度 范围 为 350 ℃ - 500 ℃ 。 根据 采集 的 材料 应力 － 应变 响应 和 循环 破坏 周数 ， 可以 看出 温度 的 变化 对 材料 疲劳 寿命 产生 很大 影响 ， 当 温度 循环 和 应力 循环 叠加 时 ， 会 加重 损伤 的 程度 。 对 循环 回线 的 分析表明 ， 在 每 一种 疲劳 试验 过程 中均 发生 材料 循环 软化 和 循环 蠕变 现象 。 对 破坏 试件 的 微观 结构 分析表明 ， 在 高 应力 循环 条件 下 ， 钼 合金 的 破坏 基本上 是 脆断 过程 。 
+ 关键词 ： 热 机械 疲劳 ； 钼 合金 ； 温度 循环 ； 应力 控制 循环 
+ 中 图 分类号 ： TG146.142 　 文献 标识码 ： A 　 　 文章 编号 ： 1005 － 5053 ( 1999 ) 02 － 0013 - 070 
+ Fatiguebehaviorofmolybdenumalloyunderhightemperature 
+ thermomechanicalstresscycles 
+ SHIHui - ji 　 KORNC 　 PLUVINAGEG 　 
+ ( 1 . DepartmentofEngineeringMechanics , TsinghuaUniversity , Beijing100084 , China ' 2 . UniversityofMetz , Metz57045 , France ) 
+ Abstract : Hightemperatureisothermalmechanicalfatigueandin - phasethermomechanicalfatigue ( TMF ) testsinstresscontrolwerecarriedoutonamolybdenumalloy . Twotemperaturelevelsof350and500 ℃ 　 wereappliedtoisothermalfatiguetestandatemperatureintervalof350 - 500 ℃ toTMFtests . Thefatiguelivesobtainedinthein - phaseTMFtestsislowerthantheonesobtainedintheisothermalmechanicaltestsatthesamestressamplitude . ItappearsthatanadditionaldamageproducedgythereactionofmechanicalstresscyclesandtemperaturecyclesinTMFsituation . Ratchingpheomenonoccurredduringthetestswithandincreasingcreeprateanditdependentontemperatureandloadamplitude . Theobservationsofthemicrostructureofthedamagedspecimensdemonstratedthatthefracturewasabrittleprocessunderhighercyclicstressconditions . AsimplemodeloflifetimepredictionwasitisbasedonWoehler - Minerlaw . Thelifetimepredictiongivesresultscorrespondingtoexperimentaldata . 
+ Keywords : thermomechanicalfatigue ; molybdenumalloy ; temperaturecycles ; stresscontrolcyclesl 
+ 　 　 目前 在 航空航天 领域 ， 高温 工程 对 新型材料 提出 了 更 高 的 要求 ， 在 多种 特性 中 ， 更加 强调 高温 强度 和 耐热 冲击 性能 。 钼 合金 TZM 是 一种 应用 在 高温 工程 中 的 优质 耐 熔 合金 ［ 1 , 2 ］ 。 随着 制造 技术 的 改进 ， 现在 已能 生产 各种 形状 的 部件 ， 然而 ， 当 合金 承受 复杂 的 载荷 时 ， 需要 获得 进一步 的 性能 数据 。 
+ 　 　 在 许多 工程 结构 应用 中 ， 部件 不但 受到 机械 约束 ， 而且 往往 由于 温度 变化 受到 自由 膨胀 的 限制 。 在 这种 情况 下 , 温度 变化 在 部件 内 产生 的 有害 热应力 和 热 应变 将 影响 结构 的 使用寿命 。 因此 不仅 应该 了解 高温 等温 疲劳 性能 ， 而且 更 需要 研究 材料 的 非 等温 疲劳 特性 。 目前 ， 在 评价 许多 工程 材料 的 损伤 性质 ， 热 机械 疲劳 试验 得到 了 发展 。 在 热 机械 疲劳 试验 中 ， 试件 上 的 载荷 由 循环 机械 应力 或 应变 与 循环 温度 叠加 构成 ， 应用 热 机械 疲劳 试验 技术 ， 可以 对 材料 的 耐热 疲劳 和 热 冲击 性能 进行 系统 和 细致 的 研究 ［ 3 ～ 5 ］ 。 
+ 　 け 疚 难 芯 苛祟 夂 辖 鹪 诘 任潞腿 然械 循环 条件 下 高温 疲劳 性能 。 等温 疲劳 试验 在 350 ℃ 和 500 
+ ℃ 两种 温度 下 进行 ， 温度 循环 和 应力 循环 同 相位 的 热 机械 疲劳 试验 在 温度 范围 为 350 ～ 500 ℃ 
+ 的 条件 下 进行 。 所有 的 试验 为 应力 控制 ， 其 应力 范围 为 800 ～ 1200MPa 。 通过 试件 破坏 部位 的 
+ 断裂 特性 和 比较 热 机械 疲劳 和 等温 疲劳 间 的 循环 响应 ， 分析 了 高温 疲劳 的 损伤 机制 ， 并 对 疲 
+ 劳 寿命 进行 了 估算 。 
+ 1 　 材料 性质 和 试验 过程 
+ 　 　 钼 合金 TZM 是 一种 商品化 的 高温 合金 ， 它 约 含 0.5% 的 钛 , 0.08% 的 锆 和 0.01% ～ 0.04% 的 碳 。 这些 元素 的 加入 构成 了 细密 和 均 布 的 氧化物 和 碳化物 ， 能够 防止 在 高温 下 晶粒 的 长大 。 试验 用 钼 合金 的 化学成分 和 物理性能 分别 由表 1 和表 2 给出 。 等温 疲劳 和 热 机械 疲劳 试件 为 圆柱形 ， 试件 工作 段长度 大于 20mm ， 直径 为 8mm 。 在 疲劳 试验 前 ， 试件 表面 予以 抛光 以 防止 在 机 
+ 械 加工 划痕 处 产生 初始 微 裂纹 而 降低 疲劳 寿命 。 
+ 表 1 　 钼 基合金 TZM 的 化学成分 ， wt% 
+ Table1 　 Compositionofthemolybdenumalloy , wt% 
+ MoTiZrCOHNFeNiSi 
+ 99.30 . 50.080 . 030.03 ＜ 0.0005 ＜ 0.00050 . 005 ＜ 0.001 ＜ 0.003 
+ 
+ 
+ 表 2 　 钼 基合金 TZM 的 物理性质 
+ Table2 　 Physicalpropertiesofthemolybdenumalloy 
+ Temperature 
+ / ℃ Thermal 
+ conductivity 
+ / ( W / mm . K ) Specificheat 
+ / ( J / g . K ) Thermal 
+ expansion 
+ coefficient 
+ / ( 1 / K ) 0.2% yield 
+ strength 
+ / MPaTensile 
+ strength 
+ / MPaModulusof 
+ elasticity 
+ / MPa 
+ 200.1250 . 245.3 × 10 - 65906853.2 × 105 
+ 5000.1150 . 255.6 × 10 - 6 　 　 3.0 × 105 
+ 10000.1000 . 296.0 × 10 - 6 　 　 2.7 × 105 
+ 
+ 
+ 　 　 热 机械 疲劳 试验 由 机械 循环 和 温度 循环 叠加 构成 。 机械 循环 由 液压 伺服 试验机 实现 ， 温度 循环 加热 由 抛物线 内壁 红外线 四灯 辐射 加热炉 来 实现 。 应变 的 测量 是 由 高精度 高温 应变 引伸 计来 实现 的 ， 为了 避免 高温 的 影响 ， 引伸 计 主体 安装 在 加热炉 外侧 ， 引伸 计上 的 两根 头部 为 楔形 的 石英 棒 穿过 炉体 ， 夹持 在 试件 上 。 热电偶 测温 系统 和 应力 控制系统 组成 两个 闭合 回路 ， 通过 计算机 控制软件 ， 自动 测量 和 控制 应力 和 温度 循环 的 幅度 、 频率 和 相位 关系 。 
+ 　 　 为了 研究 材料 等温 疲劳 和 热 机械 疲劳 性质 ， 共 设计 了 三种 试验 ： 350 ℃ 和 500 ℃ 等温 低周 疲劳 ， 温度 变化 范围 为 350 ～ 500 ℃ 的 同 相位 热 机械 疲劳 。 温度 和 应力 变化 波形 为 三角形 ， 每个 周期 为 1min 。 由于 钼 合金 是 脆性 材料 ， 很难 实现 应变 控制 疲劳 试验 ， 因此 所有 的 试验 在 等 应力 控制 下 进行 。 对于 等温 疲劳 ， 选取 了 800 ， 1000 和 1200MPa 三种 应力 范围 ； 对于 热 机械 疲劳 ， 选取 了 800 ， 900 ， 1000 和 1200MPa 四种 应力 范围 。 在 热 机械 疲劳 试验 中 ， 温度 循环 和 应力 循环 是 同 频率 和 同 相位 的 ， 即 最大 拉伸 应力 对应 最高 温度 ， 最大 压缩 应力 对应 最低温度 。 试验 过程 中 ， 所有 的 设备 均 由 计算机 自动控制 完成 ， 所有 的 试验 数据 也 被 自动记录 。 
+ 2 　 试验 结果 
+ 2.1 疲劳 寿命 
+ 　 　 图 1 以 应力 范围 与 循环 破坏 周数 的 关系 描述 了 三种 试验 的 疲劳 寿命 曲线 （ S － N 曲线 ） 。 在 350 ℃ 和 500 ℃ 等温 疲劳 之间 ， 其 疲劳 寿命 没有 明显 的 差别 ， 这 说明 钼 合金材料 保持 着 优良 的 高温 循环 强度 。 然而 热 机械 疲劳 试验 的 结果表明 ， 在 相同 的 应力 范围 控制 条件 下 ， 热 机械 疲劳 的 寿命 均 低于 两种 等温 疲劳 的 寿命 。 这 可能 是 由于 温度 的 变化 ， 使 试件 的 截面 形成 温度梯度 ， 产生 了 附加 热应力 或 热 应变 。 
+ 　 　 　 
+ 　 图 1 　 等温 疲劳 和 热 机械 疲劳 寿命 曲线 　 　 　 　 　 图 2 　 应力 控制 疲劳 循环 蠕变 现象 示意图 
+ 　 Fig.1 　 ExperimentalS - Ncurvesof 　 　 　 　 Fig.2 　 Schematicshowingofthecreep 
+ isothermalandthermomechanicalfatigue 　 　 　 instresscontrolfatigue 　 phenomenon 
+ 
+ 2.2 循环 蠕变 现象 
+ 　 　 在 所有 的 试验 中均 观察 到 循环 蠕变 现象 ， 图 2 给出 了 这种 现象 的 示意 描述 。 在 大多数 试验 中 ， 蠕变 开始 朝着 压 应变 方向 发展 ， 当 达到 疲劳 寿命 的 2 ％ 至 10 ％ 时 ， 蠕变 方向 转向 拉 应变 方向 ， 直至 试件 断裂 。 蠕变 速率 从 开始 起 ， 一直 呈 增长 状态 。 循环 蠕变 性能 是 和 应力 强度 和 温度 相关 的 ， 循环 应力 范围 越大 ， 循环 蠕变 就 越 严重 ， 在 相同 的 循环 应力 范围 ， 温度 越高 ， 循环 蠕变 就 越 明显 。 
+ 2.3 应力 － 应变 响应 
+ 　 　 从 试验 记录 的 数据 中 ， 可以 得到 疲劳 应力 - 应变 响应 。 最 主要 的 结果 列于 表 3 。 其中 WT5BX Δ σ 表示 应力 范围 ， Δ ε 璸 表示 塑性 应变 ， Δ W 璸 表示 塑性 应变 能 密度 ， 它 等于 循环 回线 内 的 面积 ， WT5BZN 璮 表示 循环 破坏 周数 。 
+ 　 　 值得注意 的 是 ， 无论是 等温 疲劳 或 热 机械 疲劳 试验 ， 在 第一 循环 ， 只有 很小 的 塑性 应变 存在 ( ＜ 0.01% ) ， 加载 和 卸载 几乎 是 弹性 的 。 然而 塑性 应变 随着 循环 周数 而 增加 ， 在 试件 断裂 前 达到 最高 水平 ， 对于 800MPa 的 试验 超过 0.36% ， 对于 1200MPa 的 试验 超过 1.0% 。 塑性 应变 的 变化 体现 了 材料 在 应力 控制 下 循环 软化 的 性能 。 塑性 应变 能 密度 的 变化规律 是 和 塑性 应变 相似 的 ， 在 第一 循环 ， 回滞 曲线 很窄 ， 随着 循环 周数 的 增加 ， 回滞 曲线 越来越 宽 。 
+ 表 3 　 试验 的 主要 结果 
+ Table3 　 Mainresultsofisothermalandthermomechanicalfatiguetests 
+ Typeof 
+ testsSpecimen 
+ number Δ σ Stress 
+ range / MPa Δ ε pat 
+ halftime / % Δ ε pbefore 
+ fracture / % Δ ω pat 
+ halftime 
+ / MJm - 3 Δ ω pbefore 
+ fracture 
+ / MJm - 3Nf 
+ / Cycles 
+ 350 ℃ 
+ Isothermal 
+ FatigueTZM01 
+ TZM02 
+ TZM03800 
+ 1000 
+ 12000.28 
+ 0.35 
+ 0.550 . 40 
+ 0.72 
+ 1.051 . 74 
+ 2.51 
+ 3.742 . 64 
+ 5.92 
+ 8.666600 
+ 380 
+ 36 
+ 500 ℃ 
+ Isothermal 
+ FatigueTZM04 
+ TZM05 
+ TZM06800 
+ 1000 
+ 12000.24 
+ 0.33 
+ 0.600 . 42 
+ 0.75 
+ 1.251 . 30 
+ 2.38 
+ 4.352 . 78 
+ 6.14 
+ 10.856020 
+ 410 
+ 26 
+ 350 - 500 ℃ 
+ Thermo - 
+ mechanical 
+ FatigueTZM07 
+ TZM08 
+ TZM09 
+ TZM10800 
+ 900 
+ 1000 
+ 12000.26 
+ 0.31 
+ 0.34 
+ 0.780 . 36 
+ 0.52 
+ 0.58 
+ 1.501 . 38 
+ 2.04 
+ 2.42 
+ 5.121 . 86 
+ 3.22 
+ 3.90 
+ 12.605250 
+ 810 
+ 140 
+ 18 
+ 
+ 2 ． 4 损伤 特性 
+ 　 　 对 不同 应力 水平 的 试验 ， 其 试件 断面 均 用 电子 扫描电镜 进行 了 观察 。 在 较 低 应力 循环 条件 下 （ 800MPa ） ， 断面 特征 为 韧性 断裂 区域 很小 （ 约 占 10 ％ ） ， 大部分 为 脆性断裂 区域 。 在 较 高 的 应力 循环 条件 下 ， 在 断面 几乎 找 不到 韧性 断裂 区域 ， 断口 显示 为 完全 脆性断裂 。 图 3 给出 了 1000MPa 热 机械 疲劳 断口 的 情况 ， 图 3 （ a ） 断口 整体 状态 ， 图 3 （ b ） 为 局部 放 大部分 ， 断口 的 形貌 为 脆性断裂 。 在 断口 上 ， 到处 可以 发现 微 裂纹 ， 循环 应力 越高 ， 产生 的 较 长微 裂纹 越 多 。 对 微观 结构 的 观察 可以 看到 ， 微 裂纹 扩展 为 晶界 开裂 形式 。 在 断面 可以 找到 许多 堆积 的 夹杂 物 ， 这 表明 材料 是非 均质 状态 的 。 因此 裂纹 的 扩展 是 由 晶界 扩展 和 穿越 夹杂 物 构成 的 。 
+ 
+ 图 3 　 1000MPa 热 机械 疲劳 试件 断口 形貌 图 
+ ( a ) 断口 总体 状态 ; ( b ) 局部 放在 的 脆性断裂 形态 
+ Fig.3 　 TheSEMimageonthefracturesurfaceof1000TMFtest 
+ ( a ) Totalfractureand ( b ) brittlefractureindetail 
+ 3 　 疲劳 寿命 模型 
+ 　 　 在 已有 的 疲劳 寿命 预测 模型 中 ， 大多数 适用 于 等温 疲劳 ， 在 热 机械 疲劳 领域 ， 成熟 的 模型 并 不多见 。 在 此 我们 建立 一个 简单 的 预测 模型 ， 用于 估算 应力 控制 等 温和 和 热 机械 疲劳 寿命 。 在 此 模型 中 ， 温度 变化 产生 的 损伤 得以 考虑 。 根据 Woehler - Miner 公式 ， 每一 循环 的 损伤 可以 表示 为 最大 应力 σ max 和 平均 应力 的 函数 [ 6 - 8 ] ： 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 公式 中 σ u 是 拉伸 强度 ; σ l ( ) 和 M ( ) 是 平均 应力 的 函数 , 可 分别 表示 为 : 
+ 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 此处 σ lo 是 疲劳极限 ， b 是 平均 应力 影响 系数 。 公式 ( 1 ) 是 的 系数 β 和 Mo 与 疲劳极限 、 损伤 累积 和 温度 有关 。 在 我们 的 实验 中 ， 外部 载荷 产生 的 平均 应力 很小 ， 可以 认为 等于零 ， 因此 公式 （ 1 ） 可以 简化 为 ： 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 在 等温 疲劳 计算 中 , Mo 和 β 可 认为 是 温度 的 函数 . 为求 疲劳 破坏 周次 , 可对 上式 积分 , 设当 N = 0 → D = 0 ， 以及 N = Nf → D = 1 : 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 在 热 机械 疲劳 计算 中 ， 要 考虑 小 温度 变化 产生 的 附加 内应力 ， 因此 每一 循环 的 损伤 不仅 是 最大 应力 σ max 和 平均 应力 的 函数 ， 而且 与 最高 温度 Tmax 和 温度 循环 范围 △ T 有关 , 可 表示 为 : 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 为 得到 比较简单 的 模型 , 我人 认为 公式 ( 1 ) 或 ( 3 ) 的 形式 可以 用于 热 机械 疲劳 的 条件 , 当 = 0 时 写成 : 
+ 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 在 公式 中 Mo 和 β 是 最高 温度 和 温度 范围 的 函数 . 系数 Mo 可以 从 等温 疲劳 的 数据 中 近似 得到 , 即 设在 等效 温度 Te 时 的 等温 疲劳 与 热 机械 疲劳 产生 相同 的 损伤 量 . 钼 合金 在 热 机械 疲劳 过程 中 , 由 热循环 产生 附加 的 损伤 , 因此 系数 β 表示 为 与 温度 循环 相关 的 函数 : 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 7 ) 
+ 公式 ( 7 ) 中 温度 的 单位 用 绝对温度 表示 , 系数 取决于 热循环 和 机械 循环 的 相位 关系 . 如同 等温 疲劳 计算 , 对 公式 ( 6 ) 积分 , 设 N = 0 → D = 0 ， 以及 N = Nf → D = 1 : 
+ 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ 此处 ( Nf ) TMF 是 热 机械 疲劳 破环 周次 。 
+ 表 4 列出 了 实验 数据 和 计算结果 的 比较 , ( Nf ) exp . 表示 实验 疲劳 寿命 , ( Nf ) cal . 表示 计算 疲劳 寿命 . 计算 模型 具有 一定 的 实用价值 。 
+ IsothermalFatigueat350 ℃ 
+ M0 = 1120 , β = 8.20 IsothermalFatigueat350 ℃ 
+ M0 = 1160 , β = 8.05 IsothermalFatigueat350 ℃ 
+ M0 = 1140 , β = 7.53 
+ σ max 
+ / MPa ( Nf ) exp . 
+ / cycles ( Nf ) cal . 
+ / cycles σ max 
+ / MPa ( Nf ) exp . 
+ / cycles ( Nf ) cal . 
+ / cycles σ max 
+ / MPa ( Nf ) exp . 
+ / cycles ( Nf ) cal 
+ / cycles 
+ 400660080304006020659040052503320 
+ - - - - - - - 450810872 
+ 500380480500410438500140250 
+ 600363460026253001816 
+ 
+ 4 　 讨论 
+ 　 　 所 做 的 试验 由于 应力 范围 高达 s00wtPa 以上 ， 可以 认为 是 应力 控制 低周 疲劳 试验 。 与 钼 基吾金 的 屈服 强度 和 极限 强度 相比 ， i200MPa 应力 范围 的 试验 中 ， 其 拉伸 应中 和 压缩 应力 已 很 接近 材料 的 强度极限 ， 因此 循环 破坏 周数 为 2040 周是 合理 的 。 
+ 　 　 微观 结构 观察 表明 ， 在 较 低 的 应力 范围 t800MPa ） ， 疲劳 寿期 可以 分为 三个 阶段 ： 裂纹 萌 、 生 ， 裂纹 扩展 和 试件 脆断 ， 分别 对应 断口 上 表面 开裂 ， 韧性 断裂 和 脆性断裂 。 而 在 较 高 的 应力 围 ， 只 发现 两个 阶段 ： 裂纹 萌生 和 脆性断裂 J ” 循环 应力 水平 越高 ， 材料 的 破坏 呈现 越高 的 脆性 。 
+ 　 　 在 本 研究 中 ， 热 机械 疲劳 试验 的 温度 变化 范围 不是 很大 ， 仅 150 ℃ ， 然而 与 最高 温度 的 等温 疲劳 相比 ， 热 机械 疲劳 产生 更 严重 的 损伤 。 它 表明 在 温度 变化 的 情况 下 ， 用 最高 温度 等温 疲劳 数据 进行 高温 工程设计 ， 并不一定 得到 保守 的 结果 。 为了 更多地 了解 等 温和 非 等温 疲劳 的 性质 ， 应 进一步 获取 铝 基合金 的 疲劳 和 断裂 试验 数据 ， 包括 更 低 的 应力 范围 和 更 大 的 温度 变化 范围 。 
+ 5 　 结论 
+ 　 　 对 钼 基合金 应力 控制 低周 等温 疲劳 和 热 机械 疲劳 试验 的 结果 分析 得到 以下 结论 ： 
+ 　 　 （ 1 ） 350 ℃ 和 500 ℃ 等温 疲劳 试验 之间 ， 其 疲劳 寿命 没有 明显 的 差别 ， 在 相同 应力 范围 ， 热 机械 疲劳 的 寿命 低于 等温 疲劳 寿命 ， 这 显示 出 温度 的 变化 对 材料 产生 了 进一步 的 损伤 效应 。 在 所有 应变 疲劳 试验 中 ， 均 产生 连续 的 循环 蠕变 现象 ， 循环 蠕变 速率 与 循环 应力 范围 和 温度 变化 范围 有关 。 
+ 　 　 （ 2 ） 无论 在 等温 疲劳 或 热 机械 疲劳 试验 中 ， 塑性 应变 由 第一 循环 非常 小 的 数值 连续 增长 ， 直到 最后 一个 循环 达到 大约 0.4% ～ 1.5% , 这 表明 在 应力 控制 循环 中 , 材料 显示 出 循环 软化 性质 . 材料 承受 的 循环 应力 水平 越高 , 越 显示 出 更 高 的 脆性 . 在 相同 的 应力 范围 控制 条件 下 , 热 机械 疲劳 的 寿命 均 低于 两种 等温 疲劳 的 寿命 . 所以 建立 的 简单 寿命 估算 模型 考虑 了 温度 变化 对 寿命 的 影响 , 计算结果 符合 实验 数据 。 
+ 注释 : 基金项目 ： 国家自然科学基金 资助 项目 ( 59571037 ) 
+ 作者简介 ： 施惠 基 ( 1951 - ) ， 男 ， 博士 ， 固体 力学 和 固体物理 专业 
+ 作者 单位 ： 施惠 基 ： 清华大学 工程力学 系 ， 北京 100084 ； 
+ 　 　 　 　 　 科恩 、 普吕 维纳 热 : UniversiteofMetz , Metz57045 , France 
+ 参考文献 ： 
+ [ 1 ] 　 CALDERONHA , KOSTORZG . MaterSciEng , 1993 , A160 : 189 ～ 199 
+ [ 2 ] 　 JAKOBEITW , PFEIFFERJP , WLRICHG . NuclearTechnology , 1984 , 66 : 195 
+ [ 3 ] 　 SEHITOGLUH , KARASEKM . JEngMaterTechASME , 1986 , 108 : 192 ～ 198 
+ [ 4 ] 　 KRAFTS , ZAUTERR , MUGHRABIH . FatigueFractEngMaterStruct , 1993 , 16 : 237 ～ 253 
+ [ 5 ] 　 SHIHJ , WANGZG , SUHH . ScriptaMaterialia , 1996 , 35 : 1107 ～ 1113 
+ [ 6 ] 　 LANDGRAFRW . Fundamentalsoffatiguecharacterizationsofmetals , SAE ( 1982 ) 11 ～ 18 
+ [ 7 ] 　 SOCIEDF , MORROWJ . RiskandfailureAnalysisforimprovedperformanceand 
+ 　 　 　 reliability , BurkeJJ , WeissV , PlenumLishingCorp , 1980 : 141 ～ 194 
+ [ 8 ] 　 LEMAITREJ , CHABOCHEJL . McaniquedesMatriaux . BORDAS , Pars , 1985 : 361 ～ 367 
+ 收稿 日期 ： 1999 - 03 - 12 ； 修订 日期 ： 1999 - 04 - 02 

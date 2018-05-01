@@ -1,0 +1,183 @@
+环境 科学 学报 
+ ACTASCIENTIAECIRCUMSTANTIAE 
+ 1999 年 第 19 卷 第 6 期 Vol.19 No.61999 
+ 
+ 
+ 
+ 双 阳离子 有机 膨润土 吸附 水中 有机物 的 特征 及 机理 研究 * 
+ 朱利中 　 陈宝梁 　 李铭霞 　 张孙玮 
+ 摘要 　 研究 了 双 阳离子 有机 膨润土 吸附 水中 对 硝基苯 酚 、 苯酚 、 苯胺 的 特征 及 机理 . 结果表明 ， 双 阳离子 有机 膨润土 对 水中 有机物 的 等温 吸附 曲线 符合 Langmuir 和 Freundlich 吸附 等温 式 ， 是 分配 作用 ( partition ) 和 表面 吸附 ( adsorption ) 共同 作用 的 结果 . 首次 定量 描述 了 分配 作用 和 表面 吸附 在 双 阳离子 有机 膨润土 吸附 有机物 中 的 相对 贡献率 ； 它们 均 为 浓度 的 函数 ， 在 低浓度 时 ， 双 阳离子 有机 膨润土 对 有机物 的 吸附 作用 以 表面 吸附 为主 ； 在 高浓度 时 ， 则 以 分配 作用 为主 . 
+ 关键词 　 有机 膨润土 ； 阳离子 表面 活性剂 ； 有机物 ； 吸附 ； 分配 . 
+ Thecharacteristicsandmechanismsfordual - cationorganobentonitestosorborganiccompoundsfromwater 
+ ZHULizhong , CHENBaoliang , LIMingxia , ZHANGSunwei ( DepartmentofEnvironmentalScience , ZhejiangUnivesity , Hangzhou310028 ) 
+ Abstract 　 Aseriesofdual - cationorganobentonitesaresynthesizedbyreplacingthemetalionsinbentonitewithbothlong - chainalkylorarylquaternaryammoniumcations , suchasdodecyltrimethylammonium ( DTMA ) , tetradecyltrimethylammonium ( TPA ) , cetyltrimethylammonium ( CTMA ) , octadecyltrimethylammonium ( OTMA ) , andshort - chainalkylorarylquaternaryammoniumcations , suchastetramethylammonium ( TMA ) . Theoptimalconditionsandthepropertiesfordual - cationorganobentonitestosorbp - nitrophenol , phenolandanilinefromwaterareinvestigated . Themechanismsandcharacteristicsoftheinteractionsbetweenorganicpollutantsandtheorganicphaseofthebentoniteinwatersystemarealsodiscussed . Theinterlayerspacings , organiccarboncontentsandsorptionpropertiesofdual - cationorganobentonitesarerelatedtotheratiooflong - toshort - chainquaternaryammoniumcations , andthelengthofalkyl - chainoflargequaternaryammoniumcationsexchangingonbentonite . Thesorptionoforganiccompoundstodual - cationorganobentonitesisalsorelatedtothepropertiesoforganiccompounds . Sorptionisothermsofp - nitrophenol , phenolandanilinearetypicallynonlinear , andtheisothermsfitcloselytoFreundlichorLangmuirequation . Bothadsorptionandpartitionoccurtothesorptionoforganiccompoundstodual - cationorganobentonites . Theseparatecontributionsofadsorptionandpartitiontothetotalsorptionoforganiccompoundstodual - cationorganobentonitesareanalyzedmathematically ; therelativeeffectisafunctionoftheequilibriumconcentrationoftheorganiccompounds . 
+ Keywords 　 organobentonite , quaternaryammoniumcation , organicpollutant , adsorption , partition . 
+ 　 　 近年来 ， 对 有机 膨润土 吸附 水中 有机物 的 特征 、 机理 及 规律 的 研究 逐渐 增多 ［ 1 — 5 ］ ， 其中 探讨 最多 的 是 将 单一 阳离子 表面 活性剂 改性 的 有机 膨润土 用于 吸附 处理 水中 的 非 极性 有机物 . 研究 表明 ［ 1 — 3 ］ ， 短碳链 阳离子 表面 活性剂 改性 的 有机 膨润土 对 有机物 的 吸附 特征 为 表面 吸附 、 强 的 溶质 吸收 和 竞争 吸附 ； 而长 碳链 阳离子 表面 活性剂 改性 的 有机 膨润土 则 为 分配 作用 、 弱 的 溶质 吸收 和 非 竞争 吸附 . 双 阳离子 有机 膨润土 对 有机物 的 吸附 ( sorption ) 是 分配 作用 ( partition ) 和 表面 吸附 ( adsorption ) 共同 作用 的 结果 ［ 5 — 6 ］ . 但 至今 ， 没有 系统 研究 过双 阳离子 有机 膨润土 吸附 水中 极性 或 可 离子化 有机物 的 性能 、 机理 及 规律 ， 也 没有 人 定量 描述 过 分配 作用 和 表面 吸附 对 有机 膨润土 吸附 有机物 的 相对 贡献率 . 
+ 　 　 本文 制备 了 一系列 双 阳离子 有机 膨润土 ， 用于 吸附 水中 极性 和 可 离子化 的 有机物 . 研究 了 双 阳离子 不同 配比 及 组成 对 双 阳离子 有机 膨润土 吸附 特征 的 影响 及 规律 ； 重点 讨论 了 双 阳离子 有机 膨润土 的 吸附 ( sorption ) 机理 ； 应用 数学模拟 方法 ， 首次 定量 描述 了 分配 作用 和 表面 吸附 对 有机 膨润土 吸附 有机物 的 相对 贡献率 . 
+ 1 　 实验 部分 
+ 1.1 　 实验 材料 及 仪器 
+ 　 　 所用 原土 为 钠 基 膨润土 ， 其 阳离子 交换 容量 ( CEC ) 为 60meq / 100g ; 溴化 十六 烷基 三甲 铵 ( CTMAB ) 、 溴化 四 甲基 铵 ( TMAB ) 、 对 硝基苯 酚 、 苯酚 、 苯胺 均 为 分析 纯 ； 溴化 十二 烷基 三甲 铵 ( DTMAB ， 95% ) 、 溴化 十四 烷基 苄基 二甲基 铵 ( TPAC ， 90% ) 、 溴化 十八 烷基 三甲 铵 ( OTMAB ， 80% ) 为 工业 纯 ， 经 提纯 后 使用 . 主要 仪器 有 THB - 82A 台式 恒温 振荡器 ， 电动 低速 离心机 ， 紫外 - 可见 分光 光度 仪 ， LECOCS - 344 碳 硫 测定仪 ， X ’ PertMPD 型 X射线 衍射 仪 . 
+ 1.2 　 测定方法 
+ 　 　 水中 苯酚 和 苯胺 分别 用 4 - 氨基 安替比林 和 盐酸 萘 乙二胺 分光 光度法 测定 ， 对 硝基苯 酚用 紫外 分光 光度法 测定 ； 检测 限 分别 为 0.1 μ g / mL 、 0.12 μ g / mL 、 0.05 μ g / mL . 
+ 1.3 　 双 阳离子 有机 膨润土 的 制备 
+ 　 　 由 短 碳链 阳离子 表面 活性剂 ( TMAB ) 分别 与 长 碳链 阳离子 表面 活性剂 ( DTMAB 、 TPAC 、 CTMAB 、 OTMAB ) 按 一定 配比 混合 改性 膨润土 . 具体方法 为 ： 将 干燥 、 过 100 目筛 的 原土 40g 倒入 400mL 一定 配比 的 双 阳离子 或 单一 阳离子 表面 活性剂 溶液 中 ， 在 60 — 70 ℃ 水浴 中 搅拌 2h ， 产物 经 真空 过滤 ， 用 400mL 蒸馏水 洗涤 2 次 ， 滤干后 ， 在 80 — 90 ℃ 下 烘干 ， 再 在 105 ℃ 下 活化 1h ， 经 研磨 ， 过 100 目筛 ， 制成 一系列 双 阳离子 有机 膨润土 . 
+ 　 　 制得 的 双 阳离子 有机 膨润土 用 两种 相应 表面 活性剂 的 英文 缩写 加 一个 数字 前缀 表示 ， 数字 代表 改性 时 加入 的 表面 活性剂 为 CEC 的 百分数 . 例如 ， 40TMAB / 40DTMAB 表示 用 40% CEC 的 TMAB 和 40% CEC 的 DTMAB 共同 改性 制得 的 双 阳离子 有机 膨润土 . 
+ 1.4 　 基本 实验 方法 
+ 　 　 在 100mL 碘 量瓶 中 分别 加入 0.5 g 单一 或 双 阳离子 有机 膨润土 ( 或 原土 ) ， 25mL 一定 浓度 的 有机物 溶液 ， 盖紧 ， 在 25 ℃ 、 150r / min 条件 下 振荡 1h ， 离心 10min 后 ， 取 上层 清液 ， 测定 水中 有机物 的 残留量 ( 即 平衡 浓度 ) ， 计算 出 各种 有机 膨润土 对 水中 对 硝基苯 酚 、 苯酚 、 苯胺 的 去除率 和 吸附 量 . 吸附 实验 中 对 硝基苯 酚 、 苯酚 、 苯胺 的 挥发 率 可 忽略不计 . 
+ 2 　 结果 与 讨论 
+ 2.1 　 双 阳离子 有机 膨润土 的 有机 碳 含量 和 X - 射线 衍射 分析 
+ 　 　 在 25 ℃ 和 50% 相对湿度 的 条件 下 ， 测得 双 阳离子 有机 膨润土 的 层 间距 和 有机 碳 含量 ， 见表 1 . 
+ 表 1 　 双 阳离子 有机 膨润土 和 原土 的 层 间距 和 有机 碳 含量 
+ Table1Theinterlayerspacingandorganiccarboncontentsoforiginalbentoniteanddualcationorganobentonites 
+ 
+ 土样 原土 40TMAB40DTMAB40TMAB / 
+ 20DTMAB40TMAB / 
+ 40DTMAB 
+ 层 间距 ， nm1.2271 . 3761.6931 . 3911.436 
+ 有机 碳 含量 ， % 0.0572 . 2349.6056 . 4089.685 
+ 土样 40TMAB / 
+ 60DTMAB40TMAB / 
+ 20TPAC40TMAB / 
+ 20CTMAB40TMAB / 
+ 20OTMAB 　 
+ 层 间距 ， nm 　 1.6221 . 4091.4261 . 492 
+ 有机 碳 含量 ， % 12.3358 . 2858.7849 . 225 
+ 
+ 　 　 由表 可见 ： 有机 膨润土 的 层 间距 和 有机 碳 含量 均 大于 原土 ； 双 阳离子 有机 膨润土 的 层 间距 和 有机 碳 含量 与 改性 时双 阳离子 中长 碳链 阳离子 表面 活性剂 加入 量 和 链 长成 正 相关 ， 如 40TMAB / 
+ 60DTMAB > 40TMAB / 40DTMAB > 40TMAB / 20DTMAB > 40TMB , 40TMAB / 20OTMAB > 40TMAB / 20CTMAB > 40TMAB / 
+ 20TPAC > 40TMAB / 20DTMAB . 
+ 2.2 　 双 阳离子 有机 膨润土 吸附 水中 有机物 的 适宜 条件 
+ 　 　 试验 了 pH 、 振荡 时间 和 用 土 闏 对 双 阳离子 有机 膨润土 吸附 处理 水中 对 硝基苯 酚 、 苯酚 和 苯胺 性能 的 影响 . 考虑 到 处理 费用 和 去除 效果 ， 选择 的 适宜 条件 为 ： 在 25 ℃ 、 pH7 和 用 土量 为 0.5 g / 25mL 下 振荡 1h . 
+ 2.3 　 等温 吸附 曲线 
+ 　 　 绘制 了 8 种 单一 或 双 阳离子 有机 膨润土 对 水中 对 硝基苯 酚 、 苯酚 和 苯胺 的 等温 吸附 曲线 . 
+ 其中 40TMAB 、 40TMAB / 20DTMAB 、 40TMAB / 40DTMAB 、 40TMAB / 60DTMAB 对 对 硝基苯 酚 的 等温 吸附 曲线 和 40TMAB / 40DTMAB 对 苯酚 、 苯胺 、 对 硝基苯 酚 的 等温 吸附 曲线 分别 见图 1 、 图 2 . 等温 吸附 曲线 均 呈 非线性 ， 其 回归方程 既 满足 Langmuir 和 Freundlich 等温 吸附 式 ， 也 满足 对数方程 . 对数方程 的 回归 数据 见表 2 . 
+ 
+ 
+ 图 1 　 对 硝基苯 酚 的 等温 吸附 曲线 
+ 1.40 TMAB ； 2.40 TMAB / 20DTMAB ； 
+ 3.40 TMAB / 40DTMAB ； 4.40 TMAB / 60TMAB 
+ Fig.1 Isothermalsorptioncurvesforp - nitrophenol 
+ 
+ 
+ 图 2 　 40TMAB / 40DTMAB 对 不同 有机物 的 等温 吸附 曲线 
+ 1 . 苯酚 ； 2 . 苯胺 ； 3 . 对 硝基苯 酚 
+ Fig.2 Isothermalsorptioncurvesforphenolaniline 
+ ( 1 ) aniline ; ( 2 ) p - nitrophenol ; 
+ ( 3 ) on40TMAB / 40DTMAB - organobentonite 
+ 表 2 　 双 阳离子 有机 膨润土 吸附 有机 化合物 的 等温 吸附 曲线 的 回归 数据 
+ Table2Regressiondataforsorptionisothermsoforganiccompoundsondual - cationorganobentonites 
+ 
+ 有机 化合物 土样 回归方程 ( Q : mg / g , Ce : μ g / mL ) 相关系数 
+ 对 硝基苯 酚 原土 Q ＝ 3.3716 lnCe + 1.93550 . 774 
+ 40TMABQ ＝ 11.363 lnCe - 58.5090 . 984 
+ 40DTMABQ ＝ 33.946 lnCe - 153.510 . 976 
+ 40TMAB / 20DTMABQ ＝ 11.428 lnCe - 47.7340 . 978 
+ 40TMAB / 40DTMABQ ＝ 23.914 lnCe - 89.9000 . 984 
+ 40TMAB / 60DTMABQ ＝ 34.438 lnCe - 114.910 . 971 
+ 40TMAB / 20TPACQ ＝ 13.709 lnCe - 51.2820 . 989 
+ 40TMAB / 20CTMABQ ＝ 16.639 lnCe - 68 , 9930.997 
+ 40TMAB / 20OTMABQ ＝ 16.251 lnCe - 58.4500 . 992 
+ 苯酚 原土 Q ＝ 5.1357 lnCe - 32.9330 . 922 
+ 40TMABQ ＝ 13.222 lnCe - 69.0720 . 987 
+ 40DTMABQ ＝ 28.763 lnCe - 161.340 . 989 
+ 40TMAB / 20DTMABQ ＝ 17.950 lnCe - 107.400 . 974 
+ 40TMAB / 40DTMABQ ＝ 22.721 lnCe - 120.070 . 990 
+ 40TMAB / 60DTMABQ ＝ 26.292 lnCe - 146.270 . 985 
+ 40TMAB / 20TPACQ ＝ 16.134 lnCe - 86.3220 . 983 
+ 40TMAB / 20CTMABQ ＝ 18.172 lnCe - 95.9580 . 994 
+ 40TMAB / 20OTMABQ ＝ 20.786 lnCe - 116.650 . 966 
+ 苯胺 原土 Q ＝ 8.300 lnCe - 49.9890 . 932 
+ 40TMABQ ＝ 13.799 lnCe - 78.4030 . 978 
+ 40DTMABQ ＝ 40.317 lnCe - 238.620 . 942 
+ 40TMAB / 20DTMABQ ＝ 19.856 lnCe - 116.390 . 944 
+ 40TMAB / 40DTMABQ ＝ 35.121 lnCe - 198.930 . 951 
+ 40TMAB / 60DTMABQ ＝ 40.121 lnCe - 233.600 . 944 
+ 40TMAB / 20TPACQ ＝ 27.566 lnCe - 166.330 . 939 
+ 40TMAB / 20CTMABQ ＝ 30.838 lnCe - 179.680 . 950 
+ 40TMAB / 20OTMABQ ＝ 22.692 lnCe - 128.850 . 963 
+ 
+ 　 　 实验 结果表明 ： ( 1 ) 双 阳离子 有机 膨润土 对 水中 对 硝基苯 酚 的 吸附 量 大于 原土 和 单一 短碳链 有机 膨润土 ， 在 低浓度 时 大于 单一 长碳链 有机 膨润土 ， 而 在 高浓度 时 小于 单一 长碳链 有机 膨润土 . ( 2 ) 双 阳离子 有机 膨润土 对 有机物 的 吸附 量 随长 碳链 阳离子 表面 活性剂 加入 量 的 增加 而 增大 ， 即 40TMAB / 60DTMAB > 40TMAB / 40DTMAB > 40TMAB / 20DTMAB > 40TMAB ( 见图 1 ) . ( 3 ) 当 改性 加入 的 双 阳离子 配比 一定 时 ， 双 阳离子 有机 膨润土 对 有机物 的 吸附 量 随 改性 时长 碳链 阳离子 表面 活性剂 碳链 的 增长 而 增大 ， 即 40TMAB / 20OTMAB > 40TMAB / 20CTMAB > 40TMAB / 20TPAC > 40TMAB / 20DTMAB . 
+ 　 　 单一 或 双 阳离子 有机 膨润土 对 水中 有机物 的 吸附 特征 还 与 有机物 本身 的 性质 有关 ， 如 辛醇 - 水 分配 系数 ( Kow ) 、 水中 溶解度 ( S ) 和 该 有机物 的 有机 碳标化 的 分配 系数 ( Koc ) ( 见表 3 ) . 其中 Koc 表示 有机物 在 固相中 的 有机 碳 和 在 水中 的 浓度 分配 的 一个 定量 参数 . 
+ 　 　 由 40TMAB / 40DTMAB 、 40TMAB 和 40DTMAB 三种 有机 膨润土 对 水中 对 硝基苯 酚 、 苯酚 和 苯胺 的 等温 吸附 曲线 可知 ： ( 1 ) 短碳链 有机 膨润土 ( 40TMAB ) 对 3 种 有机物 的 吸附 量 大小 为 ： 苯酚 > 苯胺 > 对 硝基苯 酚 ， 这是 由于 短碳链 有机 膨润土 对 有机物 以 表面 吸附 作用 为主 ， 其 作用 大小 与 有机物 本身 的 极性 有关 ， 极性 愈强 ， 吸附 量 愈 大 . ( 2 ) 长碳链 有机 膨润土 对 3 种 有机物 的 吸附 作用 大小 为 ： 对 硝基苯 酚 > 苯胺 > 苯酚 ， 这是 由于 长碳链 有机 膨润土 对 有机物 的 吸附 以 分配 作用 、 弱 的 溶质 吸收 为主 ， 作用 大小 与 有机物 在 水中 的 溶解度 有关 ， 溶解度 愈大 ， 吸附 量 愈小 . ( 3 ) 40TMAB / 40DTMAB 双 阳离子 有机 膨润土 对 水中 有机物 的 吸附 作用 与 单一 长碳链 有机 膨润土 相似 ， 即以 分配 作用 为主 ； 对 不同 有机物 的 去除 效果 为 ： 对 硝基苯 酚 > 苯胺 > 苯胺 ( 见图 2 ) . 
+ 表 3 　 有机物 的 辛醇 - 水 分配 系数 ( Kow ) ， 水中 溶解度 ( S ) 和 有机 碳标化 的 分配 系数 ( Koc ) 
+ Table3Octanol - waterpartitioncoefficient ( Kow ) , aqueoussolubility ( S ) andpartitioncoefficient ( Koc ) oforganiccompounds 
+ 
+ 有机物 对 硝基苯 酚 苯酚 苯胺 
+ 辛醇 - 水 分配 系数 ( Kow ) 93307.9 
+ 水中 溶解度 , μ g / mL1.6 × 1049.3 × 1043.6 × 104 
+ 有机 碳标化 的 分配 系数 ( Koc ) 3514.24 . 90 
+ 
+ 2.4 　 机理 探讨 
+ 　 　 在 双 阳离子 有机 膨润土 中 既有 长碳 链季 铵盐 ， 又 有 短 碳 链季 铵盐 . 因此 ， 其 对 有机物 的 吸附 是 分配 作用 和 表面 吸附 共同 作用 的 结果 . 基于 这 一点 ， 可以 把 双 阳离子 有机 膨润土 对 有机物 的 总 吸附 量 定义 为 ： 
+ QT = QP ＋ QA 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 等温 吸附 曲线 的 回归方程 如下 ： 
+ QT = alnCe + b 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 根据 分配 理论 可以 得到 ： 
+ Kd = QP / Ce 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ Kd = Koc . foc 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 式 中 ， QT 为 总 的 吸附 量 ， QP 为 分配 作用 所 产生 的 吸附 量 ， QA 为 表面 吸附 作用 所 产生 的 吸附 量 ， Ce 为 水中 有机物 的 平衡 浓度 ， Kd 为 分配 系数 ， Koc 为 有机 碳标化 过 的 分配 系数 ， foc 为 双 阳离子 有机 膨润土 中 有机 碳 的 百分 含量 ， a 、 b 为 常数 . 根据 以上 4 式 可得 ， 分配 作用 和 表面 吸附 作用 对 总 吸附 量 的 贡献率 为 ： 
+ QP = Koc . foc . Ce 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ QA = alnCe + b - Koc . foc . Ce 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 若 将 有机 膨润土 的 有机 碳 含量 ( 表 1 ) 、 a 与 b 的 经验 常数 ( 表 2 ) 和 Koc 值 ( 表 3 ) 代入 ( 4 ) 、 ( 5 ) 式 中 ， 即可 得到 分配 作用 和 表面 吸附 作用 贡献 量 的 浓度 方程 ( 见表 4 ) . 对表 4 中 表面 吸附 贡献 量 的 浓度 方程 ( QA ) 作图 ， 并 进行 二次 回归 ， 回归方程 很 好 地 满足 Langmuir 等温 吸附 式 ， 回归 数据 见表 4 . 
+ 　 　 以 模拟 的 Qp 和 QA 方程 为 基础 ， 以 40TMAB / 60DTMAB 双 阳离子 有机 膨润土 吸附 水中 对 硝基苯 酚为例 ， 阐述 总 的 吸附 量 、 表面 吸附 贡献 量 和 分配 作用 贡献 量 随 浓度 变化 的 相对 大小 ( 图 3 ) ； 并 进一步 论述 了 表面 吸附 贡献 量 与 分配 作用 贡献 量 随 浓度 的 变化 速率 ， 也 就是 Qp 和 QA 分别 对 浓度 Ce 求一阶 微分 ， 即 dQp / dCe 和 dQA / dCe ， 见图 4 . 图 4 中 C1 为 当 dQp / dCe = dQA ／ dCe 时 有机物 的 平衡 浓度 . 
+ 表 4 　 表面 吸附 和 分配 作用 在 双 阳离子 有机 膨润土 吸附 有机物 中 贡献 量 及 QA 的 Langmuir 模拟 方程 
+ Table4Functionsofadsorptionamount ( QA ) andpartitionsorptionamount ( QP ) withconcentrationsoforganic 
+ compoundsondualcationorganobentonitesandanalogueequationofQA 
+ 
+ 有机 化合物 土样 分配 作用 ( QP ) 
+ 贡献 量 ， μ g / g 表面 吸附 ( QA ) 贡献 量 ， μ g / g 模拟 QA 的 langmuir 
+ 方 　 　 程 相关 
+ 系数 
+ 对 硝基苯 酚 原土 QP = 0.0199 CeQA = 3371.6 lnCe + 1935.5 - 0.0199 Ce1 / QA = 2.5664 / Ce + 0.01360 . 803 
+ 40TMABQP = 0.7819 CeQA = 11363lnCe - 58509 - 0.7819 Ce1 / QA = 62.706 / Ce + 0.01590 . 836 
+ 40DTMABQP = 3.3618 CeQA = 33946lnCe - 153510 - 3.1618 Ce1 / QA = 6.4887 / Ce + 0.00720 . 979 
+ 40TMAB / 20DTMABQP = 2.2428 CeQA = 11428lnCe - 47734 - 2.2428 Ce1 / QA = 13.594 / Ce + 0.02650 . 904 
+ 40TMAB / 40DTMABQP = 3.3898 CeQA ＝ 23914lnCe - 89900 - 3.3898 Ce1 / QA = 3.7524 / Ce + 0.01010 . 988 
+ 40TMAB / 60DTMABQP = 4.3172 CeQA = 34438lnCe - 114910 - 4.3172 Ce1 / QA = 2.0791 / Ce + 0.00610 . 992 
+ 40TMAB / 20TPACQP = 2.8998 CeQA = 13709lnCe - 51282 - 2.8998 Ce1 / QA = 15.917 / Ce + 0.01800 . 889 
+ 40TMAB / 20CTMABQP = 3.0744 CeQA = 16638lnCe - 68993 - 3.0744 Ce1 / QA = 8.9350 / Ce + 0.01740 . 926 
+ 40TMAB / 20OTMABQP = 3.2288 CeQA = 16250lnCe - 58450 - 3.2288 Ce1 / QA = 7.4186 / Ce ＋ 0.01560 . 933 
+ 苯 　 酚 原土 QP = 0.0081 CeQA = 5135.7 lnCe - 32933 - 0.0081 Ce1 / QA = 536.61 / Ce + 0.02810 . 737 
+ 40TMABQP = 0.3172 CeQA = 13222lnCe - 69072 - 0.3172 Ce1 / QA = 38.428 / Ce ＋ 0.01660 . 952 
+ 40DTMABQP = 1.3639 CeQA = 28763lnCe - 161340 - 1.3639 Ce1 / QA = 23.259 / Ce + 0.00890 . 966 
+ 40TMAB / 20DTMABQP = 0.9099 CeQA = 17950lnCe - 107400 - 0.9099 Ce1 / QA = 88.696 / Ce + 0.01160 . 800 
+ 40TMAB / 40DTMABQP = 1.3753 CeQA = 22721lnCe - 120070 - 1.3753 Ce1 / QA = 17.501 / Ce + 0.01990 . 989 
+ 40TMAB / 60DTMABQP / 1.7516 CeQA = 26292lnCe - 146270 - 1.7516 Ce1 / QA = 20.618 / Ce + 0.01130 . 971 
+ 40TMAB / 20TPACQP = 1.1765 CeQA ＝ 16134lnCe - 86322 - 1.1765 Ce1 / QA = 25.667 / Ce + 0.01840 . 970 
+ 40TMAB / 20CTMABQP = 1.2473 CeQA = 18172lnCe - 95958 - 1.2473 Ce1 / QA = 21.133 / Ce + 0.01570 . 980 
+ 40TMAB / 20OTMABQP = 1.3099 CeQA = 20786lnCe - 116650 - 1.3099 Ce1 / QA = 27.635 / Ce + 0.01400 . 972 
+ 苯 　 胺 原土 QP = 0.0028 CeQA = 8300.1 lnCe - 49989 - 0.0028 Ce1 / QA = 124.96 / Ce + 0.02400 . 979 
+ 40TMABQP = 0.1095 CeQA = 13799lnCe - 78403 - 0.1095 Ce1 / QA = 57.379 / Ce + 0.01450 . 964 
+ 40DTMABQP = 0.4706 CeQA = 40317lnCe - 238620 - 0.4706 Ce1 / QA = 22.860 / Ce + 0.00530 . 979 
+ 40TMAB / 20DTMABQP = 0.3140 CeQA = 19856lnCe - 116390 - 0.3140 Ce1 / QA = 45.212 / Ce + 0.01090 . 972 
+ 40TMAB / 40DTMABQP = 0.4746 CeQA = 35121lnCe - 198930 - 0.4746 Ce1 / QA = 21.724 / Ce + 0.00590 . 967 
+ 40TMAB / 60DTMABQP = 0.6044 CeQA = 40121lnCe - 233600 - 0.6044 Ce1 / QA = 20.606 / Ce + 0.00540 . 980 
+ 40TMAB / 20CTMABQP = 0.4060 CeQA = 27566lnCe - 166330 - 0.4060 Ce1 / QA = 38.149 / Ce + 0.00800 . 973 
+ 40TMAB / 20OTMABQP = 0.4304 CeQA = 30838lnCe - 179680 - 0.4304 Ce1 / QA = 27.396 / Ce + 0.00700 . 978 
+ 40TMAB / 20OTMABQP = 0.4520 CeQA = 22692lnCe - 128850 - 0.4520 Ce1 / QA = 31.151 / Ce + 0.00980 . 983 
+ 
+ 
+ 图 3 　 表面 吸附 ( QA ) 和 分配 作用 ( QP ) 对 40TMAB / 60DTMAB 吸附 对 硝基苯 酚 的 相对 贡献 
+ Fig.3 p - nitrophenolsorptionamount ( QA , QP , QT ) on40TMAB / 60DTMAB - organobentonite 
+ 
+ 
+ 图 4 　 40TMAB / 60DTMAB 吸附 对 硝基苯 酚 中 的 QA , QP 随 浓度 的 变化率 
+ Fig.4 Changingrateofp - nitrophenolsorptionamount ( QAandQP ) withconcentration 
+ 　 　 由图 3 可得 ： ( 1 ) 分配 作用 随 浓度 呈 直线 增加 ； 而 表面 吸附 呈 曲线 变化 ， 其 变化趋势 符合 Langmuir 方程 . ( 2 ) 由图 中 Qp 和 QA 的 大小 比较 可 得 ， 表面 吸附 为 强 的 溶质 吸收 ， 而 分配 作用 为弱 的 溶质 吸收 . ( 3 ) 双 阳离子 有机 膨润土 对 有机物 的 吸附 ， 在 高浓度 时 ， 以 分配 作用 为主 ， 在 低浓度 时 ， 以 表面 吸附 作用 为主 . 
+ 　 　 由图 4 可得 ： ( 1 ) 分配 吸附 随 浓度 的 变化 速率 dQp / dCe 为 一 常数 ； 而 表面 吸附 随 浓度 的 变化 速率 dQA / dCe 值 是 浓度 的 减 函数 ， 即 随 浓度 的 增大 变化趋势 减小 . ( 2 ) dQP / dCe 和 dQA ／ dCe 均 大于 零 ， 说明 QP 和 QA 是 浓度 的 增函数 . ( 3 ) 当 Ce < C1 时 ， dQA ／ dCe > dQp / dCe > 0 ， 说明 QA 随 浓度 的 增加值 大于 Qp 的 增加值 ， 从而 也 证明 了 表面 吸附 为 强 的 溶质 吸收 的 本质 ； 当 Ce > C1 时 ， 0 < dQA ／ dCe < dQp ／ dCe ， 意味着 Qp 值 随 浓度 的 增大 速率 大于 QA 值 的 增大 速率 . 
+ 3 　 结论 
+ 　 　 ( 1 ) 双 阳离子 有机 膨润土 的 层 间距 、 有机 碳 含量 、 对 有机物 的 吸附 量 与 改性 时 两种 长 、 短碳 链 的 配比 有关 ； 当 加入 配比 相同 时 ， 随双 阳离子 中长 碳 链季 铵盐 碳链 的 增长 而 增大 . 
+ 　 　 ( 2 ) 双 阳离子 有机 膨润土 对 水中 有机物 的 吸附 性能 和 特征 与 有机物 的 性质 有关 ， 吸附 量 大小 为 ： 对 硝基苯 酚 > 苯胺 > 苯酚 . 
+ 　 　 ( 3 ) 双 阳离子 有机 膨润土 对 水中 有机物 的 吸附 ( sorption ) 是 分配 作用 ( partition ) 和 表面 吸附 ( adsorption ) 共同 作用 的 结果 . 
+ 　 　 ( 4 ) 应用 模拟 方法 ， 首先 定量 描述 了 表面 吸附 ( QA ) 和 分配 作用 ( Qp ) 的 相对 贡献率 ； 它们 为 浓度 的 函数 ， 在 低浓度 时 ， 以 表面 吸附 为主 ， 在 高浓度 时 ， 以 分配 作用 为主 . 
+ * 国家自然科学基金 资助 课题 ( 编号 29777005 ) 
+ 作者 单位 ： 浙江大学 环境 科学系 ， 杭州 　 310028 
+ 参考文献 
+ 1 　 BoydSA , MortlandMM , ChiouCT . Sorptioncharacteristicsoforganiccompoundsonhexadecyltrimethylammonium - smentite . SoilSciSocAmJ , 1988 , 52 : 652 — 657 
+ 2 　 SmithJA , JaffePR , ChiouCT . Effectoftenquaternaryammoniumcationsontetrachloromethanesorptiontoclayfromwater . EnvironSciTechnol , 1990 , 24 : 1167 — 1172 
+ 3ZhuL , LiY , ZhangJ . Sorptionoforganobentonitestosomeorganicpollutantsinwater . EnvironSciTechnol , 1997 , 31 ( 5 ) : 1407 — 1410 
+ 4ZhuL , RenX , YuS . UseofCetyltrimethylammoniumBromide - bentonitetoRemoveOrganicContaminantsofVaryingPolarCharacterfromWater . EnvironSciTechnol , 1998 , 32 ( 21 ) : 3374 — 3378 
+ 5SmithJA . GalanA . Sorptionofnonionicorganiccontaminantstosingleanddualcationbentonitesfromwater . EnvironSciTechnol , 1995 , 29 ( 3 ) : 685 — 692 
+ 6 朱利中 ， 陈宝梁 ， 沈韩艳 等 . 双 阳离子 有机 膨润土 吸附 水中 有机物 的 性能 及 规律 . 中国 环境 科学 ， 1999 ， 19 ( 4 ) ： 325 — 329 
+ 1998 - 10 - 15 收到 原稿 
+ 1999 - 05 - 04 收到 修改稿 

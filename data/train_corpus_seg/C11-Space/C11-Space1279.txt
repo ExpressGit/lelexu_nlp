@@ -1,0 +1,105 @@
+航空 材料 学报 
+ JOURNALOFAERONAUTICALMATERIALS 
+ 1999 年 　 第 19 卷 　 第 3 期 　 Vol.19 　 No.3 　 1999 
+ 
+ 
+ 
+ SiO2 - AlN 复合材料 的 热 物理性质 
+ 吴洁华 　 　 李包顺 　 　 郭景坤 
+ 
+ 摘要 ： 研究 了 AlN 引入 量 和 温度 对 SiO2 - AlN 复合材料 的 热 膨胀系数 和 热导率 的 影响 ， 并 对 影响 SiO2 - AlN 复合材料 抗热 震性 的 诸 因素 做 了 分析 。 结果表明 ， SiO2 - AlN 复合材料 的 热 膨胀系数 随 温度 的 提高 而 增加 ； 在 同一 温度 下 ， 复合材料 的 热 膨胀系数 在 400 ℃ 以上 随 AlN 引入 量 的 增加 而 增加 。 SiO2 - AlN 复合材料 的 热扩散 率 和 热导率 随 热压 温度 的 提高 而 增加 。 SiO2 - AlN 复合材料 的 临界 淬冷 温度 在 600 ℃ 左右 。 
+ 关键词 ： 石英 ； 氮化 铝 ； 复合材料 ； 热 膨胀系数 ； 热导率 ； 抗热 震性 
+ 中 图 分类号 ： V254.2 　 　 　 文献 标识码 ： A 　 　 　 文章 编号 ： 1005 - 5053 ( 1999 ) 03 - 0037 - 06 
+ 
+ Investigationonthermophysicalproperties 
+ ofSiO2 - AlNcomposites 
+ WUJie - hua 　 　 LIBao - shun 　 　 GUOJing - kun 
+ ( ShanghaiInstituteofCeramics , ChineseAcademyofSciences , Shanghai200050 , China ) 
+ Abstract ： ThermophysicalpropertiesofSiO2 - AlNcompositesasafunctionoftemperatureandthecontentofAlNparticleswereinvestigated . ThetheoreticalanalysisofthermalshockresistanceofSiO2 - AlNcompositeswasalsostudied . TheresultsshowedthatthermalexpansioncoefficientofSiO2 - AlNcompositesincreasedwithtemperature ; whileinthesametemperaturethermalexpansioncoefficientincreasedwiththecontentofAlNparticlesabove400 ℃ . ThermaldiffusivityandthermalconductivityofSiO2 - AlNcompositesincreasedwithhot - pressingtemperature . RetainedflexuralstrengthofSiO2 - AlNcompositesdecreasedabruptlywhentemperaturedifferencewasabove600 ℃ becauseoftheheavymismatchofthermalexpansioncoefficientbetweenSiO2matrixandAlNparticles . 
+ Keywords : silica ; aluminiumnitride ; composite ; thermalexpansioncoefficient ; thermalconductivity ; thermalshockresistance 
+ 
+ 　 　 随着 探索 航空航天 领域 的 深入 ， 天线 窗 复合材料 的 研究 引起 了 科技 工作者 越来越 浓厚 的 兴趣 。 传统 的 天线 窗 材料 ， 如 熔融 浇铸 石英 ， 尽管 有着 优秀 的 介 电性能 和 抗热 震性 ， 但 因为 其较 低 的 机械性能 ， 难以 满足 某些 苛刻 工况 ( 如 5Mach 以上 ) 的 要求 。 
+ 　 　 根据 复相 陶瓷 原则 ， 在 颗粒 增韧 陶瓷 基 复合材料 中 ， 第二 相高 弹性模量 颗粒 的 引入 及 基体 与 第二 相 颗粒 热 膨胀系数 不 匹配 所致 的 残余 应力场 的 协同 作用 将 使得 复合材料 的 力学性能 有所提高 ［ 1 ］ 。 作者 在 SiO2 基体 中 引入 第二 相 AlN ， 结果 发现 ， SiO2 - AlN 复合材料 的 抗弯强度 和 断裂 韧度 提高 到 200MPa 和 2.96 MPa . m1 / 2 ［ 2 ］ ， 这 说明 ， 第二 相 AlN 对 SiO2 基 复合材料 力学性能 的 补强 增韧 是 显著 的 。 SiO2 - AlN 复合材料 在 微波 频率 9.375 GHz 下 的 介电常数 和 介电损耗 分别 是 4.02 和 6 × 10 - 3 ［ 3 ］ ， 基本 达到 天线 窗 材料 对介 电性能 的 要求 ［ 4 ］ 。 
+ 　 　 表 1 是 SiO2 和 AlN 的 物理性质 。 可以 发现 ， 两者 的 热 膨胀系数 和 热导率 差别 较大 ， 无疑 这 将 影响 到 SiO2 - AlN 复合材料 的 热 物理性质 。 本文 以 热压 烧结 SiO2 - AlN 复合材料 为 对象 ， 研究 了 AlN 引入 量 和 温度 对 SiO2 - AlN 复合材料 热 膨胀系数 和 热导率 的 影响 ， 并 对 影响 SiO2 - AlN 复合材料 抗热 震性 的 诸 因素 做 了 分析 ， 为 改进 其 抗热 冲击 能力 提供 了 根据 。 
+ 1 　 实 　 验 
+ 　 　 以 SiO2 石英砂 和 自 蔓延 法 ( SHS ) 制备 的 AlN 粉为 原料 ， SiO2 石英砂 经 X - 射线 荧光 ( XRF ) 分析 SiO2 含量 为 99.98% ； AlN 粉 预先 做抗 水化 处理 。 将 SiO2 石英砂 和 AlN 粉 分别 按 90 ～ 10 ( 体积 百分比 ， 下同 ) ， 80 ～ 20 ， 70 ～ 30 的 比例 配料 ， 以 无水乙醇 为 介质 ， 球磨 混合 24h ， 混合 料 干燥 后过 120 目筛 ， 将 筛下 物装于 模具 中 ， 在 一定 温度 下 热压 烧结 ， 热压 温度 为 1250 ℃ ， 1300 ℃ 和 1350 ℃ ， 保温 压力 20MPa ， 保温 时间 30min ， 热压 气氛 为 纯 Ar 气 。 
+ 　 　 
+ 表 1 　 SiO2 和 AlN 的 物理性质 
+ Table1 　 PhysicalpropertiesofpureSiO2andAlN 
+ 
+ PropertiesSiO2AlN 
+ Density / g . cm - 32.23 . 3 
+ Specificheat / J . ( g . k ) - 10.8410 . 736 
+ Youngmodulus / GPa72274 
+ Thermalconductivity / W . ( m . K ) - 11.95320 
+ Thermalexpansioncoefficient / × 10 - 6K - 10.54 . 5 
+ 
+ 　 
+ 
+ 　 　 采用 顶杆 热膨胀 法 测试 试样 的 热 膨胀系数 ， 试样 尺寸 为 4mm × 4mm × 30mm ， 升温 速率 为 5 ℃ . min - 1 。 使用 周期 热流 法 测试 复合材料 表面 方向 的 热扩散 率 ， 试样 尺寸 为 16mm × 4mm × 0.3 mm ， 然后 利用 以下 公式 计算 复合材料 的 热导率 ［ 5 ］ ： 
+ 　 　 　 　 λ = α . Cp . ρ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 式 中 λ 为 热导率 ， α 为 面向 热扩散 率 ， Cp 为 比热容 ， ρ 为 密度 。 Cp 根据 复合材料 热容 加和性 原则 由 SiO2 和 AlN 的 比热容 计算 得到 。 ρ 用 排水 法 测试 。 将 SiO2 - AlN 复合材料 加工 成 尺寸 为 2.5 mm × 5mm × 30mm 的 试样 ， 将 试样 在 马弗炉 中 加热 至 600 ℃ ， 800 ℃ 和 1000 ℃ ， 保温 30min ， 然后 投入 到 流动 冷水 中 淬 冷 ， 试样 烘干 后 在 Instron - 1195 材料 试验机 上用 三点 抗弯 法 测试 复合材料 的 抗弯强度 。 用 JEM - 200CXJ 透射电镜 观察 复合材料 的 显微结构 。 
+ 2 　 结果 与 讨论 
+ 2.1 　 SiO2 - AlN 复合材料 的 热学 性能 
+ 　 　 根据 两相 复合材料 热 膨胀系数 的 Turner 表达式 ［ 6 ］ ： 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 　 　 
+ 式 中 ： α ， V 和 E 分别 指热 膨胀系数 、 体积 分数 和 弹性模量 ， 下标 p ， m 分别 指 第二 相 颗粒 和 基体 ， 因为 AlN 的 热 膨胀系数 比 SiO2 的 大 ， 可以 预测 SiO2 - AlN 复合材料 的 热 膨胀系数 随 AlN 引入 量 的 增加 而 增加 。 图 1 是 不同 AlN 引入 量 的 SiO2 - AlN 复合材料 的 热 膨胀系数 随 温度 变化 关系 。 可以 发现 ， 对于 同一 AlN 引入 量 的 复合材料 ， 热 膨胀系数 随 温度 的 提高 而 增加 ； 对于 不同 AlN 引入 量 的 复合材料 ， 当 温度 在 400 ℃ 以上 时 ， 热 膨胀系数 随 AlN 引入 量 的 增加 而 增加 ， 这 与 式 ( 2 ) 所 预测 的 结果 是 一致 的 。 值得注意 的 是 ， 在 较 低 的 温度 时 ， 热 膨胀系数 并 不是 随 AlN 引入 量 的 增加 而 增加 ， 而是 先 下降 然后 上升 ， 400 ℃ 以上 温度 时 ， 随 AlN 引入 量 的 增加 ， 复合材料 的 热 膨胀系数 才 逐渐 增加 。 
+ 　 　 复合材料 由于 第二 相在 物理化学 性质 上 有别于 基体 ， 因而 第二 相 的 引入 将 影响 到 复合材料 的 烧结 过程 ， 包括 坯 体内 气孔 的 排除 和 致密 化 过程 。 结果 随 AlN 引入 量 的 增加 ， 复合材料 的 相对 密度 下降 ， 复合材料 中 存在 一定 的 气孔 ［ 2 ］ ； 此外 ， 因为 SiO2 基体 和 第二 相 AlN 的 热 膨胀系数 差别 较大 ， 复合材料 在 从 热压 温度 向 室温 冷却 过程 中 ， 因为 残余 应力 的 生成 易 在 复合材料 内 引发 微 裂纹 ( 图 2 ) 。 当 再 加热 时 ， 一定量 的 气孔 和 微 裂纹 趋于 弥合 ， 而 在 低温 下 表现 出随 AlN 引入 量 的 增加 ， 热 膨胀系数 下降 ， 但 对于 30vol% AlN - SiO2 复合材料 而言 ， 因为 AlN 引入 量 较大 ， 正如 Turner 表达式 所 预测 的 ， 热 膨胀系数 增加 明显 ， 所以 AlN 引入 量 为 30vol% 的 复合材料 的 热 膨胀系数 比 AlN 引入 量 为 20vol% 的 略 大 ， 但 又 比 AlN 引入 量 为 10vol% 的 要 小 。 当 再 继续 提高 温度 时 ， 由于 微 裂纹 已 基本 弥合 ， 而 气孔率 的 影响 作用 趋于 减弱 ， 所以 热 膨胀系数 随 AlN 引入 量 的 增加 而 增加 。 
+ 　 　 　 　 　 　 　 
+ 　 图 1 　 SiO2 - AlN 复合材料 的 热 膨胀系数 　 　 　 　 　 　 　 　 图 2 　 SiO2 - AlN 复合材料 的 TEM 照片 
+ 　 　 　 随 温度 的 变化 关系 　 　 　 　 　 　 　 　 　 　 　 　 　 Fig.2 　 TEMmicrographofSiO - AlN 
+ Fig.1 　 Thermalexpansioncoefficientof 　 　 　 　 　 compositesshowingmicrocrack 
+ SiO2 - AlNcompositesasafunctionoftemperature 
+ 
+ 　 　 图 3 和 图 4 分别 是 不同 AlN 引入 量 的 SiO2 - AlN 复合材料 的 热扩散 率 和 热导率 随 热压 温度 的 变化 关系 ， 其中 图 4 中 数据 是 根据 式 ( 1 ) 由图 3 中 数据 计算 得到 的 。 可以 发现 ， 随 热压 温度 的 提高 ， 复合材料 的 热扩散 率 和 热导率 增加 ， 这 是因为 随 热压 温度 的 提高 ， 复合材料 的 致 密度 得以 提高 的 缘故 。 而 SiO2 - AlN 复合材料 的 热导率 接近 于 玻璃质 基体 的 热导率 ， 是因为 复合材料 以 SiO2 为 连续 相 ， 高 热导率 AlN 弥散 性 地 分布 其中 的 缘故 。 
+ 　 　 根据 两相 复合材料 热导率 表达式 ［ 6 ］ ： 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 式 中 ： λ 为 复合材料 的 热导率 ， λ 璫 和 λ 璬 分别 为 连续 相 和 分散相 的 热导率 ， Vd 为 分散相 的 体积 分数 。 比较 SiO2 和 AlN 的 热导率 ( 表 1 ) ， AlN 的 热导率 比 SiO2 要 大得多 ， 所以 式 ( 3 ) 可以 简化 为 ： 
+ 　 　 　 　 λ λ c ［ ( 1 + 2Vd ) / ( 1 - Vd ) ］ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 根据 上 式 计算 得 20vol% AlN - SiO2 和 30vol% AlN - SiO2 复合材料 的 热导率 分别 为 3.412 W / ( m . K ) 和 4.457 W / ( m . K ) 。 实验 值 与 之 相 比较 小 ， 其 原因 是 复合材料 中 存在 一定 的 微 裂纹 ， 导致 热导率 的 降低 ［ 7 ］ 。 
+ 　 　 　 　 　 
+ 　 　 图 3 　 SiO2 - AlN 复合材料 的 热扩散 率 随热 　 　 　 　 　 图 4 　 SiO2 - AlN 复合材料 的 热导率 随 
+ 　 　 　 　 压 温度 的 变化 关系 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 热压 温度 的 变化 关系 
+ Fig.3 　 ThermaldiffusivityofSiO2 - AlN - 　 　 Fig.4 　 ThermalconductivityofSiO2 - AlN 
+ compositesasafunctionoftemperature 　 　 　 compositesasafunctionoftemperature 
+ 
+ 图 5 　 SiO2 - AlN 复合材料 经受 热 冲击 后 抗弯强度 随 淬 冷 温度 的 变化 关系 
+ Fig.5 　 FlexuralstrengthofSiO2 - AlNcompositesasafunctionof 
+ quenchingtemperature 
+ 2.2 　 SiO2 - AlN 复合材料 的 抗热 震性 
+ 　 　 图 5 是 1350 ℃ 下 热压 烧结 的 SiO2 - AlN 复合材料 经受 热 冲击 前后 抗弯强度 随 淬 冷 温度 的 变化 关系 。 可以 发现 ， 未经 受热 冲击 前 ， AlN 引入 量 为 30vol% 的 复合材料 因高 弹性模量 第二 相 颗粒 的 引入 以及 残余 应力场 的 协同 作用 力学性能 有 较大 提高 ［ 2 ］ 。 当 经受 热 冲击 后 ， 随热 冲击 温度 区间 的 增加 ， 复合材料 的 抗弯强度 趋于 下降 。 当 Δ T = 0 ～ 600 ℃ 时 ， 抗弯强度 衰减 幅度 小且 缓慢 ； 当 Δ Τ ＞ 600 ℃ 时 ， 抗弯强度 迅速 下降 。 可以 估计 ， SiO2 - AlN 复合材料 的 临界 淬冷 温度 在 600 ℃ 左右 ， 较之 SiO2 基体 材料 ， 抗热 震性 有所 下降 。 
+ 　 　 复合材料 的 抗热 震性 是 其 力学性能 和 热学 性能 的 综合 表现 ， 且 与 热应力 有 很大 关系 。 当 从 高温 淬冷至 室温 时 ， 由于 复合材料 表面 内外 的 温度梯度 使得 收缩 不 一致 而 导致 在 复合材料 内 生成 热应力 ［ 5 ］ ： 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 式 中 ： σ 为 热应力 ， E 为 弹性模量 ， μ 为 泊松比 ， α 为 热 膨胀系数 ， Δ Τ 为 温差 。 假如 σ = σ 璮 ， 即 热应力 恰好 达到 材料 的 极限 抗弯强度 ， 则 材料 将 被 破坏 。 代入 式 ( 4 ) ， 则 得 ： 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 上 式 指出 了 物性 参数 对 复合材料 抗热 震性 的 影响 。 注意 到 SiO2 - AlN 复合材料 以 SiO2 为 连续 相 ， 可以 假设 复合材料 的 物性 参数 为 SiO2 基体 的 物性 参数 并 取值 μ = 0.16 ， E = 72GPa ， 则 近似计算 得 Δ Τ max = 638 ℃ ( 表 2 ) 。 可以 发现 ， 计算结果 与 实验 值 基本一致 。 而且 式 ( 5 ) 也 反映 了 随 AlN 引入 量 的 增加 ， 复合材料 的 热 膨胀系数 增加 ， 使得 复合材料 所 能 经受 的 临界 淬冷 温度 下降 。 
+ 
+ 表 2 　 SiO2 - AlN 复合材料 抗热 震性 分析 
+ Table2 　 AnalysisofthermalshockresistanceofSiO2 - AlNcomposites 
+ 
+ Sample μ E / GPa α / × 10 - 6K - 1 σ / MPa Δ Tmax / ℃ 
+ 30vol% AlN - SiO20.16723164 ［ 2 ］ 638 
+ 
+ 　 
+ 
+ 　 　 根据 式 ( 4 ) 和 式 ( 5 ) 可知 ， 影响 复合材料 抗热 震性 的 因素 如下 ： 1 ) 提高 SiO2 - AlN 复合材料 的 抗弯强度 σ f ， 使 σ f / E 提高 。 这 意味着 提高 复合材料 的 柔韧性 ， 可以 吸收 较 多 的 弹性 应变 能 ； 2 ) 减 小S iO2 - AlN 复合材料 的 热 膨胀系数 α 。 在 同一 温差 下 ， α 小 的 材料 生成 的 热应力 小 ； 3 ) 提高 SiO2 - AlN 复合材料 的 热导率 λ 。 λ 大 的 材料 易于 缓解 材料 内 热应力 的 聚集 。 显然 这 将 有助于 提高 SiO2 - AlN 复合材料 的 抗热 震性 。 
+ 3 　 结 　 论 
+ 　 　 ( 1 ) SiO2 - AlN 复合材料 的 热 膨胀系数 随 温度 的 提高 而 增加 ； 在 同一 温度 下 ， 复合材料 的 热 膨胀系数 与 AlN 的 含量 有关 ， 400 ℃ 以上 ， 热 膨胀系数 随 AlN 引入 量 的 增加 而 增加 ， 400 ℃ 以下 ， 热 膨胀系数 随 AlN 引入 量 的 变化 较 复杂 。 
+ 　 　 ( 2 ) SiO2 - AlN 复合材料 的 热扩散 率 和 热导率 随 热压 温度 的 提高 而 增加 ， 由于 以 SiO2 为 连续 相 复合材料 的 热导率 接近 于 玻璃质 基体 的 热导率 。 
+ 　 　 ( 3 ) SiO2 - AlN 复合材料 的 临界 淬冷 温度 在 600 ℃ 左右 。 提高 复合材料 的 柔韧性 和 热导率 、 减小 热 膨胀系数 有助于 提高 复合材料 的 抗热 震性 。 
+ 作者简介 ： 吴洁华 ( 1972 - ) ， 男 ， 博士 
+ 作者 单位 ： 中国科学院 上海 硅酸盐 研究所 ， 上海 　 200050 
+ 参考文献 ： 
+ ［ 1 ］ 　 江东 亮 ， 郭景坤 . 复相 陶瓷 . 硅酸盐 学报 ， 1991 ， 19 ： 258 
+ ［ 2 ］ 　 WUJie - hua , LIBao - shun , GUOJing - kun . TheinfluencesofadditionofAlN 
+ 　 　 　 　 particlesonmechanicalpropertiesofSiO2matrixcompositesdopedwithAlN 
+ 　 　 　 　 particles . materialsletters ( inpress ) 
+ ［ 3 ］ 　 吴洁华 ， 李包顺 ， 黄校 先 等 . SiO2 - AlN 复合材料 的 介 电性能 . 功能 材料 与 器件 学报 ( 待 发表 ) 
+ ［ 4 ］ 　 BARTAJ , MANELAM . Si3N4andSi2N2Oforhighperformance . MaterSci & Eng , 
+ 　 　 　 　 1985 , 71 : 265 
+ ［ 5 ］ 　 奚 同庚 . 无机 材料 热 物性 学 . 上海 ： 上海 科学技术 出版社 ， 1981 
+ ［ 6 ］ 　 KINGERYWD , BOWENHK , UHLMANNDR . Introductiontoceramics . JohnWiley & Sons 
+ 　 　 　 　 Inc.1976 
+ ［ 7 ］ 　 SIEBENECKHJ , HASSELMANDPH . Effectofmicrocrackingonthethermal 
+ 　 　 　 　 diffusivityofFe2TiO5 . JAmCeramSoc , 1976 , 59 : 241 
+ 收稿 日期 ： 1999 - 03 - 22 ； 修订 日期 ： 1999 - 06 - 09 

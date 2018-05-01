@@ -1,0 +1,120 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 1 期 Vol.24 No.11998 
+ 
+ 
+ 
+ 关联 不 确定 大 系统 的 分散 变 结构 控制 
+ 杜树 新 　 吴 铁军 　 陈 新海 
+ 摘 　 要 　 分散控制 方法 和 变 结构 控制 方法 两者 优点 的 结合 使得 分散 变 结构 控制 在 大 系统 研究 中 得到 了 广泛 的 重视 . 针对 各个 子系统 均 为 多 输入 情况 ， 研究 了 不确定性 关联 大 系统 的 分散 变 结构 控制 方法 . 基于 开关 平面 的 等价 性 ， 提出 了 关联 大 系统 的 分散 滑动 模态 全局 可 达 条件 . 并 针对 子系统 不确定性 的 界 已知 及 未知 两种 情况 ， 提出 了 分散 变 结构 控制算法 . 该 方法 克服 了 以往 控制 方法 中需 已知 线性 关联 函数 或 不确定性 关联 的 界 的 缺陷 . 
+ 关键词 　 分散控制 ， 变 结构 控制 ， 关联 大 系统 ， 系统 不确定性 . 
+ DECENTRALIZEDVARIABLESTRUCTURECONTROLFOR 
+ INTERCONNECTEDSYSTEMSWITHUNCERTAINTIES 
+ DUSHUXIN 　 WUTIEJUN 
+ ( NationalLaboratoryforIndustrialControlTechnology , ZhejiangUniversity , Hangzhou 　 310027 ) ) 
+ CHENXINHAI 
+ ( CollegeofAstronauticEngineering , NorthwesternPolytechnicalUniversity , Xi ’ an 　 710072 ) 
+ Abstract 　 Theadvantagesofbothvariablestructurecontrolanddecentralizedcontrolhavemotivatedustoinvestigatedecentralizedvariablestructurecontrolmethodsforuncertaininterconnectedsystems . Asetofglobalreachingconditionsbasedonthelineartransformationofslidingsurfaceformulti - inputsubsystemsarepresentedinthispaper . Theproposeddecentralizedvariablestructurecontrollawscanbeusedtodealwiththeproblemsoflarge - scalesystemswithunknowninterconnections . 
+ Keywords 　 Decentralizedcontrol , variablestructurecontrol , interconnectedsystems , uncertainty . 
+ 1 　 引言 
+ 　 　 变 结构 控制 方法 对系统 参数 的 变化 及 外界 干扰 具有 不 敏感性 并 可 人为 规定 控制系统 动态 过程 ， 为 不确定性 系统 的 控制 提供 了 有效途径 ［ 1 ］ . 而 分散控制 将 大 系统 的 控制 简化 为 每个 子系统 的 单独 控制 ， 简化 了 控制系统 的 设计 ， 提高 了 系统可靠性 ［ 2 ］ . 两者 优点 的 结合 使得 分散 变 结构 控制 在 大 系统 研究 中 得到 了 广泛 重视 . 分散 变 结构 控制 的 主要 困难 在于 如何 利用 子系统 本身 的 信息 补偿 来自 其他 子系统 的 关联 作用 . Xu 等 ［ 3 ］ 和 Chiang ［ 4 ］ 假定 线性 关联 函数 已知 ， 故 无法 解决 关联 不 确定 和 非线性 的 问题 . Lee 和 Wang ［ 5 ］ 设计 的 控制器 需 已知 不 确定 关联 的 界 . 上述 方法 只 适用 于 每个 子系统 为单 输入 情况 . 
+ 　 　 本文 针对 具有 不 确定 非线性 关联 作用 的 大 系统 ， 提出 了 在 每个 子系统 均 为 多 输入 情况 下 的 滑动 模态 全局 可 达 条件 和 分散 变 结构 控制算法 . 在 控制器 构成 中 ， 只 利用 子系统 本身 的 信息 补偿 来自 其它 子系统 的 关联 作用 ， 克服 了 以往 分散 变 结构 控制 方法 中需 已知 关联 函数 或 关联 不确定性 的 界 的 缺陷 ， 从而 完全 摆脱 了 在 处理 关联 作用 时 对 关联 的 依赖性 ， 真正 具有 信息 分散化 、 控制 分散化 的 特点 . 
+ 2 　 关联 不 确定 大 系统 的 数学 描述 
+ 　 　 假定 关联 大 系统 有 N 个 子系统 组成 
+ 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 式 中 xi ∈ Rni , ui ∈ Rmi ( ni ＞ mi ) 为 第 i 个 子系统 的 状态变量 和 控制 量 ； 
+ 为 第 i 个 子系统 的 标称 系统 矩阵 、 标称 控制 矩阵 ； 
+ 为 引起 系统 不 确定 变化 因素 ， 为 Lebesgue 可测 ， Π i , Ω 分别 为 R Π i , R Ω 的 紧 子集 ； Ei ( xi , δ i , t ) ∈ Rmi × mi 为 控制 矩阵 的 不 确定 变化 ； Bizi ( xi , υ , t ) ∈ Rni 表示 非线性 的 不 确定 关联 ； Ii ∈ Rmi × mi 为 单位 阵 . 
+ 　 　 假设 1 . 标称 子系统 可控 ， 且 Bi 列满 秩 . 
+ 　 　 假设 2 . 存在 未知 非负 常数 ζ ij , 满足 
+ 　 　 假设 3 . 存在 未知 常数 θ i ＞ - 1 ， 满足 
+ 3 　 分散 滑动 模态 的 设计 
+ 　 　 由于 Bi 列满 秩 ， 所以 存在 正交 矩阵 Ti ∈ Rni × ni 使得 为 非 奇异 阵 . 做 变换 yi = Tixi , 并 yi = ［ yTi1 , yTi2 ］ T , yi1 ∈ Rni - mi , yi2 ∈ Rmi , 则 由 ( 1 ) 式 可得 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 其中 设 各 子系统 的 开关 平面 为 
+ si = Cixi = 0 . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 其中 Ci ∈ Rmi × ni 为 切换 矩阵 ， 则 si = CiTTiyi = Diyi = Di1yi1 + Di2yi2 = 0 , Di = CiTTi = ［ Di1Di2 ］ , Di1 ∈ Rmi × ( ni - mi ) , Di2 ∈ Rmi × mi , yi2 = - D - 1i2Di1yi1 = - Fiyi1 , Fi = D - 1i2Di1 , 故可 将 ( 2 ) 式 写 为 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 当 系统 进入 滑动 模态 后 ， 系统 的 动态 特性 由 ( 5 ) 式 来 决定 . 可 通过 适当 方法 ( 如 极点 配置 法 ) 选择 Fi ， 使 ( 5 ) 式 具有 规定 的 动态 品质 . 对于 给定 的 Fi ， 可 得 切换 矩阵 Ci = Di2 ［ - Fi , Ii ］ Ti . 
+ 4 　 分散 变 结构 控制 律 综合 
+ 4.1 　 滑动 模态 全局 可 达 条件 
+ 　 　 引理 1 . 关联 大 系统 开关 平面 s = ［ sT1 , sT2 , … ， sTN ］ T = 0 与 开关 平面 等价 ， 其中 
+ 　 　 证明 . 由于 可逆 ， 而 
+ 则 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 证毕 . 
+ 　 　 定理 1 . 如果 满足 以下 分散 滑动 模态 可 达 条件 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 则 关联 大 系统 ( 1 ) 的 状态 渐近 趋向于 开关 平面 s = 0 . 
+ 　 　 证明 . 取 Lyapunov 函数 对 V 求导 得 
+ 
+ 所以 ， 如果 ( 6 ) 式 满足 ， 则 即 系统 状态 渐近 趋向于 开关 平面 由 引理 1 知 ， 系统 状态 也 同时 渐近 趋向于 开关 平面 s = 0 . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 证毕 . 
+ 　 　 推论 1 . 如果 在 设计 切换 矩阵 Ci 时 ， 选取 Di2 满足 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 7 ) 
+ 则 分散 滑动 模态 全局 可 达 条件 为 
+ 丁 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ 　 　 证明 . 由于 则 由式 ( 6 ) 和 ( 7 ) 可 得 以上 结论 . 　 　 　 　 　 　 　 　 　 　 证毕 . 
+ 　 　 注 1 . 推论 1 给出 了 Di2 的 确定 方法 ， 一个 简便 的 选取 是 
+ 　 　 注 2 . 在 mi = 1 , 即 每个 子系统 均 为 单 输入 时 ， BTiCTi 为 标量 ， 可 达 条件 ( 6 ) 变为 ， 其中 为 常数 ， 可见 ， 此时 的 分散 滑动 模态 全局 可 达 条件 与 Xu 等 ［ 3 ］ 给出 的 可达 条件 一致 . 
+ 4.2 　 分散 变 结构 控制 律 
+ 　 　 本文 提出 如下 分散 变 结构 控制 律 
+ ui = uis + uiN . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 9 ) 
+ 其中 
+ uis = - kiBTiCTisi , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 10 ) 
+ 　 　 　 　 　 　 　 　 　 　 　 　 ( 11 ) 
+ 式 中 ki ∈ R + 预先 给定 ， ρ i 的 确定 取决于 子系统 关联 不 确定 的 界 是否 已知 . 下面 分别 讨论 . 
+ 4.2 . 1 　 关联 不确定性 的 界 已知 
+ 　 　 定理 2 . 对于 不 确定 关联 大 系统 ( 1 ) ， 在 假设 1 - 3 下 ， 采用 式 ( 9 ) ～ ( 11 ) 的 分散 变 结构 控制 律 ， 且 ρ i 满足 则 系统 状态 渐近 趋向于 开关 平面 s = 0 . 
+ 　 　 证明 . 将 ( 1 ) ， ( 4 ) 和 ( 9 ) ～ ( 11 ) 式 代入 滑动 模态 全局 可 达 条件 ( 8 ) 中 ， 得到 
+ 
+ 　 　 　 ( 12 ) 
+ 由于 
+ 　 　 　 　 　 　 ( 13 ) 
+ 　 　 　 　 　 　 　 　 ( 14 ) 
+ 　 　 　 　 　 　 　 　 ( 15 ) 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 16 ) 
+ 则 由 ( 12 ) 式 得 
+ 　 　 　 　 ( 17 ) 
+ 由 第 4.1 节 推论 1 知 ， 系统 状态 渐近 趋向于 开关 平面 s = 0 . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 证毕 . 
+ 　 　 注 3 . 由于 不等式 ( 17 ) 成立 ， 由 文献 ［ 6 ］ 的 定理 知 ， 在 分散控制 ( 9 ) ～ ( 12 ) 式 作用 下 ， 系统 状态 至少 以 衰减 指数 为 μ 渐近 趋向于 开关 平面 ， 且 在 有限 时间 τ 内 到达 ， τ 满足 
+ 
+ 4.2 . 2 　 关联 不确定性 的 界 未知 
+ 　 　 当 子系统 关联 不确定性 的 界 未知 时 ， 本文 采用 如下 自 适应 方案 计算 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 18 ) 
+ 式 中 Γ i ＞ 0 为 设计 参数 . 
+ 　 　 定理 3 . 对于 不 确定 关联 大 系统 ( 1 ) ， 在 假设 1 - 3 下 ， 采用 ( 9 ) ～ ( 11 ) ， ( 18 ) 式 的 分散 变 结构 控制 律 ， 则 系统 状态 渐近 趋向于 开关 平面 s = 0 . 
+ 　 　 证明 . 若取 Lyapunov 函数 为 则 类似 于 第 4.1 节 定理 1 证明 中 的 推导 ， 在 设计 切换 矩阵 Ci 时 满足 ( 7 ) 式 ， 可 得 改进型 的 可达 条件 
+ 　 　 　 　 　 　 　 　 　 　 ( 19 ) 
+ 类似 于 定理 2 的 推导 得 
+ 　 　 　 　 ( 20 ) 
+ 取 ρ * i 满足 则 证毕 . 
+ 　 　 注 4 . 在 ( 18 ) 式 中 ， 由于 ρ i 一直 增大 . 但 对于 实际 系统 ， 由于 控制 有 界 ， ρ i 不能 一直 增大 ， 因此 ， 在 控制系统 实际 实现 时 ， 不妨 采用 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 21 ) 
+ 式 中 M 为 充分 大 的 正数 ， 且 M ＞ ρ * i . 采用 式 ( 21 ) ， 由 定理 2 和 定理 3 可以 保证 . 即 ρ i ≤ M 时 ， 由 定理 3 保证 ； ρ i ＞ M ＞ ρ * i 时 ， 由 定理 2 保证 . 
+ 5 　 数字 仿真 
+ 　 　 双 倒立 摆 系统 模型 ［ 7 ］ 
+ ⅰ 　 　 　 　 　 　 　 ( 22 ) 
+ 　 　 　 　 　 　 　 ( 23 ) 
+ 式 中 Δ m1 , Δ m2 , a ( t ) 均 为 时变 不 确定 ， 且 ｜ Δ m1 ｜ ＜ 0.1 ， ｜ Δ m2 ｜ ＜ 0.05 ， 0 ≤ a ( t ) ≤ 1 . 假定 系统 进入 滑动 模态 后 ， 第 1 和 第 2 子系统 的 降阶 系统 极点 配置 为 - 1 和 - 2 ， 则 设计 参数 计算 如下 ： 
+ D12 = 1 , D22 = 0.5 , F1 = - 1 , F2 = - 2 , C1 = ［ 1 　 1 ］ , C2 = ［ 1 　 0.5 ］ . 对 由 分散控制 律 ( 9 ) ～ ( 11 ) 和 ( 18 ) 式 构成 的 控制系统 的 仿真 结果 如图 1 和 图 2 所示 . 仿真 中 ， 采用 设置 边界层 方法 将式 ( 11 ) 中 的 不 连续 控制 变为 连续 控制 ， 以 消除 颤振 . 初始值 为 
+ 
+ 
+ 图 1 　 第 1 子系统 ( θ 1 , 1 ) 响应 曲线 
+ 
+ 
+ 图 2 　 第 2 子系统 ( θ 2 , 2 ) 响应 曲线 
+ 6 　 结论 
+ 　 　 本文 针对 各个 子系统 均 为 多 输入 情况 ， 基于 开关 平面 的 等价 性 ， 提出 了 关联 大 系统 的 分散 滑动 模态 全局 可 达 条件 . 同时 ， 针对 子系统 关联 不确定性 的 界 已知 及 未知 情况 ， 提出 了 分散 变 结构 控制 控制 律 . 
+ 作者简介 ： 杜树 新 　 生于 1967 年 ， 1989 年 毕业 于 江苏 理工大学 ， 1992 年 在 西安交通大学 获 硕士学位 ， 1995 年 在 西北工业大学 获 博士学位 ， 目前 在 浙江大学 从事 博士后 研究 工作 . 研究 方向 ： 分散 自 适应控制 、 机器人 运动 规划 与 控制 、 工业 系统控制 . 
+ 　 　 　 　 　 吴 铁军 　 生于 1950 年 ， 教授 ， 1982 毕业 于 浙江大学 ， 1988 年 在 浙江大学 获 博士学位 并 留校 任教 ， 1990 年 ～ 1992 年 在 美国 马里兰大学 从事 博士后 研究 工作 . 主要 研究 方向 ： 复杂 大 系统 管控 一体化 、 智能 控制 、 工业 控制 计算机网络 . 
+ 　 　 　 　 　 陈 新海 　 生于 1929 年 ， 教授 ， 1953 年 毕业 于 浙江大学 ， 1963 年 在 苏联 莫斯科 菇 可斯基 空军 工程学院 获 副 博士学位 ， 1970 年前 在 哈军工 任教 ， 之后 一直 在 西北工业大学 任教 . 研究 方向 ： 自 适应控制 ， 飞行器 控制 . 
+ 作者 单位 ： 杜树 新 　 吴 铁军 　 浙江大学 工业 控制技术 国家 重点 实验室 　 杭州 　 310027 
+ 　 　 　 　 　 陈 新海 　 西北工业大学 航天 工程学院 　 西安 　 710072 
+ 参考文献 
+ ［ 1 ］ 　 高为炳 . 变 结构 控制 理论 基础 . 北京 ： 中国 科学技术 出版社 ， 1990 . 
+ ［ 2 ］ 　 杜树 新 . 分散 自 适应控制 理论 及 在 大型 柔性 空间结构 中 应用 ［ 博士论文 ］ . 西安 ： 西北工业大学 ， 1995 . 
+ ［ 3 ］ 　 XuX , WuY , HuangW . Variable - structurecontrolapproachofdecentralisedmodel - referenceadaptivesystems . IEEProc . - D , 1990 , 137 ( 5 ) : 302 - 306 . 
+ ［ 4 ］ 　 ChiangCC . Decentralizedvariable - structureadaptivecontrollersynthesisoflarge - scalesystemsubjectedtoboundeddisturbance . Int . J . SystemsScience , 1993 , 24 ( 6 ) : 1101 - 1111 . 
+ ［ 5 ］ 　 LeeJL , WangWJ . Robuststabilizationviaslidingmodecontrol . Control - TheoryandAdvancedTechnology , 1993 , 9 ( 3 ) : 721 - 731 . 
+ ［ 6 ］ 　 WangWJ , LeeJL . Decentralizedvariablestructurecontroldesigninperturbednonlinearsystems . J . ofDynamicSystem , Measurement , andControl , 1993 , 115 ( 3 ) : 551 - 554 . 
+ ［ 7 ］ 　 GavelDT , SiljakDD . Decentralizedadaptivecontrol : structuralconditionsforstability . IEEETrans . AutomaticControl , 1989 , 34 ( 4 ) : 413 - 426 . 
+ 收稿 日期 　 1996 - 03 - 21 

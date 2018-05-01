@@ -1,0 +1,86 @@
+环境 科学 学报 
+ ACTASCIENTIAECIRCUMSTANTIAE 
+ 1999 年 　 第 19 卷 第 1 期 Vol.19 　 No.11999 
+ 
+ 
+ 
+ 施用 磷 石膏 对 碱化 土壤 氟 含量 及其 吸附 特性 的 影响 
+ 梁成华 　 陈新 之 　 李焕珍 　 李纪柏 　 
+ 摘 　 要 　 通过 室内 培养 试验 和 田间试验 就 施用 磷 石膏 对 土壤 氟 含量 和 土壤 对 氟 吸附 特性 的 影响 进行 了 研究 . 结果表明 ， 经 连续 4 年 施用 磷 石膏 改良 土壤 后 ， 0 — 20 ? cm 土层 全氟 积累 现象 明显 . 但是 ， 土壤 水溶性 氟 含量 却 随 磷 石膏 施用量 增加 而 降低 . 土壤 对 氟 的 吸附 数据 均 能 与 Langmuir , Freundilich 和 Temkin 方程 很 好 地 拟合 ， 施用 磷 石膏 处理 土壤 对 氟 的 最大 吸附 量 高于 没有 施用 磷 石膏 处理 的 . 影响 土壤 水溶性 氟 含量 和 吸附 特性 的 主要 因素 可能 是 土壤 钙 含量 的 增加 和 pH 值 的 降低 . 
+ 关键词 　 碱化 土 ； 磷 石膏 ； 水溶性 氟 ； pH 值 
+ Effectofapplicationphosphogysumoncontentsandadsorptioncharacteristicoffluorineinalklinesoils 
+ 
+ LIANGChenghua , CHENXinzhi 
+ LandandEnvironmentCollege , ShenyangAgriculturaUniversity , 110161 
+ LIHuanzhen , LIJibai , YANGWeiqi 
+ SoilandFertilizerResearchandExtensionStationofShenyang , 110034 
+ Abstract 　 Thechangesofcontentsandadsorptioncharacteristicsoffluorineinaalkalinesoilsimprovedbyapplyingphosphogpsumfor4yearssuccessivelywerestudied . Theresultsindicatedthatthetotalfluorineaccumulatedevidencewasobviouslyamongthesoils ( 0 — 20 　 cm ) appliedphosphogpsum . But , TherewasatendencythatthecontentsofwatersolubleF - droppedwiththeincreaseamountofphosphogpsumadded . ThetrialdataofF - adsorptioninexaminedsoilsweresignificantlyconformtoLangmuir , Freundlich , TemkinequationsThemaximumamountsofF - adsorbedwereincreasedintheimprovedsoilscomparedwiththesoil ( CK ) . ThemainfactorscontrollingthecontentsofwatersolubleF - andF - adsorptionbehaviormightbetheamountofCa2 + andpHvaluesinthesoils . 
+ Keywords 　 alkalinesoil , phosphogypsum , watersolubleF - , pH . 
+ 　 　 碱土 和 碱化 土是 我国 的 主要 低产 土壤 之一 ［ 1 ］ ， 其 主要 理化 特征 是 土壤 代换 性钠 含量 高 ， 土壤胶体 高度 分散 . 施用 磷 石膏 是 改良 这 类 土壤 的 主要 措施 之一 ［ 2 ］ . 近十年 来 ， 我国 各地 施用 磷 石膏 改良 碱土 和 碱化 土壤 取得 了 较 好 的 效果 ［ 3 ， 4 ］ . 但是 ， 因 碱土 分布区 多 伴有 不同 程度 的 高 氟 特点 ， 而 磷 石膏 又 是 湿法 生产 磷酸 过程 中 排放 的 废渣 ， 含有 一定量 的 氟 . 因此 ， 人们 对 施用 磷 石膏 是否 会 加重 土壤 的 氟 污染 问题 十分 关注 . 目前 有关 这方面 的 研究 资料 很少 . 本文 通过 室内 培养 试验 和 田间 定位 试验 ， 研究 了 施用 磷 石膏 对 土壤 氟 含量 和 土壤 对 氟 吸附 特性 的 影响 . 
+ 1 　 材料 与 方法 
+ 1.1 　 试验 材料 
+ 　 　 供试 土壤 为 碱化 草甸 土 ， 碱化 度 10.05% ， 有机质 含量 8.4 g / kg ， 全氟 含量 0.19 g / kg ， 水溶性 氟 含量 7.83 mg / kg , pH 值 8.7 ； 供试 磷 石膏 由 沈阳市 化肥厂 提供 ， 其 主要 化学性质 为 ： 石膏 ( CaSO4 * 2H2O ) 610.3 g / kg , P2O514.8 　 g / kg , 全氟 2.974 　 g / kg ， 水溶性 氟 11.84 mg / kg ， pH 值 3.25 . 
+ 1.2 　 试验 方法 
+ 1.2 . 1 　 田间试验 　 试验 设 对照 ( CK ) 和 每亩 施磷 石膏 ( 200kg ( T1 ) 、 600kg ( T2 ) 、 1200kg ( T3 ) 3 个 处理 ， 小区 面积 为 36m2 ， 3 次 重复 . 每年 在 播种 前 把 磷 石膏 均匀 地 耙 入 耕层 ， 连续 施用 4 年 ， 种植 作物 为 玉米 . 有关 产量 和 改土 效果 见 参考文献 ［ 3 ］ . 
+ 1.2 . 2 　 室内 培养 试验 　 称过 1mm 筛 的 风干 土 100.00 g 若干份 ， 分别 加入 磷 石膏 0.133 g \ , 0.400 g 、 0.800 g 、 1.600 g 、 3.333 g ， 以不加 磷 石膏 的 为 对照 . 磷 石膏 与 土壤 混匀 后 ， 放入 塑料袋 中 ， 加水 至 田间 持 水量 的 80% ， 在 30 ℃ 条件 下 培养 15d . 
+ 1.2 . 3 　 土壤 对 氟 的 等温 吸附 试验 　 分别 称取 田间试验 CK 、 T1 、 T2 、 T3 处理 的 过 1mm 筛 风干 土样 2.500 ? g 若干份 于 50mL 塑料 离心管 中 ， 再 分别 加入 F - 浓度 为 5.26 × 10 - 4 、 1.05 × 10 - 3 、 2.63 × 10 - 3 、 5.26 × 10 - 3 、 1.05 × 10 - 2 、 2.63 × 10 - 2mol / L 的 培养液 ， 重复 3 次 ， 28 ℃ 条件 下 振荡 2h ， 并 静置 培养 48 ? h . 测定 平衡 液中 F - 的 浓度 ， 以 平衡 前后 溶液 中 F - 浓度 的 变化 计算 土壤 对 F - 的 吸附 量 . 
+ 1.3 　 样品 分析方法 
+ 　 　 土壤 全氟 用 NaOH 熔融 ， 水溶性 氟用 土液 比为 1 ∶ 10 的 去离子水 浸提 ， 加入 离子 强度 调节剂 后用 氟 电极 法测定 . 土壤 和 磷 石膏 的 基本 理化 性质 均 用 常规 方法 测定 ［ 5 ］ . 
+ 表 1 　 不同 处理 土壤 的 水溶性 氟 含量 和 pH 值 的 变化 
+ Table1ThecontentsofwatersolubleFandpHvaluesofthesoilwithdifferenttreatments 
+ 处理 不同 处理 ， g / 100g ( 土 ) 
+ 0 ( CK ) 0.1330 . 4000.8001 . 6003.333 
+ 水溶性 氟 , 
+ mg / kg7.837 . 807.647 . 517.327 . 15 
+ pH ( H2O ) 8.708 . 528.318 . 027.857 . 52 
+ 2 　 结果 与 讨论 
+ 2.1 　 施用 磷 石膏 对 土壤 水溶性 氟 含量 的 影响 
+ 　 　 磷 石膏 的 含氟量 很 高 ， 其中 水溶性 氟 含量 高达 11.84 mg / kg ， 施用 磷 石膏 后 是否 会 引起 土壤 水溶性 氟 含量 的 升高 是 人们 担心 的 问题 . 从表 1 可以 看出 ， 土壤 施入 磷 石膏 以后 并 没有 引起 土壤 水溶性 氟 含量 的 升高 ， 而是 随磷 石膏 施用量 的 增加 逐渐 降低 . 其中 ， 每 100g 土 施用 磷 石膏 0.400 g 和 3.333 g 处理 的 水溶性 氟 含量 分别 比 对照 的 下降 了 0.19 mg / kg 和 0.68 mg / kg . 同时 ， 土壤 的 pH 值 也 分别 由 对照 的 8.70 ， 下降 到 8.31 和 7.52 . 据 研究 报道 ［ 6 ］ ， 土壤 对 F - 的 吸附 量 随 pH 值 的 降低 而 增加 . 可以 认为 土壤 pH 值 降低 是 使 土壤 水溶性 氟 下降 的 主要 原因 . 
+ 2.2 　 田间 定位 试验 条件 下 土壤 的 水溶性 氟 和 pH 值 变化 
+ 2.2 . 1 　 土壤 剖面 中 氟 含量 的 变化 　 从表 2 可以 看出 ， 在 没有 施用 磷 石膏 的 对照 处理 土壤 剖面 上 ， 全氟 含量 为 192 — 222mg / kg ， 上层 的 低于 下层 的 ， 具有 下移 的 特点 . 经 连续 4 年 施用 磷 石膏 以后 ， 全氟 在 0 — 20cm 土层 出现 积累 的 趋势 ， 并 有 随 磷 石膏 施用量 的 增加 ， 积累 程度 越趋 严重 . 以下 各 土层 的 全氟 含量 没有 表现 出 明显 的 积累 趋势 . 说明 磷 石膏 带入 土壤 中 的 氟 没有 发生 下移 现象 . 
+ 　 　 表 2 数据 说明 因 施用 磷 石膏 而 在 土壤 表层 积累 的 全氟 ， 没有 使 土壤 水溶性 氟 和 地下水 氟 含量 升高 ， 反而 出现 了 耕层 土壤 水溶性 氟 含量 降低 的 现象 . T1 、 T2 和 T3 处理 ， 0 — 20cm 土层 的 水溶性 氟 含量 分别 7.35 mg / kg \ , 6.85 mg / kg 和 6.82 mg / kg ， 均 低于 对照 处理 的 ( 7.83 mg / kg ) . 20 — 40cm 土层 的 也 有 降低 的 趋势 ， 但是 不如 上层 的 明显 . 对照 处理 与 各 处理 之间 的 地下水 含氟量 也 没有 表现 出 差异 来 . 这 说明 磷 石膏 带入 土壤 中 的 氟 基本上 被 固定 在 土壤 表层 ， 而 磷 石膏 的 改土 作用 还有 降低 土壤 水溶性 氟 的 作用 . 
+ 2.2 . 2 　 土壤 对 氟 吸附 特性 的 变化 　 从表 3 可以 看出 ， 所有 土壤 对 F - 的 等温 吸附 数据 与 Langmuir 、 Freundlich 、 Temkin3 个 方程 的 拟合 程度 均达 极 显著 水平 ， 说明 土壤 对 氟 的 吸附 特征 可以 用 这 三个 方程 来 描述 . Langmuir 方程 与 其它 两个 方程 相比 的 优点 是 ， 它 可以 计算 出 土壤 对 氟 的 最大 吸附 量 . 表中 数据 表明 ， 施用 磷 石膏 提高 了 碱化 土壤 对 F - 的 最大 吸附 量 ， 其中 ， T3 处理 的 为 791.46 mg / kg ， 比 CK 处理 的 高 199.47 mg / kg . 
+ 表 2 　 土壤 剖面 和 地下水 中 氟 含量 的 变化 
+ Table2ChangesincontentsofFinsoilprofilesandgroundwater 
+ 处理 深度 ， cm 全氟 ， mg / kg 水溶性 氟 ， mg / kg 地下水 含氟量 , mg / kgpH 
+ CK0 — 201927.83 　 8.69 
+ 20 — 401978.141 . 158.72 
+ 40 — 602229.85 　 8.98 
+ T10 — 202047.35 　 7.58 
+ 20 — 401968.201 . 178.64 
+ 40 — 602199.87 　 8.95 
+ T20 — 202296.85 　 7.72 
+ 20 — 402038.501 . 158.33 
+ 40 — 602219.79 　 9.00 
+ T30 — 202576.87 　 7.67 
+ 20 — 402268.471 . 168.40 
+ 40 — 602239.82 　 8.94 
+ 　 
+ 表 3 　 土壤 等温 吸附 方程 的 特征值 
+ Table3ThecharacteristicsofF - isothermaladsorptionofthesoils 
+ 处理 Langmuir 方程 
+ c / x = 1 / kmx + c / mx 　 Freundlich 方程 
+ X = k1ck2 　 　 　 　 　 Temkin 方程 
+ X = k1lnk2 + k1lnc 
+ MxkrK1k2rK2k1 　 r 
+ CK591.990 . 01000.993117 . 20940.57820 . 97320.1589107 . 700.9839 
+ T1658.960 . 01080.990221 . 62000.55940 . 97260.1770118 . 350.9799 
+ T2705.130 . 01410.990728 . 01280.54410 . 96290.2143146 . 230.9797 
+ T3791.460 . 01370.992729 . 54790.55480 . 96410.2125132 . 490.7914 
+ 　 　 Langmuir 方程式 中 的 K 值 与 土壤 对 F - 吸附 的 结合能 有关 ， K 值越 大 土壤 对 F - 吸附 得 越 牢固 ［ 7 ， 8 ］ . CK 的 K 值为 0.0100 ， 而 T1 、 T2 、 T3 处理 的 分别 为 0.0108 、 0.0141 和 0.0137 ， 均 大于 CK 的 . 说明 施用 磷 石膏 不仅 提高 了 土壤 对 F - 的 最大 吸附 量 ， 同时 也 增强 了 土壤 对 F - 吸附 的 牢固 程度 . 据 报道 ［ 7 ， 8 ］ ， Freundlich 方程 中 的 K2 值 也 可 说明 土壤 对 F - 吸附 得 牢固 程度 ， 只不过 是 与 K 值 相反 ， K2 值越 大 ， F - 被 吸附 得 越弱 . 表 3 中 的 K2 值 是 CK 的 大 ， T1 、 T2 和 T3 处理 的 小 ， 这种 变化规律 同样 说明 了 土壤 施用 磷 石膏 后 F - 吸附 能力 的 增强 . 
+ 　 　 施用 磷 石膏 后 土壤 所 表现 出对 F - 吸附 能力 的 增强 和 水溶性 氟 含量 的 降低 与 磷 石膏 对 碱化 土壤 的 改良 效果 有 直接 关系 . 磷 石膏 中 游离 酸 对 土壤 的 中和作用 和 Ca2 + 对 Na \ ++ 的 交换 作用 均 能 降低 土壤 的 碱化 度 ， 使 pH 值 降低 ［ 3 ， 9 ］ . F - 的 离子半径 与 OH - 的 相近 ， OH - 与 F - 在 粘土矿 物 晶格 中及 在 土壤胶体 的 吸附 点位 上起 着 相互竞争 作用 ［ 11 ， 10 ］ . pH 值 降低 OH - 数量 的 减少 ， 都 有利于 土壤 对 F - 的 吸附 ， 而 降低 土壤 的 水溶性 氟 含量 . 另外 ， Ca2 + 浓度 的 提高 也 将 使 F - 形成 CaF2 沉淀 ［ 11 ］ . 这些 作用 机制 可能 是 施用 磷 石膏 后 土壤 对 F - 吸附 能力 增强 和 水溶性 氟 含量 降低 的 主要 原因 . 因此 ， 施用 磷 石膏 改良 碱化 土壤 不仅 不会 提高 水溶性 氟 含量 ， 加重 土壤 的 氟 污染 ， 而且 在 一定 程度 上 可以 降低 土壤 水溶性 氟 含量 . 但是 ， 由于 施用 磷 石膏 不可避免 地使 土壤 全氟 含量 增加 ， 如果 土壤改良 措施 不 配套 ， 使 土壤 再次 碱化 ， 将 加重 土壤 和 地下水 的 氟 污染 ， 应 引起 有关 部门 注意 . 
+ 作者 单位 ： 梁成华 　 陈新 之 　 沈阳 农业大学 土地 与 环境 学院 ， 沈阳 　 110161 
+ 　 　 　 　 　 李焕珍 　 李纪柏 　 杨伟奇 　 沈阳市 土肥 站 
+ 参考文献 
+ ［ 1 ］ 　 刘文政 . 我国 盐渍 土 改良 利用 分区 . 土壤学 报 ， 1978 ， 15 ( 2 ) ： 101 — 112 
+ ［ 2 ］ 　 王遵亲 等 著 . 中国 盐渍 土 . 北京 ： 科学出版社 . 1993.217 — 237 
+ ［ 3 ］ 　 李焕珍 等 . 磷 石膏 改良 盐碱土 效果 的 研究 . 土壤 通报 ， 1994 ( 6 ) ： 248 — 252 
+ ［ 4 ］ 　 崔志祥 等 . 磷 石膏 改良 河套 地区 碱化 土 的 效果 . 土壤 ， 1995 ( 4 ) ： 216 — 218 
+ ［ 5 ］ 　 中国 土壤 学会 农业化学 专业 委员会 编 . 土壤 农业化学 常规 分析方法 . 北京 ： 科学出版社 . 1983 
+ ［ 6 ］ 　 王素芬 . 不同 地理环境 中 元素 迁移 致病 的 途径 及 防治 对策 . 农业 环境保护 ， 1991 ( 6 ) ： 248 — 251 
+ ［ 7 ］ 　 邵宗臣 ， 陈家 坊 . 土壤 和 氧化铁 对 氟 的 吸附 和 解吸 . 土壤学 报 ， 1986 ， 23 ( 3 ) ： 236 — 241 
+ ［ 8 ］ 　 SyerJKetal . PhophorusadsorptionbysoilevaluatedbyLangmuiradsorptioneqation . SoilSciSoc , Amer , Proc , 1993 , 37 : 358 — 363 
+ ［ 9 ］ 　 ChhabraRetal . Fluorineinsodicsoils . SoilSciSocAmerJ , 1980 , 44 , ( 1 ) : 33 — 36 
+ ［ 10 ］ 　 GuptaRK , ChhabraRetal . Fluorineadsorptionbehaviorinalklisoils : relativerolesofpHandsodicity . SoilScience , 1982 , 133 ( 5 ) : 364 — 368 
+ ［ 11 ］ 　 潘 　 宏等 . 江苏省 滨海 盐土 向 潮土 演化过程 中 水溶性 氟 含量 变化 原因 的 探讨 . 土壤学 报 ， 1993 ( 4 ) ： 416 — 421 
+ 1997 - 09 - 08 收到 原稿 　 1998 - 03 - 04 收到 修改稿 

@@ -1,0 +1,108 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 1999 年 　 第 10 卷 　 第 11 期 　 Vol.10 　 No.11 　 1999 
+ 
+ 
+ 
+ 嵌套 谓词 等式 系 与 弱互 模拟 
+ 林 惠民 
+ 　 　 摘要 　 带 赋值 符号 迁移 图是 一般 传值 进程 的 语义 模型 , 其强 互 模拟 等价 可以 归结为 谓词 等式 系 的 最大 解 . 该文 将 这 一 结果 推广 到 弱互 模拟 等价 , 为此 , 引入 嵌套 谓词 等式 系 的 概念 , 并 提出 算法 , 将 带 赋值 符号 迁移 图 的 弱互 模拟 等价 归结为 形如 E2 μ E1 的 嵌套 谓词 等式 系 的 最大 解 . 
+ 　 　 关键词 　 传值 进程 , 互 模拟 , 谓词 等式 系 . 
+ 　 　 中图法 分类号 　 TP301 
+ NestingPredicateEquationSystemsandWeakBisimulations 
+ LINHui - min 
+ ( LaboratoryofComputerScienceInstituteofSoftwareTheChineseAcademyofSciencesBeijing100080 ) 
+ 　 　 Abstract 　 Symbolictransitiongraphswithassignmentisageneralsemanticalmodelforvalue - passingprocesses . Strongbisimulationequivalencesbetweensuchgraphscanbereducedtothegreatestsolutionstosimplepredicateequationsystems . Theaimofthispaperistogeneralisethisresulttoweakbisimulationequivalences . Forthispurpose , thenotionofnestingpredicateequationsystemsisintroduced , andalgorithmsarepresentedtoreduceweakbisimulationequivalencestothegreatestsolutionstonestingpredicateequationsystemsoftheformE2 μ E1 . 
+ 　 　 Keywords 　 Value - passingprocesses , bisimulation , predicateequationsystems 
+ 　 　 文献 ［ 1 , 2 ］ 中 引入 了 带 赋值 的 符号 迁移 图 （ symbolictransitiongraphswithassignment , 简称 STGA ） 作为 一般 传值 进程 的 计算 模型 . STGA 在 符号 迁移 图 ［ 3 ］ 的 基础 上 扩充 了 赋值 运算 ， 可以 表示 进程 内部 状态 的 改变 ， 因而 很大 一类 传值 进程 都 可以 表示 为 有 穷 状态 STGA . 以 CCS 为例 ， 任一 正则 （ 即 递归 定义 体中 不 出现 并行 复合 ） CCS 传值 进程 都 对应 于 一有 穷 状态 STGA . 有穷 状态 STGA 的 另 一个 优点 是 , 在 并行 复合 下 封闭 ， 即 两个 有穷 状态 STGA 并行 复合 的 结果 仍然 是 有 穷 状态 STGA ［ 2 ］ ， 因此 , STGA 足以 表示 并发 进程 网络 ( networksofparallelprocesses ) . 两个 不带 赋值 有穷 符号 迁移 图 的 强互 模拟 等价 可以 用 一阶 公式 刻画 ， 即 两个 图强 互 模拟 当且 仅 当 相应 的 公式 为 真 ［ 3 ］ . 对带 赋值 的 符号 迁移 图 , 这一 结论 一般 不再 成立 ， 因此 , 文献 ［ 3 ］ 中 引入 谓词 等式 系 的 概念 ， 在 一阶 谓词演算 的 正子 集中 引入 不动点 ， 并 设计 了 算法 , 将 有 穷 STGA 的 强互 模拟 归结为 谓词 等式 系 的 最大 解 . 
+ 　 　 强互 模拟 等价 主要 具有 理论 上 的 意义 ， 在 实际上 使用 的 等价关系 是 将 表示 内部 通信 的 不 可见 动作 τ 抽象 后 得到 的 弱互 模拟 等价 ［ 4 ］ . 本文 的 目的 是 将 文献 ［ 1 ］ 的 结果 推广 到 弱互 模拟 等价 . 由于 简单 的 谓词 等式 系 不足以 刻画 弱互 模拟 , 为此 , 首先 引入 嵌套 谓词 等式 系 的 概念 ， 证明 其 极大 、 极小解 的 存在 性 ， 然后 讨论 如何 将 有 穷 STGA 的 弱互 模拟 等价 归结为 交错 深度 为 2 的 嵌套 谓词 等式 系 的 最大 解 . 
+ 　 　 为 节省 篇幅 , 对 文献 ［ 1 ］ 第 2 和 第 3 节中 的 基本 记号 及 定义 , 本文 不再 重复 . 
+ 1 嵌套 谓词 等式 系 
+ 　 　 假定 数据 变量 集 DV = { x , y , z , ... } ， 数据 变量 集上 的 数据 表达式 集 DExp 和 布尔 表达式 集 BExp ， 谓词 变量 集 PV = { X , Y , Z , ... } ， 可如 文献 ［ 1 ］ 第 3 节 定义 合式 命题 Φ 和 谓词 Λ . 注意 在 命题 和 谓词 的 构造 中 没有 使用 否定词 ， 并且 谓词 变量 不 在 蕴涵 式 的 左部 出现 . 给定 数值 集 Val ， 并令 T = { true , false } . 对 数据 变量 的 赋值 ρ 将 数据 变量 映射 为 Val 中 的 元素 . ρ 可 延伸 到 DExp 和 BExp 上 : 对 任一 e ∈ DExp , ρ ( e ) ∈ Val ； 对 任一 b ∈ BExp , ρ ( b ) ∈ T . 对 谓词 变量 的 赋值 将 谓词 变量 映射 为 函数 空间 Valn → T 中 的 元素 ( n 为 谓词 变量 的 型 ) . 给定 ρ 和 ， 可定义 公式 Φ 和 谓词 Λ 的 语义 ， 详见 文献 ［ 1 ］ 中 的 第 3 节 . 令 falsetrue ， 序 可 逐点 扩充 到 函数 空间 Val → T 上 ， 并 进一步 扩充 到 谓词 变量 的 赋值 ， 详见 文献 ［ 1 ］ 中 的 第 3 节 . 容易 验证 , 全体 谓词变元 赋值 在 序下 构成 完备 格 . 设 { Xi | i ∈ I } 是 谓词 变量 的 有限 集 ， 称 E ： { Xi = Λ i | i ∈ I } 为 一 谓词 等式 系 ， 若 Λ i 与 Xi 有 相同 的 型 ， 且 对 i ≠ j 有 Xi ≠ Xj . 用 向量 形式 { Xi = Λ i | i ∈ I } 可 简写 为 = . 对 k ∈ { 1 , ... , n } ， 设 σ k ∈ { μ , } ， σ k ≠ σ k - 1 ( k > 1 ) ， Ek : k = k 是 谓词 等式 系 ， 且 对 k ≠ j ， { k } ∩ { j } = ， 则 称 
+ 
+ 是 交错 深度 为 n 的 嵌套 谓词 等式 系 . 为 方便 书写 ， 我们 用 k 表示 Ek σ k - 1Ek - 1 ... σ 1E1 . 给定 ρ 和 ， n 的 解 ζ 归纳定义 如下 : 
+ 
+ 这里 , 表示 相对 于 ρ 和 的 最大 解 ( 若 σ ≡ ) 或 最小 解 ( 若 σ ≡ ) ， n 的 解 也 就是 泛函 的 不动点 . 这个 定义 的 合理性 由 下述 命题 保证 . 
+ 　 　 命题 1.1 . 给定 ρ 和 ， 任意 嵌套 谓词 等式 系 存在 最大 解 和 最小 解 . 
+ 　 　 证明 : 由于 全体 对 谓词 变量 的 赋值 在 下 构成 完备 格 ， 完备 格上 的 单调 函数 有 最大 和 最小 不动点 ［ 5 ］ ， 所以 只 需 证明 泛函 关于 序 单调 ， 其中 我们 假定 ζ ′ ζ ″ ， 往证 对 n 施 归纳 . 
+ 　 　 ( 基始步 ) n = 1 . 这时 等式 系非 嵌套 ， η ζ ′ 和 η ζ ″ 都 是 空解 ， 所以 , { η ζ } ′ { ζ ′ } = { ζ ′ } , { η ζ ″ } { ζ ″ } = { ζ ″ } . 由 ζ ′ ζ ″ 知 , { ζ ′ } { ζ ″ } ， 由于 ‖ 1 ‖ 中 谓词 变量 不 出现 在 蕴涵 式 左部 ， 所以 , . 
+ 　 　 ( 归纳 步 ) 设 结论 对 嵌套 深度 为 n - 1 的 等式 系 成立 ， 考虑 n = En σ n - 1n - 1 ， 不妨 设 σ n - 1 ≡ μ ， 由 归纳 假设 λ ζ 关于 单调 ， 因此 , n - 1 有 关于 ρ , { ζ ′ } 的 最小 不动点 和 关于 ρ ， { ζ ″ } 的 最小 不动点 ， 从 ζ ′ ζ ″ 知 , { ζ ′ } { ζ ″ } , η ζ ′ η ζ ″ } , 故有 { η ζ ′ } { ζ ′ } { η ζ ″ } { ζ ″ } ， 由于 ‖ n ‖ 中 谓词 变量 不 在 蕴涵 式 左部 出现 ， 得 . 
+ 　 　 预备 定理 1.1 . 设有 谓词 等式 系 ， Φ i 不含 中 的 谓词变元 ， η 是 E 相对 于 ρ 和 的 最小 解 . 则 η ( Yi0 ) ( i0 ) = true , i0 ∈ I , 当且 仅 当 存在 i1 , ... , ik , k ≥ 0 ( i1 , ... , ik 不必 互不 相同 ) ， 满足 il ∈ Jil - 1 , 
+ 
+ 其中 ρ 0 = ρ , ρ l + 1 = ρ l { il | → il } , il = ρ l ( il ) . 
+ 　 　 证明 ： 由 η ( Yi0 ) ( i0 ) = true 知 , 
+ 
+ 若 , 则 预备 定理 已得证 ( 由于 Φ i 不含 中 的 谓词变元 ， . 否则 , 有 i1 ∈ Ji0 使得 . 即 
+ ρ 1 ( bi1 ) ∧ η ( Yi1 ) ( i1 ) = true . 
+ 对 η ( Yi1 ) ( i1 ) = true 可 继续 同样 推理 . 由 最小 不动点 的 性质 ， 必有 某个 k ， 使得 ‖ Φ ik ‖ ρ k , V = true ， 且 对 所有 1 ≤ l ＜ k ， 都 有 ρ l ( bil ) ∧ η ( Yil ) ( il ) = true . 
+ 2STGA 的 弱互 模拟 及其 逻辑 刻画 
+ 　 　 关于 带 赋值 符号 迁移 图 的 详细 定义 请 参看 文献 ［ 1 ］ 第 2 节 . 
+ 　 　 定义 2.1 ． 带 赋值 符号 迁移 图 （ 简称 STGA ） 是 一个 有向图 ， 其 每个 结点 n 标有 自由 变量 的 有 穷集 fv ( n ) ， 每条 边 标有 由 布尔 表达式 、 赋值 和 动作 组成 的 三元组 ， 满足 ： 如果 nm 是从 n 到 m 的 一条 边 ， 则 有 fv ( b , ) fv ( n ) , fv ( α ) { } , fv ( m ) { } ∪ bv ( α ) . 
+ 　 　 这里 , b 是 布尔 表达式 , e 是 数据 表达式 ， α ∈ { τ , c ? x , c ! e | c 是 通道 } ， c ? x 称为 输入 动作 ， c ! e 称为 输出 动作 ， τ 是 表示 内部 通信 的 不 可见 动作 . 给定 一个 带 赋值 的 符号 迁移 图 , 上 的 状态 空间 是 的 结点 ， ρ ∈ EVal } . STGA 的 迟 操作 语义 是 状态 上 的 迁移 关系 ， 由 下列 规则 给出 . 
+ 
+ 　 　 为了 定义 迟弱 互 模拟 ， 先 引入 双 箭头 迁移 . 令当且 仅 当 ， 对 a ∈ { τ ′ , c ! υ } 当且 仅 当 , 对 . 
+ 　 　 定义 2.2 . 称 状态 上 的 对称 二元关系 R 是 迟弱 互 模拟 ， 如果 { m ρ , ne } ∈ R 蕴涵 , 
+ 　 　 . 只要 ， 就 有 ， 并且 对 任意 υ ∈ Val ， 存在 n ″ e ″ ［ υ / y ］ n ′ e ′ , 满足 ( m ρ ［ υ / x ］ , n ′ e ′ ) ∈ R . 
+ 　 　 . 对 其他 动作 a ， 只要 m ρ m ′ ρ ′ ， 就 有 nen ′ e ′ ， 满足 ( m ′ ρ ′ , n ′ e ) ∈ R . 令 ≈ = ∪ { R | R 是 一个 迟弱 互 模拟 . } 
+ 　 　 刻画 弱互 模拟 需要 交错 深度 为 2 的 嵌套 谓词 等式 系 E2 μ E1 ， 直观 地说 , 外层 等式 系 E2 刻画 互 模拟 ， 内层 等式 系 E1 则 用于 吸收 τ 动作 . 
+ 　 　 设 和 是 两个 变量 名字 空间 不 相交 的 STGA , 的 结点 用 m , m ′ , mi , ... 表示 ; 的 结点 用 n , n ′ , nj , ... 表示 ; m , m ′ , mi , ... 的 变量 记 为 , , i , ... ; n , n ′ , nj , ... 的 变量 记 为 , , j , .... 下面 的 算法 1 中 的 算法 生成 形如 E2 μ E1 的 等式 系 . 算法 中 用 集合 Visited , Visited τ , m , n , Visited θ , c ! e , m , n , Visitedc ? x , m , n 保证 对 每 一 相应 的 环路 只 访问 一次 . 这些 集合 由 过程 init ( ) 置 为 空集 . 另外 , 在 匹配 输入 动作 时 使用 函数 newVar ( ) 生成 一个 新 的 数据 变量 . 过程 emit 产生 谓词 等式 . id 表示 恒等 替换 . 
+ 　 　 由 上述 算法 产生 的 谓词 等式 有 4 类 ， 分别 形 如 
+ Xm , n ( , ) = V Φ 　 　 （ 由 close 产生 ） 
+ （ 由 close τ 产生 ） 
+ （ 由 match ′ c ! 产生 ） 
+ （ 由 match ′ c ? 产生 ） 
+ 　 　 令 E2 为 由 第 1 类 等式 组成 的 等式 系 , E1 为 由 其余 3 类 等式 组成 的 等式 系 . 称 E2 μ E1 为 上述 算法 产生 的 嵌套 谓词 等式 系 . 不难看出 , E2 μ E1 是 闭 的 ， 并且 在 E1 的 各 等式 中 ， 右边 的 第 1 个 析取 项 Φ 中不含 在 E1 左部 出现 的 谓词变元 . 
+ 　 　 算法 1 . 迟弱 互 模拟 算法 
+ 　 　 bisim ( m , θ , n , σ ) = init ( ) 
+ 　 　 　 　 　 　 　 　 　 　 　 close ( m , θ , n , σ ) 
+ 　 　 close ( m , θ , n , σ ) = 
+ 　 　 　 　 　 if 〈 m , n 〉 Visitedthen { 
+ 　 　 　 　 　 　 　 　 　 Visited = { 〈 m , n 〉 } ∪ Visited 
+ 　 　 　 　 　 　 　 　 　 emit ( Xm , n = Vmatch ( m , n ) ) } 
+ 　 　 　 　 　 returnXm , n ( θ , σ ) 
+ 　 　 match ( m , n ) = match γ ( m , n ) ∧ match \ - γ ( n , m ) 
+ 　 　 match τ ( m , n ) = bi 輒 atch ′ τ ( θ i , mi , n ′ ) 
+ 　 　 closeT ( m , θ , n , σ ) = 
+ 　 　 　 　 B = close ( m , θ , n , σ ) 
+ 　 　 　 　 foreachnnl 
+ 　 　 　 　 　 　 if 〈 m , nl 〉 Visited τ , m , nthen { 
+ 　 　 　 　 　 　 　 　 Visited τ , m , n = { 〈 m , nl 〉 } ∪ Visited τ , m , n 
+ 　 　 　 　 　 　 　 　 emit ( Ym , nl = μ close τ ( m , θ , nl , id ) ) } 
+ 　 　 　 　 return ( B ∨ bl ∧ Ym , nl ( id , σ l ) ) 
+ 　 　 match ′ τ ( m , n ) = close τ ( m , θ , n , id ) 
+ 　 　 matchc ! ( m , n ) = bimatch ′ c ! ( θ i , mi , n ) 
+ 　 　 match ′ c ! ( θ , m , n ) = 
+ 　 　 　 　 　 　 foreachnnj 
+ 　 　 　 　 　 　 Bj = close τ ( m , θ , nj , σ j ) 
+ 　 　 foreachnn ′ l 
+ 　 　 　 　 　 　 if 〈 m , n ′ l 〉 Visited θ , c ! e , m , nthen { 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 Visited θ , c ! e , m , n = { 〈 m , n ′ l 〉 } ∪ Visited θ , c ! e , m , n 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 emit ( Y θ , c ! e , m , n ′ l = μ match ′ c ! ( θ , c ! e , m , n ′ l ) } 
+ 　 　 　 　 　 　 return ( bj ∧ e θ = e ′ j σ j ∧ Bj ) ∨ ( b ′ l ∧ Y θ , c ! e , m , n ′ l ( id , σ ′ l ) ) 
+ 　 　 matchc ? ( m , n ) = bimatch ′ c ? ( θ i , x , mi , n ) 
+ 　 　 match ′ c ? ( θ , x , m , n ) = 
+ 　 　 　 　 foreachnnj 
+ 　 　 　 　 　 　 　 　 　 z = newVar ( ) 
+ 　 　 　 　 　 　 　 　 　 B ′ j = close τ ( m , θ ［ x | → z ］ , nj , σ j ［ y | → z ］ ) 
+ 　 　 　 　 　 　 　 　 　 Bj = B ′ j 
+ 　 　 　 　 foreachnn ′ l 
+ 　 　 　 　 　 　 　 　 　 if 〈 m , n ′ l 〉 Visitedc ? x , m , nthen { 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 Visitedc ! x , m , n = { 〈 m , n ′ l 〉 } ∪ Visited θ , c ? x , m , n 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 emit ( Yc ? x , m , nl = μ match ′ c ? ( θ , x , m , n ′ l ) } 
+ 　 　 return ( ( bj ∧ Bj ) ∨ ( b ′ l ∧ Yc ? x , m , n ′ l ( id , σ ′ l ) ) ) 
+ 　 　 预备 定理 2.1 . 设 η 是 E1 相对 于 ζ 的 最小 解 ， 若 ‖ YM , n ( , ) ‖ ［ / , / ］ , ζ { η } = true ， M 形如 m 或 θ , c ! e , m 或 c ? x , m , 0 = ［ / y ］ ， 则 存在 n ′ , , 和 E1 中等 式 
+ YM , n ′ ( , ) = Φ ′ ∨ ( bl ∧ YM , nl ( , l ) ) , 
+ 使得 n ［ 0 / 1 ］ n ′ ［ / ］ , 且 ‖ Φ ‖ ［ / , / ］ , ζ { η } = true . 
+ 　 　 证明 ： 以 M ≡ m 为例 ， 其余 情形 类似 . 由题 设 条件 和 预备 定理 1.1 ， 有 lj , 0 ≤ j < k , k ≥ 0 , nl0 = n 和 E1 中等 式 
+ 
+ 满足 lj ∈ jlj - 1 , j ≥ 1 , 
+ blj ［ lj / lj ］ = true , 
+ η ( Ym , nlj ) ( , lj ) = true , 
+ ‖ Φ lk ‖ ［ / , lk / lk ］ , ζ { η } = true , 
+ l0 = , lj = lj ［ lj - 1 / lj - 1 ］ . 又 由 函数 close τ 知 , 
+ 
+ 所以 , nl0 ［ / , / ］ nl1 ［ / , l1 / l1 ］ ... nlk ［ / , lk / lk ］ . 令 n ′ = nlk , = lk , = lk , Φ ′ = Φ lk 即得 所欲 证 . 
+ 　 　 定理 2.1 . 设 E2 μ E1 是 由 算法 1 产生 的 嵌套 谓词 等式 系 ， ζ 是 E2 μ E1 的 解 . ζ ( Xm , n ) ( , ) = true 当且 仅 当 m ［ / ］ ～ n ［ / ］ , 其中 , 分别 是 m 和 n 的 自由 变量 . 
+ 　 　 证明 ： ( ) 令 S = { ( m ［ / ］ , n ［ / ］ ) | ζ ( Xm , n ) ( , ) = true } ， 往证 S 是 弱互 模拟 . 设 ( m ［ / ］ , n ［ / ］ ) ∈ S , 则 ζ ( Xm , n ) ( , ) = ‖ Φ m , n ‖ ［ / , / ］ , η { ζ } = true , 这里 , η 是 E1 相对 于 ［ / , / ］ 和 ζ 的 最小 解 . 分别 考虑 从 m ［ / ］ 出发 的 3 种 迁移 . 
+ 　 　 ( 1 ) , 则 有 边 满足 bi ［ / ］ = true , ( ei θ i ) ［ / ］ = v , mi = m . Φ m , n 含一 合取 项 bi Φ i . 由 bi ［ / ］ = true 得 ‖ Φ i ‖ ［ / , / ］ , η { ζ } = true . Φ i 形如 ( b ′ j ∧ ei θ i = e ′ j σ j ∧ Bj ) ∨ ( b ″ l ∧ Y θ i , c ! ei , mi , nl ( , l ) ) . 
+ 　 　 ( 1.1 ) 若有 j , ‖ b ′ j ∧ ei θ j = e ′ j σ j ∧ Bj ‖ ［ / , / ］ , η { ζ } = true , 则 有 边 nnj = σ [ j : = j ] , 且 b ′ j ［ / ］ = true , ( e ′ j σ j ) ［ / ］ = ( ei θ i ) ［ / ］ = v . 从而 n ［ / ］ nj ［ j / j ］ , j = j ［ / ］ , 同时 , ‖ Bj ‖ ［ / , / ］ , η { ζ } = true . Bj 形如 Xmj , nj ( i , j ) ∨ ( bl ∧ Ymi , nl ( , l ) ) . 记 θ i = ［ i : = i ］ , i = ［ / 

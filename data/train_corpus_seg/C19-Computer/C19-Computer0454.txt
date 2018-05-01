@@ -1,0 +1,84 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 2000 　 Vol.26 　 No.1 　 P.132 - 135 
+ 
+ 
+ 
+ 广义 不 确定 系统 鲁棒 稳定性 及鲁棒 镇定 的 矩阵 不等式 方法 
+ 徐胜元 杨成 梧 
+ 摘要 考虑 广义 不 确定 系统 的 鲁棒 稳定性 及鲁棒 镇定 问题 . 提出 了 广义 不 确定 系统 ‘ 广义 二次 稳定 ’ 及 ‘ 广义 二次 可 镇定 ’ 的 概念 , 利用 矩阵 不等式 , 分别 得到 了 所 考虑 广义 不 确定 系统 广义 二次 稳定 及 广义 二次 可 镇定 的 充要条件 ， 而且 , 使 广义 不 确定 系统 鲁棒 镇定 的 状态 反馈 控制 律 的 设计 可 通过 求解 一 给定 的 矩阵 不等式 而 得到 . 
+ 关键词 广义 不 确定 系统 , 广义 二次 稳定 , 广义 二次 可 镇定 , 矩阵 不等式 . 
+ AMATRIXINEQUALITIESAPPROACHTOTHEROBUST 
+ STABILITYANDROBUSTSTABILIZATIONFORUNCERTAINGENERALIZEDSYSTEMS 
+ XUShengyuanYANGChengwu 
+ ( SchoolofPowerEngineering , NanjingUniversityofScienceandTechnology , Nanjing210094 ) 
+ AbstractInthispaper , theproblemsofrobuststabilityandrobuststabilizationforuncertaingeneralizedsystemsareconsidered . Theconceptsof ‘ generalizedquadraticstability ' and ‘ generalizedquadraticstabilizability ' foruncertaingeneralizedsystemsareproposed . Intermsofmatrixinequalities , necessaryandsufficientconditionsunderwhichtheconsideredsystemisrobustlystableandrobustlystabilizablearederivedrespectively . Furthermore , therobuststabilizingstatefeedbackcontrollawcanbedesignedbyfindingasolutiontoagivenmatrixinequality . 
+ KeywordsUncertaingeneralizedsystems , generalizedquadraticstability , genera 瞝 izedquadraticstabilization , matrixinequalities . 
+ 1 引言 
+ 　 　 自 Rosenbrock 于 1974 年 首次 提出 广义 系统 的 概念 以来 ［ 1 ］ , 广义 系统 理论 的 研究 已 取得 了 长足 的 进展 , 许多 有关 正常 系统 的 结论 被 相继 成功 地 推广 到 了 广义 系统 ［ 2 ～ 5 ］ ; 考虑 到 实际 系统 在 多种 因素 作用 下 其 不确定性 是 始终 存在 的 ， 因此 ， 文 ［ 6 , 7 ］ 讨论 了 广义 不 确定 系统 的 鲁棒 稳定性 及 鲁棒控制 问题 ， 利用 模 矩阵 的 有关 性质 ， 得到 了 使 所 考虑 系统 鲁棒 稳定 的 摄动 的 最大 上 界 , 并 在 此基础 上 ， 给出 了 鲁棒控制 的 有关 结论 ; 文 ［ 8 ］ 考虑 了 具 单向 摄动 的 广义 系统 的 鲁棒 稳定性 ， 得到 了 使 此类 广义 系统 鲁棒 稳定 的 摄动 的 精确 界 ; 但 相对 正常 系统 来说 ， 广义 不 确定 系统 鲁棒 稳定 及鲁棒 镇定 方面 的 研究 结果 还 较 少 . 
+ 　 　 本文 针对 广义 不 确定 系统 , 提出 了 ‘ 广义 二次 稳定 ' 及 ‘ 广义 二次 可 镇定 ' 的 概念 , 广义 二次 稳定 及 广义 二次 可 镇定 分别 保证 广义 不 确定 自治 系统 及 由 状态 反馈作用 下 的 闭环 系统 正则 , 无 脉冲 且 稳定 . 分析表明 ， 这 两个 概念 分别 是 正常 系统 中 ‘ 二次 稳定 ' 及 ‘ 二次 可 镇定 ' 概念 的 推广 . 本文 利用 矩阵 不等式 ， 得到 了 所 考虑 广义 不 确定 系统 广义 二次 稳定 及 广义 二次 可 镇定 的 充要条件 ， 而且 , 使 广义 不 确定 系统 鲁棒 镇定 的 状态 反馈 控制 律 的 设计 可 通过 求解 一 给定 的 矩阵 不等式 而 得到 . 
+ 2 系统 描述 与 定义 
+ 　 　 考虑 具有 如下 形式 的 广义 不 确定 系统 
+ 　 ( 1 ) 
+ x ( t ) ∈ Rn , u ( t ) ∈ Rm 分别 是 系统 的 状态 及 输入 ； E ∈ Rn × n 且 rankE = r ≤ n ； A , B 是 已知 的 适维阵 ， Δ A ( t ) , Δ B ( t ) , 分别 表示 相应 的 时变 不 确定 阵 ， 且 具 如下 形式 
+ ［ Δ A ( t ) Δ B ( t ) ］ = DF ( t ) ［ EaEb ］ , 　 ( 2 ) 
+ 其中 F ( t ) ∈ Rj × k 是 未知 的 解析 阵且 满足 
+ FT ( t ) F ( t ) ≤ 1 . 　 ( 3 ) 
+ 对 所有 的 t ∈ R 都 成立 . 这里 I 是 n × n 单位 阵 ， D , Ea 和 Eb 是 已知 的 适维阵 . 
+ 　 　 注 1 . 由 ( 2 ) 式 所 表示 的 不确定性 具 一般性 , 在 正常 系统 中 已 得到 广泛 讨论 ［ 9 , 10 ］ ， 但 对 具 此种 不确定性 的 广义 系统 的 讨论 还 较 少 . 
+ 　 　 由于 rank 獷 = r ≤ n , 故 不失 一般性 ， 可 假设 E 具有 以下 形式 ［ 4 ］ 
+ 　 ( 4 ) 
+ 其中 Ir 是 r × r 单位 阵 . 
+ 　 　 定义 1 . 若 存在 常数 阵 P 及 正定 阵 Q 使得 广义 不 确定 系统 ( 1 ) 的 自治 系统 ( 即 u ( t ) ≡ 0 ) 满足 , 
+ 　 ( 5 ) 
+ 对 所有 形 如 ( 2 ) ， ( 3 ) 的 Δ A ( t ) 成立 , 则 称 广义 不 确定 系统 ( 1 ) 是 广义 二次 稳定 的 . 这里 A0 ( t ) = A + Δ A ( t ) , P 具有 以下 形式 
+ 　 ( 6 ) 
+ 其中 且 P1 > 0 ， P3 可逆 . 
+ 　 　 引理 1 . 若 广义 不 确定 系统 ( 1 ) 是 广义 二次 稳定 的 , 则 ( 1 ) 的 自治 系统 正则 , 无 脉冲 且 稳定 . 
+ 　 　 证明 . 注意 到 定义 1 中 有关 矩阵 的 表示 并 利用 文 ［ 4 ］ 中 的 结论 即可 得证 . 
+ 　 　 定义 2 . 若 存在 状态 反馈 控制 律 u ( t ) = Fx ( t ) , F ∈ Rm × n , 将 其 作用 于 广义 不 确定 系统 ( 1 ) 后 所得 的 闭环 系统 广义 二次 稳定 ， 则 称 ( 1 ) 是 广义 二次 可 镇定 的 . 
+ 　 　 注 2 . 当 广义 不 确定 系统 ( 1 ) 中 E = I 时 ， 式 ( 1 ) 即 成为 正常 不 确定 系统 ； 对 定义 1 来说 ， 此时 由式 ( 6 ) 所 给出 的 P 中 ， P2 与 P3 将 不 存在 ， 从而 P 为 一 正定 阵 ， 于是 定义 1 即为 正常 系统 中 所谓 的 ‘ 二次 稳定 ’ 的 概念 ； 而 定义 2 即为 ‘ 二次 可 镇定 ’ 的 概念 ［ 9 ～ 10 ］ . 因此 ， 定义 1 及 定义 2 可 看成 是 ‘ 二次 稳定 ’ 及 ‘ 二次 可 镇定 ’ 的 概念 向 广义 系统 的 合理 推广 . 
+ 3 主要 结论 
+ 　 　 定理 1 . 广义 不 确定 系统 ( 1 ) 鲁棒 稳定 的 充要条件 是 存在 如下 形式 的 矩阵 S ∈ Rn × n , 
+ 　 ( 7 ) 
+ 式 中 可逆 ， 使得 矩阵 不等式 
+ 　 ( 8 ) 
+ 成立 . 这里 Ik × k 及 Ij × j 分别 为 k × k 及 j × j 的 单位 阵 . 
+ 　 　 证明 . 
+ 　 　 充分性 . 假设 具有 形 如 ( 7 ) 的 矩阵 S 使 ( 8 ) 成立 , 则 由 Schur 补 引理 得 
+ 　 ( 9 ) 
+ И Ф ㄒ 錠 = S - T 并 注意 到 S 具有 ( 7 ) 式 的 形式 , 则 易得 V 具有 ( 6 ) 式 的 形式 . 另一方面 , 由 ( 9 ) 式 得 
+ 　 ( 10 ) 
+ 令 A0 ( t ) = A + Δ A ( t ) , 则 不难 验证 
+ 　 ( 11 ) 
+ 成立 . 于是 由式 ( 10 ) ， ( 11 ) 及 定义 1 即得 广义 不 确定 系统 ( 1 ) 是 广义 二次 稳定 的 . 
+ 　 　 　 必要性 . 证明 类似 于文 ［ 10 ］ , 略 . 
+ 　 　 　 假设 1 玶 ankEb = m . 
+ 　 　 　 定理 2 . 考虑 广义 不 确定 系统 ( 1 ) ， 其 不 确定 参数 满足 ( 2 ) ， ( 3 ) 及 假设 1 ， 则 ( 1 ) 式 广义 二次 可 镇定 的 充要条件 是 存在 形 如 ( 7 ) 的 矩阵 S ∈ Rn × n 使得 矩阵 不等式 
+ 
+ 成立 . 其中 而且 ， 在 此 情形 下 ， 使 ( 1 ) 式 
+ 鲁棒 镇定 的 状态 反馈 控制 律 可取 为 
+ 
+ 　 　 证明 . 注意 到 I - Eb ( ETbEb ) - 1ETb ≥ 0 , 因此 存在 U ∈ Rk × k 使得 
+ UTU = I - Eb ( ETbEb ) - 1ETb , 
+ 于是 类似 于 定理 1 及文 ［ 10 ］ 中 定理 2.3 的 证明 即可 得证 . 
+ 　 　 注 3 . 注意 到 E = I 时 , 定理 2 与 文 ［ 10 ］ 中 的 定理 2.3 一致 , 因此 ， 这里 的 主要 结论 可 看成 是 正常 不 确定 系统 有关 二次 稳定 及 二次 可 镇定 结论 向 广义 不 确定 系统 的 推广 . 
+ 4 结论 
+ 　 　 本文 针对 广义 不 确定 系统 提出 了 ‘ 广义 二次 稳定 ’ 及 ‘ 广义 二次 可 镇定 ' 的 概念 , 得到 了 所 考虑 系统 广义 二次 稳定 及 广义 二次 可 镇定 的 充要条件 ; 分析表明 广义 二次 稳定 及 广义 二次 可 镇定 是 正常 系统 中 二次 稳定 及 二次 可 镇定 概念 向 广义 系统 的 推广 ； 而且 ， 使 广义 不 确定 系统 鲁棒 镇定 的 状态 反馈 控制 律 的 设计 可 通过 求解 一 给定 的 矩阵 不等式 而 得到 ; 进一步 的 工作 是 研究 在 输出 反馈作用 下 不 确定 广义 系统 的 鲁棒 镇定 问题 以及 当 假设 1 不 满足 时 寻求 广义 二次 可 镇定 的 条件 . 
+ 南京 理工大学 科研 发展 基金 资助 项目 
+ 徐胜元 1968 年生 . 现为 南京 理工大学 博士 研究生 . 主要 研究 方向 为 广义 系统 , 鲁棒控制 和 自 适应控制 . 
+ 杨成 梧 1936 年生 . 1961 年 毕业 于 哈尔滨军事工程学院 , 现为 南京 理工大学 教授 , 博士生 导师 . 主要 研究 方向 为 2D 系统 , 广义 系统 , 高速 采样 控制 , H ∞ 控制 和 离散 事件 动态 系统 . 
+ 徐胜元 ( 南京 理工大学 动力 工程学院 南京 210094 ) 
+ 杨成 梧 ( 南京 理工大学 动力 工程学院 南京 210094 ) 
+ 参考文献 
+ 1 ， RosenbrockHH . Structuralpropertiesoflineardynamicalsystems . 獻 nt . J . Contr . , 1974 , 20 ( 2 ) : 191 ～ 202 
+ 2 ， VergheseG , LevyBC , Kailaith , T . Ageneralizedstate 瞫 paceforsingularsystems . 獻 EEETransactionsonAutomaticControl , 1981 , 26 ( 4 ) : 811 ～ 831 
+ 3 ， DaiL . SingularControlSystems . LectureNotesinControlandInformationSciences : Vol118 . Berlin : Springer 睼 erlag , 1989 
+ 4 ， WangY , FrankPM , ClementsDJ . Therobustnesspropertiesofthelinearquadraticregulatorsforsingularsystems . 獻 EEETransactionsonAutomaticControl , 1993 , 38 ( 1 ) : 96 ～ 100 
+ 5 ， WangC . Statefeedbackimpulseeliminationoflineartime 瞯 aryingsingularsystems . 獳 utomatica , 1996 , 32 ( 1 ) : 133 ～ 136 
+ 6 ， FangC , ChangF . Analysisofstabilityrobustnessforgeneralizedstatespacesystemswithstructuredperturbations . 玈 ystemsandControlLetters , 1993 , 21 ( 2 ) : 109 ～ 114 
+ 7 ， FangC , LeeL , ChangFR . Robustcontrolanalysisanddesignfordiscrete 瞭 imesingularsystems . 獳 utomatica , 1994 , 30 ( 11 ) : 1741 ～ 1750 
+ 8 ， LeeL , FangC , HsiehJ . Exactunidirectionalperturbationboundsforrobustnessofuncertaingeneralizedstate 瞫 pacesystems : continuous 瞭 imecases . Automatica , 1997 , 33 ( 10 ) : 1923 ～ 1927 
+ 9 ， PetersenIR . Astabilizationalgorithmforaclassofuncertainlinearsystems . 玈 ystemsandControlLetters , 1987 , 8 : 351 ～ 357 
+ 10 ， KhargonekarPP , PetersenIR , ZhouK . Robuststabilizationofuncertainlinearsystems : quadraticstabilizabilityandH ∞ controltheory . IEEETransactionsonAutomaticControl , 1990 , 35 ( 3 ) : 356 ～ 361 
+ 收稿 日期 1998 - 04 - 07 收 修改稿 日期 1999 - 05 - 12 

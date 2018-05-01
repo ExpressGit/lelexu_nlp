@@ -1,0 +1,104 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 　 第 23 卷 　 第 6 期 　 Vol.23 　 No.6 　 1997 
+ 
+ 
+ 
+ 
+ 非线性 系统 的 一种 加权 自 适应控制 方法 1 ) 
+ 许 向阳 　 祝和云 
+ 　 　 关键词 　 自 适应控制 ， 非线性 系统 ， 间隙 非线性 . 
+ AKINDOFWEIGHTEDADAPTIVECONTROLFOR 
+ NONLINEARSYSTEMS 
+ XUXIANGYANG 　 　 ZHUHEYUN 
+ ( InstituteofIndustrialProcessControl , ZhejiangUniversity , Hangzhou310027 ) 
+ Keywords 　 Adaptivecontrol , nonlinearsystems , backlashnonlinearity . 
+ 1 　 引 　 言 
+ 　 　 由于 非线性 系统 的 多样性 ， 不能 用 统一 的 模型 表达 所有 非线性 系统 ， 对 其 自 适应控制 的 研究 也 就 随 不同 的 模型 、 系统 而 各不相同 . 如 文献 ［ 1 ］ 是 针对 Hammerstain 模型 而 讨论 的 ； 文献 ［ 2 ， 3 ］ 则 分别 讨论 了 分段 线性 和 预 负载 非线性 系统 ； 文献 ［ 5 ］ 给 间隙 非线性 系统 建立 了 加权 自 适应控制 ； 文献 ［ 4 ， 6 ］ 在 控制 方法 的 通用性 上作 了 努力 ， 但 所建 的 模型 带有 种种 假设 ， 其 通用性 自然 是 受到限制 的 . 
+ 　 　 以上 文献 中 的 非线性 系统 模型 都 有 一个 特点 ， 即 在 线性 模型 前加 一 非线性 前缀 . 假如 非线性 部分 中 也 含有 未知 参数 ， 那么 该 模型 所 代表 的 通用性 是 较广 的 . 本文 就 这 一类 模型 提出 一种 加权 自 适应控制 方法 ， 并 针对 未知 间隙 宽度 的 间隙 非线性 系统 进行 讨论 . 
+ 2 　 一种 自 适应控制 方法 
+ 　 　 图 1 所示 系统 为 线性 部分 加 非线性 前缀 Π ( h ( t ) , u ( t ) , t ) ， 其中 h ( t ) 为 非线性 部分 中 与 u ( t ) 和 x ( t ) 都 有关 的 变量 ， 在 文献 ［ 1 — 5 ］ 中 一般 为 建模 时 参入 的 开关 量 . 
+ 
+ 图 1 
+ 　 　 在 许多 非线性 模型 中 ， 其较 难 处理 的 原因 在于 x ( t ) 的 值 不仅 与 u ( t ) 有关 ， 还 与 h ( t ) 有关 ， 而 h ( t ) 又 不由 u ( t ) 唯一 确定 ， 因此 并 不能 根据 u ( t ) 值 直接 得到 x ( t ) 或 唯一 确定 x ( t ) . 相反 ， 当 x ( t ) 已知 后 ， 往往 能 确定 u ( t ) 的 值 ， 并 能 同时 确定 h ( t ) 的 值 . 除 饱和 非线性 外 ， 在 大多数 非线性 环节 中有 u ( t ) 有界 趚 ( t ) 有界 . 因此 ， 加权 自 适应控制 的 指标 
+ J = E ｛ ［ P ( q - 1 ) y ( t + d ) - R ( q - 1 ) yr ( t + d ) + Q ( q - 1 ) u ( t ) ］ 2 ｝ 　 　 　 　 　 　 　 ( 1 ) 
+ 中 u ( t ) 的 限幅 即 是 对 x ( t ) 的 限幅 . 将 J 式 改写 为 
+ J = E ｛ ［ P ( q - 1 ) y ( t + d ) - R ( q - 1 ) yr ( t + d ) + Q ( q - 1 ) x ( t ) ］ 2 ｝ , 　 　 　 　 　 　 　 ( 2 ) 
+ 即将 对 u ( t ) 的 限幅 换为 对 x ( t ) 的 限幅 . 这样 ， 即使 是 饱和 非线性 系统 ， 也 可 通过 加强 x ( t ) 的 权 系数 使 其 落于 饱和 区内 . 于是 确立 了 如下 的 自 适应控制 方法 ： 
+ 　 　 1 ) 控制 律 由 ( 2 ) 式 推导 ， 求取 x ( t ) 的 值 ， 再 由 x ( t ) 求取 u ( t ) 和 h ( t ) ； 
+ 　 　 2 ) 由 y ( t ) , u ( t ) 和 h ( t ) 辨识 过程 参数 ， 包括 线性 部分 和 非线性 部分 . 
+ 3 　 间隙 非线性 系统 
+ 　 　 如图 2 所示 间隙 非线性 系统 ， 其 方程 为 
+ A ( q - 1 ) y ( t ) = q - dB ( q - 1 ) x ( t ) + C ( q - 1 ) ω ( t ) , 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ x ( t ) = k ［ u ( t ) - Dsgn ( t ) ］ . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 
+ 图 2 
+ 其中 k ＞ 0 , D ＜ ∞ ； 
+ 　 　 　 　 　 　 　 　 ( 5 ) 
+ A ( q - 1 ) = 1 + a1q - 1 + … + anq - n ; B ( q - 1 ) = b0 + b1q - 1 + … + bmq - m ; C ( q - 1 ) = 1 + c1q - 1 + … + clq - l ; 
+ d 是 系统 时延 ， k 和 D 分别 为 间隙 非线性 的 斜率 和 间隙 宽度 . 
+ 　 　 扰动 序列 ｛ ω ( t ) ｝ 是 定义 在 概率 空间 ｛ Ω , A , P ｝ 上 的 实 随机 过程 ， 适应 于 递增 σ - 代数 ｛ t - 1t ∈ N ｝ . 假设 
+ 　 　 A1 ) 　 E ｛ ω ( t ) / t - 1 ｝ = 0 , a . s . ; 
+ 　 　 A2 ) 　 E ｛ ω 2 ( t ) / t - 1 ｝ = σ 2 , a . s . ; 
+ 　 　 A3 ) 　 ( t ) ＜ ∞ , a . s .. 
+ 　 　 此外 ， 对系统 假设 
+ 　 　 A4 ) 　 d 和 k 已知 ； 
+ 　 　 A5 ) 　 n , m 和 l 的 上界 已知 ； 
+ 　 　 A6 ) 　 C ( q - 1 ) 为 稳定 的 多项式 . 
+ 　 　 取 性能指标 为 
+ J = E ｛ ［ P ( q - 1 ) y ( t + d ) - R ( q - 1 ) yr ( t + d ) + Q ( q - 1 ) x ( t ) ］ 2 / t ｝ . 　 　 　 　 　 　 ( 6 ) 
+ 4 　 自 适应 控制算法 
+ 　 　 定义 Ψ ( t ) = P ( q - 1 ) y ( t ) , 记 Ψ ( t ) 的 最优 预报 为 ( t ) = Ψ ( t ) - v ( t ) , v ( t ) = F ( q - 1 ) ω ( t ) . 
+ 　 　 由 等式 P ( q - 1 ) C ( q - 1 ) = F ( q - 1 ) A ( q - 1 ) + q - dG ( q - 1 ) 和 1 = E ( q - 1 ) C ( q - 1 ) + q - dO ( q - 1 ) ［ 6 ］ 及 ( 3 ) ， ( 4 ) 式 可 推得 
+ 　 Ψ ( t + d ) = α ( q - 1 ) y ( t ) + k β ( q - 1 ) u ( t ) - k β ( q - 1 ) Dsgn ( t ) + O ( q - 1 ) ( t ) + F ( q - 1 ) ω ( t + d ) 
+ 　 　 　 　 　 　 = α ( q - 1 ) y ( t ) + S ( q - 1 ) u ( t ) + L ( q - 1 ) sgn ( t ) + O ( q - 1 ) ( t ) + F ( q - 1 ) ω ( t + d ) , 　 　 ( 7 ) 
+ 其中 α ( q - 1 ) = E ( q - 1 ) G ( q - 1 ) , β ( q - 1 ) = E ( q - 1 ) F ( q - 1 ) B ( q - 1 ) , β 0 = b0 ≠ 0 . 
+ 　 　 记 deg ［ α ( q - 1 ) ］ = n1 , deg ［ β ( q - 1 ) ］ = n2 , deg ［ O ( q - 1 ) ］ = n3 , 则 n1 = n + d - 2 , n2 = m + 2d - 2 , n3 = 
+ l - 1 , 
+ S ( q - 1 ) = k β ( q - 1 ) = s0 + s1q - 1 + … + sn2q - n2 , 　 　 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ L ( q - 1 ) = - k β ( q - 1 ) D = l0 + l1q - 1 + … + ln2q - n2 . 　 　 　 　 　 　 　 　 　 　 ( 9 ) 
+ 由此 推 得 控制 律为 
+ ( 10 ) 
+ 　 　 采用 递推 最小 二乘 辨识 方法 
+ ( 11 ) 
+ 　 　 　 　 　 　 ( 12 ) 
+ 　 　 　 　 　 ( 13 ) 
+ 　 　 　 　 　 　 ( 14 ) 
+ 其中 ( t ) 为 Ψ ( t ) 的 验后 预报 ， 定义 为 ( t ) = Φ T ( t - d ) ( t ) . 
+ 　 　 由上 可得 D ， b0 和 β ( q - 1 ) 的 估计 
+ 
+ 由 控制 律先 求取 x ( t ) , 而后 由 x ( t ) 求 u ( t ) 和 sgn ( t ) 
+ 　 ( 15 ) 
+ 　 　 定义 . e ( t ) Ψ ( t ) - Φ T ( t - d ) ( t - 1 ) , η ( t ) Ψ ( t ) - ( t ) = Ψ ( t ) - Φ T ( t - d ) ( t ) , z ( t ) η ( t ) - v ( t ) , z ′ ( t ) e ( t ) - v ( t ) , r ( t ) = r ( t - 1 ) + Φ T ( t - d ) Φ ( t - d ) . 
+ 　 　 并 假设 
+ 　 　 引理 . 若 假设 A1 ) — A7 ) 成立 ， 且 严格 正实 ， 则 递推 最小 二乘 方法 具有 如下 性质 ： 
+ 　 　 L1 ) ‖ ( t ) ‖ ≤ M ＜ ∞ , t , 　 a . s . ; 
+ 　 　 L2 ) , ξ ( t - d ) = Φ T ( t - d ) P ( t - 1 ) Φ ( t - d ) , ｜ 1 + ξ ( t - d ) ｜ ≤ M ＜ ∞ ; 
+ 　 　 L3 ) , 　 a . s . ; 
+ 　 　 L4 ) 当且 仅 当 , a . s . 时 , a . s . ; 
+ 　 　 L5 ) , a . s .. 
+ 证明 与 文献 ［ 7 ］ 类似 ， 从略 . 
+ 　 　 定理 . 若 假设 A1 ) — A7 ) 成立 ， 且 严格 正实 ， 选择 加权 多项式 P ( q - 1 ) 和 Q ( q - 1 ) , 使 G2 ( q - 1 ) = B ( q - 1 ) P ( q - 1 ) + Q ( q - 1 ) A ( q - 1 ) 稳定 ， 则 以上 算法 所 形成 的 整个 控制系统 有 以下 性质 ： 
+ 　 　 
+ 　 　 
+ 　 　 
+ 　 　 T4 ) E ｛ ［ P ( q - 1 ) y ( t ) - R ( q - 1 ) yr ( t ) + Q ( q - 1 ) x ( t - d ) ］ 2 / t - d ｝ = r2 , a . s . ; ( 设 　 E ｛ v2 ( t ) / t - d ｝ = r2 ) . 
+ 　 　 限于 篇幅 ， 证明 从略 . 
+ 5 　 仿真 
+ 　 　 仿真 所用 实际 模型 y ( t ) = 1.7 y ( t - 1 ) + x ( t - 2 ) + 1.6 x ( t - 3 ) + ω ( t ) + 0.7 ω ( t - 1 ) , 间隙 非线性 部分 k = 1 , D = 1 . 以上 为 开环 不 稳定 的 最小 相位 系统 ， ｛ ω ( t ) ｝ 为 零均 白 噪声 序列 . 
+ 　 　 取 P ( q - 1 ) = 1 , R ( q - 1 ) = 1 , Q ( q - 1 ) = 0.25 - 0.25 q - 1 , ｛ yr ( t ) ｝ 是 幅值 为 5 的 不定 周期 矩形 波 序列 . 仿真 结果 如图 3 所示 . 
+ 
+ 图 3 
+ 　 　 将 图 中 曲线 与 文献 ［ 5 ］ 的 仿真 曲线 比较 ， 可见 控制 效果 较 好 ， 且 本文 算法 更为 直观 、 简便 . 另外 ， 算法 无需 知道 间隙 宽度 D 的 上 限值 ， 也 不必 预知 b0 的 符号 ， 适用 更 多 非线性 过程 . 
+ 　 　 本文 所提 的 加权 自 适应控制 方法 亦 可以 在 其它 非线性 模块 加 线性 模块 的 非线性 系统 中 运用 ， 从而 得到 一种 不同 非线性 模型 的 统一 的 自 适应控制 方法 . 由于 该 方法 能 辨识 非线性 部分 中 的 未知 参数 ， 因而 具有 更广 的 应用 价值 和 通用性 . 
+ 1 ) 　 国家级 工业 控制技术 重点 实验室 资助 课题 . 
+ 作者 单位 ： 浙江大学 工业 控制 研究所 　 杭州 　 310027 
+ 参考文献 
+ ［ 1 ］ 　 AnbumainK , PatnaikLM , SemalG . Self - tuningminimum - variancecontrolofnonlinearsystemsofthehammerstainmodel . IEEETrans . Autom . Control , 1981 , AC - 26959 - 961 . 
+ ［ 2 ］ 　 KungMinchio , WomackBF . Discretetimeadaptivecontroloflineardynamicsystemswithatwo - segmantpiecewise - linearasymmetricnonlinearity . IEEETrans . Autom . Control , 1984 , AC - 29 : 170 - 172 . 
+ ［ 3 ］ 　 KungMinchio , WomackBF . Discretetimeadaptivecontroloflineardynamicsystemswithpreloadnonlinearity . Automatica , 1984 , 20 ( 4 ) : 477 - 479 . 
+ ［ 4 ］ 　 MukulA , SedorgDaleE . Self - tuningcontrollersfornonlinearsystem . Automatica , 1987 , 23 ( 2 ) : 209 - 214 . 
+ ［ 5 ］ 　 韩存武 ， 张 竞新 ， 顾兴源 . 具有 间隙 非线性 系统 的 控制 加权 自 适应控制 . 自动化 学报 ， 1993 ， 19 ( 5 ) ： 535 - 542 . 
+ ［ 6 ］ 　 丁锋 ， 谢新明 ， 方崇智 . 一类 非线性 系统 的 加权 自 适应控制 . 自动化 学报 ， 1993 ， 19 ( 4 ) ： 458 - 461 
+ ［ 7 ］ 　 GoodwinGC , 　 SinKS . AdaptiveFilteringPredictionandControl , 1984 . 
+ 收稿 日期 　 1995 - 03 - 07 

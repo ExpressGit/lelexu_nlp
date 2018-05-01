@@ -1,0 +1,173 @@
+环境 科学 学报 
+ ACTA 　 SCIENTIAE 　 CIRCUMSTANTIAE 
+ 1998 年 2 月 第 18 卷 第 2 期 科技期刊 
+ 应用 分段 烟羽 模式 估算 秦山 核电厂 ( 二期 ) 
+ 设计 基准 事故 概率 后果 
+ 胡二邦 　 高占荣 
+ ( 中国 辐射 防护 研究院 ， 太原 　 030006 ) 
+ 
+ 摘要 　 采用 天气 取样 技术 和 分段 烟羽 模式 估算 了 秦山 核电厂 二期工程 ( 2 × 600MW ) 一旦 发生 设计 基准 事故 ， 在 半径 80km 评价 区内 可能 造成 的 事故 概率 后果 . 天气 取样 采用 分层 取样 技术 ， 根据 秦山 二期 厂址 百米 气象 铁塔 一年 逐时 气象观测 数据 获取 . 持续时间 长达 30 天 的 事故 释放 采用 分段 烟羽 模式 由 5 个 不同 持续时间 、 不同 释放 量 的 烟段 模拟 ； 应用 有效 扩散 参数 概念 以 描述 大气 稳定度 变化 对 扩散 参数 的 影响 ， 扩散 参数 采用 厂址 实测值 . 计算 了 每次 事故 释放 通过 浸没 外 照射 、 吸入 、 地面 干 、 湿 沉积 外 照射 等 照射 途径 造成 的 剂量 ， 也 估算 了 集体 剂量 . 最终 估算 了 每次 事故 释放 在 评价 区内 可能 造成 的 集体 剂量 及 其余 补 累积 频率 分布 CCFD 曲线 . 结果表明 ， 秦山 二期工程 中 某 一个 堆 一旦 发生 失水 事故 ， 其 集体 剂量 等于 或 大于 18 人 * Sv ( 累积 概率 水平 为 95% ) 或 等于 、 大于 25 人 * Sv ( 累积 概率 水平 为 50% ) . 
+ 关键词 　 　 秦山 核电厂 ； 天气 取样 技术 ； 分段 烟羽 模式 ； 设计 基准 事故 ； 集体 剂量 ； 余补 累积 频率 分布 . 
+ APROBABILITYCONSEQUENCEESTIMATIONOFDESIGNBASIC 
+ ACCIDENTFORQINSHANNUCLEARPOWERSTATIONPLANT 
+ ( 2 × 600MW ) USINGSEGMENTMETHOD 
+ 
+ HuErbang , GaoZhanrong 
+ ( ChinaInstituteforRadiatinProtection , Taiyuan030006 ) 
+ 
+ ABSTRACT 　 Theprobabilityconsequenceofaccidentwithinanassessmentareawithradius80kmcausedbyaDesignBasicAccident ( DBA ) forQinshanNuclearPowerStation ( NPP ) secondstage ( 2 × 600MW ) wasestimatedbyusingaweathersamplingtechniqueandasegmentdiffusionmodel . Basedonhourlymeteorologicalobservationdatafor1yearontheQinshansite , aweathersamplesequenceswasobtainedbyusingstratifiedsamplingtechnique . FivesegmentswithdifferentdurationanddifferentreleaseamountswereadoptedtosimulatethereleaseofDBAwhichwilllastfor30days . 
+ Theconceptofeffectivediffusionparameterwasusedtodescribetheeffectofthestabilitychangesonthediffusionparameterduringplumetransfer . Asetofmeasuredvaluesfordiffusionparameterswereadopted . Thefollowingindividualdoseswereincluded : externaldosefromradionuclidesintheimmersioncloud , internaldoseduetoinhalationofradionuclides , externaldosefromdryandwetdepositedradionuclidesontheground . Thepopulationdosewasalsoestimated . ThecomplementarycumulativefrequencydistributionCCFDofpopulationdosewithinassessmentareacausedbyDBAreleaseisfinallyestimated . TheresultsshowedthatthepopulationdosecausebyDBAfortheQinshanNPP ( 2 × 600MW ) ismorethanorequaltoabout18men . Sv ( 95% cumulativeprobabilitylevel ) orabout25men . Sv ( 50% cumulativeprobabilitylevel ) respectively . 
+ Keywords 　 QinshanNuclearPowerPlant , weathersamplingtechnique , segmentdiffusionmodel , designbasicaccident , populationdose , complementarycumulativefrequencydistribution . 
+ 1 　 引言 
+ 　 　 秦山 核电厂 二期工程 拟建 二个 600MW 的 压水堆 . 它 位于 浙江省 海盐县 杨柳 山 . 位于 其 东北方向 约 1km 的 秦山 核电厂 一期 工程 ( 电功率 为 300MW ) 已于 1991 年底 投入 运行 . 
+ 　 　 目前 ， 在 核电厂 选址 或 设计阶段 环境 评价 报告 中 ， 只是 根据 事故 概率 扩散 因子 ( 各 风向 99.5% 与 全 厂址 95% 概率 扩散 因子 中 的 大者 ) ， 估算 设计 基准 事故 的 个人 与 集体 剂量 ， 不能 很 好 地 反映 源项 的 分段 特征 及 事故 后果 的 概率分布 . 本文 基于 秦山 核电 二期工程 选址 阶段 所 获取 的 百米 气象 铁塔 一年 逐时 气象观测 数据 * ( 1991 — 10 — 31 至 1992 — 10 — 31 ) 和 采用 平衡 球 、 风洞 实验 等 方法 确定 的 厂址 扩散 参数 以及 年 风频 等 实验 数据 ， 尝试 应用 目前 较 先进 的 天气 取样 技术 及 分段 烟羽 模式 ， 估算 了 秦山 核电厂 二期工程 一旦 发生 最大 设计 基准 事故 ， 在 半径 80km 范围 内 可能 造成 的 集体 剂量 的 概率分布 CCFD 曲线 . 
+ 
+ 2 　 事故 源项 
+ 　 　 一般 考虑 失水 事故 ( LOCA ) 为 最 严重 的 设计 基准 事故 ， 表 1 给出 事故 各个 时段 放射性核素 的 释放 量 * * . 
+ 表 1 　 秦山 核电厂 ( 二期 ) 失水 事故 各 时段 核素 释放 量 ( GBq ) 
+ Table1Amountofreleasednuclidesduringdiffusiontime - intervalofLOCAaccident 
+ forQinshanNuclearPowerplant ( Ⅱ stage ) 
+ 
+ 核素 0 — 2h2 — 8h8 — 24h24 — 96h96 — 720h 
+ Kr - 83m8.70 E + 21.57 E + 38.37 E + 11.10 E - 10 
+ Kr - 85m2.27 E + 36.02 E + 32.19 E + 39.58 E + 10 
+ Kr - 831.04 E + 34.18 E + 38.34 E + 31.87 E + 31.58 E + 5 
+ Kr - 873.15 E + 34.74 E + 36.74 E + 100 
+ Kr - 885.68 E + 31.25 E + 31.98 E + 31.91 E + 10 
+ Xe - 131m1.06 E + 24.20 E + 28.14 E + 21.64 E + 36.55 E + 3 
+ Xe - 133m6.00 E + 22.31 E + 33.97 E + 35.31 E + 33.58 E + 3 
+ Xe - 1331.94 E + 47.64 E + 41.43 E + 52.53 E + 54.98 E + 5 
+ Xe - 135m7.05 E + 27.08 E + 2000 
+ Xe - 1354.06 E + 31.31 E + 41.11 E + 42.36 E + 31.04 E + 1 
+ Xe - 1383.30 E + 33.32 E + 3000 
+ I - 1317.17 E + 22.84 E + 35.42 E + 31.04 E + 43.12 E + 4 
+ I - 1327.81 E + 21.57 E + 31.53 E + 26.20 E - 10 
+ I - 1331.43 E + 35.19 E + 37.04 E + 34.58 E + 34.67 E + 2 
+ I - 1348.19 E + 21.03 E + 31.94 E + 000 
+ I - 1351.24 E + 33.75 E + 32.53 E + 32.77 E + 21.60 E - 1 
+ 
+ 
+ 3 　 天气 取样 技术 
+ 　 　 目前 天气 取样 技术 ［ 1 ， 2 ］ 主要 有 下述 3 种 ： 循环 取样 、 随机取样 和 分层 取样 . 前 二种 方法 都 有 下述 缺陷 ， 即 频繁 地 对 经常出现 的 那些 气象 序列 组 取样 而 忽略 了 比较 罕见 ( 可能 也 较 严重 ) 的 天气 序列 . 而 分层 取样 技术 基本上 克服 了 上述 缺陷 . 
+ 　 　 表 2 给出 天气 取样 序列 分类 特征 . 由表 可见 ， 共分 32 组 天气 取样 序列 ， 其中 16 组是 在 事故 发生 后 不同 下 风向 距离 间隔 ( 表中 ( 0 — 10 ) 表示 在 0 — 10km 间隔 ) 中 发生 降雨 事件 ， 另 16 组是 不 发生 降雨 事件 . 表中 降雨 强度 1 、 2 、 3 、 4 分别 指 降雨 强度 为 ＜ 0.5 mm / h 、 0.5 — 2.5 mm / h 、 2.5 — 15.0 mm / h 和 ＞ 15.0 mm / h . 根据 表 2 的 分类 特征 ， 把 秦山 二期 百米 铁塔 一年 的 逐时 气象观测 数据 代入 ， 得到 每 类 天气 序列 出现 次数 及其 频率 . 
+ 　 　 在 确定 32 组 天气 类型 后 ， 采用 拉丁 超 立方 方式 在 每类 天气 中 各 取出 4 个 样本 ， 一共 128 个 天气 序列 样本 . 
+ 　 　 
+ 4 　 大气 扩散 估算 
+ 4.1 　 分段 烟羽 扩散 模式 及其 计算方法 
+ 　 　 采用 分段 烟羽 模式 计算 ［ 2 ］ . 若 事故 释放 持续时间 小于 或 等于 1h ， 则 为 一个 烟段 ， 对于 释放 持续时间 长于 1h 的 事故 ， 则 按 其 核素 释放 速率 的 不同 分成 若干 烟段 . 对于 设计 基准 事故 ， 由表 1 可见 ， 其 释放 速率 共有 5 组 ， 因而 可 分成 5 个 烟段 ， 每个 烟段 相应 的 释放 持续时间 分别 为 Δ t1 = 2h ( 7.20 × 103s ) 、 Δ t2 = 6h ( 即 2 — 8h ， 相当于 2.16 × 104s ) 、 Δ t3 = 16h ( 5.76 × 104s ) 、 Δ t4 = 72h ( 2.95 × 105s ) 、 Δ t5 = 624h ( 2.25 × 106s ) . 
+ 表 2 　 天气 取样 分类 特征 
+ Table2Characteristicsofweathersamplingclassification 
+ 
+ 天气 种类 特 　 　 征 　 　 　 　 天气 种类 特 　 　 征 　 　 　 　 
+ 1A ， B 稳定度 ， 风速 ≤ 3.017 在 ( 0 ， 10 ) 区间 降雨 强度 为 1 
+ 2A ， B 稳定度 ， 风速 ＞ 3.018 在 ( 10 ， 16 ) 区间 降雨 强度 为 1 
+ 3C ， D 稳定度 ， 风速 ≤ 1.019 在 ( 16 ， 24 ) 区间 降雨 强度 为 1 
+ 4C ， D 稳定度 ， 1.0 ＜ 风速 ≤ 2.020 在 ( 24 ， 32 ) 区间 降雨 强度 为 1 
+ 5C ， D 稳定度 ， 2.0 ＜ 风速 ≤ 3.021 在 ( 0 ， 10 ) 区间 降雨 强度 为 2 
+ 6C ， D 稳定度 ， 3.0 ＜ 风速 ≤ 5.022 在 ( 10 ， 16 ) 区间 降雨 强度 为 2 
+ 7C ， D 稳定度 ， 5.0 ＜ 风速 ≤ 7.023 在 ( 16 ， 24 ) 区间 降雨 强度 为 2 
+ 8C ， D 稳定度 ， 风速 ＞ 7.024 在 ( 24 ， 32 ) 区间 降雨 强度 为 2 
+ 9E 稳定度 ， 风速 ≤ 1.025 在 ( 0 ， 10 ) 区间 降雨 强度 为 3 
+ 10E 稳定度 ， 1.0 ＜ 风速 ≤ 2.026 在 ( 10 ， 16 ) 区间 降雨 强度 为 3 
+ 11E 稳定度 ， 2.0 ＜ 风速 ≤ 3.027 在 ( 16 ， 24 ) 区间 降雨 强度 为 3 
+ 12E 稳定度 ， 风速 ＞ 3.028 在 ( 24 ， 32 ) 区间 降雨 强度 为 3 
+ 13F 稳定度 ， 风速 ≤ 1.029 在 ( 0 ， 10 ) 区间 降雨 强度 为 4 
+ 14F 稳定度 ， 1.0 ＜ 风速 ≤ 2.030 在 ( 10 ， 16 ) 区间 降雨 强度 为 4 
+ 15F 稳定度 ， 2.0 ＜ 风速 ≤ 3.031 在 ( 16 ， 24 ) 区间 降雨 强度 为 4 
+ 16F 稳定度 ， 风速 ＞ 3.032 在 ( 24 ， 32 ) 区间 降雨 强度 为 4 
+ 
+ 　 　 考虑 到 烟囱 高度 只 略高于 安全壳 高度 ( 秦山 二期 烟囱 高度 为 62.5 m ， 安全壳 高度 为 60m ) ， 作为 偏 保守 考虑 ， 每 一个 烟段 在 下风 方向 造成 的 污染 采用 下述 地面 源 事故 扩散 因子 公式 描述 ： 
+ 
+ ( 1 ) 
+ 　 　 当 xL ＜ x ＜ 2xL ， 线性 内 插 . 
+ 
+ 　 　 式 中 ， Σ y 、 Σ z 为 考虑 建筑物 ( 这里 为 安全壳 ) 影响 后 的 横向 与 垂直 向 扩散 参数 ， 由 下述 两 式 给出 ； Lj 为 j 类 稳定度 的 混合 层 高度 ， 由声 雷达 及 低 探 实验 测 得 ， 秦山 二期 厂址 Lj 的 实测值 如下 ： A 、 B 、 C 类 的 Lj = 600m , D 类 的 Lj = 450m . xL 表示 烟羽 上部 边缘 与 混合 层顶 相触 的 下 风向 距离 ， 
+ Σ 2z = σ 2z + σ 2z0 
+ ( 2 ) 
+ 
+ Σ 2y = σ 2y + σ 2y0 
+ ( 3 ) 
+ σ 2z0 = σ 2y0 = CA / π = 0.5 A / π 
+ ( 4 ) 
+ 式 中 ， C 为 形状 因子 ， 常取 C = 0.5 ， A 为 安全壳 截面积 ( 高度 与 直径 乘积 ) ， 秦山 二期 的 A = 60m × 38.8 m = 2328m2 . 
+ 
+ 　 　 上述 每个 烟段 的 代表 点取 烟段 的 前端 ， 每次 事故 起始 释放 时间 为 天气 取样 获得 的 128 个 时刻 中 的 任何 一个 ， 例如 取出 某一 天气 样本 ， 其 事故 释放 起始 时刻 9 日 12 点 ， 即 11 月 9 日 上午 12 点 ( 因为 11 月 1 日 零点 为 一年 实测 数据 的 起点 ) ， 每个 烟 段长度 由下节 给出 ， 每个 烟段 释放 的 起始 速度 与 稳定度 条件 由该 小时 的 实测 风速 及 稳定度 给出 ， 此烟段 的 起始 释放 方向 ， 可以 为 16 个 方位 中 的 任意 一个 ， 在 每个 方位 出现 的 频率 由该 厂址 的 年 风频 给出 ( 表 3 给出 秦山 二期 厂址 70m 高度 实测 年 风频 数据 ) . 此外 假定 每个 烟段 释放 后 沿其 初始 方向 直线 迁移 ， 在 直线 迁移 过程 中 考虑 每个 小时 稳定度 的 变化 对 扩散 参数 的 影响 ， 释放 后 迁移 过程 中 的 扩散 天气 条件 ( 即 释放 后 各 小时 的 风速 与 大气 稳定度 ) 由 释放 后 各 小时 的 实测 数据 给出 . 例如 ， 对于 失水 事故 释放 中 的 第一个 烟段 释放 时刻 为 11 月 9 日 上午 12 点 ， 即 由 此刻 及其 以后 各 时刻 的 天气 条件 计算 下 风向 各子区 ( xf ) 的 扩散 因子 并 根据 此烟段 的 长度 L1 计算 时间 积分 浓度 与 剂量 . 第二个 烟段 ( 长度 为 L2 ) 释放 时刻 为 9 日 14 点 ( 因为 第 1 个 烟段 释放 持续时间 为 2h ， 因此 ， 第 1 、 第 2 两烟段 释放 间隔时间 为 2h . 同理 ， 第 2 、 第 3 两烟段 释放 间隔时间 为 6h ， 依次 类推 ) ， 然后 由 此刻 及其 以后 各 小时 的 实测 风速 及 稳定度 计算 各 xf 处 的 扩散 参数 、 时间 积分 浓度 及 有效 剂量 . 其余 各烟段 依次 类推 . 该 事故 期间 各个 烟段 在 不同 方位 的 集体 剂量 迭加 就 可 得到 假定 基准 事故 发生 在 11 月 9 日 上午 12 点 可能 造成 的 集体 有效 剂量 ， 对于 128 个 天气 时刻 就 可 获得 128 组值 ， 由此 可 求得 其 CCDF 曲线 . 
+ 表 3 　 秦山 二期 厂址 年风 
+ Table3AnnualdistributionofwinddirectionforQinshanNuclearPowerPlant ( Ⅱ stage ) 
+ 
+ 　 NNNENENEEEEESESSSES 
+ fj , % 4.2618 . 23.575 . 974.3910 . 210.710 . 53.62 
+ 　 SSWSWSWWWNWWNWNNWC 　 
+ fj , % 7.314 . 843.541 . 272.234 . 8311.41 . 13 　 
+ 
+ 4.2 　 烟段 初始 长度 
+ 　 　 假定 以 L0 ( m ) 表示 烟段 初始 长度 ， 则 L0 由下式 给出 : 
+ L0i = Δ tiU1i 
+ ( 5 ) 
+ 式 中 ， L0i 表示 某次 事故 释放 中 第 i 烟段 的 初始 长度 ( m ) ， Δ ti 为 i 烟段 的 释放 持续时间 ( s ) ， U1i 为 i 烟段 释放 起始 时刻 的 实测 风速 ( m / s ) ， 假定 烟段 迁移 过程 中 ， 烟 段长度 L0i 不变 . 
+ 4.3 　 评价 网格 
+ 　 　 评价 区取 距 反应堆 半径 为 80km 的 区域 . 按 顺时针 方向 分成 16 个 扇形 方位 ， 对 每个 方位 的 扇形 再 划分 成 12 个子 区 ， 各子区 的 径向 距离 xf 如下 ： f = 1 , 2 , … … ， 12 ； xf = 0.5 km 、 1.5 km 、 2.5 km 、 4.0 km 、 7.5 km 、 15km 、 25km 、 35km 、 45km 、 65km 、 75km . 总共 16 × 12 = 192 个子 区 . 
+ 4.4 　 有效 扩散 参数 
+ 　 　 考虑 到 烟段 迁移 距离 为 80km ， 迁移 时间 一般 要数 h 至 数十 h ， 鉴于 不同 时间 的 稳定度 是 不同 的 ， 本文 采用 下述 有效 扩散 参数 公式 进行 计算 ［ 3 ］ ： 
+ 
+ ( 6 ) 
+ 
+ ( 7 ) 
+ 式 中 ， σ Eyk ( xf ) 与 σ Ezk ( xf ) 表示 当烟段 在 kh 到达 xf 时 ， xf 处 的 Y 方向 与 Z 方向 有效 扩散 参数 ( m ) ， Δ T0 = 3600s ， Py 、 Pz 、 qy 、 qz 为 扩散系数 ， 表 4 给出 通过 现场 平衡 球 实验 并 经 室内 风洞 模拟实验 修正 后 的 秦山 厂址 实测值 . 
+ 
+ 　 　 把 上述 各 xf 处 的 扩散 参数 代入 式 ( 2 ) 与 式 ( 3 ) ， 就 可 应用 式 ( 1 ) 求得 各 xf 处 的 扩散 因子 ( C / Q ) ( xf ) 值 . 
+ 
+ 表 4 　 秦山 二期 厂址 扩散系数 实测值 
+ Table4MeasuredvaluesofdiffusionparametersforQinshanNuclearPowerPlant ( Ⅱ stage ) 
+ 
+ 天气 类型 PyqyPzqz 
+ A0.4440 . 8840.3370 . 844 
+ B0.4560 . 8350.2940 . 822 
+ C0.2700 . 8560.2470 . 783 
+ D0.246 ( x ≤ 2km ) 
+ 
+ 0.226 ( x ＞ 2km ) 0.845 ( x ≤ 2km ) 
+ 0.856 ( x ＞ 2km ) 0.295 ( x ≤ 2km ) 
+ 0.215 ( x ＞ 2km ) 0.704 ( x ≤ 2km ) 
+ 0.745 ( x ＞ 2km ) 
+ E0.1340 . 8670.1360 . 719 
+ F0.0950 . 8470.2270 . 622 
+ 
+ 
+ 4.4 　 时间 积分 浓度 
+ 　 　 第 i 烟段 通过 第 f 下风 子区 xf 处 的 n 核素 时间 积分 浓度 ψ in ( xf ) ( s * Bq / m3 ) 由下式 估算 
+ 
+ ( 8 ) 
+ 式 中 ， Q ﹊ n 为 事故 释放 中 第 i 烟段 n 核素 的 释放 率 ( Bq / s ) ， 其值 见表 1 ； ( C / Q ) ( xf ) 表示 xf 处 的 扩散 因子 ( s / m3 ) ， 由式 ( 1 ) 给出 ； 因此 Qin * ( C / Q ) ( xf ) 给出 i 烟段 到达 xf 处 的 地面 浓度 ( Bq / m3 ) ； Δ Ti ( xf ) 表示 i 烟段 从 到达 至 离开 xf 点 所 需 的 时间 ( s ) , Δ Ti ( xf ) = L0i / Uik , L0i 表示 i 烟段 初始 长度 ( m ) , Uik 表示 i 烟段 到达 xf 处 那个 时刻 的 风速 . 
+ 4.5 　 地面 湿 沉积 量 
+ 　 　 i 烟段 n 核素 在 xf 子区 的 湿 沉积 量 Wwin ( xf ) ( Bq / m3 ) 由下式 给出 ： 
+ 
+ ( 9 ) 
+ 式 中 ， m 作为 烟段 经过 xf 持续时间 长度 的 指标 ， m = 1 表示 烟段 到达 xf 点后 的 第 1 小时 ， mif 表示 i 烟段 通过 xf 点 所 需 的 时间 长度 的 小时数 ， mif = Δ Ti ( xf ) / 3600 ， 取 整数 ( 例 Δ Ti ( xf ) / 3600 = 5.2 ， 则 取 mif = 6 ) , Im 表示 烟段 通过 xf 点 的 第 m 小时 的 降水强度 ( mm / h ) ， Λ nm 表示 相应 于 此 强度 的 n 核素 的 冲洗 系数 ( s - 1 ) . 
+ 
+ 5 　 事故 造成 的 概率 后果 
+ 5.1 　 各种 照射 途径 的 剂量 估算 
+ 　 　 按 目前 常用 的 剂量 转换 因子 方法 ， 根据 式 ( 8 ) 、 式 ( 9 ) 获得 的 第 i 烟段 在 xf 子区 的 时间 积分 浓度 与 地面 湿 沉积 量 ， 可算得 i 烟段 经过 xf 子区 时烟羽 中 的 n 核素 对 居民 造成 的 浸没 全身 剂量 D ﹕ in ( xf ) 、 吸入 剂量 DAin ( xf ) , 地面 沉积 外照 剂量 DGBin ( xf ) ， 然后 ， 由 下述 两式 算 得 xf 处 个人 在 事故 期间 接受 的 有效 剂量 DE ( xf ) ( Sv ) 及 事故 释放 造成 的 半径 80km 范围 评价 区内 的 集体 剂量 DC ( 人 * Sv ) ： 
+ 
+ ( 10 ) 
+ 
+ ( 11 ) 
+ 式 中 ， fj 为 j 方位 年 风频 ； Njf 为 j 方位 f 子区 的 人口数 ， 各子区 的 人口数 统计资料 由 参考资料 * 获得 . 
+ 
+ 
+ 　 　 * 中核总 第二 研究 设计院 . 秦山 核电 二期工程 厂址 环境 调查报告 ， 内部 报告 ， 19935.2 　 事故 释放 造成 的 集体 剂量 的 余补 累积 频率 分布 ( CCFD ) 
+ 　 　 余补 累积 频率 分布 ( CCFD ) 这一 概念 在 核设施 事故 后果 评价 ( ACA ) 中 得到 广泛 的 应用 . 
+ 　 　 若以 Ei 表示 一组 相似 偶发事件 ( 这里 指 天气 取样 获得 的 天气 序列 ) ； PEi 表示 第 Ei 偶发事件 出现 的 概率 ； CEi 表示 与 偶发事件 Ei 相关联 的 事故 后果 ( 这里 指式 ( 11 ) 估算 的 DC 值 ) ； nE 表示 所 考虑 的 偶发事件 数目 ( 这里 nE 为 128 ) . 并 假定 CEi ≤ CEi + 1 ( 此中 i = 1 , 2 , … … , nE - 1 ) , 那末 此 事故 后果 的 余补 累积 频率 分布 CCFD 就是 由下式 定义 的 函数 F ， 
+ F ( N ′ ) = 事故 后果 CE 超过 某一 特定 值 N ′ 的 概率 
+ 
+ ( 12 ) 
+ 
+ 
+ 图 1 　 秦山 核电厂 ( 二期 ） 设计 基准 事故 造成 的 集体 剂量 的 CCFD 曲线 
+ Fig1CCFDcurveofpopulationdosecaused 
+ bytheDBAforQinshanNuclearPowerPlant ( Ⅱ stage ) site 
+ 对于 128 个 天气 序列 中 的 每 一个 天气 序列 可 按 上述 方法 获得 一个 DC 值 ， 总共 有 128 个 DC 值 . 再 应用 式 ( 12 ) 就 可 获得 秦山 核电厂 二期工程 设计 基准 事故 在 80km 评价 区内 造成 的 集体 剂量 的 余补 累积 频率 分布 曲线 ( 见图 1 ) . 由图 1 可见 ， 在 秦山 二期 厂址 所处 的 密集 人口 区域 ， 秦山 二期工程 ( 2 × 600MW ) 一旦 其中 一个 堆 发生 表 1 所示 的 失水 事故 释放 ， 若 未 采取任何 应急 措施 ， 其 在 80km 范围 内 造成 的 集体 剂量 则 约等于 或 大于 18 人 * Sv ( 累积 概率 水平 为 95% ) 或 等于 或 大于 25 人 * Sv ( 累积 概率 水平 为 50% ) . 
+ 参考文献 
+ 1 　 胡二邦 ， 陈竹舟 译 . 核事故 场外 辐射 后果 评价 方法 . 北京 ： 原子能 出版社 ， 1988 
+ 2 　 USNRC , MELCORAccidentConsequenceCodeSystem ( MACCS ) , NUREG / CR - 4691990 , 2 
+ 3 　 HuErbang , WangHan . SRDAAR - QNPP : Acompritercodesystemforthereal - timedoseassessmentofanaccidentreleaseforQinshanNuclearPowerPlant . JournalofEnvironmentalSciences , 1994 , 6 : 292 - 296 

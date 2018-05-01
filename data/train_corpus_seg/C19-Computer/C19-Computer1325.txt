@@ -1,0 +1,64 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 2000 　 Vol.26 　 No.3 　 P.427 - 429 
+ 
+ 
+ 
+ 保证 闭环 性能 品质 的 奇异 摄动 类降 阶 方法 
+ 张力 军场 〕 膛 
+ 关键词 　 控制器 降阶 ， 奇异 摄动 降阶法 ， 广义 奇异 摄动 降阶法 ， 均衡 截取 法 ， 双 线性变换 . 
+ ACLASSOFSINGULARPERTURBATIONAPPROXIMATION 
+ METHODSFORCONTROLLERORDERREDUCTIONWITH 
+ GUARANTEEDCLOSEDLOOPPERFORMANCE 
+ ZHANGLijun 　 CHENGPeng 
+ ( DepartmentofAutomaticControl , BeijingUniversityofAeronauticsandAstronautics , Beijing 　 100083 ) 
+ Keywords 　 Controllerorderreduction , singularperturbationapproximation , generalizedsingularperturbationapproximation , balancedtruncationmethod , bilineartransform . 
+ 1 　 引言 
+ 　 　 目前 ， 由于 H2 ， H ∞ 和 μ 等 理论 所 设计 的 控制器 阶数 较 高 ， 迫切需要 对 其 进行 降阶 . Zhou 等 人 ［ 1 ］ 针对 某 一类 控制系统 ， 提出 了 保证 闭环 性能 品质 的 结构 均衡 截取 控制器 降阶 方法 . DoChangOh 等 人 ［ 2 ］ 将 此 方法 推广 到 了 奇异 摄动 降阶 方法 ， 它 具有 低频 段 误差 较 小 的 优点 . 
+ 　 　 本文 在 Zhou 等 人 方法 的 基础 上 ， 利用 奇异 摄动 降阶 方法 同 截取 降阶 方法 的 双 线性变换 关系 ， 用 比较 简洁 的 方法 证明 了 DoChangOh 等 人 的 结果 . 并 进一步 运用 这种 思想 ， 推广 得到 了 保证 闭环 性能 品质 控制器 降阶 的 广义 奇异 摄动 方法 . 
+ 2 　 保证 闭环 性能 品质 的 结构 均衡 截取 控制器 降阶 方法 ［ 1 ］ 
+ 　 　 定理 1 ［ 1 ］ . 设 控制器 K ( s ) 使得 闭环 传递函数 　 Tz ω ( s ) = F1 ( G , K ) ∈ RH ∞ ， 并且 存在 P = diag ( P1 , P2 ) ≥ 0 和 Q = diag ( Q1 , Q2 ) ≥ 0 满足 
+ 　 　 　 ( 1 ) 
+ 　 　 　 　 ( 2 ) 
+ 　 　 并 进一步 假设 存在 可逆 阵 T1 和 T2 ， 使得 
+ 　 　 　 ( 3 ) 
+ T2P2T ′ 2 = ( T - 12 ) ′ Q2T - 12 = Σ = diag ( Σ 1 , Σ 2 ) , 　 　 　 　 　 ( 4 ) 
+ 　 　 其中 Σ 1 = diag ( σ 1 ， … ， σ r ) ， Σ 2 = diag ( σ r + 1 , … ， σ m ) , σ r > σ r + 1 . 
+ 　 　 　 ( 5 ) 
+ 这里 K ( s ) 系统 矩阵 分块 同 Σ 的 分块 一致 ， 则 降阶 的 控制器 
+ 　 　 稳定 . 并且 降阶 前后 闭环 系统 的 误差 界为 
+ 　 　 　 ( 6 ) 
+ 　 　 将 Σ 分解 的 维数 分配 主要 由 降阶 控制器 的 阶数 和 Σ 对角 元 数值 大小 的 差别 决定 . 
+ 3 　 保证 闭环 性能 品质 的 奇异 摄动 控制器 降阶 方法 
+ 　 　 定理 2 ［ 2 ］ . 在 定理 1 的 条件 下 ， 则 式 ( 5 ) 的 奇异 摄动 降阶 控制器 
+ 　 　 　 ( 7 ) 
+ 这里 K ( s ) 系统 矩阵 分块 同 Σ 的 分块 一致 . 降阶后 闭环 系统 满足 
+ 
+ 　 　 降阶 前后 闭环 系统 的 误差 界 　 　 　 ( 8 ) 
+ 并且 有 
+ 　 　 　 ( 9 ) 
+ 显然 ， 这种 方法 在 低频 段 误差 较 小 . 
+ 　 　 这里 ， 利用 文献 ［ 3 ］ 中 的 引理 9.2 . 2 ， 通过 两次 双 线性变换 可 比较 简洁 地 证明 了 定理 2 . 首先 ， 通过 变换 得 然后 ， 用 定理 1 对 其 进行 降阶得 最后 ， 根据 文献 ［ 3 ］ 中 的 引理 9.2 . 2 显然 有 
+ 
+ 证毕 . 
+ 4 　 保证 闭环 性能 品质 的 广义 奇异 摄动 降阶法 
+ 　 　 设 离散系统 的 控制器 K ( z ) 的 状态方程 形式 与 式 ( 5 ) 相同 ， 很 容易 得到 离散系统 的 保证 闭环 性能 品质 的 均衡 截取 降阶 方法 . 再 利用 广义 奇异 摄动 降阶 方法 同 它 的 双 线性变换 关系 ， 便 得出 了 保证 闭环 性能 品质 控制器 降阶 的 广义 奇异 摄动 方法 . 
+ 　 　 定理 3 . 在 定理 1 的 条件 下 ， 式 ( 5 ) 的 广义 奇异 摄动 降阶 控制器 
+ 
+ 　 　 这里 K ( s ) 系统 矩阵 分块 同 Σ 的 分块 一致 . 降阶后 闭环 系统 满足 
+ 
+ 并且 有 
+ 5 　 结论 
+ 　 　 本文 利用 奇异 摄动 类降 阶 方法 同 截取 降阶 方法 的 双 线性变换 关系 ， 得出 了 保证 闭环 性能 品质 的 奇异 摄动 类 控制器 降阶 方法 . 通过 数值 例子 可以 看出 ， 奇异 摄动 降阶法 的 优点 是 零 频率 处无差 ， 它 能够 较 好 地 保证 降阶后 系统 响应 的 稳态 值 不变 . 广义 奇异 摄动 降阶法 可以 通过 选择 参数 α 得到 比较满意 的 降阶 控制器 . 
+ 国家自然科学基金 资助 项目 . 
+ 　 　 张力军 　 1971 年生 ， 1998 年 获 北京航空航天大学 自动控制 系 博士学位 ， 研究 领域 为 鲁棒控制 、 控制器 降阶 、 飞行 控制系统 以及 奇异 摄动 控制系统 的 分析 与 设计 . 
+ 　 　 程 　 鹏 　 1938 年生 ， 1962 年 毕业 于 北京大学数学力学系 . 现任 北京航空航天大学 自动控制 系 教授 、 博士生 导师 . 研究 领域 为 线性系统 理论 、 多 变量 系统 理论 、 鲁棒控制 和 飞行 控制系统 . 
+ 张力军 （ 北京航空航天大学 自动控制 系 　 北京 　 100083 ） E - mail : ljzhang @ hotmail . com . 
+ 程鹏 （ 北京航空航天大学 自动控制 系 　 北京 　 100083 ） 
+ 参考文献 
+ ［ 1 ］ 　 ZhouK , D ' souzaC , CloutierJR . Structurallybalancedcontrollerorderreductionwithguaranteedclosedloopperformance . SystemandControlLetters , 1995 , 24 ( 2 ) : 235 ～ 242 
+ ［ 2 ］ 　 OhDCh , BangKH , ParkHB . Controllerorderreductionusingsingularperturbationapproximation . Automatica , 1997 , 33 ( 6 ) : 1203 ～ 1207 
+ ［ 3 ］ 　 GreenM , LimbeerD . LinearRobustControl , EaglewoodCliffs , NJ : Printice - Hall , 1995 , 338 ～ 339 
+ ［ 4 ］ 　 张力军 ， 程鹏 . 保证 性能 品质 的 奇异 摄动 降阶 方法 . 见 ： 中国 控制 会议 文集 ， 浙江 宁波 ， 1998 ， 国防大学 出版社 ， 117 ～ 120 
+ 收稿 日期 　 1998 - 03 - 27 
+ 修稿 日期 　 1998 - 12 - 03 

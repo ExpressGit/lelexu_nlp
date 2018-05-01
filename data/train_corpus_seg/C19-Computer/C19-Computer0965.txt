@@ -1,0 +1,23 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 　 第 23 卷 　 第 6 期 　 Vol.23 　 No.6 　 1997 
+ 
+ 
+ 
+ 
+ 联想 记忆 神经网络 的 一个 有效 学习 算法 
+ 梁学斌 　 吴 立德 　 俞俊 
+ 　 　 摘 　 要 　 提出 一种 新 的 联想 记忆 网络 模型 的 有效 学习 算法 ， 它 具有 下述 特点 ： ( 1 ) 可以 全部 存储 任意 给定 的 训练 模式 集 ， 即 对于 训练 模式 的 数目 和 它们 之间 相关性 的 强弱 没有 限制 ； ( 2 ) 最小 的 训练 模型 吸引 域 达到 最大 ； ( 3 ) 在 ( 2 ) 的 基础 上 ， 每个 训练 模式 具有 尽可能 大 的 吸引 域 ； ( 4 ) 联想 记忆 神经网络 是 全局 稳定 的 . 大量 的 计算机 仿真 实验 结果 充分说明 所 提出 的 学习 算法 比 已有 算法 具有 更强 的 存储 能力 和 联想 容错 能力 . 
+ 　 　 关键词 　 联想 记忆 网络 ， 训练 模式 集 ， 全部 存储 ， 最大 吸引 域 ， 全局 稳定性 . 
+ ANEFFICIENTLEARNINGALGORITHMFORASSOCIATIVE 
+ MEMORYNEURALNETWORK 
+ LIANGXUEBIN 　 　 WULIDE 　 　 YUJUN 
+ ( Dept . ofComputerScience ， FudanUniversity , 　 Shanghai 　 200433 ) 
+ Abstract 　 Anewandefficientlearningalgorithmofasociativememoryneuralnetworkisproposed , withthefollowingcharacteristics : ( 1 ) itcanstoreanygiventrainingpatternsetnomatterhowmuchandwhatcorrelationamongthemmaybe ; ( 2 ) thesmallestdomainofattractionoftrainingpatternsismaximized ; ( 3 ) eachdomainofattractionoftrainingpatternsisguaranteedtobeaslargeaspossible ; ( 4 ) thedesignedassociativememorynetworkisgloballystable . Alargenumberofcomputerexperimentalresultsconfirmthatouralgorithmpossessesmorepowerfulstorageabilityandmorefault - tolerancecapabilitythanexistingones . 
+ Keywords 　 Associativememory , 　 trainingpatternset , 　 totalstorageability , 　 maximizeddomainofattraction , 　 globalstability . 
+ 1 　 引言 
+ 　 　 联想 记忆 神经网络 可 分为 有 自 反馈 和 无自 反馈 两种 模型 ， 它 具有 信息 记忆 和 信息 联想 的 功能 ， 能够 从 部分 信息 或 有 适当 畸变 的 信息 联想 出 相应 的 存储 在 联想 记忆 神经网络 中 的 完整 的 记忆 信息 ［ 1 ， 2 ］ . 其 性能 主要 是 由 具体 的 学习 算法 来 决定 . 
+ 　 　 至今 ， 已经 提出 了 不少 关于 联想 记忆 神经网络 的 学习 算法 ， 主要 有 Hebbian 学习 算法 ［ 3 ］ 、 投影 学习 算法 ［ 4 ］ 、 Gardner 学习 算法 ［ 5 ］ 、 最小 重叠 学习 算法 ［ 6 ］ 、 Ho - Kashyap 学习 算法 ［ 7 ］ 、 神经元 或 训练 模式 加权 学习 算法 ［ 8 ］ 和 优化 学习 算法 ［ 9 ］ 等 . 其中 只有 优化 学习 算法 严格 考虑 了 如何 提高 联想 记忆 神经网络 的 存储 能力 和 联想 容错 能力 . 
+ 　 　 基于 文献 ［ 9 ］ 的 思想 ， 本文 提出 了 设计 联想 记忆 网络 的 极大 极小 准则 ， 它 要求 设计 出 的 对称 连接 权阵 应 使得 网络 最小 的 记忆 模式 吸引 域 达到 最大 . 并 进一步 发展 了 综合 联想 记忆 网络 的 一个 有效 学习 算法 ， 它 具有 如下 特点 ： ( 1 ) 可以 全部 存储 任意 给定 的 训练 模式 集 ； ( 2 ) 最小 的 训练 模式 吸引 域 达到 最大 ； ( 3 ) 在 ( 2 ) 的 基础 上 ， 每个 训练 模式 具有 尽可能 大 的 吸引 域 ； ( 4 ) 网络连接 权阵 是 主 对角 元为 1 的 对称 阵 ， 因此 所 设计 出 的 联想 记忆 神经网络 是 全局 稳定 的 ［ 11 ］ . 
+ 2 　 无自 反馈 网络 模型 训练 式 集 的 基本 约束 
+ 　 　 联想 记忆 神经网络 模型 是 由 N 个 互联 神经元 组成 的 非线性 动力系统 . 网格 状态 v = ( v1 , … , vN ) t ， 其中 vi ( i = 1 , 2 , … , N ) 表示 第 i 个 神经元 的 状态 ， 取值 空间 是 { - 1 , 1 } ； 网络连接 权阵 W = ( Wij ) N × N , 其中 Wij 表示 从 第 j 个 神经元 到 第 i 个 神经元 的 连接 权 . 联想 记忆 神经网络 模型 可 表述 为 ［ 1 ］ 

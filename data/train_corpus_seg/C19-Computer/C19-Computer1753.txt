@@ -1,0 +1,139 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 1999 年 第 19 卷 第 3 期 Vol.19 No.31999 
+ 
+ 
+ 
+ 排序 合并 Join 算法 的 新 结果 
+ 孙文隽 　 李建中 
+ 摘 　 要 　 Join 操作 是 数据库 中 最 昂贵 和 最 常用 的 操作 . 排序 合并 Join 算法 是 实现 Join 操作 的 重要 算法 ， 得到 了 普遍 接受 并 广为 应用 . 在 重新 研究 了 排序 合并 Join 算法 后 发现 ， 同时 对 两个 Join 关系 进行 外 排序 是 不必要 的 ， 会 带来 很大 的 额外 开销 . 针对 这个 问题 ， 提出 了 一种 基于 单 关系 外 排序 的 分治 Join 算法 ， 并 在 该 算法 的 基础 上 提出 了 基于 单 关系 外 排序 的 并行 分治 Join 算法 . 理论 和 实验 结果 证明 ， 基于 单 关系 排序 的 分治 Join 算法 高于 排序 合并 Join 算法 . 特别 是 在 并行计算 环境 下 ， 基于 单 关系 排序 的 并行 分治 Join 算法 的 效率 远远 高于 排序 合并 Join 算法 的 并行 版本 . 
+ 关键词 　 Join 操作 ， Join 算法 ， 排序 合并 Join 算法 . 
+ 中图法 分类号 　 TP311 
+ Sort - Merge - JoinAlgorithmRevisited 
+ SUNWen - junLIJian - zhong 
+ ( InstituteofInformationResearchHeilongjiangUniversityHarbin150080 ) 
+ Abstract 　 TheSort - Merge - JoinalgorithmisaneffectiveandwidelyusedalgorithmforimplementingtheimportantJoinoperationindatabasesystems . Thealgorithmisrevisitedinthispaper . Itisdiscoveredthatsortingbothoperandrelationsexternallyisnotnecessaryinthealgorithm . Thecostofthealgorithmwouldbereducedgreatlyifonlyoneoperandrelationissortedexternally . InordertoovercometheshortcomingsoftheSort - Merge - Joinalgorithm , anewJoinalgorithmcalledSDC - Joinalgorithm , isproposedinthispaper . TheSDC - Joinalgorithmisasingle - relation - sortingbaseddivide - and - conqueralgorithm . AparallelversionoftheSDC - Joinalgorithmisalsopresentedinthepaper . TheoreticalanalysisandexperimentresultsshowthattheperformanceoftheSDC - JoinalgorithmismuchhigherthanthatoftheSort - Merge - Joinalgorithminbothuniprocessorcomputersystemsandparallelcomputersystems . 
+ Keywords 　 Joinoperation , Joinalgorithm , Sort - Merge - Joinalgorithm . 
+ 　 　 Join 操作 是 数据库系统 中 最 昂贵 最 常用 的 操作 . 在 数据库 操作 算法 的 研究 中 ， 人们 一直 十分 注重 Join 算法 的 研究 ， 提出 了 大量 算法 ［ 1 ～ 6 ］ . 文献 ［ 2 , 6 ］ 对 顺序 和 并行 Join 算法 进行 了 全面 系统 的 综述 . 人们 一般 认为 ， Hash - Join 算法 的 效率 最高 ， 其次 是 Sort - Meger - Join 算法 ， 最后 是 Nested - Loop - Join 算法 . 事实上 ， 各类 Join 算法 在 不同 情况 下 的 优劣 不同 . Hash - Join 算法 要求 选择 高质量 的 Hash 函数 ， 实现 起来 较 困难 . Nested - Loop - Join 算法 和 Sort - Merge - Join 算法 思想 简单 ， 容易 实现 . 从 效率 和 实现 两 方面 考虑 ， Sort - Merge - Join 算法 在 商品化 数据库系统 中 使用 最多 . 
+ 　 　 Sort - Merge - Join 算法 分为 3 个 阶段 . 第 1 阶段 对 第 1 个 Join 关系 进行 外 排序 ； 第 2 阶段 对 第 2 个 Join 关系 进行 外 排序 ； 第 3 阶段 合并 两个 已经 排序 的 关系 ， 产生 Join 结果 . 本文 对 Sort - Merge - Join 算法 进行 了 重新 研究 ， 发现 该 算法 对 两个 Join 关系 都 进行 外 排序 是 没有 必要 的 ， 这会 引起 很大 的 额外 开销 . 如果 仅 对 小 关系 进行 外 排序 ， 然后 使用 分治 方法 进行 两个 关系 的 Join 操作 ， 能 节省 大量 时间 . 基于 这种 思想 ， 本文 提出 了 一种 新 的 基于 单 关系 排序 的 分治 Join 算法 ( 简称 SDC - Join 算法 ) . SDC - Join 算法 首先 对 小 关系 进行 完全 排序 ； 然后 把 已 排序 关系 按 内存大小 划分 成 一组 子集合 ； 其次 根据 小 关系 划分 情况 对大 关系 进行 划分 ， 同时 对 各页 进行 内 排序 ； 最后 进行 分组 合并 ， 产生 Join 结果 . SDC - Join 算法 避免 了 大 关系 的 外 排序 ， 节省 了 大量 时间 . 本文 还 对 SDC - Join 算法 进行 了 并行 化 ， 提出 了 并行 SDC - Join 算法 . 并行 SDC - Join 算法 简称 为 PSDC - Join 算法 . 理论 和 实验 结果 证明 ， SDC - Join 算法 的 效率 高于 Sort - Merge - Join 算法 . 特别 是 在 并行计算 环境 下 ， PSDC - Join 算法 的 效率 远远 高于 Sort - Merge - Join 算法 的 并行 版本 . 
+ 　 　 下面 列出 本文 经常 使用 的 符号 和 参数 ： 
+ 　 　 R ， S ： Join 关系 ； 　 　 　 　 　 　 　 　 　 NR ： 关系 R 的 磁盘 页数 ； 
+ 　 　 NS ： 关系 S 的 磁盘 页数 ； 　 　 　 　 　 　 TR ： 关系 R 的 元组 数 ； 
+ 　 　 TS ： 关系 S 的 元组 数 ； 　 　 　 　 　 　 　 BP ： 每个 磁盘 页 的 字节数 ； 
+ 　 　 TP ： 每个 磁盘 或 主存储器 页 的 元组 数 ； Tio ： 一页 磁盘 读写 所 需要 的 时间 ; 
+ 　 　 M + 1 ： 可用 主存储器 空间 页数 （ 一个 主存储器 页 的 容量 与 一个 磁盘 页 容量 相等 ) ； 
+ 　 　 Tcomm ： 平均 传输 一个 字节 数据 所 需要 的 时间 . 
+ 1 　 预备 知识 
+ 　 　 首先 我们 来 讨论 顺序 Sort - Merge - Join 算法 及其 复杂性 . 顺序 Sort - Merge - Join 算法 定义 如下 ： 
+ 　 　 算法 Sort - Merge - Join . 
+ 　 　 输入 ： 关系 R 和 S （ R 的 Join 属性 为 A ， S 的 Join 属性 为 B ） . 
+ 　 　 输出 ： R 和 S 在 连接 属性 A 和 B 上 的 连接 结果 Result . 
+ 　 　 方法 ： 
+ 　 　 　 ( 1 ) 按照 属性 A 的 值 排序 关系 R ; 
+ 　 　 　 ( 2 ) 按照 属性 B 的 值 排序 关系 S ； 
+ 　 　 　 ( 3 ) FORR 的 每个 元组 r ， S 的 每个 元组 sDO 
+ 　 　 　 　 　 IF ( r 在 属性 A 上 的 值 ) = ( s 在 属性 B 上 的 值 ) THENResult : = Result ∪ { rs } . 
+ 　 　 由于 I / O 时间 是 顺序 Join 算法 的 主要 时间 开销 . 本文 把 磁盘 存取时间 定义 为 顺序 Join 算法 的 复杂性 测度 . 设 Sort - Merge - Join 算法 的 输入 主存储器 缓冲区 容量 为 M 页 ， 输出 主存储器 缓冲区 容量 为 一页 . Sort - Merge - Join 算法 需要 的 磁盘 存取时间 为 Cost ( Sort - Merge - Join ) = Tio ［ 2 ( NRlogM ( NR ) + NSlogM ( NS ) ) + ( NR + NS + U ) ］ , 其中 2 ( NRlogM ( NR ) + NSlogM ( NS ) ) 为 第 ( 1 ) 、 ( 2 ) 步 进行 M 路 合并 排序 所 需要 存取 的 磁盘 页数 ， ( N 玆 + NS + U ) 是 第 ( 3 ) 步 需要 读 的 磁盘 页数 , U 是 需要 写 的 Join 结果 的 磁盘 页数 . 
+ 　 　 现在 我们 来 讨论 并行 Sort - Merge - Join 算法 及其 复杂性 . 设 P 是 并行 计算机系统 的 处理机 个数 . 并行 Sort - Merge - Join 算法 简记 为 PSM - Join ， 定义 如下 ： 
+ 　 　 算法 PSM - Join . 
+ 　 　 输入 ： 关系 R 和 S ( R 的 Join 属性 为 A ， S 的 Join 属性 为 B ) . 
+ 　 　 输出 ： R 和 S 在 连接 属性 A 和 B 上 的 连接 结果 Result . 
+ 　 　 方法 ： 
+ 　 　 　 ( 1 ) 使用 定义 在 属性 A 上 的 Hash 函数 H 把 R 划分 为 P 个子 集合 R1 , ... , RP ， Ri 送 处理机 i ( 1 　 ≤ i ≤ P ) ; 
+ 　 　 　 ( 2 ) 使用 定义 Hash 函数 H 按照 属性 B 的 值 把 S 划分 为 P 个子 集合 S1 , ... , SP ， Si 送 处理机 i ( 1 ≤ i ≤ P ) ; 
+ 　 　 　 ( 3 ) FORi = 1TOPDO ( 并行 地 ) 
+ 　 　 　 　 　 处理机 i 排序 Ri 和 Si ； 
+ 　 　 　 ( 4 ) FORi = 1TOPDO ( 并行 地 ) 
+ 　 　 　 　 　 结点 i 使用 合并 算法 完成 Ri 和 Si 的 连接 . 
+ 　 　 由于 I / O 时间 和 通信 时间 是 并行 Join 算法 的 主要 时间 开销 . 我们 定义 并行 Join 算法 的 时间 复杂性 为 磁盘 存取时间 和 通信 时间 之 和 . 算法 PSM - Join 的 第 ( 1 ) 、 ( 2 ) 步 的 数据 划分 如下 实现 ： 把 子集合 { r ∈ R | H ( r ［ A ］ ) = j } 和 { s ∈ S | H ( s ［ A ］ ) = j } 分配 并 传送 到 处理机 j . 设 R 和 S 初始 地 存储 在 一个 处理机 上 ， 第 ( 1 ) 、 ( 2 ) 步 的 并行 磁盘 页 存取 数为 NR + NS + NRmax + NSmax ， 其中 NRmax 是 R 的 k 个子 集合 中 最大 子集合 的 磁盘 页数 ， NSmax 是 S 的 k 个子 集合 中 最大 子集合 的 磁盘 页数 . 第 ( 3 ) 和 第 ( 4 ) 步 需要 的 并行 磁盘 页 存取 数 与 Sort - Merge - Join 算法 类似 ， 不 超过 2 ( NRmaxlogM ( NRmax ) + NSmaxlogM ( NSmax ) ) + ( NRmax + NSmax + U ) ， 其中 U 是 各 处理机 Join 结果 中 最大者 的 磁盘 页数 . 于是 ， PSM - Join 算法 需要 的 磁盘 存取时间 至多 为 Time ( I / O , PSM - Join ) = Tio ［ NR + NS + 2NRmax + 2NSmax + 2 ( NRmaxlogM ( NRmax ) + NSmaxlogM ( NSmax ) ) + U ］ . PSM - Join 算法 的 通信 操作 只 发生 在 第 ( 1 ) 和 第 ( 2 ) 步 ， 通信 时间 Time ( COMM , PSM - Join ) 不 大于 ， 不 小于 TcommBP ( P - 1 ) ( NRmax + NSmax ) . 综上所述 ， PSM - Join 算法 的 时间 复杂性 为 Cost ( PSM - Join ) = Time ( I / O , PSM - Join ) + Time ( COMM , PSM - Join ) . 
+ 2 　 SDC - Join 算法 
+ 　 　 定义 1 . 设 R1 , ... , Rk 是 R 的 k 个子 集合 ， S1 , ... , Sk 是 S 的 k 个子 集合 ， A 是 关系 R 的 Join 属性 ， B 是 S 的 Join 属性 . 对于 任意 Ri 和 Sj ( 1 ≤ i , j ≤ k ) ， 如果 Ri 在 属性 A 上 的 投影 与 Sj 在 属性 B 上 的 投影 不 相交 ， 则 称 ( Ri , Sj ) 为 Join 无关 集合 对 ， 否则 , ( Ri , Sj ) 称为 Join 相关 集合 对 . 
+ 　 　 SDC - Join 算法 是 一种 只 需 对 小 关系 进行 外 排序 的 分治 算法 . 在 下边 的 讨论 中 ， 不失 一般性 ， 我们 假定 R 小于 S . SDC - Join 算法 分为 如下 3 个 阶段 ： 
+ 　 　 第 1 阶段 ( 排序 划分 R 阶段 ) ： 按照 Join 属性 值 大小 对 关系 R 进行 外 排序 ， 同时 把 关系 R 的 每 M 个 连续 页 作为 一个 子集合 ， R 划分 为 个子 集合 ， 第 i 个子 集合 记作 SETR ［ i ］ ， 并 计算 出 每个 子集合 SETR ［ i ］ 在 Join 属性 上 的 投影 集合 中 的 最小值 mini 和 最大值 maxi . 
+ 　 　 第 2 阶段 ( 划分 S 阶段 ) ： 把 关系 S 划分 为 k 个子 集合 ： 对 关系 S 的 任一 元组 t ， 如果 mini ≤ t 的 Join 属性 值 ≤ maxi ， 则 t 送 第 i 个子 集合 . 关系 S 的 第 i 个子 集合 记作 SETS ［ i ］ . 显然 ， ( SETR ［ i ］ , SETS ［ i ］ ) 是 Join 相关 集合 对 ， ( SETR ［ i ］ , SETS ［ j ］ ) ( j ≠ i ) 是 Join 无关 集合 对 . 
+ 　 　 第 3 阶段 ( Join 阶段 ) ： 从 1 到 k 对 关系 R 和 S 的 Join 相关 集合 对 进行 Join 处理 ， 并且 合并 成 最终 Join 结果 . 
+ 　 　 SDC - Join 算法 的 详细 定义 如下 ： 
+ 　 　 算法 SDC - Join . 
+ 　 　 输入 ： R , S ： Join 关系 ； 
+ 　 　 输出 ： R 和 S 的 Join 结果 Result . 
+ 　 　 方法 ： 
+ 　 　 / * 第 1 阶段 ： 排序 划分 R 阶段 * / 
+ 　 　 ( 1 ) 对 R 进行 外 排序 ， 输出 排序 结果 时 把 R 划分 为 个子 集合 ， 每个 子集合 不 超过 M 页 ， 并 计算 每个 子集合 SETR ［ i ］ 的 maxi 值 和 mini 值 ( 1 ≤ i ≤ k ) ; 
+ 　 　 / * 第 2 阶段 ： 划分 S 阶段 * / 
+ 　 　 ( 2 ) FORS 中 的 每个 元组 tDO 
+ 　 　 　 　 IF 存在 j 使得 t 的 Join 属性 值 在 maxj 和 minj ( 1 ≤ j ≤ k ) 之间 THENt 分配 到 SETS ［ j ］ ； 
+ 　 　 / * 第 3 阶段 ： Join 阶段 * / 
+ 　 　 ( 3 ) FORi = 1TOkDO 
+ 　 　 　 　 读 SETR ［ i ］ 进 内存 ； 
+ 　 　 　 　 WHILESETS ［ i ］ 未 读完 DO 
+ 　 　 　 　 读下 一页 SETS ［ i ］ 进 内存 ， 内 排序 该页 ， 与 内存 中 SETR ［ i ］ 进行 合并 Join ， 结果 并入 Result . 
+ 　 　 下面 我们 分析 SDC - Join 算法 的 复杂性 ， 从 理论 上 与 Sort - Merge - Join 算法 进行 复杂性 比较 . 我们 先 来 分析 SDC - Join 算法 需要 的 磁盘 存取时间 . SDC - Join 算法 第 1 阶段 与 Sort - Merge - Join 算法 第 ( 1 ) 步 基本相同 ， 只是 在 最后 输出 排序 结果 时 把 R 划分 为 子集合 ， 同时 计算 每个 子集合 SETR ［ i ］ 的 maxi 和 mini 值 ， 没有 增加 磁盘 页 存取 数 . 所以 ， 第 1 阶段 需要 存取 的 磁盘 页数 为 2 ( NRlogM ( NR ) . 第 2 阶段 需要 读写 S 一遍 ， 存取 的 磁盘 页数 为 2NS . 第 3 阶段 需要 读 一遍 R 和 S ， 写 一次 Join 结果 ， 磁盘 存取 页数 为 ( NR + NS + U ) , 其中 U 是 Join 结果 页数 . 综上所述 ， SDC - Join 算法 需要 的 磁盘 存取时间 为 Cost ( SDC - Join ) = Tio ［ 2 ( NRlogM ( NR ) + 2NS + ( NR + NS + U ) ］ . 
+ 　 　 结论 1 . 如果 NS > M , 则 SDC - Join 算法 的 复杂性 小于 Sort - Merge - Join 算法 复杂性 . 
+ 　 　 证明 : 由于 Cost ( Sort - Merge - Join ) － Cost ( SDC - Join ) = Tio ［ 2NSlogM ( NS ) ) － 2NS ］ ， 所以 当 NS > M 时 ， Cost ( Sort - Merge - Join ) > Cost ( SDC - Join ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 □ 
+ 　 　 一般 情况 下 都 有 NS > M 成立 ， 所以 ， 可以 说 一般 情况 下 SDC - Join 算法 的 性能 高于 Sort - Merge - Join 算法 . 
+ 3 　 并行 SDC - Join 算法 
+ 　 　 以下 将 并行 SDC - Join 算法 简称 为 PSDC - Join 算法 . 设 并行计算 系统 具有 P 个 处理机 ， 每个 处理机 的 内存 可以 容纳 M + 1 个 磁盘 页 . PSDC - Join 算法 分为 如下 4 个 阶段 ： 第 1 阶段 ， 使用 Hash 方法 把 关系 R 划分 成 P 个子 集合 ， 分布 到 P 个 处理机 上 ； 第 2 阶段 ， 使用 Hash 方法 把 关系 S 划分 成 P 个子 集合 ， 分布 到 P 个 处理机 上 ； 第 3 阶段 ， P 个 处理机 分别 使用 SDC - Join 算法 ， 完成 Join 操作 . 算法 PSDC - Join 的 详细 定义 如下 ： 
+ 　 　 PSDC - Join 算法 . 
+ 　 　 输入 ： R 和 S 是 Join 关系 ， A 是 R 的 Join 属性 ， B 是 S 的 Join 属性 . 
+ 　 　 输出 ： R 和 S 的 Join 结果 Result . 
+ 　 　 方法 ： 
+ 　 　 / * 第 1 阶段 ： 分布 R * / 
+ 　 　 ( 1 ) 在 属性 A 上 使用 Hash 函数 H 把 R 划分 为 P 个子 集合 R1 , ... , RP ， Ri 送 处理机 i ( 1 ≤ i ≤ P ) ; 
+ 　 　 / * 第 2 阶段 ： 分布 S * / 
+ 　 　 ( 2 ) 在 属性 B 上 使用 Hash 函数 H 把 S 划分 为 P 个子 集合 S1 , ... , SP ， Si 送 处理机 i ( 1 ≤ i ≤ P ) ; 
+ 　 　 / * 第 3 阶段 ： 并行 Join * / 
+ 　 　 ( 3 ) FORi = 1TOPDO ( 并行 地 ) 
+ 　 　 处理机 i 使用 SDC - Join 算法 完成 Ri 和 Si 的 Join . 
+ 　 　 下面 分析 PSDC - Join 算法 的 复杂性 ， 并 从 理论 上 与 PSM - Join 算法 进行 复杂性 比较 . PSDC - Join 算法 第 1 阶段 和 第 2 阶段 与 算法 PSM - Join 第 ( 1 ) 和 第 ( 2 ) 步 相同 . 设 关系 R 和 S 初始 存储 在 一个 处理机 上 ， 这 两个 阶段 的 并行 磁盘 页 存取 数为 NR + NS + NRmax + NSmax ， 其中 NRmax 是 R 的 k 个子 集合 中 最大 子集合 的 磁盘 页数 ， NSmax 是 S 的 k 个子 集合 中 最大 子集合 的 磁盘 页数 . 由 SDC - Join 算法 的 磁盘 页 存取 数 的 分析 可知 ， 第 3 阶段 的 并行 磁盘 存取 页数 为 2NRmaxlogM ( NRmax ) + 2NSmax + ( NRmax + NSmax + U ) ， 其中 U 是 各 处理机 Join 结果 中 最大者 的 磁盘 页数 . 于是 ， PSDC - Join 算法 需要 的 并行 磁盘 存取时间 为 Time ( I / O , PSDC - Join ) = Tio ［ NR + NS + 2NRmax + 4NSmax + 2NRmaxlogM ( NRmax ) + U ］ . PSDC - Join 算法 的 通信 时间 复杂性 Time ( COMM , PSDC - Join ) 与 PSM - Join 算法 相同 ， 即 不 大于 ， 不 小于 TcommBP ( P - 1 ) ( NRmax + NSmax ) . 综上所述 ， PSDC - Join 算法 的 时间 复杂性 为 Cost ( PSDC - Join ) = Time ( I / O , PSDC - Join ) + Time ( COMM , PSDC - Join ) . 
+ 　 　 结论 2 . 如果 NSmax > M , 则 SDC - Join 算法 的 复杂性 小于 Sort - Merge - Join 算法 复杂性 . 
+ 　 　 证明 : 由 Cost ( PSM - Join ) － Cost ( PSDC - Join ) = Tio ［ 2NSmaxlogM ( NSmax ) － 2NSmax ］ 可知 ， 当 NSmax > M 时 ， Cost ( Sort - Merge - Join ) > Cost ( SDC - Join ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 □ 
+ 　 　 一般 情况 下 都 有 NSmax > M 成立 , 所以 ， 可以 说 一般 情况 下 SDC - Join 算法 的 性能 高于 Sort - Merge - Join 算法 . 
+ 4 　 实验 结果 
+ 　 　 为了 比较 SDC - Join 算法 和 Sort - Merge - Join 算法 的 性能 ， 我们 使用 PC / 586 微型 计算机 在 UNIX 环境 下 实现 了 这 两个 算法 . 在 实验 中 ， 我们 设 主存储器 每页 容量 为 1024 字节 ， 每个 磁盘 页 的 容量 为 1024 字节 ， 系统 可用 的 主存储器 为 6 页 ， 其中 5 页 作为 输入 （ 4 页 用于 小 关系 ， 1 页 用于 大 关系 ) ， 1 页 用于 输出 Join 结果 . 以下 用 R 表示 小 关系 ， 用 S 表示 大 关系 . 我们 首先 为 R 和 S 随机 地 产生 了 16 对 关系 实例 ， 然后 在 每 对 关系 实例 上 分别 执行 SDC - Join 算法 和 Sort - Merge - Join 算法 . 表 1 给出 了 实验 结果 . 表中 第 1 栏 和 第 2 栏 的 数据量 是 关系 中 存储 的 整型 数 . 表中 的 第 3 栏 和 第 4 栏 给出 了 SDC - Join 算法 和 Sort - Merge - Join 算法 的 运行 时间 ， 运行 时间 以 1 / 60s 为 度量 单位 . 从表 1 可以 看出 ， SDC - Join 算法 的 效率 高于 Sort - Merge - Join 算法 . 
+ 表 1SDC - Join 算法 和 Sort - Merge - Join 算法 运行 时间 的 比较 
+ 
+ 关系 R 数据量 关系 S 数据量 SDC - Join 算法 SORT - MERGE - Join 算法 
+ 204820481832 
+ 204840961942 
+ 204881922066 
+ 20481638422113 
+ 409610242736 
+ 409620482841 
+ 409640963775 
+ 4096819244103 
+ 40961638447152 
+ 819210246785 
+ 819220486891 
+ 8192409669106 
+ 8192819271132 
+ 81921638473171 
+ 16384819296154 
+ 1638416384116320 
+ 
+ 　 　 为了 比较 PSDC - Join 算法 和 并行 Sort - Merge - Join 算法 的 性能 , 我们 在 计算机 机群 并行 环境 下 实现 了 这 两个 算法 . 计算机 机群 由 5 台 PC / 586 通过 以太网 连接 而成 ， 通信协议 是 TCP / IP ， 操作系统 是 UNIX.5 台 计算机 中 1 台 机器 作为 前置 机 ， 4 台 机器 作为 后 端机 . 后 端机 负责 并行 Join . 前置 机 协调 后 端机 并行 运行 . Join 关系 的 产生 方法 同上 . 表 2 给出 了 实验 结果 . 表中 的 数据量 是 指 关系 中 的 整型 数 . 运行 时间 以 1 / 60s 为 度量 单位 . 表 2 说明 ， PSDC - Join 算法 的 效率 高于 并行 Sort - Merge - Join 算法 . 
+ 表 2PSDC - Join 算法 和 PSM - Join 算法 的 并行 运行 时间 比较 
+ 
+ 关系 R 数据量 关系 S 数据量 PSDC - Join 算法 并行 Sort - Merge - Join 算法 
+ 409610242736 
+ 409620482841 
+ 409640961828 
+ 409681922337 
+ 4096163843053 
+ 819240962434 
+ 819281923145 
+ 8192163843861 
+ 1638481924760 
+ 1638416384133346 
+ 
+ 　 　 本文 研究 得到 国家杰出青年基金 和 黑龙江省 杰出青年 基金 资助 . 作者 孙文隽 , 女 , 1965 年生 , 副教授 , 主要 研究 领域 为 数据库 . 李建中 , 1950 年生 , 教授 ， 博士生 导师 , 主要 研究 领域 为 数据库 . 
+ 　 　 本文 通讯联系 人 : 孙文隽 ， 哈尔滨 150080 , 黑龙江 大学 信息技术 研究所 
+ 作者 单位 ： 黑龙江 大学 信息技术 研究所 　 哈尔滨 　 150080 
+ 参考文献 
+ ［ 1 ］ LuH , OoiBC , TanKL . QueryProcessinginParallelRelationalDatabaseSystems . LosAlamitos , CA : IEEEComputerSocietyPress.1994 . 147 ～ 157 
+ ［ 2 ］ MishraP , EichMH . Joinprocessinginrelationaldatabases . ACMComputingSurveys , 1992 , 24 ( 1 ) : 63 ～ 113 
+ ［ 3 ］ DeWittDetal . Implementationtechniquesformainmemorydatabasesystems . In : BestriceYed . ProceedingsofACM _ SIGMODInternationalConference ' 84onManagementofData . NewYork : AssociationforComputingMachinery , 1984.1 ～ 8 
+ ［ 4 ］ SchneiderDA , DeWittD . AperformanceevaluationoffourparallelJoinalgorithmsinashared - nothingmultiprocessorenvironment . In : ProceedingsofACM _ SIGMODInternationalConference ' 89onManagementofData . NewYork : AssociationforComputingMachinery , 1989.110 ～ 121 
+ ［ 5 ］ BittonD . Parallelalgorithmsfortheexecutionofrelationaldatabaseoperations . ACMTransactionsonDatabaseSystems , 1983 , 8 ( 3 ) : 324 ～ 353 
+ ［ 6 ］ 李建中 . 并行 数据 操作 算法 和 查询 优化 技术 . 软件 学报 , 1994 , 5 ( 10 ) : 11 ～ 23 
+ ( LiJian - zhong . Paralleldataoperationalgorithmsandqueryoptimizationtechniques . JournalofSoftware , 1994 , 5 ( 10 ) : 11 ～ 23 ) 
+ （ 1998 - 03 - 31 收稿 ） 

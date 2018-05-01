@@ -1,0 +1,44 @@
+环境 科学研究 
+ RESEARCHOFENVIRONMENTALSCIENCES 
+ 2001Vol.14 No.3 P.49 - 51 
+ 
+ 
+ 
+ 
+ 农田 非点源 污染 研究 中 的 降雨 径流 关系 
+ — — SCS 法 的 修正 
+ 贺宝根 　 周乃晟 　 高效 江 　 许世远 　 袁永昆 　 
+ 摘 　 要 ： SCS 法是 当前 被 广泛应用 于 非点源 污染 研究 中 降雨 径流 关系 的 一种 方法 ， 但是 由于 地理环境 的 差异 ， 直接 将 该 方法 应用 在 上海 郊区 时 误差 较大 。 因此 ， 笔者 根据 实测 资料 对 模式 的 2 个 系数 ( 前期 损失量 和 径流 曲线 数 ) 予以 修正 ， 并 提出 相应 的 模型 。 
+ 关键词 ： 非点源 污染 ； 　 地表 径流 ； 　 小 流域 ； 　 上海 效区 
+ 分类号 ： X144 　 文献 标识码 ： A 
+ 文章 编号 ： 01 - 6929 ( 2001 ) 03 - 0049 - 03 
+ Precipitation - RunoffRelationshipinFarmlandNonpointSourcePollutionResearch ： AmendingCoeffcientofSCSHydrologicMethod 
+ HEBao - gen （ DepartmentofGeography , EastChinaNormalUniversity , Shanghai200062 , China ） 　 
+ ZHOUNai - sheng （ DepartmentofGeography , EastChinaNormalUniversity , Shanghai200062 , China ） 　 
+ GAOXiao - jiang （ DepartmentofEnvironmentalScienceandEngineering , FudanUniversity , Shanghai200433 , China ） 　 
+ XUShi - yuan （ DepartmentofGeography , EastChinaNormalUniversity , Shanghai200062 , China ） 　 
+ YUANYong - kun （ XianghuaqiaoRunoffTestStation , Shanghai201805 , China ） 　 
+ 
+ Abstract ： SCShydrologicmethodhaswidelybeenusedforbothanalysesofsmallurbanwatershedsandagriculturalwatersheds . However , therewillberelativeerrorwhenapplyingSCShydrologicmethodduetodifferentiationofgeographicalconditions . Basedonactualmeasurementdata , modificationsfortwocoefficients , i . e . precedinglossandrunoffcurve , wereproposedwiththecorrespondingmodel . 
+ Keywords ： nonpointsourcepollution ; 　 surfacerunoff ; 　 smallwatersheds ; 　 Shanghaisuburbs 
+ 基金项目 ： 国家自然科学基金 重点项目 ( 49831070 ) ； 上海市教委 重点学科 项目 
+ 作者简介 ： 贺宝根 ( 1962 - ) ， 男 ， 浙江 镇海 人 ， 副教授 ， 博士 研究生 . 
+ 作者 单位 ： 贺宝根 （ 华东师范大学 地理系 ， 上海 200062 ） 　 
+ 　 　 　 　 　 周乃晟 （ 华东师范大学 地理系 ， 上海 200062 ） 　 
+ 　 　 　 　 　 高效 江 （ 复旦大学 环境 科学 与 工程 ， 上海 200433 ） 　 
+ 　 　 　 　 　 许世远 （ 华东师范大学 地理系 ， 上海 200062 ） 　 
+ 　 　 　 　 　 袁永昆 （ 香花 桥 径流 试验站 ， 上海 201805 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ 阮仁良 . 苏州河 截流 区外 非点源 污染 调查 [ J ] . 上海 环境 科学 , 1997 , 1 ( 16 ) ： 20 ～ 22 . 
+ ［ 2 ］ 夏青 , 等 . 计算 非点源 污染 负荷 的 流域 模型 [ J ] . 中国 环境 科学 , 1985 , 5 ( 4 ) ： 23 ～ 30 . 
+ ［ 3 ］ 陈 西平 . 计算 降雨 及 农田 径流 污染 负荷 的 三峡库区 模型 [ J ] . 中国 环境 科学 , 1992 , 12 ( 1 ) ： 48 ～ 52 . 
+ ［ 4 ］ 李怀恩 . 水文 模型 在 非点源 污染 研究 中 的 应用 [ J ] . 陕西 水利 , 1987 , ( 3 ) ： 18 ～ 23 . 
+ ［ 5 ］ 张大 弟 , 周 建平 , 陈佩青 . 上海 市郊 4 种 地表 径流 深度 的 测算 [ J ] . 上海 环境 科学 , 1997 , 9 ( 16 ) ： 1 ～ 3 , 11 . 
+ ［ 6 ］ NovotnyV , ChestersG . Handbookofmonpointpollutionsourceandmanagement [ M ] . NewYork : VanNostrandReinholdCompany , 1981.81 ～ 103 . 
+ ［ 7 ］ McCuenRH . AguidetohydrologicanalysisusingSCSmethods [ M ] . NewJersey : Prentice - HallInc , 1982 . 
+ ［ 8 ］ 吴祖林 . 一种 城市 径流量 的 计算方法 — — 径流 曲线 数值 方程 ( CNE ) [ J ] . 上海 环境 科学 , 1987 , 6 ( 12 ) ： 39 ～ 41 . 
+ ［ 9 ］ 周乃晟 , 贺宝根 . 城市 水文学 概论 [ M ] . 上海 ： 华东师范大学出版社 , 1995.101 . 
+ 
+ 收稿 日期 ： 2000 年 4 月 3 日 
+ 出版日期 ： 2001 年 5 月 30 日 

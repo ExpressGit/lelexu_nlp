@@ -1,0 +1,102 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1999 年 第 19 卷 　 第 5 期 　 Vol.19 No.51999 
+ 
+ 
+ 
+ 几种 矿业 废物 的 酸化 潜力 
+ 束 文圣 　 黄立南 　 张志权 　 蓝崇钰 　 李世华 　 招文锐 
+ 摘要 ： 利用 净产酸 ( NAG ) 试验 和 净产酸 潜力 ( NAPP ) 试验 , 研究 了 采自 8 个 矿山 共 9 种 废物 的 49 个 样品 的 产酸 潜力 . 结果表明 , 大部分 的 样品 都 具有 产酸 潜力 , 这 是因为 它们 较 高 的 含硫量 或 较 低 的 酸 中 和 能力 . 本 研究 也 发现 NAG 试验 要 比 NAPP 试验 更能 准确 地 预测 废物 的 产酸 情况 , 供试 的 废物 产酸 与否 的 NAG - pH 阈值 是 NAG - pH35 , 不产酸 ; NAG - pH ￡ 2.5 , 中度 或 高度 产酸 ; NAG - pH > 2.5 且 < 5 , 低度 产酸 . 本 研究 结果 可 为 矿业 废物 的 环境 管理 提供 科学依据 . 
+ 关键词 : 矿业 废物 ； 产酸 潜力 ； 净产酸 试验 
+ 中 图 分类号 ： X153 文献 标识码 ： A 文章 编号 ： 1000 - 6923 ( 1999 ) 05 - 0402 - 04 
+ Theacidproducingpotentialofsomeminewastes . 
+ SHUWen - sheng1 , HUANGLi - nan1 , ZHANGZhi - quan1 , LANChong - yu1 , LIShi - hua1 , ZHAOWen - rui2 
+ ( 1 . DepartmentofBiology , SchoolofLifeSciences , ZhongshanUniversity , Guangzhou510275 , China ； 2 . ShaoguanEnvironmentalProtectionInstitute , Shaoguan512000 , China ) . ChinaEnvironmentalScience.1999 , 19 ( 5 ) ： 402 ～ 405 
+ Abstract ： Theacidproducingpotentialof49samples , representing9kindsofwastescollectedfrom8mines , wasstudiedusingbothNAG ( netacidgeneration ) andNAPP ( netacidproducingpotential ) test . Theresultsindicatedthatmostofthesampleshadacidproducingpotential , becauseofthehighsulfurcontentorlowacidneutralizationcapacity . ItalsodemonstratedthatNAGtestwasmoreaccuratethanNAPPtestinpredictingtheacidformingpotentialofminewastes . Thecut - offvaluesofNAG - pHfortheminewastestestedwereNAG - pH35 , non - acidforming ; NAG - pH ￡ 2.5 , moderateorstrongacidforming ; NAG - pH > 2.5 and < 5 , lowacidforming . Thesefindingswillhaveabasisofscienceintheenvironmentalmanagementofminewastes . 
+ Keywords ： minewastes ； acidproducingpotential ； netacidgeneration 
+ 　 　 矿山 开采 不可避免 地会 产生 大量 的 固体废物 , 它 包括 剥离 废土 、 废石 或 低 品位 矿石 和 尾矿 等 . 很多 矿业 废物 含硫量 较 高 , 由 硫 的 氧化 而 导致 的 酸化 和 酸性 废水 排放 是 矿山 环境污染 的 主要 问题 之一 . 酸化 及 酸性 废水 的 污染 具有 广泛性 、 严重性 和 长期性 等 特点 , 因此 , 世界 各国 都 高度重视 对 废物 治理 的 研究 [ 1 ] , 酸化 的 预测 就是 其 重要 的 一面 [ 2 , 3 ] . 中国矿业 废物 的 酸化 问题 十分 突出 , 国内 在 此 领域 的 研究 侧重于 酸化 的 机理 与 酸化 的 环境影响 , 而 酸化 的 预测 研究 极少 [ 4 , 5 ] . 本文 应用 两种 方法 预测 中国 数个 矿山 废物 的 酸化 情况 , 同时 也 比较 这 两种 方法 的 优劣 , 为 矿业 废物 酸化 的 控制 提供 科学依据 . 
+ 1 材料 与 方法 
+ 1.1 样品 采集 与 处理 
+ 　 　 试验 所 研究 的 废物 包括 广东省 境内 的 阳春 硫铁矿 废土 , 云浮 硫铁矿 废土 , 阳春 石录 铜矿 的 尾矿 、 废土 , 茂名 油页岩 渣 , 仁化 花坪 煤矿 煤矸石 , 甘肃省 境内 的 金川 镍 矿 尾矿 和 白银 铜矿 尾矿 , 陕西 华阴 的 金堆 城 钼矿 尾矿 . 根据 每种 废物 的 堆 存量 及其 质地 的 均匀 情况 , 分别 采集 4 ～ 8 个 混合 样品 , 共 49 个 样品 . 采样 深度 为 20cm , 风干 , 磨碎 , 过 1mm 筛 , 供 各项 试验 . 样品 的 初始 pH 值 按 1 : 1 水土 比 ( v / v ) 用 pH 计 测定 ; 总含 S 量用 PE - CHNS 全自动 分析仪 测定 . 
+ 1.2 酸中 和 能力 的 测定 和 净产酸 潜力 的 计算 [ 6 ] 
+ 　 　 酸中 和 能力 ( acidneutralizingcapacity , ANC ) : 100mL 烧杯 中 加入 lg 样品 , 再 移入 25mL0.2 mol / LHCl , 90 ℃ 加热 3h , 冷却 , 用 0.2 mol / LNaOH 滴定 过量 的 HCl , 则 ANC 可 按 下式 计算 : 
+ ANC ( kgH2SO4 / t ) = [ ( 25 - m ) × 0.2 × 98 × 10 - 6 ] / 
+ ( 2 × w × 10 - 6 ) 
+ 式 中 : m 为 NaOH 的 用量 ; w 为 样品 重量 . NAPP 可 按 下式 计算 ： 
+ 　 　 NAPP ( kgH2SO4 / t ) = MPA - ANC 
+ 式 中 : MPA = 样品 总含 S 量 ( % ) × 30.6 
+ 1.3 净产酸量 的 测定 [ 6 ] 
+ 　 　 净产酸量 ( netacidgeneration , NAG ) : 加 2.5 g 样品 到 500mL 的 锥形瓶 中 , 再 加入 250mL150g / L 的 H2O2 , 在 通风 橱 中 放置 24h , 煮沸 lh 左右 除去 残余 的 H2O2 , 冷却 , 测 pH 值 , 即为 NAG - pH , 再用 0.1 mol / L 的 NaOH 将 其 滴定 至 pH 值为 7 . NAG 可 按 下式 求出 : 
+ NAG ( kgH2SO4 / t ) = ( 0.1 × m × 98 × 103 ) / ( 2 × w ) , 
+ 式 中 : m 为 NaOH 的 用量 ; w 为 样品 重 . 
+ 2 结果 与 讨论 
+ 2.1 各种 废物 的 酸化 情况 
+ 　 　 各种 废物 的 初始 pH 值 、 NAG 、 ANC 、 NAPP 、 总 S 和 NAG - pH 见表 1 . 
+ 表 1 几种 矿业 废物 的 产酸 情况 
+ Table1Theacidproducingpotentialofsomeminewastes 
+ 
+ 样品 初始 pH 值 ANCNAPPNAG 总 S ( % ) NAG - pH 样品 初始 
+ pH 值 ANCNAPPNAG 总 S ( % ) NAG - pH 
+ S1 * 5.5017 . 2 - 7.37 . 80.324 . 67S264.15 - 23.553 . 926.10 . 993.18 
+ S25.6829 . 2 - 17.80 . 70.375 . 99S273.20 - 24.528 . 829.40 . 143.21 
+ S32.45 - 80.9196 . 040.23 . 752.60 S285.654 . 45.148 . 00.313 . 65 
+ S42.15 - 71.1172 . 469.63 . 302.39 S296.1555 . 9 - 51.666 . 90.143 . 43 
+ S52.3230 . 6 - 20.215 . 70.344 . 05S301.95 - 85.8158 . 573.42 . 371.97 
+ S66.002 . 583.515 . 52.804 . 10S313.50 - 12.335 . 016.70 . 742.92 
+ S73.149 . 627.326 . 71.203 . 42S326.3573 . 5 - 52.300 . 697.42 
+ S85.7043 . 623.939 . 72.203 . 26S336.7585 . 8 - 71.300 . 477.43 
+ S94.67 - 4.9106 . 246.33 . 303.34 S344.2818 . 221.11 . 31.282 . 78 
+ S106.1515 . 55231.12 . 203.45 S353.85 - 13.239 . 30.90 . 853.01 
+ S112.25 - 161.7473 . 9161.110 . 171.78 S366.50104 . 9 - 86.400 . 607.38 
+ S124.85 - 6.937 . 622.31 . 002.65 S376.40117 . 1 - 79.001 . 248.18 
+ S137.0248 . 5 - 45.100 . 117.04 S386.85116 . 6 - 85.301 . 027.60 
+ S147.2556 . 4 - 30.900 . 837.24 S397.40120 . 1 - 66.01 . 01.766 . 56 
+ S157.15100 . 2 - 92.80 . 90.246 . 35S407.50121 . 0 - 119.500 . 058.37 
+ S166.9556 . 4 - 45.600 . 357.05 S417.347 . 34.600 . 399.75 
+ S177.25104 . 9 - 102.100 . 097.85 S427.52111 . 2 - 43.18 . 32.223 . 55 
+ S187.20120 . 1 - 119.100 . 038.43 S436.7076 . 47.416 . 22.733 . 19 
+ S196.88121 . 0 - 118.300 . 098.38 S447.1373 . 5 - 5.712 . 72.213 . 24 
+ S207.33120 . 8 - 118.600 . 078.06 S457.1584 . 9 - 0.513 . 22.753 . 21 
+ S217.58121 . 0 - 120.100 . 0310.10 S463.00 - 9.3668 . 7257.521 . 482.20 
+ S227.05119 . 1 - 116.600 . 088.21 S472.40 - 78.4517 . 789.214 . 312.24 
+ S233.89 - 49.570 . 730.70 . 693.04 S482.45 - 39.2702 . 9293.021 . 622.18 
+ S244.00 - 18.140 . 270.90 . 723.32 S493.12 - 41.3590 . 8227.817 . 902.23 
+ S254.65 - 15.772 . 241.71 . 843.37 　 　 　 　 　 　 　 
+ 
+ 注 ： * S1 ～ 5 : 阳春 硫铁矿 废土 , S6 ～ 12 : 云浮 硫铁矿 废土 , S13 ～ 17 : 阳春 铜矿 废土 , S18 ～ 22 : 阳春 铜矿 尾矿 , S23 ～ 30 : 茂名 油页岩 渣 , S31 ～ 36 : 花坪 煤矸石 , S37 ～ 41 : 金川 镍 矿 尾矿 , S42 ～ 45 : 金堆 城 钼矿 尾矿 , S45 ～ 49 : 白银 铜矿 尾矿 ANC 、 NAPP 、 NAG 单位 均 为 kgH2SO4 / t 
+ 　 　 阳春 硫铁矿 废土 ( S1 ～ 5 ) , 总含 S 量 较 低 , 根据 NAG 和 NAG - pH 的 试验 结果 , 5 个 样品 全部 产酸 , 而 NAPP 的 结果表明 只有 S3 和 S4 产酸 , 其余 3 个 样品 均 不产酸 . 
+ 　 　 云浮 硫铁矿 废土 ( S6 ～ 12 ) 虽含 S 量 较 低 , 但 ANC 的 值 也 很 低 , NAG 和 NAPP 两种 方法 都 表明 该类 废土 全部 产酸 . 不过 由 NAPP 计算 出 的 产酸量 高于 NAG 值 . 
+ 　 　 阳春 铜矿 废土 ( S13 ～ 17 ) , 含 S 量 低 , 且 ANC 高 , NAG 和 NAPP 值均 表明 样品 全部 不产酸 . 阳春 铜矿 尾矿 ( S18 ～ 22 ) 的 情况 一样 , 全部 不产酸 . 
+ 　 　 阳春 铜矿 尾矿 ( S23 ~ 30 ) , 样品 初始 pH 值 < 7 , 表明 样品 已 发生 一定 程度 的 酸化 , 并 消耗掉 样品 中 的 碱性 物质 , 因而 ANC 呈 负值 . 由于 样品 也 存在 一定量 的 S , NAG - pH 低于 初始 pH 值 , 表明 样品 还有 进一步 酸化 的 可能 , NAPP 和 NAG 表明 了 同样 的 结果 . 
+ 　 　 花坪 煤矸石 ( S31 ～ 36 ) , 根据 NAG 和 NAPP 的 试验 结果 , 一致 表明 其中 3 个 样品 产酸 ( S31 、 S34 和 S35 ) , 这 是因为 样品 的 初始 pH 值 就 比较 低 , ANC 较 小 或 呈 负值 . 因此 存在 极少量 的 S 就 会 足以 导致 进一步 的 酸化 . 
+ 　 　 金川 镍 矿 尾矿 ( S37 ～ 41 ) , 样品 含 S 量 较 低 , ANC 值较 高 , 因而 无论是 NAPP 或 NAG 都 表明 全部 样品 无产 酸 潜力 . 
+ 　 　 金堆 城 钼矿 尾矿 ( S42 ～ 45 ) , 尾矿 的 含 S 量 在 2.5% 左右 , ANC 值 也 较 高 , NAPP 值 表明 样品 基本 不产酸 , 而 NAG 的 试验 结果 却 表明 全部 样品 都 会 酸化 . 
+ 　 　 白银 铜矿 尾矿 ( S46 ～ 49 ) , 样品 初始 pH 值 很 低 , 说明 该 尾矿 已 发生 较强 的 酸化 , 因此 ANC 均 呈 负值 , 同时 , 由于 样品 的 含 S 量 极 高 , NAPP 和 NAG 的 值 都 很 高 , 它们 一致 表明 尾矿 还会 进一步 酸化 . 其中 NAPP 要 高于 NAG 一倍 以上 , 甚至 接近 6 倍 ( S47 ) . 
+ 　 　 在 所 研究 的 9 种 废物 中 , 5 种 废物 全部 产酸 ( 阳春 硫铁矿 废土 、 云浮 硫铁矿 废土 、 茂名 油页岩 渣 、 金堆 城 钼矿 尾矿 和 白银 铜矿 尾矿 ) , 其中 白银 铜矿 尾矿 的 酸化 情况 极为 严重 , NAG - pH 全部 小于 2.5 ; 花坪 煤矸石 部分 产酸 ; 只有 阳春 铜矿 废土 和 尾矿 、 金川 镍 矿 尾矿 无产 酸 潜力 . 由此看来 , 酸化 是 矿业 废物 中 较为 普遍 的 问题 . 
+ 2.2 NAPP 和 NAG 试验 结果 的 比较 
+ 　 　 废物 是否 酸化 主要 取决于 它 可 酸化 物质 S 的 含量 以及 废物 本身 中和酸 的 能力 ( ANC ) . NAPP 是 通过 对 含 S 量 和 ANC 的 测定 , 再 推导 、 计算 废物 的 产酸量 , 所 代表 的 是 理论值 . 而 NAG 主要 是 通过 加入 H2O2 , 使 废物 中 的 S 快速 氧化 产酸 , 在 此 过程 中 , 所 产生 的 酸 与 废物 的 碱性 物质 发生 中 和 反应 , 酸性 物质 被 ANC 消耗 后 , 剩余 酸量 为 NAG , 因此 , 它 要 比 NAPP 更为 接近 实际 情况 [ 6 , 7 ] . 本 试验 中 , NAPP 和 NAG 在 产酸 与否 的 定性 结果 上 基本一致 , 但 也 存在 一定 的 差异 , 如 NAG 指示 S1 ～ S5 全部 产酸 , 而 NAPP 则 认为 只有 S3 和 S4 产酸 ; 两者 在 产酸量 多少 的 定量 结果 方面 , NAPP 的 值 一般 都 显著 高于 NAG , 个别 样品 甚至 高达 6 倍 左右 ( 如 S47 ) , 可见 两者 在 定量 方面 的 差别 很大 . NAPP 过高估计 样品 的 产酸 潜力 的 原因 可能 是 NAPP 的 值 由 总 S 计算 得出 , 而 只有 黄铁矿 硫 和 有机 硫 等 才 参加 产酸 反应 , 而 SO42 - 中 的 S 则 不 参加 反应 ; 由于 晶体结构 不同 、 废物 颗粒 大小 不同 , 黄铁矿 硫 本身 也 不会 完全 参加 反应 [ 8 , 9 ] . 由此可见 , NAG 试验 要 比 NAPP 试验 结果 更为 准确 地 预测 废物 的 产酸 潜力 . 此外 , NAG 试验 也 要 比 NAPP 试验 方便 、 快速 . 当然 , NAPP 试验 也 非全 无 意义 , 因为 它 基于 精确 的 S 和 ANC 的 测定 , 有助于 了解 酸化 究竟 是因为 废物 含 S 太高 ( 如 白银 铜矿 尾矿 ) , 或者 是 含 S 并 不 高 , 但 因 ANC ( 酸中 和 能力 ) 较 低 所 引起 的 ( 如 云浮 硫铁矿 废土 ) . 因此 , 将 NAG 和 NAPP 试验 综合 使用 , 有助于 正确 、 完整 地 了解 废物 酸化 情况 . 
+ 2.3 NAG 与 NAG - pH 的 关系 
+ 　 　 NAG 与 NAG - pH 的 关系 见图 1 . 通过 对图 1 的 分析 , 不难 发现 , NAG 与 NAG - pH 之间 有着 明显 的 联系 , 当 NAG - pH > 5 时 , 废物 不产酸 ; 当 NAG - pH < 5 且 > 2.5 时 , 废物 的 产酸量 一般 都 小于 50kgH2SO4 / t , 只有 两个 样品 S24 、 S29 例外 , 可 视为 低度 产酸 ; 当 NAG - pH ≤ 2.5 时 , 废物 的 产量 都 大于 50kgH2SO4 / t , 中度 或 高度 产酸 . 本 试验 的 结果 与 前人 的 一些 工作 极为 相近 [ 6 , 8 ] , 进一步 论证 了 NAG - pH 可以 极好地 从 定性 和 定量 两 方面 指示 不同 类型 废物 的 酸化 情况 . 因为 NAG - pH 只 需向 一定 样品 中 加入 H2O2 反应 后 , 就 可以 测定 pH 值 , 因而 可 方便 地 用于 大量 样品 酸化 潜力 的 快速 测定 . 
+ 
+ 净产酸量 ( NAG ， kgH2SO4 / t ) 
+ 图 1 净产酸量 ( NAG ) 与 NAG - pH 值 的 关系 
+ Fig.1 TherelationshipbetweenNAG ( netacidgeneration ) andNAG - pH 
+ 3 小结 
+ 　 　 在 对 8 个 矿山 的 9 种 矿业 废物 酸化 的 预测 研究 表明 , 矿业 废物 较为 普遍 地 存在 着 酸化 风险 , 是 矿业 废物 环境 管理 中应 重视 的 问题 . 
+ 　 　 NAG 作为 直接 测得 的 反应 结果 , 较 理论值 NAPP 更能 准确 地 预测 矿业 废物 的 酸化 情况 , 但 NAPP 却 能 指出 酸化 产生 的 原因 . 
+ 　 　 NAG - pH 与 NAG 有着 明显 的 相关性 . NAG - pH 可以 从 定性 和 定量 两 方面 预测 不同 废物 的 酸化 情况 . 本 研究 中 各种 废物 的 产酸 与否 的 阈值 为 : NAG - pH > 5 , 不产酸 ; NAG - pH < 5 且 > 2.5 , 低度 产酸 ( NAG ≤ 50kgH2SO4 / t ) ; NAG - pH ≤ 2.5 时 , 中度 或 高度 产酸 ( NAG > 50kgH2SO4 / t ) . 上述 的 NAG - pH 阈值 适用 于本 研究所 涉及 的 9 种 矿业 废物 的 酸化 预测 . 
+ 基金项目 ： 国家自然科学基金 资助 项目 ( 39770154 ) 
+ 作者简介 ： 束 文圣 ( 1968 - ) , 男 , 安徽 庐江 人 , 博士 , 中山大学 讲师 , 华南 生物科学 与 技术 研究 中心 副 秘书长 . 主要 从事 矿业 废弃地 的 生态学 以及 植物 的 重金属 耐性 研究 . 曾 参加 国家自然科学基金 项目 “ 铅锌 尾矿 植被 重建 中 的 生态学 问题 研究 ” 等 的 研究 工作 . 现正 从事 国家自然科学基金 “ 矿业 废弃地 植被 恢复 中 废物 的 酸化 预测 与 过程 控制 研究 ” 的 研究 工作 . 发表 论文 10 余篇 . 
+ 作者 单位 ： 束 文圣 　 黄立南 　 张志权 　 蓝崇钰 　 李世华 　 中山大学 生命科学 学院 生物系 , 广东 广州 510275 
+ 　 　 　 　 　 招文锐 　 韶关市 环境 科学 研究所 , 广东 韶关 512000 
+ 参考文献 ： 
+ 　 [ 1 ] WilliamsonNA , JohnsonMS , BradshawAD . Minewastesreclamation [ M ] . MiningJournalBooksLtd . , London.1982 . 
+ 　 [ 2 ] RobbG , RobinsonJ . Acidminedrainagepredictionandremediation [ J ] . MiningEnvironmentalManagement , 1995 , 3 ( 3 ) : 19 - 21 . 
+ 　 [ 3 ] 蓝崇钰 , 束 文圣 , 孙庆业 . 采矿 地 的 复垦 [ A ] . 陈昌笃 . 持续 发展 与 生态学 [ M ] . 北京 : 中国 科技 出版社 , 1993.132 - 138 . 
+ 　 [ 4 ] 沈景文 . 酸性 矿坑 水 的 污染 与 防治 [ J ] . 环境 科学 动态 , 1988 , ( 6 ) : 20 - 23 . 
+ 　 [ 5 ] 林 玉环 , 李琪 . 矿山 酸性 废水 对 乐安 江 水质 的 影响 [ J ] . 环境 科学 , 1992 , 13 ( 4 ) : 9 - 14 . 
+ 　 [ 6 ] MillerSD , JefferyJJ , WongJWC . Useandmisuseoftheacid - baseaccountforAMDprediction [ A ] . ProceedingsoftheSecondInternationalConferenceontheAbatementofAcidDrainage [ C ] . Montreal , 1991.16 - 18 . 
+ 　 [ 7 ] FinkelamanRB , GiffinDE . Hydrogenperoxideoxidation : animprovedmethodforrapidlyassessingacid - generatingpotentialofsedimentsandsedimentaryrocks [ J ] . RecreationandRevegetationResearch , 1986 , 5 : 521 - 534 . 
+ 　 [ 8 ] ShuWS , YeZH , LanCY , etal . AcidformingpotentialofaPb / ZnminetailingsatLechang [ A ] . InternationalConferenceontheRemediationandManagementofDegradedLands [ C ] . HongKong , 1996.3 - 6 . 
+ 　 [ 9 ] HossnerLR ( Ed . ) . Reclamationofsurface - minedlands [ M ] . CRCPress , BocaRaton , Florida.1988 . 
+ 收稿 日期 ： 1999 - 01 - 25 

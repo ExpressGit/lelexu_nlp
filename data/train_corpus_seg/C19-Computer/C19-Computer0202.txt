@@ -1,0 +1,1081 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 2000 　 Vol.11 　 No.3 　 P.346 - 362 
+ 
+ 
+ 
+ 
+ 电子商务 安全 协议 的 逻辑 验证 
+ 陈庆锋 　 王驹 　 白硕 　 张师超 　 隋立颖 
+ 摘要 　 作者 在 以前 所 做 的 工作 中 , 已 对 电子商务 安全 ( secureelectronictransactions , 简称 SET ) 中 抽取 的 片段 进行 了 证明 , 也 对 SET 中 可能 存在 的 问题 进行 了 初步 探讨 . 该文 在 此基础 上 , 对 SET 的 整个 业务流程 进行 了 严格 的 逻辑 验证 , 通过 形式化 逻辑 方法 的 验证 , 发现 了 SET 协议 中 存在 的 一些 问题 , 并 对 如何 解决 这些 问题 进行 了 初步 的 探讨 . 
+ 关键词 　 信息安全 , 逻辑 验证 , 防 抵赖 性 , 可追踪 性 . 
+ 中图法 分类号 　 TP309 
+ LogicalVerificationofSecureElectronicTransactionsProtocol 
+ CHENQing - feng 　 BAIShuo 　 SUILi - ying 
+ ( NationalResearchCenterforIntelligentComputersBeijing100080 ) 
+ CHENQing - feng 　 ZHANGShi - chao 
+ ( DepartmentofMathemeticsandComputerScienceGuangxiNormalUniversityGuilin541005 ) 
+ WANGJu 
+ ( InstituteofSoftwareTheChineseAcademyofSciencesBeijing100080 ) 
+ Abstract 　 Inthepreviouswork , somesegmentsofsecureelectronictransactions ( SET ) areverified , andsomepotentialproblemsinSETarealsodiscussed . Basedonthese , alltransactionsinSETarestrictlylogicallyverifiedinthispaper . Thoughthisformallogicverification , certainproblemsarefoundtodoexistinSET . Solutionstotheseproblemsarealsodiscussed . 
+ Keywords 　 Informationsecurity , logicalverification , accountability , traceable . 
+ 　 　 近年来 , 越来越 多 的 组织 和 个人 通过 国际 互联网 Internet 发送 和 接收 信息 , 而且 据 统计数字 表明 , 随着 社会 经济 的 发展 , 它 仍 在 呈上升 趋势 . 对于 这些 在 网上 传输 的 信息 , 大家 都 关注 着 同一个 问题 — — 信息安全 . 针对 这一 问题 , 产生 了 很多 保障 信息安全 的 防范措施 . 
+ 　 　 目前 世界 上 比较 流行 的 有关 信息安全 领域 的 研究 大体 可以 分为 如下 几类 . 首先 是 比较 传统 的 做法 , 即用 数学 手段 对 加密算法 进行 改进 , 达到 所 需要 的 目标 , 它 具有 严密 、 不易 被 攻破 的 特性 , 但 它 同时 也 比较 抽象 、 难懂 , 且 无法 防范 通过 非法手段 获取信息 的 行为 . 对于 一些 金融业务 , 这是 一个 不可 忽视 的 环节 . 其次 是 一些 新 科技 的 应用 , 例如 日本 的 高科技 研究所 信息 科学系 的 KenichiHAYASHI , EijiOKAMOTO 和 MasahiroMAMBO ［ 1 ］ 根据 每个 人 使用 鼠标 的 习惯 , 设计 了 一个 模式识别 系统 , 用 鼠标 就 可以 辨认出 每个 人 的 身份 , 但 它 只能 作用 于 访问控制 , 而 无法 解决 信息 在 传递 过程 中 的 安全 问题 . 美国 军方 海军 实验室 的 LiWuChang 和 IraS . Moskowitz ［ 2 ］ 采用 声音 隐藏 技术 把 要 传输 的 信息 隐藏 于 宿主 信息 中 通过 各种 电子媒体 如 电话线 、 E - mail 、 打包 的 方式 传递 , 根据 这一 特点 , 它 更 适合 于 通信 领域 . 还有 一种 在 金融 上 比较 广泛 研究 的 Agent 技术 ［ 3 ］ , 通过 采用 一些 安全 的 Agent 自动 分析 信息 , 并 代替 雇主 进行 交易 . 这些 方法 各有 优点 , 但 它们 都 要 使用 额外 的 外设 , 在 金融业务 中 , 这会 增加 成本 开支 , 而且 一旦 设备 崩溃 , 就 会 造成 无法挽回 的 后果 . 安全 协议 的 出现 , 在 一定 程度 上 祢 补 了 这些 不足之处 , 但 协议 本身 相当 复杂 , 它 是否 无懈可击 , 无法 凭 直观 来 检测 , 因此 产生 了 形式化 逻辑 验证 方法 ［ 4 , 5 ］ , 其中 文献 ［ 6 ］ 中 对 NDL 逻辑 框架 的 扩展 , 已经 成功 地 验证 了 电子商务 安全 ( secureelectronictransactions , 简称 SET ) ［ 7 ］ 中 的 部分 流程 . 总的看来 , 形式化 逻辑 验证 方法 以 其 严谨 、 简洁 的 特点 在 安全 协议 的 验证 上起 着 重要 作用 . 
+ 　 　 本文 在 文献 ［ 6 , 8 ］ 工作 的 基础 上 ， 在 第 1 节中 对 SET 协议 的 整个 付费 流程 进行 验证 . 第 2 节 初步 探讨 了 在 证明 中 发现 的 问题 . 最后 一节 对 本文 进行 总结 . 
+ 1SET 协议 的 逻辑 验证 
+ 　 　 在 文献 ［ 6 ］ 中 我们 只 列举 了 SET 的 3 个 范例 , 用 扩展 后 的 NDL 逻辑 框架 对 它们 进行 了 逻辑 验证 . 下面 将 给出 SET 付费 业务流程 的 5 个 阶段 的 全面 证明 . 
+ 　 　 首先 我们 给出 两个 定理 : 
+ 　 　 定理 3 . Know ( x , CertS ( y ) ) → Know ( x , Spb ( y ) ) . 
+ 　 　 证明 : 
+ 　 　 ( 1 ) Know ( x , CertS ( y ) ) 
+ ［ 前提 ］ 
+ 　 　 ( 2 ) Know ( x , Sign ( CA , 〈 y , Spb ( y ) 〉 ) ) 
+ ( 1 ) ［ 定义 ］ 
+ 　 　 ( 3 ) Know ( x , 〈 〈 y , Spb ( y ) 〉 , S ( H ( 〈 y , Spb ( y ) 〉 ) , Spv ( CA ) ) 〉 ) 
+ ( 2 ) ［ 定义 ］ 
+ 　 　 ( 4 ) Know ( x , 〈 y , Spb ( y ) 〉 ) 
+ ( 3 ) ［ 6 - 1 ］ 
+ 　 　 ( 5 ) Know ( x , Spb ( y ) ) 
+ ( 4 ) ［ 6 - 1 ］ 
+ 　 　 ( 5 ) 即 为 所求 . 
+ □ 
+ 　 　 定理 4 . Know ( x , CertK ( y ) ) → Know ( x , Kpb ( y ) ) . 
+ 　 　 证法 同 定理 3 . 
+ 1.1 SET 协议 中 的 持卡人 注册 流程 验证 
+ 　 　 已知 : 
+ P = { Know ( CA , CertS ( CA ) ) , Know ( CA , CertK ( CA ) ) , Know ( C , Acct ( C ) ) , Know ( C , Spb ( CARoot ) ) , 
+ Know ( C , Kpb ( CARoot ) ) } , 
+ α = Generate ( C , InitReq ) 甋 end ( C , CA , InitReq ) 瓽 enerate ( CA , InitRes ) 
+ Send ( CA , C , Sign ( CA , InitRes ) ) 甋 end ( CA , C , CertS ( CA ) ) 甋 end ( CA , C , CertK ( CA ) ) 
+ Verify ( C , CertS ( CA ) , 〈 X2 , ... , Xn - 1 , CARoot 〉 ) 甐 erify ( C , CertK ( CA ) , 〈 X2 , ... , Xn - 1 , CARoot 〉 ) 
+ Generate ( C , RegFormReq ) 瓽 enerate ( C , k1 ) 甋 end ( C , CA , E ( RegFormReq , k1 ) ) 
+ Send ( C , CA , S ( 〈 k1 , Acct ( C ) 〉 , Kpb ( CA ) ) ) 瓽 enerate ( CA , RegForm ) 
+ Send ( CA , C , CertS ( CA ) ) 甋 end ( CA , C , Sign ( CA , RegForm ) ) 
+ Verify ( C , CertS ( CA ) , 〈 X2 , ... , Xn - 1 , CARoot 〉 ) 瓽 enerate ( C , 〈 Spb ( C ) , Spv ( C ) 〉 ) 
+ Generate ( C , Filled - RegForm ) 瓽 enerate ( C , CertReq ) 瓽 enerate ( C , k2 ) 
+ Generate ( C , k3 ) 甋 end ( C , CA , E ( Sign ( C , 〈 CertReq , k2 , Spb ( C ) 〉 ) , k3 ) ) 
+ Send ( C , CA , S ( 〈 k3 , Acct ( C ) 〉 , Kpb ( CA ) ) ) 甃 egal ( CA , CertReq ) 
+ Generate ( CA , CertS ( C ) ) 瓽 enerate ( CA , CertRes ) 
+ Send ( CA , C , E ( Sign ( CA , CertRes ) , k2 ) ) 甋 end ( CA , C , CertS ( CA ) ) 
+ Send ( CA , C , CertS ( C ) ) 甐 erify ( C , CertS ( CA ) , 〈 X2 , ... , Xn - 1 , CARoot 〉 ) 
+ Verify ( C , CertS ( C ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) , 
+ Q = { Auth ( C , X2 , 〈 CA , Spb ( CA ) 〉 ) , Auth ( C , X2 , 〈 CA , Kpb ( CA ) 〉 ) , Auth ( C , CA , InitRes ) , 
+ Auth ( C , X2 , 〈 CA , Spb ( CA ) 〉 ) , Auth ( C , CA , RegForm ) , 
+ Auth ( CA , C , 〈 CertReq , k2 , Spb ( C ) 〉 ) ; Auth ( C , X2 , 〈 CA , Spb ( CA ) 〉 ) , 
+ Auth ( C , CA , 〈 C , Spb ( C ) 〉 ) , Auth ( C , CA , CertRes ) } . 
+ 求证 : P α Q 
+ 证明 : 
+ ( 1 ) Know ( CA , CertS ( CA ) ) 
+ ［ 前提 ］ 
+ ( 2 ) Know ( CA , CertK ( CA ) ) 
+ ［ 前提 ］ 
+ ( 3 ) Know ( C , Acct ( C ) ) 
+ ［ 前提 ］ 
+ ( 4 ) 　 Know ( C , Spb ( CARoot ) ) 
+ ［ 前提 ］ 
+ ( 5 ) 　 Know ( C , Kpb ( CARoot ) ) 
+ ［ 前提 ］ 
+ ( 6 ) 　 Generate ( C , InitReq ) 
+ ［ 动作 ］ 
+ ( 7 ) 　 Know ( C , InitReq ) 
+ ( 6 ) ［ R - 2 ］ 
+ ( 8 ) 　 Send ( C , CA , InitReq ) 
+ ［ 动作 ］ 
+ ( 9 ) 　 Know ( CA , InitReq ) 
+ ( 8 ) ［ R - 1 ］ 
+ ( 10 ) Generate ( CA , InitRes ) 
+ ［ 动作 ］ 
+ ( 11 ) Know ( CA , InitRes ) 
+ ( 10 ) ［ R - 2 ］ 
+ ( 12 ) Know ( CA , Spv ( CA ) ) 
+ ［ 2 - 2 ］ 
+ ( 13 ) Know ( CA , S ( H ( InitRes ) , Spv ( CA ) ) ) 
+ ( 11 ) ( 12 ) ［ 4 - 2 ］ 
+ ( 14 ) Know ( CA , 〈 InitRes , S ( H ( InitRes ) , Spv ( CA ) ) 〉 ) 
+ ( 11 ) ( 13 ) ［ 6 - 1 ］ 
+ ( 15 ) Know ( CA , Sign ( CA , InitRes ) ) 
+ ( 14 ) ［ 定义 ］ 
+ ( 16 ) Send ( CA , C , Sign ( CA , InitRes ) ) 
+ ［ 动作 ］ 
+ ( 17 ) Send ( CA , C , CertS ( CA ) ) 
+ ［ 动作 ］ 
+ ( 18 ) Send ( CA , C , CertK ( CA ) ) 
+ ［ 动作 ］ 
+ ( 19 ) Know ( C , Sign ( CA , InitRes ) ) 
+ ( 16 ) ［ R - 1 ］ 
+ ( 20 ) Know ( C , CertS ( CA ) ) 
+ ( 17 ) ［ R - 1 ］ 
+ ( 21 ) Know ( C , CertK ( CA ) ) 
+ ( 18 ) ［ R - 1 ］ 
+ ( 22 ) Verify ( C , CertS ( CA ) , 〈 X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 4 ) ( 20 ) ［ 动作 ］ 
+ / * 如果 检验 失败 , C 没有 在 PKI 树中 找到 CARoot , 则 持卡人 停止 注册 
+ 其中 X2 是 发放 CertS ( CA ) 的 上 一级 CA * / 
+ ( 23 ) IsVerified ( C , X2 , CertS ( CA ) ) 
+ ( 22 ) ［ R - 6 ］ 
+ ( 24 ) Auth ( C , X2 , 〈 CA , Spb ( CA ) 〉 ) 
+ ( 23 ) ［ 7 - 1 ］ 
+ / * X2 , ... , Xn - 1 , CARoot 为 PKI 树 的 各级 证书 授权 当局 * / 
+ ( 25 ) Verify ( C , CertK ( CA ) , 〈 X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 4 ) ( 21 ) ［ 动作 ］ 
+ / * 如果 检验 失败 , C 没有 在 PKI 树中 找到 CARoot , 则 持卡人 停止 注册 * / 
+ ( 26 ) IsVerified ( C , X2 , CertK ( CA ) ) 
+ ( 25 ) ［ R - 6 ］ 
+ ( 27 ) Auth ( C , X2 , 〈 CA , Kpb ( CA ) 〉 ) 
+ ( 26 ) ［ 7 - 2 ］ 
+ / * X2 , ... , Xn - 1 , CARoot 为 PKI 树 的 各级 证书 授权 当局 * / 
+ ( 28 ) Know ( C , Spb ( CA ) ) 
+ ( 20 ) ［ 定理 3 ］ 
+ ( 29 ) Auth ( C , CA , InitRes ) 
+ ( 19 ) ( 28 ) ［ 定理 2 ］ 
+ ( 30 ) Generate ( C , RegFormReq ) 
+ ［ 动作 ］ 
+ ( 31 ) Know ( C , RegFormReq ) 
+ ( 30 ) [ R - 2 ] 
+ ( 32 ) Generate ( C , k1 ) 
+ ［ 动作 ］ 
+ ( 33 ) Know ( C , k1 ) 
+ ( 32 ) ［ R - 2 ］ 
+ ( 34 ) Know ( C , E ( RegFormReq , k1 ) ) 
+ ( 31 ) ( 33 ) ［ 1 - 1 ］ 
+ ( 35 ) Know ( C , 〈 k1 , Acct ( C ) 〉 ) 
+ ( 3 ) ( 34 ) ［ 6 - 1 ］ 
+ ( 36 ) Know ( C , Kpb ( CA ) ) 
+ ( 21 ) ［ 定理 4 ］ 
+ ( 37 ) Know ( C , S ( 〈 k1 , Acct ( C ) 〉 , Kpb ( CA ) ) ) 
+ ( 35 ) ( 36 ) ［ 1 - 2 ］ 
+ ( 38 ) Send ( C , CA , E ( RegFormReq , k1 ) ) 
+ ［ 动作 ］ 
+ ( 39 ) Send ( C , CA , S ( 〈 k1 , Acct ( C ) 〉 , Kpb ( CA ) ) ) 
+ ［ 动作 ］ 
+ ( 40 ) Know ( CA , E ( RegFormReq , k1 ) ) 
+ ( 38 ) ［ R - 1 ］ 
+ ( 41 ) Know ( CA , S ( 〈 k1 , Acct ( C ) 〉 , Kpb ( CA ) ) ) 
+ ( 39 ) ［ R - 1 ］ 
+ ( 42 ) Know ( CA , 〈 k1 , Acct ( C ) 〉 ) 
+ ( 41 ) ［ 2 - 1 ］ ［ 3 - 2 ］ 
+ ( 43 ) Know ( CA , k1 ) 
+ ( 42 ) ［ 6 - 1 ］ 
+ ( 44 ) Know ( CA , Acct ( C ) ) 
+ ( 42 ) ［ 6 - 1 ］ 
+ ( 45 ) Know ( CA , RegFormReq ) 
+ ( 40 ) ( 43 ) ［ 3 - 1 ］ 
+ ( 46 ) Generate ( CA , RegForm ) 
+ ［ 动作 ］ 
+ ( 47 ) Know ( CA , RegForm ) 
+ ( 46 ) ［ R - 2 ］ 
+ ( 48 ) Know ( CA , H ( RegForm ) ) 
+ ( 47 ) ［ 4 - 1 ］ 
+ ( 49 ) Know ( CA , S ( H ( Regform ) , Spv ( CA ) ) ) 
+ ( 47 ) ( 12 ) ［ 4 - 2 ］ 
+ ( 50 ) Know ( CA , Sign ( CA , RegForm ) ) 
+ ( 47 ) ( 49 ) ［ 定义 ］ 
+ ( 51 ) Send ( CA , C , CertS ( CA ) ) 
+ ［ 动作 ］ 
+ ( 52 ) Send ( CA , C , Sign ( CA , RegForm ) ) 
+ ［ 动作 ］ 
+ ( 53 ) Know ( C , CertS ( CA ) ) 
+ ( 51 ) ［ R - 1 ］ 
+ ( 54 ) Know ( C , Sign ( CA , RegForm ) ) 
+ ( 52 ) ［ R - 1 ］ 
+ ( 55 ) Verify ( C , CertS ( CA ) , 〈 X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 4 ) ( 53 ) ［ 动作 ］ 
+ / * 如果 检验 失败 , C 没有 在 PKI 树中 找到 CARoot , 则 持卡人 停止 注册 * / 
+ ( 56 ) IsVerified ( C , X2 , CertS ( CA ) ) 
+ ( 55 ) ［ R - 6 ］ 
+ ( 57 ) Auth ( C , X2 , 〈 CA , Spb ( CA ) 〉 ) 
+ ( 56 ) ［ 7 - 1 ］ 
+ ( 58 ) Know ( C , Spb ( CA ) ) 
+ ( 53 ) ［ 定理 3 ］ 
+ ( 59 ) Auth ( C , CA , RegForm ) 
+ ( 54 ) ( 58 ) ［ 定理 2 ］ 
+ ( 60 ) Generate ( C , 〈 Spb ( C ) , Spv ( C ) 〉 ) 
+ ［ 动作 ］ 
+ ( 61 ) Know ( C , Spb ( C ) ) 
+ ( 60 ) ［ R - 2 ］ 
+ ( 62 ) Know ( C , Spv ( C ) ) 
+ ( 60 ) ［ R - 2 ］ 
+ ( 63 ) Generate ( C , Filled - RegForm ) 
+ ［ 动作 ］ 
+ / * 持卡人 C 向 注册表 填 信息 / eg , 持卡人 的 名称 , 届满 日期 , 帐单 地址 以及 其他 一些 被 金融机构 用来 识别 是否 为 持卡人 的 信息 * / 
+ ( 64 ) Generate ( C , CertReq ) 
+ ［ 动作 ］ 
+ / * CertReq 中 包含 了 向 注册表 RegForm 中 填入 的 信息 * / 
+ ( 65 ) Know ( C , CertReq ) 
+ ( 64 ) ［ R - 2 ］ 
+ ( 66 ) Generate ( C , k2 ) 
+ ［ 动作 ］ 
+ ( 67 ) Know ( C , k2 ) 
+ ( 66 ) ［ R - 2 ］ 
+ ( 68 ) Know ( C , 〈 CertReq , k2 , Spb ( C ) 〉 ) 
+ ( 65 ) ( 67 ) ( 61 ) ［ 6 - 1 ］ 
+ ( 69 ) Know ( C , S ( H ( CertReq , k2 , Spb ( C ) ) , Spv ( C ) ) ) 
+ ( 68 ) ( 62 ) ［ 4 - 2 ］ 
+ ( 70 ) Know ( C , Sign ( C , 〈 CertReq , k2 , Spb ( C ) 〉 ) ) 
+ ( 68 ) ( 69 ) ［ 定义 ］ 
+ ( 71 ) Generate ( C , k3 ) 
+ ［ 动作 ］ 
+ ( 72 ) Know ( C , k3 ) 
+ ( 71 ) ［ R - 2 ］ 
+ ( 73 ) Know ( C , E ( Sign ( C , 〈 CertReq , k2 , Spb ( C ) 〉 ) , k3 ) 
+ ( 70 ) ( 72 ) ［ 1 - 1 ］ 
+ ( 74 ) Know ( C , 〈 k3 , Acct ( C ) 〉 ) 
+ ( 3 ) ( 72 ) ［ 6 - 1 ］ 
+ ( 75 ) Know ( C , S ( 〈 k3 , Acct ( C ) 〉 , Kpb ( CA ) ) ) 
+ ( 74 ) ( 36 ) ［ 1 - 2 ］ 
+ ( 76 ) Send ( C , CA , E ( Sign ( C , 〈 〈 CertReq , k2 , Spb ( C ) 〉 ) , k3 ) ) 
+ ［ 动作 ］ 
+ ( 77 ) Send ( C , CA , S ( 〈 k3 , Acct ( C ) 〉 , Kpb ( CA ) ) ) 
+ ［ 动作 ］ 
+ ( 78 ) Know ( CA , E ( Sign ( C , 〈 CertReq , k2 , Spb ( C ) 〉 ) , k3 ) ) 
+ ( 76 ) ［ R - 1 ］ 
+ ( 79 ) Know ( CA , S ( 〈 k3 , Acct ( C ) 〉 , Kpb ( CA ) ) ) 
+ ( 77 ) ［ R - 1 ］ 
+ ( 80 ) Know ( CA , 〈 k3 , Acct ( C ) 〉 ) 
+ ( 79 ) ［ 2 - 1 ］ ［ 3 - 2 ］ 
+ 
+ 
+ ( 81 ) Know ( CA , k3 ) 
+ ( 80 ) ［ 6 - 1 ］ 
+ ( 82 ) Know ( CA , Acct ( C ) ) 
+ ( 80 ) ［ 6 - 1 ］ 
+ ( 83 ) Know ( CA , Sign ( C , 〈 CertReq , k2 , Spb ( C ) 〉 ) ) 
+ ( 78 ) ( 81 ) ［ 3 - 1 ］ 
+ ( 84 ) Know ( CA , 〈 CertReq , k2 , Spb ( C ) 〉 ) 
+ ( 83 ) ［ 定义 ］ 
+ ( 85 ) Know ( CA , CertReq ) 
+ ( 84 ) ［ 6 - 1 ］ 
+ ( 86 ) Know ( CA , k2 ) 
+ ( 84 ) ［ 6 - 1 ］ 
+ ( 87 ) Know ( CA , Spb ( C ) ) 
+ ( 84 ) ［ 6 - 1 ］ 
+ ( 88 ) Auth ( CA , C , 〈 CertReq , k2 , Spb ( C ) 〉 ) 
+ ( 83 ) ( 87 ) ［ 定理 2 ］ 
+ ( 89 ) Legal ( CA , CertReq ) 
+ ［ 动作 ］ 
+ / * CA 用 持卡人 知道 的 Acct ( C ) 和 CertReq 中 注册表 的 信息 检验 CertReq 的 合法性 * / 
+ ( 90 ) Generate ( CA , CertS ( C ) ) 
+ ［ 动作 ］ 
+ ( 91 ) Know ( CA , CertS ( C ) ) 
+ ( 90 ) ［ R - 2 ］ 
+ ( 92 ) Generate ( CA , CertRes ) 
+ ［ 动作 ］ 
+ ( 93 ) Know ( CA , CertRes ) 
+ ( 92 ) ［ 动作 ］ 
+ ( 94 ) Know ( CA , S ( H ( CertRes ) , Spv ( CA ) ) ) 
+ ( 93 ) ［ 2 - 2 ］ ［ 4 - 2 ］ 
+ ( 95 ) Know ( CA , Sign ( CA , CertRes ) ) 
+ ( 93 ) ( 94 ) ［ 定义 ］ 
+ ( 96 ) Know ( CA , E ( Sign ( CA , CertRes ) , k2 ) ) 
+ ( 86 ) ( 95 ) ［ 1 - 1 ］ 
+ ( 97 ) Send ( CA , C , E ( Sign ( CA , CertRes ) , k2 ) ) 
+ ［ 动作 ］ 
+ ( 98 ) Send ( CA , C , CertS ( CA ) ) 
+ ［ 动作 ］ 
+ ( 99 ) Send ( CA , C , CertS ( C ) ) 
+ ［ 动作 ］ 
+ ( 100 ) Know ( C , E ( Sign ( CA , CertRes ) , k2 ) ) 
+ ( 97 ) ［ R - 1 ］ 
+ ( 101 ) Know ( C , CertS ( CA ) ) 
+ ( 98 ) ［ R - 1 ］ 
+ ( 102 ) Know ( C , CertS ( C ) ) 
+ ( 99 ) ［ R - 1 ］ 
+ ( 103 ) Verify ( C , CertS ( CA ) , 〈 X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 4 ) ( 101 ) ［ 动作 ］ 
+ / * 如果 检验 失败 , C 没有 在 PKI 树中 找到 CARoot , 则 持卡人 停止 注册 * / 
+ ( 104 ) IsVerified ( C , X2 , CertS ( CA ) ) 
+ ( 103 ) ［ R - 6 ］ 
+ ( 105 ) Auth ( C , X2 , 〈 CA , Spb ( CA ) 〉 ) 
+ ( 104 ) ［ 7 - 1 ］ 
+ ( 106 ) Verify ( C , CertS ( C ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 4 ) ( 102 ) ［ 动作 ］ 
+ / * 如果 检验 失败 , C 没有 在 PKI 树中 找到 CARoot , 则 持卡人 停止 注册 * / 
+ ( 107 ) IsVerified ( C , CA , CertS ( C ) ) 
+ ( 106 ) ［ R - 6 ］ 
+ ( 108 ) Auth ( C , CA , 〈 C , Spb ( C ) 〉 ) 
+ ( 107 ) ［ 7 - 1 ］ 
+ ( 109 ) Know ( C , Sign ( CA , CertRes ) ) 
+ ( 67 ) ( 100 ) ［ 3 - 1 ］ 
+ ( 110 ) Know ( C , Spb ( CA ) ) 
+ ( 102 ) ［ 定理 3 ］ 
+ ( 111 ) Auth ( C , CA , CertRes ) 
+ ( 109 ) ( 110 ) ［ 定理 2 ］ 
+ ( 112 ) “ 持卡人 存储 证书 CertS ( C ) 以及 CA 的 回答 中 的 相关 信息 , 用于 以后 的 电子商务 ” 
+ 1.2 SET 协议 中 的 商家 注册 流程 验证 
+ 已知 : 
+ P = { Know ( CA , CertS ( CA ) ) , Know ( CA , CertK ( CA ) ) , Know ( M , Acct ( M ) ) , Know ( M , Spb ( CARoot ) ) } , 
+ α = Generate ( M , InitReq ) 甋 end ( M , CA , InitReq ) 瓽 enerate ( CA , RegForm ) 
+ Send ( CA , M , Sign ( CA , RegForm ) ) 甋 end ( CA , M , CertS ( CA ) ) 甋 end ( CA , M , CertK ( CA ) ) 
+ Verify ( M , CertS ( CA ) , 〈 X2 , ... , Xn - 1 , CARoot 〉 ) 
+ Verify ( M , CertK ( CA ) , 〈 X2 , ... , Xn - 1 , CARoot 〉 ) 瓽 enerate ( M , 〈 Spb ( M ) , Spv ( M ) 〉 ) 
+ Generate ( M , 〈 Kpb ( M ) , Kpv ( M ) 〉 ) 瓽 enerate ( M , Filled - RegForm ) 
+ Generate ( M , CertReq ) 瓽 enerate ( M , k1 ) 
+ Send ( M , CA , E ( Sign ( M , 〈 CertReq , Spb ( M ) , Kpb ( M ) 〉 ) , k1 ) ) 
+ Send ( M , CA , S ( 〈 Acct ( M ) , k1 〉 , Spb ( CA ) ) ) 甃 egal ( CA , CerReq ) 
+ Generate ( CA , CertS ( M ) ) 瓽 enerate ( CA , CertK ( M ) ) 瓽 enerate ( CA , CertRes ) 
+ Send ( CA , M , Sign ( CA , CertRes ) ) 甋 end ( CA , M , CertS ( M ) ) 甋 end ( CA , M , CertK ( M ) ) 
+ Send ( CA , M , CertS ( CA ) ) 甐 erify ( M , CertS ( CA ) , 〈 X2 , ... , Xn - 1 , CARoot 〉 ) 
+ Verify ( M , CertK ( M ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ Verify ( M , CertS ( M ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) , 
+ Q = { Auth ( M , X2 , 〈 CA , Spb ( CA ) 〉 ) , Auth ( M , CA , RegForm ) ; 
+ Auth ( CA , M , 〈 CertReq , Spb ( M ) , Kpb ( M ) 〉 ) ; Auth ( M , CA , 〈 M , Spb ( M ) 〉 ) , 
+ Auth ( M , CA , 〈 M , Kpb ( M ) 〉 ) , Auth ( M , X2 , 〈 CA , Spb ( CA ) 〉 ) , Auth ( M , CA , CertRes ) } . 
+ 求证 : P α Q 
+ 证明 : 
+ ( 1 ) Know ( CA , CertS ( CA ) ) 
+ ［ 前提 ］ 
+ ( 2 ) Know ( CA , CertK ( CA ) ) 
+ ［ 前提 ］ 
+ ( 3 ) Know ( M , Acct ( M ) ) 
+ ［ 前提 ］ 
+ ( 4 ) Know ( M , Spb ( CARoot ) ) 
+ ［ 前提 ］ 
+ ( 5 ) Generate ( M , InitReq ) 
+ ［ 动作 ］ 
+ ( 6 ) Know ( M , InitReq ) 
+ ( 5 ) ［ R - 2 ］ 
+ ( 7 ) Send ( M , CA , InitReq ) 
+ ［ 动作 ］ 
+ ( 8 ) Know ( CA , InitReq ) 
+ ( 7 ) ［ R - 1 ］ 
+ ( 9 ) Generate ( CA , RegForm ) 
+ ［ 动作 ］ 
+ ( 10 ) Know ( CA , RegForm ) 
+ ( 9 ) ［ R - 2 ］ 
+ ( 11 ) Know ( CA , S ( H ( RegForm ) , Spv ( CA ) ) ) 
+ ( 10 ) ［ 2 - 2 ］ ［ 4 - 2 ］ 
+ ( 12 ) Know ( CA , Sign ( CA , RegForm ) ) 
+ ( 10 ) ( 11 ) ［ 定义 ］ 
+ ( 13 ) Send ( CA , M , Sign ( CA , RegForm ) ) 
+ ［ 动作 ］ 
+ ( 14 ) Send ( CA , M , CertS ( CA ) ) 
+ ［ 动作 ］ 
+ ( 15 ) Send ( CA , M , CertK ( CA ) ) 
+ ［ 动作 ］ 
+ ( 16 ) Know ( M , Sign ( CA , RegForm ) ) 
+ ( 13 ) ［ R - 1 ］ 
+ ( 17 ) Know ( M , CertS ( CA ) ) 
+ ( 14 ) ［ R - 1 ］ 
+ ( 18 ) Know ( M , CertK ( CA ) ) 
+ ( 15 ) ［ R - 1 ］ 
+ ( 19 ) Verify ( M , CerS ( CA ) , 〈 X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 17 ) ( 4 ) ［ 动作 ］ 
+ / * 如果 检验 失败 , M 没有 在 PKI 树中 找到 CARoot , 则 商家 停止 注册 * / 
+ ( 20 ) IsVerified ( M , X2 , CertS ( CA ) ) 
+ ( 19 ) ［ R - 6 ］ 
+ ( 21 ) Auth ( M , X2 , 〈 CA , Spb ( CA ) 〉 ) 
+ ( 20 ) ［ 7 - 1 ］ 
+ ( 22 ) Verify ( M , CerK ( CA ) , 〈 X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 18 ) ( 4 ) ［ 动作 ］ 
+ ( 23 ) IsVerified ( M , X2 , CertK ( CA ) ) 
+ ( 22 ) ［ R - 6 ］ 
+ ( 24 ) Auth ( M , X2 , 〈 CA , Kpb ( CA ) 〉 ) 
+ ( 23 ) ［ 7 - 1 ］ 
+ ( 25 ) Know ( M , Spb ( CA ) ) 
+ ( 17 ) ［ 定理 3 ］ 
+ ( 26 ) Auth ( M , CA , RegForm ) 
+ ( 16 ) ( 25 ) ［ 定理 2 ］ 
+ ( 27 ) Generate ( M , 〈 Spb ( M ) , Spv ( M ) 〉 ) 
+ ［ 动作 ］ 
+ ( 28 ) Generate ( M , 〈 Kpb ( M ) , Kpv ( M ) 〉 ) 
+ ［ 动作 ］ 
+ ( 29 ) Know ( M , Spb ( M ) ) 
+ ( 27 ) ［ R - 2 ］ 
+ ( 30 ) Know ( M , Spv ( M ) ) 
+ ( 27 ) ［ R - 2 ］ 
+ ( 31 ) Know ( M , Kpb ( M ) ) 
+ ( 28 ) ［ R - 2 ］ 
+ ( 32 ) Know ( M , Kpv ( M ) ) 
+ ( 28 ) ［ R - 2 ］ 
+ ( 33 ) Generate ( M , Filled - RegForm ) 
+ ［ 动作 ］ 
+ / * 商家 向 注册表 填入 信息 ( eg , 姓名 , 地址 , 身份证号 ) * / 
+ ( 34 ) Generate ( M , CertReq ) 
+ ［ 动作 ］ 
+ / * CertReq 中 包含 了 向 注册表 RegForm 中 填入 的 信息 * / 
+ ( 35 ) Know ( M , CertReq ) 
+ ( 34 ) ［ R - 2 ］ 
+ ( 36 ) Know ( M , 〈 CertReq , Spb ( M ) , Kpb ( M ) 〉 ) 
+ ( 29 ) ( 31 ) ( 35 ) ［ 6 - 1 ］ 
+ ( 37 ) Know ( M , S ( H ( CertReq , Spb ( M ) , Kpb ( M ) ) , Spv ( M ) ) ) 
+ ( 36 ) ( 29 ) ［ 4 - 2 ］ 
+ ( 38 ) Know ( M , Sign ( M , 〈 CertReq , Spb ( M ) , Kpb ( M ) 〉 ) ) 
+ ( 36 ) ( 37 ) ［ 定义 ］ 
+ ( 39 ) Generate ( M , k1 ) 
+ ［ 动作 ］ 
+ ( 40 ) Know ( M , k1 ) 
+ ( 39 ) ［ R - 2 ］ 
+ ( 41 ) Know ( M , E ( Sign ( M , 〈 CertReq , Spb ( M ) , Kpb ( M ) 〉 ) , k1 ) ) 
+ ( 38 ) ( 40 ) ［ 1 - 1 ］ 
+ ( 42 ) Know ( M , 〈 Acct ( M ) , k1 〉 ) 
+ ( 3 ) ( 40 ) ［ 6 - 1 ］ 
+ ( 43 ) Know ( M , E ( 〈 Acct ( M ) , k1 〉 , Spb ( CA ) ) ) 
+ ( 42 ) ( 25 ) ［ 1 - 1 ］ 
+ ( 44 ) Send ( M , CA , E ( Sign ( M , 〈 CertReq , Spb ( M ) , Kpb ( M ) 〉 ) , k1 ) ) 
+ ［ 动作 ］ 
+ ( 45 ) Send ( M , CA , S ( 〈 Acct ( M ) , k1 〉 , Spb ( CA ) ) ) 
+ ［ 动作 ］ 
+ ( 46 ) Know ( CA , E ( Sign ( M , 〈 CertReq , Spb ( M ) , Kpb ( M ) 〉 ) , k1 ) ) 
+ ( 44 ) ［ R - 1 ］ 
+ ( 47 ) Know ( CA , S ( 〈 Acct ( M ) , k1 〉 , Spb ( CA ) ) ) 
+ ( 45 ) ［ R - 1 ］ 
+ ( 48 ) Know ( CA , 〈 Acct ( M ) , k1 〉 ) 
+ ( 47 ) ［ 2 - 2 ］ ［ 3 - 2 ］ 
+ ( 49 ) Know ( CA , Acct ( M ) ) 
+ ( 48 ) ［ 6 - 1 ］ 
+ ( 50 ) Know ( CA , k1 ) 
+ ( 48 ) ［ 6 - 1 ］ 
+ ( 51 ) Know ( CA , Sign ( M , 〈 CertReq , Spb ( M ) , Kpb ( M ) 〉 ) ) 
+ ( 46 ) ( 50 ) ［ 3 - 1 ］ 
+ ( 52 ) Know ( CA , 〈 CertReq , Spb ( M ) , Kpb ( M ) 〉 ) 
+ ( 51 ) ［ 定义 ］ 
+ ( 53 ) Know ( CA , Spb ( M ) ) 
+ ( 52 ) ［ 6 - 1 ］ 
+ ( 54 ) Auth ( M , CA , 〈 CertReq , Spb ( M ) , Kpb ( M ) 〉 ) 
+ ( 51 ) ( 53 ) ［ 定理 2 ］ 
+ ( 55 ) Know ( CA , CertReq ) 
+ ( 52 ) ［ 6 - 1 ］ 
+ ( 56 ) Legal ( CA , CerReq ) 
+ ［ 动作 ］ 
+ / * CA 用 已知 商家 的 信息 检验 CertReq 中 注册表 的 合法性 . 若 不 合法 , 则 CA 终止 商家 注册 过程 * / 
+ ( 57 ) Generate ( CA , CertS ( M ) ) 
+ ［ 动作 ］ 
+ ( 58 ) Generate ( CA , CertK ( M ) ) 
+ ［ 动作 ］ 
+ ( 59 ) Know ( CA , CertS ( M ) ) 
+ ( 57 ) ［ R - 2 ］ 
+ ( 60 ) Know ( CA , CertK ( M ) ) 
+ ( 58 ) ［ R - 2 ］ 
+ 
+ 
+ ( 61 ) Generate ( CA , CertRes ) 
+ ［ 动作 ］ 
+ ( 62 ) Know ( CA , CertRes ) 
+ ( 61 ) ［ R - 2 ］ 
+ ( 63 ) Know ( CA , S ( H ( CertRes ) , Spv ( CA ) ) ) 
+ ( 62 ) ［ 2 - 2 ］ ［ 4 - 2 ］ 
+ ( 64 ) Know ( CA , Sign ( CA , CertRes ) ) 
+ ( 62 ) ( 63 ) ［ 定义 ］ 
+ ( 65 ) Send ( CA , M , Sign ( CA , CertRes ) ) 
+ ［ 动作 ］ 
+ ( 66 ) Send ( CA , M , CertS ( M ) ) 
+ ［ 动作 ］ 
+ ( 67 ) Send ( CA , M , CertK ( M ) ) 
+ ［ 动作 ］ 
+ ( 68 ) Send ( CA , M , CertS ( CA ) ) 
+ ［ 动作 ］ 
+ ( 69 ) Know ( M , Sign ( CA , CertRes ) ) 
+ ( 65 ) ［ R - 1 ］ 
+ ( 70 ) Know ( M , CertS ( M ) ) 
+ ( 66 ) ［ R - 1 ］ 
+ ( 71 ) Know ( M , CertK ( M ) ) 
+ ( 67 ) ［ R - 1 ］ 
+ ( 72 ) Know ( M , CertS ( CA ) ) 
+ ( 68 ) ［ R - 1 ］ 
+ ( 73 ) Verify ( M , CertS ( CA ) , 〈 X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 3 ) ( 72 ) ［ 动作 ］ 
+ / * 如果 检验 失败 , M 没有 在 PKI 树中 找到 CARoot , 则 商家 停止 注册 * / 
+ ( 74 ) Isverified ( M , X2 , CertS ( CA ) ) 
+ ( 73 ) ［ R - 6 ］ 
+ ( 75 ) Auth ( M , X2 , 〈 CA , Spb ( CA ) 〉 ) 
+ ( 74 ) ［ 7 - 1 ］ 
+ ( 76 ) Verify ( M , CertS ( M ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 3 ) ( 70 ) ［ 动作 ］ 
+ / * 如果 检验 失败 , M 没有 在 PKI 树中 找到 CARoot , 则 商家 停止 注册 * / 
+ ( 77 ) Isverified ( M , CA , CertS ( M ) ) 
+ ( 76 ) ［ R - 6 ］ 
+ ( 78 ) Auth ( M , CA , 〈 M , Spb ( M ) 〉 ) 
+ ( 77 ) ［ 7 - 1 ］ 
+ ( 79 ) Verify ( M , CertK ( M ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 3 ) ( 71 ) ［ 动作 ］ 
+ / * 如果 检验 失败 , M 没有 在 PKI 树中 找到 CARoot , 则 商家 停止 注册 * / 
+ ( 80 ) Isverified ( M , CA , CertK ( M ) ) 
+ ( 76 ) ［ R - 6 ］ 
+ ( 81 ) Auth ( M , CA , 〈 M , Kpb ( M ) 〉 ) 
+ ( 80 ) ［ 7 - 2 ］ 
+ ( 82 ) Know ( M , Spb ( CA ) ) 
+ ( 72 ) ［ 定理 3 ］ 
+ ( 83 ) Auth ( M , CA , CertRes ) 
+ ( 69 ) ( 82 ) ［ 定理 2 ］ 
+ ( 84 ) “ 商家 存储 证书 CertS ( M ) , CertK ( M ) 以及 CA 的 响应 中 的 相关 信息 , 用于 以后 的 电子商务 ” 
+ 1.3 SET 协议 中 的 购买 请求 流程 验证 
+ 已知 : 
+ P = { Know ( M , CertS ( M ) ) , Know ( M , CertK ( P ) ) , Know ( C , Acct ( C ) ) , 
+ Know ( C , CertS ( C ) ) , Know ( C , Spb ( CARoot ) ) , Know ( M , Spb ( CARoot ) ) } , 
+ α = Generate ( C , InitReq ) 甋 end ( C , M , InitReq ) 瓽 enerate ( M , InitRes ) 
+ Send ( M , C , Sign ( M , InitReq ) ) 甋 end ( M , C , CertS ( M ) ) 甋 end ( M , C , CertK ( P ) ) 
+ Verify ( C , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 甐 erify ( C , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ Generate ( C , OI ) 瓽 enerate ( C , PI ) 瓽 enerate ( C , k1 ) 
+ Send ( C , M , E ( 〈 PI , H ( OI ) , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) 〉 , k1 ) ) 
+ Send ( C , M , S ( 〈 Acct ( C ) , k1 〉 , Kpb ( P ) ) ) 
+ Send ( C , M , 〈 OI , H ( PI ) , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) 〉 ) 
+ Send ( C , M , CertS ( C ) ) 甐 erify ( M , CertS ( C ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ Generate ( M , PurchRes ) 甋 end ( M , C , Sign ( M , PurchRes ) ) 甋 end ( M , C , CertS ( M ) ) 
+ Verify ( C , CertS ( M ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) , 
+ Q = { Auth ( C , CA , 〈 M , Spb ( M ) 〉 ) , Auth ( C , CA , 〈 P , Spb ( P ) 〉 ) , Auth ( C , M , InitReq ) , 
+ Auth ( M , CA , 〈 C , Spb ( C ) 〉 ) , Auth ( M , C , 〈 H ( OI ) , H ( PI ) 〉 ) ; Auth ( C , CA , 〈 M , Spb ( M ) 〉 ) , 
+ Auth ( C , CA , PurchRes ) } . 
+ 求证 : P α Q 
+ 证明 : 
+ ( 1 ) Know ( M , CertS ( M ) ) 
+ ［ 前提 ］ 
+ ( 2 ) Know ( M , CertK ( P ) ) 
+ ［ 前提 ］ 
+ ( 3 ) Know ( C , Acct ( C ) ) 
+ ［ 前提 ］ 
+ ( 4 ) Know ( C , CertS ( C ) ) 
+ ［ 前提 ］ 
+ ( 5 ) Generate ( C , InitReq ) 
+ ［ 动作 ］ 
+ ( 6 ) Know ( C , InitReq ) 
+ ( 5 ) ［ R - 2 ］ 
+ ( 7 ) Send ( C , M , InitReq ) 
+ ［ 动作 ］ 
+ ( 8 ) Know ( M , InitReq ) 
+ ( 7 ) ［ R - 1 ］ 
+ ( 9 ) Generate ( M , InitRes ) 
+ ［ 动作 ］ 
+ ( 10 ) Know ( M , InitReq ) 
+ ( 9 ) ［ R - 2 ］ 
+ ( 11 ) Know ( M , S ( H ( InitReq ) , Spv ( M ) ) ) 
+ ( 10 ) ［ 2 - 2 ］ ［ 4 - 2 ］ 
+ ( 12 ) Know ( M , Sign ( M , InitReq ) ) 
+ ( 10 ) ( 11 ) ［ 定义 ］ 
+ ( 13 ) Send ( M , C , Sign ( M , InitReq ) ) 
+ ［ 动作 ］ 
+ ( 14 ) Send ( M , C , CertS ( M ) ) 
+ ［ 动作 ］ 
+ ( 15 ) Send ( M , C , CertK ( P ) ) 
+ ［ 动作 ］ 
+ ( 16 ) Know ( C , Sign ( M , InitReq ) ) 
+ ( 13 ) ［ R - 1 ］ 
+ ( 17 ) Know ( C , CertS ( M ) ) 
+ ( 14 ) ［ R - 1 ］ 
+ ( 18 ) Know ( C , CertK ( P ) ) 
+ ( 15 ) ［ R - 1 ］ 
+ ( 19 ) Know ( C , Spb ( CARoot ) ) 
+ ［ 前提 ］ 
+ ( 20 ) Verify ( C , CertS ( M ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 17 ) ( 19 ) ［ 动作 ］ 
+ / * 如果 检验 失败 , C 没有 在 PKI 树中 找到 CARoot , 则 持卡人 终止 购买 请求 * / 
+ ( 21 ) IsVerified ( C , CA , CertS ( M ) ) 
+ ( 20 ) ［ R - 6 ］ 
+ ( 22 ) Auth ( C , CA , 〈 M , Spb ( M ) 〉 ) 
+ ( 21 ) ［ 7 - 1 ］ 
+ ( 23 ) Verify ( C , CertK ( P ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 18 ) ( 19 ) ［ 动作 ］ 
+ / * 如果 检验 失败 , C 没有 在 PKI 树中 找到 CARoot , 则 持卡人 终止 购买 请求 * / 
+ ( 24 ) IsVerified ( C , CA , CertK ( P ) ) 
+ ( 23 ) ［ R - 6 ］ 
+ ( 25 ) Auth ( C , CA , 〈 P , Spb ( P ) 〉 ) 
+ ( 24 ) ［ 7 - 1 ］ 
+ ( 26 ) Know ( C , Spb ( M ) ) 
+ ( 17 ) ［ 定理 3 ］ 
+ ( 27 ) Auth ( C , M , InitReq ) 
+ ( 26 ) ( 16 ) ［ 定理 2 ］ 
+ ( 28 ) Generate ( C , OI ) 
+ ［ 动作 ］ 
+ ( 29 ) Generate ( C , PI ) 
+ ［ 动作 ］ 
+ ( 30 ) Know ( C , OI ) 
+ ( 28 ) ［ R - 2 ］ 
+ ( 31 ) Know ( C , PI ) 
+ ( 29 ) ［ R - 2 ］ 
+ ( 32 ) Know ( C , H ( OI ) ) 
+ ( 30 ) ［ 4 - 1 ］ 
+ ( 33 ) Know ( C , H ( PI ) ) 
+ ( 31 ) ［ 4 - 1 ］ 
+ ( 34 ) Know ( C , 〈 H ( OI ) , H ( PI ) 〉 ) 
+ ( 32 ) ( 33 ) ［ 4 - 1 ］ 
+ ( 35 ) Know ( C , H ( 〈 H ( OI ) , H ( PI ) 〉 ) ) 
+ ( 34 ) ［ 4 - 1 ］ 
+ ( 36 ) Know ( C , S ( H ( 〈 H ( OI ) , H ( PI ) 〉 ) , Spv ( C ) ) ) 
+ ( 34 ) ［ 2 - 2 ］ ［ 4 - 2 ］ 
+ ( 37 ) Know ( C , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) ) 
+ ( 36 ) ［ 定义 ］ 
+ ( 38 ) Generate ( C , k1 ) 
+ ［ 动作 ］ 
+ ( 39 ) Know ( C , k1 ) 
+ ( 38 ) ［ R - 2 ］ 
+ ( 40 ) Know ( C , 〈 PI , H ( OI ) , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) 〉 ) 
+ ( 31 ) ( 32 ) ( 37 ) ［ 6 - 1 ］ 
+ ( 41 ) Know ( C , E ( 〈 PI , H ( OI ) , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) 〉 , k1 ) ) 
+ ( 39 ) ( 40 ) ［ 1 - 1 ］ 
+ ( 42 ) Know ( C , 〈 Acct ( C ) , k1 〉 ) 
+ ( 3 ) ( 39 ) ［ 4 - 1 ］ 
+ ( 43 ) Know ( C , Kpb ( P ) ) 
+ ( 18 ) ［ 定理 4 ］ 
+ ( 44 ) Know ( C , S ( 〈 Acct ( C ) , k1 〉 , Kpb ( P ) ) ) 
+ ( 43 ) ( 42 ) ［ 1 - 2 ］ 
+ ( 45 ) Know ( C , 〈 OI , H ( PI ) , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) 〉 ) 
+ ( 30 ) ( 33 ) ( 37 ) ［ 4 - 1 ］ 
+ ( 46 ) Send ( C , M , E ( 〈 PI , H ( OI ) , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) 〉 , k1 ) ) 
+ ［ 动作 ］ 
+ ( 47 ) Send ( C , M , S ( 〈 Acct ( C ) , k1 〉 , Kpb ( P ) ) ) 
+ ［ 动作 ］ 
+ ( 48 ) Send ( C , M , 〈 OI , H ( PI ) , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) 〉 ) 
+ ［ 动作 ］ 
+ ( 49 ) Send ( C , M , CertS ( C ) ) 
+ ［ 动作 ］ 
+ ( 50 ) Know ( M , E ( 〈 PI , H ( OI ) , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) 〉 , k1 ) ) 
+ ( 46 ) ［ R - 1 ］ 
+ ( 51 ) Know ( M , S ( 〈 Acct ( C ) , k1 〉 , Kpb ( P ) ) ) 
+ ( 47 ) ［ R - 1 ］ 
+ ( 52 ) Know ( M , 〈 OI , H ( PI ) , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) 〉 ) 
+ ( 48 ) ［ R - 1 ］ 
+ ( 53 ) Know ( M , CertS ( C ) ) 
+ ( 49 ) ［ R - 1 ］ 
+ ( 54 ) Know ( M , Spb ( CARoot ) ) 
+ ［ 前提 ］ 
+ ( 55 ) Verify ( M , CertS ( C ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 53 ) ( 54 ) ［ 动作 ］ 
+ / * 如果 检验 失败 , M 没有 在 PKI 树中 找到 CARoot , 则 商家 终止 购买 请求 * / 
+ ( 56 ) IsVerified ( M , CA , CertS ( C ) ) 
+ ( 55 ) ［ R - 6 ］ 
+ ( 57 ) Auth ( M , CA , 〈 C , Spb ( C ) 〉 ) 
+ ( 56 ) ［ 7 - 1 ］ 
+ ( 58 ) Know ( M , OI ) 
+ ( 52 ) ［ 6 - 1 ］ 
+ ( 59 ) Know ( M , H ( PI ) ) 
+ ( 52 ) ［ 6 - 1 ］ 
+ ( 60 ) Know ( M , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) ) 
+ ( 52 ) ［ 6 - 1 ］ 
+ ( 61 ) Know ( M , H ( OI ) ) 
+ ( 58 ) ［ 4 - 1 ］ 
+ ( 62 ) Know ( M , 〈 H ( OI ) , H ( PI ) 〉 ) 
+ ( 59 ) ( 61 ) ［ 4 - 1 ］ 
+ ( 63 ) Know ( M , Spb ( C ) ) 
+ ( 53 ) ［ R - 6 ］ 
+ ( 64 ) Auth ( M , C , 〈 H ( OI ) , H ( PI ) 〉 ) 
+ ( 60 ) ( 63 ) ［ 定理 1 ］ 
+ ( 65 ) “ 商家 M 处理 请求 ( 包括 将 付费 指令 PI 提交 付费 网关 P 认证 ) ” 
+ ( 66 ) Generate ( M , PurchRes ) 
+ ［ 动作 ］ 
+ ( 67 ) Know ( M , PurchRes ) 
+ ( 66 ) ［ R - 2 ］ 
+ ( 68 ) Know ( M , S ( H ( PurchRes ) , Spv ( M ) ) ) 
+ ( 67 ) ［ 2 - 2 ］ ［ 4 - 2 ］ 
+ ( 69 ) Know ( M , Sign ( M , PurchRes ) ) 
+ ( 67 ) ( 68 ) ［ 定义 ］ 
+ ( 70 ) Send ( M , C , Sign ( M , PurchRes ) ) 
+ ［ 动作 ］ 
+ ( 71 ) Send ( M , C , CertS ( M ) ) 
+ ［ 动作 ］ 
+ ( 72 ) Know ( C , Sign ( M , PurchRes ) ) 
+ ( 70 ) ［ R - 1 ］ 
+ ( 73 ) Know ( C , CertS ( M ) ) 
+ ( 71 ) ［ R - 1 ］ 
+ ( 74 ) “ 商家 M 认证 事务 , 然后 履行 业务 要求 ( e . g . 向 持卡人 C 发送 货物 ) ” 
+ ( 75 ) Verify ( C , CertS ( M ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 73 ) ［ 2 - 5 ］ ［ 动作 ］ 
+ / * 如果 检验 失败 , C 没有 在 PKI 树中 找到 CARoot , 则 持卡人 终止 购买 请求 * / 
+ ( 76 ) IsVerified ( C , CA , CertS ( M ) ) 
+ ( 75 ) ［ R - 6 ］ 
+ ( 77 ) Auth ( C , CA , 〈 M , Spb ( M ) 〉 ) 
+ ( 76 ) ［ 7 - 1 ］ 
+ ( 78 ) Know ( C , Spb ( M ) ) 
+ ( 73 ) ［ 定理 3 ］ 
+ ( 79 ) Auth ( C , M , PurchRes ) 
+ ( 72 ) ( 78 ) ［ 定理 2 ］ 
+ ( 80 ) “ 持卡人 C 存储 购买 回答 PurchRes ” 
+ 
+ 1.4 SET 协议 中 的 付费 认证 流程 验证 
+ 已知 : 
+ P = { Know ( P , Kpb ( P ) ) , Know ( P , Spb ( P ) ) , Know ( M , Kpb ( P ) ) , Know ( P , Spb ( CARoot ) ) , 
+ Know ( M , Spb ( CARoot ) ) , Know ( P , Acct ( C ) ) , Know ( P , CertS ( P ) ) , Know ( M , CertS ( C ) ) , 
+ Know ( M , CertS ( M ) ) , Know ( M , CertK ( M ) ) , 
+ Know ( M , E ( 〈 PI , H ( OI ) , SO ( C , 〈 H ( OI ) , H ( PI ) 〉 ) 〉 , k1 ) ) , 
+ Know ( M , S ( 〈 Acct ( C ) , k1 〉 , Kpb ( P ) ) ) } , 
+ α = Generate ( M , AuthReq ) 瓽 enerate ( M , k2 ) 甋 end ( M , P , E ( Sign ( M , AuthReq ) , k2 ) ) 
+ Send ( M , P , S ( k2 , Kpb ( P ) ) ) 甋 end ( M , P , E ( 〈 PI , H ( OI ) , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) 〉 , k1 ) ) 
+ Send ( M , P , 〈 S ( Acct ( C ) , k1 〉 , Kpb ( P ) ) ) 甋 end ( M , P , CertS ( C ) ) 甋 end ( M , P , CertS ( M ) ) 
+ Send ( M , P , CertK ( M ) ) 甐 erify ( P , CertS ( C ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ Verify ( P , CertS ( M ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ Verify ( P , CertK ( M ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 瓽 enerate ( P , AuthRes ) 
+ Generate ( P , k3 ) 瓽 enerate ( P , CapToken ) 甋 end ( P , M , S ( 〈 k3 , Acct ( C ) 〉 , Kpb ( M ) ) ) 
+ Send ( P , M , E ( Sign ( P , AuthRes ) , k3 ) ) 甋 end ( P , M , S ( 〈 k4 , Acct ( C ) 〉 , Kpb ( P ) ) ) 
+ Send ( P , M , E ( Sign ( P , CapToken ) , k4 ) ) 甋 end ( P , M , CertS ( P ) ) 
+ Verify ( M , CertS ( P ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) , 
+ Q = { Auth ( P , M , AuthReq ) , Auth ( P , CA , 〈 C , Spb ( C ) 〉 ) , Auth ( P , CA , 〈 M , Spb ( M ) 〉 ) , 
+ Auth ( P , CA , 〈 M , Kpb ( M ) 〉 ) , Auth ( P , C , 〈 H ( OI ) , H ( PI ) 〉 ) , 
+ Auth ( M , CA , 〈 P , Spb ( P ) 〉 ) , Auth ( M , P , AuthRes ) } . 
+ 求证 : P α Q 
+ 证明 : 
+ ( 1 ) Know ( P , CertS ( P ) ) 
+ ［ 前提 ］ 
+ ( 2 ) Know ( M , Kpb ( P ) ) 
+ ［ 前提 ］ 
+ ( 3 ) Know ( M , E ( 〈 PI , H ( OI ) , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) 〉 , k1 ) ) 
+ ［ 前提 ］ 
+ ( 4 ) Know ( M , S ( 〈 Acct ( C ) , k1 〉 , Kpb ( P ) ) ) 
+ ［ 前提 ］ 
+ ( 5 ) Know ( M , CertS ( C ) ) 
+ ［ 前提 ］ 
+ ( 6 ) Know ( M , CertS ( M ) ) 
+ ［ 前提 ］ 
+ ( 7 ) Know ( M , CertK ( C ) ) 
+ ［ 前提 ］ 
+ ( 8 ) Generate ( M , AuthReq ) 
+ ［ 动作 ］ 
+ ( 9 ) Know ( M , AuthReq ) 
+ ( 8 ) ［ R - 2 ］ 
+ ( 10 ) Know ( M , S ( H ( AuthReq ) , Spv ( M ) ) ) 
+ ( 9 ) ( 2 - 2 ) ［ 4 - 2 ］ 
+ ( 11 ) Know ( M , Sign ( M , AuthReq ) ) 
+ ( 9 ) ( 10 ) ［ 定义 ］ 
+ ( 12 ) Generate ( M , k2 ) 
+ ［ 动作 ］ 
+ ( 13 ) Know ( M , k2 ) 
+ ( 12 ) ［ R - 2 ］ 
+ ( 14 ) Know ( M , E ( Sign ( M , AuthReq ) , k2 ) ) 
+ ( 11 ) ( 13 ) ［ 1 - 1 ］ 
+ ( 15 ) Know ( M , S ( k2 , Kpb ( p ) ) ) 
+ ( 2 ) ( 13 ) ［ 1 - 2 ］ 
+ ( 16 ) Send ( M , P , E ( Sign ( M , AuthReq ) , k2 ) ) 
+ ［ 动作 ］ 
+ ( 17 ) Send ( M , P , S ( k2 , Kpb ( P ) ) ) 
+ ［ 动作 ］ 
+ ( 18 ) Send ( M , P , E ( 〈 PI , H ( OI ) , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) 〉 , k1 ) ) 
+ ［ 动作 ］ 
+ ( 19 ) Send ( M , P , S ( 〈 Acct ( C ) , k1 〉 , Kpb ( P ) ) ) 
+ ［ 动作 ］ 
+ ( 20 ) Send ( M , P , CertS ( C ) ) 
+ ［ 动作 ］ 
+ ( 21 ) Send ( M , P , CertS ( M ) ) 
+ ［ 动作 ］ 
+ ( 22 ) Send ( M , P , CertK ( M ) ) 
+ ［ 动作 ］ 
+ ( 23 ) Know ( P , E ( Sign ( M , AuthReq ) , k2 ) ) 
+ ( 16 ) ［ R - 1 ］ 
+ ( 24 ) Know ( P , S ( k2 , Kpb ( P ) ) ) 
+ ( 17 ) ［ R - 2 ］ 
+ ( 25 ) Know ( P , E ( 〈 PI , H ( OI ) , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) 〉 , k1 ) ) 
+ ( 18 ) ［ R - 1 ］ 
+ ( 26 ) Know ( P , S ( 〈 Acct ( C ) , k1 〉 , Kpb ( P ) ) ) 
+ ( 19 ) ［ R - 1 ］ 
+ ( 27 ) Know ( P , CertS ( C ) ) 
+ ( 20 ) ［ R - 1 ］ 
+ ( 28 ) Know ( P , CertS ( M ) ) 
+ ( 21 ) ［ R - 1 ］ 
+ ( 29 ) Know ( P , CertK ( M ) ) 
+ ( 22 ) ［ R - 1 ］ 
+ ( 30 ) Know ( P , k2 ) 
+ ( 24 ) ［ 2 - 1 ］ ［ 3 - 2 ］ 
+ ( 31 ) Know ( P , Sign ( M , AuthReq ) ) 
+ ( 23 ) ( 30 ) ［ R - 1 ］ 
+ ( 32 ) Know ( P , Spb ( M ) ) 
+ ( 28 ) ［ 定理 3 ］ 
+ ( 33 ) Auth ( P , M , AuthReq ) 
+ ( 31 ) ( 32 ) ［ 定理 2 ］ 
+ ( 34 ) Verify ( P , CertS ( C ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 27 ) ［ 2 - 5 ］ ［ 动作 ］ 
+ / * 如果 检验 失败 , P 没有 在 PKI 树中 找到 CARoot , 则 付费 网关 终止 付费 认证 * / 
+ ( 35 ) IsVerified ( P , CA , CertS ( C ) ) 
+ ( 34 ) ［ R - 6 ］ 
+ ( 36 ) Auth ( P , CA , 〈 C , Spb ( C ) 〉 ) 
+ ( 35 ) ［ 7 - 1 ］ 
+ ( 37 ) Verify ( P , CertS ( M ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 28 ) ［ 2 - 5 ］ ［ 动作 ］ 
+ / * 如果 检验 失败 , P 没有 在 PKI 树中 找到 CARoot , 则 付费 网关 终止 付费 认证 * / 
+ ( 38 ) IsVerified ( P , CA , CertS ( M ) ) 
+ ( 37 ) ［ R - 6 ］ 
+ ( 39 ) Auth ( P , CA , 〈 M , Spb ( M ) 〉 ) 
+ ( 38 ) ［ 7 - 1 ］ 
+ ( 40 ) Verify ( P , CertK ( M ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 29 ) ［ 2 - 5 ］ ［ 动作 ］ 
+ / * 如果 检验 失败 , P 没有 在 PKI 树中 找到 CARoot , 则 付费 网关 终止 付费 认证 * / 
+ ( 41 ) IsVerified ( P , CA , CertK ( M ) ) 
+ ( 40 ) ［ R - 6 ］ 
+ ( 42 ) Auth ( P , CA , 〈 M , Kpb ( M ) 〉 ) 
+ ( 41 ) ［ 7 - 1 ］ 
+ ( 43 ) Know ( P , 〈 Acct ( C ) , k1 〉 ) 
+ ( 26 ) ［ 2 - 1 ］ ［ 3 - 2 ］ 
+ ( 44 ) Know ( P , Acct ( C ) ) 
+ ( 43 ) ［ 4 - 1 ］ 
+ ( 45 ) Know ( P , k1 ) 
+ ( 43 ) ［ 6 - 1 ］ 
+ ( 46 ) Know ( P , 〈 PI , H ( OI ) , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) 〉 ) 
+ ( 25 ) ( 45 ) ［ 3 - 1 ］ 
+ ( 47 ) Know ( P , PI ) 
+ ( 46 ) ［ 6 - 1 ］ 
+ ( 48 ) Know ( P , H ( OI ) ) 
+ ( 46 ) ［ 6 - 1 ］ 
+ ( 49 ) Know ( P , So ( C , 〈 H ( OI ) , H ( PI ) 〉 ) ) 
+ ( 46 ) ［ 6 - 1 ］ 
+ ( 50 ) Know ( P , H ( PI ) ) 
+ ( 47 ) ［ 4 - 1 ］ 
+ ( 51 ) Know ( P , 〈 H ( OI ) , H ( PI ) 〉 ) 
+ ( 48 ) ( 50 ) ［ 4 - 1 ］ 
+ ( 52 ) Know ( P , Spb ( C ) ) 
+ ( 27 ) ［ 定理 3 ］ 
+ ( 53 ) Auth ( P , C , 〈 H ( OI ) , H ( PI ) 〉 ) 
+ ( 52 ) ( 49 ) ( 51 ) ［ 定理 1 ］ 
+ ( 54 ) “ 付费 网关 P 确认 商家 M 的 认证 请求 AuthReq 与 持卡人 C 的 付费 指令 PI 之间 的 一致 ” 
+ ( 55 ) “ 付费 网关 P 把 认证 请求 AuthReq 通过 金融网 传给 持卡人 的 金融机构 ” 
+ ( 56 ) Generate ( P , AuthRes ) 
+ ［ 动作 ］ 
+ ( 57 ) Know ( P , AuthRes ) 
+ ( 56 ) ［ R - 2 ］ 
+ ( 58 ) Know ( P , S ( H ( AuthRes ) , Spv ( P ) ) ) 
+ ( 57 ) ［ 2 - 2 ］ ［ 4 - 2 ］ 
+ ( 59 ) Know ( P , Sign ( P , AuthRes ) ) 
+ ( 57 ) ( 58 ) ［ 定义 ］ 
+ ( 60 ) Generate ( P , k3 ) 
+ ［ 动作 ］ 
+ ( 61 ) Know ( P , k3 ) 
+ ( 60 ) ［ R - 2 ］ 
+ ( 62 ) Know ( P , E ( Sign ( P , AuthRes ) , k3 ) ) 
+ ( 59 ) ( 61 ) ［ 1 - 1 ］ 
+ ( 63 ) Know ( P , S ( k3 , Kpb ( M ) ) ) 
+ ( 32 ) ( 61 ) ［ 1 - 2 ］ 
+ ( 64 ) Know ( P , S ( 〈 k3 , Acct ( C ) 〉 , Kpb ( M ) ) ) 
+ ( 32 ) ( 44 ) ( 61 ) ［ 1 - 2 ］ 
+ ( 65 ) Generate ( P , CapToken ) 
+ ［ 动作 ］ 
+ ( 66 ) Know ( P , CapToken ) 
+ ( 65 ) ［ R - 2 ］ 
+ ( 67 ) Know ( P , S ( H ( Captoken ) , Spv ( P ) ) ) 
+ ( 66 ) ［ 2 - 2 ］ ［ 4 - 2 ］ 
+ ( 68 ) Know ( P , Sign ( P , Captoken ) ) 
+ ( 66 ) ( 67 ) ［ 定义 ］ 
+ ( 69 ) Generate ( P , k4 ) 
+ ［ 动作 ］ 
+ ( 70 ) Know ( P , k4 ) 
+ ( 69 ) ［ R - 2 ］ 
+ ( 71 ) Know ( P , E ( Sign ( P , CapToken ) , k4 ) ) 
+ ( 68 ) ( 70 ) ［ 1 - 1 ］ 
+ ( 72 ) Know ( P , S ( 〈 k4 , Acct ( C ) 〉 , Kpb ( P ) ) ) 
+ ( 70 ) ( 44 ) ［ 2 - 4 ］ ［ 1 - 2 ］ 
+ ( 73 ) Send ( P , M , S ( 〈 k3 , Acct ( C ) 〉 , Kpb ( M ) ) ) 
+ ［ 动作 ］ 
+ ( 74 ) Send ( P , M , E ( Sign ( P , AuthRes ) , k3 ) ) 
+ ［ 动作 ］ 
+ ( 75 ) Send ( P , M , S ( 〈 k4 , Acct ( C ) 〉 , Kpb ( P ) ) ) 
+ ［ 动作 ］ 
+ ( 76 ) Send ( P , M , E ( Sign ( P , CapToken ) , k4 ) ) 
+ ［ 动作 ］ 
+ ( 77 ) Send ( P , M , CertS ( P ) ) 
+ ［ 动作 ］ 
+ ( 78 ) Know ( M , S ( 〈 k3 , Acct ( C ) 〉 , Kpb ( M ) ) ) 
+ ( 73 ) ［ R - 1 ］ 
+ ( 79 ) Know ( M , E ( Sign ( P , AuthRes ) , k3 ) ) 
+ （ 74 ) ［ R - 1 ］ 
+ ( 80 ) Know ( M , S ( 〈 k4 , Acct ( C ) 〉 , Kpb ( P ) ) ) 
+ ( 75 ) ［ R - 1 ］ 
+ ( 81 ) Know ( M , E ( Sign ( P , CapToken ) , k4 ) ) 
+ ( 76 ) ［ R - 1 ］ 
+ ( 82 ) Know ( M , CertS ( P ) ) 
+ ( 77 ) ［ R - 1 ］ 
+ ( 83 ) Verify ( M , CertS ( P ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 82 ) ［ 2 - 5 ］ ［ 动作 ］ 
+ / * 如果 检验 失败 , M 没有 在 PKI 树中 找到 CARoot , 则 商家 终止 付费 认证 * / 
+ ( 84 ) IsVerified ( M , CA , CertS ( P ) ) 
+ ( 83 ) ［ R - 5 ］ 
+ ( 85 ) Auth ( M , CA , 〈 P , Spb ( P ) 〉 ) 
+ ( 84 ) ［ 7 - 1 ］ 
+ ( 86 ) Know ( M , 〈 k3 , Acct ( C ) 〉 ) 
+ ( 78 ) ［ 2 - 1 ］ ［ 3 - 2 ］ 
+ ( 87 ) Know ( M , k3 ) 
+ ( 87 ) ［ 6 - 1 ］ 
+ ( 88 ) Know ( M , Sign ( P , AuthRes ) ) 
+ ( 79 ) ( 86 ) ［ 3 - 1 ］ 
+ ( 89 ) Know ( M , Spb ( P ) ) 
+ ( 82 ) ［ 定理 3 ］ 
+ ( 90 ) Auth ( M , P , AuthRes ) 
+ ( 88 ) ( 89 ) ［ 定理 2 ］ 
+ ( 91 ) “ 商家 M 为 将来 的 获得 处理 存储 加密 的 获得 令牌 CapToken 和 信封 ” 
+ ( 92 ) “ 商家 M 完成 购买 请求 处理 ” 
+ 
+ 1.5 SET 协议 中 的 付费 获得 流程 验证 
+ 已知 : 
+ P = { Know ( M , S ( 〈 k4 , Acct ( C ) 〉 , Kpb ( P ) ) ) , Know ( M , E ( Sign ( P , CapToken ) , k4 ) ) , 
+ Know ( M , CertS ( M ) ) , Know ( M , CertK ( M ) ) , Know ( M , Kpb ( P ) ) , 
+ Know ( P , CertS ( P ) ) , Know ( M , Spb ( P ) ) } , 
+ α = Generate ( M , CapReq ) 甋 end ( M , P , S ( k5 , Kpb ( P ) ) ) 
+ Send ( M , P , E ( Sign ( M , CapReq ) , k5 ) ) 甋 end ( M , P , S ( 〈 k4 , Acct ( C ) 〉 , Kpb ( P ) ) ) 
+ Send ( M , P , E ( Sign ( P , CapToken ) , k4 ) ) ) 甋 end ( M , P , CertS ( M ) ) 
+ Send ( M , P , CertK ( M ) 甐 erify ( P , CertS ( M ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ Verify ( P , CertK ( M ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 瓽 enerate ( P , CapRes ) 
+ Generate ( P , k6 ) 甋 end ( P , M , S ( k6 , Kpb ( M ) ) ) 甋 end ( P , M , E ( Sign ( P , CapRes ) , k6 ) ) 
+ Send ( P , M , CertS ( P ) ) 甐 erify ( M , CertS ( P ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) , 
+ Q = { Auth ( P , CA , 〈 M , Spb ( M ) 〉 ) , Auth ( P , CA , 〈 M , Kpb ( M ) 〉 ) , Auth ( M , CA , 〈 P , Spb ( P ) 〉 ) , 
+ Auth ( M , P , CapRes ) } . 
+ 求证 : P α Q 
+ 证明 : 
+ ( 1 ) Know ( M , S ( 〈 k4 , Acct ( C ) 〉 , Kpb ( P ) ) ) 
+ ［ 前提 ］ 
+ ( 2 ) Know ( M , E ( Sign ( P , CapToken ) , k4 ) ) 
+ ［ 前提 ］ 
+ ( 3 ) Know ( M , CertS ( M ) ) 
+ ［ 前提 ］ 
+ ( 4 ) Know ( M , CertK ( M ) ) 
+ ［ 前提 ］ 
+ ( 5 ) Know ( M , Kpb ( P ) ) 
+ ［ 前提 ］ 
+ ( 6 ) Know ( P , CertS ( P ) ) 
+ ［ 前提 ］ 
+ ( 7 ) Know ( M , Spb ( P ) ) 
+ ［ 前提 ］ 
+ ( 8 ) Generate ( M , CapReq ) 
+ ［ 动作 ］ 
+ ( 9 ) Know ( M , CapReq ) 
+ ( 8 ) ［ R - 2 ］ 
+ ( 10 ) Know ( M , S ( CapReq , Spv ( M ) ) ) 
+ ( 9 ) ［ 2 - 2 ］ ［ 4 - 2 ］ 
+ ( 11 ) Know ( M , Sign ( M , CapReq ) ) 
+ ( 9 ) ( 10 ) ［ 定义 ］ 
+ ( 12 ) Generate ( M , k5 ) 
+ ［ 动作 ］ 
+ ( 13 ) Know ( M , k5 ) 
+ ( 12 ) ［ R - 2 ］ 
+ ( 14 ) Know ( M , E ( Sign ( M , CapReq ) , k5 ) ) 
+ ( 11 ) ( 13 ) ［ 1 - 1 ］ 
+ ( 15 ) Know ( M , S ( k5 , Kpb ( P ) ) ) 
+ ( 5 ) ( 13 ) ［ 1 - 2 ］ 
+ ( 16 ) Send ( M , P , S ( k5 , Kpb ( P ) ) ) 
+ ［ 动作 ］ 
+ ( 17 ) Send ( M , P , E ( Sign ( M , CapReq ) , k5 ) ) 
+ ［ 动作 ］ 
+ ( 18 ) Send ( M , P , S ( 〈 k4 , Acct ( C ) 〉 , Kpb ( P ) ) ) 
+ ［ 动作 ］ 
+ ( 19 ) Send ( M , P , E ( Sign ( P , CapToken ) , k4 ) ) ) 
+ ［ 动作 ］ 
+ ( 20 ) Send ( M , P , CertS ( M ) ) 
+ ［ 动作 ］ 
+ ( 21 ) Send ( M , P , CertK ( M ) ) 
+ ［ 动作 ］ 
+ ( 22 ) Know ( P , S ( k5 , Kpb ( P ) ) ) 
+ ( 16 ) ［ R - 1 ］ 
+ ( 23 ) Know ( P , E ( Sign ( M , CapReq ) , k5 ) ) 
+ ( 17 ) ［ R - 1 ］ 
+ ( 24 ) Know ( P , S ( 〈 k4 , Acct ( C ) 〉 , Kpb ( P ) ) ) 
+ ( 18 ) ［ R - 1 ］ 
+ ( 25 ) Know ( P , E ( Sign ( P , CapToken ) , k4 ) ) 
+ ( 19 ) ［ R - 1 ］ 
+ ( 26 ) Know ( P , CertS ( M ) ) 
+ ( 20 ) ［ R - 1 ］ 
+ ( 27 ) Know ( P , CertK ( M ) ) 
+ ( 21 ) ［ R - 1 ］ 
+ ( 28 ) Verify ( P , CertS ( M ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 26 ) ［ 2 - 5 ］ ［ 动作 ］ 
+ / * 如果 检验 失败 , P 没有 在 PKI 树中 找到 CARoot , 则 付费 网关 拒绝 付费 * / 
+ ( 29 ) ISVerified ( P , CA , CertS ( M ) ) 
+ ( 28 ) ［ R - 6 ］ 
+ ( 30 ) Auth ( P , CA , 〈 M , Spb ( M ) 〉 ) 
+ ( 29 ) ［ 7 - 1 ］ 
+ ( 31 ) Verify ( P , CertK ( M ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 27 ) ［ 2 - 5 ］ ［ 动作 ］ 
+ / * 如果 检验 失败 , P 没有 在 PKI 树中 找到 CARoot , 则 付费 网关 拒绝 付费 * / 
+ ( 32 ) ISVerified ( P , CA , CertK ( M ) ) 
+ ( 31 ) ［ R - 6 ］ 
+ ( 33 ) Auth ( P , CA , 〈 M , Kpb ( M ) 〉 ) 
+ ( 32 ) ［ 7 - 2 ］ 
+ ( 34 ) Know ( P , Spb ( M ) ) 
+ ( 26 ) ［ 定理 3 ］ 
+ ( 35 ) Know ( P , Kpb ( M ) ) 
+ ( 27 ) ［ 定理 4 ］ 
+ ( 36 ) Know ( P , k5 ) 
+ ( 22 ) ［ 2 - 1 ］ ［ 3 - 2 ］ 
+ ( 37 ) Know ( P , Sign ( M , CapReq ) ) 
+ ( 23 ) ( 36 ) ［ 3 - 1 ］ 
+ ( 38 ) Auth ( P , M , CapReq ) 
+ ( 34 ) ( 37 ) ［ 定理 2 ］ 
+ ( 39 ) Know ( P , 〈 k4 , Acct ( C ) 〉 ) 
+ ( 24 ) ［ 2 - 1 ］ ［ 3 - 2 ］ 
+ ( 40 ) Know ( P , k4 ) 
+ ( 39 ) ［ 4 - 1 ］ 
+ ( 41 ) Know ( P , Acct ( C ) ) 
+ ( 39 ) ［ 6 - 1 ］ 
+ ( 42 ) Know ( P , Sign ( P , CapToken ) ) 
+ ( 25 ) ( 40 ) ［ 3 - 1 ］ 
+ ( 43 ) “ 付费 网关 P 确信 商家 M 的 获得 请求 CapReq 和 获得 令牌 CapToken 之间 的 一致性 ” 
+ ( 44 ) “ 付费 网关 P 通过 金融网 向 持卡人 C 的 金融机构 发送 获得 请求 ” 
+ ( 45 ) Generate ( P , CapRes ) 
+ ［ 动作 ］ 
+ ( 46 ) Know ( P , CapRes ) 
+ ( 45 ) ［ R - 2 ］ 
+ ( 47 ) Know ( P , S ( H ( CapRes ) , Spv ( P ) ) ) 
+ ( 46 ) ［ 2 - 2 ］ ［ 4 - 2 ］ 
+ ( 48 ) Know ( P , Sign ( P , CapRes ) ) 
+ ( 46 ) ( 47 ) ［ 定义 ］ 
+ ( 49 ) Generate ( P , k6 ) 
+ ［ 动作 ］ 
+ ( 50 ) Know ( P , k6 ) 
+ ( 49 ) ［ R - 2 ］ 
+ ( 51 ) Know ( P , E ( Sign ( P , CapRes ) , k6 ) ) 
+ ( 48 ) ( 50 ) ［ 1 - 1 ］ 
+ ( 52 ) Know ( P , S ( k6 , Kpb ( M ) ) ) 
+ ( 35 ) ( 50 ) ［ 1 - 2 ］ 
+ ( 53 ) Send ( P , M , S ( k6 , Kpb ( M ) ) ) 
+ ［ 动作 ］ 
+ ( 54 ) Send ( P , M , E ( Sign ( P , CapRes ) , k6 ) ) 
+ ［ 动作 ］ 
+ ( 55 ) Send ( P , M , CertS ( P ) ) 
+ ［ 动作 ］ 
+ ( 56 ) Know ( M , S ( k6 , Kpb ( M ) ) ) 
+ ( 53 ) ［ R - 1 ］ 
+ ( 57 ) Know ( M , E ( Sign ( P , CapRes ) , k6 ) ) 
+ ( 54 ) ［ R - 1 ］ 
+ ( 58 ) Know ( M , CertS ( P ) ) 
+ ( 55 ) ［ R - 1 ］ 
+ ( 59 ) Verify ( M , CertyS ( P ) , 〈 CA , X2 , ... , Xn - 1 , CARoot 〉 ) 
+ ( 58 ) ［ 2 - 5 ］ ［ 动作 ］ 
+ / * 如果 检验 失败 , M 没有 在 PKI 树中 找到 CARoot , 则 商家 M 拒绝 获得 付费 * / 
+ ( 60 ) IsVerified ( P , CA , CertS ( P ) ) 
+ ( 59 ) ［ R - 6 ］ 
+ ( 61 ) Auth ( M , CA , 〈 P , Spb ( P ) 〉 ) 
+ ( 60 ) ［ 7 - 1 ］ 
+ ( 62 ) Know ( M , k6 ) 
+ ( 56 ) ［ 2 - 1 ］ ［ 3 - 2 ］ 
+ ( 63 ) Know ( M , Sign ( P , CapRes ) ) 
+ ( 57 ) ( 62 ) ［ 3 - 1 ］ 
+ ( 64 ) Know ( M , Spb ( P ) ) 
+ ( 58 ) ［ 定理 3 ］ 
+ ( 65 ) Auth ( M , P , CapRes ) 
+ ( 63 ) ( 64 ) ［ 定理 2 ］ 
+ ( 66 ) “ 商家 M 存储 获得 回答 , 使 它 与 从 请求者 获得 的 付费 一致 ” 
+ 　 　 以上 用 文献 ［ 1 ］ 中 扩展 的 NDL 逻辑 框架 对 SET 的 付费 业务流程 进行 了 全面 的 验证 . 从 整个 证明 过程 可以 看出 ， NDL 在 验证 安全 协议 的 安全 性质 上 的 重要 作用 . 我们 通过 把 一些 复杂 的 过程 抽象 成 简单 的 逻辑 符号 , 对 SET 进行 了 严格 的 证明 . 但 也 应该 看到 , 在 证明 中 假设 各 参与方 都 是 合法 用户 , 排除 了 他们 非法 获得 或 泄露 消息 的 可能性 , 对此 如果 没有 相应 的 防范措施 , 一旦 发生意外 , 要 追究责任 时 , 各方 都 可以 抵赖 , 拒绝 承担责任 . 采取 什么样 的 方法 来 摆脱 这种 状况 是 我们 迫切需要 解决 的 问题 . 
+ 1.6 验证 逻辑 的 Prolog 程序实现 
+ 　 　 由于 逻辑 推导 所 涉及 的 东西 大多 是 符号 和 规则 , 此 推理 过程 若要 由 人来 完成 , 那么 无论 在 人力 上 , 还是 在 时间 上 均 是 一个 极大 的 浪费 . 但 逻辑推理 具有 易 在 机器 上 验证 的 特点 , 因此 我们 编制 了 基于 NDL 逻辑 框架 的 Prolog “ 安全 协议 验证 系统 ” , 其 规则 系统 即为 NDL 的 公理 和 规则 , 用户 可以 根据 增加 的 需要 输入 前提 , 来 达到 验证 安全 协议 是否 存在 漏洞 的 目的 . 
+ 2 “ koutofn ” 问题 
+ 2.1 “ koutofn ” 的 定义 
+ 　 　 “ koutofn ” 问题 的 含义 是 指 , 在 协议 执行 过程 中有 n 个 参与方 , 每个 参与方 都 知道 自己 权限 范围 内 的 秘密 信息 . 在 正常 情况 下 , 参与 各方 只 知道 有限 的 信息 , 谁 都 无法 获得 超出 自己 权限 的 商业 机密 , 即 SET 的 付费 流程 是 安全可靠 的 . 但是 , 如果 其中 有 k 方 聚在一起 , 把 他们 所 知道 的 秘密 凑 到 一起 形成 一把 完整 的 “ 钥匙 ” , 就 可以 非法 窃取 商业 机密 . 
+ 　 　 当 金融机构 发现 问题 , 想 追究 他们 的 法律责任 时 , 任何一方 都 可以 抵赖 . 因为 他们 只用 自己 知道 的 合法 的 、 有限 的 信息 , 是 无法 知道 这些 超出 自己 权限 范围 的 商业 机密 的 . 这 就 涉及 到 当今 电子商务 中 一个 很 重要 的 问题 , 即 如何 在 电子 交易 中 实现 “ 可 防 抵赖 ” 和 “ 可追踪 ” 两种 安全 保障机制 , 从而 防止 该 问题 的 发生 . 
+ 　 　 注意 , “ koutofn ” 问题 是 在 信任 RSA , DES 算法 的 安全 强度 , 而 忽略 算法 的 数学 细节 的 前提 下 进行 讨论 的 . 
+ 2.2 SET 中 参与方 概述 
+ 　 　 Issuer ( 发行 方 ) : 它 是 一个 金融机构 , 由 它 发行 付费卡 , 确定 持卡人 帐号 . 它 保证 了 按 付费卡 品牌 和 地方 法律 为 认证 的 事务 付费 . 
+ 　 　 Acquirer ( 获得 方 ) : 它 是 一个 金融机构 , 确认 商家 的 帐户 , 处理 付费卡 认证 和 付费 . 
+ 　 　 Cardholder ( 持卡人 ) : 它 的 付费卡 由 Issuer 发行 , SET 保证 在 持卡人 与 商家 交易 的 过程 中 , 付费卡 的 帐目 信息 保持 可靠 . 
+ 　 　 Merchant ( 商家 ) : 它 提供 所要 卖 的 商品 或 要求 付费 的 服务 , 能 接受 付费卡 的 商家 必须 与 Acquirer 有 关系 . 
+ 　 　 PaymentGateway ( 付费 网关 ) : 它 是 由 Acquirer 或 处理 商家 付费 信息 ( 包括 从 持卡人 得到 的 付费 指令 ) 的 指定 第三方 操作 的 设备 . 
+ 　 　 ThirdParties ( 第三方 ) : Issuer 和 Acquirers 有时 会 选择 把 付费卡 业务 分配 给 第三方 处理 . 
+ 2.3 对 持卡人 注册 阶段 的 分析 
+ MessageC : 〈 Spv ( C ) , Spb ( C ) 〉 , k1 , k2 , k3 , Acct ( C ) , 
+ MessageCA : Spv ( CA ) , Spb ( C ) , k1 , k2 , k3 , Acct ( C ) . 
+ 　 　 通过 该 阶段 各 参与方 所 知道 消息 的 分析 和 上边 对 它 所 做 的 逻辑 认证 可以 看出 ， 持卡人 的 帐户 信息 是 能否 保证 持卡人 注册 阶段 的 安全性 的 关键环节 . 从 帐户 信息 是否 泄露 的 角度 出发 , 安全性 问题 又 可 分为 以下 3 个 方面 : 
+ 　 　 . C 更改 了 密钥 Spv ( C ) , k1 , k2 和 k3 , 但 没有 泄露 帐户 信息 . 
+ 　 　 . C 或 CA 向 第三者 泄露 帐户 信息 , 但 没有 更改 密钥 . 
+ 　 　 . C 更改 了 密钥 , 且 向 第三者 泄露 了 帐户 信息 . 
+ 　 　 如果 发生 第 1 种 情况 , 因为 密钥 已经 改变 , C 可以 抵赖 说 他 没有 向 CA 申请 过 证书 . 如果 发生 第 2 种 情况 , 因为 无论是 C 或 CA 泄露 的 消息 , 第三者 都 可以 成功 地 冒充 持卡人 从 CA 获得 合法 的 签名 公钥 证书 , 但是 要 追究责任 , C 和 CA 都 可以 抵赖 , 指责 对方 泄露 了 消息 . 对于 第 3 种 情况 , 它 与 第 1 种 情况 唯一 不同之处 在于 ， 第三者 也 能 冒充 C 申请 到 合法 的 签名 证书 . 因此 , 无论 上面 哪 一种 情况 , 该 阶段 的 安全性 都 无法 保障 , 那么 为了 能够 保证 电子商务 中 的 安全性 , 整个 SET 付费 流程 中 必须 能够 保证 上面 所 提到 的 “ 防 抵赖 ” 性 和 各 参与方 活动 的 “ 可追踪 ” 性 两种 安全 机制 的 实施 . 
+ 3 结束语 
+ 　 　 以上 对 SET 协议 进行 了 全面 的 逻辑 验证 , 说明 了 NDL 的 重要性 , 从 证明 中 也 发现 了 SET 中 确实 存在 漏洞 . 该 证明 过程 使 整个 SET 的 验证 变得 非常 简洁 , 它 同时 也 为 用 Prolog 编程 模拟 该 验证 过程 奠定 了 基础 . 本文 的 重点 是 给出 整个 SET 流程 的 证明 . 只是 简单 地 就 对 “ 持卡人 注册 ” 阶段 进行 的 讨论 指出 了 “ koutofn ” 问题 的 存在 . 我们 将来 的 目标 就是 针对 该 问题 进行 分析 , 结合实际 的 金融业务 中 可能 会 发生 的 情况 , 通过 实现 “ 防 抵赖 ” 和 “ 可追踪 ” 两种 安全 机制 来 保障 SET 中 的 信息安全 . 我们 将 在 以后 的 工作 中 对 SET 协议 中 存在 的 “ koutofn ” 问题 进行 详细 的 讨论 . 
+ 本文 研究 得到 国家 863 高科技 项目 基金 ( No.863 - 306 - ZD - 10 - 02 ) 资助 . 作者 陈庆锋 , 1971 年生 , 助理 工程师 , 主要 研究 领域 为 信息安全 , 电子商务 . 王驹 , 1950 年生 , 博士 , 研究员 , 主要 研究 领域 为 数理逻辑 , 计算机 理论 . 白硕 , 1956 年生 , 博士 , 研究员 , 博士生 导师 , 主要 研究 领域 为 人工智能 , 计算机 语言学 , Internet / Intranet 应用软件 . 张师超 , 1962 年生 , 博士 , 教授 , 主要 研究 领域 为 人工智能 , 数据库 技术 . 隋立颖 , 女 , 1973 年生 , 硕士 , 主要 研究 领域 为 Internet / Intranet 应用软件 , 计算机 理论 . 
+ 本文 通讯联系 人 : 白硕 , 北京 100080 , 国家 智能 计算机 研究 开发 中心 
+ 作者 单位 : 陈庆锋 ( 国家 智能 计算机 研究 开发 中心 北京 100080 ) 
+ 陈庆锋 ( 广西师范大学 数学 与 计算机科学 系 桂林 541005 ) 
+ 王驹 ( 中国科学院 软件 研究所 北京 100080 ) 
+ 白硕 ( 国家 智能 计算机 研究 开发 中心 北京 100080 ) 
+ 张师超 ( 广西师范大学 数学 与 计算机科学 系 桂林 541005 ) 
+ 隋立颖 ( 国家 智能 计算机 研究 开发 中心 北京 100080 ) 
+ 参考文献 
+ 1 ， KenichiHAYASHI , EijiOKAMOTO , MasabiroMAMBO . Proposalofuseridentificationschemeusingmouse . In : HanYong - fei , OkamotoTatsuaki , QingSi - haneds . ProceedingsoftheICICS ' 97 . LNCS1334 , Berlin : Springer - Verlag , 1997.424 ～ 434 
+ 2 ， ChangLi - wu , MoskowitzTS . Criticalanalysisofsecurityinvoicehidingtechniques . In : HanYong - fei , OkamotoTatsuaki , QingSi - haneds . ProceedingsoftheICICS ' 97 . LNCS1334 , Berlin : Springer - Verlag , 1997.203 ～ 216 
+ 3 ， VanderMerweJaco , VonSolmsSH . Electroniccommercewithsecureintelligenttradeagents . In : HanYong - fei , OkamotoTatsuaki , QingSi - haneds . ProceedingsoftheICICS ' 97 . LNCS1334 , Berlin : Springer - Verlag , 1997.452 ～ 462 
+ 4 ， KailarR . Accountabilityinelectroniccommerceprotocols . InformationandCommunications , 1996 , 22 ( 5 ) : 313 ～ 328 
+ 5 ， KailarR , GligorV . Onbeliefevolutioninauthenticationprotocols . In : Proceedingsofthe4thIEEEComputerSecurityFoundationsWorkshop . LosAlamitors , CA : IEEEComputerSocietyPress , 1991 
+ 6 ， ChenQing - feng , BaiShuo , WangJuetal . Thesecureelectronictransactionsprotocolanditslogicalverificationwithnon - monotomicdynamiclogic . JournalofSoftware , 2000 , 11 ( 2 ) : 240 ～ 250 
+ （ 陈庆锋 , 白硕 , 王驹 等 . 电子商务 安全 协议 及其 非 单调 动态 逻辑 验证 . 软件 学报 , 2000 , 11 ( 2 ) : 240 ～ 250 ) 
+ 7 ， SETSecureElectronicTransactionSpecification , Book1 : BusinessDescription . Version1.0 , 1997 
+ 8 ， BaiShuo , SuiLi - ying , ChenQing - fengetal . Theverificationlogicforsecureprotocols . JournalofSoftware , 2000 , 11 ( 2 ) : 213 ～ 221 
+ （ 白硕 , 隋立颖 , 陈庆锋 等 . 安全 协议 的 验证 逻辑 . 软件 学报 , 2000 , 11 ( 2 ) : 213 ～ 221 ） 
+ 本文 1998 - 04 - 03 收到 原稿 , 1999 - 03 - 22 收到 修改稿 

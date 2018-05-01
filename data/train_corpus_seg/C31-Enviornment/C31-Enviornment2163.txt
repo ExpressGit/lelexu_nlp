@@ -1,0 +1,40 @@
+环境 科学研究 
+ RESEARCHOFENVIRONMENTALSCIENCES 
+ 2001Vol.14 No.3 P.1 - 3 
+ 
+ 
+ 
+ 
+ 有机 烷 酚类化合物 致 突变性 研究 
+ 刘征涛 　 徐静波 　 杨丽 　 张颖 　 
+ 摘 　 要 ： 采用 鼠 伤寒 沙门氏菌 致 突变 试验 ( AmesTest ) 菌株 TA97 ， TA98 ， TA100 ， TA102 ， 对 环境 中 潜在 内分泌 激素 干扰 污染物 甲基 苯酚 等 12 种烷 酚类 有机物 的 致 突变性 进行 研究 。 结果表明 ， 除 2 ， 4 - 二氯 苯酚 外 ， 烷 酚类化合物 对 Ames 试验 中 TA98 菌株 的 平皿 掺入 试验 ， 均 诱发 显示 阳性反应 ； 其中 对 壬基 酚 、 2 ， 6 - 二甲基 苯酚 、 4 - 辛基 酚 等 烷基 酚类化合物 呈强 阳性反应 ， 怀疑 这 几种 化合物 具有 强致 突变性 ， 且 以 碱基 移码 型 突变 为主 。 
+ 关键词 ： 烷 酚类化合物 ； 　 Ames 试验 ； 致 突变性 
+ 分类号 ： X503.2 　 文献 标识码 ： A 
+ 文章 编号 ： 1001 - 6929 ( 2001 ) 03 - 0001 - 03 
+ MutationEffectofAlkyl - hydroxybenzene 
+ LIUZheng - tao （ InstituteofEcology , ChineseResearchAcademyofEnvironmentalSciences , Beijing100012 , China ） 　 
+ XUJing - bo （ DepartmentofEnvironmentalSciences , NortheastNormalUniversity , Changchun130024 , China ） 　 
+ ZHANGYing （ DepartmentofEnvironmentalSciences , NortheastNormalUniversity , Changchun130024 , China ） 　 
+ YANGLi （ DepartmentofEnvironmentalSciences , NortheastNormalUniversity , Changchun130024 , China ） 　 
+ 
+ Abstract ： ThemutationtoxicityoftheenvironmentalpotentialendocrinedisturbancesAlkyl - hydroxybenzeneshasbeeninvestigatedwithAmestestbyusingtheTA97 , TA98 , TA100andTA102 . Theresultshowsthat , exceptthe2 , 4 - dichlorphenol , thetestchemicalssuchasdimethylphenol , p - ethylphenol , 4 - octanylphenol , nonylphenol , andsomechlorophenolshavepositiveresponsesontheTA98 , andthemaintypeofgenemutationisbase - pairframe - shift . 
+ Keywords ： Alkyl - hydroxybenzenes ; Amestest ; mutationeffect 
+ 
+ 基金项目 ： 国家自然科学基金 资助 项目 ( 29977020 ) 
+ 作者简介 ： 刘征涛 ( 1965 - ) ， 男 ， 江苏 江阴市 人 ， 副研究员 ， 博士 . 
+ 作者 单位 ： 刘征涛 （ 中国环境科学研究院 生态 所 ， 北京 100012 ） 　 
+ 　 　 　 　 　 徐静波 （ 东北师范大学 环境 科学系 ， 吉林长春 130024 ） 　 
+ 　 　 　 　 　 杨丽 （ 东北师范大学 环境 科学系 ， 吉林长春 130024 ） 　 
+ 　 　 　 　 　 张颖 （ 东北师范大学 环境 科学系 ， 吉林长春 130024 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ GronenS , DenslowN , ManningS , etal . SerumvitellogeninlevelsandreproductiveimpairmentofmaleJapanesemedakaexposedto4 - tert - octylphenol [ J ] . EnvironmentalHealthPerspectives , 1999 , 107 ( 5 ) : 385 ～ 390 . 
+ ［ 2 ］ AmesBN , McCannJ , YamaSakiE . Methodsfordetectingcarcinogenswiththesalmonella / manmalian \ | microsomemutagenicitytest [ J ] . MutationResearch , 1975 , 31 : 347 ～ 364 . 
+ ［ 3 ］ MaronDM , AmesBN . Revisedmethodsforthesalmonellamutagenicitytest [ J ] . MutationResearch , 1983 , 113 : 173 ～ 215 . 
+ ［ 4 ］ TylerCR , JoblingS , SumpterJP . Endocrinedisruptioninwildlife : acriticalreviewoftheevidence [ J ] . CriticalReviewsinToxicology , 1998 , 28 ( 4 ) : 319 ～ 361 . 
+ ［ 5 ］ 黄幸 纾 , 陈星 若 . 环境 化学 物致 突变 致畸 致癌 试验 方法 [ M ] . 杭州 ： 浙江 科学技术 出版社 , 1985.13 ～ 52 . 
+ ［ 6 ］ ScottGK , KushnerP , VignneJL , etal . TruncatedformsofDNA \ | bindingestrogenreceptorsinhumanbreastcancer [ J ] . JClinInvest , 1991 , 88 : 700 ～ 706 . 
+ ［ 7 ］ SumpterJP , JoblingS . Vitellogenesisasabiomarkerforestrogrniccontaminationoftheaquaticenvironment [ J ] . EnvironmentalHealthPerspectives , 1995 , 103 ( 7 ) : 173 ～ 178 . 
+ 
+ 收稿 日期 ： 2000 年 11 月 20 日 
+ 出版日期 ： 2001 年 5 月 30 日 

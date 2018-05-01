@@ -1,0 +1,207 @@
+环境 科学 学报 
+ ACTA 　 SCIENTIAE 　 CIRCUMSTANTIAE 
+ 1998 年 2 月 第 18 卷 第 2 期 科技期刊 
+ 北极 陆地 生态系统 的 碳循环 与 全球 温暖 化 * 
+ 方精云 * 　 * 
+ ( 中国科学院 生态环境 研究 中心 ， 北京 　 100085 ) 
+ 位 梦华 
+ ( 国家地震局 地质 研究所 ， 北京 　 100029 ) 
+ 
+ 摘要 　 根据 最新 研究 资料 ， 综述 并 分析 了 全球 温暖 化 与 北极 陆地 生态系统 碳循环 的 关系 ， 指出 近代 全球 大气 CO2 和 CH4 浓度 显著 增加 ， 并 呈现 日益加剧 的 趋势 ； 这些 温室 气体 的 浓度 上升 与 全球 温暖 化 密切相关 ， 自 本世纪 70 年代 开始 ， 北极 地区 的 夏季 温度 显著 上升 . 通过 分析 北极 陆地 生态系统 的 碳循环 及其 基本特征 ， 发现 北极 陆地 生态系统 是 一个 巨大 的 土壤 碳库 ， 占 全球 土壤 碳库 总量 的 23.7% — 32.3% ； 虽然 该 系统 目前 起着 大气 CO2 汇 的 作用 ， 但 大气 CO2 浓度 增加 导致 的 气温 上升 将 对 北极 土壤 碳库 和 CO2 的 源汇 功能 产生 深刻影响 . 
+ 关键词 　 北极 ； 陆地 生态系统 ； 碳循环 ； 全球 温暖 化 ； CO2 ； 土壤 碳库 . 
+ CARBONCYCLEINTHEARCTICTERRESTRIALECOSYSTEMSINRELATIONTOTHECLOBALWARMING 
+ . 
+ FangJingyun 
+ ( ResearchCenterforEco - EnvironmentalSciences , ChineseAcademyofSciences , Beijing100085 ) 
+ WeiMenghua 
+ ( InstituteofGeology , TheStateSeismologicalAgencyofChina , Beijing100029 ) 
+ 
+ ABSTRACT 　 TherelationshipbetweentheglobalwarmingandcarboncycleintheArcticterrestrialecosystemswasdiscussedbyanalyzingresultspresentedinthelatestliterature . Theresultsshowedthatatmosphericcarbondioxide ( CO2 ) andmethane ( CH4 ) concentrationsincreasedmarkedlyduringthepastfewcenturies . Theincreaseintheconcentrationsofthesegreenhousegaseswascoupledwiththeglobalwarming . SummertemperatureintheArcticregionsshowedarapidrise . SoilinTheArcticisahugeorganiccarbonpool , withameanestimateof355 × 109tC , being23.7% — 32.3% oftheglobalsoilcarbonpool . AtpresenttheecosystemisasinkofatmosphericCO2 . Theglobalriseofair - temperatureresultingfromanincreaseinatmosphericCO2wouldinfluencemarkedlytheArcticsoilcarbonandCO2source / sinkrelationoftheecosystems . 
+ Keywords 　 Arcticterrestrialecosystem , carboncycle , globalwarming , soilcarbonpool . 
+ 
+ 
+ 图 1 　 过去 16 万 年间 冰芯 中 的 CO2 和 CH4 浓度 与 气温 的 变化 
+ Fig.1 CO2andCH4concentrationsand 
+ estimatedVostokatmospherictemperature 
+ changesduringthepast160kyr , asdeterminedontheicecores 
+ 地球 在 漫长 的 演化过程 中 ， 由于 大气 成分 的 变化 和 冰期 的 循环反复 等 自然 因素 的 作用 ， 导致 了 大气 CO2 浓度 的 变化 . 阐明 这种 变化 的 原因 对于 了解 大气 CO2 在 气候系统 形成 和 变迁 中 的 作用 以及 地球 碳循环 的 过程 具有 极为重要 的 意义 . 为此 ， 人类 进行 了 大量 的 研究 ［ 1 ］ . 然而 ， 到 了 本世纪 50 年代 以后 ， 人类 利用 化学 方法 测得 的 结果表明 ， 近代 大气 中 的 CO2 浓度 显著 增加 主要 是 由于 人类 活动 的 加剧 而 导致 的 . 这一 结论 由 后来 的 全球 定位 观测 ( 如 在 夏威夷 的 MaunaLoa ， 阿拉斯加 的 Barrow ， 南极 点 等 ) 和 南北极 地区 的 冰芯 分析 得到 进一步 证实 ［ 2 ， 3 ］ . 在 全球 气候变化 研究 中 ， 南北极 ， 尤其 是 北极 生态系统 由于 它 的 巨大 陆地 碳库 和 对 气候变化 反应 的 敏感性 ［ 4 ， 5 ］ ， 成为 研究 全球 气候变化 及其 生态 效应 的 良好 场所 ［ 6 ］ . 本文 对 北极 陆地 生态系统 的 碳循环 及其 在 全球 变化 中 的 作用 进行 了 整理 和 分析 . 
+ 
+ 1 　 温室 气体 增加 与 近年 北极 地区 的 温暖 化 现象 
+ 　 　 二氧化碳 ( CO2 ) 和 甲烷 ( CH4 ) 是 两大 含碳 温室效应 气体 . 研究 表明 ， 这 两种 气体 与 气温 的 变化 密切相关 . 图 1 表示 在 南极 Vostok 测得 的 过去 16 万 年间 冰芯 气泡 中 的 CO2 浓度 、 CH4 浓度 和 用 氘 测得 的 气温 的 变化 结果 ［ 7 ， 8 ］ . 从图 可见 ， 在 过去 1 万年 左右 的 后 冰期 和 从今 至 13 万年 为 中心 的 上 一个 间冰期 ， 南极 附近 的 平均气温 比 冰期 高出 10 ℃ 左右 . 对应 于 这种 温度 变化 ， CO2 浓度 由 间冰期 的 280ppm 以上 ， 下降 到 冰期 的 200ppm ， 变化 了 约 80ppm ； CH4 浓度 在 间冰期 达到 700ppb ， 而 在 冰期 则 只有 300ppb 左右 . 显示 出 气温 与 CO2 浓度 及 CH4 浓度 之间 的 对应 关系 . 
+ 　 　 
+ 
+ 
+ 图 2 　 CO2 浓度 的 年代 变化 
+ Fig.2 AtmosphericCO2increaseduringthepast250years 
+ 
+ 
+ 图 3 　 CH4 浓度 的 年代 变化 
+ Fig.3 AtmosphericCH4variationsduringthepast 
+ fewcenturiesmeasuredfromairindatedicecores 
+ 
+ 
+ 图 4 　 北极 地区 夏季 气温 的 年际 变化 
+ Fig.4 AnnualchangesofsummerairtemperatureintheArcticregions 
+ 来自 格陵兰 和 其他 北极 地区 的 研究 表明 ， 过去 的 数百年 到 数万 年间 发生 在 北极 地区 的 气候变化 ， 乃至 其他 的 环境 变化 与 大气 温室 气体 之间 ， 存在 着 十分 密切 的 关系 ［ 9 — 14 ］ . 图 2 是 根据 格陵兰 和 南极 冰芯 测得 的 过去 约 300 年间 CO2 浓度 以及 在 美国 夏威夷 MaunaLoa 直接 进行 大气 监测 得到 的 35 年间 CO2 浓度 的 变化 ［ 12 ， 14 — 16 ］ . 此图 清楚 地 表明 ， 自 工业革命 以来 ， 大气 CO2 浓度 一直 呈 增加 趋势 ， 尤其 到 了 本世纪 50 年代 以后 ， 增加 的 速度 更是 惊人 . 
+ 　 　 图 3 表示 CH4 浓度 的 年代 变化 ［ 17 ， 18 ］ . 200 多年 前 ， 大气 中 的 CH4 浓度 在 800ppb 左右 ， 但 到 了 本世纪 90 年代 ， 增加 到 1700ppb 左右 ， 尤其 是 80 年代 以后 ， 平均 以 每年 15ppb 的 速率 增加 . 
+ 　 　 这些 温室 气体 的 增加 ， 伴随 着 全球 的 温暖 化 . 北极 地区 是 全球 变化 最 敏感 的 地带 之一 ［ 4 ］ . Lachenbruch & Marshall ［ 19 ］ 通过 测定 阿拉斯加 北极 冻土 的 温度 发现 ， 该地 过去 几十年 到 一个 世纪 的 时间 中 ， 平均气温 上升 了 2 — 4 ℃ . 图 4 表示 的 结果 更为 显著 . 该图 为 阿拉斯加 Barrow 和 PrudhoeBay 夏季 气温 的 观测 结果 ［ 20 ］ . 在 Barrow ， 本世纪 70 年代 以前 ， 夏季 气温 的 变化 有 一个 10 — 15 年 的 冷暖 周期 ， 但 自 进入 70 年代 ， 总体 趋势 呈 直线 上升 ( 虽然 在 80 年代 初 气温 稍 有 下降 ) . 在 PrudhoeBay ， 这种 上升 趋势 尤为 显著 ， 由 1969 年 的 4.1 ℃ 上升 到 1990 年 的 6.9 ℃ ， 21 年间 上升 了 2.8 ℃ ， 上升 速率 为 0.13 ℃ / a . 
+ 　 　 上述 结果表明 ， 北极 地区 ， 近代 确实 出现 温暖 化 现象 ， 并且 进程 相当 显著 . 
+ 　 　 
+ 2 　 北极 陆地 生态系统 的 碳循环 
+ 　 　 
+ 
+ 碳 在 陆地 生态系统 中 的 循环 、 流动 主要 是 通过 下列 6 个 方面 去 实现 的 ， 即 植物 的 光合 生产 ( 光合作用 、 生物量 ) 、 植物 的 呼吸 消耗 、 凋落 物 的 生成 及 凋落 物 总量 、 土壤 有机质 积累 和 土壤 呼吸 释放 . 我们 在 分析 北极 陆地 生态系统 的 这些 基本要素 的 基础 上 ， 讨论 它 的 碳循环 . 
+ 2.1 　 生物量 和 生产力 
+ 　 　 表 1 列出 北极 陆地 生态系统 的 生物量 和 净 生产力 . 北极 陆地 的 总面积 为 20 × 108hm2 ( 泰加林 与 冻原 之 和 ) ， 占 全球 陆地 总面积 149 × 108hm2 的 13.4% ［ 21 ］ . 它 的 总 生物量 为 ( 80.0 — 113.8 ) × 109t ( C ) ， 占 全球 陆地 总 生物量 的 12.1% — 16.5% . 也就是说 ， 用 面积 比较 ， 北极 地区 的 生物量 几乎 与 全球 平均水平 相同 . 而 北极 陆地 植被 的 净 生产力 占 全球 陆地 总 生产力 的 6.1% — 10.1% ， 低于 全球 平均水平 . 
+ 表 1 　 北极 陆地 生态系统 的 生物量 和 净 生产力 ［ 5 ， 21 ， 22 ］ 
+ Table1BiomassandplantnetproductionintheArcticterrestrialecosystems 
+ ( BasedonMooreetal . ［ 22 ］ , Coechel & Billings ［ 5 ］ andSchlesinger ［ 21 ］ ) 
+ 
+ 生态系 
+ 统 类型 面积 ， 
+ 108hm2 总 生物量 ， 
+ 109t ( C ) 总量 北极 / 总量 全球 ， 
+ % 净 生产力 ， 
+ 109t ( C ) / a 净 生产力 北极 / 净 生产力 全球 ， 
+ % 
+ 泰加林 1280 — 10811.6 — 15.72 . 5 — 4.35 . 2 — 8.9 
+ 冻 　 原 83.4 — 5.80 . 5 — 0.80 . 5 — 0.61 . 0 — 1.2 
+ 合 　 计 2083.4 — 113.812 . 1 — 16.53 . 0 — 4.96 . 2 — 10.1 
+ 全球 陆地 149550 — 82710048.3100 
+ 
+ 　 注 ： 全球 生物量 基数 按 550 × 109 和 827 × 109t ( C ) 的 平均值 ， 即 689 × 109t ( C ) 计算 
+ 
+ 2.2 　 土壤有机 碳库 
+ 　 　 北极 地区 是 个 巨大 的 土壤 碳库 ， 这是 公认 的 事实 ， 也 是 北极 陆地 生态系统 对 全球 变化 贡献 的 最 主要 方面 之一 . 但 不同 作者 对 这个 碳库 的 估算 结果 差异 较大 ( 表 2 ) . 
+ 　 　 按照 最新 的 估算 结果 ， 全球 土壤 总碳量 在 ( 1100 — 1500 ) × 109t 之间 ［ 21 ， 22 ， 28 ］ . 那么 ， 北极 和 亚 北极 土壤 碳量 为 全球 总碳量 的 23.7% — 32.3% . 这 进一步 说明 了 北极 地区 对 全球 土壤 碳库 的 重要 贡献 . 
+ 　 　 在 表 2 的 土壤 碳库 估计值 中 ， 包括 了 凋落 物 的 量 . 因为 凋落 物在 碳循环 中起 着 极为重要 的 作用 ， 因此 ， 我们 对 它 的 分布 规律 稍作 详细分析 . 通过 统计分析 全球 各地 的 凋落 物 的 测定 结果 ［ 1 ， 30 ， 31 ］ ， 我们 发现 随着 纬度 的 增加 ， 凋落 物 生成量 呈 线性 减少 趋势 ( 见图 5 ) ， 其 关系式 可以 表达 为 
+ 表 2 　 不同 作者 给出 的 北极 土壤 碳库 的 估计值 
+ Table2EstimatesoftheArcticsoilcarbonpoolbyvariousresearchers 
+ 
+ 作者 总碳 ， 109t 
+ Ajtayetal . ( 1979 ) ［ 23 ］ 200 
+ Postetal . ( 1982 ) ［ 24 ］ 400 
+ Milleretal . ( 1983 ) ［ 25 ］ 265 
+ Schlesinger ( 1984 ) ［ 26 ］ 410 
+ Postetal . ( 1985 ) ［ 27 ］ 400 
+ Adamsetal . ( 1990 ) ［ 28 ］ 330 
+ Gorham ( 1991 ) ［ 29 ］ 455 
+ Schlesinger ( 1991 ) ［ 21 ］ 380 
+ Oechel & Billings ( 1992 ) ［ 5 ］ 265 
+ 全球 平均 355 
+ 
+ LF = - 0.1297 X + 10.022 ( r2 = 0.90 ) ( 1 ) 
+ 　 　 式 中 LF 表示 调落物 生成量 ( t ( hm2 * a ) ) ， X 为 地理纬度 . 
+ 　 　 按照 这个 关系式 ， 凋落 物 生成量 在 纬度 77.3 度时 达到 零 . 显然 ， 理论 上 这 是 不合理 的 . 因为 在 寒冷 的 极区 ， 仍 有 少量 的 凋落 物 生产 . 然而 ， 75 度 以北 的 高纬度 地区 大都 为 海洋所 占据 ， 即使 为 陆地 ， 植物 的 生理 活动 也 很 微弱 . 因此 ， 作为 了解 一般 趋势 ， 上述 处理 是 可取 的 . 
+ 　 　 造成 凋落 物 如此 变化 的 原因 在于 温度 的 纬 向 变化 . 我们 利用 北半球 气象观测 资料 ［ 32 ］ ， 绘制 了 北半球 年均 温 与 纬度 的 关系 图 ( 图 6 ) . 图 6 中 ， 海拔 高于 500m 的 观测站 资料 未 被 使用 . 为 便于 分析 温度 与 凋落 物 生成量 之间 的 关系 ， 我们 用 二次 曲线拟合 了 年均 温 ( T ， ℃ ) 与 纬度 ( X ) 的 关系 ， 用式 ( 2 ) 表示 ： 
+ 
+ 
+ 图 5 　 凋落 物 生成量 与 纬度 的 关系 
+ Fig.5 Relationshipbetweenlitterfallproductionin 
+ forestecosystemsandlatitude 
+ 
+ 
+ 图 6 　 北半球 年 平均气温 与 纬度 的 关系 
+ Fig.6 Relationshipbetweenannualmean 
+ temperatureandlatitudeintheNorthHemisphere 
+ T = - 0.0084 ( X - 1.2 ) 2 + 27.7267 ( r2 = 0.90 ) ( 2 ) 
+ 根据 式 ( 1 ) — 式 ( 2 ) 之间 的 代换 关系 ， 我们 可以 得到 凋落 物 生成量 与 温度 之间 的 关系 ， 用式 ( 3 ) 表示 ： 
+ LF = - 1.4227 . 73 - T + 9.87 ( 3 ) 
+ 　 　 这个 关系式 有助于 我们 从 全球 尺度 上 理解 凋落 物 的 生产 及其 分布 规律 . 按式 ( 3 ) ， 凋落 物 生成量 达到 零时 ， 年均 温为 - 20.6 ℃ . 在 年均 温 达到 0 ℃ 时 ， 植被 仍 可 生产 少量 的 凋落 物 ， 为 2.39 t / ( hm2 * a ) . 
+ 　 　 北极 地区 凋落 物 的 生成量 包括 泰加林 和 冻原 植被 两 部分 . 冻原 植被 的 凋落 物 生成量 可以 认为 与 净 生产力 相同 ， 即 0.5 × 109t / a ( 见表 1 ) . 泰加林 的 凋落 物 生成量 由 全球 各地 的 29 个 观测 结果 算术平均 求得 ， 为 2.06 t / ( hm2 * a ) ， 该值 乘以 总面积 12 × 108hm2 ( 见表 1 ) ， 得到 2.47 × 109t / a . 也就是说 ， 在 北极 、 亚 北极 植被 的 净 生产力 中 ， 有 2.47 × 109t / a 的 碳 以 凋落 物 的 形式 进入 土壤圈 . 
+ 2.3 　 土壤 呼吸 及其 变化规律 
+ 　 　 土壤 呼吸 是 生物圈 向 大气圈 释放 CO2 的 重要 来源 . 图 7 表示 土壤 呼吸 速率 与 纬度 的 关系 . 随着 纬度 的 增加 ， 土壤 呼吸 速率 呈 线性 减少 趋势 ( 式 4 ) . 
+ SR = - 18.626 X + 1405.3 ( r2 = 0.94 ) ( 4 ) 
+ 　 　 式 中 ， SR 表示 土壤 呼吸 速率 ， g / ( m2 * a ) ， X 为 地理纬度 . 
+ 　 　 造成 图 7 的 变化趋势 的 原因 在于 温度 的 纬 向 变化 . 利用 式 ( 2 ) 和 式 ( 4 ) 之间 的 代换 关系 ， 我们 得到 土壤 呼吸 速率 与 温度 之间 的 关系 ， 用式 ( 5 ) 表示 : 
+ SR = - 203.2127 . 73 - T + 1382.95 ( 5 ) 
+ 按式 ( 5 ) ， 土壤 呼吸 速率 达到 零时 ， 年均 温为 - 18.6 ℃ . 在 年均 温 达到 0 ℃ 时 ， 土壤 仍 有 少量 的 CO2 释放 ， 为 312.9 g / ( m2 * a ) 
+ 
+ 
+ 图 7 　 土壤 呼吸 速率 与 纬度 的 关系 
+ Fig.7 Relationshipbetweenannualsoilrespirationrateinforestecosystemsandlatitude 
+ 利用 式 ( 5 ) 和 Q10 定律 ( 温度 每 升高 10 ℃ ， 土壤 呼吸 速率 增加 的 倍数 ) ， 我们 可以 分析 土壤 呼吸 速率 与 温度 关系 的 宏观 变化 ： 在 温度 较 低 的 区域 ， 温度 每 升高 10 ℃ ， Q10 值 略大于 2 ， 即 与 迄今为止 的 大多数 观测 结果 ［ 33 ］ 一致 ； 但 在 高温 区域 ， Q10 值 逐渐 下降 . 这一 结果 符合 生物 的 生理 特性 . 因为 在 低温 和 高温 区域 ， 生物 对 温度 变化 的 反应 并非 相同 . 在 高温 条件 下 ， 土壤 微生物 的 活性 不会 因 温度 的 升高 而 显著 加强 ， 有时 反而 会 受到 抑制 ； 而 在 低温 条件 下 ， 土壤 微生物 对 温度 的 增加 反映 敏感 . 
+ 　 　 为 估算 北极 地区 的 土壤 呼吸 量 ， 我们 收集 并 分析 了 各地 泰加林 和 北极 冻原 的 土壤 呼吸 的 观测 结果 ， 得知 泰加林 和 北极 冻原 的 平均 呼吸 速率 分别 为 332 和 61g ( C ) / ( m2 * a ) . 表 3 给出 北极 土壤 通过 土壤 呼吸 释放 的 总碳量 ， 其值 为 4.45 × 109t ( C ) / a ， 占 全球 总量 68 × 109t ( C ) / a ［ 33 ］ 的 6.53% ， 约 为 全球 平均水平 的 一半 . 
+ 表 3 　 北极 土壤 呼吸 释放 的 碳量 
+ Table3Carbonamountreleasedbysoilrespirationanditsglobalsignificance 
+ 
+ 生态系统 类型 平均 呼吸 速率 ， g / ( m2 * a ) 排放量 ， 109t / a 排放量 北极 / 排放量 全球 ， % 
+ 泰加林 3323.965 . 82 
+ 冻 　 原 610.490 . 71 
+ 合 　 计 ＼ 4.456 . 53 
+ 全 　 球 ＼ 68100 
+ 
+ 2.4 　 碳循环 及其 对 全球 变化 的 贡献 
+ 　 　 北极 陆地 生态系统 的 碳循环 过程 见图 8 . 北极 陆地 上空 的 大气 总碳量 ( 29.8 × 109t ) 按 大气 CO2 浓度 350ppm 计算 获得 ； 每年 约 有 13.5 × 109t 碳 被 贮藏 在 陆地 生态系统 中 ， 其中 有 8.7 × 109t 的 碳 通过 呼吸作用 回到 大气 中 ［ 1 ］ . 4.8 × 109t / a 的 碳 被 贮藏 在 陆地 生态系统 中 ， 其中 2.47 × 109t / a 的 碳 以 凋落 物 的 形式 进入 土壤圈 . 另外 ， 由于 河流 的 碳 输运 ， 北极 陆地 生态系统 每年 约 有 0.07 × 109t 的 碳 从 河流 进入 海洋 ［ 34 ］ . 由于 土壤 的 呼吸 释放 ， 每年 有 4.45 × 109t 碳 由 土壤圈 回到 大气圈 . 这 其中 包括 植物 根系 的 呼吸 释放 ， 这 一部分 已 包含 在 植物 呼吸 中 . 按 根系 呼吸 占 土壤 呼吸 总量 的 1 / 3 计算 ［ 33 ］ ， 则 除 根系 以外 的 土壤 呼吸 为 3.0 × 109t / a . 于是 ， 构建 了 北极 陆地 生态系统 碳循环 的 模式 ( 图 8 ) . 从 这个 模式 中 ， 我们 注意 到 ， 北极 陆地 植被 净 固定 的 碳量 为 ( 3.0 — 4.9 ) × 109t / a ， 即 每年 有 ( 0 — 1.9 ) × 109t 的 碳 被 保留 在 陆地 生态系统 中 . 这 表明 ， 北极 陆地 生态系统 起着 大气 CO2 汇 的 作用 . Mooreetal ( 1991 ) ［ 22 ］ 报道 ， 全球 因 使用 化石 燃料 ( 煤 、 石油 、 天然气 ) ， 每年 向 大气 排放 的 总碳量 为 ( 5 — 6 ) × 109t ， 换言之 ， 北极 陆地 生态系统 可 减缓 其 排放量 的 0 — 35% . 这 与 D ' Arrigo 等 人 ［ 17 ］ 的 工作 是 一致 的 . 他们 证明 ， 北方 森林 能够 减缓 大气 CO2 浓度 的 增加 . Tans 等 人 ［ 35 ， 36 ］ 从 模拟 研究 中 也 证明 北极 和 亚 北极 陆地 生态系统 起着 大气 CO2 汇 的 作用 . Vaisanen 等 人 ［ 37 ］ 的 工作 则 从 北极 植被 尤其 是 泰加林 的 光合 生理 特性 上 ， 实验 证明 了 这种 汇 的 功能 . 
+ 
+ 
+ 图 8 　 北极 陆地 生态系统 的 碳循环 
+ ( 加 括号 者 为 年 变化 量 ( 109t / a ) ； 未 加 括号 者 为 积累 量 ( 109t ) ) 
+ Fig.8 CarboncycleintheArcticterrestrialecosystems . Allpoolsarepresentedinunitsof10 ９ tCandannualfluxesinunitsof10 ９ tC / yr ( parenthesizednumeral ) 
+ 　 　 综合 上述 结果 ， 我们 得到 下述 结论 ： 尽管 北极 陆地 生态系统 的 净 生产力 较 低 ， 但 由于 常年 低温 寒冷 ， 土壤 有机质 分解 缓慢 ， 使 北极 土壤 成为 巨大 的 碳库 ； 同样 ， 由于 低温 ， 从 这个 巨大 碳库 中 释放 到 大气 中 的 CO2 量 相对 较 少 ， 使 北极 地区 成为 稳定 大气 CO2 浓度 急剧 变化 的 重要 因素 之一 . 这个 稳定 因素 一旦 遭到 破坏 ， 就 有 可能 加速 CO2 从 土壤 向 大气 的 排放 ， 从而 加速 全球 温暖 化 的 进程 . 
+ 2.5 　 CO2 浓度 倍增 对 北极 土壤 碳库 的 影响 
+ 　 　 北极 地区 是 个 巨大 的 碳库 ， 它 目前 所 释放 到 大气 中 的 CO2 的 量 与 它 所 占有 的 面积 相比 ， 不是 很 显著 的 . 但 如果 全球 温暖 化 持续 下去 ， 将 大大 改变 目前 的 情形 ， 北极 潜在 的 巨大 碳库 可能 成为 大气 CO2 的 重要 来源 . 我们 假设 ： 
+ 　 　 1 ) 北极 土壤 呼吸 ( 除 根系 呼吸 ) 释放 到 大气 中 的 CO2 总量 为 3 × 10 ９ t ( 表 1 ) ； 
+ 　 　 2 ) Q10 值为 2.4 ［ 33 ］ ， 即 温度 每 升高 10 ℃ ， 土壤 呼吸 速率 增加 2.4 倍 ； 
+ 　 　 3 ) 按 IPCC ( 1990 ) 预测 ［ 6 ］ ， 大气 CO2 浓度 倍增 时 ， 全球 平均气温 上升 1.5 — 4 ( 5 ) ℃ ， 北极 地区 平均 上升 11 ℃ 左右 ［ 38 ， 39 ］ ； 
+ 　 　 4 ) 植被 系统 的 生理 特性 以及 生态系统 的 格局 不变 . 
+ 　 　 那么 ， 我们 可以 得到 下列 结果 ： 
+ 　 　 1 ) 从 北极 自然 土壤 释放 到 大气 中 的 CO2 为 6.8 × 109t / a . 这是 一个 显著 的 数字 ， 目前 ， 全球 因 使用 化石 燃料 ， 释放 到 大气 中 的 总碳量 为 ( 5 — 6 ) × 109t / a ［ 22 ］ . 也就是说 ， CO2 倍增 的 时代 ， 仅 是 北极 土壤 向 大气 中 排放 的 CO2 就 超过 目前 人工 源 释放 的 量 . 
+ 　 　 2 ) CO2 倍增 时 ， CO2 浓度 将 上升 至 700ppm 左右 ， 换算 成 质量 比 ， 则 为 ： 
+ 700 × ( 12 / 29 ) ＝ 289.66 ppm . 
+ 　 　 空气 的 平均 质量 为 1.03 kg / cm2 ， 地球 的 表面积 为 5.1 × 108km2 ， 那么 ， 全球 大气 中所含 的 总碳量 为 ： 
+ 289.66 × 1.03 × 5.1 × 10 ８ ＝ 1521.56 × 10 ９ t ( C ) 
+ 　 　 此值 与 目前 全球 的 土壤 总碳库 ( 1100 — 1500 ) × 109t 接近 . 这属 偶然 的 巧合 ， 还是 有 一定 的 意义 ， 是 一个 有趣 的 现象 . 
+ 　 　 那么 ， 那 时候 北极 土壤 每年 释放 到 大气 中 的 碳量 占 全球 大气 总碳量 的 4.5 ‰ — 6.2 ‰ 左右 . 这 将 成为 一个 深刻 的 问题 . 当然 ， 我们 的 结果 是 在 若干 假设 的 条件 下 得到 的 ， 与 实际 情况 有 一定 的 差异 ， 但 我们 不能 无视 本文 得到 的 结果 . 早 在 80 年代 初 ， Billings 等 ［ 40 ］ 就 从 试验 研究 和 模拟 研究 中 得到 了 在 CO2 增加 的 情景 下 ， 北极 冻原 将 有 可能 从 大气 CO2 的 汇 变成 CO2 源 的 结论 . Oechel 等 人 ［ 41 ， 42 ］ 最近 也 观测 到 Alaska 的 一些 北极 冻 原生态 系统 开始 作为 CO2 源 在 发生 着 作用 ， 并且 认为 这是 由于 全球 温暖 化所 造成 的 . 
+ 　 　 
+ 3 　 结论 
+ 　 　 1 . 南北极 冰芯 的 研究 资料 表明 ， 近代 全球 大气 CO2 和 CH4 浓度 显著 增加 ， 并 呈现 日益加剧 的 趋势 ； 这些 温室 气体 浓度 的 高低 与 全球 气温 的 变化 密切相关 . 自 70 年代 开始 ， 北极 地区 的 气温 显著 上升 . 
+ 　 　 2 . 陆地 生态系统 的 枯枝 落叶 生成量 以及 土壤 呼吸 速率 随着 纬度 的 增加 显示 出 递减 的 趋势 . 巨大 的 土壤 呼吸 碳库 是 北极 陆地 生态系统 的 显著 特征 之一 ， 它 的 平均 估计值 为 355 × 109t ， 占 全球 土壤 碳库 总量 的 1 / 4 — 1 / 3 . 
+ 　 　 3 . 北极 陆地 生态系统 的 净固 碳量 大于 土壤 释放 的 CO2 量 ， 即 北极 陆地 生态系统 起着 大气 CO2 汇 的 作用 . 
+ 　 　 4 . CO2 倍增 对 北极 地区 的 土壤 碳库 和 CO2 的 源汇 功能 将 产生 深刻影响 . 在 若干 假设 条件 下 ， 通过 计算 发现 ， 北极 土壤 每年 将 向 大气 释放 的 CO2 为 6.8 × 109t ， 这 导致 大气 CO2 浓度 发生 4.5 ‰ — 6.2 ‰ 的 变化 . 
+ 参考文献 
+ 1 　 吉良龙夫 . 陆上 生态系 一 概论 . 东京 ： 共立 出版 ， 1976 
+ 2 　 BodenTAetal . TRENDS ' 91 : Acompendiumofdataonglobalchange - highlights . Tennessee : ORNL - CDLAC - 49 , OakRidgeNationalLaboratory.1992 
+ 3FergusonE ( ed ) . ClimateMonitoringandDiagnosticsLaboratory / SummaryReport1991 , No20 , ERL , NOAA , Colorado , 1992 
+ 4GreenlandIce - CoreProject ( GRIP ) Members.1993 , ClimateinstabilityduringthelastinterglacialperiodrecordedintheGRIPicecore . Nature , 1993 , 364 : 203 — 207 
+ 5OechelWC & BillingsWD . In : BillingsWD ( ed . ) . Arcticecosystemsinachangingclimate . EffectsofglobalchangeonthecarbonbalanceofArcticplantsandecosystems . NewYork : AcademicPress , 1992 : 139 — 167 
+ 6IPCC . ScientificAssessmentofClimateChange . London : ReportPreparedforIPCC.1990 
+ 7BarnolaJmetal . Vostokicecore : A160000yearrecordofatmosphericCO \ - 2 . Nature , 1987 , 329 : 408 — 414 
+ 8ChappellazJ , BarnolaJM , RaynaudDetal . Ice - corerecordofatmosphericmethaneoverthepast160000years . Nature , 1990 , 345 : 127 — 131 
+ 9BodenG , BroeckerW , JohnsenS , etal . CorrelationsbetweenclimaterecordsforNorthAtlanticsedimentsandGreenlandice , Nature , 1993 , 365 : 143 — 147 
+ 10ChappellazJ , BlunierT , RaynaudDetal . SynchronouschangesinatmosphericCH \ - 4andGreenlandclimatebetween40and8kyrBP , Nature , 1993 , 366 : 443 — 445 
+ 11FriedliH , LotscherH , OeschgerHetal . Icecorerecordofthe13C / 12CratioofatmosphericCO \ - 2inthepasttwocenturies , Nature , 1986 , 324 : 237 — 238 
+ 12RaynaudD , JouzelJ , BarnolaMetal . Theicerecordofgreenhousegases . Science , 1993 , 259 : 926 — 934 
+ 13TaylorKC , HammerCU , AlleyRBetal . ElectricalconductivitymeasurementsformtheGLSP2andGRLPGreenlandicecores , Nature , 1993 , 366 : 549 — 552 
+ 14WahlenM , AllenD , DeckBetal . InitialmeasurementsofCO \ - 2concentrations ( 1530to1940AD ) inairoccludedintheGISP2icecorefromcentralGreenland . GeophysicalResearchLetters , 1991 , 18 : 1457 — 1460 
+ 15KeelingCD , BacastowRB , CarterAFetal . AthreedimensionalmodelofatmosphericCO \ - 2transportbasedonobservedwinds : 1 . Analysisofobservationaldatain : AspectsofclimatevariabilityinthePacificandtheWesternamericas . GeophysicalMonograph , 1989 , 55 : 165 — 236 
+ 16NeftelA , MoorE , OeschgerHetal . EvidencefrompolaricecoresfortheincreaseinatmosphericCO \ - 2inthepasttwocenturies . Nature , 1985 , 315 : 45 — 47 
+ 17EtheridgeDM , PearmanGI , deSilvaf . Atmospherictrace - gasvariationsasreveredbyairtrappedinanicecorefromLawDome . Antarctica , AnnalGlaciology , 1988 , 10 : 28 — 33 
+ 18PearmanGI , FraserPJ . Sourcesofincreasedmethane , Nature , 1988 , 332 : 489 — 490 
+ 19LachenbruchAH , MarshallBV . Changingclimate : geothermalevidencefrompermafrostintheAlaskanArctic . Science , 1986 , 234 : 689 — 696 
+ 20OechelWCetal . ( inpress ) CO \ - 2releasetotheatmospherefromarctictundraecosystems : possiblepositivefeedbackstoclimatechange . 
+ 21SchlesingerWH . Biogeochemistry : ananalysisofglobalchange . NewYork : AcademicPress , 1991 
+ 22MooreBetal . In : MitchellBRetal ( eds . ) . GlobalEcology . NewYork : AcademicPress , 1989 : 113 — 142 
+ 23AjtayGLetal . In : BolinBetal ( eds . ) . Terrestrialprimaryproductionandphytomass . NewYork : JohnWiley & Sons , 1979 : 129 — 181 
+ 24PostWM , EmanuelWR , ZinkePetal . Soilcarbonpoolsandworldlifezones , Nature , 1982 , 298 : 156 — 159 
+ 25MillerPC , KendallR , OechelWC . Simulatingcarbonaccumulationinnorthernecosystems . Simulation1983 , 40 : 119 — 131 
+ 26SchlesingerWH . In : WoodwellGM ( ed . ) . Soilorganicmatter : asourceofatmosphericCO \ - 2 . NewYork : JohnWiley & Sons , 1984 : 111 — 127 
+ 27PostWM , PostorJ , ZinkePJetal . Globalpatternsofnitrogen . Nature , 1985 , 317 : 613 — 616 
+ 28AdamsJM , FaureH , Faure - DcgladeJMetal . IncreasesinterrestrialcarbonstoragefromtheLastGlacialMaximumtothepresent , Nature , 1990 , 348 : 711 — 714 
+ 29GorhamE . Northernpeatland : roleinthecarboncycleandprobableresponsetoclimaticwarming . EcolAppl , 1991 , 1 : 182 — 195 
+ 30BrayJR , GorhamE . Litterproductioninforestsoftheworld . AdvEcolRes , 1964 , 2 : 101 — 157 
+ 31RaichJW , NadelhofferKJ . Belowgroundcarbonallocationinforestecosystems : globaltrends . Ecology , 1989 , 70 : 1346 — 1354 
+ 32 国立 天文台 . 理科 年表 . 东京 ： 丸善 出版 ， 1993 
+ 33RaichJW , SchlesingerWH . Theglobalcarbondioxidefluxinsoilrespirationanditsrelationshiptovegetationandclimate . Tellus , 1992 , 44B : 81 — 99 
+ 34SchlesingerWH , MelackJM . Transportoforganiccarbonintheworld ' srevers . Tellus , 1981 , 33 : 172 — 187 
+ 35TansPP , ConwayT , NakazawaT . Latitudinaldistuibutionofthesourcesandsinksofatmosphericcarbondioxidederivedfromsurfaceobservationsandanatmospherictransportmodel . JGeophyRes , 1989 , 94 ( D4 , PAGES ) : 5151 — 5172 
+ 36TansPP , FungIY , TakahashiT . ObservationalontheglobalatmosphericCO \ - 2budget , Nature1990 , 247 : 1431 — 1438 
+ 37VaisanenH , StrandmanH , KellomakiS . Amodelforsimulatingtheeffectsofchangeclimateonthefunctioningandstructureoftheborealforestecosystem : Anapproachbasedonobject - orienteddesign . TreePhysiology , 1994 , 14 : 1081 — 1095 
+ 38MitchellJFBetal . ClimateChange : theIPCCScientificAssessment1990 , IPCCReport , 1990 ; 131 — 172 
+ 39SchlesingerME , MitchellJFB . ReviewofGeophysics , 1987 , 25 : 760 — 798 
+ 40BillingsWD , LukenJO , MortensenKAetal . ArcticTundra : Asourceorsinkforatmosphericcarbondioxideinachangingenvironment ? Oecologia , 1982 , 53 : 7 — 11 
+ 41OechelWC , VourlitisGL . Theeffectsofclimatechangeonland - atmospherefeedbacksinArcticTundraregions . TrendsEcolEvolution , 1995 ( a ) , 9 : 324 — 329 
+ 42OechelWC , VourlitisGL , HastingsSJetal . ChangeinarcticCO \ - 2fluxovertwodecades : effectsofclimatechangeatBarrow , Alaska . EcolAppl , 1995 ( b ) , 5 ( 3 ) : 846 — 855 
+ * * 现 工作 单位 和 通讯地址 ： 北京大学 城市 与 环境 学系 ， 北京 100871 
+ 1995 - 07 - 12 收到 原稿 
+ 1997 - 06 - 01 收到 修改稿 

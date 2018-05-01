@@ -1,0 +1,100 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 　 第 23 卷 　 第 4 期 　 Vol.23 　 No.4 　 1997 
+ 
+ 
+ 
+ 神经网络 在 柔性 生产线 动态 生产 
+ 调度 中 的 应用 研究 1 ) 
+ 汪小帆 　 宋文忠 　 王执铨 
+ 　 　 摘 　 要 　 把 多条 柔性 生产线 、 多种产品 的 动态 生产 调度 ( MMDPS ) 问题 归结为 一 混合 非线性 整数 规则 问题 . 基于 神经网络 优化 计算 原理 ， 设计 了 求解 MMDPS 问题 的 连续 时间 动态 神经网络 模型 ， 并 给出 了 仿真 结果 . 
+ 　 　 关键词 　 生产 调度 ， 柔性 生产线 ， 神经网络 . 
+ ASTUDYONTHEAPPLICATIONOFNEURALNETWORKS 
+ TODYNAMICPRODUCTIONSCHEDULINGFOR 
+ FLEXIBLEPRODUCTIONLINES 
+ WANGXIAOFAN 　 　 SONGWENZHONG 
+ ( InstituteofAutomationSoutheastUniversity , Nanjing210096 ) 
+ WANGZHIQUAN 
+ ( DepartmentofAutomaticControlNanjingUniversityofScience & Technology , Nanjing210094 ) 
+ Abstract 　 Themultiline , multiproductdynamicproductionschduling ( MMDPS ) problemisformulatedasamixednonlinearintegerprogrammingproblem . Basedontheprincipleofneuralnetworkoptimization , acontinous - timedynamicneuralnetworkforsolvingthMMDPSproblemisdesigned . Simulationresultsarealsopresented . 
+ Keywords 　 productionscheduling , flexibleproductionline , neuralnetwork . 
+ 1 　 引言 
+ 　 　 采用 柔性 生产线 的 企业 面临 的 一个 重要 问题 是 ， 如何 合理安排 生产 ， 使 企业 在 满足 不断 变化 的 市场 要求 的 情形 下 ， 尽可能 地 降低成本 . 仅凭 管理人员 的 经验 往往 难以获得 满意 的 调度 方案 ［ 1 — 3 ］ . 本文 首先 把 多条 柔性 生产线 、 多种产品 的 动态 生产 调度 ( MMDPS ) 问题 归结为 一 混合 非线性 整数 规则 问题 . 然后 基于 神经网络 优化 计算 原理 ， 设计 了 求解 MMDPS 问题 的 动态 神经网络 模型 . 
+ 2 　 MMDPS 问题 及其 数学模型 
+ 　 　 MMDPS 问题 可 叙述 如下 ： 一 工厂 有 多条 生产线 ， 需 制造 多种产品 . 其中 一条 生产线 可 制造 若干种 产品 ， 一种 产品 可 在 若干条 生产线 上 制造 ， 但 假定 在 一个 周期 ( 如 一 星期 ) 内 一条 生产线 只能 以 固定 速度 生产 一种 产品 . 需要 确定 工厂 在 未来 若干个 周期 中 的 生产 调度 方案 ， 使得 在 满足 市场需求 的 情况 下 ， 企业 生产 的 总费用 最小 . 从 实际 出发 ， 可 考虑 以下 几 方面 的 费用 ： 首先 是 各条 生产线 上 制造 产品 的 费用 ； 其次 ， 由于 制造 的 产品 通常 并 不能 立即 全部 投放市场 ， 从而 有 一定 的 库存 费用 ； 此外 ， 由于 生产线 还 不 具备 完全 的 柔性 ， 因而 在 生产线 上 变更 制造 产品 时 还 需化 一定 的 费用 . 
+ 　 　 现 引入 下列 记号 ： L — — 生产线 数目 ； P — — 产品种类 ； M — — 总 的 周期 数 ； Li — — 可 用于 制造 产品 i 的 生产线 的 集合 ； Pj — — 可 由 生产线 j 制造 的 产品 的 集合 ( 生产线 j 制造 产品 0 表示 生产线 j 处于 关闭 状态 ) ； cij — — 生产线 j 制造 产品 i 的 单位 费用 ； dis — — 周期 s 对 产品 i 的 需求量 ( 大于 零 ) ； hi — — 产品 i 在 一个 周期 的 单位 库存 费用 ； pij — — 生产线 j 在 一个 周期 内 制造 产品 i 的 产量 ； qij — — 生产线 j 由 制造 其它 产品 变更 为 制造 产品 i 时 需化 的 费用 . 假设 各种 产品 的 初始 库存 均 为 零 . 
+ 　 　 以 Zijms 表示 周期 m 在 生产线 j 上 制造 的 产品 i 中 用于 在 周期 s ( sM ) 供应 市场 的 数量 ； Zijm ， M + 1 为 周期 m 在 生产线 j 上 制造 的 产品 i 中 在 周期 M 结束 后 所剩 的 数量 ； 记 Cij ≡ ( cij + ( s - m ) hi ) dis , Vijms ≡ Zijms ／ dis . 定义 0 - 1 变量 Yijm 如下 ： 若 生产线 j 在 周期 m 制造 产品 i ， 则 Yijm = 1 ; 否则 ， Yijm = 0 . 
+ 　 　 MMDPS 问题 可 归结为 如下 的 混合 非线性 整数 规划 问题 . 
+ 
+ ( 1a ) 
+ 
+ ( 1b ) 
+ 
+ ( 1c ) 
+ 
+ ( 1d ) 
+ 
+ m = 1 , 2 , … , M ; 　 s = 1 , 2 , … , M + 1 . 
+ ( 1e ) 
+ Yijm ∈ ｛ 0 , 1 ｝ , i = 0 , 1 , … , P ; j = 1 , 2 , … , L ; m = 1 , 2 , … , M . 
+ ( 1f ) 
+ 　 　 目标 函数 F 中 第一项 为 M 个 周期 内 各条 生产线 上 的 生产 费用 及 产品 的 库存 费用 ， 第二项 为 各条 生产线 在 变更 制造 产品 时所化 的 费用 . 条件 式 ( 1b ) 用于 保证 各个 周期 对 产品 的 需求 能 得到 满足 ； 式 ( 1c ) 反映 一条 生产线 在 一个 周期 只 制造 一种 产品 ； 式 ( 1d ) 表示 若 生产线 j 在 某个 周期 制造 产品 i ， 则 产量 为 pij . 
+ 3 　 用 神经网络 求解 MMDPS 问题 
+ 　 　 神经网络 优化 计算 原理 可见 文 ［ 4 ］ ， 为 求解 上述 MMDPS 问题 ， 我们 构造 了 一 由 ( 1 / 2 ) M ( M + 5 ) ( = 1Li ) + ML0 个 神经元 组成 的 连续 时间 动态 神经网络 ( CDNN ) . 该 网络 共有 M + 2 层 ， 第 s 层 ( 1sM ) 含 s 个 二维 阵列 ， 最后 两层 各有 M 个 二维 阵列 . 在 前 M + 1 层中 ， 每个 阵列 均 含有 = 1Li 个 神经元 ， 排成 P 行 L 列 ； 最后 一层 中 的 每个 矩阵 均 含有 = 0Li 个 神经元 ， 排成 P + 1 行 L 列 . 在 上述 每个 阵列 中 ， 若 生产线 j 能 制造 产品 i ， 则 第 i 行第 j 列处 有 一个 神经元 ， 否则 该处 无 神经元 . 以 ( i , j , m , s ) 表示 第 s 层 的 第 m 个 阵列 中 第 i 列处 的 神经元 ， 我们 要 使 神经元 ( i , j , m , s ) ( sM + 1 ) 的 输出 对应 于 Vijms , 神经元 ( i , j , m , M + 2 ) 的 输出 对应 于 Yijm , 为此 ， 构造 相应 的 能量 函数 如下 ： 
+ 
+ 
+ ( 2 ) 
+ 其中 A ， B ， C 为 正 的 常数 . E 中 第一项 为 MMDPS 问题 中 的 目标 函数 ， 第二 至 第四项 分别 对应 于 MMDPS 模型 中 的 约束条件 式 ( 1b ) — ( 1d ) . 我们 将 通过 对 神经元 输出 函数 的 选取 以 限制 各 变量 的 取值 范围 . 
+ 　 　 把 能量 函数 E 写成 二次 型 ， 可知 神经元 之间 的 连接 权为 
+ 
+ ( 3 ) 
+ 
+ ( 4 ) 
+ 　 　 可以 看出 ， 网络 的 连接 方式 是 较为 稀疏 的 ， 如 在 不同 层 之间 ， 只有 处于 同一 位置 的 神经元 才 相互连接 ， 因而 便于 硬件 实现 . 网络 的 状态 演化 方程 为 
+ 
+ ( 5 ) 
+ 
+ ( 6 ) 
+ 网络 输出 为 
+ Vijms = ( 1 + exp ( - xijms / λ 1 ) ) - 1 , i = 1 , 2 , … , P ; 　 j = 1 , 2 , … , L ; 　 m = 1 , 2 , … , M ; 
+ 　 　 　 　 s = m , … , M + 1 . 
+ ( 7 ) 
+ Yijm = ( 1 + exp ( - xijm , M + 2 / λ 2 ) ) - 1 , 　 i = 0 , 1 , … , P ; 　 j = 1 , 2 , … , L ; 
+ 　 　 　 　 m = 1 , 2 , … , M . 
+ ( 8 ) 
+ 为 避免 陷入 局部 极小 ， 采用 模拟 增益 退火 方案 ， 即取 λ 1 = 1 + λ 2 ， λ 2 = 0.995 t λ 0 ， 其中 λ 0 为 常数 . 当 t → ∞ 时 ， λ 1 → 1 ， λ 2 → 0 ， Vijms ∈ ［ 0 ， 1 ］ ， Yijm 趋于 0 或 1 . 
+ 4 　 仿真 结果 
+ 　 　 设一 工厂 有 8 条 生产线 ， 制造 8 种 产品 ， 生产 可能性 见表 1 . 
+ 表 1 　 生产线 的 生产 可能性 
+ 
+ 产品 ABCDEFGH 
+ 生产线 
+ 1 肌 　 　 
+ 2 　 　 　 
+ 3 　 　 肌 　 　 
+ 4 　 　 　 
+ 5 肌 　 　 　 　 ‖ 
+ 6 　 　 肌 　 　 ‖ 
+ 7 　 　 　 　 
+ 8 　 　 　 　 　 
+ 
+ 　 　 以 一周 为 一个 生产 周期 ， 需要 制定 企业 在 未来 一个 季度 ( 13 周 ) 的 生产 调度 方案 . 按文 ［ 3 ］ 的 方法 产生 5 组 数据 . 为了 在 计算机 上 仿真 ， 把 状态方程 离散 化 ， 固定 步长 η = 0.002 ， A = B = C = 500 . 对 每个 例子 ， 随机 选取 20 组 初始 数据 作 计算 ， 统计 得到 可行 解 的 次数 ， 见表 2 . 
+ 表 2 　 采用 CDNN 的 计算结果 
+ 
+ 　 可行 解 次数 
+ 例 118 
+ 例 216 
+ 例 316 
+ 例 415 
+ 例 513 
+ 平均 15.6 
+ 
+ 1 ) 　 “ 八 六三 ” 高技术 计划 资助 项目 . 
+ 作者 单位 ： 汪小帆 　 宋文忠 　 东南大学 自动化 所 　 南京 　 210096 
+ 　 　 　 　 　 王执铨 　 南京 理工大学 自动控制 系 　 南京 　 210094 
+ 参考文献 
+ ［ 1 ］ 　 GasconA , LeachmanR . Adynamicprogrammingsolutionofthedynamicmultiitemsinglemachineschedulingproblem . OpnsRes.1988 , 36 ( 1 ) : 50 — 56 . 
+ ［ 2 ］ 　 MagnantiT , VachaniR . Astrongcuttingplanealgorithmforproductionschedulingwithchangeovercosts . OpnsRes.1990 , 38 ( 3 ) : 456 — 473 . 
+ ［ 3 ］ 　 DeMattaRE , GuignardM . Dynamicproductionschedulingforaprocessindustry . OpnsRes.1994 , 42 ( 3 ) : 492 — 503 . 
+ ［ 4 ］ 　 焦 李成 . 神经网络 计算 . 西安 ： 西安电子科技大学 出版社 ， 1993.105 — 280 . 
+ 收稿 日期 　 1995 - 09 - 28 

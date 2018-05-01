@@ -1,0 +1,57 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 　 第 23 卷 　 第 4 期 　 Vol.23 　 No.4 　 1997 
+ 
+ 
+ 
+ 广义 组合 功能 特征 建模 方法 研究 
+ 赵丽萍 　 何钺 　 要 义勇 
+ 　 　 摘 　 要 　 本文 在 功能 特征 建模 方法 的 基础 上 ， 提出 了 组合 广义 功能 特征 的 产品 定义方法 . 用该 方法 建立 的 组合 广义 功能 特征 信息 模型 ， 实现 了 产品组合 结构 的 功能 与 组合 几何 特征 之间 的 映射 ， 使得 组合 广义 功能 特征 的 相关 设计 过程 可以 交叉 进行 . 
+ 　 　 关键词 　 功能 特征 ， 产品 建模 ， 功能 映射 . 
+ RESEARCHONPRODUCTMODELINGBASEDONCOMPOSITION 
+ FUNCTIONORIENTEDFEATURE 
+ ZHAOLIPINGHEYUE 
+ ( CIMSResearchCenter , Xi ' anJiaoTongUniversity , Xi ' an710049 ) 
+ YAOYIYONG 
+ ( MechanicalDepartment , Xi ' anJiaoTongUniversity , Xi ' an710049 ) 
+ AbstractAmethdofmodelingofcompositionfunctionorientedfeatureisrepresentinthispaper . Byusingthismethod , themappingrelationbetweenproductcompositionstructurefunctionandgeometricfeaturecanbesetup , theproductinformationmodelcanbeestablishedandtheconcurrentdesignofpartscanberealized . 
+ KeywordsFunctionorientedfeature , productmodeling , functionmapping . 
+ 1 　 引 　 言 
+ 　 　 产品 模型 一直 是 人们 研究 的 重点 ［ 1 ］ . 现有 的 产品 模型 没有 强调 零件 功能 与 零件 几何 特征 的 关系 ， 而 注重 研究 纯 几何 分解 和 造型 及纯 几何 面 的 相关 关系 ， 这样 ， 零件 的 几何 设计 与 工艺 设计 在 满足 零件 功能 要求 的 前提 下 不能 交叉 进行 . 在 分析 以往 特征 建模 的 基础 上 ， 本文 提出 了 一种 组合 广义 功能 特征 的 建模 方法 . 
+ 2 　 组合 广义 功能 特征 
+ 2.1 　 组合 几何 特征 的 功能 
+ 　 　 图 1 中 1 和 2 是 经常 使用 的 两个 组合 几何 特征 ， 依据 广义 功能 特征 的 定义方法 ［ 2 ， 3 ］ ， 对图 1 的 设计 特征 进行 功能分析 ： 
+ ［ 组合 几何 特征 1 的 功能 ］ ∷ = { 轴承 的 定心 ， 定位 ， 夹紧 } ； 
+ ［ 组合 几何 特征 2 的 功能 ］ ∷ = { 传动 轮 的 定心 ， 定位 ， 夹紧 ， 传递 扭矩 } . 
+ 　 　 进一步 分析 后 发现 
+ ［ 组合 几何 特征 2 功能 ］ ∷ = { 组合 几何 特征 1 功能 } + { 键 联接 的 传动 功能 } . 
+ 　 　 因此 ， 可以 有 推论 ： 零件 的 功能 可以 由 各个 单独 的 功能 合并 组成 ， 即 
+ 　 　 　 ［ 组合 特征 的 功能 ］ ∷ = { 简单 特征 功能 的 组合 } . 
+ 
+ 
+ 图 1 　 实例 零件图 
+ 2.2 　 广义 组合 功能 特征 的 定义 
+ 　 　 定义 1 . 　 广义 功能 特征 是 产品 中 具有 功能 意义 及 相关 属性 有 一定 的 拓扑 关系 的 几何 元素 的 关联 状态 ， 它 可用 来 构成 一定 的 功能 结构 ［ 1 ］ . 
+ 　 　 定义 2 . 　 广义 组合 功能 特征 是 零件 中 各个 单独 的 广义 功能 特征 按照 一定 的 拓扑 关系 组合 起来 的 关联 状态 . 
+ 3 　 广义 功能 特征 的 形式化 描述 
+ 　 　 组合 功能 特征 实现 了 功能 关系 的 组合 与 几何 特征 组合 的 映射 ， 其 组合 关系 是 建立 在 简单 功能 特征 上 的 . 
+ 　 　 简单 级 功能 特征 是 完成 某项 功能 ， 并 具有 单一 几何 形状 的 功能 特征 . 
+ 　 　 简单 功能 特征 的 定义 表达 如式 ( 1 ) . 
+ 　 　 < 简单 功能 特征 > ∷ = ＜ 功能属性 ＞ ＜ 结构特征 ＞ < 主 参数 ， 形状 公差 指针 ， 位置 公差 指针 ， 邻接 特征 指针 > . 
+ ( 1 ) 
+ 　 　 组合 功能 特征 是 满足 若干项 功能 要求 的 简单 功能 特征 的 组合 . 
+ 　 　 组合 级 功能 特征 反映 了 零件 或 产品 多个 功能 要求 的 组合 ， 如式 ( 2 ) 所示 ， 
+ 　 　 ＜ 组合 功能 特征 的 功能 ＞ ∷ = < Σ 简单 功能 特征 的 功能 > . 
+ ( 2 ) 
+ 　 　 组合 功能 特征 的 定义 表达 为 
+ 　 　 ＜ 组合 功能 特征 ＞ ∷ = ＜ 组合 关系 ， 简单 功能 特征 指针 列表 ＞ . 
+ ( 3 ) 
+ 4 　 结论 
+ 　 　 以上 组合 几何 特征 的 广义 功能 特征 建模 方法 是 研究 产品 并行 设计 的 一个 尝试 . 用 组合 特征 建立 的 零件 信息 模型 强调 了 结构 功能 的 组合 与 形状 特征 组合 的 关系 ， 并 在 各种 关系 之间 建立 了 映射 联系 . 零件 几何 设计 与 工艺 设计 在 满足 零件 功能 要求 的 前提 下 可以 交叉 进行 ， 充分体现 了 并行工程 的 设计 思想 . 
+ 作者 单位 ： 赵丽萍 　 何钺 　 西安交通大学 CIMS 中心 　 西安 　 710049 
+ 　 　 　 　 　 要 义勇 　 西安交通大学 机械 电子系 　 西安 　 710049 
+ 参考文献 
+ [ 1 ] KeithCase . UsingadesignbyfeaturesCADsystemforprocesscapabilitymodelling . ComputerIntegratedManufacturingSystems , 19947 ( 1 ) : 39 — 41 . 
+ [ 2 ] 赵丽萍 ， 何钺 . 基于 功能 特征 产品 模型 定义方法 研究 . 计算机辅助 工程 ， 1997 ， 6 ( 1 ) . 
+ [ 3 ] 赵丽萍 等 . 装 配偶 件 的 功能 特征 建模 方法 研究 . 机械 工业 自动化 ， 1996 ， 18 ( 1 ) . 
+ 收稿 日期 　 1995 - 07 - 21 

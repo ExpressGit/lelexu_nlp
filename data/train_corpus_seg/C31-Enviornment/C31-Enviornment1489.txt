@@ -1,0 +1,113 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1998 年 第 18 卷 第 4 期 No.4 Vol.181998 
+ 科技期刊 
+ 
+ 大港 地区 大气 颗粒物 中多环 芳烃 分布 及 污染源 识别 的 研究 * 
+ 朱 　 坦 　 孙 　 韧 　 张 　 林 　 江理明 　 （ 南开大学 环境 科学系 ， 天津 300071 ） 
+ 文 　 摘 　 多环 芳烃 ( PAHs ) 是 一类 对 人体 危害 较大 的 有机 污染物 。 目前 对 大气环境 中 PAHs 来源 识别 技术 还 处于 探索 与 发展 阶段 。 为 了解 天津 大港油田 地区 大气环境 中 PAHs 污染 状况 与 来源 ， 对 天津市 大港 地区 大气 颗粒物 中 10 种 PAHs 分布 及 污染源 开展 了 调查 。 结果表明 ： 大港 地区 10 种 PAHs 总 浓度 平均 为 169ng / m3 ， 比 市区 对照 点 的 465ng / m3 低 63.7% ， 其中 苯 并 ( a ) 芘 ( BaP ) 平均 浓度 为 13.6 ng / m3 ， 比 市区 对照 点 的 41.1 ng / m3 低 66.9% 。 实验 结果 经 统计 处理 发现 BaP 浓度 与 其它 9 种 PAHs 浓度 存在 一定 的 相关性 ， 相关系数 均 在 0.60 以上 。 利用 比值 法 进行 源 识别 得出 ： 大港 石化 区 PAHs 主要 来源 为 燃煤 污染 ； 而 大港油田 区 PAHs 主要 来源 为 燃油 污染 。 
+ 关键词 　 多环 芳烃 　 大气 颗粒物 　 源 解析 
+ StudyonidentifyingthedistributionandpollutionsourcesofPAHsinairborneparticulateinDagangArea , Tianjin . ZhuTan , SunRen , ZhangLin , JiangLiming ( DepartmentofEnvironmentalScience , NankaiUniversity , Tianjin300071 ) . ChinaEnvironmentalScience.1998 , 18 ( 4 ) : 289 ～ 292 
+ Abstract — PolycyclicAromaticHydrocarbons ( PAHs ) areprobablythemostwidelyspreadorganicpollutantsintheenvironmentandsomePAHsexhibitcarcinogeniceffectsinhumans . ThedistributionandpollutionsourcesofPAHsinatmosphericparticulatewereinvestigatedinDagangArea , Tianjin . Theresultsshowthatthemeantotalconcentrationof10PAHsis169ng / m3 , 63.7% lessthanthatof465ng / m3oftheurbancontrolsample ; themeanconcentrationofBaPis13.6 ng / m3 , 66.9% lessthan41.1 ng / m3intheurbancontrolsample . ThereexistscertainrelativitybetweentheconcentrationofBaPandother9PAHs . TheratioofBaPtootherPAHswasusedasamethodtoidentifythatthemajorsourceofPAHswascoal - combustionpollutioninDagangpetrochemistryindustrialzoneandoil - combustionpollutioninDagangoil - fieldzone . 
+ Keywords : PAHs 　 airborneparticulate 　 sourceanalyzing 
+ 　 　 多环 芳烃 ( PolycyclicAromaticHydrocarbons , PAHs ) 是 一类 数量 大 、 种类 多 、 分布 广 、 对 人体 有 极大 危害 的 化合物 。 其中 苯 并 〔 a 〕 芘 （ Benzo 〔 a 〕 pyrene , BaP ) 是 PAHs 中 的 一种 致癌 活性 较强 的 代表性 化合物 。 大部分 PAHs 是 由 人类 活动 过程 中 使用 燃料 的 不 完全 燃烧 以及 某些 工业生产 过程 中 产生 。 PAHs 的 数量 及其 分布 情况 ， 在 很大 程度 上 由 不同 的 燃料 和 不同 的 燃烧 过程 决定 〔 1 ～ 4 〕 。 
+ 　 　 目前 对 大气环境 中 PAHs 来源 识别 技术 还 处于 探索 与 发展 阶段 〔 5 ～ 8 〕 , 识别方法 有 定性 和 半 定量 方法 ( 比值 法 、 轮廓图 法 、 特征 化合物 法 ) 及 定量 方法 ( 化学 质量 平衡 法 和 多元 统计法 ) 等 , 各种 方法 的 主要 技术 内容 和 优缺点 已 另 有 详述 〔 9 〕 。 本文 对 天津 大港 地区 大气 颗粒物 中 10 种 PAHs 分布 及 污染源 开展 了 调查 （ 同时 在 天津市 内 设立 对照 点 ） ， 采用 比值 法对 天津 大港 地区 PAHs 来源 进行 了 探索性 研究 。 
+ 1 　 实验 部分 
+ 1.1 　 采样 点 的 设置 及 样品 的 采集 
+ 　 　 大港区 位于 天津市 东南部 ， 距 天津市 中心 45km 。 全区 总面积 为 935km2 。 大港 城区 是 由 大港 石化 工业区 、 大港油田 生活区 和 官港 组成 。 根据 不同 地区 的 特点 ， 在 大港 石化 工业区 ( 规划区 ) 设 两个 采样 点 ， 一个 位于 厂区 ， 一个 位于 生活区 。 同时 ， 在 大港油田 生活区 三号 院 和 大港油田 采油 一厂 各设 一个 采样 点 。 此外 ， 在 市区 中环线 旁 ( 南开大学 南门 ) 设置 一个 对照 采样 点 。 
+ 　 　 使用 大 流量 采样器 ( 1.0 ～ 1.7 m3 / min ) 在 玻璃纤维 滤膜 上 采集 空气 中 颗粒物 , 采样 日期 为 1994 年 11 月 24 ～ 26 日 ， 每天 上午 8 : 00 ～ 下午 16 : 00 ， 精确 记录 采样 时间 。 
+ 1.2 　 样品 的 分析 
+ 1.2 . 1 　 仪器 及 试剂 　 气 相色谱 - 质谱 - 计算机 联用 系统 ( HP5890 Ⅱ GC / 5971AMSD ) ； KB - 6C 大 流量 采样器 ( 青岛 崂山 电子仪器 实验所 ) ； 索氏 提取 器 ； 旋转 蒸发器 ； 硅胶 层析柱 ( 10g 硅胶 ， 100 ～ 200 目 ， 250 ℃ 活化 2h ) ； 二氯甲烷 ( 分析 纯 ， 重蒸 ) 。 
+ 1.2 . 2 　 样品 前 处理 　 采样 后 的 玻璃纤维 滤膜 放在 索氏 提取 器中 ， 加入 100mL 二氯甲烷 于 60 ℃ 水浴 中 提取 8h 。 提取液 在 旋转 蒸发器 上 浓缩 至 4mL ， 再用 高纯 氮气 吹 至 0.5 mL ， 加入 少量 硅胶 , 室温 下 挥发 至 干 。 将 这些 硅胶 移入 已装 好 的 层析柱 中 ， 分别 以 60mL 正己烷 和 120mL 正己烷 / 苯 ( 1 : 1 ) 洗脱 脂肪 烃 ( 弃去 ) 和 PAHs ( 溶剂 流速 为 1 滴 / s ) 。 将 洗脱 液同 上 方法 浓缩 至 0.5 mL 。 样品 于 冰箱 中 避光 保存 。 
+ 1.2 . 3 　 GC / MS 分析 条件 　 HP - 5 石英 毛细管柱 ( 25m × 0.2 mm ， 美国 惠普公司 ) ； 色谱仪 柱温 程序 ： 100 ℃ ( 2min ) , 20 ℃ / min → 200 ℃ , 4 ℃ / min → 300 ℃ ( 10min ) ； 进样 口 温度 ： 300 ℃ ； 气 — 质 传输线 温度 ： 300 ℃ ； 载气 ： 高纯 氦气 ； 流量 ： 1.0 mL / min ； 进样 方式 ： 分流 进样 ； 分流 比 ： 30 ∶ 1 ； 进样量 : 5 μ L ； 质谱 离子源 ： 电子 轰击 源 ( EI ) ； 扫描 质量范围 ： 30 ～ 550amu , 样品 的 定性 采用 标准 质谱 库 计算机 检索 （ 美国 国家 标准局 ， NBS75K ) 同时 结合 PAHs 标准 物质 的 色谱 保留 时间 确证 ； 样品 定量分析 采用 选择 离子 监测 ( SelectiveIonMonitoring , SIM ) 技术 。 根据 PAHs 质谱 图 特征 ， 所 选取 的 定量分析 均 为 各 PAHs 的 分子离子 。 
+ 2 　 结果 与 讨论 
+ 2.1 　 大气 颗粒物 中 PAHs 浓度 调查 
+ 　 　 大港 地区 不同 功能区 大气 颗粒物 中 PAHs 浓度 调查结果 见表 1 。 
+ 表 1 　 大港 地区 不同 功能区 PAHs 浓度 ( ng / m3 ) 
+ Table1 　 PAHsconcentrationsinthevariousfunction 
+ zonesinDagangArea ( ng / m3 ) 
+ 
+ PAHs 名称 石化 居 
+ 民区 石化 　 
+ 厂区 　 油田 居 　 
+ 民区 　 油田 生 
+ 产区 市区 
+ TSP ( mg / m3 ) 0.3810 . 2970.4440 . 3370.669 
+ 菲 16.010 . 126.020 . 839.3 
+ 蒽 1.701 . 002.302 . 305.95 
+ 荧蒽 67.317 . 142.843 . 0139 　 
+ 芘 34.87 . 8016.718 . 659.8 
+ 苯 并 〔 a 〕 蒽 28.96 . 0011.113 . 442.1 
+ 36.110 . 322.625 . 158.8 
+ 苯 并 〔 e 〕 芘 18.76 . 6015.115 . 025.5 
+ 苯 并 〔 a 〕 芘 22.95 . 8011.214 . 641.1 
+ 苯 并 〔 ghi 〕 19.27 . 3018.322 . 537.0 
+ 晕 苯 4.51 . 9010.016 . 916.9 
+ 合计 250.173 . 9176.1175 . 3465.4 
+ 
+ 　 　 从表 1 可以 看出 ， 大港 地区 10 种 PAHs 总 平均 浓度 为 168.8 ng / m3 ， 比 市区 的 465.4 ng / m3 低 63.3% ， 其中 BaP 在 大港 地区 的 平均 浓度 为 13.6 ng / m3 ， 比 市区 的 41.1 ng / m3 低 66.9% 。 
+ 　 　 北京 燕山 石化 区 是 我国 重要 的 石油化工 基地 ， 距 北京市区 55km , 1984 年 曾 对 燕山 地区 大气 颗粒物 中 BaP 等 多环 芳烃 分布 进行 研究 〔 10 〕 , 当时 监测 结果 燕山 石化 区非 采暖期 居民区 大气 中 BaP 平均 浓度 为 2.8 ng / m3 ， 工业区 为 13.6 ng / m3 , 工业区 明显 高于 居民区 。 采暖期 燕山 石化 居民区 BaP 平均 浓度 为 11.5 ng / m3 ， 比 北京市区 的 66.5 ng / m3 低 82.7% 。 
+ 　 　 大港 石化 规划区 与 燕山 石化 区作 比较 ， 不难看出 ， 目前 大港 地区 BaP 浓度 ( 13.6 ng / m3 ) 与 燕山 石化 区 1984 年 采暖期 居民区 平均 浓度 ( 11.5 ng / m3 ) 和 非 采暖期 厂区 平均 浓度 ( 13.6 ng / m3 ) 的 水平 相似 ； 大港 石化 规划区 厂区 BaP 浓度 不比 周围 的 居民区 高 , 这点 与 燕山 石化 区 不 一样 ， 燕山 石化 区 厂区 BaP 浓度 明显 高于 居民区 。 造成 大港 石化 规划区 居民区 BaP 浓度 高 的 原因 是因为 除了 受 周围 两座 燃煤 发电站 排放 烟尘 的 影响 以外 ， 还 与 石化 居民区 位于 大港 中心区 有关 ； 大港 地区 与 燕山 石化 区 相似 ， BaP 浓度 比 市区 都 要 低 得 多 , 说明 城区 以 燃煤 为主 的 燃烧 方式 和 繁忙 的 交通运输 是 造成 BaP 污染 的 主要 原因 。 相比之下 ， 石油化工 地区 往往 以油 为 主要 燃料 ， 比 燃煤 造成 BaP 污染 要轻 。 
+ 2.2 　 大气 颗粒物 中 BaP 浓度 与 其它 9 种 PAHs 浓度 的 相关性 
+ 　 　 BaP 浓度 与 其它 9 种 PAHs 之间 的 相关系数 见表 2 ， 除菲 以外 ， 其它 相关系数 均 在 0.60 以上 ， 说明 BaP 与 其它 PAHs 存在 一定 的 相关性 。 
+ 表 2 　 BaP 浓度 与 其它 9 种 PAHs 之间 的 相关性 分析 
+ Table2 　 ThecorrelativeanalysisbetweenBaPandother9PAHs 
+ 
+ PAHs 名称 相关性 分析 * 相关性 分析 * * 
+ 样品 数 n 相关系数 r 样品 数 n 相关系数 r 
+ 菲 120.3914150 . 5784 
+ 蒽 120.6153150 . 8298 
+ 荧蒽 120.7190150 . 8975 
+ 芘 120.8259150 . 9283 
+ 苯 并 〔 a 〕 蒽 120.9812150 . 9764 
+ 120.8898150 . 9542 
+ 苯 并 〔 e 〕 芘 120.8043150 . 8222 
+ 苯 并 〔 ghi 〕 苝 120.7391150 . 8125 
+ 晕 苯 30.798440 . 8823 
+ 
+ 　 注 ： * 大港 地区 的 样品 进行 统计 * * 大港 地区 和 市区 的 样品 一起 进行 统计 
+ 2.3 　 大气 颗粒物 中多环 芳烃 污染源 识别 
+ 　 　 大港 地区 不同 功能区 大气 颗粒物 中 BaP 与 各种 PAHs 浓度 的 比值 见表 3 。 
+ 表 3 　 不同 功能区 大气 颗粒物 中 BaP 与 其它 9 种 PAHs 
+ 浓度 的 比值 ( BaP / PAHs ) 
+ Table3 　 TheratiosofBaPandother9PAHslevel 
+ inthevariouszones 
+ 
+ PAHs 名称 石化 居 
+ 民区 石化 厂区 油田 居 
+ 民区 油田 生 
+ 产区 市区 
+ 菲 1.40 . 60.40 . 71.0 
+ 蒽 13.55 . 84.96 . 36.9 
+ 荧蒽 0.30 . 30.30 . 30.3 
+ 芘 0.70 . 70.70 . 80.7 
+ 苯 并 〔 a 〕 蒽 0.81 . 01.01 . 11.0 
+ 0.60 . 60.50 . 60.7 
+ 苯 并 〔 e 〕 芘 1.20 . 90.71 . 01.6 
+ 苯 并 〔 ghi 〕 苝 1.20 . 80.60 . 61.1 
+ 晕 苯 5.13 . 11.10 . 92.4 
+ 
+ 　 　 从表 3 可以 看出 ， BaP 与 其它 PAHs 的 比值 ， 大港 石化 居民区 与 天津 市区 相近 ， 大港 石化 厂区 与 油田 生产区 、 油田 居民区 相近 。 前者 BaP 与 菲 、 蒽 、 苯 并 〔 ghi 〕 苝 的 比值 要 高于 后者 。 两者 的 BaP 与 荧蒽 的 比值 相似 ， 变化 不 大 ， 均 为 0.3 。 石化 居民区 BaP 与 蒽 的 比值 最高 为 13.5 ， 其次 是 市区 ( 6.9 ) 和 油田 生产区 ( 6.3 ) ， 最低 为 油田 居民区 ( 4.9 ) 。 
+ 　 　 实验 表明 ， 燃料 的 种类 和 燃烧 条件 的 不同 ， 生成 的 PAHs 组成 和 相对 含量 都 有 不同 程度 的 差别 。 Greenberg 〔 11 〕 等 建议 把 晕 苯 和 苯 并 〔 ghi 〕 苝 作为 汽车 的 标识物 。 钟晋贤 等 〔 12 〕 对 北京地区 大气 中 PAHs 进行 源 识别 分析 ， 发现 BaP 与 菲 、 BaP 与 蒽 的 比值 在 燃煤 造成 的 污染 中要 比 汽车尾气 造成 的 污染 高 4 倍 ； 燃煤 排放 的 BaP 与 晕 苯 的 比值 大于 1 ， 汽车尾气 排放 的 该 比值 小于 1 。 大气环境 中 PAHs 污染源 的 判别 中 比较 有 价值 的 是 BaP 与 晕 苯 和 苯 并 〔 ghi 〕 苝 的 比值 〔 7 , 8 〕 ： 一般 认为 BaP / 晕 苯 > 1 为 燃煤 排放 的 污染 ； BaP / 晕 苯 < 1 为 燃油 型 或 汽车尾气 污染源 排放 。 另外 汽车尾气 中 BaP / 苯 并 〔 ghi 〕 苝 比值 较 低 , 而 燃煤 工厂 空气 中该 比值 高 , 可 作为 辅助 判别 指标 。 
+ 　 　 实验 结果表明 ， 石化 居民区 和 厂区 BaP 与 晕 苯 的 比值 分别 为 5.1 和 3.1 ， 市区 该 比值 为 2.4 ， 远远 大于 1 ， 说明 大港 石化 区 （ 石化 居民区 和 厂区 ） 和 市区 对照 点 PAHs 污染 更 接近 燃煤 型 污染 ， PAHs 的 来源 是 燃煤 烟尘 。 油田 居民区 和 生产区 该 比值 接近 或 小于 1 ， 分别 为 1.1 和 0.9 ， 说明 大港油田 区 ( 油田 居民区 和 生产区 ) PAHs 污染 已 接近 燃油 型 污染 ， PAHs 的 主要 来源 是 燃油 飞灰 。 另外 从 BaP 与 苯 并 〔 ghi 〕 苝 的 比值 看 ， 大港 石化 区 和 市区 对照 点该 比值 （ 分别 为 1.2 ， 0.8 和 1.1 ) 均 大于 油田 居民区 和 生产区 ( 均 为 0.6 ) ， 也 说明 大港 石化 区 和 天津 市区 对照 点受 燃煤 影响 要 大于 大港油田 区 。 
+ 3 　 结论 
+ 3.1 　 大港 地区 BaP 的 平均 浓度 ( 13.6 ng / m3 ) 已 超过 新 颁布 的 国家 大气质量 标准 ( 10ng / m3 ) ， 但 比 天津 市区 对照 点 平均 浓度 ( 41.1 ng / m3 ) 低 ； 在 调查 的 大港 地区 4 种 不同 功能区 （ 石化 居民区 、 石化 厂区 、 油田 居民区 和 油田 生产区 ) 中石化 居民区 ， 大气 颗粒物 中 的 PAHs 总量 和 BaP 污染 最为 严重 ( 平均值 分别 为 250.1 和 22.9 ng / m3 ) 。 
+ 3.2 　 BaP 与 其它 9 种 PAHs 的 相关 分析 结果显示 ， 除菲 以外 ， 相关系数 均 在 0.6 以上 ， 表明 BaP 与 其它 PAHs 存在 一定 的 相关性 。 
+ 3.3 　 大港 石化 居民区 和 石化 厂区 与 天津 市区 对照 点 , BaP 与 晕 苯 比值 均 远远 大于 1 , 可以 推测 其 PAHs 的 主要 来源 是 燃煤 烟尘 。 大港油田 居民区 和 油田 生产区 的 BaP 与 晕 苯 比值 接近 或 小于 1 ， 表明 其 PAHs 的 主要 污染源 为 燃油 污染 。 另外 ， BaP 与 苯 并 〔 ghi 〕 苝 的 比值 也 表明 上述 判断 的 合理性 。 
+ 参考文献 
+ 1 　 EdwardNT . PolycyclicAromaticHydrocarbons ( PAH ) intheterrestrialenvironment - areview . J . Environ . Qual . , 1983 , 112 : 427 ～ 438 
+ 2 　 HarvathP . QuantitativeanalysisofmultiplePAHsinthecoalconversionatmosphere . Amer . Ind . Hyg . Ass . J , 1983 , 94 : 739 ～ 745 
+ 3 　 YulinLT , JohnFQ . Polycyclicaromatichydrocarbonsinsmokeparticlesfromwoodandduffburning . Atmos . Environ . , 1992 , 26A ( 6 ) : 1177 ～ 1181 
+ 4 　 PrebenAN , LiseJ . EmissionofPAHandmutagenicactivityfromfurnacesfueledwithcerealstrealorwoodchips . Chemosphere , 1991 , 23 ( 6 ) : 723 ～ 735 
+ 5 　 MascletP , MouvierG , NikelaouK . Relativedecayindexandsourcesofpolycyclicaromatichydrocarbons . Atmos . Environ . , 1986 , 20 ( 3 ) : 439 ～ 446 
+ 6 　 NikolaouK , MascletP , MouvierG . SourcesandchemicalreactivityofPAHintheatmosphere - acriticalreview . Sci . andEnviron . , 198432 : 103 ～ 132 
+ 7 　 汤国 才 . 气溶胶 中多环 芳烃 的 污染源 识别方法 . 环境 科学 学报 ， 1993 , 6 ( 3 ) : 32 ～ 41 
+ 8 　 DuvalMM , FriedlanderSK . SourceresolutionofPAHintheLosAngelesatmosphere — ApplicationofaCMBwithfirstorderdecay . U . S . EPA , ReportNo . EPA - 600 / 2 - 81 - 161.1981 
+ 9 　 孙 　 韧 , 朱 　 坦 , 白志鹏 . 大气 颗粒物 上多环 芳烃 的 识别 和源 解析 的 进展 . 城市 环境 与 城市 生态 , 1997 , 10 ( 3 ) : 28 ～ 32 
+ 10 　 李洪海 , 钟晋贤 , 陈荣莉 等 . 燕山 地区 大气 飘尘 颗粒物 中苯 并 〔 a 〕 芘 等 多环 芳烃 分布 的 研究 . 上海 : 上海 科学技术 出版社 , 1988.548 ～ 554 
+ 11 　 GreenborgA . PAHinNewJersy : Acomparisonofwinterandsummerconcentrationsoveratwo - yearperiod . Atmos . Environ . , 1985 , 19 ( 8 ) : 1325 ～ 1339 
+ 12 　 钟晋贤 ， 李洪海 . 北京地区 大气 中 PAH 相关性 研究 . 环境 化学 , 1983 , 2 ( 2 ) : 22 ～ 27 
+ 作者简介 
+ 朱 　 坦 　 男 ， 1943 年 7 月生 。 现为 南开大学 环境 科学 系主任 、 教授 、 博士生 导师 。 主要 从事 大气 污染物 源 解析 、 环境影响 评价 及 城市 生态学 等 研究 。 承担 国家 及 天津市 多项 科研课题 ， 如 “ 区域 大气环境 苯 并 〔 a 〕 芘 总量 控制目标 的 研究 ” 、 “ 大气 颗粒物 源 解析 技术 与 应用 的 研究 ” 和 “ 天津市 大气环境 系统 污染 综合 防治 的 研究 ” 等 项 
+ 收稿 日期 ： 1997 - 10 - 28 
+ * 国家自然科学基金 资助 项目 ( 29777017 ) 

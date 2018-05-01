@@ -1,0 +1,73 @@
+　 自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 第 23 卷 第 3 期 vol.23 No.31997 
+ 
+ 
+ 
+ 奇异 H ∞ 控制 问题 的 二次 矩阵 
+ 不等式 的 可 解性 1 ) 
+ 忻 　 欣 　 冯纯伯 
+ 　 　 摘 　 要 　 研究 具有 无穷远 零点 的 奇异 H ∞ 控制 问题 的 二次 矩阵 不等式 的 可 解性 ， 证明 了 通过 求解 广义 特征值 问题 ， 可以 直接 求得 二次 矩阵 不等式 的 解 ， 从而 简化 了 原需 通过 复杂 的 系统 分解 和 变换 来 求解 二次 矩阵 不等式 的 方法 . 文中 建立 了 基于 几何 控制 理论 和 基于 J - 无损 分解 理论 的 两种 不同 的 奇异 H ∞ 控制 分析方法 之间 的 联系 ， 并 揭示 了 具有 无穷远 零点 的 奇异 H ∞ 控制系统 的 特征 空间结构 . 
+ 　 　 关键词 　 H ∞ 控制 ， 二次 矩阵 不等式 ， 无穷远 零点 ， 广义 特征值 问题 . 
+ SOLVABILITYOFQUADRATICMATRIXINEQUALITIES 
+ OFSINGULARH ∞ CONTROLPROBLEMS 
+ XINXINFENGCHUNBO 
+ ( ResearchInstituteofAutomation , SoutheastUniversity , Nanjing210018 ) 
+ 　 　 AbstractThesolvabilityofquadraticmatrixinequalitiesofsingularH ∞ controlproblemswithinfinitezerosisstudiedinthispaper . Itisprovedthatthequadraticmatrixinequalitycanbesolveddirectlyviathegeneralizedeigenvalueproblems . Thepreviousmethodofsolvingthequadraticmatrixinequalityinvolvingcomplicateddecompositionsandtransformationsofthesystemsisavoided . TheconnectionbetweentwodifferentapproachestosingularH ∞ controlproblemsbasedongeometriccontroltheoryand ( J , J ' ) - losslessfactorizationtheoryrespectivelyisestablished . ThispaperillustratestheeigenspacestructureofsingularH ∞ controlsystems . 
+ 　 　 KeywordsGeometricH ∞ control , quadraticmatrixinequality , infinitezeros , generalizedeigenvalueproblems . 
+ 　 　 1 　 引 　 言 
+ 　 　 考虑 如下 包括 被控 对象 和 加权 函数 的 广义 对象 P ( s ) 
+ 　 　 　 　 　 　 　 　 ( 1 ) 
+ 其中 z ∈ Rm , y ∈ Rq , w ∈ Rr 和 u ∈ Rp 分别 为 输出 信号 、 测量 信号 、 外部 输入 信号 和 控制 信号 . H ∞ 控制 问题 就是 求一 控制器 u ( s ) = K ( s ) y ( s ) 使得 闭环 系统 稳定 ， 并 使 w 到 z 的 传递函数 Φ ( s ) 满足 ‖ Φ ( s ) ‖ ∞ ＜ 1 . 至今 为止 的 H ∞ 控制 问题 的 绝大多数 解法 均 假设 ( 1 ) 式 中 的 P12 ( s ) 和 P21 ( s ) 在 包含 无穷远 点 在内 的 虚轴 上 不 含 零点 ［ 1 ］ ， 然而 许多 控制 问题 并 不 满足 这一 假设 。 通常 称 这种 P12 ( s ) 和 / 或 P21 ( s ) 在 含 无穷远 点 在内 的 虚轴 上 的 H ∞ 控制 问题 为 奇异 或非 标准 H ∞ 控制 问题 . 对 奇异 H ∞ 控制 问题 的 研究 成为 近 两三年 H ∞ 制 领域 的 一个 研究 热点 ［ 2 ， 3 ］ . 
+ 　 　 对 含 无穷远 零点 的 奇异 H ∞ 控制 问题 ， 文 ［ 2 ］ 提出 了 通过 检验 两个 二次 矩阵 不等式 的 可 解性 来 判断 H ∞ 控制 问题 是否 可解 的 方法 ； 文 ［ 3 ］ 基于 ( J , J ' ) - 无损 分解 理论 ［ 4 ］ 和 描述 形式 的 系统 表征 ， 提出 了 通过 求解 广义 特征 问题 来解 奇异 H ∞ 控制 问题 的 方法 . 文 ［ 2 ］ 利用 几何 控制 理论 ， 提出 了 通过 复杂 的 系统 分解 和 变换 来 求解 二次 矩阵 不等式 的 方法 ， 但 较为 复杂 ， 与 之 相比 ， 文 ［ 3 ］ 的 基于 求解 广义 特征值 问题 的 判据 较为简单 和 直观 . 本文 将 证明 通过 求解 广义 特征值 问题 ， 可以 直接 求解 二次 矩阵 不等式 . 
+ 　 　 在 本文 中 ν ( - sE + A ; D ) 表示 矩阵 束 - sE + A 在域 D 中 的 特征值 所 对应 的 广义 特征 空间 ； ImP 表示 矩阵 P 所 张成 的 空间 ； ρ ( X ) 表示 矩阵 X 的 最大 特征值 ； C － 表示 开左半 平面 . 
+ 　 　 2 　 二次 矩阵 不等式 
+ 　 　 对于 矩阵 X = XT ∈ Rn × n 和 Y = YT ∈ Rn × n , 定义 
+ 　 　 　 　 　 　 ( 2 ) 
+ 　 　 　 　 　 　 ( 3 ) 
+ 若 F ( X ) 0 和 G ( Y ) 0 ， 则 称 X 和 Y 分别 是 二次 矩阵 不等式 F ( X ) 0 和 G ( Y ) 0 的 解 . 另外 ， 定义 如下 两个 矩阵 束 
+ 　 　 　 ( 4 ) 
+ 　 　 引理 1 . ［ 2 ］ 　 设 广义 对象 ( 1 ) 中 的 P12 ( s ) 和 P21 ( s ) 均 在 有限 虚轴 上 无 零点 ， 则 H ∞ 控制 问题 有解 的 充要条件 是 二次 矩阵 不等式 F ( X ) 0 和 G ( Y ) 0 存在 半 正定 解 X 和 Y ， 且 满足 ρ ( XY ) 1 和 如下 秩 条件 ： 
+ 　 　 ( 1 ) rankF ( X ) = p , 
+ 　 　 ( 2 ) rankG ( X ) = q , 
+ 　 　 ( 3 ) rank [ LT ( X , s ) FT ( X ) ] T = n + p , Re [ s ] 0 , 
+ 　 　 ( 4 ) rank [ M ) Y , s ) G ( Y ) ] = n + q , Re [ s ] 0 . 
+ 　 　 3 　 基于 广义 特征值 问题 的 二次 矩阵 不等式 的 解 
+ 　 　 关于 P12 ( s ) 的 无穷远 零点 结构 ， 有如 下结论 . 
+ 　 　 引理 2 . ［ 5 ］ 　 存在 酉矩阵 S 和 T ， 使得 有 
+ 　 　 　 　 　 ( 5 ) 
+ 其中 正规 矩阵 束 包含 P12 ( s ) 所有 的 无穷远 零点 因子 ， 且 ｜ E11 ｜ ≠ 0 ； 若 相应 于 ( 5 ) 式 可 将 S 和 T 划分 为 
+ 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 则 T23 ∈ Rp × p 非 奇异 ， ST32 ∈ Rm × m 列满 秩 . 
+ 　 　 现 计算 如下 两 广义 特征值 问题 
+ 　 　 　 　 　 　 　 　 　 　 ( 7 ) 
+ 　 　 　 　 　 　 　 　 ( 8 ) 
+ 利用 引理 2 可 求得 P120 = T12 . 对于 ( 7 ) 和 ( 8 ) 式 ， 有 以下 定理 . 
+ 　 　 定理 1 . 　 等式 
+ 　 　 　 　 ( 9 ) 
+ 成立 . 其中 　 2 = - ST31 , 12 = - ST32 , U1 : = - A22T － 123U12 , U2 : = A21 - A22T － 123T22 , U3 : = - E － 111A12T － 123U12 , A ∞ : = E - 111 ( A11 - A12T － 123T22 ) . 
+ 　 　 证明 . 　 从略 ( 类似 文 ［ 6 ］ 中 定理 1 的 证明 ) . 由 定理 1 可得 如下 主要 结论 . 
+ 　 　 定理 2 . 　 若 [ P12P120 ] 非 奇异 ， 则 X = [ Φ 120 ] [ P12P120 ] － 1 是 二次 矩阵 不等式 F ( X ) 0 的 解 ， 且 引理 1 中 的 秩 条件 ( 1 ) 和 ( 3 ) 成立 . 
+ 　 　 证明 . 记由 ( 9 ) 式 得 F ( X ) = ST ( X ) S ( X ) 0 , 其中 S ( X ) : = 12 [ - M12 ] . 利用 引理 2 和 3 可知 
+ 　 　 　 　 ( 10 ) 
+ 成立 . 这样 rankF ( X ) = rankS ( X ) = rank12 [ - M12 ] = p , 故 引理 1 中 的 秩 条件 ( 1 ) 成立 . 再记 
+ 
+ 由 ( 10 ) 式 知 rankR1 = n + p , rankR2 ( s ) = n + p , Re [ s ] 0 ， 故 引理 1 中 的 秩 条件 ( 3 ) 成立 . 　 　 　 证毕 . 
+ 　 　 文 ［ 2 ］ 证明 了 满足 引理 1 中 矩阵 秩 约束 ( 1 ) 和 ( 3 ) 的 二次 不等式 的 解 X 若 存在 ， 则 是 唯一 的 ； 文 ［ 3 ］ 证明 了 若 具有 无穷远 零点 的 控制 问题 有解 ， 则 [ P12P120 ] 非 奇异 ， 故 二次 矩阵 不等式 F ( X ) 0 存在 满足 引理 1 中 的 矩阵 秩 约束 ( 1 ) 和 ( 3 ) 的 解 X 的 充要条件 是 [ P12P120 ] 非 奇异 . 
+ 　 　 对偶 地 ， 可 通过 考虑 解 另 两 广义 特征值 问题 来求 G ( Y ) 0 ， 这里 从略 . 
+ 　 　 4 　 例 　 子 
+ 　 　 设 广义 对象 ( 1 ) 为 BT1 = [ 0.200 . 4 ] , D21 = 1 , C2 = [ 001 ] , 
+ 
+ 在 本例 中 ， n = 3 , p = 2 , D12 列 不满 秩 . 计算 式 ( 7 ) 和 ( 8 ) 得 
+ 
+ 因 [ P12P120 ] 非 奇异 ， 故 F ( X ) 0 有解 . 现 考虑 定理 1 中 的 两个 秩 条件 ， 计算 F ( X ) 的 特征值 和 [ LT ( X ， s ) FT ( X ) ] 的 零点 知 引理 1 中 的 秩 条件 ( 1 ) 和 ( 3 ) 成立 . 
+ 1 ) 此 课题 得到 国家自然科学基金 和 中国 博士后 科学基金 的 资助 . 本文 的 初稿 曾 在 1994 年 中国 控制 与 决策 会议 上 宣读 . 
+ 作者 单位 ： 东南大学 自动化 研究所 　 南京 　 210018 
+ 参考文献 
+ 　 　 [ 1 ] GloverK , DolyeJC . State - spaceformulateforallstabilizingcontrollersthatsatisfyinganH ∞ - normboundandrelationstorisksensitivity . Systems & ControlLetters , 1988 , 11 : 167 - 172 . 
+ 　 　 [ 2 ] StoorvogelAA . ThesingularH ∞ controlwithdynamicmeasurementfeedback . SIAMJournaloncontrolOptimization , 1991 , 29 : 160 - 184 . 
+ 　 　 [ 3 ] KimuraH , XinX . Chain - scatteringapproachtonon - standardH ∞ controlproblems . ProceedingsofInternationalSymposiumonMathematicalTheoryofNetworksandSystems , Regensburg1993 . 
+ 　 　 [ 4 ] XinX , KimuraH . ( J , J ' ) - losslessfactorizationfordescriptorsystems . LinearAlegbraandItsApplications , 1994 , 206 : 1289 - 1318 . 
+ 　 　 [ 5 ] CopelandBR , SafonovMG . Zerocancellingcompensationforsingularcontrolproblemsandtheirapplicationtotheinner - outerfactorizationproblem . InternationalJournalofRobustandNonlinearControl , 1992 , 2 : 139 - 164 . 
+ 　 　 [ 6 ] XinX , KimuraH . Singular ( J , J ' ) - losslessfactorizationforstrictlyproperfunctions . InternationalJouralofControl , 1994 , 59 : 1383 - 1400 . 
+ 收稿 日期 　 1994 - 09 - 19 

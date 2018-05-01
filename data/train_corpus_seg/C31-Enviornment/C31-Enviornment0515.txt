@@ -1,0 +1,64 @@
+城市 环境 与 城市 生态 
+ URBANENVIRONMENT & URANECOLOGY 
+ 1999 年 　 第 12 卷 　 第 1 期 　 Vol.12 　 No.1 　 1999 
+ 
+ 
+ 
+ 湿地 土壤 因素 对 污水处理 作用 的 模拟 研究 
+ 陈博谦 　 王星 　 尹 澄清 
+ 　 　 摘要 　 人工 湿地 是 近年来 发展 较 快 的 污水处理 设置 ， 本文 用 室内 模拟 的 方法 研究 了 湿地 土壤 在 处理 生活 污水 的 作用 。 结果表明 ， 在 排除 了 植物 因子 的 前提 下 ， 人工 湿地 土壤 — 微生物 系统对 污水 中 的 污染 成分 仍 具有 良好 的 去除 作用 。 系统 不同 单位 区段 对 污水 中 的 总 有机 碳 ( TOC ) 、 总氮 ( TN ) 去除率 存在 差异 ， 在 第一个 单位 区段 的 处理 效率 最高 ， 分别 达 48% 和 38% ， 远大于 第二 、 三 、 四 区段 。 土壤 吸收 附磷 的 过程 中 存在 着 积累 现象 ， 土壤 磷 浓度 在 第一 区段 先 达到 饱和 ， 导致 去除 效率 在 实验 后期 下降 。 
+ 　 　 关键词 　 人工 湿地 模拟系统 　 土壤 - 细菌 系统 　 污水处理 
+ TheRoleofSoilsinWastewaterTreatment 
+ inaSimulatedConstructedWetland 
+ ChenBoqian 　 WangXing 　 YinChengqing 
+ ( SKLEAC , ResearchCenterforEco - environmentalSciences , ChineseAcademyofSciences , Beijing100085 ) 
+ 　 　 Abstract 　 Constructedwetlandsforwastewatertreatmentarethenewlydevelopedsystemtoremovenutrient , BOD , SSandpathogenicorganismsinChina . Theremovalprocessofasimulatedwetlandwasstudiedintheabsenceofaquaticplants . The12mlongsystemwasdividedintofourequalunitsalongthedirectionofinflow . Itwasfoundthatthesoil - bacteriasystemhadagoodeffectonnutrientremoval . Theeliminationoforganicmatterandnitrogenmainlyoccurredinthefirstunit , withadecreaseof48% and38% intheTOCandTNconcentrationrespectively . Thisefficiencywasmuchgreaterthanthoseinthesubsequentthreeunits . TotalphosphorouswasremovedfrominflowandtheaccumulationofPwasfoundinsoil . TheconcentrationofTPinthefirstunitreachedapeakatthe13thdayafterthebeginningoftheexperiment , thusmakingthetreatmentefficiencydeclineinthelateperiod . 
+ 　 　 Keywords 　 simulatedconstructedwetland 　 　 soil - bacteriasystem 　 　 wastewatertreatment 
+ 1 　 前言 
+ 　 　 大量 研究 表明 ， 湿地 系统 具有 显著 改善 水质 的 功能 ［ 1 ～ 3 ］ 。 70 年代 以来 ， 在 北美 、 澳大利亚 和 西欧 相继 兴建 了 许多 人工 湿地 污水处理 装置 ［ 4 ］ ， 成为 去除 有机 营养物质 的 重要 措施 。 经过 湿地 处理 后 ， 污水 中 的 COD 、 BOD5 、 TSS 、 总氮 、 总磷 等 污染物 浓度 下降 ， 水质 得到 改善 。 
+ 　 　 目前 在 人工 湿地 系统 的 机 理性 研究 往往 偏 于 生物 因子 在 污水处理 过程 中 的 作用 ， 而 对 非生物 因子 ， 特别 是 作为 湿地 系统 中 植物 和 微生物 生长 依托 的 土壤 研究 相对 较 少 。 本文 以 室内 湿地 模拟系统 为 对象 ， 排除 了 室外 环境 中 不 可控 环境 因子 的 影响 ， 使 系统 简单化 、 直观 化 ， 用以 研究 湿地 系统 中 土壤 因素 的 作用 。 
+ 2 　 实验设计 、 材料 和 方法 
+ 2.1 　 室内 湿地 模拟系统 的 方法 和 结构 
+ 2.1 . 1 　 模拟系统 的 设计 
+ 　 　 在 四个 塑料 圆盆 的 底部 铺上 10 　 cm 厚 的 土壤 ， 用 铝片 将 泥土 隔成 间距 5 　 cm 宽 的 螺旋状 水道 。 将 四个 圆盆 按 上下 次序 放置 在 铁架 上 ， 盆间 用 橡皮管 通过 盆 壁上 的 小孔 串联 。 铁架 顶层 放置 模拟 生活 污水 ， 污水 可借 重力 作用 流经 整个 系统 。 
+ 　 　 实验 土壤 采自 北京林业大学 苗圃 。 每一圆盆 水道 长 3 　 m ， 整个 系统 总长 12 　 m 。 在 全长 12 　 m 的 水道 中 选取 3 　 m 、 6 　 m 、 9 　 m 、 12 　 m 处为 取样 点 。 模拟 生活 污水 的 流速 由 塑料 圆桶 开关 和 橡皮管 夹子 控制 。 为了 防止 铝 离子 的 溶解 对 水质 的 影响 ， 铝片 事先 涂上 桐油 干燥 后 使用 。 
+ 2.1 . 2 　 生活 污水 的 配置 
+ 　 　 按 文献 ［ 5 ］ 配制 生活 污水 ， 测定 含 总 氮 274 　 mg / L 、 总磷 154 　 mg / L 、 TOC 　 1018 　 mg / L 。 考虑 到 室内 实验 的 特殊性 ， 进 水中 设计 总氮 、 总磷 浓度 较 实际 生活 污水 中 浓度 高 10 倍 左右 。 生活 污水 放于 在 铁架 顶层 有 调速 开关 的 塑料 圆桶 里 ， 水力 负荷 控制 在 1.65 ～ 5.71 　 L / ( m2 . d ) 。 
+ 2.2 　 实验 方法 
+ 　 　 溶液 中 总 氮 、 总磷 浓度 用过 硫酸钾 氧化 法测定 ［ 6 ］ 。 总 有机 碳 ( TOC ) 用 日本 岛津 公司 产 的 TOC 测定仪 测定 。 土壤 中 总 氮 、 总磷 浓度 测定 采用 标准 开氏法 和 高氯酸 消化 法测定 ［ 7 ］ 。 
+ 　 　 在 近 一个月 的 实验 周期 中 ， 每隔 一段时间 测 四个 取样 点处 污水 中 的 总 氮 、 总磷 、 TOC 值 ， 绘制 出 去除率 变化 图 ， 分析 其 与 滞留 时间 及 负荷量 的 关系 。 另外 ， 在 实验 初期 ( 第 1 天 ) 、 中期 ( 第 12 天 ) 和 末期 ( 第 25 天 ) ， 测 土壤 中 总 氮 、 总磷 浓度 。 
+ 　 　 实验 装置 设计 两套 ， 同时 运行 ； 在 整个 实验 过程 中 ， 实验 温度控制 在 25 　 ℃ ， 生活 污水 在 每 一 区段 的 停留时间 相同 ， 样品 测定 进行 三个 重复 样 。 
+ 3 　 结果 和 分析 
+ 3.1 　 处理 效果 
+ 　 　 体系 中 某点 处 去除率 R 表示 了 从 进水 原点 到 该处 体系 对 污染物 的 去除 能力 ， 计算方法 如下 ： 
+ 　 　 Rx = ( C0 - Cx ) / C0 
+ 　 　 Rx — 距 进水 原点 x 处 污水 中 污染物 的 去除率 ( % ) ； 
+ 　 　 C — 污染物 浓度 ； 
+ 　 　 停留时间 为 24 　 h 情况 下 ， 在 系统 出水口 处 ， 总氮 ， TOC 去除率 可达 70% ， 总磷 的 去除率 达到 70% ～ 90% ( 表 1 ) ， 这 表明 在 排除 植物 因子 ， 人工 湿地 土壤 — 微生物 系统 仍 具有 相当 高 的 处理 污染物 的 能力 。 
+ 表 1 　 各 取样 点处 TOC 、 总氮 、 总磷 的 去除率 　 　 % 
+ 
+ 取样 点 3m6m9m12m 
+ 总氮 41.658 . 560.667 . 1 
+ TOC59.762 . 171.976 . 4 
+ 总磷 ( 第 9 天 ) 69.474 . 389.290 . 4 
+ 总磷 ( 第 22 天 ) 3.145 . 968.573 . 8 
+ 
+ 3.2 　 不同 单位 区段 的 处理 效果 
+ 　 　 为了 更好 说明 系统 中 各区 段 对 污染物 的 去除 效果 ， 计算 了 各区 段 平均 处理 效率 ： 
+ K = ( Ci - Ci - 1 ) / Ci 
+ 　 　 图 1 中 ， 横坐标 1 、 2 、 3 、 4 表示 第一 、 二 、 三 、 四 的 3 米 段 。 
+ 　 　 TOC 区间 平均 去除率 分别 为 0.481 、 　 0.171 、 　 0.127 、 　 0.179 ， 总氮 的 区间 平均 去除率 分别 为 0.378 、 　 0.122 、 　 0.085 、 　 0.023 ， 总磷 各 取样 点 去除率 在 3 天时 分别 为 0.334 、 　 0.122 、 　 0.062 、 　 0.072 ， 在 22 天时 分别 为 0.076 、 　 0.189 、 　 0.37 、 　 0.213 。 
+ 
+ 
+ 图 1 　 TOC 各区 段 平均 去除率 
+ 
+ 
+ 图 2 　 总氮 各区 段 平均 去除率 
+ 
+ 
+ 图 3 　 3 天 ， 22 天时 总磷 各区 段 平均 去除率 
+ 3.3 　 不同 实验 阶段 土壤 总氮 、 总磷 浓度 变化 
+ 　 　 在 实验 初期 、 中期 和 末期 ， 分别 对 土壤 的 总 氮 、 总磷 进行 测定 。 其 结果 如表 2 、 表 3 。 
+ 表 2 　 土壤 总氮 浓度 的 变化 　 　 　 　 % 
+ 
+ 取样 点 < tdalign = " cen 

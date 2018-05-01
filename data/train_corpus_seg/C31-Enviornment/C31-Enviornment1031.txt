@@ -1,0 +1,37 @@
+环境 科学研究 
+ RESEARCHOFENUIRONMENTALSCIENCES 
+ 2001Vol.14 No.2 P.51 - 53 
+ 
+ 
+ 
+ 
+ 电解 凝絮法 处理 高 盐度 有机 废水 的 实验 研究 
+ 王宏 　 郑 一新 　 钱彪 　 宁平 　 
+ 摘 　 要 ： 应用 电解 凝絮法 处理 紫胶 合成树脂 生产 过程 中 排放 出 的 高 盐度 有机 废水 实验 结果表明 ， 该 方法 能够 有效 地 去除 废水 中 的 有机 污染物 ， 提高 透明度 ， CODCr 去除率 达 94% ， BOD5 去除率 达 90% 以上 ， 并且 设备 简单 、 耐冲击 性好 、 操作 方便 、 不 需要 投加 化学 药剂 ， 易 实现 现代化 管理 。 
+ 关键词 ： 高 盐度 有机 废水 ； 电 化学反应 ； 凝絮 ； 浮选 
+ 分类号 ： X783 　 文献 标识码 ： A 
+ 文章 编号 ： 1001 - 6929 ( 2001 ) 02 - 0051 - 03 
+ TheTreatmentofHigh - SalinityOrganicWastewaterbyElectrocoagulation 
+ WANGHong （ KunmingEnvironmentalScienceInstitute , Kunming 　 650032 , China ） 　 
+ ZHENGYi - xin （ KunmingEnvironmentalScienceInstitute , Kunming 　 650032 , China ） 　 
+ QIANBiao （ KunmingEnvironmentalScienceInstitute , Kunming 　 650032 , China ） 　 
+ NINGPing （ KunmingUniversityofScienceandTechnology , Kunming 　 650093 , China ） 　 
+ 
+ Abstract ： Theelectro - coagulationandfloatationmethodwasappliedforthetreatmentofhigh - salinityorganicwastewaterofproducingsyntheticresinbythelac . ItwasfoundthatCODCrandBOD5removalrateswere94% and90% respectively . Inadditiontoitsobviouseffectivenessoftreatmentfororganiccompounds , theelectro - coagulationandfloatationmethodrequiresonlysimplefacilities , withhighresistancetoimpactandsimpleoperations , withoutadditionalchemicalagentsandeasytorealizemanagementmodernization . 
+ Keywords ： high - salinityorganicwastewater ; electrochemistry ; coagulation ; floatation 
+ 基金项目 ： 昆明市 首届 中青年 学术 和 技术 带头人 培养 基金项目 
+ 作者简介 ： 王宏 ( 1962 - ) ， 男 ， 云南 大理人 ， 高级 工程师 . 
+ 作者 单位 ： 王宏 （ 昆明市 环境 科学 研究所 ， 云南昆明 　 650032 ） 　 
+ 　 　 　 　 　 郑 一新 （ 昆明市 环境 科学 研究所 ， 云南昆明 　 650032 ） 　 
+ 　 　 　 　 　 钱彪 （ 昆明市 环境 科学 研究所 ， 云南昆明 　 650032 ） 　 
+ 　 　 　 　 　 宁平 （ 昆明 理工大学 ， 云南昆明 　 650093 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ 　 郑远仰 . 污水 的 电化学 处理 [ J ] . 化工 进展 ， 1990 ， 18 ( 2 ) ： 34 ～ 42 . 
+ ［ 2 ］ 　 ShengHLin . Salinewastewatertreatmentbyelectrochemicalmethod \ . WaterRes ， 1998 ， 32 ( 4 ) : 1059 ～ 1066 . 
+ ［ 3 ］ 　 陈立波 . 高浓度 含盐 废水 COD 的 测定 [ J ] . 中国 给水 排水 ， 1996 ， 24 ( 6 ) ： 32 ～ 33 . 
+ ［ 4 ］ 　 傅献彩 . 物理化学 ( 下册 ) [ M ] . 北京 ： 人民教育出版社 ， 1980.1 ～ 60 . 
+ ［ 5 ］ 　 王蓉沙 . 电 絮凝 法 处理 油田 污水 [ J ] . 环境 科学研究 ， 1999 ， 12 ( 4 ) ： 30 ～ 32 . 
+ 
+ 收稿 日期 ： 2000 年 5 月 22 日 
+ 出版日期 ： 2001 年 3 月 30 日 

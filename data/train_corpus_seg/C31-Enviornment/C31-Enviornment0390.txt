@@ -1,0 +1,141 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1999 年 第 2 期 No.21999 
+ 
+ 
+ 
+ 饮水 中非 挥发性 有机 污染物 致 突变性 的 防治 对策 
+ 王家 玲 　 唐非 　 谷 康定 　 汪亚州 　 张 水兵 
+ 　 　 摘要 ： 针对 饮水 致 突变 物 的 主要 成因 研究 了 减少 饮水 致 突变 活性 的 措施 . 结果表明 : 进厂 源水 生物膜 预处理 , 可 使致 突变 前体物 , 如藻 、 腐殖酸 、 总 有机 碳 等 含量 分别 减少 68.2 ％ 、 23.9 ％ 、 37.2 ％ , 使 水厂 加氯 量减少 50 ％ , 最终 使所制 饮水 的 致 突变性 减少 30 ％ . 改革 加氯 消毒 方法 可 使 饮水 致 突变 活性 降低 , 不同 消毒剂 所致 致 突变 活性 顺序 为 Cl2 ＞ ClO2 ＞ Cl2 + ClO2 ＞ 源水 . Cl2 + ClO2 等量 联合 消毒 优于 单一 加氯 消毒 法 , 既 可 提高 所试 甲型肝炎 病毒 、 脊髓灰质炎 病毒 及 大肠杆菌 f2 噬菌体 的 灭活 效果 一至 数倍 ； 又 可 使 饮水 中 CHCl3 减少 91.5 ％ ～ 96.5 ％ , 致 突变 活性 减少 27.6 ％ . 
+ 　 　 关键词 ： 生物 预处理 ； 联合 消毒 ； 饮水 ； 非 挥发性 有机物 ； 致 突变性 
+ 　 　 中 图 分类号 ： TU991.2 　 　 文献 标识码 ： A 　 　 文章 编号 ： 1000 - 6923 ( 1999 ) 02 - 0114 - 05 
+ Onthecontrolofmutagenicityofnonvolatileorganicpollutantsindrinkingwater . 
+ WANGJia - lingTANGFeiGUKang - dingWANGYa - zhouZHANGShui - bing 
+ ( InstituteofEnvironmentalMedicine , TongjiMedicalUniversity , Wuhan430030 , China ) . ChinaEnvironmentalScience.1999 , 19 ( 2 ) ： 114 ～ 118 
+ Abstract ： Aimingatthemainreasonsofproducingmutagenicityindrinkingwater , themeasuresfordecreasingmutagenicityofdrinkingwaterwereexploredandcompared . Theresultsshowedthatusingbiofilmpretreatmentofrawwaterinwaterworks , theaveragereductionofalgae , aquatichumicacidandTOCintherawwatercouldreach68.2 ％ , 23.9 ％ and37.2 ％ respectively . Thechlorineconsumptionofwaterwasdecreasedby50 ％ andthemutagenicityofdrinkingwaterwasdecreasedby30 ％ . Alteringdisinfectantsleadstothereductionofthemutagenicityofdrinkingwater . Thewatertreatedbydifferentdisinfectantsshowedaconsistentpatternofmutagenicpotency , withdecreasingactivityintheorderCl2 ＞ ClO2 ＞ Cl2 + ClO2 ＞ rawwater . TheeffectsofinactivationofHAV , polioVandE . colibacteriophagef2treatedbydisinfectantsindicatedthatthecombinationofCl2andClO2wasonetoseveraltimeshigherthanCl2alone . Atthesametime , theamountofCHCl3inthewastertreatedwithCl2 + ClO2wasdecreasedby91.5 ％ ~ 96.5 ％ thanthatwithCl2anditsmutagenicityreducedby27.6 ％ . 
+ Keywords ： biologicalpretreatment ； disinfectantscombination ； drinkingwater ； nonvolatileorganiccompounds ； mutagenicity 
+ 　 　 饮水 中致 突变 致癌物 的 生成 及其 防治 是 当今 国内外 研究 的 热点 [ 1 ] . 同济医科大学 80 年代 的 研究 工作 [ 2 ] 表明 , 武汉市 重要 饮水 水源 之一 的 东湖 , 其 自来水 的 致 突变 活性 高于 同期 长江 自来水 , 更 高于 汉江 自来水 ； 继后 的 流行病学 调查 [ 3 ] 亦 证实 , 饮用 东湖 水 人群 某些 癌症 死亡率 高于 饮用 长江 自来水 者 . 因此 , 饮水 的 致 突变 物 污染 亟待 治理 . 同济医科大学 曾 研究 国产 聚合 铝 絮凝 沉淀 、 高锰酸钾 预处理 及 活性炭 吸附 等 措施 , 获得 一定 效果 [ 2 , 4 ] . 
+ 　 　 本 研究 以 武汉 富营养化 湖泊 东湖 为 主要 对象 , 针对 水源 水 有机 污染 及 自来水厂 加氯 消毒 等 饮水 有机 致 突变 物 的 主要 成因 [ 2 ] , 选取 适于 国情 可 供 自来水厂 实用 的 技术 措施 , 研究 饮水 中非 挥发性 致 突变 物 生成 的 防治 对策 . 
+ 1 材料 与 方法 
+ 1.1 材料 
+ 1.1 . 1Ames 致 突变 试验 测试 菌株 鼠 伤寒 沙门氏菌 ( Salmonellatyphimurium ) 组氨酸 营养 缺陷 型 菌株 TA98 、 TA100 由 美国 Ames 实验室 赠予 . 
+ 1.1 . 2 病毒 与 宿主 细胞 脊髓灰质炎 病毒 ( Po - lioV ) Ⅰ 型 为 本 实验室 保存 Sabin 株 ； Vero 细胞 由 同济医科大学 附属 协和医院 提供 ； 甲型肝炎 病毒 ( HAV ) Nj - 3 株 、 肝癌 细胞 PLC / PRF / 5 、 大肠杆菌 噬菌体 f2 、 宿主 菌 285 均 由 军事医学科学院 惠赠 . 
+ 1.1 . 3 甲型肝炎 抗体 ( 抗 HAV - IgG ) 甲型肝炎 患者 恢复期 血清 由 湖北 医科大学 及 武汉市 传染病 院 赠予 ； 纯化 的 抗 HAV - IgG 部分 由 军事医学科学院 赠予 , 部分 由本 实验室 制备 . 
+ 1.1 . 4 吸附 树脂 H103 大孔 树脂 ( 苯乙烯 - 二乙烯苯 共聚 体 ) 由 南开大学 提供 . 
+ 1.1 . 5 消毒剂 氯 ( Cl2 ) 由 漂白粉 精片 ( 保定市 美 佳利 化工 有限公司 ) 溶解 制备 ； 二氧化氯 ( ClO2 ) 由亚 氯酸钠 与 盐酸 反应 [ 5 ] 制备 ； 臭氧 ( O3 ) 由 XFZ - 5 ( A ) 型 O3 发生器 ( 邢台 环保 仪器厂 ) 产生 . 
+ 1.1 . 6 无机盐 、 有机 试剂 试剂 均 为 分析 纯 或 优级 纯 ； 生化 试剂 Dextransulfate50 等 为 进口 分装 ； 细胞 培养基 1640 ( 美国 生命 公司 产品 ) . 
+ 1.2 实验 方法 
+ 1.2 . 1 微生物学 测定法 大肠菌群 采用 多管 发酵法 [ 6 ] ； PolioV 采用 空斑 定量 法 [ 7 ] ； HAV 采用 ELISA 法 [ 7 ] ； 大肠杆菌 f2 噬菌体 用空斑 定量 法 [ 7 ] . 
+ 1.2 . 2CHCl3 测定 用顶 空气 相 ECD 色谱法 [ 8 ] . 
+ 1.2 . 3 水中 非 挥发性 有机物 的 浓集 参照 王家 玲等 报道 的 方法 [ 2 ] 进行 . 
+ 1.2 . 4Ames 致 突变 试验 [ 6 ] 由于 东湖 饮水 中 主要 存在 移码 型 直接 致 突变 物 [ 2 ] , Ames 试验 主要 选用 TA98 菌株 , 在 不加 S9 的 条件 下 进行 , 即 TA98 , - S9 . 结果 以 突变率 MR ( 每皿 诱发 回变 菌落 数 与 自发 回变 菌落 数之比 ) 表示 . MR ≥ 2 且 呈 剂量 反应 关系 者 为 Ames 试验 阳性 . 研究 中以 比 活性 ( 获 MR = 2 时 所 需 水样 量 或 剂量 反应 回归 直线 的 斜率 ) 进行 比较 来 评价 试验 结果 . 
+ 1.2 . 5 统计学 方法 数据资料 用 SAS 软件包 进行 统计 处理 , 显著性 检验 水平 均取 a = 0.05 . 
+ 2 结果 与 讨论 
+ 2.1 源水 生物膜 预处理 对 饮水 致 突变性 生成 的 影响 源水 有机 污染 是 饮水 致 突变 物 生成 的 最 主要 原因 [ 2 ] . 研究 探索 生物 氧化 法 去除 进入 水厂 源 水中 的 有机 污染物 . 由 中国 市政工程 中南 设计 研究院 设计 并 建设 的 生物膜 接触 氧化 池 设在 东湖 水厂 , 为 三级 串联 池 , 有效 容积 15.5 m3 , 充填 蜂窝 填料 ； 设计 进 水流量 8m3 / h , 水力 停留时间 1.9 h ； 曝气 方式 为 中心 曝气 , 供 气量 8m3 / h . 结合 该池 对比 研究 了 3 种 工艺流程 所制 饮水 的 致 突变 活性 , 这 3 种 工艺流程 为 : 
+ B 工艺 : 水源 水 → 生物 预处理 → 混凝 沉淀 → 砂滤 → 氯化 → 饮水 , 即 生物膜 预处理 ( Biofilmpre - treatment ) 工艺 
+ R 工艺 : 水源 水 → 预 氯化 → 混凝 沉淀 → 砂滤 → 后 氯化 → 饮水 , 即 常规 ( Routinetreatment ) 工艺 
+ N 工艺 : 水源 水 → 混凝 沉淀 → 砂滤 → 氯化 → 饮水 , 即 取消 预 氯化 ( Non - prechlorination ) 工艺 . 
+ 2.1 . 1 生物膜 预处理 对源 水中 致 突变 前体 物及 水厂 加氯 量 的 影响 于 不同 季节 多次 现场 采样 测定 , 生物膜 预处理 可 减少 进厂 源 水中 藻 细胞 数 、 腐殖酸 及 总 有机 碳 含量 ( 表 1 ) , 平均 去除率 分别 为 68.2 ％ 、 23.9 ％ 和 37.2 ％ . 说明 生物 氧化 法能 有效 地 去除 源 水中 有机物 包括 饮水 中致 突变 物 的 前 体物 . 
+ 表 1 生物膜 预处理 前后 水中 致 突变 前体物 的 含量 
+ Table1Contentsofmutagenprecursorsininflowandoutflowwaterofbiofilmpretreatmentbasin 
+ 
+ 项目 有机物 有机物 平均 
+ 去除率 ( % ) 
+ 进水 出水 
+ 藻 细胞 数 ( 万个 / L ) 309 ± 19198 ± 7968.2 
+ 腐殖酸 ( mg / L ) 3.39 ± 0.812 . 58 ± 0.7623 . 9 
+ 总 有机 碳 ( mg / L ) 10.13 ± 5.526 . 36 ± 2.0837 . 2 
+ 
+ 
+ 　 　 水厂 源 水中 有机物 减少 , 导致 后 加氯 量 的 降低 . 研究 表明 , 生物膜 预处理 工艺 的 加氯 量 较 二次 加氯 工艺 ( R 工艺 ) 可 平均 减少 59.6% , 较 取消 预 氯化 的 一次 加氯 工艺 ( N 工艺 ) 平均 减少 51.1% . 
+ 2.1 . 2 生物膜 预处理 对 饮水 致 突变性 生成 的 影响 在 不同 季节 , 数次 对比 研究 了 3 种 工艺流程 所制 饮水 的 致 突变 活性 , 实验 结果 见图 1 , 图 2 . 
+ 
+ 
+ 图 1R 、 B 工艺 处理 后 饮水 致 突变性 的 比较 ( TA98 , - S9 ) 
+ Fig.1 ComparisonofmutagenicityinwatertreatedbyBandRprocess 
+ 
+ 
+ 图 2N 、 B 工艺 处理 后 饮水 致 突变性 的 比较 ( TA98 , - S9 ) 
+ Fig.2 ComparisonofmutagenicityinwatertreatedbyBandNprocess 
+ 　 　 从图 1 看出 , 在 试验 条件 下 , B 工艺 所制 饮水 的 致 突变 活性 较 R 工艺 平均 降低 率为 29.4 ％ ； 图 2 结果表明 , B 工艺 所制 饮水 的 致 突变 活性 较 N 工艺 平均 降低 率为 31.2 ％ . 二者 经 统计分析 均 为 显著性 差异 . 由此可见 , 广泛 用于 有机 废水处理 的 生物 氧化 法 , 也 适用 于 自来水厂 源水 预处理 , 有利于 去除 饮水 中 的 致癌 致 突变 物 , 它 是 一种 经济 、 有效 、 适于 国情 的 好 方法 . 
+ 2.2 改变 消毒 方法 对 饮水 致 突变性 生成 的 影响 
+ 　 　 水厂 加氯 消毒 使 自来水 中 生成 对 人体 有害 的 消毒 副产物 . 文献 [ 4 , 9 ] 报道 了 以 东湖 水源 水及 湖中 优势 藻类 代谢 液为 消毒 对象 的 研究 结果 , 各 消毒剂 所致 饮水 致 突变性 强度 顺序 为 Cl2 ＞ ClO2 ＞ O3 , 是 与 国内外 其它 水源 水 的 研究 结果 相同 . 鉴于 自来水 单一 加 Cl2 消毒 不能 完全 杀灭 病毒 [ 1 ] , 单一 ClO2 消毒 可 产生 引起 实验 动物 溶血 的 歧化 产物 ClO2 - 和 ClO3 - [ 1 , 10 ] ； 研究 将 Cl2 和 ClO2 等量 同时 投加 联合 消毒 , 与 单一 加 Cl2 消毒 对比 , 考查 对 水中 脊髓灰质炎 病毒 ( PolioV ) 、 甲型肝炎 病毒 ( HAV ) 、 大肠杆菌 噬菌体 f2 的 灭活 , 以及 减少 饮水 致癌 致 突变 物 生成 的 影响 . 
+ 2.2 . 1 病毒 灭活 实验 在 100mL 模拟 水样 ( 双蒸水 + 黄腐酸 , COD 为 20mg / L ) 中投 加 1mL 病毒 悬液 , 约 为 104 ～ 105PFU / mL , 混匀 , 然后 投加 一定 浓度 消毒剂 , 在 不同 时间 取样 , 并 中 和 剩余 消毒剂 , 同时 取未加 消毒剂 的 平行 样品 作 对照 , 所获 样品 立即 投入 感染性 试验 . 
+ 　 　 以 浓度 时间 乘积 ( C × T ) 衡量 其 消毒 效果 , 消毒剂 使 PolioV 和 f2 噬菌体 达到 99.99% 灭活 的 C × T 结果 列于 表 2 . 消毒剂 对 HAV 抗原性 破坏 的 实验 结果 ( ELISA 法 ) 以 P / N 值 比较 , 结果 列于 表 3 . 
+ 表 2 不同 消毒剂 使 PolioV 和 f2 噬菌体 达到 99.99% 灭活 的 浓度 时间 乘积 （ C × T ） 结果 
+ Table2ValuesofC × Tfor99.99 ％ inactivationofpoliovirusandE . colibacteriophagef2bydisinfectants 
+ 病毒 消毒剂 剂量 
+ ( mg / L ) 99.99% 
+ 灭活 时间 
+ ( min ) 余氯 ( mg / L ) 
+ 游离 性 结合 性 剩余 ClO2 
+ ( mg / L ) 剩余 O3 
+ ( mg / L ) C × T 值 
+ ( mg / L × min ) 
+ PolioCl28.082 . 80.034 . 88 - - 662.5 
+ 病毒 ClO28.016 . 10.280 . 251.72 - 129.5 
+ 　 Cl2 + ClO24.0 + 4.025 . 00.133 . 410.50 - 200.0 
+ 　 O31.22 . 7 - - - 未 检出 3.2 
+ f2 噬菌体 Cl25.083 . 00.003 . 36 - - 414.8 
+ 　 ClO25.03 . 50.130 . 171.23 - 17.3 
+ 　 Cl2 + ClO22.5 + 2.510 . 20.052 . 190.35 - 50.9 
+ 　 O30.672 . 4 - - - 未 检出 1.6 
+ 注 : 水温 10 ℃ ± 1 ℃ pH 值为 6.2 ± 0.3 
+ 　 　 由表 2 , 表 3 可见 , 各 消毒剂 对 病毒 的 灭活 效果 为 O3 ＞ ClO2 ＞ Cl2 + ClO2 ＞ Cl2 ； 将 Cl2 + ClO2 联合 消毒 与 传统 单一 Cl2 消毒 两者 相比 , 在 实验 条件 下 对 PolioV 灭活 效果 前者 为 后者 的 3.3 倍 , f2 噬菌体 为 8.1 倍 , HAN 为 1.4 倍 , 这一 结果 充分 表明 Cl2 + ClO2 联合 消毒 对 病毒 的 灭活 优于 单一 加氯 消毒 . 
+ 表 3 不同 消毒剂 对 HAV 抗原性 破坏 的 效果 ( ELISA 法 ) 
+ Table3EffectonthedestroyofHAAgbydifferentdisinfectants 
+ 
+ 消毒剂 剂量 ( mg / L ) P / N 值 ( 接触 30min ) 
+ Cl2204.8 
+ 　 303.7 
+ 　 502.1 
+ ClO2202.4 
+ 　 302.1 
+ 　 501.5 
+ Cl2 + ClO210 + 103.5 
+ 　 15 + 152.5 
+ 　 25 + 251.8 
+ 
+ 注 : P / N 值为 阳性 ( P ) 与 阴性 ( N ) 对照 比值 
+ 2.2 . 2 致 突变 实验 以 各 消毒剂 灭活 水中 
+ 　 　 99.99 ％ f2 噬菌体 的 剂量 [ 11 ] , 对 东湖 源水 进行 消毒 , 比较 消毒 水样 的 致 突变性 , 结果 见图 3 . 由图 3 可知 , 各 水样 的 致 突变性 强度 顺序 为 Cl2 ＞ ClO2 ＞ Cl2 + ClO2 ＞ 源水 . 经 统计学 检验 , 总体 样本 存在 显著 差异 ( P ＜ 0.01 ) . 说明 Cl2 + ClO2 联合 消毒 可 降低 饮水 致 突变性 , 与 单一 加 Cl2 消毒 相比 可 使致 突变性 下降 27.6 ％ . 同时 , 用气 相色谱 检测 水样 挥发性 的 CHCl3 和 CCl4 的 结果 见表 4 . 由表 4 可见 , Cl2 + ClO2 联合 消毒 水样 CHCl3 生成量 , 与 单一 ClO2 消毒 相比 , 可 减少 91.5% ～ 96.5% . 水样 中 基本 未 检出 CCl4 . 
+ 
+ 
+ 图 3 东湖 水 经 不同 消毒剂 处理 后致 突变性 比较 ( TA98 , - S9 ) 
+ Fig.3 Comparisonofmutagenicityinwatertreatedwithdifferentdisinfectants 
+ 1 . Cl22 . ClO23 . 原水 4 . Cl2 + ClO2 
+ 表 4 东湖 水 经 不同 消毒剂 处理 后 CHCl3 与 CCl4 生成量 比较 
+ Table4ComparisonoftheformationofCHCl3andCCl4inDonghuLakewatertreatedwithdisinfectants 
+ 
+ 消毒剂 剂量 
+ ( mg / L ) CHCl3 
+ ( mg / L ) CCl4 
+ ( mg / L ) 
+ Cl20 ( 源水 ) 0.00 . 0 
+ 　 8.577 . 85 ± 13.570 . 0 
+ 　 17.0132 . 82 ± 33.860 . 0 
+ ClO25.011 . 53 ± 1.860 . 0 
+ 　 10.03 . 08 ± 5.820 . 0 
+ Cl2 + ClO22.5 + 2.52 . 73 ± 0.150 . 0 
+ 　 5.0 + 5.011 . 33 ± 3.340 . 0 
+ 
+ 　 　 综上 实验 说明 , Cl2 + ClO2 联合 消毒 比 单一 加 Cl2 消毒 , 既 有利于 杀灭 水中 病毒 , 又 可 降低 饮水 致 突变性 . 同时 , 两者 联用 可 消除 单用 ClO2 时所 产生 的 ClO2 - 、 ClO3 - 等 有毒 副产物 [ 10 ] . 因此 , Cl2 + ClO2 联合 消毒 是 一种 具有 开发 前景 的 饮水 消毒 法 ； 建议 自来水厂 创造条件 应用 此种 联合 消毒 代替 传统 的 加氯 消毒 . 
+ 3 小结 
+ 3.1 应用 生物 氧化 法对 水厂 源水 进行 预处理 , 可以 减少 源 水中 致 突变 前体物 , 其 平均 去除率 为藻 细胞 数 68.2 ％ 、 水生 腐殖酸 23.9 ％ 、 总 有机 碳量 37.2 ％ ； 可 减少 水厂 制水 的 加氯 量 , 生物膜 预处理 工艺 加氯 量 较 二次 加氯 工艺 和 一次 加氯 工艺 ( 即 取消 预 加氯 ) 分别 减少 59.6 ％ 和 51.1 ％ ； 生物膜 预处理 最终 导致 减少 饮水 致 突变 物 生成 , 与 二次 加氯 工艺 和 一次 加氯 工艺 相比 , 其致 突变性 分别 减少 29.4 ％ 和 31.2 ％ . 
+ 3.2 改变 水厂 消毒剂 与 消毒 方式 , 应用 源水 生物膜 预处理 , 可 将 传统 二次 加氯 消毒 改为 一次 . 不同 消毒剂 对 甲型肝炎 病毒 、 脊髓灰质炎 病毒 和 大肠杆菌 f2 噬菌体 的 灭活 强度 取得 了 一致 的 顺序 , 即 O3 ＞ ClO2 ＞ Cl2 + ClO2 ＞ Cl2 ； 联合 消毒 与 单一 Cl2 消毒 相比 , 对 PolioV 灭活 效果 前者 为 后者 的 3.3 倍 , f2 噬菌体 为 8.1 倍 , HAV 为 1.4 倍 . 不同 消毒剂 所致 饮水 致 突变性 的 顺序 为 Cl2 ＞ ClO2 ＞ Cl2 + ClO2 ＞ 源水 ； 将 联合 消毒 与 单一 Cl2 消毒 两者 比较 , 可 使 饮水 中非 挥发性 有机物 致 突变性 下降 27.6% , 挥发性 致癌物 CHCl3 减少 91.5% ～ 96.5% . 
+ 致谢 ： 参加 本 研究 的 还有 肖庚富 、 黄正 、 运 珞珈 、 刘 红艳 等 同志 , 蔡 宏道 教授 给予 关心 和 指导 , 在 此 表示 衷心感谢 . 
+ 基金项目 ： " 八五 " 国家 科技 攻关项目 ( 85 - 903 - 01 - 04 - 03 ) ； 国家自然科学基金 资助 项目 ( 39000089 ) 
+ 作者 单位 ： 王家 玲 　 唐非 　 谷 康定 　 汪亚州 　 张 水兵 （ 同济医科大学 环境 医学 研究所 , 湖北 武汉 430030 ） 
+ 作者简介 ： 王家 玲 ( 1930 - ) , 女 , 浙江 嘉兴人 , 同济医科大学 环境 医学 研究所 教授 、 博士生 导师 , 主要 从事 环境 微生物学 、 环境 卫生学 的 教学 与 研究 工作 . 主持 “ 水中 非 挥发性 有机 污染物 致 突变性 研究 ” ( 获 国家 环境保护局 及 卫生部 科技进步 三等奖 ) ； “ 富营养化 湖泊 饮水 致 突变 物 生成量 控制技术 ” ( 获 建设部 科技进步 二等奖 ) 等 研究 工作 . 发表 论文 50 余篇 . 
+ 收稿 日期 ： 1998 - 08 - 07 
+ 参考文献 ： 
+ 　 [ 1 ] 蔡 宏道 . 现代 环境 卫生学 [ M ] . 第 1 版 . 北京 : 人民卫生出版社 , 1995 . 
+ 　 [ 2 ] 王家 玲 , 朱良金 , 杨晓萍 等 . 水中 非 挥发性 有机物 致 突变性 的 研究 [ J ] . 中国 环境 科学 , 1987 , 7 ( 1 ) : 24 - 27 . 
+ 　 [ 3 ] 李 国光 , 何尚浦 , 施侣 元 等 . 饮用 D 湖 自来水 的 人群 癌症 危险度 的 回顾性 研究 [ J ] . 同济医科大学 学报 , 1992 , 21 ( 3 ) : 181 - 184 . [ 4 ] 唐非 , 谷 康定 , 张晓敏 等 . 几种 消毒剂 对 饮水 致 突变 活性 的 影响 [ J ] . 环境 科学 , 1995 , 16 ( 6 ) : 17 - 19 . 
+ 　 [ 5 ] AmericanPublicHealthAssociation . Standardmethodsfortheexaminationofwaterandwastewater [ M ] . 19thed . , Was - hingtonD . C . ： AmericanPublicHealthAssociation , 1992 . 
+ 　 [ 6 ] 王家 玲 . 环境 微生物学 实验 [ M ] . 第 1 版 . 北京 : 高等教育出版社 , 1988 . 
+ 　 [ 7 ] 黄桢祥 . 医学 病毒学 基础 及 实验 技术 [ M ] . 第 1 版 . 北京 : 科学出版社 , 1990 . 
+ 　 [ 8 ] 国家 环境保护局 《 水 和 废水 监测 分析方法 》 编委会 . 水 和 废水 监测 分析方法 [ M ] . 第 3 版 . 北京 : 中国 环境 科学出版社 , 1989 . 
+ 　 [ 9 ] 黄正 , 曾丹 , 唐非 等 . 3 种 消毒剂 对藻 代谢物 致 突变性 的 影响 [ J ] . 中国 公共卫生 , 1995 , 11 ( 3 ) : 107 . 
+ 　 [ 10 ] AnatKatz , NavaNarkis , FriedaOrshansky , etal . Disinfectionofeffluentbycombinationsofequaldosesofchlorinedio - xideandchlorineaddedsimultaneouslyovervaryingconta - cttimes [ J ] . WaterResearch , 1994 , 28 ( 10 ) : 2133 - 2138 . 
+ 　 [ 11 ] 谷 康定 , 唐非 , 张 水兵 等 . 3 种 消毒剂 及 不同 组合 方式 对 f2 噬菌体 的 灭活 作用 . 中国 公共卫生 , 1997 , 13 ( 11 ) : 703 . 

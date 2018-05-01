@@ -1,0 +1,96 @@
+航空 动力学 报 
+ JOURNALOFAEROSPACEPOWER 
+ 1999 年 　 第 14 卷 　 第 1 期 　 VOL.14 　 No.1 　 1999 
+ 
+ 
+ 
+ 高速 对称 刚性 转子 碰摩 运动 的 稳定性 分析 
+ 　 　 季进臣 　 虞 　 烈 
+ 摘要 ： 分析 了 高速 对称 刚性 转子 圆柱形 和 圆锥形 碰摩 运动 。 当 转子 两端 的 轴承 同时 发生 不良 润滑 ， 造成 转子 两端 同时 与 轴承 接触 ， 产生 圆柱形 碰摩 运动 ， 给出 了 发生 圆柱形 碰摩 运动 时 系统 的 稳定 范围 ， 讨论 了 摩擦系数 、 轴承 径向 间隙 、 碰摩 发生 时 的 初始 角度 与 失稳 涡动 角速度 的 关系 。 当 转子 一端 的 轴承 发生 不良 润滑 ， 而 另一端 的 轴承 正常 工作 时 发生 圆锥形 碰摩 运动 ， 分析 发现 其 碰摩 运动 的 稳定性 取决于 其 系统 本身 物理 参数 ， 进行 了 分岔 分析 ， 给出 了 其 涡动 角速度 的 一阶 近似 表达式 ， 这可为 转子 系统 的 故障诊断 提供 一定 的 理论 基础 。 
+ 主题词 ： 转子 　 摩擦 　 稳定性 　 分析 
+ 分类号 ： TH133 
+ STABILITYOFRUBBINGMOTIONS 
+ OFSYMMETRICRIGIDROTOR 
+ INHIGHSPEEDROTATINGMACHINERY 
+ JiJinchenandYuLie 
+ （ TheoryofLubricationandBearingInstitute , Xi ' anJiaotongUniversity , Xi ' an 　 710049 ） 
+ ABSTRACT 　 Thecylindricalandconicalrubbingmotionsofasymmetricrigidrotorinhighspeedrotatingmachineryareinvestigated . Whenbothjournalbearingsoftherotoraresimultaneouslyunderstarvatonlubricationcondition , bothendsoftherotorcontactlocallywiththebearingssothatthecylindricalrubbingmotionsoccur . Thestabilitymarginofthecylindricalrubbingmotionsisdetermined , andtherelationshipsofinstabilitywiththeradialclearance , thebearing / rotorfrictioncoefficients , andtheangleofincidenceduringsuccessiverubsareobtained . Whenoneofthejournalbearingsisunderstarvationlubricationcondition , theconicalrubbingmotionoftherotoroccurs . Theanalysisshowsthatinthiscasethestabilityofrotordependsonitsphysicalparameters , thetranscriticalbifurcationisanalyzed . Thenthefirstorderapproximationformulaofwhirlingangularspeedisgiven , whichprovidestheoreticalanalysisfordiagnosisofrotorsystems . 
+ Key 　 Words 　 Rotors 　 Friction 　 Stability 　 Analysis 
+ 1 　 引 　 言 
+ 　 　 在 高速旋转 机械 中 ， 常 发生 碰摩 运动 。 目前 的 研究 主要 集中 在 瞬态 振动 分析 和 稳定性 分析 上 。 Choy ［ 1 ］ 分析 了 转子 碰摩时 的 非线性 瞬态 振动 ， Ehrich ［ 2 ～ 4 ］ 给出 高阶 亚谐 响应 和 边频 现象 ， Kim ［ 5 ］ 给出 了 一 Jeffcott 转子 的 伪 周期 响应 和 稳定性 分析 ， 文献 ［ 6 ～ 8 ］ 分别 给出 了 转子 碰摩 的 振动 故障 特征分析 和 混沌 现象 。 张文 ［ 9 ］ 给出 几种 碰摩 的 稳定性 分析 。 本文 给出 了 对称 刚性 转子 碰摩 运动 的 稳定性 分析 ， 分析 了 发生 圆柱形 碰摩 运动 时 系统 的 稳定 范围 ； 对于 圆锥形 碰摩 运动 ， 给出 了 其 涡动 角速度 的 表达式 。 
+ 2 　 圆柱形 碰摩 运动 
+ 　 　 当 转子 两端 的 轴承 同时 发生 
+ 
+ 
+ 图 1 　 圆柱形 碰摩 运动 
+ 不良 润滑 ， 造成 转子 两端 同时 与 轴承 接触 ， 如图 1 所示 。 
+ 　 　 转子 发生 碰摩 的 条件 为 ： 
+ N = mgcos θ + mc02 ≥ 0 　 ( 1 ) 
+ 　 　 转子 在 切线 方向 的 运动 方程 为 ： 
+ mc0 + mgsin θ + μ N = 0 　 ( 2 ) 
+ 　 　 在 碰摩 过程 中 ， 假设 转子 的 自转角 速度 由于 外界 不断 供给 能量 而 保持 为 一个 常数 。 
+ 将 ( 1 ) 式 代入 ( 2 ) 式 得到 ： 　 　 mc0 + mgsin θ + μ m ( gcos θ + c02 ) = 0 　 ( 3 ) 
+ 此式 即 为 刚性 转子 圆柱形 碰摩 运动 方程 ， 对 ( 3 ) 式 进行 简化 得 ： 
+ + Ω 2 ( sin θ + μ cos θ ) + μ 2 = 0 　 ( 4 ) 
+ 其中 Ω 2 = g / c0 。 上式 中 有 一个 平衡点 ： = 0 ， tan θ 0 = - μ ， θ 0 = tan - 1 ( - μ ) 。 令 θ = φ + θ 0 ， ( 4 ) 式 变为 。 它 是 一个 非线性 方程 ， 可令 y = 2 通过 常 微分方程 的 方法 进行 求解 得 ： 
+ 　 ( 5 ) 
+ 这里 c 是 一 积分 常数 ， 它 的 值 可 由 初始条件 决定 。 设 系统 碰摩时 的 初始条件 为 φ ( 0 ) = φ 0 ， ( 0 ) = 0 ， 代入 ( 5 ) 式 得到 ： 　 　 ( 6 ) 
+ 其中 ： δ = - tan - 1 ( 1 / 2 μ ) 。 将 ( 6 ) 式 代入 ( 5 ) 式 得到 ： 
+ 　 　 ( 7 ) 
+ 上式 中解 曲线 在 相 平面 ( φ ， ) 上 或者 形成 封闭 曲线 或者 非 封闭 曲线 。 封闭 曲线 对应 着 周期 解是 稳定 的 ， 非 封闭 曲线 对应 着 无界解 ， 分析 得到 初始条件 的 失稳 区 是 ： 
+ 　 ( 8 ) 
+ 　 　 根据 ( 8 ) 式 和 ( 1 ) 式 可以 看出 ， 失稳 阈值 0 是 摩擦系数 μ ， 轴承 间隙 c0 和 碰摩 发生 时 的 初始 角度 φ 0 的 函数 。 图 2 和 3 给出 了 数值 算例 。 算例 表明 ， 在 一定 的 轴承 间隙 c0 下 ， 刚性 转子 碰 
+ 
+ 
+ 图 3 　 圆柱形 碰摩 运动 的 稳定 区域 
+ 摩 的 失稳 涡动 角速度 0 随 摩擦系数 μ 的 增加 而 增大 ， 随碰摩 发生 时 的 初始 角度 φ 0 的 增加 而 减小 。 在 一定 的 摩擦系数 μ 下 ， 刚性 转子 碰摩 的 失稳 涡动 角速度 0 随 轴承 间隙 c0 的 增加 而 减小 ， 随碰摩 发生 时 的 初始 角度 φ 0 的 增加 而 减小 。 
+ 3 　 圆锥形 碰摩 运动 
+ 　 　 当 转子 一端 的 轴承 发生 不良 润滑 ， 而 另一端 的 轴承 正常 工作 时 发生 的 碰摩 运动 ， 如图 4 所示 。 选取 oxyz 为静 坐标系 ， o ξ η ζ 为 固连于 刚体 上 的 动 坐标系 。 
+ 　 　 刚体 转子 绕 O 点 的 角速度 为 ： 。 其中 Jd ， Jp 分别 是 刚性 转子 绕 O 点 的 赤道 转动惯量 和 极 转动惯量 。 
+ 
+ 
+ 图 4 　 圆锥形 碰摩 运动 
+ 　 　 转子 所 受 外力 ( 重力 ， 碰摩时 产生 的 摩擦力 和 正 压力 ) 对 O 点 的 力矩 为 ： 
+ 
+ 　 　 根据 动量矩 定理 ， 并 假设 在 碰摩 过程 中 ， 转子 的 自转角 速度 为 一定 值 ， 保持 不变 ， 且 假设 α 是 小量 ， 令 sin α 礳 0 / l ， cos α 1.0 ， 整理 得到 ： 
+ N = ［ ( Jd - Jp ) / l2 ］ c02 - ［ ( Jd - Jp ) / l2 ］ c0 ω 2 + ( 1 / 2 ) mgcos θ 　 ( 9 ) 
+ - μ a2 + μ a ω + ( mgl2 / 2Jdc0 ) ( - μ cos θ + sin θ ) ＝ 0 　 ( 10 ) 
+ ( 10 ) 式 即 为 圆锥形 碰摩 运动 的 方程 ， 其 a = ( Jd - Jp ) / Jd 。 必须 指出 ， 它 仅 当 c0 ＜ R ω 时 成立 ， 否则 摩擦力 方向 相反 ， μ 取 负值 。 由 ＝ 0 得 平衡位置 是 tan θ 0 = μ ， θ 0 = tan - 1 μ 。 取 相对 于 平衡位置 的 扰动 角 y = θ - θ 0 作 广义坐标 ， 代入 得 ： - μ a2 + μ a ω + ( mgl2 / 2Jdc0 ) siny ＝ 0 　 ( 11 ) 
+ ( 11 ) 式 是 一 非线性 方程 ， 令 T = ω t ， c = mgl2 / 2Jdc0 ω ， 引入 小 参数 ε = 1 / ω 则 上式 变为 ： 
+ - μ a2 + μ a + ε csiny ＝ 0 　 ( 12 ) 
+ 令 　 　 y = y0 + ε y1 + ε 2y2 + … 　 ( 13 ) 
+ 　 　 采用 多 尺度 方法 分析 ( 12 ) 式 ， 将 ( 13 ) 式 代入 ( 12 ) 式 ， 并 比较 ε 的 同次 幂 的 系数 项得 ： 
+ ε 0 ： D20y0 - μ a ( D0y0 ) 2 + μ a ( D0y0 ) ＝ 0 　 ( 14 ) 
+ ε 1 ： D20y1 + 2D0D1y0 - 2 μ a ( D0y0 ) ( D0y1 ) - 2 μ a ( D0y0 ) ( D0y1 ) 
+ + μ a ( D0y1 ) + μ a ( D1y0 ) + csiny0 ＝ 0 　 ( 15 ) 
+ 令 　 ω 0 = D0y0 ， ( 14 ) 式 变为 ： 　 　 　 　 D0 ω 0 - μ a ω 20 + μ a ω 0 ＝ 0 　 ( 16 ) 
+ ( 16 ) 式 的 定常 解为 ： = 1.0 ， 或 = 0 。 其解 为 ： 　 　 ω 0 = a ／ ［ - a + e μ a ( T0 + A ( T1 ) ) ］ ( 17 ) 
+ 其中 A ( T1 ) 是 独立 于 T0 的 积分 常数 。 设 系统 的 初始条件 为 ( 0 ) ＝ 0 代入 ( 17 ) 式 得 ： 
+ ω 0 ＝ 1.0 ／ ［ 1.0 + ( 1.0 ／ - 1.0 ) e μ aT0 ］ 　 ( 18 ) 
+ 如果 a ＞ 0 ， 令 x = μ a ω 0 ， 则 ( 16 ) 式 变为 ： 　 　 　 = x2 - μ ax 　 　 ( 19 ) 
+ 以 μ a 为 参数 ， 根据 文献 ［ 10 ］ ， 方程 ( 19 ) 产生 跨 临界 分岔 ( Transcriticalbifurcation ) ， 其 分岔 图见 图 5 ( a ) 。 如果 a ＜ 0 ， 令 x = ( - μ a ) ω 0 ， 则 ( 16 ) 式 变为 ： 　 　 = - x2 - μ ax 　 ( 20 ) 
+ 　 　 以 - μ a 为 参数 ， 方程 ( 20 ) 产生 跨 临界 分岔 ， 其 分岔 图见 图 5 ( b ) 。 
+ 
+ 
+ 图 5 　 分岔 图 
+ 　 　 初始条件 确定 了解 是 无界 的 或 接近 于 定常 解 ( 对应 着 固定点 ) 。 图 5 ( a ) 和 ( b ) 说明 ， 如果 碰摩 开始 时 ， 系统 的 参数 位于 1 区域 ， 则 碰摩是 不 稳定 的 ， 其 涡动 的 角速度 将 发散 ； 如果 系统 的 参数 位于 2 ， 3 区域 ， 则 碰摩是 稳定 的 ， 其 稳态 涡动 的 角速度 将 收敛 于 0 。 （ 当 a ＞ 0 时 ） 或 收敛 于 1.0 （ 当 a ＜ 0 时 ） 。 在 ω 0 是 稳定 定常 解 的 情况 下 ， D0y0 = ω 0 ， ( 15 ) 式 可简化 为 ： 
+ D20y1 - μ a ( 2 ω 0 - 1.0 ) ( D0y1 ) + csin ω 0T0 ＝ 0 　 ( 21 ) 
+ 令 D0y1 = ω 1 ， 由 ( 21 ) 式 可解 得 ： ω 1 = ( c ／ ) ［ cos ( ω 0T0 + γ ) + e - f ［ T0 + B ( T1 ) ］ ］ 　 ( 22 ) 
+ 其中 f = μ a ( 1.0 - 2 ω 0 ) ， tan γ = - ( f / ω 0 ) ， B ( T1 ) 是 独立 于 T0 的 积分 常数 。 显然 要是 ω 1 稳定 ， 如 a ＞ 0 ， 则 ω 0 ≤ 1 / 2 ， 如 a ＜ 0 ， 则 ω 0 ≥ 1 / 2 。 
+ 　 　 令 初值 ω 1 ( 0 ) = 0 ， 代入 ( 22 ) 式 得到 ω 1 = ( c ／ ) ［ cos ( ω 0T0 + γ ) - cos γ e - fT0 ］ ， 由此 得到 碰摩时 其 涡动 角速度 的 一阶 近似 为 ： 　 　 　 　 　 ω ＝ ω 0 + ε ω 1 　 ( 23 ) 
+ 　 　 结论 　 通过 对 高速 对称 刚性 转子 圆柱形 碰摩 运动 和 圆锥形 碰摩 运动 的 分析 ， 发现 圆柱形 碰摩 运动 的 失稳 阈值 0 是 摩擦系数 μ 、 轴承 间隙 c0 和 碰摩 发生 时 的 初始 角度 φ 0 的 函数 。 圆锥形 碰摩 运动 的 收敛 情况 ， 取决于 其 系统 本身 物理 系数 ， 给出 了 其 稳态 碰摩时 其 涡动 角速度 的 一阶 近似 表达式 ， 这可为 转子 系统 的 安全 运行 保障 条件 和 故障诊断 提供 一定 的 理论 基础 。 
+ 作者简介 ： 季进臣 　 男 　 33 岁 　 博士后 　 西安交通大学 润滑 理论 及 轴承 研究所 　 710049 
+ 作者 单位 ： 　 西安交通大学 
+ 参考文献 
+ ［ 1 ］ 　 ChoyFK , PadovanJ . Non - LinearTransientAnalysisofRotor - CasingRubEvents . JournalofSoundandVibration , 1987 , 113 ( 3 ) : 529 - 545 
+ ［ 2 ］ 　 EhrichFF . HighOrderSubharmonicResponseofHighSpeedRotorsinBearingClearance . ASMEJournalofVibration , Acoustics , Stress , andReliabilityinDesign , 1988 , 110 : 9 - 16 
+ ［ 3 ］ 　 EhrichFF . SpontaneousSidebandinginHighSpeedRotordynamics . ASMEJournalofVibrationandAcoustics , 1992 , 114 : 498 - 505 
+ ［ 4 ］ 　 KimYB . Quasi - PeriodicResponseandStabilityAnalysisforaNonlinearJeffcottRotor . JournalofSoundandVibration , 1996 , 190 ( 2 ) : 239 - 253 
+ ［ 5 ］ 　 岳国金 等 ． 转子 碰摩 的 振动 特征分析 ． 航空 学报 ， 1990 ， 11 ( 10 ) ： B499 - B502 
+ ［ 6 ］ 　 武 新华 等 ． 旋转 机械 碰摩 故障 特性 分析 ． 汽轮 技术 ， 1996 ， 38 ( 1 ) ： 31 - 34 
+ ［ 7 ］ 　 褚福磊 等 ． 碰摩 转子 系统 中 的 阵发性 及 混沌 现象 ． 航空 动力学 报 ， 1996 ， 11 ( 3 ) ： 261 - 264 
+ ［ 8 ］ 　 张文 ． 转子 动力学 理论 基础 ． 北京 ： 科学出版社 ， 1990 
+ ［ 9 ］ 　 GuckenheimerJ , HolmesP . NonlinearOscillations , DynamicalSystems , andBifurcationofVectorFields . NewYork , Springer - Verlag , 1983 
+ 收稿 ： 1998 年 2 月 
+ 修稿 ： 1998 年 4 月 
+ 责任编辑 ： 杨再荣 

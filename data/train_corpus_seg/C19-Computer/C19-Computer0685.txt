@@ -1,0 +1,165 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 5 期 Vol.24 No.51998 
+ 
+ 
+ 
+ 非线性 大 系统 的 分散 线性化 与 分散控制 1 ) 
+ 佘 　 焱 　 张嗣 瀛 
+ 摘 　 要 　 将 非线性 控制系统 的 精确 线性化 方法 应用 于 非线性 大 系统 ， 提出 了 非线性 大 系统 的 分散 线性化 方法 ， 并 得到 了 非线性 系统 可 分散 线性化 的 充要条件 . 按照 这个 方法 ， 可 将 难度 较大 的 一类 非线性 大 系统 分散 控制器 的 设计 转化 为 易于 处理 的 线性 大 系统 分散 控制器 的 设计 . 在 得到 该 线性 大 系统 的 分散 控制器 后 ， 可 通过 分散 坐标 变换 的 逆变换 将 线性 大 系统 的 控制器 变换 为原 非线性 大 系统 的 控制器 . 同时 ， 控制器 的 分散性 保持 不变 . 该 方法 明显 地 降低 了 该类 非线性 大 系统 分散 控制器 的 设计 难度 . 
+ 关键词 　 非线性 系统 ， 大 系统 ， 分散 线性化 ， 分散控制 . 
+ DECENTRALIZEDLINEARIZATIONANDDECENTRALIZED 
+ CONTROLFORNONLINEARLARGE - SCALESYSTEMS 
+ SHEYAN 
+ ( Dept . ofInfor . andContr . Engineer , ShanghaiJiaotongUniversity , Shanghai 　 200030 ) 
+ ZHANGSIYING 
+ ( DepartmentofAutomaticControl , NortheasternUniversity , Shenyang 　 110006 ) 
+ Abstract 　 Inthispaper , thedecentralizedlinearizationmethodisproposedfornonlinearlarge - scalesystems , andthesufficientandnecessaryconditionsofdecentralizedlinearizationareobtained . Wecantransformaclassofnonlinearlarge - scalesystemsintolinearlarge - scalesystems , whichcanbetreatedrelativelyeasily , throughso - calleddecentralizeddifferentiablehomeomorphism . Sothedecentralizationcontrollerdesignofnonlinearlarge - scalesystemscanbetransformedintothedecentralizedcontrollerdesignoflinearlarge - scalesystems . Thedifficaultyofthedecentralizationcontrollerdesignofnonlinearlarge - scalesystemcanbedecreasedobsviouslybyusingthismethod . 
+ Keywords 　 Nonlinearsystems , large - scalesystems , decentralizedlinearization , decentralizedcontrol . 
+ 1 　 引言 
+ 　 　 近 二十年 来 非线性 控制系统 的 几何 理论 取得 了 重要 进展 ， 非线性 系统 的 一些 重要 的 综合 问题 ， 如 ： 扰动 解 耦 、 无 交互 控制 、 输出 调节 、 反馈 镇定 等 都 得到 了 处理 . 其中 精确 线性化 是 几何 理论 的 主要 方向 之一 ［ 1 — 6 ］ . 本文 首次 将 精确 线性化 方法 应用 于 非线性 大 系统 . 
+ 　 　 分散 控制器 ( 如 分散 镇定 ) 的 设计 是 大 系统 的 一个 重要 问题 . 线性 大 系统 的 分散控制 问题 已有 满意 的 结果 ， 但 对于 非线性 大 系统 ， 则 仍 是 一个 十分困难 问题 . 本文 使用 精确 线性化 方法 ， 对 符合 一定 条件 的 一类 非线性 大 系统 ， 通过 某种 “ 分散 ” 的 同 胚 坐标 变换 将 其 变换 成 易于 处理 的 线性 大 系统 ， 从而 ， 极大 的 降低 这类 大 系统 分散 控制器 的 处理 难度 . 在 求出 该 线性 大 系统 的 分散 控制器 后 ， 可以 通过 该 变换 的 逆变换 将 其 简单 地 还原 . 与此同时 ， 分散 坐标 变换 能够 保持 控制器 的 分散性 不变 ， 从而 达到 求出 原 非线性 大 系统 的 分散 控制器 的 目的 . 
+ 2 　 问题 的 陈述 
+ 　 　 考虑 如下 形式 的 非线性 大 系统 ： 
+ 　 　 ( 1 ) 
+ 其中 　 xl ∈ Rnl , ul = ( ul1 , … , ulml ) ∈ Rml , 是 Rn 上 的 光滑 向量 函数 . 
+ 　 　 系统 ( 1 ) 可以 写成 如下 紧凑 形式 ： 
+ 　 　 ( 2 ) 
+ 其中 Gli , Fl 都 是 Rm 上 的 光滑 向量场 
+ Gli = col ( 0 , … ， 0 , ( gli ) τ , 0 , … , 0 ) , 　 Fl = col ( 0 , … , 0 ， ( fli ) τ , 0 , … , 0 ) 　 　 ( 3 ) 
+ 作者 的 想法 是 寻求 如下 形式 的 同 胚 变换 ： τ : Rn → Rn , τ = ( τ 1 , … , τ N ) , τ l : Rnl → Rnl , 
+ z = ( z1 , … , zN ) = ( τ 1 ( x1 ) , … , τ N ( xN ) ) , 　 　 ( 4 ) 
+ 其中 xl ∈ Rnl ， 系统 在 新 坐标 下 具有 形式 ： 
+ 　 　 ( 5 ) 
+ 从而 将 系统 ( 1 ) 的 分散控制 问题 转化 为 系统 ( 5 ) 的 分散控制 问题 . 形如 ( 4 ) 式 的 “ 分散 ” 微分 同 胚 称为 系统 ( 1 ) 的 一个 分散 变换 . 所需 定义 如下 ： 
+ 　 　 定义 1 . 称 分散 变换 ( 4 ) 是 系统 ( 1 ) 在 x0 处 的 分散 线性化 ， 如果 系统 在 新 坐标 下形 如 系统 ( 5 ) ， 且 ( All , Bl ) ( l = 1 , … , N ) 均 为 能 控对 . 
+ 3 　 主要 结果 
+ 　 　 本节 将 给出 系统 ( 1 ) 能 分散 线性化 的 充要条件 ， 证明 主要 结果 以前 先证 几个 引理 . 
+ 　 　 引理 1 . 设 x0 ∈ Rn ， 且 
+ 　 　 ( i ) dim { adkFlGli ( x0 ) ｜ 1 ≤ i ≤ ml ; 0 ≤ k ≤ nl - 1 } = nl , l = 1 , … , N . 
+ 　 　 ( ii ) 在 x0 某 邻域 ［ adsFlGlj , adtFpGpi ］ = 0 
+ 其中 　 l ≠ p , 　 j = 1 , … , ml , 　 i = 1 , … , mp , 　 s = 1 , … , nl , 　 t = 1 , … , np . 
+ 则 对 任意 的 1 ≤ s ≤ nl , 　 1 ≤ j ≤ ml , 　 1 ≤ t ≤ np , 　 1 ≤ i ≤ mp , 
+ 　 　 ( 6 ) 
+ 　 　 证明 . 注意 到 
+ 　 　 ( 7 ) 
+ 　 　 由 条件 ( 2 ) 有 
+ 　 　 ( 8 ) 
+ 由 条件 ( 1 ) 可知 
+ 　 　 ( 9 ) 
+ 　 　 ( 10 ) 
+ 由式 ( 8 ， 9 ， 10 ) 知在 x0 的 邻域 有 
+ 
+ 　 　 引理 2 . 假设 x0 ∈ Rn 是 系统 ( 1 ) 的 平衡点 ， 且 
+ 　 　 ( i ) 对 l = 1 , … , N , 有 
+ 　 　 ( 11 ) 
+ 　 　 ( ii ) 在 x0 某 邻域 
+ 　 　 ( 12 ) 
+ 其中 　 l ≠ p , 　 j = 1 , … , ml , 　 i = 1 , … , mp , 　 s = 1 , … , nl , 　 t = 1 , … , np . 
+ 则 对 任意 的 l ， 存在 使得 向量场 
+ 　 　 ( 13 ) 
+ 在 x0 点 线性 无关 ， 且 与 xq ( q ≠ l , 1 ≤ q ≤ N ) 无关 . 
+ 　 　 证明 . 首先 证明 ， 对 任意 的 l ， 任意 的 i ， 存在 nli ≤ nl ， 使得 
+ 　 　 ( 14 ) 
+ 取 
+ 
+ 则 nli 即为 所求 . 因为 ， 首先 由 nli 的 定义 ， 线性相关 ， 即 因为 Fl ( x0 ) = 0 ， 所以 
+ 
+ 即 　 也 可 写成 的 线性组合 . 类似 归纳 可知 也 可 写成 Gli ( x0 ) , adFlGli ( x0 ) , … , ad 琻 li - 1 璅 lGli ( x0 ) 的 线性组合 ， 从而 nli 满足 ( 14 ) 式 . 
+ 　 　 由式 ( 11 ) ， ( 14 ) 可知 ， . 由 引理 1 知式 ( 13 ) 与 xq ( q ≠ l , 1 ≤ q ≤ N ) 无关 . 
+ 　 　 本文 的 主要 结果 
+ 　 　 定理 1 . 设 x0 是 系统 ( 1 ) 的 平衡点 ， 则 系统 ( 1 ) 在 x0 点 可 分散 线性化 的 充要条件 为 
+ 　 　 ( i ) 对 l = 1 , … , N , 有 
+ 　 　 ( 15 ) 
+ 　 　 ( ii ) 在 x0 某 邻域 
+ 　 　 ( 16 ) 
+ 其中 　 1 ≤ l , p ≤ N , j = 1 , … , ml , i = 1 , … , mp , s = 1 , … , nl , t = 1 , … , np . 
+ 　 　 ( iii ) 
+ 　 　 ( 17 ) 
+ j = 1 , … , mp , q = 1 , … , npj , l = 1 , … , N , p ≠ l , 1 ≤ p ≤ N ， 
+ 其中 Xpjq 由 ( 13 ) 式 定义 ， 为 nl 维常 向量 . 
+ 　 　 注 1 . 条件 ( 3 ) 可 写成 更 紧凑 的 形式 ： ［ Fl , Dp ］ = DlAlp , 
+ 　 　 其中 
+ 　 　 ( 18 ) 
+ 为 nl × np 阶 矩阵 . 
+ 　 　 证明 . 必要性 　 只 需 直接 验证 系统 ( 5 ) 满足 定理 条件 ， 并 注意 到 这些 条件 在 分散 的 坐标 变换 下 不变 . 
+ 　 　 充分性 　 由 定理 条件 ( 1 ) 、 引理 2 及 定理 条件 ( 2 ) 知 分布 
+ 　 　 ( 19 ) 
+ 是 Rn 上 的 n 维非 奇异 对合 分布 ， 其中 Xlik 由 ( 13 ) 式 定义 ， 
+ 从而 可以 定义 映射 
+ 　 　 ( 20 ) 
+ 由 文献 ［ 1 ］ 定理 3.9 可知 ， τ 定义 了 0 ∈ Rn 到 x0 ∈ Rn 的 一个 局部 同 胚 坐标 变换 . 
+ 由 定理 条件 ( 2 ) 及 文献 ［ 1 ］ 的 ( 3.36 ) ， ( 6.4 ) 式 知 ， 
+ 　 　 ( 21 ) 
+ 注意 到 ， 由 ( 13 ) 式 
+ 　 　 ( 22 ) 
+ 即 Xlik 除 第行 到 第行 非零外 ， 其余 各 行为 零 ， 且 由 引理 2 知 ， 在 x0 的 某 邻域 内 ， Xlik 的 所有 非 零元 是 xl 的 函数 而 与 xp ( p ≠ l ) 无关 ， 从而 具有 形式 
+ 　 　 ( 23 ) 
+ 其中 Hl 是 xl 的 nl × nl 阶 函数 方阵 ， 而 与 xp ( p ≠ l ) 无关 . 由此 知 τ 是 Rn 到 Rn 的 分散 的 坐标 变换 . 显然 τ - 1 也 是 Rn 到 Rn 的 分散 坐标 变换 . 实际上 ， 因为 
+ 
+ 所以 
+ 　 ( 24 ) 
+ 进一步 
+ 　 　 ( 25 ) 
+ 由 ( 22 ) 式 ， 1 ≤ l ≤ N ， 
+ 　 ( 26 ) 
+ 　 　 ( 27 ) 
+ 由 ( 25 ， 26 ， 27 ) 式 
+ 　 ( 28 ) 
+ 　 　 ( 29 ) 
+ 记 
+ 　 　 ( 30 ) 
+ 由 ( 28 ， 29 ， 30 ) 式 知 
+ 　 　 ( 31 ) 
+ 因此 τ - 1 * ( Fl ) 具有 如下 形式 ： 
+ 　 　 ( 32 ) 
+ 其中 是 n 维 函数 向量 ， Yl 的 第个 分量 至 第个 分量 非零 . 
+ 　 　 注意 到 ， 由 ( 29 ) 式 ( 当 k = nli - 1 时 ) ， 计算 , 可 直接 得 
+ 　 　 ( 33 ) 
+ 由 条件 ( 2 ) ， ( 33 ) 式 与 τ - 1 * ( Xljk ) 可 交换 ， 再 由 ( 28 ， 29 ) 式 知 
+ 　 ( 34 ) 
+ 其中 　 l = 1 , … N , s = 1 , … , ml , t = 1 , … , nls , i = 1 , … , ml . 
+ 所以 ， 结合 ( 32 ) ， ( 34 ) 式 ， 考虑 到 x0 是 系统 平衡点 ， 有 
+ 　 　 ( 35 ) 
+ 其中 　 Clstk 是 由 ( 34 ) 式 给出 的 常数 ， Clst 是 z1 , … , zl - 1 , zl + 1 , … , zN 的 函数 ， Clst ( 0 ) = 0 . 
+ 所以 ， 由 ( 30 ) ， ( 35 ) 式 ， 有 
+ 　 　 ( 36 ) 
+ 其中 　 由 ( 35 ) 式 定义 . 
+ 　 　 另外 ， ( 26 ， 27 ) 式 可 写 为 
+ 由 条件 ( 3 ) 有 
+ 　 　 ( 37 ) 
+ 从而 ， 由 ( 36 ， 37 ) 式 ， 有 
+ 　 　 ( 38 ) 
+ 其中 　 l , p = 1 , … , N , l ≠ p . 
+ 结合 ( 36 ) ， ( 38 ) 式 知 
+ 　 　 ( 39 ) 
+ 其中 All 由 ( 35 ， 36 ) 式 给出 ， Alp ( l ≠ p ) 由 条件 ( 3 ) 给出 . 
+ 由 ( 28 ， 29 ) 式 ， 知 
+ Bli = τ - 1 * ( Gli ) = ( 0 , … , 0 , 1 , 0 , … , 0 ) . 　 　 ( 40 ) 
+ 由 ( 35 ， 36 ) ， ( 40 ) 式 知 ( All , Bl ) 是 一 标准 能控 结构 . 由 ( 38 ， 39 ) 式 ， 得 系统 ( 1 ) 在 新 坐标 下 具有 形式 
+ 
+ 其中 Alp 由 ( 18 ) 式 给出 ， 定理 得证 . 
+ 4 　 例子 
+ 　 　 例 1 . 考虑 非线性 大 系统 
+ 
+ 其中 
+ 　 　 容易 验证 上述 系统 满足 定理 1 的 条件 ， 分散 坐标 变换 可取 为 
+ 
+ 其 逆变换 为 
+ 
+ 系统 变换 成为 线性系统 
+ 
+ 如果 该 线性系统 的 分散 控制器 为 u1 = u1 ( z1 ) , u2 = u2 ( z2 ) , 显然 ， 原 非线性 系统 的 分散 控制器 应取 为 u1 = u1 ( z1 ( x1 ) ) , u2 = u2 ( z2 ( x2 ) ) . 
+ 　 　 本文 提出 了 非线性 大 系统 的 分散 线性化 的 充要条件 ， 从而 可 将 一类 非线性 大 系统 的 分散 控制器 的 设计 转化 为 线性系统 分散 控制器 设计 . 
+ 1 ) 　 国家自然科学基金 、 中国 博士后 科学基金 和 辽宁省 科学技术 基金 资助 项目 . 
+ 作者简介 ： 佘 　 焱 　 生于 1968 年 . 1986 年入 武汉大学 数学系 本科 ， 1990 年 毕业 获 理学 学士学位 并 免试 推荐 为 硕士 研究生 ， 1992 年 硕士 研究生 毕业 并 提前 攻读 博士 ， 1995 年 在 武汉大学 数学系 获 理学博士 学位 . 在读 硕士 和 博士 研究生 阶段 的 研究 方向 为 微分 几何 与 微分方程 . 1995 年入 东北大学 自动控制 博士后 流动站 ， 进行 博士后 研究 工作 . 目前 感兴趣 的 研究 领域 为 非线性 控制系统 、 大 系统 、 鲁棒控制 、 H ∞ 控制 理论 等 . 
+ 作者 单位 ： 佘 　 焱 　 　 上海交通大学 信控系 　 上海 　 200030 
+ 　 　 　 　 　 张嗣 瀛 　 　 东北大学 自控 系 　 沈阳 　 110006 
+ 参考文献 
+ 　 1 　 程代展 . 非线性 系统 几何 理论 . 北京 ： 科学出版社 ， 1988 
+ 　 2 　 ChengD , TarnTJ , IsidoriA . Globalexternallinearizationofnonlinearsystemsviafeedback . IEEETrans . Autom . Control , 1985 , AC - 30 : 808 — 811 
+ 　 3 　 KrenerAJ ， IsidoriA . Linearizationbyoutputinjectionandnonlinearobservers . Syst . ControlLett . , 1983 , 3 : 47 — 52 
+ 　 4 　 IsidoriA . NonlinearControlSystems , Berlin : Springer - Verlag , 1989 
+ 　 5 　 KrenerAJ . Normalformsforlinearandnonlinearsystems . Comtempor . Math.1987 , 68 : 157 — 189 
+ 　 6 　 XuZ , HanserJ . Higherorderapproximatefeedbacklinearizationaboutamanifoldformulti - inputsystem . IEEETrans . Autom . Control.1995 , AC - 40 : 833 — 840 
+ 收稿 日期 　 1996 - 10 - 14 

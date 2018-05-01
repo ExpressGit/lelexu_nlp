@@ -1,0 +1,69 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 1 期 Vol.24 No.11998 
+ 
+ 
+ 
+ 时变 时滞 不确定性 系统 的 
+ 状态 反馈 控制器 设计 
+ 程储旺 　 孙优贤 
+ 摘 　 要 　 研究 一类 不确定性 动态 系统 . 这类 系统 具有 多重 时变 状态 时滞 和 多重 时变 控制 输入 时滞 ， 其 不确定性 满足 范数 有 界 条件 . 采用 黎卡提 方程 方法 ， 得到 了 这类 不确定性 时滞 系统 可 状态 反馈 镇定 的 充分条件 . 通过 解 一个 特定 的 黎卡提 不等式 ， 即可 得到 镇定 已知 系统 的 控制器 . 
+ 关键词 　 时变 时滞 ， 不确定性 系统 ， 黎卡提 方程 ， 李雅普 诺夫 函数 . 
+ DESIGNINGOFTHESTATEFEEDABACKSTABILIZING 
+ CONTROLLEROFUNCERTAINDYNAMICSYSTEMS 
+ WITHTIME - VARYINGDELAYS 
+ CHENGCHUWANG 　 　 SUNYOUXIAN 
+ ( InstituteofIndustrialControlTechnologyofZhejiangUniversity , Hangzhou310027 ) 
+ Abstract 　 Thispaperdealswithaclassofuncertainsystemswithmultipletime - varyingdelaysinbothstatesandcontrols . Theuncertaintiesareunknownbutnorm - bounded . ByusingtheRiccatiequationapproach , asufficientconditionforthesystemtobestabilizableisobtained . ItisshownthattheconstructionofthestabilizingcontrollerinvolvessolvingacertainalgebraicRiccatiinequality . 
+ Keywords 　 Uncertaindynamicsystems , time - varyingdelay , Riccatiequation , Lyapunovfunction . 
+ 1 　 系统 描述 和 主要 结果 
+ 　 　 本文 考虑 下述 时滞 不确定性 系统 
+ 　 　 　 　 　 　 　 　 ( 1 ) 
+ 其中 x ∈ Rn 是 状态 向量 ， u ∈ Rm 是 控制 输入 向量 . 假设 时滞 项 满足 
+ 　 　 　 　 　 　 　 　 ( 2 ) 
+ 并设 系统 的 不确定性 满足 下述 形式 的 范数 有 界 条件 
+ 　 　 　 　 　 　 　 　 ( 3 ) 
+ 　 　 将 得到 以下 形式 的 状态 反馈 控制器 
+ u = - S - 1BT0Px ( t ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 其中 S 和 P 是 正定 对称 矩阵 . 
+ 　 　 为 方便 起 见 ， 我们 引入 以下 符号 ： 
+ 
+ 　 　 命题 1 . 设 S 和 R 是 给定 的 正定 对称 矩阵 . 若 不等式 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 存在 正定 对称 解 矩阵 P ， 其中 
+ 
+ 则 ( 5 ) 式 是 不确定性 系统 ( 1 ) 的 线性 状态 反馈 镇定 控制器 . 
+ 　 　 证明 . 取 李雅普 诺夫 函数 为 
+ 
+ 其中 R ， S 是 正定 对称 矩阵 ， 可 根据 需要 适当 调整 ， 则 其 导数 由 
+ 　 　 　 　 　 ( 6 ) 
+ 给出 . 记 
+ 　 　 则 ( 6 ) 式 可 表示 成 L ( x , t ) = XTQX . 因此 ， 如果 Q ＜ 0 ， 则 闭环 系统 渐近 稳定 . 证毕 . 
+ 　 　 在 上述 命题 中 ， 未 考虑 系统 的 不确定性 . 以下 我们 处理 系统 的 不确定性 . 
+ 记 
+ 　 　 　 　 　 　 　 　 ( 7 ) 
+ 利用 Schur 补 ( Schurcomplements ) ［ 1 ］ 知 Q ＜ 0 等价 于 不等式 
+ 　 　 　 　 　 　 　 　 ( 8 ) 
+ 显然 ， 要 使 ( 8 ) 式 成立 ， 只要 不等式 
+ 　 　 　 　 　 　 ( 9 ) 
+ 成立 即可 . 利用 ( 3 ) 和 ( 9 ) 式 得 
+ 　 　 　 　 　 ( 10 ) 
+ 　 　 为 简单 起 见 ， 再 引入 以下 符号 和 不等式 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 11a ) 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 11b ) 
+ 　 　 　 　 　 　 　 　 　 ( 12 ) 
+ 　 　 定理 1 . 已知 不确定性 系统 ( 1 ) . 假设 对 某 正数 ε 和 正定 对称 矩阵 R , S ， 不等式 
+ 
+ 存在 正定 对称 解 P . 其中 
+ 
+ 分别 由 ( 7 ) 和 ( 11 ) 式 确定 . 则 ( 5 ) 是 不确定性 系统 ( 1 ) 的 线性 状态 反馈 镇定 控制器 . 
+ 　 　 证明 . 由 不 等 ( 10 ) — ( 12 ) 易知 定理 1 成立 . 
+ 　 　 显然 ， 作为 一种 有 意义 的 特殊 情形 ， 文 ［ 2 ］ 中 相应 的 结果 可 很 容易 从 上述 推导 得到 . 
+ 　 　 说明 . 按照 常规 的 试 凑 方法 适当 选择 有关 参数 的 值 解黎卡 提 不等式 ， 将 所得 的 P 值 代入 ( 5 ) 式 即可 得到 所 需 的 控制器 . 若 经过 多次 尝试 仍 无 结果 ， 则 此法 可能 失效 . 这是 采用 黎卡提 方程 方法 的 最大 缺陷 . 因此 ， 近期 利用 线性 矩阵 不等式 的 方法 已 成为 研究 热门 . 
+ 2 　 结语 
+ 　 　 本文 给出 了 具有 多重 时变 状态 时滞 和 多重 时变 控制 时滞 的 范数 有 界 不确定性 系统 可 镇定 的 一个 充分条件 . 通过 解 一个 特定 的 黎卡提 不等式 ， 立即 可 得 镇定 已知 系统 的 控制器 . 本文 是 针对 一般 情形 进行 研究 的 ， 文 ［ 2 ］ 中 相应 的 结果 只是 本文 有 意义 的 特殊 情形 . 
+ 作者 单位 ： 浙江大学 工业 控制技术 研究所 　 杭州 　 310027 
+ 参考文献 
+ [ 1 ] 　 BoydSL , ElGhaouietal . Linearmatrixinequalitiesinsystemandcontroltheory . SIAMPhiladelphia , 1994 . 
+ [ 2 ] 　 MahmoudMS , Al - MuthairiNF . Quadraticstabilizationofcontinuoustimesystemswithstate - delayandnorm - boundedtime - varyinguncertainties . IEEETrans . Autom . Control , 1994 , 39 : 2135 - 2139 . 
+ 收稿 日期 　 1996 - 03 - 11 

@@ -1,0 +1,97 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 第 23 卷 第 5 期 Vol.23 No.51997 
+ 
+ 
+ 
+ 二阶 分布 参数 系统 的 稳定性 和 能 控性 1 ) 
+ 罗跃虎 　 冯 德兴 
+ 摘要 　 讨论 Hilbert 空间 上 两个 二阶 线性系统 的 稳定性 和 能 控性 ， 在 较 一般 的 假设 下 ， 得到 了 这 两个 系统 的 指数 稳定性 和 精确 能 控性 ， 渐近 稳定性 和 近似 能 控性 之间 的 关系 . 最后 ， 给出 线性系统 渐近 稳定 的 一个 充分 必要条件 . 
+ 关键词 　 渐近 稳定性 ， 指数 稳定性 ， 近似 能 控性 ， 精确 能 控性 . 
+ STABILITYANDCONTROLLABILITYFORSECOND 
+ ORDERDISTRIBUTEDPARAMETERSYSTEM 
+ LUOYUEHU 　 　 FENGDEXING 
+ ( InstituteofSystemsScience , ChineseAcademyofSciences , Beijing100080 ) 
+ Abstract 　 Thestabilityandcontrollabilityfortwosecondordersystemsareconsidered . Undersomegeneralassumptions , theusefulrelationbetweenexponentialstabilityandexactcontrollabilityandtherelationbetweenapproximatecontrollabilityofthetwosecondordersystemsareobtained . Finally , asufficientandnecessaryconditionforalinearsystemtobeasymptoticstableisgiven . 
+ Keywords 　 Asymptoticstability , exponentialstability , approximatecontrollability , exactcontrollability . 
+ 1 　 引 　 言 
+ 　 　 设 H ， U 是 Hilbert 空间 ， 用 L ( U , H ) 表示 U 到 H 的 有 界线 性 算子 全体 构成 的 Banach 空间 ， 并 为 简单 起 见 ， 记 L ( H ) = L ( H , H ) . 设 A 为 H 上 的 正定 自伴 算子 ， B 是 H 上 的 线性 算子 ， D 是从 U 到 H 的 线性 算子 . 当 B ∈ L ( H ) 是 H 上 非负 对称算子 ， 对 任何 实数 α ＞ 0 ， B 的 α 次 幂 B α 存在 且 仍 是非 负 的 . 用 D ( A ) 和 R ( A ) 分别 表示 算子 A 的 定义域 和 值域 ， 并用 TA ( t ) 表示 由 A 生成 的 C0 半群 . 
+ 　 　 考虑 H 上 如下 两个 线性系统 ： 
+ 　 　 　 ( 1 ) 
+ 　 　 　 ( 2 ) 
+ 　 　 定义 能量 空间 按 内积 
+ 
+ 成为 Hilbert 空间 . 系统 ( 1 ) ， ( 2 ) 分别 对应 于 中 如下 的 一阶 发展 方程 ( 3 ) ， ( 4 ) ： 
+ 　 　 　 ( 3 ) 
+ 　 　 　 ( 4 ) 
+ 其中 中 的 线性 算子 
+ 
+ 分别 是 U 到 的 有 界线 性 算子 和 上 的 有 界线 性 算子 
+ 
+ 
+ 　 　 不难 验证 上 的 反自伴 算 . 若 y ( t ) 是 系统 ( 1 ) 的 解 ， 则 为 系统 ( 1 ) 的 能量 ； 称 系统 ( 2 ) 是 精确 ( 或 完全 近似 ) 能控 的 ， 是 指 相应 的 一阶 系统 ( 4 ) 为 精确 ( 或 完全 近似 ) 能控 的 . 
+ 　 　 文献 ［ 1 ］ 在 L2 ( 0 , l ) 中 讨论 了 B φ ( x ) = d ( x ) φ ( x ) 时 系统 ( 1 ) 的 指数 稳定性 ， 文献 ［ 2 ］ 在 时 讨论 了 系统 ( 2 ) 的 精确 能 控性 ， 而 文献 ［ 3 ］ 则 在 上述 条件 下 研究 了 系统 ( 1 ) ， ( 2 ) 的 指数 稳定性 和 精确 能 控性 之间 的 关系 . 本文 的 主要 目的 是 要 在 较 一般 的 情形 下 ， 讨论 系统 ( 1 ) 的 稳定性 与 系统 ( 2 ) 能 控性 之间 的 关系 . 
+ 2 　 指数 稳定性 与 精确 能 控性 
+ 　 　 先 给出 下面 几个 已知 命题 ［ 3 - 5 ］ . 
+ 　 　 命题 1 . 设 A 是 Hilbert 空间 H 中反 自伴 算子 ， B ∈ L ( U , H ) . 则 下列 命题 等价 ： 1 ) ( A ， B ) 指数 能稳 ； 2 ) 对 任意 正定 算子 K ∈ L ( H ) , TA - BKB * ( t ) 都 指数 稳定 ； 3 ) 存在 一个 对称算子 K ∈ L ( H ) , 使 TA - BKB * ( t ) 指数 稳定 ； 4 ) ( A ， B ) 精确 能控 . 
+ 　 　 命题 2 . 设 A 是 Hilbert 空间 H 中反 自伴 算子 且 具有 紧豫 解式 ， B ∈ L ( U , H ) . 那么 下列 命题 等价 ： 1 ) ( A ， B ) 渐近 能稳 ； 2 ) 对 任意 正定 算子 K ∈ L ( H ) , TA - BKB * ( t ) 都 渐近 稳定 ； 3 ) 存在 一个 对称算子 K ∈ L ( H ) ， 使 TA - BKB * ( t ) 渐近 稳定 ； 4 ) ( A ， B ) 完全 近似 能控 . 
+ 　 　 命题 3 . 设 A 生成 Hilbert 空间 H 中 指数 稳定 的 C0 半群 TA ( t ) ， 且 A 是 耗散 的 ， 如果 B ∈ L ( H ) 也 是 耗散 的 ， 且 满足 如下 的 条件 H ) ： 
+ 
+ 那么 TA + B ( t ) 也 是 指数 稳定 的 . 
+ 　 　 对于 H 上 的 非 负有 界 对称算子 B ， 条件 H ) 显然 满足 . 
+ 　 　 引理 1 . 设 A 是 X 中 的 反自伴 算子 . 如果 B ∈ L ( H ) 是非 负 对称 的 ， 且 存在 v ＞ 0 和 β ＞ 0 ， 使得 TA - vB β ( t ) 是 指数 稳定 的 ， 则 对 任何 μ ＞ 0 和 α ＞ 0 ， TA - μ B α ( t ) 都 是 指数 稳定 的 . 
+ 　 　 证明 . 首先 注意 ， 依 命题 1 , TA - B β 指数 稳定 ， 当且 仅 当 ( A ， B β / 2 ) 精确 可控 . 于是 再 根据 命题 1 可 不妨 假设 v = μ = 1 . 取 自然数 k 使 由 B 的 非负 对称性 可知 ， 当取 δ = ‖ B2k β - α ‖ － 1 时 ， δ B2k β - B α 是 耗散 的 对称算子 . 但 TA - B β ( t ) 指数 稳定 ， 故 TA - B2 β ( t ) 指数 稳定 . 由 归纳法 可知 ， TA - B2k β ( t ) 指数 稳定 . 于是 由 等式 
+ 
+ 和 命题 3 可知 TA - B α ( t ) 指数 稳定 . 
+ 　 　 引理 2 . 设 Hilbert 空间 H 上 的 算子 A 具有 紧豫 解式 ， 并 生成 H 中 的 C0 压缩 半群 TA ( t ) ， 那么 
+ 　 　 a ) 假设 是 耗散 的 ， 且 A + B 生成 H 上 的 C0 半群 . 如果 Re 〈 B φ , φ 〉 = 0 蕴涵 B φ = 0 ， 则 TA ( t ) 的 渐近 稳定性 蕴涵 TA + B ( t ) 的 渐近 稳定性 . 
+ 　 　 b ) 进一步 假设 A 是 H 上 的 反自伴 算子 ， B 是 H 上 的 非 负有 界 对称算子 . 如果 存在 v ＞ 0 和 β ＞ 0 使得 TA - vB β ( t ) 是 渐近 稳定 ， 则 对 任何 μ ＞ 0 和 α ＞ 0 ， TA - μ B α ( t ) 都 是 渐近 稳定 . 
+ 　 　 证明 . a ) 根据 假设 ， A + B 是 耗散 算子 ， 有 紧豫 解式 ， 且 生成 H 上 的 C0 压缩 半群 . 易证 
+ 于是 由 文献 ［ 6 ］ 定理 3 知 A + B 渐近 稳定 . 
+ b ) 由 命题 2 和 前面 已证 的 结论 a ) ， 仿 引理 1 的 证明 可知 结论 成立 . 
+ 　 　 定理 1 . 设 A 是 H 上 的 正定 自伴 算子 ， B ∈ L ( H ) , D ∈ L ( U , H ) ， 那么 
+ 　 　 a ) 如果 存在 自然数 n 使 R ( ( BB * ) n ) ∈ R ( DD ) ， 则 系统 ( 1 ) 指数 稳定 蕴涵 系统 ( 2 ) 精确 能控 ； 
+ 　 　 b ) 假设 B 是 H 上 耗散 的 对称算子 . 如果 存在 自然数 n 使 R ( ( DD * ) n ) 糝 ( B ) ， 则 系统 ( 2 ) 精确 能控 蕴涵 系统 ( 1 ) 指数 稳定 . 
+ 　 　 特别 地 ， 如果 R ( B ) = R ( DD * ) , 则 系统 ( 1 ) 的 指数 稳定性 与 系统 ( 2 ) 的 精确 能 控性 等价 . 
+ 　 　 证明 . a ) 设且 系统 ( 1 ) 指数 稳定 . 首先 证明 系统 
+ 
+ 是 指数 稳定 的 ， 其中 K 是 H 上 的 有 界线 性 算子 
+ 
+ 事实上 ， 由于 故由 文献 ［ 5 ］ 知 存在 δ 0 ＞ 0 使得 
+ 
+ 这样 是 H 上 的 耗散 算子 ， 因而 满足条件 H ) . 由于 
+ 
+ 故是 H 上 耗散 的 对称算子 . 显然 上 的 反自伴 算子 . 因 ( t ) 是 指数 稳定 的 ， 故由 命题 1 可知 是 指数 稳定 的 . 于是 根据 引理 1 ， 是 指数 稳定 的 . 由 等式 
+ 
+ 和 命题 3 可知 是 指数 稳定 的 . 再 由 引理 1 可知 是 指数 稳定 的 . 
+ 　 　 容易 看出 是 指数 稳定 的 . 由此 从 命题 1 可知 是 精确 能控 的 ， 即 系统 ( 4 ) 是 精确 能控 的 . 
+ 　 　 b ) 设 系统 ( 2 ) 是 精确 能控 的 ， 并且 B 是 H 上 耗散 的 对称算子 . 应用 类似 于 前面 的 证明 方法 可知 ， 存在 δ 2 ＞ 0 使得 δ 2 ( DD * ) 2n - BB * 是 耗散 的 对称算子 ， 且 
+ 是 指数 稳定 的 . 由 等式 
+ 
+ 和 命题 3 可知 是 指数 稳定 的 . 由于 是非 正 的 ， 故由 引理 1 可知 是 指数 稳定 的 . 
+ 3 　 渐近 稳定性 与 近似 能 控性 
+ 　 　 利用 命题 2 和 引理 2 ， 并用 类似 于 定理 1 的 证法 可 得 下面 的 定理 . 
+ 　 　 定理 2 . 设 A 是 X 上 正定 的 自伴 算子 且 具有 紧豫 解式 ， 设 B ∈ L ( H ) , D ∈ L ( U , H ) ， 那么 
+ 　 　 a ) 如果 存在 自然数 n 使则 系统 ( 1 ) 的 渐近 稳定性 蕴涵 系统 ( 2 ) 完全 近似 能 控性 ； 
+ 　 　 b ) 假设 B 是 H 上 耗散 的 对称算子 . 如果 存在 自然数 n 使则 系统 ( 2 ) 完全 近似 能 控性 蕴涵 系统 ( 1 ) 渐近 稳定性 . 
+ 　 　 特别 地 ， 如果 R ( B ) = R ( DD ) , 则 系统 ( 1 ) 的 渐近 稳定性 与 系统 ( 2 ) 的 完全 近似 能 控性 等价 . 
+ 　 　 定理 3 . 设 A 是 H 上 具有 紧豫 解式 的 线性 耗散 算子 ， A 生成 H 上 的 C0 - 半群 . 设 B 是 H 上 的 线性 耗散 算子 ， 使得 并且 A + B 生成 H 上 的 C0 - 半群 . 如果 A + B 是 H 上 具有 紧豫 解式 的 算子 ， 且 Re 〈 B φ , φ 〉 = 0 蕴涵 B φ = 0 ， 则 TA + B ( t ) 渐近 稳定 的 充要条件 是 ， 对 A 的 任何 特征向量 φ 都 有 B φ ≠ 0 . 
+ 　 　 证明 . 必要性 . 如果 存在 A 的 特征向量 φ 0 使得 B φ 0 = 0 ， 则 有 ( A + B ) φ 0 = λ 0 φ 0 ， 这里 
+ 是 A 的 某个 本征值 ， 这 表明 λ 0 是 A + B 的 本 征值 . ’ 显然 TA + B ( t ) 不 可能 是 渐近 稳定 的 . 
+ 　 　 充分性 . 由 假设 可知 A + B 是 H 上 的 耗散 算子 ， 因而 A + B 生成 H 上 的 压缩 半群 . 于是 A + B 的 谱 在 左半 平面 中 . 下证 A + B 的 谱 在 左 半开 平面 中 . 设 使得 i ω ∈ σ ( A + B ) ， 则 依 对 A + B 具有 紧豫 解式 的 假设 ， 必有 i ω ∈ σ p ( A + B ) ， 从而 存在 非 零元 φ ∈ H ， 使得 ( A + B ) φ = i ω φ . 由 引理 2 的 a ) 的 证明 有 A φ = i ω φ ， 且 B φ = 0 . 这 表明 φ 是 A 的 本征 元 ， 但 根据 假设 ， 有 B φ ≠ 0 ， 导致 矛盾 . 这样 ， 证明 了 从而 由 文献 ［ 6 ］ 得到 TA + B ( t ) 渐近 稳定性 . 
+ 　 　 由此 定理 可以 得到 系统 ( 1 ) 渐近 稳定性 和 系统 ( 2 ) 完全 近似 能 控性 的 如下 特征 ： 
+ 　 　 推论 1 . 设 A 是 H 上 正定 的 具有 紧豫 解式 的 自伴 算子 ， B ∈ L ( H ) 是非 正 的 对称算子 ， 那么 
+ 　 　 a ) 系统 ( 1 ) 渐近 稳定 的 充要条件 是 ： 对 A 的 任何 本征 元 φ 都 有 Β φ ≠ 0 ； 
+ 　 　 b ) 系统 ( 2 ) 完全 近似 能控 的 充要条件 是 ， 对 A 的 任何 本征 元 φ ， 都 有 DD * φ ≠ 0 ； 特别 地 ， 当 U = H , D ∈ L ( H ) 是非 负 或 是非 正 算子 时 ， 系统 ( 2 ) 完全 近似 能控 的 充要条件 是 ： 对 A 的 任何 本征 元 φ ， 都 有 D φ ≠ 0 . 
+ 　 　 推论 2 . 设 A 是 H 上 正定 的 自伴 算子 且 具有 紧豫 解式 ， B 是 H 上 耗散 的 闭 对称算子 ， 并且 假定 Re 〈 B φ , φ 〉 = 0 蕴涵 B φ = 0 , 并且 A + B 生成 H 上 的 C0 半群 . 如果 A + B 在 上 具有 紧豫 解式 ， 则 系统 ( 1 ) 渐近 稳定 的 充要条件 是 ， 对 A 的 任何 本征 元 φ 都 有 B φ ≠ 0 ； 特别 地 ， 如果 存在 α ∈ [ 0 , 1 ) 使得 则 系统 ( 1 ) 渐近 稳定 的 充要条件 是 ， 对 A 的 任何 本征 元 φ ， 都 有 B φ ≠ 0 . 
+ 1 ) 　 得到 国家自然科学基金 、 山西省 青年 科学基金 和 山西省 自然科学 基金 的 资助 . 
+ 作者 单位 ： 罗跃虎 ( 山西大学 数学系 　 太原 　 030006 ) ； 
+ 　 　 　 　 　 冯 德兴 ( 中国科学院 系统 科学 所 　 北京 　 100080 ) 
+ 参考文献 
+ 　 [ 1 ] 　 ChenG , FullingSA , NarcowicchFJ , SunS . Exponentialdecayofenergyofevolutionequationwithlocallydistributeddamping . SIAMJ . Appl . Math . , 1991 , 51 ( 1 ) : 266 — 301 . 
+ 　 [ 2 ] 　 LagneseJ . Controlofwaveprocesseswithdistributedcontrolssupportedonasubregion . SIAMJ . ControlOptim . , 1983 , 21 ( 1 ) : 68 — 85 . 
+ 　 [ 3 ] 　 刘 康生 . 分布 参数 系统 的 边界 的 局部 控制 与 镇定 ［ 博士论文 ］ . 上海 ： 复旦大学 ， 1991 . 
+ 　 [ 4 ] 　 SlemrodM . AnoteoncompletecontrollabilityandstabilizabilityforlinearcontrolsystymsinHibertspace . SIAMJ . control , 1974 , 12 ( 3 ) : 500 — 508 . 
+ 　 [ 5 ] 　 curtainRF , PritchardAJ . InfiniteDimensionalLinearSystymTheory . NewYork : Springer - Verlag , 1978 . 
+ 　 [ 6 ] 　 黄发伦 . 关于 一般 Banach 空间 中 的 线性 动力系统 的 渐近 稳定性 理论 . 科学 通报 ， 1983 ， 28 ( 10 ) ： 584 — 586 . 
+ 收稿 日期 　 1995 - 10 - 20 

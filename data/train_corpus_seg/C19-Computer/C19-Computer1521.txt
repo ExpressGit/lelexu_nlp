@@ -1,0 +1,76 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 4 期 Vol.24 No.41998 
+ 
+ 
+ 
+ 
+ 具有 多个 执行机构 的 Lurie 控制系统 的 鲁棒 稳定性 
+ 年晓红 
+ 关键词 　 区间 矩阵 ， 区间 直接 控制系统 ， 区间 间接 控制系统 ， 绝对 稳定性 . Lyapunov 函数 . 
+ ROBUSTSTABILITYFORLURIECONTROLSYSTEMSWITH 
+ SEVERALSTATIONARYCOMPONENTS 
+ NIANXIAOHONG 
+ ( Dept . ofMathematics , TianshuiTeacher ' sCollege , Tianshui741001 ) 
+ Keywords 　 Intervalmatrix , intervaldirectcontrolsystem , intervalindirectcontrolsystem , absolutestability , Lyapunovfunction . 
+ 1 　 引言 
+ 　 　 具有 多个 执行机构 的 Lurie 型 控制系统 是 一类 非常 重要 的 非线性 控制系统 ， 该 系统 的 稳定性 研究 在 非线性 系统 的 设计 中 具有 十分 重要 的 意义 . 近年来 ， 国内外 许多 学者 对 具有 多个 执行机构 的 Lurie 型 控制系统 的 稳定性 进行 了 广泛 的 研究 ， 得到 了 一些 很 好 的 结果 ［ 1 - 4 ］ . 八十年代 以来 ， 区间 动力系统 的 鲁棒 稳定性 引起 了 国内外 学者 的 广泛 兴趣 ， 但 到 目前为止 ， 对 非线性 区间 动力系统 的 稳定性 讨论 还 不多见 ， 作者 在 文 ［ 5 ］ 中 首次 讨论 了 高为炳 院士 等 提出 的 Lurie 型 区间 控制系统 的 鲁棒 稳定性 ， 给出 了 保证系统 绝对 稳定 的 若干 充分条件 . 本文 中将 讨论 具有 多个 执行机构 的 Lurie 型 区间 直接 控制系统 和 Lurie 型 区间 间接 控制系统 的 绝对 稳定性 . 
+ 2 　 直接 控制系统 的 绝对 稳定性 考虑 直接 控制系统 
+ 　 　 ( 1.1 ) 
+ 这里 Kj ［ 0 , ∞ ］ = ｛ fj ( . ) fj ( 0 ) = 0 , 0 σ jfj ( σ j ) + ∞ ｝ ； j = 1 , 2 , … , m . G ［ B , C ］ = ｛ A | BAC ｝ 为 n × n 阶 区间 矩阵 ， G ［ R , S ］ 为 n × 1 阶 区间 矩阵 ， A = ( aij ) n × n , B = ( bij ) n × n , C = ( cij ) n × n 为 n × n 阶 矩阵 ； Rj = ( r ( j ) 1 , r ( j ) 2 , … r ( j ) n ) T , Sj = ( s ( j ) 1 , s ( j ) 2 , … s ( j ) n ) T , b ( j ) = ( b ( j ) 1 , b ( j ) 2 , … , b ( j ) n ) T , cj = ( c ( j ) 1 , c ( j ) 2 , … , c ( j ) n ) T 为 n 维 向量 . 
+ 　 　 在 本文 中 约定 ： 对 任意 阶 m × n 矩阵 M = ( mij ) m × n ， 矩阵 ( M ) = ( mij ) m × n . 对 任意 阶 m × m 矩阵 M = ( mij ) m × m , 矩阵 
+ 　 　 对于 任意 的 A ∈ G ［ B , C ］ , b ( j ) ∈ G ［ Rj , Sj ］ ， 考虑 系统 
+ 　 　 ( 1.2 ) 
+ 设 ， 则 该 系统 可 化为 
+ ( 1.3 ) 
+ 　 　 假定 A0 稳定 ， 则 存在 正定 矩阵 P 满足 Lyapunov 方程 AT0P + PA0 = - 2I , 取 Lyapunov 函数 
+ 
+ 经 计算 
+ 
+ 
+ 这里 　 
+ 
+ 　 　 设 , 我们 得到 下面 定理 . 
+ 　 　 定理 1 . 　 若 矩阵 正定 ， 则 系统 ( 1.1 ) 绝对 鲁棒 稳定 . 
+ 　 　 证 . 由 上面 讨论 可知 
+ 
+ 　 　 显然 ， 若 定理 条件 满足 ， 则 ， 定理 得证 . 
+ 　 　 定理 2 . 　 若 矩阵 正定 ， 则 系统 ( 1.1 ) 绝对 稳定 . 
+ 　 　 证 . 由 上面 讨论 可知 
+ 
+ 
+ 
+ 　 　 定理 得证 . 
+ 2 　 间接 控制系统 的 绝对 稳定性 
+ 　 　 考虑 间接 控制系统 
+ 　 　 ( 2.1 ) 
+ 　 　 对于 任意 的 A ∈ G ［ B , C ］ , b ( j ) ∈ G ［ Rj , Sj ］ ， 考虑 系统 
+ 　 　 ( 2.2 ) 
+ 　 　 类似 于 § 1 的 讨论 ， ( 2.2 ) 可 化为 
+ ( 2.3 ) 
+ 假定 A0 稳定 ， 则 存在 正定 矩阵 P 满足 Lyapunov 方程 AT0P + PA0 = - 2I , 取 Lyapunov 函数 
+ 
+ 经 计算 
+ 
+ 这里 　 
+ 
+ 　 　 设 , 我们 得到 下面 定理 
+ 　 　 定理 3 . 若 矩阵 正定 ， 则 系统 ( 2.1 ) 绝对 稳定 . 
+ 　 　 证 . 由 上面 讨论 可知 
+ 
+ 
+ 显然 ， 若 定理 条件 满足 ， 则 ， 定理 得证 . 
+ 　 　 定理 4 . 　 若 矩阵 正定 ， 则 系统 ( 2.1 ) 绝对 稳定 . 
+ 　 　 证 . 由 上面 讨论 可知 
+ 
+ 
+ 
+ 定理 得证 . 
+ 作者 单位 ： 湘潭工学院 自动化 工程系 　 湘潭 　 411201 
+ 参考文献 
+ 1 　 赵素霞 . 多个 执行 部件 的 控制系统 的 绝对 稳定性 . 中国 科学 ， 1987 ， A ( 8 ) ： 758 - 792 
+ 2 赵素霞 ， 仵永先 . 绝对 稳定性 的 频率 准则 . 数学 学报 ， 1995 ， 38 ( 1 ) ： 6 - 12 
+ 3 　 RaPopertLB . Problemofabsolutestabilityofcontrolsystemswithseveralnonlinearstationarycompositions . AvtomatTelemekh . , 1987 , ( 5 ) : 66 - 74 
+ 4 　 WuYX , ZhaoSX . Absolutestabilityofacontrolsystemwithseveralnonlinearstationaryelementsinthecaseofaninfinitesector . Avtomat . Telemekh , , 1991 , ( 1 ) : 34 - 42 
+ 5 　 年晓红 . Lurie 型 控制系统 的 鲁棒 决定 稳定性 . 控制 理论 与 应用 ， 1995 ， 12 ( 5 ) ： 641 - 645 
+ 收稿 日期 　 1996 - 04 - 01 

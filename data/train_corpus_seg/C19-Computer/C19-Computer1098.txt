@@ -1,0 +1,194 @@
+自动化 学报 
+ AGTAAUTOMATICASINICA 
+ 1999 年 第 25 卷 第 2 期 Vol.25 No.21999 
+ 
+ 
+ 
+ 
+ 非线性 控制系统 的 全局 输出 调节 1 ) 
+ 佘 　 焱 　 张嗣 瀛 
+ 摘 　 要 　 讨论 了 非线性 控制系统 的 全局 输出 调节 . 首先 推广 精确 线性化 方法 ， 通过 状态 反馈 和 微分 同 胚 将 非线性 系统 的 全局 输出 调节 问题 ， 转化 为 线性系统 对 非线性 系统 的 跟踪 问题 . 通过 提出 可 解性 的 概念 ， 得到 线性系统 对 非线性 系统 全局 跟踪 的 条件 ， 该 结果 是 线性系统 结果 的 推广 . 在 反馈 同 胚 变换 全局 成立 条件 下 ， 得到 非线性 控制系统 全局 输出 调节 问题 的 充分条件 ， 该 条件 对外部 系统 只 做 较弱 的 可 解性 假设 ， 在 反馈 同 胚 变换 局部 成立 的 条件 下 ， 可 得 局部 结果 . 
+ 关键词 　 非线性 系统 ， 输出 调节 ， 微分 同 胚 . 
+ GLOBALOUTPUTREGULATIONFORNONLINEAR 
+ CONTROLSYSTEMS 
+ SHEYan 
+ ( Dept . ofInform . andContr . Eng . , ShanghaiJiaotongUniversity , Shanghai 　 200240 ) 
+ ZHANGSiying 
+ ( DepartmentofAutomaticControl , NortheasternUniversity , Shenyang 　 110006 ) 
+ Abstract 　 Globaloutputregulationproblemsfornonlinearcontrolsystemsarediscussed . First , astatefeedbackdiffeomorphiccoordinationtransformationisintroducedtotransformthenonlinearsystemintothesystemwhichconsistsofalinearsystemandanonlinearexosystem . Thensolvabilityofoutputregulationisdefinedtodiscusstheglobaloutputregulationproblemsofthisspecialcontrolsystems . Theresultisanextensiontothatofthelinearsystems . Finally , itisshownthatiftheexosystemisthesolvableandtheconditionofglobalexactfeedbacklinearizationissatisfiedthentheglobaloutputregulateproblemfornonlinearsystemsissolvable . Ifonlylocalfeedbackcoordinationtransformationexits , wecanobtainthelocalresults . 
+ Keywords 　 Nonlinearcontrolsystems , outputregulation , exactfeedbacklinearization . 
+ 1 　 引言 
+ 　 　 输出 调节 是 控制系统 设计 的 一个 重要 问题 . 线性系统 的 输出 调节 有 较 圆满 的 结果 ［ 1 ］ ， 但 非线性 系统 的 相应 结果 则 困难 得 多 ， 所得 结果 也 较弱 . 主要 表现 在 ： 1 ) 只 讨论 了 初值 在 某点 邻域 的 局部 输出 调节 ； 2 ) 假定 了 外部 系统 满足 较强 的 假设 ［ 2 — 6 ］ . 
+ 　 　 近 二十年 来 ， 非线性 控制系统 的 几何 理论 ［ 5 ］ 取得 了 重要 进展 ， 精确 线性化 是 几何 方法 的 重要 内容 . 文献 ［ 6 ］ 首次 将 该 方法 推广 到 大 系统 ， 本文 则 通过 提出 另 一 推广 形式 ， 将 非线性 控制系统 的 全局 输出 调节 问题 ， 转化 为 一类 较为 特殊 的 系统 的 全局 输出 调节 问题 ， 使 问题 得到 明显 的 简化 ， 所得 结果 的 优点 是 ： 结果 是 全局 的 ， 而且 对外部 系统 只 需 很 弱 的 假设 . 
+ 2 　 问题 的 陈述 
+ 　 　 考虑 系统 
+ 
+ ( 1 ) 
+ 
+ ( 2 ) 
+ 
+ ( 3 ) 
+ 其中 x ∈ Rn , w ∈ Rm , u ∈ Rp , e ∈ Rq , f , g , s , h 是 光滑 函数 ， f ( 0 , 0 ) = 0 , s ( 0 ) = 0 . 系统 ( 1 ) 是 需要 调节 的 系统 ， 受到 了 外部 系统 ( 2 ) 的 扰动 ， 式 ( 3 ) 是 系统 ( 1 ) 与 系统 ( 2 ) 之间 的 输出 误差 . 
+ 　 　 全局 输出 调节 问题 . 称 系统 ( 1 ) — ( 3 ) 的 全局 输出 调节 问题 可解 ， 如果 存在 反馈 
+ 
+ ( 4 ) 
+ 其中 k ( 0 , 0 ) = 0 , k ( x , w ) 光滑 ， 使得 
+ 　 　 1 ) 系统 
+ 
+ ( 5 ) 
+ 　 　 在 x = 0 点 全局 渐近 稳定 . 
+ 　 　 2 ) ( x0 , w0 ) ∈ Rn × Rm , 系统 
+ 
+ ( 6 ) 
+ 
+ ( 7 ) 
+ 的 初值 为 ( x0 , w0 ) 的 解 ( x ( t ) , w ( t ) ) 满足 
+ 
+ ( 8 ) 
+ 3 　 主要 结果 
+ 　 　 记 Rn + m 上 的 向量场 
+ 
+ ( 9 ) 
+ 
+ ( 10 ) 
+ 　 　 假设 1.1 ) 是 0 点 的 非 奇异 对合 分布 . 
+ 　 　 2 ) 存在 原点 某 邻域 U 及 形如式 ( 10 ) 的 向量场 Xn + i ( i = 1 , … ， m ) ， 使得 Dn + m = 是 0 点 的 非 奇异 对合 分布 . 
+ 　 　 3 ) dimDn + m ( 0 ) = n + m . 
+ 　 　 定理 1 . 假设 1 成立 当且 仅 当 存在 光滑 反馈 及 Rn + m 中 0 点 的 局部 微分 同 胚 坐标 变换 
+ 　 　 w ， 使得 系统 
+ 
+ ( 11 ) 
+ 
+ 　 
+ ( 12 ) 
+ 
+ ( 13 ) 
+ 在 新 坐标 下 成为 
+ 
+ ( 14 ) 
+ 
+ ( 15 ) 
+ 
+ ( 16 ) 
+ 其中 
+ 
+ ( 17 ) 
+ 及 
+ 
+ ( 18 ) 
+ 如果 f ( 0 , 0 ) = 0 , s ( 0 ) = 0 , 则 α ( 0 , 0 ) = 0 . 
+ 　 　 证明 . 充分性 . 设 α ( x , w ) , β ( x , w ) 和 坐标 变换 
+ 　 　 w 满足 定理 1 要求 ， 令 
+ 
+ ( 19 ) 
+ 则 
+ 
+ ( 20 ) 
+ 　 　 取 Xn + j = Φ - 1 * ( Hn + j ) , 其中 Hi = ( 0 , … ， 0 , 1 , 0 , … ， 0 ) τ . 则 Φ ( Xn + j ) = Hn + j , 注意 到 ， 假设 中 的 条件 是 反馈 不变 的 ， 同时 Φ 巢挥跋炖 罾 ê 旁 怂 悖 所以 针对 上述 向量场 可 直接 验证 假设 1 成立 . 
+ 　 　 必要性 . 由于 Di 的 非 奇异 性 ， 可以 找出 n 个 在 0 点 线性 无关 的 向量场 
+ 
+ ( 21 ) 
+ 其中 使得 
+ 
+ ( 22 ) 
+ 同时 由 定理 1 ， 是 在 0 点 的 非 奇异 对合 分布 . 将 C 中 的 向量场 依次 记为 X1 ， … ， Xn ， 连同 Xn + 1 , … ， Xn + m ， 定义 映射 ： 定义 了 0 点 邻域 的 一个 局部 坐标 变换 ， 由 Xn + 1 , … ， Xn + m 的 定义 ， τ 0 * , 均 不 改变 Rn + m 的 后 m 个 坐标 ， 从而 有 
+ 
+ ( 23 ) 
+ 其中 ( F1 ) 0 , … ， ( FN ) 0 分别 具有 n1 , … ， nN 个 分量 . 因为 1 , … ， N - 1 , 利用 ( Dj ) 的 结构 易知 
+ 
+ ( 24 ) 
+ 为 简单 起 见 ， 以下 有时 以 F 记 ( F ) ， Di 记 ( Di ) , 记 ( FSi ) 0 . 
+ 　 　 不失 一般性 ， 可设 的 前 ni 列 线性 无关 ， 即 
+ 
+ ( 25 ) 
+ 引进 局部 同 胚 坐标 变换 τ 1 
+ 
+ ( 26 ) 
+ 
+ ( 27 ) 
+ 这里 由式 ( 24 ) ， ( 25 ) ， ( 26 ) ， ( 27 ) 知 τ 1 的 Jorcobian 阵形 如 其中 I 是 m × m 阶 单位 阵 ， J1 是 n × n 阶 矩阵 ， 且 J1 形如 
+ 
+ ( 28 ) 
+ 由 J1 的 结构 形式 可 得 
+ 
+ ( 29 ) 
+ 由 J1 的 定义 可知 ， 在 ( ( z ) 1 , ( w ) 1 ) 坐标 下 ， τ 1 * ( F ) 的 第 N 块 为 
+ 
+ ( 30 ) 
+ 由式 ( 29 ) ， 完全 重复 上述 讨论 ， 构造 局部 微分 同 胚 τ 2 . 设 经过 k 次同 胚后 ( F ) k 的 第 n - k + 1 至 第 N 块 分量 分别 为 
+ 
+ ( 31 ) 
+ 构造 τ k + 1 , 将式 ( 26 ) 左边 的 下标 1 及 右边 的 下标 0 分别 用 k + 1 , k 代替 ， 再 计算 Jk + 1 , 由式 ( 42 ) 知 ， Jk + 1 的 对角 块 中 的 后 k + 1 块 均 为 单位 阵 ， 并且 同一 行 没有 非 零元 ， 因此 ， 立即 有 
+ 
+ ( 32 ) 
+ 再 根据 τ k + 1 的 定义 式 ( 26 ) 可知 从而 式 ( 31 ) 归纳 可得 . 
+ 　 　 为 方便 ， 仍 把 τ N - 1 所 确定 坐 标记 为 ( z , w ) , 在 此 坐标 下 ， F 有 如下 形式 
+ 
+ 而 因此 ， 在 ( z , w ) 坐标 下 , 这里 ， Q ( z , w ) 是 光滑 可逆 阵 . 令 β ( z , w ) = Q - 1 ( z , w ) , α ( z , w ) = - Q - 1 ( z , w ) f1 , 反馈 u = α ( z , w ) + β ( z , w ) ν . 则 所得 系统 由 一能控 标准 形与 联结 而成 . 显然 ， 如果 f ( 0 , 0 ) = 0 , s ( 0 ) = 0 , 则 α ( 0 , 0 ) = 0 . 
+ 　 　 定义 1 . 设 h ( z , w ) 是 Rn × Rm 上 的 函数 ， 称 h ( z , w ) 关于 z 一致 连续 ， ε ＞ 0 ， w ∈ Rm , δ ＞ 0 ， 使得 ， 当 ｜ z1 - z2 ｜ ＜ δ ， 有 ｜ h ( z1 , w ) - h ( z2 , w ) ｜ ＜ ε . 
+ 　 　 定义 2 . 称 关于 h ( z , w ) 是 ( n1 , … ， np ) 阶可解 的 ， 其中 非负 整数 n1 , … ， np 满足 如果 存在 C2 类向 量值 函数 a0 : Rm → Rp , a0 ( 0 ) = 0 , 使得 
+ h ( a ( w ) , w ) = 0 , 
+ 其中 向 量值 函数 如下 定义 
+ 
+ ( 33 ) 
+ 　 　 定理 2 . 设 关于 h ( Φ - 1 ( z , w ) ) 为 ( n1 , … ， np ) 阶可解 ， h ( Φ - 1 ( z , w ) ) 关于 z 一致 连续 ， 则 系统 ( 14 — 16 ) 的 全局 输出 调节 问题 可解 ， 反馈 控制 律为 
+ 
+ ( 34 ) 
+ 　 　 证明 . 因为 关于 h ( Φ - 1 ( z , w ) ) 为 ( n1 , … ， np ) 阶可解 ， 所以 由 定义 2 ， 存在 C2 类向 量值 函数 a0 : Rm → Rp , a0 ( 0 ) = 0 , 使得 
+ 
+ ( 35 ) 
+ 定义 向 量值 函数 c : Rm → Rp , 
+ 
+ ( 36 ) 
+ 显然 a ( 0 ) = 0 , c ( 0 ) = 0 ( 因为 s ( 0 ) = 0 , a0 ( 0 ) = 0 ) . 
+ 　 　 由式 ( 33 ) ， ( 36 ) ， ( 17 ) ， ( 18 ) ， 有 
+ 
+ ( 37 ) 
+ 设 v = c ( w ) + K ( z - a ( w ) ) , 其中 K 是 使得 A + BK 稳定 的 任意 矩阵 ， 系统 ( 14 ) ， ( 15 ) 成为 
+ 
+ ( 38 ) 
+ 
+ ( 39 ) 
+ 设 w ( t ) , w ( 0 ) = w0 ∈ Rm 是 式 ( 39 ) 的 任意 解 ， 由式 ( 37 ) 得 
+ 
+ ( 40 ) 
+ 令 z1 ( t ) = a ( w ( t ) ) , 则 z1 ( t ) = a ( w ( t ) ) , z1 ( 0 ) = a ( w0 ) 是 闭环 系统 ( 38 ) 的 解 . 设 ( z2 ( t ) , w ( t ) ) 是 式 ( 38 ) ， ( 39 ) 的 任意 解 ， 且 满足 初值 条件 w ( 0 ) = w0 , z0 ( 0 ) ∈ Rn , 则 当 t → ∞ ， 有 z2 ( t ) → z1 ( t ) . 因为 设 q ( t ) = z2 ( t ) - z1 ( t ) , 有 
+ 
+ ( 41 ) 
+ 
+ ( 42 ) 
+ 显然 上述 系统 是 渐近 稳定 的 ， 即当 t → ∞ 时 ， q ( t ) → 0 . 
+ 　 　 由式 ( 35 ) ， 有 所以 
+ 
+ ( 43 ) 
+ 因为 h ( Φ - 1 ( z , w ) ) 关于 z 一致 连续 ， 当 t → ∞ , e ( t ) → 0 时 ， 条件 ( 2 ) 成立 . 由 c ( 0 ) = 0 , a ( 0 ) = 0 , 当 w = 0 时 ， 式 ( 38 ) 渐近 稳定 ， 条件 ( 1 ) 成立 . 
+ 　 　 注 1 . 由式 ( 35 ) ， ( 37 ) 知 ， 定义 2 是 线性系统 输出 调节 可 解性 条件 的 推广 . 如果 h ( Φ - 1 ( a ( w ) , w ) ) 只 与 a11 ， … ， ap1 有关 ( 实际 中 并非 少见 ) ， 则 式 ( 18 ) ， ( 14 ) 仅 归结为 一组 隐 函数 方程组 . 
+ 　 　 定理 3 . 设 系统 ( 1 ) ， ( 3 ) 满足 
+ 　 　 1 ) 假设 1 成立 ， 且 对应 的 坐标 变换 ( z , w ) = Φ ( x , w ) 在 Rn + m 上 全局 成立 ； 
+ 　 　 2 ) 关于 h ( Φ - 1 ( z , w ) ) 为 ( n1 , … ， np ) 阶可解 ； 
+ 　 　 3 ) h ( x ( z , w ) , w ) 关于 z 一致 连续 . 
+ 则 系统 ( 1 ) ， ( 3 ) 的 全局 输出 调节 问题 可解 ， 反馈 控制 律为 
+ 
+ ( 44 ) 
+ 　 　 证明 . 式 ( 8 ) 的 验证 是 简单 的 ， 只 需注意 ( x , w ) = Φ - 1 ( z , w ) 和 ( 43 ) 式 . 主要 是 验证 式 ( 5 ) 渐近 稳定 . 以下 提到 式 ( 11 ) 是 指 将 式 ( 34 ) 代入 式 ( 11 ) 所得 闭环 系统 . 设 x ( t ) 是 式 ( 5 ) 的 任意 解 ， 则 ( x ( t ) , 0 ) 是 式 ( 11 ) ， ( 12 ) 的 解 ， ( z ( t ) , 0 ) = Φ ( x ( t ) , 0 ) 是 式 ( 38 ) ， ( 39 ) 的 解 ， 从而 z ( t ) 是 的 解 . 因为 ( x ( t ) , 0 ) = Φ - 1 ( z ( t ) , 0 ) , 所以 当 z ( t ) → 0 时 ， 有 ( z ( t ) , 0 ) → 0 ， 从而 有 ( x ( t ) , 0 ) → 0 ， 即 x ( t ) → 0 . 
+ 　 　 注 2 . 显然 ， 如果 所得 坐标 变换 是 局部 的 ， 则 系统 的 局部 输出 调节 问题 可解 . 
+ 4 　 例子 
+ 　 　 例 1 . 考虑 以下 非线性 系统 的 全局 输出 调节 问题 
+ 
+ 其中 是 需要 跟踪 的 外部 系统 . 显然 已有 方法 不能 解决 上述 问题 . 容易 验证 上述 系统 满足 假设 1 . 由 定理 1 易得 ， 在 反馈 及 全局 坐标 变换 z3 = x3 + 2x1 下 ， 系统 变换 成为 
+ 
+ 显然 w2 关于 z1 - w 是 ( 3 ) 阶可解 的 ， 且 z1 - w 关于 z 一致 连续 ， 所以 原 系统 的 全局 输出 调节 问题 可解 ， 且 直接 可得 a1 ( w ) = w , a2 ( w ) = w2 , a3 ( w ) = 2w3 , c ( w ) = 6w4 , 由 定理 3 反馈 控制 律 可取 为 
+ 1 ) 　 国家自然科学基金 、 中国 博士后 科学基金 、 上海交通大学 青年 基金 和 辽宁省 博士 启动 基金 资助 项目 . 
+ 作者简介 ： 佘 　 焱 　 生于 1968 年 . 1990 年 武汉大学 数学系 本科毕业 ， 1992 年 硕士 研究生 毕业 并 提前 攻读 博士学位 ， 1995 年于 武汉大学 数学系 获 理学博士 学位 并入 东北大学 自动控制 博士后 流动站 进行 博士后 研究 . 1997 年 评为 上海交通大学 副教授 . 目前 感兴趣 的 研究 领域 为 复杂 控制系统 的 相似 结构 与 全息 性质 、 非线性 控制系统 等 . 
+ 　 　 　 　 　 张嗣 瀛 　 见 本刊 1998 ， 24 ( 2 ) . 
+ 作者 单位 ： 佘 　 焱 　 上海交通大学 信控系 　 上海 　 200030 
+ 　 　 　 　 　 张嗣 瀛 　 东北大学 自控 系 　 沈阳 　 110006 
+ 参考文献 
+ 1 　 FrancisBA . Thelinearmultivariableregulatorproblem . SIAMJ . Control & Optim . , 1977 , 15 : 486 — 505 
+ 2 　 IsidoriA , ByrnesCI . Outputregulationfornonlinearsystems . IEEETrans . Autom . Control . , 1990 , 35 ( 2 ) : 131 — 140 
+ 3 　 HuangJ , RughWJ . Onanonlinearmulti - variableservomechanismproblem . Automatica , 1990 , 26 ( 6 ) : 963 — 972 
+ 4 　 HuangJ , RughWJ . Stabilizationonzero - errormanifoldsandthenonlinearservomechanismproblem . IEEETrans . Autom . Control , 1992 , 37 ( 7 ) : 1009 — 1013 
+ 5 　 程代展 . 非线性 系统 几何 理论 . 北京 ： 科学出版社 ， 1988 
+ 6 　 佘焱 ， 张嗣 瀛 . 非线性 大 系统 的 分散 线性化 与 分散控制 . 自动化 学报 ， 1998 ， 24 ( 2 ) ： 18 — 25 
+ 收稿 日期 　 1996 - 06 - 10 
+ 收 修改稿 日期 　 1998 - 01 - 10 

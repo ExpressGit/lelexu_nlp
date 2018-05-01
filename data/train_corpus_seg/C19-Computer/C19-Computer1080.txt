@@ -1,0 +1,10 @@
+Error 
+ 
+ 
+ 
+ Therequesteditemcouldnotbeloadedbytheproxy . 
+ Theconnectiontimedout . Theservercouldbedown , unreachable , orisnotresponding . Ifyouareunabletoconnectagainlater , contacttheserver ' sadministrator . 
+ 
+ 
+ 
+ Proxyserveratsxdx2onport8080 

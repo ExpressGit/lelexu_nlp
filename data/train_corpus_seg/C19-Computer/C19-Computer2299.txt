@@ -1,0 +1,164 @@
+计算机 研究 与 发展 
+ JOURNALOFCOMPUTERRESEARCHANDDEVELOPMENT 
+ 1999 年 第 36 卷 第 5 期 Vol.36 No.51999 
+ 
+ 
+ 
+ 延迟 离散 Hopfield 型 神经网络 异步 收敛性 
+ 邱 深山 　 徐晓飞 　 刘 明珠 　 王亚东 
+ 摘 　 要 　 离散 Hopfield 型 神经网络 的 一个 重要 性质 是 异步 运行 方式 下 总能 收敛 到 稳定 态 ； 同步 运行 方式 下 总能 收敛 到 周期 不 超过 2 的 极限 环 ． 它 是 该 模型 可以 用于 联想 记忆 设计 、 组合 优化 计算 的 理论 基础 ． 文中 给出 了 延迟 离散 Hopfield 型 网络 的 收敛性 定理 ． 在 异步 运行 方式 下 ， 证明 了 对称 连接 权阵 的 收敛性 定理 ， 推广 了 已有 的 离散 Hopfield 型 网络 的 收敛性 结果 , 给出 了 能量 函数 极大值 点 与 延迟 离散 Hopfield 型 网络 的 稳定 态 的 关系 及 稳定 态 邻域 的 演化 特征 , 得到 了 能量 函数 收敛 与 异步 运行 时 网络 达到 稳定 的 协调 关系 . 
+ 关键词 　 离散 Hopfield 型 神经网络 ， 延迟 ， 收敛性 ， 稳定 态 
+ 中图法 分类号 　 TP18 ； TP311 
+ CONVERGENCEOFDISCRETEHOPFIELD - TYPENEURAL 
+ NETWORKSWITHTIME - DELAYINASERIALMODE 
+ QIUShen - Shan , XUXiao - Fei , andWANGYa - Dong 
+ ( DepartmentofComputerScienceandEngineering , HarbinInstituteofTechnology , Harbin 　 150001 ) 
+ LIUMing - Zhu 
+ ( DepartmentofMathematics , HarbinInstituteofTechnology , Harbin 　 150001 ) 
+ Abstract 　 ItisknownthatanimportantpropertyofthediscreteHopfield - typeneuralnetworkisthatitalwaysconvergestoastablestatewhenoperatinginaserialmodeandtoacycleoflengthatmost2whenoperatinginafullparallelmodel . Thesepropertiesarethebasisforthepotentialapplicationsofthismodel , suchasassociativememorydevicesandcombinatorialoptimization . ConvergencetheoremsofdiscreteHopfield - typeneuralnetworkswithdelayareobtainedinthepaper . Underaproperassumption , itisprovedthatanydiscreteHopfield - typeneuralnetworkwithdelaywillconvergetoastablestatewhenoperatingintheserialmode , andoneoftheweightmatricesisasymmetriconeandcangeneralizeconvergencetheoreminearlierworks . Theauthorsalsorelatemaximumofmodifiedenergyfunctiontostablestateofneuralnetworkwithdelayandobtainevolutionfeaturesinneighborhoodofstablestate . Inotherwords , thisnetworkcanconvergetoastablestateafteronetimeinterval . Accordantrelationsbetweenconvergenceoftheenergyfunctionandstabilizationcorrespondentnetworkarepresentedintheserialmodeaswell . 
+ Keywords 　 discreteHopfield - typeneuralnetwork , delay , convergence , stablestate 
+ 1 　 引 　 　 言 
+ 　 　 离散 Hopfield 型 网络 是 一种 能够 简单 模拟 人脑 局部 功能 的 大规模 并行处理 网络 ， 在 图像处理 、 模式识别 、 非线性 规划 、 TSP 问题 和 联想 记忆 等 领域 已 得到 了 成功 的 应用 . 正是 因为 它 的 广泛 应用性 ， 吸引 了 许多 学者 进行 理论 和 应用 的 研究 ， 获得 了 许多 研究成果 ［ 1 ～ 6 ］ ． 然而 ， 延迟 离散 Hopfield 型 网络 的 收敛性 尚属 空白 ． 
+ 　 　 在 人工神经网络 中 引入 延迟 ， 早 在 McCulloh - Pitts 模型 提出 之后 就 有人 涉及 到 ， 即 带有 延迟 的 人工神经网络 的 雏形 ． Herz 等 人 在 Heb 学习 规则 中 引入 延迟 对 神经网络 的 性能 颇 有 影响 ［ 7 ］ ． 事实上 ， 引入 延迟 使 网络 的 现在 状态 与 历史 状态 有机 联系 起来 ， 使 网络 的 演化 结果 不仅 与 当前 状态 有关 还 受 历史 状态 的 制约 ， 既 可以 学习 空间 - 时间 模式 ， 又 可以 引导 神经元 该 如何 进行 下 一步 演化 ． 所以 ， 研究 延迟 人工神经网络 的 系统 理论 不仅 具有 理论意义 ， 更 重要 的 是 它 的 应用 价值 . 
+ 　 　 熟知 离散 Hopfield 型 网络 之所以 能 用于 联想 记忆 、 组合 优化 计算 正是 因为 它 具有 收敛性 ， 即 在 异步 运行 方式 下 总能 收敛 到 稳定 态 ［ 4 ～ 6 ］ ； 同步 运行 方式 下 总 收敛 到 周期 不 超过 2 的 极限 环 ［ 8 ］ ． 在 异步 运行 方式 下 ， 本文 证明 了 延迟 离散 Hopfield 型 网络 总能 收敛 到 稳定 态 . 给出 了 能量 函数 的 极大值 点 与 网络 稳定 态 的 关系 ， 得到 了 能量 函数 收敛 与 异步 运行 时 网络 N 达到 稳定 的 协调 关系 . 
+ 2 　 延迟 离散 Hopfield 型 网络 
+ 　 　 n 阶 延迟 离散 Hopfield 型 网络 是 由 n 个 完全 互联 的 神经元 构成 ， 每个 神经元 i 在 任意 时刻 t 拥有 两种 存储状态 ： xi ( t ) , xi ( t - 1 ) ， 其中 xi ( t - 1 ) 表示 对 历史 状态 的 记忆 ， 也就是说 网络 具有 时间 结构 ． 它 可 由 两个 n × n 阶 矩阵 w0 , w1 及 一个 n 维 阈值 向量 θ = ( θ 1 , θ 2 , … ， θ n ) T 唯一 确定 ， 简记 N = ( w0w1 , θ ) . 用 w0ij 表示 在 当前 状态 神经元 j 与 神经元 i 的 连接 权值 ， 用 w1ij 表示 在 延迟 状态 神经元 j 与 i 的 连接 权值 ， θ i 为 第 i 个 神经元 的 阈值 . 神经元 按照 如下 规则 决定 下 一 时刻 的 状态值 ： 
+ 　 　 　 　 　 　 　 ( 1 ) 
+ 其中 ： 
+ 　 　 所谓 的 异步 运行 方式 （ 定义 2 ） ， 即 在 任意 时刻 t ≥ 2 ， 网络 N 仅 有 一个 神经元 i 依 ( 1 ) 式 规则 进行 演化 ， 其余 n - 1 个 神经元 的 状态 保持 不变 . 当 延迟 离散 Hopfield 型 网络 N = ( w0w1 , θ ) 的 延迟 权阵 w1 = On × n 即为 离散 Hopfield 型 网络 ［ 4 ～ 6 ］ ． 
+ 3 　 相关 概念 
+ 　 　 为 描述 方便 ， 首先 引入 如下 符号 ： 用 Bn 表示 每个 分量 仅取 ± 1 的 n 维 向量 全体 ， Bn = { v . v = ( v1 , v2 , … ， vn ) T , vi ∈ { - 1 , 1 } } , 〈 u , v 〉 表示 向量 u , v ∈ Bn 的 内积 ， 即 表示 u 与 v 的 Hamming 距离 . 显然 有 〈 u , v 〉 = n - 2dH ( u , v ) ． 用 BH ( v , r ) 表示 Bn 中 与 v 的 Hamming 距离 不 超过 r 的 向量 全体 ， 即 BH ( v , r ) = { u : dH ( u , v ) ≤ r , u , v ∈ Bn } ． 
+ 　 　 定义 1 . n 阶 延迟 离散 Hopfield 型 网络 N = ( w0w1 , θ ) 的 一个 状态 v 场 蔅 n 称为 稳定 状态 （ 或称 不动点 ） . 任意 i , 1 ≤ i ≤ n 有 ： 
+ 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 成立 . 其中 : v = ( v1 , v2 , … ， v 硁 ) T . 
+ 　 　 定义 2 . 网络 N = ( w0 輜 1 , θ ) ， 任选 v ( 0 ) = v ( 1 ) ∈ Bn 为 初值 ， 任意 时刻 t ≥ 2 , 首先 选择 两种 状态 vi ( t ) 与 vi ( t - 1 ) 不同 的 神经元 i 依 ( 1 ) 式 运行 方式 进行 演化 ; 若全 相同 ， 即 v ( t ) = v ( t - 1 ) ， 则 随机 选 一个 神经元 依 ( 1 ) 式 运行 方式 进行 演化 ， 称此 演化 方式 为 异步 运行 方式 ． 
+ 　 　 定义 3 . 称 Bn 上 二元 向量 函数 E ( u , v ) = uTw0u + 2uTw1v - 2uT θ 为 网络 N = ( w0w1 , θ ) 的 能量 函数 ， 其中 u = v ( t ) ， u = v ( t - 1 ) , 简记 E ( t ) ≡ E ( v ( t ) , v ( t - 1 ) ) ． 
+ 　 　 定义 4 . 如果 对于 任意 u , v ∈ BH ( v * , r ) ， 均 有 E ( u * , v ) ≥ E ( u , v ) ， 称 向量 v * 为 E ( u , v ) 的 Hamming 距离 为 r 的 极大值 点 ; 若 r = n ， 则 称 向量 v * 为 E ( u , v ) 的 最大值 点 . 类似 可以 定义 Hamming 距离 为 r 的 极小值 点 和 最小值 点 . 
+ 　 　 定义 5 . 让 Ω ( E , r ) 表示 E ( t ) = E ( v ( t ) , v ( t - 1 ) ) 的 Hamming 距离 为 r 的 极大值 点 的 集合 , Ω ( N ) 表示 网络 N = ( w0w1 , θ ) 的 所有 稳定 态 的 集合 ． 如果 Ω ( E , r ) Ω ( N ) 称 E ( t ) 为 r 距 正则 能量 函数 ； 若 Ω ( E , r ) Ω ( N ) 称 E ( t ) 为 r 距 正规 能量 函数 ； 若 Ω ( E , r ) = Ω ( N ) 称 E ( t ) 为 r 距 完备 的 能量 函数 ． 特别 当 r = 1 时 ， 分别 简称 为 正则 、 正规 、 完备 的 能量 函数 ［ 6 ］ . 
+ 4 　 延迟 离散 Hopfield 型 网络 收敛性 
+ 　 　 延迟 离散 Hopfield 型 网络 作为 联想 记忆 、 组合 优化 计算 ， 收敛性 是 决定 网络 联想 记忆 能力 和 优化 计算 可靠性 的 关键因素 ， 也 是 组合 优化 计算 的 理论 根据 ． 当然 ， 人们 颇为 关注 的 问题 是 延迟 网络 在 什么 条件 下 收敛 ， 延迟 项有何 作用 ． 如下 定理 将 回答 这些 问题 ． 
+ 　 　 定理 1 . n 阶 延迟 离散 Hopfield 型 网络 N = ( w0w1 , θ ) , w0 是 n × n 阶 对称 矩阵 ， w1 是 n × n 阶 矩阵 且 对角 元素 满足 ： 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 则 网络 从 任意 的 初始状态 x ( 0 ) = x ( 1 ) ∈ Bn 异步 方式 运行 ， 总能 收敛 到 一个 稳定 态 ． 
+ 　 　 证明 . 由 定义 3 引入 能量 函数 E ( u , v ) ： 
+ 
+ 其中 u = x ( t ) , v = x ( t - 1 ) , θ 为 阈值 向量 θ = ( θ 1 , θ 2 , … ， θ n ) T 显然 E ( t ) ≡ E ( x ( t ) , x ( t - 1 ) ) 有 上界 ， 即 
+ | E ( t ) | ≤ 秐 i = 1 秐 j = 1 ( | w0ij | + 2 | w1ij | ) + 2 秐 i = 1 | θ i | . 
+ 令 
+ Δ E ( t ) ≡ E ( t + 1 ) - E ( t ) , Δ xi ( t ) ≡ xi ( t + 1 ) - xi ( t ) , 
+ 故 
+ Δ E ( t ) = xT ( t + 1 ) w0x ( t + 1 ) + 2xT ( t + 1 ) w1x ( t ) - 2xT ( t + 1 ) θ 
+ - xT ( t ) w0x ( t ) - 2xTw1x ( t - 1 ) + 2x ( t ) T θ . 
+ 　 　 对 任意 时刻 t ≥ 2 ， 异步 运行 方式 下 进行 演化 有 ： 
+ Δ E ( t ) = 2 Δ xi ( t ) Hi ( x ( t ) ) + w0ii ( Δ xi ( t ) ) 2 + 2 Δ xi ( t - 1 ) xi ( t + 1 ) w1ii 　 　 　 　 　 　 　 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 　 　 依 定义 2 的 异步 运行 方式 , 首先 证明 不 存在 Δ xi ( t ) Δ xi ( t - 1 ) ≠ 0 的 情况 . 不失 一般性 ， 令 ： 
+ 　 　 ( 1 ) Δ xi ( 1 ) = - 2 , Δ xi ( 2 ) = 2 , 即 ： 
+ x ( 0 ) = x ( 1 ) , xi ( 0 ) = xi ( 1 ) = 1 , xi ( 2 ) = - 1 , xi ( 3 ) = 1 易知 ： Δ xi ( 2 ) = 2 , Δ xi ( 1 ) = - 2 
+ 　 　 ( 2 ) Δ xi ( 1 ) = 2 , Δ xi ( 2 ) = - 2 . 即 ： 
+ x ( 0 ) = x ( 1 ) , xi ( 0 ) = xi ( 1 ) = - 1 , xi ( 2 ) = 1 , xi ( 3 ) = - 1 易知 ： Δ xi ( 1 ) = 2 , Δ xi ( 2 ) = - 2 
+ 由 情况 ( 1 ) 的 xi ( 2 ) = - 1 , 有 ： 
+ 丁 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 依 定义 2 知 ， 下 一步 仍然 演化 第 i 个 神经元 ， 由 xi ( 3 ) = - 1 , 有 
+ 丁 　 　 　 　 　 　 　 　 ( 6 ) 
+ 注意 当 j ≠ i 时 ， xj ( 0 ) = xj ( 1 ) = xj ( 2 ) . 将 ( 6 ) 式 乘 - 1 与 ( 5 ) 式 相加 得 ： 
+ 2w0ii < 0 . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 7 ) 
+ 易知 ( 7 ) 式 与 ( 3 ) 式 矛盾 . 同理 可以 证明 情况 ( 2 ) ， 当 Δ xi ( 1 ) = 2 , Δ xi ( 2 ) = - 2 时 也 可 推出 与 ( 3 ) 式 矛盾 . 
+ 　 　 当 Δ xi ( t ) = 0 , Δ xi ( t - 1 ) = 2 时 ， 
+ 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ 由 条件 ( 3 ) 式 ， 知 Δ E ( t ) ≥ 0 . 
+ 　 　 当 Δ xi ( t ) = 0 , Δ xj ( t - 1 ) = - 2 时 ， 
+ 　 　 　 　 　 　 　 　 　 ( 9 ) 
+ 易知 Δ E ( t ) ≥ 0 . 
+ 　 　 当 Δ xi ( t ) = ± 2 , Δ xi ( t - 1 ) = 0 时 ， 
+ Δ E ( t ) ≡ 4 ( w0ii ± Hi ( x ( t ) ) ) . 　 　 　 　 　 　 　 　 　 　 ( 10 ) 
+ 由 ( 3 ) 式 知 Δ E ( t ) ≥ 0 . 综上所述 易知 ： 当 Δ xi ( t ) ≠ 0 或 Δ xi ( t - 1 ) ≠ 0 时 ， 有 Δ E ( t ) = E ( t + 1 ) - E ( t ) ≥ 0 , 由 单调 有 界 原理 知 E ( t ) 是 收敛 的 . 
+ 　 　 如下 将 进一步 证明 E ( t ) 收敛 时 ， 网络 N = ( w0w1 , θ ) 最终 将 收敛 到 某 一 稳定 态 . 
+ 　 　 由 E ( t ) 收敛 ， 即 存在 t0 , 当 t ≥ t0 时 ， 有 
+ E ( t ) = E ( t0 ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 11 ) 
+ 若 x ( t0 ) = x ( t0 + 1 ) 且 对 每 一个 神经元 演化 均 不变 ， 则 x * = x ( t0 ) 为 网络 N 的 稳定 态 ． 若 x ( t0 ) ≠ x ( t0 + 1 ) 即仅 有 一个 神经元 i 满足 xi ( t0 ) ≠ xi ( t0 + 1 ) ， 对 神经元 i 进行 演化 ， 仅 有 （ 8 ） 及 （ 9 ） 两种 可能 情况 使 Δ E ( t0 + 1 ) = 0 . 下 一步 恰好 为 x ( t0 + 1 ) = x ( t0 + 2 ) ， 将 任选 一个 神经元 进行 演化 ， 可能 改变 的 神经元 仅 有 i , 且 有 xi ( t0 + 1 ) = xi ( t0 + 2 ) = - 1 和 Δ E ( t0 + 1 ) = 0 ， 易知 w0ii = 0 ． 否则 ， 若 w0ii > 0 ， 该 神经元 i 不 可能 改变 状态 ， 因为 当 t ≥ t0 时 ， Δ E ( t + 1 ) = 4 ( w0ii + Hi ( x ( t ) ) ) ≠ 0 与 （ 11 ） 式 矛盾 . 为了 证明 方便 ， 不妨 假设 w0 的 大于 零 的 主 对角 元素 个数 为 l ． 如下 将 说明 能量 函数 E ( t ) 与 N 的 收敛 不 同步 取决于 l . 
+ 　 　 由 （ 11 ） 式 知 ， 在 t ≥ t0 进行 演化 可能 改变 的 神经元 或者 ① xi ( t0 ) ≠ xi ( t0 + 1 ) , 或者 ② xi ( t0 + 1 ) = xi ( t0 + 2 ) = - 1 且 w0ii = 0 , Hi ( x ( t0 ) ) = 0 ． 对于 ① 最多 需 演化 1 次 ， 对于 ② 最 多 演化 ( l - 2 ) + 1 ， 其后 重复 ② 的 演化 ( l - 3 ) + 1 , ( l - 4 ) + 1 , … , 1 ． 最多 需次 演化 达到 网络 N 的 某 一 稳定 态 ． 显然 ， 当 w0 的 主 对角 元素 均 大于 零时 ， E ( t ) 收敛 时 与 N 收敛 到 某 一 稳定 态 最多差 一步 ， 或者 xi ( t0 ) = - 1 , xi ( t0 + 1 ) = 1 , xi ( t0 + 2 ) = 1 达到 稳定 态 ， 或者 xi ( t0 ) = 1 , xi ( t0 + 1 ) = - 1 , xi ( t0 + 2 ) = - 1 , 达到 稳定 态 ． 
+ 　 　 推论 1 . n 阶 延迟 离散 Hopfield 型 网络 N = ( w0 輜 1 , θ ) , w0 是 n × n 阶 对称 矩阵 ， w1 是 n × n 阶 矩阵 且 对角 元素 满足 ： 
+ 
+ 则 网络 从 任意 的 初始状态 x ( 0 ) = x ( 1 ) ∈ Bn 出发 异步 方式 运行 ， 其 能量 函数 E ( t ) 收敛 与 网络 N 的 收敛 的 演化 步 数最多 仅差 一步 . 
+ 　 　 从 定理 1 证明 的 最后 部分 可 得到 推论 1 ． 
+ 　 　 推论 2 . 当 定理 1 中 w1 退化 为 零 矩阵 On × n 时 ， 收敛 条件 w0ij ≥ 0 ， ( i = 1 , 2 , … , n ) . 此时 的 推论 2 为 文献 [ 5 ] 中 的 主要 定理 ， 即 定理 1 推广 了 文献 [ 5 ] 中 的 主要 定理 ． 
+ 　 　 定理 2 . n 阶 延迟 离散 Hopfield 型 网络 N = ( w0w1 , θ ) ， w0 是 n × n 阶 对称 矩阵 ， w1 是 n × n 阶 矩阵 且 对角 元素 满足 ： 
+ 　 　 　 　 　 　 　 　 　 ( 12 ) 
+ 则 网络 从 任意 的 初始状态 x ( 0 ) = x ( 1 ) ∈ Bn 异步 方式 运行 ， 网络 收敛 到 一个 稳定 态 的 充分 必要条件 是 相应 的 能量 函数 收敛 且 同时 达到 . 
+ 　 　 证明 . 如下 使用 的 符号 与 定理 1 的 证明 中 所 使用 的 符号 相同 ， 在 此 略去 说明 ． 对 任意 时刻 t ≥ 2 ， 异步 运行 方式 下 进行 演化 有 ： 
+ Δ E ( t ) = 2 Δ xi ( t ) Hi ( x ( t ) ) + σ i ( t ) . 
+ 其中 ： 
+ 
+ 现将 Δ E ( t ) 随第 i 个 神经元 在 t - 1 ， t ， t + 1 时刻 的 可能 状态 列表 如下 ： 
+ 表 　 1 
+ 
+ 序号 Δ xi ( t ) Δ xi ( t - 1 ) xi ( t + 1 ) xi ( t ) xi ( t - 1 ) Δ E ( t ) = 2 Δ xi ( t ) Hi ( x ( t ) ) + σ i ( t ) 
+ 10211 - 1 
+ 20 - 2 - 1 - 11 
+ 3201 - 1 - 14 ( w0ii + Hi ( x ( t ) ) ) 
+ 4 - 20 - 1114 ( w0ii - Hi ( x ( t ) ) ) 
+ 5001110 
+ 600 - 1 - 1 - 10 
+ 
+ 令 : 
+ 　 　 且 x ( t0 ) = x ( t0 - 1 ) ≠ x ( t0 - 2 ) , x ( t ) 依 ( 1 ) 式 异步 方式 演化 } 
+ 　 　 且 E ( t0 ) > E ( t0 - 1 ) , E ( t ) 依 x ( t ) 演化 路径 进行 } 
+ 　 　 如下 证明 ： T0 = T1 ． 一方面 ， 由 T0 的 定义 及表 1 中当 t = t0 - 1 时 ， x ( t0 - 1 ) ≠ x ( t0 + 2 ) 等价 于 网络 N 中 的 某 神经元 i 在 表 1 中仅 有 序号 是 1 或 2 的 情况 出现 xi ( t0 - 1 ) ≠ xi ( t0 - 2 ) , 相应 有 
+ 
+ 即 E ( t0 ) > E ( t0 - 1 ) ． 由于 t ≥ T0 时 ， 有 x ( t ) = x ( t0 ) . 所以 Δ E ( t ) = Δ E ( t0 ) = 0 , 故有 T0 ≥ T1 ; 另一方面 ， 由 T1 的 定义 知 ： 当 E ( T0 ) > E ( T1 - 1 ) 时 ， 在 表 1 中仅 能 出现 序号 1 或 2 两种 情况 . 否则 ， 若 出现 序号 3 或 4 两种 情况 ， 由 异步 运行 规则 知 ， 下 一步 将 出现 序号 1 或 2 两种 情况 ， 由 ( 12 ) 式 知 E ( T1 + 1 ) > E ( T1 ) ， 此式 与 T1 的 定义 Δ E ( T1 ) = E ( T1 + 1 ) - E ( T1 ) = 0 矛盾 ． 故从表 1 序号 1 或 2 中知 x ( T1 - 1 ) ≠ x ( T1 - 2 ) ， 再 由 当 t ≥ T1 , Δ E ( t ) = 0 及 ( 12 ) 式 知 ： 当 t ≥ T1 时 ， Δ E ( t ) = 0 当且 仅 当表 1 中 序号 5 或 6 的 结果 出现 ， 所以 xi ( t ) = xi ( T1 ) , t ≥ T1 , 故知 T1 ≥ T0 , 所以 T0 = T1 ． 从 T0 和 T1 的 定义 知 T0 是 网络 N 经 演化 规则 ( 1 ) 达到 稳定 态 的 最早 时刻 ， 而 T1 恰是 能量 函数 依 网络 N 的 演化 路径 达到 收敛 状态 的 最早 时刻 ， 所以 由 T0 = T1 , 故 它们 同时 达到 ． 
+ 　 　 定理 3 ． n 阶 延迟 离散 Hopfield 型 网络 N = ( w0w1 , θ ) , w0 是 n × n 阶 对称 矩阵 ， w1 是 n × n 阶 矩阵 且 对角 元素 满足 ： 
+ 　 　 　 　 　 　 　 　 　 ( 13 ) 
+ 则 v 呈 峭络 N 的 稳定 态 的 充分 必要条件 是 v 澄其 能量 函数 E ( u , v ) 的 Hamming 距离 为 1 的 极大值 点 ． 
+ 　 　 定理 3 的 证明 思想 与 文献 [ 6 ] 中 定理 2 ( iii ) 的 证明 类似 ， 从略 . 
+ 　 　 推论 3 ． 已知 定理 3 的 假设 条件 下 , 则 网络 N 的 能量 函数 是 完备 的 能量 函数 ． 
+ 　 　 从 推论 3 引申 知 ， 延迟 神经网络 N 作为 优化 计算 的 模型 ， 自然 希望 是 r 完备 的 能量 函数 . 
+ 　 　 定理 4 . n 阶 延迟 离散 Hopfield 型 网络 N = ( w0w1 , θ ) , w0 , w1 是 n × n 阶 矩阵 且 对角 元素 非负 ， 如果 异步 方式 运行 ， 对 任意 可能 的 u , v ∈ BH ( v * , 1 ) 依 ( 1 ) 式 的 演化 规则 一步 演化 到 v * ， 则 v 骋 欢 ㄊ 峭络 N 的 稳定 态 ． 
+ 　 　 注 ： 定理 4 中 任意 可能 的 u , v ∈ BH ( v * , 1 ) 意味着 u ≠ v * , v ≠ v * , u ≠ v 不能 出现 ， 因为 异步 方式 运行 时 v ( t ) , v ( t - 1 ) 不同 的 分量 最多为 1 个 ． 
+ 　 　 证明 . 依 ( 1 ) 式 的 演化 规则 和 定义 2 ， 对 任意 可能 的 u , v ∈ BH ( v * , 1 ) 可 写成 : u = v * + Δ u , v = v * + Δ v , 其中 ： Δ u = ( 0 , 0 , … ， - 2v * k α , … ， 0 ) T , Δ v = ( 0 , 0 , … ， - 2v * l β , … ， 0 ) T , α , β ∈ { 0 , 1 } . 
+ 　 　 仅 有 如下 4 种 情况 ： 
+ 　 　 ① α = β = 1 , 1 ≤ k = l ≤ n ; 
+ 　 　 ② α = 0 , β = 1 , 1 ≤ l ≤ n ; 
+ 　 　 ③ α = 1 , β = 0 , 1 ≤ k ≤ n ; 
+ 　 　 ④ α = 0 , β = 0 . 
+ 由 情况 ① 知 ： 
+ 
+ 由于 一步 演化 到 v 常 所以 有 : 
+ skv * k = sgn ( v * kHk ( v * k ) - 2 ( w0kk + w1kk ) ) > 0 
+ 等价 
+ v * kHk ( v * k ) - 2 ( w1kk + w0kk ) ≥ 0 . 　 　 　 　 　 　 　 　 　 　 　 ( 14 ) 
+ 情况 ( 2 ) 、 ( 3 ) 、 ( 4 ) 同理可知 ： 
+ v * lHl ( v * l ) ≥ 2w1ll , 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 15 ) 
+ v * kHk ( v * k ) ≥ 2w1kk , 　 　 　 　 　 　 　 　 　 　 　 　 ( 16 ) 
+ 对于 任选 的 某 i ： 有 
+ v * kHk ( v * k ) ≥ 0 . 　 　 　 　 　 　 　 　 　 　 　 　 ( 17 ) 
+ 由 u , v 的 任意性 及 k 或 l 可取 遍 1 到 n ， 所以 从 ( 14 ) , ( 15 ) , ( 16 ) 或 ( 17 ) 式 的 任何 一个 式子 均 可 得到 v 呈 荖 的 稳定 态 ． 
+ 　 　 推论 4 . n 阶 延迟 离散 Hopfield 型 网络 N = ( w0w1 , θ ) , w0 是 n × n 阶 对称 矩阵 ， w1 是 n × n 阶 矩阵 且 对角 元素 非负 ， 如果 异步 运行 方式 ， 满足 如下 条件 之一 ： 
+ 　 　 （ 1 ） 对 任意 u = v ≠ v * ， u , v ∈ BH ( v * , 1 ) 一步 收敛 到 v , 
+ 　 　 （ 2 ） 对 任意 u ≠ v * , v = v * , u , v ∈ BH ( v * , 1 ) 一步 收敛 到 v , 
+ 　 　 （ 3 ） 对 任意 u = v * , v ≠ v * , u , v ∈ BH ( v * , 1 ) 一步 收敛 到 v . 
+ 则 v 骋 欢 ㄊ 峭络 N 的 稳定 态 ． 
+ 　 　 其 证明 可 由 定理 4 证明 中 的 ( 14 ) , ( 15 ) 或 ( 16 ) 式 直接 得到 ． 
+ 　 　 从 定理 4 及 推论 4 易知 ， 在 异步 运行 方式 下 , v * 是否 为 N 的 稳定 态由 BH ( v * , 1 ) 中 的 点 一步 演化 情况 来 确定 ． 也 可 结合 定理 1 、 2 的 结论 来 认识 定理 4 和 推论 4 ， 即 演化 的 路径 方向 是 依照 能量 递增 的 趋势 ， BH ( v * , 1 ) 中 可能 构成 的 能量 函数 E ( u , v ) 值 ， 若 在 异步 运行 方式 下均 一步 演化 到 E ( v * , v * ) ， 则 v * 是 N 的 稳定 态 ， 当然 亦 是 能量 函数 的 局部 极大值 点 . 
+ 5 　 结 　 　 论 
+ 　 　 ( 1 ) 本文 给出 了 在 W0 为 对称 的 条件 下 异步 运行 的 收敛性 定理 , 推广 了 Hopfield ［ 5 ］ 的 结果 ． 
+ 　 　 ( 2 ) 本文 引入 与 延迟 离散 Hopfield 型 网络 对应 的 二元 能量 函数 ， 为 延迟 离散 Hopfield 型 网络 可 作为 联想 记忆 设计 、 优化 计算 奠定 了 理论 基础 ． 
+ 　 　 ( 3 ) 分析 了 能量 函数 的 极大值 点 与 网络 N 的 稳定 态 的 对应 关系 ， 给出 了 网络 N 在 稳定 态 邻域 的 演化 特征 ， 即均 可 一步 演化 到 稳定 态 ． 
+ 　 　 ( 4 ) 得到 了 网络 N 异步 运行 时 收敛 到 稳定 态 与 能量 函数 收敛 的 协调 关系 , 并 给出 了 它们 同步 到达 的 充分 必要条件 ． 
+ 本 课题 得到 国家自然科学基金 资助 ( 项目编号 A01030202 ) . 
+ 作者简介 ： 邱 深山 ， 男 ， 1962 年 1 月生 ， 博士 ， 讲师 ， 主要 研究 神经网络 及其 应用 、 机器 学习 和 小波 分析 . 徐晓飞 ， 男 ， 1962 年 11 月生 ， 教授 ， 博士生 导师 ， 研究 领域 包括 计算机 集成 制造 、 分布式 数据库 . 刘 明珠 ， 男 ， 1941 年 6 月生 ， 教授 ， 博士生 导师 ， 主要 从事 延迟 微分方程 数值 解 ， 神经计算 和 小波 分析 . 王亚东 ， 男 ， 1964 年 8 月生 ， 副教授 ， 主要 研究 领域 为 专家系统 、 机器 学习 、 知识 工程 . 
+ 作者 单位 ； 邱 深山 　 徐晓飞 　 王亚东 　 哈尔滨工业大学 计算机科学 与 工程系 　 哈尔滨 　 150001 
+ 　 　 　 　 　 刘 明珠 　 哈尔滨工业大学 数学系 　 哈尔滨 　 150001 
+ 参考文献 
+ 　 1 　 张铃 ， 张钹 ， 吴福朝 . 自 反馈 神经网络 的 椭球 学习 算法 . 计算机 学报 , 1994 , 17 ( 9 ) : 676 ～ 681 
+ ( ZhangLing , ZhangBo , WuFuchao . Ellipsoidlearningalgorithmofneuralnetworkswithself - feedbackconnections . ChineseJournalofComputers ( inChinese ) , 1994 , 17 ( 9 ) : 676 ～ 681 ) 
+ 　 2 　 张军英 ， 许进 ， 保铮 . Hopfield 网 的 关 分析 . 自动化 学报 ， 1997 , 23 ( 4 ) : 447 ～ 453 
+ ( ZhangJunying ， XuJin ， BaoZheng . ConnectedanalysisforHopfieldnetworks . ActaAutomaticSinica ( inChinese ) , 1997 , 23 ( 4 ) : 447 ～ 453 ) 
+ 　 3 　 ZhangXiangsun , LiHongfeng , WangXiaodong ． AstraightforwardmathematicalanalysisfortheHopfieldneuralnetwork ． ActaElectronicaSinica , 1992 , 20 ( 10 ) : 10 ～ 17 
+ 　 4 　 BruckJ , GoodmanJW ． Ageneralizedconvergencetheoremforneuralnetworks ． IEEETransoninformationtheory ， 1988 , 34 ( 5 ) : 1089 ～ 1092 
+ 　 5 　 HopfieldJJ . Neuralnetworksandphysicalsystemswithemergentcollectivecomputationalabilities . ProcNatAcadSciUSA , 1982 , 79 : 2554 ～ 2558 
+ 　 6 　 ZongbinXu , GuoqingHu , ChungpingKwong . AsymmetricHopfield - typenetworks : Theoryandapplications . NeuralNetworks , 1996 , 9 ( 3 ) : 483 ～ 501 
+ 　 7 　 HerzAVM , LiZ , vanHemmenJL ． Statisticalmechanicsoftemporalassociationinneuralnetworkswithtransmissiondelays ． PhysRevLett , 1991 , 66 : 1370 ～ 1373 
+ 　 8 　 GolesE ， FogelmanF , PellegrinD ． Decreasingenergyfunctionasatoolforstudyingthresholdnetworks ． DiscreteApplMath , 1985 , 12 : 261 ～ 277 
+ 原稿 收到 日期 ： 1998 - 07 - 03 
+ 修改稿 收到 日期 ： 1998 - 11 - 06 

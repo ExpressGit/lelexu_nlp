@@ -1,0 +1,84 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 　 第 23 卷 　 第 6 期 　 Vol.23 　 No.6 　 1997 
+ 
+ 
+ 
+ 
+ 基 于小波 变换 估计 传递函数 
+ 徐 长江 　 宋文忠 
+ 　 　 摘 　 要 　 基于 离散 小 波 变换 ， 提出 分段 频带 逼近 ， 估计 传递函数 . 首先 应用 分解 / 综合 滤波器 ， 引进 离散 小 波 变换 ， 然后 利用 小 波 分频 性能 ， 给出 分段 频带 逼近 算法 . 
+ 　 　 关键词 　 传递函数 估计 ， 分解 / 综合 滤波器 ， 离散 小 波 变换 ， 分段 频带 逼近 . 
+ ESTIMATINGTRANSFERFUNCTIONSBASED 
+ ONWAVELETTRANSFORM 
+ XUCHANGJIANG 　 　 SONGWENZHONG 
+ ( ResearchInstituteofAutomation , 　 SoutheastUniversity , 　 Nanjing210096 ) 
+ Abstract 　 Band - wiseapproximationbasedonwavelettransformisproposedforestimatingtransferfunctions . Firstly , discretewavelettransformisintroducedbyapplyinganalysis / synthesisfilterbank . Then , band - wiseapproximationalgorithmispresentedbyusingwaveletfrequencylocalizedquality . Simulationresultshaveverifiedtheproposedalgorithm . 
+ Keywords 　 Transferfunction , analysis / synthesis , wavelettransform , band - wiseapproximation . 
+ 1 　 引言 
+ 　 　 众所周知 ， 线性 时 不变 系统 可用 其 传递函数 描述 ， 因此 传递函数 的 估计 一直 受到 人们 的 重视 ［ 1 ， 2 ］ . 本文 提出 分段 频带 逼近 法 ， 估计 传递函数 . 主要 思路 是 ， 输入输出 信号 经小波 变换 ， 使得 相邻 频带 的 信息 被 分解 开来 ， 在 各 频带 内 传递函数 的 频域 特性 可用 低阶 模型 逼近 ， 再 利用 相应 频带 的 输入输出 信息 ， 可 估计 各 频带 内 逼近 模型 的 参数 ， 然后 应用 小 波 综合 滤波器 ， 将 各 频带 的 逼近 模型 组合 ， 即得 传递函数 估计 . 
+ 2 　 离散 小 波 变换 
+ 　 　 离散 小 波 变换 的 定义 有 两种 形式 ［ 3 ］ ， 一种 表示 信号 时域 的 多 分辨 分解 ， 另 一种 表示 信号 在 频域 内 分解 . 下面 应用 分解 / 综合 滤波器 ， 引进 频域 内 分解 定义 . 
+ 　 　 考虑 如图 1 所示 的 2 - 频带 完全 重构 系统 ［ 4 ］ ， 其中 F ( z ) , P ( z ) 是 高通 滤波器 ； H ( z ) , Q ( z ) 是 低通滤波器 ； F ( z ) , H ( z ) 称为 分解 滤波器 ， 将 信号 x ( n ) 分解成 两 频带 信号 xk ( n ) ; P ( z ) , Q ( z ) 称为 综合 滤波器 ， 将 分解 信号 xk ( n ) 重 构成 原 信号 x ( n ) ， P ( z ) 和 Q ( z ) 的 选取 依赖于 F ( z ) 和 H ( z ) ， 即 满足 
+ F ( z ) P ( z ) + H ( z ) Q ( z ) = 1 . 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 
+ 图 1 　 2 - 频带 完全 重构 系统 
+ 　 　 根据 ( 1 ) 式 有 
+ F ( zn ) P ( zn ) + H ( zn ) Q ( zn ) = 1 , n ∈ Z . 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 取 n = 2k - 1 ( k = 1 , … ， K ) ， 利用 ( 2 ) 式 可 依次 将 低频 信号 进一步 分解 ， 如图 2 ( k = 3 ) 所示 . 
+ 
+ 图 2 　 离散 小 波 变换 和 重构 流程图 ( k = 3 ) 
+ 　 　 分解 信号 ｛ wk ( n ) , vk ( n ) ｝ 即 是 信号 x ( n ) 的 ( K - 频程 ) 离散 小 波 变换 ( DWT ) . wk ( n ) ( k = 1 , … , K ) 称为 小 波 系数 ， vk ( n ) 是 低频 信号 . 
+ 　 　 若记 
+ Hk ( z ) = H ( z2k - 1 ) … H ( z2 ) H ( z ) , 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3a ) 
+ Fk ( z ) = F ( z2k - 1 ) Hk - 1 ( z ) , H0 ( z ) = 1 , 　 　 　 　 　 　 　 　 　 　 　 　 ( 3b ) 
+ Qk ( z ) = Q ( z2k - 1 ) … Q ( z2 ) Q ( z ) , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3c ) 
+ Pk ( z ) = P ( z2k - 1 ) Qk - 1 ( z ) , Q0 ( z ) = 1 , k = 1 , … ， K ， 　 　 　 　 　 　 　 ( 3d ) 
+ 则 
+ wk ( n ) = Fk ( z ) x ( n ) , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4a ) 
+ vk ( n ) = Hk ( z ) x ( n ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4b ) 
+ 利用 ( 1 ) 和 ( 2 ) 式 ， 有 
+ F1 ( z ) P1 ( z ) + … + Fk ( z ) Pk ( z ) + Hk ( z ) Qk ( z ) = 1 . 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 分解 滤波器 Fk ( z ) ， Hk ( z ) 是 一族 相邻 频带 ( 倍频程 ) 滤波器 . 这 说明 小 波 具有 分频 性能 ， 即 信号 经小波 变换 ， 相邻 频带 ( 倍频程 ) 的 局部 信息 被 分解 开来 . 小波 分频 能力 取决于 分解 滤波器 F ( z ) , H ( z ) 的 设计 . 文献 ［ 4 — 6 ］ 就 分解 滤波器 的 设计 作 了 深入 讨论 . 
+ 3 　 传递函数 分频 逼近 算法 
+ 　 　 假定 所 考虑 的 真实 对象 是 用 下式 描述 的 单 输入 单 输出 的 线性 时 不变 系统 
+ y ( t ) = G ( z ) u ( t ) + v ( t ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 其中 u ( i ) , y ( t ) 分别 是 系统 的 输入 、 输出 ， u ( t ) 是 充分 激励 的 拟 平稳 信号 ； v ( t ) 是 输出 端的 噪声 ， 为 零 均值 的 平稳 随机 过程 ， 且 u ( t ) , v ( t ) 相互 独立 . 
+ 　 　 记 y ( t ) , u ( t ) , v ( t ) 的 离散 小 波 变换 分别 为 
+ wy = ｛ wyk ( t ) , vyk ( t ) ｝ , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 7a ) 
+ wu = ｛ wuk ( t ) , vuk ( t ) ｝ , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 7b ) 
+ wv = ｛ wvk ( t ) , vvk ( t ) ｝ , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 7c ) 
+ 利用 小 波 变换 ( 4 ) 式 有 
+ wyk ( t ) = G ( z ) wuk ( t ) + wvk ( t ) , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 8a ) 
+ vyk ( t ) = G ( z ) vuk ( t ) + vvk ( t ) , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 8b ) 
+ 或者 等价 于 
+ wyk ( t ) = G ( z ) Fk ( z ) u ( t ) + wvk ( t ) , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 9a ) 
+ vyk ( t ) = G ( z ) Hk ( z ) u ( t ) + vvk ( t ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 9b ) 
+ 　 　 根据 小波 的 分频 特性 ， 可知 Fk ( z ) G ( z ) , HK ( z ) G ( z ) 仅 反映 传递函数 各 相邻 频带 的 频域 特性 ， 在 各 频带 内 G ( ejw ) 可用 低阶 正交 基 展开 模型 逼近 ［ 2 ］ 
+ Gk ( z ) = ck0B0 ( z ) + ck1B1 ( z ) + … + ckmBm ( z ) , 　 k = 1 , … , K + 1 . 　 　 　 　 　 　 　 ( 10 ) 
+ 频带宽度 越窄 ， m 可选得 越 小 ， 通常 m = 1 , 2 即可 . 当 Bk ( z ) = z - k 时 ， ( 10 ) 式 即 为 FIR 模型 . 
+ 　 　 逼近 模型 参数 ck = ［ ck0 , ck1 , … , ckl ］ 可 根据 相应 频带 的 输入输出 信号 ( 小 波 变换 wu , wy ) 应用 最小 二 乘法 估计 ， 利用 综合 滤波器 Pk ( z ) 和 Qk ( z ) , 将 逼近 模型 Gk ( z ) 按 下面 方式 组合 ， 即 得到 传递函数 的 分频 逼近 
+ 　 　 　 　 　 ( 11 ) 
+ 在 选定 逼近 模型 时 ， 估计 精度 可 通过 增加 分段 频带 的 数目 ( 调节 分段 频带宽度 ) 得到 改善 . 
+ 　 　 算法 . 
+ 　 　 1 ) 设计 分解 滤波器 F ( z ) 和 H ( z ) ， 综合 滤波器 P ( z ) 和 Q ( z ) ， 计算 u ( t ) 和 y ( t ) 的 离散 小 波 变换 ； 
+ 　 　 2 ) 选定 逼近 模型 ( 10 ) ， 估计 参数 ck ( k = 1 , … ， K ) ； 
+ 　 　 3 ) 利用 ( 11 ) 式 计算 G * ( ejw ) . 
+ 4 　 仿真 实例 
+ 　 　 考虑 真实 对象 
+ 　 　 　 　 　 　 ( 12 ) 
+ 噪声 v ( t ) 为白 噪声 ， 输入 u ( t ) 为 伪 随机 二进制 信号 ( PRBS ) ， 信噪比 SNR = 6.1024 ， 分解 / 综合 滤波器 由 Daubechies 小波 D7 ［ 7 ］ 构成 ， 逼近 模型 ( 10 ) 为 一阶 FIR 模型 ， 分频 数目 K = 5 , 重复 试验 10 次 ， 取其 均值 作为 估计值 ， 如图 3 所示 . 
+ 
+ 图 3 　 频率特性 ( 0 — 真实 值 ， 1 — 估计值 ) 
+ 5 　 结束语 
+ 　 　 本文 基于 离散 小 波 变换 ， 利用 分频 逼近 ， 估计 传递函数 . 适当 选取 分频 数目 即 调节 频带宽度 ， 可 获得 较 精确 估计 . 分频 逼近 法 与 单一 模型 逼近 相比 ， 提供 了 更 多 的 选择 自由度 ， 以 提高 逼近 精度 . 实际 中 可 通过 逼近 模型 、 模型 阶次 以及 分频 数目 三者 折中 来 达到 满意 的 精度 . 由于 分频 逼近 是 利用 低阶 线性 参数 模型 ， 参数估计 对 噪声 的 鲁棒性 强 . 
+ 作者 单位 ： 东南大学 自动化 研究所 　 南京 　 210096 
+ 参考文献 
+ ［ 1 ］ 　 LjungL . Ontheestimationoftansferfunction . Automatica.1985 , 21 : 677 - 696 . 
+ ［ 2 ］ 　 WahlbergB . Systemidentificationusinglaguerremodels . IEEETrans . Autom . Control , 1991 , 36 : 551 - 563 . 
+ ［ 3 ］ 　 ShensaMJ . Thediscretewavelettransform : Weddingtheatrousandmallatalgorithms . IEEETrans . SignalProcessing , 1992 , 40 : 2464 - 2482 . 
+ ［ 4 ］ 　 VaidyanathanPP . Multiratedigitalfilters , filterbanks , polyphasenetworkandapplications : Atutorial . In : Proc . IEEE.1990 , 78 : 56 - 93 . 
+ ［ 5 ］ 　 VetterliM , HerleyC . Waveletsandfilterbanks : Theoryanddesign . IEEETrans . SignalProcessing , 1992 , 40 : 2207 - 2232 . 
+ ［ 6 ］ 　 HerleyC , VetterliM . Waveletsandrecursivefilterbanks . IEEETrans . SignalProcessing , 1993 , 41 : 2536 - 2556 . 
+ ［ 7 ］ 　 DaubechiesI . Tenlectruesonwavelets . CBMS - NSFSeriesinAppliedMathematics , SIMA , 1992 : 182 - 194 . 
+ 收稿 日期 　 1995 - 12 - 18 

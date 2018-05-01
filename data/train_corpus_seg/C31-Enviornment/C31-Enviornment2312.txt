@@ -1,0 +1,112 @@
+环境 科学 学报 
+ ACTA 　 SCIENTIAE 　 CIRCUMSTANTIAE 
+ 1998 年 5 月 第 18 卷 第 5 期 科技期刊 
+ 血红蛋白 - 环氧 苯乙烯 加合物 的 分析 * 
+ 金祖亮 
+ ( 国家自然科学基金委员会 ， 　 北京 　 100083 ) 
+ 刘淑芬 
+ ( 中国科学院 生态环境 研究 中心 ， 　 北京 　 100085 ) 
+ RappaportS . M . 
+ ( UNCATCHAPELHILL , USA ) 
+ 摘要 　 采用 环氧 苯乙烯 ( SO ) 和 血红蛋白 中 羧酸 基和 巯基 位 的 加合物 同时 测定 的 方法 ， 对 大鼠 ( SD ) 血红蛋白 - SO 加合物 进行 了 体外 实验 及 腹腔 注射 环氧 苯乙烯 和 苯乙烯 的 体内 实验 . 结果表明 在 血红蛋白 中 所 分析 的 3 种 加合物 ( SG ， 1 - PE ， 2 - PE ) 均 随着 SO 剂量 而 增加 ， 半胱氨酸 加合物 和 羧酸 加合物 之 比率 随着 各 不同 组 的 实验 而 不同 ， 而 2 - PE 对 1 - PE 比率 较为 恒定 ， 说明 SO 和 半胱氨酸 反应 α 位 优于 β 位 ， 最低 检测 浓度 是 ： SG 为 8pmol / g ( 蛋白 ) ， 1 - PE 为 5pmol / g ( 蛋白 ) ， 2 - PE 为 0.6 pmol / g ( 蛋白 ) . 
+ 关键词 　 蛋白质 加合物 ； 血红蛋白 ； 苯乙烯 ； 环氧 苯乙烯 . 
+ ANALYSISOFSTYRENEOXIDE - HEMOGLOBINADDUCT 
+ 
+ JinZuliang 
+ ( NationalNaturalScienceFoundationofChina , Beijing100083 ) 
+ LiuShufen 
+ ( ResearchCenterforEco - EnvironmentalSciences , ChineseAcademyofSciences , Beijing100085 ) 
+ RappaportS . M . 
+ ( UNCatChapelHill , ChapelHill , NC27599 - 7400 , USA ) 
+ 
+ ABSTRACT 　 Anassayisdescribedformeasuresofadductsofstyreneoxide ( SO ) withhemoglobin ( Hb ) wichhavebeenmodifiedatresiduescontainingeithercarboxylicacidorsulfhydrylgroups . Inthefirst , SO - carboxylicacidadductsarehydrolyzedinbasicmediumtoliberatestyreneglycol ( SG ) . Then , theremainingresiduesarereactedwithareductivecatalyst ( Raneynickel ) toliberatethetwopositionalisomersofSO - cysteineadducts , i . e . , α - phenylethanol ( 2 - PE ) and β - phenylethanol ( 1 - PE ) . TheproductsarederivatizedwithpentafluorobenzoylchlorideandmeasuredbyGC - NICI - MS . 
+ TheassaywasevaluatedwithSOadductsofHbwhichhadbeenproducedinthebloodofS - Dratsfollowing ( a ) invitromodificationor ( b ) i . p . administrationofeitherSOorstyrene . Levelsofthethreeanalytes ( SG , 1 - PEand2 - PE ) increasedwithdoseinhemoglobin . BindingofSOtocysteineresiduesofbloodproteinsisgreatlypreferredatthe α - positionratherthanthe β - positionbothinvitroandinvivo . Thelowestdetectableadductconcentrationsare8pmol / gproteinforSG , 5pmol / gproteinfor1 - PE , and0.6 pmol / gproteinfor2 - PE . 
+ Keywords 　 styreneoxide - hemoglobin , adduct . 
+ 　 　 苯乙烯 是 塑料 和 橡胶 工业 中 重要 的 单体 之一 ［ 1 ］ ， 同时 也 广泛 存在 于 环境 中 ， 在 香烟 烟雾 、 汽车尾气 、 饮用水 和 食品 包装物 中 都 有 发现 . 苯乙烯 的 职业 接触 主要 通过 呼吸 吸入 和 皮肤 吸收 ， 一般 人群 的 低浓度 接触 主要 是 塑料包装 物 的 食品 进入 体内 . 苯乙烯 的 主要 代谢物 是 环氧 苯乙烯 ( SO ) ［ 2 ］ ， 动物 实验 指出 ， 环氧 苯乙烯 有致 突 、 致畸 和 致癌 作用 ［ 3 ］ . 经 研究 发现 环氧 苯乙烯 与 生物体 的 DNA 和 蛋白质 的 亲核 部分 能 形成 共价 相联 的 DNA - 加合物 ［ 4 ］ 和 蛋白质 加合物 ［ 5 ］ . 
+ 　 　 理论 上 任何 亲核 的 氨基酸 末端 都 能 与 SO 产生 加合物 ， 但是 受 分析方法 的 限制 ， 目前 分析 仍 集中 于 下述 几种 氨基酸 上 ： 血红蛋白 ( Hb ) 的 N - 末端 缬氨酸 ［ 4 ］ 、 半胱氨酸 ［ 6 ］ 、 及 羧酸 末端 ［ 7 ］ ， 原因 是 这些 蛋白质 加合物 相对 容易 分离 . 本文 研究 能 在 同一个 Hb 的 样品 中 同时 测定 SO - 羧酸 加合物 和 SO - 半胱氨酸 加合物 ( 3 种 加合物 ) 的 方法 ， 分析方法 相对 简单 ， 灵敏度 高 ， 用样 量 少 ， 广泛 用于 蛋白质 加合物 作为 生物 标志物 的 研究 . 
+ 1 　 材料 与 仪器 
+ 1.1 　 化学品 
+ 　 　 苯乙烯 ( 99% ) ， 环氧 苯乙烯 ( 99% ) ， Raney 镍 ， N — 溴丁二 酰亚胺 ( NBS ) ， 4 - 甲基 苯乙烯 ， 2 - PE ， 4 - 甲基 苯 乙醇 ( 4 - m — 2 - PE ) ， 吡啶 ( 无水 ) ， 五氟苯 酰氯 ( PFB - 酰氯 ) 等 购于 Aldrich 公司 ； SO ( 97% ) 购自 FlukaChim 公司 ； 辅酶 Ⅺ 　 Ⅴ ， SephadexG - 25 ( 20 — 80 μ m ) 购自 Sigma 公司 ； 乙醚 购自 Mallinkrodt 公司 ； 无水 硫酸钠 购自 J . T . Baker 公司 ； 正己烷 ( 农药 级 ) 购自 Fishev 公司 ； 水由 Millin - Q 系统 纯化 . 
+ 1.2 　 部分 化学品 及 标样 的 合成 与 纯化 
+ 　 　 4 - 甲基 苯 乙二醇 ( 4m — SG ) 的 合成 和 纯化 方法 的 过程 如下 ： 用 0.45 mol4m - SO 在 室温 下 与 100mL0.1 molHCl 搅拌 10min ， 水层 用 20mL 的 乙醚 萃取 两次 ， 将 乙醚 用 N2 驱除 后 ， 留下 的 白色 固体 为 4m - SG ， 真空 干燥 后 ， 产物 用 电子 轰击 质谱 ( EI - MS ) 鉴定 ， 详细 过程 参考文献 ［ 6 ］ . 同样 的 方法 合成 和 鉴定 4m - SO - Hb . 
+ 1.3 　 仪器 
+ 　 　 负离子 化学 源 的 色 质谱 联用 GC / MS - ( NICI ) ( HP - 5989A ) ， 高速 离心机 ， 紫外 - 可见 分光 光度 仪 ， 真空 干燥箱 ， 恒温 水浴 等 . 
+ 2 　 实验 方法 
+ 2.1 　 样品 的 制备 
+ 　 　 ( a ) 体外 反应 样品 的 制备 ： 0.5 mL 的 SO 的 生理盐水 溶液 ( 0 — 7.5 mmol / L ) 加入 到 1.2 mL 新鲜 的 大鼠 全血中 ， 使 其 最终 的 溶液 SO 的 浓度 为 ： 0 、 10 、 30 、 100 、 300 μ mol / L 样品 置于 水浴 中 ， 37 ℃ 培育 2h ， 并 间断性 的 摇动 . ( b ) 动物 实验 样品 的 制备 ： 溶于 玉米油 的 苯乙烯 和 SO 注射 到 SD 大鼠 腹腔 内 ， 剂量 分别 为 ： 苯乙烯 是 0 、 0.5 、 1.0 、 3.0 mmol / kg ( 体重 ) ， SO 为 0 、 0.1 、 0.3 、 1.0 mmol / kg ( 体重 ) ； 注射 24h 后 ， 用 甲氧基 芴 麻醉 ， 用 肝素 处理 过 的 注射器 从 大鼠 的 心脏 取血 . ( c ) 血红蛋白 分离 与 纯化 ： 全血 样品 在 100 × g 的 离心机 中 离心 20min ， 分离 出 血清 和 红血球 ( 血清 冷冻 备 它 用 ) ， 用 生理盐水 淋洗 红血球 ， 然后 用 等量 的 去离子水 破坏 红血球 ， 在 5 ℃ 下以 21000 × g 高速 离心 40min ， 除去 红细胞 的 细胞壁 ， 再 将 溶液 通过 SephadexG - 25 柱子 透析 ， 除去 小 分子量 的 蛋白质 ， Hb 溶液 被 滴入 冷 的 酸性 丙酮 中 ， 离心分离 出 球蛋白 固体 ， 经 洗涤 ， 最后 在 40 ℃ 真空 干燥 到 恒重 . 
+ 2.2 　 蛋白 样品 的 水解 
+ 　 　 20mg 球蛋白 样品 ( Gb ) 和 10 μ g4 - m - SO - 蛋白质 标样 溶于 4mL 的 水中 ， 加 蛋白质 样品 溶液 质量 7 ％ 的 辅酶 Ⅺ 　 Ⅴ ， 37 ℃ 酶 解 4h ， 并 不断 的 搅拌 ， 然后 加入 1mLNaOH ( 1mol / L ) 到 酶 解后 的 样品 中 煮沸 5min ， 冷却 后用 2 × 5mL 醋酸乙酯 萃取 . 
+ 2.3 　 Raneyn 镍 催化 还原 
+ 　 　 余下 含 蛋白质 的 水溶液 用 0.2 mol / LHCl 调到 pH = 7 ， 在 每个 样品 中加 6 倍 Gb 质量 的 Raney 镍 和 1ng 的 自由 标样 3 - PP ， 在 4 ℃ 下振摇 40min ， 然后 用 5mL 乙醚 萃取 . 
+ 2.4 　 样品 的 衍生 
+ 　 　 上述 醋酸乙酯 和 乙醚 萃取液 在 氮气 下 浓缩 到 3mL ， 用 350mg 的 无水 Na2SO4 干燥 萃取 物 ， 然后 将 样品 转移 到 更 小 的 试剂瓶 中 ， 进一步 浓缩 到 干固 ， 再用 1mL 正己烷 溶解 ， 并 加入 3 μ L 砒啶 ， 1.5 μ LPFB - 酰氯 ， 在 50 ℃ 下 反应 20min . 反应物 冷却 后用 0.5 mL 的 85% 甲醇 水溶液 洗涤 ， 分离 后 的 正己烷 层 用于 GC / MS 分析 . 
+ 2.5 　 GC / MS 分析 
+ 　 　 衍生 后 的 样品 用 负离子 化学 源 的 GC / MS 仪器 分析 ， 采用 石英 毛细管柱 ， ( 长 30m ， 内径 0.242 mm ) ， 1mm 厚度 的 DB - 5 融熔 管柱 ， 柱箱 的 程序 温度控制 对于 SG - PFB 和 4 - m - SG - PFB 为 ： 75 ℃ 保持 1min ， 以 50 ℃ / min 速度 升到 250 ℃ ， 保持 20min ， 对于 1 - PE - PFB ， 2 - PE - PFB ， 4 - m - 2 - PE - PFB 和 3PP - PFB 为 ： 75 ℃ 保持 1min ， 以 50 ℃ / min 的 速度 升到 200 ℃ , 保持 8min ， 再以 50 ℃ / min 的 速度 升到 250 ℃ ， 保持 11min ； 离子化 源 的 温度 是 150 ℃ ， 非 分流 进样 ， 进样 温度 250 ℃ ， NICI 的 反应 气体 为 甲烷 ( 2 × 133.3 Pa ) ， 载气 为 He ( Psi ) 在 M / Z316 ( SG - PFB ， 1 - PE - PFB ， 2 - PE - PFB ) 和 M / Z333 ( 4m - SG - PFB ， 4m - 2 - PE - FB ， 3 - PP - PFB ) 进行 选择性 的 离子 监测 ， 依据 峰 面积 定量 ， 分析 物 的 保留 时间 为 ： SG - PFB = 12.7 min ， 4m - SG - PFB = 14.7 min ， 1 - PE - PFB = 9.5 min ， 2 - PE - PFB = 10.9 min ， 4M - 2 - PE - PFB = 12.9 min ， 3 - PP - PFB = 13.5 min . 某些 样品 用 HP5971A 的 质量 选择 监测器 进行 分析 ( MSD ) ， 采用 相同 的 毛细管柱 ( DB - 5 ) 和 上述 的 温度 程序 ， MSD 的 介面 温度 是 280 ℃ ， 在 70eV 离子源 下 ， 50 — 650u 质量范围 连续 扫描 获得 了 EI 质谱 . 
+ 3 　 结果 
+ 　 　 图 1 、 图 2 是 300 μ molSO 与 大鼠 血 体外 反应 ， 按 上述 过程 分析 ， 蛋白质 样品 进行 酶 解 和 催化 还原 ， 衍生 化后 ， 用 M / Z 在 50 - 550 范围 扫描 所得 GC / MS 的 总 离子流 色谱 图 、 标样 和 样品 中有 相同 保留 时间 的 色谱 峰 的 EI 质谱 图 . 从图 1 可 看出 蛋白质 水解 为 苯 乙二醇 是 由 它 的 五氟苯 酰氯 的 衍生物 ( SG - PFB ) 来 定性 ， 从图 2 看出 由 Raney 镍 催化 裂解 为 1 - PE 和 2 - PE 是 由 它们 的 五氟苯 酰氯 衍生物 ( 1 - PE - PFB ， 2 - PE - FB ) 来 定性 ， 这 结果表明 在 同一 样品 中 ， 用 不同 的 过程 可以 测 3 种 不同 的 加合物 . 
+ 表 1 　 方法 检测 限 ( LOD ) 和 样品 的 最低 检测 浓度 ( LDSC ) * 
+ Table1Thelimitofdetermination ( LOD ) andthelowestdetectableconcentration ( LDSC ) 
+ 
+ 样品 进样量 ， pgLOD , fmolLDSC , pmol / g 
+ SG100.658 . 13 
+ 4M - SG101.39 — 
+ 1 - PE10.405 . 30 
+ 2 - PE10.050 . 61 
+ 4M - PE10.10 — 
+ 3 - PP10.13 — 
+ 
+ 　 　 * 蛋白质 10mg ， 样品 最终 体积 是 0.1 mL ， 进样量 1 μ L 
+ 
+ 
+ 图 1 　 SO 体外 反应 加合物 的 质谱 图 ( 水解 后 ) 
+ A : 总 离子流 B ： 15.45 min 的 扫描 质谱 C : 标样 的 质谱 
+ Fig.1 GC / MS / EIanalysisofSO - proteinadductinvitro 
+ 
+ 
+ 图 2 　 SO 体外 反应 加合物 的 质谱 图 ( 催化反应 ) 
+ A : 总 离子流 B ： 12min 的 质谱 C ， E : 标样 质谱 D ： 14.44 min 的 质谱 
+ Fig.2 GC / MS / EIanalysisofSO - proteinadduct ( Rainyneckel ) invitro 
+ 　 　 为了 提高 方法 的 灵敏度 ， 我们 应用 了 负电子 化学 源 的 GC / MS 选择性 的 多 离子 监测 来 定量分析 样品 ， 测出 SG - PFB ， 1 - PE - PFB ， 2 - PE - FB 以及 标样 4m - SG - PFB ， 4m - PE - PFB 和 3 - PP - PFB 的 检测 限 列入 表 1 ， 若 蛋白质 用量 是 10mg ， 样品 最终 的 溶液 量 是 0.1 mL ， 其 最终 可 检测 加合物 的 浓度 为 ： SG 为 8pmol / g ( 蛋白质 ) ， 1 - PE 为 5pmol / g ( 蛋白质 ) ， 2 - PE 为 0.6 pmol / g ( 蛋白质 ) . 对 方法 的 精密度 实验 是 采用 0.5 mg 内标 物 4m - SO - Gb ， 进行 30 次 分析 ( 样品 是 商品 的 Hb ) ， 其 变异系数 为 12% . 对 蛋白质 加合物 的 稳定性 的 贮存 实验 ， 结果 在 - 80 ℃ 下 样品 中 的 蛋白质 加合物 的 浓度 在 一年 内 没有 明显 的 变化 . 
+ 　 　 用 大鼠 全血 和 SO 体外 反应 样品 ， 图 3 显示 了 所测 蛋白质 加合物 与 SO 剂量 的 关系 ， SO - Y 代表 蛋白质 加合物 浓度 ， Y 代表 Hb 中 的 半胱氨酸 或 羧酸 ， SO - Y 的 单位 为 μ mol / L . 由图 3 可以 清楚 地 看到 SO 与 大鼠 血 的 体外 反应 形成 的 加合物 与 剂量 有 较 好 的 线性 相关性 . 
+ 　 　 图 4 、 图 5 表示 了 用 苯乙烯 和 SO 分别 注入 大白鼠 的 腹腔 内 反应 后 ， 血中 形成 蛋白质 加合物 与 剂量 的 响应 关系 . 由图 4 、 5 明显 的 可以 看出 用本 方法 测 得 大鼠 血中 的 3 种 不同 SO - 蛋白质 加合物 与 剂量 都 有 较 好 的 相关性 . 
+ 
+ 
+ 图 3 　 SO 与 大鼠 血 体外 反应 加合物 与 剂量 的 关系 
+ A : Hb - SGB : Hb - 1 - PEand2 - PE 
+ Fig.3 ModificationofratbloodbySOinvitro 
+ 
+ 
+ 
+ 图 4 　 SO 在 大鼠 体内 反应 加合物 与 剂量 的 关系 
+ A : Hb - SGB : Hb - 1 - PEand2 - PEFig.4 ModificationofratbloodbySOinvivo 
+ 
+ 
+ 图 5 　 苯乙烯 在 大鼠 体内 反应 加合物 与 剂量 的 关系 
+ A : Hb - SGB : Hb - 1 - PEand2 - PEFig.5 Modificationofratbloodbystyreneinvivo 
+ 表 2 列出 SO 与 大鼠 血 体内 体外 反应 形成 加合物 异构体 的 比率 ， 由表 2 可以 看出 无论是 体外 还是 体内 反应 ， 半胱氨酸 的 加合 能力 优于 羧酸 ， SO 中 的 α 位 总是 优于 β 位 . 
+ 表 2 　 SO 不同 异构体 加合物 的 形成 比率 
+ Table2Theratioofproteinadductsindifferentbindingsitesaction 
+ 
+ 加合物 SO ( 体外 ) SO ( 体内 ) 苯乙烯 ( 体内 ) 
+ SO - 半光 氨酸 / SO - 羧酸 651544 
+ α SO 半光 氨酸 / β SO 半光 氨酸 6.65 . 36.2 
+ 
+ 
+ 4 　 讨论 
+ 　 　 在 同一 样品 中 同时 测定 不同 加合点 的 致癌物 与 蛋白质 加合物 作为 接触 致癌物 的 生物 检测 方法 尚无 报导 ， 如果 加合物 的 水平 相当 ， 用 这种 方法 测得 的 不同 加合点 加合物 浓度 相加 ， 会 提高 方法 的 灵敏度 ， 同时 还 可以 比较 不同 加合点 的 加合物 浓度 . 一般而言 ， 不同 的 加合物 有 不同 的 生物 效应 ， 从而 可以 选择 更 合适 的 加合物 作为 常规 的 生物 检测 或 生物 标志物 . 用 水解 的 方法 测 致癌物 与 羧酸 加合物 是 由 Gan 提出 研究 的 ［ 8 ］ . Day ［ 9 ］ 和 Sepai ［ 10 ］ 将 方法 用于 测 SO - 蛋白质 加合物 ， 最低 检测 样品 浓度 是 15pmol / g ( 蛋白质 ) . 而 在 我们 的 研究 中 增加 了 酶 解后 碱性 加热 煮沸 使 样品 得以 完全 水解 ， 其 最低 检测 浓度 为 8pmol / g ( 蛋白质 ) . 
+ 　 　 由表 2 可以 看出 SO 与 不同 的 氨基酸 末端 形成 加合物 的 能力 不同 ， SO 与 半胱氨酸 形成 加合物 的 能力 大于 SO 与 羧酸 的 加合 能力 . SO 也 可以 与 血红蛋白 中 天冬氨酸 、 谷氨酸 等 羧酸 末端 形成 SO - 羧酸 加合物 ， 可能 是 加合物 浓度 低 ， 也 可能 是 在 蛋白质 纯化 和 沉定 的 过程 中 水解 了 , 不易 测定 . 所以 根据 本 实验 的 结果 ， 对比 各 加合物 形成 能力 和 样品 的 最低 检测 浓度 ， 一般 条件 下 倾向 于 选择 SO - 半胱氨酸 加合物 作为 接触 SO 的 生物 检测 标志物 . 
+ 　 　 Pachecka 报导 SO 与 谷胱甘肽 反应 形成 加合物 的 比率 是 α 位 / β 位 = 60 / 40 ［ 11 ］ ， Yagen 报导 SO 与 N - 乙酸 半胱氨酸 反应 两种 加合物 的 比率 是 α 位 / β 位 = 65 / 35 ［ 12 ］ ， Hemmiki 报导 SO 与 半胱氨酸 反应 异构体 的 比率 是 α 位 / β 位 = 2 / 1 ［ 5 ］ ( 与 本 实验 方法 不同 ) ， 而本 实验 是 α 位 / β 位 = 6.6 、 5.4 、 6.2 , 很 接近 ( 不同 的 反应 ) ， 说明 利用 不同 的 氨基酸 末端 反应 可以 测出 不同 的 加合物 异构体 比率 ， 这种 现象 的 原因 有待 进一步 的 深入研究 ， 根据 本 实验 结果 ， 一般 条件 下 选择 α 位 加合物 作为 研究 接触 SO 的 生物 检测 更具 代表性 . 
+ 国家自然科学基金 ( 编号 ： 59543006 ， 29577289 ) 和 美国 职业 与 健康 基金 资助 
+ 参考文献 
+ 　 1 　 BondJA . Reviewofthetoxicologyofstyvene . CritRevToxicol , 1989 , 19 : 227 — 249 
+ 　 2 　 LeibmanKC , OrtizE . Oxidationofstyreneinlivermicrosomes . BiochemPharmacol , 1969 , 18 : 552 — 554 
+ 　 3 　 PonomarkovV , CabralJRP , WahrendorfJetal . Acarcinogenicitystudyofstyrene - 7 , 8oxideinrats . CancerLett , 1984 , 24 : 95 — 101 
+ 　 4 　 NordqvistBM , LofA , Osterman - GolkarSetal . Covalentbindingofstyreneandstyrene7 , 8 - oxidetoplasmaproteins , hemoglobinandDNAinthemouse . ChemBiolInteract , 1985 , 55 : 63 — 73 
+ 　 5 　 HemminkiK . Bindingofstyreneoxidetoaminoacids , humanserumproteinsandhemoglobin . ArchToxicol . Suppl , 1986 , 9 : 286 — 290 
+ 　 6 　 RappaportSM , TingD , JinZetal . ApplicationofRaneynickeltomeasureadductsofstyreneoxidewithhemoglobinandalbumin . ChemResToxicol , 1993 , 6 : 238 — 244 
+ 　 7 　 DayBW , NaylorSGan , SahaliLSetal . Moleculardosimetryofpolycyclicaromatichydrocarbonepoxidesanddiolepoxidesviahemoglobinadducts . CancerRes , 1990 , 50 : 4611 — 4618 
+ 　 8 　 GanLS , WishnokJS , FoxJG . Quantitationofmethylatedhemoglobinviahydrolysisofmethylesterstoyieldmethanol . AnalBiochem , 1989 , 179 : 326 — 331 
+ 　 9 　 DayBW , NaylorSGan , SahaliLSetal . Gaschromatographic - massspectrometricanalysisofdiolsandtetrolsfromreactionsofpolycyclicaromatichydrocarbonepoxideswithhemoglobin . JChromatogr , 1991 , 562 : 563 — 571 
+ 10 　 SepaiO , AndersonD , StreetBetal . MonitoringofexposuretostyreneoxidebyGC / MSanalysisofphenylhydroxyethylestersinhemoglobin . ArchToxicol , 1993 , 67 : 28 — 33 
+ 11 　 PacheckaJ , GariboldiP , Cantonietal . Isolationandstructuredeterminationofenzymaticallyformedstyreneoxideglutathioneconjugates . ChemBiolInteract , 1979 , 27 : 313 — 321 
+ 12 　 YagenB , HermandezO , BendJRetal . SynthesisandrelativestereochemistryofthefourmercapturicacidsderivedfromstyreneoxideandN - acetylcysteine . ChemBiolInteract , 1981 , 34 : 57 — 67 

@@ -1,0 +1,115 @@
+航空 材料 学报 
+ JOURNALOFAERONAUTICALMATERIALS 
+ 1999 年 　 第 19 卷 　 第 3 期 　 Vol.19 　 No.3 　 1999 
+ 
+ 
+ 
+ 喷射 沉积 Ni3Al - Mo 合金 的 位错 结构 分析 
+ 米国发 　 　 罗 治平 　 　 田世藩 　 　 李 庆春 
+ 
+ 摘要 ： 利用 多功能 雾化 沉积 装置 制备 了 Ni - Al - Mo 系 Ni3Al 基 高温 合金 。 拉伸 性能 测试表明 ， 喷射 沉积 Ni3Al - Mo 合金 的 屈服 强度 具有 明显 的 “ R ” 特性 。 利用 TEM 位错 结构 分析 ， 阐明 了 合金 微观 结构 与 屈服 强度 之间 的 关系 ， 研究 结果表明 ， 试验 合金 所 具有 的 屈服 强度 随 温度 的 变化规律 主要 是 由 不同 温度 下 γ ′ 及 γ 相内 的 位错 缠结 状况 、 位错 对 的 形态 及 数量 和 六面体 滑移 系 的 开动 程度 决定 的 。 
+ 关键词 ： Ni3Al - Mo 合金 ； 拉伸 性能 ； 位错 结构 
+ 中 图 分类号 ： TG113 　 　 　 文献 标识码 ： A 　 　 　 文章 编号 ： 1005 - 5053 ( 1999 ) 03 - 0019 - 08 
+ 
+ DislocationstructureofspraydepositedNi3Al - Moalloy 
+ MIGuo - fa1 　 　 LUOZhi - ping1 　 　 TIANShi - fan1 　 　 LIQing - chun2 
+ ( 1 . InstituteofAeronauticalMaterials , Beijing100095 , China ; 2 . HarbinInstituteofTechnology , Harbin150001 , China ) 
+ Abstract ： ANi3Al - basedsuperalloyofNi - Al - Mosystemhasbeensuccessfullypreparedbyusingthemultifuctionalsprayatomizationanddepositionplant . TestingfortensilepropertiesindicatedthatthespraydepositedNi3Al - Moalloypossesses “ R ” characteristicintheyieldstrength . AnalysisofdislocationstructurebyTEMhasrevealedtherelationshipbetweenthemicrostructureandyieldstrength . Theresultsshowthattheyieldstrengthchangingwithtemperatureforthealloyisdeterminedbythedislocationwindingcondition 、 patternandquantityofthedislocationpairandstartingdegreeofthehexahedronslidesysteminside γ ′ and γ phases . 
+ Keywords : Ni3Al - Moalloy ； tensileproperties ； dislocationstructure 
+ 
+ 　 　 L12 型 Ni3Al 金属 间 化合物 合金 ， 由于 其 屈服 强度 具有 相对 温度 的 反常现象 而 成为 发展 高温 合金 的 基础 。 大量 的 研究 表明 ， 在 峰值 温度 以下 ， 开动 的 主要 滑移 系为 { 111 } 〈 110 〉 ， 而 在 峰值 温度 以上 则 为 六面体 滑移 系 { 010 } 〈 110 〉 ［ 1 ］ 。 目前 已 趋于 认为 ， 位错 从 { 111 } 面交 滑移 至 { 100 } 面而 导致 不可 动 位错 的 产生 是 材料 发生 温度 反常 效应 的 原因 ， 并 提出 了 多种 理论 结构 模型 ［ 2 ～ 4 ］ 。 
+ 　 　 对于 ( γ + γ ′ ) 两相 结构 材料 的 变形 行为 研究 较 少 。 显然 ， 其 变形 方式 有别于 单相 的 L12 型 材料 。 喷射 沉积 Ni3Al - Mo 合 金属 典型 的 两相 LI2 型 结构 。 本文 通过 对 合金 变形 后 的 位错 结构 分析 ， 揭示 了 微观 结构 与 宏观 力学性能 之间 的 内在联系 。 
+ 1 　 试验 研究 方法 
+ 　 　 试验 合金 的 成分 及其 制备 工艺 见 文献 ［ 5 ～ 7 ］ ； 拉伸 性能 试验 在 Instron 万能 试验机 上 进行 ， 拉伸 试验 温度 分别 为 20 ℃ ， 650 ℃ ， 760 ℃ ， 800 ℃ 和 870 ℃ ， 夹头 移动 速度 为 8.33 × 10 － 3mm / s ； 制备 TEM 样品 时 ， 先 在 拉伸 断裂 后 的 试样 上 轴向 切取 0.2 mm 厚薄 片 ， 再 机械 减薄 至 0.05 mm ， 然后 进行 电解 双喷 减薄 ， 电解液 采用 15% 高氯酸 甲醇溶液 ， 样品 在 电解 双喷减 薄时 ， 应 尽量 使 穿孔 薄区 靠近 断口 。 
+ 2 　 试验 结果 及 讨论 
+ 2.1 　 拉伸 性能 与 温度 的 关系 
+ 　 　 图 1 给出 了 喷射 沉积 Ni3Al - Mo 合金 屈服 强度 随 温度 的 变化规律 。 由图 可见 ， 与 单相 LI2 型 金属 间 化合物 的 变形 行为 相似 ， 具有 明显 的 “ R ” 特性 ， 从 室温 开始 ， 随 温度 升高 ， 屈服 强度 值 不仅 没有 下降 ， 反而 上升 ， 到 760 ℃ 时 达到 峰值 ， 再 随后 屈服 强度 随 温度 上升 而 下降 。 
+ 
+ 图 1 　 喷射 沉积 材料 的 屈服 强度 随 温度 的 变化 曲线 
+ Fig.1 　 Yieldstrengthofspraydepositedmaterials ν stemperature 
+ 
+ 2.2 　 位错 结构 分析 
+ 2.2 . 1 　 室温 变形 后 的 位错 结构 
+ 　 　 经 室温 变形 后 ， γ 及 γ ′ 相内 均 出现 了 位错 缠结 结构 ， 尤其 是 在 γ 相内 位错 密度 很 高 ( 图 2 ) 。 由于 γ 比 有序 的 γ ′ 相软 ， 初始 变形 总是 发生 在 γ 相内 ， 将 产生 运动 的 〈 110 〉 点阵 位错 ［ 7 ～ 10 ］ 。 这种 点阵 位错 运动 到 γ / γ ′ 界面 时 ， 直接 切割 γ 相将 产生 高能 的 反相畴 ( APB ) ， 但 也 可 与 后续 的 〈 110 〉 点阵 位错 发生 反应 生成 〈 110 〉 型 超 点阵 位错 而 切割 γ ′ 相 ［ 7 ］ 。 在 室温 下 ， 初始 位错 与 超 点阵 位错 均 在 八面体 滑移 系 的 ｛ 111 ｝ 面间 发生 了 交 滑移 ， 因而 呈现 了 位错 缠结 结构 ， 并 不是 平面 状 的 位错 结构 。 
+ 　 　 室温 下 变形 时 ， 在 γ 相内 发现 了 精细 孪晶 结构 ( 图 3 ) 。 观察 到 倒易 矢 11 垂直于 图像 中 孪晶 的 迹线 方向 ， 分析 确定 孪 晶面 为 ( 11 ) 。 相应 地 ， 根据 其 晶面 变换 矩阵 标定 了 孪晶 衍射 图 ( 图 3c ) 。 由于 精细 片状 孪晶 形状 效应 ， 衍射 斑点 在 垂直于 孪 晶面 方向 被 拉长 ， 并且 由于 二次 衍射 效应 ， 在 穿过 透射 斑点 且 具有 公共 斑点 的 一列 衍射 斑 的 上下 两层 ， 均 出现 了 孪晶 斑点 。 
+ 
+ 图 2 　 室温 变形 后 的 位错 结构 
+ Fig.2 　 Dislocationstructuresafterdeformationatroomtemperature 　 
+ ( a ) brightfield ( BF ) ； ( b ) / 3weakbeamdarkfield ( WBDF ) ； 
+ ( c ) twobeamelectrondiffractionpatternwith = ［ 11 ］ ( EDP ) 
+ 
+ 图 3 　 室温 变形 后 γ 相中 的 孪晶 
+ 　 Fig.3 　 Twinsin γ phaseafterdeformationatroomtemperature 
+ ( a ) brightfield ( BF ) ； ( b ) centerdarkfield ( CDF ) with 
+ ( 200 ) Treflection ； ( c ) electrondiffractionpattern ( EDP ) 
+ 
+ 2.2 . 2 　 650 ℃ 变形 后 的 位错 结构 
+ 　 　 经 650 ℃ 变形 后 ， 在 γ 相内 ， 仍然 存在 精细 孪晶 结构 ， 按 上述 同样 方法 处理 ， 确定 其 孪 晶面 为 ( 11 ) 。 
+ 　 　 经 650 ℃ 变形 后 ， γ 相内 仍然 存在 高位 错 密度 的 缠结 结构 。 但 在 γ ′ 相内 出现 了 较为 平直 的 位错 对 ( 图 4 ) ， 同时 可以 观察 到 有 大量 的 弯曲 位错 线 存在 。 首先 观察 在 ［ 011 ］ 带轴下 的 位错 结构 。 在 = ［ 1 ］ 条件 下 ， 观察 到 了 在 一个 方向 的 位错 对 ( 图 4a ) ， 采用 ± 成像 来 检验 ， 位错 对 间距 与 位置 并 不 改变 ， 因此 为 超 位错 ［ 8 ］ 。 当 操作 矢量 改为 = ［ 00 ］ 时 ， 位错 对 消失 ( 图 4c ) ， 可见 其柏氏 矢量 ＝ ［ 01 ］ ［ 9 ］ 。 将 该 视场 沿 ( 200 ) 车挂 资阜 较 虼 蠼 嵌 惹 阕 到 ［ 001 ］ 轴 方向 ( 图 4e ) ， 此时 以 = ［ 20 ］ 成像 ， 由于 . ≠ 0 ， 所以 位错 对 出现 ［ 9 ］ 。 可以 观察 到 ， 位错 对 1 — 1 的 间距 在 ［ 001 ］ 轴下 明显增加 ， 由 0.5 μ m 增加 至 0.75 μ m ， 相差 约 倍 。 由此可见 ， 1 — 1 位错 对 位于 ( 001 ) 面 ， 其 方向 为 ［ 100 ］ ， 从图 4f 衍射 图 也 可 得到 证实 。 位错 对 位于 ( 001 ) 面 ， 意味着 六面体 滑移 系 的 开动 。 由于 位错 对 在 ｛ 001 ｝ 面上 APB 能量 低 ， 因此 ， ｛ 111 ｝ 面上 的 位错 对 在 高温 下 通过 热 激活 而交 滑移 至 ｛ 100 ｝ 面上 ， 并且 在 ｛ 100 ｝ 面上 位错 对 间距 往往 扩展 得 很 宽 ， 这 与 实验 观察 到 的 结果 相符合 。 由于 ｛ 100 ｝ 面 并 不是 其 滑移 面 ， 从而 将 成为 后续 运动 位错 的 障碍 ， 这是 650 ℃ 合金 屈服 强度 反而 高于 室温 的 原因 ， 与 宏观 力学性能 测试 结果 相吻合 。 
+ 2.2 . 3 　 760 ℃ 变形 后 的 位错 结构 
+ 　 　 经 760 ℃ 变形 后 ， γ 相内 已 没有 精细 孪晶 结构 ， 而 只有 高位 错 密度 的 缠结 结构 。 在 γ ′ 相内 ， 出现 了 大量 的 位错 对 结构 ， 部分 位错 对 呈 弯曲 或 缠结 状 ( 图 5 ) 。 用 ± 20 ］ 成像 ， 由于 方法 检验 ， 确定 这些 位错 对 为 超 点阵 位错 对 。 当 操作 矢量 改为 ＝ ［ 200 ］ 时 ， 这些 位错 对 消失 ( 图 5c ) 。 可见 其柏氏 矢量 为 ＝ ［ 01 ］ ［ 9 ］ 。 将 该 视场 从 ［ 011 ］ 轴大 角度 地倾 转至 ［ 101 ］ 轴 ( 图 5e ) ， 在 ＝ ［ 011 ］ 下 ， 位错 对 仍然 可见 ， 但 仔细观察 可见 其中 某些 位错 线 对 ， 如 a - a ， 在 ［ 101 ］ 轴下 已 发生 重合 ， 说明 这些 位错 线 对 位于 ( 010 ) 面上 ， 即 在 760 ℃ 下 有 六面体 滑移 系 的 开动 。 观察 表明 ， 此时 六面体 滑移 系 开动 的 程度 较大 ， 因此 ｛ 111 ｝ 面上 的 位错 对 在 高温 下 通过 热 激活 而交滑 至 ｛ 100 ｝ 面上 的 数量 迅速 增加 ， 因此 对 后续 运动 位错 的 阻碍 作用 大大 增强 ， 所以 导致 了 合金 在 760 ℃ 时 屈服 强度 出现 最大值 。 
+ 
+ 
+ 
+ 
+ 
+ 图 4 　 650 ℃ 变形 后 的 位错 结构 
+ Fig.4 　 Dislocationstructureafterdeformationat650 ℃ 
+ ( a ) / 3WBDF ； ( b ) EDPwith = ［ 1 ］ ； ( c ) / 3WBDF ； 
+ ( d ) EDPwith = ［ 00 ］ ； ( e ) / 3WBDF ； ( f ) EDPwith = ［ 20 ］ 
+ 
+ 
+ 
+ 
+ 
+ 图 5 　 760 ℃ 变形 后 的 位错 结构 
+ Fig.5 　 Dislocationstructureafterdeformationat760 ℃ 
+ ( a ) / 3WBDF ； ( b ) EDPwith = ［ 1 ］ ； ( c ) / 3WBDF ； 
+ ( d ) EDPwith = ［ 200 ］ ； ( e ) / 3WBDF ； ( f ) EDPwithg = ［ 11 ］ 
+ 
+ 2.2 . 4 　 800 ℃ 变形 后 的 位错 结构 
+ 　 　 经 800 ℃ 变形 后 ， γ 相内 位错 密度 仍然 很 高 ， 并 有 出现 位错 网 的 趋势 。 在 γ ′ 相内 ， 位错 对 排列 规则 ， 具有 明显 的 晶体学 特征 ， 无 弯曲 和 缠结 状态 存在 ( 图 6 ) 。 在 图 6a 中 ， γ ′ 相内 位错 对 呈 两个 方向 分布 ， 图 中标 为 A 和 B 方向 。 当 操作 矢量 从 ［ 200 ］ 改为 ［ 11 ］ 时 ， 位错 对 B 消失 ( 图 6c ) ， 可见 1 ＝ ［ 110 ］ 或 1 ＝ ［ 10 ］ ［ 9 ， 11 ］ 。 当 操作 矢量 ＝ ［ 11 ］ 时 ， 位错 对 A 消失 ， 由此可知 2 ＝ ［ 10 ］ 或 2 ＝ ［ 101 ］ ［ 9 ， 11 ］ 。 将 试样 从 ［ 011 ］ 轴 倾转 至 ［ 001 ］ 轴时 ， 从图 6g 可见 ， 在 ＝ ［ 00 ］ 下 ， 位错 对 A 和 B 均 可见 ， 因此 可 唯一 确定 1 ＝ ［ 110 ］ 。 2 ＝ ［ 10 ］ ［ 9 ， 11 ］ 。 由于 位错 对 扩展 很 宽 ， 可见 其 滑移 面 仍 为 ｛ 100 ｝ 。 在 高温 下 ， 由于 位错 可以 通过 热 激活 而 增加 活性 ， 因此 γ ′ 相内 位错 发展 为 较为 稳定 的 网状结构 。 这种 网状结构 较 缠结 结构 对 运动 位错 的 阻碍 作用 将 减弱 ， 再 加上 γ ′ 相内 位错 对 弯曲 和 缠结 结构 的 消失 ， 势必会 导致 合金 屈服 强度 的 下降 。 
+ 
+ 
+ 
+ 
+ 图 6 　 800 ℃ 变形 后 的 位错 结构 
+ Fig.6 　 Dislocationstructureafterdeformationat800 ℃ 
+ ( a ) / 3WBDF ； ( b ) EDPwithg = ［ 200 ］ ； ( c ) / 3WBDF ； 
+ ( d ) EDPwith = ［ 11 ］ ； ( e ) / 3WBDF ； ( f ) EDPwith = 
+ ［ 1 ］ ； ( g ) / 3WBDF ； ( h ) EDPwith = ［ 00 ］ 
+ 
+ 2.2 . 5 　 870 ℃ 变形 后 的 位错 结构 
+ 　 　 经 870 ℃ 变形 后 ， 在 γ 相内 位错 呈网状 的 趋势 加强 ， 说明 位错 通过 高温 下 的 运动 由 高能 状态 向 低能 状态 转变 的 加剧 。 同时 γ ′ 相内 尽管 存在 较 多 的 超 点阵 位错 对 ， 但 较 800 ℃ 时 ， 其 数量 已 明显 减少 ， 由此 可以 推知 ， 合金 在 870 ℃ 时 ， 屈服 强度 值 将 会 有 较大 程度 下降 ， 这 与 实验 结果 相一致 。 γ ′ 相内 的 超 点阵 位错 对 间距 扩展 很 宽 ， 说明 其 滑移 面为 ｛ 100 ｝ ， 同时 在 位错 间 夹 有层 错 结构 ( 图 7 ) 。 这 说明 合金 在 870 ℃ 下 的 变形 过程 较 800 ℃ 时 有所 变化 。 采用 不同 操作 反射 成像 实验 可知 ， 这些 位错 对 在 ＝ ［ 200 ］ ， ［ 020 ］ 及 ［ 20 ］ 时均 不 消失 ， 但 在 ＝ ［ 220 ］ 时 消失 ( 图 7b ) ， 由此 可 推知 其柏氏 矢量 = ［ 10 ］ ［ 9 ］ 。 观察 表明 ， 层错 在 ＝ ［ 200 ］ ， ± ［ 020 ］ ， ± ［ 220 ］ 时均 不 消失 ， 但 在 g ＝ ［ 20 ］ 时 消失 ， 据此 可知 该层 错 位移 矢量 RF ＝ ［ 110 ］ ［ 9 ， 11 ］ 。 这种 ( 〈 110 〉 型 位移 矢量 层错 被 称为 反相畴 层错 。 
+ 
+ 
+ 图 7 　 870 ℃ 变形 后 的 位错 结构 
+ Fig.7 　 Dislocationstructureafterdeformationat870 ℃ 
+ ( a ) BF , ＝ ［ 200 ］ ； ( b ) BF ， = ［ 220 ］ ； 
+ ( c ) EDPwith = ［ 220 ］ ； ( d ) EDPwith ＝ ［ 20 ］ 
+ 3 　 结束语 
+ 　 　 喷射 沉积 Ni3Al - Mo 合金 屈服 强度 随 温度 变化 曲线 具有 明显 的 “ R ” 特性 。 TEM 位错 结构 分析表明 ， 此 变化规律 主要 是 由 不同 温度 下 γ ′ 及 γ 相内 的 位错 缠结 状况 、 位错 对 的 形态 及 数量 和 六面体 滑移 系 的 开动 程度 决定 的 。 
+ 　 　 李周 、 梁志凯 、 任立平 、 赵先国 参与 了 本文 试验 坯件 的 制备 工作 ， 在 此 表示感谢 。 
+ 作者简介 ： 米国发 ( 1966 - ) ， 男 ， 博士 ， 高级 工程师 
+ 作者 单位 ： 米国发 、 罗 治平 、 田世藩 ： 北京 航空 材料 研究院 ， 北京 　 100095 ； 
+ 　 　 　 　 　 李 庆春 ： 哈尔滨工业大学 434 信箱 ， 哈尔滨 　 150001 
+ 参考文献 ： 
+ ［ 1 ］ 　 POPEDP ， EZZSS . MechanicalpropertiesofNi3Alandnickel - basealloyswith 
+ 　 　 　 　 highvolumefractionof γ ′ . InterMetalsRev , 1984 , 29 : 136 
+ ［ 2 ］ 　 COPLEYSM , KEARBH . Temperatureandorientationdependenceoftheflow 
+ 　 　 　 　 stressinoff - stoichiometricNi3Al . TransTMS - AIME , 1967 , 237 : 977 
+ ［ 3 ］ 　 TAKEUCHIS , KURAMOTOE . Temperatureandorientationdependenceoftheyield 
+ 　 　 　 　 stressinNi3Gasinglecrystals . Actametall , 1973 , 21 : 415 
+ ［ 4 ］ 　 姚学兴 . 延性 L12 型 金属 间 化合物 （ Fe ， Co ， Ni ) 3V 系 的 微观 设计 及其 形变 断裂 研究 : ［ 博 
+ 　 　 　 　 士 论文 ］ . 北京 ： 清华大学 ， 1992 
+ ［ 5 ］ 　 米国发 ， 罗 治平 ， 田世藩 等 . 喷射 沉积 Ni3Al - Mo 合金 的 显微 组织 . 金属 学报 ， 1997 ， 33 
+ 　 　 　 　 ( 6 ) ： 566 
+ ［ 6 ］ 　 米国发 ， 罗 治平 ， 田世藩 等 . 喷射 沉积 IC6 合金 的 拉伸 性能 及 断裂 特征 . 材料 工程 ， 1997 
+ 　 　 　 　 ( 7 ) ： 14 
+ ［ 7 ］ 　 米国发 . 喷射 沉积 Ni - Al - Mo 系 Ni3Al 基 高温 合金 及其 复合材料 研究 ： ［ 博士论文 ］ . 哈尔 
+ 　 　 　 　 滨 ： 哈尔滨工业大学 ， 1995 
+ ［ 8 ］ 　 刘文西 ， 黄孝瑛 ， 陈玉如 . 材料 结构 电子显微 分析 . 天津 ： 天津大学 出版社 , 1988 
+ ［ 9 ］ 　 黄孝瑛 . 电子显微 分析 . 北京 ： 机械 工业 出版社 , 1987 
+ ［ 10 ］ 　 赫什 P ， 豪伊 A ， 尼科尔森 RB 等 . 薄 晶体 电子显微 学 . 北京 ： 科学出版社 ， 1992 
+ ［ 11 ］ 　 郭 可信 ， 叶恒强 ， 吴玉琨 . 电子衍射 图 在 晶体学 中 的 应用 . 北京 ： 科学出版社 , 1983 
+ 　 收稿 日期 ： 1999 - 05 - 14 

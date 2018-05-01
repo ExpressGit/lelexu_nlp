@@ -1,0 +1,51 @@
+环境 科学研究 
+ RESEARCHOFENUIRONMENTALSCIENCES 
+ 2001Vol.14 No.2 P.62 - 64 
+ 
+ 
+ 
+ 
+ 常见 农药 降解 微生物 研究进展 及 展望 
+ 郑金来 　 李君文 　 晁福 寰 　 
+ 摘 　 要 ： 农药 是 一类 重要 的 环境 污染物 ， 已经 造成 了 严重 的 全球性 环境污染 ， 笔者 综述 了 降解 常见 农药 的 微生物 及其 机理 ， 并 指出 分子生物学 技术 将 是 治理 农药污染 的 一个 有效 手段 。 
+ 关键词 ： 农药 ； 　 微生物 ； 　 高效 降解 
+ 分类号 ： X172 　 文献 标识码 ： A 
+ 文章 编号 ： 1001 - 6929 ( 2001 ) 02 - 0062 - 03 
+ AdvanceandProspectofMicroorganismDegradingCommonPesticide 
+ ZHENGJin - lai （ InstituteofHygieneandEnvironmentalMedicine , AcademyofMilitaryMedicalScience , Tianjin 　 300050 , China ） 　 
+ LIJun - wen （ InstituteofHygieneandEnvironmentalMedicine , AcademyofMilitaryMedicalScience , Tianjin 　 300050 , China ） 　 
+ CHAOFu - huan （ InstituteofHygieneandEnvironmentalMedicine , AcademyofMilitaryMedicalScience , Tianjin 　 300050 , China ） 　 
+ 
+ Abstract ： Pesticideisakindofimportantenvironmentalpollutantsandhasledtoseriousglobalenvironmentalpollution . Thispaperreviewedthemicroorganismscapableofdegradingcommonpesticidesandtheirmechanisms . Molecularbiotechnologyissuggestedtobeanimportantmeanstotreatpesticidepollution . 
+ Keywords ： pesticide ; 　 microorganism ; 　 highlyeffectivedegradation 
+ 作者简介 ： 郑金来 ( 1973 - ) ， 男 ， 山东 泰安市 人 ， 助理 研究员 ， 博士 . 
+ 作者 单位 ： 郑金来 （ 军事医学科学院 卫生学 环境 医学 研究所 ， 　 天津 　 300050 ） 　 
+ 　 　 　 　 　 李君文 （ 军事医学科学院 卫生学 环境 医学 研究所 ， 　 天津 　 300050 ） 　 
+ 　 　 　 　 　 晁福 寰 （ 军事医学科学院 卫生学 环境 医学 研究所 ， 　 天津 　 300050 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ 　 李叔彬 ， 周仁超 ， 刘玉焕 ， 等 . 曲霉 M - 2 降解 有机磷 农药 ( 甲胺磷 ) 的 研究 [ J ] . 微生物学 通报 ， 1999 ， 26 ( 1 ) ： 27 ～ 30 . 
+ ［ 2 ］ 　 WenkM , BaumgartnerT , DobovsekJ , etal . Rapidatrazinemineralisationinsoilslurryandmoistsoilbyinoculationofanatrazine - degradingPseudomonassp . Strain [ J ] . ApplMicrobiolBiotechnol , 1998 , 49 : 5 , 624 ～ 630 . 
+ ［ 3 ］ 　 GebendingerN , RadosevichM . InhibitionofatrazinedegradationbycyanazineandexogenousnitrogeninbacterialisolateM91 - 3 [ J ] . ApplMicrobiolBiotechnol , 1999 , 51 ( 3 ) : 375 ～ 381 . 
+ ［ 4 ］ 　 虞 云龙 ， 陈鹤鑫 ， 樊德方 ， 等 . 一 硫代磷酸 酯 杀虫剂 的 酶 促 降解 [ J ] . 环境 科学 ， 1998 ， 19 ( 2 ) ： 58 ～ 69 . 
+ ［ 5 ］ 　 ErstfeldK 　 M . Environmentalfateofsyntheticpyrethroidsduringspraydriftandfieldrunofftreatmentsinaquaticmicrocosms [ J ] . Chemosphere , 1999 , 39 ( 10 ) : 1737 ～ 1769 . 
+ ［ 6 ］ 　 MichelFC , ReddyCA , ForneyLJ . Microbialdegradationandhumificationofthelawncarepesticide2 , 4 - dichlorophenoxyaceticacidduringthecompostingofyardtrimmings [ J ] . ApplEnvironMicrobiol , 1995 , 61 ( 7 ) : 2566 ～ 2571 . 
+ ［ 7 ］ 　 GisiD , StuckiG , HanselmannK 　 W . Biodegradationofthepesticide4 , 6 - dinitro - ortho - cresolbymicroorganismsinbatchculturesandinfixed - bedcolumnreactors [ J ] . ApplMicrobiolBiotechnol , 1997 , 48 ( 4 ) : 441 ～ 448 . 
+ ［ 8 ］ 　 KaleS 　 P , MurthyNB , RaghuK , etal . Studiesondegradationof14C - DDTinthemarineenvironment [ J ] . Chemosphere , 1999 , 39 ( 6 ) : 959 ～ 968 . 
+ ［ 9 ］ 　 ShahM 　 M , BarrD 　 P , ChungN , etal . Useofwhiterotfungiinthedegradationofenvironmentalchemicals [ J ] . ToxicolLett , 1992 , 64 - 65 : 493 ～ 501 . 
+ ［ 10 ］ 　 SyvanenM , ZhouZ , WhartonJ , etal . Heterogeneityoftheglutathionetransferasegenesencodingenzymesresponsibleforinsecticidedegradationinthehousefly [ J ] . JMolEvol , 1996 , 43 ( 3 ) : 236 ～ 240 . 
+ ［ 11 ］ 　 AttawayH , NelsonJ 　 O , BayaAM , etal . Bacterialdetoxificationofdiisopropylfluorophosphate [ J ] . ApplEnvironMicrobiol , 1987 , 53 ( 7 ) : 1685 ～ 1689 . 
+ ［ 12 ］ 　 Kaneva , I , MulchandaniA , ChenW , FactorsinfluencingparathiondegradationbyrecombinantEscherichiacoliwithsuface - expressedorganophosphorushydrolase [ J ] . BiotechnolProg , 1998 , 14 ( 2 ) : 275 ～ 278 . 
+ ［ 13 ］ 　 MonserrateE , HgblomM 　 M . Dehalogenationandbiodegradationofbrominatedphenolsandbenzoicacidsunderiron - reducing , sulfidogenic , andmethanogenicconditions [ J ] . ApplEnvironMicrobiol , 1997 ， 63 ( 10 ) : 3911 ～ 3915 . 
+ ［ 14 ］ 　 OrM 　 I , MarcoE . Disappearanceoftrichlorfonfromcultureswithdifferentcvanobacteria [ J ] . BullEnvironContamToxicol , 1991 , 47 ( 3 ) : 392 ～ 397 . 
+ ［ 15 ］ 　 MoriyaF , HashimotoY , KuoT 　 L . Pitfallswhendeterminingtissuedistributionsoforganophosphoruschemicals : sodiumfluorideaccelerateschemicaldegradation [ J ] . JAnalToxicol , 1999 , 23 ( 3 ) : 210 ～ 215 . 
+ ［ 16 ］ 　 CarterF 　 L , StringerC 　 A . Residuesanddegradationproductsoftechnicalheptachlorinvarioussoiltypes [ J ] . JEconEntomol , 1970 , 63 ( 2 ) : 625 ～ 628 . 
+ ［ 17 ］ 　 FischerK , NormanS , FreitagD . Studiesofthebehaviourandfateofthepolymer - additivesoctadecyl - 3 - ( 3 ， 5 - di - t - butyl - 4 - hydroxyphenyl ) propionateandtri - ( 2 ， 4 - di - t - butylphenyl ) phosphiteintheenvironment [ J ] . Chemosphere , 1999 , 39 ( 4 ) : 611 ～ 625 . 
+ ［ 18 ］ 　 BeitI 　 O , WheelockJ 　 V , CottonD 　 E . Factorsaffectingsoilresiduesofdieldrim , endosulfan , gamma - HCH , dimethoate , andpyrolan [ J ] . EcotoxicolEnvironSaf , 1981 , 5 ( 2 ) : 125 ～ 160 . 
+ ［ 19 ］ 　 KennedyD 　 W , AustS 　 D , BumpusJ 　 A . Comparativebiodegradationofalkylhalideinsecticidesbythewhiterotfungus , Phanerochaetechrysosporium ( BKM - F - 1767 ) [ J ] . ApplEnvironMicrobiol , 1990 , 56 ( 8 ) : 2347 ～ 2353 . 
+ ［ 20 ］ 　 程国锋 ， 李顺鹏 ， 沈标 ， 等 . 微生物 降解 蔬菜 残留 农药 研究 [ J ] . 应用 与 环境 生物学 报 ， 1998 ， 4 ( 1 ) ： 81 ～ 84 . 
+ ［ 21 ］ 　 王保军 ， 刘志培 ， 杨惠芳 . 单甲 脒 农药 的 微生物 降解 代谢 研究 [ J ] . 环境 科学 学报 ， 1998 ， 18 ( 3 ) ： 296 ～ 302 . 
+ ［ 22 ］ 　 StemmerWP . RapidevolutionofaproteininvitrobyDNAshuffling [ J ] . Nature , 1994 , 370 ( 4 ) : 389 ～ 391 . 
+ 
+ 收稿 日期 ： 2000 年 5 月 9 日 
+ 出版日期 ： 2001 年 3 月 30 日 

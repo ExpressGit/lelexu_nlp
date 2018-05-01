@@ -1,0 +1,122 @@
+微型机 与 应用 
+ WEIXINGJIYUYINGYONG 
+ 2000 　 Vol.19 　 No.5 　 P.9 - 10 , 51 
+ 
+ 
+ 
+ 
+ Matlab 函数 转换 为 VB 可用 的 DLL 
+ 段晓君 
+ 摘要 ： 一种 利用 Matcom 将 Matlab 函数 转换 为 VB 中 可用 的 动态链接库 的 方法 ， 操作 简单易行 。 
+ 关键词 ： Matlab 函数 动态链接库 DLLM － 文件 VB 语言 
+ 1Matlab 简介 
+ 　 　 Matlab 是 MathWorks 公司 开发 的 一种 工程 计算 语言 。 它 是 一个 交互 系统 ， 在 Matlab 中 的 基本 数据 元素 是 一个 不 要求 维数 的 复 矩阵 。 用 Matlab 可 解决 很多 工程 计算 问题 ， 特别 是 涉及 到 矩阵 和 矢量 形式 的 问题 。 Matlab 是 一个 高度 集成 的 语言 环境 ， 在 它 的 界面 下 可以 编写程序 、 运行 程序 并 可 进行 跟踪 调试 。 对于 广大 的 工程 技术人员 和 科学研究 人员 来说 ， Matlab 不失为 一种 很 好 的 工具 。 
+ 　 　 Matlab 也 有 局限性 ， 一般 它 不能 脱离 Matlab 集成 环境 工作 ； 而且 编写 界面 的 功能 比较 弱 。 
+ 　 　 Matcom 是 一个 从 Matlab 到 C ＋ ＋ 的 编译器 ， 它 可以 节省 用户 的 运算 时间 和 内存 要求 。 MathTools 公司 利用 Matcom 技术 编写 了 Mideva 工具软件 ， 它 可以 借用 C ＋ ＋ 编译器 将 Matlab 下 的 M － 文件 转换 为 可 被 VisualBasic 、 Excel 以及 Delphi 调用 的 DLL 煻 态 链接库 牷 蛘 呤 嵌 懒 ⒌ 目芍 葱 形募 。 本文 就 M － 文件 到 DLL 的 转换 以及 在 VB 中 调用 这 一类 DLL 的 2 个 问题 做 了 一些 探讨 。 文中 针对 Matlab5 ． 0 、 VC5 ． 0 、 VB5 ． 0 、 Matcom4 ． 0 或 相应 的 更 高 版本 的 软件 进行 了 讨论 。 
+ 2M － 文件 到 DLL 的 转换 
+ 　 　 要 将 一个 m － 文件 编译成 DLL ， 需 进行 如下 操作 ： 启动 运行 Matcom4 的 Mideva ， 点击 菜单 File ／ Compiletodll ， 选择 要 转换 的 m － 文件 （ 该 文件 应该 是 能够 作为 函数 被 其它 集成 环境 调用 的 m － 文件 ， 假设 文件名 为 yourfile ． m ） 。 值得注意 的 是 ， Mideva 对 M － 文件 有 一定 的 要求 ， 即该 文件 必须 是 1 个 函数 ， 如果 要 编译 没有 输入 也 没有 输出 的 脚本 文件 ， 可以 先 在 Matlab 中将 它 编辑 成无 输入 无 输出 的 函数 ， 再 按照 上述 操作 进行 转换 。 
+ 　 　 编译 之前 ， 还 可以 在 Mideva 集成 环境 的 菜单 Configuration 中 配置 编译 的 参数 为 Debug 模式 或 Release 模式 。 编译 完成 之后 ， 在 对应 的 Debug 或 Release 目录 下 ， 可以 看到 一些 编译 生成 的 文件 。 在 VB 集成 环境 中 需要 用到 的 文件 有 2 个 ： yourfile ． dll （ DLL 文件 ） 和 yourfile ． bas （ 在 VB 中 声明 DLL 的 模块 文件 ） 。 为了 在 VB 中 能够 调用 这类 DLL ， 要求 将 yourfile ． bas 和 matlib42 ． bas 加入 到 你 的 工程 中 ， 并 将 yourfile ． dll 以及 matlib42 ． dll 拷贝到 工程 所在 的 目录 下 。 编译 后 ， 在 VB 中 的 函数 名为 yourfile ＿ in ＿ out ， 其中 ， in 和 out 分别 为 函数 的 输入 参数 和 输出 参数 的 个数 ， 例如 c ＝ conv （ a ， b ） ， 编译 转换 后 的 函数 名为 conv ＿ 2 ＿ 1 。 
+ 3 数据 接口 
+ 　 　 VB 中要 使用 DLL ， 必须 在 你 的 工程 中 包含 DLL 的 声明 文件 （ 即 模块 文件 ） ， 同时 还要 将 DLL 拷贝到 工程 文件 所在 的 目录 中 。 事实上 ， yourfile ． dll 中 的 函数 并 不能 直接 与 集成 环境 进行 数据交换 ， 它 只能 通过 矩阵 句柄 进行 接口 。 这些 句柄 与 文件 句柄 类似 ， 它 是 用 一个 32 位 的 矩阵 整数 来 表示 的 ， 它们 可以 被 创建 ， 也 可以 被 删除 ， 通过 它 可以 对 矩阵 数据 进行 操作 。 这样 ， 集成 环境 与 DLL 之间 需要 1 个 中间层 ， MathTools 提供 了 一个 单独 的 C ＋ ＋ 库 文件 Matlib42 ． dll 以及 相应 的 模块 文件 Matlib42 ． bas 。 Matlib42 ． dll 相当于 VB 集成 环境 与 DLL 之间 的 代理 ， 在 这 一 DLL 中 包含 有 20 多个 矩阵 句柄 操作 函数 和 800 多个 从 Matlab 转换 而来 的 矩阵 函数 。 表 1 列出 了 Matlib42 ． dll 提供 的 比较 常用 的 14 个 矩阵 句柄 函数 。 
+ 　 　 在 编程 的 时候 ， 必须 调用 mtInitM 来 初始化 库 文件 ， 即 请求 允许 使用 转换 的 DLL ， 并 调用 mtExitM 来 结束 这种 请求 。 另外 ， 还要 使用 其它 的 矩阵 句柄 函数 来 分配 、 访问 和 释放 矩阵 句柄 。 
+ 4 应用 举例 
+ 　 　 事实上 ， 最 简单 的 例子 是 直接 调用 matlib42 ． dll 中 提供 的 inv ＿ 2 ＿ 1 来 计算 矩阵 的 逆 。 为了 让 读者 更好 地 领会 这一 转换 的 意义 和 操作过程 ， 这里 给出 另外 1 个 例程 ： 在 VB 中 打开 1 个 记录 有 10 种 股票 的 、 500 多天 的 收盘价 和 成交量 的 Access 数据库 ， 并 将 指定 的 1 列 数据 传送 给 Matlab 的 函数 ， 由该 函数 完成 股票 数据 的 动态显示 。 
+ 表 1 常用 的 矩阵 句柄 函数 
+ 函数 名 功能 返回值 
+ mtInitM ( ) 请求 允许 使用 库 无 
+ mtExitM ( ) 结束 库 使用 权限 无 
+ mtCreateDoubleMatrix ( rows , Cols , isc ) 分配 1 个 大小 为 [ rowscols ] 的 矩阵 句柄 新 的 矩阵 的 句柄 
+ mtDestroyMatrix ( x ) 释放 由 上 1 个 函数 创建 的 矩阵 句柄 无 
+ mtGetR ( x , row , col , y ) 将 实数 矩阵 x 的 元素 [ row ， col ] 的 值 赋 给 y 无 
+ mtSetR ( x , row , col , y ) 将 y 的 值 赋 给 实数 矩阵 x 的 元素 [ row ， col ] 无 
+ mtGetI ( x , row , col , y ) 将 图象 矩阵 x 的 元素 [ row ， col ] 的 值 赋 给 y 无 
+ mtSetI ( x , row , col , y ) 将 y 的 值 赋 给 图像 矩阵 x 的 元素 [ row ， col ] 无 
+ mtGetM ( x ) 取得 矩阵 x 的 行数 矩阵 x 的 行数 
+ mtGetN ( x ) 取得 矩阵 x 的 列数 矩阵 x 的 列数 
+ mtGetNumberOfDimensions ( x ) 取得 矩阵 x 的 维数 矩阵 x 的 维数 
+ mtIschar ( x ) 判断 x 是否 为 1 个 字符串 矩阵 True / False 
+ mtIsComplex ( x ) 判断 x 是否 为 复数 矩阵 True / False 
+ mtSetString ( x ) 将 x 设置 称 1 个 字符串 矩阵 无 
+ 
+ 　 　 为了 打开 数据库 文件 并 显示 数据库 的 数据 ， 我们 定制 了 3 个 窗体 ： 主 窗体 ， 是 MDI 风格 的 ， 只有 1 个 打开 数据库 的 菜单项 和 1 个 CommonDialog 控件 ； 子 窗体 1 ， 用于 显示 数据库 的 表项 结构 ， 包含 有 ImageList 控件 和 TreeView 控件 各 1 个 ， 其中 ， ImageList 用于 存放 TreeView 的 图标 ， TreeView 用于 显示 表项 ； 子 窗体 2 ， 用于 显示 选定 表项 的 数据 ， 包含 有 Data 控件 、 DbGrid 控件 和 CommandButton 控件 各 1 个 。 在 通过 菜单项 选择 要 打开 的 数据库 后 ， 子 窗体 1 显示 数据库 的 表项 结构 ， 鼠标 双击 某一 表项 ， 子 窗体 2 显示 该 表项 中 的 数据 。 
+ 　 　 由于 篇幅 的 限制 ， 这里 不 对 VB 中 如何 打开 数据库 文件 作过 多 的 描述 。 下面 详细 介绍 VB 中 如何 调用 Matlab 函数 转换 过来 的 动态链接库 。 Matlab 函数 的 源程序 如下 
+ （ DynDataPlot ． m ） ： 
+ functionDynPlotData （ Data ） 
+ T ＝ length （ Data ） ； 
+ TestPlot （ T ） ； ％ 初始化 动态显示 数据 的 窗口 
+ MaxY ＝ max （ Data ） ； 
+ fork ＝ 1 ： T 
+ 　 　 y ＝ Data （ 1 ： K ） ； 
+ 　 　 x ＝ 1 ： k ； 
+ 　 　 TestPlot （ T ， x ， y ， MaxY ） ； ％ 动态 绘制 数据 曲线 
+ end 
+ functionTestPlot （ DataNum ， x ， Data ， MaxY ） 
+ switchnargin 
+ case1 ， ％ 只有 1 个 输入 参数 ， 初始化 动态显示 数据 的 窗口 
+ 　 　 fhnd ＝ findobj （ allchild （ 0 ） ， ′ flat ′ ， ′ Tag ′ ， ′ TMWWaitbar ′ ） ； 
+ 　 　 if ～ isempty （ fhnd ） 
+ 　 　 close （ fhnd ） ； 
+ 　 　 end 
+ fhnd ＝ figure （ ′ Name ′ ， ′ ShowDbData ′ ， … 
+ 　 　 　 ′ Units ′ ， ′ points ′ ， ′ Resize ′ ， ′ off ′ ， … 
+ 　 　 　 ′ CreateFcn ′ ， ″ ， ′ NumberTitle ′ ， ′ off ′ ， … 
+ 　 　 　 ′ IntegerHandle ′ ， ′ off ′ ， ′ MenuBar ′ ， ′ none ′ ， 
+ 　 　 　 ′ Tag ′ ， ′ TMWWaitbar ′ ） ； 
+ 　 　 AxesHnd ＝ axes （ ′ Parent ′ ， fhnd ， ′ XLim ′ ， ［ 0DataNum ］ ， … 
+ 　 　 　 ′ Position ′ ， ［ ． 1 ． 1 ． 8 ． 75 ］ ， ′ FontSize ′ ， ［ 11 ］ ， … 
+ 　 　 　 ′ Box ′ ， ′ on ′ ， ′ XGrid ′ ， ′ on ′ ， ′ YGrid ′ ， ′ on ′ ） ； 
+ 　 　 title （ ′ PlotDynamicCurve ′ ） ； 
+ 　 　 HndList ＝ ［ AxesHnd ］ ； 
+ 　 　 set （ fhnd ， ′ HandleVisibility ′ ， ′ callback ′ ， ′ UserData ′ ， HndList ） ； 
+ case4 ， ％ 4 个 输入 参数 时 ， 动态 绘制 数据 曲线 
+ 　 　 fhnd ＝ findobj （ allchild （ 0 ） ， ′ flat ′ ， ′ Tag ′ ， ′ TMWWaitbar ′ ） ； 
+ 　 　 HndList ＝ get （ fhnd ， ′ UserData ′ ） ； 
+ 　 　 DataLen ＝ length （ Data ） ； 
+ 　 　 ifDataLen ＝ ＝ 1 
+ 　 　 　 set （ HndList （ 1 ） ； ′ YLim ′ ， ［ 0 ， MaxY ＊ 1 ． 2 ］ ） ； 
+ 　 　 　 line （ ′ Parent ′ ， HndList （ 1 ） ， ′ XData ′ ， ［ 0 ： 1 ］ ， ′ YData ′ ， 
+ 　 　 　 　 　 ［ Data （ 1 ） Data （ 1 ） ］ ， ′ Color ′ ， ［ 001 ］ ， ′ 
+ 　 　 　 　 　 　 EraseMode ′ ， ′ none ′ ） ； 
+ end 
+ ifDataLen ＞ 1 
+ 　 　 set （ HndList （ 1 ） ， ′ YLim ′ ， ［ 0 ， MaxY ＊ 1 ． 2 ］ ） ； 
+ 　 　 axes （ HndList （ 1 ） ） ； 
+ 　 　 line （ ′ Parent ′ ， HndList （ 1 ） ， ′ XData ′ ， ［ DataLen － 1 ： 
+ 　 　 　 　 　 DataLen ］ ， ′ YData ′ ， Data （ DataLen － 1 烡 ataLen ） ， 
+ 　 　 　 　 　 ′ Color ′ ， ［ 001 ］ ， EraseMode ′ ， ′ none ′ ） ； 
+ 　 　 end 
+ end ％ case 
+ return 
+ 　 　 按照 前面 描述 的 步骤 ， 可以 将 这 一 函数 转换 为 dyndataplot ． dll ， 同时 得到 动态链接库 的 声明 模版 文件 dyndataplot ． bas 。 在 VB 中 添加 了 该 声明 文件 ， 将 动态链接库 拷贝到 VB 工程 文件 的 当前目录 下 ， 并 给子 窗体 2 的 CommandButton 添加 如下 代码 ： 
+ PrivateSubCommand1 ＿ Click （ ） 
+ Dimi ， n ， mAsLong 
+ DimstrMSGAsString 
+ 　 　 ′ 请求 允许 使用 Matlab 的 文件 
+ CallmtInitM 
+ 　 　 Dimtmp1 ， tmp2AsLong 
+ 　 　 　 ′ 创建 矩阵 句柄 
+ 　 　 　 tmp1 ＝ mtCreateDoubleMatrix （ 1 ， n ， 0 ） 
+ 　 　 　 tmp2 ＝ mtCreateDoubleMatrix （ 1 ， 1 ， 0 ） 
+ 　 　 ′ 取得 数据库 表中 1 列 数值 
+ 　 　 　 m ＝ DataGrid ． datDataCtl ． Recordset ． Fields ． count 
+ 　 　 　 DataGrid ． datDataCtl ． Recordset ． MoveFirst 
+ 　 　 　 n ＝ DataGrid ． datDataCtl ． Recordset ． RecordCount 
+ 　 　 　 Fori ＝ 1Ton － 1 
+ 　 　 　 　 ′ 将 指定 数据库 表项 中 的 第 2 列 有效 数据 的 第 
+ 　 　 　 　 ′ i 个 记录 的 值 取出 
+ 　 　 　 　 temp ＝ DataGrid ． datDataCtl ． Recordset ． Fields （ 2 ） 
+ 　 　 　 　 ′ 将 取得 的 值 附 给 矩阵 句柄 tmp1 的 第 i 个 单元 
+ 　 　 　 　 CallmtSetR （ tmp1 ， 1 ， i ， temp ） 
+ 　 　 　 　 DataGrid ． datDataCtl ． Recordset ． MoveNext 
+ 　 　 　 Next 
+ 　 　 　 ′ 调用 Matlab 的 函数 
+ 　 　 　 CallDynPlotData ＿ 1 ＿ 1 （ tmp1 ， tmp2 ） 
+ 　 　 　 ′ 释放 矩阵 句柄 
+ 　 　 　 CallmtDestroyMatrix （ tmp1 ） 
+ 　 　 　 CallmtDestroyMatrix （ tmp2 ） 
+ 　 　 ′ 终止 Matlab 函数 的 调用 权限 
+ 　 　 　 CallmtExitM 
+ EndSub 
+ 　 　 这样 ， 在 点击 “ 绘制 数据 曲线 ” 按钮 后 ， 就 调用 转换 后 的 Matlab 函数 将 数据表 项中 的 第 2 只 股票 的 数据 曲线 动态 地 绘制 出来 。 通过 这个 示例 可以 看出 ， 将 Matlab 的 函数 转换 为 VB 中 可以 调用 的 动态链接库 ， 操作 简单 、 调用 方便 。 并且 充分利用 了 VB 的 界面 开发 能力 和 Matlab 的 数据处理 和 绘图 功能 。 
+ 段晓君 （ 长沙 国防科技大学 七系 研究生 队 410073 ） 
+ 收稿 日期 ： 1999 － 12 － 11 

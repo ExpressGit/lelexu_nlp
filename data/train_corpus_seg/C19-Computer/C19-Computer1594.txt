@@ -1,0 +1,123 @@
+信息 与 控制 
+ InformationandControl 
+ 1999 年 　 第 28 卷 　 第 4 期 　 Vol.28 　 No.4 　 1999 
+ 
+ 
+ 
+ 带 神经网络 补偿 的 极点 配置 广义 
+ 最小 方差 自 校正 控制 
+ 靳其兵 　 李 鸿儒 　 顾树生 
+ 
+ 　 　 摘 　 要 ： 首先 用 一个 常规 线性 模型 对 被控 对象 进行 辨识 ， 再 对 线性 模型 辨识 的 余 差用 一个 神经网络 进行 补偿 ． 线性 模型 和 神经网络 共同 构成 对象 的 辨识 模型 ， 并 基于 这一 模型 提出 了 一种 显式 极点 配置 广义 最小 方差 自 校正 控制 ． 该 方法 适用 于 非线性 对象 ， 且 具有 较 高精度 和 较 快 的 收敛 速度 ， 具有 较强 的 鲁棒性 ． 
+ 　 　 关键词 ： 神经网络 ， 极点 配置 ， 广义 最小 方差 自 校正 控制 
+ 　 　 中 图 分类号 ： TP13 　 　 　 　 　 　 文献 标识码 ： B 
+ 
+ GENERALIZEDPOLEPLACEMENTSELF - TUNINGCONTROLWITH 
+ NEURALNETWORKCOMPENSATION 
+ JINQibing1 　 LIHongru2 　 GUShusheng2 
+ ( 1 . BeijingInstituteofPetrochemicalTechnology , Beijing 　 102600 ; 
+ 2 . SchoolofInformationScience & Engineering , NortheasternUniversity110006 ) 
+ Abstract : TheControlledplantisidentifiedusingnormallinearmodel , andthenthedeviationidentifiedbylinearmodeliscompensatedviaaneuralnetwork . Theidentificationmodeliscomposedofalinearmodelandaneuralnetwork . Basedonthismodel , anexplicitgeneralizedpoleplacementself - tuningcontrolalgorithmwithneuralnetworkcompensationisproposed . Thisalgorithmissuitablefornonlinearsystem , andhashigherprecision , fasterconvergentspeedandstrongerrobustness . 
+ Keywords 　 neuralnetwork , poleplacement , generalminimumvarianceself - tuningcontrol 
+ 
+ 1 　 引言 
+ 　 　 为了 能够 控制 非线性 对象 和 提高 自 适应控制 的 精度 和 鲁棒性 ， 近年来 ， 提出 了 带 神经网络 补偿 的 自 适应控制 ［ 1 ～ 3 ］ ． [ 2 ] 中 提出 了 带 神经网络 补偿 的 预测 控制 ， 在 用 神经网络 进行 预测 补偿 时 ， 要 用到 未来 时刻 的 控制 量 输入 ， 而 未来 时刻 的 控制 量 输入 是 未知 的 ， 通常 采用 的 处理 方法 是 将 前 一 时刻 的 控制 序列 作为 已知 量 加入 ． 由于 前 一 时刻 所求 出 的 控制 序列 不 一定 准确 ， 因此 ， 这一 方法 存在 不足 . [ 3 ] 中 提出 了 带 神经网络 补偿 的 极点 配置 自 校正 控制 ， 但 对 神经网络 辨识 的 误差 一般 只能 达到 静态 补偿 ． 本文 提出 了 一种 带 神经网络 补偿 的 极点 配置 广义 最小 方差 自 校正 控制 ， 该 方法 适用 于 非线性 对象 ， 且 具有 较 高精度 和 较 快 的 收敛 速度 ， 具有 较强 的 鲁棒性 ． 
+ 2 　 对象 的 辨识 模型 
+ 　 　 设 对象 特性 可 表示 为 ： 
+ y ( k ) = f [ y ( k - 1 ) , y ( k - 2 ) , … , y ( k - n ) , u ( k - d ) , u ( k - d - 1 ) , 　 　 　 　 　 　 　 　 
+ … , u ( k - d - m ) , ξ ( k ) , ξ ( k - 1 ) , … , ξ ( k - nc ) ] 　 　 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 其中 ， n , m , nc 为阶次 ， d 为 时间延迟 ， ξ ( k ) 表示 随机 干扰 ． 首先 用 如下 常规 线性 模型 对 被控 对象 进行 辨识 
+ y ( k ) = - a1y ( k - 1 ) - a2y ( k - 2 ) - … - any ( k - n ) + b0u ( k - d ) + b1u ( k - d - 1 ) 　 　 　 　 　 
+ + … bmu ( k - d - m ) + ξ ( k ) + cl ξ ( k - 1 ) + … + cnc ξ ( k - nc ) 　 　 　 　 　 　 ( 2 ) 
+ 辨识 以后 得到 i ( i = 1 , … , n ) , j ( j = 1 , … , m ) , l ( l = 1 , … , nc ) , 利用 i 、 j 、 l 就 可以 对 k 时刻 的 对象 输出 进行 估计 ， 估计值 记为 yL ( k ) , 则 
+ 　 ( 3 ) 
+ 　 　 由于 非线性 、 时变 及 未 建模 动态 的 影响 ， yL ( k ) 和 对象 的 实际 输出 y ( k ) 将 存在 余差 y ( k ) - yL ( k ) ， 这个 余差 可以 用 一个 神经网络 进行 逼近 ， 记 神经网络 的 输出 为 yN ( k ) , 则 
+ yN ( k ) = g1 [ y ( k - 1 ) , y ( k - 2 ) , … , y ( k - n ) , u ( k - d ) , … , u ( k - d - m ) ] 　 　 　 　 　 ( 4 ) 
+ 利用 ( 1 ) , 将 y ( k - i ) ( i = 1 , 2 , … , d + 1 ) 依次 代入 ( 4 ) ， 并 不 考虑 干扰 的 影响 ， 得到 
+ yN ( k ) = g [ y ( k - d ) , y ( k - d - 1 ) , … , y ( k - d - n + 1 ) , u ( k - d - 1 ) , … , u ( k - 2d - m + 1 ) ] 　 　 　 ( 5 ) 
+ 对 神经网络 进行 训练 的 目的 是 为了 满足 以下 性能指标 函数 ： 
+ J1 = min | y ( k ) - yL ( k ) - yN ( k ) | 
+ 从而 可以 得到 ： 
+ y ( k ) = yL ( k ) + yN ( k ) + e ( k ) 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 其中 e ( k ) 为 最后 的 辨识 误差 ， 将 ( 3 ) 和 ( 5 ) 代入 ( 6 ) ， 得到 
+ 
+ 即 　 　 　 　 　 A ( z - 1 ) y ( k ) = z - dB ( z - 1 ) u ( k ) + C ( z - 1 ) ξ ( k ) + yN ( k ) + e ( k ) 　 　 　 　 　 　 　 　 　 　 ( 7 ) 
+ 　 　 　 　 　 　 　 
+ 　 　 　 　 　 　 　 
+ 　 　 　 　 　 　 　 
+ 　 　 ( 7 ) 即 为 本文 所 采用 的 辨识 模型 ， 仿真 表明 ， 这种 结构 对 非线性 、 带 随机 干扰 的 对象 具有 很 高 的 精度 ． 在 [ 2 ] [ 3 ] 也 采用 了 相似 的 结构 ． 
+ 　 　 神经网络 可以 采用 前向 神经网络 ， 也 可以 采用 动态 递归 神经网络 ， 采用 前向 神经网络 将 具有 较 多 的 输入 个数 ， 为了 避免 局部 极小 和 提高 权值 的 收敛 速度 ， 可以 采用 [ 4 ] 中 的 权值 训练方法 ． 采用 动态 递归 神经网络 可以 避免 ( 5 ) 中 输入 阶次 的 影响 ， 大大减少 网络 的 输入 个数 ， 采用 [ 5 ] 中 提出 的 最优 学习 率 进行 仿真 , 我们 得到 了 较 好 的 效果 ． 
+ 3 　 带 神经网络 补偿 的 极点 配置 广义 最小 方差 自 校正 控制 
+ 　 　 由于 带 神经网络 补偿 的 模型 结构 的 特殊性 ， 就 要求 采用 显式 自 适应控制 ， [ 6 ] 提出 了 一种 极点 配置 广义 最小 方差 自 校正 显式 控制算法 ， 该 算法 能够 保证 全局 的 收敛性 ． 为了 全局 的 收敛性 ， 本文 就 应用 这一 算法 ， 并 提出 了 带 神经网络 补偿 的 极点 配置 广义 最小 方差 自 校正 控制 ． 
+ 　 　 设 性能指标 函数 为 
+ J2 = E ( [ P ( z - 1 ) y ( k + d ) - R ( z - 1w ( k ) + Q ( z - 1 ) u ( k ) ] 2 } 　 　 　 　 　 　 　 　 ( 8 ) 
+ 式 中 ， w ( k ) 为 参考 输入 ， P ( z - 1 ) 、 Q ( z - 1 ) 、 R ( z - 1 ) 为 z - 1 的 加权 多项式 ． 
+ 　 　 引入 下列 Diophantine 方程 
+ P ( z - 1 ) = A ( z - 1 ) E ( z - 1 ) + z - dG ( z - 1 ) 　 　 　 　 　 　 　 　 　 　 ( 9 ) 
+ C ( z - 1 ) E ( z - 1 ) = F ( z - 1 ) + z - dN ( z - 1 ) 　 　 　 　 　 　 　 　 　 　 ( 10 ) 
+ degE = d - 1 , degG = max ( n - 1 , np - d ) , degF = d - 1 , degN = nc - 1 
+ E = E0 + E1z - 1 + … + Ed - 1z - ( d - 1 ) 
+ 用 E 乘 ( 7 ) 式 两边 并 利用 ( 9 ) ， 得 ( 为了 简化 书写 ， 以下 将 复杂 表达式 括号 内 的 z - 1 忽略 ， 如 P ( z - 1 ) 写成 P ) 
+ Py ( k + d ) = Gy ( k ) + BEu ( k ) + CE ξ ( k + d ) + Eym ( k + d ) + Ee ( k + d ) 
+ 　 　 再 利用 ( 10 ) 式 ， 得到 
+ Py ( k + d ) = Gy ( k ) + BEu ( k ) + N ξ ( k ) + EyN ( k + d ) 　 　 　 　 　 　 　 　 　 　 　 
+ + F ξ ( k + d ) + Ee ( k + d ) 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 11 ) 
+ ( 11 ) 式 等 号 右边 的 F ξ ( k + d ) 、 Ee ( k + d ) 是 和 其余 各项 无关 的 量 , 由 ( 8 ) 和 ( 11 ) 式 ， 很 容易 得到 控制 量 u ( k ) 由 以下 方程 确定 ． 
+ 　 　 　 　 　 　 　 　 　 　 　 　 Gy ( k ) + BEu ( k ) + N ξ ( k ) + EyN ( k + d ) = Rw ( k ) - Qu ( k ) 
+ 即 　 　 　 　 　 　 　 　 　 　 　 ( BE + Q ) u ( k ) = Rw ( k ) - Gy ( k ) - N ξ ( k ) - EyN ( k + d ) 　 　 　 　 　 　 　 　 　 ( 12 ) 
+ 　 　 将 ( 12 ) 式 的 控制 量 方程 代入 ( 7 ) 式 ， 得到 对象 的 输出 方程 为 
+ 　 　 　 　 ( 13 ) 
+ 　 　 上式 中 yN ( k ) 也 可以 看成 可测 干扰 ． 由 ( 13 ) 可见 ， 虽然 引入 了 具有 非线性 特性 的 神经网络 进行 补偿 , 但 系统 的 特征 多项式 仍为 PB + AQ ， 和 基于 线性 对象 设计 时 是 一致 的 ． 并且 ， 令 yN ( k ) = 0 、 e ( k ) = 0 , 就 可以 得到 线性 设计 时 的 对象 输出 方程 ． 
+ 　 　 给定 稳定 的 期望 闭环 极点 多项式 T ( z - 1 ) , 得到 以下 极点 配置 方程 
+ P ( z - 1 ) B ( z - 1 ) + A ( z - 1 ) Q ( z - 1 ) = T ( z - 1 ) 　 　 　 　 　 　 　 　 　 　 ( 14 ) 
+ 控制 量 u ( k ) 由 ( 12 ) 决定 , 但是 k 时刻 ( 12 ) 式 中 的 yN ( k + d - i ) ( i = 0 , 1 , … , d - 1 ) 未知 ． 为了 求取 u ( k ) , 本文 采用 以下 处理 方法 ． 
+ 　 　 由 ( 5 ) 式 可知 
+ yN ( k + d - i ) = g [ y ( k - i ) , y ( k - i - 1 ) , … , y ( k - n + 1 - i ) , u ( k - i ) , u ( k - i - 1 ) , 
+ … , u ( k - d - m + 1 - i ) ] 
+ 则 yN ( k + d - 1 ) 、 yN ( k + d - 2 ) 、 … yN ( k + 1 ) 可以 由 k 时刻 以前 的 输入 、 输出 加入 经过训练 的 神经网络 直接 求得 ． 
+ 　 　 利用 一阶 Tayler 展开 ， 并 定义 
+ 　 　 
+ 　 　 得到 
+ yN ( k + d ) = g [ y ( k ) , … , y ( k - n + 1 ) , u ( k ) , u ( k - 1 ) , … , u ( k - d - m + 1 ) ] 　 　 　 　 　 　 　 
+ ≈ g0 + g1 * [ u ( k ) - u ( k - 1 ) ] 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 15 ) 
+ 在 K 时刻 ， 用 u ( k - 1 ) 取代 加入 经过训练 的 神经网络 ， 神经网络 的 输出 即为 g0 ， g1 的 求取 对前 向 神经网络 可 参见 [ 7 ] , 对 动态 递归 神经网络 可 参见 [ 8 ] ． 
+ 　 　 将 ( 15 ) 代入 ( 12 ) , 得到 
+ 　 　 　 　 　 　 　 　 ( 16 ) 
+ 　 　 ( 16 ) 即 为 本文 控制 量 u ( k ) 的 实际 求取 方程 ． 
+ 　 　 自 适应控制 的 步骤 如下 ： 
+ 　 　 ① 给定 期望 的 极点 多项式 T ( z - 1 ) ． 
+ 　 　 ② 测取 对象 的 输出 y ( k ) ， 对 ( 2 ) 式 的 线性 模型 进行 辨识 ． 
+ 　 　 ③ 求 yL ( k ) 及 y ( k ) - yL ( k ) , 将 y ( k ) - yL ( k ) 作为 神经网络 的 期望 输出 ， 对 神经网络 进行 在线 辨识 ． 
+ 　 　 ④ 利用 ( 14 ) 式 求 P ( z - 1 ) 、 Q ( z - 1 ) ． 
+ 　 　 ⑤ 利用 ( 9 ) 、 ( 10 ) 式 求 E ( z - 1 ) , G ( z - 1 ) , N ( z - 1 ) ． 
+ 　 　 ⑥ 用 u ( k - 1 ) 代替 u ( k ) 加入 经过训练 的 神经网络 得到 g0 ； 求取 g1 ． 
+ 　 　 ⑦ 由 ( 16 ) 式 求 u ( k ) ． 
+ 　 　 ⑧ 将 u ( k ) 加入 实际 对象 和 神经网络 ． 
+ 　 　 ⑨ k = k + 1 , 转向 步骤 ② ． 
+ 4 　 仿真 研究 
+ 　 　 所 做 的 大量 仿真 实例 都 验证 了 本文 所 提出 方法 的 正确性 ， 下面 仅以 一例 为证 ： 
+ 
+ 　 　 辨识 模型 的 线性 部分 取为 二阶 对象 ， 神经网络 采用 一个三层 对角 递归 网 ， 隐层 神经元 个数 为 10 ， 神经网络 的 输入 单元 数为 2 ． 在 \ 间隔 内 产生 2000 个 随机数 加入 仿真 对象 ， 利用 产生 的 输入 、 输出 数据 对模型 进行 预 训练 ． 随机 干扰 的 最 大幅 值为 0.2 ． 期望 的 极点 多项式 取为 
+ 
+ 如果 利用 预 训练 后 的 模型 参数 直接 设计 控制器 ， 而 不 进行 参数 的 在线 校正 ， 则 由于 工作 点 的 变化 、 非线性 及 未 建模 动态 的 影响 ， 结果 是 发散 的 ． 采用 极点 配置 广义 自 校正 控制 ， 而 不 进行 神经网络 补偿 ， 结果 示于 图 1 ． 采用 带 神经网络 补偿 的 极点 配置 广义 自 校正 控制 的 结果 示于 图 2 ． 
+ 　 　 　 　 　 　 
+ 　 　 图 1 　 极点 配置 广义 自 校正 控制 的 结果 　 　 　 　 图 2 　 带 神经网络 补偿 的 极点 配置 广义 自 校正 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 控制 的 结果 
+ 　 　 由 仿真 结果 可以 看出 ， 本文 所 提出 的 方法 是 有效 的 ， 具有 较 快 的 响应速度 ． 
+ 5 　 结论 
+ 　 　 理论 分析 和 仿真 结果 都 表明 了 本文 所 提出 的 带 神经网络 补偿 的 极点 配置 广义 最小 方差 自 校正 控制 方法 是 有效 的 ， 它 比 极点 配置 自 校正 控制 具有 更 高 的 控制精度 、 更快 的 响应速度 、 更好 的 鲁棒性 ， 且 适用 于 非线性 对象 ． 
+ 作者简介 ： 靳其兵 , 男 , 27 岁 , 博士生 . 研究 领域 为 神经网络 及 模糊控制 在 多 变量 系统 中 的 应用 . 
+ 　 　 　 　 　 李 鸿儒 , 男 , 30 岁 , 博士生 , 讲师 . 研究 领域 为 智能 控制 及其 在 多 变量 系统 中 的 应用 . 
+ 　 　 　 　 　 顾树生 , 男 , 59 岁 , 博士生 , 教授 , 博士生 导师 , 东北大学 信息科学 与 工程学院 院长 . 研究 领域 为 多 变量 控制 理论 及其 应用 、 智能 控制 、 交流 调速 系统 等 . 
+ 作者 单位 ： 靳其兵 ： 北京 石油化工 学院 　 102600 ; 　 
+ 　 　 　 　 　 李 鸿儒 、 顾树生 ： 东北大学 信息科学 与 工程学院 　 沈阳 　 110006 
+ 参考文献 
+ 1 　 罗小青 , 孙优贤 . 基于 神经元网络 的 前馈 学习 控制器 . 信息 与 控制 , 1994 , 23 ( 5 ) : 311 ～ 314 
+ 2 　 李少远 , 刘浩 , 袁著祉 . 基于 神经网络 误差 修正 的 广义 预测 控制 . 控制 理论 及 应用 , 1996 , 13 ( 5 ) : 677 ～ 680 
+ 3 　 FuliWang , LiMingzhong , Yangyinghua . ANeuralNetwork - basedAdaptivePolePlacementControllerforNonlinearSystem . InternationalTournalofSystemsScience , 1997 , 28 ( 4 ) : 415 ～ 421 
+ 4 　 RobertSS , NTepedelenliogln . AFastNewAlgorithmforTrainingFeedForwardNeuralNetworks . IEEETrans . onSignalProcessing , 1992 , 40 ( 1 ) : 202 ～ 210 
+ 5 　 ChaoCheeK , YLKwang . DiagonalRecurrentNeuralNetworksforDynamicSystemsControl . IEEEtrans . onNeuralNetworks , 1994 , 6 ( 1 ) : 144 ～ 156 
+ 6 　 TianyouChai . AnIndirectStochasticAdaptiveSchemewithOn - LineChoiceofWeightingPolynomials . IEEETrans . onAutomaticControl , 1990 , 35 ( 1 ) : 82 ～ 88 
+ 7 　 谭永红 . 基于 BP 神经网络 的 自 适应控制 . 控制 理论 及 应用 , 1994 , 11 ( 1 ) : 84 ～ 87 
+ 8 　 MingzhongLi , FuliWang . AdaptiveControlofBlack - BoxNonlinearSystemsUsingRecurrentNeuralNetworks.36 thIEEECDC , 1997 , December : 10 - 12 , CaliforniaUSA 
+ 收稿 日期 : 1998 - 06 - 15 

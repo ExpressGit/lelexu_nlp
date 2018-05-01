@@ -1,0 +1,106 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 2000 　 Vol.26 　 No.3 　 P.378 - 381 
+ 
+ 
+ 
+ 模糊 树 模型 及其 在 复杂 系统 辨识 中 的 应用 
+ 张建刚 　 毛剑琴 　 夏天 　 魏可惠 
+ 摘 　 要 　 基于 二叉树 和 模糊 逻辑 理论 ， 提出 了 一种 用于 复杂 系统 建模 的 模糊 树 模型 . 将 线性 模型 和 模糊集 组织 在 树结构 上 ， 并 给出 了 更新 线性 模型 系数 和 模糊集 隶属 度 函数 的 混合 算法 . 与 其他 建模 方法 相比 ， 如 ANFIS ， 模糊 树 模型 计算 量 小 ， 精度高 ， 尤其 在 高维 数据 建模 中 更为 明显 . 仿真 结果 描述 了 这种 方法 的 性能 . 
+ 关键词 　 模糊 树 模型 ， 分段 线性 自 适应 滤波器 ， ANFIS . 
+ FUZZY - TREEMODELANDITSAPPLICATIONSTO 
+ COMPLEXSYSTEMMODELING 
+ ZHANGJiangang 　 MAOJianqin 　 XIATian 
+ ( TheSeventhDivision , BeijingUniversityofAeronautics & Astronautics , Beijing 　 100083 ) 
+ WEIKehui 
+ ( AcademyofEngineeringPhysics , Chengdu 　 610003 ) 
+ Abstract 　 　 Basedonthebinarytreestructureandfuzzylogictheory , afuzzy - treemodelappliedtocomplexsystemmodelingisproposedinthispaper . Linearmodelsandfuzzysetsarearrangedinatreestructure . Ahybrid - trainingalgorithmisusedtoupdatelinearmodelcoefficientsandmembershipfunctionsofthefuzzysets . Comparedwithsomeothermodelingmethods , suchasANFIS , theproposedmodelisoflesscomputation , higheraccuracy , especiallyforhighdimensiondatamodeling . Simulationresultsdemonstratetheadvantagesofthisapproach . 
+ Keywords 　 Fuzzy - treemodel , piecewiselinearadaptivefilter , ANFIS . 
+ 1 　 引 　 言 
+ 　 　 经典 的 辨识 理论 难以 处理 复杂 系统 的 建模 问题 . 相比之下 ， 由 Takagi 和 Sugeno 首先 提出 的 “ 模糊 建模 ” 则 在 控制 、 预测 等 方面 取得 了 许多 成功 的 应用 . 然而 ， 对 每个 输入 变量 分别 划分 模糊 子 空间 的 方法 降低 了 一些 卓越 的 模糊 建模 方法 ［ 1 ， 2 ］ 的 建模 效率 . 
+ 　 　 树结构 分段 线性 自 适应 滤波器 ［ 3 ］ 采用 二叉树 结构 对 输入 空间 划分 模糊 子 空间 ， 其 划分 的 子 空间 数 与 输入 变量 的 维数 无关 . 但 模型 的 分段 函数 在 相交处 会 产生 尖点 或 断点 . 
+ 　 　 本文 提出 一种 树结构 的 模糊 模型 ， 称为 模糊 树 模型 . 它 既 克服 了 模糊 建模 中 输入 空间 划分 的 复杂性 ， 又 使得 分段 函数 在 相交处 平滑 过渡 ， 因而 能 更好 地 逼近 复杂 系统 . 
+ 2 　 模糊 树 模型 的 结构 
+ 　 　 考虑 如下 复杂 系统 的 建模 
+ y = f ( x ) + v , 　 　 　 ( 1 ) 
+ 其中 x = ［ 1 　 x1 　 … 　 xn ］ T ∈ Rn + 1 为 输入 向量 ， y ∈ R 为 输出 ， v ∈ R 为 噪声 . 
+ 　 　 二叉树 定义 为 正整数 的 有限 非 空集 F 和 两个 函数 l ( . ) 和 r ( . ) ： F → F ∪ ｛ 0 ｝ ， 且 它们 满足 如下 两个 性质 ： 
+ 　 　 1 ) 衪 ∈ F ， l ( t ) = r ( t ) = 0 或 l ( t ) > t , r ( t ) > t 成立 ; 
+ 　 　 2 ) 衪 ∈ F ， 除了 F 中 最小 的 整数 ， 必 存在 唯一 s ∈ F ， 使得 t = l ( s ) 或 t = r ( s ) . 
+ 　 　 对于 t ∈ F ， l ( t ) 和 r ( t ) 分别 表示 由 t 生成 的 左右 节点 . F 中 的 最小 元素 称为 根 节点 ， 记为 r ( F ) . 若 s , t ∈ F ， 且 t = l ( s ) ， 或 t = r ( s ) ， 则 s 称作 t 的 父 节点 ， t 称作 s 的 子 节点 ， 记作 s = p ( t ) . 若 节点 t 不是 父 节点 ， 则 称作 叶 节点 ， 即 l ( t ) = r ( t ) = 0 . 表示 F 的 叶 节点 集合 . 
+ 　 　 一个 模糊 树 模型 与 一个 二叉树 F 相对 应 . 对于 t ∈ F ， 有权 向量 ct = ［ ct ( 0 ) , … , ct ( n ) ］ T 和 模糊集 Nt ， 其 隶属 度 函数 为 μ t ( x ) : Rn + 1 → ［ 0 , 1 ］ . 对应 的 线性 模型 为 
+ 　 　 　 ( 2 ) 
+ 　 　 Nt 描述 了 一个 模糊 子 空间 χ t . χ r ( F ) 为 整个 输入 空间 ， 根 节点 上 的 模糊集 Nr ( F ) 定义 为 
+ 　 　 　 ( 3 ) 
+ 
+ 
+ 图 1 
+ 　 　 在 节点 定义 辅助 隶属 度 函数 为 
+ 　 　 　 ( 4 ) 
+ 这些 节点 上 的 模糊集 Nt 由下式 递推 得到 
+ 　 　 　 ( 5 ) 
+ 由此 可 得 
+ 　 　 　 ( 6 ) 
+ 　 　 最终 ， 模糊 树 模型 将 输入 空间 划分 为 所有 叶 节点 对应 的 模糊 子 空间 ， 其中 每个 模糊 子 空间 内 定义 一条 规则 
+ 　 　 　 ( 7 ) 
+ 　 　 采用 文 ［ 1 ］ 中 的 反 模糊化 方法 ， 模糊 树 模型 的 输出 为 所有 叶 节点 的 输出 的 加权 平均 
+ 　 　 　 ( 8 ) 
+ 　 　 图 1 示意 了 输入 空间 的 划分 过程 ， 斜线 表示 两个 模糊 子 空间 之间 的 模糊 带 . 
+ 3 　 模糊 树 模型 的 建模 算法 
+ 3.1 　 混合 训练 算法 
+ 　 　 给定 的 训练 数据 集 为 { ( xi , yi ) , xi ∈ Rn + 1 , yi ∈ R , i = 1 , 2 , … , L } . 定义 第 i 组 训练 数据 的 能量 函数 和 则 总 的 能量 函数 为 
+ 　 　 　 ( 9 ) ， ( 10 ) 
+ 　 　 模糊 树 模型 中 需要 确定 的 参数 为 ｛ ct ｜ t ∈ F ｝ , ｛ α t , θ t ｜ t ∈ F , t ≠ r ( F ) ｝ . 本文 采用 混合 训练 算法 — — 对 ct , t ∈ F 采用 最小 二乘 算法 ， 对 α t , t ∈ F , t ≠ r ( F ) 采用 非线性 优化 算法 . 
+ 　 　 　 ( 11 ) 
+ 3.2 　 模糊 树 的 生成 
+ 　 　 对 每个 节点 定义 节点 误差 et 和 分叉 后 节点 误差 ect 
+ 　 　 　 ( 12 ) 
+ 　 　 　 ( 13 ) 
+ 3.3 　 模糊 树 模型 建模 步骤 
+ 　 　 1 ) 初始化 模糊 树根 节点 — — 计算 根 节点 的 权 向量 cr ( F ) ， μ r ( F ) ( x ) = 1 . 选定 ｛ α t ｜ t ∈ F , t ≠ r ( F ) ｝ 初值 满足 α l ( t ) = - α r ( t ) , α r ( t ) ＞ 0 . 
+ 　 　 2 ) 用 ( 12 ) ， ( 13 ) 式 计算 每个 叶 节点 的 et 和 ect . 
+ 　 　 3 ) 对叶 节点 中 可以 分叉 的 节点 分叉 ， 用 ( 13 ) 式 计算 新 生成 的 叶 节点 的 θ t , t ∈ 值 ， 计算 分叉 后 叶 节点 的 权向 量值 ct , t ∈ . 
+ 　 　 4 ) 训练 α t , t ∈ . 
+ 　 　 5 ) 用 ( 5 ) 式 计算 叶 节点 的 隶属 度 函数 ， 更新 叶 节点 的 权向 量值 ct , t ∈ . 用 ( 10 ) 式 计算 能量 函数 . 若 et > ect ， 则 转 2 ； 否则 ， 结束 算法 . 
+ 4 　 仿真 结果 
+ 　 　 例 . 将 模糊 树 模型 用于 预测 麦克 - 格拉斯 混沌 时间 序列 — — 这是 系统 建模 的 国际标准 例题 . 它 由 如下 的 麦克 - 格拉斯 混沌 延迟 微分方程 ［ 4 ］ 生成 
+ 　 　 　 ( 14 ) 
+ 　 　 表 1 列出 了 其它 方法 与 模糊 树 模型 的 比较 ， 计算 条件 为 τ = 17 ， y = x ( t + 6 ) ， n = 4 ， 其中 NDEI 定义 为 均 方根 误差 除以 目标 序列 的 标准差 . 
+ 表 1 　 结果 比较 
+ 
+ 方法 训练 数据 NDEI 
+ 模糊 树 模型 5000.0124 
+ ANFIS ［ 2 ］ 5000.007 
+ 基于 聚类 的 估计 方法 ［ 5 ］ 5000.014 
+ AR 模型 ［ 2 ］ 5000.19 
+ 串联 相关 神经网络 模型 ［ 6 ］ 5000.06 
+ BP 神经网络 模型 ［ 6 ］ 5000.02 
+ 六阶 多项式 模型 ［ 6 ］ 5000.04 
+ 线性 预测 方法 ［ 6 ］ 20000.55 
+ 
+ 表 2 　 模糊 树 模型 与 ANFIS 的 辨识 结果 比较 
+ 
+ 　 输入 空间 维数 NDEI 规则 数 
+ 模糊 树 模型 100.00516 
+ ANFIS40.00716 
+ 
+ 　 　 由表 1 可以 清楚 地 看出 模糊 树 模型 和 ANFIS 比 其它 方法 预测 精度高 . 在 表 2 中 比较 了 模糊 树 模型 与 ANFIS ， 计算 高维 n = 10 的 情况 ， 由于 ANFIS 中 模糊学 空间 的 数目 以 n 的 指数 增长 ， 故当 n > 4 时 计算 量 溢出 . 而 模糊 树 算法 对维数 不 敏感 ， 提高 维数 可 使 精度 显著 改善 . 
+ 　 　 ANFIS （ C语言 ） 计算 n = 4 在 Apollo700 系列 工作站 需 1.5 小时 ， 而 模糊 树 （ MatlabM 文件 ） 在 奔腾 586 / 166 上 计算 n = 10 仅 需 5 分钟 . 
+ 5 　 结 　 语 
+ 　 　 本文 提出 了 一种 复杂 系统 的 辨识 的 模糊 模型 — — 模糊 树 模型 ， 相应 给出 了 混合 建模 算法 . 由 仿真 结果 可以 看出 ， 这种 模型 在 高度 非线性 系统 、 时间 序列 的 建模 中 得到 了 很 好 的 结果 . 与 其它 建模 方法 比较 ， 这种 方法 计算 量 小 、 精度高 ， 特别 适用 于 高维 系统 . 
+ 国家自然科学基金 资助 课题 . 
+ 张建刚 　 1993 年 毕业 于 北京航空航天大学 自动控制 系 ， 1999 年 获工学 博士学位 . 研究 领域 为 控制 理论 与 控制工程 ， 研究 方向 为小波 理论 在 系统 辨识 中 的 应用 、 系统 智能化 辨识 与 参数 的 智能化 估计 等 . 
+ 　 　 毛剑琴 　 1964 年 毕业 于 北京大学数学力学系 ， 1982 年 获工学 硕士学位 ， 1985 年 获工学 博士学位 ， 现任 北京航空航天大学 教授 、 博士生 导师 、 中国 自动化 学会 理事 、 IEEE 控制系统 学会 北京 分会 主席 ， 主要 研究 领域 为 控制 理论 与 控制工程 . 
+ 张建刚 （ 北京航空航天大学 第七 研究室 　 北京 　 100083 ） 
+ 毛剑琴 （ 北京航空航天大学 第七 研究室 　 北京 　 100083 ） 
+ 夏天 （ 北京航空航天大学 第七 研究室 　 北京 　 100083 ） 
+ 魏可惠 （ 工程 物理 研究院 　 成都 　 610003 ） 
+ 参考文献 
+ ［ 1 ］ 　 TakagiT , SugenoM . Fuzzyidentificationofsystemsandapplicationstomodelingandcontrol . IEEETrans . Syst . Man , Cyber . , 1985 , 15 : 116 ～ 132 
+ ［ 2 ］ 　 Jyh - ShingRogerJang . ANFIS : adaptive - network - basedfuzzyinferencesystem . IEEETrans . Syst . Man , Cyber . , 1993 , 23 ( 3 ) : 665 ～ 685 
+ ［ 3 ］ 　 GelfandSaulB , RavishankarCS . Atree - structuredpiecewiselinearadaptivefilter . IEEETrans . Info . Theory , 1993 , 39 ( 6 ) : 1907 ～ 1922 
+ ［ 4 ］ 　 MackeyM , GlassL . Oscillationandchaosinphysiologicalcontrolsystems . Science , 1977 , 197 : 287 ～ 289 
+ ［ 5 ］ 　 ChiuS . Fuzzymodelidentificationbasedonclusterestimation . JournalofIntelligent & FuzzySystems , 1994 , 2 ( 3 ) : 267 ～ 278 
+ ［ 6 ］ 　 CrowderRS . PredictingtheMackey - Glasstimeserieswithcascade - correlationlearning . In : Proc . ConnectionistModelsSummerSchool , CarnegieMellonUniversity , 1990 , 117 ～ 123 
+ 收稿 日期 　 1998 - 03 - 09 
+ 修稿 日期 　 1998 - 07 - 29 

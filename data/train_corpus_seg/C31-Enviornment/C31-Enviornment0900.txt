@@ -1,0 +1,119 @@
+环境 科学 学报 
+ ACTASCIENTIAECIRCUMSTANTIAE 
+ 1999 年 第 19 卷 第 5 期 Vol.19 No.51999 
+ 
+ 
+ 
+ 含 裂隙 介质 污染物 输运 及 生物降解 不同 时间尺度 过程 的 计算方法 * 
+ 李家 伦 　 洪 钟祥 　 孙菽芬 
+ 摘要 　 讨论 了 含 裂隙 介质 地下水 污染物 输运 与 生物降解 非 线性方程组 数值 求解 方法 . 用 三次 迎风 插值 方法 计算 裂隙 介质 中 常见 的 场 变量 陡 变化 问题 . 用 劈裂 算子 法 ， 解决 了 方程 中 对流 扩散 过程 与 生化 过程 非线性 耦合 ， 并 对 快速 生化 反应 项 ， 利用 对流 项 与 该 反应 项 的 特征 时间 量级 估算 ， 给出 了 求 生化 过程 作用 子步 的 时间 步长 估算 办法 . 用 上述 方法 所 得到 的 模拟 结果 与 解析 解 和 实验 结果 对比 ， 吻合 很 好 . 
+ 关键词 　 数值 方法 ； 生物降解 ； 地下 含水层 . 
+ Numericalsimulationofbiodegradationofcontaminantsinthefracturedmedia 
+ LIJialun1 , HONGZhongxiang1 , SUNShufen2 ( 1LAPC , 2LASG , InstituteofAtmospherePhysics , ChineseAcademyofSciences , Beijing100029 ) 
+ Abstract 　 Anumericalmethodforsimulationoftransportandbiodegradationofcontaminantsinthefracturedmediaisdiscussed . Thecubicsplinemethodwasusedtosolvetheadvectionflowdominatedproblemwhichoftenoccursinthefracturemedia . TheSplitting - Operatorwasusedtodecoupletheadvectionanddiffusiontermswithbiochemicaltermintheequations . Smallertimestepforsolvingfastbiochemicaltermswasintroducedthroughcomparingtheorderofcharacteristictimeofbiochemicaltermwiththatofadvection ( diffusion ) term . Finalnumericalsimulationresultsshowedgoodagreementwithanalyticalsolutionaswellasexperimentalresults . 
+ Keywords 　 numericalmethod , biodegradation , subsurfaceacquifer . 
+ 　 　 定量 描述 细菌 微生物 和 污染物 在 地下 含水层 中 的 变化规律 ， 对于 地下水 污染 治理 十分 重要 ［ 1 ］ . 描述 地下水 中 微生物 运动 的 方程 是 高度 非线性 的 ［ 2 — 6 ］ . 只有 靠 数值 法 求解 . 对于 均匀 孔隙 介质 生物降解 计算方法 问题 ， 已有 报道 ［ 4 ， 5 ］ . 关于 裂隙 孔隙 介质 污染物 迁移 转化 问题 的 报道 ， 主要 侧重于 裂隙 中 对流 输送 作用 不 占优势 ［ 7 ， 8 ］ 、 及 化学反应 周期 较长 的 ( 几年 到 十几年 ) 情况 ［ 9 ］ ， 对于 这 两种 情况 ， 计算方法 比较 好 解决 . 在 裂隙 中 ， 对流 引起 的 污染物 输运 常常 大于 扩散 项 的 作用 ， 并 可能 出 现场 变量 陡 变化 ( 大 梯度 ) . 同时 ， 在 生物降解 过程 中 ， 细菌 生长 死亡 周期 在 几天 到 几十天 ［ 6 ， 10 ］ ， 吸附 、 解吸 更 快 ， 常为 几天 到 几小时 甚至 更 短 ［ 6 ， 10 ］ ， 这些 情况 给 计算方法 带来 很大 困难 ， 本文 的 数值 方法 则 是 根据 这 两个 问题 设计 的 . 
+ 1 　 生物降解 数学模型 的 特点 
+ 　 　 在 裂隙 介质 二重 孔隙 模型 中 ［ 2 ， 3 ， 6 ］ ， 好氧菌 ( 一维 ) 运动 方程 为 ： 
+ ( 1 ) 
+ ( 2 ) 
+ ( 1 ) 、 ( 2 ) 两式 中 ， 脚标 “ 1 ” 代表 裂隙 中 的 要素 ， 脚标 “ 2 ” 代表 孔隙 中 的 要素 ； O , S 分别 代表 氧 和 污染物 的 浓度 ， 都 有 性质 类似 的 控制 方程 ； C 为 液相 中 细菌 浓度 ； 其它 符号 说明 见 文献 ［ 2 ］ ， ［ 3 ］ ． 方程 ( 2 ) 通过 裂隙 与 孔隙 界面 条件 与 方程 ( 1 ) 发生 耦合 . 
+ 　 　 为了 讨论 计算方法 ， 一般 设法 给出 上述 方程组 线性化 后 的 相应 标准 形式 ： 
+ 　 　 　 　 　 　 ( 3 ) 
+ 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 　 　 其中 ， 
+ 
+ 　 　 在 式 ( 3 ) 、 ( 4 ) 中 ， 主要 有 对流 项 、 扩散 项 、 生化 项 ( 最后 一项 ) 和 裂隙 孔隙 界面 的 通量 交换 项 . 当 对流 项 占优势 ， 即 ： Pe > 1.0 和 A = ( uC / x1 ) / fC > 1.0 时 ， 会 出现 污染物 浓度 较 陡 的 锋面 会 维持 较长 的 时间 ， 这 已 被 观测 事实 和 有关 理论 所 证实 . 此时 要求 对流 项 的 计算方法 有 足够 的 精度 . 若 A < 1.0 时 ， 生化 项 的 贡献 快 于 对流 项 的 贡献 ， 则 要求 对 生化 项 的 计算方法 有 较 高 的 精度 . 最后 ， 如果 裂隙 孔隙 界面 上 交换 较大 ， 而 裂隙 又 较 细 ， 其 相应 时间 步长 的 选取 也 需作 考虑 . 
+ 2 　 计算方法 
+ 　 　 本节 在 假设 u2 = 0 下 ， 首先 讨论 无 生化 反应 时含 裂隙 含水层 污染物 输运 的 计算方法 ， 然后 讨论 有 生化 反应 项时 ， 污染物 输运 及 转化 的 计算方法 . 此时 ， 综合 Tang 等 ［ 11 ］ 和 Sundicky 等 ［ 12 ］ 的 结果 ， 在 一定 的 定解 条件 下 ， 可以 求得 解析 解 ( 限于 篇幅 ， 不 给出 具体 形式 ) ， 对应 的 解析 解可 与 后面 相应 的 数值 解 相对 比 . 当 u2 ≠ 0 时 ， 与 裂隙 中 的 处理 方法 相似 . 
+ 2.1 　 对流 扩散 项 ( f = 0 ) 的 计算方法 及 时间 步长 的 确定 
+ 　 　 首先 ， 用 劈裂 算子 方法 将式 ( 3 ) 在 f = 0 时 劈裂 为 ： 
+ 　 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 　 　 　 　 　 　 ( 6 ) 
+ 式 ( 5 ) 、 ( 6 ) 中 C * 1 、 D * 1 表示 中间 步 的 要素 ， 用 三次 样条 插值 方法 求式 ( 5 ) 的 浓度 贡献 ， 再求 扩散 项 等 其他 各项 的 贡献 . 
+ 　 　 式 ( 5 ) 的 求解 方法 如下 ［ 9 ］ ： 
+ 　 　 令 Ni = ( C * 1 / x1 ) i 根据 三次 样条 插值 方法 有 ： 
+ 　 　 　 ( 7 ) 
+ 式 ( 7 ) 中 ， Δ xi = xi - xi - 1 , Δ xi + 1 = xi + 1 - xi ， 当 u > 0 时 ， 式 ( 5 ) 中 k + 1 时步 的 浓度 C * k + 1i 为 ： 
+ ( 8 ) 
+ 这样 ， 式 ( 7 ) 、 ( 8 ) 及 相应 的 初边 条件 求式 ( 5 ) 中 的 C * 1 后 ， 再 将 扩散 项用 中心 差 格式 ， 利用 ( 3 ) 、 ( 4 ) 两 式 迭代 即可 求得 CK + 11 、 CK + 12 . 
+ 　 　 孔隙 裂隙 界面 交换 导数 都 采用 下列 二阶 精度 格式 ： 
+ ( 9 ) 
+ 式 ( 9 ) 中 ， C2 ( 1 ) 为 孔隙 裂隙 较 界面 上 的 值 ， 等于 裂隙 介质 当地 值 . 并且 
+ 
+ 　 　 由于 方程 的 任何 一种 离散 形式 都 有 相应 的 舍入 误差 ， 若 要求 计算精度 高 ， 又 要 节省时间 . 则 需要 调节 时间 步长 . 
+ 　 　 当 裂隙 很细时 ， 其 时间 步长 的 选取 光 满足 Courant 数 小于 1 是 不够 的 . 对于 长为 Δ x 的 裂隙 ， 其 背景 浓度 为 C ， Δ t ， 要求 ： 
+ 
+ 　 　 上面 不等式 中 ， flux2 , flux1 分别 为 流入 流出 裂隙 通量 ， 均 为 对流 扩散 的 综合 作用 ， 其 量级 为 ， 其中 D 为 裂隙 中 的 物质 扩散系数 ， 右边 最后 一项 为 在 L 长度 内 物质 从 裂隙 进入 孔隙 的 通量 . 其 量级 为 . 这里 利用 了 界面 上 裂隙 孔隙 浓度 相等 的 关系 ， 则 时间 步长 应 满足 ： 
+ 　 　 　 　 　 　 　 　 　 ( 10 ) 
+ 　 　 为了 比较 上述 方法 的 优点 ， 本文 分别 用 单步 后退 的 有限元 方法 ［ 13 ］ 计算 对流 扩散 过程 . 图 1 为 纯 对流 ( Pe = ∞ ) 时 ： 第 90 天 两种 数值 方法 计算结果 与 对应 解析 解 的 比较 . 其 有关 参数 为 u = 0.1 m / d ， b = 10 × 10 - 4m , D * = 1.3824 × 10 - 6m2 / d , φ 1 = 1.0 , φ 2 = 0.01 ， R1 = R2 = 1.0 ， D1 = 0 . 
+ 
+ 
+ 图 1 　 纯 对流 时 ， 第 90 天 数值 解与 解析 解 的 对比 
+ Fig.1 Thecomparisonofnumericalresult ( S , E ) andanalyticalresult ( A ) at90daysinabsoluteadvectivecase 
+ 
+ 
+ 图 2 　 f = 1.54 时 ， 第 30 天 数值 解与 解析 解 的 对比 
+ Fig.2 Thecomparisonofnumericalresult ( B , C ) andanalyticalresult ( A ) at30daysindifferentsub - step 
+ 2.2 　 有 生化 反应 项 ( f ≠ 0 ) 时 的 计算方法 及 生化 过程 时间 子 步长 的 确定 
+ 　 　 在 方程 ( 3 ) 、 ( 4 ) 中 ， 可以 假设 f1 = f2 = f ， 以可有 解析 解与 数值 解 对比 ， 这 并 不 影响 以后 结论 用于 f1 ≠ f2 的 计算方法 . 
+ 　 　 　 　 　 　 　 　 　 ( 11 ) 
+ 式 中 ， Δ t = n Δ t0 , Λ T 表示 对流 扩散 算符 ， Λ K 表示 生化 反应 项 的 算符 . 有 ： 
+ 　 　 　 　 　 ( 12 ) 
+ 　 　 　 　 　 　 　 　 　 　 　 　 ( 13 ) 
+ 其 具体 计算 步骤 为 ： 已知 CK ， 积分 式 ( 12 ) 及 相应 孔隙 中 污染物 扩散 方程 半个 时间 步长 ， 并 以 这个 浓度 值为 初值 ， 积分 式 ( 13 ) 及 相应 孔隙 中 生化 过程 方程 一个 时间 步长 ， 再 以 积分 生化 过程 后 的 浓度 值为 初值 ， 积分 式 ( 12 ) 及 孔隙 扩散 方程 半个 时间 长步 ， 即 为 下 一个 时刻 式 ( 3 ) 、 ( 4 ) 的 解 . 
+ 　 　 由于 Zysset 并 没有 给出 如何 选取 生化 时间 步长 . 本文 在 求解 生化 过程 时 ， Δ t 时间 步长 内 的 生化 时间 子 步长 Δ t0 按照 如下 方法 选取 . 
+ 　 　 通过 Splitting - Operator 分裂 后 ， 生化 项 已 为 常 微分方程 ： 
+ 　 　 　 　 　 　 　 　 　 　 　 　 ( 14 ) 
+ 　 　 f ( C ) 是 连续函数 ， 并 认为 其三 阶 导数 是 小量 . 将式 ( 14 ) 式 右端 在 Cm ( 1 ≤ m ≤ n ) 处 展开 ， 并 要求 一个 生化 时间 子 步长 内 ， Cm 和 Cm + 1 满足 如下 关系 ： 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 15 ) 
+ 　 　 ε 为 已 选定 的 常数 ， 通过 对 它 的 控制 以 达到 求解 生化 过程 的 精度 . 有 
+ 　 　 ( 16 ) 
+ 　 　 式 ( 16 ) 中 ： 
+ 
+ 　 　 Δ t 仍 按 前面 的 方法 选取 ， 按式 ( 16 ) 选取 生化 项 的 时间 步长 即可 . 
+ 　 　 图 2 为 f = 1.54 d - 1 时 ， 用 上述 方法 确定 生化 时间 子 步长 和 生化 时间 子 步长 与 对流 扩散 时间 步长 相同 情况 下 ， 第 30 天时 ， 计算结果 与 对应 解析 解 的 比较 ， 从图 中 可以 看出 ， 本文 所 采用 方法 ( 曲线 C ) 较 好 地 模拟 了 生化 反应 时间尺度 小于 对流 扩散 时间尺度 的 情况 ( 生化 项 与 对流 扩散 项之比 小于 1 ) . 曲线 B 为式 ( 11 ) 中 n = 1 时 的 计算结果 . 
+ 3 　 数值 解与 实测值 的 对比 
+ 　 　 为了 验证 本 工作 给出 的 上述 结论 ， 将 本文 所 推荐 的 方法 用于 模拟实验 观测 . 由于 目前 未见 裂隙 孔隙 介质 下 生物降解 的 实验 报道 ， 这里 采用 一个 裂隙 孔隙 介质 下 的 输运 转化 实验 和 一个 孔隙 介质 下 的 生物降解 实验 结果 . 
+ 3.1 　 裂隙 孔隙 介质 下 污染物 输运 与 转化 实验 模拟 
+ 　 　 根据 Sudicky 等 ［ 12 ］ 和 Star 等 ［ 14 ］ 的 报道 ， 在 饱和 稳定流 的 裂隙 孔隙 土柱 中 ， 在 入侧 一端 的 沙 土层 中 ， 分别 注入 NaCl ［ 12 ］ 和 85Sr ［ 14 ］ ， 在 另一端 进行 测试 ， 具体方法 步骤 和 有关 参数 见 文献 ［ 12 ］ 和 文献 ［ 14 ］ . 图 3 为 NaCl 实测值 与 本文 计算 值 的 对比 ， 可见 ， 计算 值 与 实测值 符合 得 很 好 . 图 4 为 注入 85Sr , u 分别 为 1.0 、 0.5 m / d 时 的 计算 值 与 观测 值 的 对比 . 虚线 为 调整 滞止 系数 R 前 ( Rd 实测值 ) 的 计算结果 ， 实线 为 按照 文献 ［ 14 ］ 调整 R 后 的 计算结果 . 可见 ， 其 结果 仍 是 令人满意 的 . 在 图 的 右端 计算 值比 实测值 略偏 高 的 现象 ， 在 近期 的 工作 中 ， 也 有 类似 的 报道 ［ 15 ］ ， 文献 ［ 15 ］ 也 认为 象 弯曲 系数 、 滞止 系数 、 孔隙 扩散系数 、 孔隙 度 等 参数 的 实测 结果 的 精确性 是 值得注意 的 . 
+ 
+ 
+ 图 3 　 无 化学反应 时 数值 结果 与 观测 值 的 对比 ( u = 0.5 m / d ) 
+ Fig.3 Thecomparisonofnumericalresult ( N ) andmeasuredresult ( M ) innonreactivecase 
+ 
+ 
+ 图 4 　 有 化学反应 时 ， 数值 结果 与 观测 值 ( M ) 的 对比 
+ Fig.4 Thecomparisonofmeasuredresult ( M ) andnumericalresult ( NA , NB ) inreactivecase 
+ 
+ 
+ 图 5 　 生物降解 下 模拟 结果 与 实验 结果 的 对比 
+ Fig.5 Thecomparisonofmeasuredresultsandnumericalresultsinbiodegradation 
+ 3.2 　 孔隙 介质 下 生物降解 实验 模拟 
+ 　 　 本文 模拟 孔隙 介质 中 硝酸盐 还原 菌 降解 乳酸 的 土柱 实验 ［ 4 ］ 结果 . 有关 实验 方法 及 参数 在 文献 ［ 4 ］ 中有 详细 说明 . 在 模拟 此 过程 时除 ( 1 ) 、 ( 2 ) 两式 外 ， 需要 再 引入 一个 硝酸盐 输运 转化 方程 ， 其 形式 在 本文 第 2 部分 已 说明 过 . 同时 需要 将 双重 孔隙 介质 下 的 污染物 及 细菌 相互作用 模型 退化 为 均匀 孔隙 介质 下 生物降解 模型 . 图 5 即为 实验 值 与 模拟 值 的 对比 . 可见 ， 本文 采用 的 方法 较 好 地 模拟 了 生物降解 过程 . 
+ 4 　 结论 与 讨论 
+ 　 　 以上 结果 说明 ， 应用 三次 样条 方法 处理 对流 项 ， 较 好地解决 了 裂隙 介质 中 物质 输运 的 场 变量 陡 变化 问题 . 
+ 　 　 推广应用 Splitting - Operator 方法 于 含 裂隙 含水层 有 生化 过程 的 输运 及 转化 问题 ， 所得 的 计算结果 与 对应 的 解析 解 很 一致 . 通过 对 生化 项 与 对流 项 的 比较 分析 ， 给出 了 当 生化 过程 占优势 时 ， 生化 项 时间 步长 的 选取 方法 . 
+ 　 　 利用 本 计算方法 对 实验 资料 进行 了 对比 模拟 ， 其 结果 也 比较 一致 . 
+ * 国家自然科学基金 资助 项目 ( 批准 号 ： 59279402 ) 
+ 作者 单位 : 中国科学院 大气物理 研究所 ， 
+ 李家 伦 　 洪 钟祥 : 大气 边界层 物理 与 大气 化学 国家 重点 实验室 ； 
+ 孙菽芬 : 大气 科学 与 地球 流体力学 数值 模拟 国家 重点 实验室 ， 北京 　 100029 
+ 参考文献 
+ 1 　 TuesmanJF , CorkDJ . Subsurfacecontaminantbioremeditionengineering . CriticalReviewinEnvironmentalControl , 1992 , 22 ( 1 / 2 ) : 1 — 26 
+ 2 　 孙菽芬 . 非 均匀 含水层 中 污染物 的 输送 与 生物降解 的 流动 研究 . 力学 进展 ， 1995 ， 25 ( 3 ) ： 357 — 367 
+ 3 　 孙菽芬 ， 廖文根 . 生物降解 处理 地下 有机 污染物 的 模型 研究 . 水利学 报 ， 1994 ， 8 ： 1 — 10 
+ 4 　 ZyssetAetal . Modelingofchemicallyreactivegroundwatertransport . WaterResourRes , 1994 , 30 : 2217 — 2228 
+ 5 　 WoodBDetal . Modelingcontaminanttransportandbiodegradationinalayeredporousmediasystem . WaterResourRes , 1994 , 30 ( 6 ) : 1833 — 1845 
+ 6 　 CorapciogluMY , AHaridas . Microbialtransportinsoilsandgroundwater , anumericalmodel . AdvWaterRes , 1985 , 8 : 188 — 200 
+ 7 　 Bibby . Masstransportofsolutesindual - porositymedia . WaterReesourRes , 1981 , 17 : 1075 — 1081 
+ 8 　 NoorishadJetal . Anupstreamfiniteelementmethodforsolutionoftransienttransportequationinfracturedporousmedia . WaterResourRes , 1982 , 18 : 588 — 596 
+ 9 　 何光 渝 . 放射性核素 在 多孔 岩层 裂缝 中 传输 的 数值 模拟 . 环境 科学 学报 ， 1987 ， 7 ( 3 ) ： 253 — 259 
+ 10 　 HarveyRW . In : HurstCJ ( ed ) . Parametersinvolvedinmodelingmovementofbacteriaingroundwater , inModelingtheEnvironmentalFateofMicroorganisms . WashingtonDC : AmericanSocietyforMicrobiology , 1991 . Chapter5 : 89 — 114 
+ 11TangDHetal . Contaminanttransportinfracturedporousmedia : analyticalsolutionforasinglefracture . WaterResourRes , 1981 , 17 ( 3 ) : 555 — 564 
+ 12SudickyEAetal . Experimentalinvestigationofsolutetransportinstratifiedporousmedia , 1thenonreactivecase . WaterResourRes , 1985 , 21 ( 7 ) : 1035 — 1050 
+ 13NeumanSP . AdaptiveEulerian - Lagrangianfiniteelementmethodforadvective - dispersion . InternationalJforNumericalMethodinEngineering , 1984 , 20 : 321 — 337 
+ 14StarrAetal . Experimentalinvestigationofsolutetransportinstratifiedporousmedia , 2thereactivecase . WaterResourRes , 1985 , 21 ( 7 ) : 1043 — 1050 
+ 15NovakowskiKS 　 etal . Fieldmeasurementofradialsolutetransportinfracturedrock . WaterResourRes , 1994 , 30 : 37 — 44 
+ 1998 - 02 - 11 收到 原稿 
+ 1999 - 01 - 28 收到 修改稿 

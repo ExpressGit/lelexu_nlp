@@ -1,0 +1,86 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1998 年 第 18 卷 第 4 期 No.4 Vol.181998 
+ 科技期刊 
+ 
+ 臭氧 和 好 氧 生物 法 处理 污水 处理厂 出水 的 纳米 过滤 浓缩液 
+ 蹇 兴超 　 吴 天宝 　 （ 清华大学 核能 技术 设计 研究院 ， 北京 100084 ） 
+ MathiasErnst 　 （ 德国 柏林 工业 大学 水质 控制 系 ， 柏林 ） 
+ 文 　 摘 　 城市污水 处理厂 出水 的 纳米 过滤 浓缩液 较难 直接 生物 处理 。 臭氧 氧化 该 浓缩液 降低 DOC 的 速度 较慢 ， 但是 可以 有效 地 破坏 该 浓缩液 中含 苯环 和 有色 基团 的 大分子 有机物 ， 显著 增加 小 分子 有机物 的 相对 含量 ， 从而 增大 其 可 生化 降解 性能 。 研究 发现 臭氧 的 投量 为 52mg / L 左右 时 ， 臭 氧化 改善 该 纳米 过滤 浓缩液 的 可 生化 降解 性能 的 效果 最佳 。 
+ 关键词 　 纳米 过滤 浓缩液 　 臭氧 氧化 　 好 氧 生物 处理 
+ Treatingthenanofiltrationconcentrateofatertiaryeffluentfromamunicipalwastewatertreatmentplantbyozonationandaerobicbiotreatment . JianXingchao ， WuTianbao （ InstituteofNuclearEnergyTechnology , TsinghuaUniversity , Beijing100084 ） ； MathiasErnst （ DepartmentofWaterQualityControl , TechnicalUniversityofBerlin , Berlin ） . ChinaEnvironmentalScience.1998 , 18 ( 4 ) : 353 ～ 355 
+ Abstract — Thenanofiltrationconcentrateofeffluentfrommunicipalwastewatertreatmentplantwasdifficulttobebiotreateddirectly . TheinfluenceofoxidationbyozoneonthemolecularweightdistributionoftheDOCofthenanofiltrationconcentratewasstudied . Duetotheozonation , thepercentageofsmallmoleculesincreasedwhiletheUVadsorptionof254nmand436nmdecreasedmuchmorethantheDOC . Asaresultfromthisbehavior , thebiodegradabilityoftheoxidizedconcentratewasenhanced . Theconsecutiveaerobicbiotest ( ZahnWellenstest ) showedthatwhentheozonedosagewasaround52mg / L , itcouldimprovethebiodegradabilityofthisnanofiltrationconcentratetooptimum , ifcomparedwiththeDOCreductionofthedirectozonemineralization . 
+ Keywords : nanofiltrationconcentrate 　 ozonation 　 aerobicbiotreatment 
+ 　 　 纳米 过滤 是 一种 新型 的 膜分离 技术 ， 它 介于 反渗透 和 超滤 之间 , 并 综合 了 二者 的 优点 〔 1 〕 。 它 既 能 阻碍 大分子 物质 通过 ， 又 只 需 在 低压 ( 138 ～ 827kPa ) 下 操作 ， 具有 更强 的 经济 竞争性 〔 2 〕 。 美国 亚利桑纳 大学 的 研究 人员 采用 纳米 过滤 工艺 成功 地 处理 了 科罗拉多河 水 和 污水 处理厂 出水 。 他们 发现 纳米 过滤 可 除去 污水 处理厂 出 水中 2 / 3 的 盐度 、 4 / 5 的 硬度 , 超过 90% 的 溶解 碳 和 三氯甲烷 前体 ， 其 出水 完全符合 美国 1986 年 安全 饮用水 法律 对 优先 污染物 的 规定 〔 3 〕 。 本 试验 中 ， 采用 纳米 过滤 技术 处理 德国 柏林 Ruhleben 污水 处理厂 的 三级 出水 ， 滤液 出 水中 DOC 为 1 ～ 2mg / L 。 但是 在 生产 出 如此 高质量 的 滤液 同时 ， 也 产生 了 有机物 浓度 较 高 的 浓缩液 ， 其 DOC 为 25 ～ 32mg / L 。 该 浓缩液 所含 的 有机物 ， 分子量 较大 ， 难以 被 生物降解 。 众所周知 ， 臭氧 氧化 可以 改变 分子结构 ， 提高 有机物 的 可 生化 性 。 臭氧 氧化 和 好 氧 生物 处理 相结合 将 是 一种 有效 的 处理 该 浓缩液 的 方法 。 然而 臭氧 投加 过量 ， 也 将 不利于 后续 的 生物 处理 并且 会 增加 处理 费用 。 本文 研究 了 一种 寻求 适宜 的 臭氧 投加量 的 方法 。 
+ 1 　 试验 方法 
+ 1.1 　 活性污泥 的 处理 和 浓度 测量 
+ 　 　 新鲜 的 活性污泥 取自 Ruhleben 污水 处理厂 曝气池 。 取 活性污泥 100mL 于 蒸发皿 中 ， 移入 110 ℃ 烘箱 内 ， 放置 24h 后 称重 ， 计算 污泥 浓度 。 试验 所用 的 污泥 浓度 为 10.7 g / L ， 然后 去除 活性污泥 的 水中 所 含 有机物 ， 方法 如下 ： 取 50mL 新鲜 活性污泥 ， 称重 后 置于 离心分离 机中 ， 离心分离 5min ， 倒 去 上 清液 ， 然后 加入 自来水 ， 使 污泥 恢复 原来 重量 ， 搅拌 均匀 后 再次 离心分离 ， 去掉 上 清液 ， 再 补充 自来水 恢复 污泥 原来 的 重量 ， 搅拌 均匀 后备 用 。 
+ 1.2 　 钠 米 过滤 浓缩液 的 制备 与 臭氧 氧化 
+ 　 　 将 Ruhleben 污水 处理厂 的 三级 出水 经沙滤柱 过滤 ， 滤速 为 5.7 m / h ， 然后 使用 Desal 公司 生产 的 型号 为 DK - 5 的 聚酰胺 为 主体 的 纳米 过滤 膜 在 压力 为 0.7 MPa 下 过滤 ， 水 的 回 用率 为 80 ％ 。 将 此 纳米 过滤 的 浓缩液 用 臭氧 氧化 。 取 6L 纳米 过滤 浓缩液 于 内径 为 100mm 的 臭氧 反应器 中 ， 开始 投加 臭氧 ， 氧化 共 进行 70 ～ 90min 。 在 氧化 过程 中 ， 每隔 几分钟 取出 250mL 的 水样 备用 。 
+ 1.3 　 好 氧 生物 处理 
+ 　 　 在 250mL 水样 中 加入 少许 上述 去掉 有机物 的 活性污泥 ， 使 活性污泥 的 浓度 达到 0.1 g / L ， 然后 加入 磷酸盐 缓冲溶液 1mL ， MgSO4 ， CaCl2 ， FeCl3 溶液 各 0.2 mL 并 混合 均匀 。 上述 4 种 溶液 的 配制 方法 如下 ： ( 1 ) 磷酸盐 缓冲溶液 ： 溶解 21.75 gK2HPO4 , 23.83 gNa2HPO4 , 0.5 gNH4Cl , 6.6 gKH2PO4 于 1L 蒸馏水 中 ； ( 2 ) 称取 22.5 gMgSO4 * 7H2O 于 1L 蒸馏水 中 ； ( 3 ) 称取 27.5 gCaCl2 于 1L 蒸馏水 中 ； ( 4 ) 称取 0.25 gFeCl3 * 6H2O 于 1L 蒸馏水 中 。 
+ 　 　 测量 上述 加 有 活性污泥 和 营养物质 的 水样 的 pH 值 ， 并用 10% 的 NaOH 溶液 和 1 ∶ 5 的 磷酸 调节 其 pH 值到 7.5 。 将 这些 水样 加入 磁力 搅拌器 后 敞口 置于 20 ℃ 的 恒温 环境 中 ， 搅拌 以 保持 水中 有 足够 的 溶解氧 ， 记录 液面 位置 。 如此 好 氧 处理 14d ， 在此期间 ， 每隔 3d ， 用 自来水 补充 蒸发 消耗掉 的 水分 ， 测量 并 调节 各 水样 的 pH 值为 7.5 ， 7d 后 从 各 水样 中 取出 50mL ， 用 0.45 μ m 的 核孔 膜过滤 后 测量 DOC ， UV 吸光 值 等 。 原 水样 继续 处理 ， 14d 后 再次 测量 DOC ， UV 吸光 值 等 。 
+ 　 　 根据 不同 的 臭氧 比 投量 后 的 生物 处理 的 效果 ， 寻求 最佳 臭氧 投量 。 采用 臭氧 的 比 投量 ， 也 即 臭氧 投量 （ mg / L ） 与 浓缩液 的 原始 DOC 浓度 （ DOC0 ， mg / L ） 的 比值 来 表示 臭氧 相对 用量 。 
+ 　 　 为了 研究 臭氧 氧化 对 水中 有机物 分子 的 改变 ， 采用 型号 为 YM1 ， YM3 ， YM10 的 三种 超滤膜 过滤 水样 。 它们 分别 可以 阻挡 分子量 大于 1000 、 3000 和 10000 的 有机物 。 
+ 2 　 结果 和 讨论 
+ 　 　 臭氧 氧化 改变 了 纳米 过滤 浓缩液 中 有机物 的 分子结构 ， 降低 了 有机物 含量 。 从表 1 可以 看出 臭氧 氧化 能 很快 降低 UV 吸光 值 ， 但是 降低 DOC 的 速度 较慢 ， 这 是因为 UV254 主要 代表 的 是 在 254nm 处有 吸收 峰 的 大分子 有机物 ， 例如 具有 C ＝ C ， C ＝ O 双键 的 大分子 有机物 酚类 ， 多环 芳烃 、 芳香 酮 、 芳香醛 等 含 苯环 的 芳香族化合物 ， 臭氧 可以 很快 破坏 这些 大分子 和 苯环 ， 从而 降低 UV254 吸光 值 。 UV436 吸光 值 主要 代表 的 是 水中 的 含 深色 团 的 有机物 ， 臭氧 对 这类 有机物 也 有 较 好 的 处理 效果 。 但是 较 低 投量 的 臭氧 很难 使 水中 的 有机物 完全 氧化 ， 水中 有机物 的 总量 减少 并不多 ， 所以 DOC 的 降低 并 不快 。 
+ 表 1 　 臭氧 氧化 纳米 过滤 浓缩液 的 效果 
+ Table1 　 Theozonationresultsofnanofiltrationconcentrate 
+ 
+ 臭氧 
+ 投量 
+ ( mg / L ) 臭氧 比 　 
+ 投量 　 DOC 
+ ( mg / L ) UV254 
+ ( 1 / m ) UV436 
+ ( 1 / m ) 
+ 0031.080 . 44.21 
+ 15.40 . 529.543 . 20.96 
+ 28.60 . 9227.428 . 00.61 
+ 41.81 . 3525.121 . 20.44 
+ 52.51 . 6923.217 . 10.26 
+ 62.32 . 0121.314 . 70.26 
+ 71.72 . 3119.412 . 40.08 
+ 88.52 . 8515.99 . 30.02 
+ 110.73 . 5711.25 . 70.01 
+ 128.84 . 169.34 . 40.01 
+ 
+ 　 　 表 2 ， 表 3 表示 纳米 过滤 浓缩液 和 对 该 浓缩液 投加 100mg / L 的 臭氧 后 ， 用 YM1 、 YM3 、 YM10 三种 超滤膜 分别 过滤 后 ， 各 滤液 的 DOC 和 UV254 占 超滤 前 各自 原始 DOC （ DOC0 ） 及 原始 UV254 （ UV254 - 0 ） 的 比例 。 投加 100mg / L 的 臭氧 氧化 后 ， 分子量 小于 1000 的 有机物 占 DOC 的 比例 从 35% 上升 到 49% ， 增加 了 40 ％ ， 而 此类 小 分子 占 UV254 吸光 值 的 比例 从 28% 上升 到 52% ， 增加 了 86 ％ 。 由于 UV254 吸光 值 表示 的 是 大分子 有机 酚类 和 带 苯环 的 芳香族 有机物 ， 臭氧 氧化 破坏 了 多环 有机物 并 生成 了 一些 分子量 较 小 的 芳香族化合物 ， 因此 ， 分子量 小于 1000 的 有机物 在 UV254 中 的 比例 增幅 大于 在 DOC 中 的 比例 增幅 ， 这 也 说明 了 臭氧 氧化 的 主要 作用 是 破坏 了 大分子 ， 尤其 是 带 苯环 的 芳香族 有机物 ， 而 减少 总 有机物 含量 的 速度 较慢 。 
+ 表 2 　 臭氧 氧化 前后 DOC / DOC0 的 变化 
+ Table2 　 ThechangeofDOC / DOC0byozonation 
+ 
+ 分子量 范围 纳米 过滤 浓缩液 
+ ( % ) 投加 100mg / L 臭氧 后 
+ ( % ) 
+ 　 　 ＜ 10003549 
+ 1000 ～ 30004026 
+ 3000 ～ 10000109 
+ 　 　 ＞ 100001516 
+ 
+ 表 3 　 臭氧 氧化 前后 UV254 / UV254 - 0 的 变化 
+ Table3 　 ThechangeofUV254 / UV254 - 0byozonation 
+ 
+ 分子量 范围 纳米 过滤 浓缩液 
+ ( % ) 投加 100mg / L 臭氧 后 
+ ( % ) 
+ 　 　 ＜ 10002852 
+ 1000 ～ 30003834 
+ 3000 ～ 10000161 
+ 　 　 ＞ 100001813 
+ 
+ 　 　 臭氧 氧化 和 好 氧 生物 处理 都 能 降低 水中 的 有机物 浓度 。 图 1 中 DOC0 是 纳米 过滤 浓缩液 的 原始 DOC ； DOC0d 为 臭氧 氧化 后 ， 生物 处理 前 的 DOC ； DOC7d 和 DOC14d 分别 是 生物 处理 7d 和 14d 后 的 DOC 。 D7 和 D14 分别 是 DOC0d ～ DOC7d 和 DOC0d ～ DOC14d ， 表示 的 是 由于 生物 处理 所 降低 的 那 部分 DOC 。 不同 的 臭氧 投量 对 改善 后续 的 好 氧 生物 处理 的 效果 是 不同 的 。 从图 1 可以 看到 臭氧 的 比 投量 为 1.69 时 ， D7 和 D14 均 达到 了 最大值 ， 也 即 生物 处理 的 效果 发挥 到 最大 。 臭氧 投量 不足 和 过量 都 不能 达到最佳 的 效果 。 从图 1 还 可以 看出 ， 随着 好 氧 生物 处理 时间 的 延长 ， 不同 的 臭氧 投量 下 ， 生物 处理 效果 的 差别 减小 了 ， 这正 说明 臭氧 氧化 明显改善 了 最初 7d 的 生物降解 效应 ， 加快 了 生物降解 的 速度 。 不 投加 臭氧 ， 7d 中因 生物降解 导致 的 DOC 降低 为 5.8 mg / L ， 而 臭氧 的 比 投量 为 1.69 时 ， 7d 中因 生物降解 导致 的 DOC 降低 为 15.8 mg / L ， 比 不 投加 臭氧 增加 了 172 ％ 。 
+ 
+ 图 1 　 臭氧 氧化 对 后续 的 生物 处理 影响 示意 
+ Fig.1 　 Ozonationimprovedtheeffectof 
+ aerobictreatment 
+ 
+ 3 　 结论 
+ 3.1 　 臭氧 氧化 可以 有效 地 破坏 污水 厂 出水 的 纳米 过滤 浓缩液 中含 苯环 和 有色 集团 的 大分子 有机物 ， 显著 增加 小 分子 的 有机物 相对 含量 ， 但是 降低 总 有机物 含量 的 速度 较慢 。 
+ 3.2 　 臭氧 氧化 显著 改善 了 污水 厂 出水 的 纳米 过滤 浓缩液 的 可 生化 降解 性能 ， 初步 的 研究 发现 臭氧 的 比 投量 在 1.69 左右 ， 即 臭氧 的 投量 为 52mg / L 左右 时 ， 臭 氧化 改善 该 纳米 过滤 浓缩液 的 可 生化 降解 性能 的 效果 最佳 。 
+ 参考文献 
+ 1 　 AmyGaryL ， AllemanBruceC ， CluffCBrent . Removalofdissolvedorganicmatterbynanofiltration . JournalofEnvironmentalEngineering , 1990 , 116 ( 1 ) : 200 ～ 205 
+ 2 　 WatsonBM ， HornburgCD . Low - energymembranenanofiltrationforremovalofcolor , organicsandhardnessfromdrinkingwatersupplies . Desalination , 1989 , 72 ( 1 ～ 2 ) : 11 ～ 22 
+ 3 　 CluffCBrent . Slowsand / nanofiltrationtreatmentforsecondarytreatedwastewater . Desalination.1992 , 88 ( 1 ～ 3 ) : 53 ～ 67 
+ 作者简介 
+ 蹇 兴超 　 男 ， 1973 年 4 月生 。 清华大学 核能 技术 设计 研究院 博士 研究生 。 曾 参加 过 可 持续 发展 理论 研究 和 核工业部 攻关 课题 “ 放射性 废物 的 处理 ” ， 目前 从事 中 德 合作 “ 城市污水 深度 处理 回灌 地下水 研究 ” 项目 。 出版 专著 1 本 ， 译著 1 本 ， 发表 论文 6 篇 。 
+ 收稿 日期 ： 1997 - 08 - 20 

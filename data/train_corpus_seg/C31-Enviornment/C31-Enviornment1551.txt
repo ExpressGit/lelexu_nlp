@@ -1,0 +1,131 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1998 年 第 18 卷 第 5 期 No.5 Vol.181998 
+ 科技期刊 
+ 
+ 长波 紫外线 对 M13mp2 噬菌体 的 致 突变 作用 * 
+ 郝 卫东 　 尚兰琴 　 郑 　 妤 　 金庆中 　 （ 北京医科大学 公共卫生 学院 ， 北京 100083 ） 
+ 文 　 摘 　 以 野生型 大肠菌 CSH50 及 mutM 缺陷 的 大肠菌 MF67 为 宿主 ， 检测 了 长波 紫外线 （ UVA ） 对 M13mp2 噬菌体 单链 DNAlacZ α 基因 区域 的 致 突变 能力 。 结果显示 ， UVA 照射 可 引起 噬菌体 lacZ α 基因 区域 的 突变 ， 在 mutM 缺陷 的 宿主 中 ， UVA 照射 的 致 突变 作用 更 明显 。 进一步 研究 了 抗氧化剂 甘露醇 对 UVA 照射 致 突变 作用 的 影响 ， 结果显示 ， 0.1 mol / L 的 甘露醇 可以 部分 拮抗 UVA 的 致 突变 作用 。 说明 UVA 照射 具有 致 突变 作用 ， 这种 作用 可能 与 DNA 的 氧化 损伤 有关 。 
+ 关键词 　 长波 紫外线 　 致 突变 作用 　 DNA 氧化 损伤 
+ MutagenesisofM13mp2phagebynear - ultravioletlight . HaoWeidong , ShangLanqin , ZhengYu , JinQingzhong ( SchoolofPublicHealth , BeijingMedicalUniversity , Beijing100083 ) . ChinaEnvironmentalScience.1998 , 18 ( 5 ) : 472 ～ 475 
+ Abstract — ThemutagenicpotentialofUVA ( ultravioletA ) onthelacZ α regionofM13mp2phagewasobservedinwild - typeCSH50andmutM - deficient ( MF67 ) E . coli . TheresultsshowedthatUVAinducedmutationsatlacZ α regionofphageandthemutationfrequencywassignificantlyhigherinMF67thaninCSH50 . Theeffectoffreeradicalscavanger ( mannitol ) onmutagenesisbyUVAwasalsoinvestigated . Themutagenesiswasinhibitedinpartby0.1 mol / Lofmannitol . TheseresultsindicatethatUVAcancausemutationinphageanditsmutageniceffectcanbeascribedtooxidativedamageofDNA . 
+ Keywords : ultravioletA 　 mutagenesis 　 DNAoxidativedamage 
+ 　 　 太阳光 照射 被 认为 是 皮肤癌 发生 的 原因 之一 ， 但 其 确切 机理 还 不 清楚 〔 1 〕 。 一般 认为 ， 紫外线 ， 尤其 是 中波 紫外线 （ ultravioletB , UVB , 290 ～ 320nm 波长 ） 是 太阳光 中 的 主要 致癌 成分 。 UVB 可 引起 嘧啶 二聚体 及 （ 6 - 4 ） 光 化合物 ， 继而 引发 C （ 胞嘧啶 ） → T （ 胸腺 嘧啶 ） 的 转换 及 CC → TT 的 串联 突变 （ tandemmutation ） 〔 2 , 3 〕 。 但是 ， 用 M13mp2 噬菌体 的 lacZ α 基因 区域 进行 的 太阳光 和 UVB 诱发 基因突变 碱基 特异性 分析 的 研究 结果显示 ， UVB 与 太阳光 诱发 的 突变 类型 存在 明显 差异 ， 在 太阳光 照射 诱发 的 噬菌体 单链 DNA 的 突变 中 ， 80 ％ 是 鸟嘌呤 （ G ） 的 颠换 ， 尤其 是 G → C 的 颠换 ； 而 UVB 照射 则 诱发 以 C → T 转换 为主 的 突变 。 这一 结果 提示 ， 太阳光 诱发 突变 的 作用 不能 完全 归于 其中 的 UVB 成分 ， 其它 成分 ， 如 长波 紫外线 ( UVA , 320 ～ 400nm 波长 ） 也 可能 发挥作用 ； 另外 ， 太阳光 引发 的 鸟嘌呤 颠换 可能 与 鸟嘌呤 的 氧化 损伤 有关 〔 4 , 5 〕 。 为了 探讨 UVA 在 太阳光 诱变 作用 中 的 地位 及 DNA 氧化 损伤 在 致 突变 中 的 作用 ， 本 研究 以含 单链 DNA 的 M13mp2 噬菌体 的 lacZ α 基因 区域 为致 突变 作用 的 靶 ， 分析 UVA 的 致 突变 能力 ， 并 观察 MutM 蛋白 、 宿主 细胞 的 SOS 修复 功能 和 抗氧化剂 对 UVA 致 突变 作用 的 影响 。 
+ 1 　 材料 和 方法 
+ 1.1 　 噬菌体 和 细菌 菌株 
+ 　 　 M13mp2 噬菌体 和 宿主 大肠菌 E . coliCSH50 〔 △ ( pro - lac ) , ara - , thi - / F ' traD36 , ( proAB , lacI - QZ - △ M15 ) 〕 由 T . A . Kunkel 博士 ( NIEHS , ResearchTrianglePark , NC , USA ) 惠赠 。 mutM 基因 缺陷 的 E . coliMF67 是 以 P1 转导 （ P1trans - duction ） 的 方法 ， 以 E . coliYG5113 〔 ara - , △ ( gpt - lac ) , mutM : : cat / F ' ( lacI378 , lacZ461 , proAB ) 〕 为 转导 基因 的 供体 ， E . coliCSH50 为 受体 ， 进行 基因 转导 及 克隆选择 而 构建 〔 6 〕 。 该 菌株 mutM 基因 缺陷 ， 不能 编码 产生 MutM 蛋白 ， 而 野生型 CSH50 菌株 可 编码 产生 MutM 蛋白 。 
+ 1.2 　 样品 的 照射 处理 
+ 　 　 UVA 照射 光源 为 三支 金羚 牌 YZ15W 黑光 灯管 （ 北京 电光源 研究所 ， 光谱 范围 310 ～ 440nm ， 峰值 365nm ） 。 将 以 M9 缓冲液 稀释 的 M13mp2 噬菌体 溶液 加入 玻璃 平皿 中 ， 平皿 用 保鲜膜 覆盖 ， 并 置于 冰上 。 保鲜膜 对 波长 为 290 、 320 、 365 、 400nm 的 光线 透过 率 分别 为 89.6 ％ 、 90.8 ％ 、 91.9 ％ 和 91.6 ％ 。 为 阻挡 UVA 光源 的 发射 光中 存在 的 少量 波长 小于 320nm 的 光 成分 ， 在 UVA 光源 与 照射 样品 之间 放置 一块 4mm 厚 的 窗玻璃 ， 该 玻璃 对 波长 为 320 、 350 、 360 及 380nm 的 光线 透过 率 分别 为 0.1% 、 47.8% 、 73.8% 和 76.7 ％ ， 对 小于 320nm 的 光线 透过 率 小于 0.1% 。 照射 过程 中 ， 样品 持续 振荡 。 样品 表面 所 受 照射 强度 为 4.7 ～ 7.0 J ／ m2 * s 。 将 含有 同样 噬菌体 溶液 的 平皿 以锡 铂 纸 覆盖 ， 作为 对照 。 
+ 　 　 UVB 照射 光源 为 一支 青 靛 牌 BE15W 灯管 （ 北京 电光源 研究所 ， 波谱 范围 285 ～ 385nm ， 峰值 312nm ） ， 照射 强度 1.43 J ／ m2 * s 。 
+ 1.3 　 宿主 菌 SOS 功能 的 诱导 
+ 　 　 依据 文献 〔 7 〕 方法 ， 宿主 菌经 142J / m2 剂量 的 杀菌 紫外线 照射 ， 在 使用 前 避光 培养 45min 。 
+ 1.4 　 甘露醇 处理 噬菌体 
+ 　 　 配制 1mol / L 的 甘露醇 溶液 ， 使用 时 ， 取 1 / 10 体积 的 甘露醇 溶液 加 到 噬菌体 溶液 中 ， 使 甘露醇 的 最终 浓度 为 0.1 mol / L 。 
+ 1.5 　 突变 株 的 选择 
+ 　 　 照射 后 的 噬菌体 溶液 稀释 后 ， 与 宿主 大肠菌 一同 在 H - 培养基 上铺 平板 培养 ， 倒 平板 时 加入 1.19 mgIPTG ( isopropylthio - β - D - galactoside ) 和 2.5 mgX - gal ( 5 - bromo - 4 - chloro - 3 - indolyl - β - D - galactoside ) 。 经 37 ℃ 培养 一夜 后 ， 计数 总 的 噬 菌斑 及 突变 噬 菌斑 数 。 噬菌体 在 lacZ α 基因 区域 发生 突变 而 不能 发生 α - 互补 （ α - comlementation ） ， β - 半乳 糖苷酶 活性 缺失 ， 形成 的 噬 菌斑 呈 无色 或 淡蓝色 。 野生 株 形成 的 噬 菌斑 则 为 蓝色 。 
+ 1.6 　 统计分析 
+ 　 　 使用 KASTENBAUM - BOWMAN 统计表 〔 8 〕 ， 对 处理 样品 与 对照 样品 突变率 的 差别 进行 显著性 检验 。 
+ 2 　 结果 
+ 　 　 经 不同 剂量 UVA 照射 的 M13mp2 噬菌体 感染 宿主 菌 野生型 E . coliCSH50 或 mutM 缺陷 的 E . coliMF67 其 存活率 和 突变率 见表 1 。 
+ 表 1 　 UVA 照射 对 M13mp2 噬菌体 生存率 和 突变率 的 影响 
+ Table1 　 SurvivalandmutationfrequencyofUVA - exposedM13mp2phage 
+ 
+ 照射 剂量 
+ ( kJ / m2 ) 生存率 　 
+ ( % ) 　 E . coliCSH50 ( mutM + ) E . coliMF67 ( mutM - ) 
+ 计数 噬菌 
+ 斑 总数 突变 噬 
+ 菌斑 数 突变率 
+ ( × 10 - 4 ) 计数 噬菌 
+ 斑 总数 突变 噬 
+ 菌斑 数 突变率 
+ ( × 10 - 4 ) 
+ 0100.034157102 . 933342361.80 
+ 5043.71180054 . 241208564.96 
+ 16024.411300119 . 73 * * 120001210.00 * 
+ 32015.011200108 . 93 * 122001411.48 * * 
+ 4308.416300169 . 82 * * 170002917.06 * * 
+ 
+ 　 　 　 　 　 　 注 ： * 与 对照 ( 0kJ / m2 ) 比较 , P < 0.05 　 * * 与 对照 ( 0kJ / m2 ) 比较 , P < 0.01 
+ 　 　 UVA 照射 处理 引起 噬菌体 存活率 随 照射 剂量 增加 而 下降 。 大于 160kJ / m2 剂量 的 UVA 照射 处理 在 两种 宿主 中 都 显示 了 突变率 的 增加 ， 430kJ / m2 剂量 照射 时 ， 在 MF67 宿主 中 的 突变率 明显 高于 CSH50 中 的 突变率 。 
+ 　 　 以 诱导 SOS 功能 的 细胞 作为 宿主 ， 进行 了 UVA 致 突变 作用 的 检测 ， 此时 ， 嘧啶 二聚体 损伤 可 有效 地 引起 突变 。 结果显示 ， 在 诱发 SOS 功能 的 宿主 中 ， 自发 突变率 及 诱发 突变率 均 明显 高于 未 诱发 SOS 功能 宿主 中 的 突变率 。 在 SOS 功能 存在 的 情况 下 ， mutM - 宿主 中 的 突变率 仍然 高于 mutM + 宿主 中 的 突变率 （ P < 0.01 ） （ 表 2 ） 。 
+ 表 2 　 宿主 菌 的 SOS 修复 功能 对 UVA 照射 致 噬菌体 M13mp2 突变 作用 的 影响 
+ Table2 　 TheeffectofSOSfunctiononmutagenesisofUVA - exposedM13mp2phage 
+ 
+ 处 　 理 宿主 菌 
+ E . coli 诱导 SOS 修复 功能 未 诱导 SOS 修复 功能 
+ 计数 噬菌 　 
+ 斑 总数 　 突变 噬 
+ 菌斑 数 突变率 
+ ( × 10 - 4 ) 计数 噬菌 
+ 斑 总数 突变 噬 
+ 菌斑 数 突变率 
+ ( × 10 - 4 ) 
+ 对照 CSH5011600108.62 * 1517042.60 
+ UVA 照射 * * CSH50152705837.98 * 16835169.50 
+ 对照 MF6710920109.16 * 3342361.80 
+ UVA 照射 * * MF67140507251.24 * 144501812.46 　 
+ 
+ 　 　 　 　 　 　 注 ： * 与 未 诱导 SOS 功能 比较 , P < 0.01 　 * * UVA 照射 剂量 为 360kJ / m2 
+ 　 　 UVB 的 致 突变 能力 明显 强于 UVA 。 为了 排除 UVA 光源 中 混杂 的 少量 UVB 成分 （ 少于 UVA 剂量率 的 0.4 ％ ） 的 影响 ， 在 与 UVA 照射 条件 完全相同 的 情况 下 ， 以 2.57 kJ / m2 发射 剂量 的 UVB 照射 处理 M13mp2 噬菌体 。 该 发射 剂量 基本 相当于 UVA 照射 处理 最大 剂量 时 ， 其 光源 中 发射 出 的 UVB 剂量 。 UVB 照射 处理 未 引起 噬菌体 存活率 及 突变率 的 明显 变化 （ 表 3 ） 。 
+ 表 3 　 UVB 照射 处理 对 M13mp2 噬菌体 生存率 及 突变率 的 影响 
+ Table3 　 SurvivalandmutationfrequencyofUVB - exposedM13mp2phage 
+ 
+ 处 　 理 生存率 
+ ( % ) E . coliCSH50 ( mutM + ) E . coliMF67 ( mutM - ) 
+ 计数 噬菌 
+ 斑 总数 突变 噬 
+ 菌斑 数 突变率 
+ ( × 10 - 4 ) 计数 噬菌 
+ 斑 总数 突变 噬 
+ 菌斑 数 突变率 
+ ( × 10 - 4 ) 
+ 未 诱导 SOS 功能 
+ 对照 － 2085062.882480052 . 02 
+ UVB 照射 * 100.01000022 . 001200032.50 
+ 诱导 SOS 功能 
+ 对照 － 89801213.36 
+ UVB 照射 * 76.4120001613 . 33 
+ 
+ 　 　 　 　 　 注 ： * 光源 发射 UVB 剂量 为 2.57 kJ / m2 , 样品 以 保鲜膜 覆盖 ， 置于 4mm 厚 玻璃 下 
+ 表 4 　 甘露醇 对 UVA 照射 致 噬菌体 M13mp2 突变 作用 的 影响 # 
+ Table4 　 Theeffectofmannitolontheinactivationand 
+ mutagenesisofUVA - exposedM13mp2phase # 
+ 
+ 处 　 理 生存率 
+ （ ％ ） 计数 噬菌 
+ 斑 总数 突变 噬 
+ 菌斑 数 突变率 
+ ( × 10 - 4 ) 
+ 对照 － 10920109.15 
+ 甘露醇 * * 92.813000118 . 46 
+ UVA 照射 * * * 19.8148005738 . 51 
+ UVA 照射 + 甘露醇 42.6101502423 . 64 * 
+ 
+ 　 注 ： # 以 诱导 SOS 功能 的 E . coliMF67 为 宿主 　 * 与 UVA 照射 组 比较 P < 0.05 　 * * 甘露醇 浓度 为 0.1 mol / L 　 * * * UVA 照射 剂量 为 320kJ / m2 
+ 　 　 为 分析 自由基 在 UVA 诱发 噬菌体 突变 中 的 作用 ， 在 M13mp2 噬菌体 溶液 中 加入 0.1 mol / L 的 甘露醇 （ 自由基 捕获 剂 ） 。 结果显示 ， 加入 甘露醇 可以 提高 UVA 照射 处理 噬菌体 的 存活率 ， 降低 突变率 （ P < 0.05 ） （ 表 4 ） 。 
+ 3 　 讨论 
+ 　 　 观察 UVA 照射 的 致 突变 作用 。 结果显示 ， UVA 照射 可以 引起 M13mp2 噬菌体 生存率 下降 、 突变率 升高 ， 并 提示 ， UVA 照射 的 致 突变 作用 可能 与 DNA 氧化 损伤 有关 。 
+ 3.1 　 UVA 的 致 突变 作用 和 致癌 作用 已有 报道 〔 9 ， 10 〕 。 根据 北纬 30 ° 太阳光 辐射 光谱 的 年 平均 量 ， UVA 在 太阳光 致癌 作用 中 的 贡献 在 20 ％ 以上 〔 11 〕 。 Berg 等 曾 报道 ， 引起 同样 细胞 毒性 或致 突变 作用 的 UVA 和 UVB 活性剂 量 ， 引发 的 嘧啶 二聚体 形成 量 不同 ， 推测 UVA 的 致 突变 作用 可能 涉及 其它 形式 的 DNA 损伤 ， 如 DNA 的 氧化 损伤 〔 12 〕 。 在 以前 的 研究 中 发现 ， 太阳光 照射 引起 M13mp2 噬菌体 以 鸟嘌呤 颠换 为主 的 突变 ， 推测 鸟嘌呤 的 氧化 损伤 可能 与 这种 颠换 的 发生 有关 ； 而 UVB 则 引发 以 C → T 转换 为主 的 突变 ， 与 太阳光 引发 突变 类型 存在 明显 的 差异 ， 这种 差异 的 一种 可能 原因 是 ， 在 太阳光 诱变 作用 中 ， 除 UVB 外 ， 其它 成分 如 UVA ， 也 发挥 一定 的 作用 〔 4 ， 5 〕 。 本 研究 的 结果 ， 支持 了 这些 推测 。 
+ 3.2 　 MutM 蛋白 可 去除 DNA 上 的 氧化 损伤 ， 如 8 - 羟基 鸟苷 。 如果 噬菌体 的 突变 与 DNA 的 氧化 损伤 有关 ， 在 mutM 缺陷 的 宿主 菌 内 ， 其 突变率 应该 增高 。 高 剂量 UVA 照射 处理 时 ， 在 E . coliMF67 （ mutM - ） 宿主 中 噬菌体 的 突变率 高于 在 E . coliCSH50 （ mutM + ） 中 的 突变率 ， 提示 UVA 的 致 突变 作用 可能 涉及 DNA 的 氧化 损伤 。 自由基 捕获 剂 甘露醇 对 UVA 致 突变 作用 的 抑制 ， 说明 自由基 在 UVA 致 突变 中 发挥作用 。 
+ 3.3 　 Brandenburger 和 LeClerc 的 研究 显示 ， 紫外线 对 M13 噬菌体 的 致 突变 作用 只有 在 存在 SOS 修复 功能 的 宿主 菌 中 才能 观察 到 〔 13 ， 14 〕 。 但 在 以前 的 研究 中曾 观察 到 ， 在 缺乏 SOS 功能 的 宿主 中 ， 太阳光 照射 3h 可使 M13mp2 噬菌体 的 突变率 增加 10 倍 ； UVB 照射 30s 可使 突变率 增加 约 4 倍 〔 4 ， 5 〕 。 在 SOS 功能 缺陷 的 宿主 中 ， UVA 也 引起 突变率 的 明显 增高 ， 当 使用 诱导 SOS 功能 宿主 时 ， 突变率 更高 。 说明 尽管 紫外线 诱发 突变 作用 在 很大 程度 上 依赖于 SOS 修复 系统 的 存在 ， 但 也 有 一部分 不 依赖 SOS 修复 系统 。 
+ 参考文献 
+ 1 　 BridgesB . Sunlight , DNAdamageandskincancer : anewperspective . Jpn . J . CancerRes . , 1990 , 81 : 105 ～ 107 
+ 2 　 LarueL , DoughertyN ， MintzB . GeneticpredispositionoftransgenicmousemelanocytestomelanomaresultsinmalignantmelanomaafterexposuretoalowultravioletBintensitynontumorigenicfornormalmelanocytes . Proc . Natl . Acad . Sci . USA , 
+ 1992 , 89 : 9534 ～ 9538 
+ 3 　 ClingenPH , ArlettCF , RozaL ， etal . Inductionofcyclobu - tanepyrimidinedimers , pyrimidine ( 6 ～ 4 ) pyrimidonephoto - products , anddewarvalenceisomersbynaturalsunlightinnor - malhumanmononuclearcells . CancerRes . , 1995 , 55 : 2245 ～ 2248 
+ 4 　 NegishiK ， HaoW . Spectrumofmutationsinsingle - strandedDNAphageM13mp2exposedtosunlight : predominanceofG - to - Ctransversion . Carcinogenesis , 1992 , 13 : 1615 ～ 1618 
+ 5 　 郝 卫东 ， 根岸 和 雄 . 太阳光 及 紫外线 B 诱发 基因突变 的 碱基 特异性 . 北京医科大学 学报 , 1997 , 29 : 121 ～ 123 
+ 6 　 FujiwaraM , HondaY , InoueH ， etal . MutationsandoxidativeDNAdamageinphageM13mp2exposedtoN - nitrosomorpholineplusnear - ultravioletlight . Carcinogenesis , 1996 , 17 : 213 ～ 218 
+ 7 　 KunkelTA . Mutationspecificityofdepurination . Proc . Natl . Acad . Sci . USA , 1984 , 81 : 1494 ～ 1498 
+ 8 　 KastenbaumMA ， BowmanKO . Tablesfordeterminingthestatisticalsignificanceofmutationfrequencies . MutationRes . , 1970 , 9 : 527 ～ 549 
+ 9 　 DrobetskyEA , TurcotteJ ， ChateauneufA . AroleforultravioletAinsolarmutagenesis . Proc . Natl . Acad . Sci . USA , 1995 , 92 : 2350 ～ 2354 
+ 10 　 SetlowRB , GristE , ThompsonK ， etal . Wavelengthseffectiveininductionofmalignantmelanoma . Proc . Natl . Acad . Sci . USA , 1993 , 90 : 6666 ～ 6670 
+ 11 　 KelfkensG , deGruijlFR ， vanderLeunJC . OzonedepletionandincreaseinannualcarcinogenicUVdose . Photochem . Photobiol . , 1990 , 52 : 819 ～ 823 
+ 12 　 BergRJW , deLaatA , RozaL , etal . SubstitutionofequallycarcinogenicUV - AforUV - Birradiationslowersepidermalthyminedimerlevelsduringskincancerinductioninhairlessmice . Carcinogenesis , 1995 , 16 : 2455 ～ 2459 
+ 13 　 BrandenburgerA , GodsonGN , RadmanM ， etal . Radiation - inducedbasesubstitutionmutagenesisinsingle - strandedDNAphageM13 . Nature , 1981 , 294 : 180 ～ 182 
+ 14 　 LeClercJE ， IstockNL . SpecificityofUVmutagenesisinthelacpromoterofM13lachybridphageDNA . Nature , 1982 , 297 : 596 ～ 598 
+ 作者简介 
+ 郝 卫东 　 男 ， 1963 年 7 月生 。 北京医科大学 卫生 毒理学 教研室 副 主任 、 副教授 。 从事 毒理学 的 教学 和 研究 工作 。 在 国内外 共 发表 论文 20 篇 。 
+ 收稿 日期 ： 1998 - 01 - 19 
+ * 国家自然科学基金 资助 项目 （ 39700123 ） 

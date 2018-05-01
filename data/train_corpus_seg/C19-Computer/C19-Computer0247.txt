@@ -1,0 +1,116 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 1999 年 第 1 期 No.11999 
+ 
+ 
+ 
+ 无向 图 的 边 极大 匹配 并行算法 及其 应用 
+ 马 　 军 　 岩间 一雄 　 顾谦平 
+ 　 　 摘要 　 在 EREWPRAM ( exclusive - readandexclusive - writeparallelrandomaccessmachine ) 并行计算 模型 上 , 对 范围 很广 的 一类 无向 图 的 边 极大 匹配 问题 , 给出 时间 复杂性 为 O ( logn ) , 使用 O ( ( n + m ) / logn ) 处理器 的 最佳 、 高速 并行算法 . 
+ 　 　 关键词 　 并行 图 算法 , 边 极大 匹配 . 
+ 　 　 中图法 分类号 　 TP301 
+ AParallelMaximalMatchingAlgorithmforUndirectedGraphswithApplications 
+ MAJun1IWAMAKazuo2GUQian - ping3 
+ 　 　 Abstract 　 Afastandoptimalparallelmaximalmatchingalgorithmisproposedforaclassofgraphs . ItrunsinO ( logn ) timewithO ( ( m + n ) / logn ) processorsonaEREWPRAM ( exclusive - readandexclusive - writeparallelrandomaccessmachine ) . 
+ 　 　 Keywords 　 Parallelgraphalgorithms , maximalmatching . 
+ 　 　 设 G ( V , E ) 为 无 向 图 , V = { 1 , 2 , ... , n } 为 G 的 顶点 集 , υ ∈ V , υ 表示 顶点 标号 . E 为 G 的 边集 , n = | V | , m = | E | . 子集 ME 被 称为 G 的 边 匹配 , 若 e1 , e2 ∈ M , e1 与 e2 无 共同 顶点 . 若 M 不 被 G 的 任何 边 匹配 所真 包含 , 则 M 被 称为 G 的 极大 边 匹配 MM ( maximalmatching ) . MM 的 并行 求解 算法 已 成为 许多 应用 问题 并行 求解 的 基础 算法 . ［ 1 , 2 ］ 目前 , 在 EREWPRAM ( exclusive - readandexclusive - writeparallelrandomaccessmachine ) 的 并行计算 模型 上 , 对 MM 的 费用 最好 的 算法 解为 使用 O ( n + m ) 个 处理机 , 时间 复杂性 为 O ( log4n ) 的 并行算法 . ［ 2 ］ 本文 中 , 在 范围 很广 的 一类 图 集合 上 , 提出 对 MM 的 新 并行算法 , 该 算法 的 运算 步数 比 此前 的 最好 算法 在 该 图 集合 上 减少 O ( logn ) 因子 , 为 在 该 图 集合 上 的 最佳 算法 . 
+ 1 　 基本 术语 
+ 　 　 设边 集 E = F1 ∪ ... ∪ Fk , Fi 为 森林 且 当 i ≠ j , Fi ∩ Fj = ф . 称 所有 这样 的 边 分割 中 , 具有 最少 森林 数 k 的 分割 为 G 的 裁减 ( Arboricity ) . 其 最少 森林 数目 记为 a ( G ) . 设 Π = { G | G 为 无 向 图且 a ( G ) = Ｏ ( 1 ) } , 则 已知 Π 含有 平面图 、 种类 ( Genus ) 受限 图及 最大 顶点 度数 受限 图 等 . ［ 3 , 4 ］ 设 AV , Γ ( A ) = { x | ( x , υ ) ∈ E , υ ∈ A 且 xA } 为 顶点 集合 A 的 邻域 ； Ti = ( Vi , Ei , ri ) 为 G 的 一棵 有 向 根树 , 满足 ViV , EiE , ri 为 Ti 的 根 . depth ( υ ) 被 定义 为 顶点 υ 到 ri 路径 上 的 边数 . 定义 depth ( ri ) = 0 . F 被 称为 G 的 一个 有向林 , 若 F 由 G 的 k ( > 1 ) 棵 有 向 根树 T1 ∪ ... ∪ Tk 组成 , 满足 ： ① E ( Ti ) ∩ E ( Tj ) = ф , i ≠ j ; ② V ( T1 ) ∪ ... ∪ V ( Tk ) = V ( G ) . F 可 由 一维 数组 F ( 1 .. n ) 表示 , 即 F ( i ) = j , 当且 仅 当 在 子树 Tk 上 , j 为 i 的 父 结点 . 定义 F ( ri ) = ri . 
+ 　 　 定理 1 . ［ 5 ］ 　 设 W ( n ) 为 在 PRAM 模型 上 , 在 Ｏ ( 1 ) 时间 内 可 并行 完成 的 操作 步数 , 则 在 有 p 台 处理机 的 PRAM 上 , W ( n ) 个 操作 步 可 在 Ｏ ( W ( n ) / p ) 时间 内 被 p 台 处理机 并行 完成 . 
+ 2 　 极大 边 匹配 的 高效 并行算法 
+ 　 　 算法 . Matching 
+ 　 　 输入 : 图 G 的 邻接矩阵 . 
+ 　 　 输出 : G 的 一个 极大 边 匹配 M . 
+ 　 　 ( 1 ) i : = 1 ; G1 : = G ; M : = ф ; υ ∈ V , 计算 顶点 度数 degree ( v ) . 
+ 　 　 ( 2.1 ) 若 Gi = ф , 则 返回 ; 
+ 　 　 ( 2.2 ) 调用 过程 Forest , 建立 Gi 的 一个 生成 林 F1i . 
+ 　 　 ( 2.3 ) υ ∈ V ( Ti ) , Ti ∈ F1i , 计算 root ( υ ) , root ( υ ) 为 Ti 的 根 顶点 标号 . 对 每 一边 ( υ , w ) ∈ Ti , 用 弧 〈 υ , w 〉 , 〈 w , υ 〉 替代 , Ti 变为 有 向 欧拉 图 Ci , 通过 Ci 把 root ( υ ) 并行 地 送到 Ti 的 每个 顶点 . ［ 5 ］ 然后 把 Ci 复原 为 Ti . 
+ 　 　 ( 2.4 ) 调用 过程 F - Matching , 找出 F1i 的 一个 极大 边 匹配 M1i . 
+ 　 　 ( 2.5 ) 建立 子图 G ′ i ( V ′ , E ′ ) , E ′ = { ( υ , w ) | ( υ , w ) ∈ E ( Gi ) , 满足 在 F1i 中 root ( υ ) ≠ root ( w ) 且 υ , w 黇 ( Mi ) } . 
+ 　 　 ( 2.6 ) 调用 过程 Forest , 建立 G ′ i 的 一个 生成 林 F2i . 
+ 　 　 ( 2.7 ) 调用 过程 F - Matching , 找出 F2i 的 一 极大 边 匹配 M2i . 
+ 　 　 ( 2.8 ) Mi : = M1i ∪ M2i . 
+ 　 　 ( 2.9 ) 删除 Gi 中 至少 有 一端 点 在 V ( Mi ) 的 边 及 孤立 顶点 . 称 残留 的 子 图为 Gi + 1 ; M : = M ∪ Mi ; goto ( 2.1 ) . 
+ 　 　 endMatching . 
+ 　 　 ProcedureForest 
+ 　 　 输入 : 子图 Gi 的 邻接矩阵 . 
+ 　 　 输出 : 由 数组 F ( 1 .. n ) 表示 的 Gi 的 生成 林 Fi . 
+ 　 　 ( 0 ) 对 每个 υ ∈ Gi , F ( υ ) = υ ; 
+ 　 　 ( 1 ) 设 Γ i ( υ ) = { x | ( x , υ ) ∈ E ( Gi ) 为 顶点 υ 在 Gi 中 的 邻域 } ; w 为 Γ i ( υ ) 中 具有 最大 顶点 度数 的 顶点 , 若 degree ( w ) ≥ degree ( υ ) , 则 F ( υ ) = w ; 
+ 　 　 ( 2 ) for υ ∈ υ ( Gi ) par - doifF ( F ( υ ) ) = υ and ( w < υ ) thenF ( υ ) = υ ; endif ; endfor ; 
+ 　 　 ( 3 ) ifF ( υ ) = υ then 随机 选择 w ∈ Γ i ( υ ) , 令 F ( υ ) = w ; endif ; 
+ 　 　 endForest . 
+ 　 　 ProcedureF - Matching 
+ 　 　 输入 : 由 数组 F ( 1 .. n ) 表示 的 生成 林 Fi . 
+ 　 　 输出 : Fi 的 一个 极大 边 匹配 Mi . 
+ 　 　 LocalarrayB ( 1 .. n , 1 .. 2 ) ofinteger ; 
+ 　 　 Sub - ProcedureSort _ Matching 
+ 　 　 ( 1 ) 对 B 按 字典 序 排序 并存 到 B ； 
+ 　 　 ( 2 ) Foralli , 2 ≤ i ≤ npar - doifB ( i , 1 ) = B ( i - 1 , 1 ) thenB ( i , 1 ) : = ∞ ; 
+ 　 　 ( 3 ) Foralli , 1 ≤ i ≤ npar - do 
+ ifB ′ ( i , 1 ) ≠ ∞ then { 送 ( B ′ ( i , 1 ) , B ′ ( i , 2 ) ) 到 Mi ; 标记 顶点 B ′ ( i , 1 ) 和 B ′ ( i , 2 ) 为 Mi 的 顶点 } ; endif ; 
+ 　 　 endSort _ Matching ; 
+ 　 　 Sub - ProcedureMatch ( x ) 
+ 　 　 　 　 ifx = 0then 
+ 　 　 　 　 　 　 for1 ≤ i ≤ npar - do 
+ 　 　 　 　 　 　 　 　 　 if ( F ( i ) = i ) or ( depth ( i ) 为 偶数 ) thenB ( i , 1 ) : = ∞ 
+ 　 　 　 　 else { B ( i , 1 ) : = F ( i ) ; B ( i , 2 ) : = i ; } ; endif ; 
+ 调用 过程 Sort _ Matching ; endfor ; 
+ elsefor1 ≤ i ≤ npar - do 
+ if ( F ( i ) = i ) or ( depth ( i ) 为 奇数 ) or ( 顶点 i 或 F ( i ) 已为 Mi 的 顶点 ) then 
+ B ( i , 1 ) : = ∞ else { B ( i , 1 ) : = F ( i ) ; B ( i , 2 ) : = i ; } endif ; 
+ 调用 过程 Sort _ Matching ; endfor ; 
+ 　 　 endMatch ( x ) ; 
+ 　 　 / stepsofalgorithmF - Matching / 
+ ( 1 ) foreach υ ∈ V ( Gi ) and υ ∈ V ( Tj ) par - do 
+ 计算 depth ( υ ) , depth ( υ ) 为 顶点 υ 在 子树 Tj ∈ Fi 的 深度 ; 标记 υ 为 Mi 的 顶点 . endfor ; 
+ ( 2 ) forx = 0to1do 调用 过程 Match ( x ) ; 
+ 　 　 endF - Matching . 
+ 图 1 给出 对 算法 Matching 的 一个 执行 过程 图解 . 
+ 
+ 3 　 对 算法 Matching 的 理论 分析 
+ 　 　 称 算法 Matching 的 第 2 步 循环 的 第 i 次 执行 为 阶段 i . 下面 的 命题 显然 成立 . 
+ 　 　 引理 3.1 . ME 为 G ( V , E ) 的 一个 极大 边 匹配 , 当且 仅 当 M 为 一个 边 匹配 , 并且 任意 G 中 的 边 , 至少 有 一个 端点 在 M 中 . 
+ 　 　 引理 3.2 . F1i ( F2i ) 为 Gi ( G ′ i ) 的 有 根 生成 林 . 
+ 　 　 证明 ： 显然 , 在 过程 Forest 的 步骤 ( 1 ) ～ ( 2 ) 中 , 所有 Gi 的 顶点 均 被 加到 F1i 中 . 步骤 ( 2 ) 删除 可能 的 长度 为数 的 回路 , 并且 由于 < 关系 为 自反 、 非对称 和 传递 的 . 因此 过程 结束 后 , F1i 中 无 回路 . 同理可证 F2i 为 G ′ i 的 有 根 生成 林 . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 □ 
+ 　 　 引理 3.3 . M1i ( M2i ) 为 F1i ( F2i ) 上 的 极大 边 匹配 . 
+ 　 　 证明 ： 因在 过程 F - Matching 的 步骤 ( 2 ) ～ ( 3 ) 中 , F1i 中 的 每 条边 e = 〈 υ , F ( v , F ( v ) 〉 都 试图 成为 M1i 的 ) 〉 都 试图 成为 M1i 的 边 , e 未能 成为 M1i 的 边 , 当且 仅 当 e 的 一个 端点 已 在 V ( M1i ) 中 . 由 引理 3.1 , 引理 得证 . 同理可证 M2i 为 F2i 的 极大 边 匹配 . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 □ 
+ 　 　 根据上述 引理 及 算法 Matching 的 步骤 ( 2.9 ) , 即可 得到 推论 3.1 . 
+ 　 　 推论 3.1 . 在 阶段 i 后 , 所有 F1i , F2i 的 边 将 被 删除 . 
+ 　 　 因对 Gi 中 任意 边 e = ( υ , w ) , 若 υ , w 黇 ( Mi ) , e 将 留在 Gi + 1 中 , 并且 e 在 阶段 i 被 从 Gi 中 删除 , 仅 当 有 一端 点 在 V ( Mi ) 中 . 由 引理 3.1 和 3.3 , 可 直接 推出 定理 3.1 . 
+ 　 　 定理 3.1 . M = ∪ iMi 为 G 的 一个 极大 边 匹配 . 
+ 　 　 引理 3.4 . 在 EREWPRAM 并行计算 模型 上 , 算法 Matching 的 每个 阶段 的 运算 , 均 可 在 O ( logn ) 时间 内 被 O ( ( m + n ) / logn ) 处理机 完成 . 
+ 　 　 证明 : 因 已知 对 n 元素 排序 、 树 函数 depth ( υ ) 、 root ( υ ) 及 在 树上 欧拉 回路 的 计算 , 均 可 在 O ( logn ) 时间 内 被 O ( ( m + n ) / logn ) 处理机 完成 ［ 5 ］ , 而 其他 步骤 的 工作量 均 不 超过 O ( n + m ) , 由 定理 1.1 , 引理 得证 . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 □ 
+ 　 　 引理 3.5 . 设 Gi 为 连通 子图 , Si 为 在 阶段 i 被 删除 的 边 集合 , 则 只用 Si 中 的 边 , 足以 建造 Gi 的 一棵 生成 树 . 
+ 　 　 证明 ： 因 Mi : = M1i ∪ M2i 且 e ∈ E ( Gi ) , 在 阶段 i , e 被 删除 当且 仅 当 e 的 一个 端点 在 V ( Mi ) 中 . 令 Si = S1 ∪ S2 , 满足 e ∈ S1 ( S2 ) , 当且 仅 当 e 的 一个 端点 在 V ( M1i ) ( V ( M2i ) ) 中 . 设 Fi = F1i ∪ F2i , 由 k ( ≥ 1 ) 棵子 树 组成 , 显然 , E ( F1i ) ∩ E ( F2i ) = ф . 下面 对 k 做 归纳 证明 . 
+ 　 　 ( 1 ) k = 1 , 则 Fi = F1i , 为 Gi 的 生成 树 . S2 = ф . 引理 成立 . 对 k = 2 , 由 算法 Matching 的 第 ( 2.5 ) 、 ( 2.6 ) 步 的 执行 可知 , E ( G ′ i ) = { ( υ , w ) | υ , w 分别 为 T1 和 T2 的 顶点 , 且 υ , wV ( Mi ) } . 因 S2 ≠ ф , 故 E ( G ′ i ) ≠ ф , 则 存在 边 e ∈ S2 , 使得 T1 ∪ T2 ∪ { e } 为 Gi 的 一棵 生成 树 . 类似 地 , 可 推出 k = 3 时 也 成立 . 
+ 　 　 ( 2 ) 设 引理 对 任意 k ≤ t ( t > 2 ) 成立 , 下面 证明 k = t + 1 时 也 成立 . 
+ 　 　 显然 , 假设 Tx 和 Ty 之间 无边 属于 S2 , 由 归纳 假设 , 引理 对子 图 Gi - Tx 和 Gi - Ty 均 成立 . 在 过程 Forest 执行 中 , 若边 e 的 最大 顶点 度 < 3 , 则 e 必为 树边 , 则 推知 若 Gi - Tx 和 Gi - Ty 在 Gi 中均 不 为 空 ( 若有 一为 空 , 则 由 归纳 假设 , 引理 成立 ) , 必 存在 υ ∈ Tx 和 w ∈ Ty , 其 顶点 度数 在 Gi 中均 大于 2 , 并 在 Gi 中有 一条 连接 v υ 与 w 的 路径 P , 满足 P 的 边 均 为 树边 . 故 引理 也 为 真 . 由 归纳法 原理 , 引理 得证 . 　 　 　 　 　 　 　 　 　 　 □ 
+ 　 　 定理 3.2 . 算法 Matching 的 阶段 数 一定 不会 大于 a ( G ) . 
+ 　 　 证明 ： G 可 按 下法 分解 为 F1 , F2 , ... , Fa ( G ) : 对 每个 Gi 的 连通分支 Cl . 找出 一棵 生成 树 Tl , 且 令 Fi : = ∪ Tl ; Gi + 1 : = Gi - Fi ; 重复 此 过程 直至 Gi = ф . 
+ 　 　 设 Ai , Bi 分别 为 在 上述 算法 与 算法 Matching 的 第 i 步 删除 的 边集 , 由 引理 4.5 , ∪ Ai ∪ Bi , 1 ≤ i ≤ a ( G ) , 故 算法 Matching 的 阶段 数 不会 超过 a ( G ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 □ 
+ 　 　 定理 3.3 小结 了 上述 讨论 . 
+ 　 　 定理 3.3 . 算法 Matching 可 在 Ｏ ( ( n + m ) / logn ) 处理器 的 CREW ( concurrent - readandexclusive - write ) PRAM 模型 上 , 在 Ｏ ( a ( G ) logn ) 时间 内 完成 . 
+ 4 　 结语 及 应用 
+ 　 　 由 定理 3.3 和 集合 Π 的 定义 , 对 任意 无向 图 G ∈ Π , 算法 Matching 在 具有 Ｏ ( ( n + m ) / logn ) 处理器 的 EREWPRAM 并行计算 模型 上 的 运行 时间 为 Ｏ ( logn ) . 显然 Ω ( m ) 为 MM 求解 的 时间 下界 , 所以 我们 的 算法 为 集合 Π 上 的 最佳 并行算法 . 我们 认真 地 分析 了 已知 对 MM 的 最好 的 并行算法 ［ 2 , 6 ～ 9 ］ 在 平面图 上 的 执行 情况 , 这些 算法 的 执行 时间 至少 为 O ( log2n ) . 故 我们 的 并行算法 在 集合 Π 上 为 最快 的 算法 . 我们 推测 , 在 使用 多项式 个数 处理器 的 前提 下 , 在 EREWPRAM 上 不会 存在 比 Ｏ ( logn ) 更快 的 对 MM 的 并行算法 . 
+ 　 　 文献 ［ 1 ］ 中 给出 一种 求解 G 的 极大 顶点 不 交 路径 MVDP ( maximalvertexdisjointedpath ) 的 并行算法 , 在 CREWPRAM 上 的 执行 时间 为 Ｏ ( log4n ) , 其中 log4n 为 并行计算 MM 的 时间 . 显然 对 任意 G ∈ Π , 应用 我们 的 算法 可使 MVDP 的 计算 时间 减少 到 Ｏ ( logn ) . 新 的 MVDP 算法 又 可 改进 在 集合 Π 上 对 下列 问题 的 并行 求解 时间 ： 求解 0 ～ 1 网络 流 、 作业 调度 、 无向 图 的 深度 优先 搜索 和 哈密顿 回路 求解 问题 . ［ 1 ］ 
+ 本文 研究 得到 国家自然科学基金 、 国家 863 高科技 项目 基金 、 山东省 自然科学 基金 和 山东大学 跨世纪 人才 基金 资助 . 
+ 作者 介绍 ： 马军 , 1956 年生 , 博士 , 教授 , 主要 研究 领域 为 算法 分析 与 设计 , 人工智能 . 
+ 　 　 　 　 　 岩间 一雄 , 1951 年生 , 博士 , 教授 , 博士生 导师 , 主要 研究 领域 为 算法 分析 与 设计 , 人工智能 . 
+ 　 　 　 　 　 顾谦平 , 1956 年生 , 博士 , 副教授 , 主要 研究 领域 为 算法 分析 与 设计 , 人工智能 . 
+ 本文 通讯联系 人 : 马军 , 济南 250100 , 山东大学 计算机科学 系 
+ 作者 单位 ： 马 　 军 　 山东大学 计算机科学 系 　 济南 　 250100 
+ 　 　 　 　 岩间 一雄 　 京都大学 计算机科学 系 　 日本 京都市 
+ 　 　 　 　 　 顾谦平 　 会津 大学 软件 系 　 日本 若松市 
+ E - mail : majun @ sdu . edu . cn 
+ 参考文献 
+ 　 ［ 1 ］ GoldbergAV , PlotkinSA . Sublinear — — timeparallelalgorithmsformatchingandrelatedproblems . JournalofAlgorithms , 1993 , 14 : 180 ～ 213 
+ 　 ［ 2 ］ IseaeliA , ShiloachY . Animprovedparallelalgorithmformaximalmatching . InformationProcessingLetters , 1986 , 22 : 57 ～ 60 
+ 　 ［ 3 ］ ChibaNorishige , NishizekiTakao . Arboricityandsubgraphlistingalgorithms . SIAM ( SocietyforIndustrialandAppliedMathematics ) JournalofComputers , 1988 , 14 ( 1 ) : 210 ～ 223 
+ 　 ［ 4 ］ HararyF . GraphTheory , Revised . Reading , MA : Addison - WesleyPublishingCompany , 1972.35 ～ 130 
+ 　 ［ 5 ］ JajaJ . Anintroductiontoparallelalgorithms . Reading , MA : Addison - WesleyPublishingCompany , 1992.120 ～ 230 
+ 　 ［ 6 ］ ChenZ . AfastandefficientNCalgorithmformaximalmatching . InformationProcessingLetters , 1995 , 55 : 303 ～ 307 
+ 　 ［ 7 ］ HanY . Animprovementonparallelcomputationofamaximalmatching . InformationProcessingLetters , 1995 , 56 : 343 ～ 348 
+ 　 ［ 8 ］ IseaeliA , ItaiA . Afastandsimplerandomizedparallelalgorithmformaximalmatching . InformationProcessingLetters , 1986 , 22 : 77 ～ 80 
+ 　 ［ 9 ］ KelsenP . Anoptimalparallelalgorithmformaximalmatching . InformationProcessingLetters , 1994 , 55 : 223 ～ 228 
+ 本文 1997 - 03 - 27 收到 原稿 , 1998 - 01 - 05 收到 修改稿 

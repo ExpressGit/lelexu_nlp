@@ -1,0 +1,135 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1998 年 第 18 卷 第 3 期 No.3 Vol.181998 
+ 科技期刊 
+ 
+ 上海 南汇 淤泥 质 潮滩 表层 沉积物 中多环 芳烃 * 
+ 刘 　 敏 　 许世远 　 陈振楼 　 （ 华东师范大学 地理系 ， 上海 200062 ） 
+ 文 　 摘 　 运用 GC / MS 对 上海 南汇 淤泥 质 潮滩 夏秋 两个 季节 表层 沉积物 中 的 有机 污染物 多环 芳烃 作 定性 和 定量分析 。 结果表明 ， 该区 多环 芳烃 总 浓度 最高 达 0.829 μ g / g ； 个别 组分 已 超出 检测 限达 3 ～ 7 倍 ， 它们 在 秋季 潮滩 以及 夏季 中 潮滩 其 浓度 值及 在 PAHs 总量 中所 占 的 百分比 比重 较大 ， 已 成为 PAHs 有机 污染物 高浓度 区 。 
+ 关键词 　 表层 沉积物 　 多环 芳烃 　 淤泥 质 潮滩 　 上海 南汇 
+ ThepolycyclicaromatichydrocarbonsinsurfacesedimentsoftidalmudflatfromNanhui , Shanghai . LiuMin , XuShiyuan ， ChenZhenlou ( DepartmentofGeography , EastChinaNormalUniversity , Shanghai200062 ) . ChinaEnvironmentalScience.1998 , 18 ( 3 ) : 284 ～ 288 
+ Abstract — TheresultsofqualitativeandquantitativeanalysesonthePolycyclicAromaticHydrocarbons ( PAHs ) insurfacesedimentsoftidalmudflatinthesummerandthefallfromNanhui , Shanghai , showthatthetotalPAHsconcentrationisupto0.829 μ g / g . Theindividualcomponentconcentrationis3 ～ 7timesmorethanthemonitoringlimitandthereishighcontentandpercentageintotalPAHsinthefalltidalflatandthesummermid - tidalflat , thusbecomingPAHspolltantsofthehighsedimentconcentrationleversinthisregion . 
+ Keywords : surfacesediments 　 PAHs 　 tidalmudflat 　 NanhuiofShanghai 
+ 　 　 近年来 ， 国外 已 在 河口湾 〔 1 ～ 3 〕 , 现代 湖泊 〔 4 〕 、 海湾 和 土壤 〔 5 〕 、 海岸带 〔 6 ， 7 〕 等 近代 沉积物 及 大气 颗粒 〔 8 〕 等 环境 介质 中 进行 多环 芳烃 （ PAHs ） 的 调查 和 研究 ， 对 PAHs 在 环境 介质 中 的 行为 及 生态 效应 研究 等 方面 已 积累 了 较 丰富 的 资料 。 但是 ， 国内 有机 污染物 PAHs 的 研究 与 报道 主要 限于 大气 相 和 大气 颗粒 相 中 〔 9 ， 10 〕 ， 对 沉积物 污染 也 重点 放在 重金属 的 调查 与 研究 上 ， 而 对 PAHs 研究 很少 。 多环 芳烃 （ PAHs ） 作为 一种 重要 的 环境 污染物 和 致 突变 物 ， 严重 影响 着 沉积物 环境质量 。 本文 通过 对 上海 南汇 淤泥 质 潮滩 表层 沉积物 所作 的 PAHs 分析 和 测试 ， 来 分析 PAHs 在 滨岸 沉积物 中 的 浓度 水平 及其 环境 行为 。 
+ 1 　 实验 部分 
+ 1.1 　 采样 
+ 　 　 在 上海 南汇 淤泥 质 潮滩 区于 1996 年 6 月 和 8 月 分低 、 中 和 高潮 滩 分别 采集 表层 沉积物 （ 0 ～ 3cm ） 样品 ， 将 采集 的 样品 用 聚乙烯 塑料袋 包装 后 ， 再 放入 冷冻箱 保存 ， 然后 在 低温 下 烘烤 待测 。 
+ 1.2 　 分析测试 
+ 1.2 . 1 　 仪器 和 试剂 　 仪器 ： 日本 岛津 QP - 5000 型色质 联用 仪 ； 日本 大 和 公司 YAMATA2210 超声波 发生器 ； 弹性 石英 毛细 色谱 柱 J & WDB - 530m × 0.32 mm × 0.32 μ m ; BuCHI 公司 的 RE111 旋转 蒸发器 ； 250mL 玻璃 三角瓶 ； 5mL 具塞 离心管 。 试剂 ： 丙酮 、 二氯甲烷 等 均 为 分析 纯 ， 重蒸 ； 无水 硫酸钠 为 分析 纯 ， 用前 350 ℃ 烘烤 4h 冷却 ， 放入 干燥器 中 备用 。 
+ 1.2 . 2 　 样品 的 前 处理 　 参照 美国 EPASW － 846 中 3550 方法 （ 超声 萃取 法 ） 进行 ， 样品 浓缩 定容后 用 GC / MS 分析 。 
+ 1.2 . 3 　 仪器 操作 条件 　 色谱 柱 ， J & WDB - 5 毛细 柱 30m × 0.32 mm × 0.32 μ m ； 载气 氦气 ， 流速 2.7 mL / min ； 柱前 压 控制程序 ， 初压 为 66.7 kPa （ 96BSH1416 ） 资助 项目 
+ 保持 35min ， 以 15kPa / min 速率 升至 150kPa 后 ， 按 30kPa / min 速率 降至 66.7 kPa 。 
+ 　 　 进样 口 温度 为 270 ℃ ， 接口 温度 260 ℃ ； 柱温 程序 ： 初温 为 35 ℃ ， 保持 5min ； 以 8 ℃ / min 升至 270 ℃ ， 保持 17min ； 进样量 1 μ L ; 进样 方式 Grob 型 不 分馏 进样 。 电离 源 EI ， 70eV ； 发射 电流 0.5 mA ； 质量范围 40 ～ 400amu ; 扫描 速度 0.5 s / Scan ; 倍增器 电压 ： 1450V 。 
+ 2 　 结果 与 讨论 
+ 2.1 　 定性 定量 鉴定 
+ 　 　 通过 仪器 分析 ， 计算机 检索 ， 谱库 谱 图 解析 及 标准 样品 核对 ， 对 样品 的 总 离子流 图 和 质量 色谱 图 进行 定性 ， 见表 1 ， 图 1 ， 图 2 。 由 标样 的 仪器 检测 限 和 标样 的 响应 因子 特征 离子 峰 面积 进行 定量 ， 如表 2 所示 。 多环 芳烃 分别 以 1 ， 4 - 二氯苯 - D4 、 萘 - D8 和 蒽 - D10 为 内标 ， 测 得 目标 物 的 特征 离子 峰 面积 和 相邻 内 标的 特征 离子 峰 面积 之 比 求得 其 含量 。 
+ 表 1 　 上海 南汇 淤泥 质 潮滩 表层 沉积物 中 有机 化合物 定性分析 结果 
+ Table1 　 ThequalitativeanalysisoforganiccompoundsinsurfacesedimentsoftidalmudflatfromNanhui , Shanghai 
+ 
+ 序号 化合物 名称 分子式 分子量 检测 方法 
+ 1 三 甲苯 C9H12120GC / MS 
+ 2 环己 烯酮 C6H8O96GC / MS 
+ 3 二氢 - 三 甲基 呋喃 C7H12O112GC / MS 
+ 4 甲基 戊烯 醇 C6H12O100GC / MS 
+ 5 三 甲基 戊醇 C8H18O130GC / MS 
+ 6 羟基 甲基 戊酮 C6H12O2116GC / MS 
+ 7 甲基 萘 （ 1 ） C11H10142GC / MS 
+ 8 甲基 萘 （ 2 ） C11H10142GC / MS 
+ 94 - 甲基 - 1 - 亚硝基 哌啶 C6H12N2O128GC / MS 
+ 10 联苯 C12H10154GC / MS 
+ 11 十四 烯 C14H28196GC / MS 
+ 12 十四 烷 C14H30198GC / MS 
+ 13 双叔 丁基 环 己二烯 二酮 C14H20O2220GC / MS 
+ 14 叔 丁基 - 4 - 羟基 酚 C11H16O2180GC / MS 
+ 15 十五 烷 C15H32212GC / MS 
+ 16 双叔 丁基 - 4 - 甲基 酚 C15H24O220GC / MS 
+ 17 十六 烷 C16H34226GC / MS 
+ 18 十七 烷 C17H36240GC / MS 
+ 19 十八 烷 C18H38254GC / MS 
+ 20 三 甲基 十五 烷酮 C18H36O268GC / MS 
+ 21 异二 丁基 酞酸酯 C16H22O4278GC / MS 
+ 22 十九 烷 C19H40268GC / MS 
+ 23 二 丁基 酞酸酯 C16H22O4278GC / MS 
+ 24 二十 烷 C20H42282GC / MS 
+ 25 荧蒽 C16H10202GC / MS 
+ 26 二十一 烷 C21H44296GC / MS 
+ 27 芘 C16H10202GC / MS 
+ 28 二十二 烷 C22H46310GC / MS 
+ 29 双对 氯苯 基砜 C11H8ClO2S286GC / MS 
+ 30 二十三 烷 C23H48324GC / MS 
+ 31 十八 烷 酰胺 C18H38NO284GC / MS 
+ 32 二十四 烷 C24H50338GC / MS 
+ 33 二十五 烷 C25H52352GC / MS 
+ 34 已 辛基 酞酸酯 C24H38O4390GC / MS 
+ 35 二十六 烷 C26H54366GC / MS 
+ 36 二十七 烷 C27H56380GC / MS 
+ 37 二十八 烷 C28H58394GC / MS 
+ 38 三 甲基 十二 碳 三 烯醇 C15H26OH223GC / MS 
+ 39 二十九 烷 C29H60408GC / MS 
+ 40 苯 并 ( a ) 芘 C20H12252GC / MS 
+ 41 三十 烷 C30H62422GC / MS 
+ 42 三十一 烷 C31H64436GC / MS 
+ 
+ 
+ 图 1 　 夏季 6 月份 低潮 滩 表层 沉积物 中 有机 化合物 总 离子流 色谱 图 
+ Fig.1 　 TotalioncurrenttracesoforganiccompoundsinsurfacesedimentfromlowertidalmudflatinJuneinsummer 
+ 
+ 图 2 　 秋季 8 月份 低潮 滩 表层 沉积物 中 有机 化合物 总 离子流 色谱 图 
+ Fig.2 　 TotalioncurrenttracesoforganiccompoundsinsurfacesedimentfromlowertidalmudflatinAugustinfall 
+ 2.2 　 分析 与 讨论 
+ 　 　 上海 南汇 淤泥 质 潮滩 表层 沉积物 中 鉴定 出 有机 化合物 共 42 种 ， 其中 多环 芳烃 （ PAHs ） 6 种 （ 另外 13 种 低于 检测线 ） ， 其它 类别 36 种 ( 表 1 ， 表 2 ) 。 从表 2 中 可以 看出 ， 多环 芳烃 （ PAHs ） 总 浓度 从 0.829 μ g / g ～ 0.057 μ g / g 。 组分 芘 、 苯 并 ( a ) 芘 和 荧蒽 等 含量 大大 超过 检测 限 ， 芘 最高 超过 近 3 倍 ， 苯 并 ( a ) 芘 近 7 倍 ， 荧 蒽近 4 倍 。 而 上述 3 类 组分 属于 美国 环境保护局 129 种 优先 污染物 类 ， 均 被 证明 具有 致癌 和 致突 活性 ， 其中 芘 排列 第 84 位 ， 在 多环 芳烃 （ PAHs ） 类中 排列 第 11 位 ； 苯 并 ( a ) 芘 排列 第 73 位 ， 在 多环 芳烃 （ PAHs ） 类中 排列 第 2 位 ； 荧蒽 排列 第 39 位 。 而 上述 3 类 组分 也 是 中国 环境 优先 污染物 “ 黑名单 ” 中 的 有机 污染 化合物 。 
+ 　 　 季节性 变化 及 在 不同 地貌 单元 中 的 分布 特征 显示 ， 芘 在 6 月份 相对 较 低 （ 表 3 ） ， 而且 中 潮滩 较 高 ， 浓度 含量 0.030 μ g / g ， 占 PAHs 总 浓度 的 17.2% ， 其它 上 和 下 潮滩 则 较 低 ， 含量 为 0.034 和 0.013 μ g / g ， 占 PAHs 浓度 总量 分别 为 4.2% 和 1.57% 。 8 月份 芘 含量 较 高 ， 但 上 、 中 和 下 潮滩 浓度 含量 分别 为 0.009 、 0.025 和 0.037 μ g / g ， 在 PAHs 总 浓度 所 占 百分 含量 差别 较 小 ， 在 15% 左右 ； 苯 并 ( a ) 芘 季节 变化 不太 明显 ， 6 月份 以中 潮滩 最高 ， 浓度 含量 为 0.071 μ g / g ， 占 PAHs 总 浓度 的 41% , 其它 下及 上 潮滩 仅 占 4.5% 和 8.2% 。 秋季 8 月份 在 整个 潮滩 含量 相差 较 小 ， 在 总 PAHs 浓度 含量 中所 占 比例 也 相近 ； 荧蒽 其 季节性 变化规律 与 苯 并 ( a ) 芘 相似 。 
+ 　 　 总的看来 ， 秋季 8 月份 芘 、 苯 并 ( a ) 芘 、 荧蒽 浓度 含量 及其 在 PAHs 总 浓度 中所 占 百分 含量 差别 较 小 ， 也 比较稳定 ； 夏季 6 月份 则 表现 为 中 潮滩 出现 最高值 ， 而 高潮 滩 与 低潮 滩 含量 较 低 ， 上述 特点 表明 研究 区受 人为 污染 较 重 ， 已 成为 PAHs 有机 污染物 的 高浓度 区 。 
+ 表 2 　 上海 南汇 淤泥 质 潮滩 表层 沉积物 中多环 芳烃 （ PAHs ） （ μ g / g ） 
+ Table2 　 ContentsofPAHsinsurfacesedimentsoftidalmudflatfromNanhui , Shanghai ( μ g / g ) 
+ 
+ 序号 化合物 名称 分子式 分子量 6S16S26S38S18S28S3 检测线 
+ 1 三 甲基 苯 C9H121200.618 < 0.0030 . 751 < 0.003 < 0.003 < 0.0030 . 003 
+ 2 萘 C10H8128 < 0.003 < 0.003 < 0.003 < 0.003 < 0.003 < 0.0030 . 003 
+ 3 甲基 萘 C11H101420.0390 . 0400.0120 . 0150.0370 . 0460.003 
+ 4 甲基 萘 C11H101420.0140 . 0150.0050 . 0040.0140 . 0150.003 
+ 5 苊 C12H8152 < 0.003 < 0.003 < 0.003 < 0.003 < 0.003 < 0.0030 . 003 
+ 6 二氢 苊 C12H10154 < 0.003 < 0.003 < 0.003 < 0.003 < 0.003 < 0.0030 . 003 
+ 7 芴 C13H10166 < 0.003 < 0.003 < 0.003 < 0.003 < 0.003 < 0.0030 . 003 
+ 8 菲 C14H10178 < 0.003 < 0.003 < 0.003 < 0.003 < 0.003 < 0.0030 . 003 
+ 9 蒽 C14H10178 < 0.003 < 0.003 < 0.003 < 0.003 < 0.003 < 0.0030 . 003 
+ 10 芘 C16H102020.0340 . 0300.0130 . 0090.0250 . 0370.003 
+ 11 荧蒽 C16H102020.0340 . 0280.0110 . 0080.0270 . 0390.003 
+ 12 苯 并 ( a ) 蒽 C18H12228 < 0.01 < 0.01 < 0.01 < 0.01 < 0.01 < 0.010 . 01 
+ 13C18H12228 < 0.01 < 0.01 < 0.01 < 0.01 < 0.01 < 0.010 . 01 
+ 14 苯 并 ( b ) 荧蒽 C20H12252 < 0.01 < 0.01 < 0.01 < 0.01 < 0.01 < 0.010 . 01 
+ 15 苯 并 ( k ) 荧蒽 C20H12252 < 0.01 < 0.01 < 0.01 < 0.01 < 0.01 < 0.010 . 01 
+ 16 苯 并 ( a ) 芘 C20H122520.0660 . 0710.0370 . 0310.0550 . 1090.01 
+ 17 茚 并 ( 1 , 2 , 3 - cd ) 芘 C22H12276 < 0.01 < 0.01 < 0.01 < 0.01 < 0.01 < 0.010 . 01 
+ 18 二苯 并 ( a , h ) 蒽 C22H14278 < 0.01 < 0.01 < 0.01 < 0.01 < 0.01 < 0.010 . 01 
+ 19 苯 并 ( ghi ) C22H12276 < 0.01 < 0.01 < 0.01 < 0.01 < 0.01 < 0.010 . 01 
+ 　 PAHs 　 　 0.8060 . 1740.8290 . 0570.1680 . 245 
+ 
+ 　 　 　 　 　 注 ： 6S1 、 6S2 、 6S3 及 8S1 、 8S2 、 8S3 分别 为 6 月份 和 8 月份 高 、 中 、 低潮 滩 表层 样品 
+ 表 3 　 夏秋 季节 不同 地貌 单元 多环 芳烃 主要 分子 占 PAHs 总 浓度 的 百分 含量 （ % ） 
+ Table3 　 PercentcontentsofmainelementsintotalPAHsfromdiferent 
+ geomorphicalunitsinsummerandfall （ % ） 
+ 
+ 组分 特征 6 月 8 月 
+ 低潮 滩 中 潮滩 高潮 滩 低潮 滩 中 潮滩 高潮 滩 
+ 荧蒽 / PAHs4.216 . 11.314 　 16.115 . 9 
+ 芘 / PAHs4.217 . 21.5715 . 815 　 15.1 
+ 苯 并 ( a ) 芘 / PAHs8.241 　 4.554 . 432.744 . 5 
+ 
+ 3 　 结语 
+ 　 　 上海 南汇 淤泥 质 潮滩 中 鉴定 出 的 毒害 有机物 多环 芳烃 ， 说明 上海市 滨岸 环境 已 受到 不同 程度 的 有机 毒害 物质 多环 芳烃 的 污染 。 多环 芳烃 的 检出 ， 可以 初步 推断 ， 一是 由于 有机 污染物 在 环境 气 、 液和固 界面 存在 着 迁移 、 富集 作用 的 结果 ， 如 源于 各种 机动车辆 的 废气 或 工业 废气 排放 出 的 多环 芳烃 被 吸着 于 大气 飘尘 上 ， 飘尘 再 经过 沉降 或 雨雪 等 的 冲刷 进入 滨岸 浅水 环境 ， 再 经 分配 或 吸附 作用 进入 潮滩 表层 沉积物 中 ； 二是 各种 废水 排放 （ 如 工业废水 和 生活 污水 等 ） 进入 水体 中 的 多环 芳烃 被 潮滩 底泥 吸附 沉淀 。 从滨岸 现状 来看 ， 废水 排放 造成 PAHs 的 相对 富集 可能 是 主要 原因 。 南汇 潮滩 区 主要 受 附近 排污口 的 影响 较大 ， 目前 ， 排污口 主要 为 岸边 排放 ， 污水 从 排放口 排放 后 ， 首先 在 中 潮滩 和 低潮 滩 浅水区 逐渐 向 外扩散 ， 在 此 过程 中 进入 水体 中 的 多环 芳烃 直接 被 表层 沉积物 吸附 或 随 依附 的 悬浮 颗粒 在 排污口 附近 沉降 。 尤其 在 中 潮滩 区 ， 由于 水浅 和 底泥 阻滞 作用 ， 水流 不 畅 ， 几乎 被 高浓度 污水 所 覆盖 ， 累积 现象 更为 明显 ， 这是 出现 中 潮滩 区 PAHs 组分 高 的 主要 原因 。 而 低潮 滩 则 往往 不易 沉降 ， 浓度 相对 较 低 ， 或者 由于 受 潮汐 作用 等 影响 含量 变化 较大 。 而 夏季 6 月份 PAHs 组分 浓度 高于 秋季 8 月份 以及 夏季 PAHs 随 地貌 单元 的 变化 特点 则 可能 主要 是 由于 受 季节性 （ 周期性 ） 排污 高峰期 的 影响 以及 底泥 向 水体 释放 的 差异 而 造成 的 。 
+ 参考文献 
+ 1 　 LakeJL ， NorwoodC , DimockC ， etal . Originsofpolycyclicaromatichydrocarbonsinesruarinesediments . Geochim . Cosmohcim . Acta , 1979 , 43 : 1847 ～ 1854 
+ 2 　 ShiarisMP ， JambardD . PolycyclicaromatichydrocarbonsinsurficialsedimentsofBostonHarbour , Massachusetts . MarinePollutionBulletin , 1986 , 17 ( 10 ) : 469 ～ 472 
+ 3 　 CroudaceIW ， CundyAB . HeavymetalandhydrocarbonpollutioninrecentsedimentsfromSouthamptonWater . Environ . Sci . Technol . , 1995 , 29 : 1288 ～ 1296 
+ 4 　 WakehamSG , GigerW , SchaffnerG . Polycyclicaromatichydrocarbonsinrecentlakesediments - I . compoundshavinganthropogenicorigins . Geochim . Cosmohcim . Acta , 1980 , 44 : 403 ～ 413 
+ 5 　 WindsorJG ， HitesRA . PolycyclicaromatichydrocarbonsinGulfofmarinesedimentsandNovaScotiasoils . Geochim . Cosmohcim . Acta , 1979 , 43 : 27 ～ 33 
+ 6 　 BoehmPD ， FarringtonJW . AspectsofthepolycyclicaromatichydrocarbongeochemistryofrecentsedimentsintheGeorgesBankregion . Environ . Sci . Technol . , 1984 , 18 ( 11 ) : 840 ～ 845 
+ 7 　 HitesRA , LaflammeRE , FarringtonJW . Sedimentarypolycyclicaromatichydrocarbons : thehistoricalrecord . Science , 1977 , 198 : 829 ～ 831 
+ 8 　 KowalczykGS ， GordonGE , RhelngroverSW . IdentificationofatmosphericparticulatesourcesinWashingtonD . C . usingchemicalelementbalances . Environ . Sci . Technol . , 1982 , 16 ( 2 ) : 79 ～ 90 
+ 9 　 冯沈迎 , 仝 　 青 ， 乌 　 兰等 . 呼和浩特市 大气 相 和 颗粒物 中 有机 污染物 的 定性分析 . 环境 科学 ， 1995 , 15 ( 6 ) ： 66 ～ 69 
+ 10 　 丁 中华 . 煤都 大同市 大气环境 中 的 颗粒物 有机 污染物 和 金属元素 的 分析 研究 . 环境 科学 进展 ， 1996 , 4 ( 1 ) ： 23 ～ 27 
+ 作者简介 
+ 刘 　 敏 　 男 ， 1964 年 1 月生 。 现为 华东师范大学 地理系 博士后 ， 副教授 。 主要 从事 环境 地学 和 环境 生态 研究 工作 ， 重点 研究 河流 、 湖泊 、 长江三角洲 及滨岸 带 环境 界面 污染物 的 季节性 累积 释放 、 迁移 转化 和 时空 分布 规律 及其 对 环境 的 影响 和 生态 效应 。 主持 上海市 博士后 基金 “ 上海 淤泥 质 潮滩 表层 沉积物 中多环 芳烃 时空 变化 及其 环境影响 ” ； 参加 上海市 重点 科技 攻关项目 “ 苏州河 底泥 合理 处理 对水 环境 的 影响 研究 ” 以及 国家自然科学基金 项目 “ 长江三角洲 滨海 湿地 季节性 冲 淤 变化 及其 环境效应 ” 等 多项 国家 和 地方 科研项目 。 曾 获得 河北省 科技进步 一等奖 。 发表 论文 20 余篇 。 
+ 收稿 日期 ： 1997 - 07 - 02 
+ * 国家自然科学基金 ( 49771011 ) 和 上海市 博士后 科学基金 

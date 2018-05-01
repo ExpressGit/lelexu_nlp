@@ -1,0 +1,92 @@
+环境 科学 学报 
+ ACTASCIENTIAECIRCUMSTANTIAE 
+ 1999 年 第 19 卷 第 2 期 VOL.19 NO.21999 
+ 
+ 
+ 
+ 4 - 氨基 联苯 与 人体 血红蛋白 体外 加合 反应 及 加合物 测定 的 研究 * 
+ 秦 　 涛 　 赵 立新 　 徐晓白 * * 
+ 摘要 　 研究 了 人体 血红蛋白 ( Hb ) 与 4 - 氨基 联苯 ( 4 - ABP ) 加合物 的 测定方法 . 考察 加合物 的 分离 条件 及 定量 测定 加合物 的 精确度 . 研究 人体 血红蛋白 的 体外 加合 产物 的 生成量 与 反应时间 的 关系 . 体外 实验 结果 发现 ， 在 37 ℃ 恒温 条件 下 ， 12h 之内 ， 4 - ABP 与 Hb 加合物 的 生成 速率 为 126pg / ( mg . h ) . 
+ 关键词 　 人体 血红蛋白 ； 4 - 氨基 联苯 ； 血红蛋白 加合物 . 
+ Invitroadductformationofhemoglobinwith4 - amino - biophenyl 
+ QINTao , ZHAOLixin , XUXiaobai 
+ ( ResearchCenterforEco - EnvironmentalSciences , ChineseAcademyofSciences , Beijing100085 ) 
+ Abstract 　 Reliabledeterminationmethodfor4 - aminobiphenyladductwithhumanhemoglobininvitrowasdeveloped . Theseparatingconditionsoftheadductfromlowmoleculeweightingredientsandtheprecisionofquantityinspectionfortheadductwereexamined . Adductreactionof4 - aminobinbenyltohemoglobinoccurreddirectlyaccordingtotheresultoftheadductanalysis . Itwasconfirmedthattherateof4 - ABPbindingtoHbinvitrois126pg / ( mg ( Hb ) . h ) within12hoursat37 ℃ . 
+ Keywords 　 humanhemoglobin , 4 - aminobiphenyl , hemoglobinadduct . 
+ 　 　 芳香 胺类 化合物 是 化学 致癌 剂 之一 ［ 1 ， 2 ］ . 早 在 五六十年代 就 有 报道 ， 接触 芳香 胺类 化合物 的 人 中患 膀胱癌 的 发病率 高达 12% — 16% ［ 3 ， 4 ］ . 4 - 氨基 联苯 对 人 和 动物 的 致癌 作用 已有 明确 证据 . 经过 大量 动物 实验 研究 确证 了 有些 癌症 的 流行病学 调查 结论 ， 提供 了 深入研究 的 实验 方式 ， 从 以往 测定 环境 中 化学 致癌 剂 的 含量 估计 生物体 的 接触 水平 ， 发展 到 直接 检测 化学 致癌 剂 与 生物 受体 结合 的 产物 ［ 5 — 8 ］ . 用 血红蛋白 与 化学 致癌 剂 的 加合物 的 检测 结果 说明 这些 污染物 经过 生物 代谢 或 激活 后 可以 产生 癌症 的 毒 作用 效果 ， 有利于 从 分子 水平 探讨 致癌 机理 ， 同时 也 更加 有效 地 预测 和 评价 环境 致癌物 的 危险性 . 
+ 　 　 流行病学 调查 和 实验室 研究 资料 证明 ， 除 生产 车间 接触 4 - 氨基 联苯 的 操作 工人 是 暴露 于 这种 污染物 的 主要 人群 之外 ， 为数 更 多 的 是 那些 吸烟者 . 吸烟 人群 的 心脑血管 疾病 、 肺癌 、 膀胱癌 、 乳腺癌 的 发病率 明显 高于 非 吸烟 人群 . 香烟 烟雾 中 含有 多种 有害 健康 的 物质 ， 4 - 氨基 联苯 就是 这些 有害物质 之一 . 研究 结果 已经 证明 吸烟者 的 血红蛋白 与 4 - 氨基 联苯 的 加合物 水平 普遍 高于 不 吸烟者 . 鉴于 国内外 对 4 - 氨基 联苯 的 血红蛋白 加合 反应 速率 的 研究 报道 尚少 ， 我们 采用 毛细管 气 相色谱 检测法 ， 对 4 - 氨基 联苯 这一 典型 致癌物 与 血红蛋白 形成 加合物 的 结合 速率 进行 了 研究 ， 即 了解 4 - 氨基 联苯 与 血红蛋白 直接 作用 的 效果 ， 以便 提供 较为 客观 的 生物 监测 指标 作为 评价 个体 接触 水平 成为 可能 . 
+ 1 　 实验 材料 和 方法 
+ 1.1 　 试剂 
+ 　 　 4 - 氨基 联苯 、 血红蛋白 标准 品及 定量分析 试剂 均 为 Sigma 公司 产品 . D21mm 透析 管为 华美 生物工程 公司 产品 . 人 血红蛋白 标准 液 来自 北京 广安门 医院 . 正己烷 ( 北京 化工厂 ) 作为 萃取 溶剂 ， 使用 前 精密 蒸馏 ， 经气 相色谱 鉴定 无杂质 峰 . 其它 试剂 如 三甲胺 、 七氟丁 酸酐 、 氢氧化 氨 等 均 为 分析 纯 和 优级 纯 . 蒸馏水 作为 空白 试样 在 与 样品 处理 完全相同 的 条件 下 检测 不出 4 氨基 联苯 . 重蒸 去离子水 作为 透析 用水 . 
+ 1.2 　 血红蛋白 含量 的 测定 
+ 　 　 测定 采用 氰化 高铁 蛋白 法 ［ 8 ， 9 ］ ， 751G 分光 光度计 ( 上海 分析 仪器厂 ) ， 钨灯 稳压电源 ， 狭缝 0.06 mm ， 波长 540nm , 光径 1.0 cm . 取 20 μ L 经过 透析 分离 的 血红蛋白 样品 加到 5.0 mLDrabkin ' s 试剂 中 充分 混合 ， 静置 5min ， 以 Drabkin ' s 试剂 为 空白 测定 吸 光度 ， 进行 定量 . 
+ 1.3 　 4 - 氨基 联苯 的 GC - ECD 测定 
+ 　 　 外标 定量 法 ： Varian3700 气相色谱仪 ， 63Ni 源 ECD 检测器 . CR - 3A 色谱 处理机 ( Shimadzu ) . SE - 54 毛细管 色谱 柱 ( 40m × 0.25 mm , 北京石油 科学 研究院 制 ) . 高纯 氮气 作载 气 ， 初始 温度 50 ℃ ， 升温 速率 4 ℃ / min , 至 280 ℃ 终止 . 以 不 分流 方式 进样 1 μ L . 
+ 1.4 　 样品 处理 
+ 1.4 . 1 　 加合 反应 条件 　 取 相同 量 4 - 氨基 联苯 100 μ g , 加入 5mL 蒸馏水 和 44mg 人 血红蛋白 混合 均匀 后 ， 在 37 ℃ 恒温 水浴 中 ， 保温 时间 分别 为 0 、 3 、 6 、 9 、 12h ， 每个 时间 点有 3 个 平行 样品 . 
+ 1.4 . 2 　 血红蛋白 加合物 的 透析 分离 　 将 反应 后 的 血红蛋白 溶液 转移 到 截留 分子量 为 20000 的 透析 管中 ， 在 5L 的 重蒸 去离子水 中 透析 65h 以上 ， 换水 4 次 . 每个 容器 中 的 透析 管 不 超过 6 个 ， 透析 温度 为 4 ℃ . 
+ 1.4 . 3 　 血红蛋白 加合物 的 测定 　 水解 前取 20 μ L 的 样品 ， 测定 血红蛋白 含量 . 在 碱性 条件 下 水解 血红蛋白 及其 加合物 ( 用 10mol / LNaOH 将 透析 后 的 样品 调至 pH11 ， 在 室温 下 放置 3 — 4h ) . 色谱分析 的 样品 前 处理 是 用 15mL 正己烷 萃取 水解 或 未 水解 的 经过 透析 的 样品 中 的 4 - 氨基 联苯 ， 萃取 两次 的 有机 相 合并 在 一起 ， 经过 七氟丁 酸酐 衍生 化 ［ 10 ， 11 ］ 并 经过 除水 处理 后 ， 收集 到 小 试管 中 ， 浓缩 至 适当 浓度 ， 进行 气相 色谱分析 ［ 12 ］ . 
+ 1.4 . 4 　 反应 速率 的 数据处理 　 经加合 反应 处理 后测 得 的 4 - 氨基 联苯 与 血红蛋白 加合物 的 生成量 均 为 同一 反应时间 点上 的 3 个 样品 的 平均值 ， 经 线性 回归 处理 ， 得到 加合物 生成量 与 反应时间 的 关系 曲线 . 
+ 2 　 结果 和 讨论 
+ 2.1 　 血红蛋白 加合物 测定方法 的 灵敏度 和 可靠性 
+ 　 　 加合物 含量 的 测定 包括 血红蛋白 总量 和 加合 在 加合物 上 的 母体 化合物 的 测定 . 从 这两项 分析 的 标准 曲线 的 测定 结果 得知 ， 用 分光 光度计 分析 血红蛋白 ， 在 0 — 180mg / mL 的 范围 内有 较 好 的 线性关系 ； 而 GC - ECD 响应 与 4 - 氨基 联苯 含量 在 0 — 8000pg 范围 之间 的 线性关系 也 令人满意 . 经 多次重复 测定 所 获得 的 线性相关 系数 的 平均值 均 大于 0.99 ( 表 1 、 表 2 ) . 若 取样 量 为 10mL ， 分析 样 被 浓缩 至 20 μ L ， 并 以 100mg ( 血红蛋白 ) / mL ( 人血 ) 计算 ， 本 方法 的 最低 检测 限 和 最低 检测 浓度 分别 为 7pg 和 0.14 pg / mg ( 血红蛋白 ) . 
+ 表 1 　 吸光 值 与 血红蛋白 浓度 的 关系 
+ Table1Linearrelationshipbetweenabsorptivity 
+ andconcentrationofhemoglobin 
+ 实验 次数 abr 
+ 10.03040 . 02360.9999 
+ 20.02790 . 03180.9999 
+ 30.02650 . 05680.9998 
+ 40.02940 . 07740.9995 
+ 50.0317 - 0.00070 . 9997 
+ 60.02980 . 00060.9997 
+ 70.03480 . 00011.0000 
+ 平均值 0.03010 . 02710.9998 
+ 　 　 标准 曲线 的 回归方程 为 ： Y = aX + b ( n = 5 ) 
+ 表 2 　 GC - ECD 响应值 与 4 - 氨基 联苯 的 衍生物 浓度 的 关系 
+ Table2LinearrelationshipbetweenrespondonGC - ECDandconcentrationof4 - ABP - HFBAderivative 
+ 实验 次数 abr 
+ 10.90200 . 60000.9964 
+ 20.9675 - 3.16000 . 9966 
+ 31.1831 - 1.12000 . 9988 
+ 41.2749 - 3.51400 . 9945 
+ 51.2628 - 6.18440 . 9924 
+ 61.00480 . 16000.9991 
+ 71.4389 - 1.56590 . 9966 
+ 81.38490 . 53000.9993 
+ 91.32820 . 89900.9909 
+ 101.94890 . 72520.9969 
+ 平均值 1.2696 - 1.31700 . 9962 
+ 　 　 标准 曲线 的 方程 为 ： Y = aX + b ( n = 6 ) 
+ 
+ 
+ 图 1 　 人 血红蛋白 水溶液 和 水中 4 - 氨基 联苯 的 透析 曲线 
+ Fig.14 - ABPremainedinwaterorinhumanhemoglobinsolutionduringtheperiodofdialysis 
+ 
+ 
+ 图 2 　 4 - 氨基 联苯 在 人 血红蛋白 水溶液 中 加合物 生成量 的 时间 曲线 
+ Fig.2 Relationshipbetweendadductof4 - ABP - Hbandreactiotime 
+ 2.2 　 分离 4 - 氨基 联苯 和 血红蛋白 加合物 的 条件 控制 
+ 　 　 利用 透析 方法 分离 小 分子 化合物 的 去除率 主要 取决于 透析 时间 以及 透析 容器 的 容积 . 本 实验 在 相同 容器 条件 下 ， 测定 不同 时间 的 透析 去除率 ， 以水 作为 血红蛋白 的 参照物 ， 得知 在 每 12 — 18h 换水 一次 的 条件 下 ， 约 60h 可以 使 游离 的 、 未 形成 加合物 的 4 - 氨基 联苯 去除 到 本 方法 的 最低 检测 水平 以下 . 而 在 相同 透析 条件 下 ， 测到 的 血红蛋白 加合物 含量 经 60h 以上 透析 分离 的 测定 结果 趋于 一个 恒定 值 ( 图 1 ) . 因此 ， 透析 分离 4 - 氨基 联苯 的 条件 控制 在 65h 以上 ， 共 换水 4 次 ， 确保 大分子 加合物 与 游离 的 4 - ABP 充分 分离 . 
+ 2.3 不同 反应时间 加合物 生成量 的 测定 
+ 　 　 图 2 为 上述 处理 方法 得到 的 4 - 氨基 联苯 与 血红蛋白 加合物 生成量 的 测定 结果 与 反应时间 的 相关 图 . 可以 看出 ， 4 - 氨基 联苯 与 人 血红蛋白 的 结合 能力 相当 强 ， 反应时间 为 0h 的 样品 仍 可测 到 加合物 的 原因 在于 透析 过程 仍 有 4 - 氨基 联苯 与 人 血红蛋白 作用 的 可能 . 当 4 - 氨基 联苯 的 直接 反应 量 在 100 μ g 时 ， 人 血红蛋白 的 用量 一定 的 条件 下 ， 所 形成 的 加合物 的 平均值 与 作用 时间 呈 线性关系 . 其 平均 速率 为 126pg / ( mg . h ) . 
+ 3 　 结 　 论 
+ 　 　 1 . 本 实验 结果 是 在 生物体 外 ， 采用 从 人体 红血球 分离 得到 的 血红蛋白 作为 加合 反应 底物 的 实验 得到 的 测定 结果 . 它 明确 反映 出 4 - 氨基 联苯 在 所择 特定条件 下 ， 能 与 人体 血红蛋白 结合 形成 大分子 加合物 . 其 生成量 与 4 - 氨基 联苯 的 接触 量 和 作用 时间 呈 线性 相关性 . 至于 生物体 内 的 实验 结果 ， 我们 将 另文 报导 . 
+ 　 　 2 . 本 实验 结果 说明 ， 未经 代谢 活化 的 4 - 氨基 联苯 也 可以 直接 与 血红蛋白 结合 . 当然 ， 更 确切 地 反映 化学 致癌物 的 危险性 的 接触 和 效应 的 评价 还 应该 是 以 生物体 内所 产生 的 生物 标记 为 基础 作为 毒理学 研究 的 生物 监测 指标 . 
+ 　 　 本项 研究 得到 金祖亮 研究员 和 储少 岗 博士 的 热情 指导 与 帮助 ， 在 此 表示感谢 . 
+ 　 　 * 获得 中国科学院 基础 局 、 生态环境 研究 中心 主任 基金 部分 资助 　 　 * * 联系人 
+ 作者 单位 ： ( 中国科学院 生态环境 研究 中心 ， 北京 　 100085 ) 
+ 参考文献 
+ 　 [ 1 ] 　 PereraFP , MauerJ , SantellaRMetal . Biologicmarkersinriskassessmentforenvironmentalcarcinogens . EnvironmentalHealthPerspectives , 1991 , 90 : 247 — 254 
+ 　 [ 2 ] 　 SabbioniG . Hemoglobinbindingofarylaminesandnitroarenees : Moleculardosimetryandquantitativestructure __ activityrelationships . EnvironmentalHealthPerspectives , 1994 , 102 : 61 — 67 
+ 　 [ 3 ] 　 CaseRAM . TumorsoftheurinarybladderinworkmenengagedinthemanufactureanduseofcertaindyestuffintermediatesintheBritishchemicalindustry . BrJIndMed , 1954 , 11 : 75 — 104 
+ 　 [ 4 ] MancuscoTF . CohortStudiesofworkersexposedtobetanaphthlamineandbenzidine . JOccupMed , 1967 , 9 : 277 — 285 
+ 　 [ 5 ] 　 SkipperPL , ObiedzinskiMW , TannenbaumSRMilleretal . Identificationonthemajorserumalbuminadductformedby4 - aminobiphenylinvivoinrats . CancerRes , 1985 , 45 : 5122 — 5127 
+ 　 [ 6 ] 　 WilsonPM , QueHeeSS , FroniesJR . Determinationofhemoglobinadductlevelsofthecarcinogen2 , 4 - diaminotolueneusinggaschromatographyelectronimpactpositive - ionmassspectrometry . JChromatogrBBiomedAppl , 1995 , 667 ( 1 ) : 166 — 172 
+ 　 [ 7 ] 　 GreenLC , SkipperPL , TurskyRJetal . Invivodisimetryof4 - aminobiphenylinratsviaacysteineadductinhemoglobin . CancerRes , 1984 , 44 : 4254 — 4259 
+ 　 [ 8 ] VanKamppenEJ , ZijistraWG . Standardizationofhemoglobinometry . II . Thehemoglobincyanidemethod . ClinChimActa , 1961 , 6 : 538 
+ 　 [ 9 ] RiceEW . Rapiddeterminationoftotalhemoglobinashemoglobincyanideinbloodcontainingcarboxyhemoglobin . ClinChimActa , 1967 , 18 : 89 
+ [ 10 ] 马明生 ， 徐晓白 . 还原 - 衍生 化高 分辨 气相 色谱法 测定 复杂 样品 中 痕量 硝基 多环 芳烃 ( NO2 - PAH ) 的 研究 . 环境 科学 学报 ， 1993 ， 14 ( 3 ) ： 374 — 379 
+ [ 11 ] 　 BakthavachalamJ , AnnanRS , BelandFAetal . Selectionofelectrophoricderivativesof1 - aminopyreneand2 - aminofluorenefordeterminationbygaschromatographywithelectron - capturenegative - ionmassspectrometry . JChromatogr , 1990 , 500 : 373 — 386 
+ [ 12 ] SkipperPL , BryantMS , TannenbaumSRetal . Analyticalmethodsforassessingexposureto4 - aminobiphenylbasedonproteinadductformation . JOccupMed , 1986 , 28 : 643 — 646 
+ 1997 - 07 - 04 收到 原稿 　 1997 - 12 - 11 收到 修改稿 

@@ -1,0 +1,104 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 　 第 23 卷 　 第 4 期 　 Vol.23 　 No.4 　 1997 
+ 
+ 
+ 
+ 动 基座 机器人 的 末端 受限 鲁棒 跟踪 控制 1 ) 
+ 王兴贵 　 谈 大龙 　 吴镇炜 　 张春杰 
+ 　 　 摘 　 要 　 结合 具有 扰动 基座 末端 受限 机器人 的 动力学 特性 ， 提出 了 虚构 线性 不 确定 系统 的 匹配 模型 概念 . 通过 引入 线性 不 确定 系统 的 鲁棒 跟踪 控制器 设计 方法 ， 发展 了 一种 新 的 受约束 机器人 的 力鲁棒 跟踪 控制 方法 . 文中 给出 了 动 基座 PUMA562 机器人 的 实验 结果 . 
+ 　 　 关键词 　 约束 机器人 ， 鲁棒控制 ， 不确定性 系统 ， 非线性 系统 ， 机器人 动力学 . 
+ THEROBUSTTRACKINGCONTROLOFRESTRAINEDROBOT 
+ WITHRANDOMPERTURBATIONONTHEBASE 
+ WANGXINGGUI 
+ ( ThePLACollegeofOrdanceEngineering , Shijiazhuang050003 ) 
+ TANDALONG 　 　 WUZHENWEI 　 　 ZHANGCHUNJIE 
+ ( ShenyangInstituteofAutomation , theChineseAcademyofSciences , Shenyang110015 ) 
+ Abstract 　 Accordingtothedynamicsoftherestrainedrobotsystemwithrandomperturbationonthebase , amatchingmodelofimaginarylinearuncertainsystemisestablishedinthispaper . Themethodtodesignarobuststabilizingcontrollerforthelinearuncertainsystemisintroduced , andaforcerobusttrackingcontrolmethodisdevelopedfortherestrainedrobot . TheeffectivenessofthismethodhasbeenverifiedbyexperimentwiththePUMA562mountedonaomnidirectionalvehicle . 
+ Keywords 　 Restrainedrobot , robustcontrol , uncertainsystem , nonlinearsystem , robotdynamics . 
+ 1 　 引言 
+ 　 　 机器人 操作系统 的 许多 作业 都 可 归结为 末端 受约束 的 控制 问题 ， 其中 ， 包括 多 机器人 协调 操作系统 . 因此 ， 受约束 的 机器人 控制 问题 早已 引起 研究者 们 的 重视 ［ 1 — 4 ］ . 目前 研究 的 热点 是 固定 基座 受约束 机器人 的 力 / 位置 混合 控制 ， 主要 是 将 系统 的 运动 和 约束力 解 耦 ， 然后 对 其 分别 采取 不同 的 控制策略 ［ 1 — 3 ］ . 尤其 对 约束力 通常 只 采用 简单 的 积分 反馈 控制 ， 它 实际上 是 运用 静态 或准 静态 控制 本质 为 动态 的 过程 . 多数 文献 提供 的 数值 仿真 及 实验 结果 均 表现 出 约束力 和 运动 轨迹 的 颤动 较 严重 . 在 空间 和 水下 环境 作业 的 机器人 及 自动化 工厂 中装 在 自治 小车 上 的 机器人 等 ， 这些 机器人 系统 在 工作 时 基座 不 可能 固定不动 ， 显然 ， 当 机器人 的 基座 有 随机 扰动 时 ， 必须 研究 新 的 更 有效 的 控制 方法 . 
+ 2 　 动 基座 末端 受限 机器人 的 动力学 方程 
+ 　 　 设 机器人 基座 的 扰动 量 为 ， ∈ Rm ( m ≤ 6 ) ， 对应 机器人 的 爪 端 工作 轨迹 扰动 变量 e 有 
+ 
+ ( 1 ) 
+ 式 中 J ′ ( , ) 为 对应 的 Jacobian 变换 矩阵 . 
+ 　 　 在 爪 端 工作 坐标系 描述 的 机器人 动力学 方程 ， 当 基座 无 扰动 时 ， 沿 期望 的 指令 轨迹 平衡点 族作 线性化 处理 ， 忽略 二阶 以上 高次 项有 
+ 
+ ( 2 ) 
+ 式 中 = - d 为 位移 偏差 ； 
+ 　 　 为 驱动力 偏差 ； 
+ 　 　 为 爪 端 接触 外力 偏差 ； 
+ 　 　 为 系统 标称 矩阵 . 式 ( 2 ) 是 机器人 基座 无 扰动 时 ， 在 爪 端 坐标系 描述 的 系统 对应 指令 轨迹 的 标称 偏差 动态 方程 . 
+ 　 　 当 机器人 的 末端 受限 ， 基座 有 扰动 量 时 ， 若 维持 机器人 爪端 位姿 不变 ， 机器人 的 实际 平衡点 ( 关节 空间 ) 将 偏离 指令 轨迹 的 平衡点 . 方程 ( 2 ) 中 变量 所 对应 的 标称 系数 矩阵 将 产生 扰动 增量 ， 致使 实际 系统 变为 不 确定 系统 
+ 
+ ( 3 ) 
+ 式 中 Δ Mx , Δ Cx , Δ Gx 为 系统 标称 矩阵 的 扰动 量 . 
+ 3 　 控制器 设计 
+ 3.1 　 虚构 模型 
+ 　 　 首先 定义 一个 虚构 的 线性 不 确定 匹配 模型 ， 也 就是 构造 一个 关于 式 ( 3 ) 中 的 虚拟 线性 定常 不 确定 系统 模型 
+ 
+ ( 4 ) 
+ 式 中 为 虚构 系统 状态变量 ； 
+ 　 　 — — 渐近 跟踪 引入 的 附加 向量 ； 
+ 　 　 r ( t ) — — 系统 参考 输入 信号 ； 
+ 　 　 — — 虚构 系统 标称 矩阵 ； 
+ 　 　 — — 系统 的 扰动 和 参考 输入量 ， 均 为 阶跃 信号 . 
+ 系统 ( 4 ) 的 不确定性 满足 如下 匹配 条件 ： 
+ Δ A = BD ( r ) , D ( r ) = [ r1I , r2I , 0 ] , 
+ Δ B = BE ( S ) , 2I + E ( S ) + ET ( S ) ＞ 0 . 
+ ( 5 ) 
+ 其中 ｜ r1 ｜ ≤ η 1 , ｜ r2 ｜ ≤ η 2 ; I — — 单位矩阵 . 
+ 3.2 　 鲁棒 跟踪 控制器 设计 
+ 　 　 定理 1 . 　 对于 实际 不 确定 系统 ( 3 ) ， 设有 如下 扰动 界 ： 
+ ‖ [ ( t ) + Δ Mx ( t ) ] - 1 Δ Mx ( t ) ‖ ≤ η ＜ 1 ; 
+ ‖ [ ( t ) + Δ Mx ( t ) ] - 1 Δ Gx ( t ) ‖ ≤ η 1 ; 
+ ‖ [ ( t ) + Δ Mx ( t ) ] - 1 Δ Cx ( t ) ‖ ≤ η 2 ; 
+ ‖ Δ Cx ( t ) ‖ ＜ ‖ ( t ) ‖ ; ‖ Δ Gx ‖ ＜ ‖ ( t ) ‖ . 
+ ( 6 ) 
+ 虚构 不 确定 系统 ( 3 ) ， 若 存在 一个 δ ＞ 0 ， 满足 　 2 ( 1 - η ) ≥ δ ， 则 有 反馈 控制 
+ 
+ ( 7 ) 
+ 将式 ( 7 ) 代入 方程 ( 2 ) ， 有 系统 反馈 控制 
+ 
+ ( 8 ) 
+ 可 使 实际 系统 ( 3 ) ， 在 参数 不确定性 ( 6 ) 的 扰动 界内 均 能 保证 鲁棒 跟踪 控制 . 稳定性 证明 见 ［ 4 ］ ( P65 ) . 
+ 　 　 其中 γ ＞ 1 / δ ， P 是 Riccati 方程 
+ ATP + PA - PBR - 1BTP + Q = 0 
+ ( 9 ) 
+ 的 正定 解 ， 式 中 加权 矩阵 选取 如下 
+ R = I / ( γ δ - 1 ) , 
+ ( 10 ) 
+ 
+ ( 11 ) 
+ 式 中 ε — — 任意 小 的 正数 ， rm = max { r1 , r2 } . 
+ 4 　 具有 扰动 基座 PUMA562 末端 受限 控制 实例 
+ 　 　 车载 PUMA562 机器人 的 实验 系统 如图 1 所示 . 实验 时 ， 让 机器人 爪端 抓 一个 固定 的 铁棒 ， 当 车体 有 随机 扰动 时 ， 保持 机器人 爪端 位姿 不变 . 机器人 上 装有 腕力 / 矩 传感器 ， 车体 独立 于 机器人 控制 . 由 定理 1 ， 设式 ( 6 ) 的 不 确定 扰动 界为 η = 0.5 , η 1 = 1 , η 2 = 1 . 匹配 条件 ( 5 ) 有 ｜ r1 ｜ ≤ 1 , ｜ r2 ｜ ≤ 1 ， ｜ E ( S ) ｜ ≤ 0.5 . 取 δ = 1 , γ = 2 , R = 1 ， 加权 矩阵 Q = diag ( 4 , 4 , 2 ) . 计算 得 反馈 控制 式 ( 7 ) 中 k1 = 7.356 , k2 = 6.740 , k3 = 2.828 . 则 式 ( 8 ) 的 鲁棒 跟踪 控制器 近似 转化 为力 / 矩 偏差 的 函数 有 
+ 
+ ( 12 ) 
+ 其中 为 传感器 实测 偏差 值 . 实验 时 ， 只 给出 基座 纵向 横向 的 扰动 量 u = v = 0.05 . sin ( . t ) ( m ) , PUMA562 的 期望 关节 位置 坐标 为 
+ = 〔 90.0 , - 51.588 , 179.515 , 0.0 , - 37.927 , 0.0 〕 T ( 度 ) . 
+ 设 系统 的 接触 弹性 刚度 为 
+ ke = diag ( 10000.0 , 10000.0 , 10000.0 ; 10000.0 , 10000.0 , 10000.0 ) ( N / m ; N . m / rad ) . 
+ 图 2 和 图 3 为 腕力 / 矩 传感器 的 实测 曲线 ， 其中 实测值 的 最大 力 / 矩 误差 均 小于 1 ( kg ) / ( kg . m ) . 可见 跟踪 控制 效果 较 好 ， 系统 具有 很强 的 鲁棒性 ， 图中 曲线 不 平滑 是 传感器 噪声 所致 . 由图 2 和 图 3 可见 Fy , Fz 变化规律 及 振幅 值 相近 ， Fx0 , NyNz0 ， 是因为 实验 时 车体 只有 45 ° 方向 平移 . 
+ 
+ 
+ 图 1 　 车载 PUMA562 机器人 实验 系统 图 
+ 
+ 
+ 图 2 　 爪端 约束力 实验 误差 曲线 
+ 
+ 
+ 图 3 　 爪端 约束 力矩 实验 误差 曲线 
+ 5 　 小结 
+ 　 　 本文 提出 了 一种 新 的 受约束 机器人 的 力鲁棒 跟踪 控制 方法 . 该 方法 的 最大 特点 是 ， 修正 约束力 偏差 时 考虑 了 系统 的 动态 过程 ， 即 反馈 控制 式 ( 8 ) 中 包含 了 系统 动力学 的 全部 物理 特性 参数 ， 是 原 系统 期望 轨迹 的 时变 函数 . 它 避免 了 大 惯性质量 用 小 增益 、 小 惯性质量 用大 增益 控制 的 现象 ， 克服 了 通常 只 采用 简单 的 积分 反馈 控制 约束力 时 系统 的 动态 精度 差 的 缺点 . 因此 它 特别 适合 系统 在 期望 工作 轨迹 上 标称 矩阵 时变 ， 且 大 范围 变动 的 系统 . 
+ 1 ) 　 国家自然科学基金 、 中国科学院 机器人学 开放 研究 实验室 基金 资助 项目 . 
+ 作者 单位 : 王兴贵 　 中国人民解放军 军械 工程学院 兵器 工程系 　 石家庄 　 050003 
+ 　 　 　 　 　 谈 大龙 　 吴镇炜 　 张春杰 　 中国科学院 沈阳 自动化 所 　 沈阳 　 110015 
+ 参考文献 
+ [ 1 ] 　 MillsJK , GoldenbergAA . Forceandpositioncontrolofmanipulatorsduringconstrainedmotiontasks . IEEETrans . onRoboticsandAutomation , 1989 , 5 ( 1 ) : 30 — 46 . 
+ [ 2 ] 　 YabutaT . Nonlinearbasicstabilityconceptofthehybridposition / forcecontrolschemeforrobotmanipulators . IEEETrans . onRoboticsandAutomation , 1992 , 8 ( 5 ) : 633 — 671 . 
+ [ 3 ] 　 YoshikawaT , ZhengXZ . Coordinateddynamichybridposition / forcecontrolformultiplerobotmanipulatorshandlingoneconstrainedobject . Int . J . ofRoboticsResearch , 1993 , 12 ( 3 ) : 219 — 230 . 
+ [ 4 ] 　 王兴贵 . 多 机器人 协调 动力学 、 轨迹 规划 和 控制 研究 . 哈尔滨工业大学 博士论文 ， 1994 . 
+ [ 5 ] 　 倪 茂林 . 鲁棒控制 系统 设计 理论 与 应用 ( 博士论文 ) . 北京 ： 中国空间技术研究院 北京 控制工程 研究所 ， 1992 . 
+ 收稿 日期 　 1995 - 11 - 20 

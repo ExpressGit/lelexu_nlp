@@ -1,0 +1,120 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 1999 年 第 10 卷 第 8 期 Vol.10 No.81999 
+ 
+ 
+ 
+ 一种 函数 优化 问题 的 混合 遗传算法 
+ 彭伟 　 卢锡城 
+ 摘要 　 将 传统 的 局部 搜索算法 和 遗传算法 相结合 , 可以 较 好地解决 遗传算法 在 达到 全局 最优 解前 收敛 慢 的 问题 . 文章 给出 一种 结合 可变 多面体 法 和 正交 遗传算法 的 混合 算法 . 实验 表明 , 它 通过 对 问题 的 解 空间 交替 进行 全局 和 局部 搜索 , 能 更 有效 地 求解 函数 优化 问题 . 
+ 关键词 　 遗传算法 , 可变 多面体 法 , 正交 交叉 , 函数 优化 . 
+ 中图法 分类号 　 TP 
+ AHybridGeneticAlgorithmforFunctionOptimization 
+ PENGWeiLUXi - cheng 
+ ( DepartmentofComputerChangshaInstituteofTechnologyChangsha410073 ) 
+ Abstract 　 Toovercometheproblemofslowconvergencebeforethegeneticalgorithms ( GAs ) reachtheglobaloptima , itisaneffectivewaytocombinetheconventionallocalsearchalgorithmswithGAs . Anewhybridalgorithmthatincorporatestheflexiblepolyhedronmethodintotheorthogonalgeneticalgorithm ( OGA ) ispresentedinthispaper . Theexperimentsshowedthatitcanachievebetterperformancebyperformingglobalsearchandlocalsearchalternately . Thenewalgorithmcanbeappliedtosolvethefunctionoptimizationproblemsefficiently . 
+ Keywords 　 Geneticalgorithm , flexiblepolyhedron , orthogonalcrossover , functionoptimization . 
+ 　 　 遗传算法 （ geneticalgorithms ） 通过 模拟 生物进化 的 途径 来 在 问题 的 解域 中 定向 搜索 最优 解 , 在 组合 优化 、 机器 学习 、 自 适应控制 、 多 目标 决策 等 领域 中有 许多 应用 . 对于 传统 方法 较难 求解 的 一些 NP 问题 , 遗传算法 往往 能 得到 更好 的 结果 . 但 对 传统 方法 已能 较 好 解决 的 问题 （ 如 一般 的 非线性 优化 问题 ） , 它 并 不 显示 较强 的 优势 . 原因 在于 , 遗传算法 对 问题 特定 的 知识 （ 如 梯度 、 Hessian 阵 、 某些 定理 等 ） 利用 较少 . 它 主要 采用 群体 搜索 技术 , 通过 对解 的 不断 组合 、 随机 改变 以及 对 候选 解 的 评估 和 选择 来 完成 求解 过程 . 在 达到 全局 最优 解前 , 它 尚存 在 收敛 慢 的 问题 . 设计 遗传算法 时 往往 需要 在 其 通用性 与 有效性 之间 折衷 . 设计 针对 问题 的 特定 遗传 算子 , 可以 更 有效 地 求解 问题 , 但 缺乏 通用性 . 另 一种 途径 是 将 遗传算法 与 问题 领域 中 一些 传统 的 寻优 方法 （ 如 爬山 法 、 模拟退火 法 、 牛顿 法等 ） 结合 起来 , 可 在 保持 算法 一定 的 通用性 时 提高 算法 的 效率 . 这类 混合 算法 的 基本 框架 如图 1 所示 . 
+ 
+ 图 1 　 混合 遗传算法 的 基本 框架 
+ 　 　 本文 考虑 一类 非线性 函数 优化 问题 , 即 
+ minf ( x ) 　 　 x ∈ D 
+ 其中 f ( . ) 是 n 元 连续函数 , D 是 Rn 的 有界 子集 . 文献 ［ 2 ］ 中 探讨 了 一种 将 拟 牛顿 法 与 传统 GA 结合 起来 用于 求解 上述 问题 的 途径 . 由于 拟 牛顿 法 需求 函数 的 一阶 导数 , 因而 该 方法 的 通用性 受到 一定 的 限制 . 本文 探讨 将 可变 多面体 法 （ flexiblepolyhedron ） 与 GA 相结合 的 算法 , 它 只 利用 函数 值 进行 搜索 , 因而 适用范围 更广 . 可变 多面体 法即 Nelder - Mead 单纯形法 , 对于 一般 的 优化 问题 , 能 较 快 地 逼近 最优 解 , 具有 较强 的 局部 搜索 能力 . 但 它 对 初始 解 的 构成 具有 较强 的 依赖性 , 算法 执行 过程 中 难于 发现 新 的 可能 存在 最优 解 的 区域 . 通过 将 它 与 GA 相结合 , 一方面 可以 利用 其 局部 搜索 能力 , 另一方面 可 通过 GA 来 不断 “ 发现 ” 新 的 更 有 希望 的 搜索 区域 , 并 动态 调整 可变 多面体 法 的 搜索 方向 , 从而 使 算法 具有 更好 的 灵活性 , 也 使 算法 更 易于 并行 化 . 实验 表明 , 对于 求解 上述 非线性 优化 问题 , 混合法 （ 以下 称为 H - GA ） 具有 比 传统 GA 和 可变 多面体 法 都 好 的 性能 . 
+ 　 　 本文 第 1 节 给出 H - GA 的 算法 描述 , 第 2 节 给出 实验 结果 和 几种 算法 之间 的 性能 比较 , 最后 是 总结 . 
+ 1H - GA 算法 
+ 1.1 编码方式 
+ 编码 的 实质 是 在 问题 的 解 空间 与 算法 的 搜索 空间 之间 建立 一个 映射 . 传统 GA 一般 采用 一种 将 实数 空间 离散 化 的 二进制 编码方式 ［ 1 ］ . 这种 方式 存在 编码 长度 影响 求解 精度 、 操作 费时 、 不 直观 等 缺点 , 因而 提出 了 实数 的 直接 编码方式 并 表明 可以 获得 更好 的 性能 ［ 3 , 4 ］ . 在 实数 编码方式 下 , 每个 个体 用 一个 n 维的实 向量 来 表示 , 这种 方式 具有 直观 、 易 操作 的 优点 , 且 可以 针对 它 设计 非传统 的 交叉 算子 . 本文 采用 此 编码方式 . 
+ 1.2 交叉 和 选择 操作 
+ 　 　 交叉 操作 涉及 父本 的 选择 配对 机制 和 交叉 算子 . 配对 通常 采用 随机 配对 方式 . 为了 维持 群体 的 多样性 , 还 可 有 选择地 配对 . 配对 方式 能 影响 较优 模式 在 群体 中 的 扩散 速度 . 为了 防止 算法 的 不 成熟 收敛 （ prematureconvergence ） , 通常 不 希望 较优 模式 在 群体 中过 快 地 扩散 . 为此 , 我们 采用 一种 近邻 配对 原则 ［ 5 ］ , 即 对 群体 中 的 第 i 个 个体 , 若上 一次 迭代 与 之 配对 的 是 第 ( i - 1 ) ( modN ) 个 个体 , 则 本次 迭代 用 第 ( i + 1 ) ( modN ) 个 个体 与 之 配对 , N 为 群体 的 大小 . 这种 配对 方法 不仅 可 避免 较优 模式 过快 地 扩散 , 而且 符合 遗传算法 细粒度 并行 模型 的 要求 , 易于 获得 较大 的 并行度 . 
+ 　 　 正交 遗传算法 （ orthogonalgeneticalgorithm ） 在 非线性 优化 问题 及其 他 组合 优化 问题 中 已 显示 出其 有效性 ［ 5 , 6 ］ , 我们 的 算法 采用 了 正交 交叉 算子 . 由 两个 父本 交叉 操作 产生 一组 个体 , 从 新 个体 和 两个 父本 中 选择 最优 的 进入 下一代 群体 （ Elitist 策略 ） . 由于 采用 局部 选择 而 不是 全局 选择 , 既 在 一定 程度 上 保持 了 群体 的 多样性 , 又 消除 了 算法 在 并行 实现 时 的 通讯 瓶颈 . 
+ 设 两个 父本 分别 为 P 和 Q , 用于 实数 编码 的 正交 交叉 操作 ［ 5 ］ 主要 包括 : 
+ 　 　 ( 1 ) 混合 交叉 （ blendcrossover ） : 
+ X1 ［ i ］ = P ［ i ］ ; X2 ［ i ］ = Q ［ i ］ ; X3 ［ i ］ = r * P ［ i ］ + ( 1 - r ) * Q ［ i ］ ) , i = 1 , 2 , ... , n 
+ r 为 一 参数 , 0 ＜ r ＜ 1 . 这里 取 r = 0.5 ; 
+ 　 　 ( 2 ) 用 X1 , X2 和 X3 按 正交 表 L9 ( 34 ) 产生 9 个 新 个体 并 分别 计算 它们 的 适应度 值 ; 
+ 　 　 ( 3 ) 按照 正交 试验 方法 计算 最佳 水平 组合 并 产生 对应 的 第 10 个 个体 , 计算 其 适应度 值 ; 
+ 　 　 ( 4 ) 从 X1 , X2 , X3 和 新 产生 的 个体 中 选择 最好 的 两个 个体 取代 P 和 Q . 
+ 1.3 变异 操作 
+ 　 　 在 实数 编码方式 下 , 变异 操作 对 个体 X 的 每个 分量 X ［ i ］ 作用 一个 随机 偏差 量 , 即 
+ X ′ ［ i ］ = X ［ i ］ + δ , i = 1 , 2 , ... , n 
+ 在 进化 规划 （ evolutionaryprogramming ） 和 进化 策略 （ evolutionarystrategy ） ［ 7 ］ 中 , 广泛 采用 了 高斯 变异 算子 , 用 正态 （ 高斯 ） 分布 的 随机变量 来 作为 变异 操作 中 的 偏差 量 , 即 δ = σ * N ( 0 , 1 ) , N ( 0 , 1 ) 为 标准 正态 随机变量 . 算法 中令 σ 随 代数 增加 而 逐渐 减少 , 如可令 σ = MUT - C / generation , 其中 MUT - C 为 一 常数 , generation 为 迭代 的 代数 . 文献 ［ 8 ］ 中 亦 采用 了 类似 的 将 GA 的 混合 交叉 算子 与 高斯 变异 算子 相结合 的 途径 . 由于 在 正交 交叉 算子 中 已 包含 了 混合 交叉 操作 , 因而 正交 遗传算法 优于 该 算法 . 
+ 1.4 局部 搜索 
+ 　 　 可变 多面体 法用 ( n + 1 ) 个 n 维 欧氏 空间 中 的 顶点 来 构造 搜索 过程 中 的 多面体 , 我们 选取 ( n + 1 ) 个 相邻 的 个体 作为 初始 顶点 （ n ＜ N - 1 ） . 可变 多面体 法 包含 下列 几种 操作 ［ 9 ］ : 
+ 　 　 ( 1 ) 找出 ( n + 1 ) 个 顶点 中 函数 值 最大 及 最小 的 点 Xh 和 Xl , 然后 找出 去掉 Xh 后 的 由 n 个 顶点 构成 的 多边形 的 形心 Xc ; 
+ 　 　 ( 2 ) 通过 反射 操作 得到 反射 点 Xr : Xr ［ k ］ = Xc ［ k ］ + a * ( Xc ［ k ］ - Xh ［ k ］ ) , 其中 X ［ k ］ 为 X 的 第 k 个 分量 , a 为 反射系数 ; 
+ 　 　 ( 3 ) 若 f ( Xr ) ＜ f ( Xl ) , 则 执行 扩大 操作 , 得到 Xe : Xe ［ k ］ = Xc ［ k ］ + r * ( Xr ［ k ］ - Xc ［ k ］ ) , 其中 r ＞ 1 为 扩大 系数 ; 
+ 　 　 ( 4 ) 若 对 多边形 中 除去 Xh 外 的 任一 顶点 Xi , 均 有 f ( Xr ) ＞ f ( Xi ) , 则 执行 收缩 操作 , 得到 Xs : Xs ［ k ］ = Xc ［ k ］ + b * ( Xh ［ k ］ - Xc ［ k ］ ) , 其中 0 ＜ b ＜ 1 为 收缩 系数 ; 
+ 　 　 ( 5 ) 若 f ( Xr ) ＞ f ( Xh ) , 则 使 所有 点 向 最小 点 靠近 , 即令 Xi ［ k ］ = Xl ［ k ］ + 0.5 * ( Xi ［ k ］ - Xl ［ k ］ ) , 其中 Xi ［ k ］ 为 第 i 个 顶点 的 第 k 个 分量 ; 
+ 　 　 ( 6 ) 令 Xr , Xe 和 Xs 中 最好 的 点 代替 Xh . 
+ 1.5 终止 准则 
+ 　 　 算法 运行 停止 的 条件 包括 以下 的 一种 或 它们 的 结合 形式 : 
+ 　 　 ( 1 ) 算法 收敛 到 一个 不动点 或 连续 几次 迭代 所 获得 的 改变 量 小于 要求 的 精度 值 ; 
+ 　 　 ( 2 ) 达到 算法 规定 的 最大 迭代 次数 、 或 最大 执行 时间 、 或 函数 的 最大 调用 次数 （ 对解 空间 的 最大 采样 次数 ） . 我们 用 最大 采样 次数 和 最大 迭代 次数 来 控制算法 的 终止 . 
+ 1.6 算法 描述 
+ 　 　 H - GA 算法 的 主要 步骤 为 : 
+ 　 　 ( 1 ) （ 初始化 ） 随机 产生 一个 分布 均匀 的 初始 群体 （ 包含 N 个 初始 解 ） ; 
+ 　 　 ( 2 ) （ 交配 ） 按 两 两 配对 的 原则 将 群体 中 的 个体 配对 并 执行 第 1.2 节 的 正交 交叉 操作 ; 
+ 　 　 ( 3 ) （ 变异 ） 群体 中 每个 个体 以 Pm 的 概率 进行 变异 ; 
+ 　 　 ( 4 ) （ 局部 搜索 ） 采用 可变 多面体 法 反复 进行 局部 寻优 操作 , 循环 次数 由 参数 Lh 控制 ; 
+ 　 　 ( 5 ) （ 终止 ） 若 终止 条件 满足 , 则 算法 中止 , 否则 转向 步骤 ( 2 ) . 
+ 2 实验 结果 
+ 2.1 性能 比较 参数 
+ 　 　 衡量 一个 算法 的 性能 的 参数 包括 : 
+ 　 　 ( 1 ) 最终 解 的 优劣 度 或 精确度 . 最终 解 的 优劣 度 通过 误差值 来 度量 . 误差值 定义 为 ［ 2 ］ : 
+ 
+ 其中 Xi 为 算法 最终 解 的 第 i 个 分量 , X * i 为 实际 的 全局 最优 解 的 第 i 个 分量 , wi 为 第 i 个 分量 的 权值 , 它 反映 了 第 i 个 分量 的 取值 范围 大小 . 
+ 　 　 ( 2 ) 获得 最优 解 的 概率 . 可以 用 算法 多次 运行 中 成功 得到 最优 解 的 次数 来 作为 其 估计值 . 当 群体 中 最好 的 解 达到 一定 精度 时 , 认为 算法 得到 最优 解 . 
+ 　 　 ( 3 ) 计算 时间 . 在 保证 解 的 一定 精确度 的 条件 下 , 计算 时间 越 少 , 采样 点 越少 , 算法 的 性能 越好 . 我们 采用 函数 被 调用 的 次数 （ 采样 次数 ） 和 实际 的 运行 时间 来 评价 . 
+ 2.2 性能 比较 
+ 　 　 我们 用 实验 的 方法 来 比较 正交 遗传算法 （ OGA ） 和 H - GA 算法 的 性能 . OGA 算法 采用 与 H - GA 算法 相同 的 交叉 和 变异 操作 . 在 实验 中 , 我们 选择 了 两个 不同 性质 的 函数 : 
+ 　 　 ( 1 ) , - 5 ≤ Xi ≤ 5 , i = 1 , 2 , ... , n . 这个 函数 在 全局 最小值 周围 有 大量 的 局部 极小值 . 全局 最小值 点为 （ 0 , 0 , ... , 0 ） , 相应 最小值 为 - 4n . 
+ 　 　 ( 2 ) 一般 Rosenbrock 函数 : 
+ f ( X ) = ( 100 * ( Xi + 1 - X2i ) 2 + ( 1 - Xi ) 2 ) , - 5 ≤ Xi ≤ 5 , i = 1 , 2 , ... , n 
+ 函数 的 全局 最小值 点为 （ 1 , 1 , ... , 1 ） , 相应 最小值 为 0 . 文献 ［ 10 ］ 中 采用 传统 GA 求解 了 n = 2 时 的 问题 . 在 Rosenbrock 函数 曲面 山谷 中 的 点 的 最速 下降 方向 几乎 与 到 函数 最小值 的 最好 方向 垂直 , 因而 传统 算法 （ 如 最速 下降 法 ） 较难 求解 此 问题 . 实验 中 我们 发现 , 在 高维 情况 下 传统 GA 难以 高效 地 求解 该 问题 . 可变 多面体 法在 大部分 试验 中均 未 求得 满意 的 解 . 
+ 　 　 对 函数 ( 1 ) , 我们 在 n = 50 和 n = 100 的 情况 下 将 各个 算法 分别 运行 50 次 . 每次 运行 均 记录 下 算法 在 不同 采样 次数 时 的 状态 . 群体 大小 分别 设为 100 和 150 . 在 H - GA 算法 中 , 为 简单 起 见 , 设 每次 迭代 中 可变 多面体 法 的 循环 次数 L 为 群体 大小 . 应用 中 可 根据 函数 特性 等 调整 循环 次数 以 取得 更优 的 性能 . 每次 运行 中 , 两种 算法 均 能 较 快 地 逼近 最优 解 . 表 1 为 它们 在 不同 采样 次数 时 群体 中 最优 解 的 平均误差 和 平均 执行 时间 . 由于 取值 范围 相同 , 因而 误差值 计算 中 各 分量 的 权值 相同 （ wi ＝ 1 ） . 实验 结果 在 一台 586PC 上 得到 . 
+ 表 1 两种 算法 求解 函数 ( 1 ) 的 性能 比较 
+ 
+ 函数 计算 （ 采样 ） 次数 最终 解 的 平均误差 平均 执行 时间 （ s ） 
+ ( * 105 次 ) OGAH - GAOGAH - GA 
+ 1 ( n = 50 ) 0.0281660 . 00172714.26340218 . 444399 
+ 2 ( n = 50 ) 0.0023440 . 00129028.35740235 . 957402 
+ 2 ( n = 100 ) 0.1201880 . 00412056.65820394 . 781807 
+ 4 ( n = 100 ) 0.0108330 . 002789112.587607168 . 967187 
+ 
+ 
+ 　 　 实验 表明 , 对 多峰 性质 的 函数 ( 1 ) , 在 相同 采样 次数 下 , H - GA 算法 能 更 快 地 逼进 最优 解 , 但 所 需 计算 时间 稍 多 . H - GA 算法 的 性能 稍 好 于 OGA 算法 . 
+ 　 　 对 函数 ( 2 ) , n 分别 取 10 和 30 . 将 这 两种 情况 下 的 群体 大小 分别 设为 30 和 90 . 实验 表明 , 在 规定 的 采样 次数 内 , OGA 算法 几乎 不能 收敛 到 最优 解 （ 表 2 ） . 在 50 次 运行 中 , H - GA 算法 的 最终 解与 最优 解 的 函数 值之差 小于 10 的 次数 分别 达到 43 和 44 次 . 
+ 表 2 两种 算法 求解 函数 ( 2 ) 的 性能 比较 
+ 采样 次数 最终 解 的 平均误差 平均 执行 时间 （ s ） 最好 情况 的 函数 值 最坏 情况 的 函数 值 
+ ( * 105 次 ) OGAH - GAOGAH - GAOGAH - GAOGAH - GA 
+ 1 ( n = 10 ) 2.293560 . 287491.259401 . 629800.250710 . 000009.329173 . 98723 
+ 2 ( n = 10 ) 1.974560 . 283222.522203 . 202200.158370 . 000008.550583 . 98720 
+ 3 ( n = 30 ) 5.125953 . 738009.8472016 . 494619.35919 . 6981228.165717 . 2935 
+ 6 ( n = 30 ) 5.056492 . 4649219.686633 . 307418.78840 . 9410927.68678 . 95050 
+ 10 ( n = 30 ) 4.986160 . 2873832.805254 . 444218.13990 . 0000127.10213 . 98885 
+ 
+ 　 　 由表中 的 结果 可 得 , 对 函数 性质 较为 复杂 的 函数 ( 2 ) , 在 相同 的 采样 次数 下 , OGA 算法 除了 计算 时间 优于 H - GA 算法 外 , 几乎 难于 求得 最优 解 . H - GA 算法 能 更 有效 地 求解 该类 函数 优化 问题 . 
+ 3 总结 
+ 　 　 本文 给出 了 一种 求解 非线性 全局 最优化 问题 的 混合 遗传算法 , 它 将 传统 寻优 方法 — — 可变 多面体 法 与 正交 交叉 算子 结合 起来 , 既 可 利用 遗传算法 的 全局 搜索 能力 , 又 能 通过 局部 搜索 加快 算法 的 收敛 . 由于 采用 近邻 配对 原则 和 局部 选择 机制 , 此 算法 具有 良好 的 并行性 . 我们 还 成功 地 将 进化 策略 中 的 高斯 变异 算子 结合 到 算法 中 . 实验 表明 , 本文 提出 的 混合 遗传算法 能 有效 地 处理 一些 传统 遗传算法 和 寻优 方法 较难 处理 的 函数 优化 问题 . 
+ 对于 不同 性质 的 问题 和 在 算法 执行 的 不同 时机 , 混合 遗传算法 中 各 部分 操作 所起 的 作用 是 不同 的 . 恰当 地 控制 各 部分 操作 的 执行 时机 是 需 进一步 研究 的 工作 . 
+ 致谢 本文 的 研究 得到 了 荔建琦 博士 不少 很 好 的 建议 , 在 此 特表 谢意 . 
+ 本文 通讯联系 人 : 彭伟 , 长沙 410073 , 长沙 工学院 计算机系 
+ 作者简介 ： 彭伟 , 1973 年 , 博士生 , 主要 研究 领域 为 智能 计算 , 先进 网络 技术 . 
+ 卢锡城 , 1946 年生 , 教授 , 博士生 导师 , 主要 研究 领域 为 并行 与 分布 处理 , 先进 网络 技术 . 
+ 作者 单位 ： 长沙 工学院 计算机系 长沙 410073 
+ E - mail : wpeng @ csit . edu . cn 
+ 参考文献 
+ 　 1GoldbergDE . GeneticAlgorithmsinSearch , OptimizationandMachineLearning . Reading , MA : Addison - Wesley , 1989 
+ 　 2RendersJ - M , FlasseSP . Hybridmethodsusinggeneticalgorithmsforglobaloptimization . IEEETransactionsonSystems , Man , andCybernetics ( PartB ) , 1996 , 26 ( 2 ) : 243 ～ 258 
+ 　 3WrightAH . Geneticalgorithmforrealparameteroptimization . In : RawlinsGed . FoundationsofGeneticAlgorithms . SanFrancisco : MorganKaufmann , 1991.205 ～ 218 
+ 　 4EshelmanLJ , SchafferJD . Real - codedGeneticalgorithmsandinterval - schemata . In : WhitleyLDed . FoundationsofGeneticAlgorithms2 . SanFrancisco : MorganKaufmann , 1993 
+ 　 5 张青富 , 彭伟 , 吴少岩 等 . 遗传算法 ＋ 正交 设计 : 一种 新 的 全局 优化 算法 . 见 : 李乃奎 , 石 纯一 , 王 树林 主编 . 第 4 届 中国 人工智能 联合 学术会议 论文集 . 北京 : 清华大学出版社 , 1996.127 ～ 133 
+ ( ZhangQing - fu , PengWei , WuShao - yanetal . Geneticalgorithm + orthogonaldesignmethod : anewglobaloptimizationalgorithm . In : LiNai - kuietaleds . Proceedingsofthe4thChineseJointConferenceonArtificialIntelligence . Beijing : QinghuaPress , 1996.127 ～ 133 ) 
+ 　 6WuShao - yan , ZhangQing - fu , ChenHuo - wang . Anewevolutionarymodelbasedonfamilyeugenics : thefirstresults . In : Proceedingsof1996IEEEInternationalConferenceonEvolutionaryComputation ( ICEC ' 96 ) . Nagoya , Japan , May1996.350 ～ 355 
+ 　 7FogelDB . Anintroductiontosimulatedevolutionaryoptimization . IEEETransactionsonNeuralNetworks , 1994 , 5 ( 1 ) : 3 ～ 14 
+ 　 8YangJM , KaoCY . Acombinedevolutionaryalgorithmforrealparametersoptimization . In : Proceedingsof1996IEEEInternationalConferenceonEvolutionaryComputation ( ICEC ' 96 ) . Nagoya , Japan , May1996.732 ～ 737 
+ 　 9 王永县 （ 编 ） . 运筹学 — — 规划 论及 网络 . 北京 : 清华大学出版社 , 1993 
+ ( WangYong - xian . OperationalResearch — — ProgrammingandNetworking . Beijing : QinghuaPress , 1993 ) 
+ 　 　 10 梁艳春 , 周 春光 , 李寿范 . 基于 遗传算法 的 Rosenbrock 函数 优化 问题 的 研究 . 软件 学报 , 1997 , 8 ( 9 ) : 701 ～ 708 
+ ( LianYan - chun , ZhouChun - guang , LiShou - fan . Geneticalgorithm - basedresearchonoptimizationofRosenbrockfunction . JournalofSoftware , 1997 , 8 ( 9 ) : 701 ～ 708 ) 
+ 本文 1997 - 12 - 08 收到 原稿 , 1998 - 09 - 10 收到 修改稿 

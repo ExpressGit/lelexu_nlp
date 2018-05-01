@@ -1,0 +1,29 @@
+上海 航天 
+ AEROSPACESHANGHAI 
+ 2001Vol.18 No.1 P.44 - 49 
+ 
+ 
+ 
+ 
+ 中 分辨率 微波 扫描 辐射仪 
+ 李 开明 　 
+ 摘 　 要 ： 仪器 实施 的 方案 为 固定 视角 圆锥 扫描 双 参考 温度 外部 两点 式 周期 定标 全 功率 型 。 论述 了 它 的 工作 原理 、 视向 与 扫描 方式 、 频段 选择 和 总体 构形 。 同时 对 天馈 技术 、 微波 接收机 、 定标 技术 、 数据 采集 与 处理 、 驱动 与 传输 、 电源 、 热控制 等 技术 进行 了 分析 。 
+ 关键词 ： 微波 扫描 辐射仪 ； 天馈 ； 接收机 数据处理 ； 扫描 驱动 ； 定标 
+ 分类号 ： TP732.1 　 文献 标识码 ： A 
+ 文章 编号 ： 1006 － 1630 （ 2001 ） 01 － 0044 － 06 
+ Mid - ResolutionMicrowaveScanningRadiometer 
+ LIKai - ming （ No.813 InstituteofSAST , Shanghai200086 , China ） 　 
+ 
+ Abstract ： Themid - resolutionmicrowavescanningradiometerisaconicalscanningtotalpowerradiometerwithafixedvisualangleanddouble - referencetemperature . Theoperationalconcept , sightingdirectionandscanningway , bandselectionandsystemstructurearedescribed . Thespacefeedtechnique , microwavereceiver , calibrationtechnique , datacollection & processing , driving & transmission , powersourceandheatcontrolarealsoanalyzed . 
+ Keywords ： Microwavescanningradiometer ; Spacefeed ; Dataprocessingofreceiver ; Scanningdriving ; Calibration 
+ 
+ 作者简介 ： 李 开明 （ 1940 - ） ， 男 ， 高级 工程师 ， 研究 领域 ： 微波遥感 仪器 。 
+ 作者 单位 ： 李 开明 （ 上海 航天技术 研究院 813 所 ， 上海 200086 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ 林溪波 . 航天 微波 辐射计 的 设计 原理 [ J ] . 上海 航天 , 1990 , ( 1 ) ： 27 . 
+ ［ 2 ］ 吕颖 . 星载 微波 辐射 周期 定标 技术 的 研究 [ D ] . 华中理工大学 , 1997 . 文章 编号 ： 1006 － 1630 （ 2001 ） 01 － 0050 － 05 
+ 
+ 收稿 日期 ： 1999 年 10 月 18 日 
+ 修稿 日期 ： 2000 年 8 月 31 日 
+ 出版日期 ： 2001 年 2 月 25 日 

@@ -1,0 +1,125 @@
+环境 科学 学报 
+ ACTA 　 SCIENTIAE 　 CIRCUMSTANTIAE 
+ 1998 年 1 月 第 18 卷 第 1 期 科技期刊 
+ 湖泊 水体 中 硫酸盐 增高 的 环境效应 研究 * 
+ 吴丰昌 　 万国 江 　 黄荣贵 　 蔡玉蓉 
+ ( 中国科学院 地球化学 研究所 环境 地球化学 国家 重点 实验室 ， 贵阳 　 550002 ) 
+ 
+ 摘要 　 通过 对 高原 3 个 硫酸盐 浓度 差异 的 湖泊 沉积物 - 水 界面 硫 的 形态 分布 、 扩散 通量 和 碎屑 有机 硫 通量 等 估算 ， 揭示 了 湖泊 水体 硫酸盐 增加 以后 的 环境效应 和 自然 反馈 机制 . 研究 认为 ： 水体 向 沉积物 内部 扩散 和 界面 硫酸盐 还原作用 是 高 硫酸盐 浓度 水体 硫酸盐 的 主要 清除 作用 ， 随 硫酸盐 浓度 的 增加 ， 它 在 水体 清除 硫酸盐 作用 的 贡献 逐渐 增大 ， 而 低 硫酸盐 含量 湖泊 水体 生物 同化 吸收 作用 是 水体 硫酸盐 的 主要 清除 机制 ， 它 在 硫酸盐 浓度 不同 的 水体 没有 差异 . 
+ 关键词 　 硫酸盐 ； 环境效应 ； 硫酸盐 还原作用 ； 高原 湖泊 . 
+ ENVIRONMENTALIMPACTOFSULFATECONCENTRATIONINCREASINGOFLAKES 
+ 
+ WuFengchang , WanGuojiang , HuangRonggui , CaiYurong 
+ ( StateKeyLaboratoryofEnvironmentalGeochemistry , InstituteofGeochemistry , ChineseacademyofSciences , Guiyang550002 ) 
+ ABSTRACT 　 Threelakes ( LakeAha , LakeErhaiandLakeBaihua ) fromYunnan - GuizhouPlateauwithobviouslydifferentsulfateconcentrationwerechosenforthisstudy . Throughquantitativelyevaluationoftwomainsulfatescavengingrate : scavengingrateofsulfatereduction , andphytoplanktonassimilationrate , andtheircontributiontosulfatescavengingprocess , eco - environmentalimpactsresultedfromsulfateconcentrationincreasinginaquaticenvironmentwerediscussed . Theresultsshowedthatdownwarddiffusionfromoverlyingwaterstosedimentsandreductionneartheinterfacearekeysulfatescavengingmechanisminlakeswherethereishighsulfateconcentration ; biologicalassimilationprocessisdominantsulfatesca - vengingmechanisminsuchlakesatlowsulfateconcentration . Thefirstmechanismcanonlyscavenge0.4 — 8.4% ofthetotalsulfateinlakes . Inaddition , itcanalsoproduce ( 0.3 — 23.0 ) × 10 - 2mmol ( cm - 2 * a - 1 ) alkalinityfluxwhichcancontradictacidityofnaturalenvironment . Thesecondscavengingmechanismcangenerallyscavenge3% — 4% oftotalsulfateinlakeanditisstableinlakeswithvariousconcentrationsofsulfate . 
+ Keywords 　 sulfate , environmentalimpact , sulfatereduction , plateaulakes . 
+ 
+ 　 　 近十年 以来 ， 人为 硫 污染 已 成为 世界 十分 关注 的 环境 问题 ， 它 主要 来源于 工业 活动 引起 的 酸 沉降 及 大量 煤矿 和 各种 金属矿床 开采 、 矿渣 的 堆放 过程 中 形成 的 高浓度 的 酸性 废水 . 它们 已 造成 全球 水体 不同 程度 的 酸化 和 SO2 - 4 浓度 的 增高 ［ 1 ， 2 ］ . 湖泊 是 与 人民 生活 密切相关 的 表面 水体 ， 具 养殖 、 城市 生活 供水 和 旅游 等 重要 功能 . 目前 表面 水体 酸化 和 硫酸盐 浓度 增加 的 现象 在 湖泊 尤为 明显 ， 已 严重 影响 了 初级 生产力 和 水体 质量 . 针对 上述情况 ， 国际 上 开展 了 大量 关于 硫 的 生物 地球化学 循环 研究 ， 并 对 硫酸盐 还原 速率 、 机理 、 早期 成岩 作用 及 硫 与 铁 的 化学 转化 等 进行 了 大量 研究 ［ 2 — 7 ］ ， 但 在 自然 水 环境 对 硫酸盐 浓度 增大 以后 的 环境效应 ， 特别 在 如何 定量 估计 等 方面 研究 较少 . 而 这个 问题 对 认识 水体 演化 、 预测 和 治理 等 具 十分 重要 的 价值 . 
+ 　 　 本文 目的 主要 是 通过 对 高原 三个 SO2 - 4 浓度 差异 的 湖泊 沉积物 - 水 界面 硫 的 形态 分布 ， 硫酸盐 的 自然 清除 速率 和 通量 等 的 定量 估算 ， 了解 水体 中 SO2 - 4 增高 的 自然 清除 和 反馈 机制 ， 以及 水体 和 沉积物 对 水体 SO2 - 4 增高 的 环境效应 ， 以便 为 水体 治理 和 预测 提供 科学依据 . 
+ 
+ 1 　 样品 采集 ， 实验 和 分析方法 
+ 　 　 沉积物 柱芯用 自制 的 沉积物 - 水 界面 采样 装置 ［ 8 ］ 采集 ， 采样 过程 中 沉积物 表层 和 界面 水 样品 未受 扰动 . 湖水 和 界面 水 分别 按 5m 和 2 — 5cm 间隔 采样 ， 各柱 芯覆水 深度 见表 1 . 阿哈 湖 、 百花 湖 和 洱海 的 采样 时间 分别 为 1992 年 11 月 、 1994 年 10 月 和 1994 年 7 月 . 
+ 　 　 沉积物 柱 芯 在 野外 现场 按 0.5 — 1.0 cm 间隔 分截 ， 经 高速 离心 后 的 上层 清液 用 0.45 μ m 微孔 滤膜 过滤 获得 孔隙 水 ， 沉积物 经 真空 冷冻干燥 ， 碾磨 成粉 并 混合 均匀 ， 供 分析 之用 . 湖水 和 界面 水及 孔隙 水中 SO2 - 4 浓度 用 离子 色谱 直接 测定 ， HCO - 3 用 化学 容量 法分析 . 沉积物 中 C 、 N 、 H 和 S 用 元素 分析仪 直接 测得 . 
+ 
+ 2 　 结果 
+ 　 　 自然 水 环境 消除 SO2 - 4 主要 有 两种 作用 : ( 1 ) 生物 同化 吸收 作用 ， 将 硫酸盐 还原成 有机 硫 化合物 ， 沉降 和 埋藏 下来 ( Rudd 等 ， 1990 ) ； ( 2 ) 由于 硫酸盐 还原作用 ， SO2 - 4 不断 被 还原 ， 并 形成 各种 还原 态硫 和 有机 硫 沉积 下来 . 
+ 2.1 　 界面 硫酸盐 还原作用 对 水体 硫酸盐 的 消除 作用 和 效率 
+ 
+ 
+ 图 1 　 高源 湖泊 水体 和 沉积物 孔隙 水中 SO2 - 4 浓度 垂直 剖面 
+ ( a ) : 1 为 AH9201 , 2 为 AH9202 ， 3 为 AH9206 ， 4 为 AH9209 
+ ( b ) : 1 为 BH9402 - 3 ， 2 为 BH9402 - 1 ， 3 为 BH9401 - 1 
+ ( c ) ： 为 EH9402 - 2 
+ Fig.1 profilesofwatercolumnandsedimentporewaterfromplateaulakes 
+ 
+ 图 1 为 阿哈 湖 ( a ) 、 洱海 ( b ) 和 百花 湖 ( c ) 沉积物 孔隙 水和上 覆 水体 中 SO2 - 4 浓度 剖面 分布 ， 从图 可以 看出 ， 尽管 各湖泊 水体 SO2 - 4 浓度 差别 很大 ， 在 沉积物 - 水 界面 附近 ， SO2 - 4 浓度 都 显著 降低 ， 反映 了 在 沉积物 和 水 界面 存在 着 明显 的 硫酸盐 还原作用 ， 这 与 海洋 和 其他 湖泊 的 结果 是 一致 的 ［ 2 ， 4 ， 6 ］ . 这种 作用 将 硫酸盐 还原成 还原 态硫 沉积 下来 ［ 2 ， 8 ， 10 ］ . 
+ 　 　 从图 还 可 看出 ： 硫酸盐 还原 渗透深度 主要 集中 在 表层 沉积物 5cm 之内 ， 此 深度 以下 孔隙 水中 的 硫酸盐 几乎 被 耗尽 ， 此时 发生 的 硫酸盐 还原作用 将 受到 其 浓度 的 制约 . 因此 ， 我们 认为 ， 湖泊 水 环境 中 硫酸盐 还原作用 主要 发生 在 沉积物 和 水 界面 几 cm 以内 . 这种 作用 对 整个 水体 硫酸盐 的 清除 作用 可用 界面 附近 因 硫酸盐 浓度梯度 而 引起 扩散 的 通量 来 估算 . 水体 硫酸盐 向 沉积物 内部 扩散 是 在 硫酸盐 还原 细菌 参与 下 的 硫酸盐 还原作用 和 还原性 硫 氧化作用 共同 作用 的 结果 ， 这种 通量 方法 虽 不能 判别 水体 中 硫酸盐 进入 沉积物 的 方式 ， 但 却 表示 了 沉积物 对 硫酸盐 的 清除 作用 ［ 10 ］ . 
+ 　 　 假设 剖面 代表 稳态 条件 ， 运用 Fick 第一 定律 计算 扩散 通量 的 公式 为 ： 
+ J = Φ DdC / dx ( 1 ) 
+ 这里 ： J 为 扩散 通量 ， Φ 为 孔隙 度 ， D 为 扩散系数 ， dC / dx 为 浓度梯度 ， 其中 扩散系数 D 可用 温度 和 孔隙 度 进行 较 正 ， D = D0 Φ 2 ， D 和 D0 分别 为 实际 和 理想 状态 下 SO2 - 4 的 分子 扩散系数 . 阿哈 湖 、 洱海 和 百花 湖 沉积物 - 水 界面 处 ， 温度 近似 为 18 ℃ ， 据 Li ( 1974 ) ［ 11 ］ 的 研究 可知 SO2 - 4 的 标准 扩散系数 D0 ( 18 ℃ ) 为 8.9 × 10 - 6 ( cm - 2 * s - 1 ) . 由于 SO2 - 4 浓度 的 降低 主要 集中 在 界面 水体 10cm 和 沉积物 表层 5cm 之内 ， SO2 - 4 的 dC / dx 用下式 求得 ： 
+ dC / dx = 1 / n ∑ ( dCi / dxi ) ( 2 ) 
+ 其中 ， n 为 界面 15cm 内 的 间隔 采样 次数 ， dCi / dxi 为 第 i ( 0 — n ) 次 采样 上下 间隔 SO2 - 4 的 浓度梯度 . 根据 以上 ( 1 ) 和 ( 2 ) 式 ， 可以 计算 阿哈 湖 、 洱海 和 百花 湖 沉积物 和 水 界面 SO2 - 4 的 浓度梯度 和 扩散 通量 ( 表 1 ) . 从表 1 可以 看出 ， 从 洱海 、 百花 湖到 阿哈 湖 湖水 中 SO2 - 4 浓度 依次 增大 ， 其 底部 沉积物 对 SO2 - 4 的 吸收 速率 也 随之 增大 ， 说明 沉积物 对 SO2 - 4 的 吸收 速率 与 湖水 中 的 SO2 - 4 的 浓度 有关 ， 反映 了 湖水 SO2 - 4 浓度 制约 着 扩散 物理 过程 ［ 12 ， 13 ］ ， 进而 影响 着 硫酸盐 还原作用 ； 低 SO2 - 4 浓度 湖泊 也 存在 着 自上 覆 水体 向 沉积物 内部 扩散作用 . 
+ 　 　 运用 扩散 通量 就 可以 直接 估算 沉积物 对 水体 硫酸盐 的 清除 效率 η ， 我们 用 扩散 进入 沉积物 内部 的 通量 所 对应 的 SO2 - 4 在 整个 湖泊 水体 中 的 浓度 ( Cout ) 与 SO2 - 4 在 湖泊 水体 的 浓度 ( C ) 之比来 表示 . 
+ η = Cout / C ( 3 ) 
+ 并 可知 ［ 17 ］ ： 
+ Cout = JTw / h 
+ η = JTw / hC ( 4 ) 
+ 这里 ， J 为 SO2 - 4 扩散 通量 ， Tw 为 湖水 寄宿 时间 ， h 为 湖泊 平均 有效 深度 ， 根据 ( 4 ) 式 ， 沉积物 对 SO2 - 4 的 清除 效率 ( η ) 与 SO2 - 4 扩散 通量 ( J ) 和 湖水 寄宿 时间 ( Tw ) 成正比 ， 与 湖水 深度 ( h ) 和 湖水 本身 SO2 - 4 浓度 成反比 . 表 1 为 阿哈 湖 、 洱海 和 百花 湖 各湖泊 沉积物 对 上 覆 水体 SO2 - 4 的 清除 效率 ， 从表 可 看出 ， 百花 湖 和 阿哈 湖 沉积物 对 SO2 - 4 的 清除 效率 很 低 ， 分别 在 0.40% — 0.65% 和 0.086% — 0.11% 之间 ， 洱海 沉积物 对 SO2 - 4 的 清除 效率 较 高 ， 在 8.42% . 
+ 
+ 表 1 　 各湖泊 硫酸盐 在 界面 的 浓度梯度 和 扩散 通量 及 沉积物 对 水体 硫酸盐 的 清除 效率 η 
+ Table1Sulfateconcentrationgradientanddiffusionfluxneartheinterfaceandefficient 
+ rateofsulfatescavengingbysedimentfromwaters 
+ 湖泊 柱 芯 浓度梯度 扩散 通量 ， 深度 湖水 寄宿 
+ 湖水 硫酸盐 扩散 对 上 覆水 
+ 体 的 贡献 η , % 
+ 　 103mg . cm4mg . ( cm - 2 . a - 1 ) m 时间 , a 浓度 , mg / L 　 
+ 阿哈 湖 AH920134.57 . 04170.44196 . 880.93 
+ AH920223.94 . 8819 　 　 0.57 
+ AH920633.86 . 9019 　 　 0.81 
+ AH920929.86 . 0820 　 　 0.68 
+ 百花 湖 BH9402 - 34.891 . 00150.1697 . 40.11 
+ BH9402 - 13.840 . 78 　 　 　 0.09 
+ BH9401 - 14.040 . 82 　 　 0.09 
+ 洱海 EH9402 - 20.680 . 14122.83 . 848.42 
+ 
+ 2.2 　 有机 碎屑 硫 的 沉积 速率 
+ 　 　 水体 碎屑 硫 的 沉积 通量 目前 难以 直接 测定 ， 根据 湖泊 滞 水层 悬浮物 捕获 器 可以 估计 湖泊 输入 底部 的 碎屑 硫 通量 ［ 3 ］ ， 然而 不 清楚 表面 浮游 有机质 和 沉积 微粒 的 关系 . Jorgensen ( 1977 ) 测得 Limifjiorden 海岸 有机 碎屑 中 最 多 只有 1% 的 硫 沉降 到 底部 沉积物 ， 本文 假设 高原 湖泊 碎屑 输入 中 有机质 的 1% 为 有机 碎屑 硫 沉积 ， 它 基本上 代表 湖泊 浮游生物 同化 吸收 水体 硫酸盐 的 通量 即 有机 碎屑 硫 的 沉积 速率 . 根据 Martens 等 ( 1984 ) ［ 15 ］ ， 运用 各湖泊 表面 1cm 沉积物 中 的 有机 碳 含量 ， 可以 计算 出 表层 有机 碎屑 硫 的 含量 ； 再 根据 各湖泊 年 沉积 速率 ， 就 可以 求得 碎屑 硫 沉积 速率 ( 表 2 ) . 
+ 　 　 SO2 - 4 可以 通过 湖水 生物 如 藻类 同化作用 而 沉降 到 沉积物 中 ， 表层 几 cm 的 沉积物 还 可 通过 再 悬浮 作用 和 生物 扰动 作用 ［ 16 ］ 或 与 深部 沉积物 发生 混合 作用 形成 . 已有 研究 表明 ［ 4 ， 5 ， 10 ］ ： 沉积物 - 水 界面 有 高浓度 的 还原性 硫 存在 ， 因此 即使 最 表层 总 硫含量 也 是 早期 成岩 作用 形成 的 ， 因此 不能 用 表面 硫含量 作为 沉降 的 有机 碎屑 硫 的 含量 . 
+ 表 2 　 湖泊 水体 中 硫酸盐 两种 清除 作用 的 速率 及其 贡献 
+ Talbe2Ratesoftwomainsulfatescavengingprocessesandtheircontributioninlakes 
+ 
+ 湖泊 有机 碎屑 硫 平均 沉积 速率 JsedSO2 - 4 平均 扩散 通量 Jflux 平均 总 清除 速率 
+ mg . ( cm - 2a - 1 ) 
+ 阿哈 湖 4.55 ( 42.21% ) 6.23 ( 57.80% ) 10.78 ( 100% ) 
+ 百花 湖 3.67 ( 80.80% ) 0.87 ( 19.12% ) 4.54 
+ 洱海 4.36 ( 96.89% ) 0.14 ( 3.09% ) 4.50 
+ 
+ 
+ 　 　 从表 2 可以 看出 ， 阿哈 湖 、 百花 湖 和 洱海 湖水 SO2 - 4 浓度 各有 差异 ， 但 各湖泊 的 有机 碎屑 硫 沉积 速率 基本 没有 差别 ， 表明 水体 生物 同化 吸收 作用 不随 SO2 - 4 浓度 的 增大 而 增加 . 
+ 
+ 3 　 讨论 和 结论 
+ 　 　 根据 以上 结果 可以 进行 如下 讨论 ： 
+ 　 　 ( 1 ) 沉积物 和 水 界面 附近 的 硫酸盐 还原作用 是 高浓度 硫酸盐 湖泊 硫酸盐 的 主要 清除 作用 ， 而 低 硫酸盐 含量 湖泊 水体 硫酸盐 的 清除 作用 主要 是 水体 生物 的 同化 吸收 作用 . 
+ 　 　 根据 前述 的 水体 硫酸盐 向 沉积物 扩散 的 通量 和 有机 碎屑 硫 沉积 速率 ， 可以 计算 湖泊 对 硫酸盐 的 总 清除 速率 及其 这 两种 作用 的 贡献 ( 表 2 ) . 从表 2 可以 看出 ， 随着 水体 硫酸盐 浓度 的 增大 ， 湖泊 沉积物 - 水界 面对 硫酸盐 的 清除 作用 也 随之 增大 ， 这 反映 了 湖泊 对 硫酸盐 浓度 增大 的 反馈 和 自然 调节 机制 . 但 水体 生物 同化 吸收 作用 几乎 不随 硫酸盐 浓度 的 增大 而 增大 ， 说明 这时 水体 硫酸盐 浓度 对 水体 生物 来说 已经 过剩 ［ 9 ］ . 水体 向 沉积物 内部 扩散 的 通量 则 随 硫酸盐 浓度 的 增加 而 增大 ， 在 清除 整个 湖泊 硫酸盐 所起 的 贡献 也 越 大 . 百花 湖 和 阿哈 湖 通过 向 沉积物 扩散 清除 的 通量 占 整个 湖泊 清除 通量 的 比例 达到 19.1% 和 47.8% ， 而 洱海 只有 3.09% ， 这 表明 ： 对于 硫酸盐 浓度 较 低 的 水体 ， 水体 生物 同化 吸收 作用 是 湖泊 硫酸盐 清除 作用 的 主要 途径 ； 然而 随着 硫酸盐 浓度 的 增大 ， 通过 向 沉积物 内部 扩散 和 硫酸盐 还原作用 逐渐 成为 湖泊 清除 硫酸盐 的 重要 机制 ， 这 就是 目前 研究 界面 硫 循环 的 意义 之 所在 . 
+ 　 　 ( 2 ) 硫酸盐 还原 过程 中 产生 的 碱度 是 水体 碱度 的 来源 之一 ， 湖泊 酸碱 平衡 演化 模式 有 必要 考虑 污染物 经 界面 作用 后 对 水体 本身 的 影响 . 
+ 　 　 界面 硫酸盐 还原作用 有 双重 环境效应 ： ( 1 ) SO2 - 4 因 浓度梯度 不断 向 沉积物 内部 扩散 ， 并 以 还原 态硫 和 有机 硫 形式 沉积 下来 ， 从而 清除 水体 中 的 硫酸盐 ； ( 2 ) 硫酸盐 等 作为 电子 受体 参与 有机质 分解 发生 的 还原 过程 中 形成 的 HCO - 3 等离子 可能 向上 覆 水体 扩散 ， 从而 增大 湖泊 水体 的 酸性 中 和 容量 ， 有利于 减轻 酸 沉降 本身 造成 的 酸化 效应 . 沉积物 在 硫酸盐 厌氧 还原 细菌 的 参与 下 发生 的 硫酸盐 还原作用 可用 下 式 表示 ： 
+ SO2 - 4 + 2CH2OH2S + 2HCO - 3 + 2H2O 
+ ( 5 ) 
+ 硫酸盐 向 沉积物 内部 扩散 的 通量 是 硫酸盐 还原 和 还原性 硫 氧化 速率 的 共同 结果 ， 代表 了 硫酸盐 还原 的 净 速率 ； 从 上式 可知 ， 1 摩尔 的 硫酸盐 被 还原 ， 可以 生成 2 摩尔 的 HCO - 3 ； 因此 用 界面 SO2 - 4 扩散 通量 可 直接 估算 硫酸盐 还原作用 产生 的 碱度 通量 及其 对 上 覆 水体 碱度 的 贡献 ( 表 3 ) . 
+ 表 3 　 湖泊 沉积物 - 水 界面 硫酸盐 还原作用 产生 的 碱度 通量 及其 对 上 覆 水体 碱度 的 贡献 
+ Table3Alkalinityfluxproducedbysulfatereductionneartheinterface , anditscontributiontoalkalinity 
+ ofoverlyingwaterinLakeBaihua , LakeAha , andLakeErhaichosenfromYunnan - Guizhonplatean 
+ 
+ 　 柱 芯 HCO - 3 浓度 ， 
+ mg / L 碱度 通量 ， 
+ 10 - 2mmol . ( cm - 2 . a - 1 ) 对 上 覆 水体 碱度 的 
+ 贡献 ， % 
+ 阿哈 湖 AH92015023.01 . 54 
+ 　 AH920215016.00 . 96 
+ 　 AH920515022.61 . 35 
+ 　 AH920915019.941 . 13 
+ 百花 湖 BH9402 - 31403.280 . 10 
+ 　 BH9402 - 11402.560 . 08 
+ 　 BH9401 - 11402.700 . 08 
+ 洱 　 海 EH9402 - 2147.60 . 260.28 
+ 
+ 
+ 由表 可 看出 ， 界面 硫酸盐 还原作用 的 过程 中 产生 一定 的 碱度 ， 是 水体 碱度 的 来源 之一 ， 为 水体 酸性 中 和 容量 的 组成部分 ， 暗示 了 湖泊 酸碱 平衡 演化 模式 有 必要 考虑 污染物 经 界面 作用 后 对 水体 本身 的 影响 
+ 参考文献 
+ 1 　 LahermoPM ， TarvainenT , TuovinenJP . AtmosphericsulfurdepositionandstreamwaterqualityinFinland . EnvironmenatlGeology , 1994 , 24 : 90 — 99 
+ 2BakerLA . RecentenrichmentinthesedimentsofLittleRockLake , Wisconsin . LimnolOceanogr . , 1992 , 37 ( 4 ) : 689 — 702 
+ 3ChantonJP ， MartensCS , PaullCKetal . SulfurisotopeandporewatergeochemistryofFloridaescarpmentseepsediments . GeochimicaetCosmochicaActa , 1992 , 57 : 1253 — 1266 
+ 4GoldhaberMB , GordonAG . MechanismsofsulfurincooperationandisotopefractionationduringearlydiagenesisinsedimentsoftheGulfofCaliformia . Mar . Chem . , 1980 , 9 : 95 — 148 
+ 5LordCJ Ⅲ , ChurchTM . ThegeochemistryofsaltMarshes ; Sedimentarydiffusion , sulfatereduction , andpyritization . GeochimicaetcosmochicaActa , 1983 , 47 : 1381 — 1891 
+ 6UrbanNR ， BrezonikPL , BakerLAetal . SulfatereductionanddiffusioninsedimentsofLittleRockLake , Wisconsin . LimnolOceanogr , 1994 , 39 ( 4 ) : 797 — 948 
+ 7WalshRS , LutherGA . Thebiogeochemistryofhydrogensulfide : Pytoplanktonproductioninthesurfaceocean . LimnolOceanogr , 39 ( 4 ) : 941 — 948 
+ 8 　 袁 自强 ， 吴德殊 ， 黄荣贵 等 . 湖泊 沉积物 水 界面 系列 采样 装置 的 研究 . 环境 科学 ， 1993 ， 14 ( 1 ) ： 70 — 73 
+ 9RuddJWM , KellyCA , SchinderDW . Acomparisonoftheacidificationefficienciesofnitricandsulfuricacidsbytwowholelakeadditionexpernment . LimnolOceanogr , 1990 , 35 ( 3 ) : 663 — 679 
+ 10 吴丰昌 . 云贵高原 湖泊 沉积物 和 水体 氮 、 磷 和 硫 的 生物 地球化学 作用 和 环境效应 ［ 博士论文 ］ . 中国科学院 地球化学 所 ， 1995 
+ 11 　 LiYH , GregoryS . Diffusionofionsinseawaterandindeep - seasediments . GeochimicaetCosmochicaActa , 1974 , 38 : 703 — 714 
+ 12KellyCA , RuddJWMetal . Predictionofbiologicalacidneutralizationinacid - sensitivelakes . Biogeochem , 1987 , 3 : 129 — 136 
+ 13CookRB , KellyCA , KingstonJCetal . ChemicallimnologyofsoftlakesintheUpperMidwest . Biogeochem , 1987 , 4 : 97 — 117 
+ 14JorgensenBB . Thesulfurcycleofacoastalmarinesediments . LimnolOceanogr , 1977 , 5 : 814 — 832 
+ 15MartensCS , KlumpJVetal . Biogeochemicalcyclinginanorganic - richcoastalmarinebasin , 4 . Anorganiccarbonbudgetforsedimentdominatedbysulfatereductionandmethanogensis . GeochimicaetCosmochicaActa , 1984 , 48 : 1987 — 2004 
+ 16BartletteK . MacrofaunaDistributionandSeasonalInfluencesonInterstitialWaterChemistryofCapeLookoutBight , N . N . C . M . S . Thesis , UniversityofNorthCarolinaatChapeiHill , 1981 
+ 17 　 吴丰昌 ， 万国 江 . 泸沽湖 沉积物 - 水 界面 扩散作用 对 上 覆 水体 基本 化学 组成 的 影响 . 环境 科学 ， 1996 ， 17 ( 2 ) ： 10 — 12 

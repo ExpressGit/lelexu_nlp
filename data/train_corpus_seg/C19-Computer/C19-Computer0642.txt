@@ -1,0 +1,109 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 1 期 Vol.24 No.11998 
+ 
+ 
+ 
+ 线性 滞后 互联 大 系统 的 分散 智能 镇定 
+ 张 　 剑 　 刘永清 　 沈建京 
+ 摘 　 要 　 讨论 了 线性 滞后 互联 大 系统 的 分散 镇定 问题 ， 给出 了 分散 镇定 控制器 设计 的 思想 和 方法 ， 而后 将 人工神经网络 技术 引入 该 研究 领域 ， 给出 了 一般 线性 定常 系统 闭环 极点 配置 的 智能 方法 ， 同时 实现 了 线性 滞后 互联 大 系统 分散 镇定 控制器 的 智能 设计 . 最后 给出 了 一 数值 仿真 例 了 ， 进而 验证 了 该 设计 方法 的 可行性 及 有效性 . 
+ 关键词 　 大 系统 ， 时滞 ， 稳定性 ， 分散 镇定 ， 神经网络 . 
+ INTELLIGENTDECENTRALIZEDSTABILIZATIONFORLARGE 
+ SCALEINTERCONNECTEDSYSTEMSWITHTIMEDELAYS 
+ ZHANGJIAN 
+ ( ExchangeTechniquesResearchDivision , CommunicationCollegeofGuangzhou , Guangzhou510502 ) 
+ 
+ LIUYONGQING 　 　 SHENJIANJING 
+ ( DepartmentofAutomation , SouthChinaUniversityofTechnology , Guangzhou510641 ) 
+ Abstract 　 Inthispaper , theproblemofdecentralizedstabilizationforlineartime - inveriantlargescaleinterconnectedsystemswithtimedelaysisdiscussed . Theideaandformulasofdesigningdecentralizedstabilizationcontrollersaregiven . Thetechniqueofartificialneuralnetwork ( ANN ) isfirstlyintroducedintothisresearcharea . Anintelligentmethodofpoleassignmentforlineartime - invariantclosed - loopsystemsispresented . Thedesignofdecentralizedstabilizationcontrollersforlineartime - invariantlargescaleinterconnectedsystemswithtimedelaysareintelligentlyimplemented . Asimulativeexampleshowsthefeasibilityandeffectivenessofthemethod . 
+ Keywords 　 Largescalesystem , timedelay , stability , decentralizedstabilization , neuralnetwork . 
+ 1 　 分散 镇定 的 理论 方法 
+ 　 　 考虑 由 m 个 相互 关联 的 子系统 组成 的 具有 输入 分散 形式 的 滞后 大 系统 
+ 　 　 　 　 　 ( 1 ) 
+ 其中 　 xi ∈ Rni , ui ∈ Rri 分别 为 子系统 的 状态 向量 和 控制 向量 ； Ai , Bi , Aij , Gij 是 适当 维数 的 常量 矩阵 ； 为 标量 滞后 ； 假设 ( Ai , Bi ) , ( i = 1 , 2 , … , m ) 是 完全 可控 的 ， 并 希望 能 用 一个 多级 控制 
+ ui ( t ) = uli ( t ) + ugi ( t ) + udi ( t ) 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 使 闭环 大 系统 渐近 稳定 . 其中 uli ( t ) , ugi ( t ) 和 udi ( t ) 分别 为 第 i 子系统 的 局部 控制 律 ， 全局 控制 律 和 全局 滞后 控制 律 . 它们 的 具体 形式 为 
+ 　 　 　 　 　 ( 3 ) 
+ 这里 Ki , Kij 和 Hij 分别 为 适当 维数 的 待定 矩阵 . 下面 将分 二级 给出 滞后 大 系统 ( 1 ) 的 分散 镇定 方法 . 
+ 　 　 第一级 . 设计 uli ( t ) ， 使得 每个 无 滞后 孤立 子系统 是 指数 稳定 的 . 因 ( Ai , Bi ) 是 完全 可控 的 ， 从而 存在 增益 矩阵 Ki ， 使得 ( Ai + BiKi ) 的 极点 可 配置 到 希望 的 位置 . 假设 希望 的 极点 为 
+ - σ i1 ± jwi1 , - σ i2 ± jwi2 , … , - σ ik ± jwik , - σ i2k + 1 , … , - σ ini - 2k . 
+ 其中 　 , 则 每个 无 滞后 孤立 子系统 都 具有 衰减 度为 α i 指数 稳定 的 . 
+ 　 　 取 σ ir ≠ σ is , r , s = 1 , 2 , … , ni , r ≠ s ， 由 模态 变换 法可令 zi ( t ) = M - 1ixi ( t ) , i = 1 , 2 , … , m , 其中 Mi 是 矩阵 ( Ai + BiKi ) 的 模态 矩阵 ， 由此 可 得 
+ = Λ izi ( t ) , i = 1 , 2 , … , m ， 这里 Λ i = M - 1i ( Ai + BiKi ) Mi , 即 
+ 
+ 是 一块 对角 矩阵 . 设计 uli ( t ) 的 关键 是 求 Ki ， 在 下节 给出 其 智能 设计 方法 . 
+ 　 　 第二级 . 设计 ugi ( t ) 和 udi ( t ) ， 使得 闭环 大 系统 是 无条件 渐近 稳定 的 . 由上 可得 
+ 　 　 　 　 　 　 　 ( 4 ) 
+ 这里 ， 
+ . 利用 微分 常数 变易 法 ， 并 借助于 Coppel 不等式 ［ 1 ］ 以及 比较定理 ［ 2 ］ ， 我们 可定义 矩阵 P 和 Q ， 其中 
+ 且 可 证明 ， 如果 矩阵 [ - ( P + Q ) ] 是 M — 矩阵 ， 则 闭环 滞后 大 系统 ( 4 ) 是 渐近 稳定 的 . 
+ 　 　 根据 M — 矩阵 的 定义 及 性质 ［ 3 ］ ， 为 获得 滞后 大 系统 ( 4 ) 的 渐近 稳定性 ， 必须 设计 
+ 使得 范数 尽可能 小 . 为此 ， 将 在 下 节用 神经网络 方法 解决 这一 问题 ， 从而 完成 对 ugi ( t ) 和 udi ( t ) 的 智能 设计 . 
+ 2 　 分散 镇定 控制器 的 智能 设计 
+ 2.1 　 uli ( t ) 的 智能 设计 及 模态 矩阵 Mi 的 求解 
+ 　 　 由 M - 1i ( Ai + BiKi ) Mi = Λ i 可得 Ai = Mi Λ iM - 1i - BiKi ， 由此 ， 可 建立 一 并联 神经网络 模型 ( 图 1 ) . 该 神经网络 是 一多 隐层 并联 前馈 神经网络 ， 诸 神经元 都 是 简单 的 感知器 ， 当 网络 输入 为 I ( 单位矩阵 ) 时 ， 其 输出 为 矩阵 Y ， 且 有 Y = W1 Λ W2 - BK ， 这里 W1 , Λ , W2 ∈ Rn × n ， B ∈ Rn × r , K ∈ Rr × n . 
+ 
+ 
+ 图 1 　 神经网络 模型 1 
+ 　 　 网络 训练 的 目的 是 使 网络 输出 Y 收敛 于 矩阵 A ∈ Rn × n ( 理想 输出 ) ； 权重 矩阵 W1 和 W2 分别 收敛 于 矩阵 M 和 M - 1 ， 并 保证 W1 * W2 = I . 为此 ， 我们 建立 该 网络 的 能量 函数 为 
+ 
+ 这里 从而 得到 网络 的 训练 算法 为 
+ 　 　 　 　 　 　 　 　 　 　 ( 5a ) 
+ 　 　 　 ( 5b ) 
+ 　 　 　 ( 5c ) 
+ 这里 ， l 是 迭代 次数 ， 为 学习 因子 . 文献 ［ 4 ］ 中 定理 3.7 已 证明 ， 通过 适当 地 选择 和 调整 α k , α 1 , α 2 ， 经 网络 训练 后 ， 可使 E 满足 ： ( 误差 限 ) ， 从而 得到 矩阵 K 和 M = W1 ， M - 1 = W2 . 这里 ， ε 的 大小 可视 实际 工程设计 精度 而定 . 
+ 2.2 　 ugi ( t ) 和 udi ( t ) 的 智能 设计 
+ 　 　 设 ‖ A ‖ 2 表示 矩阵 A 的 谱 范数 ， 是 矩阵 A 的 另 一 范数 ， 则 有 
+ 为 使 尽可能 小 ， 只 需 尽可能 减小 其 对应 的 范数 。 2 . 为此 ， 我们 可 利用 一般 的 具有 单隐层 的 神经网络 模型 解决 这一 问题 . 其中 ， 矩阵 F 和 B 是 输入 层到 隐层 与 隐层 到 输出 层 的 权 . 当该 神经网络 输入 为 单位矩阵 时 ， 其 对应 的 网络 输出 为 Y = BF ， 这里 ， Y ∈ Rn × n , B ∈ Rn × r , F ∈ Rr × n . 网络 训练 的 目的 是 调整 矩阵 F 中 的 各 矩阵 元素 ， 使得 范数 Y + D2 尽可能 小 . 其中 ， 矩阵 D ∈ Rn × n 和 B ∈ Rn × r 是 已知 矩阵 . 为此 ， 我们 给出 其 网络 能量 函数 为 . 则 有 ， 从而 得到 网络 训练 算法 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 这里 ， l 为 迭代 次数 ， 为 网络 学习 因子 . 令 F 分别 为 同时 ， 矩阵 D 为 相应 的 矩阵 在 不同 的 处理器 上 ， 通过 不断 地 调整 α f ， 可 使 从而 可 同时 并行 地 完成 网络 训练 ， 并 得到 矩阵 由 ( 4 ) 式 可得 从而 完成 ugi ( t ) 和 udi ( t ) 的 智能 设计 . 
+ 2.3 　 分散 镇定 控制器 的 智能 设计 算法 
+ 　 　 总结 2.1 和 2.2 节 ， 给出 分散 镇定 控制器 的 智能 设计 算法 如下 ： 
+ 　 　 步骤 1 . 已知 Ai , i = 1 , 2 , … , m ， 给定 每个 孤立 子系统 的 希望 极点 ， 构造 矩阵 Λ i , i = 1 , 2 , … , m , 利用 ( 5 ) 式 ， 并行 完成 各 子系统 的 神经网络 ( 图 1 ) 训练 ， 同时 得到 矩阵 Ki , Mi = W1 和 M - 1i = W2 ( i = 1 , 2 , … , m ) ， 进而 完成 uli ( t ) 的 智能 设计 . 
+ 　 　 步骤 2 . 由 Mi 和 M - 1i ， 计算 并 得到 
+ 　 　 步骤 3 . 令 D 分别 为 根据 ( 6 ) 式 ， 同时 并行 完成 网络 的 训练 ， 分别 得到 矩阵 
+ 　 　 步骤 4 . 由 Mi 和 M - 1i ， 计算 并 得到 完成 ugi ( t ) 和 udi ( t ) 的 智能 设计 . 
+ 　 　 步骤 5 . 构造 矩阵 P 和 Q ， 分析 闭环 大 系统 ( 4 ) 的 稳定性 ， 如果 大 系统 ( 4 ) 不 稳定 ， 则 对 各 孤立 子系统 重新 给定 一组 新 的 希望 极点 ， 返回 步骤 1 . 
+ 　 　 步骤 6 . 结束 . 
+ 　 　 由 分散 镇定 控制器 的 智能 设计 算法 可知 ， 经 有限 次 循环 一定 可 实现 大 系统 ( 1 ) 的 镇定 . 
+ 3 　 数值 仿真 
+ 　 　 考虑 下列 具有 3 个 2 阶 子系统 的 滞后 系统 
+ 
+ 　 　 通过 网络 训练 算法 ( 6 ) 并 根据 表 1 的 结果 计算 ， 可 得 矩阵 从而 完成 ui ( i = 1 , 2 , 3 ) 的 智能 设计 . 其中 
+ 
+ 表 1 　 各 孤立 子系统 智能 极点 配置 的 结果 
+ 
+ SubsystemMatrixKiMatrixMiMatrixM - 1i 
+ 1 - 4.9058 
+ - 1.60592 . 2657 
+ - 4.96591 . 5842 
+ - . 4932 - . 3045 
+ . 7141.7302 
+ . 5186.3045 
+ 1.5986 
+ 21.3645 
+ - 2.8513 - 2.0569 
+ - 1.6902 - . 4262 
+ . 9302.8087 
+ . 5558 - . 5592 
+ . 9309.8077 
+ . 4308 
+ 3 - 4.6874 
+ - 5.7514 - 3.1701 
+ - 1.0452 . 5410 
+ 1.1658 - . 2196 
+ 1.79701 . 4512 
+ - . 9420.1629 
+ . 4482 
+ 
+ 4 　 结束语 
+ 　 　 由于 神经网络 技术 具有 并行 分布 处理 的 能力 ， 同时 ， 又 便于 VLSI 硬件 电路 实现 ， 从而 使得 该 智能 技术 非常适合 处理 复杂 大 系统 的 分析 及 设计 问题 . 因此 ， 将 神经网络 技术 引入 大 系统 问题 的 研究 ， 有着 广泛 的 实用价值 . 本文 应用 这种 技术 给出 了 滞后 大 系统 稳定性 分析 与 镇定 的 智能 实现 方法 ， 数值 仿真 结果表明 该 方法 是 成功 和 有效 的 . 
+ 作者 单位 ： 张 　 剑 　 广州 解放军 通信 学院 交换 教研室 　 广州 　 51050 
+ 　 　 　 　 　 刘永清 　 　 沈建京 　 华南理工大学 自动化系 　 广州 　 510641 
+ 参考文献 
+ [ 1 ] 　 CoppelWA . Stabilityandasmyptoticbehaviorofdifferentialequation . Boston : D . C . Heath , 1965 . 
+ [ 2 ] 　 LakshmikanthamV , LeelaS . Differentialandintergralinequation : TheoryandApplications . NewYork : AcademicPress , 1969 . 
+ [ 3 ] 　 罗家 洪 . 矩阵 分析 引论 . 广州 ： 华南理工大学 出版社 ， 1992 . 
+ [ 4 ] 　 焦 李成 . 神经 网络系统 理论 . 西安 ： 西安电子科技大学 出版社 ， 1992 . 
+ [ 5 ] 　 HornRA , JohnsonCR . Matrixanalysis . CambridgePress , 1985 . 
+ 收稿 日期 　 1996 - 01 - 10 

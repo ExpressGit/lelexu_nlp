@@ -1,0 +1,123 @@
+宇航学 报 
+ JOURNALOFASTRONAUTICS 
+ 1998 年 第 19 卷 第 1 期 No1Vol.91998 科技期刊 
+ 
+ 在 不同 地形 条件 下 的 地形 辅助 
+ 导航系统 定位精度 评估 
+ 苏 　 康 　 关世义 
+ ( 航天工业 总公司 三院 三部 * 北京 7203 信箱 210 分箱 * 100074 ) 
+ 柳 　 健 　 张继贤 
+ ( 华中理工大学 图象 所 * 武汉 * 430074 ) 
+ 　 　 摘 　 要 　 如何 选择 合适 的 地形 是 卡尔曼 连续 修正 的 地形 辅助 导航系统 在 实际 应用 中 遇到 的 难题 。 本文 首先 建立 系统 仿真 模型 ， 然后 利用 ARC / INFO 地理信息系统 软件 进行 地形 分析 。 在 此基础 上 ， 通过 大量 的 计算机 仿真 试验 ， 对 卡尔曼 连续 修正 的 地形 辅助 导航系统 在 不同 地形 条件 下 的 定位精度 进行 了 评估 。 评估 结果 为 系统 在 实际 应用 中 的 地形 选择 提供 了 依据 。 
+ 　 　 主题词 　 地形 辅助 导航 　 仿真 　 评估 　 卡尔曼滤波 　 坡度 标准差 　 地理信息系统 　 圆 概率 误差 
+ POSITIONINGACCURACYEVALUATIONOF 
+ ATERRAIN - AIDEDNAVIGATIONSYSTEM 
+ UNDERDIFFERENTTYPESOFTERRAIN 
+ SuKang 　 GuanShiyi 
+ ( The3rdResearchAcademy , CASC * Beijing * 100074 ) 
+ LiuJian 　 ZhangJixian 
+ ( InstituteofImageRecognition & AI , HUST * Wuhan * 430074 ) 
+ 　 　 Abstract 　 Howtoselectappropriatetypeofterrainforaterrain - aidednavigationsystemusingcontinuousKalmanupdatingtechniqueisacomplicatedproblemencounteredinpracticalapplications . Thesystemsimulationmodelshavebeenbuilt , thenterraindataanalysishasbeencarriedoutontheARC / INFOGISsoftwareplatform . Finally , thesystemperformanceunderdifferenttypesofterrainhasbeenevaluatedbyalargenumberofcomputersimulations . Thecriterionforselectionofterrainrequiredforgoodnavigationperformancecanbederivedfromthevaluationresults . 
+ 　 　 Keywords 　 Terrain - aidednavigationSimulation 　 EvaluationKalmanfiltering 　 Standardvarianceofslope 　 GeographicalInformationSystem ( GIS ) 　 Circularerrorprobable ( CEP ) 
+ 1 　 引言 
+ 　 　 地形 辅助 导航 ( Terrain - aidedNavigation ( TAN ) ) 系统 是 近 十几年 出现 的 一种 新型 的 导航系统 ， 其 主要 功能 是 利用 地形 的 特征 信息 实现 飞行器 自主 、 隐蔽 、 连续 、 全天候 的 精确 导航 ， 因此 ， 该 系统 在 无人 和 有人 驾驶 飞行器 上 得到 实际 的 应用 。 地形 辅助 导航系统 的 种类 很多 ， 利用 卡尔曼滤波 技术 连续 修正 的 地形 辅助 导航系统 是 其中 之一 ， 如图 1.1 所示 。 该 系统 由惯导 系统 、 雷达 高度表 、 气压 高度表 、 数字地图 和 卡尔曼滤波 器五 部分 组成 。 系统 的 工作 原理 是 ， 首先 通过 飞行 任务 规划系统 得到 飞行器 预定 要 飞过 区域 的 等高线 数字地图 ， 并 将 它 存到 飞行器 载 计算机 中 。 当 飞行器 经过 预定 区域 上空 时 ， 利用 惯导 提供 的 位置 和 速度 信息 ， 在 数字地图 上 采用 地形 随机 线性化 技术 对 地形 进行 拟合 来 提取 地形 参数 。 通过 卡尔曼滤波 器 把 地形 参数信息 、 雷达 高度表 和 气压 高度表 的 测量 信息 以及 惯导 输出 的 状态 信息 综合 起来 ， 实现 对惯导 状态 误差 的 最优 估计 ， 并 将 误差 估计值 反馈 给 惯导 系统 ， 修正 该 系统 经过 长时间 飞行 所 积累 的 误差 。 　 　 
+ 
+ 
+ 1.1 　 地形 辅助 导航系统 原理 框图 
+ 由图 1.1 可见 ， 地形 是 影响 系统 定位精度 的 因素 之一 。 对于 不同 的 地形 ， 系统 有 不同 的 定位精度 。 由于 地形 的 多样性 、 复杂性 和 差异性 ， 因此 ， 如何 选择 适合 辅助 导航 的 地形 是 实际 应用 中 碰到 的 难题 。 为了 解决 这个 问题 ， 需要 对 导航系统 在 不同 地形 条件 下 的 定位精度 进行 评估 。 众所周知 ， 很 难用 精确 的 数学模型 对 地形 进行 描述 ， 因而 不便 用 解析 方法 对 其 进行 评估 ， 一种 行之有效 的 方法 是 通过 计算机 进行 数字 仿真 。 本文 在 建立 系统 数学模型 的 基础 上 ， 用 真实 的 数字地图 ， 通过 大量 的 计算机 仿真 试验 ， 得到 了 系统 在 不同 地形 条件 下 的 定位精度 。 
+ 2 　 系统 数学模型 
+ 　 　 为了 利用计算机 仿真 手段 对系统 的 定位精度 进行 评估 ， 首先 要 建立 系统 的 数学模型 。 
+ 2.1 　 卡尔曼滤波 模型 
+ 　 　 状态方程 ： 
+ Xk + 1 = Φ k + 1 , kXk + Wk ( 2.1 - 1 ) 
+ 　 　 测量 方程 
+ Zk + 1 = Hk + 1Xk + 1 + Uk + 1 ( 2.1 - 2 ) 
+ Xk = ［ δ xk , δ yk , δ zk ］ T ( 2.1 - 3 ) 
+ Φ k + 1 , k = 100 
+ 010 
+ 001 ( 2.1 - 4 ) 
+ Hk = ( - α k , - β k , 1 ) ( 2.1 - 5 ) 
+ Zk = Ck - Ak ( 2.1 - 6 ) 
+ Uk = Vk + V ′ k - ε k ( 2.1 - 7 ) 
+ 式 中 　 δ xk , δ yk , δ zk 分别 为 k 时刻 X ， Y ， Z 方向 上 的 位置 误差 ； 
+ 　 　 　 α k , β k 分别 为 k 时刻 拟合 平面 在 X ， Y 方向 上 的 地形 斜率 ； 
+ 　 　 　 Ck 为 k 时刻 雷达 高度表 的 测量 值 ； 
+ 　 　 　 Ak 为 k 时刻 飞行器 的 参考 位置 到 拟合 平面 的 距离 ； 
+ 　 　 　 Vk ， V ′ k 分别 为 k 时刻 雷达 高度表 和 气压 高度表 的 测量 噪声 ； 
+ 　 　 　 ε k 为 k 时刻 地形 拟合 误差 ( 称之为 拟合 噪声 ) ； 
+ 　 　 　 Wk 为 k 时刻 动态 噪声 。 
+ 　 　 为了 得到 系统 的 卡尔曼滤波 递推 公式 ， 提出 以下 假设 条件 ： 
+ 　 　 ( 1 ) 雷达 高度表 测量 噪声 序列 Vk 、 气压 高度表 测量 噪声 序列 V ′ k 、 拟合 噪声 序列 ε k 、 动态 噪声 序列 Wk 是 互不 相关 、 均值 为 0 的 高斯 白 噪声 序列 ， 即 
+ E ［ Vk ］ = 0 ( 2.1 - 8 ) 
+ E ［ VkVTj ］ = Rk δ k , j ( 2.1 - 9 ) 
+ E ［ V ′ k ］ = 0 ( 2.1 - 10 ) 
+ E ［ V ′ kV ′ Tj ］ = R ′ k δ k , j ( 2.1 - 11 ) 
+ E ［ ε k ］ = 0 ( 2.1 - 12 ) 
+ E ［ ε k ε Tj ］ = RFk δ k , j ( 2.1 - 13 ) 
+ E ［ Wk ］ = 0 ( 2.1 - 14 ) 
+ E ［ WkWTj ］ = Qk δ k , j ( 2.1 - 15 ) 
+ 　 　 ( 2 ) Vk 、 V ′ k 、 ε k 和 Wk 彼此之间 相互 独立 。 
+ 　 　 ( 3 ) ， 其 方差 矩阵 为 
+ 　 　 ， 并且 X0 与 Vk 、 V ′ k 、 ε k 和 Wk 彼此之间 相互 独立 。 
+ 　 　 由 以上 假设 条件 ， 根据 文献 ［ 7 ］ ， 可以 得到 以下 递推 公式 ： 
+ ( 2.1 - 16 ) 
+ Pk + 1 / k = Φ k + 1 , kPk / k Φ Tk + 1 , k + Qk ( 2.1 - 17 ) 
+ Kk + 1 = Pk + 1 / kHTk + 1 ［ Hk + 1Pk + 1 / kHTk + 1 + Rk + R ′ k + RFk ］ - 1 ( 2.1 - 18 ) 
+ ( 2.1 - 19 ) 
+ Pk + 1 / k + 1 = Pk + 1 / k - Kk + 1Hk + 1Pk + 1 / k ( 2.1 - 20 ) 
+ 2.2 　 地形 随机 线性化 模型 
+ 　 　 地形 随机 线性化 是 指用 一个 平面 ( 称 拟合 面 ) 来 拟合 地形 ， 拟合 面 必须 在 统计 意义 上 足够 准确 地 反映 地形 的 变化趋势 。 本文 采用 九点 平面 拟合 方法 对 任意 时刻 k 得到 的 地形 块 进行 平面 拟合 ， 拟合 面 的 变化趋势 在 统计 意义 上 满足 最小 二乘 准则 。 设 d 为 固定 的 格网 间隔 ， T1 ， T2 ， … ， T9 为 地形 块 9 个点 的 地位 上 由 数字地图 提供 的 地形 海拔高度 ， 则 拟合 面在 飞行器 估计 位置 上 的 海拔高度 α k 、 在 X 、 Y 方向 上 的 斜率 α k 、 β k 满足 下列 公式 ： 
+ ( 2.2 - 1 ) 
+ ( 2.2 - 2 ) 
+ ( 2.2 - 3 ) 
+ 2.3 　 地形模型 
+ 　 　 为了 使 评估 结果 反映 实际 情况 ， 在 仿真 过程 中 ， 采用 由 等高线图 制作 而成 的 不同 类型 地形 数字地图 ， 而 不是 通过 计算机 模拟 的 方法 来 产生 所 需要 的 地形 数据 。 所有 的 数字地图 数据 均 用 美国 环境 系统 研究所 ( ESRI ) 开发 的 ARC / INFO 地理信息系统 软件 来 管理 和 分析 。 
+ 　 　 从 系统 模型 可见 ， 地形 对 导航 定位精度 的 影响 表现 为 地形 拟合 面 的 斜率 变化 对 导航 定位精度 的 影响 。 因此 ， 本文 用 坡度 标准差 ( stdslp ) 作为 特征 来 描述 不同 类型 的 地形 ， 并 研究 该 特征参数 和 系统 定位精度 ( CEP ) 的 关系 。 设 地图 的 大小 为 M × N ， 如图 2.1 所示 ， 对于 数字地图 上 的 任意 一点 ( i , j ) ， 它 对应 的 高程 为 h ( i , j ) ， 数字地图 的 格网 大小 为 cellsize ， 则 点 ( i , j ) 的 坡度 和 坡度 标准差 ( stdslp ) 定义 为 ： 
+ slp ( i , j ) = ［ slp ( i , j ) 2x + slp ( i , j ) 2y ］ ( 1 ) / ( 2 ) × 100% ( 2.3 - 1 ) 
+ ( 2.3 - 2 ) 
+ 其中 
+ slpx ( i , j ) = ［ h ( i + 1 , j - 1 ) + 2h ( i + 1 , j ) + h ( i + 1 , j + 1 ) - h ( i - 1 , j - 1 ) - 2h ( i - 1 , j ) - h ( i - 1 , j + 1 ) ］ / ( 8 × cellsize ) ( 2.3 - 3 ) 
+ slpy ( i , j ) = ［ h ( i + 1 , j - 1 ) + 2h ( i , j - 1 ) + h ( i + 1 , j - 1 ) - h ( i - 1 , j + 1 ) 
+ - 2h ( i , j + 1 ) - h ( i + 1 , j + 1 ) ］ / ( 8 × cellsize ) ( 2.3 - 4 ) 
+ ( 2.3 - 5 ) 
+ 　 　 图 2.2 所示 的 是 一个 利用 上述 公式 得到 的 坡度 分布 灰度 图 ， 图 的 格网 数为 100 × 250 ， 格网 大小 ( cellsize ) 为 50m × 50m 。 
+ 
+ h ( i - 1 , j - 1 ) h ( i , j - 1 ) h ( i + 1 , j - 1 ) 
+ h ( i - 1 , j ) h ( i , j ) h ( i + 1 , j ) 
+ h ( i - 1 , j + 1 ) h ( i , j + 1 ) h ( i + 1 , j + 1 ) 
+ 
+ 　 图 2.1 　 格网 位置 ( i , j ) 及其 邻域 的 高程 示意图 
+ 
+ 
+ 图 2.2 　 坡度 分布 灰度 图 
+ 3 　 仿真 结果 及其 分析 
+ 　 　 仿真 过程 流程 如图 3.1 所示 。 首先 产生 飞行 航迹 ， 航迹 数据 被 分别 送到 高度表 ( 包括 雷达 高度表 和 气压 高度表 ) 输出 仿真 模块 和 惯导 输出 仿真 模块 ， 以便 产生 高度表 和 惯导 系统 的 输出 。 利用 ARC / INFO 地理信息系统 软件 完成 地形 特征参数 计算 和 地形 筛选 。 将 得到 的 地形 数据 和 高度表 输出 数据 、 惯导 系统 输出 数据 一起 关至 卡尔曼滤波 器 ， 经过 滤波 处理 后 ， 得到 位置 状态 的 最优 估计 。 
+ 　 　 
+ 
+ 
+ 图 3.1 　 仿真 流程图 
+ 仿真 初始条件 ： 
+ 　 　 ( 1 ) 协方差 阵 初始值 
+ 　 　 
+ 　 　 ( 3 ) 测量 噪声 Rn = Rk + R ′ k 为 20m ； 
+ 　 　 ( 4 ) 卡尔曼滤波 器 的 迭代 次数 N = 80 ， 时间 间隔 为 0.5 s ； 
+ 　 　 ( 5 ) 数字地图 格网 数为 100 × 250 ， 格网 大小 为 50 × 50m2 。 
+ 　 　 在 仿真 的 过程 中 ， 利用 ARC / INFO 地理信息系统 对 地形 进行 分析 和 筛选 ， 一共 选取 了 14 幅 具有 不同 特征参数 的 数字 高程 图 作为 仿真 情况 ， 它们 分别 代表 平地 、 丘陵 、 山地 等 地形 ， 特征参数 stdslp 为 1.532 ， 2.886 ， 3.077 ， 6.510 ， 6.911 ， 7.897 ， 7.919 ， 8.026 ， 8.784 ， 11.557 ， 12.164 ， 12.972 ， 15.044 ， 15.382 。 
+ 　 　 对 每 一种 试验 情况 ， 通过 统计 试验 ( Monte - Carlo ) 法 ， 进行 了 400 次 仿真 试验 ， 并 经 数据 的 统计 处理 和 回归 分析 ， 所得 结果 如图 3.2 所示 。 其中 表示 的 是 系统 的 圆 概率 误差 ( CEP ) 随 坡度 标准差 ( stdslp ) 变化 的 关系 曲线 。 从中 可见 ： 　 　 
+ 
+ 
+ 图 3.2 　 圆 概率 误差 ( CEP ) 和 坡度 
+ 标准差 关系 曲线 
+ ( 1 ) 系统 的 圆 概率 误差 ( CEP ) 的 大小 虽然 有些 波动 ， 但是 它 的 总体 趋势 随 坡度 标准差 ( stdslp ) 增加 而 减小 。 这 说明 了 粗糙 程度 大 的 地形 有利于 系统 定位 定位精度 的 提高 。 
+ 　 　 ( 2 ) 当 坡度 标准差 大于 3 时 ， 系统 的 CEP 小于 100m ， 而 stdslp 大于 3 所 对应 的 地形 大多数 是 丘陵 以上 的 地形 ， 因此 ， 所 设计 的 导航 算法 在 丘陵地形 的 上空 也 能 取得 很 好 的 定位 效果 ， 也就是说 ， 选择 stdsp 大于 3 的 地形 能够 满足 实际 的 应用 要求 。 
+ 4 　 结论 
+ 　 　 在 卡尔曼滤波 连续 修正 地形 辅助 导航系统 中 ， 地形 是 影响 其 定位精度 的 重要 因素 。 计算机 的 仿真 结果表明 ， 系统 的 导航 定位精度 与 地形 的 粗糙 程度 密切相关 。 当 地形 坡度 标准差 ( stdslp ) 大于 3 时 ， 系统 的 圆 概率 误差 ( CEP ) 在 百米 以内 ， 能 满足 飞行器 导航 实际 应用 要求 。 本文 的 研究成果 为 系统 实际 应用 的 地形 选择 提供 了 依据 。 
+ 参考文献 
+ 　 　 1 　 苏康 ， 关世义 ， 陈渭莉 . 图象 匹配 制导系统 精度 分析 . 宇航学 报 ， 1992 ( 3 ) ： 19 - 23 
+ 　 　 2 　 HostetlerLDBeckmann . RC . ContinuousKalmanUpdatingofanInertialNavigationSystemUsingTerrainMeasurements . NAECON , May , 1978 : 1623 - 1270 
+ 　 　 3 　 PaulW . Mcburney . ARobustApproachtoReliableReal - TimeKalmanFiltering . IEEEPLANS ′ 90 - PositionLocationandNavigation , Symposium , LasVegasNY , Mar.20 - 33 , 1990 : 549 - 556 
+ 　 　 4 　 DraytonD . Boozer . Terrain - AidedNavigationTestResultsintheAFTI / F - 16Aircraft . NAVIGATION ( ISSN0028 - 1522 ) , JournalofTheInstituteofNavigation , Summer1988 ， ( 2 ) 
+ 　 　 5 　 RussellEnns , DarrylMorrell . Terrain - AidedNavigationUsingtheVeterbiAlgorithm , JournalofGuidance , Control , andDynamics , NovemberDecember1995 , ( 6 ) 
+ 　 　 6 　 UnderstandingGIS - TheARC / INFOMethod . USA : EnvironmentSystemResearchInstitude , INC , 1995 
+ 　 　 7 　 柯正谊 ， 何 建邦 ， 池 天河 . 数字 地面 模型 . 北京 ： 中国 科学技术 出版社 ， 1993 ， 5 
+ 　 　 8 　 贾沛璋 ， 朱征桃 . 最优 估计 及其 应用 . 北京 ： 科学出版社 ， 1984 ， 12 

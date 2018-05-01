@@ -1,0 +1,71 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 2000 　 Vol.26 　 No.3 　 P.430 - 432 
+ 
+ 
+ 
+ 单机 调度 中 平均 流程 时间 和 延期 
+ 工件 数 的 双 目标 问题 
+ 司昕 　 郑应平 　 安燮南 
+ 关键词 　 单机 调度 ， 多 目标 ， 平均 流程 时间 ， 延期 工件 数 . 
+ BICRITERIONPROBLEMINSINGLE - MACHINESCHEDULINGWITH 
+ MEANFLOWTIMEANDNUMBEROFTARDYJOBS 
+ SIXin 　 　 ZHENGYingping 　 　 ANXienan 
+ ( InstituteofAutomation , ChineseAcademyofSciences , Beijing 　 100080 ) 
+ Keywords 　 Single - machinescheduling , bicriterion , meanflowtime , numberoftardyjobs . 
+ 1 　 引言 
+ 　 　 本文 在 具有 平均 流程 时间 和 延期 工件 数 两个 目标 的 情况 下 对 单机 多 目标 问题 进行 研究 ， 所 研究 的 调度 环境 为 假设 工件 集 N 的 n 个 工件 在 一台 机器 上 进行 无 中断 的 加工 ， 每个 工件 的 加工 时间 、 到达 时间 和 交工 日期 分别 为 pi ， ri 和 di ， 且 每个 工件 在 零 时刻 到达 ， 即 ri = 0 ， 其 完工 时间 为 Ci ， 流程 时间 Fi = Ci - ri = Ci ， 平均 流程 时间 每个 工件 的 延迟 Ti = max ｛ 0 , ci - di ｝ ， 如果 工件 i 是 延迟 的 ( 即 Ti > 0 ) ， 则 令 Ui = 1 ； 否则 Ui = 0 . 延期 工件 个数 记 为 
+ 　 　 本文 所 要 讨论 的 问题 是 ( P ) ： 在 上述 调度 环境 下 ， 如何 确定 工件 的 一个 加工 排序 ， 使得 平均 流程 时间 和 延期 工件 数 n 璗 这个 双 目标 问题 达到 最优 ， 采用 Graham 等 人 的 三 参数 表示法 ［ 2 ］ ， 将 此 问题 记为 1 / / , n 璗 . 
+ 　 　 对于 单机 调度 中 的 双 目标 问题 的 研究 ， 目前 主要 有 三中 形式 ： 
+ 　 　 1 ) 1 / / γ 2 ｜ γ 1 ， 即 在 保证 目标 γ 1 为 最优 的 情况 下 ， 使 目标 γ 2 达到 最优 ； 
+ 　 　 2 ) 有效 点 集合 形式 1 / / γ 1 , γ 2 ， 即使 目标 γ 1 , γ 2 尽量 都 达到 最优 ， 这样 得出 的 结果 是 一系列 有效 点 的 形式 ， 而 非 单一 的 点 ； 
+ 　 　 3 ) 加权 形式 1 / / f ( γ 1 , γ 2 ) ， 即 目标 γ 1 , γ 2 的 函数 表达形式 ， 一般 情况 下 为 γ 1 , γ 2 的 线性 加权 表达式 . 
+ 　 　 本文 所 研究 的 目标 为 有效 点 集合 形式 ， 即 1 / / γ 1 , γ 2 . 
+ 　 　 在 有 m 个 目标 的 单机 调度 问题 的 排序 中 ， 设其解 集为 R ， 其中 每一解 r ∈ R 是 一个 具有 m 维 的 向量 ( r1 , r2 , … , rm ) ， rj 表示 第 j 个 目标 的 值 . 这里 先 给出 有关 有效 解 的 定义 . 
+ 　 　 定义 . 称 r 为此 多 目标 问题 的 一个 有效 解 ， 如果 对于 排序 s ， 不 存在 另 一个 排序 s ′ ， 使得 
+ 　 　 ( i ) rj ( s ′ ) ≤ rj ( s ) , j = 1 , 2 , … m ； 
+ 　 　 ( ii ) rj ( s ′ ) < rj ( s ) ， 对 某些 j . 
+ 2 　 NP - hard 问题 
+ 　 　 本节 中 ， 我们 将 证明 上述 问题 1 / / , n 璗 是 一个 NP - hard 问题 . 
+ 　 　 定理 1 . 如果 1 / / γ 2 ｜ γ 1 是 NP 难 问题 ， 则 1 / / γ 1 , γ 2 也 是 NP 难 问题 . 
+ 　 　 实际上 ， 由 问题 1 / / γ 2 ｜ γ 1 所 得到 的 解 必定 是 问题 1 / / γ 1 ｜ γ 2 的 一个 有效 解 . 因此 ， 此 定理 得证 . 
+ 　 　 定理 2 . 问题 1 / / ｜ nT 为 NP - hard 问题 . 
+ 　 　 可以 利用 另 一个 NP - 完全 问题 ， 即 3 划分 问题 ( 3 - partitionproblem ) 来 建立 此 问题 的 多项式 归纳 ， 从而 证得 此 定理 ( 证明 略 ) . 
+ 　 　 定理 3 . 问题 1 / / ， n 璗 为 NP - hard 问题 ( 根据 定理 1 和 定理 2 即可 推得 此 定理 ) . 
+ 3 　 算法 
+ 　 　 由于 1 / / , nT 属于 NP - hard 问题 ， 因此 当 n 很大 时 ， 求出 此 问题 的 精确 解将 是 非常 困难 的 . 本节 将 整理 出此 问题 的 几条 性质 ， 并 将 Emmons 的 一条 定理 ［ 5 ］ 进行 扩展 ， 从而 使 我们 能够 采用 动态 规划 的 方法 来 处理 此 问题 . 
+ 　 　 在 工件 集 N 中 ， 将 非 延期 工件 集 和 延期 工件 集 分别 记为 E 和 T ， 即 N = E ∪ T . 注意 到 在 最优 排序 中 ， E 和 T 中 的 工件 可能 会 交错 排列 . 
+ 　 　 性质 1 . T 中 工件 按 SPT 法则 排序 ， 而 E 中 工件 采用 Smith 方法 ［ 6 ］ 进行 排序 ， 即 在 Ti = 0 的 约束 下 ， 使 最小 ， 其中 i ∈ E . 
+ 　 　 性质 2 . 最小 平均 流程 将 随着 延期 工件 数 n 璗 的 增加 而 减少 ， 且 在 n 璗 = 璗 时 取得 最小值 ， T 为 按 SPT 排序 所得 的 延期 工件 数 . 
+ 　 　 性质 3 . 在 具有 共同 完工 期 ( di = d , i ∈ N ) 的 情况 下 ， 上述 问题 的 排序 具有 ( E ， T ) 的 形式 ， 即 所有 E 中 的 元素 均 排 在 T 中 元素 之前 ， 而且 E ， T 中 元素 均 按 SPT 法则 排序 . 
+ 　 　 为 能 高效 地 获得 问题 1 / / , n 璗 所有 的 有效 解 ， 我们 将 Emmons 的 一条 定理 进行 了 扩展 ［ 5 ］ ， 从而 使 我们 能够 采用 动态 规划 的 方法 来 进行 求解 . 
+ 　 　 定理 4 . 对于 问题 1 / / , n 璗 的 一个 最优 排序 ， 若 工件 i 不 延期 ， 即 i ∈ E ， 则 当 n0 璗 减少 时 ( n0T ≥ 璗 ) ， 仍 有 关系 i ∈ E ( 证明 略 ) . 
+ 　 　 Emmons 同时 给出 了 一条 优先 规则 ［ 5 ］ ， 我们 将 其 扩展 使 其 适用 于 本文 所 讨论 的 问题 . 
+ 　 　 优先 规则 . 对于 问题 1 / / ， n 璗 ， 若 两个 工件 i 和 j 中 只有 一个 不 延期 ， 如果 满足 ( i ) pi ≥ pj 和 ( ii ) pi - pj ≥ di - dj ， 则 必有 j ∈ E 和 i ∈ T . 
+ 　 　 根据 定理 2 和 上述 优先 规则 ， 我们 提出 了 求解 问题 1 / / ， n 璗 的 动态 规划 方法 ， 其 计算 步骤 如下 ： 
+ 　 　 step1 . 分别 利用 SPT 法则 和 Moore 方法 计算 延期 工件 数 的 上 、 下界 T 和 T ， 计算 L = T - T + 1 ， L 为 动态 规划 所 需 进行 的 阶段 数 ； 
+ 　 　 step2 . m = 1 , E1 = ｛ 按 SPT 法则 排序 所得 的 非 延期 的 工件 ｝ ， 计算 1 ( E1 ) ； 
+ 　 　 step3 . 计算 Tm = N - Em ， 并 根据 优先 规则 在 Tm 中 得到 不 可行 工件 集 Im ; 
+ 　 　 step4 . m = m + 1 ; 
+ 　 　 step5 . Fori : = 1 , … , Tm - Im 
+ doEmi = Em - 1 ∪ ｛ Ji ｝ 
+ 　 　 上式 中 Ji 为 Tm ＼ Im 中 的 一个 工件 ； 
+ 　 　 step6 . 取 Em = 使 
+ 　 　 step7 . m = L ? 是 ， 则 停止 ； 否则 转 step3 . 
+ 计算 结束 后 ， 就 得到 L 个 有效 解 ( T , 1 ( E1 ) ) , ( T - 1 , 2 ( E2 ) ) , … , ( 璗 , L ( EL ) ) . 
+ 国家自然科学基金 ( 69635030 ) 资助 项目 . 
+ 　 　 司 　 昕 　 1968 年 出生 . 1995 年于 北京理工大学 获得 硕士学位 ， 现为 中国科学院自动化研究所 博士生 . 主要 研究 方向 为 人工智能 在 DSS 和 CIMS 中 的 应用 、 生产 调度 、 DEDS 以及 混杂 动态 系统 等 . 
+ 　 　 郑应平 　 简介 见 本刊 第 19 卷 第 6 期 . 
+ 　 　 安燮南 　 1936 年生 . 1959 年 毕业 于 上海交通大学 . 现为 中国科学院自动化研究所 研究员 、 博士生 导师 . 主要 研究 方向 为 工业 自动化 、 人工智能 等 . 
+ 司昕 （ 中国科学院自动化研究所 　 北京 　 100080 ） 
+ 郑应平 （ 中国科学院自动化研究所 　 北京 　 100080 ） 
+ 安燮南 （ 中国科学院自动化研究所 　 北京 　 100080 ） 
+ 参考文献 
+ ［ 1 ］ 　 PanwalkarSS , DudekRK , SmithML . Sequencingresearchandtheindustrialschedulingproblem . In : ElmaghrabySE ( ed ) . Symposiumonthetheoryofschedulinganditsapplication , NewYork : Springer - Verlag , 1973 : 29 ～ 38 
+ ［ 2 ］ 　 GrahamRL , LawlerBL , LenstraJKetal . Optimizationandapproximationindeterministicsequencingandscheduling : asurvery . AnnalDiscreteMath.1979 , 5 : 287 ～ 326 
+ ［ 3 ］ 　 MooreJM . Annjob , onemachinesequencingalgorithmforminimizingthenumberoflatejobs . Managementsci . , 1968 , 15 ( 1 ) : 102 ～ 109 
+ ［ 4 ］ 　 TanaevVS , GordonVS , ShafranskyYM . SchedulingTheory : SingleStageSystems . KluwerAcademicPublishers , 1994 
+ ［ 5 ］ 　 EmmonsH . Onemachineschedulingtominimizemenaflowtimewithminimizednumbertardy . NavalRes . Logist . Quart . , 1975 , 22 ( 3 ) : 585 ～ 592 
+ ［ 6 ］ 　 SmithWE . Variousoptimizersforsinglestageproduction . NavalRes . Logist . Quart . , 1956 , 3 ( 1 ) : 59 ～ 66 
+ 收稿 日期 　 1998 - 07 - 21 
+ 修稿 日期 　 1999 - 01 - 08 

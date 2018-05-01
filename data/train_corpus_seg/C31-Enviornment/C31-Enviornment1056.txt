@@ -1,0 +1,38 @@
+环境 科学研究 
+ RESEARCHOFENVIRONMENTALSCIENCES 
+ 2001Vol.14 No.3 P.56 - 58 
+ 
+ 
+ 
+ 
+ 水 环境质量 评价 的 普适 指数 公式 
+ 李祚泳 　 郭丽婷 　 欧阳 洁 　 
+ 摘 　 要 ： 在 适当 设定 水质 指标 的 “ 基准 ” 值 情况 下 ， 用 相对 于 “ 基准 ” 值 的 指标 相对值 替换 对数 形式 的 指数 公式 中 的 水质 指标值 ， 采用 遗传算法 优化 不同 指标 的 指数 公式 中 的 参数 ， 得到 对 多项 指标 通用 的 水质 普适 指数 公式 ； 并用 折衷 型 激励 功效 函数 将 单项 指标 的 指数 加权 为 综合 指数 。 公式 的 正确性 已 被 多处 水质评价 检验 。 
+ 关键词 ： 水质评价 ； 　 指数 ； 　 遗传算法 ； 　 参数 优化 ； 　 功效 函数 
+ 分类号 ： X824 　 文献 标识码 ： A 
+ 文章 编号 ： 1001 - 6929 ( 2001 ) 03 - 0056 - 03 
+ AnUniversalIndexFormulaSuitedtoWaterQualityEvaluation 
+ LIZuo - yong （ ChengduUniversityofInformationTechnology , Chengdu610041 , China ） 　 
+ GUOLi - ting （ ChengduUniversityofInformationTechnology , Chengdu610041 , China ） 　 
+ OUYANGJie （ GuangdongUniversityofTechnology , Guangzhou510090 , China ） 　 
+ 
+ Abstract ： Basedonhypothesisof “ basevalue ” ofwaterqualityparameter , themonitoringvaluesofparametersinthewaterqualityindexformulawithlogarithmfunctionformwerereplacedbytheirrelativevalues , andtheoptimumforcoefficientsofdifferentindexesinformulawascarriedoutusinggeneticalgorithms , andthenanuniversalindexformulaofwaterqualitysuitedtomulti - parameterwaspresented . Thecomprehensiveindexofwaterqualitycanbecalculatedintheaidofthecompromiseactivefunctionweightingforeachindex . Theformulawasverifiedbyassessingthewaterqualitystatesofmanyspotswiththeabovemethod . 
+ Keywords ： waterqualityevaluation ; 　 index ; 　 geneticalgorithms ; 　 parameteroptimum ; 　 activefunction 
+ 
+ 基金项目 ： 国家 “ 九五 ” 重点 科技 攻关项目 ( 96 - 911 - 08 - 03 ) 
+ 作者简介 ： 李祚泳 ( 1944 - ) ， 男 ， 四川 宜宾县 人 ， 教授 ， 硕士 . 
+ 作者 单位 ： 李祚泳 （ 成都 信息 工程学院 ， 四川 成都 610041 ） 　 
+ 　 　 　 　 　 郭丽婷 （ 成都 信息 工程学院 ， 四川 成都 610041 ） 　 
+ 　 　 　 　 　 欧阳 洁 （ 广东 工业 大学 ， 广东 广州 510090 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ PalmerMW . Puttingthingsinevenbetterorder : theadvantangesofcanonicalcorrespondenceanalysis [ J ] . Ecology , 1993 , 74 ( 8 ) : 2215 ～ 2230 . 
+ ［ 2 ］ 李祚泳 . 人工神经网络 在 水 环境质量 评价 中 的 应用 [ J ] . 中国 环境监测 , 1996 , 12 ( 2 ) ： 36 ～ 38 . 
+ ［ 3 ］ 樊文艳 , 吴国 之 . 水质 综合 评价 的 物元 模型 的 建立 与 应用 [ J ] . 上海 环境 科学 , 2000 , 19 ( 5 ) ： 205 ～ 207 . 
+ ［ 4 ］ 李祚泳 . B - P 网络 用于 水质 综合 评价 方法 的 研究 [ J ] . 环境工程 , 1995 , 13 ( 2 ) ： 51 ～ 53 . 
+ ［ 5 ］ HollandJH . Geneticalgorithms [ J ] . ScientificAmerican , 1992 , ( 4 ) : 44 ～ 50 . 
+ ［ 6 ］ 李祚泳 , 王珏 , 刘国东 , 等 . 大气质量 污染 损失率 评价 模型 参数 的 GA 优化 [ J ] . 环境 科学研究 , 2001 , 14 ( 2 ) ： 7 ～ 10 . 
+ ［ 7 ］ 朱发庆 , 高冠 民 , 李国倜 , 等 . 东湖 水污染 经济损失 研究 [ J ] . 环境 科学 学报 , 1993 , 13 ( 2 ) ： 214 ～ 222 . 
+ 
+ 收稿 日期 ： 2000 年 9 月 15 日 
+ 出版日期 ： 2001 年 5 月 30 日 

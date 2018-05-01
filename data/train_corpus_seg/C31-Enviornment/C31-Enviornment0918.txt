@@ -1,0 +1,75 @@
+环境 科学 学报 
+ ACTASCIENTIAECIRCUMSTANTIAE 
+ 1999 年 第 19 卷 第 5 期 Vol.19 No.51999 
+ 
+ 
+ 
+ 滆 湖 磷 迁移 模型 方程 的 重新 推导 
+ — — 兼 与 《 滆 湖 磷 迁移 模型 的 研究 》 一文 作者 商榷 
+ 左其亭 　 赵会强 　 王中根 　 谈 　 戈 
+ 　 　 ［ 编者按 ］ 　 “ 学报 ” 是 广大 作者 、 读者 进行 学术交流 的 桥梁 . 为 活跃 学术 气氛 ， 我们 本着 “ 百花齐放 ， 百家争鸣 ” 的 方针 ， 尝试 着 开辟 一小块 讨论 园地 ， 不定期 地 对 一些 不尽相同 的 学术观点 展开讨论 . 希望 读者 见仁见智 、 各抒己见 ， 以 达到 互相切磋 、 深入探讨 、 共同提高 的 目的 . 
+ 　 　 本期 发表 的 左 其亭 同志 一篇 来稿 ， 是 针对 我刊 1998 年 第一期 刊登 的 黄文钰 等 同志 撰写 的 “ 滆 湖 磷 迁移 模型 的 研究 ” 一文 所写 的 讨论稿 . 
+ 摘要 　 根据 物质 平衡 原理 对 滆 湖 磷 迁移 模型 方程 进行 推导 、 旨在 与 《 环境 科学 学报 》 1998 年 1 期 发表 的 “ 滆 湖 磷 迁移 模型 的 研究 ” 一文 的 作者 进行 商榷 . 
+ 关键词 　 滆 湖 ； 磷 迁移 模型 ； 重新 推导 . 
+ Rederivationofequationofphosphorusmigrationmodelingehulake 
+ — — Alsodiscusswithauthorsofthepaper 《 ModelingofphosphorusmigrationingehuLake 》 
+ ZUOQiting ( HebeiInstituteofArchitecturalScienceandTechnology , Handan , 056038 ) 
+ ZHAOHuiqiang ( TheWaterConservancyDepartmentofHebeiProvince , Shijiazhuang050011 ) 
+ WANGZhonggenTANGe ( WuhanUniversityofHydraulicandElecricEngineering , Wuhan , 430072 ) 
+ Abstract 　 Accordingtothetheoryofmatterequilibrium , themodelofphosphorusmigrationinGehulakewasbuiltinthepaper 《 ModelingofPhosphorusMigrationinGehuLake 》 ［ 1 ］ , andwasverifiedinpaper ［ 1 ］ . Butwefindproblemofequation ( 1 ) and ( 2 ) inpaper [ 1 ] . AndwerederiveequationofphosphorusmigrationmodelinGehuLake . 
+ Keywords 　 GehuLake , phosphorusmigrationmodel , rederivation . 
+ 　 　 《 滆 湖 磷 迁移 模型 的 研究 》 ［ 1 ］ 一文 ， 根据 物质 平衡 原理 ， 建立 了 滆 湖 磷 迁移 模型 ， 并 对模型 进行 求解 、 检验 . 我们 在 借鉴 该文 成果 的 过程 中 ， 发现 该文 式 ( 1 ) 、 式 ( 2 ) 在 推导 结果 上 存在 问题 . 本文 根据 物质 平衡 原理 重新 对 滆 湖 磷 迁移 模型 方程 进行 推导 . 
+ 1 　 文 ［ 1 ］ 中 建立 的 磷 迁移 模型 
+ 　 　 文 ［ 1 ］ 分别 建立 了 可溶性 磷 ( TDP ) 、 颗粒 磷 ( PP ) 、 叶绿素 a ( A1 ) 、 水草 ( A2 ) 和 鱼类 ( A3 ) 等 5 个 生态 模型 来 描述 磷 在 湖体 各 要素 中 的 动态变化 . 我们 仅 讨论 其中 的 第一个 式子 ， 即文 ［ 1 ］ 中式 ( 1 ) . 原 表达式 如下 ： 
+ 　 　 ( 1 ) 
+ 式 中 ， CTDP — — 湖水 中 可溶性 磷 浓度 ( mg / L ) ; 
+ 　 　 　 t — — 模拟计算 的 时段 ( d ) ； 
+ 　 　 　 Q1 — — 起始 时 湖泊 的 容积 ( m3 ) ( 原文中 使用 符号 Q0 ; 为了 与 流量 符号 区别 ， 换成 V0 为 好 ) ； 
+ 　 　 　 Q1 — — 入湖 河道 入湖 的 水量 ( m3 / d ) ; 
+ 　 　 　 Q2 — — 湖区 径流 入湖 的 水量 ( m3 / d ) ; 
+ 　 　 　 Q3 — — 湖面 降水量 ( m3 / d ) ; 
+ 　 　 　 Q5 — — 湖泊 出湖 水量 ( m3 / d ) ; 
+ 　 　 　 CTDP0 — — 起始 时 湖水 中 可溶性 磷 浓度 ( mg / L ) ; 
+ 　 　 　 CTDP1 — — 入湖 河道 水中 可溶性 磷 浓度 ( mg / L ) ; 
+ 　 　 　 CTDP2 — — 入湖 径流 水中 可溶性 磷 浓度 ( mg / L ) ； 
+ 　 　 　 CTDP3 — — 湖面 降水 中 可溶性 磷 浓度 ( mg / L ) ； 
+ 　 　 　 CTDP5 — — 出 湖水 中 可溶性 磷 浓度 ( mg / L ) ； 
+ 　 　 　 I1 — — 底泥 可溶性 磷 的 释放 速率 ( mg / ( m2 . d ) ) ； 
+ 　 　 　 S — — 湖底 的 面积 ( m2 ) ； 
+ 　 　 　 CA1 — — 湖水 中 Chla 的 浓度 ( mg / m3 ) ; 
+ 　 　 　 CA2 — — 湖体 中 水草 现存 量 ( kg / m2 ) ； 
+ 　 　 　 r1 — — Chla 的 增长率 ( 1 / d ) ; 
+ 　 　 　 r2 — — 水草 的 增长率 ( 1 / d ) ; 
+ 　 　 　 a1p — — Chla 的 含磷量 ( ppm ) ; 
+ 　 　 　 a1p — — 水草 的 含磷量 ( ppm ) ; 
+ 　 　 　 Cpp — — 湖水 中 颗粒 磷 浓度 ( mg / L ) ； 
+ 　 　 　 k1 — — 颗粒 磷向 可溶性 磷 的 转化 系数 ( 1 / d ) ; 
+ 　 　 　 k2 — — 水草 从 水中 吸收 磷 的 系数 ( % ) ； 
+ 　 　 　 T — — 水温 ( ℃ ) . 
+ 2 　 磷 迁移 模型 方程 的 重新 推导 
+ 　 　 根据 物质 平衡 原理 ， 我们 只 给出 可溶性 磷 ( TDP ) 的 模型 推导 过程 . 其它 模型 依此类推 . 
+ 　 　 设 湖泊 水体 为 一个 系统 . 针对 该 系统 ， 任何 物质 ( 如 水份 、 盐份 、 可溶性 磷 等 ) 迁移 转化 都 符合 物质 平衡 原理 . 针对 TDP 平衡 ， 有 
+ 　 　 　 　 　 　 　 　 ( 2 ) 
+ 针对 水量 平衡 ， 有 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 式 中 ， V — — 湖泊 水体 体积 ( m3 ) ; 
+ 　 　 　 QIni — — 系统 第 i 个 途径 入湖 的 水量 ( m3 / d ) ; 
+ 　 　 　 QOuti — — 系统 第 i 个 途径 出湖 的 水量 ( m3 / d ) ; 
+ 　 　 　 CIni — — 系统 第 i 个 途径 入湖 的 可溶性 磷 浓度 ( mg / L ) ; 
+ 　 　 　 Δ W — — 其它 途径 引起 可溶性 磷 的 改变 量 ( g / d ) ； 
+ 　 　 式 ( 2 ) 、 ( 3 ) 是 平衡 方程 一般 式 ， 对 任何 湖泊 都 适用 . 只是 对 不同 的 湖泊 ， 式 ( 2 ) 、 ( 3 ) 各项 式 取值 不同 而已 . 针对 滆 湖 ， 运用 文 ［ 1 ］ 中 成果 ， 式 ( 2 ) 、 ( 3 ) 中 几项 有 如下 关系 ： 
+ 　 　 ( 4 ) 
+ 　 　 　 　 ( 5 ) 
+ 　 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 　 　 根据 函数 求导 ， 又 有 如下 关系式 ： 
+ 　 　 　 　 　 　 　 　 ( 7 ) 
+ 　 　 把 以上 式 ( 2 ) 、 ( 3 ) 、 ( 4 ) 、 ( 5 ) 、 ( 6 ) 、 ( 7 ) 结合 起来 ， 并 考虑 在 有限 的 时段 Δ t 内 ( 原文 ［ 1 ］ 取 Δ t = 1 ( d ) ， 湖泊 水 体积 变化率 . 于是 ， 可 得 如下 方程式 ： 
+ 　 　 　 　 ( 8 ) 
+ 　 　 式 ( 8 ) 是 一个 微分方程 式 ， 再 加上 初始条件 就 可以 求解 . 把 式 ( 8 ) 式 与 ( 1 ) 式 相对 ， 文 ［ 1 ］ 不仅 作 了 不必要 的 简化 ， 而且 ， 在 式 ( 1 ) 中 ， 等式 右边 第一项 分子 上面 多 了 一项 Q0 . CTDP0 , 此项 相对 其它 项量 很大 ， 是 绝对 不 可以 忽略 和 任意 添加 的 项 ， 它 对式 ( 1 ) 求解 结果 起 重要 作用 . 然而 ， 对比 式 ( 8 ) ， 这 一项 是 多余 的 ( 此外 ， 两式 还 较 小 差异 ) . 同样 分析 认为 ， 文 ［ 1 ］ 中式 ( 2 ) 也 多余 一项 Q0 . CPP0 . 
+ 　 　 对于 以上 分析 ， 我们 经过 多次 认真 讨论 ， 同时 请教 了 多位 同行 专家 ， 才 得出 如 上 结论 . 现与文 ［ 1 ］ 作者 商榷 . 不妥 之 处 ， 欢迎 文 ［ 1 ］ 作者 及其 他 同行 专家 指正 . 
+ 作者 单位 : 左其亭 : 河北 建筑 科技 学院 ， 河北 邯郸 　 056038 　 赵会强 : 河北省 水利厅 水资源 开发 中心 
+ 王中根 　 谈 　 戈 : 武汉 水利电力 大学 
+ 参考文献 
+ 　 1 　 黄文钰 ， 舒 金华 ， 吴延根 等 ， 滆 湖 磷 迁移 模型 的 研究 . 环境 科学 学报 ， 1998 ， 18 ( 1 ) ： 34 — 38 
+ 　 2 　 叶守泽 ， 夏军 等 . 水库 水 环境模拟 预测 与 评价 . 北京 ： 中国 水利水电 出版社 . 1998 
+ 1998 - 11 - 18 收到 原稿 

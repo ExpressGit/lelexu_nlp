@@ -1,0 +1,128 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 　 第 23 卷 　 第 4 期 　 Vol.23 　 No.4 　 1997 
+ 
+ 
+ 
+ 不 确定 奇异 摄动 系统 的 变 结构 
+ 控制 设计 与 稳定性 分析 1 ) 
+ 岳东 　 刘永清 　 许世范 
+ 　 　 摘 　 要 　 对 一类 不 确定 奇异 摄动 系统 给出 一个 变 结构 控制 设计 方法 ， 并 分析 了 滑动 模 的 动态 品质 . 最后 给出 一 设计 实例 . 
+ 　 　 关键词 　 奇异 摄动 系统 ， 变 结构 控制 ， Lyapunov 函数 ， 滑动 模 . 
+ DESIGNOFVARIABLESTRUCTURECONTROLAND 
+ STABILITYANALYSISFORSINGULARLYPERTURBED 
+ UNCERTAINSYSTEMS 
+ YUEDONG 
+ ( CollegeofInformation & ElectricalEngineering , ChinaUniversityofMining & Technology , Xuzhou221008 ) 
+ LIUYONGQING 
+ ( SouthChinaUniveristyofTechnology , Guangzhou510641 ) 
+ XUSHIFAN 
+ ( CollegeofInformation & ElectricalEngineering , ChinaUniversityofMining & Technology , Xuzhou221008 ) 
+ Abstract 　 Thispaperdiscussesthedesignproblemofrobustcontrolforuncertainsingularperturbationsystems . Byintroducingstatetransformationandusingthevariabalestructuresystemsmethod , anewdesignmethodofvariablestructurecontrolisproposed , whichnotonlypossessesgoodrobustness , butalsoimposeslessrestrictiononthecontrolthanreferencesdid . 
+ Keywords 　 Singularlyperturbedsystems , variablestructruecontrol , Lyapunovfunction , slidingmode . 
+ 1 　 引言 
+ 　 　 确定性 奇异 摄动 系统 镇定 控制 的 研究 工作 已有 不少 ［ 1 ， 2 ］ . 然而 ， 实际 系统 中 不可避免 会 出现 如 建模 误差 与 外来 干扰 等 不 确定 因素 ， 在 此 情况 下 ， 再 利用 以往 控制 ， 一般 不能 保证系统 的 稳定 . 为此 ， 人们 提出 了 若干 鲁棒控制 器 的 设计 方法 ［ 3 — 5 ］ . 文 ［ 4 ］ 中 研究 了 一类 不 确定 奇异 摄动 系统 ， 给出 一 复合型 鲁棒控制 . 但文 ［ 4 ］ 中仅 研究 了 不 确定 因素 在 慢变 子系统 出现 的 情形 . 文 ［ 3 ］ 在 文 ［ 4 ］ 的 基础 上 对 一类 更 广泛 的 奇异 摄动 系统 给出 了 鲁棒控制 设计 ， 所 给 控制 可 保证系统 的 最终 有界 . 文 ［ 5 ］ 中 利用 奇异 摄动 理论 给出 一 复合型 变 结构 控制 ， 并 研究 了 滑动 模 的 到达 . 然而 ， 文 ［ 5 ］ 中 并未 讨论 当 不 确定 项 出现 时 系统 的 变化 . 另外 还 需要 假设 切换 频率 高于 快变 子系统 的 变化 频率 . 
+ 　 　 本文 研究 了 一类 不 确定 奇异 摄动 系统 ， 给出 一种 较 简单 的 变 结构 控制 设计 方法 ， 并 详细分析 了 滑动 模 的 动态 品质 . 最后 给出 一 设计 实例 . 
+ 2 　 准备 工作 
+ 　 　 考虑 如下 不 确定 奇异 摄动 系统 
+ = A11x + A12z + B1u + f1 ( t , x , z ) , 
+ 
+ ( 1 ) 
+ 这里 x ∈ Rn , z ∈ Rm 是 状态 向量 ； u ∈ Rp 是 控制 向量 ； ε ＞ 0 是 奇异 摄动 参数 ； fi ( t , x , z ) 表示 参数 摄动 与 外 干扰 ； Aij ( i , j = 1 , 2 ) , Bi ( i = 1 , 2 ) 是 具有 适当 维数 的 常数 阵 . 
+ 　 　 假设 1 . A22 可逆 且 ( A22 , B2 ) 可控 . 
+ 　 　 假设 2 . 　 可控 . 
+ 　 　 假设 3 . 存在 q ( t , x , z ) 使 fi ( t , x , z ) ( i = 1 , 2 ) 可 表示 为 
+ fi ( t , x , z ) = Biq ( t , x , z ) 
+ ( 2 ) 
+ 且 q ( t , x , z ) 满足 
+ ‖ q ( t , x , z ) ‖ ≤ ρ 1 + ρ 2 ‖ x ‖ + ρ 3 ‖ z ‖ 
+ ( 3 ) 
+ 3 　 控制 的 设计 
+ 　 　 由 假设 2 知 ， 存在 矩阵 K1 使 ( A11 + A12A21 ) + ( A12 + B1 ) K1 是 稳定 的 . 因此 取 控制 u 为 
+ u = K1x + v , 
+ ( 4 ) 
+ 代入 ( 1 ) 得 
+ = ( A11 + B1K1 ) x + A12z + B1v + B1q ( t , x , z ) , 
+ 
+ ( 5 ) 
+ 令 η = z - ( A21 + B2K1 ) x , 则 有 
+ 
+ ( 6 ) 1 
+ 
+ ( 6 ) 2 
+ 这里 = ( A11 + A12A21 ) + ( A12B2 + B1 ) K1 是 稳定 阵 ， ( ε ) = - ε ( A21 + B2K2 ) ［ x + A12 η + B1v + B1q ( t , x , z ) ］ . 
+ 　 　 以下 将 对 控制 量 v 进行 综合 ， 这里 利用 ( 6 ) 2 给出 一个 变 结构 控制 设计 . 
+ 　 　 由 假设 1 知 ， 存在 非 奇异 变换 ［ 6 ］ 
+ 
+ 使 ( 6 ) 2 化为 如下 形式 
+ 
+ ( 7 ) 1 
+ 
+ ( 7 ) 2 
+ 这里 , 且 可逆 . 
+ 　 　 构造 切换 函数 s = C η = C1 η 1 + C2 η 2 , 这里 C2 可逆 . 不妨 设 C2 = I ， 则 
+ s = C η = C1 η 1 + η 2 , 
+ ( 8 ) 
+ 这里 C = ［ C1 　 I ］ T - 1 . 
+ 　 　 定理 1 . 若 系统 的 滑动 模 运动 实现 ， 则 存在 充分 小 的 ε * ( ε * 的 估计 在 附录 中 给出 ) ， 当 ε ∈ ( 0 , ε * ］ 时 ， 滑动 模 方程解 最终 有 界 ， 且 满足 
+ ‖ x ‖ ≤ O ( ε 3 / 2 ) , ‖ z ‖ ≤ O ( ε ) , 
+ 这里 O ( ε ) 表示 与 ε 同阶 . 
+ 证明 . 略 
+ 　 　 以上 研究 了 滑动 模 的 动态 品质 ， 下面 进一步 研究 滑动 模 的 到达 问题 . 为此 要 给出 控制 v 的 设计 . 本文 将 采用 变 结构 控制 . 
+ 　 　 取 Q = ε sTs ， 则 
+ 
+ 设计 控制 v 为 
+ 
+ ( 9 ) 
+ 则 
+ 
+ ( 10 ) 
+ 利用 ( 9 ) ， ( 10 ) 可 得 
+ 
+ 因此 只要 取 1 ， 4 ， 3 满足 1 ＞ ρ 1 ‖ CB2 ‖ + ε * θ 1 + θ 0 ， 4 ＞ ρ 4 ‖ CB2 ‖ + ε * θ 2 + Q0 , 3 ＞ ρ 3 ‖ CB2 ‖ + ε * θ 3 + θ 0 ， 则 有 
+ ＜ - θ 0 ｜ s ｜ , 　 θ 0 ＞ 0 . 
+ 由此 可 推知 ［ 6 ］ ， 在 控制 ( 4 ) ， ( 9 ) 作用 下 ， 滑动 模是 可达 的 . 
+ 4 　 例子 
+ 　 　 考虑 如下 系统 
+ 
+ 这里 ε = 0.1 ， 扰动 量 q ( t ) = 5cos ( t ) . 
+ 　 　 取 η 1 = z1 + x , η 2 = z2 ， 且 构造 切换 函数 为 s = 2 η 1 + η 2 . 设计 控制 u 为 u = - 2 η 1 - 3 η 2 - 10sgn ( s ) = - 2x - 2z1 - 3z2 - sgn ( s ) . 仿真 中取 初始值 为 x ( 0 ) = 2 , z1 ( 0 ) = 3 , z2 ( 0 ) = 5 , 横坐标 表示 时间 t ， 纵坐标 表示 的 变化 如图 1 所示 . 
+ 
+ 
+ 图 1 
+ 5 　 结论 
+ 　 　 对 不 确定 奇异 摄动 系统 本文 给出 一个 变 结构 控制 设计 ， 所 给 控制 在 ε 充分 小时 可 保证 闭环 系统 解是 最终 有界 的 ， 且 此界 与 ε 同阶 . 这 一点 在 文献 ［ 3 ］ 中是 无法 保证 的 ， 由于 本文 在 变 结构 控制 v 的 设计 时仅 利用 了 系统 ( 7 ) 2 ， 因此 设计 的 控制 较 文献 ［ 5 ］ 中 简单 . 本文 详细分析 了 滑动 模 运动 的 动态 品质 ， 得到 了 比较 细致 的 结果 ， 从而 证明 了 本文 方法 的 可行性 . 另外 ， 本文 结果 同时 表明 ， 奇异 摄动 参数 ε 越小 ( 大于 零 ) ， 所 保证 的 闭环 系统 解 收敛 于 零 的 精度 越高 . 
+ 1 ) 　 国家自然科学基金 与 博士后 基金 资助 . 
+ 作者 单位 ： 岳东 　 中国矿业大学 信电 学院 　 徐州 　 221008 
+ 　 　 　 　 　 刘永清 　 华南理工大学 自动化系 　 广州 　 510641 
+ 　 　 　 　 　 许世范 　 中国矿业大学 信电 学院 　 徐州 　 221008 
+ 参考文献 
+ ［ 1 ］ 　 许可 康 . 控制系统 中 的 奇异 摄动 . 北京 ： 科学出版社 ， 1986 . 
+ ［ 2 ］ 　 KokotovicPVetal .. Singularperturbationmethodsincontrol : analysisanddesign . AcademicPress , London , 1986 . 
+ ［ 3 ］ 　 ColessMetal . Newresultsoncompositecontrolofsingularlyperturbeduncertainlinearsystems . Automatica , 1993 , 29 ( 2 ) : 387 — 400 . 
+ ［ 4 ］ 　 GarofaloF . Compositecontrolofsingularlyperturbeduncertainsystemswithslownonlinearities . Int . J . Control , 1988 , 48 : 1979 — 1991 . 
+ ［ 5 ］ 　 HeckBS . Sliding - modecontrolofsingularlyperturbedsystems . Int . J . Control , 1991 , 53 ( 4 ) : 985 — 1001 . 
+ ［ 6 ］ 　 高为炳 . 变 结构 控制 理论 基础 . 北京 ： 科学出版社 ， 1990 . 
+ 收稿 日期 　 1995 - 04 - 10 
+ 附录 A 
+ 　 　 设 Fi ( i = 1 , 2 , 4 ) 已知 且 λ 1 ， λ 2 ， d 都 已 选定 . 
+ 　 　 考虑 下列 两 方程 
+ ζ 1 ε 2 + ζ 2 ε - ζ 3 ＜ 0 ， 
+ ( A1 ) 
+ η 1 ε 2 + η 2 ε - η 3 ＜ 0 . 
+ ( A2 ) 
+ 这里 
+ 
+ 由 ( A1 ) 可解 得 
+ 
+ ( A3 ) 
+ 由 ( A2 ) 解得 
+ 
+ ( A4 ) 
+ 令 ε * = min ( ) , 则 易知 ， 当 ε ∈ ( 0 , ε * ］ 时 定理 1 结论 成立 . 
+ 　 　 以下 是 估计 ε * 的 步骤 ： 
+ 　 　 1 ＞ . 选取 β ＜ 1 ， 从而 确定 ; 
+ 　 　 2 ＞ . 估计 Fi ( i = 1 , 2 , 3 , 4 ) ; 
+ 　 　 3 ＞ . 选取 λ 1 ， λ 2 ， d 使 ζ 3 ＞ 0 , ζ 3 ＞ 0 ; 
+ 　 　 4 ＞ . 按 ( A3 ) ， ( A4 ) 计算 ; 
+ 　 　 5 ＞ . 取 ε * = min ( ) . 

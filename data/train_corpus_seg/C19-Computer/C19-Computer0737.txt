@@ -1,0 +1,102 @@
+自动化 学报 
+ AGTAAUTOMATICASINICA 
+ 1999 年 第 25 卷 第 2 期 Vol.25 No.21999 
+ 
+ 
+ 
+ 
+ 一类 不 确定 非线性 系统 的 鲁棒 H ∞ 控制 1 ) 
+ 王 向东 　 高立群 　 张嗣 瀛 
+ 摘 　 要 　 讨论 了 在 自由 系统 和 输入 通道 都 带有 有 界 不确定性 的 仿射 非线性 系统 的 鲁棒 H ∞ 控制 问题 ， 给出 了 状态 反馈 控制 设计 ， 对 所有 允许 的 不确定性 它 既 能 保证 关于 H ∞ 模 的 干扰 抑制 品质 ， 又 能 镇定 该 系统 . 同时 指出 如果 一个 相应 的 Hamilton - Jacobi 不等式 有非 负解 ， 则 该 不 确定 仿射 非线性 系统 的 鲁棒 H ∞ 控制 问题 可解 . 
+ 关键词 　 不确定性 ， 非线性 系统 ， 鲁棒 H ∞ 控制 . 
+ ROBUSTH ∞ CONTROLFORUNCERTAINNONLINEAR 
+ SYSTEMSVIASTATEFEEDBACK 
+ WANGXiangdong 　 GAOLiqun 　 ZHANGSiying 
+ ( Dept . ofAutomaticControl , NortheasternUniv . , Shenyang 　 110006 ) 
+ Abstract 　 Inthispaper , wediscusstherobustH ∞ controlproblemforaclassofaffinenonlinearsystemswithnorm - boundeduncertaintiesinbothfreesystemandinputmatrices . WepresentastatefeedbackcontroldesignwhichstabilizestheplantandguaranteesanH ∞ normboundconstrainondisturbanceattenuationforalladmissibleuncertainties . TherobustH ∞ controlproblemissolvedbyfindingasolutionforHamilton - Jacobiinequality , whichisthenonlinearanalogyofRiccatiinequalityappearringinstudyofH ∞ controlproblemoflinearsystem . 
+ Keywords 　 Uncertainty , nonlinearsystem , robustH ∞ control . 
+ 1 　 引言 
+ 　 　 在 状态 空间 方法 中 ， 减少 闭环 系统 的 H ∞ 模 ( 或 等价 地 ， L2 - 诱导 模 ) 可以 看作 是 零合 的 微分 对策 问题 ， 这样 所 需要 的 控制 的 存在 性 和 设计 都 与 线性 二次 微分 对策 理论 中 出现 的 Riccati 方程解 的 存在 性有 关系 ［ 1 — 4 ］ . 最近 以来 ， 关于 不 确定 系统 的 鲁棒 H ∞ 控制 问题 引起 人们 的 研究 兴趣 ［ 5 — 6 ］ . 在 这里 控制 的 目的 是 镇定 不 确定 系统 ， 同时 还 能 对 所有 允许 的 不确定性 保证 关于 H ∞ 模 的 干扰 抑制 品质 . 
+ 　 　 本文 讨论 在 自由 系统 和 输入 通道 都 带有 有 界 不确定性 的 仿射 非线性 系统 的 鲁棒 H ∞ 控制 问题 ， 可以 看作 文献 ［ 8 ］ 的 推广 . 文献 ［ 8 ］ 所 讨论 的 系统 只 在 自由 系统 中 带有 不确定性 ， 本文 所 采用 的 方法 依赖于 Hamilton - Jacobi 不等式 ， 通过 求解 一个 由 标称 系统 和 不确定性 的 界 函数 构造 的 Hamilton - Jacobi 不等式 的 光滑 解 ， 就 能 得到 不 确定 非线性 系统 的 鲁棒 H ∞ 控制 问题 的 解 . 
+ 　 　 记号 ： 对 z ∈ Rn , ‖ z ‖ 2 , ‖ z ‖ T 分别 表示 代表 满足条件 ‖ z ( t ) ‖ T ＜ ∞ 的 向 量值 函数 z ( t ) 的 集合 . 
+ 2 　 系统 描述 
+ 　 　 考虑 不 确定 非线性 系统 
+ 
+ ( 1 ) 
+ 
+ ( 2 ) 
+ 其中 x ∈ XRn 是 状态 ， X 是 x = 0 的 一个 邻域 ， d ∈ Rl 是 干扰 输入 ， u ∈ Rm 是 控制 输入 ， z ∈ Rs 是 输出 . f ( x ) , g1 ( x ) , g2 ( x ) , h1 ( x ) , k12 ( x ) 是 已知 光滑 函数 ， Δ f ( x ) , Δ g2 ( x ) 是 未知 光滑 函数 . 不失 一般性 作者 假设 f ( 0 ) = 0 , h1 ( 0 ) = 0 . 
+ 　 　 假设 1 . 　 　 　 　 　 　 　 
+ ( 3 ) 
+ 　 　 假设 2.1 ) Δ f ( x ) = e ( x ) δ ( x ) ， 其中 e : Rn → Rn × q ， δ : Rn → Rq 分别 是 已知 和 未知 的 光滑 函数 且 Δ f ( x ) 属于 如下 定义 的 有界 集合 ： 
+ 
+ ( 4 ) 
+ 其中 ω : Rn → Rq 是 给定 的 函数 . 
+ 　 　 　 　 　 2 ) 
+ ( 5 ) 
+ 其中 0 ≤ β ( x ) ＜ 1 . 
+ 　 　 本文 讨论 不 确定 系统 ( 1 ) ， ( 2 ) 的 状态 反馈 鲁棒 H ∞ 控制 问题 . 考虑 设计 非线性 反馈 控制 
+ 
+ ( 6 ) 
+ 　 　 定义 1 . 给定 γ ＞ 0 . 称 闭环 系统 ( 1 ) ， ( 2 ) ， ( 6 ) 是 在 U 糥 具有 局部 鲁棒 干扰 抑制 品质 ， 如果 对 所有 的 Δ f ∈ Ω 和 满足 式 ( 5 ) 的 Δ g2 ( x ) , 自由 系统 当 d = 0 时 是 局部 渐近 稳定 的 ( 其 吸引 域 含 U ) ， 且 ‖ z ‖ T ≤ γ ‖ d ‖ T 对 所有 的 T ＞ 0 和 任何 d ∈ D 成立 . 其中 D 定义 为 
+ 
+ ( 7 ) 
+ 其中 x ( t , t0 , x0 ) 是 当初 值为 x ( t0 ) = x0 时 闭环 系统 的 解 . 不妨 设 γ = 1 . 
+ 　 　 定义 鲁棒 H ∞ 控制 问题 如下 ： 对 给定 的 系统 ( 1 ) ， ( 2 ) ， 求得 状态 反馈 控制 ( 6 ) 使 闭环 系统 具有 局部 鲁棒 干扰 抑制 品质 . 为了 叙述 主要 结果 引入 下面 的 定义 和 引理 . 考虑 光滑 系统 
+ 
+ ( 8 ) 
+ 　 　 定义 2 ［ 7 ］ . 称 系统 ( 8 ) 是 零 状态 可 观测 的 ， 如果 对 任何 x ∈ U 有 
+ 
+ 其中 x ( t , t0 , x0 , u ) 表示 系统 ( 8 ) 当 初始条件 为 x ( t0 ) = x0 和 输入 为 u 时 的 解 . 
+ 　 　 引理 1 ［ 7 ］ . 对系统 ( 8 ) ， 如果 下面 的 Hamilton - Jacobi 不等式 
+ 
+ 有 光滑 解 V ( x ) ≥ 0 , 则 对 任何 T ＞ 0 , d ∈ D 有 ‖ y ‖ T ≤ ‖ u ‖ T . 
+ 3 　 主要 结果 
+ 　 　 主要 结果 是 给出 系统 ( 1 ) ， ( 2 ) 鲁棒 H ∞ 控制 问题 的 解 . 文献 ［ 5 ， 6 ］ 建立 了 所要 讨论 的 不 确定 线性系统 的 鲁棒 H ∞ 控制 问题 ， 与 一个 相应 系统 的 H ∞ 控制 问题 之间 的 关系 . H ∞ 控制 问题 的 状态 空间 方法 与 Riccati 方程 方法 或 不等式 方程 之间 的 关系 ， 启发 我们 利用 Hamilton - Jacobil 方程 或 不等式 方法 来 讨论 不 确定 非线性 系统 的 鲁棒 H ∞ 控制 问题 . 
+ 　 　 定理 1 . 如果 存在 标量 函数 λ ( x ) ＞ 0 使 下面 的 Hamilton - Jacobi 不等式 
+ 
+ 
+ ( 9 ) 
+ 有 非负 光滑 解 V ( x ) 且 自由 系统 
+ 
+ 以为 输出 时 对 任何 Δ f ( x ) ∈ Ω 是 零 状态 可 观测 的 ， 则 鲁棒 H ∞ 控制 问题 的 解由 
+ 
+ ( 10 ) 
+ 给出 . 
+ 　 　 证明 . 必须 证明 对 任何 T ＞ 0 有 ‖ z ‖ T ≤ ‖ d ‖ T 且 闭环 系统 ( 1 ) ， ( 2 ) ， ( 10 ) 当 d = 0 时 是 局部 渐近 稳定 的 . 注意 闭环 系统 ( 1 ) ， ( 2 ) ， ( 10 ) 为 
+ 
+ ( 11 ) 
+ 
+ ( 12 ) 
+ 由式 ( 10 ) 和 假设 1 ， 2 ， 得 
+ 
+ 
+ ( 13 ) 
+ 定义 　 
+ 则 式 ( 13 ) 变成 
+ 
+ ( 14 ) 
+ 但是 
+ 
+ 　 　 由式 ( 14 ) 有式 ( 13 ) 小于 或 等于 0 . 由 引理 1 ， 对 任何 T ＞ 0 有 ‖ z ‖ T ≤ ‖ d ‖ T . 关于 局部 渐近 稳定性 ， 由 文献 ［ 7 ］ 定理 5 知 V ( x ) 正定 . 取 V ( x ) 为 Lyapunov 函数 ， 由式 ( 13 ) ， ( 14 ) 和 Δ ≤ 0 有 再 由 假设 ， 非常明显 下面 的 系统 
+ 
+ 也 是 零 状态 可 观测 的 . 由 Lasalle 不变性 原理 或 直接 地 由 文献 ［ 7 ］ 中 的 定理 5 或 推论 17 ， 闭环 系统 ( 1 ) ， ( 2 ) ， ( 10 ) 当 d = 0 时 ， 是 局部 渐近 稳定 的 . 这样 就 证明 了 定理 1 . 
+ 　 　 注 . 当 系统 ( 1 ) 中 Δ g2 = 0 ， 本文 是 文献 ［ 8 ］ 的 推广 . 
+ 4 　 结论 
+ 　 　 本文 讨论 了 一类 自由 系统 和 输入 通道 都 带有 有 界 不确定性 的 非线性 系统 的 鲁棒 H ∞ 控制 问题 . 利用 Hamilton - Jacobi 不等式 ， 得到 了 鲁棒 H ∞ 控制 问题 可解 的 充分条件 和 控制 律 的 计算方法 . 本文 是 不 确定 线性系统 的 鲁棒 H ∞ 控制 问题 的 状态 空间 方法 在 非线性 系统 中 的 推广 . 
+ 1 ) 国家自然科学基金 资助 项目 ( 编号 ： 69374005 ) 和 辽宁省 自然科学 基金 资助 项目 ( 编号 ： 962169 ) . 
+ 作者简介 ： 王 向东 　 男 ， 39 岁 ， 博士生 ， 现为 沈阳 工业 大学 副教授 . 研究 方向 为 复杂 系统 的 结构 与 控制 . 
+ 　 　 　 　 　 高立群 　 男 ， 49 岁 ， 东北大学 教授 . 研究 方向 为 系统 辨识 、 微分 对策 、 复杂 系统结构 . 
+ 　 　 　 　 　 张嗣 瀛 　 男 ， 73 岁 ， 东北大学 教授 ， 博士生 导师 ， 中国科学院 院士 . 研究 方向 为 复杂 系统 的 结构 与 控制 . 
+ 作者 单位 ： 东北大学 自控 系 　 沈阳 　 110006 
+ 参考文献 
+ 1 　 DoyelJC , GloverK , KhargonekarPPetal . State - spacesolutionstostandardH2andH ∞ controlproblems . IEEETrans . Automat . Contr . , 1989 , AC - 34 : 831 — 846 
+ 2 　 IsidoriA , AstolfiA . DisturbanceattenuationandH ∞ controlviameasurementfeedbackinnonlinearsystems . IEEETrans . Automat . Contr . , 1992 , AC - 37 : 1283 — 1293 
+ 3 　 BallJA , HeltonJWetal . H ∞ controlfornonlinearsystemswithoutputfeedback . IEEETrans . Automat . Contr . , 1993 , AC - 38 : 546 — 559 
+ 4 　 IsidoriA , WeiK . H ∞ controlviameasurementfeedbackforgeneralnonlinearsystems . IEEETrans . Automat . Contr . , 1995 , AC - 40 ： 466 — 472 
+ 5 　 LihuaXie , MinyueFuetal . H ∞ controlandquadraticstabilizationofsystemswithparameteruncertaintyviaoutputfeedback . IEEETrans . Automat , Contr . , 1992 , AC - 37 : 1253 — 1256 
+ 6 　 LihuaXie , CarlosE . deSouza . RobustH ∞ controlforlinearsystemswithnorm - boundedtime - varyinguncertainty . IEEETrans . Automat , Contr . , 1992 , AC - 37 : 1188 — 1191 
+ 7 　 VanderSchaftAJ . L2gainanalysisofnonlinearsystemsandnonlinearstatefeedbackH ∞ control . IEEETrans . Automat . Contr . , 1992 , AC - 37 : 770 — 784 
+ 8 　 TielongShen , KatsutoshiTamura . RobustH ∞ controlofuncertainnonlinearsystemviastatefeedback . IEEETrans . Automat . Contr . , 1995 , AC - 40 : 766 — 768 
+ 收稿 日期 　 1997 - 04 - 07 
+ 收 修改稿 日期 　 1998 - 04 - 23 

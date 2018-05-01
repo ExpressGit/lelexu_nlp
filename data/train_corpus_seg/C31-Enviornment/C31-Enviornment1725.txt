@@ -1,0 +1,34 @@
+环境 科学研究 
+ RESEARCHOFENVIRONMENTALSCIENCES 
+ 2001Vol.14 No.1 P.53 - 56 
+ 
+ 
+ 
+ 
+ 生态 毒理学 研究 中 分子 构效 相关 的 应用 
+ 刘征涛 　 
+ 摘 　 要 ： 分子 定量 构效 相关 ( QSAR ) 理论 方法 是 当前 生态 毒理学 研究 领域 发展 的 重要 方向 和 前沿 ， QSAR 法 运用 多种 数学 模式 和 化合物 特征 表示 参数 ， 系统地 探究 化合物 的 生态 毒理学 机制 ， 进行 分子 水平 的 综合 研究 。 笔者 系统阐述 并 应用 目前 生态 毒理学 研究 中 采用 的 分子 构效 新 方法 ， 对 取代 芳烃 类 等 典型 有机物 的 生态 毒理学 效应 进行 了 举证 性 预测 研究 。 
+ 关键词 ： 定量 构效 相关 ； 　 生态 毒理学 ； 　 芳烃 类化合物 ； 　 毒性 预测 
+ 分类号 ： X171.5 　 文献 标识码 ： A 
+ 文章 编号 ： 1001 - 6929 ( 2001 ) 01 - 0053 - 04 
+ ApplicationofMolecularStructure - EffectRelationshipsonEcologicalToxicologyResearch 
+ LIUZheng - tao （ InstituteofEcology , ChineseResearchAcademyofEnvironmentalSciences , Beijing 　 100012 ， China ） 　 
+ Abstract ： Applyingthemethodsofmolecularquantitativestructure - activityrelationships ( QSARs ) ontheresearchofecologicaltoxicologyisanimportantareaandprecedenttide , andtheQSARappliesmanykindsofmathematicmodelsandmolecularcharacteristicdescriptorstoexploretheecologicalbiotoxicationmechanismsatthelevelofbiochemistrymoleculars . Thispaperdiscussessomeavailablemetodsofestablishingmolecularstructure - effectrelationship , andeffectivelyappliessomemoleculardescriptorstoinvestigatethebiotoxicationonsomesubstituentaromatichydrocarbons . 
+ Keywords ： QSARs ; 　 ecologicaltoxicolgy ; 　 aromatichydrocarbon ; 　 toxicityestimation 
+ 作者简介 ： 刘征涛 ( 1965 - ) ， 男 ， 江苏 江阴市 人 ， 副研究员 ， 博士 . 
+ 作者 单位 ： 刘征涛 （ 中国环境科学研究院 生态 所 ， 北京 　 100012 ） 　 
+ 参考文献 ： 
+ ［ 1 ］ HanschC , FujitaTJ . Amethodforthecorrelationofbiologicalactivityandchemicalstructure ［ J ］ . JAmChemSoc , 1964 , 86 : 1616 ～ 1626 . 
+ ［ 2 ］ TaftRW . Progressinphysicalorganicchemistry ［ S ］ . NewYork : JohnWiley & SonsInc , 1981 . 
+ ［ 3 ］ BlumDJW , SpeeceRE . Determiningchemicaltoxicitytoaquaticspecies ［ J ］ . EnvironScitechnol , 1990 , 24 : 284 . 
+ ［ 4 ］ BlumDWJ , SpeeceRE . Quantitativestructure - activityrelationshipsforchemicaltoxicitytioenvironmentalbacteria ［ J ］ . EcotoxicolEnvironSaf , 1991 , 22 : 198 ～ 224 . 
+ ［ 5 ］ WiegangC , PflugmacherS , GieseM , etal . Uptake , Toxicity , andeffectsondetioxificationenzymesofatrazineandtrifluoroacetateinembryosofzebrafish ［ J ］ . EcotoxicEnvironSaf , 2000 , 45 : 122 ～ 131 . 
+ ［ 6 ］ BriensF , BureauR , RaultS . ApplicabilityofCATALYSTinEcotoxicology , anewpromisingtoolfor3D - QSAR : studyofchlorophenols ［ J ］ . EcotoxicEnvironSaf , 1999 , 43 : 241 ～ 251 . 
+ ［ 7 ］ KutterE , HanschC . Stericparametersindrugdesign ［ J ］ . MedChem , 1969 , 12 : 647 ～ 652 . 
+ ［ 8 ］ KamletMJ , DohertyRM , TaftRW , etal . , Solubilitypropertiesinpolymersandbiologicalmedia ［ J ］ . EnvironSciTechnol , 1987 , 21 : 149 ～ 155 . 
+ ［ 9 ］ LymanWJ , ReehlWF . RosenblattDH . Handbookofchemicalpropertyestimationmethods ［ S ］ . NewYork : McGraw - HillPress , 1982 , 117 . 
+ ［ 10 ］ MartinYC , KutterE . Moderndrugresearch ［ M ］ . NewYork : MarcelDekkerInc , 1989.52 ～ 347 . 
+ ［ 11 ］ HeilbronnerE , BockH . TheHMOmodelanditsapplication ［ S ］ . London : JohnWiley & SonsInc , 1976 . 
+ ［ 12 ］ KierIB , HallLH . Molecularconnectivityinchemistryanddrugresearch ［ M ］ . NewYork : AcademicPress , 1976.52 ～ 278 . 
+ 收稿 日期 ： 2000 年 1 月 18 日 
+ 出版日期 ： 2001 年 1 月 30 日 

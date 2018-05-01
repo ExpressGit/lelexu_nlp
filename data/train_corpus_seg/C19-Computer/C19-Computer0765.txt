@@ -1,0 +1,79 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1999 年 　 第 25 卷 　 第 5 期 　 Vol.25 No.51999 
+ 
+ 
+ 
+ 
+ 一类 非线性 相似 组合 系统 的 鲁棒 分散 控制器 的 设计 
+ 陈 　 兵 　 井元伟 　 张嗣 瀛 
+ 摘 　 要 　 对于 一类 非线性 组合 系统 提出 了 系统 的 相似性 结构 的 定义 ， 讨论 了 这类 具有 相似性 结构 的 非线性 结构 不 确定 组合 系统 的 鲁棒 分散 镇定 问题 . 利用 系统 的 相似性 结构 , 采用 输入 、 输出 线性化 与 滑模 控制 原理 相结合 的 方法 所 设计 出 的 鲁棒 分散 控制器 可 确保 闭环 系统 是 渐近 稳定 的 . 研究 结果表明 系统 的 相似性 结构 使 设计 的 滑动 面 和 分散 控制器 亦 具有 相似 结构 , 从而 简化 了 对系统 的 分析 与 设计 . 
+ 关键词 　 相似性 结构 ， 鲁棒 分散 镇定 ， 非线性 组合 大 系统 . 
+ DESIGNOFDECENTRALIZEDROBUSTCONTROLLERFORACLASSOFNONLINEARCOMPOSITESYSTEMSWITHSIMILARITY 
+ CHENBing 　 JINGYuanwei 　 ZHANGSiying 
+ ( SchoolofInformationScienceandEngineering , NortheasternUniversity , Shenyang 　 110006 ) 
+ Abstract 　 Inthispaper , thesimilarstructureisdefinedforaclassofnonlinearcompositesystems , andthedecentralizedrobuststabilizationisdiscussedforaclassofnonlinearuncertaincompositesystemswithsimilarstructure . Byusingthesimilarstructureofsystemandtheinput - outputlinearizingmethodtogetherwithslidingmodecontroltheory , robustdecentralizedcontrollersaredesignedtoguaranteetheclosed - loopsystemsisasymptoticallystable . Ourresearchingresultshowsthattheslidingmodelanddecentralizedcontrollerdesignedinthispaperalsohavesimilaritybecauseofthesimilarstructureofthecompositesystems . Thiscansimplifytheanalysisanddesignofsystems . 
+ Keywords 　 Similarstructure , robuststabilization , nonlinearcompositesystems . 
+ 1 　 引 　 言 
+ 　 　 文献 ［ 1 ］ 提出 了 复杂 控制系统 的 相似性 结构 和 全息 控制 的 概念 , 主张 对 具有 特定 结构 的 复杂 控制系统 要 充分利用 其 自身 结构 特点 来 研究 其 控制 问题 . 目前 , 对于 线性组合 系统 在 相似性 结构 方面 的 研究 已经 取得 了 一些 好 的 结果 ［ 2 — 4 ］ . 而 对于 非线性 组合 系统 , 特别 是 非线性 不 确定 组合 系统 方面 的 研究 结果 尚 不多见 . 另一方面 , 由于 各种 原因 控制系统 中 总是 具有 一些 不 确定 因素 . 因此 , 非线性 不 确定 组合 系统 的 鲁棒 分散控制 问题 近年来 一直 受到 广泛 地 关注 . 
+ 　 　 本文 试图 利用 相对 度 概念 为 工具 给出 对于 一类 非线性 组合 系统 的 相似性 结构 的 一种 刻划 , 并 考虑 具有 相似性 结构 的 非线性 结构 不 确定 组合 系统 的 鲁棒 分散 镇定 问题 . 利用 系统 的 相似 结构 研究 控制 问题 以 简化 问题 的 复杂性 , 采用 滑模 控制 方法 设计 出鲁棒 分散 控制器 以 确保 闭环 系统 是 渐近 稳定 的 . 
+ 2 　 系统 的 描述 及 预备 知识 
+ 　 　 考虑 由 N 个 子系统 互联 而成 的 非线性 不 确定 组合 大 系统 
+ 　 ( 1 ) 
+ 其中 xi ∈ Rn , ui ∈ Rm , yi ∈ Rm 分别 表示 第 i 个 子系统 的 状态 、 控制 输入 、 输出 向量 ； fi ( . ) , gi ( . ) = ［ gi1 ( . ) … gim ( . ) ］ 是 光滑 向量场 ; Δ fi ( . ) , Δ gi = ［ Δ gi1 ( . ) … Δ gim ( . ) ］ , hij ( . ) 是 未知 的 光滑 向量场 ； 它们 分别 表示 了 第 i 个 子系统 在结构上 的 不确定性 . 
+ 　 　 假定 坐标 原点 是 系统 ( 1 ) 的 平衡点 . 本文 的 问题 是 构造 分散 状态 反馈 控制器 使 闭环 系统 在 其 平衡点 处 是 渐近 稳定 的 . 
+ 　 　 定义 . 称 系统 xi = fi ( xi ) + gi ( xi ) ui , yi = hi ( xi ) 是 系统 ( 1 ) 的 第 i 个 标称 子系统 . 如果 系统 ( 1 ) 的 每个 标称 子系统 在 其 平衡点 附近 有 相同 的 向量 相对 度 r = ｛ r1 , … , rm ｝ , 则 称 系统 ( 1 ) 具有 相似性 结构 . 
+ 　 　 假设 1 . 存在 未知 函数 矩阵 Φ i ( xi ) 和 向量 φ ij ( xj ) 使得 下 式 成立 
+ Δ gi ( xi ) = gi ( xi ) Φ i ( xi ) , 　 hij ( x ) = gi ( xi ) φ ij ( xj ) . 　 ( 2 ) 
+ 本文 中 , 总是 假定 系统 ( 1 ) 具有 相似性 结构 . 利用 文献 ［ 5 ］ 中 的 定理 , 知 存在 微分 同 胚 变换 ( zi , zir , η i ) = Ti ( xi ) ( i = 1 , 2 , … , N ) ， 当取 控制 律 ui = A - 1i ( wi - bi ) 时 结合 假设 1 ， 在 新 坐标系 下 ， 系统 ( 1 ) 可 表示 成 下述 形式 
+ 　 ( 3 ) 
+ 其中 Ai 是 解 耦 矩阵 , bi = ［ Lr1fihi1 … Lrmfihim ］ , 常数 矩阵 Ak , Bk 的 结构 可见 文献 ［ 5 ］ . Δ bi1 , Δ bi2 , Δ Ai , Ai φ ij 则 表示 了 在 新 坐标 下 第 i 个 子系统 的 不确定性 . 注意 到 Δ qi 是 原 系统 中非 匹配 的 不确定性 对 零 动态 系统 的 影响 , 而 文献 ［ 6 ］ 在 研究 控制 问题 时 却 忽略 了 对 这种 影响 的 讨论 . 
+ 　 　 对于 系统 ( 1 ) 和 系统 ( 3 ) 的 进一步 假定 是 
+ 　 　 假设 2 . 零 动态 系统 是 指数 稳定 的 , 且 存在 正数 Li 使得 下 式 成立 
+ ‖ qi ( zi , zir , η i ) - qi ( 0 , 0 , η i ) ‖ ≤ Li ‖ ( zi , zir ) . ‖ 　 ( 4 ) 
+ 　 　 根据 假设 2 , 存在 Lyapunov 函数 vi0 ( η i ) 及 正数 ci1 , ci2 , ci3 , ci4 满足 下面 的 不等式 
+ ( 5 ) 
+ 　 　 假设 3 . 存在 非负 实数 ai1 , ai2 使下式 成立 
+ ‖ Δ qi ( zi , zir , η i ) ‖ ≤ ai1 ‖ ( zi , zir ‖ + ai2 ‖ η i ‖ . 　 ( 6 ) 
+ 　 　 假设 4 . 存在 非负 实值 函数 d ( . ) , dij ( . ) 满足 下列 不等式 
+ ‖ Δ fi ( . ) ‖ ≤ di ( . ) , 　 　 ‖ φ ij ( . ) ‖ ≤ dij ( . ) . 　 ( 7 ) 
+ 3 　 滑动 面及 鲁棒 分散 控制器 的 设计 
+ 　 　 选取 矩阵 C 使得 矩阵 diag ［ A1 … Am ］ - diag ［ B1 … Bm ］ C = A0 是 Hurwitz 稳定 的 . 则 滑动 面可 设计 为 
+ Si = Czi + zir , 　 　 i = 1 , 2 , … , N . 　 ( 8 ) 
+ 记 
+ Mi1 = ［ ( dhi1 ) T … ( dLi1 - 2fihil ） T … ( dhim ) T … ( dLrm - 2fihim ) T ］ T , 
+ Mi2 = ［ ( dLr1 - 1fihi1 ) T … ( dLrm - 1fihim ) T ］ T , 
+ 则 鲁棒 分散 控制器 可 设计 如下 
+ wi = - ( ki1 + k0STiSi ) sgnSi , 　 ( 9 ) 
+ 
+ 
+ 而 其中 正常 数 ri , ε 是 设计 参数 . λ i 将 在下文 给出 . 
+ 　 　 利用 变换 ( zi , zir , η i ) = Ti ( xi ) 及式 ui = A - 1i ( wi - bi ) 可 得到 系统 ( 1 ) 的 分散 控制器 . 
+ ui = - A - 1i ［ ( ki1 + k0 ) sgnSi + bi ］ ( zi , zir , η i ) = Ti ( xi ) . 　 ( 10 ) 
+ 对于 系统 ( 1 ) 的 鲁棒 分散 镇定 问题 有 下述 结论 
+ 　 　 定理 . 在 假设 条件 1 — 4 下 , 考虑 非线性 不 确定 组合 系统 ( 1 ) . 如果 下列 条件 成立 
+ 1 ) ci3 - ci4ai2 ＞ 0 , 　 　 2 ) ‖ Δ AiA - 1i ‖ ≤ λ i ＜ 1 , 
+ 则 相似 组合 系统 ( 1 ) 可 由 分散 控制器 ( 10 ) 实施 鲁棒 分散 镇定 . 
+ 　 　 证 . 根据 文献 ［ 5 ］ 只 证明 系统 ( 3 ) 可 由 控制器 ( 9 ) 分散 镇定 即可 . 选择 Lyapunov 函数 为 
+ 
+ 其中 正定 矩阵 P 满足 矩阵 方程 AT0P + PA0 = - 2I . 
+ 　 　 利用 熟知 的 不等式 及 等式 结合 式 ( 5 ) 易得 
+ 　 ( 11 ) 
+ 　 　 选择 ε 使得 ci3 - ε - ci4ai2 = ki0 ＞ 0 , 然后 选择 ri 使得 由式 （ 11 ） 得到 
+ 　 ( 12 ) 
+ 至此 , 定理 结论 得证 . 
+ 4 　 结束语 
+ 　 　 本文 讨论 了 一类 具有 相似性 结构 的 非线性 不 确定 组合 系统 的 鲁棒 分散 镇定 问题 . 利用 系统 的 相似性 结构 , 采用 滑模 控制 方法 设计 出 系统 的 鲁棒 分散 控制器 以 确保 闭环 系统 是 渐近 稳定 的 . 系统 的 相似 结构 使得 所 设计 的 各个 滑动 面 和 各个 分散 控制器 在结构上 也 具有 相似性 , 从而 简化 了 对系统 的 分析 与 设计 工作 . 
+ 1 ) 国家自然科学基金 ( 69774005 ) 、 国家教委 博士点 基金 ( 97014508 ) 、 攀登 计划 及 辽宁省 教委 高校 科研 基金 ( 9709211121 ) 资助 项目 . 
+ 作者简介 ： 陈 　 兵 　 1958 年 生人 . 锦州 师范学院 教师 , 现在 东北大学 信息科学 与 工程学院 攻读 博士学位 . 研究 方向 为 ： 复杂 系统 的 结构 性质 研究 及 鲁棒控制 . 
+ 　 　 　 　 　 井元伟 　 1956 年 生人 . 于 1993 年 在 东北大学 获得 控制 理论 与 控制工程 工学 博士学位 . 现为 东北大学 信息科学 与 工程学院 教授 . 研究 方向 为 复杂 系统 的 结构 性质 研究 , 微分 对策 及 鲁棒控制 等 . 
+ 作者 单位 ： 东北大学 信息科学 与 工程学院 135 信箱 　 沈阳 　 110006 
+ 参考文献 
+ 1 　 张嗣 瀛 . 复杂 控制系统 的 对称性 及 相似 结构 , 控制 理论 与 应用 , 1994 , 11 ( 4 ) : 231 — 237 . 
+ 2 　 YangGH , ZhangSY . Structuralpropertiesoflarge - scalesystemspossessingsimilarstructure . Automatica , 1995 , 31 ( 2 ) : 1080 — 1086 
+ 3 　 LiuXP . Optimalcontrolproblemforlarge - scalecompositesystemswithsimilarity . Control - TheoryandAdvanceTechnology.1993 , 9 ( 2 ) : 597 — 606 
+ 4 　 杨光红 , 张嗣 瀛 . 一类 具有 相似 结构 的 组合 系统 的 结构 可控性 与 渐近 合作 性质 . 自动化 学报 . 1995 , 21 ( 5 ) : 521 — 528 
+ 5 　 IsidoriA . NonlinearControlSystems , BerlinSpring - Verlog , 1989 . 
+ 6 　 Hakan . E ， OlgacN , RobustoutputtrackingofnonlinearMIMOsystemsviaslidingmodetechnique . Atomatica , 1992 , 28 ( 1 ) : 145 — 156 
+ 收稿 日期 ： 1997 - 03 - 31 
+ 修稿 日期 ： 1999 - 01 - 25 

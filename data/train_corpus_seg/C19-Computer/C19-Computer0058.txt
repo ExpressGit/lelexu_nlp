@@ -1,0 +1,220 @@
+计算机 工程 
+ COMPUTERENGINEERING 
+ 1999 年 第 25 卷 第 7 期 Vol.25 No.51999 
+ 
+ 
+ 
+ TS - 232 串行 通信 的 实践 探讨 
+ 沈红卫 
+ 摘要 串行 通信 是 一种 应用 非常 广泛 的 通信 方式 ， 在 计算机系统 中有 极其重要 的 作用 。 但 要 实现 可靠 的 串行 通信 ， 又 有 相当 的 困难 。 针对 目前 串行 通信 中 存在 的 一些 模棱两可 的 理论 ， 从 实践 的 角度 作 了 一些 有益 的 探讨 。 
+ 关键词 串行 通信 实践 RS - 232 
+ ThePracticalResearchonRS - 232Communication 
+ shenHongwei 
+ Electro - mechanicDept . ofShaoxinLiberalArtsandScienceInstituteShaoxin312000 
+ Abstract ： Asonekindofcommunicationmodeusedincomputersystems ， RS - 232communicationisveryimportant . ButitisquitedifficulttobringaboutreliableRS - 232communication . ThispaperdisucussestheproblemofhowtoachieveRS - 232communicationbasedonpracticalresearchwhichisdirectedagainstsometheoryonRS - 232communication . 
+ Keywords ： Serialcommunication ； Practce ； Rs - 232 
+ 　 　 串行 通信 作为 计算机 的 一种 标准 通信接口 ， 用于 计算机 与 计算机 ( 或 智能 设备 ) 之间 的 信息 交换 ， 具有 非常 广泛 的 实际 应用 价值 。 
+ 　 　 但是 在 实际 的 应用 开发 中 ， 我们 发现 有关 串行 通信 的 有些 问题 ， 值得 引起 进一步 的 探讨 ， 并 从 实践 的 角度 加以 明确 。 
+ 　 　 下面 结合 实践 认识 ， 从 几个 方面 对 串行 通信 谈谈 自己 的 一些 看法 。 
+ 1 　 目前 有关 串行 通信 的 几个 理论 误区 
+ 　 　 有关 串行 通信 的 资料 ， 可以 说 非常 多 。 但 在 以下 几个 问题 上 ， 普遍存在 模糊不清 的 现象 。 
+ 1.1 　 串行 通信 的 距离 问题 
+ 　 　 绝大多数 资料 对 RS - 232 - C 串行 通信 标准 的 通信 距离 ， 都 认为 在 无 调制解调器 的 情况 下 ， 最大 有效 距离 为 30 米 。 然后 ， 在 实际 应用 中 ， 我们 发现 最大 距离 可以 远远 超过 此值 。 例如 ， 我们 以 2400 波特率 进行 PC机 间 的 点对点 串行 通信 ， 采用 4 芯 普通 非 屏蔽 网络 电缆 ， 在 通信 距离 增加 到 100 米 时 ， 仍能 可靠 通信 ， 而 无误 码 现象 。 实际上 ， 按照 DEC 公司 的 实验 ， 采用 屏蔽 电缆 或非 屏蔽 电缆 时 ， 2400 波特率 的 通信 距离 分别 可达 300 米 及 150 米 。 其它 波特率 时 也 有 类似 现象 。 
+ 1.2 　 串行 通信 的 波特率 问题 
+ 　 　 对于 标准 的 波特率 ， 在 PC机 上 的 波特率 参数 已经 为 标准 参数 ， 只要 直接 使用 而 不会 出现 问题 。 而 对于 其它 智能 设备 的 波特率 参数 ， 例如 采用 以 Intel8031 微处理器 为 内核 的 系统 ， 波特率 参数 的 确定 就 必须 认真对待 ， 特别 是 电源 管理 寄存器 PCON 中 的 SMOD 位 的 设置 。 以 6MHz 晶振 系统 为例 ， 要求 2400 的 波特率 ， 由 定时器 T1 工作 于 方式 2 ( 自动 重 装载 方式 ) 产生 ， 则 当 SMOD 取 0 时 ， 波特率 参数 整 定为 ： 
+ X ≈ 249 ＝ 0F9H 
+ 　 　 而 当 SMOD 取 1 时 ， 波特率 参数 整 定为 ： 
+ X ≈ 243 ＝ 0F3H 
+ 　 　 而 实际 的 波特率 及 相对误差 分别 为 ： 
+ SMOD ＝ 0 时 ， 2232.1 及 7 ％ ； 
+ SMOD ＝ 1 时 ， 2403.8 及 0.16 ％ 。 
+ 　 　 由此可见 ， 当 SMOD 选 0 时 ， 波特率 相对误差 超出 了 一般 认为 的 正常 串行 通信 允许 误差 5 ％ 的 要求 ， 因而 不能 进行 正常 通信 了 。 
+ 1.3 　 串行 通信 的 握手 方式 问题 
+ 　 　 在 串行 通信 中 ， 可以 采用 硬 握手 与 软 握手 两种 方式 ， 目前 较常 采用 的 是 软 握手 的 3 线制 方式 ， 即 采用 " 交叉 技术 " 的 TXD 、 RXD 、 信号 地 3 条线 进行 通信 。 
+ 　 　 但是 ， 在 软 握手 方式 中 ， 对于 采用 BIOS 调用 的 串行 通信 程序设计 ， 必须 对 BIOS 对 串行 通信 的 奇特 的 握手 要求 引起 高度重视 。 BIOS 对 握手 信号 的 要求 是 ： 
+ 　 　 · 调用 初始化 函数 时 不 需要 任何 握手 信号 ； 
+ 　 　 · 调用 接收 函数 时 要求 DTR 打开 且 RTS 关闭 ； 
+ 　 　 · 调用 发送 函数 时则 要求 DTR 和 RTS 打开 ， 并 等待 其它 设备 来 设置 DSR 和 CTS ； 如未 收到 ， 则 在 超时 后 返回 ， 不 执行 发送 动作 。 
+ 　 　 因此 ， 在 采用 BIOS 调用 时 ， 务必 使 串行口 工作 于 自 握手 方式 ， 即将 DSR 与 DTR 短接 ， RTS 与 CTS 短接 ； 否则 ， 不能 进行 正常 串行 通信 。 
+ 2 　 串行 通信 的 实现 
+ 2.1 　 在 DOS 环境 下 的 串行 通信 实现 
+ 　 　 DOS 环境 可以 自由 驾驭 硬件 ， 因此 最 适合 于 测控 系统 。 在 DOS 环境 下 ， 采用 汇编语言 直接 对 串行 端口 操作 的 程序 ， 一般 比较 容易 实现 。 然后 ， 在 采用 TC 的 BIOS 函数调用 时 ， 往往 由于 上面 所述 原因 ， 而 难以实现 。 
+ 　 　 下面 的 串行 查询 发送 程序 采用 TC2.0 编写 并 调试 通过 。 
+ 　 　 # include " stdio . h " 
+ 　 　 # include " bios . h " 
+ 　 　 # include " dos . h " 
+ 　 　 main ( intargc , char * argv [ ] ) 
+ 　 　 { FILE * fp ; 
+ 　 　 charch1 , ljh = 0 , len = 0 , count = 2 ; / * 通信 失败 时 允许 重试 一次 * / 
+ 　 　 unsignedcharch ; 
+ 　 　 unsignedinti , j , k ; 
+ 　 　 intstatus ; 
+ 　 　 if ( argc < 2 ) 
+ 　 　 { 　 　 printf ( " \ nUsage : sendfile . ext \ n " ) ; 
+ 　 　 exit ( 0 ) ; 
+ 　 　 } 
+ 　 　 / * 下面 的 4 条 语句 将 串口 初始化 为 2400 波特率 , 8 位 数据 , 无 校验 , 1 停止 位 * / 
+ 　 　 outportb ( 0x2fb , 0x80 ) ; 
+ 　 　 outportb ( 0x2f8 , 0x30 ) ; 
+ 　 　 outportb ( 0x2f9 , 0x00 ) ; 
+ 　 　 outportb ( 0x2fb , 0x03 ) ; 
+ 　 　 / * 上述 4 条 语句 可用 BIOSCOM ( 0 , 0XA3 , 1 ) ; BIOS 初始化 函数 代替 * / 
+ 　 　 ch = 0xaa ; / * 开始 串行 通信 命令 软 握手 字节 * / 
+ 　 　 doch1 = inportb ( 0x2fd ) ; 
+ 　 　 while ( ( ch1 & 0x20 ) ! = 0x20 ) ; / * 查询 发送 寄存器 为 空否 * / 
+ 　 　 outportb ( 0x2f8 , ch ) ; / * 为空 , 则 发送 * / 
+ 　 　 / * 注意 : 上述 发送 语句 如果 要 改用 BIOSCOM ( 1 , ch , 1 ) 函数 进行 发送 , 则 务必 要 使 串口 工作 于 自 握手 方式 ; 否则 , 无法 通信 . 接收 亦然 * / 
+ 　 　 doch1 = inportb ( 0x2fd ) ; 
+ 　 　 while ( ( ch1 & 0x01 ) ! = 0x01 ) ; / * 等待 从机 应答 * / 
+ 　 　 ch = inportb ( 0x2f8 ) ; 
+ 　 　 if ( ch = = 0xaa ) / * 应答 正确 否 * / 
+ ll : 　 　 { / * 应答 正确 , 则 将 指定 文件 中 的 18 字节 发送 出去 * / 
+ 　 　 if ( ( fp = fopen ( argv [ 1 ] , " rb " ) ) = = NULL ) 
+ 　 　 { 　 　 printf ( " cannotopenthisfile . \ n " ) ; 
+ 　 　 exit ( ) ; 
+ 　 } 
+ 　 　 fread ( & ch , 1 , 1 , fp ) ; 
+ 　 　 while ( len < 18 ) 
+ 　 　 { 　 　 doch1 = inportb ( 0x2fd ) ; 
+ 　 　 while ( ( ch1 & 0x20 ) ! = 0x20 ) ; 
+ 　 　 outportb ( 0x2f8 , ch ) ; 
+ 　 　 ljh + = ch ; / * 求 累加 和 ( 校验 用 ) * / 
+ 　 　 len ++ ; 
+ 　 　 fread ( & ch , 1 , 1 , fp ) ; 
+ 　 } 
+ 　 　 fclose ( fp ) ; 
+ 　 　 doch1 = inportb ( 0x2fd ) ; 
+ 　 　 while ( ( ch1 & 0x01 ) ! = 0x01 ) ; 
+ 　 　 ch = inportb ( 0x2f8 ) ; / * 接收 从机 发来 的 累加 和 * / S 　 　 if ( ch = = ljh ) 
+ 　 　 { / * 正确 , 则 回送 正确 标志 字节 0X00 * / 
+ 　 　 for ( j = 0 ; j < 1000 ; j ++ ) 
+ 　 　 for ( i = 0 ; i < 30000 ; i ++ ) ; / * 延时 以 等待 从机 
+ 　 　 接发 切换 * / 
+ 　 　 ch = 0x00 ; 
+ 　 　 doch1 = inportb ( 0x2fd ) ; 
+ 　 　 while ( ( ch1 & 0x20 ) ! = 0x20 ) ; 
+ 　 　 outportb ( 0x2f8 , ch ) ; 
+ 　 　 for ( j = 0 ; j < 30 ; j ++ ) 
+ 　 　 for ( i = 0 ; i < 30000 ; i ++ ) ; 
+ 　 　 printf ( " \ n " ) ; 
+ 　 　 printf ( " OK " ) ; 
+ 　 　 exit ( ) ; 
+ 　 　 } 
+ else / * 不 正确 , 则 回送 错误 标志 字节 0XFF * / 
+ 　 　 { 　 　 for ( j = 0 ; j < 1000 ; j ++ ) 
+ 　 　 for ( i = 0 ; i < 30000 ; i ++ ) ; 
+ 　 　 ch = 0xff ; 
+ 　 　 doch1 = inportb ( 0x2fd ) ; 
+ 　 　 while ( ( ch1 & 0x20 ) ! = 0x20 ) ; 
+ 　 　 outportb ( 0x2f8 , ch ) ; 
+ 　 　 for ( j = 0 ; j < 30 ; j ++ ) 
+ 　 　 for ( i = 0 ; i < 30000 ; i ++ ) ; 
+ 　 　 ljh = 0 ; 
+ 　 　 - - count ; 
+ 　 　 if ( count ) goto 　 ll ; / * 再试一次 * / 
+ 　 　 elseprintf ( " \ nFailureincommunication . \ n " ) ; 
+ 　 　 } 
+ 　 } 
+ } 
+ 2.2 　 在 Windows 环境 下 的 串行 通信 实现 
+ 　 　 Windows95 下 的 串行 通信 实现 一般 有 3 种 方式 ： 
+ 　 　 ( 1 ) 利用 Windows 的 API 接口函数 ； 
+ 　 　 ( 2 ) 对于 RAD 开发 系统 ( 如 VB 等 ) ， 可 利用 ActiveX 控件 ； 
+ 　 　 ( 3 ) 利用 DLL 动态链接库 直接 操作 串行 端口 。 
+ 　 　 3 种 方式 各有特点 ， 我们 采用 第三种 方式 实现 了 Windows95 环境 下 可靠 的 串行 通信 ， 这种 方式 的 特点 是 应用 灵活 ， 简便 。 
+ 　 　 下面 是 基于 Delphi4.0 的 用于 串行 通信 的 DLL 程序 ： 
+ 　 　 libraryMycomdll ; 
+ 　 　 uses 
+ 　 　 SysUtils , 
+ 　 　 Classes ; 
+ 　 　 Const 
+ 　 　 COM1 = $ 3f8 ; { 定义 串口 字符 常量 } 
+ 　 　 COM2 = $ 2F8 ; 
+ 　 　 Var 
+ 　 　 COM : Word ; { DLL 中 全局变量 } 
+ 　 　 ProcedureOutb ( ConstPort : Word ; ConstDbyte : Byte ) ; pascal ; 
+ 　 　 Begin 
+ 　 　 Asm 
+ 　 　 MOV 　 DX , Port 
+ 　 　 MOV 　 AL , Dbyte 
+ 　 　 OUT 　 DX , AL 
+ 　 　 End ; 
+ 　 End ; 
+ FunctionInb ( ConstPort : Word ) : Byte ; pascal ; 
+ 　 Begin 
+ 　 　 Asm 
+ 　 　 MOV 　 DX , Port 
+ 　 　 IN 　 AL , DX 
+ 　 　 MOV 　 @ Result , AL 
+ 　 　 End ; 
+ 　 End ; 
+ 　 　 { 串行口 初始化 , COM1 , COM2 可选 , 波特率 2400 , 4800 可选 } 
+ 　 　 ProcedureCommInit ( CONSTPort : Byte ； CONSTBaud ： String ) ； Stdcall ； 
+ 　 　 Var 
+ 　 　 BAUDL ， BAUDH : Byte ； 
+ 　 　 Begin 
+ 　 　 ifPort = 1then 
+ 　 　 COM : = COM1 
+ 　 　 else 
+ 　 　 COM : = COM2 ; 
+ 　 　 ifBAUD = ' 2400 ' then 
+ 　 　 Begin 
+ 　 　 BAUDL : = $ 30 ; 
+ 　 　 BAUDH : = $ 00 ; 
+ 　 　 End 
+ 　 　 else 
+ 　 　 Begin 
+ 　 　 BAUDL : = $ 18 ; 
+ 　 　 BAUDH : = $ 00 ; 
+ 　 　 End ; 
+ 　 　 Outb ( COM + 3 , $ 80 ) ; { 设置 波特率 因子 } 
+ 　 　 Outb ( COM , BAUDL ) ; 
+ 　 　 Outb ( COM + 1 , BAUDH ) ; 
+ 　 　 Outb ( COM + 3 , $ 03 ) ； { 8 位 数据 ， 1 停止 位 ， 无 校验 } 
+ 　 　 End ; 
+ 　 　 { 发送 一 字节 } 
+ 　 　 ProcedureSendByte ( ConstDbyte : Byte ) ; Stdcall ; 
+ 　 　 Var 
+ 　 　 Status : Byte ; 
+ 　 　 Begin 
+ 　 　 Repeat 
+ 　 　 Status : = Inb ( COM + 5 ) ; 
+ 　 　 until ( ( Statusand $ 20 ) = $ 20 ) ; 
+ 　 　 Outb ( COM , Dbyte ) ; 
+ 　 　 End ; 
+ 　 　 { 接收 一 字节 } 
+ 　 　 FunctionReceiveByte : Byte ; Stdcall ; 
+ 　 　 Var 
+ 　 　 Status , Res : Byte ; 
+ 　 　 Begin 
+ 　 　 Repeat 
+ 　 　 Status : = Inb ( COM + 5 ) ; 
+ 　 　 Until ( ( Statusand $ 01 ) = $ 01 ) ; 
+ 　 　 res : = Inb ( COM ) ; 
+ 　 　 ReceiveByte : = Res ; 
+ 　 　 End ; 
+ 　 　 { 以下 用 EXPORTS 引出 输出 过程 或 函数 } 
+ 　 　 ExportsCommInit ; 
+ 　 　 ExportsSendByte ; 
+ 　 　 ExportsReceiveByte ; 
+ 　 　 begin 
+ 　 　 end . 
+ 2.3 　 多机 通信 的 实现 
+ 　 　 多机 通信 一般 采用 主从 方式 ， 一方 为主 ， 其它 为 从 ， 然后 再 按照 统一 的 通信协议 进行 有序 通信 。 基于 这种 情况 ， 图 1 给出 了 一种 针对 目前 有关 资料 类似 线路 经 简化 改进 的 实用 接口 方法 ： 
+ 
+ 图 1 　 改进 的 实用 接口 
+ 　 　 注意 ， 每个 从机 的 发送 脚 TXD 必须 通过 开关 二极管 4148 再 挂 接到 主机 的 接收 线上 ， 否则 ， 会 引起 信号 冲突 ， 影响 正常 通信 ， 并 可能 导致 串口 损坏 。 
+ 2.4 　 串行 通信 程序 的 简单 调试 
+ 　 　 串行 通信 程序 的 调试 相对来说 ， 是 比较 麻烦 的 。 一般 可以 采用 以下 步骤 ： 
+ 　 　 ( 1 ) 检查 连线 正确 否 。 在 三线 制 方式 中 ， 要 注意 " 交叉 " 问题 ； 如 采用 BIOS 调用 接发 数据 ， 则 要 进一步 注意 握手 信号 的 正确 连接 。 
+ 　 　 ( 2 ) 简单 地用 逻辑 笔 检查 发接 信号 的 有无 ( 注意 逻辑 笔 只能 检查 TTL 信号 ， 因此 ， 检查点 一般 为经 MAX232 等 接口 芯片 转换 后 的 TXD 、 RXD ) ； 
+ 　 　 ( 3 ) 在 确认 有接 发信号 的 前提 下 ， 如果 接发 数据 不 正常 ， 则 重点 应 检查 通信协议 一致 否 。 例如 ， 波特率 的 设置 ， 奇偶校验 否 ， 停止 位数 ， 通信 的 应答 等 。 
+ 　 　 ( 4 ) 在 只有 单机 的 情况 下 的 串口 程序调试 ， 可 采用 将 串口 的 TXD 与 RXD 直接 相连 的 办法 ， 简单 方便 。 
+ 3 　 结束语 
+ 　 　 以上 管见 ， 仅 是 本人 在 多年 的 串行 通信 实践 中 的 一些 体会 。 希望 能 起点 抛砖引玉 的 作用 ， 使 同行 们 在 有关 串行 通信 的 应用 研究 中 ， 不至于 " 人云亦云 " ， 从而 少 走 一点 弯路 。 
+ 作者简介 ： 沈红卫 男 ， 33 岁 ， 讲师 ， 主要 从事 计算机控制 及 应用 方面 的 教学 与 科研工作 
+ 作者 单位 ： 绍兴 文理学院 机电 系 绍兴 312000 
+ 参考文献 
+ 1 　 徐 新华 . DELPHI3 编程 指南 ( 上编 ) . 北京 ： 宇航 出版社 ， 1998 - 06 
+ 2 　 陈汝全 、 刘运国 、 雷 国君 . 单片机 实用技术 . 北京 ： 电子 出版社 ， 1992 - 03 
+ 收稿 日期 ： 1998 - 02 - 02 

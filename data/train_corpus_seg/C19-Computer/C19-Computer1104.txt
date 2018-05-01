@@ -1,0 +1,80 @@
+自动化 学报 
+ AGTAAUTOMATICASINICA 
+ 1999 年 第 25 卷 第 2 期 Vol.25 No.21999 
+ 
+ 
+ 
+ 
+ 一类 非线性 组合 大 系统 的 分散 输出 反馈 鲁棒 镇定 1 ) 
+ 严星 刚 　 张嗣 瀛 
+ 摘 　 要 　 研究 了 不 确定 非线性 子系统 经 不 确定 非线性 互联 而成 的 组合 大 系统 ， 给出 了 其 可 分散 输出 反馈 鲁棒 镇定 的 充分条件 ， 说明 了 所得 结论 的 广泛 适用性 以及 相似 结构 与 全息 特性 的 密切相关 性 . 
+ 关键词 　 非线性 大 系统 ， 分散控制 ， 输出 反馈 ， 鲁棒 镇定 . 
+ DECENTRALIZEDOUTPUTFEEDBACKROBUSTSTABILIZATION 
+ FORACLASSOFNONLINEARLARGE - SCALECOMPOSITE 
+ SYSTEMSWITHUNCERTAINTIES 
+ YANXinggang 　 ZHANGSiying 
+ ( Dept . ofAutomaticControl , NortheasternUniversity , Shenyang 　 110006 ) 
+ Abstract 　 Inthispaper , aclassofnonlinearlarge - scalecompositesystemsisconsidered , andasufficientconditionofstabilizingthesystemusingdecentralizedoutputfeedbackcontrolispresented . Itisshownthatasimilarstructureiscloselyconnectedwithholographicpropertyandourconclusionisapplicabletoawideclassofsystems . 
+ Keywords 　 Nonlinearlarge - scalesystems , decentralizedcontrol , outputfeedback , robuststabilization . 
+ 1 　 引言 
+ 　 　 镇定 问题 是 自动控制 领域 的 重要 研究课题 之一 . 通常 的 镇定 手段 主要 有 状态 反馈 和 输出 反馈 . 由于 输出 反馈 一般 只能 利用 系统 的 部分 信息 ， 所以 ， 同 状态 反馈 相比 ， 输出 反馈 镇定 所 取得 的 研究成果 要 逊色 得 多 . 近年来 ， 一般 非线性 系统 的 输出 反馈 镇定 已 取得 了 一些 成果 ［ 1 ， 2 ］ ， 但 对 非线性 组合 大 系统 ， 其 相应 的 研究成果 极少 . 文献 ［ 3 ］ 考虑 的 大 系统 是 确定 的 ， 文献 ［ 4 ］ 虽然 讨论 了 孤立 子系统 是 非线性 的 情形 ， 且 系统 是 不 确定 的 ， 但 文献 ［ 4 ］ 对 孤立 子系统 及 互联 项均 有 较 强 限制 . 本文 分析 一类 更 广泛 的 组合 大 系统 ， 给出 其 分散 输出 反馈 鲁棒 镇定 的 有关 结论 . 
+ 2 　 系统 描述 及 预备 知识 
+ 　 　 首先 引入 一些 记号 ： V ω ( Rn ) 表示 Rn 上 的 n 维 解析 向量场 集合 ； λ M ( A ) 表示 矩阵 A 的 最大 奇异 值 ； 如果 QTQ = P ， 则 记 ; R + 表示 非负 实数 集 ； ‖ . ‖ 系指 欧氏 范数 . 
+ 　 　 考虑 由 N 个 子系统 互联 组成 的 大 系统 
+ 
+ ( 1 ) 
+ 其中 xi ∈ Rn , ui , yi ∈ Rm 分别 是 第 i 个 子系统 的 状态 、 输入 和 输出 ， Ai , Bi ， Ci 是 常值 阵 ， fi ( xi , t ) 是 连续 的 ( 可能 含 不 确定 因素 ) ， Hij ( xj ) ∈ V ω ( Rn ) 是 确定 互联 项 ， Δ Hij ( xj ) 是 不 确定 互联 项 . 不失 一般性 ， 设 fi ( 0 , t ) = Hij ( 0 ) = 0 ( t ∈ R + , j ≠ i , i , j = 1 , 2 , … , N ) . 
+ 　 　 定义 1 . 称 系统 
+ 
+ ( 2 ) 
+ 为 系统 ( 1 ) 的 孤立 子系统 . 
+ 　 　 定义 2 . 考虑 系统 ( 1 ) ， 如果 存在 xi = 0 某 邻域 Ω i , Ω i × R + 上 的 输出 反馈 
+ 
+ ( 3 ) 
+ 使 之 分别 与 系统 ( 1 ) ， ( 2 ) 构成 的 闭环 系统 均 在 区域 Ω = Ω 1 × Ω 2 × × Ω N 渐近 稳定 ， 则 称 系统 ( 1 ) 在 Ω 上 可 分散 输出 反馈 镇定 . 
+ 　 　 上述 定义 2 要求 分散控制 律 ( 3 ) 不仅 能 使 系统 ( 1 ) 镇定 ， 而且 能 使 系统 ( 2 ) 镇定 ， 这样 可以 保证 一旦 某个 子系统 与 其它 子系统 失去 互联 作用 ， 该 子系统 本身 仍能 正常 工作 . 
+ 　 　 引理 1 ［ 5 ］ . 设 H ( x ) ∈ V ω ( Rn ) , 且 H ( 0 ) = 0 ， 则 存在 解析 函数 矩阵 R ( x ) ， 使得 H ( x ) = R ( x ) x . 
+ 　 　 引理 2 . 设 P 是 n 阶 对称 矩阵 ， f ( x ) ( x ∈ Rn ) 是 n 维 向量 函数 . 如果 f ( x ) ≤ γ ‖ x ‖ , 则 对 任意 的 n 阶 正定 阵 Q1 , Q2 有 
+ 3 　 主要 结果 
+ 　 　 考虑 系统 ( 1 ) ： 假设 对系统 ( 1 ) 的 每个 孤立 子系统 ， 存在 m 阶 矩阵 Ki ， 使 Ai + BiKiCi 是 Hurwitz 稳定 阵 ， 则 对 任意 给定 的 n 阶 正定 阵 Qi , Lyapunov 方程 
+ 
+ ( 4 ) 
+ 必有 唯一 正定 解 矩阵 Pi . 由 引理 1 知 ， Hij ( xj ) 可 表示 为 如下 形式 
+ 
+ ( 5 ) 
+ 其中 Rij ( xj ) 是 解析 的 ， 可 参考文献 ［ 5 ］ 求得 . 
+ 　 　 定理 1 . 如果 系统 ( 1 ) 在 x = 0 某 邻域 Ω 满足 ： 1 ) 对 所有 的 t ∈ R + , fi ( xi , t ) = Bi ⅵ 読 ( xi , t ) , 且 ⅵ 読 ( xi , t ) ≤ ρ i ( yi , t ) ; 2 ) Δ Hij ( xj ) ≤ γ ijxj ( i ≠ j ) ; 3 ) 存在 矩阵 Ki , Fi 使得 Ai + BiKiCi 是 Hurwitz 稳定 阵 ， 且 上 正定 ， 其中 W ( x ) = ( ω ij ( x ) ) N × N , ω ij ( x ) = 这里 , Pi , Qi 由 ( 4 ) 式 确定 ， Rij ( xj ) 由 ( 5 ) 式 确定 . 则 系统 ( 1 ) 在 Ω 上 可 分散 输出 反馈 鲁棒 镇定 . 
+ 　 　 证明 . 设计 分散 输出 反馈 控制 律 
+ 
+ ( 6 ) 
+ 其中 
+ 　 　 考虑 由式 ( 6 ) ， ( 1 ) 构成 的 闭环 系统 
+ 
+ ( 7 ) 
+ 对系统 ( 7 ) , 考虑 正定 函数 其中 Pi 由 ( 4 ) 式 确定 . 则 
+ 
+ ( 8 ) 
+ 由 条件 3 ) 中 BTiPi = FiCi 及 条件 1 ) 有 
+ 
+ 所以 
+ 
+ ( 9 ) 
+ 　 　 由 条件 2 ) ， 式 ( 5 ) 及 引理 2 得 
+ 
+ 
+ 由 上式 结合 定理 条件 4 ) 及 ( 8 ) ， ( 9 ) 两式 即知 ， 系统 ( 7 ) 在 区域 Ω 上 渐近 稳定 . 关于 式 ( 6 ) ， ( 2 ) 构成 的 闭环 系统 的 渐近 稳定性 可用 同样 的 Lyapunov 函数 结合 ( 9 ) 式 即 得 . 所以 ， 分散 输出 反馈 控制 律 ( 6 ) 能 使 组合 大 系统 ( 1 ) 鲁棒 镇定 . 
+ 证毕 . 
+ 　 　 上述 结论 的 证明 是 构造性 的 ， 它 给出 了 控制器 的 设计 方法 . 如果 将 上述 结论 应用 于 相似 组合 大 系统 ［ 6 ］ ， 容易 验证 ， 按照 定理 1 所 设计 的 控制器 具有 全息 结构 ［ 6 ］ . 这 进一步 说明 了 相似 结构 和 全息 特性 密切相关 . 还有 ， 本文 所得 结论 不但 适合 于弱 互联 系统 ， 而且 适合 于强 互联 系统 ， 特别 对 各 子系统 维数 不 等 的 情形 ， 上述 方法 稍加 修正 ， 即可 得到 类似 结论 . 
+ 1 ) 国家自然科学基金 及 国家教委 博士点 基金 资助 项目 . 
+ 作者简介 ： 严星 刚 　 1964 年生 . 1980 年 考入 陕西 师范大学 数学系 ， 1991 系 毕业 于 曲阜师范大学 运筹 与 控制 专业 获 理学 硕士学位 ， 1996 年 毕业 于 东北大学 自控 系 获工学 博士学位 ， 1997 年 元月 进入 西北工业大学 航空 与 宇航 控制 博士后 流动站 . 现在 香港大学 做 访问学者 . 主要 研究 方向 为 非线性 系统 及其 相似 组合 大 系统 的 鲁棒控制 与 设计 . 
+ 　 　 　 　 　 张嗣 瀛 　 中国科学院 院士 . 见 本刊 第 21 卷 5 期 . 
+ 作者 单位 ： 东北大学 自动控制 系 　 沈阳 　 110006 
+ 参考文献 
+ 1 　 EmelyanovSV 　 etal . DiscontinuousoutputfeedbackstabilizinganuncertainMIMOplant . Int . J . ofContr .. 1992 , 55 ( 2 ) : 83 — 107 
+ 2 　 FarzadEsfandiari , HassanKKhalil . Outputfeedbackstabilizationoffullylinearizablesystems . Int . J . Control , 1992 , 56 ( 5 ) : 1007 — 1037 
+ 3 　 ZhengDa - zhong . Decentralizedoutputfeedbackstabilizationofaclassofnonlinearinterconnectedsystems . IEEETrans . Automat . Contr . , 1989 , 34 ( 2 ) : 1297 — 2000 
+ 4 　 SaberiA , KhalilH . Decentralizedstabilizationofinterconnectedsystemsusingoutputfeedback . Int . J . Contr . , 1985 , 41 ( 6 ) : 1461 — 1475 
+ 5 　 YanXing - Gangetal . Robuststabilizationofnonlinearcompositesystemswithuncertainparameters . In : Proceedingsof13thIFACworldcongress . SanFranscico , 1996 , Vol . L : 62 — 67 
+ 6 　 严星 刚 ， 高立群 ， 张嗣 瀛 . 一类 不 确定 非线性 相似 组合 大 系统 的 结构 全息 鲁棒控制 . 自动化 学报 ， 1997 ， 23 ( 5 ) ： 654 — 659 
+ 收稿 日期 　 1996 - 08 - 28 
+ 收 修改稿 日期 　 1998 - 04 - 09 

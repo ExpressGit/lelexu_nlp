@@ -1,0 +1,120 @@
+环境 科学 学报 
+ ACTASCIENTIAECIRCUMSTANTIAE 
+ 1999 年 第 19 卷 第 5 期 Vol.19 No.51999 
+ 
+ 
+ 
+ 聚合酶 链式反应 ( PCR ) 用于 检测 环境 水体 指示菌 的 研究 * 
+ 明镇 寰 　 黄 　 朴 　 虞 左明 　 詹 　 立 
+ 摘要 　 对 聚合酶 链式反应 ( polymerasechainreaction , PCR ) 快速 检测 水体 指示菌 — — 大肠菌群 ( totalcoliform ) 和 大肠杆菌 ( Escherichiacoli ) 进行 了 研究 . 采用 的 两对 引物 分别 扩增 了 LacZ 基因 的 约 260bp 和 UdiA 基因 的 约 150bpDNA 片段 . 引物 Ⅰ 和 引物 Ⅱ 最低 能 分别 扩增 10 - 6 μ g 或 10 - 8 μ g 基因组 DNA . 整个 检测 工作 在 采集 水样 后 5 — 6h 内 完成 . 与 常规 水质 检测法 相比 ， PCR 法 具有 快速 ， 准确 的 特点 ， 是 有效 监测 环境 水体 指示菌 的 一种 潜在 的 新 方法 . 
+ 关键词 　 聚合酶 链式反应 ， 大肠菌群 ， 大肠杆菌 ， 环境 水体 检测 . 
+ Detectionofindicatorbacteriainwaterbodiesusingpolymerasechainreaction 
+ MINGZhenhuan , HUANGPu ( CollegeofLifeScience , ZhejiangUniversity , Hangzhou310012 ) 
+ YUZuoming , ZHANLi ( HangzhouEnvironmentalScienceInstitute , Hangzhou310007 ) 
+ Abstract 　 Polymerasechainreaction ( PCR ) procedurewasappliedforidentificationoftwoindicators , totalcoliformandE . coli , invariouswatersamples . TwooligonucleotideprimerswereusedinthisproceduretoamplifyLacZgeneDNAfragmentsoftotalcoloformandUdiAgeneDNAfragmentsofE . colirespectively . Accordingtotheresultsofagarosegelelectrophoresis , thelengthoftheDNAfragmentsamplifiedwereabout260bpand150bprespectively . Inserialdilutionexperiments , asfewas10 — 100bacteriaand10 - 6 μ ggenomicDNAweredetectedbyprimerforLacZgeneintotalcoloformand1 — 10bacteriaand10 - 8 μ ggenomicDNAbyprimerforUdiAgeneinE . coli . Only5 — 6hourswereneededtofinishtheassayaftersamplesgathered . Atotal40watersamplesweredetectedbythePCRprocedureandmulti － tube － fermentation ( MTF ) method . Thecoincidenceofthetwomethodswas100% inbigvolumewatersampleand77.5% insmallvolumewatersampel . 
+ Keywords 　 PCR , totalcoliform , E . coli , detectionofwaterbodies . 
+ 　 　 大肠菌群 是 一大 类 革兰氏 阴性 杆菌 ， 它 包括 人 与 哺乳类 动物 肠道 中 的 正常 寄生菌 和 肠道 病原菌 ， 以及 土壤 和 水体 中 的 腐生 菌 . 大肠杆菌 是 大肠菌群 的 典型 代表 . 长期 来 ， 两者 作为 水体 指示菌 一直 受到 环保部门 的 监控 ， 其中 大肠杆菌 更是 被 用作 水体 粪便 污染 的 最佳 指示菌 ［ 1 ］ . 目前 被 各国 普遍 采用 的 水体 指示菌 常规 检测 方法 是 多管 发酵法 ( MTF 法 ) 和 滤膜 法 ( MF 法 ) ［ 2 — 4 ］ ， 用 这 两种 方法 完成 一次 水样 检测 均 需 2 — 3 天 的 时间 . 近年 ， 有人 提出 了 一种 新 的 水质 检测法 — — AutoanalysisColiert , 简称 AC 法 ［ 5 ］ . 它 利用 大肠菌群 的 β - 半乳 糖苷酶 使 底物 中 的 邻 硝基苯 - β - D - 半乳 吡喃糖 苷 分解 而 使 无色 培养液 变成 黄色 ， 利用 大肠杆菌 的 β - D - 葡 糖醛酸 酶 ( GUD ) 使 荧光 底物 4 - 甲基 伞形 酮 - β - D - 葡萄糖 苷 构型 改变 在 366nm 处 产生 荧光 而 将 两种 指示菌 检测 出来 . AC 法 由于 其 操作 和 设备 要求 简单 ， 检测时间 较 短 ， 结果 稳定 ， 已 被 美国 等国 的 环保部门 批准 用于 对 水体 中 大肠菌群 的 检测 ， 但 对 大肠杆菌 的 检测 还 需要 其它 实验 进行 确证 ［ 6 ］ . 最近 的 研究 表明 ， 利用 GUD 基因 来 检测 大肠杆菌 则 可 避免 上述 表型 检测 的 缺陷 ， 具有 更 高 的 准确性 ［ 7 ］ . PCR 技术 的 出现 为 这种 基于 基因 水平 的 检测 提供 了 方便 ［ 8 — 10 ］ ， 使 研究者 们 试图 建立 一种 快速 、 专一 、 灵敏 地 检测 水体 指示菌 的 新 方法 . 本文 的 研究 也 是 基于 此 目的 ， 在 用 PCR 技术 对 杭州 西湖 湖水 、 城市 河道 河水 、 钱塘江 水体 中 的 指示菌 的 检测 上 进行 了 一些 探索 . 
+ 1 　 材料 与 方法 
+ 1.1 　 材料 
+ 1.1 . 1 　 细菌 菌种 　 肠道 细菌 ： 大肠杆菌 ( 本院 生化 室 保存 ) ， 柠檬酸 杆菌 ， 产气 杆菌 ， 肺炎 克 氏杆菌 ， 变形杆菌 ， 宋内志 贺菌 ( 以上 菌种 购自 浙江省 防疫站 ) . 其它 细菌 ： 枯草 芽孢 杆菌 ( 本院 微生物 室 提供 ) ， 假单 孢 杆菌 ( 购自 浙江省 防疫站 ) . 
+ 1.1 . 2 　 检测 水样 　 取自 杭州 西湖 湖水 ， 杭州 城市 河道 河水 ， 钱塘江 水 . 
+ 1.1 . 3 　 PCR 引物 　 本 实验设计 的 两对 引物 由 北京 赛 百盛 生物工程 公司 合成 ， 序列 如下 ： 
+ 　 　 引物 Ⅰ ： 5 ′ － ATGAAAGCTGGCTACAGGAAGGCC － 3 ′ 
+ 　 　 　 　 　 　 5 ′ － GGTTTATGCAGCAACGAGACGTCA － 3 ′ 
+ 　 　 引物 Ⅱ ： 5 ′ － AAAACGGCAAGAAAAAGCAG － 3 ′ 
+ 　 　 　 　 　 　 5 ′ － ACGCGTGGTTACAGTCTTGCG － 3 ′ . 
+ 1.1 . 4 　 PCR 扩增 仪 　 美国 产 Stratagene 梯度 热循环 仪 . 
+ 1.2 　 方法 
+ 1.2 . 1 　 DNA 的 提取 　 细菌 DNA 的 提取 参照 YuliTsai 等 人 的 方法 ［ 11 ］ ， 10mL 和 1mL 水样 样本 ( 简称 大 样本 和 小 样本 ) DNA 的 提取 分别 用 Degrange 等 人 的 方法 ［ 12 ］ 和 蛋白酶 K 法 . 
+ 1.2 . 2 　 DNA 的 定量 测定 　 用 紫外 分光 光度计 测定 OD260 和 OD280 的 吸收 值 ， 并 以此 判断 DNA 的 纯度 和 浓度 . 
+ 1.2 . 3 　 PCR 扩增 反应 　 采用 30 μ L 反应 体系 ， 引物 浓度 0.2 μ mol / L ， 4 种 dNTP 的 浓度 分别 为 200 μ mol / L , MgCl2 浓度 为 2.5 mmol / L ， 扩增 参数 为 ： 引物 Ⅰ ， 94 ℃ 预 变性 3min ， 94 ℃ 变性 1min ， 64 ℃ 复性 30s ， 72 ℃ 延伸 30s ， 扩增 35 个 循环 ； 最后 72 ℃ 延伸 3min ； 引物 Ⅱ ， 94 ℃ 预 变性 3min ， 94 ℃ 变性 1min ， 55 ℃ 复性 、 延伸 1min ， 扩增 35 个 循环 ， 最后 55 ℃ 延伸 3min . 
+ 1.2 . 4 　 PCR 扩增 产物 的 检测 　 使用 1.5% 琼脂糖 凝胶 ( 含 溴化乙锭 0.5 μ g / mL ) 电泳 ， 紫外 灯下 观察 电泳 结果 并 拍照 ， 产物 分析 参照 DNA 分子量 标准 ( DNAMarker : 1543bp , 994bp , 695bp , 515bp , 377bp , 237bp ) 
+ 2 　 结果 与 讨论 
+ 2.1 　 引物 Ⅰ 和 引物 Ⅱ 的 PCR 扩增 结果 
+ 　 　 两对 引物 分别 是 针对 大肠菌群 中 普遍存在 的 lacZ 基因 和 大肠杆菌 的 UdiA 基因 而 设计 的 . 纯 培养 大肠杆菌 DNA 和 水样 菌体 DNA 的 PCR 扩增 产物 的 电泳 结果 如图 1 所示 . 两对 引物 在 大肠杆菌 和 水样 标本 DNA 为 模板 的 扩增 中 ， 出现 了 位置 相同 的 扩增 条带 . 根据 DNA 分子量 标准 推算 ， 两个 条带 的 大小 分别 约 为 260bp 和 150bp . 这 说明 设计 的 引物 对 大肠杆菌 ( 或 大肠菌群 ) 是 特异 的 ， 也 说明 在 采集 的 水样 中有 大肠杆菌 和 大肠菌群 的 存在 . 
+ 
+ 
+ 图 1 　 PCR 扩增 产物 的 凝胶 电泳图谱 
+ 1 ： 大肠杆菌 的 引物 Ⅱ 扩增 产物 ， 2 ： 水样 标本 的 引物 Ⅱ 扩增 产物 ， 3 ： DNA 分子量 标准 ， 4 ： 大肠杆菌 的 引物 Ⅰ 扩增 产物 ； 5 ： 水样 标本 的 引物 Ⅰ 扩增 产物 
+ Fig.1 ElectrophoretogramofPCRamplifiedproducts 
+ 1 . AmplifiedproductsofE . colisamplebyprimer Ⅱ ; 2 . Amplifiedproductsofwatersamplebyprimer Ⅱ ; 3 . DNAmarker ; 4 . AmplifiedproductsofE . colisamplebyprimerI ; 5 . Amplifiedproductsofwatersamplebyprimer Ⅰ 
+ 2.2 　 PCR 扩增 的 灵敏性 和 特异性 
+ 　 　 分别 以 10 倍 系列 稀释 的 大肠杆菌 培养 菌液 抽提 的 DNA 和 已知 浓度 的 大肠杆菌 DNA 溶液 的 10 倍 系列 稀释液 为 模板 进行 试验 ， 结果表明 引物 Ⅰ 和 引物 Ⅱ 的 模板 量 可 分别 少至 10 - 6 μ g 和 10 - 8 μ g ( 见图 2 和 图 3 ) ， 少至 1 — 10 个 大肠杆菌 的 DNA 作为 模板 可 被 检出 . 
+ 
+ 
+ 图 2 　 引物 Ⅰ PCR 扩增 的 灵敏性 
+ 1 ： 阳性 对照 ， 2 ： 模板 为 10 - 2 μ g ， 3 ： 模板 为 10 - 3 μ g , 4 ： 模板 为 10 - 4 μ g , 5 ： 模板 为 10 - 5 μ g , 6 ： 模板 为 10 - 6 μ g 
+ Fig.2 ThesensitivityofPCRamplificationbyprimerI 
+ 1 . Positivecontrol ; 2.10 - 2 μ gDNAastemplate ; 3.10 - 3 μ gDNAastemplate ; 4.10 - 4 μ gDNAastemplate ; 5.10 - 5 μ gDNAastemplate ; 6.10 - 6 μ gDNAastemplate 
+ 
+ 
+ 图 3 　 引物 Ⅱ PCR 扩增 的 灵敏性 
+ 　 1 ： 模板 为 10 - 8 μ g , 2 ： 阳性 对照 ， 3 ： 模板 为 10 - 7 μ g , 4 ： 模板 为 10 - 6 μ g , 5 ： 模板 为 10 - 5 μ g , 6 ： 模板 为 10 - 4 μ g , 7 ： 模板 为 10 - 3 μ g 
+ Fig.3 ThesensitivityofPCRamplificationbyprimer Ⅱ 
+ 　 1.10 - 8 μ gDNAastemplate ; 2 . Positivecontrol ; 3.10 - 7 μ gDNAastemplate ; 4.10 - 6 μ gDNAastemplate ; 5.10 - 5 μ gDNAastemplate ; 6.10 - 4 μ gDNAastemplate ; 7.10 - 3 μ gDNAastemplate 
+ 　 　 分别 以 几种 肠道 细菌 和 假单 胞 杆菌 ， 枯草 芽孢 杆菌 等 非 肠道 细菌 的 DNA 作为 模板 进行 扩增 的 结果显示 ， 在 引物 Ⅰ 的 扩增 中 ， 除 变形杆菌 以外 的 肠道 细菌 均 有 相同 的 扩增 条带 产生 ， 而 两种 非 肠道 细菌 未有 条带 产生 ， 如图 4 . 在 引物 Ⅱ 的 扩增 中 ， 只有 大肠杆菌 和 宋内志 贺菌 有 目的 条带 产生 ， 如图 5 . 这 表明 两个 引物 的 扩增 具有 较 好 的 特异性 . 
+ 
+ 
+ 图 4 　 引物 Ⅰ PCR 扩增 的 特异性 
+ 1 ： 模板 为 芽孢 杆菌 DNA ， 2 ： 模板 为 柠檬酸 杆菌 DNA ， 3 ： 模板 为 假单 胞 杆菌 DNA ， 4 ： 模板 为 肺炎 克 氏杆菌 DNA ， 5 ： 模板 为产气 杆菌 DNA ， 6 ： 模板 为 阴沟 产气 杆菌 DNA ， 7 ： 模板 为 变形杆菌 DNA ， 8 ： 模板 为 宋内志 贺菌 DNA ， 9 ： 模板 为 大肠杆菌 DNA ， 10 ： DNA 分子量 标准 
+ Fig.4 ThespecificityofPCRamplificationbyprimer Ⅰ 
+ 1 . BacillusDNAastemplate ; 2 . CitrobacterDNAastemplate ; 3 . PseudomonasDNAastemplate ; 4 . KlebsiellaDNAastemplate ; 5 . EnterobacteraeroenesDNAastemplate ; 6 . EnterobactercloaceaeDNAastemplate ; 7 . ProteusDNAastemplate ; 8 . ShigellaDNAastemplate ; 9 . E . coliDNAastemplate ; 10 . DNAmarker 
+ 
+ 
+ 图 5 　 引物 Ⅱ PCR 扩增 的 特异性 
+ 1 ： 模板 为产气 杆菌 DNA ， 2 ： 模板 为 柠檬酸 杆菌 DNA ， 3 ： 模板 为 肺炎 克 氏杆菌 DNA ， 4 ： 模板 为 宋内志 贺菌 DNA ， 5 ： 模板 为 大肠杆菌 DNA ， 6 ： DNA 分子量 标准 
+ Fig.5 ThespecificityofPCRamplificationbyprimer Ⅱ 
+ 1 . EnterobacteraerogenesDNAastemplate ; 2 . CitrobacterDNAastemplate ; 3 . KlebsiellaDNAastemplate ; 4 . ShigellaDNAastemplate ; 5 . E . coliDNAastemplate ; 6 . DNAmarker 
+ 2.3 　 非 靶 DNA 存在 对 目的 DNA 扩增 的 影响 
+ 　 　 由于 实际 检测 的 水样 标本 中 含有 大量 的 各种 生物 ， 所以 提取 的 水样 DNA 也 包含 了 大量 的 非 目的 DNA ， 这些 异源 DNA 的 存在 对 目的 DNA 的 扩增 可能 产生 的 影响 对 PCR 法 能否 用于 检测 环境 水体 指示菌 是 至关重要 的 . 我们 的 研究 表明 ， 一般 情况 下 ， 这种 非 靶 DNA 的 存在 对 检测 结果 不会 产生 干扰 . 在 用 凤尾竹 DNA 做 的 干扰 实验 中 ， 在 其量 大于 目的 DNA3000 倍 的 情况 下 ， 仍 不 影响 目的 DNA 的 检出 . 
+ 2.4 　 环境 水体 指示菌 PCR 检测 结果 
+ 　 　 我们 用 PCR 法 检测 了 杭州 西湖 湖水 ， 城市 河道 河水 ， 钱塘江 水等 共计 40 份 水样 中 指示菌 的 存在 情况 ， 检测 结果 均 与 常规 的 MTF 法 进行 了 对照 ， 部分 结果 见表 1 . 在 所 检测 的 水样 中 ， 大 水样 样本 其 PCR 检测 结果 与 MTF 法 完全一致 ， 符合率 100% ； 而 小 水样 样本 的 检测 中 ， 40 份 水样 中有 31 份 检测 结果 与 MTF 法 一致 ， 符合率 77.5% . 整个 检测 工作 在 水样 采集 后 5 — 6h 内 完成 . 图 6 和 图 7 为 部分 水样 的 PCR 检测 结果 . 我们 的 研究 表明 PCR 法 检测 水体 指示菌 具有 快速 ， 准确 的 特点 ， 是 有效 监测 环境 水体 指示菌 的 一种 潜在 的 新 方法 . 
+ 表 1 　 环境 水体 指示菌 PCR 检测 和 MTF 检测 结果 对照 
+ Table1ComparisionofdetectiveresultsbyPCRandMTFmethods 
+ 
+ 水样 来源 MTF 检测 PCR 检测 水样 来源 MTF 检测 PCR 检测 
+ 0.1 mL1mL0.1 mL1mL0.1 mL1mL0.1 mL1mL 
+ 里西 湖北 - + - + 朱 头角 中 ++++ 
+ 湖心 处 ++ - + 朱 头角 右 ++++ 
+ 少年宫 - + - + 袁浦 左 ++++ 
+ 金沙 涧 ++ - + 袁浦中 ++ - + 
+ 龙弘涧 ++++ 袁浦右 ++ - + 
+ 长桥 溪 ++++ 七堡 左 ++++ 
+ 半山 桥 ++++ 七堡 中 ++ - + 
+ 坝子 桥 ++++ 七堡 右 ++++ 
+ 清泰 门 - + - + 闸口 左 ++ - + 
+ 化仙 桥 ++++ 闸口 中 - + - + 
+ 华家桥 ++++ 闸口 右 - + - + 
+ 朱 头角 左 ++ - + 　 
+ 
+ 　 　 “ + ” 表示 检测 结果 为 阳性 ， “ - ” 表示 检测 结果 为 阴性 
+ 
+ 
+ 图 6 　 部分 水样 使用 引物 Ⅰ 的 PCR 检测 电泳图谱 
+ 1 — 9 ： 水样 DNA 扩增 产物 ， 水样 分别 取自 杭州 西湖 湖水 ， 城市 河道 河水 和 钱塘江 水 ， 10 ： DNA 分子量 标准 
+ Fig.6 ElectrophoretogramofPCRdetectionforsomewatersamplesbyprimer Ⅰ 
+ 1 — 9 . amplifiedproductsofwatersampleDNAfromtheWestLake , CityriversandQiantangRiverrespectively ; 10 . DNAmarker 
+ 
+ 
+ 图 7 　 部分 水样 使用 引物 Ⅱ 的 PCR 检测 电泳图谱 
+ 1 — 9 ： 水样 DNA 扩增 产物 ， 水样 分别 取自 杭州 西湖 湖水 ， 城市 河道 河水 和 钱塘江 水 ， 10 ： DNA 分子量 标准 
+ Fig.7 ElectrophoretogramofPCRdetectionforsomewatersamplesbyprimer Ⅱ 
+ 1 — 9 . amplifiedproductsofwatersampleDNAfromtheWestLake , CityriversandQiantangRiverrespectively ; 10 . DNAmarker 
+ * 浙江省 科委 项目 ( 971103079 ) 和 浙江省 教委 项目 资助 
+ 作者 单位 ： 明镇 寰 　 黄 　 朴 ： 浙江大学 生命科学 学院 ， 杭州 　 310012 
+ 虞 左明 　 詹 　 立 ： 杭州市 环境保护 科学 研究所 ， 杭州 　 310007 
+ 参考文献 
+ 1 　 DufourAP . In : Hoadley ( ed ) . Bacterialindicators / healthhazardsassociatedwithwater . ASTMpublication , Philadelphia , 1977 : 59 — 64 
+ 2 　 BissonnetteGK , JezeskiJ . Evaluationofrecoverymmethodstodetectcoliformsinwater . ApplMicrobiol , 1977 , 33 : 590 — 595 
+ 3 　 McFetersGA , CameronSC . Influenceofdiluents , mediaandmembranefiltersonthedetectionofinjuredwaterbornecoliformbacteria . ApplEnvironMicrobiol , 1986 , 51 : 1007 — 1012 
+ 4 　 McFetersGA , StaartDG . Survivalofcoliformbacteriainnaturalwaterfieldandlaboratorystudieswithmembrane － filterchambers . ApplMicrobiol , 1972 , 24 : 805 — 811 
+ 5 　 StephenC , MartinJ . NationalfieldevaluationofadefinedsubstratemethodforthesimultanneousenumerationoftotalcoliformsandEscherichiacolifromdrinkingwater : comparisonwiththestandardmultipletubefermentationmethod . ApplEnvironMicrobiol , 1988 , 54 : 1595 — 1601 
+ 6 　 StephenC , MartinJ . NationalfieldevaluationofadefinedsubstratemethodforthesimultaneousdetectionoftotalColiformsandEscherichiacolifromdrinkingwater : Comparisonwithpresence － AbsenceTechniques . ApplEnvironMicrobiol , 1989 , 55 : 1003 — 1008 
+ 7 　 FrickerEJ , FrickerCR . ApplicationofthepolymerasechainreactiontotheidentificationofEscherichiacoliandcoliformsinwater . LettersinApplMicrobiol , 1994 , 19 : 44 — 46 
+ 8SaikiRK , MullisKB . Enzymaticamplificationof β － globingenomicsequencesandrestrictionsiteanalysisfordiagnosisofsicklecellanemia . Science , 1985 , 230 : 1350 — 1354 
+ 9 　 AsimKB , , SteffanRJ . Detectionofcoliformbacteriainwaterbypolymerasechainreactionandgeneprobe . ApplEnvironMicrobiol , 1990 , 56 : 307 — 314 
+ 10McdanielsAE , RiceAL . ConfirmationalidentificationofEscherichiacoli , acomparisonofgenotypicandpenotypicassaysforglutamatedecarboxylaseand β - D - glucuronidase . ApplEnvironMicrobiol , 1996 , 62 : 3350 — 3354 
+ 11TsaiYuli , OlsonBH . Detectionoflownumbersofbacterialcellsinsoilsandsedimentsbypolymerasechainreaction . ApplEnvironMicrobiol , 1992 , 58 : 2292 — 2295 
+ 12DegrangeV , RardinR . DetectionandcountingofNitrobacterpopulationsinsoilbyPCR . ApplEnvironMicrobiol , 1995 , 61 : 2093 — 2098 
+ 1998 - 09 - 14 收到 原稿 
+ 1998 - 12 - 25 收到 修改稿 

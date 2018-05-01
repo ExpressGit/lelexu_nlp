@@ -1,0 +1,219 @@
+计算机 应用 研究 
+ APPLICATIONRESEARCHOFCOMPUTERS 
+ 2000 　 Vol.17 　 No.5 　 P.81 - 83 
+ 
+ 
+ 
+ 利用 ASP + ADO 访问 站点 数据库 
+ 毕潜 　 李飞 
+ 摘要 该文 较为 系统地 介绍 了 利用 ASP 访问 站点 数据库 的 方法 和 技巧 ， 并 给出 实例 加以 说明 。 
+ 关键词 ASPADO 站点 数据库 
+ 1ASP 的 认识 
+ 　 　 ActiveServerPages ( 动态 服务器 主页 ， 简称 ASP ) ， 内含 于 InternetInformationServer ( IIS ) 当中 ， 提供 一个 服务器端 ( Server - side ) 的 Scripting 环境 ， 产生 和 执行 动态 、 交互式 、 高效率 的 站点 服务器 的 应用程序 ， 并 使 站点 服务器 自动 将 ActiveServerPages 的 程序 码 解释 为 标准 HTML 格式 的 内容 ， 送到 用户 端的 浏览器 上 显示 出来 。 用户端 只要 使用 常规 可 执行 HTML 码 的 浏览器 ， 即可 浏览 ActiveServerPages 所 设计 的 主页 内容 。 
+ 　 　 ASP 的 特点 是 ： 
+ 　 　 ( 1 ) 集成 于 HTML 中 ， 无需 编译 即可 执行 ； 
+ 　 　 ( 2 ) 使用 常规 文本编辑 器 ， 如 Windows 的 记事本 ， 即可 设计 ； 
+ 　 　 ( 3 ) 与 浏览器 无关 ( BrowserIndependence ) ， 用户端 只要 使用 常规 的 可 执行 HTML 码 的 浏览器 ， 即可 浏览 ASP 所 设计 的 主页 内容 ， Script 语言 ( VBscript ， Jscript ) 是 在 站点 服务器 ( Server 端 ) 执行 ， 用户 不 需要 执行 这些 Script 语言 ； 
+ 　 　 ( 4 ) 面向对象 ( Object _ Orient ) ； 
+ 　 　 ( 5 ) 可 通过 ActiveXServerComponents ( ActiveX 服务器 组件 ) 来 扩充 功能 。 ActiveXServercomponents 可 使用 VisualBasic 、 Java 、 Visual C++ 、 COBOL 等 语言 来 实现 ； 
+ 　 　 ( 6 ) ASP 与 任何 ActiveXScripting 语言 兼容 。 除了 可 使用 VBscript 或 Jscript 语言 来 设计 外 ， 还 可 通过 Plug - in 的 方式 ， 使用 由 第三方 所 提供 的 其它 譬如 REXX ， Perl ， Tcl 等 Scripting 语言 。 Script 引擎 是 处理 Script 的 COM ( ComponentObjectModel ) 对象 ； 
+ 　 　 ( 7 ) ASP 的 源程序 代码 ， 不会 传到 用户 的 浏览器 ， 因此 可以 保护 辛辛苦苦 写 出来 的 源程序 。 传到 用户 浏览器 的 是 ASP 执行 结果 的 常规 HTML 码 ； 
+ 　 　 ( 8 ) 使用 服务端 Script 产生 客户端 Script 。 可以 使用 ASP 程序 码 ， 在 站点 服务器 执行 Script 语言 ( VBscript 或 Jscript ) ， 来 产生 或 更改 在 客户端 执行 的 Script 语言 。 
+ 　 　 ASP 提供 下面 五个 内置 的 “ 对象 ” ( Object ) 可以 直接 调用 ： 
+ 　 　 ① Request ： 取得 用户 信息 ； 
+ 　 　 ② Response ： 传送 信息 给 用户 ； 
+ 　 　 ③ Server ： 提供 访问 服务器 的 方法 ( methods ) 和 属性 ( properties ) 的 功能 ； 
+ 　 　 ④ Application ： 一个 应用程序 ， 可以 在 多个 主页 之间 保留 和 使用 一些 共同 的 信息 ； 
+ 　 　 ⑤ Session ： 一个 用户 ， 可以 在 多个 主页 之间 保留 和 使用 一些 共同 的 信息 。 
+ 　 　 ASP 文件 的 扩展名 是 . asp ， 它 是 一个 文本文件 。 在 ASP 文件 中 包括 ： HTML 标记 ( tags ) 、 VBscript 或 Jscript 语言 的 程序 码 、 ASP 语法 。 
+ 　 　 ASP 并 不是 一个 Script 语言 ， 而是 提供 一个 可以 集成 Script 语言 ( VBscript 或 Jscript ) 到 HTML 主页 的 环境 。 HTML 标记 ( tags ) 使用 “ < ... > ” 将 HTML 程序 码 包含 起来 ， 以 与 常规 的 文本 区分 开来 ； 而 ASP 使用 “ < %...% > ” 将 ASP 的 Script 程序 码 包含 起来 。 
+ 2ASP + ADO 访问 站点 数据库 的 步骤 
+ 　 　 ADO 是 微软 提供 的 最新 站点 数据库 访问 技术 ， 它 是 ASP 的 一个 组件 ， 通过 ODBC 驱动程序 连接 相应 的 数据库 。 ASP 访问 数据库 的 过程 是 ： 当 浏览器 向 Web 服务器 申请 访问 一个 ASP 文件 时 ， Web 服务器 调用 ASP 文件 ， 然后 解释 执行 每 一条 脚本 语句 ， 用 ADO 组件 通过 ODBC 访问 数据库 ， 再 把 执行 的 结果 生成 HTML 文件 传给 客户端 。 
+ 　 　 ADO 数据库 设计 步骤 ： 
+ 　 　 ( 1 ) 设定 ODBC 与 数据库 的 连接 。 在 NT 服务器 上 执行 “ 控制面板 ” 上 的 “ ODBC ” ， 选择 “ 系统 DSN ” ， 按 “ 添加 ” 按钮 ， 选择 数据源 驱动程序 ， 如 选择 “ SQLServer ” ， 然后 填好 数据源 名称 ( DSN ) 及 数据库 名称 。 
+ 　 　 ( 2 ) 使用 “ Server . createobject ” 建立 连接 的 对象 ， 并 使用 “ Open ” 打开 待 访问 查询 的 数据库 。 
+ setconn = server . createobject ( ＂ adodb . connection ＂ ) 
+ conn . open ＂ 数据库 名称 ＂ 
+ 　 　 数据库 名称 即 为 在 “ ODBC ” 设定 的 “ 数据 来源 名称 ” 。 
+ 　 　 ( 3 ) 设定 SQL 命令 ， 使用 “ Execute ” 命令 ， 开始 执行 访问 查询数据库 的 动作 。 
+ setrs = conn . execute ( SQL 命令 ) 
+ 　 　 ( 4 ) 使用 如下 recordsets 对象 的 命令 ， 显示 查询 的 结果 。 
+ . rs . fields . count : records 的 字 段数 ; 
+ . rs ( i ) . name : 第 i ( 指针 ) 个 字段名 ， i 由 0 算 起到 rs . fields . count - 1 ; 
+ . rs ( i ) : 读取 第 i ( 指针 ) 个 字 段 的 记录 ， i 由 0 算 起到 rs . fields . count - 1 ; 
+ . rs ( ＂ 字段名 & quot ; ) : 读取 指定 的 字 段 的 记录 ; 
+ . rs . eof : 是 ( true ) 否 ( false ) 已 指定 最 末笔 ; 
+ . rs . movenext : 将 指针 移到 下 一笔 ; 
+ . rs . moveprev : 将 指针 移到 上 一笔 ; 
+ . rs . movefirst : 将 指针 移 到 第一笔 ; 
+ . rs . movelast : 将 指针 移到 最 末笔 ; 
+ . rs . getrows : 将 查询 结果 存于 数组 当中 ， 如 v = rs . getgows ( 100 ) ， 再 读取 数组 v ( col , row ) 的 值 即 为 查询 的 记录 ; 
+ . rs . properties . count : 得到 ADO 的 Connection 或 Resultset 的 属性 总数 ; 
+ . rs . properties ( item ) . name : 得到 ADO 的 Connection 或 Resultset 的 属性 名称 ; 
+ . rs . properties ( item ) : 得到 ADO 的 Connection 或 Resultset 的 属性 值 。 
+ 　 　 ( 5 ) 最后 ， 使用 如下 的 命令 ， 关闭 数据库 。 
+ rs . close 
+ conn . close 
+ 3 一个 查询 系统 的 设计 
+ 　 　 在 search . asp 文件 中 利用 Form 表单 形成 一个 查询 入口 ( 如图 1 所示 ) 。 当 用户 选择 了 查询 条件 后 ， 按下 “ 提交 ” 按钮 ， 将 变量 送到 process . asp 中 ， process . asp 根据 变量 的 值 ， 利用 SQL 语句 在 服务器端 完成 数据库 表 文件 的 查询 ， 最后 将 查询 结果 送回 浏览器 端 ( 如图 2 所示 ) 。 
+ 
+ 图 1 
+ 
+ 图 2 
+ 　 　 search . asp 程序 源代码 ： 
+ < html > 
+ < head > 
+ < title > < / title > 
+ < metacontent = " text / html ; charset = gb2312 " http - equiv = " Content - " Type > 
+ < style > 
+ body { font - size : 9pt ; background - attachment : fixed } 
+ table { font - size : 9pt ) < / style > 
+ < scriptlanguage = " vbscript " > 
+ 　 subback 
+ 　 　 　 history . back 
+ 　 endsub 
+ 　 subforward 
+ 　 　 　 history . forward 
+ 　 endsub 
+ < / script > 
+ < / head > 
+ < bodyaLink = " # FF6666 " background = " Image / nabkgnd . jpg " bgColor = " # ffffff " link = " # FF3333 " text = " # 000099 " vLink = " # FF0066 " > 
+ < divalign = " center " > < fontsize = " 5 " face = " 隶书 " color = " # FF33FF " > 99 级新生 情况 查询 < / font > < / div > 
+ < formmethod = " Post " action = " Process . asp " name = " newstudent " > 
+ < tablewidth = " 734 " border = " 0 " > 
+ < tr > < tdwidth = " 264 " > 姓名 < inputtype = " text " name = " sname " > < / td > 
+ < tdwidth = " 233 " > 性别 < inputtype = " radio " name = " ssex " value = " 所有 " checked > 所有 < inputtype = " radio " name = " ssex " value = " 男 " > 男 < inputtype = " radio " name = " ssex " value = " 女 " > 女 < / td > 
+ < tdwidth = " 223 " rowspan = " 2 " valign = " top " > 专业 < selectname = " sdpm " > 
+ < optionvalue = " 所有 " selected > 所有 < / option > < optionvalue = " 电信 工程 " > 电信 工程 < / option > 
+ < optionvalue = " 国际 商务 " > 国际 商务 < / option > < optionvalue = " 环境工程 " > 环境工程 < / option > 
+ < optionvalue = " 会计学 " > 会计学 < / option > < optionvalue = " 计算机科学 " > 计算机科学 < / option > 
+ < optionvalue = " 金融 与 保险 " > 金融 与 保险 < / option > < optionvalue = " 通讯 工程 " > 通讯 工程 < / option > 
+ < / select > < / td > < / tr > 
+ < tr > < tdwidth = " 264 " rowspan = " 2 " > 毕业 学校 < inputtype = " text " name = " sschool " > < / td > 
+ < tdwidth = " 233 " rowspan = " 2 " > 地方 < inputtype = " text " name = " sarea " > < / td > < / tr > 
+ < tr > < tdwidth = " 223 " valign = " top " > 籍贯 < inputtype = " text " name = " sbelong " > < / td > < / tr > 
+ < / table > 
+ < divalign = " center " > < tablewidth = " 524 " border = " 0 " > 
+ < tr > < td > < divalign = " center " > < inputtype = " submit " value = " 提交 " > < / div > < / td > 
+ < td > < divalign = " center " > < inputtype = " reset " value = " 清除 " > < / div > < / td > < / tr > < / table > < / div > 
+ < / form > 
+ < br > < br > < br > < divalign = " center " > 
+ < tablewidth = " 500 " > 
+ < tr > < tdwidth = " * " align = " left " > < imgsrc = " / Image / back . gif " alt = " back " border = " 0 " onclick = " back ( " ) > < / td > 
+ < tdwidth = " 200 " align = " center " > < ahref = " / index . html # startpage & quot ; " > < imgsrc = " / Image / home . gif " alt = " home " border = " 0 " width = " 30 " height = " 30 " > < / a > < / td > 
+ < tdwidth = " * " align = " right " > < imgsrc = " / Image / forward . gif " alt = " forward " onclick = " forward ( " ) width = " 50 " height = " 30 " > < / td > < / tr > < / table > < / div > < / body > < [ html > 
+ 　 　 process . asp 程序 源代码 : 
+ < html > 
+ < head > 
+ < title > < / title > 
+ < metacontent = " text / html ; charset = gb2312 " http - equiv = " Content - " Type > 
+ < style > 
+ body { font - size : 9pt ; background - attachment : fixed ) 
+ table { font - size : 9pt ) 
+ < / style > 
+ < scriptlanguage = " vbscript " > 
+ 　 subback 
+ 　 　 　 history . back 
+ 　 endsub 
+ 　 subforward 
+ 　 　 　 history . forward 
+ 　 endsub 
+ < / script > 
+ < % 
+ 　 Subcombinesql ( psql ) 
+ 　 　 　 bsql = " " 
+ 　 　 　 if ( request . form ( " sname " ) < > " " ) then 
+ 　 　 　 　 　 if ( bsql < > " " ) then 
+ 　 　 　 　 　 　 bsql = bsql & " and " 
+ 　 　 　 　 　 endif 
+ 　 　 　 　 　 bsql = bsql & " 姓名 = " ' & request . form ( " sname " ) & " " ' 
+ 　 　 Endif 
+ 　 　 if ( request . form ( " ssex " ) < > " 所有 " ) Then 
+ 　 　 　 　 if ( bsql < > " " ) then 
+ 　 　 　 　 　 　 bsql = bsql & " and " 
+ 　 　 　 　 endif 
+ 　 　 　 　 bsql = bsql & " 性别 = " ' & request . form ( " ssex " ) & " ' " 
+ 　 endif 
+ 　 if ( request . form ( " sdpm " ) < > " 所有 " ) then 
+ 　 　 　 　 if ( bsql < > " " ) then 
+ 　 　 　 　 　 　 bsql = bsql & " and " 
+ 　 　 　 　 endif 
+ 　 　 　 　 bsql = bsql & " 专业 like ' % " & request . form 
+ 　 　 　 　 　 　 ( " sdpm " ) & " % " ' 
+ 　 　 Endif 
+ 　 　 if ( request . form ( " sscholl " ) < > " " ) then 
+ 　 　 　 　 if ( bsql < > " " ) then 
+ 　 　 　 　 　 　 bsql = bsql & " and " 
+ 　 　 　 　 endif 
+ 　 　 　 　 bsql = bsql & " 毕业 学校 like ' % " & request . form 
+ 　 　 　 　 　 　 　 ( " sscholl " ) & " % " ' 
+ 　 endif 
+ 　 if ( request . form ( " sarea " ) < > " " ) then 
+ 　 　 　 　 if ( bsql < > " " ) then 
+ 　 　 　 　 　 　 　 bsql = bsql & " and " 
+ 　 　 　 　 endif 
+ 　 　 　 　 bsql = bsql & " 地方 like ' % " & request . form 
+ 　 　 　 　 　 　 　 ( " sarea " ) & " % ' " 
+ 　 endif 
+ 　 if ( request . form ( " sbelong " ) < > " " ) then 
+ 　 　 　 　 if ( bsql < > " " ) then 
+ 　 　 　 　 　 　 　 bsql = bsql & " and " 
+ 　 　 　 　 endif 
+ 　 　 　 　 bsql = bsql & " 籍贯 like ' % " & request . form 
+ 　 　 　 　 　 　 　 ( " sbelong " ) & " % " ' 
+ 　 endif 
+ 　 if ( bsql < > " " ) then 
+ 　 　 　 　 psql = psql & " where ( " & bsql & " ) " 
+ 　 　 　 　 endif 
+ EndSub 
+ % > 
+ < / head > 
+ < bodyaLink = " # FF6666 " background = " Image / nabkgnd . jpg " bgcolor = " # ffffff " link = " # FF3333 " text = " # 000099 " vLink = " # FF0066 " > < fontface = " 仿宋 _ GB2312 " size = " 4 " color = " # FF0000 " > 查询 结果 : 
+ 　 < / font > < br > 
+ < % 
+ 　 setdbf = server . createobject ( " adodb . connection " ) 
+ 　 dbf . open ( " stud " ) 
+ 　 sql = " select * from 学院 99 级新生 . dbf " 
+ 　 callcombinesql ( sql ) 
+ 　 response . write ( " 查询 条件 : " & sql & " < br > < hr > " ) 
+ 　 setrs = dbf . execute ( sql ) 
+ 　 ifrs . eofthen 
+ response . write ( " Nobodywasfound ! < FONTCOLOR = RED > TRY 
+ 　 AGAIN ! < / FONT > < br > < hr > " ) 
+ 　 else 
+ 　 　 response . write ( " 共查 到 " & rs . recordcount & " 条 记录 ! " ) 
+ % > 
+ < tablewidth = " 750 " border = " 0 " > 
+ < % dowhilenotrs . eof% > 
+ < tr > < tdwidth = " 120 " > 考 号 : < % response . write ( rs ( " 考 号 " ) ) % > < / td > 
+ 　 < tdwidth = " 120 " > 姓名 : < % response . write ( rs ( " 姓名 " ) ) % > < / td > 
+ 　 < tdwidth = " 120 " > 性别 : < % response . write ( rs ( " 性别 " ) ) % > < / td > 
+ 　 < tdwidth = " 61 " > 民族 : < % response . write ( rs ( " 民族 " ) ) % > < / td > 
+ 　 < tdwidth = " 179 " > 出生日期 : < % response . write ( rs ( " 出生日期 " ) ) % > < / td > 
+ 　 < tdwidth = " 124 " > 身高 : < % response . write ( rs ( " 身高 " ) ) % > < / td > < / tr > 
+ < tr > < tdwidth = " 120 " > 专业 : < % response . write ( rs ( " 专业 " ) ) % > < / td > 
+ 　 < tdwidth = " 120 " > 层次 : < % response . write ( rs ( " 层次 " ) ) % > < / td > 
+ 　 < tdwidth = " 120 " > 籍贯 : < % response . write ( rs ( " 籍贯 " ) ) % > < / td > 
+ 　 < tdwidth = " 364 " colspan = " 3 " > 地方 : < % response . write ( rs ( " 地方 " ) ) % > < / td > < / tr > 
+ < tr > < tdwidth = " 360 " colspan = " 3 " > 毕业 学校 : < % response . write 
+ 　 ( rs ( " 毕业 学校 " ) ) % > < / td > 
+ 　 < tdwidth = " 364 " colspan = " 3 " > 家庭 住址 : < % response . write 
+ 　 ( rs ( " 家庭 住址 " ) ) % > < / td > < / tr > 
+ 　 < tr > < tdwidth = " 724 " colspan = " 6 " > < hr > < / td > < / tr > 
+ < % 
+ rs . movenext 
+ 　 loop 
+ 　 rs . close 
+ 　 dbf . close 
+ 　 endif 
+ % > < / table > 
+ < / body > 
+ < / html > 
+ 4 结束语 
+ 　 　 通过 上面 的 实例 ， 说明 ASP + ADO 访问 站点 数据库 的 技术 是 非常 易学 易用 的 ， 并且 具有 高效 、 快速 、 安全性 ， 是 一种 极具 发展潜力 的 新 技术 。 
+ 毕潜 ( 成都 科技 大学 出版社 成都 610065 ) 
+ 李飞 ( 成都 气象 学院 计算机系 成都 610041 ) 
+ 参考文献 
+ 1 ， 蔡丹媚 , 纪春姣 . 利用 ASP 轻松 实现 Web 的 动态 交互 访问 . 计算机 应用 研究 , 1999 . 第 2 期 , 62 ～ 64 
+ 2 ， http : / / www . swm . com . cn / yingyong / rj - 98 - yy2 / 98 - y2 - yy17 . htm 
+ 收稿 日期 ： 1999 - 11 - 16 

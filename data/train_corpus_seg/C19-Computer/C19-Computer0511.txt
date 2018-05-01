@@ -1,0 +1,59 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 第 23 卷 第 1 期 Vol.23 No.11997 
+ 
+ 
+ 
+ IEEEICIPS ' 97 
+ CALLFORPAPERS 
+ IEEEFirstInternationalConferenceonIntelligentProcessingSystems ( IEEEICIPS ) 
+ October20 - 24 , 1997 , Beijing , China 
+ Deadlines : Proposalsubmissiondue : February28 , 1997 , Acceptancenotification : 
+ April30 , 1997 , Finalpaperdue : June30 , 1997 
+ TheAim : Withtheadvancesincomputertechologyandintelligentmachines , wehaveseenadramaticincreaseinintelligentcapabilitiesinmanydifferentfields . TheInternationalConferenceonIntelligentProcessingSystemsprovidesanimportantcentralforumforresearchersandengineersfromdifferentdisciplinestoexchangeideas , studydifferences , sharecommoninterests , explorenewdirections , andinitiatepossiblecollaborativeresearchanddevelopment . Moreimportantly , thisconferencewillsignificantlybenefitalargevarietyofeconomicalandindustrialsectors , aswellastheresearchcommunity . 
+ Topies ( butnotlimitedto ) 
+ Machineintelligenceandapplications 
+ Intelligentcommunicationsnetwords 
+ Computervisionsystems 
+ Fuzzysystems 
+ Softcomputingandapplications 
+ Computervision 
+ Roboticsandapplications 
+ Intelligentprocesscontrol 
+ Diagnosticsystem 
+ Intelligentengineeringdesign 
+ Imageinformationprocessingandmanagement 
+ Designanddevelopmentsystems 
+ Resourcemanagement 
+ Virtualreality 
+ IntelligentGISandGPS 
+ Decisionsupportsystems 
+ NaturallanguageunderstandingsystemsExpertsystems 
+ Intelligenttransportationsystems 
+ Evolutionarycomputingandsystems 
+ Operationalsystems 
+ Intellignetagents 
+ Knowledge - basedsignalprocessing 
+ Computerdatabased 
+ Multimediaapplications 
+ Intelligentmanufacturing 
+ Computernetworksandapplications 
+ Softwaredevelopment 
+ Medicalinformationprocessing 
+ Environmentcare 
+ Agriculturalprocessingandmanagementsystems 
+ Schedulingandplanning 
+ Neuralnetworkds 
+ Biomedicalsystems 
+ SubmissionofPapers : TheworkinglanguageoftheconferenceisEnglish.1000 - wordextendedsummariesaresolicited . Submissionsshouldbeformattedasfollows : Firstpage : title , authors , mailingaddress , phoneandfaxnumbers , andelectronicmailaddressofeachauthor ( pleasedesignateoneauthorforcorrespondence ) , preferredtopicalandsubjectareas . Secondpage : title , authors ' namesandaffiliations , 100wordabstract . Thirdandsucceedingpages : PaperProposalplusreferences , tables , andfigures . Submitfivecopiesofeach , inEngligh , toProgramCo - Chairman : 
+ Porf : Zhi - QiangLiu , DepartmentofComputerScience , TheUniversityofMelboume , 
+ Parkville , Victoria.3052 , Australia , Tel : 61 - 3 - 9287 - 9124 , Fax : 61 - 3 - 9348 - 1184 
+ E - mail : zliu @ cs . mu . oz . au 
+ ForsubmissionsinsideChina , submitdirectlytoProgramCo - Chairman : 
+ Prof . LizhuZhou , DepartmentofComputerScienceandTechnology , TsinghuaUniversity , Beijing , 100084 , 
+ ThePeople ' sRepublicofChina , Tel : 86 - 10 - 62785601 , Fax : 86 - 10 - 6256 - 2463 , 
+ E - mail : dcszlz @ mail . tsinghua . edu . cn 
+ Forfurtherinformationcontact 
+ Prof . RichardZurawski , InstituteofIndustrialScience , UniversityofTokyo , 7 - 22 - 1 
+ Poppongi , Minato - ku , Tokyo106 , JapanTel : 81 - 3 - 3402 - 6231 , Fax : 81 - 3 - 3423 - 1484 , 
+ E - mail : zurawski @ vss . iis . u - tokyo . ac . jp 

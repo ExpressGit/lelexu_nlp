@@ -1,0 +1,186 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 2000 　 Vol.11 　 No.3 　 P.300 - 307 
+ 
+ 
+ 
+ 论 加权 扩充 自由选择 网 的 活性 与 安全性 
+ 甄强 　 陆维明 
+ 摘要 　 活性 与 安全性 是 网 系统 重要 的 行为 性质 . 对于 位置 / 变迁 网 系统 的 一些 子类 ， 人们 已为 之 导出 许多 有 意义 的 结果 . 该文 贡献 在于 为 一种 称为 加权 扩充 自由选择 网 的 网 系统 子类 找到 活性 与 安全性 的 一般 性质 . 文章 先 给出 其 活性 等价 条件 的 简要 与 直观 的 证明 , 随后 , 对于 这 一类 安全 的 子系统 又 给出 活性 的 充分 必要条件 . 
+ 关键词 　 加权 扩充 自由选择 网 , 活 , 安全 , 结构 活 , 结构 安全 . 
+ 中图法 分类号 　 TP301 
+ OnLivenessandSafenessforWeightedExtendedFreeChoiceNets 
+ ZHENQiang 　 LUWei - ming 
+ ( InstituteofMathematicsTheChineseAcademyofSciencesBeijing 　 100080 ) 
+ Abstract 　 Livenessandsafenessareimportantbehavioralpropertiesofnets ( systems ) . ManypowerfulresultshavebeenderivedforsomesubclassesofPlace / Transitionnets ( systems ) . TheaimofthispaperistodrawageneralperspectiveofthelivenessandsafenessforasubclasswithExtendedFreeChoicenet - likeunderlyinggraphbutallowingweights : WeightedExtendedFreeChoicenets ( WEFCnets ) . First , abriefandintuitiveproofoflivenessequivalentconditionforWEFCnetsisgiven . Then , forsafenets , asufficientandnecessaryconditionispresented . 
+ 　 Keywords 　 Weightedextendedfreechoicenet , live , safe , structurallylive , structurallysafe . 
+ 　 　 Place / Transitionnet ( P / Tnet ) ［ 1 ］ isamathematicaltoolwellsuitedformodellingandanalyzingsystemsexhibitingbehaviorssuchasconcurrency , conflictandcausaldependencybetweenevents . However , thehighdegreeofcomplexityoftheanalysislimitstheapplicabilityofPetrinetstoreal - worldproblems . Thereachabilitygraphofsuchsystemsisactuallyunmanageable , thusitiscrucialtoenforcetheanalysispoweroftechniquesbasedonthenetstructure . Thispaperpresentsnewresultsinthisdirection . 
+ 　 　 LivenessandsafenessaremainbehavioralpropertiesofP / Tnets . Livenesscorrespondstotheabsenceofglobalorlocaldeadlocksituations , safenesstotheabsenceofoverflows . ManyresultsoflivenessandsafenesstheoryhavebeenderivedforrestrictedclassesofP / Tnets ［ 2 ～ 6 ］ , duetotheuseofsomegraphtheoretictools . Wewonderedhowmuchitwouldchangeifweallowweightsinthemodel . Weconsidertheso - callWEFCnets ( weightedextendedfreechoicenets ) , thatgeneralizethewellknownclassofExtendedFreeChoicenets . Inthispaper , wefirstgiveaninterestingsimpleprooftothelivenesstheorem ( AWEFCnetisliveifandonlyifeverysubsystemgeneratedbysiphonislive ) . Then , forSafeWEFCnets , wegiveanequivalentcondition . 
+ 　 　 Thepaperisorganizedasfollows . Thenextsectionpresentsthebasicconceptsandnotations . Insection2 , thelivenessfortheWEFCnetsisinvestigated . Insection3 , wepresentasufficientandnecessaryconditionof ( structure ) livenessand ( structure ) safenessinWEFCnets . Section4concludesthepaper . 
+ 1 　 BasicConcepts 
+ 　 　 Weassumethereaderisfamiliarwiththestructure , firingruleandbasicpropertiesofnetmodels ［ 7 ］ , andwithelementarygraphtheory . However , inthissectionwerecallsomebasicconceptsandnotationstobeused . 
+ 　 　 Definition1.1 . 
+ 　 　 1 . A ( Petri ) netisatripleN = ( P , T ; F ) where 
+ 　 　 ( 1 ) P = { p1 , p2 , ... , pm } isafinitesetofplaces , 
+ 　 　 ( 2 ) T = { t1 , t2 , ... , tn } isafinitesetoftransitions , 
+ 　 　 ( 3 ) F ( P × T ) ∪ ( T × P ) isasetofarcs ( flowrelation ) , 
+ 　 　 ( 4 ) P ∩ T = andP ∪ T ≠ , 
+ 　 　 ( 5 ) dom ( F ) ∪ cod ( F ) = P ∪ T ( dom ( F ) = { x ｜ y : ( x , y ) ∈ F } , cod ( F ) = { x ｜ y : ( y , x ) ∈ F } ) . 
+ 　 　 N = ( P , T ; F , W ) isaweighted ( Petri ) net , where ( P , T ; F ) isa ( Petri ) net , W : F → { 1 , 2 , 3 , ... } isaweightfunction . 
+ 　 　 2 . Apairofaplacepandatransitiontiscalledaself - loopiff ( p , t ) ∈ F ∧ ( t , p ) ∈ F . Anetissaidtobepureiffithasnoself - loops . 
+ 　 　 Inthefollowing , we ' llonlyconsiderpurenets . 
+ 　 　 Definition1.2 . LetN = ( P , T ; F , W ) beaweightednet . 
+ 　 　 1 . TheincidencematrixAofNisanm × nmatrixofintegersanditsentryisgivenby 
+ 
+ 　 　 2 . AnetCisanelementarycircuitiffitisconnectedandu ∈ P ∪ T : ｜ · u ｜ = ｜ u · ｜ = 1 . Since ｜ P ｜ = ｜ T ｜ = m ＞ 1here , weadoptthefollowingnotations : · pi = { ti } and , W ( ti , pi ) = ci , i ∈ Z + ( Z + isthesetofnonzeropositiveintegers ) , , where1 ≤ i ≤ m , then1elsei + 1 . ThegainofanelementarycircuitCis . Cisneutral , absorbingorgeneratingwhenthevalueofequals , islessthanorisgreaterthan1respectively . 
+ 　 　 3 . N = ( P , T ; F ) isWSM ( weightedstatemachine ) ifft ∈ T : ｜ · t ｜ = ｜ t · ｜ = 1 . 
+ 　 　 4 . N = ( P , T ; F ) isweightedT - systemiffp ∈ P : ｜ · p ｜ = ｜ p · ｜ = 1 . 
+ 　 　 5 . NisWEFCnetiff 
+ 　 　 　 　 ( 1 ) p1 , p2 ∈ P : p · 1 ∩ p · 2 ≠ p · 1 = p · 2 , 
+ 　 　 　 　 ( 2 ) p ∈ P , t1 , t2 ∈ p · : W ( p , t1 ) = W ( p , t2 ) . 
+ 　 　 6 . AnetNisstronglyconnectediffx , y ∈ P ∪ T , thereexistsadirectedpathfromxtoy . AnetNisP - connectediffx , y ∈ P , thereexistsadirectedpathfromxtoy . 
+ 　 　 7 . t1 , t2 ∈ T , t1iscalledinstructureconflictwitht2iff · t1 ∩ · t2 ≠ . 
+ 　 　 Definition1.3 . 
+ 　 　 1 . Anetsystemisa2 - tuple Σ = ( N , M0 ) where 
+ 　 　 　 ( 1 ) Nisaweightednet ; ( 2 ) M0 : P → { 0 , 1 , 2 , 3 , ... } istheinitialmarking . 
+ 　 　 2 . ThesetofallmarkingsreachablefromM0iscalledthereachabilitysetanddenotedbyR ( N , M0 ) . 
+ 　 　 3 . t ∈ TisliveiffM ∈ R ( N , M0 ) , M ′ ∈ R ( N , M ) : tisenabledatM ′ . 
+ 　 　 　 t ∈ TisdeadifftcanneverbefiredatanyM ∈ R ( N , M0 ) . 
+ 　 　 4 . AplacepinthepresetoftiscalledenablinglymarkediffM ( p ) ≥ W ( p , t ) . 
+ 　 　 5 . ( N , M0 ) issafeiffk ∈ Z + , p ∈ P , M ∈ R ( N , M0 ) : M ( p ) ≤ k . ( SafeistherecommendedterminNetCommunity , sometimesitiscalledbounded ) . 
+ 　 　 　 NisstructurallysafeiffM0 , ( N , M0 ) issafe . 
+ 　 　 6 . ( N , M0 ) isliveifft ∈ T , tislive . 
+ 　 　 　 NisstructurallyliveiffM0 , ( N , M0 ) islive . 
+ 　 　 　 N = ( P , T ; F ) isadeadlockatmarkingM0ifft ∈ T , tisdead . 
+ 　 　 7 . Let Σ = ( N , M0 ) beaWEFCsystem . Forp ∈ P , defineasfollows : Ifp · ≠ , thenfort ∈ p · , else 
+ 　 　 　 DividePintotwosubsetsunderanyreachablemarkingM ∈ R ( M0 ) : 
+ 　 　 　 
+ 　 　 Property1.1 . 
+ 　 　 1 . 
+ 　 　 2 . Ifasiphon , thenN ′ generatedbyHisadeadlockunderM , i . e . , M ′ ∈ R ( N , M ) , t ∈ H · , tisnotenabledatM ′ . 
+ 　 　 3 . AWEFCsystem Σ ( N , M ) isadeadlockp ∈ P : 
+ Inthefollowing , MH , M ｜ Hand σ ｜ HdenoteamarkingofsiphonHundersystem Σ HthatisgeneratedbyH , amarkingofsiphonHundersystem ( N , M ) andafiringsequenceonlyincludingelementsinH · respectively . 
+ 2 　 Liveness 
+ 　 　 Inthissection , wediscussedtheequivalentrelationbetweenaWEFCsystemanditssubsystemgeneratedbyitssiphon . References ［ 8 , 9 ］ gavethesameresultforWFCnets ( weightedfreechoicenets ) . Theirproofsaredifferentbutbothareverylongandcomplicated . HerewegivenotonlyaproofforalargerclassofWFCsystems , WEFCsystems , butalsoaquitesimpleproofforWEFCsysteminordertoshowsomeusefulprooftechniques . First , weintroducealemma . 
+ 　 　 Lemma2.1 . Let Σ = ( P , T ; F , W , M0 ) beaWEFCsystemandtbeatransitionofN . tisnotliveiffthereexistasiphonHcontainingaplacep ∈ · tandareachablemarkingMsuchthat 
+ 　 　 Proof . Ifsuchasiphonexists , tisobviouslynotlive . 
+ Nowconsiderthenecessaryconditionbyrecurrenceonthenumberoftransitionsofthenet . 
+ 　 　 If Σ isasystemwithonlyonetransition , thelemmaholds ( Iftisnotlive , oneofitsinputplacesandthisplaceisasiphon ) . 
+ 　 　 Let Σ beasystemwithatleasttwotransitions , tbeatransitionthatisnotlive . Astisnotlive , thereexistsareachablemarkingMsuchthattisdeadunderM . Thereareonlytwocases : 
+ 　 　 Case1 . In Σ , thereexistsanothertransition , u , thatisnotlive . 
+ 　 Byapplyingtherecurrencehypothesisfortransitionuonthesystem ( N ＼ { t } , M ) , weobtainamarkingM ′ reachablefromMandasiphonHu , suchthat , . Transitionstanduaredeadforthesystem ( N , M ′ ) , soforanyreachablemarkingofthissystem , wehave 
+ 　 　 Byapplyingtherecurrencehypothesisfortransitiontonthesystem ( N ＼ { u } , M ′ ) , weobtainamarkingM ″ reachablefromM ′ andasiphonHt , suchthat , thatcontainsaplaceinthepresetoft . 
+ 　 　 NowHt ∪ Huisasiphonin ( N , M0 ) whichcontainsaplaceinthepresetoft , andwehaveamarkingM ″ ∈ ［ M0 ＞ , suchthat 
+ 　 　 Case2 . Thereexistsnoothertransitionin ( N , M ) thatisnotlive . 
+ 　 　 Case2.1 . tisnotinstructureconflictwithanothertransition . 
+ 　 　 Hence , eachtimeaplacepinthepresetoftisenablinglymarked , itremainsenablinglymarkeduntiltfires . AstisdeadunderM , theremustexistaplacepinthepresetoftsuchthatpisneverenablinglymarkedfromMonward . Ifthepresetofpcontainsnotransition , the { p } isthesiphonneeded . Else , allthetransitionsinthepresetofparedeadunderM ′ ∈ R ( M ) . 
+ 　 　 Thenitcontradictstheassumptionthatonlytisnotlive . 
+ 　 　 Case2.2 . tisinstructureconflictwithanothertransitionv . 
+ 　 　 FromthedefinitionofWEFCnet , visnotliveunderM , thiscontradictstheassumption . 
+ 　 　 Thatistheproof . 
+ □ 
+ 　 　 Theorem2.1 . IfeverysubsystemgeneratedbysiphoninaWEFCsystem Σ islive , thentheWEFCsystem Σ islive . 
+ 　 　 Proof . Assume Σ isnotlive , thenthereatleastexistsatransitiontwhichisnotlive . FromLemma2.1 , thereexistasiphonHcontainingaplacep ∈ · tandareachablemarkingMsuchthat . Asfiringoft ( t ∈ T ＼ H · ) can ' tchangethemarkingofH , thefiringsequence σ ｜ Hcanbefiredin Σ H ( Σ HisthesystemgeneratedbyH ) . NowwehaveMH0 ［ σ ｜ H ＞ MH1and . Thiscontradictsthelivenessof Σ H . 
+ □ 
+ 　 　 Theorem2.2 . IfaWEFCsystemislive , theneverysubsystemgeneratedbysipnonislive . 
+ 　 　 Proof . AssumeN = ( P , T ; F , W ) isaWEFCnet , system Σ ( N , M0 ) islive , butthereexistsasiphonH ′ Psuchthatsubsystem Σ ′ = ( N ′ , M ′ 0 ) generatedbyH ′ isnotlive , i . e . , thereexistsatransitiontwhichisnotlivein Σ ′ . FromLemma2.1 , thereexistasiphonHcontainingaplacep ∈ · tandareachabelemarkingM ′ 1 , suchthat , M ′ 0 ［ σ ′ ＞ M ′ 1 . Asfiringoft ( t ∈ H ′ · buttH · ) can ' tchangethemarkingofHandthefiringsequence σ ′ ｜ Hcanbefiredin Σ H ( Σ HisthesystemgeneratedbyH ) . 
+ 　 　 　 Let σ ′ ｜ H = t1 ... tn ( n ≥ 0 ) . Ifwecanprovethatthereexistsa σ , suchthatM0 ［ σ ＞ M1and , therewillbeacontradictionwiththelivenessof Σ . Thetheoremholds . 
+ 　 　 Inthefollowing , wewilloperatebyrecurrenceonthenumberofntoprovetheexistenceof σ andM1 . 
+ 　 　 Case1 . Ifn = 0 , thenlet σ = , M1 = M0 , thetheoremholds . 
+ 　 　 Case2 . Ifn ＞ 0 , wehavetwosubcases : 
+ 　 　 Case2.1 . Letu ∈ H · beatransitionenabledunderM0in Σ ｜ H , henceuisenabledunderM ′ 0in Σ ｜ H . Letp ∈ Handu ∈ p · = { v1 , ... , vf } ( iff = 1 , thenv1 = u ) , thenthereatleastexistsatransitionti ∈ { t1 , ... , tn } in { v1 , ... , vf } . Lettibethefirstelementofp · , whichfirstappearsin σ ′ ｜ H . FromthedefinitionofWEFCnet , wehave · ti ∩ ( ∪ i - 1j = 1 · tj ) = andcanrewrite σ ′ ｜ H = tit1 ... ti - 1ti + 1 ... tn . Thus , wehaveM ′ 0 ［ ti ＞ M ′ 2 ［ t1 ... ti - 1ti + 1 ... tn ＞ M ′ 1 , M0 ［ ti ＞ M2andM2 ｜ Σ H = M ′ 2 . 
+ 　 　 Asn - 1 ＜ n , applyingtherecurrencehypothesisonM2 , M ′ 2 , t1 ... ti - 1ti + 1 ... tn , thereexist σ 1andM3suchthatM2 ［ σ 1 ＞ M3and . Let σ = ti σ 1 , M1 = M3 , thetheoremholds . 
+ 　 　 Case2.2 . NotransitioninH · isenabledunderM0in Σ . 
+ 　 　 As Σ islive , letubethefirstenabledtransitioninH · underM2 ( M0 ［ σ 1 ＞ M2 ) . Obviously , σ 1 ∩ H · = . HencewehaveM2 ｜ Σ H = M ′ 0 . 
+ 　 　 Letp ∈ Handu ∈ p · = { v1 , ... , vf } , thenthereatleastexistsatransitionti ∈ { t1 , ... , tn } in { v1 , ... , vf } . Lettibethefirstelementofp · , whichfirstappearsin σ ′ ｜ H . FromthedefinitionofWEFCnet , wehave · ti ∩ ( ∪ i - 1j = 1 · tj ) = andcanrewrite σ ｜ H = tit1 ... ti - 1ti + 1 ... tn . Thus , wehaveM ′ 0 ［ ti ＞ M ′ 2 ［ t1 ... ti - 1ti + 1 ... tn ＞ M ′ 1 , M2 ［ ti ＞ M3andM3 ｜ Σ H = M ′ 2 . 
+ 　 　 Asn - 1 ＜ n , applyingtherecurrencehypothesisonM3 , M ′ 2 , t1 ... ti - 1ti + 1 ... tn , thereexist σ 2andM4suchthatM3 ［ σ 2 ＞ M4and . Let σ = σ 1ti σ 2 , M1 = M4 , thetheoremholds . 
+ □ 
+ 　 　 FromTheorem2.1 andTheorem2.2 , wehavethefollowingtheorem . 
+ 　 　 Theorem2.3 . AWEFCsystemisliveiffeverysubsystemgeneratedbysipnonislive . 
+ 　 　 Corollary2.1 . AWEFCsystemisliveiffeverysubsystemgeneratedbyminimalsipnonislive . 
+ 　 　 Proof . Thenecessaryconditionisobvious . 
+ 　 　 AssumeaWEFCsystem Σ = ( P , T ; F , W , M0 ) isnotlive . FromLemma2.1 , theremustexistasiphonH , σ andM0 ［ σ ＞ Msuchthat . AsinH , thereatleastexistsaminimalsiphonH ′ , then . ThiscontradictsthelivenessofthesubsystemgeneratedbyminimalsiphonH ′ . 
+ □ 
+ 　 　 Figure1 ( a ) showsthatifeverysubsystemgeneratedbythesiphons { p1 , p2 , p3 } , { p1 , p2 , p4 } islive , thentheWEFCsystemislive . InFigure1 ( b ) , asthesubsystemgeneratedbysiphon { p1 , p2 , p3 } or { p1 , p2 , p4 } isnotlive , sotheWEFCsystemisnotlive . 
+ 
+ Fig.1 
+ 　 　 Fromnowon , thelivenessanalysisofaWEFCsystemismucheasierthanbeforeasitisenoughtoconcentrateontheminimalsiphonlivenessonly , whichisaverysmallsystemanalysis . 
+ 3 　 LivenessandSafeness 
+ 　 　 SafenessinPetrinetsisaveryimportantandusefulbehavioralpropertyandbasedonPetrinets , someinternationaltrafficsafetystandardsaregoingtobemadepublic . Thatisthemotivationofthissection . 
+ 　 　 Lemma3.1 . IfaWEFCsystem Σ = ( P , T , F , W , M0 ) isliveandsafe , thenp ∈ P , pmustbeincludedina ( minimal ) siphon . 
+ 　 　 Proof . LetpbeaplaceofP , suchthatpisnotincludedinany ( minimal ) siphon . As Σ hasnoisolatedplace , patleasthasoneinputtransitiont ∈ T ( ifphasnoinputtransition , Σ isnotlive ) andp ∈ t · . LetM1 ∈ R ( M0 ) andM1 ( p ) bethemaximalmarkingofp ( Σ issafe ) . 
+ 　 　 ConsidermarkingM ′ 1 , suchthatM ′ 1 ( p ) = 0andM ′ 1 ( q ) = M1 ( q ) ( q ≠ p ) . Aseverysubsystemgeneratedby ( minimal ) siphonisliveunderM1 ( fromTheorem2.2 ) , everysubsystemgeneratedby ( minimal ) siphonisliveunderM ′ 1 . So , fromTheorem2.1 , theWEFCsystem Σ isliveunderM ′ . Therefore , wecanreachamarkingM ′ 2suchthatM ′ 2 ( p ) ≠ 0 . WecandefineM2 ( p ) = M ′ 2 ( p ) + M1 ( p ) andM2 ( q ) = M ′ 2 ( q ) ( q ≠ p ) . SoM2 ∈ R ( M1 ) , moreover , M2 ∈ R ( M0 ) . ButM2 ( p ) ＞ M1 ( p ) , thisisincontradictionwiththesafenessofp . Thelemmaholds . 
+ □ 
+ 　 　 InFig.2 , asp5isnotincludedinanysiphon , firingt4willincreasethenumberoftokensconsistently . SotheWEFCsystemisunsafe . 
+ 
+ Fig.2 　 AnunsafebutliveWEFCsystem 
+ 　 　 Theorem3.1 . AWEFCsystem Σ = ( P , T , F , W , M0 ) isliveandsafeiff 
+ 　 　 ( i ) everysubsystemgeneratedbysiphonisliveandsafe ; 
+ 　 　 ( ii ) p ∈ P , pmustbeincludedinasiphon . 
+ 　 　 Proof . AssumetheWEFCsystemisunsafe , then , thereatleastexistsanunsafeplacep . From ( ii ) , weknowpmustbeincludedinasiphonH ( letMH0betheinitialmarkingofH , Σ HbethesubsystemgeneratedbysiphonH ) . 
+ 　 　 As Σ Hissafe , letK ( p ) betheupperboundofp . TheWEFCsystemisunsafe , sotheremustexistafiringsequence σ andM1 ( M0 ［ σ ＞ M1 ) , suchthatM1 ( p ) ＞ K ( p ) . 
+ 　 　 Asfiringoft ( t ∈ T ＼ H · ) can ' tchangethemarkingofH , thefiringsequence σ ｜ Hcanbefiredin Σ H . NowwehaveMH0 ［ σ ｜ H ＞ MH1andM1 ｜ H = MH1 , soMH1 ( p ) ＞ K ( p ) . Thiscontradictsthesafenessof Σ H . SotheWEFCsystemissafe . 
+ 　 　 FromTheorem2.1 , theWEFCsystemislive . Sufficientconditionshold . 
+ 　 　 FromTheorem2.2 , everysubsystemgeneratedbysiphonislive . 
+ 　 　 FromLemma3.1 , p ∈ P , pmustbeincludedinasiphon . 
+ 　 　 LetK ( p ) betheupperboundofpin Σ . Assumethereexistsanunsafesubsystem Σ HgeneratedbysiphonH , thenfromthelivenessof Σ , thereexistsafiringsequence σ H = t1 ... tnsuchthatt ∈ H · : t ∈ { t1 , ... , tn } , MH0 ［ σ H ＞ MH1andMH1 ( p ) ＞ K ( p ) . Ifwecanprovethatthereexistafiringsequence σ andmarkingM1 , suchthatM0 ［ σ ＞ M1andM1 ( p ) ＞ K ( p ) , therewillbeacontradictionwiththesafenessof Σ . Safenessofeverysubsystemgeneratedbysiphonholds . 
+ 　 　 Inthefollowing , wewilloperatebyrecurrenceonntoprovetheexistenceof σ andM1 . 
+ 　 　 Case1 . Ifn = 0 , thenlet σ = , M1 = M0 , thesafenessofsubsystemholds . 
+ 　 　 Case2 . Ifn ＞ 0 , wehavetwosubcasesasfollows : 
+ 　 　 Case2.1 . Letu ( u ∈ H · ) beatransitionenabledunderM0in Σ , hence , uisenabledunderMH0in Σ H . Letp ∈ Handu ∈ p · = { v1 , ... , vf } ( iff = 1 , thenv1 = u ) . Lettibethefirstelementofp · , whichfirstappearsin σ H . FromthedefinitionofWEFCnet , wehave · ti ∩ ( ∪ i - 1j = 1 · tj ) = andcanrewrite σ H = tit1 ... ti - 1ti + 1 ... tn . Thus , wehaveMH0 ［ ti ＞ MH2 ］ t1 ... ti - 1ti + 1 ... tn ＞ MH1 , M0 ［ ti ＞ M2andM2 ｜ H = MH2 . 
+ 　 　 Asn - 1 ＜ n , applyingtherecurrencehypothesisonM2 , MH2 , t1 ... ti - 1ti + 1 ... tn , thereexist σ 1andM3suchthatM2 ［ σ 1 ＞ M3andM3 ( p ) ＞ K ( p ) . Let σ = ti σ 1 , M1 = M3 , thesafenessofsubsystemholds . 
+ 　 　 Case2.2 . NotransitioninH · isenabledunderM0in Σ . 
+ 　 　 As Σ islive , wecanletubethefirstenabledtransitioninH · underM2 ( M0 ［ σ 1 ＞ M2 ) . Obviously , σ 1 ∩ H · = . HencewehaveM2 ｜ H = MH0 . ThistransformstoCase2.1 . Safenessofsubsystemholds . 
+ □ 
+ 　 　 Theorem3.2 . AWEFCsystem Σ = ( P , T , F , W , M0 ) isliveandsafeiff 
+ 　 　 ( i ) everysubsystemgeneratedbyminimalsiphonisliveandsafe ; 
+ 　 　 ( ii ) p ∈ P , pmustbeincludedinaminimalsiphon . 
+ 　 　 Proof . FollowTheorem3.1 andLemma3.1 . 
+ AssumetheWEFCsystemisunsafe , then , thereatleastexistsanunsafeplacep . From ( ii ) , pmustbeincludedinaminimalsiphonH ( letM0HbetheinitialmarkingofH , Σ HbethesubsystemgeneratedbyminimalsiphonH ) . As Σ Hissafe , weletK ( p ) betheupperboundofp . TheWEFCsystemisunsafe , sotheremustexistafiringsequence σ andM1 ( M0 ［ σ ＞ M1 . 
+ 　 　 Asfiringoft ( t ∈ T ＼ H · ) can ' tchangethemarkingofH , thefiringsequence σ ｜ Hcanbefiredin Σ H . HavingMH0 ［ σ ｜ H ＞ MH1andM1 ｜ H = MH1musthaveMH1 ( p ) ＞ K ( p ) . Thiscontradictsthesafenessof Σ H . SotheWEFCsystemissafe . 
+ FromCorollary2.1 , weknowtheWEFCsystemislive . Sufficientconditionshold . 
+ □ 
+ 　 　 FromTheorem3.1 andTheorem3.2 , wehavethefollowingcorollary . 
+ Corollary3.1 . AWEFCnetN = ( P , T ; F , W ) isstructurallyliveandstructurallysafeiff 
+ 　 　 ( i ) everysubsystemgeneratedby ( minimal ) siphonisstructurallyliveandstructurallysafe ; 
+ 　 　 ( ii ) p ∈ P , pmustbeincludedina ( minimal ) siphon . 
+ 　 　 FromCorollary3.1 , thestructurelivenessandstructuresafenessofWEFCnettransformtothestructurelivenessandstructuresafenessofminimalsiphon , whichisverysmallnetstructureanalysis . 
+ 　 　 Lemma3.2 . HisaminimalsiphoninWEFCnetiff ( a ) HisP - connected , ( b ) t ∈ H · , ｜ · t ∩ H ｜ = 1 . 
+ 　 　 Note : In ［ 7 ］ , thislemmaisfortheWFCnet . Bythesamemethod , wecanhavethislemma . 
+ 　 　 Lemma3.3 . LetHbeaminimalsiphonintheWEFCnet . IfHisliveunderM , thenMi ≥ MHisliveunderMi . 
+ 　 　 Proof . FromRef . ［ 8 ］ , wehavetheaboveconclusionfortheWFCnet . AsHisaWFCnet , Lemma3.3 holds . 
+ □ 
+ 　 　 Lemma3.4 . ［ 8 ］ EveryelementarycircuitCisstructurallyliveiffCisneutralorgenerating . 
+ 　 　 Lemma3.5 . ［ 9 ］ IfaconnectedPetrinetsystem ( N , M0 ) isliveandsafe , thenNisstronglyconnected . 
+ 　 　 Lemma3.6 . ［ 10 ］ Let ( N , M0 ) bealiveWeightedT - system . IfM ′ 0 ≥ M0then ( N , M ′ 0 ) islive . 
+ 　 　 Lemma3.7 . ［ 7 ］ AplacepinaPetrinetNisstructurallyunsafeiffthereexistsann - vectorXofnonnegativeintegerssuchthat , wherethepthentryof Δ M ＞ 0 ( i . e . , Δ M ( p ) ＞ 0 ) . 
+ 　 　 Proposition3.1 . LetN = ( P , T ; F , W ) beaweightednet . IfNisstronglyconnected , thenanyx ∈ P ∪ Tmustbeincludedinsomeelementarycircuits . 
+ 　 　 Theorem3.3 . LetHbeaminimalsiphonintheWEFCnet . IfHisstructurallyliveandstructurallysafe , theneveryelementarycircuitmustbeneutralorabsorbing . 
+ 　 　 Proof . AssumethereexistsanelementarycircuitC ( t0p0 ... tnpnt0 ) suchthatandletACbetheincidentmatrixofC . NowweonlyconcentrateontheanalysisofC . Letann - vector , thenwehave , . As , therefore . BecauseACandisavectorofnonnegativeintegers , fromLemma3.7 , weknowCisstructuralyunsafe . Therefore , thereexistamarkingMCofC , afiringsequence σ Canda , suchthatMC ［ σ C ＞ M ′ Candisanyboundofp ) . AsHislive , thereexistsalivingmarkingMH . DefinemarkingM ′ H , suchthatp ∈ HM ′ H ( p ) = MH ( p ) ( ifp ∈ CandMC ( p ) ＜ MH ( p ) orpisnotincludedinC ) , M ′ H ( p ) = MC ( p ) ( ifp ∈ CandMC ( p ) ≥ MH ( p ) ) . FromLemma3.3 , HisliveunderM ′ H . AsHisstructurallysafe , musthaveanupperbound . AsHisaminimalsiphoninWEFCnet , fromLemma3.2 , wehavet ∈ H · , ｜ · t ∩ H ｜ = 1 . Therefore , thefiringsequence σ Ccanbefiredinsubsystem Σ HandwehaveM ′ H ［ σ C ＞ M ″ Hsuchthat . Thiscontradictsthesafenessof . Theorem3.3 holds . 
+ □ 
+ 　 　 Theorem3.4 . LetHbeaminimalsiphonintheWEFCnet , Σ HbethesubsystemgeneratedbyHandeveryelementarycircuitisneutral . IfHisastructurallyliveandstructurallysafe , thenHisastructurallylive , structurallysafeandstronglyconnectedWSM . 
+ 　 　 Proof . AsHisstructurallysafeandstructurallylive , fromLemma3.5 , Σ Hisstronglyconnected . 
+ 　 　 AsHisaminimalsiphon , fromLemma3.2 , wehavet ∈ H · , ｜ · t ∩ H ｜ = 1 . 
+ 　 　 Assumethereexistsatransitiont ∈ H · suchthatt · ＞ 1 . Lett · = { p1 , ... , pm } ( p1 , ... , pm ∈ H ) . FromProposition3.1 , weknowtmustbeincludedinanelementarycircuitCandletp1 ∈ C . As , fromLemma3.4 , Cisstructurallylive . Therefore , thereexistsalivingmarkingMCofC . AsHislive , thereexistsalivingmarkingMH . DefinemarkingM ′ H , suchthatp ∈ HM ′ H ( p ) = MH ( p ) ( ifp ∈ CandMC ( p ) ＜ MH ( p ) orpisnotincludedinC ) , M ′ H ( p ) = MC ( p ) ( ifp ∈ CandMC ( p ) ≥ MH ( p ) ) . FromLemma3.3 , HisliveunderM ′ H . FromLemma3.6 , CisliveunderM ′ H . WecanonlyfiretransitionsinCandfiringtwillconsistentlyincreasethemarkingofp2 , ... , pm . ThiscontradictsthesafenessofH . Sot ∈ H · , ｜ t · ∩ H ｜ = 1 . Thus , Hisastructurallylive , structurallysafeandstronglyconnectedWSM . 
+ 　 　 InFigure3 ( a ) , theminimalsiphonisastructurallyliveandsafeWSM , sotheminimalsiphonisstructurallyliveandsafe . ButinFigure3 ( b ) , t2 · ＞ 1 , thereforetheminimalsiphonisstructurallyunsafe . 
+ 
+ Fig.3 　 TowminimalsiphonsinWEFCnet 
+ 　 　 Soforaminimalsiphoninwhicheveryelementarycircuitisneutral , theproblemofstructurelivenessandsafenessistransformedtostructurelivenessandsafenessofWSMinwhicheveryelementarycircuitisneutral . Herewe ' llnotdiscussneutralWSMindetail . Incaseofexistingabsorbingcircuitsintheminimalsiphon , theproblemwillbeverycomplicated , i . e . , furtherdiscussionisneeded . 
+ 4 　 Conclusion 
+ 　 　 WepresentaquitesimpleproofoflivenessequivalentconditionforWEFCnets . Then , forsafeWEFCnets , asufficientandnecessaryconditionispresented . WeconjecturethelivingproblemforsafeWEFCnetscanbedecidedinpolynomialtime , whichisarealchallengingproblemtoattractfurtherstudy . 
+ ThisresearchissupportedbytheNationalNaturalScienceFoundationofChina ( 国家自然科学基金 , No.69773016 ) , theLaboratoryofManagement , DecisionnandInformationSystemoftheChineseAcademyofSciences ( MIDIS ) ofChina ( 中国科学院 管理 与 决策 信息系统 开放 实验室 , No . H8902 ) , andtheNationalGrandFoundationalResearchProjectofChina ( 国家 重点 基础 研究 专项经费 , No.973002 ) . ZHENQiangwasbornin11968 . HereceivedaPh . D . degreeincomprtersciencefromtheChineseAcademyofSciencesin1998 . HisresearchinterestsarePetrinetsandcommunications . LUWei - mingwasbornin1941 . HeisaprofessoranddoctoralsupervisoroftheInstituteofMathematics , theChineseAcademyofSciences . HiscurrentresearchareasincludePetrinets , algorithmandsoftwaretechnology . 
+ Manuscriptreceived1997 - 10 - 21 , accepted1998 - 09 - 09 
+ 作者 单位 : 甄强 ( 中国科学院 数学 研究所 　 北京 　 100080 ) 
+ 陆维明 ( 中国科学院 数学 研究所 　 北京 　 100080 ) 
+ References 
+ 1 ， ReisigW . Petrinets , anintroduction . Berlin : Springer - Verlag , 1985 
+ 2 ， CommonerF , HoltAW , EvenSetal . Markeddirectedgraphs . JournalofComputerSystemScience , 1971 , 5 : 511 ～ 523 
+ 3 ， HackM . AnalysisofproductionschematabyPetrinets ［ MSThesis ］ . DepartmentofElectricalEngineering , Cambridge , Mass : MIT , 1972 
+ 4 ， EsparzaJ , SilvaM . Apolynomial - timealgorithmtodecidelivenessofsafefree - choicenets . JournalofTheoreticalComputerScience , 1992 , 102 : 185 ～ 205 
+ 5 ， BarkaouiK , CouvreurJM , DuteilhetC . OnLivenessinextendednon - self - controllingnets . LNCS , 1995 , 935 : 25 ～ 44 
+ 6 ， KemperP , BauseF . Anefficientpolynomial - timealgorithmtodecidelivenessandsafenessoffree - choicenets . LNCS , 1992 , 616 : 263 ～ 278 
+ 7 ， MurataT . PetriNets : Properties , analysisandapplications . ProceedingsoftheIEEE , 1989 , 77 ( 4 ) : 541 ～ 580 
+ 8 ， XieX . Onlivenessofweightedfreechoicenets ［ MSThesis ］ . InstituteofMathematics , TheChineseAcademyofSciences , 1996 
+ ( 谢 贤德 . 论 加权 自由选择 网 的 活性 ［ 硕士学位 论文 ］ . 中国科学院 数学 研究所 ， 1996 ) 
+ 9 ， CaoC . LivenesscharacterizationforGFCsystems ( I ) ( II ) . ScienceinChina ( SeriesE ) , 1996 , 39 ( 33 ) : 196 ～ 216 
+ 10 ， TeruelE , ChrzastowskiP , ColomJMetal . OnweightedT - systems . LNCS , 1992 , 616 : 348 ～ 366 

@@ -1,0 +1,53 @@
+东北农业大学 学报 
+ JOURNALOFNORTHEASTAGRICULTURALUNIVERSITY 
+ 1999 年 　 第 30 卷 　 第 2 期 　 Vol.30 No.21999 
+ 
+ 
+ 
+ 禽喘安对 鸡霉 形体 与 大肠杆菌 合并 感染 的 药效学 研究 * 
+ 胡功政 　 刘冰宏 　 班付国 　 靳国昌 　 张素梅 　 吴 　 华 
+ 摘要 　 研究 了 中药 散剂 禽喘安对 鸡霉 形体 与 大肠杆菌 合并 感染 的 药效学 。 结果表明 ， 禽喘安 按 0.75% ， 0.50% 拌料 连续 5 天 ， 对鸡霉 形体 与 大肠杆菌 合并 感染 具有 显著 疗效 ， 治愈率 分别 为 92.50% ， 90% ； 试验 结束 时 ， 试验 鸡 只 的 抗体 反应 阳性率 分别 为 25% ， 50% ， 气囊 平均 损伤 记分 分别 为 0.33% ， 1.33% 。 
+ 关 　 键 　 词 　 禽喘安 ， 霉 形体 病 ， 大肠杆菌 病 ， 药效学 
+ 中 图 分类号 　 S859 〔 . 3 〕 ， S859.79 　 　 文献 标识码 A 
+ PHARMACODYNAMICSTUDIESOFQINCHUANANAGAINST 
+ COMPLICATEDMYCOPLASMOSISANDCOLIBACILLOSISINCHICKS 
+ HuGongzheng1 ， LiuBinghong2 ， BanFuguo2 , JinGuochang1 , 
+ ZhangSumei1 , WuHua1 
+ 1 ( CollegeofAni . Husb . andVet . Med . Engineering , HenanAgri . Uni . , Zhengzhou450002PRC ) 
+ 2 ( HenanProvinceControlInstituteofVeterinaryPharmaceuticalsandFeedPRC ) 
+ ABSTRACT 
+ 　 　 PharmacodynamicsofchinesemedicineQinchuananpowderagainstchicksartificiallyinfectedwithmycoplasmagallisepticumandEscherichiaColiwasstudied . TheresultsrevealedthatQinchananexhibitedhighefficacyinthecontrolofexperimentallyinducedMGandE . Coliinfectioninchicks . ThecureratesoftwodoseQinchuananagainstdiseasedchicksinfectedwithMGandE . Coliwere92.5% , 90% respectivelyfollowinga5succesivedaystreatmentaddedtofeedsat0.75% , 0.50% . Attheendofexperimentobservation , werepositiverateofantibodyresponseinsurvingbirds25% , 50% andmeanair - saclesionsscore0.33 、 1.33 respectively . 
+ 　 　 KEYWORDS ： Qinchuanan , mycoplasmosisk , colibacillosis , pharmacodynamics 
+ 0 　 前 　 言 
+ 　 　 鸡 慢性 呼吸道 病 ( CRD ) 是 由 鸡 败血 霉 形体 ( MG ) 引起 的 接触性 呼吸道 感染 病 ， 既 可 水平 传染 ， 亦可 垂直 传播 ， 对 养禽 业 危害 极大 。 治疗 CRD 常用 的 西药 有 大环内酯 类 ( 红霉素 、 泰乐 菌素 、 北 里 霉素 ) 、 泰妙灵 ( tiamulin ) 、 强力 霉素 及 氟 喹诺酮 类 抗菌 药物 等 ， 但 中药 由于 具有 无 药物 残留 、 不易 产生 耐药性 等 优点 ， 在 临床 上 的 应用 仍 十分 普遍 。 禽喘安是 新近 研制 的 治疗 CRD 的 中药 复方 散剂 ， 已 被 批准 生产 。 鉴于 临床 上 单纯 的 禽霉 形体 感染 ( 仅 出现 轻度 呼吸道 症状 或 不 发病 ) 较 少 ， 主要 与 大肠杆菌 合并 感染 或 继发 感染 ， 故本 试验 采用 鸡霉 形体 与 大肠杆菌 合并 感染 为 实验 模型 ， 以 验证 禽喘安 的 治疗 效果 。 
+ 1 　 材料 与 方法 
+ 1.1 　 药品 
+ 　 　 禽喘安 　 洛阳 惠中 兽药 有限公司 提供 ， 批号 971113 ； 支鼻康 散 　 河南 新密市 兽药厂 生产 ， 批号 961221 ； MG 阳性 血清 、 MG 平板 凝集 抗原 　 哈尔滨 兽医 研究所 提供 。 
+ 1.2 　 菌种 与 培养基 
+ 　 　 鸡 败血 霉 形体 S6 ， 大肠杆菌 O78 　 本 室 保存 ， 均 源自 中国 兽药 监察所 。 葡萄糖 酚红 肉汤 〔 1 〕 　 用于 MIC 测定 ； 营养 肉汤 、 营养 琼脂 用于 大肠杆菌 培养 ； 牛心 浸液 培养基 用于 MG 的 分离 培养 〔 2 〕 。 
+ 1.3 　 动物 
+ 　 　 17 日龄 罗曼 商品 代蛋用 雏鸡 240 只 ， 河南 农大 畜牧 站 鸡场 提供 ， 未经 大肠杆菌 及 MG 防疫 ， 喂 以 该场 提供 的 不 含 抗菌 药物 的 全价 饲料 。 试验 鸡 1 日龄 购入 预饲 16d 后 进入 试验 。 
+ 1.4 　 最小 抑菌 浓度 ( MIC ) 测定 
+ 　 　 称取 禽喘安及 对照 药物 各 10g ， 分别 加 10 倍量 的 水 煮沸 45min ， 将 两次 煎 汁 过滤 合并 后 浓缩 至 20mL ， 使 药物 浓度 为 0.5 g . mL - 1 ， 调 pH 值 7.5 左右 ， 离心 取 上层 液 高压 灭菌 后 作为 供 试液 。 冰箱 4 ℃ 存放 待测 。 
+ 　 　 为 避免 过滤 灭菌 的 混浊 影响 测定 结果 的 判定 ， 用 葡萄糖 酚红 肉汤 代替 普通 肉汤 〔 1 〕 ， 用 两倍 试管 稀释 法测定 MIC 〔 3 〕 。 
+ 1.5 　 人工 发病 
+ 　 　 除 健康 对照组 外 ， 每 只 鸡 左右 气囊 ( 倒数 第二 肋间 ) 各 接种 MG 培养液 ( 生长 浊度 达 107cfu / mL 以上 ) 0.50 mL ， 同时 肌肉注射 经 复壮 后 的 大肠杆菌 培养液 ( 6 × 108cfu / mL ) 1.00 mL 。 
+ 1.6 　 治疗 用药 
+ 　 　 试验 鸡 只 随机 分为 健康 对照组 ( 1 组 ) 、 感染 对照组 ( 2 组 ) 、 禽喘安高 ( 0.75% 拌料 ， 3 组 ) 、 中 ( 0.50% 拌料 ， 4 组 ) 、 低剂量 组 ( 0.25% 拌料 ， 5 组 ) 及支 鼻康 药物 对照 线 ( 0.20% 拌料 ， 6 组 ) ， 每组 雏鸡 40 只 。 称重 、 染色 标记 ， 分笼 饲养 。 除 感染 对照组 外 ， 其它 各 感染 组 试验 鸡 只 接种 霉 形体 和 大肠杆菌 后 4 ～ 5h 开始 给 药 ， 连用 5d 。 观察 给 药后 的 临床 症状 ， 对 死鸡 进行 病理 剖检 。 重点 观察 气囊 、 肝脏 、 腹腔 ， 必要 时作 细菌 分离 培养 ， 观察期 为 给 药后 的 12d 。 
+ 1.7 　 疗效 评价 指标 
+ 1.7 . 1 　 死亡率 　 具有 大肠杆菌 、 霉 形体 病 的 典型 症 并 死亡 的 鸡 只数 占 该组 动物 的 百分比 。 
+ 1.7 . 2 　 治愈率 　 精神 、 食欲 、 饮水 等 恢复正常 、 不再 有 咳嗽 、 流鼻涕 、 罗音 、 呼吸困难 及 拉稀 等 临床 症状 者 为 治愈 。 治愈 鸡 只数 占 该组 试验 动物 的 百分比 。 
+ 1.7 . 3 　 相对 增重 率 　 以 各 感染 试验 组 的 平均 增重 ( 给 药前 与 试验 结束 时 体重 均值 差 ) 与 健康 对照组 的 平均 增重 之 比 。 
+ 1.7 . 4 　 血中 抗体 水平 　 试验 结束 时 ， 每组 抽检 8 只鸡作 MG 全血 平板 凝集 试验 ， 以 测定 血中 MG 抗体 水平 。 
+ 1.7 . 5 　 气囊 损伤 率 　 试验 结束 时 ， 每组 抽杀 6 只鸡 进行 病理 剖检 ， 对 气囊 的 损伤 度 按 Lam 等 方法 〔 4 ， 5 〕 作 病变 等级 记分 ： 即 0 级 ： 无 病变 ； 1 级 ： 气囊 膜 混浊 ； 2 级 ： 气囊 膜 变厚 ； 3 级 ： 一个 气囊 内 含有 大量 奶酪 样 粘稠 渗出物 ； 4 级 ： 多个 气囊 内 发现 大量 渗出物 。 并 对 病变 等级 打分 ： 0 级 为 0 分 ， 1 级 为 2 分 ， 2 级 为 4 分 ， 3 级 为 6 分 ， 4 级 为 8 分 。 根据 平均 每 只 鸡 的 分数 计算 气囊 损伤 率 。 
+ 2 　 结果 与 分析 
+ 2.1 　 体外 抑菌 试验 
+ 　 　 禽喘安 、 支鼻康 对 大肠杆菌 O78 的 MIC 分别 为 0.312 mg . mL - 1 ， 1.25 mg . mL - 1 。 
+ 2.2 　 攻毒 及 治疗 试验 结果 
+ 　 　 感染 对照组 于 攻毒 后 的 第 2d ， 个别 鸡 只 发病 ， 至 感染 的 第 3d 左右 ， 半数左右 的 鸡 出现 不同 程度 的 精神 沉郁 、 食欲 减退 、 咳嗽 、 罗音 、 流鼻涕 、 拉稀 粪 等 症状 ， 至 感染 的 第 13d ( 用药 后 的 第 12d ) ， 抗体 阳性反应 率达 80% 以上 ， 且 抗体 水平 大多 在 “ ++ ” 以上 。 
+ 　 　 剖检 感染 及 死亡 鸡 只 ， 可见 部分 鸡 的 肺部 有 坏死 、 出血 或 淤血 ， 气囊 膜 混浊 、 增厚 ， 气囊 壁有 黄色 干酪 样 分泌物 ； 腹膜炎 、 肝脏 肿大 ， 气管 内有 多量 粘稠 分泌物 。 
+ 　 　 各 用药 组 连用 药物 5d ， 对霉 形体 与 大肠杆菌 均 有 不同 程度 的 疗效 。 高 、 中 剂量 组 分别 于 开始 用药 后 的 第 3 ， 4d 停止 死亡 ， 而 低剂量 、 药物 对照组 均 于 开始 用药 后 的 第 5d 停止 死亡 。 攻毒 用药 后 12d 内 ， 各组 的 死亡率 、 治愈率 、 相对 增重 率 结果 见表 1 ； 各组 的 抗体 水平 及 气囊 损伤 情况 见表 2 。 
+ 表 1 　 禽喘安对 鸡霉 形体 与 大肠杆菌 合并 感染 的 疗效 
+ Table1 　 EfficacyofqinchuananagainstchicksartificialinfectedwithmycoplasmagallisepticumandEcherichiaColi 
+ 组别 
+ Group < td 

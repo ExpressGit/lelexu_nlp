@@ -1,0 +1,33 @@
+上海 航天 
+ AEROSPACESHANGHAI 
+ 2001Vol.18 No.1 P.7 - 11 
+ 
+ 
+ 
+ 
+ 二维 时 频面 的 MTI 滤波 算法 研究 
+ 唐正军 　 刘代志 　 
+ 摘 　 要 ： 分析 了 传统 的 动 目标 显示 （ MTI ） 滤波 算法 的 缺陷 ， 提出 了 一种 二维 时 频面 的 MTI 滤波 算法 。 该 方法 利用 时频 分析 多通道 滤波 和 时频 局域 化 的 特点 ， 在 时频 平面 内 进行 二维 滤波 ， 从而 获得 良好 的 杂波 抑制 能力 ， 且 具备 较强 的 自适应性 和 鲁棒性 。 最后 ， 根据 实验 结果 给出 了 此种 滤波 算法 与 其他 滤波 算法 的 对比 效果 。 
+ 关键词 ： 动 目标 显示 ； 小 波 变换 ； Mallat 算法 
+ 分类号 ： TN957.51 + 3 　 文献 标识码 ： A 
+ 文章 编号 ： 1006 － 1630 （ 2001 ） 01 － 0007 － 05 
+ MTIFilteringAlgorithmUsingTwo - DimensionTime - FrequencyPlane 
+ TANGZheng - jun （ Xi ' anSecondArtilleryEngineeringCollege , Xi ' anShaanxi710025 ， China ） 　 
+ LIUDai - zhi （ Xi ' anSecondArtilleryEngineeringCollege , Xi ' anShaanxi710025 ， China ） 　 
+ 
+ Abstract ： InordertoovercomesomedeficienciesofconventionalMTIfilteringalgorithms , anovelapproachusingtwo - dimensiontime - frequencyplaneisproposedhere , whichutilizescharacteristicsofTFPasmulti - channelfilteringandtime - frequencylocalizationtoimplementtwodimensionalfilteringprocessonthetime - frequencyplaneonwhichtargetback - scatteredechoesareexpanded , inordertoachievebetterclutterdepression , self - adaptabilityandrobustness . Experimentalresultsarepresentedattheendofthispaper . 
+ Keywords ： Movingtargetindication ； Wavelettransform ； Mallatalgorithm 
+ 基金项目 ： 国家自然科学基金 （ 批准 号 69772008 ） 
+ 作者简介 ： 唐正军 （ 1975 － ） ， 男 ， 博士生 ， 研究 领域 ： 遥感 图像处理 算法 。 
+ 作者 单位 ： 唐正军 （ 西安 第二炮兵 工程学院 ， 陕西 西安 710025 ） 　 
+ 　 　 　 　 　 刘代志 （ 西安 第二炮兵 工程学院 ， 陕西 西安 710025 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ 丁鹭飞 , 耿富录 . 雷达 原理 [ M ] . 西安 : 西安电子科技大学 出版社 , 1997 . 
+ ［ 2 ］ 徐佩霞 , 孙功宪 . 小波 分析 应用 实例 精选 [ M ] . 合肥 ： 中国科技大学 出版社 , 1996 . 
+ ［ 3 ］ 秦 前清 , 杨宗凯 . 实用 小 波 分析 [ M ] . 西安 : 西安电子科技大学 出版社 , 1996 . 
+ ［ 4 ］ VictorCC . Signaldetectionandestimationbywavelettransform [ R ] . ProceedingsofCIE , 1991 . 
+ ［ 5 ］ MassimoM , DanielaP . FalsealarmprobabilityforaDopplerdetectorwithathresholdadaptivetothespectralcharacteristicsofthesignal [ R ] . ProceedingsofCIE , 1991 . 
+ 
+ 收稿 日期 ： 2000 年 10 月 10 日 
+ 出版日期 ： 2001 年 2 月 25 日 

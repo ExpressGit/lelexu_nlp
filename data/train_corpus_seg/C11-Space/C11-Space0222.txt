@@ -1,0 +1,159 @@
+宇航学 报 
+ JOURNALOFASTRONAUTICS 
+ 1999 年 第 2 期 　 No.21999 
+ 
+ 
+ 
+ 捷联 惯导 系统 中 确保全 姿态 测量 的 
+ 软故障 检测 和 隔离 
+ 秦 永元 　 牛惠芳 
+ 　 　 摘 　 要 　 本文 探讨 了 最 多 有 两个 捷联 陀螺 发生 软故障 时 的 故障 检测 和 隔离 方法 , 给出 了 由 奇偶 向量 确定 的 软故障 χ 2 检验法 , 详细 推导 了 两个 陀螺 都 发生 软故障 时 的 极大 似然 故障 隔离 判决 函数 的 计算公式 , 归纳 出 了 对 故障 陀螺 的 隔离 搜索算法 。 仿真 结果表明 , 即使 故障 量 与 漂移 一样 微小 , 该法 仍 能 准确 检测 并 隔离 出 故障 陀螺 。 
+ 　 　 主题词 　 软故障 　 检测 　 隔离 　 奇偶 向量 
+ THESOFTFAULTDETECTINGANDLSOLATINGTO 
+ ENSURETHEENTIREATTITUDEMEASURINGOF 
+ ASTRAPDOWNINERTIALNAVIGATIONSYSTEM 
+ QinYongyuanNiuHuifang 
+ ( Dept . ofAutomaticControlNorthwesternPolytechnicalUniversity . Xi ' an.710072 ) 
+ 　 　 Abstract 　 Inthefederatedfilterdesign , thereliabilityofastrapdowninertialnavigationsystemshouldbeguaranteedabsolutelybecauseitisusedasacommonreferencesystem . Thepaperinvestigatesthewaytodetectandtoisolateatmosttwofaultyinertialcomponents . Thesoftfaultdetectionalgorithmbasedonchi - squaretestisreviewed . Theparityjudgementfunctiontoisolatetwofaultyinertialcomponentsbasedonmaximunlikelyhoodtestisdeducedindetail . Thealgorithmtosearchthefaultycomponentsisinduced . Thefaultdetectionandisolationofthescewedredundantringlasergyroclusterissimulatedonthecomputer . Theresultsshowthatthesearchingschemecandetectandisolatefaultycomponentscorrectlyevenifthesoftfaultsareastinyasthegyrodrifts . 
+ 　 　 Keywords 　 SoftfaultDetectionIsolationParityvector 
+ 1 　 引 　 言 
+ 　 　 要 获得 运载 体 的 完整 姿态 信息 , 捷联 陀螺 必须 采用 余度 斜置 和 容错 测量 技术 。 对于 由 陀螺 失效 引起 的 硬 故障 , 采用 奇偶 方程 校验 能 有效 地 隔离 出 失效 陀螺 , 但 对 陀螺 性能 变化 引起 的 软故障 , 则 须 采用 极大 似然 法作 故障 隔离 。 通常 只 研究 仅 一个 陀螺 有 软故障 时 的 隔离 方法 ［ 2 ］ , 然而 两个 陀螺 都 有 故障 的 概率 不可 忽视 。 本文 探讨 最多 有 两个 陀螺 发生 软故障 时 的 检测 和 隔离 方法 。 
+ 2 　 对 单个 陀螺 软故障 的 检测 和 隔离 算法 ［ 2 ］ 
+ 　 　 设 运载 体 的 角速度 为 ω = ［ ω x ω y ω z ］ T , 捷联 惯导 采用 m 个 陀螺 作斜置 余度 配置 , 并 假设 陀螺 漂移 已 得到 补偿 , 则 陀螺 组都 正常 工作 时 的 测量 方程 为 : 
+ 　 　 　 　 　 　 Z = H ω + ε 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 其中 Z ∈ Rm , ε 为 零 均值 高斯 白 噪声 向量 , 均 方根 为 σ 。 
+ 　 　 构造 奇偶 向量 
+ 　 　 　 　 　 　 P = VZ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 其中 V 为 ( m - 3 ) × m 的 矩阵 , 由 下述 方程 确定 : 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 　 　 显然 , 当 陀螺 组 工作 都 正常 时 , 
+ 　 　 　 　 　 　 P = V ε 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 　 　 用 P 构造 统计 量 : 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 则 D 服从 自由度 为 m - 3 的 χ 2 分布 。 设 TD 为 某 一 阈值 , 在 无故障 条件 ( H0 ) 下 D 超越 TD 的 条件 概率 为 α , 若所取 α 很小 , 则 可得 如下 故障 判决 准则 : 
+ 　 　 若 D ＞ TD , 则 判定 至少 有 一个 陀螺 出 故障 ; 
+ 　 　 若 D ＜ TD , 则 判定 所有 陀螺 工作 正常 。 
+ 　 　 假设 仅 陀螺 j 出 故障 , 并 记该 事件 为 Hj , 则 量 测 方程 成 : 
+ 　 　 　 　 　 　 Z = H ω + ε + ejf 　 　 　 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 式 中 ej 为 与 Z 同维 的 向量 , 第 j 个 分量 为 1 , 其余 分量 全为 零 , f 表示 故障 大小 , 是 确定性 量 。 文献 ［ 2 ］ 给出 了 故障 隔离 判决 函数 : 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 7 ) 
+ 式 中 , Vj 为 V 的 第 j 列 , ‖ Vj ‖ = VTjVj 。 
+ 　 　 按 ( 7 ) 式 分别 计算 D1 , D2 , … , Dm , 若 Dk ( k = 1 , 2 , … , m ) 为 最大 , 则 判定 第 k 个 陀螺 出 故障 。 
+ 3 　 两个 陀螺 都 有 软故障 时 的 检测 和 隔离 算法 
+ 　 　 若 陀螺 i 和 陀螺 j 都 出 故障 , 并 记该 事件 为 Hij , 其中 i , j = 1 , 2 , … , m , i ≠ j , 则 故障 向量 为 : 
+ 　 　 　 　 　 　 bf = eifi + ejfj 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ 　 　 若 两 故障 量 悬殊 很大 , 则 可 按 单个 陀螺 出 故障 的 情况 分析 之 , 故障 隔离 判决 函数 按 ( 7 ) 式 计算 。 
+ 　 　 若 两 故障 量 大小 接近 , 即 fi ≈ fj = f , 则 ( 8 ) 式 可 写成 : 
+ 　 　 　 　 　 　 bf = ( ei + ej ) f 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 9 ) 
+ 或 
+ 　 　 　 　 　 　 bf = ( ei - ej ) f 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 10 ) 
+ 　 　 先 讨论 ( 9 ) 式 所示 情况 。 此时 
+ 　 　 　 　 　 　 P = V ε + f ( Vi + Vj ) 　 　 　 　 　 　 　 　 　 　 　 　 ( 11 ) 
+ 由于 f ( Vi + Vj ) 为 确定性 量 , ε 服从 正态分布 , 所以 P 也 服从 正态分布 , 且 均值 为 f ( Vi + Vj ) , 方差 阵为 σ 2I 。 所以 P 的 条件 密度 为 : 
+ 　 　 　 　 ( 12 ) 
+ 由此 得 似然 函数 为 : 
+ 　 　 
+ 该式 右侧 是 关于 f 的 抛物线 方程 , 当 f 取 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 13 ) 
+ 时 , 似然 函数 达到 极大值 , 所以 为 f 的 极大 似然 估计 。 此时 , 条件 密度 也 达到 极大 : 
+ 　 　 　 　 　 　 　 　 ( 14 ) 
+ 要 使 该式 达到 最大 , 须 有 达到 最大 。 因此 , 当 两个 陀螺 都 发生 软故障 且 故障 大小 接近 、 符号 相同 时 的 故障 隔离 判决 函数 为 : 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 15 ) 
+ 　 　 同理 可 得当 陀螺 i 和 陀螺 j 都 发生 软故障 且 故障 大小 接近 、 符号 相反 时 的 故障 隔离 判决 函数 为 : 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 16 ) 
+ 4 　 故障 隔离 的 仿真 分析 
+ 　 　 仿真 计算 探讨 了 最 多 有 两个 陀螺 出 故障 后 判决 函数 最大值 所 指示 的 故障 陀螺 与 实际 故障 陀螺 间 的 对应 关系 。 所 假设 的 条件 为 : 六个 单轴 激光 陀螺 的 敏感 轴 分别 沿正 十二面 体 的 法线 , 陀螺 从 1 至 6 作 编号 , ( 1 ) 式 中 H 阵见 ［ 8 ］ p92 。 ( 3 ) 式 求解 详见 ［ 2 ］ , P 按 ( 2 ) 式 构造 。 其余 条件 和 仿真 结果 列于 表 1 ～ 表 4 。 诸表中 , 括号 内 的 数字 组为 隔离 函数 最大值 指示 的 故障 陀螺 号 , 加 * 号 表示 判定 正确 的 情况 。 
+ 　 　 　 　 表 1 　 单个 陀螺 出 故障 时 判决 函数 最大值 的 指示 结果 
+ 
+ A 　 D 
+ 123456 
+ C 
+ 0.01 BDj ( 1 ) * ( 2 ) * ( 3 ) * ( 4 ) * ( 5 ) * ( 6 ) * 
+ D + i , j ( 3 , 5 ) ( 2 , 3 ) ( 1 , 5 ) ( 2 , 5 ) ( 1 , 3 ) ( 1 , 2 ) 
+ D - i , j ( 1 , 5 ) ( 1 , 6 ) ( 2 , 6 ) ( 1 , 4 ) ( 4 , 6 ) ( 2 , 3 ) 
+ - 0.01 Dj ( 1 ) * ( 2 ) * ( 3 ) * ( 4 ) * ( 5 ) * ( 6 ) * 
+ D + i , j ( 3 , 5 ) ( 2 , 3 ) ( 1 , 5 ) ( 2 , 5 ) ( 1 , 3 ) ( 1 , 2 ) 
+ D - i , j ( 1 , 5 ) ( 1 , 6 ) ( 2 , 6 ) ( 1 , 4 ) ( 4 , 6 ) ( 2 , 3 ) 
+ 
+ 　 　 注 : A — — 故障 量 ( ° / h ) 　 B — — 判决 函数 　 C — — 判决 函数 最大值 指示 的 陀螺 号 　 D — — 实际 故障 陀螺 号 
+ 　 　 　 　 表 2 　 两个 陀螺 出 故障 且 故障 量 相差悬殊 时判 
+ 　 决 函数 最大值 的 指示 结果 
+ 
+ ABD 
+ 23456 
+ 1DjC 
+ ( 1 ) * ( 1 ) * ( 1 ) * ( 1 ) * ( 1 ) * 
+ D + i , j ( 1 , 6 ) ( 2 , 5 ) ( 1 , 6 ) ( 3 , 4 ) ( 1 , 6 ) 
+ D - i , j ( 1 , 5 ) ( 1 , 4 ) ( 1 , 3 ) ( 1 , 2 ) ( 1 , 5 ) 
+ 2Dj ( 2 ) * ( 2 ) * ( 2 ) * ( 2 ) * ( 2 ) * 
+ D + i , j 　 ( 1 , 5 ) ( 2 , 4 ) ( 2 , 4 ) ( 2 , 6 ) 
+ D - i , j 　 ( 1 , 2 ) ( 1 , 6 ) ( 1 , 2 ) ( 4 , 5 ) 
+ 3Dj ( 3 ) * ( 3 ) * ( 3 ) * ( 3 ) * ( 3 ) * 
+ D + i , j 　 　 ( 1 , 5 ) ( 1 , 4 ) ( 1 , 5 ) 
+ D - i , j 　 　 ( 2 , 6 ) ( 3 , 6 ) ( 2 , 4 ) 
+ 4Dj ( 4 ) * ( 4 ) * ( 4 ) * ( 4 ) * ( 4 ) * 
+ D + i , j 　 　 　 ( 1 , 3 ) ( 4 , 6 ) 
+ D - i , j 　 　 　 ( 1 , 4 ) ( 2 , 3 ) 
+ 5Dj ( 5 ) * ( 5 ) * ( 5 ) * ( 5 ) * ( 5 ) * 
+ D + i , j 　 　 　 　 ( 1 , 3 ) 
+ D - i , j 　 　 　 　 ( 2 , 4 ) 
+ 
+ 　 　 注 : A — — 故障 陀螺 号 , 故障 量 0.05 ° / h 　 B — — 判决 函数 　 C — — 判决 函数 最大值 指示 的 陀螺 号 　 D — — 故障 陀螺 号 , 故障 量 0.005 ° / h 
+ 表 3 　 两个 陀螺 出 故障 且 故障 量 相同 符号 相同 时 判决 函数 最大值 指示 结果 
+ ABD 
+ 23456 
+ 1DjC 
+ ( 6 ) ; ( 5 ) ( 5 ) ; ( 4 ) ( 6 ) ; ( 3 ) ( 3 ) ; ( 2 ) ( 6 ) ; ( 1 ) 
+ D + i , j ( 1 , 2 ) * ( 1 , 3 ) * ; ( 4 , 5 ) ( 1 , 4 ) * ( 1 , 5 ) * ; ( 2 , 3 ) ( 1 , 6 ) * ; ( 3 , 5 ) 
+ D - i , j ( 5 , 6 ) ( 1 , 4 ) ; ( 2 , 4 ) ; ( 3 , 4 ) ; ( 4 , 5 ) ( 3 , 6 ) ( 2 , 6 ) ; ( 1 , 2 ) ; ( 2 , 5 ) ( 5 , 6 ) ; ( 1 , 3 ) ; ( 2 , 6 ) 
+ 2Dj 　 ( 2 ) ; ( 3 ) ( 2 ) ; ( 4 ) ( 4 ) ; ( 1 ) ( 2 ) ; ( 6 ) 
+ D + i , j 　 ( 2 , 3 ) * ; ( 1 , 5 ) ( 2 , 4 ) * ( 2 , 5 ) * ( 2 , 6 ) * 
+ D - i , j 　 ( 2 , 5 ) ; ( 3 , 5 ) ; ( 2 , 6 ) ( 1 , 6 ) ( 1 , 4 ) ( 4 , 5 ) 
+ 3Dj 　 　 ( 2 ) ; ( 1 ) ( 1 ) ; ( 6 ) ( 2 ) ; ( 5 ) 
+ D + i , j 　 　 ( 3 , 4 ) * ( 1 , 6 ) ; ( 3 , 5 ) * ( 3 , 6 ) * 
+ D - i , j 　 　 ( 1 , 2 ) ( 1 , 3 ) ; ( 5 , 6 ) ; ( 1 , 5 ) ( 2 , 5 ) 
+ 4Dj 　 　 　 ( 4 ) ; ( 5 ) ( 6 ) ; ( 4 ) 
+ D + i , j 　 　 　 ( 1 , 3 ) ; ( 4 , 5 ) * ( 4 , 6 ) * 
+ D - i , j 　 　 　 ( 1 , 4 ) ; ( 3 , 4 ) ; ( 2 , 4 ) ; ( 3 , 5 ) ( 2 , 3 ) 
+ 5Dj 　 　 　 　 ( 4 ) ; ( 3 ) 
+ D + i , j 　 　 　 　 ( 5 , 6 ) * 
+ D - i , j 　 　 　 　 ( 3 , 4 ) * 
+ 　 　 注 : A — — 故障 陀螺 号 , 故障 量 0.1 ° / h 　 B — — 判决 函数 　 C — — 判决 函数 最大值 指示 的 陀螺 号 
+ D — — 故障 陀螺 号 , 故障 量 0.1 ° / h 
+ 表 4 　 两个 陀螺 出 故障 且 故障 量 相同 符号 相反 时 判决 函数 最大值 指示 结果 
+ ABD 
+ 23456 
+ 1DjC 
+ ( 1 ) ; ( 2 ) ( 1 ) ; ( 3 ) ( 1 ) ; ( 4 ) ( 1 ) ; ( 5 ) ( 4 ) ; ( 1 ) 
+ D + i , j ( 3 , 4 ) ( 1 , 6 ) ; ( 3 , 4 ) ( 2 , 5 ) ( 1 , 2 ) ; ( 2 , 5 ) ; ( 3 , 5 ) ( 2 , 4 ) 
+ D - i , j ( 1 , 2 ) * ( 1 , 3 ) * ; ( 2 , 6 ) ( 1 , 4 ) * ( 1 , 5 ) * ; ( 3 , 6 ) ; ( 1 , 6 ) * 
+ 2Dj 　 ( 6 ) ; ( 4 ) ( 5 ) ; ( 3 ) ( 2 ) ; ( 5 ) ( 3 ) ; ( 1 ) 
+ D + i , j 　 ( 4 , 6 ) ( 3 , 6 ) ; ( 1 , 3 ) ; ( 1 , 5 ) ( 3 , 6 ) ( 1 , 5 ) ; ( 1 , 4 ) ; ( 3 , 5 ) 
+ D - i , j 　 ( 2 , 3 ) * ( 2 , 4 ) * ; ( 3 , 5 ) ( 2 , 5 ) * ( 2 , 6 ) * ; ( 1 , 3 ) 
+ 3Dj 　 　 ( 3 ) ; ( 4 ) ( 5 ) ; ( 3 ) ( 3 ) ; ( 6 ) 
+ D + i , j 　 　 ( 5 , 6 ) ( 3 , 6 ) ; ( 1 , 3 ) ; ( 5 , 6 ) ( 1 , 4 ) 
+ D - i , j 　 　 ( 3 , 4 ) * ( 3 , 5 ) * ; ( 2 , 4 ) ( 3 , 6 ) * 
+ 4Dj 　 　 　 ( 2 ) ; ( 6 ) ( 1 ) ; ( 5 ) 
+ D + i , j 　 　 　 ( 2 , 6 ) ( 2 , 5 ) ; ( 1 , 2 ) ; ( 1 , 3 ) ; ( 1 , 6 ) 
+ D - i , j 　 　 　 ( 4 , 5 ) * ( 1 , 5 ) ; ( 4 , 6 ) * 
+ 5Dj 　 　 　 　 ( 5 ) ; ( 6 ) 
+ D + i , j 　 　 　 　 ( 1 , 2 ) 
+ D - i , j 　 　 　 　 ( 5 , 6 ) * 
+ 　 　 注 : A — — 故障 陀螺 号 , 故障 量 0.1 ° / h 　 B — — 判决 函数 　 C — — 判决 函数 最大值 指示 的 陀螺 号 
+ D — — 故障 陀螺 号 , 故障 量 - 0.1 ° / h 
+ 5 　 分析 和 结论 
+ 　 　 从 诸表 可 看出 : 当 故障 陀螺 只有 一个 , 或 有 两个 但 故障 量 悬殊 时 , Dj 最大值 所 指示 的 故障 陀螺 号 固定 不变 , 并 能 正确 指示 出 故障 陀螺 ; 当 故障 陀螺 有 两个 且 故障 量 接近 时 , D + i , j 和 D - i , j 最大值 所 指示 的 故障 陀螺 组有 多个 , 其中 有 一组 是 正确 的 , 顺序 隔离 指示 的 故障 陀螺 组就能 搜索 出 实际 的 故障 陀螺 。 根据 以上 分析 , 可得 对 故障 陀螺 作 搜索 和 隔离 的 流程图 如图 1 所示 。 
+ 
+ 图 1 　 根据 故障 判决 函数 搜索 隔离 故障 陀螺 的 流程图 
+ 　 　 作者 单位 ： 西北工业大学 自动控制 系 . 西安 . 710072 ) 
+ 参考文献 
+ 　 1 　 PattonRJ , ChenJ . RobustFaultDetectionandIsolation ( FDI ) Systems . ControlandDynamicSystems , 1996 , 174 : 171 - 224 
+ 　 2 　 PotterJE , SumanMC . ThresholdlessRedundancyManagementwithArraysofSkewedInstruments . AGARDOGRAPH - 224 , 1977 : 15 - 1 ～ 15 - 25 
+ 　 3 　 KerrTH . DecentralizedFilteringandRedundancyManagementforMultisensorNavigation . IEEETrans . onAerospaceandElectronicSystems , 1987 , 23 ( 1 ) : 83 - 118 
+ 　 4 　 FrankPM . AdvancesinObserver - basedFaultDiagnosis . Proc . Int . Conf . onFaultDiagnosis , TOOLDIAG ' 93 , Toulouse : 817 - 836 
+ 　 5 　 LouX , WillskyAS , VerghsesGC . OptimallyRobustRedundancyRelationsforFailureDetectioninUncertainSystems . Automatica , 1986 , 22 ( 2 ) : 333 - 344 
+ 　 6 　 WatanabeK , HimmelblauDM . InstrumentFaultDetectioninSystemswithUncertainties . Int . J . Syst . Sci . , 1982 , 13 ( 2 ) : 137 - 158 
+ 　 7 　 DalyKC . GeneralizedLikelihoodTestforFDIinRedundantSensorConfigurations . JournalofGuidanceandControl , 1979 , 2 ( 1 ) : 9 - 17 
+ 　 8 　 以光衢 等 . 惯性导航 原理 . 航空工业 出版社 , 1987 年 第一版 : 91 - 92 
+ 　 　 本文 为 航空 基金 资助 项目 
+ 收稿 日期 : 1996 年 11 月 1 日 , 修回 日期 : 1998 年 2 月 19 日 

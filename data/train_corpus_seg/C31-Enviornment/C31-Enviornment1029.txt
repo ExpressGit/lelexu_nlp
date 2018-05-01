@@ -1,0 +1,41 @@
+环境 科学研究 
+ RESEARCHOFENUIRONMENTALSCIENCES 
+ 2001Vol.14 No.2 P.45 - 47 
+ 
+ 
+ 
+ 
+ 酸浸 粉煤灰 混凝法 处理 制革 废水 的 研究 
+ 夏畅斌 　 何湘柱 　 李德 良 　 黄念东 　 
+ 摘 　 要 ： 笔者 研究 了 在 热电厂 粉煤灰 中 加入 少量 的 鼓风炉 铁泥 和 适量 的 助 溶剂 HS ， 在 加热 条件 下用 稀硫酸 搅拌 浸取 2h 后 ， 制得集 物理 吸附 和 化学 混凝为 一体 的 混凝剂 。 这种 混凝剂 与 聚 硅酸铝 铁 ( PSAF ) 絮凝剂 配合 处理 COD 为 1500 ～ 2000mg / L 制革 废水 ， SS ， COD ， 硫化物 和 铬 的 去除率 分别 为 95% ， 93% ， 92% 和 88% 。 该法 的 显著特点 是 混凝 沉降速度 快 ， 污泥 体积小 ， 处理 废水 费用 低 ， 此外 还 探讨 了 酸 浸 粉煤灰 混凝剂 对 制革 废水 的 混凝 沉降 机理 。 
+ 关键词 ： 制革 废水 ； 　 粉煤灰 ； 　 鼓风炉 铁泥 ； 　 混凝 ； 　 吸附 性能 
+ 分类号 ： X794 　 文献 标识码 ： A 
+ 文章 编号 ： 1001 - 6929 ( 2001 ) 02 - 0045 - 03 
+ StudyonTreatmentofTanningWastewaterbyCoagulationMethodwithFlyAshTreatedbyAcid 
+ XIAChang - bin （ InstituteofEnviron . Eng .& ChemicalHi - Tech , XiangtanPolytechnicUniversity , Xiangtan411201 , China ） 　 
+ HEXiang - zhu （ InstituteofEnviron . Eng .& ChemicalHi - Tech , XiangtanPolytechnicUniversity , Xiangtan411201 , China ） 　 
+ LIDe - liang （ InstituteofEnviron . Eng .& ChemicalHi - Tech , XiangtanPolytechnicUniversity , Xiangtan411201 , China ） 　 
+ HUANGNian - dong （ InstituteofEnviron . Eng .& ChemicalHi - Tech , XiangtanPolytechnicUniversity , Xiangtan411201 , China ） 　 
+ 
+ Abstract ： Akindofflyash - basedcoagulantcombiningthecapabilitiesofbothphysicaladsorptionandchemicalcoagulationhasbeenpreparedbyaddingasmallamountofblastfurnaceironsludgeandanappropriateamountofhelpingsolvent ( HS ) toflyashincoal - firedthermalpowerplantsandthentheresultingmixturebeingstirredandextractedwithadiluteH2SO4for2hat90 ℃ . Combinedwithpolysilicatealuminumandferric ( PSAF ) , thiscoagulantwasthususedtotreattanningwastewaterwhichCODvalueis1500 ～ 2000mg / L . TheremovalratesofSS , COD , sulfideandtotalchromiumwere95% , 93% , 92% and88% respectively . Theremarkablecharacteristicsofthismethodareahigherrateofsettlement , asmallervolumeofsludge , andalowercostoftreatment . Thecoagulationmechanismofflyashcoagulantinthetreatmentoftanningwastewaterhasbeenstudied . 
+ Keywords ： tanningwastewater ; 　 flyash ; 　 blastfurnaceironsludge ; 　 coagulant ; 　 adsorptionproperty 
+ 基金项目 ： 原 煤炭 工业部 科技 发展 项目 ( 97 - 369 ) 
+ 作者简介 ： 夏畅斌 ( 1960 - ) ， 男 ， 湖南 益阳 人 ， 副教授 ， 硕士 . 
+ 作者 单位 ： 夏畅斌 （ 湘潭工学院 环境工程 与 化工 新 技术 研究所 ， 湖南 湘潭 　 411201 ） 　 
+ 　 　 　 　 　 何湘柱 （ 湘潭工学院 环境工程 与 化工 新 技术 研究所 ， 湖南 湘潭 　 411201 ） 　 
+ 　 　 　 　 　 李德 良 （ 湘潭工学院 环境工程 与 化工 新 技术 研究所 ， 湖南 湘潭 　 411201 ） 　 
+ 　 　 　 　 　 黄念东 （ 湘潭工学院 环境工程 与 化工 新 技术 研究所 ， 湖南 湘潭 　 411201 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ 　 周凤鸣 ， 吴炳耀 ， 马志毅 ， 等 . 粉煤灰 处理 含氟 工业废水 研究 [ J ] . 环境 科学 学报 ， 1993 ， 13 ( 2 ) ： 199 ～ 205 . 
+ ［ 2 ］ 　 ShigendoAkita . RecoveryofvanadiumandnickelinflyashfromheavyOil [ J ] . JChemTechBiotechnol , 1995 , 62 : 345 ～ 350 . 
+ ［ 3 ］ 　 王福元 ， 吴正严 . 粉煤灰 利用 手册 [ M ] . 北京 ： 中国 电力 出版社 ， 1997 . 
+ ［ 4 ］ 　 BinayKr , Singh & NarendraS , Rawat . Comparativessorptionequilibriumstudiesoftoxicphenolsonflyashandimpregnatedflyash [ J ] . JChemTechBiotechnol , 1994 , 61 : 307 ～ 317 . 
+ ［ 5 ］ 　 黄彩海 ， 苏广路 ， 杨丽娟 ， 等 . 粉煤灰 基 混凝剂 的 制备 及 应用 研究 [ J ] . 环境 科学 ， 1995 ， 16 ( 2 ) ： 47 ～ 49 . 
+ ［ 6 ］ 　 于衍 真 ， 李国忠 ， 傅 兴华 ， 等 . 粉煤灰 混凝剂 的 性能 研究 [ J ] . 环境 科学 学报 ， 1998 ， 18 ( 4 ) ： 431 ～ 434 . 
+ ［ 7 ］ 　 夏畅斌 ， 何湘柱 ， 易 清风 ， 等 . 煤矸石 灰渣 研制 硅酸铝 混凝剂 及 应用 研究 [ J ] . 中国 环境 科学 ， 1996 ， 16 ( 5 ) ： 396 ～ 400 . 
+ ［ 8 ］ 　 朱志平 . 铝盐 混凝中 水解 物种 分布 状况 研究 [ J ] . 中国 给水 排水 ， 1995 ， 11 ( 4 ) ： 46 ～ 49 . 
+ ［ 9 ］ 　 赵春禄 ， 刘振儒 ， 马刚平 ， 等 . 铝 、 铁 共聚 作用 的 化学 特征 及晶貌 研究 [ J ] . 环境 科学 学报 . 1997 ， 17 ( 2 ) ： 154 ～ 159 . 
+ 
+ 收稿 日期 ： 2000 年 4 月 4 日 
+ 出版日期 ： 2001 年 3 月 30 日 

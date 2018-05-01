@@ -1,0 +1,22 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 　 第 23 卷 　 第 6 期 　 Vol.23 　 No.6 　 1997 
+ 
+ 
+ 
+ 
+ INTELLIGENTCONTROL : PRINCIPLES , TECHNIQUES 
+ ANDAPPLICATIONS 
+ byZ - XCai ( CentralSouthUniv . ofTech . , China ) 
+ 　 　 Thisbookintroducesthedevelopmentprocess , structuraltheoriesandresearchareasofintelligentcontrol ; explainstheknowledgerepresentations , searchingandreasoningmechanismsasthefundamentaltechniquesofintelligentcontrol ; studiesthetheoreticalprinciplesandarchitecturesofvariousintelligentcontrolsystems ; analyzestheparadigmsofrepresentativeapplicationsofintelligentcontrol ; anddiscussestheresearchanddevelopmenttrendsoftheintelligentcontrol . 
+ 　 　 Fromthegeneralpointofview , thisbookpossessesthefollowingfeatures : updatedresearchresultsbothintheoryandapplicationthatreflectthelatestadvanceinintelligentcontrol ; closeconnectionbetweentheoryandpracticethatenablesreaderstousetheprinciplesfortheircasestudiesandpracticalprojects ; andcomprehensivematerialsthathelpreadersinunderstandingandlearning . 
+ Contents : Introduction ; MethodologyofKnowledgeRepresentation ; GeneralSearchPrinciples ; HierarchicalControlSystems ; ExpertControlSystems ; LearningControlSystems ; FuzzyControlSystems ; NeurocontrolSystems ; IntelligentControlSystemsinApplicaition ; ProspectofIntelligentControl ; References ; Index . 
+ Readership : Students , scientistsandengineersinelectricalandelectronicengineering , automaticcontrolandartificialintelligencefields . 
+ PublishedbyWorldScientificPublishingCo . Ptd . , 　 Singapore 
+ 450pp ( approx . ) 　 　 　 　 Pub . date : November1997 
+ 981 - 02 - 2544 - 4US64 , 　 ￡ 45 ， S92 
+ BookCode : EeRa - B3028 
+ MainSubjectCalssification : EngineeringandElectronics 
+ BoodB + 　 17 / 8 / 95 
+ Editor : YK 
+ BL / d 

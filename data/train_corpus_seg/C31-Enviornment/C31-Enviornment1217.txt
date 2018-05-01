@@ -1,0 +1,80 @@
+环境 科学 学报 
+ ACTA 　 SCIENTIAE 　 CIRCUMSTANTIAE 
+ 1998 年 4 月 第 18 卷 第 4 期 科技期刊 
+ 农药 降解 方程 y = ae - kt 参数估计 的 一种 方法 
+ 王 增辉 　 王蕴波 　 窦 　 森 　 贾红震 
+ ( 吉林 农业大学 基础科学 系 ， 长春 　 130118 ) 
+ 
+ 关键词 　 降解 方程 ， 参数估计 . 
+ AMETHODFORPARAMETERESTIMATIONOFAPESTICIDESDEGRADATIONEQUATION 
+ 
+ WangZenghui , WangYunbo , DouSen ， JiaHangzhen 
+ ( DepartmentofTheoreticalSciences , JilinAgriculturealUniversity , Changchun130118 ) 
+ 
+ ABSTRACT 　 AmethodforparameterestimationofpesticidesdegradationequationY = ae - ktispresented . Theresultswasappliedtoacasestudy . 
+ Keywords 　 degradationeqation , parameterestimation , pesticides . 
+ 1 　 前言 
+ 　 　 在 农药 的 降解 规律 研究 中 ， 一般 都 认为 ， 农药 在 土壤 中 、 植物 上 的 消失 ， 可用 一级 反应 动力学 公式 来 表示 ［ 1 ］ ， 即 在 不 考虑 其它 因素 的 条件 下 ， 农药 的 消失 速度 与 该 农药 现存 的 浓度 成正比 ， 即 满足 微分方程 
+ 
+ ( 1 ) 
+ 式 中 ， y 为 农药 在 t 时刻 的 浓度 ， t 为 施药 时间 ， k 为 农药 降解 速度 常数 ， a 为 浓药 在 t = 0 时 的 浓度 ( 初始 浓度 ) . 
+ 
+ 　 　 解 微分方程 ( 1 ) 可 得 
+ y = ae - kt 
+ ( 2 ) 
+ 对式 ( 2 ) 中 的 参数 a 与 k 的 估计 方法 ， 一般 是 先 对式 ( 2 ) 两端 取 自然对数 得 
+ lny = lna - kt 
+ 再 在 上式 中令 Y = lny , A = lna , B = - k , X = t , 将式 ( 2 ) 化为 线性 模型 
+ Y = A + BX 
+ ( 3 ) 
+ 然后 应用 最小 二 乘法 估计 ( 3 ) 中 的 A 与 B ， 其 估计 公式 为 
+ 
+ ( 4 ) 
+ 最后 由 A = lna 、 B = - k 可求 出 a = e \ + A , k = - B ， 我们 称 这种 方法 为 最小 二 乘法 . 
+ 
+ 　 　 在 用 最小 二 乘法 估计 参数 a 与 k 时 ， 由于 采用 了 变换 Y = lny ， 这时 等 方差 假设 已 不 成立 ， 因而 由式 ( 4 ) 估计 出 的 参数 A 与 B 只是 模型 ( 3 ) 的 最小 二乘 逼近 ， 也就是说 只是 变换 后 的 新 变量 Y 与 X 的 最小 二乘 逼近 . 由此 而求 出 的 a ( a = eA ) 与 k ( k = - B ) 并 不是 农药 降解 方程 y = ae - kt 的 最小 二乘 逼近 ， 也 失去 了 “ 误差 平方和 达到 最小 ” 的 意义 . 因此 由 最小 二 乘法 求出 的 农药 降解 方程 ， 有时 误差 很大 . 本文 给出 了 参数估计 的 一种 加权 最小 二 乘法 ， 实例 分析表明 ， 这种 方法 的 精度 明显 高于 最小 二 乘法 . 
+ 
+ 2 　 原理 与 方法 
+ 　 　 下面 讨论 一般 情形 ( 不 重复 试验 ) 和 重复 试验 情形 的 参数估计 问题 . 
+ 2.1 　 一般 情形 
+ 　 　 设 农药 降解 方程 为 
+ y = ae - kt 
+ ( 5 ) 
+ 并设 时刻 ti 对应 的 农药 浓度 为 yi ， 则 这 n 对 数据 的 结构式 为 
+ yi = ae - kti + ε i ( i = 1 , 2 , … , n ) ， ε i ～ N ( 0 ， σ 2 ) 
+ 　 　 对式 ( 5 ) 两端 取 自然对数 并令 Y = lny , A = lna , B = - k , X = t , 则 式 ( 5 ) 化为 
+ Y = A + BX 
+ ( 6 ) 
+ 式 ( 6 ) 对应 的 数学模型 为 
+ Yi = A + BXi + ε i ( i = 1 , 2 , … , n ) 
+ ( 7 ) 
+ 　 　 经过 变量 代换 后 的 新 变量 Y 的 误差 项 ( Yi - i ) ( Yi = A + BXi ) 在 不同 的 Yi 处 ， 相同 的 偏离 转换 到 原 变量 yi 处 ， 将 产生 不同 的 偏差 . 应用 最小 二 乘法 估计 式 ( 6 ) 中 的 A 、 B 时 并 没有 考虑 这种 偏差 的 影响 ， 为 克服 上述 弊端 ， 我们 采用 加权 最小 二 乘法 来 估计 式 ( 6 ) 中 的 A 与 B . 文献 ［ 2 ］ 、 ［ 3 ］ 证明 了 这种 偏差 的 大小 与 变换 函数 在 Yi 处 的 变化率 ( 导数 ) ( dy / dY ) i = yi 成正比 ， 因此 我们 将 这 一值 ( dy / dY ) i = yi 对 每 一 误差 项 加权 ， 则 误差 平方和 为 
+ 
+ ( 8 ) 
+ 现求 A 、 B 使式 ( 8 ) 达到 最小值 ， 由 多元 函数 极值 原理 可求 出 A 、 B 为 
+ 
+ ( 9 ) 
+ 由式 ( 9 ) 求出 A 、 B 后 ， 再 由 变换 的 逆变换 可求 出 a = e \ + A , k = - B ， 从而 可求 出 农药 降解 方程 . 
+ 
+ 　 　 由式 ( 9 ) 可以 看出 ， 当权 ( dy / dY ) i = yi = 1 时 ， 式 ( 9 ) 就是 公式 ( 4 ) ， 所以 ， 最小 二 乘法 是 加权 最小 二 乘法 权为 1 时 的 特殊 情况 . 
+ 2.2 　 重复 试验 情形 
+ 　 　 设在 ti ( i = 1 , 2 , … , n ) 时刻 做 了 mi 次 重复 试验 ， 在 ti 时刻 的 第 j 次测 得 的 农药 浓度 为 yij ( j = 1 , 2 , … , mi ) ， 则 这 m1 + m2 + … + mn 个 数据 yij 的 结构式 为 
+ yij = ae - kti + ε ij ( i = 1 , 2 , … , n ; j = 1 , 2 , … , mi ) ， ε ij ～ N ( 0 , σ 2 ) . 
+ 　 　 重复 2.1 节 的 过程 ， 可将式 ( 5 ) 化为 
+ Y = A + BX 
+ 对应 的 数学模型 为 
+ Yij = A + BXi + ε ij ( i = 1 , 2 , … , n ; j = 1 , 2 , … , mi ) 
+ 式 中 ， Yij = lnyij , A = lna , B = - k , Xi = ti . 
+ 　 　 同样 的 理由 ， 我们 将值 ( dy / dY ) i = 对 新 变量 Y 的 每 一个 误差 项 ( Yij - i ) ( Y 　 ^ i = A + BXi ) 加权 ， 则 误差 平方和 为 
+ 
+ ( 10 ) 
+ 现求 A 、 B 使式 ( 10 ) 达到 最小值 ， 由 多元 函数 的 极值 原理 可求 出 
+ 
+ ( 11 ) 
+ 式 中式 ( 11 ) 就是 重复 试验 情形 参数 A 与 B 的 加权 估计 公式 . 
+ 　 　 作者 经 多例 验证 这种 参数估计 方法 的 精度 比 最小 二 乘法 的 精度高 得 多 . 限于 篇幅 本文 略去 实例 . 
+ 参考文献 
+ 　 1 　 RobertGould . Organicpesticidesintheenironment . WashingtonD . C : AmericanChemSocPub , 1966 : 122 — 131 
+ 　 2 　 李鸿仪 . 线性 回归 中 变量 代换 对 回归 精度 的 影响 及其 消除 . 数学 的 实践 与 认识 ， 1994 ， 24 ( 3 ) ： 44 — 49 
+ 　 3 汤振民 . 非线性 回归 线性化 处理 中 的 加权 . 数理统计 与 管理 ， 1988 ， ( 2 ) ： 41 — 47 
+ 　 4 王 增辉 . 等 重复 数据 的 非线性 加权 回归 . 生物 数学 学报 ， 1997 ， 12 ， ( 4 ) ： 312 — 315 

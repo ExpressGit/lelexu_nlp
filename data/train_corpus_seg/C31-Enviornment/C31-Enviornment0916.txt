@@ -1,0 +1,74 @@
+环境 科学 学报 
+ ACTASCIENTIAECIRCUMSTANTIAE 
+ 1999 年 第 19 卷 第 5 期 Vol.19 No.51999 
+ 
+ 
+ 
+ 氯苯 降解 性质 粒 pL1 限制性 酶 消化 和 物理 图谱 * 
+ 罗如新 　 张素琴 　 李顺鹏 
+ 摘要 　 大量 提取 L1 菌 质粒 并用 低 熔点 琼脂糖 回收 . 用 5 种 限制性 核酸 内切 酶 消化 ， 所得 片段 数 分别 是 ： Hind Ⅲ 4 ， BanH Ⅰ 16 , Xba Ⅰ 4 , Pst Ⅰ 15 , Sma Ⅰ 12 . 从 各 片段 的 累加 测出 该 质粒 的 平均 大小 约 为 92.5 kb , 分子量 为 60.09 × 106dalton . 在 单酶 消化 的 基础 上 ， 用 Hind Ⅲ / Xba Ⅰ 、 Hind Ⅲ / BamH Ⅰ 、 XBa Ⅰ / BamH Ⅰ 双酶 消化 ， 以及 BamH Ⅰ 部分 消化 ， 由此 组建 了 Hind Ⅲ / Xba Ⅰ / BamH Ⅰ 3 个 酶 的 物理 图谱 . 
+ 关键词 　 质粒 ； 限制性 内切 酶 ； 物理 图谱 . 
+ RestrictionendonucleasedigestionandphysicalmapofchlorobenzenedegradationplasmidpL1 
+ LUORuxin ( Dept . ofEnvironmentalScienceandEngineering , FudanUniversity , Shanghai200433 ) 
+ ZHANGSuqin ( WuhanInstituteofVirology , ChineseAcademyofSciences , Wuhan430071 ) 
+ LIShunpeng ( DepartmentofMicrobiology , NanjingAgriculturalUniversityNanjing210095 ) 
+ Abstract 　 PlasmidfromstrainL1waspreparedonalargeandreclaimedbyagarose , lowmeltingpoint . WhenpL1DNAwasdigestedby5restrictionendonucleases , 4fragmentswereobtainedbyHind Ⅲ , 4fragmentsbyXba Ⅰ , 16fragmentsbyBamH Ⅰ , 15fragmentsbyPst Ⅰ , 13fragmentsbySmaI . Thegenomeaveragesizewasestimatedtobe92.5 kbandmolecularweightwas60.09 × 106Dalton . Onthebasisofsingledigestion , pL1DNAwasdigestedwithHind Ⅲ / Xba Ⅰ , Hind Ⅲ / BamH Ⅰ andXba Ⅰ / BamHI , andpartiallydigestedwithBamHI . ThephysicalmapforpL1wasconstructedfromthesedata . 
+ Keywords 　 Restrictionendonucleases , physicalmap , degradationplasmid . 
+ 　 　 氯代苯类 是 一类 重要 的 有机化工 原料 ， 广泛 用于 农药 、 医药 和 材料 合成 等 行业 ， 具有 高 的 持久性 和 强 的 毒性 ， 进入 环境 造成危害 也 特别 严重 . 这 类化合物 的 微生物 氧化 已有 很多 报道 ， 对于 微生物 氧化 的 遗传 基础 也 有 很多 研究 . 大多数 卤代烃 类 的 生物降解 是 由 质粒 控制 的 . pL1 质粒 是 作者 分离 鉴定 的 氯苯 降解 性质 粒 ［ 1 ］ ， 为 能 进一步 作 基因 定位 和 构建 该 质粒 的 基因图谱 ， 本文 应用 部分 消化 法 和 双酶 消化 法 ， 并 结合 “ 三 三 规则 ” ［ 2 ］ ， 组建 了 pL1 质粒 的 物理 图谱 . 
+ 1 　 材料 与 方法 
+ 1.1 　 材料 和 试剂 
+ 　 　 细菌 和 质粒 ： L1 菌 为 氯苯 降解 菌 ； pL1 是 存在 于 L1 菌株 的 氯苯 降解 性质 粒 . 试剂 ： Solution Ⅰ , Ⅱ , Ⅲ , STEbuffer , TEbuffer 均 参照 文献 ［ 3 ］ 配制 . 培养基 ： 高浓度 肉汤 培养基 参照 文献 ［ 3 ］ 配制 . 
+ 1.2 　 方法 
+ 　 　 L1 菌 质粒 的 大量 提取 ， 参照 文献 ［ 3 ］ 进行 . 低 溶点 琼脂糖 ( LMP ) 回收 质粒 DNA ， 参照 文献 ［ 4 ］ 进行 . 双酶 消化 ( 1 ) 两个 酶 对 反应 温度 有 不同 要求 时 ， 则 必须 分别 进行 消化 ， 要求 低温 的 酶 作 第一个 酶 . ( 2 ) 如果 两个 酶 对 缓冲液 有 同样 的 要求 ， 可以 同时 进行 混合 酶 切 . 如果 对 缓冲液 的 要求 不 一样 ， 那么 要求 低盐 缓冲液 的 酶 作 第一个 酶 ， 在 消化 之后 ， 补加 1mol / LNaCl1.5 μ L 调节 盐浓度 ， 然后 加入 要求 高盐 缓冲液 的 第二个 酶 ， 继续 消化 . 部分 消化 同 上 设置 反应 体系 ， 37 ℃ 反应 10min , 65 ℃ 灭活 10min . 电泳 用 0.7% 和 1% 琼脂糖 凝胶 水平 电泳 ， 3V / cm , EB 染色 ， 紫外 灯下 观察 并 拍照 . 
+ 2 　 结果 
+ 2.1 　 pL1 质粒 的 单酶 消化 和 双酶 消化 
+ 　 　 pL1 质粒 经 Hind Ⅲ 、 Xba Ⅰ 、 BamH Ⅰ 、 Pst Ⅰ 、 Sma Ⅰ 等 酶 消化 后 ， 所得 片段 数见表 1 . 其中 用 Hind Ⅲ 、 Xba Ⅰ 消化 后 从 电泳图谱 上 可见 浓浓的 一条 带 ( 见图 1 ) ， 根据 亮度 和 分子量 大小 判断 应是 四条 重叠 带 . 根据 Hind Ⅲ 消化 λ DNA 所作 工作 曲线 ， 查出 各 片段 大小 ( 见表 1 ) . 从表 1 可以 看出 Hind Ⅲ , Xba Ⅰ 的 4 个 片段 的 总和 为 92kb ， BamH Ⅰ 的 16 个 片段 的 总和 为 94.14 kb ， Pst Ⅰ 的 15 个 片段 的 总和 为 94.25 kb ， Sma Ⅰ 的 12 个 片段 的 总和 为 91.8 kb . 由此 ， 求出 pL1 质粒 的 平均 大小 为 92.5 kb , 分子量 为 60.09 × 106dalton . 
+ 表 1 　 单酶 和 双酶 消化 质粒 片段 及其 分子量 大小 
+ Table1FragmentsandteirsizeofplasmidDNAdigestedbysingleanddoubleendonucleases 单位 ： kb 
+ 片段 Hind Ⅲ Hind Ⅲ / Xba Ⅰ Xba Ⅰ BamH Ⅰ Hind Ⅲ / BamH Ⅰ Xba Ⅰ / BamH Ⅰ Pst Ⅰ Sma Ⅰ BamH Ⅰ 部分 消化 
+ A23.016 . 623.019 . 910.4716 . 8720.6019 . 5122.31 
+ B23.016 . 623.013 . 189.5512 . 2816.0012 . 6018.30 
+ C23.016 . 623.09 . 508.719 . 5613.0011 . 0317.18 
+ D23.016 . 623.08 . 717.707 . 249.509 . 1112.59 
+ E 　 6.4 　 7.247 . 246.528 . 707.649 . 12 
+ F6.45 . 015.885 . 017.606 . 788.53 
+ G6.44 . 685.324 . 684.306 . 015.40 
+ H6.44 . 475.014 . 503.715 . 504.51 
+ I 　 3.984 . 683.982 . 344.803 . 89 
+ J3.634 . 213.632 . 103.803 . 63 
+ K3.393 . 983.241 . 802.803 . 39 
+ L3.243 . 633.151 . 302.4 　 
+ M2.403 . 502.901 . 2 　 
+ N2.143 . 392.401 . 10 
+ O1.413 . 242.141 . 00 
+ P1.262 . 401.41 　 
+ Q 　 2.141 . 3 
+ R1.411 . 26 
+ S1.26 　 
+ T1.0 
+ 总计 92929294.1494 . 7292.0693 . 0591.98 
+ 　 　 根据 组建 物理 图谱 的 原理 ［ 2 , 3 ］ , 双酶 消化 环状 DNA 的 片段 长是 ： E1N + E2N ， 即 双酶 消化 的 片段 数应 是 两个 酶 单独 消化 所得 片段 数 之 和 . 所以 Hind Ⅲ / Xba Ⅰ 消化 得 8 个 片段 ， Hind Ⅲ / BamH Ⅰ 、 XBa Ⅰ / BamH Ⅰ 消化 产生 20 个 片段 . 双酶 消化 可能 保留 单酶 消化 的 某些 片段 ， 另 一些 片段 可能 消失 而 出现 新 的 片段 ， 说明 一个 酶 的 切点 可能 正好 在 消失 的 片段 之间 ， 那么 新 出现 的 2 个 或 3 个 片段 的 分子量 之 和 必然 等于 那个 消失 的 片段 ， 根据 片段 的 大小 可 找出 消失 片段 与 新生 片段 的 关系 ， 通过 它们 的 交错 重叠 现象 ， 可 确定 各 片段 的 相邻 位置 . 
+ 2.2 　 pL1 质粒 的 物理 图谱 
+ 　 　 根据 单酶切 和 双酶切 分析 ， BamH Ⅰ 切割 所得 的 片段 ( D ， F ， I ) 、 ( E ， L ， P ) 、 ( G ， J ， M ， N ) 之间 的 相互 排列 关系 仍 未能 确定 ， 故 进一步 做 BamH Ⅰ 部分 消化 来 确定 它们 之间 的 邻近 关系 ， 结果 见表 1 . 通过 分析 计算 定出 BamH Ⅰ 完全 消化 的 16 个 片段 的 顺序 的 A — D — C — F — O — I — B — L — P — E — K — H — G — J — N — M . 
+ 
+ 
+ 图 1 　 pL1 单酶 消化 
+ a : λ DNAHind Ⅲ 分子量 标记 　 b . Hind Ⅲ 单 消化 　 c : Xba Ⅰ 单 消化 　 d : Pst Ⅰ 单 消化 　 e : BamH Ⅰ 单 消化 
+ Fig.1 ElectrophoresispatternofpL1DNAforsingledigestion 
+ 
+ 
+ 图 2 　 质粒 pL1 的 限制 酶 切 图谱 
+ Fig.2 PhysicalmapofpL1fortherestrictionendonucleaseHind Ⅲ / Xba Ⅰ / BamH Ⅰ 
+ 　 　 5 种 限制性 内切 酶 对 pL1 质粒 进行 单酶切 、 双酶切 以及 部分 酶 切 的 结果 汇总 于表 1 ， 并 绘出 Hind Ⅲ / Xba Ⅰ / BamH Ⅰ 三种 酶 的 限制 图谱 ( 见图 2 ) . 
+ 3 　 讨论 
+ 　 　 用 5 种 限制性 内切 酶 消化 ， 根据 各酶 消化 片段 累计 而 得 的 质粒 大小 为 92.5 ? kb ， 分子量 大小 为 60.09 × 106dalton . 组建 如此 大小 质粒 的 物理 图谱 ， 存在 一定 的 困难 ， 误差 也 在所难免 . 然而 ， 物理 图谱 的 组建 都 不是 非常 严密 和 精确 的 ， 正如 Maniatis 等 ［ 3 ］ 指出 ， 即使 方法 先进 ， 条件 严格 ， 也 会 有 100bp 左右 的 误差 . 为了 不 遗漏 琼脂糖 凝胶 上 的 小 片段 ( 1kb 以下 的 片段 在 0.7% 的 琼脂糖 上 难以 观察 ) ， 最好 能 同时 用聚 丙烯酰胺 进行 电泳 ， 即使如此 ， 精确度 也 总是 有限 的 . 特别 是 对于 降解 质粒 一般 都 是 低 拷贝 的 ， 需要 大量 制备 质粒 DNA ， 再 回收 利用 ， 工作量 也 很大 的 . 
+ * 国家自然科学基金 ( 39370145 ) 资助 项目 
+ 作者 单位 : 罗如新 : 复旦大学 环境 科学 与 工程系 ， 上海 　 200433 　 张素琴 : 中科院 武汉 病毒 研究所 ， 武汉 　 430071 
+ 李顺鹏 : 南京农业大学 微生物 系 ， 南京 　 210095 ) 
+ 参考文献 
+ 1 　 罗如 新 等 . 一 氯化 苯 的 微生物 厌气 降解 及其 降解 性质 粒 的 研究 . 南京农业大学 学报 ， 1997 ， 20 ( 2 ) ： 63 — 66 
+ 2 　 齐义鹏 ， 黄永秀 ， 梁明山 编著 . 基因工程 原理 和 方法 . 重庆 ： 四川大学 出版社 ， 1988 
+ 3 　 SambrookJetal . MolecularCloning . ALaboratoryMannual.2 nded . NewYork : CSHLabPress , 1989 
+ 4 侯云德 编著 . 病毒基因 工程 的 原理 与 方法 . 北京 ： 人民卫生出版社 ， 1985 
+ 1998 - 03 - 02 收到 原稿 
+ 1998 - 09 - 28 收到 修改稿 

@@ -1,0 +1,135 @@
+环境 科学 学报 
+ ACTA 　 SCIENTIAE 　 CIRCUMSTANTIAE 
+ 1998 年 4 月 第 18 卷 第 4 期 科技期刊 
+ 鸭儿 湖 地区 多氯 代二苯 并 二 噁 / 呋喃 ( PCDD / F ) 的 污染 状况 及其 来源 归宿 的 初步 研究 * 
+ 吴文忠 　 徐 　 盈 　 张甬元 
+ ( 中国科学院 水生 生物 研究所 ， 武汉 　 430072 ) 
+ K . W . Schramm 　 　 A . Kettrup 
+ ( 德国 国家 环境 与 健康 研究 中心 生态 化学 研究所 ) 
+ 
+ 摘要 　 对 鸭儿 湖 地区 的 底泥 和 土壤 样品 中 的 多氯 代二苯 并 二 NFDA2 ＊ NFDA3 / 呋喃 ( PCDD / F ) 的 污染 状况 进行 了 研究 . 结果表明 ， 鸭儿 湖 部分 地区 已 被 PCDD / F 严重 污染 ， 该类 污染物 来源于 附近 某 化工厂 排放 的 化工 废水 ， 其中 ， PCDD / F 主要 以高氯 取代 的 HpCDDs 和 OCDD 为主 ， 总结 我们 的 已有 实验 结果 ， 鸭儿 湖 1 号 氧化 塘 中 高残留 的 PCDD / F 如果 控制 不当 将会 转移 扩散 ， 可能 造成 对 周围环境 的 进一步 污染 . 
+ 关键词 　 多氯 代二苯 并 二 NFDA2 ＊ NFDA3 / 呋喃 ( PCDD / F ) ； 来源 归宿 ； 鸭儿 湖 . 
+ OCCURRENCE , SOURCEANDFATEOFPOLYCHLORINATEDDIBENZO - P - DIOXINSANDDIBENZOFURANS ( PCDD / F ) IN 
+ YAERLAKEAREA 
+ 
+ WuWenzhong , XuYing , ZhangYongyuan 
+ ( InstituteofHydrobiology , ChineseAcademyofSciences , Wuhan430072 ) 
+ K . - W . Scharamm , A . Kettrup 
+ ( GSF - NationalResearchCenterofEnvironmentalandHealth , InstituteofEcologicalChemistry , D - 85764 , Germany ) 
+ 
+ ABSTRACT 　 SedimentsandsoilscollectedfromtheYaerLake , Chinawereanalyzedforpolychlorinateddibenzo - p - dioxinsanddibenzofurans ( PCDD / F ) . TheresultsindicatethatthepartofYaerLakehavebeenheavilypollutedbyPCDD / F . TheoccurrenceofPCDD / FwithrelativelyhighlevelsofHpCDDs , OCDD , isattributedtothedischargeofwastewaterfromachemicalfactorynearby . 
+ Keywords 　 PCDD / F , YaerLake . 
+ 
+ 　 　 
+ 1 　 前言 
+ 　 　 PCDDs 和 PCDFs 是 一类 多氯 代 芳烃 化合物 ， 由于 它们 在 化学 结构 和 毒理学 方面 的 相似性 ， 又 被 统称 为 二 NFDA2 ＊ NFDA3 ＠ 嗷物 ( Dioxin - likecompounds ) . PCDDs 和 PCDFs 中 的 一些 强 毒性 的 异构体 具有 致畸 变 \ , 致 突变 和 潜在 致癌 作用 . 在 四个 平面 环位 ( 3 ， 4 ， 7 ， 8 ) 中 的 3 个 环位 上 被 氯 原子 取代 ， 并 在 8 个 取代 位中 至少 有 一个 未 被 取代 的 异构体 是 酶 的 诱导 体 ， 因而是 有毒 的 ， 如果 4 个 平面 环位 ( 2 ， 3 ， 7 ， 8 ) 全 被 取代 ， 则 毒性 更 强烈 . 大多数 氯酚 产品 中 PCDD / F 的 含量 次序 如下 ： 四氯 ≌ 五氯 ＜ 六氯 ＜ 七氯 ≤ 八氯 CDD / F ［ 1 — 5 ］ . 
+ 
+ 
+ 图 1 　 鸭儿 湖 地区 采样 点 示意图 
+ Fig.1 ThemapoftheYa - erLakearea 
+ showingthesamplinglocations 
+ 
+ 　 　 PCDD / F 异构体 繁多 ， 难以 利用 常规 分析 手段 进行 有效 的 分离 纯化 和 定性 定量 ， 标样 昂贵 难得 ， 加之 对 操作 实验室 和 人员 的 特殊要求 ， 至今 国内 有关 这方面 的 数据 甚少 . 本 研究 利用 同位素 稀释 ， 高 分辨 气 相色谱 质谱 多 离子 检测法 ( HRGC / HRMS - MID ) 对 PCDD / F 异构体 进行 了 分离 纯化 和 定性 定量分析 . 对 我国 曾受 有机氯 工业 污水 严重 污染 的 鸭儿 湖 地区 PCDD / F 的 污染 状况 进行 了 调查 ， 并 利用 得到 的 科学 数据 研究 了 PCDD / F 在 该 地区 生态环境 中 的 来源 及 归宿 . 
+ 
+ 2 　 鸭儿 湖 地区 样品 采集 
+ 　 　 样品 采集 于 1994 年 7 月 ， 样品 采集 点见 图 1 所示 . 采集 点 选定 在 曾 被 有机氯 化合物 严重 污染 的 鸭儿 湖 地区 . 底泥 采集 于 严家 湖 1 号塘 、 4 号 塘 和 5 号塘 以及 其 出口 6 号 采样 点 . 采样 深度 20 — 40cm , 土壤 和 稻田 泥 样品 采集 于 1 号塘 附近 的 蔬菜 地 和 稻田 ， 采样 深度 10 — 30cm . 样品 由 同一 地点 多个 采样 点 样品 的 混合 ， 样品 采集 后 放置 冰箱 中 保存 . 
+ 
+ 图 2 　 PCDD / F 分离 纯化 步骤 
+ 　 　 Fig.2 Clean - upprocedureofPCDD / Fanalysis 
+ 
+ 3 　 材料 与 方法 
+ 3.1 　 样品 制备 和 提取 
+ 　 　 样品 采集 后经 冰冻 干燥 ， 研细 ， 称取 约 20g 样品 ， 加入 2 ， 3 ， 7 ， 8 - 取代 位 的 13C 标记 PCDD / F 作为 内标 ， 样品 用 180mL 甲苯 索氏 抽提 24h . 
+ 3.2 　 PCDD / F 的 分析 
+ 　 　 样品 的 分离 纯化 方法 见图 2 所示 . 
+ 　 　 质谱 条件 ： EI 源 ， 多 离子 检测 ， 检测 其 M + 、 ( M + 2 ) + 的 质量 色谱 峰 以及 异构体 的 同位素 质量 色谱 峰 . 质谱仪 为 FinniganMAT95 ， 分辨率 为 R = 10000 . 
+ 　 　 
+ 4 　 结果 与 讨论 
+ 4.1 　 PCDD / F 的 定性 、 定量 及 计算机辅助 峰 识别 
+ 　 　 HRGC / HRMS - MID 基本上 能 较 好 地 对 PCDD / F 的 各 异构体 进行 有效 分离 . 同时 ， 利用 同位素 稀释 法可 对 各 异构体 进行 精确 地 定量 ， 但 对 众多 异构体 的 峰 识别 和 定性 非常 繁琐 . 
+ 　 　 与 以往 通常 所用 的 内标 、 外标法 相比 ， 同位素 稀释 法 有着 许多 优点 ， 消除 了 内 外标法 响应 不同 所 带来 的 误差 . 但 样品 中 的 PCDD / F 化合物 或 被 基质 吸附 或 被 基质 中 微小 的 颗粒 所 包裹 ， 难以 提取 ， 而 添加 的 同位素 化合物 是 游离 于 样品 的 基质 之中 ， 因此 易于 提取 ， 往往 计算 出 的 提取 效率 只是 同位素 的 提取 效率 ， 而 不是 样品 中 的 真实 回收率 . 为了 提高 提取 效率 ， 对于 PCDD / F 含量 高 的 环境 样品 一方面 可 增加 抽提 时间 ； 另一方面 可以 加入 少量 的 HCl 溶液 ， 破坏 样品 中 微型 颗粒 的 结构 ， 释放 出 被 其 包裹 的 PCDD / F ， 使 之 易于 抽提 ［ 6 ， 7 ］ . 该 方法 的 检测 限为 100fg ， 准确度 以 添加 的 回收率 内标 计算 ， 结果 见表 1 ［ 8 ］ . 
+ 　 　 PCDD / F 的 标样 价格昂贵 难得 ， 一般来说 很难 经常 得到 标准 色谱 的 全图 ， 因而 对 样品 中 众多 PCDD / F 的 峰 的 判别 就 产生 了 很大 困难 ， 以往 都 是 利用 相对 保留 时间 来 识别 ， 这样 不但 工作量 很大 ， 而且 常常 判断 错误 ， 因而 环境 分析家 们 一直 希望 找到 一种 快速 准确 的 方法 来 对 PCDD / F 的 质量 色谱 进行 判别 . 本 研究 发展 了 一套 自动 判别 PCDD / F 质量 色谱 峰 的 软件 ， 只要 每次 输入 18 种 13C 内标 化合物 的 保留 时间 ， 即可 产生 一张 标准 色谱 全图 ， 并 可 对 样品 分析 色谱 峰 进行 精确 地 自动识别 和 定量 计算 ， 从根本上 解决 了 因 标样 昂贵 短缺 和峰 识别 困难 所 产生 的 对 PCDD / F 研究 工作 的 障碍 ［ 9 ］ . 
+ 表 1 　 不同 浓度 PCDD / F 样品 的 回收率 
+ Table1Therecoveryefficienciesofsampleswithvariousconcentrations 
+ 
+ 　 燃烧 废渣 1 燃烧 废渣 2 飘尘 燃烧 废渣 3 燃烧 煤灰 底泥 
+ PCDD / F ( C14 - C18 ) 总量 ， ng / kg ( dw ) 77507193392534053696862669331363 
+ TEQ ( IUPAC ) ， ng / kg ( dw ) 3717251360107864623891559 
+ 索氏 抽提 24h 回收率 ， % 68.576 . 796.998 . 298.098 . 6 
+ 索氏 抽提 48h 回收率 ， % 81.790 . 910010010099.8 
+ 　 土壤 1 土壤 2 鸟蛋 1 鸟蛋 2 植物 尸体 底泥 2 
+ PCDD / F ( C14 - C18 ) 总量 ， ng / kg ( dw ) 5611374712344.320571377 
+ TEQ ( IUPAC ) ， ng / kg ( dw ) 6.1511628 . 530.25 . 5010.0 
+ 索氏 抽提 24h 回收率 ， % 100100100100100100 
+ 
+ 
+ 4.2 　 鸭儿 湖 地区 PCDD / F 的 污染 状况 及其 来源 与 归宿 
+ 　 　 表 2 列出 了 鸭儿 湖 地区 选定 的 6 个 采样 点 的 PCDD / F 污染 水平 . PCDD ( C14 — C18 ) 的 总 浓度 在 70.23 — 157517ng / kg ( dw ) 变化 ， 平均值 为 7879ng / kg ; PCDF 在 1.78 — 18461ng / kg ( dw ) 变化 ， 平均值 为 9232ng / kg ( dw ) . 从表中 还 可以 看出 在 1 号塘 采样 点 PCDD / F 的 浓度 是 其它 采样 点 浓度 的 几十倍 到 几万倍 . 如图 1 所示 ， 该 地点 曾 为 葛店 化工厂 废水 的 出水口 ， 大量 工业 废渣 随着 废水 被 排入 1 号 氧化 塘 ， 使 1 号塘 部分 面积 已经 干涸 . 工业生产 中 产生 的 副产物 PCDD / F 随着 废渣 一起 被 沉积 在 1 号塘 ， 使 之 被 PCDD / F 严重 污染 . 1 号 塘 中 残留 的 高浓度 PCDD / F 有 可能 通过 各种 途径 进一步 扩散 ， 从而 污染 附近 广阔 的 农田 及其 它 环境 . 
+ 　 　 国际 IUPAC 对 PCDD / F 各 异构体 规定 了 一套 毒性 评价 的 标准 ， 称为 毒性 等价 因子 ( Toxiciityequivalentfactor , 简写 TEF ) ， 以便 对 PCDD / F 的 环境影响 作出 准确 评价 . 表 2 列出 了 鸭儿 湖 地区 PCDD / F 总 的 化学 污染 浓度 及 底泥 、 土壤 和 稻田 泥 的 毒性 等价 浓度 ， 利用 这些 毒性 等价 浓度 可以 更加 准确 地 评价 PCDD / F 对 环境 的 影响 和 风险 . 
+ 4.3 　 鸭儿 湖 地区 PCDD / F 各 异构体 浓度 指纹 分析 和 来源 分析 
+ 　 　 图 2 给出 底泥 中 各组 PCDD / F 异构体 总 浓度 和 2 ， 3 ， 7 ， 8 - 取代 位 浓度 指纹图 . 可以 看出 在 底泥 中 PCDDs 各 异构体 的 浓度 极其 不 均匀 ， PCDDs 的 主要 含量 为 OCDD ， 高氯代 的 PCDDs 浓度 远远 高于 低氯代 的 PCDDs . 与 PCDDs 相比 ， PCDFs 各 异构体 的 浓度 含量 要 均匀 ， 除了 OCDF 以外 ， 低氯代 的 PCDF 浓度 要 高于 高氯代 的 PCDF . 尽管 沿着 水流 方向 的 1 号 、 4 号 、 5 号 及 6 号塘 出口 的 底泥 PCDD / F 浓度 差别 很大 ， 但 其 异构体 浓度 指纹图 的 形状 却 一致 ， 而且 1 号 塘 的 浓度 远远 高于 其它 采样 点 ， 这 说明 鸭儿 湖 地区 PCDD / F 的 污染源 只能 是 一个 ， 即 来自 化工厂 的 废水 . 
+ 　 　 通过 对 葛店 化工厂 生产 的 调查 ， 由 HCH ( 六氯环 已烷 ) 热解 水解 生产 五氯酚 及其 钠盐 生产工艺 是 产生 PCDD / F 的 主要 原因 . 它们 的 生产工艺 如下 ： 
+ 
+ 　 　 如 前言 所述 ， 此 过程 可 产生 大量 的 PCDD / F 副产物 ， 而且 主要 以 OCDD 等 高氯代 PCDD 为主 ， 这 正好 与 我们 所 得到 的 野外 测定 结果 一致 . 
+ Table2ConcentrationsofPCDD / FanditsTEQssamplesfromYaerlakearea ( ng / kg ( dw ) ) 
+ 
+ 　 1 号塘 底泥 4 号塘 底泥 5 号塘 底泥 6 号塘 底泥 土壤 稻田 泥 
+ 总 四氯 代苯 并 二 NFDA2 ＊ NFDA318920.580 . 626.740 . 650.40 
+ 总五氯代苯 并 二 NFDA2 ＊ NFDA318360.050 . 2315.5 n . d . n . d . 
+ 总六氯代苯 并 二 NFDA2 ＊ NFDA328851.7816 . 456.10 . 13n . d . 
+ 总七氯代苯 并 二 NFDA2 ＊ NFDA31431111.5359 . 01451.087 . 73 
+ 八氯代苯 并 二 NFDA2 ＊ NFDA313659256.7369111614 . 624.4 
+ 总 四氯 至八氯代苯 并 二 NFDA2 ＊ NFDA315751770.6445133916 . 432.5 
+ 2 ， 3 ， 7 ， 8 - 四氯 代苯 并 二 NFDA2 ＊ NFDA349.50 . 090.030 . 46n . d . n . d . 
+ 1 ， 2 ， 3 ， 7 ， 8 - 五氯代苯 并 二 NFDA2 ＊ NFDA396.20 . 010.233 . 87n . d . n . d . 
+ 1 ， 2 ， 3 ， 4 ， 7 ， 8 - 六氯代苯 并 二 NFDA2 ＊ NFDA31199n . d.1 . 388.09 n . d . n . d . 
+ 1 ， 2 ， 3 ， 6 ， 7 ， 8 - 六氯代苯 并 二 NFDA2 ＊ NFDA31680.031 . 358.15 n . d . n . d . 
+ 1 ， 2 ， 3 ， 7 ， 8 ， 9 - 六氯代苯 并 二 NFDA2 ＊ NFDA395.2 n . d.0 . 050.21 n . d . n . d . 
+ 1 ， 2 ， 3 ， 4 ， 6 ， 7 ， 8 - 七氯代苯 并 二 NFDA2 ＊ NFDA381303.7916 . 844.60 . 496.78 
+ 总 四氯 代 苯并呋喃 88340.896 . 0027.80 . 900.74 
+ 总五氯代 苯并呋喃 30330.242 . 168.280 . 050.43 
+ 总六氯代 苯并呋喃 16010.041 . 2513.420 . 540.45 
+ 总七氯代 苯并呋喃 15570.121 . 457.590 . 010.03 
+ 八氯代 苯并呋喃 48820.132 . 3421.30 . 150.13 
+ 总 四氯 至八氯代 苯并呋喃 199091.4313 . 278.41 . 641.77 
+ 2 ， 3 ， 7 ， 8 - 四氯 代 苯并呋喃 14480.100 . 211.620 . 17n . d . 
+ 1 , 2 , 3 , 7 , 8 / 1 , 2 , 3 , 4 , 8 - 五氯代 苯并呋喃 665.30 . 091.246 . 30n . d.0 . 19 
+ 2 ， 3 ， 4 ， 7 ， 8 - 五氯代 苯并呋喃 3680.020 . 040.480 . 05n . d . 
+ 1 ， 2 ， 3 ， 4 ， 7 ， 8 / 1 ， 2 ， 3 ， 4 ， 7 ， 9 - 六氯代 苯并呋喃 7080.030 . 182.620 . 490.45 
+ 1 ， 2 ， 3 ， 6 ， 7 ， 8 - 六氯代 苯并呋喃 208.70 . 010.142 . 30n . d . n . d . 
+ 1 ， 2 ， 3 ， 7 ， 8 ， 9 - 六氯代 苯并呋喃 25.9 n . d.0 . 020.05 n . d . n . d . 
+ 2 ， 3 ， 4 ， 6 ， 7 ， 8 - 六氯代 苯并呋喃 81.0 n . d.0 . 020.080 . 04n . d . 
+ 1 ， 2 ， 3 ， 4 ， 6 ， 7 ， 8 - 七氯代 苯并呋喃 2600.011 . 245.130 . 010.03 
+ 1 ， 2 ， 3 ， 4 ， 7 ， 8 ， 9 - 七氯代 苯并呋喃 239n . d.0 . 020.07 n . d . n . d . 
+ 总 PCDD / F17742772.1458141818 . 134.3 
+ 总 TEQ ( 德国 ) 8000.261 . 596.870 . 110.16 
+ 总 TEQ ( IUPAC ) 7970.161 . 116.900 . 110.15 
+ 
+ 　 　 n . d . ： 未 检出 
+ 
+ 
+ 图 3 　 底泥 中 2 ， 3 ， 7 ， 8 - 取代 PCDD / F 和 PCDD / F 异构体 总量 浓度 指纹图 
+ ( A ) ： 1 号 底泥 中 PCDD / F 异构体 总量 浓度 指纹图 ， ( B ) ： 4 - 6 号 底泥 中 PCDD / F 异构体 总量 浓度 指纹图 ； 
+ ( C ) ： 4 - 6 号 底泥 中 2 ， 3 ， 7 ， 8 - 取代 PCDD / F 浓度 指纹图 ， ( D ) ： 4 - 6 号 底泥 中 2 ， 3 ， 7 ， 8 - 取代 PCDD / F 浓度 指纹图 
+ Fig.3 Thepatternofthehomologuesand2 , 3 , 7 , 8 - chlorinatedsubstitutedPCDD / Finsediments 
+ ( A ) ThepatternofthePCDD / FhomologuesinNo.1 sediment 
+ ( B ) thepatternofthePCDD / FhomologuesinNo.4 - 6Sediments 
+ ( C ) thepatternofthe2 , 3 , 7 , 8 - chlorinatedsubstitutedPCDD / FinNo.1 sediment 
+ ( D ) thepatternofthe2 , 3 , 7 , 8 - chlorinatedsubstitutedPCDD / FinNo.4 - 6sediments 
+ 1 号塘 底泥 中 残留 的 大量 PCDD / F 通过 各种 途径 释放 ， 再 通过 食物链 转移 ， 对 周围 的 环境 存在 着 极大 的 潜在 危害 . 在 过去 的 几年 中 ， 鸭儿 湖 地区 已 出现 大量 的 畸形 鱼 ， 周围 居民 肝病 发病率 高 ［ 10 ］ ， 这 很 可能 与 PCDD / F 的 污染 有关 . 因此 对 1 号塘 底泥 中 PCDD / F 的 释放 行为 研究 是 找到 控制 PCDD / F 进一步 污染 的 关键 ［ 11 — 13 ］ . 根据 以上 对 PCDD / F 残留 分析 的 结果 以及 其 分布 情况 ， PCDD / F 在 鸭儿 湖 地区 的 主要 归宿 为 ： 
+ 　 　 ( 1 ) 如果 得以 控制 ， PCDD / F 将 停留 在 1 号塘 底泥 中 . 
+ 　 　 ( 2 ) 如果 控制 不当 ， PCDD / F 将会 从 底泥 中 释放 ， 可能 通过 食物链 等 各种 途径 转移 ， 对 周围 的 环境 存在 着 潜在 危害 . 
+ 参考文献 
+ 　 1 　 UBA - Bericht ′ SachstandDioxine ′ StandNovember1984 , In : Umweltbundesant ( Ed . ) . Erich - Schmidt - Verlag , Berlin , 1985 
+ 　 2 　 NATO / CCMS ( NorthAltanticTreatyOrganisatiion , CommitteeontheChallengesofModernSociety ) . Internationaltoxicityequivalencyfactor ( I / TEQ ) methodofriskassessmentforcomplexmixturesofdioxinsandrelatedcompounds . ReportNo.176 , 1988 ; Scientificbasisforthedevelopmentofinternationaltoxicityequivalencyfactor ( I / TEQ ) methodofriskassessmentforcomplexmixturesofdioxinsandrelatedcompounds , RpeortNo.178 , 1988 
+ 　 3 包 志成 等 . 工业品 五氯酚 和 五氯酚钠 中 的 PCDDs 和 PCDFs . 环境 化学 ， 1990 ， 9 ( 6 ) ： 33 — 37 
+ 　 4BaumannPC , WhittleDM . ThestatusofselectedorganicsintheLaurentianGreatlakes : anoverviewofDDT , PCBs , dioxins , furansandaromatichydrocarbons . AquatToxicol , 1988 , 11 : 241 — 257 
+ 　 5WuWZ , KWSchramm , XuYingetal . Inductionofethoxyresorufino - deethylase ( EROD ) asindicatorofpotentiallyharmfuleffectsfordioxin - likecompoundsinenvironmentalsamplesofYaerLakearea , China . FreseninsEnvironBull , 1996 , 8 ( 4 ) : 45 — 51 
+ 　 6BromanDNf , CZebihrYetal , Thecomposition , dirstributionandfluxofPCDDsandPCDFsinsettingparticulatematter ( SPM ) — — asedimenttrapstudytheNorthernBaltic . Chemosphere , 1989 , 19 : 445 — 450 
+ 　 7 吴文忠 . 鸭儿 湖 地区 环境 中 有机氯 污染物 六氯 环己烷 ( HCH ) 的 残留 动态 及 二 NFDA2 ＊ NFDA3 ＠ 嗷合物 ( Dioxin - likeCompounds ) 的 探查 . ［ 硕士学位 论文 ］ . 中国科学院 水生物 研究所 , 1995 
+ 　 8WuWZetal . Comparativeextractionofpolychlorinateddibenzo - p - dioxinsanddibenzofurans ( PCDD / Fs ) fromavarietyofsolidsamples . Chemosphere , 1996 , 33 : 2229 — 2237 
+ 　 9LiangXM , WuWZ , KWSchrammetal . Computer - assistedpeakrecognitionforpolychlorinateddibenzo - p - dioxins ( PCDDs ) andpolychlorinateddibenzofuans ( PCDFs ) inenvironmentalsamples . FreseniusJAnalChem , 1996 , 354 : 362 - 366 
+ 10LiuJK . RecoveryoftheinsecticidewastewaterpollutedYa - ErLake . ProceedingsofEuropeanWaterPollutionControlAssociation ( EWPCA ) . InternationalCongress , Rome , 15 - 18April , 1985 
+ 11ZhangYY , ChenX , TanYetal . StudiesonthepollutioncontroloftheYaerLake . ActaHydrobiologicaSinica , 1984 , 8 : 113 - 124 
+ 12XuY , WuWZ , ZhangYYetal . MobilityandtransferofresidualHexcahlorocyclohexane ( HCH ) inaquaticenvironment . FreseniusEnvirBull , 1994 , 3 : 557 — 562 
+ 13KWSchram , WuWZ , HenkelmannBetal . Influenceoflinearalkylbenzenesulfonate ( LAS ) asorganiccosolventonleachingbenaviorofPCDD / Fsfromflyashandsoil . Chemosphere , 1995 , 31 ( 6 ) : 3445 — 3453 

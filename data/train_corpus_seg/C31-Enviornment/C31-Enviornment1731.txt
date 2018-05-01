@@ -1,0 +1,39 @@
+环境 科学研究 
+ RESEARCHOFENUIRONMENTALSCIENCES 
+ 2001Vol.14 No.2 P.7 - 10 
+ 
+ 
+ 
+ 
+ 大气质量 污染 损失率 评价 模型 参数 的 GA 优化 
+ 李祚泳 　 王珏 　 刘国东 　 
+ 摘 　 要 ： 设定 各项 污染物 在 大气环境 质量 污染 损失率 评价 模型 中有 相同 参数值 ， 采用 具有 全局 优化 的 遗传算法 ( GA ) 对模型 中 的 参数 进行 优化 ， 得出 了 对 各种 大气 污染物 均 适用 的 大气环境 质量 污染 损失率 计算公式 及 大气环境 质量 综合 评价 模型 。 该 模型 与 其他 多种 评价 模型 用于 大气环境 实例 进行 评价 比较 ， 结果表明 ： 该 评价 方法 不仅 原理 直观 ， 评价 结果 准确 ， 而且 计算 简便 ， 实用性 强 。 
+ 关键词 ： 遗传算法 ； 　 大气质量 ； 评价 ； 污染 损失率 ； 参数 优化 
+ 分类号 ： X823 　 文献 标识码 ： A 
+ 文章 编号 ： 1001 - 6929 ( 2001 ) 02 - 0007 - 04 
+ OptimumEstimationofParametersonAssessmentModelofPollutionLossRateofAtmosphericEnvironmentalQualityUsingGeneticAlgorithm 
+ LIZuo - yong （ ChengduInstituteofMeteorology , Chengdu 　 610041 , China ） 　 
+ WANGJun （ MeteorologicalBureauofNanyang , Nanyang467000 , China ） 　 
+ LIUGuo - dong （ HydraulicEngineeringFaculty , SichuanUniversity , Chengdu 　 610065 , China ） 　 
+ 
+ Abstract ： Settingthesameparametervalueforallpollutantsintheassessmentmodelofpollutionlossrateofatmosphericquality , andoptimizingtheparametersofmodelusinggeneticalgorithmswithglobaloptimum , theformulaeofpollutionlossrateofatmosphericenvironmentalqualityandthecomprehensiveassessmentmodelofatmosphericenvironmentalqualitysuitabletoallatmosphericpollutantswereproposed . Thecomparisonhasbeenmadetothismodelwithothermodelsofassessmentinthecasesofatmosphericenvironmentalassessment . Itisshownthatthismethodisnotonlyofvisualprincipleandreliableresults , butalsoofeasycalculationandgoodpracticality . 
+ Keywords ： geneticalgorithm ; atmosphericquality ; assessment ; pollutionlossrate ; parameteroptimum 
+ 基金项目 ： 四川大学 青年 科技 基金 资助 
+ 作者简介 ： 李祚泳 ( 1944 - ) ， 男 ， 四川省 宜宾县 人 ， 教授 ， 硕士 . 
+ 作者 单位 ： 李祚泳 （ 成都 气象 学院 ， 四川 成都 　 610041 ） 　 
+ 　 　 　 　 　 王珏 （ 南阳市 气象局 ， 河南 南阳 　 467000 ） 　 
+ 　 　 　 　 　 刘国东 （ 四川大学 水电 学院 ， 四川 成都 　 610065 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ 　 BezuglayaEYu ， ShchutskayaAB , SmirnovaIV . Airpollutionindexandinterpretationofmeasurementsoftoxicpollutantconcentrations [ J ] . AtmosEnviron , 1993 , 27A ( 5 ) : 773 ～ 779 . 
+ ［ 2 ］ 　 GoyalP , SinghMP , GulatiA . Airqualityassessmentoveracemetnindustralcomplex [ J ] . AtmosEnviron , 1996 , 30 ( 7 ) : 1159 ～ 1166 . 
+ ［ 3 ］ 　 郑成德 . 大气环境 质量 的 人工神经网络 决策 模型 [ J ] . 环境 科学 进展 ， 1999 ， 7 ( 1 ) ： 83 ～ 87 . 
+ ［ 4 ］ 　 李祚泳 . 环境质量 综合 指数 的 余 分指数 合成 法 [ J ] . 中国 环境 科学 . 1997 ， 17 ( 6 ) ： 554 ～ 556 . 
+ ［ 5 ］ 　 李祚泳 . 大气环境 质量 评价 的 标度 指数 法 [ J ] . 中国 环境 科学 ， 1998 ， 18 ( 5 ) ： 433 ～ 436 . 
+ ［ 6 ］ 　 何斌 ， 谭界忠 . 大气环境 质量 综合 评价 的 污染 损失率 法 [ J ] . 环境保护 ， 1998 ， ( 9 ) ： 21 ～ 22 ， 24 . 
+ ［ 7 ］ 　 DavidBF . Anintroductiontosimulatedevolutionaryoptimization [ J ] . IEEETransonNN , 1994 , 5 ( 1 ) : 3 ～ 14 . 
+ ［ 8 ］ 　 丁 进宝 . 倍 斜率 聚类 法 在 环境质量 综合 评价 中 的 应用 [ J ] . 环境 科学 ， 1995 ， 16 ( 1 ) ： 48 ～ 51 . 
+ ［ 9 ］ 　 李书全 ， 赵良英 ， 史智兴 ， 等 . 一种 防止 遗传算法 成熟 前 收敛 的 有效 方法 [ J ] . 系统工程 理论 与 实践 ， 1999 ， 19 ( 5 ) ： 72 ～ 77 . 
+ 
+ 收稿 日期 ： 2000 年 3 月 9 日 
+ 出版日期 ： 2001 年 3 月 30 日 

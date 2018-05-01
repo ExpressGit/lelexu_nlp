@@ -1,0 +1,99 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 2000 　 Vol.11 　 No.3 　 P.342 - 345 
+ 
+ 
+ 
+ 多 Agent 系统 的 几种 规范 生成 机制 
+ 王 一川 　 石 纯一 
+ 摘要 　 HCR ( highestcumulativereward ) 是 多 agent 系统 中 的 一种 规范 生成 机制 , 但 在 该 机制 下 ， 系统 的 规范 不能 随 条件 的 变化 而 变化 . 文章 建立 了 规范 的 定义 , 分析 了 规范 的 稳定性 , 给出 了 用于 规范 生成 的 HAR ( highestaveragereward ) 和 HRR ( highestrecentreward ) 机制 , 适于 规范 的 演化 , 并 比 HCR 机制 有 更好 的 收敛 速度 . 
+ 关键词 　 多 agent 系统 , 协调 , 规范 , 突现 行为 , 演化 . 
+ 中图法 分类号 　 TP18 
+ Strategy - SelectionRulesforDevelopingConventionsinMulti - AgentSystem 
+ WANGYi - chuan 　 SHIChun - yi 
+ ( DepartmentofComputerScienceandTechnologyTsinghuaUniversityBeijing 　 100084 ) 
+ Abstract 　 Highestcumulativereward ( HCR ) isarulefordevelopingconventionsinmulti - agentsystems . Butitwillkeepsystemmaintaininganemergedconventionfromevolvingtomorerationaloneswhileconditionsofsystemaredeveloping . Inthispaper , thenotionofconventionsisdefined , andthestabilityofthemisanalyzed . Furthermore , tworulescalledhighestaveragereward ( HAR ) andhighestrecentreward ( HRR ) areintroduced . Theybothguaranteetheevolvingprocessofstableconventions , andtheconvergencerateofthemisbetterthanthatofHCR . 
+ Keywords 　 Multi - Agentsystem , coordination , convention , emergentbehavior , evolution . 
+ 　 　 行为规范 是 agent 协调 机制 的 一种 . Agent 在 交互 时 , 根据 行为规范 在 多个 可能 的 行为 之间 直接 作出 选择 , 从而 减少 通信 和 协调 开销 . 行为规范 可以 由 设计者 事先 规定 , 也 可以 在 某种 机制 的 约束 下 由 系统 在 运行 中 生成 ［ 1 , 2 ］ . 后者 又 可 分为 两类 , 一类 由 中央 控制 结点 来 确定 行为规范 , 另一类 不 存在 中央 控制 的 特权 结点 . 各 agent 地位 平等 , 在 交互 过程 中 逐渐 生成 规范 , 具有 灵活 、 实现 简单 等 优点 . 下面 的 分析 只 针对 后 一类 . MAS 中 的 规范 有 生成 、 稳定 和 演化 等 过程 , 前者 涉及 行为 策略 的 传播 和 行为 的 传播 , 后 两者 与 系统 达到 规范 状态 后 的 变化 有关 . 规范 形成 后 , 当 某些 agent 为 获得 更 高 的 短期 收益 而 违反 规范 时 , 遵循 规范 的 其他 agent 收益 发生变化 , 此时 ， 规范 可能 表现 出 保持稳定 、 产生 波动 或者 解体 的 变化 , 这是 规范 的 稳定 过程 . 与 之 相似 , 当 系统 中 未知 行为 被 发现 , 使得 系统 中 出现 更优 的 行为 策略 时 , 规范 向 新 行为 策略 的 转化 是 规范 的 演化过程 . 规范 的 生成 过程 从 局部 来看 , 也 是 一个 演化 的 过程 . 此外 , 采用 规范 的 目的 是 在 保证 优化 的 同时 减少 协调 开销 , 因而 要求 最终 在 全局 范围 内 agent 行为 策略 相同 ［ 3 , 4 ］ 是 不必要 的 . 
+ 　 　 以往 提出 的 规范 生成 机制 可 分为 价值 机制 ［ 3 , 5 , 6 ］ 和 其他 机制 ［ 7 ］ , 两者 都 未能 考虑 到 规范 的 稳定 过程 和 演化过程 . 文献 ［ 3 ］ 在 对策 论 的 框架 下定义 了 社会规范 , 用 HCR ( highestcumulativereward ) 机制 来 保证 在 各种 情形 下 生成 有效 的 规范 , agent 以 历次 交互 中 的 各 行为 策略 的 累积 收益 为 选择 行为 的 依据 . HCR 机制 的 缺点 是 不利于 演化 , 同时 ， agent 必须 预先 知道 行为 策略 集 . 文献 ［ 6 ］ 在 HCR 的 基础 上 研究 了 agent 交互 的 局部性 和 权威性 对于 规范 生成 结果 的 影响 , 以及 在 树型 或 层次 型 组织 结构 下 规范 的 生成 过程 . 这种 方式 仍 有 HCR 机制 的 缺陷 , 并且 组织 结构 中 不同 层次 的 agent 计算能力 由 设计者 预先 设定 , 不能 在 动态 过程 中 保证 其 合理性 . 文献 ［ 7 ］ 利用 模仿 机制 研究 了 agent 规范 生成 过程 与 收敛性 、 收敛 速度 有关 的 几个 参数 . Agent 记录 每次 交互 时 对方 的 行为 策略 , 并 根据 历史 信息 来 选择 当前 策略 , 其 缺点 是 系统 只会 收敛 到 初始 概率 较 高 的 策略 . 文献 ［ 5 ］ 研究 了 行为 策略 的 传播 过程 , 并 比较 了 不同 的 传播方式 的 效率 和 可行性 , 但 未 涉及 agent 个体 对 行为 策略 的 评价 和 取舍 过程 . 
+ 1 　 规范 的 定义 
+ 　 　 我们 先 给出 几个 必要 的 概念 ： 
+ 　 　 E = （ e1 , e2 , ... , en ） , 其中 ei 是 给定 的 第 i 个 agent 交互 时所处 的 场景 , ei 与 ej ( i ≠ j ) 可能 是 相等 的 ； C 为 E 中 所有 不同 元素 构成 的 集合 ； A = ｛ a1 , a2 , ... , ap ｝ 为 交互 中可选 行为 集 ； F = ｛ f1 , f2 , ... , fq ｝ 为 行为 策略 集 , 其中 fi ： C → A . 
+ 　 　 效用函数 u ： An → Rn , u ( α i1 , α i2 , ... , α in ) = ( ui1 , ui2 , ... , uin ) , 其中 uij 为 参与 交互 的 agent 在 场景 ej 下 实施 行为 α ij 得到 的 收益 ； 总 效用函数 U ： An → R , U ( α i1 , α i2 , ... , α in ) = ui1 + ui2 +...+ uin . 
+ 　 　 F 上 等价关系 “ ≈ ” , fi ≈ fjU ( fi ( e1 ) , fi ( e2 ) , ... , fi ( en ) ) = U ( fj ( e1 ) , fj ( e2 ) , ... , fj ( en ) ) , 由此 得到 F 集上 的 一个 划分 ｛ F1 , F2 , ... , Fs ｝ , 不妨 设其 系统 效用 依次 递增 . 定义 F 集上 相容 子集 Fc ： 对 任意 fi1 , fi2 , ... , fin ∈ Fc , 有 U ( fi1 ( e1 ) , fi2 ( e2 ) , ... , fin ( en ) ) ≡ UFc , UFc 为 一 常数 . 显然 , 相容 集中 各 f 等价 . 令 F 上 所有 相容 集 的 集合 为 FC . 
+ 　 　 定义 规范 ： Conv ∈ FC , 即 规范 是 F 上任 一 相容 子集 , 相容性 用以 保证 行为 策略 间 不 发生冲突 . 如果 Conv 是 最优 等价 集上 的 相容 子集 , 则 称 该 规范 是 全局 优化 规范 . 假定 agent 在 交互 中 机会均等 , 则 在 一次 遵循 规范 Conv 的 交互 前 , agent 对 自身 收益 的 期望 为 eu = UConvn , 此时 全局 优化 的 规范 也 满足 agent 的 个体 利益 . 
+ 　 　 为了 分析 规范 的 稳定性 , 我们 定义 行为 策略 f 对 相容 集 Fc 的 优超 ： 若 存在 k ∈ ［ 1 , n ］ , fj1 , fj2 , ... , fjn ∈ Fc , f ∈ F , 有 u ( fj1 ( e1 ) , fj2 ( e2 ) , ... , fjn ( en ) ) = ( uj1 , uj2 , ... , ujn ) , u ( fj1 ( e1 ) , fj2 ( e2 ) , ... , f ( ek ) , ... , fjn ( en ) ) = ( uj1 ′ , uj2 ′ , ... , ujk ′ , ... , ujn ′ ) , 且 U ( fj1 ( e1 ) , fj2 ( e2 ) , ... , f ( ek ) , ... , fjn ( en ) ) < UFc 和 ujk ′ > ujk , 即 实施 行为 策略 f 的 agent 在 损害 整体 收益 的 同时 增加 自身 收益 , 此时 称 f 优超 相容 集 Fc . 若 对于 某 相容 集 F 不 存在 这样 的 f , 则 Fc 是 稳定 的 ； 若 存在 某个 f , 对 任意 fj1 , fj2 , ... , fjn ∈ Fc 都 有 U ( fj1 ( e1 ) , fj2 ( e2 ) , ... , f ( ek ) , ... , fjn ( en ) ) < UFc 和 ujk ′ > ujk 成立 , 则 Fc 是 不 稳定 的 ； 其他 的 情形 介于 稳定 和 不 稳定 之间 , 并 可 根据 被 优超 的 情况 定义 其 稳定 程度 . 显然 , 相容 集在 稳定性 上 优于 其真 子集 . 
+ 2 　 HAR 和 HRR 算法 
+ 　 　 HCR 机制 不 能够 满足 演化 的 要求 , 因而 在 基于 传播 的 规范 生成 过程 中 不能 保证 收敛 . 我们 给出 HAR ( highestaveragereward ) 和 HRR ( highestrecentreword ) 机制 来 消除 累积 效应 , 适合 于 规范 的 收敛 和 演化 . HAR 以 历史 信息 中 各 行为 策略 的 平均 收益 作为 选择 当前 行为 策略 的 依据 , 用 平均值 来 替代 HCR 中 的 累积 值 . HRR 在 累计 历史 信息 时 利用 归一化 后 的 加权 系数 , 给予 越近 发生 的 收益 以越 高 的 权值 , 由于 归一化 而 消除 了 HCR 的 累积 效应 . 但 对于 潜在 规范 不 稳定 的 情形 , HAR 和 HRR 也 不能 使 系统 收敛 到 规范 . 
+ 　 　 下面 给出 算法 HAR 和 HRR . 设 C = { e1 , e2 , ... , em } , A = { a1 , a2 , ... , aq } , 并 假设 agent 初始 时 知道 所有 可行 行为 . 
+ 　 　 算法 1 . HAR 
+ 　 　 定义 收益 数组 reward ［ m ］ ［ q ］ , 用来 累积 在 某 场景 下 采用 某 行为 的 收益 ； 当前 策略 curStr ［ m ］ , 用于 记录 当前 策略 中 m 场景 下 所 对应 的 行为 ; 交互 次数 数组 times ［ m ］ ［ q ］ , 用于 记录 在 某 场景 下 采用 某 行为 的 次数 . 
+ 　 　 ( 1 ) 初始化 
+ 　 　 reward ［ m ］ ［ q ］ 所有 元素 值设 为 某 较大 值 , 使得 在 各 场景 下 不同 的 行为 都 有 机会 被 执行 . 
+ 　 　 curStr ［ m ］ 随机 初始化 为 ［ 1 , q ］ 区间 上 的 任意 值 . 
+ 　 　 times ［ m ］ ［ q ］ 各 元素 初始化 为 某 正常 数 . 其 直观 含义 为 agent 对 自身 判断 的 信任 程度 . 
+ 　 　 ( 2 ) 每次 交互 , 执行 以下 几步 ： 
+ 　 　 ( a ) 根据 当前 场景 ei , 得到 当前 策略 下 的 对应 行为 acurStr ［ i ］ ； 
+ 　 　 ( b ) 执行 行为 acurStr ［ i ］ , 得到 收益 cur － u ； 
+ 　 　 ( c ) reward ［ i ］ ［ curStr ［ m ］ ］ 增加 cur － u ; 
+ times ［ i ］ ［ curStr ［ m ］ ］ 增 1 ； 
+ 　 　 ( d ) 如果 cur － u < reward ［ i ］ ［ curStr ［ m ］ ］ times ［ i ］ ［ curStr ［ m ］ ］ , 则 重新 选择 在 场景 ei 下应 采取 的 行为 aj , 使得 对 任意 k ∈ ［ 1 , q ］ , 有 reward ［ i ］ ［ j ］ times ［ i ］ ［ j ］ ≥ reward ［ i ］ ［ k ］ ／ times ［ i ］ ［ k ］ ； 令 curStr ［ i ］ = j . 
+ 　 　 算法 2 . HRR 
+ 　 　 定义 收益 数组 reward ［ m ］ ［ q ］ 用于 记录 累积 加权 收益 ； 当前 策略 curStr ［ m ］ 含义 同 算法 HAR ； 取定 weight ∈ ［ 0 , 1 ］ 为 加权 比 . 
+ 　 　 ( 1 ) 初始化 
+ 　 　 reward ［ m ］ ［ q ］ 所有 元素 值设 为 某 较大 值 , 使得 在 各 场景 下 不同 的 行为 都 有 机会 被 执行 . 
+ 　 　 　 curStr ［ m ］ 随机 初始化 为 ［ 1 , q ］ 区间 上 的 任意 值 . 
+ 　 　 ( 2 ) 每次 交互 , 执行 以下 几步 ： 
+ 　 　 ( a ) 根据 当前 场景 ei , 得到 当前 策略 下 的 对应 行为 acurStr ［ i ］ ； 
+ 　 　 ( b ) 执行 行为 acurStr ［ i ］ , 得到 收益 cur － u ； 
+ 　 　 ( c ) reward ［ i ］ ［ curStr ［ m ］ ］ = reward ［ i ］ ［ curStr ［ m ］ ］ × weight + cur － u × ( 1 - weight ) ； 
+ 　 　 ( d ) 如果 cur － u < reward ［ i ］ ［ curStr ［ m ］ ］ , 则 重新 选择 在 场景 ei 下应 采取 的 行为 aj , 使得 任意 k ∈ ［ 1 , q ］ , 有 reward ［ i ］ ［ j ］ ≥ reward ［ i ］ ［ k ］ ； 令 curStr ［ i ］ = j . 
+ 3 　 实验 分析 
+ 3.1 　 实验 说明 
+ 　 　 实验 背景 由 100 个 agent 组成 , agent 两 两 随机 交互 , 用于 检验 行为规范 生成 机制 的 收敛性 和 演化 性 . 收敛 的 标准 是 连续 1000 次 交互 中 按 规范 进行 的 次数 大于 950 次 , 并 以 其 最早 出现 的 时刻 为 收敛 时刻 . 每个 实验 限定 交互 次数 为 8000 次 , 各 做 1000 回 . 
+ 　 　 实验 1 . 正值 收益 情形 下 各 机制 的 收敛性 
+ 　 　 E = ( e1 , e1 ) ； A = { a1 , a2 } ； u ( a1 , a1 ) = u ( a2 , a2 ) = ( 4 , 4 ) , u ( a2 , a1 ) = u ( a1 , a2 ) = ( 1 , 1 ) ； F = { f1 , f2 } , f1 ( e1 ) = a1 , f2 ( e1 ) = a2 . 
+ 　 　 初始 时 每个 agent 知道 全部 两种 行为 . 
+ 　 　 HRR 中取 weight = 0.8 . 
+ 　 　 实验 2 . 不同 初始 概率 下 各 机制 的 收敛性 
+ 　 　 E = ( e1 , e1 ) ； A = { a1 , a2 } ； u ( a1 , a1 ) = ( 4 , 4 ) , u ( a2 , a2 ) = ( 1 , 1 ) , u ( a2 , a1 ) = u ( a1 , a2 ) = ( - 1 , - 1 ) ； F = { f1 , f2 } , f1 ( e1 ) = a1 , f2 ( e1 ) = a2 . 
+ 　 　 初始 时 每个 agent 只 知道 一种 策略 , 该 策略 是 f1 的 概率 ， 为 P , agent 在 交互 中 相互 传播 策略 . 当 P 较 小时 , 系统 向 f1 的 收敛 过程 也 是 一个 规范 演化 的 过程 . 
+ 　 　 HRR 中取 weight = 0.8 . HCR 中 已知 而 未 尝试 的 行为 策略 在 选择 时有 优先权 . 
+ 3.2 　 实验 结果 
+ 　 　 在 实验 1 中 ， HAR 和 HRR 算法 在 1000 回中 全部 收敛 , 而 HCR 算法 均 不能 收敛 . 
+ 　 　 实验 2 的 结果 见表 1 , 表中 内容 为 在 标定 交互 次数 内 1000 回 测试 所 收敛 的 回数 . 可以 看出 , 当 P 不 同时 , HCR 的 收敛性 的 变化很大 , P 越大 ， 收敛性 越好 . HAR 和 HRR 算法 对 不同 的 P 都 有 很 好 的 收敛性 . 
+ Table1 
+ 表 1 
+ 
+ 　 10002000300040005000600070008000 
+ HCRP = 1 / 299799999910001000100010001000 
+ HCRP = 1 / 3650778811820830831834836 
+ HCRP = 1 / 4178284328345357363365367 
+ HCRP = 1 / 6929353838404040 
+ HCRP = 1 / 2500000000 
+ HARP = 1 / 210001000100010001000100010001000 
+ HARP = 1 / 25954976976976976976976976 
+ HRRP = 1 / 210001000100010001000100010001000 
+ HRRP = 1 / 25977977977977977977977977 
+ 
+ 3.3 　 结果 分析 
+ 　 　 当 agent 知道 效用函数 所 确立 的 映射 时 , 可以 将 整个 收益 的 计算 平移 到 零值 左右 , 此时 , HCR 机制 仍 可能 起 作用 . 但 在 实际 情况 中 , agent 很难 预先 知道 由 系统 决定 的 效用函数 , 实验 1 的 意义 就 在于 指出 HCR 机制 对 agent 认知 能力 的 这种 要求 , 而 HAR 和 HRR 机制 没有 这个 限制 . 
+ 　 　 实验 2 中 , HCR 机制 的 收敛性 与 P 值 有关 , P 越大 , 收敛性 越 好 ； P 值较 小时 , 初始 策略 为 f2 的 agent 能够 在 互相 交互 中 积累 足够 的 收益 来 阻碍 f1 的 再次 被 选取 , 同时 也 使 当前 策略 为 f1 的 agent 互相 交互 的 可能性 减少 . 
+ 4 　 结 　 语 
+ 　 　 本文 以 无 冲突 为 基点 建立 了 多 场景 下 规范 的 一般 模型 , 通过 分析 规范 的 生成 过程 , 给出 了 两种 基于 价值 选择 的 规范 生成 机制 , 并 通过 分析 实验 比较 了 几种 机制 在 简单 情形 下 的 收敛性 . 本文 没有 讨论 agent 对于 场景 的 识别 而 假定 agent 内在 具备 识别 场景 的 能力 , 但 在 一些 情形 下 , 场景 的 识别 与 行为 的 收益 有关 , 和 规范 的 生成 互相 影响 , 使得 规范 的 生成 过程 更加 复杂 . 实验 中 不 存在 优超 行为 策略 , 因而 没有 检验 规范 生成 机制 的 稳定性 . 
+ 本文 研究 得到 国家自然科学基金 ( No.69773026 , 69733020 ) 资助 . 
+ 王 一川 , 1973 年生 , 博士生 , 主要 研究 领域 为 分布式 人工智能 . 
+ 石 纯一 , 1935 年生 , 教授 , 博士生 导师 , 主要 研究 领域 为 人工智能 应用 基础 . 
+ 王 一川 ( 清华大学 计算机科学 与 技术 系 　 北京 　 100084 ) 
+ 石 纯一 ( 清华大学 计算机科学 与 技术 系 　 北京 　 100084 ) 
+ 参考文献 
+ 1 ， EphratiE , PollackME , UrS . Derivingmulti - agentcoordinationthroughfilteringstrategies . In : MellishCSed . Proceedingsofthe14thInternationalJointConferenceonArtificialIntelligence , Vol1 . SanMateo , CA : MorganKaufmannPublishers , 1995.679 ～ 685 
+ 2 ， GoldmanCV , RosenscheinJS . Emergentcoordinationthroughtheuseofcooperativestate - changingrules . In : Proceedingsofthe12thNationalConferenceonArtificialIntelligence , Vol1 . Cambridge , MA : MITPress , 1994.408 ～ 413 
+ 3 ， ShohamY , TennenholtzM . Ontheemergenceofsocialconventions : modeling , analysis , andsimulations . ArtificialIntelligence , 1997 , 94 ( 1 ～ 2 ) : 139 ～ 166 
+ 4 ， TennenholtzM . Onstablesociallawsandqualitativeequilibria . ArtificialIntelligence , 1998 , 102 ( 1 ) : 1 ～ 20 
+ 5 ， LuoYi . Agentmodelandsolvingmethodinmulti - agentsystem ［ Ph . D . Thesis ］ . Beijing : TsinghuaUniversity , 1996 
+ ( 罗翊 . 多 Agent 系统 中 Agent 模型 和 求解 方法 ［ 博士学位 论文 ］ . 北京 : 清华大学 , 1996 ) 
+ 6 ， KittockJE . Theimpactoflocalityandauthorityonemergentconventions : initialobservations . In : Proceedingsofthe12thNationalConferenceonArtificialIntelligence , Vol1 . Cambridge , MA : MITPress , 1994.420 ～ 425 
+ 7 ， WalkerA , WooldridgeM . Understandingtheemergenceofconventionsinmulti - agentsystems . In : LesserV , GasserLeds . Proceedingsofthe1stInternationalConferenceonMulti - AgentSystems . Cambridge , MA : MITPress , 1995.384 ～ 389 
+ 收稿 日期 ： 1998 - 12 - 01 
+ 修稿 日期 ： 1999 - 03 - 11 

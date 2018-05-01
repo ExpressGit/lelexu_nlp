@@ -1,0 +1,186 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 1999 年 第 10 卷 第 7 期 　 No.7 Vol.101999 
+ 
+ 
+ 
+ 基于 规则 面向 属性 的 数据库 归纳 的 无 回溯 算法 
+ 周生炳 　 张 　 钹 　 成 　 栋 
+ 　 　 摘要 　 该文 提出 了 基于 规则 的 面向 属性 知识 发现 方法 的 无 回溯 算法 . 把 背景 知识 理解 为 特殊 的 逻辑程序 , 并 把 它 的 子句 展开 为 完全 归结 子句 ， 然后 按照 用户 要求 , 定义 并 确定 每个 属性 的 恰当 层次 . 每个 属性 的 多个 值 归纳 为 恰当 层次 中 的 值 , 只 需 一遍 扫描 , 因此 无需 回溯 . 
+ 　 　 关键词 　 知识 发现 , 概念 层次 , 无 回溯 算法 . 
+ 　 　 中图法 分类号 　 TP181 , TP311 
+ ANonbacktrackingAlgorithmfortheRuleBased 
+ Attribute - orientedDatabaseInductionApproach 
+ ZHOUSheng - bing1 　 ZHANGBo2 　 CHENGDong3 
+ 1 （ AirForceTelecommunicationEngineeringInstituteXi ' an710077 ） 
+ 2 （ DepartmentofComputerScienceandTechnologyTsinghuaUniversityBeijing100084 ） 
+ 3 （ BusinessSchool 　 RenminUniversityofChina 　 Beijing 　 100872 ） 
+ 　 　 Abstract 　 Inthispaper , anonbacktrackingalgorithmispresentedfortherulebasedattribute - orienteddatabaseinductionapproach . Thebackgroundknowledgeisconsideredasalimitedlogicprogram , andeveryclauseofitisexpandedasacompleteresolutionclause . Then , theconceptofexactlevelforanattributeintheconcepthierarchiesisdefinedandspecifiedaccordingtoitsthresholdrequiredbytheusers . Thevaluesofeachattributeareinductedasonesinitsexactlevelbyonlyonepasswithoutbacktracking . 
+ 　 　 Keywords 　 Knowledgediscoveryindatabases , concepthierarchies , nonbacktrackingalgorithm . 
+ 　 　 自从 第一本 有关 知识 发现 （ knowlegdediscoveryindatabases , 简称 KDD ） 的 文集 ［ 1 ］ 出版 以来 , 有关 KDD 或 数据 采掘 （ datamining ） 的 研究 得到 广泛 的 关注 ［ 2 ～ 4 ］ . J . Han 等 人 提出 了 面向 属性 （ attribute - oriented ) 的 概念 提升 方法 ( 简称 AO 方法 ） . 其后 , 他们 围绕 AO 方法 进行 了 一系列 深入 的 工作 ［ 5 ～ 11 ］ . 在 文献 ［ 5 ］ 中 , 他们 将 AO 方法 推广 为 基于 规则 （ rule - based ) 的 AO 方法 ( 简称 RBAO 方法 ） , 其 主要 特点 是 根据 规则 对 数据库 进行 两遍 扫描 以 提升 概念 . 我们 提出 , 背景 知识 可 看成 是 特殊 的 逻辑程序 , 在 把 每个 规则 展开 为 完全 归结 后 , 可以 根据 用户 要求 , 确定 每个 属性 概念 提升 的 恰当 层次 , 从而 进行 一遍 扫描 即可 完成 概念 提升 , 避免 了 回溯 . 下面 首先 介绍 RBAO 方法 , 然后 讨论 它 的 无 回溯 算法 . 
+ 1 　 基于 规则 的 AO 方法 
+ 　 　 AO 方法 的 关键在于 用 概念 层次 表示 的 领域专家 提供 的 背景 知识 . 最 常用 的 概念 层次 是 概念 树 或 概念 格 ［ 6 , 7 , 12 ］ , 其中 概念 提升 是 无条件 的 . 但是 , 在 某些 情况 下 , 用户 可能 希望 表达 有 条件 的 概念 提升 , 即 除了 依赖 概念 本身 外 ， 还 依赖于 别的 概念 . 例如 , 在 城乡居民 经济 状况 调查 中 , 600 元 的 月 收入 对 农民 是 高 收入 , 但 对 城市居民 则 是 中等 收入 , 对 某些 城市 的 居民 甚至 是 低收入 . 鉴于 此 , W . D . Cheung 等 人 把 AO 方法 推广 为 基于 规则 的 AO 方法 , 加强 了 AO 方法 的 表达 和 归纳 能力 ［ 5 , 13 ］ . 
+ 　 　 在 基于 规则 的 AO 方法 中 , 背景 知识 由 一组 泛化 规则 表示 . 泛化 规则 形 如 
+ 　 　 　 　 　 　 　 　 C ( x ) ← A ( x ) & B ( x ) . 
+ 它 的 意思 是 , 对 元组 x , 某个 属性 a 的 概念 （ 属性 值 ） A 可以 推广 到 概念 C （ 更 高级 的 属性 值 ） , 如果 x 满足条件 B . B 形如 B1 &...& Bn , Bi 是 不同于 属性 a 的 某个 属性 bi 的 概念 , 或 表示 算术 比较 关系 . 基于 规则 的 AO 方法 （ 简称 RBAO 方法 ） 分为 两步 进行 . 我们 以 一个 例子 来 说明 . 
+ 　 　 第 1 步 . 从 初始 关系 到 主 关系 
+ 　 　 尽可能 地 按 属性 阈值 和 泛化 规则 提升 概念 , 合并 相同 的 元组 , 得到 的 广义 关系 叫做 主 关系 （ prime - relation ） . 
+ 
+ 图 1 
+ 　 　 例 ： 一个 大学 学生 数据库 由 模式 Student ( Name , Status , Sex , Age , Birthplace , GPA ) 组成 , 学习 任务 是 发现 计算机专业 学生 的 特征 规则 . 属性 GPA 的 概念图 如图 1 所示 , 对应 的 泛化 规则 如下 , 生成 的 主 关系 见表 1 . 
+ 　 　 R1 : 　 poor ← { 0.0 - 1.99 } ; 
+ 　 　 R2 : 　 poor ← { 2.0 - 2.49 } & { graduate } ; 
+ 　 　 R3 : 　 average ← { 2.0 - 2.49 } & { undergraduate } ; 
+ 　 　 R4 : 　 average ← { 2.5 - 2.99 } ; 
+ 　 　 R5 : 　 good ← { 3.0 - 3.49 } ; 
+ 　 　 R6 : 　 good ← { 3.49 - 3.8 } & { graduate } ; 
+ 　 　 R7 : 　 excellent ← { 3.49 - 3.8 } & { undergraduate } ; 
+ 　 　 R8 : 　 excellent ← { 3.9 - 4.0 } ; 
+ 　 　 R9 : 　 weak ← { poor } ; 
+ 　 　 R10 : 　 weak ← { average } & { senior , graduate } ; 
+ 　 　 R11 : 　 strong ← { average } & { freshman , sophomore , junior } ; 
+ 　 　 R12 : 　 strong ← { good } ; 
+ 　 　 R13 : 　 strong ← { excellent } . 
+ 　 　 　 　 表 1 
+ 
+ StatusSexAgeBirthplaceGPAVote 
+ UndergraduateM16 ～ 25CanadaAverage40 
+ UndergraduateM16 ～ 25CanadaGood20 
+ UndergraduateF16 ～ 25CanadaExcellent10 
+ ⅰ ⅰ ⅰ ⅰ ⅰ ⅰ 
+ GraduateM25 ～ 30CanadaPoor6 
+ GraduateM25 ～ 30CanadaGood4 
+ GraduateF25 ～ 30CanadaExcellent4 
+ 
+ 
+ 　 　 第 2 步 . 主 关系 中 某些 属性 应 进一步 泛化 , 直到 关系 的 规模 小于 泛化 关系 阈值 . 在 第 1 步 泛化 后 , 可能 损失 一些 信息 . 例如 , 表 1 中 第 1 个 元组 是 按 R10 提升 到 weak , 还是 按 R11 提升 到 strong 是 无法 确定 的 , 因为 身份 信息 （ freshman , sophomore , junior , senior ） 在 第 1 步 泛化 中 丢失 了 . 事实上 , 合并 到 这个 元组 的 40 个 学生 中 可能 有 各个 年级 的 学生 . 因此 , 第 2 步 应用 回溯 算法 恢复 丢失 的 信息 . 
+ 　 　 在 主 关系 中 , 一个 广义 元组 是 初始 关系 的 一个 元组 集合 合并 的 结果 , 该 元组 集 称为 广义 元级 的 源集 , 而 广义 元组 称为 覆盖 元组 . 回溯 算法 的 原理 如下 ： 
+ 　 　 ( 1 ) 把 主 关系 中 的 元组 回溯到 它们 的 源集 . 在 初始 关系 中 加入 一个 虚拟 属性 covering - tuple - id （ 覆盖 元组 标识符 ） 来 记录 对应 的 覆盖 元组 . 
+ 　 　 对表 1 中 的 主 关系 应用 这 一步 , 结果 见表 2 . 
+ 　 　 ( 2 ) 选择 某些 属性 提升 到 更 高级别 , 这 一步 在 表 2 所示 的 初始 关系 中 进行 . 
+ 　 　 　 　 表 2 
+ 
+ NameStatusSexAgeBirthplaceGPACovering - tuple - id 
+ - juniorM20Vancouver2.31 
+ ⅰ ⅰ ⅰ ⅰ ⅰ ⅰ ⅰ 
+ - sophomoreM21Calgary2.31 
+ - freshmanM18Toronto2.41 
+ ⅰ ⅰ ⅰ ⅰ ⅰ ⅰ ⅰ 
+ - juniorM19Ottawa3.12 
+ - Ph . DM30Waterloo3.940 
+ 
+ 
+ 　 　 ( 3 ) 比较 合并 广义 元组 . 对 具有 相同 covering - tuple - id 和 被 选 属性 值 的 元组 进行 比较 , 合并 其中 相同 的 元组 , 得到 的 结果 称为 加强 主 关系 ( enhanced - primerelation ) . 本例 的 加强 主 关系 见表 3 . 
+ 　 　 　 　 表 3 
+ 
+ Covering - tuple - idGPAVote 
+ 1Strong10 
+ 1Weak30 
+ 2Strong20 
+ ⅰ ⅰ ⅰ 
+ 40Strong4 
+ 
+ 
+ 　 　 ( 4 ) 合并 元组 映射 回主 关系 并 分裂 主 关系 中 的 元组 . 加强 主 关系 中 具有 相同 covering - tuple - id 的 所有 元组 映射 为主 关系 中 对应 的 覆盖 元组 . 主 关系 中 的 元组 因此 分裂 为 若干个 元组 , Vote 同时 被 调整 , 分裂 元组 中 某些 属性 泛化 为 加强 主 关系 中 的 对应 值 . 这 一步 的 结果 见表 4 . 
+ 　 　 　 　 表 4 
+ 
+ StatusSexAgeBirthplaceGPAVote 
+ UndergraduateM16 ～ 25CanadaStrong10 
+ UndergraduateM16 ～ 25CanadaWeak30 
+ UndergraduateF16 ～ 25CanadaStrong20 
+ ⅰ ⅰ ⅰ ⅰ ⅰ ⅰ 
+ GraduateF25 ～ 30CanadaStrong4 
+ 
+ 
+ 　 　 ( 5 ) 合并 分裂 主 关系 中 的 广义 元组 . 
+ 2RBAO 方法 的 无 回溯 算法 
+ 　 　 无条件 概念 树 确定 了 属性 值 从 一般 到 特殊 的 依赖 关系 , 而 泛化 规则 还 确定 了 属性 之间 的 依赖 关系 . 例如 , 上例 GPA 依赖于 属性 Status . RBAO 方法 的 两 阶段 算法 没有 考虑 这 一点 , 因此 回溯 是 必需 的 . 下面 , 我们 用 类似 于 逻辑程序 的 某些 技术 对 泛化 规则 进行 变换 , 按 依赖 关系 对 属性 排序 , 按此 顺序 对 属性 进行 泛化 , 即可 避免 回溯 . 
+ 　 　 泛化 规则 重写 为 下述 形式 ： 
+ 　 　 　 　 ( a ( x ) = C ) ← ( a ( x ) = A ) & B1 ( x ) &...& Bn ( x ) ｜ B1 （ x ） &...& Bn ( x ) . 　 　 　 　 　 ( 1 ) 
+ 其中 a ( x ) = C 称为 规则 （ 1 ） 的 头 , ( a ( x ) = A ) & B1 ( x ) &...& Bn ( x ) 或 B1 ( x ) &...& Bn ( x ) 称为 规则 （ 1 ） 的 体 ； Bi ( x ) 形如 bi ( x ) = Bi 或 bi ( x ) * Bi , * 是 比较 运算符 , a , bi 是 属性 名 . 这个 规则 的 意思 是 ： 对 元组 x , 属性 a 的 值 A 提升 到 更 高级 值 C , 如果 属性 bi 的 值 为 Bi 或 bi 的 值 与 Bi 满足 算术 关系 * （ 小于 , 大于 等 ） . 
+ 　 　 属性 a 依赖于 B1 &...& Bn 中 出现 的 属性 bi （ 如果 a ≠ bi ） , 记为 a < bi , 并 具有 传递性 ： a < b , b < c , 则 a < c . 这里 , 我们 只 考虑 不同 属性 之间 的 依赖 关系 , 不 考虑 不同 层次 属性 值 之间 的 依赖 关系 . 如果 对 任何 属性 a , 不 存在 属性 序列 b1 , ... , bn , 使 a < b1 , b1 < b2 , ... , bn - 1 < bn , bn < a , 则 称 泛化 规则 是 不 循环 的 . 
+ 　 　 对 规则 
+ 　 　 　 　 　 　 　 　 ( a ( x ) = C ) ← ( a ( x ) = A ) & B1 &...& Bn , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 如果 存在 下述 形式 的 规则 ： 
+ 　 　 　 　 　 　 　 　 ( a ( x ) = A ) ← ( a ( x ) = D ) & E1 &... Em 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 或 
+ 　 　 　 　 　 　 　 　 bi ( x ) = Ei ← bi ( x ) = Fi & H1 &...& Hk , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 那么 , 规则 
+ 　 　 　 　 　 　 　 　 ( a ( x ) = C ) ← ( a ( x ) = D ) & E1 &...& Em & B1 &...& Bn 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 或 
+ 　 　 　 　 ( a ( x ) = C ) ← ( a ( x ) = A ) & B1 &...& Bi - 1 & bi ( x ) = Fi & H1 &...& Hk & Bi + 1 &...& Bn 　 　 ( 6 ) 
+ 称为 规则 （ 2 ） 的 一个 归结 （ resolution ） . 如果 规则 （ 2 ） 不 存在 归结 , 则 称 这个 规则 是 一个 完全 归结 . 
+ 　 　 在 属性 a 的 规则 集合 中 , 概念 C 的 定义 是 以 a ( x ) = C 为头 的 所有 规则 的 集合 . 
+ 　 　 对于 关系 模式 R ( a1 , ... , an ) 中 的 所有 属性 , 如果 属性 a 不 依赖 其他 属性 （ 称为 独立 属性 ） , 那么 , 不论 是否 存在 概念 层次 , 对 它 的 处理 都 与 AO 方法 相同 . 因此 , 不妨 设 a1 < a2 < ... < an （ 称为 依赖 链 ） . 
+ 　 　 无 回溯 算法 的 关键 是 以 关于 ai 的 规则 的 完全 归结 来 代替 初始 规则 , 并 按 a1 , ... , an 的 顺序 进行 概念 提升 . 为了 控制 泛化 过程 的 终止 , 需要 计算 各个 属性 的 概念图 中 每 一层 的 节点 个数 . 
+ 　 　 设 L ( a ) 表示 属性 a 的 所有 规则 的 集合 , 令 
+ 　 　 　 　 nodea ( 0 ) = { A ｜ a ( x ) = A 仅 在 L ( a ) 的 规则 体中 出现 } , 
+ 　 　 　 　 nodea ( i + 1 ) = { C ｜ ( a ( x ) = C ) ← ( a ( x ) = A ) & B1 &...& Bn ∈ L ( a ) 并且 A ∈ nodea ( i ) } , 
+ 　 　 　 　 maxa = { C ｜ a ( x ) = C 在 规则 头 中 出现 , 但 不 在 体中 出现 } . 
+ 　 　 设 Th ( a ) 表示 属性 a 的 阈值 , 属性 a 的 恰当 层次 Sa 定义 如下 ： 
+ 　 　 . 如果 ｜ nodea ( 0 ) ｜ ≤ Th ( a ) , 则 Sa = nodea ( 0 ) ; 
+ 　 　 . 如果 ｜ nodea ( k ) ∪ （ nodea ( i ) ） ∩ maxa ｜ > Th ( a ) , 并且 ｜ nodea ( k + 1 ) ∪ （ nodea ( i ) ） ∩ maxa ｜ ≤ Th ( a ) , 则 Sa = nodea ( k + 1 ) ∪ （ nodea ( i ) ） ∩ maxa . 
+ 　 　 因为 有些 概念 在 概念图 中 比较 低 的 层次 上 , 但 它 不能 再 提升 , 因此 , 恰当 层次 并 不 与 概念图 中 某 一层 的 节点 完全相同 , 还 得 考虑 这种 低层 概念 . 
+ 　 　 在 做 了 这些 准备 工作 之后 , 无 回溯 算法 就 很 简单 了 . 
+ 　 　 设 a1 < a2 < ... < an , 对 每个 属性 ai 指派 一个 阈值 Th ( ai ) . 从 a1 开始 , 对 Sa 中 每个 概念 C , 求 a1 = C 的 定义 中 每个 规则 的 完全 归结 , 按照 这些 完全 归结 把 属性 a1 的 值 提升 为 C . 再 对 a2 , ... , an 重复 上述 过程 , 即 把 所有 属性 均 泛化 到 恰当 的 层次 . 然后 可以 去除 算术 比较 条件 中 属性 值较 多 而 不 存在 概念 层次 的 属性 . 
+ 　 　 把 无 回溯 算法 应用 于 前例 . 
+ 　 　 在 关系 Student 的 所有 属性 中 , GPA < status , 其他 属性 都 是 独立 的 . 设 GPA 和 status 的 阈值 均 为 2 , 则 ㏒ GPA = { weak , strong } , Sstatus = { undergraduate , graduate } , 关于 weak , strong 的 完全 归结为 : 
+ 　 　 ( 1 ) ( GPA = weak ) ← ( GPA ∈ { 2.5 - 2.99 } ) & ( status = senior ) ; 
+ 　 　 ( 2 ) ( GPA = weak ) ← ( GPA ∈ { 2.0 - 2.49 } ) & ( status = senior ) ; 
+ 　 　 ( 3 ) ( GPA = weak ) ← ( GPA ∈ { 2.5 - 2.99 } ) & ( status = graduate ) ; 
+ 　 　 ( 4 ) ( GPA = weak ) ← ( GPA ∈ { 2.0 - 2.49 } ) & ( status = graduate ) ; 
+ 　 　 ( 5 ) ( GPA = weak ) ← ( GPA ∈ { 0.0 - 1.99 } ) ; 
+ 　 　 ( 6 ) ( GPA = strong ) ← ( GPA ∈ { 3.0 - 3.49 } ; 
+ 　 　 ( 7 ) ( GPA = strong ) ← ( GPA ∈ { 2.0 - 2.99 } ) & ( status = freshman ) ; 
+ 　 　 ( 8 ) ( GPA = strong ) ← ( GPA ∈ { 2.0 - 2.99 } ) & ( status = sophomore ) ; 
+ 　 　 ( 9 ) ( GPA = strong ) ← ( GPA ∈ { 2.0 - 2.99 } ) & ( status = junior ) ; 
+ 　 　 ( 10 ) ( GPA = strong ) ← ( GPA ∈ { 3.5 - 3.79 } ) & ( status = graduate ) ; 
+ 　 　 ( 11 ) ( GPA = strong ) ← ( GPA ∈ { 3.8 - 4.0 } ) ; 
+ 　 　 ( 12 ) ( GPA = strong ) ← ( GPA ∈ { 3.5 - 3.79 } ) & ( status = freshman ) ; 
+ 　 　 ( 13 ) ( GPA = strong ) ← ( GPA ∈ { 3.5 - 3.79 } ) & ( status = sophomore ) ; 
+ 　 　 ( 14 ) ( GPA = strong ) ← ( GPA ∈ { 3.5 - 3.79 } ) & ( status = jounior ) ; 
+ 　 　 ( 15 ) ( GPA = strong ) ← ( GPA ∈ { 3.5 - 3.79 } ) & ( status = senior ) . 
+ 　 　 首先 提升 属性 GPA , 结果 见表 5 （ 属性 Age , Birthplace 的 泛化 与 AO 方法 一致 , 这里 假定 已经 完成 ） . 
+ 　 　 　 　 表 5 
+ 
+ StatusSexAgeBirthplaceGPA 
+ JuniorM16 ～ 25Canadastrong 
+ SophomoreF16 ～ 25Canadastrong 
+ ⅰ ⅰ ⅰ ⅰ ⅰ 
+ SeniorM16 ～ 25Canadaweak 
+ ⅰ ⅰ ⅰ ⅰ ⅰ 
+ 
+ 
+ 　 　 再 泛化 属性 Status , 结果 见表 6 . 
+ 　 　 　 　 表 6 
+ 
+ StatusSexAgeBirthplaceGAP 
+ UndergraduateM16 ～ 25Canadastrong 
+ UndergraduateF16 ～ 25Canadastrong 
+ ⅰ ⅰ ⅰ ⅰ ⅰ 
+ GraduateM16 ～ 25Canadaweak 
+ ⅰ ⅰ ⅰ ⅰ ⅰ 
+ 
+ 
+ 　 　 在 泛化 过程 中 , 相同 元组 随时 合并 , 记录 在 属性 Vote 中 . 
+ 　 　 算法 的 复杂性 分解 为 归纳 部分 和 演绎 部分 的 代价 . 归纳 部分 是 有效 的 , 见 文献 ［ 5 ］ . 由于 相对 于 数据库 的 规模 , 规则 集合 的 规模 要 小得多 , 而且 大多数 情况 下 是 简单 的 条件 规则 , 因此 , 这部分 复杂性 可以 忽略不计 . 
+ 　 　 H . Huang 和 W . C . Fu 提出 了 AO 方法 和 RBAO 方法 的 另 一种 有效 实现 ［ 13 ］ . 但 他们 的 算法 要求 概念图 是 平衡 的 , 即 每条 从 极小 节点 到 极大 节点 的 路径 的 长度 相等 . 另外 , 该 方法 不能 处理 算术 比较 条件 . 我们 的 无 回溯 算法 统一 处理 算术 比较 条件 , 因而 在 这 两 方面 优于 他们 的 算法 . 
+ 　 　 本文 研究 得到 国家自然科学基金 和 中国 博士后 科学基金 资助 . 作者 周生炳 , 1962 年生 , 博士后 , 讲师 , 主要 研究 领域 为 人工智能 , 逻辑程序 , 知识 发现 . 张钹 , 1935 年生 , 教授 ， 博士生 导师 ， 中国科学院 院士 , 主要 研究 领域 为 人工智能 , 神经网络 , 计算机 应用 . 成栋 , 1968 年生 , 博士 , 副教授 , 主要 研究 领域 为 数据仓库 技术 在 营销 分析 中 的 应用 . 
+ 　 　 本文 通讯联系 人 ： 周生炳 , 西安 710077 , 空军 电讯 工程学院 四系 计算机 室 
+ 　 　 作者 单位 ： 周生炳 （ 空军 电讯 工程学院 　 西安 　 710077 ） ； 张 　 钹 （ 清华大学 计算机科学 与 技术 系 　 北京 　 100084 ） ； 成 　 栋 （ 中国人民大学 工商管理 学院 　 北京 　 100872 ） 
+ 参考文献 
+ 　 1 　 Piatetsky - ShapiroG , FrawleyWJ . KnowledgeDiscoveryinDatabases . MenloPark , CA : AAAI / MITPress , 1991 
+ 　 2 　 ChenM , HanJ , YuPS . Datamining : anoverviewfromdatabaseperspective . IEEETransactionsonKnowledgeandDataEngineering , 1996 , 8 ( 6 ) : 866 ～ 883 
+ 　 3 　 SilberschatzA , StonebrakerM , UllmanJD . Databaseresearch : achievementsandopportunitiesintothe21stcentury . SIGMODRecord , 1996 , 25 ( 1 ) : 52 ～ 63 
+ 　 4 　 ZiarkoW . RoughSets , FuzzySetsandKnowledgeDiscovery . Berlin : Springer - Verlag , 1994 
+ 　 5 　 CheungDW , FuAWC , HanJ . Knowledgediscoveryindatabases : arulebasedattributeorientedapproach . In : ZbigniewRed . MethodologiesforIntelligentsystems : 8thInternationalSymposium . Berlin : Springer - Verlag , 1994.164 ～ 173 
+ 　 6 　 HanJ , CaiY , CerconeN . Datadrivendiscoveryofquantitativerulesinrelationaldatabases . IEEETransactionsonKnowledgeandDataEngineering , 1993 , 5 ( 1 ) : 29 ～ 40 
+ 　 7 　 HanJ . Towardsefficientinductionmechanismsindatabasesystems . TheoreticalComputerScience , 1994 , 133 ( 1 ) : 161 ～ 185 
+ 　 8 　 HanJ , FuY . Dynamicgenerationandrefinementofconcepthierarchiesforknowledgediscoveryindatabases . In : FayyadUM , UthurusamyReds . ProceedingsoftheKDD ' 94 : theAAAI ' 94WorkshoponKnowledgeDiscoveryinDatabases . AAAITechnicalReport , WS - 94 - 03 . MenloPark , CA : AAAIPress , 1994.157 ～ 168 
+ 　 9 　 HanJ , FuY . Explorationofthepowerofattribute - orientedinductionindatamining . In : FayyadUMetaleds . AdvancesinKnowledgeDiscoveryandDataMining . MenloPark , CA : AAAI / MITPress , 1996.399 ～ 421 
+ 　 10 　 HanJ , HuangY , CerconeNetal . Intelligentqueryansweringbyknowledgediscoverytechniques . IEEETransactionsonKnowledgeandDataEngineering , 1996 , 8 ( 3 ) : 373 ～ 390 
+ 　 11 　 HuX , CerconeN . Learninginrelationaldatabases : aroughsetapproach . ComputationalIntelligence , 1995 , 11 ( 2 ) : 323 ～ 338 
+ 　 12 　 GodinR , MissaouiR . Anincrementalconceptformationapproachforlearningfromdatabases . TheoreticalComputerScience , 1994 , 133 ( 2 ) : 387 ～ 419 
+ 　 13 　 HuangY , FuWC . Efficientalgorithmsforattribute - orientedinduction . In : FayyadUM , UthurusamyReds . Proceedingsofthe1stInternationalConferenceonKnowledgeDiscoveryandDataMining . MenloPark , CA : AAAIPress , 1995.168 ～ 173 
+ 1998 - 01 - 06 收到 原稿 　 
+ 1998 - 09 - 02 收到 修改稿 

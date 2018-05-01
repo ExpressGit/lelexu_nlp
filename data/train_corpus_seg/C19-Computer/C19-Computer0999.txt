@@ -1,0 +1,167 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 1 期 Vol.24 No.11998 
+ 
+ 
+ 
+ 电子 换向 电机 伺服系统 的 二 自由度 
+ H ∞ 优化 鲁棒控制 
+ 卢子 广 　 
+ 摘 　 要 　 应用 Youla 二 自由度 控制器 设计 参数 化 公式 ， 对 电子 换向 电机 伺服系统 导出 了 基于 一 自由度 控制 设计 的 二 自由度 H ∞ 控制器 结构 ， 该 结构 用 Kwkernaak 多项式 H ∞ 优化 设计 方法 获 希望 的 跟踪 特性 ， 用 Zames 的 模型 参考 变换 近似 逆 概念 对 扰动 进行 最佳 抑制 ， 并 对 负载 扰动 和 参数 变化 的 敏感性 进行 分析 . 实验 结果表明 系统 具有 良好 的 跟踪 特性 和 抗扰性 . 
+ 关键词 　 伺服系统 ， 二 自由度 控制 ， H ∞ 设计 ， 鲁棒控制 . 
+ H ∞ OPTIMALROBUSTCONTROLOFELECTRONICALLY 
+ COMMUTATEDMOTORSERVOSYSTEMUSINGTWO - 
+ DEGREES - OF - FREEDOMCONTROLLERDESIGH 
+ LUZIGUANG 　 
+ ( DepartmentofElectricalEngineering , GuangxiUniversity , Nanning530004 ) 
+ Abstract 　 ByusingYoulaparametrizationoftwo - degrees - of - freedomcontrollerdesign , anH ∞ optimalrobustcontrollerisproposedforelectronicallycommutatedmotorservosystembasedonone - degree - of - freedomcontrollerdesign . TheexpectedtrackingperformanceisobtainedbyusingKwakernaak ′ spolynomialH ∞ optimaldesignmethod . TheoptimalrejectionofdisturbancesisobtainedbyusingZames ′ modelreferencetransformationapproximateinverseconcept . Thesensitivitytoloaddisturbanceandparametersvariationareanalysed . Theexperimentalresultsdemonstrateitsexcellenttrackinganddisturbancesuppressionperformance . 
+ Keywords 　 Servosystem , two - degrees - of - freedomcontroller , H ∞ design , robustcontrol . 
+ 1 　 引言 
+ 　 　 一般 伺服系统 相应 于 指令 输入 u 和 输出 反馈 y 具有 两 控制 自由度 ( 图 1 ) ， 传统 的 伺服系统 设计 取 误差 信号 ( u - y ) 作为 控制器 唯一 输入 ， 这种 一 自由度 的 控制 设计 难以 同时 满足 很 高 的 跟踪 特性 和 抗扰性 等 闭环 特性 要求 . 对 u 和 y 分别 设计 控制器 的 二 自由度 控制 设计 可以 分别 获得 系统 的 跟踪 特性 和 抗扰性 . 本文 应用 Youla 的 结果 ［ 1 ］ ， 对 电子 换向 电机 ( ECM ) 伺服系统 的 转速 控制器 进行 二 自由度 H ∞ 优化 设计 ， 其 跟踪 特性 应用 Kwakernaak 多项式 方法 ［ 2 ］ ， 而 扰动 抑制 应用 Zames 的 模型 参考 变换 近似 逆 概念 ［ 3 ］ ， 并 对 负载 扰动 和 电机 参数 变化 的 敏感性 进行 分析 和 实验 研究 . 
+ 
+ 
+ 图 1 　 一般 系统 结构图 
+ 2 　 二 自由度 H ∞ 优化 鲁棒控制 设计 方法 
+ 　 　 Hardy 空间 H ∞ 为 复值 函数 G 构成 的 Banach 空间 ， G 在 右半 平面 Res ＞ 0 解析 ， 并 满足 为实 系数 的 有理函数 集合 ， 记 RH ∞ : = H ∞ ∩ R . 设 SISO 控制 对象 传递函数 P ( s ) 严格 真 ， P ( s ) 的 互质 分解 为 
+ P ( s ) = A - 1 ( s ) B ( s ) , A , B ∈ RH ∞ . 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 由 文献 ［ 1 ］ 知 ， 存在 X ， Y ∈ RH ∞ 使 Bezout 恒等式 
+ AX + BY = 1 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 成立 ， 图 1 的 控制器 C 由 
+ r = Cuu - Cyy 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 描述 ， 即 
+ C = ［ Cu , - Cy ］ . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 为 使 系统 稳定 ， 其 敏感 函数 
+ S = ( 1 + CyP ) - 1 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 和 u 到 r ， u 到 y 的 传递函数 
+ Gur = ( 1 + CyP ) - 1Cu = SCu , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ Guy = ( 1 + CyP ) - 1PCu = PGur , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 7 ) 
+ 须 属于 RH ∞ . 由 文献 ［ 1 ］ 定理 1 知 C 的 参数 化 表示 为 
+ C = ( X - KB ) - 1 ［ H , - ( Y + KA ) ］ , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ 其中 H ， K 为 属于 RH ∞ 的 任意 函数 . 若 P ( s ) ∈ RH ∞ ， 则 其 最 简单 的 互质 分解 为 A = 1 , B = P , 由此 代入 式 ( 2 ) 给出 X = 1 , Y = 0 ， 结果 得到 C 的 最 简单 表示 
+ C = ( 1 - KP ) - 1 ［ H , - K ］ , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 9 ) 
+ 或者 
+ Cu = ( 1 - KP ) - 1H , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 10 ) 
+ Cy = ( 1 - KP ) - 1K . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 11 ) 
+ 将式 ( 11 ) 代入 式 ( 5 ) 给出 敏感 函数 
+ S = ( 1 - KP ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 12 ) 
+ 注意 扰动 d 至 输出 y 的 传递函数 Gdy = S , 由此 
+ Gdy = ( 1 - KP ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 13 ) 
+ 将式 ( 10 ) ， ( 12 ) 代入 式 ( 7 ) 给出 
+ Guy = PH . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 14 ) 
+ 从 ( 13 ) ， ( 14 ) 表达式 知 选择 适当 的 K 和 H 可 分别 得到 闭环 扰动 抑制 和 指令 跟踪 特性 ， 这 就是 伺服系统 的 二 自由度 控制 设计 原理 . 
+ 　 　 方程 ( 10 ) ～ ( 14 ) 形式 简单 ， 但 对 研究 系统 特性 并 不 方便 ， 原因 是 已有 的 系统 理论 主要 是 基于 一 自由度 设计 的 . 目前 H ∞ 优化 鲁棒控制 方法 也 是 主要 针对 一 自由度 设计 的 ， 为此 对图 1 进行 一些 结构 变换 ， 使 之 和 一 自由度 系统 充分 联系 ， 图 2 是 一种 变换 后 的 二 自由度 系统 结构图 ， 由式 ( 3 ) 和 图 2 可以 得到 
+ 
+ 
+ 图 2 　 与 一 自由度 结构 联系 的 伺服系统 二 自由度 结构图 
+ Cu = Ck , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 15 ) 
+ Cy = Ck + Cz . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 16 ) 
+ 结合 式 ( 10 ) ， ( 11 ) 给出 
+ Ck = ( 1 - KP ) - 1H , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 17 ) 
+ Cz = ( 1 - KP ) - 1 ( K - H ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 18 ) 
+ 令 K - H = K1 , 则 K = K1 + H , K1 ∈ RH ∞ , 代入 式 ( 17 ) ， ( 18 ) 有 
+ Ck = ( 1 - PK1 - PH ) - 1H , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 19 ) 
+ Cz = ( 1 - PK1 - PH ) - 1K . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 20 ) 
+ 对 H 和 K1 的 设计 分别 进行 . 首先 根据 指令 跟踪 特性 设计 H ， 让 跟踪 特性 与 Cz 无关 ， 即可 令 Cz = 0 , 并设 这时 Ck = G ， 则 得到 C = G 的 一 自由度 系统结构 ， 其 跟踪 特性 由 控制器 G 确定 ， 即 
+ Guy = ( 1 + PG ) - 1PG . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 21 ) 
+ 比较 式 ( 14 ) 与 ( 21 ) 得出 
+ H = ( 1 + PG ) - 1G . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 22 ) 
+ 然后 保持 Guy 特性 不变 ， 设计 参数 K1 . 将式 ( 22 ) 代入 式 ( 19 ) ， ( 20 ) 得到 
+ Ck = ［ 1 - ( 1 + PG ) PK1 ］ - 1G , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 23 ) 
+ Cz = ［ 1 - ( 1 + PG ) PK1 ］ - 1 ( 1 + PG ) K1 . 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 24 ) 
+ 令 
+ Q = ( 1 + PG ) K1 , Q ∈ RH ∞ ， 
+ 则 
+ K1 = ( 1 + PG ) - 1Q , 
+ 由此 代入 式 ( 23 ) ， ( 24 ) 有 
+ Ck = ( 1 - PQ ) - 1G , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 25 ) 
+ Cz = ( 1 - PQ ) - 1Q . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 26 ) 
+ 表达式 ( 26 ) 与 文献 ［ 3 ］ 定义 的 反馈 控制器 F 相同 ， Q 参数 的 意义 是 模型 参考 变换 中 系统 的 近似 逆 . 把 式 ( 25 ) ， ( 26 ) 代入 式 ( 16 ) 得出 
+ Cy = ( 1 - PQ ) - 1 ( G + Q ) , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 27 ) 
+ 此式 代入 式 ( 5 ) 有 
+ S = ( 1 + PG ) - 1 ( 1 - PQ ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 28 ) 
+ 敏感 函数 S 由 两 部分 组成 
+ S = SkSz , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 29 ) 
+ Sk = ( 1 + PG ) - 1 , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 30 ) 
+ Sz = ( 1 - PQ ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 31 ) 
+ 对 加权 敏感 函数 SV ， 根据 文献 ［ 3 ］ 加权 拟 范数 具有 弱 乘性 特性 
+ ‖ SkSz ‖ v = ‖ SkSzV ‖ H ∞ ≤ ‖ Sk ‖ v 。 ‖ Sz ‖ H ∞ , 　 　 　 　 　 　 　 　 　 　 ( 32 ) 
+ 可 对 SkV 和 Sz 分别 优化 设计 来 达到 SV 的 优化 设计 . 
+ 　 　 由于 Gdy = S ， 令 扰动 由下式 描述 
+ d ( s ) = V ( s ) δ ( s ) , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 33 ) 
+ 其中 δ ( s ) 为白 噪声 或 单位 脉冲 函数 ， 则 扰动 对 输出 的 影响 由 加权 敏感 函数 SV 描述 ， 对于 P ∈ RH ∞ ， 最优 的 敏感度 η = ‖ SV ‖ H ∞ 等于 系统 的 奇异 测度 ［ 3 ］ 
+ μ ( P ) = inf { ‖ SV ‖ H ∞ } . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 34 ) 
+ 但 实际 中 η 不可 达 μ ( P ) ， 因此 应 寻求 系统 频带宽度 内 次优 解 . 若 使 
+ ‖ SV ‖ ［ ω 1 , ω 2 ］ = max { ｜ S ( j ω ) V ( j ω ) ｜ : ω 1 ≤ ω ≤ ω 2 } 　 　 　 　 　 　 　 　 ( 35 ) 
+ 足够 小 ， 则 系统 在 频段 ［ ω 1 , ω 2 ］ 上 对 扰动 d 的 抑制 将 达到 很强 的 程度 . 
+ 　 　 设 实际 控制 对象 模型 Pa 对 标称 模型 P 具有 乘性 摄动 
+ P = ( 1 + Δ P ) Pa , Δ P ∈ RH ∞ , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 36 ) 
+ 则 对于 控制器 Ck , Cz 实际 跟踪 特性 为 
+ 　 　 　 　 　 　 　 　 　 　 　 　 ( 37 ) 
+ 注意 
+ S = ( 1 + PG ) - 1 ( 1 - PQ ) = ［ 1 + ( 1 - PQ ) - 1 ( G + Q ) P ］ - 1 , 　 　 　 　 　 　 　 　 　 　 ( 38 ) 
+ 　 　 　 　 　 　 　 　 　 　 　 　 ( 39 ) 
+ 容易 得到 
+ Guy = ( 1 + S Δ P ) Gauy 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 40 ) 
+ 或 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 41 ) 
+ 由此可见 若 范数 ‖ S Δ P ‖ H ∞ 足够 小 ， 则 对系统 摄动 Δ P ( ‖ Δ P ‖ H ∞ 可能 较大 ) 其 跟踪 特性 变化 很小 ， 即 系统 具有 很强 的 鲁棒性 . 
+ 3 　 ECM 伺服系统 Ck 和 Cz 的 H ∞ 优化 设计 
+ 　 　 从式 ( 25 ) ， ( 26 ) 知 ， Ck 和 Cz 的 设计 实际上 是 对 G 和 Q 的 设计 . 根据 文献 ［ 4 ］ ， 具有 电流 H ∞ 控制 的 ECM 转速 环 的 标称 对象 模型 为 
+ P ( s ) = Kt ( Js + B ) - 1 , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 42 ) 
+ 其中 J 为 电机 转动惯量 ， B 为 转速 阻尼 系数 ， Kt 为 电机 转矩 常数 . 由于 P ( s ) ∈ RH ∞ ， 对 ECM 转速 控制器 前述 的 设计 有效 . 
+ 3.1 　 G 的 参数 设计 
+ 　 　 G 的 参数 设计 主要 是 获得最佳 的 指令 跟踪 特性 ， 文献 ［ 2 ］ 同时 考虑 了 扰动 抑制 、 能量 和 带宽 限制 、 摄动 鲁棒性 及 指令 跟踪 等 综合 指标 的 优化 ， 即 对 范数 
+ ‖ SkV ‖ 2H ∞ + ‖ TkW ‖ 2H ∞ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 43 ) 
+ 极小 化来 寻求 最佳 的 G 参数 ， 其中 Tk = 1 - Sk 为 补 敏感 函数 ， V 和 W 分别 是 Sk 和 Tk 的 加权 函数 . 考虑 到 调速 系统 的 外部 扰动 大多 是 突加 负载 扰动 Kd / s ， 其 作用点 在 环节 ( Js + B ) - 1 之前 ， 因此 
+ d = Kd / ［ s ( Js + B ) ］ ≈ K1d / s2 , K1d = Kd / J , B ≈ 0 . 　 　 　 　 　 　 　 　 　 ( 44 ) 
+ 取 V ( s ) = 1 / ( τ 1s ) 2 . ECM 系统 除 外部 扰动 外 ， 内部 的 电磁 转矩 脉动 将 影响 低速 控制 性能 ， 为 对 这种 低频 内部 扰动 进行 较 好 的 抑制 ， 取 
+ VV * = 1 / ( τ 1s ) 4 + 1 , V * = V ( - s ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 45 ) 
+ 由于 Tk 和 Sk 互补 特性 ， 应选 W ( s ) = ( τ 2s ) 2 ， 使 G 为 真 ， 且 达到 能量 和 带宽 限制 . 
+ 设 
+ Pa = Kat ( Jas + 。 Ba ) - 1 , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 46 ) 
+ 则 
+ Δ P = ( Δ p1s + Δ p0 ) P - 1 , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 47 ) 
+ 其中 Δ p1 = Ja / Kat - J / Kt , Δ p0 = Ba / Kat - B / Kt . 对于 有限 的 Δ p1 和 Δ p0 ， 选取 1 / τ 1 ＞ ( Kt / J ) 。 ( Δ p1m + Δ p0m ) , Δ p1m 和 Δ p0m 为 Δ p1 和 Δ p0 的 最 大幅 值 ， 可 满足 
+ 　 　 　 　 　 　 　 　 　 ( 48 ) 
+ 因此 对于 鲁棒性 不必 修改 加权 函数 V 和 W 的 形式 . 
+ 　 　 利用 文献 ［ 2 ］ 的 设计 准则 ， G 的 传递函数 为 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 49 ) 
+ 式 中 φ - = ( Js + B ) K - 1t , φ 0 = ψ - = ψ 0 = 1 , β 1 = ( τ 1s ) 2 , β 2 = 1 , ζ 和 θ 待定 的 实 多项式 . 由 文献 ［ 2 ］ 所述 方程 确定 ， 把 G 更 具体化 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 50 ) 
+ 把 式 ( 42 ) ， ( 50 ) 代入 式 ( 30 ) 得出 
+ Sk = ［ ( τ 1s ) 3 + θ 0 ( τ 1s ) 2 ］ / ［ ( τ 1s ) 3 + θ 0 ( τ 1s ) 2 + ζ 1 τ 1s + ζ 0 ］ . 　 　 　 　 ( 51 ) 
+ 3.2 　 Q 的 参数 设计 
+ 　 　 根据 文献 ［ 3 ］ 模型 参考 变换 近似 逆 理论 ， 应 取 
+ Q = P - 1 ［ m ( s + m ) - 1 ］ k , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 52 ) 
+ k 为 正整数 ， m 为 充分 大 整数 . 参考 P ( s ) 的 具体 形式 ， 使 Q ∈ RH ∞ 的 最小 k 值为 1 ， 为了 Cz 简单化 ， 对 Q 稍加 修改 为 
+ Q = K - 1t ( Js + B ) ［ m ( s + m + B / J ) - 1 ］ , 　 　 　 　 　 　 　 　 　 　 　 　 ( 53 ) 
+ 代入 式 ( 26 ) 得出 
+ Cz = mJ / Kt , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 54 ) 
+ 将式 ( 42 ) ， ( 53 ) 代入 式 ( 31 ) 有 
+ Sz = ( s + B / J ) / ( s + m + B / J ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 55 ) 
+ 3.3 　 系统 特性 分析 
+ 　 　 由式 ( 51 ) ， ( 55 ) 有 
+ 　 　 　 　 　 　 　 　 ( 56 ) 
+ 系统 跟踪 特性 Guy 完全 由 参数 G 决定 ， 由 文献 ［ 2 ］ 知 ， 当 ρ = ( τ 2 / τ 1 ) 4 足够 小时 ， Guy 具有 一对 主导 复 极点 即 系统 带宽 且 实际 中 B / J 很小 ， 对于 ω ∈ ［ 0 , ω b ］ ， 取 m ω b , 有 
+ 　 　 　 　 　 　 　 ( 57 ) ， ( 58 ) 
+ 由式 ( 50 ) ， ( 52 ) 代入 式 ( 25 ) 得出 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 59 ) 
+ 式 中 K1 = J ζ 0 / ( Kt τ 1 θ 0 ) , T1 = ( ζ 1 τ 1 ) / ζ 0 , T2 = 1 / ( m + B / J ) , T3 = τ 1 / θ 0 . 
+ 　 　 Cz 使 局部 环路 开环 增益 足够 大 ， 把 其 环路 中 扰动 和 摄动 抑制 到 足够 小 的 程度 ， 如式 ( 58 ) 所示 ， 且 把 大 时间常数 ( J / B ) 惯性 环节 改造 成小 惯性 环节 ( T2s + 1 ) - 1 ， Ck 具有 两个 积分器 ， 使 转速 环为 典型 2 型 系统 ， 从而 保证系统 稳态 和 动态 跟踪 性能 . 
+ 
+ 4 　 实验 结果 及 结论 
+ 　 　 实验 用 永磁 方波 同步 伺服电机 ： 11.9 Nm , 2000r / min , 12.8 A , 121.1 V ; 参数 为 J = 0.00494 kgm2 , Kt = 0.756 Nm / A , B = 0.00093 Nm / rad / s ； 逆变器 ： 40A ， 200V ， 20kHz . 类似 文献 ［ 4 ］ 取经 计算 控制器 为 
+ 　 　 　 　 　 　 　 　 　 　 ( 60 ) 
+ 系统 跟踪 特性 与 文献 ［ 4 ］ 的 图 9 相同 ， 当 转动惯量 变化 2 倍 时 系统 跟踪 特性 保持 不变 ， 具有 很强 的 鲁棒性 . 图 3 为 系统 在 1r / min 运行 过程 中 施加 负载 转矩 扰动 Md 时 实测 转速 n 变化 过程 ， 其中 ( a ) 为 采用 二 自由度 H ∞ 控制器 ， ( b ) 为 采用 常规 PI 控制器 ( 其 跟踪 特性 与 文献 ［ 4 ］ 的 图 9 相同 ) ， 由图 3 可以 看出 二 自由度 H ∞ 控制 对 抑制 转矩 扰动 明显 优于 常规 PI 控制器 ， 适用 于 CNC 机床 和 工业 机器人 等 驱动 领域 . 
+ 
+ 　 　 
+ 图 3 　 系统 抗扰 特性 
+ 1 ) 　 国家自然科学基金 资助 项目 ( 编号 ： 69164001 ) . 
+ 作者简介 ： 卢子 广 　 1963 年生 ， 1988 年 毕业 于 北京科技大学 自动化系 ， 获 硕士学位 . 现为 广西大学 电气工程 系 副教授 . 主要 研究 领域 为 自 适应控制 ， H ∞ 控制 ， 运动 控制 ， 扫描 隧道 显微 与 纳米技术 . 已 发表 学术论文 10 余篇 . 
+ 作者 单位 ： 广西大学 电气工程 系 　 南宁 　 530004 
+ 参考文献 
+ ［ 1 ］ 　 YoulaDC , BongiornoJJ . Afeedbacktheoryoftwo - degree - of - freedomoptimalwiener - hopfdesign . IEEETrans . Autom . Control . , 1985 , 30 ( 7 ) : 652 - 665 . 
+ ［ 2 ］ 　 KwakernaakH . Minimaxfrequencydominperformanceandrobustnessoptimizationoflinearfeedbacksystems . IEEETrans . Autom . Control . , 1985 , 30 ( 10 ) : 994 - 1004 . 
+ ［ 3 ］ 　 ZamesG . Feedbackandoptimalsensitivity : modelreferencetransformation , multiplicativeseminormsandapproximateinverses . IEEETrans . Autom . Control . , 1981 , 26 ( 2 ) : 301 - 320 . 
+ ［ 4 ］ 　 王维 亚 ， 卢子 广 . 矩形 波 电子 换向 电机 高性能 伺服 控制 与 实验 研究 . 电气 自动化 ， 1993 ， 15 ( 1 ) ： 10 - 15 . 
+ 收稿 日期 　 1995 - 06 - 06 

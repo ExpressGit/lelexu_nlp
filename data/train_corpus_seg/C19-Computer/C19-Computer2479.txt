@@ -1,0 +1,164 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 2000 　 Vol.11 　 No.3 　 P.308 - 314 
+ 
+ 
+ 
+ 基于 语料库 与 层次 词典 的 自动 文摘 研究 
+ 宋今 　 赵东岩 
+ 摘要 　 自动 文摘 研究 作为 自然语言 处理 研究 的 一个 重要 且 实用 的 分支 ， 目前 逐渐 成为 Internet 信息检索 等 应用领域 的 重要 研究课题 之一 . 该文 提出 的 基于 语料库 的 文摘 试图 将 传统 的 基地 语言学 分析 的 文摘 方法 和 基于 统计 的 文摘 方法 的 优点 结合 在 一起 . 基于 语料库 的 文摘 方法 的 实质 即以 系统 外 的 分析 代价 换取 系统 内 的 算法 效率 . 该文 描述 的 算法 给出 了 基于 层次 词典 的 关键字 提取 和 基于 语料库 的 自动 文摘 的 实现 . 
+ 关键词 　 自动 文摘 ， 语料库 ， 关键字 提取 ， 层次 词典 . 
+ 中图法 分类号 　 TP391 
+ StudyofAutomaticAbstractingBasedonCorpusandHierarchicalDictionary 
+ SONGJin 　 ZHAODong - yan 
+ ( DepartmentofComputerScienceandTechnologyBeijingUniversityBeijing 　 100871 ) 
+ Abstract 　 Thestudyofautomaticabstractingisavitalandpracticalinformationprocessingtaskinnaturallanguageprocessing , andbecomesanimportantproblemindomainssuchasInternetinformationretrieval . Anapproachbasedoncorpusproposedbythispaperprovidesanintegrationoftheadvantagesoflinguisticanalysisbasedmethodsandthosebasedonstatistics . Inessence , thebasicideaofcorpus - basedmethodisattheexpenseofthecostofanalysisoutsidethesystemtogaintheefficiencyofthealgorithminsidethesystem . Thealgorithmgivenbythepaperimplementsbothkeywordingandabstractingwhiletheformerisbasedonahierarchicaldictionaryandthelatteronthecorpus . 
+ Keywords 　 Automaticabstracting , corpus , keywording , hierarchicaldictionary . 
+ 　 　 ThestudyofAutomaticAbstractingisapracticalbutdifficultbranchinNaturalLanguageProcessing , andbecomesanimportantproblemindomainssuchasInternetinformationretrieval . Itsaimistocoverthefull ‘ sourcetext ’ ofadocumentandgenerateabriefandhopefullyintelligiblestatementfromit ［ 1 ］ . 
+ 　 　 Infact , theresearchofautomaticabstractingbeganinasearlyas1950s . ThefirstexperimentonautomaticabstractingwasreportedinapaperbyH . P . Luhnpublishedin1958 ［ 2 ］ . Allsubsequentworkreporteduptoabout1970wasbasedonLuhn ’ sideasandreliedmainlyontheword - frequencymethods ［ 3 , 4 ］ whilethelaterworkwasbasedonthecluephrasemethods ［ 5 , 6 ］ andmethodsusingdomain - knowledge ［ 7 ～ 9 ］ orbasedonnaturallanguageunderstanding ［ 10 ］ . 
+ 　 　 Obviously , abstractingmethodscannotrelysimplyongrossstatisticalevidence , anditisgraduallydesiredthattheycantakeintoaccountthesyntacticandsemanticcharacteristicsofthelanguageandthetext . Unfortunately , abstractingmethodbasedonlinguisticanalysisisusuallytime - consumingandthennotsuitabletobeusedbypracticalsystemsatpresent . 
+ 　 　 Themethodbasedoncorpusproposedbythispaperprovidesanintegrationoftheadvantagesofthemethodsbasedonlinguisticanalysisandthosebasedonstatistics . First , theprocessingofthecorpusisseparatedfromtherun - timeofthesystem , andthenthesyntacticandsemanticanalysiscanbeconducteddeeplywithoutimpairingtheperformanceofthesystem . Secondly , thestatisticalevidenceextractedfromtheanalysisofthecorpussupportsthesuccinctnessandefficiencyoftheabstractingalgorithm . Thirdly , NaturalLanguageProcessingEngineeringincludingautomaticabstractingneedsthesupportfromtheanalysisofrealisticlanguagematerial . 
+ 　 　 Inessence , thebasicideaofcorpus - basedabstractingmethodisattheexpenseofthecostofanalysisoutsidethesystemtogaintheefficiencyofthealgorithminsidethesystem . 
+ 1 　 OverviewofAutomaticAbstracting 
+ 1.1 　 Extraction - basedabstracting 
+ 　 　 Researchofautomaticabstractinguptoabout1970wasconcernedwithmethodsforproducingextracts , thatis , setsofsentencesselectedtoprovideagoodindicationofthesubjectofthedocument . Thegeneralapproachistoexamineeachsentence , lookingforcluestoitsimportance ; tocomputeascoreforthesentencebasedonthecluesfound ; andtheneithertoselectallsentenceswhosescoreexceedssomethreshold , ortoselectthehighestscoringsentences , uptoacertaintotal . Thesentencesarethenprintedintheirorderofoccurrenceintheoriginaltext . 
+ 　 　 Manydistincttypesofcluetosentencesignificancehavebeentried , forexample , thefrequencyofkeywords , thetitlekeywords , thelocationofsentences , syntacticcriteria , thecueinthesentences , therelationcriteria , andsoon ［ 11 ］ . 
+ 　 　 Reliableautomaticabstractingmethods , however , musttakeintoaccountthesyntacticandsemanticcharacteristicsofthelanguageandthetext . Theycannotrelysimplyongrossclueevidenceofsentences . 
+ 1.2 　 Artificialintelligencebasedabstracting 
+ 　 　 Artificialintelligencebasedorlinguisticapproachperformsafullsyntactic ( evensemantic ) analysis ( aparse ) inordertojointheindividualwordsofasentenceintophrases , phrasesintoclauses , andsoon . Inprinciple , acompactrepresentationofadocumentcouldbeachievedusingacombinationofsyntacticandsemanticcriteria . 
+ Afullanalysisgenerallyrequiresextensiveordetailedsemanticknowledgetobehandledexplicitly . Forinstance , DeJong ’ sFRUMPsystem ［ 5 ］ analysesnewsarticlesbyinstantiatingslotsinoneframeofasetofpredefinedframes . Whentheanalysisiscompleted , ascriptisusedtogenerateasummaryoftheinformationheldintherelevantframe . InRau ’ sSCISORsystem ［ 9 ］ , detailedlinguisticanalysisofatext ( orindeedofseveralinterrelatedtexts ) resultsintheconstructionofasemanticgraph , whichisconvenientforintermediatestorage . Anaturallanguagegeneratormaythenproducesummariesfromthestoredmaterial . 
+ Itmustbeunderstoodthattheseabstractingsystemsareonlycapableofprocessingtextswithinaverynarrowdomain , whosecharacteristicsarepredictableandwellunderstood . 
+ 2 　 DesignoftheAlgorithm 
+ 　 　 Thealgorithmgivenbythepaperimplementsbothkeywordingandabstractingwhiletheformerisbasedonahierarchicaldictionaryandthelatteronthecorpus . 
+ 2.1 　 Keywording 
+ 　 　 ThebasicmethodofkeywordinginoursystemisusingahierarchicaldictionarytoclassifythedocumentTwithinadomainD , andthenselectingthekeywordsofthedocumentdependingontheirimportancetothedomainDandthedocumentT . 
+ 2.1 . 1 　 Hierarchicaldictionary 
+ 　 　 Inthehierarchicaldictionaryusedinourmethod , theclassificationofawordwwithinallthedomainsD1 , D2 , ... , Dnisdescribedasfollows : 
+ w : { ( D1 , g1 ) , ( D2 , g2 ) , ... , ( Dn , gn ) } , 
+ ( 1 ) 
+ whereDidenotingadomainisarealnumberwhoseintegerpartdenotesthesuperhierarchyanddecimalpartdenotesthesub - hierarchy . Forexample , thedomaincomputernetworkis11.12 where11representsthedomaincomputer . gidenotesthebeliefoftheclassificationofwwithinthecorrespondingdomainand 
+ 
+ ( 2 ) 
+ 
+ Fig.1 　 Generalstructureofthealgorithm 
+ whereFw ( Di ) isthefrequencyofwwithinthedocumentsofdomainDi , andF ( w ) isthefrequencyofwwithinalldocuments . 
+ 　 　 OrgicanbedeterminedbytheoccurrenceofwincorrespondingdictionaryDi : 
+ 
+ ( 3 ) 
+ Here0 < α ≤ 1 . 
+ 2.1 . 2Classifyingthedocument 
+ AssumingthedocumentTisasetofwordsoccurringwithinit , thatis 
+ T = { w1 , w2 , ... , wm } , 
+ ( 4 ) 
+ thentheclassificationofTintodomainDjisdeterminedbytheclassificationofwiintoDj , andisdescribedbyGj : 
+ 
+ ( 5 ) 
+ whereN ( wi ) isthenumberofoccurrencesofwordwiwithinthedocumentT . 
+ 2.1 . 3Weighingthewords 
+ 　 　 AsLuhnstatedinoneofhisearlypapers ［ 3 ］ , thefrequencyofwordoccurrenceinanarticlefurnishesausefulmeasurementofwordsignificance . Itisfurtherproposedthatfrequencydatacanbeusedtoextractwordstorepresentadocument . Inourmethod , theinformationofdomainisalsoconsideredbesidesthefrequencytodeterminetheweightofwords . 
+ 　 　 ThereforeifthedomainofthedocumentisD , theweightofwordwi ( 0 < i ≤ m ) isdescribedbyWg ( wi ) : 
+ Wg ( wi ) = gwi ( D ) × N ( wi ) , 
+ ( 6 ) 
+ wheregwi ( D ) istheclassificationofwiinD . 
+ 　 　 Finallyselectthewordswithn - highestvaluesofWg ( wi ) asthekeywordsofT . 
+ 2.2 　 Abstracting 
+ 　 　 Therearethreemainstepsinabstracting : ① analyzingmaterialsinthecorpusandextractingthestatisticinformation , ② determiningtheweightsofsentencesinthedocument , and ③ generatingtheabstract . TheprocessisshowninFig.2 . 
+ 
+ Fig.2 　 Corpus - basedabstracting 
+ 　 　 Infact , steponeisseparatedfromthealgorithmandisincludedheretodescribethealgorithmclearly . 
+ 2.2 . 1Analysisofmaterialsinthecorpus 
+ 　 　 Thecorpususedincludes2000abstracts ( andcorrespondingdocuments ) oftechniquereportsorpapers , totallyabout280000words , and140wordsperabstract . Theanalysisofthecorpusconsistsofthreesteps : 
+ 　 　 ( 1 ) Extracting ‘ abstractwords ’ ( dependingontheiroccurrencefrequencymainly ) . Abstractwordsincludingabstractverb , noun , adjective , adverbandphrasearethosehavingnothingtodowiththespecificsubjectofthedocument , butcommonlyaccompanyingexplicitstatementsaboutthesubject . 
+ Table1 　 Occurrencetimesofseveralcommonabstractwords 
+ 
+ AbstractwordsAttributeOccurrencetimes 
+ describeverb596 
+ includeverb369 
+ addressverb94 
+ goalnoun110 
+ approachnoun207 
+ effortnoun86 
+ indetailphrase24 
+ basedonphrase222 
+ becomparedwithphrase64 
+ 
+ 　 　 Abstractverb : Thereareabout100abstractverbs , includingsomeverbphrasessuchasaccountfor , attemptto , consistofandsoon . Theverbswithhighfrequencyincludedescribe , include , show , present , introduce , review , proposeetc . 
+ 　 　 Abstractnoun : Thesenounsconsistofpaper , report , thesis , project , effort , etc . whichdenotethedocumentitself , andpurpose , goal , result , feature , advantage , etc . whichdenotethefeaturesofthedocument . 
+ 　 　 Abstractadjective ( adverb ) : New , major , important , brief , andrapidly , particularly , significantlyandsoon . 
+ 　 　 Abstractphrase : Forexample , incontrastto , inorderto , indetail , inparticularetc . 
+ 　 　 ( 2 ) Forming ‘ abstractitems ’ . Thisstepischangingabstractwordsdependingontheirsyntacticandsemanticcharacteristicsandthenformingthecorrespondingabstractitems . Forexample , 
+ 　 　 ① abstractword ‘ include ’ mustbechangedtoabstractitems ‘ include ( s ) ( d ) ’ , ‘ beincluded ’ and ‘ including ’ forthesedifferentitemshavedifferentweights ; 
+ 　 　 ② abstractword ‘ give ’ ischangedto ‘ begiven ’ onlyanddeletedwith ‘ giving ’ , ‘ gave ’ etc . forthelatteronesaresemanticallylessimportanttotheabstractthantheformerone ; 
+ 　 　 ③ abstractword ‘ describe ’ directlyformstheitem ‘ describe ’ withoutanychangeforanyformsof ‘ describe ’ aresemanticallyimportanttotheabstracts . 
+ 　 　 ( 3 ) Determiningtheweightoftheabstractitems . 
+ LettheweightofabstractitemwbeW , then 
+ 
+ ( 7 ) 
+ whereNw ( A ) andNw ( D ) respectivelydenotetheoccurrencetimesofwinallabstractsandalldocuments . 
+ 　 　 SeveralcommonabstractitemsarelistedinTable2toshowthattheweightofanitemisdecidedbyitsoccurrencetimesinboththeabstractsanddocuments . 
+ Table2 　 Comparisonofweightsofseveralcommonabstractitems 
+ 
+ AbstractitemsNw ( A ) Nw ( D ) Weightofitems 
+ describe # 5966550.91 
+ begiven2873380.85 
+ beincluded63800.79 
+ include ( s ) ( d ) 1993980.50 
+ including1074970.21 
+ bepresented5986650.90 
+ propose1802020.89 
+ 
+ 　 　 InTable2 , verb * = { verb , verb - ing , verb - s , verb - ed , verb - en } , verb # = verb * - ∪ { verb - noun } . Forexample , propose * includespropose , proposed , proposesandproposingwhiledescribe # includesdescribe , describes , described , describinganddescription . 
+ 2.2 . 2Weightdeterminationforsentences 
+ 　 　 Theaimofdeterminingtheweightofsentencesistoselectthe ‘ keysentences ’ fromthedocument . Thekeysentencescanbedefinedasthesentencesreflectingthemainsubjectofthedocument , orwithacloserelationtothemaincontentofthedocument . Theformeronesusuallyincludeabstractitemswhilethelatteronesincludekeywordsofthedocument . 
+ 　 　 Therefore , theweightWSofasentencesiinthedocumentTcanbedescribedasfollows : 
+ 
+ ( 8 ) 
+ whereW ( wi ) andWg ( kj ) denoterespectivelytheweightofabstractitemwiandthatofkeywordkjinthesentence . 
+ 　 　 Basedonabovecalculation , akeysentenceisdefinedasthesentencewhoseweightisnot0 . 
+ 　 　 Infact , thelocationofthesentencealsoinfluencesitsweight . Inviewoftheessentialdifferencebetweenthelocationweightandthewordweightofasentence , theinfluenceoflocationovertheweightofthesentenceisreflectedwithintheprocessofabstractgeneration . 
+ 2.2 . 3Generationoftheabstract 
+ 　 　 Generallyspeaking , thesentenceswithintextpartslike ‘ introduction ’ or ‘ conclusion ’ areusuallymoreimportanttothesubjectofthedocumentthanothers . Andthefirstorthelastsentencewithinaparagraphisusuallythemostcentraltothethemeofthedocument . Inoursystem , theinformationoftherelativelocationofthesentenceisreflectedinthegenerationoftheabstract . 
+ 　 　 First , ifthedocumentincludesthepartslike ‘ introduction ’ or ‘ conclusion ’ , thenselectthesentencewiththehighestweightinturnwithinthesepartsuntilthelengthoftheabstractLisreached . 
+ 　 　 Elsecalculatetheaveragepoftheweightsofallkeysentences , andselectthefirstorthelastsentencewithineveryparagraphwithaweightmorethanpuntilthelengthoftheabstractLisreached . IfthelengthoftheresultabstractLAisstilllessthanL , thenselecttheL - LAkeysentenceswithhighestweights . 
+ 　 　 Allselectedsentencesarethenprintedintheirorderofoccurrenceintheoriginaldocument . Thelengthoftheabstractisdecidedbythecompressionratioandspecifiedbythesystemortheuser . 
+ 2.3 　 Algorithm 
+ 　 　 Thealgorithmforabstracting ( includingkeywording ) isgiveninTable3 . 
+ Table3 　 Algorithmforkeywordingandabstracting 
+ 
+ 　 input : thedocumentT , thelengthoftheabstractL ; 
+ 　 output : thesetofkeywordsKeywords , theabstractAbs ; 
+ 1 . foreverydomainDi , calculatingtheclassificationGiofTinDi ; 
+ 2 . fortwohighestvaluesGiandGj , ifGiGj , thenDomain ( T ) : = Di ; 
+ 3 . elseif | Di | = | Dj | thenDomain ( T ) : = | Di | ; 
+ 4 . elseDomain ( T ) : = { Di , Dj } ; 
+ 5 . foreverywordwi , calculatetheweightWg ( wi ) dependingontheDomain ( T ) ; 
+ 6 . Keywords : = { wi | Wg ( wi ) > threshold } ; 
+ 7 . ifTincludesthetextpart ‘ introduction ’ or ‘ conclusion ’ , thenScope : = { introduction , conclusion } , 
+ foreverysentencesiinScope , calculatetheweightWS ( si ) , andgoto ( 12 ) ; 
+ 8 . elseScope : = T , foreverysentencesiinScope , calculatetheweightWS ( si ) ; 
+ 9 . forkeysentencesks1 , ks2 , ... , ksp , ( WS ( ksi ) ≠ 0 , 1 ≤ i ≤ p ) , calculatetheaverageAveofksi ( 1 ≤ i ≤ p ) ; 
+ 10 . foreverysentencelsibeingthefirstorthelastoneofparagraphs ; ifWS ( lsi ) > Ave , thenAbs : = Abs ∪ { lsi } , 
+ Scope : = Scope - Abs ; ifLength ( Abs ) < LandScope ≠ φ , thengoto ( 11 ) , elsegoto ( 12 ) ; 
+ 11 . Abs : = Abs ∪ { si | WS ( si ) = Max ( WS ( si ) ) , si ∈ Scope } , Scope : = Scope - { si } ; 
+ ifLength ( Abs ) < LandScope ≠ φ , thengoto ( 11 ) , elsegoto ( 12 ) ; 
+ 12 . forallsentencesinAbs , printthemoutintheirorderofoccurrenceinT . 
+ 
+ 3 　 Conclusions 
+ 　 　 Infact , theautomaticabstractingsystemdescribedbythepaperisonepartofthesystemMIIRPSwhosemainaimisrecognizing , classifying , abstracting , transltingandmanagingtheInternetinformation . WithinMIIRPS , theInformationRecognitionSystemtransferstheHTMLfilesintopuretexts , sotheabstractingsystemisconcernedwiththepuretext ( sometimesincludingthelocation ) informationonly . 
+ 　 　 Thealgorithmgiveninthepaperimplementsbothkeywordingandabstractingwhiletheformerisbasedonahierarchicaldictionaryandthelatteronthecorpus . ItishopedthattheworkdescribedherecancontributealittletotheresearchofAutomaticAbstracting , InternetIR , DatabaseManaging , andLibraryDigitizing . 
+ SONGJinwasbornin1972 . SheisalecturerofDepartmentofComputerScienceandTechnologymBeijingUniversity . ShereceivedaPh . D . degreefromtheInstituteofComputingTechnology , theChineseAcademyofSciencesin1998 . Hercurentresearchinterestsareartificialintelligence , multi - agentsystems , andlanguageprocessing . ZHAODong - yanwasbornin1969 . HeisaPh . D . candedateatInstituteofComputer , BeijingUniversity . Hisresearchinterestsareelectronicpublishingsystems , multi - agentsystemsandcomputernetwork . 
+ Manuscriptreceived1997 - 12 - 24 , accepted1998 - 10 - 06 
+ 作者 单位 : 宋今 ( 北京大学 计算机科学 与 技术 系 　 北京 　 100871 ) 
+ 赵东岩 ( 北京大学 计算机科学 与 技术 系 　 北京 　 100871 ) 
+ References 
+ 1 ， PaiceCD . Extractingtheessence . ILASHSEMINARS , 1996.1 http : / / www . dcs . shef . ac . uk / research / ilash / seminars / paice . html 
+ 2 ， LuhnHP . Anexperimentinauto - abstracting . In : InternationalConferenceonScientificInformation . WashingtonD . C . , 1958 
+ 3 ， LuhnHP . Theautomaticcreationofliteratureabstracts . In : Schultzed . H . P . Luhn : PioneerofInformationScience . Spartan , 1968 
+ 4 ， SkorochodkoEF . Adaptivemethodofautomaticabstractingandindexing . InformationProcessing71 , 1971.1179 ～ 1182 
+ 5 ， PaiceCD . Theautomaticgenerationofliteratureabstracts : anapproachbasedontheidentificationofself - indicatingphrases . In : OddyRN , RobertsonSE , RijsbergenCJeds . InformationRetrievalResearch . Butterworths , 1981 
+ 6 ， RushJE , SalvadorR , ZamoraA . Automaticabstractingandindexingproductionofindicativeabstractsbyapplicationofcontextualinferenceandsyntacticcoherencecriteria . JournaloftheAmericanSocietyforInformationScience , 1971 , 7 : 260 ～ 274 
+ 7 ， TaitJI . AutomaticsummarizingofEnglishtexts ［ Ph . D . Thesis ］ . ComputerLaboratory , UniversityofCambridge , 1983 
+ 8 ， DeJongGF . AnoverviewoftheFRUMPsystem . In : LehnertandRingleeds . StrategiesforNaturalLanguageProcessing . Erlbaum , 1982 
+ 9 ， RauLF . Conceptualinformationextractionandretrievalfromnaturallanguageinput . User - orientedContent - basedTextandImageHandling . ProceedingsofRIAO ' 88Conference . MIT , 1988 
+ 10 ， WangJian - bo , DuChun - ling , WangKai - zhu . Studyofautomaticabstractionsystembasedonnaturallanguageunderstanding . JournalofChineseInformationProcessing , 1995 , 9 ( 3 ) : 33 ～ 42 
+ 11 ， PaiceCD . Constructingliteratureabstractsbycomputer : techniquesandprospects . InformationProcessingandManagement , 1990 , 26 ( 1 ) : 171 ～ 186 

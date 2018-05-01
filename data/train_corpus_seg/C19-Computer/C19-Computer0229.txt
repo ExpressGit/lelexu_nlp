@@ -1,0 +1,122 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 2000 　 Vol.11 　 No.4 　 P.563 - 568 
+ 
+ 
+ 
+ 
+ 判断 两个 凸 多面体 是否 相交 的 一个 快速 算法 
+ 　 任世军 　 洪炳 熔 　 孟庆鑫 
+ 　 摘要 　 在 机器人 路径 规划 中 , 碰撞检测 算法 占有 十分 重要 的 地位 . 在 智能 机器人 仿真 系统 中 , 碰撞检测 耗用 的 时间 在 整个 路径 规划 过程 所用 时间 中 占有 相当 大 的 比例 . 于是 ， 如何 进一步提高 碰撞检测 的 速度 在 智能 机器人 路径 规划系统 中 就 起到 了 非常 关键 的 作用 . 而 碰撞检测 问题 最终 转化 为 判断 三维空间 中 两个 凸 多面体 是否 相交 的 问题 . 就 这 一 问题 , 给出 了 一种 新 的 算法 , 其 思想 是 取 一个 从 一个 凸 多面体 指向 另 一个 多面体 的 向量 , 根据 两个 多面体 中 的 面 与 这 一 向量 的 相对 位置 关系 来 寻找 相交 的 平面 . 即 有 两个 多面体 的 交点 位于 这一 平面 ， 若能 找到 一个 相交 平面 则 可以 断定 两个 多面体 相交 . 
+ 　 关键词 　 路径 规划 , 碰撞检测 , 机器人 , 线性 不等式 . 
+ 　 中图法 分类号 　 TP242 
+ AFastAlgorithmtoDetermineWhethertheIntersectionofTwoConvexRegionsIsEmpty 
+ RENShi - jun 
+ （ DepartmentofComputerScienceandEngineering 　 HarbinInstituteofTechnology 　 Harbin 　 150001 ） 
+ （ DepartmentofMechanicalEngineering 　 HarbinEngineeringUniversity 　 Harbin 　 150001 ） 
+ HONGBing - rong 
+ （ DepartmentofComputerScienceandEngineering 　 HarbinInstituteofTechnology 　 Harbin 　 150001 ） 
+ MENGQing - xin 
+ （ DepartmentofMechanicalEngineering 　 HarbinEngineeringUniversity 　 Harbin 　 150001 ） 
+ Abstract 　 　 Collisiondetectionalgorithmsplayaveryimportantroleinthefieldofrobotpathplanning . Inasimulationsystemofintelligentrobot , collisiondetectiontakesupalargeportionofthetimefortherobottoplanacompletepathfromtheinitialpositiontothefinalposition . Sohowtoreducethetimetherobotusestodetectcollisionbecomesakeyproblem . Butcollisiondetectionfinallywilltransformtoaproblemtodeterminewhethertheintersectionoftwoconvexregionsformedbylinearinequalitiesisemptyornot . Theauthorspresentanewalgorithminthispaper . Firstly , avectorpointingfromonepolyhedrontotheotherispicked . Thentheauthorsstarttofindanintersectionplaneofonepolyhedronbasedonthescalarproductofthenormvectoroftheplaneandthepickedvector . Ifsuchaplaneisfound , theintersectionofthetwoconvexpolyhedraisnotempty . 
+ Keywords 　 Pathplanning , collisiondetection , robot , linearinequality . 
+ 　 　 在 机器人 路径 规划 算法 中 ， 碰撞检测 占有 十分 重要 的 地位 , 而 在 机器人 的 工作 空间 中 往往 用 凸 多面体 来 模拟 机器 臂 、 障碍物 等等 . 在 机器人 路径 规划 中 , 往往 要 检测 机器 臂 与 障碍物 以及 机械 臂 与 机械 臂 之间 是否 相撞 , 这 就 需要 检测 两个 凸 多面体 形成 的 集合 之间 是否 有 交点 . 若有 交点 , 说明 机器 臂 与 障碍物 相撞 或者 机械 臂 与 机械 臂 自身 相撞 , 否则 说明 机器 臂 与 障碍物 并 不 相撞 . 以往 的 碰撞检测 算法 都 是从 空间 几何学 的 角度 ［ 1 ］ 或 从 最优化 的 角度 ［ 2 , 3 ］ 出发 , 这样 就 需要 大量 的 求交 运算 . 在 本文 中 ， 我们 给出 一种 算法 来 检测 空间 中 的 两个 凸 多面体 的 碰撞 问题 . 在 机器人 的 仿真 系统 中 ， 物体 ( 包括 机械 臂 和 障碍物 ) 的 建模 往往 采用 计算机 图形学 中 的 B - rep 方式 ， 即 边界 表示 方式 . 一个 物体 由 3 个 要素 组成 , 即点 、 棱和面 . 在 计算机 中 存储 这样 一个 物体 一般 是 存储 其 拓扑 结构 ( 指点 、 棱和面 之间 的 关系 ) , 其 各个 顶点 及其 各个 面 的 方程 . 在 机械 臂 和 障碍物 的 运动 过程 中 都 要 实时 地 计算 其 每 一个 顶点 及其 各个 面 的 方程 ， 以 确定 该 物体 的 位置 . 
+ 　 　 设有 n 维空间 中 由 线性 不等式 围成 的 两个 凸 多面体 A 和 B , 它们 分别 由式 ( 1 ) 和 式 ( 2 ) 给出 ， 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 设 pi = ( pi1 , pi2 , ... , pin ) T , ri = ( ri1 , ri2 , ... , rin ) T , x = ( x1 , x2 , ... , xn ) T , 则 式 ( 1 ) 可 表示 为 
+ 
+ 式 ( 2 ) 可 表示 为 
+ 
+ 1 　 算法 的 理论 基础 
+ 　 　 定理 1 . 设 g = ( g1 , g2 , ... , gn ) T 为 集合 A 的 边界点 , tA , 并且 对于 α ( 0 ＜ α ≤ 1 ） 都 有 g ＋ α （ t - g ） A , 那么 一定 存在 i0 使得 1 ≤ i0 ≤ m , pTi0 。 （ g - t ） ＜ 0 并且 pTi0 。 g = qi0 . 
+ 　 　 证明 : 由于 g 为 集合 A 的 边界点 , 且 A 为 凸 多面体 , 故有 g ∈ A . 
+ 　 　 首先 , 我们 证明 一定 存在 i0 使得 1 ≤ i0 ≤ m , 并且 pTi0 。 g = qi0 . 因为 若 不是 这样 , 即 对 i （ 1 ≤ i ≤ m ） ， 都 有 pTi 。 g ＜ qi . 设 由于 对于 i （ 1 ≤ i ≤ m ) 和 任意 的 单位向量 e , 我们 有 
+ 
+ 故 δ ＞ 0 . 对于 任意 的 向量 x , 只要 ‖ x - g ‖ ＜ δ , 由于 pTi 。 x = pTi 。 g + pTi 。 ( x - g ) , 并且 pTi 。 ( x - g ) ≤ ‖ pi ‖ 。 我们 取则 有 
+ 从而 pTi 。 x ＜ pTi 。 g + ( qi - pTi 。 g ) = qi , 其中 1 ≤ i ≤ m , 即 x ∈ A . 从而 g 为 A 的 内点 , 矛盾 . 
+ 　 　 其次 , 我们 证明 对于 所有 满足 pTi 。 g ＝ qi 的 i 中 一定 存在 一个 i0 使得 1 ≤ i0 ≤ m , 并且 pTi1 。 （ g - t ） ＜ 0 . 设 I1 ＝ ｛ i ｜ pTi 。 g ＝ qi ， 1 ≤ i ≤ m ｝ , I2 = { i ｜ iI1 ， 1 ≤ i ≤ m ｝ . 假设 对于 i ∈ I1 都 有 pTi 。 （ g - t ） ≥ 0 . 若 存在 i ∈ I2 使得 pTi 。 （ g - t ） ＜ 0 , 则 取 α 1 满足 否则 取 α 1 = 1 . 对于 i ∈ I2 , 如果 pTi 。 （ t - g ） ＞ 0 , 那么 如果 pTi 。 （ t － g ） ≤ 0 , 那么 pTi 。 ［ g ＋ α 1 （ t － g ） ］ = pTi 。 g + α 1 。 pTi 。 （ t － g ） ≤ qi . 由 假设 知 , 对 i ∈ I1 , 有 pTi 。 ［ g ＋ α 1 （ t － g ） ］ = pTi 。 g ＋ α 1 。 pTi 。 （ t － g ） ≤ pTi 。 g ＝ qi . 所以 g ＋ α 1 （ t － g ） ∈ A , 与 定理 条件 相 矛盾 . 
+ □ 
+ 　 　 定理 2 . 如果 存在 s ∈ A , t ∈ B , 使得 sB , tA , 那么 若 A ∩ B ≠ Φ , 则 一定 存在 i0 , 使得 1 ≤ i0 ≤ m , pTi0 。 （ s － t ） ＜ 0 , 并且 A ∩ B ∩ ｛ x ｜ pTi0 。 x ＝ qi0 ｝ ≠ Φ . 也 一定 存在 i1 , 使得 1 ≤ i1 ≤ n , rTi1 。 （ s － t ） ＞ 0 , 并且 A ∩ B ∩ ｛ x ｜ rTi1 。 x ＝ si1 ｝ ≠ Φ . 
+ 　 　 证明 : 设 A ∩ B ≠ Φ . 我们 用 反证法 . 如果 对于 i （ 1 ≤ i ≤ m ） , 只要 pTi 。 （ s － t ） ＜ 0 就 有 A ∩ B ∩ ｛ x ｜ pTi 。 x ＝ qi ｝ ＝ Φ , 亦 即 对于 集合 Α ∩ Β , 约束 pTi 。 x ≤ qi 不起作用 , 那么 若设 A1 ＝ ｛ x ｜ pTi 。 x ≤ qi ， pTi 。 （ g － t ） ≥ 0 ， 1 ≤ i ≤ m ｝ , 则 有 A ∩ B ＝ A1 ∩ B . 
+ 　 　 ( 1 ) 若 存在 α 0 , 使得 0 ＜ α 0 ＜ 1 , s ＋ α 0 （ t － s ） ∈ A ∩ B . 
+ 　 　 ( i ) 由于 t ∈ B 并且 B 是 凸集 , 所以 对于 α （ α 0 ≤ α ≤ 1 ） 都 有 s ＋ α （ t － s ） ∈ B . 
+ 　 　 ( ii ) 对于 α （ α 0 ≤ α ≤ 1 ） i （ 1 ≤ i ≤ m ） ， 若 pTi 。 （ s － t ） ≥ 0 则 由于 s ∈ A , 故有 
+ pTi 。 ［ s + α （ t － s ） ］ ＝ pTi 。 s ＋ α pTi 。 （ t － s ） ≤ pTi 。 s ≤ qi , 
+ 于是 对于 α （ α 0 ≤ α ≤ 1 ） 都 有 s ＋ α （ t － s ） ∈ A1 . 
+ 　 　 由 ( i ) 和 ( ii ) 知 , 对于 α （ α 0 ≤ α ≤ 1 ） 都 有 s ＋ α （ t － s ） ∈ A1 ∩ B ＝ A ∩ B 糀 . 当 α ＝ 1 时 , s ＋ α （ t － s ） ＝ s ＋ （ t － s ） ＝ t , 所以 t ∈ A . 矛盾 . 
+ 　 　 ( 2 ) 假设 对于 α （ 0 ≤ α ≤ 1 ） 都 有 s ＋ α （ t - s ） A ∩ B . 即 从 s 至 t 的 线段 中 没有 A ∩ B 的 点 . 由于 A ∩ B 是 凸集 ( 两个 凸集 的 交集 仍为 凸集 ) 且 非空 , 所以 , 可取 一点 g ∈ A ∩ B 使得 g 到 连接 s 至 t 的 直线 的 距离 最短 . 设 α ＞ 0 , 在 空间 中取 一点 g ＋ α （ t - s ） . 因为 连接点 s 至 t 的 直线 与 连接点 g 与 g ＋ α （ t － s ） 的 直线 相互 平行 , 所以 , s ， t ， g 和 g ＋ α （ t - s ） 位于 同一个 平面 并且 连接 s ， t ， g ＋ α （ t － s ） ， g 的 线段 构成 一个 平行四边形 . 我们 说 g ＋ α （ t － s ） A , 否则 ， 由于 s ∈ A ， 故 连接 s 和 g ＋ α （ t － s ） 的 线段 也 属于 A . 同理 ， 连接 t 与 g 的 线段 属于 B . 于是 上述 梯形 的 两条 对角线 的 交点 既 属于 A 又 属于 B ， 从而 属于 A ∩ B . 但 这个 交点 到 连接 s 至 t 的 直线 的 距离 比 g 到 连接 s 至 t 的 直线 的 距离 更 短 , 矛盾 . 于是 ， 对于 α ＞ 0 都 有 g ＋ α （ t － s ） A . 故 g 为 集合 A 的 边界点 . 根据 定理 1 可知 ， 一定 存在 i0 使得 1 ≤ i0 ≤ m , pTi1 。 （ g － t ） ＜ 0 并且 pTi0 。 g ＝ qi0 . 于是 , 因为 s ∈ A , 所以 pTi0 。 （ s － t ） ＝ pTi0 。 ［ （ s － g ） ＋ （ g － t ） ］ = pTi0 。 （ s － g ） ＋ pTi0 。 （ g － t ） = （ pTi0 。 s － qi0 ） + pTi0 。 （ g － t ） ＜ 0 . 定理 证毕 . 
+ □ 
+ 2 　 判断 空间 中 两个 凸 多面体 是否 相交 的 算法 
+ 　 　 在 我们 提出 的 算法 中 首先 要 用到 文献 ［ 4 ］ 中 提出 的 向量 定位 算法 . 用以 判断 空间 中 由 一组 线性 不等式 围成 的 凸 空间 是否是 空集 . 若 不是 空集 则 返回 其中 的 一点 . 
+ 　 　 设 G 为 一个 动态 点 ( 即 可以 是 一维 、 二维 以及 三维空间 中 的 任意 一点 ) , A 为 一组 线性 不等式 , 用 xiangliang ( A ) 表示 判断 由 A 确定 的 集合 是否是 空集 的 向量 定位 算法 , 则 算法 可以 表示 如下 . 
+ 　 　 xiangliang ( A ) 
+ 　 　 ｛ 
+ 　 　 Step1 . 若 A 中 含有 矛盾 常数 不等式 , 则 返回 NULL . 
+ 　 　 Step2 . 将 A 中 的 不等式 按照 第 1 个 变量 的 系数 大于 、 等于 和 小于 0 的 原则 分成 3 个 集合 A1 , A2 和 A3 . 
+ 　 　 Step3 . 若 A1 ＝ Φ 并且 Α 3 ＝ Φ , 则 去掉 A 中 的 第 1 个 变量 . 再次 调用 xiangliang ( A ) . 设 G = xiangliang ( A ) . 将 G 与 相应 的 第 1 个 变量 的 任一 实数 组合 在 一起 ， 令其为 G . 返回 G . 
+ 　 　 Step4 . 若 A1 ＝ Φ 或者 Α 3 ＝ Φ , 则 将 A2 中 的 第 1 个 变量 去掉 , 设 G = xiangliang ( A2 ) ( 若 A2 ＝ Φ 则 取 G 为 各个 分量 全是 0 的 零 向量 ) . 若 Α 1 ＝ Φ , 则 让 第 1 个 变量 充分 大 . 若 Α 3 ＝ Φ , 则 让 第 1 个 变量 充分 小 . 这样 即可 求得 满足 所有 不等式 的 点 . 将 得到 的 第 1 个 变量 与 G 一起 构成 新 的 G ， 并 返回 G . 
+ 　 　 Step5 . 若 A1 中 的 不等式 的 个数 小于 或者 等于 A3 中 的 不等式 的 个数 , 则 依次 取 A1 中 的 不等式 , 令其为 等式 ( 设为 d ) , 化简 其他 不等式 , 得到 新 的 不等式 组 , 使得 中 的 变量 个数 少于 A 中 的 变量 的 个数 . 设 G = xiangliang ( ) . 若 G = NULL , 则 取下 一个 不等式 . 继续执行 . 否则 ， 用 G 和 d 可求 出 另外 一个 变量 与 G 一起 组成 新 的 G . 返回 G . 若 所有 不等式 都 取 完 , 则 返回 NULL . 
+ 　 　 Step6 . 若 A1 中 的 不等式 的 个数 大于 A3 中 的 不等式 的 个数 , 则 依次 取 A3 中 的 不等式 , 令其为 等式 ( 设为 d ) , 化简 其他 不等式 , 得到 新 的 不等式 组 , 使得 中 的 变量 个数 少于 A 中 的 变量 的 个数 . 设 G = xiangliang ( ) . 若 G = NULL , 则 取下 一个 不等式 . 继续执行 . 否则 ， 用 G 和 d 可求 出 另外 一个 变量 与 G 一起 组成 新 的 G . 返回 G . 若 所有 不等式 都 取 完 , 则 返回 NULL . 
+ 　 　 ｝ 
+ 　 　 设 A 和 B 分别 表示 约束 空间 中 的 两个 凸 多面体 的 线性 不等式 组 , 用 qiujiao ( A , B ) 表示 确定 A , B 的 交集 是否是 空集 的 求交 算法 , 则 算法 可以 表示 如下 . 
+ 　 　 BOOLqiujiao ( A , B ) 
+ 　 　 ｛ 
+ 　 　 Step1 . 若 约束 A 和 约束 B 的 不等式 均 为 常数 不等式 且 不 含 矛盾 不等式 ， 则 returnTRUE . 
+ 　 　 Step2 . 若 约束 A 和 约束 B 的 不等式 含有 矛盾 不等式 , 则 returnFALSE . 
+ 　 　 Step3 . s = xiangliang ( A ) , t = xiangliang ( B ) . 
+ 　 　 Step4 . 若 s = NULL 或 t = NULL , 则 returnFALSE . 
+ 　 　 Step5 . 若 s ∈ B 或 t ∈ A , 则 returnTRUE . 
+ 　 　 Step6 . 如果 约束 A 的 不等式 的 个数 少于 约束 B 的 不等式 的 个数 , 那么 依次 选择 约束 A 的 不等式 ， 使得 该 不等式 的 法 向量 与 向量 （ t － s ） 的 数量 积 大于 0 . 用该 不等式 化简 约束 A 和 B 的 不等式 得到 不等式 组 A1 和 B1 , 使得 A1 和 B1 中 的 变量 个数 少于 A 和 B 中 变量 的 个数 . 重复 调用 这一 过程 , 若 qiujiao ( A1 ， B1 ) = TRUE , 则 returnTRUE . 否则 ， 继续执行 . 
+ 　 　 Step7 . 如果 约束 B 的 不等式 的 个数 少于 约束 A 的 不等式 的 个数 , 那么 依次 选择 约束 B 的 不等式 ， 使得 该 不等式 的 法 向量 与 向量 （ t － s ） 的 数量 积 小于 0 . 用该 不等式 化简 约束 A 和 B 的 不等式 得到 不等式 组 A1 和 B1 , 使得 A1 和 B1 中 的 变量 个数 少于 A 和 B 中 变量 的 个数 . 重复 调用 这一 过程 , 若 qiujiao ( A1 , B1 ) = TRUE , 则 returnTRUE . 否则 ， 继续执行 . 
+ 　 　 Step8 . returnFALSE . 
+ 　 　 ｝ 
+ 在 一个 实际 的 机器人 仿真 系统 中 可以 首先 判断 两个 物体 的 包围 盒 ( boundingbox ) 是否 相交 ， 若 不 相交 ， 则 这 两个 凸 多面体 也 不 相交 ； 否则 ， 进一步 用 上面 提出 的 算法 来 判定 这 两个 凸 多面体 是否 相交 . 这样 做 可以 提高 碰撞检测 的 效率 . 
+ 3 　 实例 
+ 　 　 例 1 : 设在 三维空间 中 给定 两个 凸 多面体 A 和 B ， 如图 1 所示 . 
+ 
+ Fig.1 Twointersectedpolyhedra 
+ 图 1 　 两 相交 的 凸面 体 
+ 
+ Fig.2 Twopolyhedraintersectedononlyedgesnotvertex 
+ 图 2 　 两个 只有 棱 而 非点 相交 的 凸 多面体 
+ 　 　 这 两个 凸 多面体 的 平面 方程 分别 由 方程组 ( 3 ) 和 ( 4 ) 给出 . 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 由 向量 定位 算法 可以 求 出式 ( 3 ) 和 式 ( 4 ) 中 的 两个 点 ( 0 , 0 , 0 ) 和 ( - 0.5 , 0.5 , 0.5 ) . 由于 点 ( - 0.5 , 0.5 , 0.5 ) 满足 式 ( 3 ) , 所以 这 两个 凸 多面体 相交 . 
+ 　 　 例 2 : 设在 三维空间 中 给定 两个 凸 多面体 A 和 B ， 如图 2 所示 . 
+ 　 　 这 两个 凸 多面体 的 平面 方程 分别 由 方程组 ( 5 ) 和 ( 6 ) 给出 ， 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 由 向量 定位 算法 可以 求 出式 ( 5 ) 和 式 ( 6 ) 中 的 两个 点 ( 0 , 0 , - 2 ) 和 ( - 0.5 , 0.5 , 0.5 ) . 由于 式 ( 5 ) 中 的 不等式 的 个数 少于 式 ( 6 ) 中 的 不等式 的 个数 . 所以 取式 ( 5 ) 中 的 不等式 . 由于 此时 t - s = ( - 0.5 , 0.5 , 2.5 ) , 只有 第 4 个 不等式 相应 的 平面 方程 的 法 向量 与 t - s 的 数量 积 大于 0 , 令其为 等式 , 则 式 ( 5 ) 和 式 ( 6 ) 化简 为 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 7 ) 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ 用 向量 定位 算法 分别 求 出式 ( 7 ) 和 式 ( 8 ) 中 的 两个 点 ( 0 , 0 ) 和 ( - 0.5 , 0.5 ) . 由于 ( - 0.5 , 0.5 ) 满足 式 ( 7 ) , 所以 式 ( 7 ) 与 式 ( 8 ) 的 交不空 . 从而 式 ( 5 ) 与 式 ( 6 ) 的 交 也 不空 . 
+ 4 　 实验 结果 
+ 　 　 我们 在 IBM486 上 实现 了 我们 提出 的 算法 , 通过 大量 的 数据 对 算法 进行 了 测试 , 结果 见表 1 . 
+ Table1 　 Experimentalresultsofthealgorithm ( ExperimentedonIBM486 ) 
+ 表 1 　 算法 的 实验 结果 ( 在 IBM486 上 执行 ) 
+ 
+ Problemscale ① Executiontime ② ( s ) 
+ No . ofA ' sconstraints ③ No . ofB ' sconstraintsNo . ofinstance ④ maximum ⑤ minimum ⑥ average ⑦ 
+ 6060300.030 . 010.01 
+ 8060300.040 . 010.01 
+ 8080200.060 . 020.03 
+ 100100200.140 . 070.09 
+ 250250201.931 . 21.52 
+ 
+ ① 问题 规模 , ② 执行 时间 ( 秒 ) , ③ 约束 数目 , ④ 算 例数 , ⑤ 最 多 执行 时间 , ⑥ 最少 执行 时间 , ⑦ 平均 执行 时间 . 
+ 　 　 从表 1 的 实验 结果 可以 看出 这个 算法 非常 有效 . 在 一个 实际 的 机器人 规划系统 中 执行 这一 算法 之前 ， 首先 判断 两个 凸 多面体 的 包围 盒 是否 相交 , 然后 再用 这 一 算法 进行 判断 . 这样 就 能够 进一步提高 规划系统 中 碰撞检测 的 效率 . 
+ 任世军 （ 哈尔滨工程大学 机电 工程学院 　 哈尔滨 　 150001 ） 
+ （ 哈尔滨工业大学 计算机科学 与 工程系 　 哈尔滨 　 150001 ） 　 
+ 洪炳 熔 （ 哈尔滨工业大学 计算机科学 与 工程系 　 哈尔滨 　 150001 ） 　 
+ 孟庆鑫 （ 哈尔滨工程大学 机电 工程学院 　 哈尔滨 　 150001 ） 
+ 参考文献 
+ 1 ， LiuLian - feng , WangYong - xi . Athreedimensionalalgorithmondetectingcollisionbetweenrobotanditsenvironment . Robot , 1996 , 18 ( 1 ) : 50 ～ 54 
+ ( 刘连峰 , 王泳喜 . 空间 路径 规划 中 一种 三维 物体 干涉 检测 算法 . 机器人 , 1996 , 18 ( 1 ) : 50 ～ 54 ) 
+ 2 ， ZeghloulS , RambeaudP . Afastalgorithmfordistancecalculationbetweenconvexobjectsusingtheoptimizationapproach . Robotica , 1996 , 14 : 355 ～ 363 
+ 3 ， BobrowJE . Adirectminimizationapproachforobtainingthedistanceconvexpolyhedra . InternationalJournalofRoboticsResearch , 1989 , 8 ( 3 ) : 65 ～ 76 
+ 4 ， RenShi - jun , HongBing - rong . Afastalgorithmtodeterminewhetherconvexregionsboundedbymultiplelinearconstraintsareempty . ChineseJournalofComputers , 1998 , 21 ( 10 ) : 896 ～ 901 
+ ( 任世军 , 洪炳 熔 . 判定 由 线性 不等式 围成 的 凸 空间 是否 为空 的 一个 快速 算法 . 计算机 学报 , 1998 , 21 ( 10 ) : 896 ～ 901 ) 
+ 
+ 

@@ -1,0 +1,89 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 4 期 Vol.24 No.41998 
+ 
+ 
+ 
+ 
+ 使用 多 控制器 结构 的 可靠 镇定 
+ 张国山 　 柴 天佑 　 顾兴源 
+ 摘 　 要 　 采用 因子 化 方法 研究 了 具有 强 镇定 被控 对象 的 可靠 镇定 问题 . 证明 了 几种 可靠 镇定 问题 定义 之间 的 等价关系 ， 并 表征 了 可靠 控制器 的 结构 . 给出 了 对于 任意 给定 的 控制器 ， 存在 另 一个 控制器 使 其 共同 解决 可靠 镇定 问题 的 充要条件 ， 该 条件 提供 了 一种 选择 可靠 控制器 的 方法 . 
+ 关键词 　 可靠 控制系统 ， 因子 化 方法 ， 可靠 镇定 ， 强 镇定 ， 控制器 的 设计 . 
+ RELIABLESTABILIZATIONUSINGMULTI - CONTROLLERCONFIGURATIONS 
+ ZHANGGUOSHANCHAITIANYOUGUXINGYUAN 
+ ( ResearchCenterofAutomation , NortheasternUniversity , Shenyang110006 ) 
+ Abstract 　 Inthispaper , thereliablestabilizationproblem ( RSP ) ofstronglystabilizableplantsisstudiedbyusingafactorizationapproach . TheequivalentrelationshipbetweenthedifferentdefinitionsofRSPisproved , andthestructureofreliablecontrollersischaracterized . Anecessaryandsufficientconditionisgiventhat , foranygivencontroller , thereexistsanothercontrollersuchthattheytogethersolvetheRSP . Thisconditionprovidesamethodforselectingreliablecontrollers . 
+ Keywords 　 Reliablecontrolsystem , factorizationapproach , reliablestabilization , strongstabilization , controller ' sdesign . 
+ 1 　 引言 
+ 　 　 可靠 镇定 问题 ( RSP ) 是 指 找到 两个 控制器 ， 当 它们 同时 控制 ( 镇定 ) 一个 对象 时 ， 系统 保持稳定 ； 而 当 其中 一个 控制器 出现 故障 后 ， 系统 仍能 保持稳定 . 本文 在 图 1 所示 的 单位 反馈 控制系统 S ( P ， C ) 的 基础 上 ， 研究 了 具有 被动 冗余 ( passiveredundance ) 的 可靠 控制系统 S ( P ， C1 , C2 ) ， 如图 2 所示 . Vidyasagar 等 ［ 1 - 2 ］ 研究 了 该 系统 ， 给出 了 RSP 的 两种 新 定义 并 讨论 了 它们 之间 的 关系 ； MintoandRavi ［ 3 ］ 证明 了 S ( P ， C1 ， C2 ) 有解 的 充要条件 是 P 是 强 镇定 的 ( 即 存在 稳定 的 控制器 镇定 P ) ； Gundes ［ 4 ］ 给出 了 可靠 控制器 的 设计 方法 及其 解 控制器 对 的 参数 化 表示 . 但是 ， 迄今 这个 问题 的 研究 结果 是 不 完善 的 ， 许多 问题 未获 解决 . 
+ 
+ 
+ 图 1 　 单位 反馈 控制系统 ： S ( P ， C ) 
+ 
+ 
+ 图 2 　 可靠 控制系统 ： S ( P ， C1 , C2 ) 
+ 
+ 　 　 本文 得到 如下 一些 结果 ： 证明 了 Vidyasagar 提出 的 几种 RSP 的 定义 之间 的 等价关系 ； 给出 了 对 任意 给定 的 控制器 C1 ， 存在 控制器 C2 ， 使得 ( C1 ， C2 ) 共同 解决 RSP 的 充要条件 . 
+ 2 　 基本知识 与 问题 描述 
+ 　 　 设 R 为实 系数 有理分式 的 集合 ， S 为 稳定 的 有理分式 的 集合 ， M ( R ) ， M ( S ) 分别 表示 其 元素 属于 R ， S 的 矩阵 集合 ， U ( S ) 表示 其 元素 属于 S 的 单模 阵 ( unimodularmatrices ) 的 集合 ， 即 U ( S ) = ｛ U ： U ∈ M ( S ) ， U - 1 ∈ M ( S ) ｝ . 
+ 　 　 设 P ∈ M ( R ) 是 给定 的 被控 对象 ， 且 P = ND - 1 = - 1 ， 这里 ( N ， D ) ， ( ， ) ∈ M ( S ) 是 P 的 右 互质 分解 和 左 互质 分解 . 我们 称 C 镇定 P 或 ( P ， C ) 是 稳定 的 ， 当且 仅 当图 1 中 从 u = ［ u ′ 1u ′ 2 ］ ′ 到 y = ［ y ′ 1y ′ 2 ］ ′ 的 传递函数 阵 Hyu ( P ， C ) 是 稳定 的 . 设 S ( P ) 表示 所有 镇定 P 的 控制器 C 的 集合 ， 选择 矩阵 Y ， X ， ， ∈ M ( S ) 且 ｜ Y ｜ ≠ 0 , ｜ ｜ ≠ 0 使得 YD + XN = I ， 则 S ( P ) 能 被 表示 为 ［ 1 ］ 
+ 
+ 　 　 由于 ( Y - R ) - 1 ( X + R ) = ( + DQ ) ( - NQ ) - 1 当且 仅 当 R = Q ， 因此 ， 为 讨论 方便 如果 Ci ∈ S ( P ) , 不失 一般性 ， 我们 总设 Ci = Y - 1iXi = i - 1i ， 这里 ， Yi = Y - Ri , 与 Yi ≠ 0 ， i ≠ 0 ， 则 ( Yi , Xi , i , i ) ， ( i = 1 ， 2 ) ， 总 满足 Bezout 恒等式 ［ 1 ］ 
+ 　 　 ( 1 ) 
+ 注意 ( 1 ) 式 左端 两个 矩阵 交换 等式 仍 成立 ， 这样 ( 1 ) 式 代表 八个 等式 . 
+ 　 　 M . Vidyasagar 提出 的 几种 RSP ［ 1 ， 2 ］ 定义 如下 ： 
+ 　 　 RSP1 . 　 对于 系统 S ( P ， C1 ， C2 ) ， 找到 两个 控制器 C1 与 C2 ， 使得 C1 ， C2 ∈ S ( P ) , 且 图 2 所示 可靠 控制系统 S ( P ， C1 ， C2 ) 是 内部 稳定 的 ， 即 从 u = [ u ′ 1u ′ 2u ′ 3 ′ ] 到 y = [ y ′ 1y ′ 2y ′ 3 ] ′ 的 传递函数 阵 Hyu ( P , C1 , C2 ) 是 稳定 的 . 
+ 　 　 由于 Hyu ( P ， C1 ， C2 ) 表示 式 较 复杂 ， 本文 不 直接 使用 它 ， 故 略去 . 
+ 　 　 RSP2 . 　 对于 给定 的 对象 P ， 找到 两个 控制器 C1 与 C2 ， 使得 
+ ( i ) . C1 , C2 ∈ S ( P ) ; ( ii ) . C1 + C2 ∈ S ( P ) ; 
+ 如果 Ci = Y - 1iXi = i - ii ， 且 ( Yi , Xi , I , i ) ( i = 1 , 2 ) 满足 ( 1 ) 式 ， 则 
+ ( iii ) . Y1 , Y2 右 互质 ； ( iv ) . Y1 , Y2 左 互质 . 
+ 　 　 RSP3 . 　 对于 给定 的 对象 P ， 找到 一对 控制器 ( C1 , C2 ) 使得 
+ ( i ) . C1 ∈ S ( P ) ; ( ii ) . C2 ∈ S ( P ) ∩ S ( P1 ) , 这里 P1 = P ( I + C1P ) - 1 . 
+ 　 　 RSP2 中前 三个 条件 由 文献 ［ 2 ］ 给出 ， 本文 增加 了 最后 一个 条件 ( iv ) ； 文献 ［ 2 ］ 中 RSP3 被 称为 修改 的 可靠 镇定 问题 ； 文献 ［ 3 ］ 证明 RSP1 有解 的 充分 必要条件 为 P 是 强 镇定 的 ； 文献 ［ 4 ］ 进一步 给出 RSP1 的 解 控制器 对 ( C1 , C2 ) 的 设计 方法 及 参数 化 表示 . 
+ 
+ 3 　 主要 结果 
+ 　 　 引理 1 . 设 C1 ， C2 ∈ S ( P ) 满足 ( 1 ) 式 ， 且 设 
+ Y3 : = ( Y - 11 + Y - 12 - D ) - 1 , 　 　 X3 : = Y3 ( Y - 11X1 + Y - 12X2 ) , 　 　 ( 2 ) 
+ 则 C1 + C2 ∈ S ( P ) 充分 必要条件 是 Y3 ， X3 ∈ M ( S ) . 
+ 　 　 证明 . 必要性 . 因为 C1 + C2 ∈ S ( P ) ， 则 一定 存在 3 , 3 ∈ M ( S ) ， 使得 - 133 = Y - 11X1 + Y - 12X2 且 3D + 3N = I ； 因此 - 13 = D + - 133N = D + ( Y - 11X1 + Y - 12X2 ) N = ( Y - 11 + Y - 12 - D ) ， 从 ( 2 ) 式 得 3 = Y3 , 3 = X3 . 
+ 　 　 充分性 . 容易 验证 Y3D + X3N = I ， 再 由 Y3 ， X3 ∈ M ( S ) 得 Y - 13X3 ∈ S ( P ) ， 即 C1 + C2 ∈ S ( P ) . □ 
+ 　 　 引理 1 对于 后面 的 研究 极其 有 意义 . 为 讨论 方便 ， 设 Δ 21 ： = Y1 + Y2 - Y2DY1 ， Δ 12 : = Y1 + Y2 - Y1DY2 . 则 由 ( 2 ) 式 得 Y3 = Y2 Δ - 112Y1 = Y1 Δ - 121Y2 . 
+ 　 　 引理 2 . 设 C1 ， C2 ∈ S ( P ) 满足 ( 1 ) 式 ， 再设 P1 = P ( I + C1P ) - 1 . 则 C2 ∈ S ( P1 ) 的 充分 必要条件 是 Δ 21 ∈ U ( S ) ， 即 
+ Y1 + Y2 - Y2DY1 ∈ U ( S ) . 　 　 ( 3 ) 
+ 　 　 证明 . 从 ( 1 ) 式 ， 有 P1 = NY1 , 则 C2 ∈ S ( P1 ) 的 充分 必要条件 是 Y2 + X2NY1 = Y1 + Y2 - Y2DY1 ∈ U ( S ) . □ 
+ 　 　 比较 RSP3 与 引理 2 知 ， RSP3 有解 的 充要条件 是 ( 3 ) 式 成立 . 
+ 　 　 引理 3 ［ 4 ］ . 　 设 C1 ， C2 ∈ S ( P ) 满足 ( 1 ) 式 ， 则 ( C1 ， C2 ) 是 RSP1 的 解 的 充分 必要条件 是 Δ 21 ∈ U ( S ) ， 或 Δ 12 ∈ U ( S ) . 
+ 　 　 定理 1 . 几种 可靠 镇定 问题 ： RSP1 ， RSP2 ， RSP3 是 等价 的 ， 即 他们 同时 有解 或 无解 ， 且 解集 相等 . 
+ 　 　 证明 . 引入 集合 Si ( P ) : = ｛ ( C1 , C2 ) ｜ Cj ∈ S ( P ) , j = 1 , 2 . 且 ( C1 ， C2 ) 是 RSP ( i ) 的 解 ｝ ， i = 1 ， 2 ， 3 . 则 只 需 证明 S1 ( P ) = S2 ( P ) = S3 ( P ) . 
+ 　 　 设 C1 ， C2 满足 ( 1 ) 式 ， 首先 注意 到 无论 ( C1 ， C2 ) 属于 任意 Si ( P ) ， 皆 有 C1 , C2 , C1 + C2 ∈ S ( P ) . 从 引理 2 与 引理 3 容易 得 ， ( C1 ， C2 ) ∈ S1 ( P ) 等价 于 ( C1 ， C2 ) ∈ S3 ( P ) ， 且 都 等价 于 ( 3 ) 式 成立 . 因此 也 得 Y1 与 Y2 左 互质 而且 右 互质 ， 即 ( C1 ， C2 ) ∈ S2 ( P ) . 下面 只 需 证明 S2 ( P ) S1 ( P ) . 对于 ( C1 ， C2 ) ∈ S2 ( P ) ， 由 引理 1 知 ， Y3 ∈ M ( S ) 且 Y1 + Y2 - Y2DY1 = Y2Y - 13Y1 ∈ M ( S ) ， 这时 可以 分解 Y3 为 Y1 的 左 因子 与 Y2 的 右 因子 的 积 . 不失 一般性 ， 设 Y3 = Y11Y22 ， Y2 = FlY22 及 Y1 = Y11Fr ， 这里 Y11 ， Y22 ， Fl ， Fr ∈ M ( S ) 皆 为 非 奇异 方阵 ， 则 有 
+ Y11Fr + FlY22 - FlY22DY11Fr = FlFr . 　 　 ( 4 ) 
+ 注意 ( 4 ) 式 的 两边 皆 等于 Y1 + Y2 - Y2DY1 . 从 ( 4 ) 式 知 Fl 是 Y11Fr = Y1 的 左 因子 ， 因此 Fl 是 Y1 与 Y2 的 左公 因子 ， 但 Y1 与 Y2 是 左 互质 的 ， 因此 Fl ∈ U ( S ) ， 同理 Fr ∈ U ( S ) . 所以 Y1 + Y2 - Y2DY1 ∈ U ( S ) , ( C1 , C2 ) ∈ S1 ( P ) . 从而 S2 ( P ) S1 ( P ) . □ 
+ 　 　 注 1 . 定理 1 是 文献 ［ 2 ］ 中 提出 的 尚未 解决 的 问题 的 回答 . 
+ 　 　 注 2 . S1 ( P ) = S2 ( P ) = S3 ( P ) ≠ ( 空集 ) 的 充分 必要条件 是 P 是 强 镇定 的 . 
+ 　 　 注 3 . RSP3 中 的 C1 与 C2 是 对称 的 ， 即 如果 ( C1 ， C2 ) 是 RSP3 的 解 ， 则 ( C2 ， C1 ) 是 RSP3 的 对偶 问题 的 解 ： 
+ ( i ' ) . C2 ∈ S ( P ) ; ( ii ' ) . C1 ∈ S ( P ) ∩ S ( P2 ) , P2 = P ( I + C2P ) - 1 
+ 　 　 注 4 . RSP3 中 的 ( iii ) ， ( iv ) 式 可以 用 下面 两 条件 取代 ： 
+ 　 　 ( iii ' ) . 1 , 2 是 右 互质 的 ： 　 ( iv ' ) . 1 , 2 是 左 互质 的 . 
+ 　 　 三种 等价 的 RSP ： RSP1 ， RSP2 ， RSP3 从 不同 的 侧面 反映 了 RSP 的 解 C1 ， C2 与 被控 对象 P 之间 的 相互 关系 ， 对于 控制器 的 可靠 设计 及 控制器 的 可靠 分解 问题 具有 启发 意义 . 根据 定理 1 ， 下面 将 RSP1 ， RSP2 ， RSP3 统一 记为 RSP . 
+ 　 　 推论 1 . 设 P 是 强 镇定 的 ， C1 ， C2 ∈ S ( P ) 满足 ( 1 ) 式 ， 如果 C1 ( 或 C2 ) 是 稳定 的 ， 则 C1 + C2 ∈ S ( P ) 的 充分 必要条件 ( C1 ， C2 ) 是 RSP 的 解 . 
+ 　 　 推论 1 证明 从略 . 文献 ［ 2 ， 4 ］ 中 证明 ， 对 任意 稳定 的 控制器 C1 ∈ S ( P ) ∩ M ( S ) ， 总 存在 C2 ∈ S ( P ) ， 使得 ( C1 ， C2 ) 是 RSP 的 解 . 但是 ， 对于 任意 给定 的 不 稳定 的 控制器 C1 ∈ S ( P ) ， 是否 总 存在 C2 ∈ S ( P ) ， 使得 ( C1 ， C2 ) 是 RSP 的 解 ? 回答 是 否定 的 ， 下面 定理 2 即 回答 这个 问题 ， 为此 先 给出 一个 引理 . 
+ 　 　 引理 4 . 设 P = NrD - 1Nl ， 这是 ( Nr , D ) 是 右 互质 的 ， ( D ， Nl ) 是 左 互质 的 . 则 P 是 强 镇定 的 充分 必要条件 是 存在 Q ∈ M ( S ) ， 使得 D + NlQNr ∈ U ( S ) . 
+ 　 　 定理 2 . 如果 P 是 强 镇定 的 ， 设 P = ND - 1 ， D + XN = I ， 且 = N . 对于 给定 的 控制器 C1 = Y - 11X1 = 1 - 11 ∈ S ( P ) 满足 ( 1 ) 式 ， 则 存在 C2 ∈ S ( P ) ， 使得 ( C1 ， C2 ) 是 RSP 的 解 的 充分 必要条件 N ( ( I + X1N ) Y1 ) - 1X1N 是 强 镇定 的 . 
+ 　 　 证明 . 由于 ( C1 ， C2 ) 是 RSP 的 解 的 充分 必要条件 是 ( 3 ) 式 成立 . 不妨 设 Y2 = Y1 + QN ， 则 Δ 12 = ( I + X1N ) Y1 + X1NQN ， 再 由 引理 4 ， Δ 12 ∈ U ( S ) 的 充分 必要条件 是 N ( ( I + X1N ) Y1 ) - 1X1N ， 是 强 镇定 的 . □ 
+ 　 　 在 定理 2 中 ， 当 C1 稳定 ， 即 Y1 = I 时 ， 显然 N ( ( I + X1N ) Y1 ) - 1X1N 是 强 镇定 的 . 因此 ， 文献 ［ 2 ］ 的 结果 是 本 定理 的 特例 . 
+ 　 　 推论 2 . 如果 P 是 稳定 的 ， 则 对 任意 控制器 C1 ∈ S ( P ) , 总 存在 C2 ∈ S ( P ) ， 使得 ( C1 ， C2 ) 是 RSP 的 解 . 
+ 　 　 证明 设 D = I ， N = P ， 这时 S ( P ) = ｛ ( I - QP ) - 1Q ： I - QP ≠ 0 , Q ∈ M ( S ) ｝ . 另设 Y1 = I - Q1P ， X1 = Q1 ， 则 ： = N ( ( I + X1N ) Y1 ) - 1X1N = ( I - PQ1PQ1 ) - 1PQ1P 对 任意 Q1 都 是 强 镇定 的 . 再 由 定理 2 知 ， 对 任意 C1 ∈ S ( P ) ， 都 存在 C2 ∈ S ( P ) ， 使得 ( C1 ， C2 ) 是 RSP 的 解 . □ 
+ 
+ 4 　 结论 
+ 　 　 本文 对 P 是 强 镇定 的 被控 对象 的 可靠 镇定 问题 进行 了 系统 的 研究 . 证明 了 几种 可靠 镇定 问题 定义 之间 的 等价关系 ， 给出 了 对于 任意 给定 的 控制器 ， 存在 另 一个 控制器 ， 使 其 共同 解决 可靠 镇定 问题 的 充要条件 . 由于 几乎 所有 的 被控 对象 都 满足 强 镇定 这一 条件 ［ 1 ］ ， 所以 本文 结果 具有 一般 意义 . 在 本文 的 基础 上 可以 进一步 研究 控制器 的 可靠 分解 问题 ［ 5 ］ . 本文 结果 也 为 某些 定量 问题 的 研究 ， 如 调节 ， 跟踪 ， 最优化 ， 灵敏度 最小 等 问题 的 研究 ， 提供 了 理论依据 . 
+ 　 　 1 ) 国家自然科学基金 优秀 中青年 专项基金 资助 课题 . 
+ 　 　 2 ) 张国山现 工作 于 空军 后勤 学院 数学 教研室 ， 徐州 221000 . 
+ 作者 单位 ： 东北大学 自动化 研究 中心 　 沈阳 　 110006 
+ 参考文献 
+ 1 　 VidyasagarM . ControlSystemSynthesis : AFactorizationApproach . Cambridge , MA : MIT . Press , 1985 
+ 2VidyasagarM , ViswanadhamN . Reliablestabilizationusingamulti - controllerconfiguration . Automatica.1985 , 21 ( 5 ) : 599 - 602 
+ 3MintoKD , RaviR . Newresultsonthemulti - controllerschemeforthereliablecontroloflinearplants . Proc . AmericanControlconference , 1991 , 615 - 619 
+ 4GundesAN . Reliablestabilizationoflinearplantsusingatwo - controllerconfiguration . Systems & ControlLetters , 1994 , 23 : 297 - 304 
+ 5GundesAN . Reliablecontrolusingtwocontrollers . Proc.31 stIEEEConf . onDecisionandcontrol , 1992 : 445 - 446 
+ 收稿 日期 　 1995 - 09 - 29 　 收到 修改稿 日期 　 1997 - 10 - 6 

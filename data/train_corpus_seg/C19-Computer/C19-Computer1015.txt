@@ -1,0 +1,83 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 1 期 Vol.24 No.11998 
+ 
+ 
+ 
+ 定量 限制 血压 下降 速率 的 
+ 多模 控制 方法 
+ 郑连清 　 刘 建平 　 张忠惠 　 程敬 之 
+ 关键词 　 多模 控制 ， 速率 ， 血压 . 
+ AMULTIPLE - MODELCONTROLLERFORQUANTITIVELYLIMITING 
+ THEBLOODPRESSUREREDUCTIONRATE 
+ ZHENGLIANQING 
+ ( DepartmentofAutomation , AirForceTelecommunicationsInstitute , Xi ' an710077 ) 
+ LIUJIANPING 
+ ( DepartmentofCardiacSurgical , XijingHospital , Xi ' an710040 ) 
+ ZHANGZHONGHUI 
+ ( Shan ' xiElectronicsWorkers ' College , Xi ' an710043 ) 
+ CHENGJINGZHI 
+ ( BiomedicalDepartment , Xi ' anJiaotongUniversity , Xi ' an710049 ) 
+ Keywords 　 Multiple - modelcontrol , rate , bloodpressure . 
+ 1 　 引言 
+ 　 　 在 硝普钠 ( SNP ) 输注 过程 中 ， 多模 自 适应 控制算法 ( MMAC ) 能 表现 出 良好 的 强壮 性 ［ 1 ， 2 ］ . 本文 给出 一种 改进型 多模 控制算法 ( MMAC / ORL ( OutputRateLimiter ) ) , 它 能 对 血压 下降 速率 进行 定量 限幅 . 
+ 2 　 系统 模型 ( plantmodel ) 
+ 　 　 血压 P 和 SNP 输注 速率 U 的 关系 为 ［ 1 ］ 
+ 　 　 　 　 　 　 　 　 ( 1 ) 
+ P ( S ) = P0 + Y ( S ) + Pn ( S ) ， 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 其中 P0 是 血压 初始值 ， Pn ( S ) 是 背景噪声 . 
+ 3 　 MMAC / ORL 
+ 　 　 图 1 给出 了 MMAC / ORL 的 结构 . 
+ 
+ 
+ 图 1 　 MMAC / ORL 的 结构 
+ 　 　 辨识 器 ( recognizer ) 通过 权值 计算 确定 模型 组 ( modelbank ) 中 的 “ 最优 ” 模型 . 模型 组由 12 个取 不同 增益值 的 模型 ( 见 ( 1 ) 式 ) 组成 ， 这些 模型 的 参数 取值 为 Tmd = 70s ， Tmr = 75s ， τ m = 45s ， α m = 0.4 ， 及 
+ Gmj = 8.1 / 1.4 j 　 　 ( j = 0 , 1 , … ， 11 ) . 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 　 　 图 1 中 Y ′ ( K ) = P ( K ) - P0 ， 限幅器 H ( P ) 限制 Y ′ ( K ) ≤ - 0.13 . 
+ 　 　 偏差 计算 ( operationofresiduals ) 采用 的 方法 为 
+ Rj ( K ) = ［ Ymj ( K ) - Y ′ ( K ) ］ / ( P0 - Pc ) , 　 j = 0 , 1 , … ， 11 . 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 其中 Pc 是 目标值 ， Ymj ( K ) 是 模型 组 的 输出 . 
+ 　 　 权值 计算 ( operationofweights ) 采用 文献 ［ 2 ］ 中 的 方法 ， 选择 其中 的 δ = 0.0001 . 
+ 　 　 选择器 ( selector ) 根据 权值 大小 选取 “ 最优 ” 模型 . 假设 
+ WJ ( K ) ≥ Wj ( K ) ， 　 j = 0 , 1 , … ， 11 ， 　 I ( K ) = 0 , or1 , … ， or11 . 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 则 认为 模型 组中 第 J ( K ) 个 模型 为 “ 最优 ” 模型 . 
+ 　 　 “ 最优 ” 无 延时 模型 Q ( S ) 的 定义 为 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 　 　 PI 调节器 选择 为 
+ 　 　 　 　 　 　 　 　 　 ( 7 ) 
+ 其中 E ( K ) 为 血压 误差 ， T 为 采样 周期 ( 取 T = 10s ) ， θ ( K ) = ［ β ( K ) / 1.2 ］ 1 / 2 ， 且 限制 θ ( K ) ≤ 1 ， β ( K ) 取值 为 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ 　 　 基于 Q ( S ) 的 ORL 取 U ( K ) = U ′ ( K ) , 但 限制 U ( K ) ≤ UH ( K ) . UH ( K ) 由下式 计算 ［ 3 ］ 
+ UH ( K ) = ｛ 0.4 GmJ ( K - 1 ) - 7.5 Yd ( K ) ［ 1 - 0.8 GmJ ( K ) ］ ｝ ／ ［ 0.28 GmJ ( K ) GmJ ( K - 1 ) ］ . 　 　 　 　 ( 9 ) 
+ 4 　 计算机 模拟 及 讨论 
+ 　 　 模拟 时取 P0 = 20kPa ， Pc = 13.3 kPa ， Pn ( K ) 是 标准 方差 为 0.27 kPa 的 高斯 噪声 序列 . 为 确切 地 观察 算法 的 性能 ， 采用 无 噪声 血压 y ( y = P0 + Y ) 记录 模拟 结果 ［ 3 ］ . 表 1 给出 了 对 每组 模型 参数 模拟 5 次 的 结果 ， 其中 Ts 表示 最长 建立 时间 ［ 1 ］ ( s ) ， yu 表示 最大 y 超调量 ( kPa ) ， y ′ m 表示 y 最大 下降 速率 ( kPa / 10s ) . 
+ 表 1 　 模拟 结果 
+ 
+ PlantParametersResults 
+ TdTr τ α GTsyuy ′ m 
+ 6075600.49 . 02400.530 . 40 
+ 4.63200 . 750.43 
+ 3.03200 . 490.55 
+ 1.93400 . 210.48 
+ 1.03800 . 110.52 
+ 0.354400 . 360.35 
+ 0.254700 . 350.36 
+ 2003009.04100 . 400.51 
+ 4.63900 . 530.49 
+ 3.04100 . 510.48 
+ 1.94400 . 170.48 
+ 1.04900 . 240.49 
+ 0.355600 . 270.63 
+ 0.255800 . 230.51 
+ 
+ 　 　 ORL 的 限幅 作用 在 模拟 过程 中 已经 观察 到 . 表 1 中 y ′ m 最大 为 0.63 ， 此值 接近 理论值 ［ 3 ］ ， 这 说明 ORL 是 很 有效 的 . 模拟 结果表明 MMAC / ORL 的 性能 较 好 . 
+ 1 ) 　 国家自然科学基金 资助 项目 . 
+ 作者 单位 ： 郑连清 　 空军 电讯 工程学院 自动化 室 　 西安 　 710077 
+ 　 　 　 　 　 刘 建平 　 西京医院 心外科 　 西安 　 710040 
+ 　 　 　 　 　 张忠惠 　 陕西 电子 职工大学 　 西安 　 710043 
+ 　 　 　 　 　 程敬 之 　 西安交通大学 医电系 　 西安 　 710049 
+ 参考文献 
+ ［ 1 ］ 　 HeWG , KaufmanH , RoyR . Multiplemodeladaptivecontrolprocedureforbloodpressurecontrol . IEEETrans . Biomed . Eng . , 1986 , BEM - 33 : 10 - 19 . 
+ ［ 2 ］ 　 MartinJF , SchneiderAM , SmithNT . Multiple - modeladaptivecontrolofbloodpressureusingsodiumnitroprusside . IEEETrans . Biomed . Eng . , 1987 , BME - 34 : 603 - 611 . 
+ ［ 3 ］ 　 郑连清 . 硝普钠 降压 自动 控制系统 研究 ［ 博士学位 论文 ］ . 西安 ： 西安交通大学 ， 1993 . 
+ 收稿 日期 　 1995 - 03 - 25 

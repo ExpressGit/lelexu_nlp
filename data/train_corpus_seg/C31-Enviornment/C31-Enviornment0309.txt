@@ -1,0 +1,118 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1998 年 第 18 卷 第 4 期 No.4 Vol.181998 
+ 科技期刊 
+ 
+ 纵向 塞曼 恒温 平台 石墨 炉 原子 吸收 连续 测定 环境 水中 痕量 元素 镉 、 砷 、 铜 、 铅 
+ 吴 　 华 　 吴福全 　 李绍南 　 （ 苏州市 环境 科学 研究所 ， 苏州 215004 ) 
+ 文 　 摘 　 为了 准确 测定 环境 水样 中 痕量 元素 Cd 、 As 、 Cu 、 Pb 含量 。 采用 集 恒温 平台 石墨 炉 ( STPF ) 一体 的 纵向 塞曼效应 背景校正 , 最大 功率 升温 , 钯 作 通用 基体 改进 剂和峰 面积 积分 的 一种 新 方法 。 测定 结果表明 ， 镉 、 砷 、 铜 和 铅 的 检出限 ( 3 σ ) 分别 为 2.5 × 10 - 13 、 5.0 × 10 - 11 、 3.8 × 10 - 11 、 2.5 × 10 - 11g ； 相对 标准偏差 ( n = 6 ) 分别 为 3.4 ％ ～ 4.9 ％ 、 2.5 ％ ～ 4.3 ％ 、 1.8 ％ ～ 3.6 ％ 、 1.8 ％ ～ 4.1 ％ ； 回收率 分别 为 93.5 ％ ～ 106 ％ 、 91.5 ％ ～ 103 ％ 、 93.5 ％ ～ 110 ％ 、 91.8% ～ 108 ％ 。 方法 准确 可靠 ， 展现 了 绝对 分析 的 前景 。 
+ 关键词 　 恒温 平台 石墨 炉 　 塞曼效应 　 镉 、 砷 、 铜 、 铅 　 环境 水 
+ Continuousdeterminationoftracecadmium ， arsenic ， copperandleadinenvironmentalwaterbystabilizedtemperatureplatformfurnaceAASusinglongitudinalarrangementZeemen - effectbackgroundcorrection . WuHua ， WuFuquan ， LiShaonan ( SuzhouResearchInstituteofEnvironmentalScience , Suzhou215004 ) . ChinaEnvironmentalScience.1998 , 18 ( 4 ) : 374 ～ 377 
+ Abstract — Anewmethodfortheprecisedeterminationoftracecadmium , arsenic , copperandleadinenvironmentalwaterbyusinglongitudinalarrangementZeemen - effectbackgroundcorrection , maximumpowerheating , peakareaintegrationandPdasamatrixmodified , calledaltogetherthestabilizedtemperatureplatformfurnace ( STPF ) AAS , hasbeenstudied . Thismethodisrapid , accurateandprecise . Thedetectionlimits ( 3 σ ) , relativestandarddeviation ( n = 6 ) andrecoveryforCd , As , CuandPbwere2.5 × 10 - 13 ， 5.0 × 10 - 11 , 3.8 × 10 - 11and , 2.5 × 10 - 11g ; 3.4 ％ ～ 4.9 ％ , 2.5 ％ ～ 4.3 ％ , 1.8 ％ ～ 3.6 ％ and1.8 ％ ～ 4.1 ％ ; 93.5 ％ ～ 106 ％ , 91.5 ％ ～ 103 ％ , 93.5 ％ ～ 110 ％ and91.8% ～ 108 ％ respectively . Thissatisfactorymethodhasshownanoutlookfortheabsoluteanalysis . 
+ Keywords : stabilizedtemperatureplatformfurnace 　 Zeemen - effect 　 Cd 、 As 、 Cu 、 Pb 　 environmentalwater 
+ 　 　 为 评价 环境 水质 质量 需要 监测 的 项目 ， 诸如 痕量 元素 镉 、 砷 、 铜 和 铅 ， 由于 水体 易受 环境影响 ， 其 基体 与 含量 往往 变化 不 一 ， 靠 单一 的 方法 测定 难以 准确 定量 。 恒温 平台 石墨 炉 ( STPF ) 是 一种 综合性 的 技术 。 其中 最大 功率 升温 〔 1 , 2 〕 能 在 瞬间 升 到 预定 的 最高 温度 使 原子 浓度 增大 ， 提高 待测 元素 的 测定 灵敏度 ； L ' vov 平台 〔 1 〕 可 使加 在 其 上 的 样品 滞后 到 石墨 炉 恒温 时 原子化 ， 消除 了 气相 干扰 ； 钯 作 通用 基体 改进 剂 〔 3 , 4 〕 ， 使 灰化 温度 大为 提高 ， 有利于 水样 中 干扰 基体 的 排除 ， 使 干扰 降 至 最低 ； 纵向 塞曼效应 〔 5 〕 在 精确 扣除 高 背景 吸收 的 同时 ， 又 因 革除 了 偏振 元件 而 使光 能量 增强 ， 噪音 减少 ， 改善 了 测定 精度 ； 峰 面积 积分 ( A . s ) 〔 6 , 7 〕 ， 则 进而 消除 吸 光度 信号 形成 过程 的 动力学 影响 ， 从而 可 实现 绝对 分析 〔 8 ， 9 〕 。 
+ 1 　 实验 
+ 1.1 　 主要 仪器 与 试剂 
+ 　 　 主要 仪器 为 P - E4100ZL 型 纵向 塞曼 石墨 炉 原子 吸收 光谱仪 ； P - EAS - 70 型 自动进样 器 ； P - E 横向 加热 涂层 石墨 管 ； P - EEDL2 型 无极 放电灯 电源 ； P - EGEMDesktop 操作系统 ； 砷 无极 放电灯 ( 德国 P - E 公司 ) ； 镉 、 铜 和 铅 空心 阴极 灯 。 
+ 　 　 镉 、 砷 、 铜 和 铅 的 标准 贮备 液 浓度 均 为 1000mg / L 。 用此 标准 贮备 液以 0.2 ％ 硝酸 ( G . R ) 逐级 稀释 配制 成 镉 、 砷 、 铜 和 铅 的 混合 标准 使用 液 ， 其中 Cd 的 浓度 为 1.0 μ g / L ， As 为 100 μ g / L ， Cu 、 Pb 均 为 50.0 μ g / L 。 
+ 　 　 钯 溶液 ： 浓度 为 2mg / mL 。 称取 0.1 g 海绵 钯 于 50mL 容量瓶 中 ， 加入 浓 硝酸 1.5 mL ， 加盖 室温 过夜 溶解 ( 不可 加热 ) ， 用 二次 去 离子交换 水 稀释 至 刻度 ， 摇匀 。 
+ 1.2 　 试验 方法 
+ 　 　 将 环境 水样 ( 含 硝酸 0.2 ％ ) 倾入 2mL 塑料 小杯 中 ， 对 号 置于 自动进样 器 的 位置 ， 自动进样 器 分别 吸取 5 μ L 二次 去 离子交换 水 ， 5 μ L 钯 溶液 ， 25 μ L 水样 ， 然后 一起 加入 石墨 管中 ， 按表 1 选择 的 仪器 测定 条件 和表 2 的 恒温 平台 石墨 炉 升温 程序 进行 干燥 、 灰化 、 原子化 和 清除 ， 连续 完成 水样 的 测定 。 
+ 表 1 　 仪器 测定 条件 
+ Table1 　 Instrumentalconditionsofthedetermination 
+ 
+ 原子光谱 灯 波长 ( nm ) 灯 电流 ( mA ) 狭缝 ( nm ) 测量 模式 
+ 镉 空心 阴极 灯 228.880 . 7 吸收 峰 面积 
+ 砷 无极 放电灯 193.73800 . 7 吸收 峰 面积 
+ 铜 空心 阴极 灯 324.8100 . 7 吸收 峰 面积 
+ 铅 空心 阴极 灯 283.3100 . 7 吸收 峰 面积 
+ 
+ 表 2 　 恒温 平台 石墨 炉 升温 程序 
+ Table2 　 Stabilizedtemperatureplatformfurnaceheatingprogram 
+ 
+ 元 
+ 素 干燥 灰化 原子化 清除 
+ 温度 
+ ( ℃ ) 斜坡 / 保持 时间 
+ ( s ) 氩气 流量 
+ ( mL / min ) 温度 
+ ( ℃ ) 斜坡 / 保持 时间 
+ ( s ) 氩气 流量 
+ ( mL / min ) 温度 
+ ( ℃ ) 斜坡 / 保持 时间 
+ ( s ) 氩气 流量 
+ ( mL / min ) 温度 
+ ( ℃ ) 斜坡 / 保持 时间 
+ ( s ) 氩气 流量 
+ ( mL / min ) 
+ Cd1205 / 6025070010 / 2025014000 / 5024001 / 3250 
+ As1205 / 60250150010 / 2025022000 / 5024001 / 3250 
+ Cu1205 / 60250130010 / 2025023000 / 5024001 / 3250 
+ Pb1205 / 60250110010 / 2025022000 / 5024001 / 3250 
+ 
+ 2 　 结果 与 讨论 
+ 2.1 　 干燥 温度 及 干燥 时间 
+ 　 　 干燥 温度 选择 一般 高出 溶剂 沸点 20 ～ 40 ℃ 为宜 ， 同时 在 干燥 时间 结束 前 的 5 ～ 10s 内 石墨 管进样 口 无 水蒸汽 出现 。 通常 的 经验 是 ， 干燥 时间 ( s ) 约 为 加入 水样 体积 ( μ L ) 的 2 倍 ， 选择 干燥 温度 为 120 ℃ ， 干燥 时间 1min 。 
+ 2.2 　 灰化 和 原子化 温度 及 基体 改进 剂 
+ 　 　 灰化 温度 选择 的 原则 必须 使 水样 中 干扰 基体 ( 如 氯化物 ) 最大 限度 地 排除 ， 同时 确保 待测 元素 不能 损失 。 实验 表明 ， 镉 、 砷 从 300 ℃ 和 铜 、 铅 从 500 ℃ 开始 有 挥发 损失 ， 不 可能 最大 限度 排除 在 1000 ℃ 以上 才能 挥发 的 氯化物 。 加入 钯 基体 改进 剂后 ， 钯 可 与 上述 4 种待测 元素 形成 热 稳定 合金 ， 使 其 灰化 温度 大为 提高 〔 3 , 4 〕 ， 又 可 改善 原子化 温度 。 当 加入 2mg / mL 钯 溶液 5 μ L ， 镉 、 砷 、 铜 、 铅 的 灰化 温度 可 分别 提高 到 700 ℃ 、 1500 ℃ 、 1300 ℃ 和 1100 ℃ ， 其 原子化 温度 分别 选择 1400 ℃ 、 2200 ℃ 、 2300 ℃ 和 2200 ℃ ， 此时 各 吸收 峰 面积 ( 积分 信号 以 A . s 表示 ) 最大 。 具体 灰化 和 原子化 温度 曲线 见图 1 。 
+ 2.3 　 L ' vov 石墨 平台 及 吸收 峰 面积 ( 积分 ) 测量 
+ 　 　 以往 采用 普通 石墨 炉 ( HGA ) ， 对待 测 元素 浓度 相同 而 基体 不同 的 两个 水样 测定 ， 无论 用 吸收 峰高 测量 还是 吸收 峰 面积 ( 积分 ) 测量 ， 其吸 光度 信号 均 无法 消除 基体 的 影响 。 采用 L ' vov 石墨 平台 和 最大 功率 升温 可 使加 在 其 上 的 水样 基体 挥发 和 原子化 推迟 到 石墨 管 达到 温度 平衡 时 发生 ， 既 降低 基体干扰 ， 又 增加 待测 元素 的 测定 灵敏度 ， 保证 吸收 峰 面积 ( 积分 ) 测定 准确 可靠 。 同时 还 使 原子化 温度 比 通常 的 低 200 ℃ 。 
+ 2.4 　 基体干扰 及 酸度 试验 
+ 　 　 魏复盛 等 〔 10 〕 运用 水化学 知识 系统 论述 各种 环境 水样 基体 的 成分 及其 对 痕量 或超 痕量 待测 元素 的 测定 影响 ， 指出 水 的 基体 成分 K + 、 Na + 、 Ca2 + 和 Mg2 + 的 浓度 比待测 的 超 痕量 金属 浓度 高出 5 ～ 10 个 数量级 ， 这些 金属 的 氯化物 和 硫酸盐 及 SiO2 - ３ 构成 水 的 基体 成分 ， 对 原子 吸收 的 测定 均 有 不同 程度 的 干扰 。 针对 这种 情况 本文 采用 扣除 背景 能力 高 而且 精确 的 纵向 塞曼效应 ， 最大 功率 升温 提高 灵敏度 ， L ' vov 平台 消除 由 基体 形成 的 气相 干扰 ， 加入 钯 基体 改进 剂 提高 灰化 温度 最大 限度 排除 氯化物 、 硫酸盐 和 硅酸盐 基体 的 干扰 ， 从而 能够 无需 分离 即可 直接 准确 测定 环境 水中 痕量 元素 镉 、 砷 、 铜 、 铅 。 
+ 　 　 对于 重金属 的 测定 ， 水样 的 酸化 一般 规定 用 硝酸 ( G . R ) ， 其 浓度 为 1 ％ 。 在 此 硝酸 浓度 测定 上述 4 种 痕量 元素 发现 均 无 干扰 影响 。 为 兼顾 石墨 管 的 寿命 ， 本文 选择 用以 酸化 水样 的 硝酸 浓度 为 0.2 ％ 。 
+ 
+ 图 1 　 镉 、 砷 、 铜 、 铅 的 灰化 和 原子化 曲线 
+ Fig.1 　 CurvesofashingtemperatureandatomizationtemperatureontheabsorbencyofCd 、 As 、 CuandPb 
+ 1 , 2 灰化 温度 曲线 　 3 , 4 原子化 温度 曲线 　 * 未 加 基体 改进 剂 　 。 加 基体 改进 剂 钯 
+ 2.5 　 标准 工作 曲线 
+ 　 　 应用 纵向 塞曼效应 横向 加热 的 STPF 石墨 炉 测定 痕量 元素 镉 、 砷 、 铜 、 铅 ， 实验 结果表明 ， 最佳 标准 工作 曲线 范围 镉 为 0 ～ 1.0 μ g / L ， 砷 为 0 ～ 100 μ g / L ， 铜 、 铅为 0 ～ 50.0 μ g / L ， 用 一元 线性 回归方程 得出 的 线性相关 系数 ( r ) 分别 为 0.9994 、 0.9997 、 0.9996 、 0.9999 ， 见图 2 。 
+ 2.6 　 水样 测定 结果 及 回收率 
+ 　 　 按 上述 试验 方法 对 湖水 、 深井 水 和 河水 等 3 种 环境 水样 中 的 镉 、 砷 、 铜 、 铅 进行 连续 测定 ， 结果表明 ， STPF 方法 灵敏 ， 测定 结果 准确 可靠 ， 其 相对 标准偏差 和 回收率 镉 分别 为 3.4 ％ ～ 4.9 ％ ， 93.5 ％ ～ 106 ％ ； 砷 分别 为 2.5 ％ ～ 4.3 ％ 、 91.5 ％ ～ 109 ％ ； 铜 分别 为 1.8 ％ ～ 3.6 ％ 、 93.5 ％ ～ 110 ％ ； 铅 分别 为 1.8 ％ ～ 4.1 ％ 、 91.8 ％ ～ 108 ％ ， 详见 表 3 。 
+ 
+ 图 2 　 镉 、 砷 、 铜 、 铅 的 工作 曲线 
+ Fig.2 　 CalibrationcurvesforCd 、 As 、 CuandPb 
+ 表 3 　 环境 水样 中 镉 、 砷 、 铜 和 铅 测定 结果 ( n = 6 ) 
+ Table3 　 ResultsofadeterminationofCd 、 As 、 CuandPbinenvironmentalwaterssamples 
+ 
+ 水 
+ 样 测定 结果 ( ( g / L ) 标准 加入 量 ( ( g / L ) 回收率 ( ％ ) 标准偏差 ( ％ ) 
+ CdAsCuPbCdAsCuPbCdAsCuPbCdAsCuPb 
+ 湖 
+ 水 0.058 . 515.126 . 140.2010 . 010.010 . 010491.597 . 595.23 . 52.82 . 21.9 
+ 0.006 . 586.244 . 280.2010 . 010.010 . 097.898 . 693.591 . 83.63 . 02.12 . 1 
+ 0.098 . 244.655 . 760.2010 . 010.010 . 098.895 . 497.81053 . 83.53 . 52.6 
+ 0.078 . 695.784 . 990.2010 . 010.010 . 097.510399 . 797.84 . 04.13 . 03.6 
+ 0.007 . 283.243 . 220.2010 . 010.010 . 010199.011095 . 64.54 . 23.52 . 5 
+ 0.006 . 592.342 . 650.2010 . 010.010 . 010396.797 . 695.33 . 73.62 . 01.8 
+ 深 
+ 井 
+ 水 0.0035 . 23.551 . 980.2020 . 010.010 . 096.593 . 610892.03 . 62.62 . 92.2 
+ 0.0544 . 14.263 . 220.2020 . 010.010 . 010093.894 . 093.93 . 73.92 . 12.9 
+ 0.0020 . 95.212 . 890.2020 . 010.010 . 098.995 . 693.698 . 93.54 . 02.42 . 7 
+ 0.0016 . 12.932 . 760.2020 . 010.010 . 097.694 . 598.197 . 63.44 . 32.83 . 7 
+ 5.0018 . 73.102 . 060.2020 . 010.010 . 010692.51011083 . 52.51 . 82.4 
+ 5.0039 . 93.083 . 550.2020 . 010.010 . 093.51011051063 . 63.72 . 53.6 
+ 河 
+ 水 0.2111 . 111.014 . 30.2010 . 010.010 . 010510294.296 . 34.93 . 13.64 . 1 
+ 0.227 . 2518.311 . 70.2010 . 010.010 . 099.898 . 494.41013 . 84.33 . 44.0 
+ 0.0010 . 37.486 . 020.2010 . 010.010 . 010210296.399 . 14.53 . 92.93 . 8 
+ 0.295 . 927.984 . 320.2010 . 010.010 . 093.993 . 693.996 . 14.13 . 02.72 . 5 
+ 0.1310 . 814.93 . 960.2010 . 010.010 . 095.694 . 094.91033 . 92.62 . 33.6 
+ 0.0010 . 113.82 . 150.2010 . 010.010 . 097.892 . 997.591 . 93.42 . 92.53 . 2 
+ 
+ 3 　 结论 
+ 　 　 应用 纵向 塞曼 恒温 石墨 炉 原子 吸收 法测定 环境 水样 中 痕量 元素 镉 、 砷 、 铜 、 铅 ， 本 实验 是 将 第一次 测定 的 各 标准 工作 曲线 予以 贮存 ， 对 其后 的 测定 便 可 使用 ， 每次 测定 前先用 标准 工作 曲线 的 中间 点 进行 其 斜率 校正 ， 发现 误差 范围 多 在 ± 20 ％ 以内 ， 有望 通向 无标样 的 绝对 分析 〔 1 , 9 , 10 〕 。 
+ 参考文献 
+ 1 　 L ' vovBV . Electrothermalatomization — thewayfowardabsolutemethodsofatomicabsorptionanalysis . Spectrochim . Acta . , 1978 , 33B ( 5 ) : 153 ～ 193 
+ 2 　 SlavinW . ManningDC ， CarnrickGR . Thestabilizedtemperatureplatformfurnace . At . Spectrosc . ， 1981 , 2 ( 5 ) : 137 ～ 195 
+ 3 　 EdgerRD . Atomicabsorptionanalysiswithgraphitefurnaceusingmatricmodification . At . Absorpt . Newslitt . , 1975 , 14 ( 5 ) : 127 ～ 132 
+ 4 　 SchlemmerG ， WelzB . Palladiumandmagnesiumnitrates , amoreuniversalmodifierforgraphitefurnaceatomicabsorptionspectrometry . Spectrochim . Acta . , 1986 , 41B ( 11 ) : 1157 ～ 1165 
+ 5 　 FernandezEJ , BohlerW , BeatyMM , etal . Corretionforhighbackgroundlevelsusingthezeemaneffect . At . Spectrosc . , 1981 , 2 ( 3 ) : 73 ～ 80 
+ 6 　 L ' vovBV , NikolaerAG , etal . Theoreticalcalculationofthecharacteristicmassingraphitefurnaceatomicabsorptionspectrometry . Spectrochim . Acta . , 1986 , 41B ( 10 ) : 1043 ～ 1053 
+ 7 　 SlavinWS , CarnrickGR , ManningDC , etal . Recentexperienceswiththestabilizedtempertureplatformfurnaceandzeemanbackgroundcorrection . At . Spectrosc . , 1983 ， 4 ( 3 ) : 69 ～ 86 
+ 8 　 SlavinW ， CarnrickGR . Thepossibilityofstandardlessfurnaceatomicabsorptionspectroscopy . Spectrochim . Acta . , 1984 ， 39B ( 2 / 3 ) : 271 ～ 282 
+ 9 　 L ' vovBV . Recentadvancesinanalysisbygraphitefurnaceatomicabsorptionspectometry . Spectrochim . Acta . , 1990 ， 45B ( 7 ) : 633 ～ 655 
+ 10 　 魏复盛 ， 齐文启 . 原子 吸收光谱 及其 在 环境 分析 中 的 应用 . 北京 ： 中国 环境 科学出版社 ， 1988.225 ～ 276 
+ 作者简介 
+ 吴 　 华 　 女 ， 1962 年 2 月生 。 现为 苏州市 环境 科学 研究所 工程师 。 主要 从事 原子光谱 分析 。 参加 完成 “ 砷 的 测定 — 原子 吸收 分光 光度法 ” 、 “ 汞 的 分析 — 冷 原子荧光 法 ” 被 编录 在 国家 环境保护局 1995 年 环境保护 科学技术 研究成果 公报 中 的 监测 分析方法 中 。 发表 论文 10 余篇 ， 其中 5 篇 获 自然科学 优秀论文 奖 。 
+ 收稿 日期 ： 1997 - 10 - 28 

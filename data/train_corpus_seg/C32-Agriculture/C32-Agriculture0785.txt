@@ -1,0 +1,84 @@
+东北农业大学 学报 
+ JOURNALOFNORTHEASTAGRICULTURALUNIVERSITY 
+ 1999 年 　 第 30 卷 　 第 2 期 　 Vol.30 No.21999 
+ 
+ 
+ 
+ 水稻 杂种后代 稻米 直链 淀粉 含量 的 配合力 分析 
+ 金正勋 　 崔成焕 　 秋太权 
+ 摘要 　 选用 稻米 直链 淀粉 含量 比较 相近 的 6 个 粳稻 品种 ， 采用 Griffing 双列杂交 方法 四 ， 再 结合 直链 淀粉 含量 的 单粒 测定方法 ， 对 亲本 在 F1 、 F2 代 植株 上 结实 的 F2 、 F3 稻米 直链 淀粉 含量 配合 力作 了 分析 。 结果表明 ， 稻米 直链 淀粉 含量 的 GCA 和 SCA 方差 均 极 显著 ， 表明 在 本 试验 中 基因 加性效应 和 非 加性效应 均 起 重要 作用 。 但 ， 由于 二个 世代 的 gcaMs / scaMs 值 大于 1 或 显著 ， 且 随着 世代 的 推进 这一 比值 又 明显增加 ， 因此 ， 稻米 直链 淀粉 含量 在 杂种后代 的 表现 主要 还是 由 基因 加性效应 决定 。 在 F2 的 胚乳 表现 中 基因 非 加性效应 的 作用 很大 ， 随着 世代 的 增加 ， 加性 基因 的 作用 越显 重要 。 在 总 的 遗传变异 中 ， F2 种子 主要 以非 加性 变异 为主 ， F3 种子 主要 以加性 变异 为主 ， 但 非加性 变异 仍然 占 很大 比重 。 配合力 效应 两 世代 间 相关 不 显著 ， 亲本 稻米 直链 淀 含量 的 高低 与 一般 配合力 的 高低 并 不 一致 。 
+ 关 　 键 　 词 　 水稻 ， 直链 淀粉 含量 ， 配合力 ， 变化 
+ 中 图 分类号 　 SS11.1 ， S501 　 　 文献 标识码 A 
+ ANALYSISOFTHECOMBININGABILITYOFAMYLOSE 
+ CONTENTINGRAINSOFRICEHYBRID 
+ JinZhengxun ， CuiChenghuan ， QiuTaiquan 
+ ( NortheastAgriculturalUniversity , Harbin150030 , PRC ) 
+ ABSTRACT 
+ 　 　 ThecombiningabilitiesofamylosecontentwereanalysedingrainsofF2andF3settingontheF1andF2plantsfromthecrosses , madeamong6japonicaricecultivarswhichweredifferentinamylosecontentbythemeansoftheGriffing ' sdiallelcrossmethod4 . TheresultsshowedthattherewereverysignificantdifferenceinallGCAandSCAvarianceofamylosecontentsinricegrains , indicatingthatthegeneadditiveeffectandnon - additiveeffectallactedonitsignificantlyinthisexperiment . However , theamylosecontentappearancesofricegrainsinoffspringofhybridweredetermindedbythegeneadditiveeffect , becausethevaluesofgcaMs / scaMsinthetwogeneratinswereover / orsignificantandincreasedasthegenerationadvanced . Andtheactionofthegenenon - additiveeffectontheamylosecontentappearanceofF2wasmore , butthegeneadditiveeffectbecamemoreimportantwiththegenerationaugmentation . Thenon - additivevariationwaschiefinF2andtheadditiveonewaschiefinF3thoughthenon - additivestillaccountedforacertainproportion . Therelationshipofthecombiningabilityeffectbetweenthetwogenerationswasnotsignificantandtherewasdifferencebetweentheamylosecontentofricegrainofparentsanditsgeneralcombiningability . 
+ 　 　 KEYWORDS ： Rice , Amylisecontent , Combiningability , variation 
+ 0 　 前 　 言 
+ 　 　 稻米 的 蒸煮 、 食味 品质 是 衡量 稻米 优劣 的 最 重要 指标 。 已有 的 研究 表明 ， 稻米 蒸煮 、 食味 的 优劣 ， 在 很大 程度 上 取决于 稻米 淀粉 中 直链 淀粉 含量 与 支链 淀粉 含量 的 比例 。 因此 ， 国内外 水稻 育种 家 在 稻米 品质 改良 中 都 很 重视 直链 淀粉 含量 的 鉴定 和 遗传 研究 。 
+ 　 　 配合力 是 杂交 组合 中 亲本 各 性状 配合 能力 的 一个 指标 ， 在 作物 育种 中 ， 它 可以 作为 选配 亲本 的 重要依据 。 配合力 和 其它 农艺 性状 一样 具有 遗传 和 变异 的 特性 。 因此 ， 在 以 培育 纯系 为 目的 的 杂交育种 中 ， 仅用 F1 代 的 配合力 评价 亲本 是 不 全面 的 ， 应该 进一步 了解 配合力 在 杂种后代 中 的 变化 特点 及其 相对 大小 ， 这 对于 正确 选择 优良 亲本 和 后代 具有 实际意义 。 
+ 　 　 Griffing ( 1956 ) 提出 的 完全 双列杂交 法 ， 一直 被 大多数 学者 认为 是 分析 配合力 的 有效 方法 。 为了 进一步 探讨 稻米 直链 淀粉 含量 的 遗传 特性 ， 作者 利用 此种 方法 ， 再 结合 直链 淀粉 含量 的 单粒 测定方法 ， 对 水稻 杂种后代 稻米 直链 淀粉 含量 的 配合力 进行 了 分析 ， 为 水稻 品质育种 提供 参考 。 
+ 
+ 1 　 材料 与 方法 
+ 　 　 选用 稻米 直链 淀粉 含量 比较 相近 的 6 个 粳稻 品种 合江 19 、 上育 397 、 东农 416 、 富士 光 、 东农 419 、 东农 415 ( 分别 以 P1 、 P2 、 P3 、 P4 、 P5 、 P6 表示 ， 亲本 直链 淀粉 含量 见表 2 ) ， 分别 于 1994 年 和 1995 年 按 Griffing 双列杂交 方法 四 配制 15 个 杂交 组合 。 1996 年 将 F1 和 F2 代 的 15 个 杂交 组合 及 亲本 进行 试验 。 行距 30cm ， 株距 10cm ， 单本 插 ， F1 代为 8 — 15 株 不 等 ， F2 代 和 亲本 为 4m 行长 ， 双行 区 ， 全部 试验 以 组合 为 单位 顺序排列 ， 不设 重复 。 收获 时 ， F1 代 植株 以 组合 为 单位 全部 混收 ， F2 代 每 组合 随机 取 30 个 单株 ， 亲本 随机 取 15 个 单株 ， 单株 脱粒 ， 并 参照 申岳正 的 方法 〔 1 〕 ， 取 完整 精米 ， 测定 单粒 直链 淀粉 含量 。 F1 代 每 组合 测定 90 粒 ， F2 代 每 单株 测定 3 粒 ， 这样 F1 、 F2 代均 得 90 个 观察 值 ， 亲本 测定 70 粒 。 
+ 　 　 统计分析 以 单粒 为 单位 进行 ， 配合力 分析 是 按 刘来 福 〔 2 〕 介绍 的 方法 进行 。 
+ 2 　 结果 与 分析 
+ 2.1 　 各 世代 配合力 分析 及 基因 作用 的 估计 
+ 　 　 稻米 直链 淀粉 含量 是 胚乳 性状 ， 而 胚乳 是 一个 受精 产物 ， 在 遗传 上 比 植株 本身 高 一个 世代 ， 即 F1 、 F2 代 植株 上 结实 的 种子 胚乳 已 分别 是 F2 、 F3 代 。 因此 ， 在 本 试验 中 所 进行 的 配合力 分析 实际上 是 F2 、 F3 代 的 。 稻米 直链 淀粉 含量 的 F2 、 F2 代 配合力 分析 结果 列于 表 1 。 
+ 表 1 　 各 世代 直链 淀粉 含量 的 配合力 分析 
+ Table1 　 Combiningabilityanalysisofamylosecontentindifferentgenerations 
+ 世代 
+ GenerationF2F3 
+ 项目 ItemsDFMSFMSF 
+ 组合 间 Crosses1437.73224 . 35 * * 23.46616 . 49 * * 
+ GCA50.57933 . 66 * * 0.49131 . 07 * * 
+ SCA90.33419 . 42 * * 0.1338 . 42 * * 
+ 误 　 差 Error13350.0172 　 0.0158 
+ GCA / SCA 　 1.73 　 3.69 * 
+ σ 2A / σ 2G 　 0.2788 　 0.6046 
+ 　 　 注 ： 澈 酮 唱 撤直 鸨 硎 敬 5% 和 1% 的 显著 水平 。 
+ 　 　 Notc : 砤 nd 唱 硆 epresentat5% and1% singnificantlevelsrespectively . 
+ 　 　 由表 1 可见 ， 稻米 直链 淀粉 含量 两个 世代 组合 间均方 都 极 显著 ， 表明 上述 材料 群体 平均数 间 有 极 显著 的 遗传 差异 。 分解 为 一般 配合力 和 特殊 配合力 后 ， 二个 世代 这 两种 配合力 均方 都 达到 极 显著 水平 。 这 说明 ， 稻米 直链 淀粉 含量 在 杂种 F2 、 F3 代有 极 显著 的 一般 配合力 差异 及 组合 间 极 显著 的 特殊 配合力 差异 ， 同时 还 表明 ， 在 本 试验 中 基因 加性效应 和 非 加性效应 对 稻米 直链 淀粉 含量 均 起 重要 作用 。 
+ 　 　 GCA 与 SCA 均方 之 比 是 衡量 一般 配合力 和 特殊 配合力 相对 重要性 的 指标 。 稻米 直链 淀粉 含量 这一 比值 在 F2 代 虽然 没 达到 显著 水平 ， 但 比值 大于 1 ， 而且 在 F3 代 达到 显著 水平 。 由此 说明 ， 稻米 直链 淀粉 含量 在 杂种 F2 、 F3 代 的 表现 主要 是 由 基因 加性效应 决定 ， 但 F2 代 的 表现 中 基因 非 加性效应 的 作用 仍然 很大 ， 不过 随着 世代 的 增加 ， 加性 基因 的 作用 越显 重要 。 
+ 　 　 值 表示 ， 在 总 的 遗传变异 中加 性 变异 所 占 的 比重 大小 ， 这一 比值 越大 ， 说明 在 总 的 遗传变异 中加 性 变异 的 成份 越大 ， 而值 在 世代 间 的 变化 大小 表示 显性 及其 有关 互作 变异 的 大小 。 如果 显性 及其 有关 互作 变异 较大 ， 则 值 将 会 随着 世代 的 推进 而 变化 增大 ， 反之 若 显性 及其 有关 互作 变异 较 小 ， 则 值 在 世代 间 的 变化 较 小 。 在 表 1 中 ， 稻米 直链 淀粉 含量 的 在 F2 代为 0.2788 ， F3 代为 0.6046 ， 并且 随着 世代 的 推进 这一 比值 明显 增大 。 这 就 说明 ， 在 总 的 遗传变异 中 F2 代 主要 以非 加性 变异 为主 ， F3 代 主要 以加性 变异 为主 ， 但 非加性 变异 仍然 占 很大 比重 。 因此 ， 稻米 直链 淀粉 含量 虽然 在 F1 代 植株 上 以粒 为 单位 进行 分离 ， 为 单粒 选择 提供 材料 ， 但 其 遗传变异 主要 以非 加性 变异 为主 ， 而 这部分 变异 在 杂种后代 中 不 稳定 ， 会 降低 选择 效率 ， 故对 F1 代 植株 不宜 进行 单粒 选择 。 稻米 直链 淀粉 含量 的 单粒 选择 应从 F2 代 植株 开始 为宜 ， 这样 有利于 提高 选择 效果 。 
+ 2.2 　 世代 间 配合力 效应 的 变化 
+ 　 　 配合力 中 的 各种 基因 效应 都 是 在 一定 的 遗传 背景 下 产生 和 发展 起来 的 ， 随着 基因 的 分离 和 重组 ， 这些 基因 效应 相应 地会 有所 改变 ， 从而 配合力 的 表现 也 就 会 有所 变化 。 
+ 表 2 　 亲本 直链 淀粉 含量 各 世代 的 一般 配合力 效应 值及 平均值 
+ Table2 　 MeansandGCAeffectsofamylosecontentindifferentgenerations 
+ 世代 
+ Generation 合江 19 
+ Hejiang19 上育 397 
+ Shangyu397 东农 416 
+ Dongnong416 富士 光 
+ Fushiguang 东农 419 
+ Dongnong419 东农 415 
+ Dongnong415 
+ 一般 配合力 效应 　 F2 - 0.163 - 0.238 - 0.0480 . 762 - 0.088 - 0.893 
+ gcaeffect 　 F36.280 - 12.5607 . 6007.060 - 6.800 - 1.580 
+ 亲本 均值 ( % ) 
+ Parentmeans19.3318 . 5919.9219 . 6619.3818 . 28 
+ 
+ 表 3 　 15 个 杂交 组合 直链 淀粉 含量 各 世代 的 特殊 配合力 效应 值 
+ Table3 　 SCAeffectsofamylosecontentof15crossesindifferentgenerations 
+ 亲本 ParentP1P2P3P4P5P6 
+ P1 　 - 0.3390 . 861 - 0.199 - 0.089 - 0.244 
+ P20.217 　 - 0.0740 . 78960.036 - 0.419 
+ P30.517 - 0.238 　 - 0.824 - 0.4440 . 481 
+ P4 - 0.201 - 0.276 - 0.006 　 0.266 - 0.039 
+ P5 - 0.083 - 0.1580 . 8820.145 　 - 0.764 
+ P6 - 0.4510 . 455 - 0.3560 . 3770.015 
+ 　 　 注 ： 右上角 和 左下角 分别 为 F2 和 F3 代 的 特殊 配合力 效应 值 
+ 　 　 Note : TheuptriangleinthetableintheS . C . AValuesofF2generationandthedownintheS . C . AValuesofF3 . 
+ 　 　 稻米 直链 淀粉 含量 的 一般 配合力 效应 和 特殊 配合力 效应 ， 在 F2 代及 F3 代 的 表现 并 不 完全一致 ( 表 2 、 表 3 ) 。 亲本 合江 19 和 东农 416 的 一般 配合力 效应 在 F2 代均 表现 为 负值 ， 但 在 F3 代 却 均 表现 为 正值 ， 在 这 两 世代 的 表现 完全 相反 。 另外 在 F2 代 亲本 东农 415 的 一般 配合力 效应 值 最小 ， 但 在 F3 代 亲本 上育 397 的 一般 配合力 效应 值 却 最小 。 特殊 配合力 效应 同样 表现 了 和 一般 配合力 效应 相 类似 的 现象 。 一般 配合力 效应 和 特殊 配合力 效应 在 F2 代 和 F3 代间 的 秩次 相关系数 分别 为 0.6571 和 - 0.1214 ， 相关 不 显著 。 以上 说明 ， 世代 间 一般 配合力 效应 及 特殊 配合力 效应 的 表现 有所不同 ， 即 不同 世代 亲本 具有 不同 的 一般 配合力 效应 ， 组合 间 有 不同 的 特殊 配合力 效应 ， 配合力 效应 在 两 世代 间 的 表现 无 内在 的 必然联系 。 因此 ， 对于 利用 品种 间 杂交 选育 新品种 的 自交 作物 来说 ， 不能 只 根据 F1 代 植株 上 结实 的 F2 种子 的 配合力 效应 大小 来 确定 亲本 或 组合 的 优劣 。 
+ 2.3 　 配合力 的 相对 效应 与 亲本 评价 
+ 　 　 为了 具体 了解 各 亲本 对 杂种 贡献 的 大小 ， 以便 对 亲本 优劣 作出 更为 确切 的 评价 ， 估算 了 两 世代 的 亲本 稻米 直链 淀粉 含量 一般 配合力 的 相对 效应 及 特殊 配合力 方差 ， 其 结果 分别 列于 表 2 和表 4 。 
+ 表 4 　 亲本 特殊 配合力 方差 
+ Table4 　 VarianceofparentalSCA 
+ 世代 
+ Generation 合江 19 
+ Hejiang19 上育 397 
+ Shangyu397 东农 416 
+ Dongnong416 富士 光 
+ Fushiguang 东农 419 

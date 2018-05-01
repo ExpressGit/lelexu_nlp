@@ -1,0 +1,86 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 1999 年 第 3 期 No.31999 
+ 
+ 
+ 
+ 代数 等式 系有 穷 公理化 的 一个 扩充 定理 
+ 王驹 　 赵希顺 
+ 摘 　 要 　 首先 介绍 两个 概念 ： 主同 余类 的 弱 可定义性 以及 次直 不可 分解 类 的 可定义性 . 证明 了 任一 有穷 代数 A , 若 V ( A ) 具有 弱 可定义 的 主同 余类 以及 可定义 次直 不可 分解 类 ， 则 它 的 等式 系是 可以 有穷 公理化 的 . 进一步 的 讨论 揭示 出其 结果 是 新 的 ， 是 对 已有 工作 的 有 意义 的 扩充 . 
+ 关键词 　 等式 系 ， 主同 余类 ， 次直 不可 分解 类 . 
+ 中图法 分类号 　 TP301 
+ AnExtensionTheoremonFinitelyAxiomatizableAlgebraicEquationSystems 
+ WANGJu 
+ InstituteofSoftwareTheChineseAcademyofSciencesBeijing100080 
+ ZHAOXi - shun 
+ 　 DepartmentofMathematicsNanjingUniversityNanjing210008 
+ Abstract 　 First , thetwonotions : weaklydefinableprincipalcongruenceanddefinablesubdirectlyirreducibleclassareintroducedinthispaper . Theauthorsprovethatifavarietygeneratedbyafinitealgebrahasbothweaklydefinableprincipalcongruenceanddefinablesubdirectlyirreducibleclass , itsequationalsystemisfinitelyaxiomatizable . Furtherdiscussionshowsthattheresultsarenew , andaresignificantgeneralizationoftheknownresults . 
+ Keywords 　 Equationalsystem , principalcongruence , subdirectlyirreducibleclass . 
+ 　 　 随着 近年来 计算机 理论 研究 中 代数 归约 的 应用 及 发展 ， 很多 原来 属于 代数 理论 的 问题 引起 了 计算机 理论工作者 的 兴趣 . 其中 之一 即 是 代数 的 等式 系 的 有 穷 公理化 问题 . 关于 它 在 代数 归约 研究 中 潜在 的 应用 前景 ， 只 需 指出 一点 就够 了 ： 它 将 有助于 将 高阶 的 代数 语言 归结为 一阶 语言 . 
+ 　 　 任给 一个 有穷 代数 A , 比如 ， 群 、 环 、 域 、 布尔代数 、 格 、 代数 归约 理论 中 的 many - sortedalgebra 等等 . 它 的 等式 系 Σ ( A ) 指 的 是 所有 形如 p = q 又 满足 ： Ap = q 的 等式 全体 ， 这里 p , q 是 A 的 语言 中 的 任意 项 . Σ ( A ) 是 可以 有穷 公理化 的 ， 如果 存在 Σ ( A ) 的 一个 有穷 子集 Σ 1 , Σ 1 Σ ( A ) , 使 对 任一 Σ ( A ) 中 的 公式 p = q , 我们 有 Σ 1 ├ p = q , ├ 是 关系 “ 可 推出 ” 的 简写 . 
+ 　 　 代数 等式 系有 穷 公理化 研究 几乎 有 大半个 世纪 的 历史 ［ 1 ］ . 很难 给出 一个 哪怕 是 比较 完全 的 综述 . 在 否定性 的 研究 方向 （ 即 不可 有穷 公理化 ） ： Lyndon 在 1954 年 构造 了 一个 仅 含 7 个 元素 的 代数 ， 带 1 个 二元 运算 ， 1 个 一元 运算 ， 它 的 等式 系是 不可 有穷 公理化 的 . 以后 ， Murskii 的 三元 代数 （ 1965 年 ） ； Perkins 的 六元 半群 （ 1969 年 ） ； Polin 的 有 穷 非 结合 环 ( 1976 年 ) 等 ， 都 是 这方面 熟知 的 结果 . 1986 年 ， Bryant 定义 了 所谓 的 有 穷 pointedgroup , 也 是 不可 有穷 公理化 的 . Polin 的 结果 及 finitepointedgroup 的 结果 的 重要性 在于 ： 它们 与 著名 的 Oates - Powell ［ 2 ］ 定理 形成 了 十分 强烈 的 对比 . 后者 是 说 ： 任一 有 穷群 的 等式 系 都 是 可以 有穷 公理化 的 . 这 3 类有 穷 代数 ， 都 归于 模 族类 . 以上 事实 也 揭示 出有 穷 公理化 问题 远比 人们 想象 的 复杂 得 多 . 
+ 　 　 在 肯定 的 方面 ， 主要 的 工作 有 ： Birkhoff ( 1941 年 ) 证明 ： 如果 A 有穷 ， 且 是 有 穷型 （ 即 只 含有 穷个 函词 ） ， 又 如果 只 允许 有 穷个 变元 ， 则 A 的 等式 系可有 穷 公理化 . Mckenzie ( 1978 年 ) : 如果 V ( A ) 有 可定 主同 余类 ， 有 穷型 ， 只 含有 穷个 次 直 不可 分解 代数 ， 都 是 有 穷 的 ， 则 A 的 等式 系可有 穷 公理化 . K . Baker ( 1978 年 ) ［ 1 ］ 证明 ： 若 A 是 有 穷且 有 穷型 ， V ( A ) 是 分配 的 ， 则 A 的 等式 系可有 穷 公理化 . 1988 年 ， Mckenzie 把 结果 推广 到 只 含有 穷个 次 直 不可 分解 代数 的 模族 上 ［ 3 ］ . 另外 ， 关于 具体 的 代数 、 二元 代数 （ Lyndon , 1951 年 ） 、 有限 群 ( Oates - Powell , 1965 年 ) 、 有限 环 ( Kruse , Lvov , 1973 年 ) 等 ， 都 是 可 有 穷 公理化 的 . 
+ 　 　 从 整个 研究 的 发展 过程 来看 ， Baker 在 分配 族 上 的 工作 及 Oates - Powell 关于 群 的 结果 ， 被 认为 是 主要 的 进展 . 一个 几十年 未 解决 的 问题 是 ： 如何 将 Baker 定理 以及 Oates - Powell 定理 统一 到 一个 扩充 定理 中 . 但 由于 Polin 在 1976 年 的 结果 及 1996 年 pointedgroup 的 给出 ， 人们 已 几乎 相信 ， 这样 的 一个 扩充 不 存在 . 
+ 　 　 本文 的 结果 即 是 在 上述 方向 研究 中 的 一个 新 结果 . 其 意义 在于 ： ( 1 ) 它 是 已知 结果 的 真正 扩充 . ( 2 ) 现在 已知 的 是 ， 它 至少 分别 覆盖 以上 两个 定理 的 很 大部份 . 
+ 1 　 主要 定理 及其 证明 
+ 　 　 在 本节 里 ， 假定 A 是 一个 有穷 代数 ， 具有 穷型 . V ( A ) 是 由 A 生成 的 代数 族 ， 是 所有 满足 A 的 等式 系 的 同 类型 的 代数 的 全体 . 
+ 　 　 定义 1 . 我们 说 V ( A ) 有弱 可定义 主同 余类 ， 如果 在 A 的 语言 中 ， 存在 两个 一阶 公式 Γ 1 ( w , v , x , y ) , Γ 2 ( w , v , x , y ) , 使得 对 所有 的 B ∈ V ( A ) , 对 所有 的 s , t ∈ B , s ≠ t , 我们 总能 找到 a , b ∈ B , a ≠ b , 满足 ： 
+ 　 　 ( 1 ) B Γ 1 ( w , v , x , y ) , 则 θ ( w , v ) ≤ θ ( x , y ) . 
+ 　 　 ( 2 ) B Γ 2 ( w , v , x , y ) , 则 θ ( w , v ) ≤ θ ( x , y ) . 
+ 　 　 ( 3 ) B Γ 1 ( a , b , s , t ) , 亦 即 a = b ( mod θ ( s , t ) ) . 
+ 　 　 ( 4 ) 公式 Γ 2 定义 了 整个 由 a , b 生成 的 主同 余类 θ ( a , b ) . 亦 即 对 所有 的 c , d ∈ B : c = d ( mod θ ( a , b ) ) 当且 仅 当 B Γ 2 ( c , d , a , b ) . 
+ 　 　 定义 2 . ( K . Baker ) 我们 说 V ( A ) 有 可定义 的 次 直 不可 分解 代数 类 ， 如果 存在 A 的 语言 的 一个 公式 Φ , 使得 对 任一 与 A 同型 的 代数 B , 下 式 成立 ： 
+ B 是 次 直 不可 约 的 且 B ∈ V ( A ) 当且 仅 当 B Φ . 
+ 　 　 主 定理 . 如果 A 有弱 可定义 主同 余类 且 V ( A ) 中 的 次 直 不可 约 代数 类 是 可定义 的 ， 则 A 的 等式 系是 可 有 穷 公理化 的 . 
+ 　 　 证明 ： 先 建立 下列 的 引理 . 
+ 　 　 引理 1 . 存在 一个 一阶 公式 Φ 1 , 它 表达 性质 ： V ( A ) “ 有弱 可定义 主同 余类 ” ， 即 ： V ( A ) 有弱 可定义 主同 余类 当且 仅 当 蠦 ∈ V ( A ) , B Φ 1 . 
+ 　 　 引理 证明 ： 考虑 下面 的 公式 ： 
+ 　 　 s , t ［ s ≠ t → a , b ［ a ≠ b ∧ Γ 1 ( a , b , s , t ) ∧ { Γ 2 ( a , b , a , b ) ∧ x Γ 2 ( x , x , a , b ) ∧ x , y ( Γ 2 ( x , y , a , b ) → Γ 2 ( y , x , a , b ) ) ∧ x , y , z ( Γ 2 ( x , y , a , b ) ∧ Γ 2 ( y , z , a , b ) → Γ 2 ( x , z , a , b ) ) ∧ 
+ x1 , y1 , x2 , y2 , ... , xn , yn ［ ∧ 1 ≤ i ≤ n Γ 2 ( xi , yi , a , b ) → Γ 2 ( f ( ) , f ( ) , a , b ) ］ } ］ ］ . 
+ 这里 , Φ n 是 A 的 语言 中 n 元 函词 的 全体 . 注意 Φ 是 一个 有 穷集 . 显然 , 以上 公式 中 在 { } 内 的 部分 定义 了 主同 余类 θ ( a , b ) . 将 以上 公式 记 为 Ψ 1 . 容易 验证 ： 任 给与 A 同型 的 代数 B , 可以 不 在 V ( A ) 内 ， 如果 我们 有 B 处 1 ， 则 B 满足 定义 1 中 的 ( 1 ) ～ ( 4 ) . 
+ 　 　 引理 2 . 在 A 的 语言 中 ， 存在 一个 公式 Ψ 2 , 对 所有 与 A 同型 的 代数 B , 可以 不 在 V ( A ) 内 ， 有 B Ψ 2 当且 仅 当 B Ψ 1 , 而且 B 是 次 直 不可 约 的 . 
+ 　 　 证明 ： 考虑 下面 的 公式 ： 
+ 　 　 Ψ 1 ∧ c , d , s , t ［ s ≠ t → a , b ［ a ≠ b ∧ Γ 1 ( a , b , s , t ) ∧ { Γ 2 ( a , b , a , b ) ∧ x Γ 2 ( x , x , a , b ) ∧ x , y ( Γ 2 ( x , y , a , b ) → Γ 2 ( y , x , a , b ) ) ∧ x , y , z ( Γ 2 ( x , y , a , b ) ∧ Γ 2 ( y , z , a , b ) → Γ 2 ( x , z , a , b ) ) ∧ x1 , y1 , x2 , y2 , ... , xn , yn ［ ∧ 1 ≤ i ≤ n Γ 2 ( xi , yi , a , b ) → Γ 2 ( f ( ) , f ( ) , a , b ) ］ ∧ Γ 2 ( c , d , a , b ) ∧ x , y ( Γ 2 ( x , y , c , d ) → Γ 2 ( c , d , x , y ) ) } ］ ］ , 
+ 将 以上 公式 记 为 Ψ 2 . 
+ 　 　 若 B Ψ 2 , 当然 我们 有 B Ψ 1 , 由 ( 1 ) , θ ( a , b ) ≤ θ ( s , t ) , 由 ( 2 ) , θ ( c , d ) ≤ θ ( a , b ) , 从而 θ ( c , d ) ≤ θ ( s , t ) . s , t 是 任意 的 ， 所以 ， θ ( c , d ) 是 CON ( B ) 中 唯一 的 最小 同余类 ， 所以 B 是 次 直 不可 约 的 . 
+ 　 　 反过来 ， 若 B Ψ 1 同时 又 是 次 直 不可 约 的 . 令 γ 是 B 的 最小 的 同余类 . 任给 s , t ∈ B , s ≠ t ， 则 γ ≤ θ ( s , t ) . 由 Ψ 1 , 存在 a , b , 使 Γ 1 ( a , b , s , t ) , 而 θ ( a , b ) 是 可以 用 Γ 2 来 定义 的 . 由于 γ 是 最小 的 ， 我们 有 γ ≤ θ ( a , b ) . 于是 有 c , d , 使 θ ( c , d ) = γ , 同时 ， Γ 2 ( c , d , a , b ) . 所以 Ψ 2 在 B 中 成立 . 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 □ 
+ 　 　 回到 主 定理 的 证明 . 由 以上 两个 引理 ， 我们 有 
+ Σ ( A ) ├ Ψ 1 ∧ ( Ψ 2 → Φ ) . 
+ 由紧 致性 定理 ， 存在 Σ ( A ) 的 一个 有 穷集 Σ 1 , 使 
+ Σ 1 ├ Ψ 1 ∧ ( Ψ 2 → Φ ) . 
+ 我们 要证 ： Σ 1 ├ Σ ( A ) ， 即 Σ ( A ) 可有 穷 公理化 . 只 需证 V ( Σ 1 ) = V ( Σ ( A ) ) 即可 . 但 我们 早有 V ( Σ ( A ) ) V ( Σ 1 ) . 此时 ， 只 需证 V ( Σ 1 ) 中 的 次 直 不可 约 代数 都 在 V ( A ) 中 . 令 B ∈ V ( Σ 1 ) , 是 次 直 不可 约 的 ， 则 B Σ 1 . 于是 B 处 1 , 同时 我们 有 B Ψ 2 ( 由 引理 2 ) . 但 B Ψ 2 → Φ , 所以 , B Φ . 由 定理 给出 的 条件 ， B ∈ V ( A ) . 所以 我们 有 V ( Σ ( A ) ) = V ( A ) = V ( Σ 1 ) . 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 □ 
+ 2 　 讨论 
+ 　 　 弄清楚 我们 的 主 定理 有 多 大 的 覆盖面 ， 显然 是 一个 有 意义 的 问题 ， 但 不是 一个 容易 的 问题 . 为了 揭示 它 确实 是 已知 结果 的 扩充 ， 我们 考虑 两个 已知 的 、 著名 的 有 穷 公理化 定理 ： Mckenzie 定理 及 Oates - Powell 定理 . 二者 是 互相 独立 的 . 
+ 　 　 Mckenzie 定理 . 如果 A 有 穷且 是 有 穷型 ， V ( A ) 仅 含有 穷个 有 穷次 直 不可 约 代数 ， 同时 又 有 可定义 的 主同 余类 ， 则 V ( A ) 的 等式 系是 可 有 穷 公理化 的 . 
+ 　 　 Oates - Powell 定理 . G 是 有限 群 ， 则 V ( G ) 的 等式 系可有 穷 公理化 . 
+ 　 　 Oates - Powell 定理 显然 不 包括 Mckenzie 定理 . 反过来 ， V ( G ) 中 （ 一般地说 ） 含有 无穷 个次 直 不可 约群 ， 而 只 在 很少 的 情况 下 ， V ( G ) 有 可定义 的 主同 余类 ， 因而 Mckenzie 定理 及 Oates - Powell 定理 是 互相 独立 的 . 
+ 　 　 命题 1 . V ( A ) 有 可定义 的 主同 余类 ， 则 V ( A ) 有弱 可定义 的 主同 余类 . 
+ 　 　 证明 ： 显然 . 
+ 　 　 命题 2 . V ( A ) 含有 穷个 有 穷次 直 不可 约 代数 ， 则 V ( A ) 有 可定义 次直 不可 约类 . 
+ 　 　 证明 ： 由 Quakenbush 的 结果 （ 见 文献 ［ 1 ］ ） ， V ( A ) 中 没有 无穷的 次直 不可 约 代数 . 令 S1 , S2 , ... , Sn 是 V ( A ) 中次 直 不可 约 代数 的 全体 . 只要 证明 任一 Si 在 A 的 语言 中是 可定义 的 即可 . 实际上 , 任一 有 穷 的 代数 都 是 可定义 的 . 令 S 是 有 穷 的 . 记 S = { a1 , a2 , ... , ak } , S 的 运算 是 f1 , f2 , ... , fm . 定义 公式 ： 
+ Ω ≡ x1 , x2 , ... , xm ［ Φ ∧ 1 ≤ i ≤ m Ψ i ］ . 
+ 这里 , Φ ≡ ∧ i ≠ j1 ≤ i , j ≤ k ( xi ≠ xj ) ∧ 衳 ( ∨ 1 ≤ i , j ≤ kx = xi ) ， Ψ i ≡ ∧ f ( ) = xj , = { xi1 , xi2 , ... , xis } , 而且 fi ( ai1 , ai2 , ... , ais ) = aj . 注意 这里 我们 默认 xi 对应 于 ai . 
+ 　 　 容易 验证 ， 对 A 的 语言 的 任一 代数 S ′ , S ′ 当且 仅 当 S ′ S . 
+ 　 　 由 命题 1 ， 2 ， 主 定理 是 Mckenzie 定理 的 扩充 . 
+ 　 　 为了 证明 主 定理 是 Mckenzie 定理 的 真实 扩充 ， 只 需 借助于 Oates - Powell 定理 的 一个 特殊 情形 即可 . 
+ 　 　 命题 3 . G 是 有限 幂零群 ， 则 V ( G ) 有 可定义 主同 余类 . （ 从而 有弱 可定义 主同 余类 ） . 
+ 　 　 证明 ： 见 文献 ［ 4 ］ . 
+ 　 　 很 容易 找到 一个 有限 幂零群 G , 使 V ( G ) 中 存在 任意 大 的 有限 次直 不可 约群 , 由 Taylor 的 结果 ［ 3 ］ ， V ( G ) 中 存在 任意 大 的 无穷 次直 不可 约群 ， V ( G ) 显然 不 在 Mckenzie 定理 的 范围 内 . 但是 ， 我们 有 ： 
+ 　 　 命题 4 . V ( G ) 有 可定义 的 次 直 不可 约类 . 
+ 证明 ： 由 Oates - Powell 定理 ， V ( G ) 可有 穷 公理化 ， 从而 存在 有 穷个 等式 pi = qi , 1 ≤ i ≤ n , 使 对 任 一群 F , F , pi = qi , 1 ≤ i ≤ n , i 当且 仅 当 F ∈ V ( G ) . 由 命题 3 , 存在 一主同 余类 公式 Γ ( w , v , x , y ) , 它 定义 V ( G ) 中 的 所有主 同余类 . 考虑 下面 的 公式 ： 
+ Φ ≡ ∧ 1 ≤ i ≤ n ( pi = qi ) ∧ w , vx , y Γ ( w , v , x , y ) ， 
+ 这里 ， 等式 pi = qi 被 当作 带 全称 量词 的 语句 . 容易 验证 ， Φ 定义 了 V ( G ) 中 的 次 直 不可 约类 . 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 □ 
+ 所以 主 定理 是 Mckenzie 定理 的 真正 扩充 . 
+ 　 　 本文 研究 得到 国家自然科学基金 和 国家 863 高科技 项目 基金 资助 . 作者 王驹 , 1950 年生 , 研究员 , 主要 研究 领域 为 逻辑 及 计算机科学 . 赵希顺 , 1961 年生 , 在职 博士生 , 副教授 ， 主要 研究 领域 为 逻辑 及 计算机科学 . 
+ 　 　 本文 通讯联系 人 : 王驹 ， 北京 100080 , 中国科学院 软件 研究所 
+ 作者 单位 ： 王驹 ： 中国科学院 软件 研究所 　 北京 　 100080 
+ 　 　 　 　 　 赵希顺 ： 南京大学 数学系 　 南京 　 210008 
+ 参考文献 
+ ［ 1 ］ BurrisS , SankappanavarHP . ACourseinUniversalAlgebra . NewYork : Spring - Verlag.1981 
+ ［ 2 ］ OatesS , PowellMB . Identicalrelationsinfinitegroups . JournalofAlgebra , 1965 , ( 1 ) : 11 ～ 39 
+ ［ 3 ］ FreeseR , MckenzieR . CommutatorTheoryforCongruenceModularVarieties . Cambridge : CambridgeUniversityPress , 1987 
+ ［ 4 ］ BurrisSLawrence . Definableprincipalcongruencesinvarietiesofgroupsandrings . AlgebraUniversali , 1979 , ( 9 ) : 152 ～ 164 
+ （ 1998 - 03 - 30 收稿 ） 

@@ -1,0 +1,170 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1998 年 第 18 卷 第 4 期 No.4 Vol.181998 
+ 科技期刊 
+ 
+ 硅酸盐 水泥 的 生命周期 评价 方法 初探 * 
+ 刘顺妮 　 林宗寿 　 张小伟 　 （ 武汉 工业 大学 材料科学 与 工程系 ， 武汉 430070 ） 
+ 文 　 摘 　 介绍 了 生命周期 评价 方法 （ LCA ） 及其 在 水泥 工业 中 的 应用 。 运用 环境影响 指标 标准化 和 AHP 权重 定量 法对 硅酸盐 水泥 进行 了 较为 系统 的 LCA 评价 ， 得到 了 硅酸盐 水泥 环境 综合 指标 为 6.70 × 10 - 12 年 , 并 提出 了 水泥 环境 性能 改善 的 关键在于 提高 能效 、 减少 碳酸 质 原料 用量 及 改进 工业 燃烧 技术 。 单纯 减少 水泥 生产 煤耗 而 提高 电耗 并 不能 从根本上 改善 水泥 的 环境 性能 ， 只是 将 污染 从 水泥 行业 向 电力行业 转嫁 。 
+ 关键词 　 环境 　 LCA 　 硅酸盐 水泥 
+ Studiesonthelifecircleassessmentofportlandcement . LiuShunni ， LinZongshou ， ZhangXiaowei ( DepartmentofMaterialsScienceandEngineering , WuhanUniversityofTechnology , Wuhan430070 ) . ChinaEnvironmentalScience.1998 , 18 ( 4 ) : 328 ～ 332 
+ Abstract — Inthisarticle , thebasicconceptandframeworkforLCA ( LifeCircleAssessment ) aredescribedandthemethodologyofitsapplicationtoportlandcementisdiscussed . BynormalizingenvironmentalthemesandutilizingAHPtoqualityweightingfactors , LCAofportlandcementisprocessedsystematicallyanditscomprehensiveenvironmentalindexis6.70 × 10 - 12a . Atlast , thefollowingconclusionsaredrawn : decreasingcoalexpenseandincreasingelectricityexpensecannotimproveenvironmentalperformanceofcement , itjusttransfersthepollutionfromcementproductiontoelectricityproduction . Theopportunitiesforimprovingenvironmentalperformanceofcementareenhancingtheefficiencyofenergyutilization , decreasingtheamountofcarbonaterawmaterialsusedandimprovingtheindustrialburningtechnology . 
+ Keywords : environment 　 LCA 　 portlandcement 
+ 　 　 传统 的 环境影响 评价 和 治理 方式 局限于 单一 的 生产 过程 及 污染 介质 ， 不能 满足 环境保护 的 要求 ， 甚至 由于 污染 在 不同 生产 过程 或 介质 间 的 转嫁 得到 适得其反 的 结果 〔 1 〕 ， 因此 人类 期望 通过 研究 整体 生产 行为 与 环境 的 相互作用 来 解决 日益严重 的 环境 问题 。 作为 评价 和 解决 环境 问题 的 有效 工具 ， LCA 方法 及 应用 的 研究 已 覆盖 整个 工业 社会 ， 涉及 到 工业 产品 及 生产工艺 的 设计 、 评价 、 改善 及 环境 政策 制定 等 诸多方面 〔 2 〕 ， 成为 许多 发达国家 制定 工业 发展 战略 的 首选 指导 工具 〔 3 〕 。 本文 介绍 了 LCA 的 基本概念 和 方法 ， 并 对 硅酸盐 水泥 进行 初步 的 LCA 评价 。 
+ 1 　 LCA 的 基本概念 及 方法 
+ 1.1 　 LCA 的 基本概念 
+ 　 　 LCA 即 寿命 周期 评价 （ LifeCircleAssessment ） 或 寿命 周期 分析 （ LifeCircleAnalysis ） 。 可定义 为 ： 按 系统 路径 （ 即 从 摇篮 到 坟墓 ） 评价 产品 或 工业 行为 的 一种 系统 方法 〔 4 〕 。 
+ 1.2 　 LCA 的 基本 框架 及 方法 
+ 　 　 按照 SETAC 给出 的 LCA 基本 框架 〔 5 ， 6 〕 可知 ： 一个 完整 的 LCA 由 研究 目标 及 范围 确定 、 编目 分析 、 环境影响 评估 、 环境 改善 评价 等 组成 。 
+ 1.2 . 1 　 研究 目标 及 范围 确定 　 确定 整个 研究 的 基本 框架 ， 定义 其它 三 部分 间 的 相互 关系 ， 决定 后续 阶段 的 进行 及 LCA 的 最终 结果 。 这个 过程 一般 需 确定 4 个 方面 的 内容 〔 4 〕 ： LCA 研究 目的 、 LCA 研究 结果 使用者 、 LCA 研究 对象 、 LCA 研究 的 边界条件 。 
+ 1.2 . 2 　 编目 分析 ( 即 LCI （ LifeCircleInventory ) ) 　 LCI 是 LCA 方法 发展 最为 完善 的 一部分 ， 通常 由 工艺流程 图 、 数据 收集 、 系统 边界 确定 、 数据处理 等 4 个 阶段 组成 。 
+ 1.2 . 3 　 环境影响 评估 ( 即 IA （ ImpactAssessment ） ) 　 采用 一定 的 换算 模型 将 LCI 过程 得到 的 产品 寿命 周期 的 大量 环境 数据 转换 为 可 比较 的 环境影响 指标 进行 评估 的 过程 。 主要 包括 分类 、 指标化 、 评估 等 部分 〔 7 〕 。 
+ 　 　 分类 ： 将 环境 污染物 按 影响 作用 划分 为 以下 9 类 〔 4 〕 ： 不可 再生 的 原料 消耗 （ ADP ） ； 不可 再生 的 能源消耗 ( EDP ) ； 温室效应 ( GWP ) ； 臭氧层 的 破坏 ( ODP ) ； 生物体 的 损害 ( ECA ) ； 环境 酸化 ( AP ) ； 人类 健康 损害 ( HT ) ； 光化学 氧化物 生成 ( POCP ) ； 氮化 作用 ( NP ) 。 
+ 　 　 指标化 ： 根据 环境影响 分类 ， 依据 一定 的 模型 将 各 LCI 数据 转化 为 相应 的 环境影响 指标 。 为 便于 处理 ， 通常 将 环境 指标 无量 纲化 ， 以 环境 指标 占 整个 研究 范围 的 相应 环境 指标 的 比例 表示 〔 4 〕 ( 即 标准 指标 ) 。 
+ 　 　 评估 ： 采用 层次 分析法 〔 8 ， 9 〕 得到 具体 的 环境影响 指标 权重 系数 ， 将 环境影响 综合 指标 定量 为 ： 标准 指标 i × 权重 系数 i ， 从而 得出 环境影响 评估 总体 结论 。 
+ 1.2 . 4 　 环境 改善 评价 　 确定 寿命 周期 各 阶段 对 环境 的 影响 ， 提出 改善 措施 ， 并 进行 了 相应 评价 。 
+ 2 　 硅酸盐 水泥 LCA 评价 方法 
+ 　 　 硅酸盐 水泥 LCA 评价 一般 分为 两种 。 广义 的 LCA 评价 ： 就 某 一 区域 的 水泥 工业 系统 进行 总体 评价 ， 对 确定 水泥 的 环境 地位 ， 制定 相应 的 环境 政策 及 水泥 工业 的 可 持续 发展 战略 具有 指导意义 。 狭义 的 LCA 评价 ： 对 确定 的 水泥 工业 系统 进行 评价 ， 为 水泥 的 环境 性能 改善 、 新工艺 和 新 技术 的 发展 提供 方向 和 指导 。 
+ 　 　 考虑 到 水泥 寿命 周期 的 不确定性 ， 本 研究 以 原料 开采 至 水泥 生产 ， 同时 以 一定 标准 的 混凝土 制造 构成 LCA 评价 的 寿命 周期 ， 其 流程 见图 1 所示 。 
+ 　 　 由于 所有 的 工业 系统 几乎 都 包含 有 燃料 开采 、 电力 生产 、 运输 等 环节 ， 可 将 其 称为 公用 系统 。 公用 系统 环境 数据库 是 LCA 评价 的 基本 要求 。 硅酸盐 水泥 LCA 评价 的 关键在于 数据 的 计算 和 收集 。 结合 水泥 实际 生产 和 部分 文献 数据 ， 进行 硅酸盐 水泥 的 广义 LCA 评价 。 
+ 
+ 图 1 　 水泥 寿命 周期 流程 示意 
+ Fig.1 Theflowdiagramofcementproductionprocess 
+ 2.1 　 确定 评价 体系 的 边界条件 
+ 2.1 . 1 　 研究 对象 为 硅酸盐 水泥 ， 原料 采用 石灰石 、 粘土 及 石膏 ， 吨 水泥 料耗 ： 石灰石 1.3 t 、 粘土 0.3 t 、 石膏 50kg ， 不 考虑 工业 废渣 的 利用 。 
+ 2.1 . 2 　 功能 单位 以 1m3 标准 混凝土 所用 水泥 重量计 ， 并 以此 应用 构成 完整 寿命 周期 。 1m3 标准 混凝土 配比 为 ： 270kg 水泥 、 60kg 飞灰 、 1850kg 集料 。 
+ 2.1 . 3 　 不 考虑 水泥 的 循环 利用 、 废弃 处理 。 
+ 2.1 . 4 　 5t 柴油 汽车 运输 。 水泥 和 混凝土 原料 运输 距离 分别 假定 为 5km 和 30km 。 
+ 2.1 . 5 　 生产 设备 、 建筑设施 相关 的 环境污染 不予考虑 。 
+ 2.2 　 硅酸盐 水泥 LCI 分析 
+ 　 　 LCI 分析 主要 在于 确定 有关 子系统 的 环境 数据 。 公用 系统 的 环境 数据 见表 1 。 
+ 　 　 表 1 中 的 电力 生产 污染物 数据 是 按 我国 发电 能耗 平均值 0.424 kg 标煤 / kWh ， 折合 为 热值 24244kJ / kg 燃煤 计算 而 来 ； CO2 生成量 按 原煤 固定 碳 含量 50% 计算 ； 原煤 灰分 以 20% 计 ； 电力 生产 、 运输系统 NO2 、 SO2 生成量 系 根据 相应 平均 排放 因子 〔 10 〕 计算 得到 。 所有 的 原料 开采 以 相同 的 电力 消耗 计 ， 未 考虑 其它 污染物 。 同理 可 得 水泥 生产 过程 的 环境 数据 （ 见表 2 ） 。 
+ 表 1 　 水泥 公用 系统 环境 数据 ( kg ) 
+ Table1 　 Environmentdataofpublicsystem ( kg ) 
+ 
+ 公用 系统 　 　 能源 （ GJ ） CO2COCxHyNOxSO2 废弃物 
+ 电力 ( kwh ) 标煤 0.424 kg0.9384 . 0E - 57.2 E - 55.1 E - 31.12 E - 30.1023 
+ 　 0.0124 GJ 
+ 运输 ( 5t / km ) 柴油 0.2 L0.6730 . 0021.1 E - 34.7 E - 31.36 E - 4 
+ 　 0.00714 GJ 
+ 原煤 ( 103kg ) 电力 13.89 kWh 
+ 
+ 表 2 　 水泥 寿命 周期 过程 的 环境 数据 ( kg ) 
+ Table2 　 Thelifecircleenvironmentdataofportlandcement ( kg ) 
+ 
+ 生产 过程 能耗 CO2COCxHyNOxSO2 废弃物 
+ 电力 ( kwh ) 煤耗 ( kg ) 
+ 原料 开采 ( 103kg ) 13.89 
+ 水泥 制造 ( 103kg ) 123.3204 . 4 燃煤 3741.15 E - 22.73 E - 21.5330 . 35440 
+ 　 　 　 原料 511 
+ 混凝土 制造 ( m3 ) 2 
+ 
+ 　 　 表 2 中 的 水泥 生产 能耗 数据 见 文献 〔 11 〕 ， 燃煤 热值 以 22990kJ / kg 计 ， 固定 碳以 50% 计 ， 水泥 生产 固体废物 以 产量 4% 计 ， 其它 数据 参考 电厂 燃煤 按 能耗 换算 得到 。 混凝土 制造 耗电 约 为 2kwh / m3 , 其它 污染 未 考虑 。 
+ 　 　 利用 表 1 ， 表 2 的 数据 对 水泥 功能 单位 ( 1m3 混凝土 ) 进行 LCA 汇总 计算 ， 结果 见表 3 。 
+ 表 3 　 水泥 LCA 数据 汇总 
+ Table3 　 ThecollectofLCAdataofportlandcement 
+ 
+ 过程 原 燃料 和 能量消耗 电耗 
+ ( kwh ) 煤耗 
+ ( kg ) 柴油 
+ ( L ) CO2 
+ ( kg ) CO 
+ ( kg ) CxHy 
+ ( kg ) NOx 
+ ( kg ) SO2 
+ ( kg ) 废弃物 
+ ( kg ) 
+ 原 石灰石 351kg4.88 　 
+ 料 粘土 　 81kg1.125 
+ 开 石膏 13.5 kg0.19 
+ 采 运输 　 5km 　 　 0.08910 . 38.9 E - 44.9 E - 42.1 E - 36.1 E - 5 
+ 水泥 
+ 制造 水泥 用量 
+ 270kg33.2955 . 19 　 2393.1 E - 37.4 E - 30.4140 . 09610.8 
+ 混 集料 1850kg25.7 
+ 凝 运输 30km 
+ 土 ( 水泥 飞灰 集料 ) 　 　 2.6168 . 790.0260 . 0140.0635 . 3E - 3 
+ 制 2180kg 
+ 造 制造 2 
+ 生产 过程 总计 67.1855 . 192.7052480 . 030.0230 . 480.1010 . 8 
+ 能源 　 煤 55.19 kg 　 　 　 　 0.767 　 　 63.82 . 7E - 34.9 E - 30.357 . 6E - 26.96 
+ 生产 　 电 67.95 度 　 　 　 　 　 34.77 
+ 寿命 周期 总计 　 89.962 . 7053120.03270 . 02720.830 . 1817.8 
+ 
+ 　 　 　 　 注 ： 表中 能源 生产 未 考虑 运输 燃油 的 生产 
+ 2.3 　 硅酸盐 水泥 IA 分析 
+ 　 　 根据 LCI 数据 将 水泥 对 环境 的 影响 进行 分类 ， 并 依 对 应当 量 进行 指标化 , 结果 见表 4 。 表 4 中未 考虑 固体废弃物 及 粉尘 。 采用 层次 分析法 ( AHP ) 求出 各 指标 的 权重 系数 ， 不同 指标 的 重要性 标度 〔 9 〕 见表 5 。 
+ 　 　 由表 5 标度 值得 到 相应 的 判断 矩阵 ， 求出 其 特征向量 经 一致性 检验 合格 得到 各 指标 的 权重 系数 ， 结果 见表 6 。 
+ 表 4 　 水泥 环境影响 分类 、 指标化 及 标准化 
+ Table4 　 Environmentimpactclassification 、 indexandstandardizationofportlandcement 
+ 
+ 环境影响 分类 有关 污染物 参照物 当量 指标 世界 指标 标准 指标 
+ 　 　 　 ( kg ) ( 10 - 9a ) ( 10 - 12a ) 
+ ADP 
+ EDP 能源消耗 1GJ2.112 GJ235GJ8.987 
+ GWPCO21kgCO2311.937 . 7kg × 10128.273 
+ ODP 
+ ECA 
+ APNOx 、 SO21kgSO20.761 　 286 　 kg2.661 
+ HTCO 、 NOx 、 SO21kg 人体 0.8638576 　 kg1.500 
+ NPNOx1kgPO3 - 40.107974 . 8kg1.443 
+ POCPCxHy1kg 乙烯 0.01013 . 74kg2.701 
+ 
+ 表 5 　 水泥 环境 指标 重要性 标度 
+ Table5 　 Environmentimportancelevelofportlandcement 
+ 
+ 生态 重要性 EDPGWPHTAPPOCPNP 
+ EDP124779 
+ GWP1 / 213668 
+ HT1 / 41 / 31456 
+ AP1 / 71 / 61 / 4135 
+ POCP1 / 71 / 61 / 51 / 313 
+ NP1 / 91 / 81 / 61 / 51 / 31 
+ 
+ 表 6 　 各 影响 指标 的 相对 权重 系数 
+ Table6 　 Therelativeimportanceofeveryeffectfactor 
+ 
+ 指标 权重 系数 指标 权重 系数 
+ EDP0.4138 GWP0.2916 
+ POCP0.1557 HT0.0709 
+ NP0.0434 AP0.0246 
+ 
+ 　 　 注 ： λ max = 6.471 　 R . I = 1.24 　 C . I = 0.0942 　 C . R = 0.076 ＜ 0.1 
+ 
+ 　 　 据此 ， 求得 水泥 的 环境 综合 指标 为 ： 标准 指标 i × 权重 系数 i = 6.70 × 10 - 12 年 ， 用 同样 方法 对 水泥 寿命 周期 各 子系统 求得 环境 综合 指标 ， 结果 见表 7 。 
+ 2.4 　 水泥 环境 性能 评估 与 改善 
+ 　 　 从表 7 结果 可以 看到 ， 水泥 寿命 周期 环境污染 主要 来自 水泥 制造 及 电力 生产 阶段 ， 其 影响 比例 分别 为 68.06% 和 26.17% 。 主要 环境影响 在于 能源消耗 及 由于 CO2 排放 所 导致 的 温室效应 。 对照表 2 ， 表 3 的 LCI 数据 可知 ， CO2 主要 来源于 石灰石 原料 分解 、 电厂 燃煤 、 水泥 生产 用 煤 。 因此 ， 降低 碳酸 质 原料 的 用量 和 煤耗 ， 提高 能效 是 改善 水泥 工业 环境污染 的 主要 途径 。 单纯 减少 水泥 生产 阶段 煤耗 而 提高 电耗 并 不能 从根本上 改善 水泥 的 环境 性能 ， 而是 将 污染 从 水泥 行业 向 电力行业 的 转嫁 。 
+ 　 　 此外 ， NOx 、 SO2 等 气体 的 排放 也 是 环境影响 的 重要 因素 ， 它们 主要 来源于 燃料 燃烧 ， 因此 ， 发展 新 的 燃烧 技术 也 是 改善 水泥 整体 环境 性能 的 主要 手段 之一 。 
+ 表 7 　 水泥 寿命 周期 各 阶段 综合 指标 及 比例 
+ Table7 　 Theenvironmentimpactlevelandproportionatdifferentproductionstages 
+ 
+ 生产 过程 标准 指标 × 权重 系数 10 - 12 （ a ） 综合 指标 比例 ( % ) 
+ EDPGWPHTAPPOCDNP 
+ 原料 开采 0.040 　 　 　 　 　 0.0400 . 6 
+ 水泥 制造 2.4451 . 8480.11850 . 09570.03250 . 01774.557468 . 06 
+ 混凝土 制造 0.176 　 　 　 　 　 0.1762 . 63 
+ 电力 生产 1.0530 . 4940.09850 . 07960.01190 . 01501.75226 . 17 
+ 原煤 开采 0.004 　 　 　 　 　 0.0040 . 06 
+ 运输 　 0.0690 . 01570.01390 . 06510.00280 . 16652.49 
+ 总计 3.7182 . 4110.23270 . 18920.10950 . 03556.6959100 
+ 
+ 3 　 结论 
+ 3.1 　 运用 寿命 周期 全程 评价 方法 ， 从 考察 水泥 整体 生产 行为 与 环境 的 相互作用 评价 、 分析 和 解决 环境 问题 ， 对 水泥 工业 新品种 、 新工艺 和 新 设备 的 研究 和 开发 ， 改善 环境 等 方面 均 具有 十分 重要 的 意义 。 
+ 3.2 　 水泥 的 主要 环境污染 存在 于 电力 生产 及 水泥 制造 阶段 ， 主要 影响 为 能耗 及 温室效应 。 水泥 环境 性能 改善 的 关键在于 提高 能效 、 减少 碳酸 质 原料 用量 及 改进 工业 燃烧 技术 。 单纯 减少 水泥 生产 阶段 煤耗 而 提高 电耗 并 不能 从根本上 改善 水泥 的 环境 性能 ， 只是 将 污染 从 水泥 行业 向 电力行业 转嫁 。 
+ 3.3 　 采用 AHP 分析 计算 法可 得到 我国 硅酸盐 水泥 环境 综合 指标 为 6.70 × 10 - 12 年 。 
+ 参考文献 
+ 1 　 MichaelLenox ， JohnREhrenfeld . Designforenvironment : Anewframeworkforstrategicdecisions . TotalQualityEnvironmentalmanagement.1995 , 4 ( 4 ) 37 ～ 51 
+ 2 　 MaryAnnCurran . ThehistoryofLCA . In : MaryAnnCurran . Environmentallifecircleassesment . Cincinnati , Oh : TheMcGraw - HillCompanies , 1996.1 . 1 ～ 1.3 
+ 3 　 ThomasDFoust . Futureperspective . In : MaryAnnCurran . Environmentallifecircleassesment . Cincinnati , Oh : TheMcGraw - HillCompanies , 1996 , 18.1 ～ 18.15 
+ 4 　 vandenBergNW , DutilhCE . BeginningLCA : Adetchguidetoenvironmentallifecircleassesment . In : MaryAnnCurran . Environmentallitecircleassessment . Cincinnati , Oh : TheMcGraw - HillCompanies , 1996.17 . 1 ～ 17.41 
+ 5 　 TerrieKBoguski ， RobertGHunt , JamesMCholakis , etal . LCAMethodology . In : MaryAnnCurran . Environmentallifecircleassessment . Cincinnati ， Oh : TheMcGraw - HillCompanies , 1996.2 . 1 ～ 2.37 
+ 6 　 GabrielGCrognale . Environmentalmanagement : WhatISO14000bringstotable . TotalQualityEnvironmentalManagement.1995 ， 4 ( 4 ) ： 5 ～ 15 
+ 7 　 JrgenGiegrich . Valuationasastepinimpactassessment : Methodsandcasestudy . In : MaryAnnCurran . Environmentallifecircleassesment . Cincinnati ， Oh : TheMcGraw - HillCompanies , 1996.13 . 1 ～ 13.14 
+ 8 　 AgisVeroutis ， VitalAelion . Designforenvironment : Animplementationframework . TotalQualityEnvironmentalManagement.1996 . 5 ( 4 ) ： 55 ～ 68 
+ 9 　 甘应 爱 ， 田 　 丰 ， 李维静 等 . 运筹学 . 北京 ： 清华大学出版社 ， 1990.461 ～ 466 
+ 10 　 王文兴 ， 王 　 玮 ， 张婉华 等 . 我国 SO2 和 NOx 排放 强度 地理分布 和 历史 趋势 . 中国 环境 科学 ， 1996 , 16 ( 3 ) ： 161 ～ 165 
+ 11 　 CabreraJG ， WoolleyGR . Lifecyclebenefitsofcalciumsilicatereplacements . WasteManagement , 1996 , 16 ( 1 ) ： 215 ～ 220 
+ 作者简介 
+ 刘顺妮 　 女 ， 1964 年 2 月生 。 现为 武汉 工业 大学 材料科学 与 工程系 副教授 。 主要 从事 水泥 化学 、 工业 废渣 利用 及 环境 材料 的 研究 。 “ 高炉 矿渣 活化 技术 ” 获 1996 年度 湖北省 科技进步 一等奖 。 发表 论文 35 篇 。 
+ 收稿 日期 ： 1997 - 10 - 20 
+ * 湖北省 自然科学 基金 资助 项目 

@@ -1,0 +1,100 @@
+宇航学 报 
+ JOURNALOFASTRONAUTICS 
+ 1998 年 第 19 卷 第 1 期 No1Vol.91998 科技期刊 
+ 
+ 月球 探测器 轨道 设计 与 地面 观测 弧 
+ 严 　 辉 　 吴宏鑫 
+ ( 北京 控制工程 研究所 * 北京 * 100080 ) 
+ 　 　 摘 　 要 　 本文 研究 月球 探测器 轨道 设计 方法 及 与 地面 观测 弧 的 关系 。 主要 研究 地 月 直接 转移 轨道 和定 相 环形 转移 轨道 。 通过 建立 B 平面 用 迭代 方法 得到 满足要求 的 月球 卫星 轨道 , 并 认为 定 相 环形 转移 轨道 的 测控 优于 直接 转移 轨道 。 
+ 　 　 主题词 　 月球 探测器 轨道 　 轨道 转移 　 跟踪 研究 
+ LUNARTRAJECTORIESANDTRACKINGARCS 
+ YanHui 　 WuHongxin 
+ ( BeijingInstituteofControlandEngineering * Beijing * 100080 ) 
+ 　 　 Abstract 　 Thepaperinvolveshowtoestablishlunartrajectorjesandtheirrelationswithtrackingarcs . Directtransfersandphasinglooptransfersareresearchedforlunartrajectories , andlunarorbitssatisfiedwiththerequirementscanbeobtainedbyiterationsinB - plane . Itshowsthephasinglooptransfersarebetterthanthedirecttransfersinthetrackingandguidance . 
+ 　 　 Keywords 　 Lunartrajectories 　 Orbitaltransfers 　 Trackingstudies 
+ 1 　 引 　 言 
+ 　 　 月球 探测器 飞 向 月球 实际上 是 求解 二点 边值问题 。 其 最 一般 形式 是 找到 连接 地球 发射点 和 月球 目标 点 的 轨道 以 使 燃料 最 省 。 文 ［ 1 ］ 用 优化 方法 研究 了 直接 命中 月球 的 轨道 , 本文 通过 建立 B 平面 得到 满足要求 的 月球 卫星 轨道 ［ 2 , 3 ］ 。 
+ 　 　 进入 90 年代 , 日美 月球 探测器 采用 一种 间接 转移 轨道 即定 相 环形 转移 轨道 或 周期 转移 轨道 ( PhasingLoopTransferTrajectory ) , 转移 轨道 的 相位 为 540 度 、 900 度 、 1260 度 … 等 , 由于 轨道 绕地 几周 后 再 回到 月球 , 故 轨道控制 比 相位 180 度 霍曼 直接 转移 具有 更大 灵活性 , 节省 修正 燃料 , 且 有 较 长 的 定轨 时间 ［ 4 , 5 ］ 。 本文 比较 直接 与 间接 转移 轨道 与 观测 弧 关系 。 
+ 2 　 坐标系 及 数学模型 
+ 2.1 　 地 心 惯性 坐标系 
+ 　 　 原点 在 地心 , X 轴 指向 春分点 , Y 轴 在 赤道 平面 由 X 轴 向东 转 90 度 , Z 轴 按 右手 法则 得到 。 
+ 2.2 　 测站 坐标系 
+ 　 　 原点 在 测站 , 基准面 为 地 平面 , x 轴 指向 南 , y 轴 向东 , z 轴 向上 。 
+ 2.3 　 数学模型 
+ 　 　 考虑 地球 、 太阳 、 月球 和 探测器 四体 运动 方程 , 不计 引力 摄动 和 各 扰动 影响 , 在 地心 惯性 坐标系 内 , 有 
+ 
+ ( 1 ) 
+ 当 探测器 飞 到 月球 影响 球时 , 可 将 地心 惯性 坐标系 平移 至 月 心 , 在 该 坐标系 建立 同样 的 方程 。 式 ( 1 ) 中 , vex , vey , vez 为 速度 , x , y , z 为 坐标 , ge , gm , gs 为 地球 , 太阳 和 月球 对 探测器 的 引力 , gme , gse 为 月球 和 地球 , 太阳 和 地球 之间 的 引力 。 
+ 3 　 B 平面 
+ 　 　 深空 轨道 可以 用 B 平面 描述 目标 点 散布 , 数值 实验 表明 , 用 迭代 方法 修正 B 平面 上 的 误差 具有 很 好 收敛性 。 所谓 B 平面 是 垂直于 无穷远 速度 的 平面 , 并 通过 月心 。 以 无穷远 速度 作为 S 轴 , S 与 月球 轨道 平面 法向 的 矢积 作为 T 轴 , R 由 右手 法则 确定 , 如图 1 所示 。 B 矢量 为 
+ B = S × NS 
+ ( 2 ) 
+ NS 为 探测器 运动 平面 的 法向 。 B 矢量 大小 为 双曲线 短 半轴 。 将 月球 卫星 轨道 倾角 及近 月 距用 B 矢量 表示 。 若 二点 边值 终端 满足 B 矢量 要求 , 则 可 得到 满足要求 的 轨道 倾角 和 近 月 距 。 
+ 　 　 容易 证明 , 就 极 轨道 月球 卫星 , 若 月球 卫星 轨道 与 月球 运动 平面 垂直 ( 月球 的 赤道面 与 月球 运动 平面 有 6.7 度 的 夹角 , 本文 暂 不 考虑 该 角度 ) , 则 T 轴 即 为 月球 卫星 平面 的 法向 , 所以 B 矢量 沿 R 轴 方向 。 如图 2 , 以下 求 B 矢量 大小 
+ 
+ 
+ 图 1 　 B 平面 示意图 
+ 
+ 
+ 图 2 　 双曲线 几何 参数 
+ 由于 
+ 
+ 故 B 矢量 大小 为 
+ 
+ ( 3 ) 
+ 式 中 , rp 为 近 月 心距 , fm 为 月球 引力 常数 , v ∞ 为 相对 月球 为 中心 体 的 无穷远 速度 。 注意 在 动力学 中 , a 为 负值 , 因而 c 取 负值 。 
+ 4 　 计算 实例 
+ 4.1 　 任务 
+ 　 　 a . 开始 绕 月 时间 为 1997 年 8 月 25 日 12 点 ; 
+ 　 　 b . 月球 卫星 轨道 平面 与 月球 赤道面 垂直 ; 
+ 　 　 c . 近 月 距 为 100 公里 。 
+ 4.2 　 约束 
+ 　 　 a . 停泊 轨道 倾角 为 43 度 。 
+ 　 　 b . 停泊 轨道 高度 为 200 公里 。 
+ 4.3 　 初始条件 
+ 　 　 考虑 到 能量最优 , 直接 转移 轨道 的 飞行 时间 大致 为 4 天 。 若 要 满足 任务 要求 , 由 停泊 轨道 至 转移 轨道 的 变轨 时间 为 1997 年 8 月 21 日 9 时 36 分 , 由 圆锥曲线 拼接 法可得 近似 初始条件 为 
+ fc0 = 180 ° 
+ v0 = 10.930 km / s 
+ 其中 v0 为 初始 速度 , fc0 为 地心 扫角 , 变轨 速度 方向 沿 停泊 轨道 切线 , 地心 扫角 由 地 月 变轨 点量 至 月球 卫星 轨道 插入 点 , 具体 计算方法 可见 文 ［ 1 ］ , 并 转换 到 地心 坐标系 中 。 
+ 4.4 　 初值 迭代 
+ 　 　 用 牛顿 迭代法 变化 初值 v0 和 fc0 , 得到 满足要求 的 B 矢量 , 从而 满足 月球 卫星 设定 的 轨道 倾角 和 近 月 距 。 一般 迭代 次数 为 3 - 10 次 , 表 1 是 直接 转移 的 迭代 过程 , 开始 绕 月 的 时间 为 1997 年 8 月 25 日 11 时 42 分 。 
+ 表 1 　 直接 转移 的 迭代 
+ 
+ 迭代 次数 初始 速度 ( km / s ) 地心 扫角 ( ° ) 轨道 倾角 ( ° ) 近 月 距 ( km ) 
+ 110.930180 - 29.0729134 . 9 
+ 210.91516179 . 85440.562005 . 5 
+ 310.917420179 . 54888.53114 . 0 
+ 410.917465179 . 535 - 89.92100 . 2 
+ 
+ 　 　 表 2 为 900 度 间接 转移 的 迭代 , 其 变轨 时间 经过 试算 调整 为 1997 年 7 月 31 日 20 时 47 分 , 开始 绕 月 时间 为 1997 年 8 月 25 日 11 时 35 分 。 
+ 表 2 　 900 度 间接 转移 的 迭代 
+ 
+ 迭代 次数 初始 速度 ( km / s ) 地心 扫角 ( ° ) 轨道 倾角 ( ° ) 近 月 距 ( km ) 
+ 110.9175180 - 70.21103 . 9 
+ 310.919499177 . 84836.301656 . 6 
+ 510.918398179 . 15089.2686 . 8 
+ 710.918375179 . 179 - 89.90100 . 4 
+ 
+ 4.5 　 地面 观测 弧 
+ 　 　 设定 某一 地面站 , 假定 探测器 一出 测站 地平 即 为 雷达 捕获 。 图 3 为 直接 转移 的 观测 弧 , 图 4 为 900 度 间接 转移 的 观测 弧 。 
+ 
+ 
+ 图 3 　 直接 转移 的 观测 弧 
+ 
+ 
+ 图 4 　 900 度 间接 转移 观测 弧 
+ 5 　 计算结果 分析 与 结论 
+ 5.1 　 计算结果 分析 
+ 　 　 从表 1 和表 2 可 看出 , B 平面 算法 具有 较 好 的 收敛性 , 在 选取 间接 转移 的 初值 时 , 直接 转移 的 计算结果 可 作为 参考 。 
+ 　 　 图 3 和 图 4 表明 , 间接 转移 的 观测 弧 的 时间 是 直接 转移 的 数倍 , 且 多次 经过 近地点 和 远地点 , 说明 间接 转移 的 测控 要 优于 直接 转移 。 
+ 5.2 　 结论 
+ 　 　 a . B 平面 误差 算法 具有 较 好 的 收敛性 ; 
+ 　 　 b . 定相 环形 转移 轨道 测控 优于 直接 转移 轨道 。 
+ 参考文献 
+ 1 　 严辉 , 陈士 橹 , 吕学富 . 给定 条件 下 直接 命中 月球 轨道 计算方法 . 中国 空间 科学技术 , 1996 , 3 : 17 - 21 
+ 2 　 CarricoJ . , etc . RapidDesignofGravityAssistTrajectories , ProceedingsoftheESASymposiumonSpacecraftFlightDynamics . Germany , 1991 
+ 3 　 CarricoJ . , etc . AnInteractiveToolforDesignandSupportofLunar , GravityAssistandLibration - PointTrajectories . AIAA93 - 1126 
+ 4 　 UesugiK . , etc . MissionOperationsoftheSpacecraftHITEN , ProceedingsoftheESASymposiumonSpacecraftFlightDynamics . Germany , 1991 
+ 5 　 KaufmanB . MissionDesignoftheCLEMENTINESpaceExperiment . AAS95 - 124 
+ 本文 于 1997 年 5 月 20 日 收到 
+ 　 　 * 国家自然科学基金 项目 19782004 

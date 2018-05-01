@@ -1,0 +1,103 @@
+环境 科学 学报 
+ ACTASCIENTIAECIRCUMSTANTIAE 
+ 1999 年 第 19 卷 第 6 期 Vol.19 No.61999 
+ 
+ 
+ 
+ 应用 VOF 方法 对 水流 中拦 油栅拦 油 失效 进行 数值 模拟 尝试 
+ 张 　 政 　 程石勇 　 李 　 晗 　 安 长发 
+ 摘要 　 通过 自编 程序 用 流体 体积 分数 （ VOF ） 法 模拟计算 了 两种 拦油 失效 的 情形 ： 低粘度 的 油类 在 水流 速度 超过 某一 临界值 时 发生 了 油滴 夹带 失效 ； 粘度 很大 的 油类 在 水流 速度 超过 临界值 时 发生 了 临界 累积 失效 . 模拟 结果 在 定性 上 与 已有 的 实验 结果 相一致 . 但 计算 出 的 临界 水流 速度 还 存在 偏差 ， 这 将 在 以后 的 工作 中 通过 加入 湍流 作 进一步 的 探讨 . 
+ 关键词 　 拦油 失效 ； 数值 模拟 ； 多相 流 ； VOF 方法 . 
+ PreliminarynumericalsimulationofboomfailurewithVOFmodel 
+ ZHANGZheng , CHENGShiyong , LIHan ( CollegeofChemicalEngineering , BeijingUniversityofChemicalTechnology , Beijing100029 ) 
+ AnC . F . ( ImperialOilInc . , Calgary , Canada ) 
+ Abstract 　 Floatingboomshavebeencommonlyusedtocontainspilledoilonwatersurface , whilefailureoftenoccursincurrentswithhighvelocity . Inordertostudyboomfailuremechanisms , ComputationalFluidDynamicsmethodshavebeenusedbynow . Asapreliminaryapplicationofvolumeoffluid ( VOF ) modelinself - compiledSIMPLEprogram , twocasesofoilfailureweresimulated : whencriticalcurrentvelocityisexceeded , dropletentrainmentoccursforlow - viscosityoilwhilecriticalaccumulationoccursforhigh - viscosityoil . Inthecomputation , fluidflowissimplifiedtobelaminar . ThesimulationresultsarequalitativelyidenticalwithexperimentandthesimulationresultsobtainedbyDr . C . - FAnwithCommercialsoftware , Fluent . Quantitatively , however , ourcomputedcriticalcurrentvelocitiesarealittlehigher . Turbulencemodelshouldbeemployedinfurthercomputationinordertogetmoreacceptableresults . 
+ Keywords 　 boomfailure , numericalsimulation , multiphaseflow , VOFmodel . 
+ 1 　 概述 
+ 　 　 由于 石油 泄漏 造成 海洋 、 河流 的 污染 已 成为 世界 各国 关注 的 环境 问题 . 目前 ， 处理 此类 污染 最 常用 的 方法 是 用 水面 拦油 栅 ［ 1 ］ 拦集 ， 然后 用 撇油器 回收 或 直接 焚烧 . 拦油栅即 漂浮 在 水面 上 用以 收集 或 存放 油类 的 障碍物 （ 或称 挡板 ） . 拦油 栅 拦集 石油 的 示意 如图 1 所示 . 实践 表明 ， 广阔 海面 上用 拦油栅拦 油时 ， 由于 各种 原因 常会 发生 油 从 栅板 下 被 水流 带走 而 造成 拦油 失效 . 有关 拦油 失效 的 实验 研究 表明 主要 存在 3 种 失效 形式 ［ 2 — 4 ］ ： 油滴 夹带 失效 、 油层 流失 和 临界 累积 失效 . 拦油 动力学 机理 的 早期 研究 建立 在 简化 模型 的 基础 上 ［ 5 ， 6 ］ ， 水流 被 视为 一维 均匀 流 ， 对象 是 运动 粘度 ν < 3.5 × 10 - 3m2 / s 的 油类 ， 但 这些 研究 结果 均 无法说明 拦油 失效 的 机理 . 
+ 
+ 
+ 图 1 　 拦油栅后 油层 的 典型 形状 
+ Fig.1 Oilslickcontainedbyoilboom 
+ 　 　 近年来 ， 随着 计算机技术 的 发展 ， 应用 数值 模拟 的 方法 研究 拦油 失效 成为 一种 有效 的 手段 . E . J . Clavelle 和 R . D . Rowe ［ 7 ］ 采用 了 SOLA - VOF 程序 对 运动 粘度 ν = 2.3 × 10 - 3m2 / s 的 重油 拦油 的 累积 失效 问题 进行 了 数值 模拟 . 结果表明 ， 水流 速度 v = 0.14 m / s 时 ， 即 发生 油层 完全 从 栅板 下流 走 的 所谓 临界 失效 ， 这 与 Delvigine [ 3 ] 的 实验 结果 相吻 . 
+ 　 　 最近 ， 加拿大 帝国 石油 公司 的 安 长发 （ C . - F . An ） 博士 等 人 ［ 8 — 10 ］ 用 商用 软件 FLUENT 成功 地 模拟 了 二维 情况 下 拦油 失效 的 3 种 形式 . 计算 采用 了 VOF 方法 ， 并 应用 k - ε 模型 计算 水流 的 湍流 粘度 . 根据 模拟 结果 ： 对于 一定 体积 的 低粘度 轻油 ， 水流 速度 低于 临界值 时 ， 油层 最终 会 达到 稳态 ， 拦油能 成功 ； 而 当 水流 速度 超过 临界值 时 ， 发生 油滴 夹带 失效 . 其 模拟计算 得到 的 前区 油层 厚度 和 临界 水流 速度 分别 与 Wilkinson ［ 5 , 6 ］ 的 理论值 和 Delvigine ［ 2 ］ 的 实验 结果 相吻合 . 对于 高粘度 的 重油 ， 当 水流 速度 小于 临界值 时 ， 油层 也 能 达到 稳定 ， 在 挡板 前 形成 短而厚 的 “ 油堆 ” ； 而 水流 速度 超过 临界值 时 ， 发生 临界 累积 失效 ， 油层 从 挡板 下 “ 爬 走 ” ， 并 最终 全部 绕过 挡板 流失 掉 . 算得 的 临界值 与 Delvigine 的 实验 相符合 ［ 3 ］ . 
+ 　 　 本文 意在 An 博士 等 人 工作 的 基础 上 ， 探讨 用 VOF 方法 开发 研究 拦油 失效 的 应用程序 ， 为 进一步 深入研究 拦油 失效 打下基础 . 
+ 2 　 计算方法 
+ 　 　 即便 排除 风浪 影响 ， 拦油 栅 拦油 仍 是 三维 的 多相 流 问题 . 考虑 到 空气 的 粘度 远 小于 液体 （ 油和水 ） 的 值 ， 因而 可 忽略 气相 的 影响 ， 研究 的 问题 可以 简化 为 上 界面 为 无 摩擦力 的 油 - 水两相 流动 问题 . 再则 ， 水面 上 拦油时 ， 展开 的 拦油 栅 呈 弧形 ， 中心 处 水流 速度 最高 . 由于 水流 速度 是 拦油 失效 的 重要 推动力 ， 本 计算 模拟 将 对称 的 拦油 栅 的 中轴 面 作为 研究 的 对象 . 因而 ， 可以 把 问题 进一步 简化 为 二维 ， 本文 实际 研究 的 是 二维 条件 下 油 - 水两 相非 定常流动 . 
+ 　 　 因为 油水 两相 不 互溶 ， 存在 明显 的 相 界面 ， 数值 模拟 的 关键 部分 是 跟踪 两相 界面 . 解决 这一 问题 的 一种 有效 方法 是 流体 体积 分数 法 ［ 11 ， 12 ］ （ VOF 方法 ） ， 它 采用 体积 分数 函数 跟踪 两相 界面 ， 通过 求解 同一 控制 方程 计算 两相 的 流场 分布 . VOF 方法 定义 了 表征 特定 流体 体积 分数 的 函数 F ( i , j , t ) . 这里 把 充满 水 的 网格 定义 为 F = 1.0 ； 而 把 充满 油 的 网格 定义 为 F = 0 ； F 为 0 — 1 之间 值时 ， 该 网格 为 两相 界面 . 
+ 2.1 　 基本 控制 方程 
+ 　 　 不可 压缩 流体 的 二维 Navier - Stokes 方程 ： 
+ 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 流体 满足 连续性 方程 ： 
+ Δ ． u = 0 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 为了 区分 油水 两相 ， 引入 体积 分数 函数 F ( i , j , t ) ， F 函数 满足 ： 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 2.2 　 VOF 方法 求解 要点 
+ 2.2 . 1 　 方程 （ 1 ） 和 （ 2 ） 的 离散 化 　 先对 方程 （ 1 ） 按 显式 格式 离散 ， 可得 n + 1 时刻 的 估算 速度 u * 与 pn 和 un 间 的 关系式 ， 再 对 （ 1 ） 式 用 “ 半隐式 ” 格式 离散 . 其中 ， 压力 为 隐式 pn + 1 , 扩散 项 和 对流 项中 的 速度 为 显式 un ， 从而 得到 了 n + 1 时刻 速度 un + 1 关于 压力 pn + 1 和 n 时刻 速度 un 的 关系式 . 两 离散 化 方程 相减 ， 得到 ： 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 其中 ， 压力 增量 δ p = pn + 1 - pn . 把 （ 4 ） 式 代入 连续性 方程 （ 2 ） 中 ， 得到 压力 修正 方程 ： 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 2.2 . 2 求解 离散 方程 在 设定 的 压力 pn 下 ， 由 方程 （ 1 ） 的 显式 格式 离散 方程 算得 u * ； 对 压力 增量 方程 （ 5 ） 用 牛顿 迭代法 求解 ， 给出 压力 增量 δ p . 将 δ p 代入 式 （ 4 ） ， 验算 新 的 速度 场 是否 满足 连续性 方程 ， 若 不 满足 则 代入 方程 （ 5 ） 进一步 迭代 ， 直到 Δ . u * = 0 . 从而 得到 n + 1 时刻 的 速度 场 . 将 此 速度 场 代入 方程 （ 3 ） 中 ， 计算 体积 分数 函数 F . 
+ 2.2 . 3F 函数 的 求解 为了 保证 求解 方程 （ 3 ） 时能 得到 具有 阶跃 特性 的 F 函数 , 采用 了 给 体 - 受体 方法 （ DA 方法 ） ［ 12 ］ ， 它 根据 上游 和 下游 迭代 F 信息 确定 界面 的 形状 , 然后 根据 该 形状 计算 网格 面上 F 通量 . 
+ 2.2 . 4 　 边界条件 的 处理 　 流体 的 上 边界 是 与 空气 接触 的 自由 表面 ， 已如 前述 ， 将 被 考虑 成无 摩擦 的 平板 ， 边界 上 y 方向 速度 为 零 ； 底部 边界 视为 固定 无 滑脱 表面 ， 此 边界 上 速度 为 零 ； 流体 从 左 边界 流入 ， 给定 入口 速度 ui ; 右 边界 为 连续性 边界 ， 即 u / x = 0 . y 方向 重力 加速度 g = - 9.81 N . 含有 油 、 水两相 的 网格 中 ， 密度 和 粘度 取 算术 平均值 . 
+ 3 计算 试例 与 结果 比较 
+ 　 　 本文 分别 针对 两种 不同 粘度 的 油类 进行 了 模拟计算 ， 以 与 Delvigine 等 人 的 实验 结果 及 C . - F . An 模拟计算 的 结果 进行 比较 . 计算 中 采用 不 均匀 网格 划分 ， 在 挡板 附近 和 计算 域 上部 加密 网格 ， 以 保证 油 - 水 界面 和 挡板 附近 的 计算精度 . 
+ 3.1 低粘度 油 的 计算 模拟 
+ 　 　 低粘度 油类 的 模拟计算 基于 Delvigine 的 实验 ［ 2 ］ . 计算 域 为 一 矩形 通道 ， 长 （ x 方向 ） 4.0 m , 深 （ y 方向 ） 0.30 m . 挡板 置于 距 入口 2.0 m 处 ， 其 深度 为 0.07 m （ y 方向 ) ， 厚 （ x 方向 ) 0.01 m . 网格 数目 142 × 31 ， 最小 网格 尺寸 取 Δ x = 0.02 m , Δ y = 0.005 m . 油 的 密度 ρ o1 = 888kg / m3 ， 其 运动 粘度 ν o1 = 7 × 10 - 5m2 / s ； 水 的 密度 ρ w = 998.2 kg / m3 ， 其 运动 粘度 ν w = 1.004 × 10 - 6m2 / s . 
+ 　 　 未 加入 油 之前 ， 水 从 左 边界 以 u = 0.09 m / s 的 速度 给入 计算 域 ， 经 30.0 s 后 得 一 稳态 流场 . 以此 为 初始条件 ， 油 从 左 边界 最 上方 网格 给入 ， 当 单位 宽度 上 的 油量 达到 Q = 0.01 m \ + 3 / m 时 停止 给 油 . 分别 计算 水流 速度 为 0.09 m / s ， 0.15 m / s ， 0.20 m / s ， 0.24 m / s 及 0.28 m / s 时 油层 在 挡板 附近 的 动力学 行为 ， 其 结果 见于 图 2 中 . 
+ 　 　 在 水 流速 u = 0.09 m / s 条件 下 ， t = 0s 时刻 ， 油 开始 从 流场 左 边界 给入 ， 22.2 s 后 停止 进油 ， 图 2a 给出 了 此时 挡板 前 的 油层 侧形 和 流场 速度 分布 ： 这时 ， 油层 的 前锋 已 到达 挡板 并 在 挡板 前 集聚 ， 其 主体 仍 在 向 挡板 流动 ； 继续 进水 ， 油层 不断 变短 ， t = 40.2 s 时 （ 图 2b ） ， 油层 内 出现 了 负向 速度 ， 此后 油层 又 被 “ 反射 ” 回去 ， 变 长 变薄 ， 直到 t = 85.0 s 时 . 之后 ， 油层 又 有所 收缩 并 达到 稳态 . 此 结果 与 实验 现象 相符 ， Johnston 称之谓 “ 波动 ” . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 图 2 　 不同 水 流速 下 低粘度 油 动力学 行为 
+ Fig.2 Dynamicevolutionoflowviscosityoilatdifferentwatervelocities 
+ 　 　 增大 入口 水流 速度 至 u ＝ 0.15 m / s ， 油层 进一步 向 挡板 方向 收缩 ， t = 110s 时 （ 如图 2c ） 达到 稳态 ， 油层 上游 部分 有 离开 主体 的 油滴 存在 . 此时 无油 流失 于 挡板 之后 ， 拦油 成功 . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 图 3 　 不同 水 流速 下 高粘度 油 动力学 行为 
+ Fig.3 Dynamicevolutionofhighviscosityoilatdifferentwatervelocities 
+ 　 　 继续 增大 入口 水流 速度 至 u = 0.20 m / s （ 如图 2d ） ， 油层 变得 更 短 更 厚 ， 其 上游 油 - 水 相对速度 较大 ， 油 从 主体 被 “ 剪切 ” 下来 形成 油滴 ， 挡板 附近 油层 较 稳定 ， 说明 油滴 又 重返 油层 主体 ， 没有 发生 失效 . 
+ 　 　 水流 速度 增大 至 u ＝ 0.24 m / s , 油层 变得 更 短 ， 上游 处 更 不 稳定 ， 但 并 没有 出现 油 的 流失 （ 如图 2e ） . 进一步 加大 入口 水流 速度 达 u ＝ 0.28 m / s , 2.5 s 后 ， 油层 的 下缘 已 接近 挡板 底部 ， 油滴 已 开始 流失 到 下游 ； t ＝ 143s 时 ， 更 多 的 油 流失 于 挡板 之后 （ 图 2f ） . 流失 的 油 呈 分散 状 ， 体积 较 小 ； 而 油层 的 主体 被 拦 在 挡板 之前 ， 因此 判断 发生 了 油滴 夹带 失效 . 
+ 3.2 高粘度 油 的 计算 模拟 
+ 对 高粘度 油类 的 计算 模拟 基于 Johnston 等 人 ［ 4 ］ 的 实验 . 计算 域长 （ x 方向 ) 4.3 m , 深 （ y 方向 ） 0.23 m . 挡板 距 入口 2.0 m ， 深 0.07 m （ y 方向 ) ， 厚 （ x 方向 ) 0.01 m . 网格 数目 220 × 27 ， 最小 网格 尺寸 取 Δ x ＝ 0.01 m , Δ y = 0.005 m . 油 的 密度 ρ O2 = 915kg / m3 ， 其 运动 粘度 ν = 3.6 × 10 - 3m2 / s ， 水 的 密度 取 ρ W = 999.1 kg / m3 ， 运动 粘度 ν = 1.138 × 10 - 6m2 / s . 
+ 　 　 以 入口 水流 速度 为 u = 0.1 m / s 的 水相 稳态 流场 为 初始条件 ， 油 从 左 边界 最 上方 网格 给入 . 当 油量 达到 Q ＝ 0.005 m3 / m 时 停止 进油 ， 计算 不同 水流 速度 时 油层 在 挡板 附近 的 动力学 行为 ， 其 结果 见图 3 . 
+ 　 　 t = 0s 时 ， 油 开始 从 流场 左 边界 给入 ， 10.0 s 后 停止 进油 ， 水 继续 以 u = 0.10 m / s 的 速度 进入 流场 . t ＝ 20.0 s 时刻 （ 如图 3a ） ， 油层 前锋 已 到达 挡板 并 在 此 集聚 ， 油层 内 速度 为 正 . 随着 时间 的 增加 ， 油层 不断 变厚 . 图 3b 和 3c 分别 给出 了 t ＝ 65.0 s 和 t ＝ 70.0 s 时刻 挡板 前 的 油层 形状 和 流场 分布 ： 油层 变得 较厚 并且 出现 了 负 的 速度 , 即 油层 内 出现 了 循环 流 . 比较 两图 ， 5s 内 油层 形状 和 流场 分布 几乎 没有 变化 ， 油层 到达 了 稳态 ， 没有 发生 失效 . 与 低粘度 油类 不同 ， 由于 油水 间 摩擦力 较大 ， 过程 中 没有 出现 油层 的 “ 反射 ” 现象 . 
+ 　 　 在 t = 70.0 s 时刻 ， 增大 入口 水流 速度 至 u ＝ 0.15 m / s.11 s 后 （ t = 81s ） ， 油层 在 挡板 前 重新 到达 平衡 . 由图 3d 可以 看到 ： t = 81.0 s 时 ， 油层 继续 变短 变厚 ， 堆积 在 挡板 前 . 尽管 此时 ， 油 - 水 界面 呈 波形 ， 且 其 上游 油层 较 不 稳定 ， 有 较大 的 油团 与 油层 主体 分离 ， 但 随后 又 返回 油层 . 此 时刻 没有 明显 的 油层 流失 ， 拦油 仍 可 认为 是 成功 的 . 
+ 　 　 继续 增大 入口 水流 速度 至 u ＝ 0.20 m / s . 根据 图 3e ， t ＝ 83.5 s 时 ， 油层 变得 既 短且 厚 并 超过 了 挡板 ， 油层 开始 绕过 挡板 并 开始 流失 于 挡板 之后 . 但 经过 2.5 s 后 发现 油层 的 流失 速度 减慢 ， 并 趋于稳定 ， 故 还 不能 认为 是 临界 累积 失效 . 在 t ＝ 86.0 s 时 增大 水流 入口 速度 至 u ＝ 0.25 m / s . 图 3f 给出 了 t ＝ 89.0 s 时刻 的 油层 侧形 和 流场 分布 ： 油一 团团 地 流失 于 挡板 之后 ， 挡板 前 只有 薄薄的 一层 油 并 继续 流向 挡板 下游 . 由于 挡板 前 已 没有 达到 平衡 状态 而 存在 的 主体 油层 ， 故 在 此 水流 速度 下 发生 的 是 临界 累积 失效 . 
+ 3.3 　 结果 比较 
+ 　 　 根据 Delvigine 和 Johnston 的 实验 结果 ： 对于 低粘度 油类 ， 发生 油滴 夹带 失效 的 临界 水流 速度 为 u ＝ 0.24 m / s 左右 ； 而 高粘度 的 油类 ， 在 u > 0.20 m / s 时会 发生 临界 累积 失效 . An 博士 利用 FLUENT 软件 计算 出 的 两种 失效 的 临界值 分别 为 0.24 m / s 和 0.20 m / s . 而 根据 本 模拟计算 的 结果 ， 油滴 夹带 失效 发生 于 水速 为 0.28 m / s 时 ， 而 高粘度 油 在 水速 为 0.25 m / s 发生 了 临界 累积 失效 ， 略高于 实验 值 和 An 博士 的 计算结果 . 图 4 （ a ） 和 （ b ） 分别 给出 了 低粘度 油 和 高粘度 油 在 水流 速度 为 0.15 m / s 时 ， An 博士 用 FLUENT 软件 计算 所得 的 油层 侧形 比较 . 该图 表明 ， 与 An 博士 的 计算结果 相比 ， 在 相同 的 入口 水流 速度 下 ， 本文 所算 得 的 油层 累积 程度 较 低 ， 相对 较 薄 ， 较长 . 
+ 　 　 根据 入口处 的 水流 速度 、 流 道 几何 尺寸 计算 得出 雷诺数 Re > 20000 , 属于 湍流 流动 ， 而 计算 中未 加入 湍流 模型 . 因此 就 定量 而言 ， 这 可能 是 本 模拟 出现 小量 偏差 的 原因 . 
+ 
+ 
+ 图 4 　 模拟计算 出 的 油层 侧形 比较 
+ — — ThispaperDr . An ' s 
+ Fig.4 Oilslickprofilecomparison ( numericalresults ) 
+ 4 　 结论 
+ 　 　 模拟计算 的 结果表明 ： 较 低 水流 速度 下 ， 拦油 栅 拦油 是 成功 的 . 在 较 高 水流 速度 下 （ u = 0.28 m / s ） ， 低粘度 油类 发生 了 油滴 夹带 失效 ， 油层 的 主体 被 拦 在 挡板 之前 ， 但 少量 的 油以 油滴 的 形式 流失 于 挡板 之后 ； 对于 高粘度 的 油类 ， 随着 水速 的 增加 ， 油层 在 挡板 前 累积 并 变得 很 短 很 厚 ， 当 水流 速度 超过 临界值 （ u = 0.25 m / s ） 时 ， 整个 油层 都 流失 到 挡板 之后 ， 发生 了 临界 累积 失效 . 
+ 　 　 与 Delvigine 等 人 的 实验 结果 相比 ， 模拟计算 的 结果 定性 上 与 之 相符 得 很 好 ， 既 模拟出 了 油滴 夹带 失效 和 临界 累积 失效 两种 失效 现象 ， 也 算得了 在 低粘度 油类 发生 的 “ 反射 ” 现象 ； 但 在 定量 上 ， 模拟计算 得出 的 水流 速度 临界值 略高于 实验 值 . 与 An 博士 的 计算结果 相比 ， 相同 水流 速度 下 ， 油层 累积 程度 较 低 . 这 可能 是 由于 计算 中未 加入 湍流 模型 所致 ， 有 必要 在 今后 的 工作 中 引入 湍流 模型 ， 作 更深 一步 的 研究 . 
+ 作者 单位 ： 张 　 政 　 程石勇 　 李 　 晗 : 北京化工大学 化学 工程学院 ， 北京 　 100029 
+ 安 长发 : 加拿大 帝国 石油 公司 
+ 参考文献 
+ 1HoultDavidP . Containmentandcollectiondevicesforoilslicks . OilinWater , 1965 , 65 — 79 
+ 2DelvigineGAL . Laboratoryexperimentsonoilspillprotectionofawaterintake . Monograph : OilinFreshwater , 1985 , 446 — 458 
+ 3DelvigineGAL . Barrierfailurebycriticalaccumulationofviscousoil . ProceedingsofOilSpillConference , SanAntonio , TX , USA.1989 . 143 — 148 
+ 4 　 JohnstonAJ . FitzmauriceMR ， WattRGM , Oilspillcontainment : viscousoils . Proceedingsof1993InternationalOilSpillConference . Tampa , FL , USA.1993 . 89 — 94 
+ 5 　 WilkinsonD . Dynamicsofcontainedoilslicks . JournaloftheHydraulicsDivision . ASCE , 1972 , 98 : 1014 — 1030 
+ 6 　 WikinsonD . Limitationstothelengthofcontainedoilslicks . JournaloftheHydraulicsDivision . ASCE , 1973 , 99 : 701 — 712 
+ 7 　 ClavelleEJ ， RoweRD . Anumericalstudyofoilboomfailurebycriticalaccumulation . Proceedingsof9thConferenceonNumericalMethodsinLaminarandTurbulentFlow . Atlanta , USA.1995 
+ 8 　 AnC - F , ClavelleEJ , BrownHM , BarronRM . CFDsimulationofoilboomfailure . Proceedingsof4thAnnualConferenceoftheCFDSocietyofCanada , Ottawa , ON , Canada.1996 . 401 — 408 
+ 9 　 BrownHM , GoodmanRH , AnC - F , BittnerJ . Boomfailuremechanisms : comparisonofchannelexperimentswithcomputermodelingresults . Proceedingsof20thArctic & MarineOilspillProgram ( AMOP ) TechnicalSeminar , Vancouver , BC , Canada.1997 , 1 : 457 — 467 
+ 10 　 AnC - F , Brown 　 H 　 M , Goodman 　 R 　 Getal . In : ZhouLX , LiXF ( eds ) . Numericalmodelingofthedynamicsofanoilslickspillonflowingwater . MultiphaseFluid , NonnewtonianFluidandPhysico - ChemicalFluidFlows , Beijing : IntAcademicPublishers , 1997.3 . 45 — 3.52 
+ 11 　 HirtCW ， NiicholsBD . Volumeoffluid ( VOF ) methodforthedynamicsoffreeboundaries . JournalofComputationalPhysics , 1981 , 39 : 201 — 225 
+ 12 　 范维澄 ， 万跃 硼 . 流动 及 燃烧 的 模型 与 计算 . 合肥 ： 中国 科学技术 大学 出版社 . 1992.341 — 349 
+ 1998 - 01 - 09 收到 原稿 
+ 1999 - 06 - 14 收到 修改稿 

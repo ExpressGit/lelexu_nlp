@@ -1,0 +1,226 @@
+宇航学 报 
+ JOURNALOFASTRONAUTICS 
+ 1998 年 4 月 第 19 卷 第 2 期 科技期刊 
+ 
+ 
+ 微重力 环境 中 重力梯度 加速度 引起 
+ 的 流体 晃动 力 和 力矩 的 模拟 
+ 潘 海林 魏延明 
+ ( 北京 控制工程 研究所 * 北京 2729 信箱 * 100080 ) 
+ 洪儒珍 
+ ( 美国 阿拉巴马 大学 ) 
+ 摘要 本文 研究 了 关于 旋转轴 在 贮箱 的 非 对称轴 上且 远离 贮箱 的 几何 中 
+ 心 情况 下 ， 流体 在 微重力 环境 中 由 重力梯度 加速度 诱发 的 晃动 特性 。 我们 以 
+ 精密 X光 光谱 天文 物理 实验 卫星 ( 简称 AXAF - S ) 作为 研究 对象 ， 获得 了 由于 旋转 
+ 运动 引起 的 重力梯度 加速度 的 数学 表达式 。 关于 晃动 问题 的 数值 计算 是 用 与 
+ 卫星 固连 的 非 惯性 坐标系 为 基础 ， 目的 是 寻求 一种 较为 易 处理 且 适合 于 流体 
+ 力学 方程 的 边界 和 初始条件 。 通过 数值 计算 获得 了 流体 作用 于 卫星 贮箱 上 的 
+ 力 和 力矩 。 
+ 
+ 主题词 微重力 晃 动力学 气液 界面 
+ 　 
+ SLOSHINGINDUCEDMOMENTDRIVENBY 
+ GRAVITYGRADIENTASSOCIATED 
+ WITHSPACECRAFTSLEWMOTION 
+ H . L . PanWeiYanming 
+ ( BeijingInstituteofControlEngineering * Beijing * 100080 ) 
+ R . J . Hung 
+ ( TheUniversityofAlabamainHuntsvell , Alabama35889 , U . S . A . ) 
+ AbstractThemathematicalformulationofspacecraftsloshingforapartiallyliquidfill 
+ cryogenichelium Ⅱ indewarcontainerdrivenbythegravitygradientacceleration 
+ associatedwithslewmotionisstudied . TheAdvancedX - RayAstrophysicsFacility - 
+ Spectroscopyspacecraftischosenasanexampleinthisstudy . Explicitmathematical 
+ expressionswhichmanageorbitalgravitygradientaccelerationassocitedwithslew 
+ motionactingonthespacecraftfluidsystemsarederived . thenumericalcomputationof 
+ sloshingdynamicsisbasedonthenon - inertialframespacecraftboundcoordinatesand 
+ intendstoseekthesolutionoftime - dependent , three - dimensionalformulationsof 
+ partialdifferentialequationssubjecttoinitialandboundaryconditions . Thenumerical 
+ computationoffluidforcesandmomentfluctuationexertedondewarcontainerare 
+ investigated . Thisstudydisclosesthesloshingdynamicmodulatedliquid - vaporinterface 
+ fluctuations , fluidforcesandmomentfluctuationsexertedonthespacecraftsystem . The 
+ relationshipwiththemajordrivingforceofgravitygradientaccelerationassociatedwith 
+ slewmotiononthefluidsysteminamicrogravityenvironmentarealsopresented . 
+ 
+ KeywordsMicrogravitySloshwaveLiquid - vaporinterface 
+ 
+ 1 引言 
+ 
+ 　 　 一些 科学实验 卫星 为了 达到 非常 稳定 的 机械 和 力学 条件 ， 以及 观测仪 、 
+ 望远镜 和 陀螺仪 的 超导 传感器 在 非常低 的 温度 下 工作 ( 接近 绝对零度 ) ， 使用 了 
+ 低温 液态 氦 充当 推进剂 达到 冷却 和 控制 的 双重 目的 。 重力 探测 卫星 - B ( GP - B ) 
+ 和 精密 X光 光谱 天文 物理 实验 卫星 ( AXAF - S ) 都 是 采用 低温 液态 氦 为 冷却剂 和 推 
+ 进剂 来 保持 卫星 的 许多 精密仪器 在 低温 下 工作 、 维持 卫星 的 姿态控制 以及 无 
+ 阻力 的 运行 。 
+ 
+ 　 　 对于 AXAF - S 卫星 ， 用 1.3 K 低温 液态 氦 作为 推进剂 。 由于 低温 液态 氦 的 
+ 超 流体 特性 ， 液体 内部 以及 自由 表面 不 存在 温度梯度 ， 忽略 自由 表面温度 梯 
+ 度 驱动 的 Marangoni 对流 ， 自由 表面 平衡 主要 的 力 是 ： 离心力 、 表面张力 、 
+ 重力 以及 液体 和 气体 表面 的 摩擦力 。 纵向 和 横向 加速度 使得 气液 界面 处于 不 
+ 稳定 状态 ， 同时 能够 激发 推进剂 的 低频 和 高频 晃动 波 。 一般 贮箱 中 流体 所 受 
+ 的 外力 分为 重力梯度 加速度 和 重力 脉动 加速度 ， 重力梯度 加速度 是 由于 地球 
+ 引力 和 卫星 运动 合成作用 所 产生 的 加速度 ， 重力 脉动 加速度 则 包括 如下 方面 ： 
+ 高空 大气 阻力 、 机械振动 、 卫星 姿态 的 调整 、 发动机 点火 、 卫星 运动 的 惯性 
+ 力 、 航天器 人员 移动 等 ， 最近 有些 研究 表明 ［ １ ］ 高频 脉动 加速度 没有 低频 
+ 重要 ， 低频 会 引起 比 高频 更 大幅度 的 晃动 波 。 
+ 
+ 　 　 数值 模拟 部分 充液 旋转 贮箱 中 流体 在 微重力 下 的 动力 响应 可以 等效于 在 
+ 一定 初始 和 边界条件 下 求解 Navier - Stokes 方程 ［ ２ ］ 。 在 气体 和 液体 的 自由 
+ 表面 上 ， 需要 满足 运动 边界条件 ( 运动 边界 的 质量守恒 ) 和 动力 边界条件 ( 切 
+ 向力 平衡 和 法向力 平衡 ) ［ ３ ］ 。 初始 边界条件 采用 轴对称 稳态 解 ［ ４ ］ ， 旋 
+ 转 流体 自由 表面 稳态 解 的 一些 结果 曾 与 Leslie 在 KC - 135 飞机 上 所 做 的 低重 
+ 实验 进行 比较 ［ ５ ］ 。 实验 也 显示 经典 流体力学 理论 能够 用于 较大 贮箱 中 的 
+ 低温 液态 氦 。 卫星 在 轨道 上 运行 时 ， 由于 受到 重力梯度 加速度 的 作用 ， 流体 
+ 会 产生 相对 于 卫星 贮箱 的 运动 。 因此 ， 重力梯度 加速度 能够 使得 流体 与 贮箱 
+ 产生 相互作用 而 激发 流体 系统 的 晃动 波 扰动 。 本文 有 兴趣 研究 与 旋转 运动 相 
+ 关 的 重力梯度 加速度 引起 的 流体 晃动 力 在 卫星 贮箱 上 的 反馈 。 
+ 
+ 
+ 2 与 旋转 有关 的 重力梯度 加速度 
+ 
+ 　 　 AXAF - S 卫星 是 一个 高度 为 650 公里 绕 极地 运行 的 卫星 ， 轨道 周期 τ 0 ＝ 97.6 
+ 分钟 ， 轨道 角速度 ｎ ＝ 2 π ／ τ 0 ＝ 0.00107 rad ／ ｓ 。 当 卫星 绕 地球 轨道 运行 
+ 时 ， 其 相对 于 地球 的 方位角 Ψ Ｅ 是 随 时间 变化 的 。 我们 定义 固连 在 卫星 上 的 直 
+ 角 坐标系 （ ｘ ， ｙ ， ｚ ） 和 ( ｘ ″ ， y ″ , z ″ ) ( 参见 图 1 ) ， 假设 当 卫星 在 轨道 中 
+ 运行 时 ， 在 轨道 周期 τ ０ 时间 内 ， 
+ 
+ 
+ 
+ 图 1AXAF - S 卫星 坐标 系统 ， ψ Ｅ 为 由 卫星 质心 和 地心 的 连线 
+ 与 卫星 自旋 轴 的 夹角 ， 坐标系 ( ｘ ″ ， y ″ , z ″ ) 用于 描述 卫 
+ 星 的 旋转 运动 ， 坐标系 （ ｘ ， ｙ ， ｚ ） 用于 描述 流体 其 卫星 
+ 绕 地心 线性 地 由 0 ° 转过 了 360 ° 。 
+ 
+ 　 　 为了 完成 较大 范围 的 观测 ， 一些 科学 卫星 需要 绕 ｘ ″ 或 ｙ ″ 转动 ， AXAF - 
+ S 卫星 即 是 如此 。 假设 卫星 绕 其 质心 开始 旋转 时 ， z ″ 轴 与 贮箱 对称轴 共线 ( 参 
+ 见图 1 ) ， ｒ ｃ 是 一个 由 卫星 质心 指向 地心 的 单位 径向 量 。 方位角 Ψ Ｅ 被 定义 为单 
+ 位 径向 量 与 ｚ ″ 轴负 方向 的 夹角 ， ω ｘ ， ω ｙ 和 ω ｚ 分别 表示 绕 ｘ ″ ， ｙ ″ 和 ｚ ″ 
+ 轴 的 旋转 角速度 ， 当 系统 没有 旋转 运动 时 ， 在 直角坐标 中 的 单位 径 矢量 ｒ ｃ 可 
+ 表达 为 ： 
+ 
+ 
+ （ 1 ） 
+ 当 只 考虑 系统 绕 ｙ ″ 做 旋转 运动 时 ， 单位 径向 量 ｒ c 为 ： 
+ 
+ 
+ （ 2 ） 
+ 通过 ( 3 ) 式 和 ( 4 ) 式 比较 有 Ψ Ｅ ＝ Ψ Ｅ ｏ ＋ ω ｙ ｔ 。 
+ 
+ 作用 在 流体 上 的 重力梯度 加速度 ： 
+ ａ gg ＝ － n ２ ［ 3 （ r ｃ * d ） r ｃ － d ］ 　 　 　 　 ( 3 ） 
+ 式 中 ， ｄ 是 流体 单元 是 卫星 质心 的 向量 ， 对于 固连于 贮箱 上 的 园柱 坐标系 
+ （ r ， θ ， z ） ， ｄ ＝ ｛ － rcos θ ， － rsin θ ， － （ ｚ － Ｌ ｃ ） ｝ 。 于是 ， 重 
+ 力 梯度 加速度 可 表达 为 ： 
+ 
+ （ ４ ） 
+ 
+ 3 与 旋转 有关 的 重力梯度 加速度 引起 的 自由 表面 晃动 
+ 
+ 　 　 在 本文 的 实际 计算 中 ， 我们 主要 针对 绕 ｙ ″ 轴 的 旋转 情况 进行 数值 模拟 ， 
+ 旋转 的 操作 是 用 600 秒 来 完成 90 度 的 转动 。 对于 在 轨道 上 的 卫星 流体 系统 的 
+ 晃动 动力 特性 ， 绕 ｙ ″ 轴 转动 与 绕 ｚ ″ 轴 转动 是 不 一样 的 ， 这 是因为 绕 ｙ ″ 
+ 轴 旋转 引起 的 重力梯度 加速度 远大于 绕 ｚ ″ 轴 自转 引起 的 重力梯度 加速度 。 
+ 我们 以 部分 充有 低温 液态 氦 的 低温 保温 贮箱 为 研究 对象 ， 使用 园柱 坐标 ( ｒ ， 
+ θ ， ｚ ) ， 相对 应 的 速度 分量 为 ( ｕ ， ｖ ， ｗ ） 。 要求 求解 的 数学 方程 是 一个 
+ 在 非惯性系 的 园柱 坐标 下 满足 一定 初始 和 边界条件 的 Navier - Stokes 方程 
+ ［ ６ ， ７ ］ 。 方程 中 包括 有 重力梯度 加速度 、 离心力 、 角加速度 、 表面张力 、 
+ 粘性力 和 哥氏 加速度 等 。 在 微重力 下 ， 对于 求解 推进剂 晃动 问题 所 需要 的 
+ 初始 和 边界条件 可 参考文献 ［ ７ ， ８ ］ 。 在 本文 中 数值 模拟 的 AXAF - S 低温 保 
+ 温贮箱 半径 为 68 ｃ ｍ ， 高为 145cm ， 贮箱 中 充液 比为 70% 。 低温 液态 氦 的 温 
+ 度为 1.3 K 。 我们 取 低温 液态 氦 与 墙 的 接解角 为 0 ° 。 
+ 
+ 　 　 在 计算 程序 中 ， 对于 速度 分量 采用 交错 网络 ， 通过 MAC ［ ９ ］ 方法 来处 
+ 理 ， 压力 参数值 取 在 网格 的 中心点 上 ， 离散 用 “ HybridScheme ” 
+ 方法 ， 流场 的 计算 采用 半隐式 ， 时间 步长 用 对流 的 稳定性 和 粘性 扩散 的 稳定 
+ 性来 确定 ， 压力 迭代 采用 共轭 梯度 法 ( ConjugateGradientMethod ) . 。 总 的 流 
+ 体 体积 守恒 满足 相对误差 不 超过 0.01 。 
+ 
+ 　 　 作为 例子 ， 本文 研究 了 绕 ｙ ″ 轴 旋转 产生 的 重力梯度 加速度 引起 的 卫星 
+ 贮箱 中 流体 的 晃动 问题 ( 见图 1 ) 。 对于 流体 质点 ( ｒ ， θ ， ｚ ） ＝ （ 12 ｃ ｍ ， 
+ π ／ 2 ， 3 ｃ ｍ ） 所受 的 重力梯度 加速度 在 直角坐标 ( ｘ ， ｙ ， ｚ ） 上 的 分量 所 
+ 显示 的 重力梯度 加速度 量级 的 大小 为 10 － ６ ｇ ， 卫星 质心 到 贮箱 底部 的 距离 L Ｃ 
+ ( 见图 1 ) 是 257.8 cm 。 本 问题 气液 界面 的 初始 形状 为 圆球 体 ( 图略 ) 。 
+ 
+ 　 图 2 所示 的 是 受 重力梯度 加速度 的 作用 所 引起 的 自由 液面 晃动 随 时间 的 变化 
+ 情况 ， 自由 液面 随 时间 的 变化 在 图 2 中 选取 的 时间 ｔ ＝ 334 、 392 、 431 、 456 、 
+ 487 、 524 、 554 、 588 、 600 、 695 、 784 和 800 秒 。 
+ 
+ 4 由于 晃动 引起 的 反馈 在 贮箱 上 的 力 和 力矩 
+ 
+ 　 　 为了 获得 晃动 引起 的 作用 在 贮箱 上 的 力 和 力矩 ， 我们 首先 要 知道 流体 作用 
+ 在 贮箱 上 的 切向应力 ∏ ｔ 和 法向应力 ∏ ｎ ， 根据 流体力学 的 基本 理论 其 表达式 为 ： 
+ 
+ 
+ 
+ （ 6 ） 
+ 
+ 为了 计算 流体 作用 到 贮箱 上 的 力 和 力矩 ， 非惯性系 统 坐标 ( 与 贮箱 固连 的 坐标系 ) 
+ 必须 转换 回 惯性 系 坐标 ( 地球 坐标系 ) 。 对于 Ａ Ｘ Ａ Ｆ - Ｓ 卫星 ， 旋转轴 总是 固定 
+ 在 卫星 的 质心 位置 ( Ｘ ｃ ， Ｙ ｃ ， Ｚ ｃ ） ＝ （ 0 ， 0 ， L Ｃ ） ( 见图 1 ) ， 关于 ( F ｘ ， Ｆ ｙ ， 
+ Ｆ ｚ ） 、 （ Ｍ ｘ ， Ｍ ｙ ， Ｍ ｚ ） 详细 的 数学 表达式 请 参考文献 ［ ８ ］ 。 
+ 
+ 　 　 这样 我们 可以 通过 下 式 计算 作用力 的 力臂 ( L ｘ ， Ｌ ｙ ， Ｌ ｚ ） ： 
+ 
+ 图 3 绕 y ″ 轴 旋转 有关 的 重力梯度 加速度 作用 
+ 引起 流体 晃动 而 反馈 到 贮箱 上 的 力 
+ 图 4 绕 y ″ 轴 旋转 有关 的 重力梯度 加速度 作用 
+ 引起 流体 晃动 而 反馈 到 贮箱 上 的 力矩 
+ 
+ 图 4 所示 的 是 与 绕 ｙ ″ 轴 旋转 有关 的 重力梯度 加速度 作用 引起 流体 晃动 而 反馈 
+ 到 贮箱 上 的 力矩 。 
+ 
+ 图 5 所示 的 是 与 绕 ｙ ″ 轴 旋转 有关 的 重力梯度 加速度 作用 引起 流体 晃动 而 
+ 反馈 到 贮箱 上力 的 力臂 。 
+ 
+ 
+ 图 5 绕 y ″ 轴 旋转 有关 的 重力梯度 加速度 作用 引起 流体 晃动 而 
+ 反馈 到 贮箱 上 的 力臂 
+ 
+ 5 结论 与 讨论 
+ 
+ 　 　 为了 达到 不同 的 科学实验 目的 ， 一些 科学实验 卫星 必须 执行 多种 旋转 运 
+ 动 的 操作 ， AXAF - S 卫星 需要 做 本文 前面 所述 那样 的 转动 。 由于 卫星 的 旋转轴 
+ 远离 贮箱 的 几何 中心 ， 贮箱 中 的 流体 会 受到 一个 不 平衡 的 重力梯度 加速度 作 
+ 用 ， 进而 引起 流体 自由 液面 的 晃动 ， 而 自由 液面 晃动 所 产生 的 晃动 力 影响 会 
+ 带来 卫星 控制系统 的 诸多 问题 。 本文 研究 的 目的 就是 为了 解决 这些 问题 ， 并 
+ 进而 为 卫星 的 控制 提供 一个 有效 的 工具 。 
+ 
+ 　 　 本文 完成 了 与 旋转 有关 的 重力梯度 加速度 引起 的 流体 晃动 而 产生 作用 在 
+ 贮箱 上 的 力 和 力矩 的 数值 模拟 。 通过 对图 3 、 图 4 和 图 5 的 分析 ， 我们 得到 进 
+ 一步 的 结论 ： ( 1 ) 本文 把 重力梯度 加速度 作为 一个 扰动 源 ， 来 研究 液体燃料 贮 
+ 箱 的 晃动 ， 作为 一般 卫星 的 姿态控制 ， 可以 忽略不计 ， 但 作为 高精度 姿态 控 
+ 制 的 卫星 ， 却是 一个 非常 重要 的 扰动 源 。 ( 2 ) 把 整个 卫星 作为 一个 系统 ， 作用 
+ 在 流体 上 的 重力梯度 加速度 可以 看做 是 这个 系统 的 输入 ， 而 最后 由 液体 晃动 
+ 引起 的 作用 于 贮箱 上 的 力 和 力矩 是 这个 输入 的 响应 和 反馈 ， 如果 我们 把 作用 
+ 于 贮箱 上 的 力 和 力矩 产生 的 卫星 运动 引起 的 加速度 又 作为 输入 的话 ， 那么 我 
+ 们 就 可以 建立 一个 流体力学 与 卫星 控制 的 闭合 系统 。 ( 3 ) 作为 重力梯度 加速度 
+ 引起 的 液体 晃动 ， 当 卫星 的 转动 绕 ｙ ″ 轴 进行 时 ， 所 得到 绕 ｙ ″ 轴 的 力矩 最 
+ 大 ， 这 与 作用 在 ｙ ″ 轴 的 力矩 有 相同之处 。 ( 4 ) 作为 重力梯度 加速度 引起 的 液 
+ 体 晃动 ， 当 卫星 的 转动 绕 ｙ ″ 轴 进行 时 ， 在 ｘ ″ 和 z ″ 方向 上 产生 一个 有 变化 
+ 的 晃动 力 ， 这是 重力梯度 加速度 引起 液体 晃动 的 一个 重要 特点 。 
+ 
+ 本文 于 1996 年 1 月 15 日 收到 
+ 
+ 参考文献 
+ 1KamotaniY , PrasadA , OstrachS . ThermalConvectioninanEnclosureDueto 
+ VibrationAbroadaSpacecraft . AIAAJournal , 1981 , 19 ( 4 ) : 511 - 516 
+ 2HungRJ , ShyuKL . ConstantReverseThrustActivatedReorientationofLiquid 
+ HydrogenwithGeyserInitiation . AIAAJournalofSpacecraftandRocket , 
+ 1992 , 29 ( 2 ) : 279 - 285 
+ 3HungRJ , LeeCC , LeslieFW . ResponseofGravityLevelFluctuationsonthe 
+ GravityProb - BSpacecraftPropellantSystem . AIAAJournalofPropulsionandPower , 
+ 1991 , 7 ( 3 ) : 556 - 564 
+ 4HungRJHongBB , LeslieFW . DynamicalBehaviorofsurfaceTensiononRotating 
+ FluiesinLowandMicrogravityEnvironments . InternationalJouralforMicrogravityResearch 
+ andApplications , 1989 , 11 ( 1 ) : 81 - 95 
+ 5LeslieFW . MeasurementsofRotatingBubbleShapesinLowGravityEnvironment . 
+ JournalofFluidMechanics , 1985 , 161 ( 2 ) : 269 - 275 
+ 6HungRJ , PanHL . DifferencesinGravityGradientandGravityJitter - ExcitedSlosh 
+ WavesinMicrogravity . TransactionsoftheJapanSocietyforAeronauticalandSpace 
+ Sciences , 1993 , 36 ( 1 ) : 153 - 169 
+ 7HungRJ , PanHL , LeslieFW . GravityGradientorGravityJitterInducedViscousStress 
+ andMonmentFluctuationsinMicrogravity . FluidDynamicsResearch , 1994 , 14 ( 1 ) : 29 - 51 
+ 8HungRJ , PanHL . FluidForceActivatedSpacecraftDynamicsDrivenbyGravity 
+ GradiendandJitterAccelerations . AIAAJournalofGuidance , Control , andDynamics , 
+ 1995 , 18 ( 5 ) : 1190 - 1197 
+ 9HarlowFH , WelchFE . NumericalCalculationofTimeDependentViscousIncompr - 
+ essibleFlowofFluidWithFreeSurface . PhysicsofFluids , 1965 , 8 ( 10 ) : 2182 - 2189 

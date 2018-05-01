@@ -1,0 +1,78 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 第 23 卷 第 1 期 Vol.23 No.11997 
+ 
+ 
+ 
+ 奇异 系统 的 输出 稳定化 通过 一般 状态 反馈 的 可 解性 
+ 谭 连生 　 范文 涛 
+ 摘 　 要 　 讨论 了 奇异 系统 的 输出 稳定化 问题 ， 得到 了 在 初始值 为 容许 且 不 保证 闭环 正则 的 情形 下 ， 通过 一般 状态 反馈 求解 此 问题 的 充要条件 及 计算 步骤 . 
+ 关键词 　 奇异 系统 ， 输出 稳定化 ， 一般 状态 反馈 ， Drazin 逆 ， 广义 不变 子 空间 . 
+ ONTHESOVABILITYOFTHEOUTPUTSTABILIZATIONPROBLEMOF 
+ SINGULARSYSTEMSVIAGENERALSTATEFEEDBACK 
+ TANLIANSHENGFANWENTAO 
+ ( WuhanInstituteofMathematicalSciences , AcademiaSinica , Wuhan430071 , PRCHINA ) 
+ AbstractThispaperisdevotedtothestudyofthesovabilityoftheoutputstabilizationproblemofsingularsystemsviageneralstatefeedback . Whentheinitialvaluesofthesingularsystemareadmissible , asufficientandnecessaryconditionforthesovabilityofthisproblem , withnoguaranteeoftheregularityoftheclosed - loopsystem , hasbeenproposed . Thealgorithmforthisproblemhasalsobeendeveloped . 
+ Keywordssingularsystem , theoutputstabilization , statefeedback , theDrazininverse , thegeneralinvariantsubspace . 
+ 1 　 引言 
+ 　 　 若 X = Rn , U = Rm , Y = Rp ， 奇异 系统 
+ 
+ 　 　 式 中 　 E , A : X → X , B : U → X , D : X → Y 为 线性 映射 ， E 为 奇异 的 . E ， A 满足 正则 束 条件 . 
+ 　 　 所谓 输出 稳定化 问题 ， 即 寻求 一般 状态 反馈 u ( t ) = - Fx ( t ) 使 闭环 系统 
+ 
+ 满足 　 
+ 　 　 文 ［ 1 ］ 率先 讨论 了 脉冲 能控 奇异 系统 的 输出 稳定化 问题 ， 文 ［ 2 ］ 给出 了 在 能量 受限 情况 下 达到 输出 稳定 的 条件 . 文 ［ 3 ］ 得到 了 利用 MPD 反馈 ［ 4 ］ 来 求解 的 充要条件 ， 但 遗憾 的 是 MPD 反馈 对系统 的 噪声 有 放大 的 作用 . 
+ 2 　 几点 准备 
+ 　 　 设 P1 为 一 可逆 矩阵 ， 使 
+ 
+ detM ≠ 0 , Q 为 幂 零 的 ， 记 
+ 
+ 那么 矩阵 = P1VP - 11 称为 E 的 Drazin 逆 . 
+ 　 　 记 , 注意 到 若 那么 Q 是 k × k 矩阵 ， E 为 从 X 到 μ 的 投影 ， ( I - E ) 为 从 X 到 的 投影 . 
+ 　 　 若 E ， A 满足 正则 束 条件 ， 容许 控制 u ( t ) ∈ U 为 k 次连续 可微 的 ， 那么 方程 E ( t ) = Ax ( t ) + Bu ( t ) 的 可能 初始 点为 
+ 　 　 ( 1 ) 
+ 式 中 　 u ( r ) ( 0 ) 为 u ( t ) 在 t = 0 处 的 第 r 阶 导数 ， 方程 的 解为 
+ 
+ 　 　 　 ( 2 ) 
+ 　 　 定义 1 . 　 设 E ， A ： X → X , 为 E 的 Drazin 逆 ， B : U → X ， 对于 子 空间 VX ， 如果 存在 一个 映射 F : X → U ， 使得 
+ 　 　 　 ( 3 ) 
+ 则 称 V 为 奇异 系统 Q 的 广义 ( A , B ) 不变 子 空间 . 把 X 的 ( A , B ) 不变 子 空间 所 组成 的 类 表示 为 ( A , B ; X ) , 把 满足 ( 3 ) 的 映射 F : X → U 所 组成 的 类 记为 ( A , B : X ) . 
+ 　 　 引理 1 . 设 VX , 则 V ∈ ( A , B ; X ) 的 充分 必要条件 为 ( A ) VV + Im ( B ) . 
+ 　 　 定理 1 . KerD 中 包含 唯一 的 一个 最大 ( A , B ) 不变 子 空间 ， 记 为 
+ 
+ 3 输出 稳定化 的 可解 条件 
+ 　 　 设 表示 对应 A 的 最小 多项式 ， 记 的 零点 分别 在 C + , C - ( C + , C - 分别 为闭 的 右半 复 平面 ， 开 的 左半复 平面 ) . 记 
+ 
+ 　 　 引理 2 . 　 若 闭环 系统 QF 为 正则 奇异 的 ， 且 其 初始值 为 x0 = Eq ， 则 其 唯一 状态 解为 
+ 　 　 　 ( 4 ) 
+ 　 　 引理 3 . 　 
+ 　 　 引理 4 . 　 设 V 是 任意 满足 AVV 的 子 空间 ， 记 = X / V ， 令 P ： X → X / V 是 标准 投影 ， 记为 中 诱导 映射 ， 那么 + ( ) = PX + ( A ) . 
+ 　 　 定理 2 . 　 系统 Q 输出 稳定 通过 一般 状态 反馈 ， 可解 的 充分 必要条件 为 　 X + ( A ) ＜ A ｜ Im ( B ) ＞ + V * , 其中 为 E 的 Drazin 逆 ， V * = sup ( A , B , KerD ) . 
+ 4 算法 步骤 
+ 　 　 1 ) 计算 . 
+ 　 　 设 O 是 E 的 重数 为 l 的 特征值 ， 非零 特征值 为 λ i ， 重数 为 ni ， i = 1 , 2 , … , r , 那么 m = . 多项式 的 m 个 系数 α i ( i = 0 ～ m - 1 ) 由 
+ 
+ 
+ 
+ 所 决定 ， 从而 = P ( E ) . 
+ 　 　 2 ) 计算 X + ( A ) , ＜ A ｜ Im ( B ) ＞ , V * = sup ( A , B ; KerD ) . 
+ 　 　 令 = ImV μ , 而 V0 是 DV0 = 0 的 一个 最大 解 ， 又 设 　 W μ [ B , V μ - 1 ] = 0 , μ = 1 , 2 , … , 的 最大 解为 W μ ， 而 由 方程 
+ 
+ 的 最大 解 得到 即经 检验 有 
+ 
+ 当 = - 1 时 ， 即 rankV μ = rankV μ - 1 时 ， 递推 结束 . 
+ 　 　 3 ) 判断 
+ 　 　 4 ) 计算 F . 
+ 　 　 先 定出 , 由 F1 = 1P 得 F1 . F0 应使 W * 0 ( A - BF0 ) V * = 0 , 由 F = F0 + F1 得到 F . 
+ 　 　 5 ) 验证 闭环 正则 性 . 
+ 作者 单位 ： 中国科学院 武汉 数学 物理 研究所 　 武汉 　 430071 
+ 参考文献 ： 
+ 　 [ 1 ] 　 杨成 梧 ， 邹云 . 脉冲 能控 广义 系统 的 输出 稳定化 . 控制 与 决策 ， 1989 ， 1 ∶ 44 — 45 . 
+ 　 [ 2 ] 　 谭 连生 . 奇异 系统 能量 受限 的 输出 调节 通过 一般 状态 反馈 的 可 解性 . 控制 理论 与 应用 ， 1993 ， 10 ( 6 ) ∶ 724 — 727 . 
+ 　 [ 3 ] 　 杨成 梧 ， 邹云 . 广义 系统 的 输出 稳定化 通过 MPD 反馈 的 可 解性 . 控制 理论 与 应用 ， 1989 ， 6 ( 1 ) ∶ 43 — 50 . 
+ 　 [ 4 ] 　 ZhengZhou , MarkA . ShaymanandTyzh - JongTarn , SigularSystems : anewapproachinthetimedomain . IEEETrans . OnAutomaticControl , 1987 , 32 ( 1 ) ∶ 42 — 50 . 
+ 　 [ 5 ] 　 WonhamWM . Linearmultivariablecontrol : Ageometricapproach , 2nd . ed . NewYork ; Springer - Verlag , 1979 . 
+ 　 [ 6 ] 　 TanLiansheng ( 谭 连生 ) . Ondisturbancelocalizationinsingularsystemswithdirectfeedthrough . InternationalJournalofSYSTEMSSCIENCE.1995 , 26 ( 11 ) ∶ 2235 — 2244 . 
+ 收稿 日期 　 1993 - 04 - 08 
+ 
+ 

@@ -1,0 +1,63 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 4 期 Vol.24 No.41998 
+ 
+ 
+ 
+ 
+ 一种 用于 函数 学习 的 小波 神经网络 
+ 吕柏权 　 李天铎 　 吕 崇德 　 刘兆辉 
+ 摘要 　 在 非线性 系统 辨识 中 ， 系统 输入 往往 是 多 变量 的 . 小波 处理 此类 问题 则 比较复杂 . 结合 神经网络 形式 和 小波 特点 建立 一种 新型 的 网络 ， 可 简单 有效 地 解决 网络 多 输入 问题 . 同时 给出 此 网络 可以 逼近 任意 连续函数 的 数学 证明 . 并 通过 实例 验证 了 此 方法 的 正确性 . 
+ 关键词 　 参数 辨识 ， 小 波 网络 ， BP 神经网络 . 
+ WAVELETNEURALNETWORKFORFUNCTIONLEARNING 
+ 
+ L ü BAIQUAN 　 LITIANDUOL ü CHONGDE 　 LIUZHAOHUI 
+ ( DepartmentofThermalEngineering , TsinghuaUniversity , Beijing100084 ) 
+ AbstractInidentificationofnonlinearsystem , thenetworkinputsusuallyaremultivariables . Theapproachusingwaveletsalonetoresolvetheproblemiscomplex . Therefore , thepaperestablishesanewnetworkmethodbycombiningneuralnetworkandwaveletcharacteristicstohandlethemultivariableproblemsimplyandeffectively . Thispaperalsogivesthemathematicalverificationthatthenetworkcanapproximateanykindoffunctions . Thesimulationresultsofanexamkpleindicatethevalidityofthemethod . 
+ KeyworksParametersidentification , waveletnetwork , BPneuralnetwork . 
+ 1 　 引言 
+ 　 　 小 波 分析 是 近年来 迅速 发展 起来 的 新 学科 . 它 广泛 地 用于 信号 分析 、 故障诊断 等 方面 . 其 最大 特点 是 它 在 时域 － 频域 同时 具有 良好 的 局部 化 性质 . 另外 小波 还 能 把 L2 ( IR ) 空间 分成 闭子 空间 WJ , J ∈ ZZ 的 直 和 形式 ( 尺度 分析 ) . 目前 利用 此 特点 进行 函数 逼近 也 倍受 关注 ［ 1 - 3 ］ . 但 对 多维 情况 ， 小 波 处理 此 问题 比较复杂 . 在 实时 单 输入 － 单 输出 的 控制系统 参数 辨识 中 ， 往往 又 要求 网络 输入 为 多 变量 的 . 为此 本文 利用 神经网络 形式 ， 以小 波函数 做 激励函数 从而 简单 而 有效 地 解决 网络 多 输入 问题 ， 同时 给出 此 网络 可以 逼近 任意 连续函数 的 数学 证明 ， 并 通过 实例 验证 了 此 方法 的 正确性 . 
+ 
+ 2 　 小 波 变换 及 学习 算法 
+ 　 　 首先 考虑 一维 的 情况 ， 记 〈 f , g 〉 = ∫ Rf ( x ) g ( x ) dx ‖ f ‖ = 〈 f , f 〉 1 / 2 , Ψ ( a , b ) ( x ) = 
+ 其中 Ψ 为 母小波 ， 即 
+ 　 　 ( 1 ) 
+ 　 　 定义 1 . 函数 f ( x ) ( ∈ L2 ( IR ) ) 空间 的 连续 小 波 变换 为 T ( a , b ) . 其反 变换 为 
+ 
+ 当 a = 2j , b = kb02j ( j , k ∈ zz ) 时 ， 反 变换 离散 化为 
+ 　 　 ( 2 ) 
+ 其中 Ψ j , k 是 Ψ j , k 的 共轭 基 ， Ψ j , k ( x ) = 2 - j / 2 Ψ ( 2 - jx - kb0 ) . 
+ 　 　 为了 能 再现 f ( x ) 还 必须 满足 如下 条件 ， 即 框架 ( Frame ) 
+ 　 且 0AB ＜ ∞ , 
+ ( 2 ) 式 可 近似 为 ， 这 可以 用 三层 NN 网络 实现 . 当维数 为 d 时 判断 Ψ d ( x ) 满足 框架 条件 比较 困难 ［ 1 , 2 ］ , 同样 ， Ψ d ( x ) 为 小 波函数 时 ， 可以 用 Ψ d ( x ) = Ψ d 
+ 表示 . 此 表示法 在 x 的 维数 比较 高时 计算 量 比较 大 . 本文 用 
+ 来 近似 f ( x ) ， 其中 α TR 为 行向量 ， X 为列 向量 ， 现在 讨论 Ψ ( x ) 是 怎样 的 函数 时用 此 近似 f ( x ) 的 误差 在 允许 范围 内 . 
+ 　 　 定义 2 ［ 4 ］ . 设 函数 g ( x ) ∈ LPLOC ( R1 ) ， 若 线性组合 在 任意 LP ［ a , b ］ 中 稠密 ， 则 称 g 是 一个 LP － Tauber － Wiener 函数 ， 简记 g ∈ ( LPTW ) 其中 Ci , θ i , 及 λ i ≠ 0 均 为 实数 ， i = 1 , … , N . 若 g 为 一个 一元函数 ( 连续 的 或 不 连续 的 ) 且 在 任意 ( C ［ a , b ］ 中 稠密 ， 则 称 g 是 一个 C － Tauber － Wiener 函数 . 简记 g ∈ ( CTW ) . 
+ 　 　 引理 1 . 设 K 为 Rn 中任 一个 紧集 ， V 为 LP ( K ) 一个 紧集 ， g ∈ ( LPTW ( 1P ∞ ) , 则 对 任意 ε ＞ 0 存在 不 依赖 f 的 一 正整数 N ， 实 常数 θ i 以及 向量 yi ∈ R1 ， 和 依赖于 f 的 常数 ci ( f ) , i = 1 , … , N , 使 对 一切 f ∈ V 成立 ， 且 所有 ci ( f ) 都 是 定义 在 V 上 的 连续 泛函 . 
+ 　 　 定理 1 . 设 K 为 Rn 中任 一个 紧集 ， V 为 L2 ( K ) 中 的 一个 紧集 ， 对于 框架 函数 Φ ∈ L2 ( IR ) ， 则 对于 任意 ε ＞ 0 存在 一个 正整数 N ， 实 常数 bi , 向量 ai ∈ R1 ， 均 不 依赖于 f ∈ V , 以及 依赖于 f ∈ V 的 常数 ci ( f ) , 使 对 一切 f ∈ V 成立 . 所有 ci ( f ) , i = 1 , … ， N 都 是 定义 在 V 上 的 线性 连续 泛函 . 为 φ 的 付里叶 变换 . 
+ 　 　 证 . 由 引理 1 知道 ， 只要 ( x ) ( 在 任意 LP ［ a , b ］ 中 稠密 ( 其中 x ∈ R1 ) ， 则 对 任意 f ( x ) ∈ V ( V 为 LP ( K ) 一个 紧集 ， K 为 Rn 中任 一个 紧集 ) ， 都 可以 用 1 ( x ) 逼近 ( 其中 向量 x ∈ R1 ) ， 由于 Ψ 是 框架 ， 则 保证 了 ( x ) 在 任意 L2 ( IR ) 中 稠密 ( 其中 x ∈ R1 ) ， 也就是说 用 1 ( x ) 是 可以 以 任意 精度 逼近 f ( x ) . 证毕 . 
+ 　 　 定理 2 . 设 K 为 rn 中 任一 紧集 ， V 为 C ( K ) 中 R 一个 紧集 ， 对于 框架 函数 Φ ∈ L2 ( IR ) , 则 对于 任意 ε ＞ 0 存在 一个 正整数 N ， 实 常数 bi ， 向量 ai ∈ R1 ， 它们 均 不 依赖于 f ∈ V , 以及 依赖于 f ∈ V 的 常数 ci ( f ) 使 
+ 对 一切 f ∈ V 成立 . 所有 ci ( f ) ， i = 1 , … , N 都 是 定义 在 V 上 的 线性 连续 泛函 . 为 φ 的 付里叶 变换 . 
+ 
+ 3 　 仿真 结果 
+ 　 　 本文 以 y ″ = sin ( y ′ ) - ( 1 + 1.5 y ′ ) * y2 + ( 1 + 0.2 y ) u 为例 进行 仿真 . 仿真 步长 为 h = 0.01 s ) . 每 5 倍 h 作为 一个 学习 点 ， 共 100 点 ， 每 100 点 作为 一个 学习 周期 重新 开始 学习 . u = 1.0 ， 其权 初值 为 ( - 0.01 ， 0.01 ) 的 均匀分布 ； x = ｛ y ( n - 1 ) , y ( n - 2 ) , u ( n ) ｝ 为 网络 的 输入 ； y 为 网络 的 输出 ； 中间 结点 选为 200 . 激励函数 分别 为 
+ ( BP 网络 ) ， 
+ ( 小 波 网络 ) . 
+ 易 验证 小 波 Ψ 2 ( x ) 满足 框架 条件 . 终止 条件 为 
+ 
+ 当 激励函数 为 Ψ 1 ( x ) 且 学习 7500 个 周期 时 E1 才 小于 0.064 ( 学习 速率 η = 0.002 ) . 当 激励函数 为 Ψ 2 ( x ) 且 学习 440 个 周期 时 ， E1 已 小于 0.008 ( 学习 速率 η = 0.07 ) . 可见 效果 明显 . 其 仿真 结果 如图 1 和 图 2 所示 ( 横轴 表示 采样 点 ， 换算 成 时间 秒 0.05 × 采样 数 ) . 
+ 
+ 
+ 图 1 　 小 波 网络 逼近 结果 
+ 
+ 
+ 图 2 　 神经网络 逼近 结果 
+ 　 　 本文 给出 了 一种 小 波 网络 逼近 任意 函数 方法 的 证明 ， 从而 为用 这种 小 波 网络 逼近 函数 时 提供 理论 根据 . 并 通过 仿真 验证 此 方法 的 正确性 . 
+ 作者 单位 ： 清华大学 热能 工程系 　 北京 　 100084 
+ 参考文献 
+ 1 　 DelyonB , JuditskyA , BenveniseA . AccuracyanalysisforwaveletApproximations . IEEETransactionsonNeuralNetworks , 1995 , 6 ( 2 ) : 332 － 348 
+ 2 　 JunZhang , GilbertGWalter , YuboMiaoetal . WaveletNeuralNetworksforfunctionlearning . IEEETransactionsonSignalProcessing , 1995 , 43 ( 6 ) : 1485 - 1496 
+ 3 　 倪 先锋 ， 陈宗基 ， 周绥平 . 基于 神经网络 的 非线性 学习 控制 研究 . 自动化 学报 ， 1993 ， 19 ( 3 ) ： 307 - 314 
+ 4 　 陈天平 . 神经网络 及其 在 系统 识别 应用 中 的 逼近 问题 . 中国 科学 学报 ( A 辑 ) ， 1994 ， 24 ( 1 ) ： 1 - 7 
+ 5 　 秦 前清 ， 杨宗凯 . 实用 小 波 分析 . 西安 ： 西安电子科技大学 出版社 ， 1994 
+ 收稿 日期 　 1996 - 01 - 15 

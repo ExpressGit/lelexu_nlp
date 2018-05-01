@@ -1,0 +1,131 @@
+环境 科学 学报 
+ ACTASCIENTIAECIRCUMSTANTIAE 
+ 1999 年 　 第 19 卷 　 第 4 期 　 Vol.19 　 No.4 　 1999 
+ 
+ 
+ 
+ 活性炭 对 二硫化碳 和 水 的 共吸附 动力学 行为 的 热重 研究 
+ 金国 杰 　 樊惠玲 上官 炬 　 郭汉贤 　 李永爱 
+ 摘要 　 用 热重法 研究 了 5 种 国产 活性炭 对 水蒸汽 和 二硫化碳 的 吸附 动力学 行为 . 发现 其 动力学 行为 均 遵循 Bangham 方程 和 Elovich 方程 所 描述 的 规律 ， 但 Bangham 方程 更为 优越 . 水蒸汽 在 活性炭 上 的 平衡 吸附 量 受 温度 影响 非常 严重 ， 二硫化碳 和 水蒸汽 在 活性炭 上 的 总 平衡 吸附 量 与 单独 吸附 二硫化碳 的 量 相比 ， 因 活性碳 的 种类 不同 而 各异 ， 这 主要 跟 活性炭 的 孔 结构 及 表面 化学性质 有关 . 
+ 关键词 　 活性炭 ； 水蒸汽 ； 二硫化碳 ； 吸附 动力学 . 
+ StudyonkineticbehaviorofadsorbingCS2andCS2 + H2Obyactivatedcarbonusingthermogravimetrictechnique 
+ JINGuojie , FANHuiling , SHANGGuanju , GUOHanxian , LIYongai 
+ ( InstituteforChemicalEngineeringofCoal , TaiyuanUniversityofTechnology , Taiyuan030024 ) 
+ Abstract 　 ThekineticbehaviorofadsorbingCS2andCS2 + H2Obyfivekindsofdomesticactivatedcarbonwerestudiedbythermogravimetrictechnique . ItwasfoundthatbothBanghamandElovichequationscanbeusedtodescribetheadsorptionkineticbehavior , butBanghamequationismorefavorable . TemperaturegavearemarkableeffectonequilibriumadsorptionofH2O . Becauseofthedifferentporestructuresandchemicalpropertiesonthesurfaceofactivatedcarbon , thetotal - equilibriumadsorptionofCS2 + H2OvariedfromoneactivatedcarbontoanothercomparingtothatofCS2 . 
+ Keywords 　 Activationcarbon , watervapor , carbondisulfide , adsorptionkinetics . 
+ 　 　 
+ 　 　 粘胶纤维 工厂 放出 的 含有 大量 CS2 的 废气 对 环境 所 造成 的 污染 ， 给 操作 人员 和 附近 居民 的 身体健康 造成 严重危害 . 工业原料 气中 微量 CS2 的 存在 还会 使 化工 生产 中 的 各种 催化剂 中毒 失活 ， 严重 影响 使用寿命 和 产品质量 . 故对 CS2 脱除 的 研究 就 显得 尤为 迫切 . 活性炭 常 低温 下 作为 吸附剂 对 脱除 CS2 有 较 好 性能 . 作者 在 文献 ［ 1 ］ 中 已 报道 了 各种 脱硫 活性炭 在 干燥 气氛 下 对 CS2 的 吸附 行为 . 但 考虑 到 实际气体 中 水蒸汽 的 存在 是 在所难免 的 ， 而且 不可避免 地 影响 到 CS2 的 吸附 行为 . 有鉴于此 ， 本文 进一步 研究 了 活性炭 对 水蒸汽 和 CS2 的 共吸附 行为 . 
+ 
+ 1 　 实验 方法 
+ 　 　 本文 采用 热重法 考察 活性炭 对 CS2 和 水 的 吸附 动力学 行为 ， 主要 仪器 为 TG - 1 型 电子 自 平衡 微量 热 天平 ， 感量 0.01 mg . 实验 所用 原料 气系用 CS2 气 与 纯 氮气 配制 而成 ， CS2 的 浓度 用 WKL - 3 型 微 库仑 分析仪 测定 . 
+ 　 　 实验 条件 为 ： 气体 总流量 420mL / min ( 已 排除 外扩散 的 影响 ) ， CS2 进口 浓度 2.95 g / m3 ， 水蒸汽 含量 保持 35.8 g / m3 ( 30 ℃ 下 的 饱和 水蒸汽 ) ， 所用 活性炭 为 国产 柱状 产品 ， 其 物性 参数 见表 1 . 
+ 表 1 　 活性炭 的 物性 参数 
+ Table1Physicalparametersofactivatedcarbon 
+ 
+ 　 ABCDE 
+ 比 表面积 A , m2 / g219.394 . 3822.4922 . 0557.2 
+ 微孔 容积 V , mL / g0.1080 . 0280.2660 . 3170.225 
+ 总孔 容积 Vt , mL / g0.1980 . 2000.7280 . 5380.419 
+ 堆密度 ρ , g / mL0.540 . 420.430 . 470.63 
+ 样品 粒度 ， 目 60 — 80 ( 实验 用 ) 
+ 
+ 　 　 　 注 ： C 、 D 、 E 样为 大 表面积 ， 高 微孔 活性炭 ； A 、 B 样为 小 表面积 ， 低微 孔 活性炭 
+ 表 2 　 不同 温度 下 活性炭 的 平衡 吸 水量 
+ Table2AdsorbingcapacityofH2Oatdifferenttemparature 
+ 
+ T , ℃ 平衡 吸附 质量 分数 ， % 
+ ABCDE 
+ 302.505 . 324.434 . 6215.54 
+ 400.392 . 160.351 . 174.91 
+ 5001.10002 . 39 
+ 
+ 
+ 图 1 　 活性炭 对 CS2 、 H2O 及 CS2 + H2O 的 吸附 动力学 曲线 ( T = 30 ℃ ) 
+ ( 因 C 、 D 炭 较为 类似 ， 故只 附一图 ) 
+ Fig.1 AdsoirptioncurvesforCS2 , H2OandCS2 + H2O 
+ 2 　 结果 与 讨论 
+ 2.1 　 活性炭 对 水蒸汽 的 吸附 行为 
+ 　 　 考察 了 30 ℃ 、 40 ℃ 、 50 ℃ 3 个 温度 水平 下 5 种 活性炭 对 水蒸汽 的 吸附 动力学 行为 ， 给出 活性炭 结果 见表 2 . 
+ 　 　 由 实验 结果 可以 明显 看出 ： ( 1 ) 温度 对 活性炭 的 平衡 吸 水量 有 负效应 且 影响 相当严重 ， 在 本 实验 条件 下 活性炭 对水 的 平衡 吸附 质量 分数 为 0 — 15.54% . 除 B 、 E 两 样品 外 ， A 、 C 、 D 活性炭 在 50 ℃ 时 ， 不再 吸附 水蒸汽 ， 吸 水量 为 零 . ( 2 ) 50 ℃ 时 水蒸汽 在 各 活性炭 上 只 需 几分钟 即达 平衡 . 随 温度 下降 ， 平衡 时间 将 延长 至 17 — 75 ? min . 
+ 2.2 　 CS2 与 水蒸汽 在 活性炭 上 单独 吸附 时 的 吸附 行为 比较 
+ 　 　 各 活性炭 在 30 ℃ 下 单独 吸附 CS2 和 水蒸汽 的 动力学 结果 见图 1 . 
+ 　 　 由图 1 可见 ， 活性炭 吸附 水蒸汽 的 初始 速率 均 比 吸附 CS2 为 快 ， 两者 的 吸附 速度 相差 约 1.5 — 2.5 倍 . 除 E 样外 ， 其余 活性炭 吸附 水蒸汽 达到 平衡 所 需 时间 一般 均 比 吸附 CS2 为 短 ， 故 在 达到 吸附平衡 前 ， 动力学 曲线 有 可能 出现 了 交叉 . 
+ 2.3 　 CS2 和 水蒸汽 在 活性炭 上 共同 吸附 行为 
+ 　 　 在 原料 气中 配入 含量 为 35.8 g / m ３ 的 水蒸汽 ( 30 ℃ 的 饱和 水 ) ， 于 30 ℃ 下 进行 CS2 和 水蒸汽 在 活性炭 上 的 共吸附 实验 ， 实验 结果 见图 1 . 由图 1 可以 看出 ， 在 水蒸汽 和 CS2 共存 条件 下 ， 活性炭 对 二者 的 共吸附 初速度 均 比 单独 吸附 CS2 为 快 . CS2 + H2O 总 吸附 量 与 CS2 单独 吸附 量 的 结果 见图 1 . 显然 ， 在 双 组份 吸附 体系 中 ， H2O 与 CS2 存在 竞争 吸附 . 
+ 2.4 　 吸附 动力学 模型 的 建立 
+ 2.4 . 1 　 吸附 模型 　 本文 仅 就 30 ℃ 时 ， 活性炭 对 水蒸汽 的 吸附 及 对 CS2 与 水蒸气 的 共吸附 动力学 行为 进行 考察 . 选用 Bangharm 方程 和 Elovich 方程 ［ 2 ］ 作为 备选 模型 . 
+ 　 　 Bangham 方程 的 微分形式 为 ： dq / dt ＝ q / mt ， 积分 形式 为 ： q = kt1 / m 
+ 式 中 ， q 为 平衡 吸附 量 ， t 为 吸附 时间 ， m 为 Bangham 方程 中 的 物性 参数 ， k 为 Bangham 方程 中 的 速率 常数 . 若 吸附 动力学 行为 符合 该 方程 所 描述 的 规律 ， 则 以 lgq 对 lgt 作图 可得 一 直线 . 
+ 　 　 Elovich 方程 的 微分形式 为 ： dq / dt = ae - bq ， 积分 形式 为 ： q = ( 2.3 / b ) lg ( t + t0 ) - ( 2.3 / b ) lgt0 
+ 式 中 ， t0 ＝ 2.3 / ab , a 为 吸附 初速度 ， b 为 Elovich 方程 中 的 参数 . 
+ 　 　 表 3 　 活性炭 吸附 水蒸汽 时 两种 直线 拟合 关系 的 相关系数 
+ 　 　 Table3Correlationcoefficientforlinearregressionusingtwomethods 
+ 
+ 方程 r 
+ ABCDE 
+ Bangham0.9540 . 9720.9980 . 9990.998 
+ Elovich0.9620 . 9860.9980 . 9970.993 
+ 
+ 　 　 若 体系 的 吸附 动力学 行为 符合 该 方程 所 描述 的 规律 ， 那么 选择 合适 的 t0 值 ， 以 q 对 lg ( t + t0 ) 作图 便 得 一 直线 ， 经 优选 ， 本文 取 t0 ＝ 0.5 . 
+ 2.4 . 2 　 水蒸汽 在 活性炭 上 的 吸附 动力学 模型 
+ 　 　 对 实验 数据 用 上述 两 模型 进行 一元 线性 回归 ， 发现 拟合 程度 均 较 好 ( 图 2 ， 图 3 ) ， 各 直线 关系 的 相关系数 见表 3 . 残差 对 Bangham 方程 一般 均 小于 4% ， 对 Elovich 方程 小于 14% . 
+ 
+ 
+ 图 2 　 活性炭 吸附 水蒸汽 的 lgq - lgt 直线 关系 
+ Fig.2 Relationshipbetweenlgqandlgt 
+ 
+ 
+ 图 3 　 活性炭 吸附 水蒸汽 的 q - lg ( t + t0 ) 直线 关系 
+ Fig.3 Relationshipbetweenqandlg ( t + t0 ) 
+ 　 　 所以 Bangham 方程 和 Elovich 方程 均 可用 来 描述 水蒸汽 在 各 活性炭 上 的 吸附 动力学 行为 . 但 Elovich 方程 各 实验点 残差 较大 ， 相比之下 ， Bangham 方程 更为 优越 . 
+ 2.4 . 3 　 CS2 和 水蒸汽 在 活性炭 上 共同 吸附 的 动力学 模型 　 H2O 、 CS2 二者 的 吸附 行为 遵循 同一 规律 ， 通过 对 实验 数据 进行 一元 线性 回归 ， 发现 拟合 程度 均 较 好 ， 直线 关系 见图 4 、 图 5 ， 各 直线 关系 的 相关系数 见表 4 . 残差 对 Bangham 方程 一般 均 小于 3% ， 对 Elovich 方程 小于 7% . 
+ 
+ 
+ 图 4 　 活性炭 吸附 CS2 + H \ 2O 的 lgq - lgt 直线 关系 
+ Fig.4 Relationshipbetweenlgqandlgt 
+ 
+ 
+ 图 5 　 活性炭 吸附 CS2 + H2O 的 q - lg ( t + t0 ) 直线 关系 
+ Fig.5 Relationshipbetweenqandlg ( t + t0 ) 
+ 　 表 4 　 活性炭 吸附 CS2 和 水蒸汽 时 两种 直线 拟合 关系 的 相关系数 
+ 　 Table4Correlationcoefficientforlinearregressionusingtwomethods 
+ 
+ 方程 r 
+ ABCDE 
+ Bangham0.9710 . 9720.9900 . 9820.995 
+ Elovich0.9790 . 9880.9990 . 9960.999 
+ 
+ 　 　 所以 Bangham 方程 和 Elovich 方程 也 可用 来 描述 CS2 与 水蒸汽 在 各 活性炭 上 共同 吸附 的 动力学 行为 ， 但 Bangham 方程 相对 更为 优越 . 
+ 2.5 　 Bangham 方程 和 Elovich 方程 中 物性 参数 的 求取 
+ 　 　 Bangham 方程 中 参数 k \ , m 和 Elovich 方程 中 参数 a \ , b 能 间接 反映 吸附 质 在 吸附剂 表面 吸附 速度 的 快慢 ， 对 了解 体系 的 吸附 特性 具有 重要 意义 . 各 参数 可 分别 由 lgq - lgt 及 q - lg ( t + t0 ) 直线 的 斜率 和 截距 求得 . 5 种 活性炭 在 30 ℃ 饱和 水蒸汽 条件 下 单独 吸附 水蒸汽 和 共同 吸附 CS2 及 水蒸汽 的 各 参数值 见表 5 ， 为 便于 比较 ， 亦 把 相同 条件 下 活性炭 单独 吸附 CS2 时 的 参数 列于 表 5 中 . 
+ 表 5 　 动力学 方程 中 各 参数值 
+ Table5Parametersinkineticequation 
+ 
+ 模型 参数 吸附 水蒸汽 吸附 CS2CS2 + H2O 共吸附 
+ ABCDEABCDEABCDE 
+ Banghamk10.4013 . 6011.598 . 1211.422 . 933.757 . 958.863 . 8411.8323 . 6817.5716 . 4124.74 
+ 　 m3.152 . 092.211 . 641.311 . 841.572 . 082.241 . 662.812 . 252.011 . 941.74 
+ Elovicha12.6534 . 6127.7938 . 6789.253 . 6044.2754 . 3039.3141 . 5916.1152 . 5749.7348 . 4588.91 
+ 　 b0.360 . 130.170 . 120.050 . 340.100 . 080.120 . 110.290 . 090.090 . 090.05 
+ 
+ 2.6 　 讨论 
+ 2.6 . 1 　 CS2 与 H2O 的 竞争 吸附 　 实验 表明 ， CS2 + H2O 的 共吸附 量 并不等于 二者 单一 吸附 量 之 和 . 甚至 对 C 、 D 炭 ， 因 H2O 的 存在 ， 总 吸附 量 比 CS2 单一 吸附 量 明显 减少 . 在 E 炭上 ， 因 CS2 的 存在 ， 总 吸附 量 比 单一 H2O 吸附 量 明显 减少 . 
+ 　 　 活性炭 表面 的 亲水 、 憎 水性 对 二者 的 吸附 也 有 明显 影响 . 一般 炭样 呈 憎 水性 ， 但 E 样经 测定 ， 系碱 改性 活性炭 ， 所以 亲水性 强 ， 表现 出 差异 . 
+ 2.6 . 2 　 动力学 模型 优选 　 由 上 可知 ， Bangham 方程 与 Elovich 方程 均 可 用于 描述 H2O 、 CS2 、 CS2 + H2O 在 活性炭 上 的 吸附 动力学 行为 ， 但 以 Bangham 方程 更为 优越 . 这里 还 需 指出 两点 ： 
+ 　 　 Bangham 方程 尽管 是 以 经验 式 提出 ， 但 可 认为 是 与 Freundlich 等温 吸附 方程 对应 的 动力学 方程 ， 这 可 从 理论 上 导出 ( 见 另文 报导 ) . 而 Freundlich 方程 适用 于 描述 活性炭 吸附 CS2 的 平衡 体系 已 得到 公认 . 
+ 　 　 二 动力学 方程 中 的 参数 k 及 a 分别 对应 于 吸附 速率 常数 和 吸附 初速度 . 对 各 活性炭 都 存在 以下 结果 ： k ( CS2 ) < k ( H2O ) < k ( CS2 + H2O ) ， 即 对 CS2 + H2O 的 吸附 速率 最大 ， 而 对 CS2 的 吸附 速率 最小 ， 这 与 图 1 中 的 动力学 曲线 是 一致 的 . 但 若 从 吸附 初速度 a 值 考虑 ， 对 A 、 B 、 D 活性炭 ， a ( H2O ) < a ( CS2 ) < a ( CS2 + H2O ) , 对 C 样 ， a ( H2O ) ≈ a ( CS2 ) < a ( CS2 + H2O ) , 对 E 样 ， 则 有 a ( H2O ) > a ( CS2 + H2O ) > a ( CS2 ) . 这 与 图 1 中 的 结果 存在 较大 差别 ， 不如 k 值 存在 普遍 适用性 . 
+ 
+ 3 　 结论 
+ 　 　 1 . 活性炭 对 CS2 与 水蒸汽 的 吸附 具有 明显 的 选择性 . 活性炭 A 、 B 、 C 、 D 优先 吸附 CS2 ， 而 活性炭 E 则 优先 吸附 水蒸汽 . 
+ 　 　 2 . 活性炭 对 单独 吸附 水蒸汽 及 共同 吸附 CS2 和 水蒸汽 混合物 的 动力学 行为 遵循 Bangham 方程 和 Elovich 方程 所 描述 的 规律 ， 但 Bangham 方程 更为 优越 . 
+ 　 　 3 . 活性炭 对 水蒸汽 的 吸附 与 CS2 相比 ， 受 温度 影响 更为严重 . 
+ 　 　 4 . 当 CS2 和 水蒸汽 在 活性炭 上 共同 吸附 时 ， 其 总 的 平衡 吸附 量 与 单独 吸附 CS2 量 的 大小 关系 ， 因 活性炭 种类 不同 而 各异 . A 、 B 、 E3 种 活性炭 的 总 吸附 量 大于 单独 吸附 CS2 的 量 ， 而 C 、 D 两种 活性炭 则 相反 . 
+ * 国家自然科学基金 资助 项目 ( 29576254 ) 　 * * 联系人 
+ 作者 单位 ： ( 太原 理工大学 煤化工 研究所 ， 太原 　 030024 ) 
+ 参考文献 
+ 　 1 　 金国 杰 ， 郭汉贤 ， 李永爱 等 . 活性炭 吸附 CS2 的 共 性行为 研究 . 天然气 化工 ， 1996 ( 增刊 ) ： 16 
+ 　 2 　 北川 浩 ， 铃木 谦一郎 . 吸附 的 基础 与 设计 . 北京 ： 化学工业 出版社 . 1983.48 — 49 
+ 1997 - 10 - 16 收到 原稿 
+ 1998 - 06 - 01 收到 修改稿 
+ 
+ 

@@ -1,0 +1,93 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 2000 　 Vol.26 　 No.3 　 P.387 - 391 
+ 
+ 
+ 
+ Flow - shop 系统 的 鲁棒性 与 最优 鲁棒控制 
+ 戴 世雄 　 戴志勇 
+ 摘 　 要 　 使用 极大 代数 模块 网络 法 ， 研究 Flow - shop 离散 事件 动态 系统 ( DEDS ) 在 没有 缓冲器 下 的 无 阻塞 鲁棒性 及 最优 鲁棒控制 . 提出 了 系统 鲁棒性 的 Kharitonov - like 判据 ； 证明 了 最优 鲁棒控制 是 一类 线性 状态 反馈 ； 还 讨论 了 鲁棒控制 系统 的 周期 稳定性 和 鲁棒 极点 对 摄动 参数 的 敏感性 . 
+ 关键词 　 DEDS ， 极大 代数 ， 鲁棒性 ， 鲁棒控制 . 
+ ONROBUSTNESSANDOPTIMALROBUSTCONTROLFOR 
+ FLOW - SHOPSYSTEM 
+ DAIShixiong 
+ ( UniversityofMississippi , USA ) ) 　 
+ DAIZhiyong 
+ ( WuhanTextilecollege , Wuhan 　 430074 ) ) 
+ Abstract 　 　 Usingthemaximumalgebrablocknetworkmethod , thispaperstudiedtherobustnessandoptimalrobustcontrolofflowshopsystemwithoutbufferandblocking . ItpresentedtheKharitonov - likefinitecheckcriterionofrobustnessforthecaseofnobufferandnoblocking . Itprovedthatoptimalrobustcontrolisakindoflinearstatefeedback . Italsodiscussedtheperiodstabilityandthesensitivityofrobustpoletotheparameterperturbations . 
+ Keywords 　 DEDS ， maximumalgebra , robustness , robustcontrol . 
+ 1 　 引言 
+ 　 　 本文 研究 的 Flow - shopDEDS 是 指 n 个 工件 在 m 台 机器 上 进行 批量生产 的 串行 生产线 系统 ， 记作 S . S 有 性能 L 是 指 在 批量生产 过程 中 工件 流 或 机器 流在 没有 缓冲器 下 无阻 赛 . 由于 工件 流 系统 与 机器 流 系统 可以 相互 转化 ， 故 本文 只 讨论 工件 流 系统 . 有别于 Kalman 的 ( A ， B ， C ) 或 ( F ， G ， H ) 标称 模型 ， 本文 用 极大 代数 模块 网络 法 建立 系统 S 的 网络 模型 ， 把 系统 的 资源 投入 时刻 参数 和 工件 在 机器 上 的 加工 时间 参数 统一 地 纳入 区间 摄动 参数 空间 ， 并 在 这个 空间 上 研究 L 鲁棒性 的 有限 检验 以及 最优 鲁棒控制 等 问题 . 
+ 
+ 2 　 网络 模型 
+ 　 　 设 T = ［ θ i ， j ］ m × n 为 S 的 加工 时间 矩阵 ， 为 参数 θ i ， j 的 摄动 区间 且 0 ≤ i ， j ≤ i ， j ； E = ｛ ei ， j ｜ i ＝ 0 ， 1 ， … ， m ； j ＝ 0 ， 1 ， … ， n ｝ 表示 S 的 工艺 活动 集 或 工序 事件 集 ， 其中 ei ， j 表示 机器 Mi 加工 工件 Pj 的 工艺 活动 ， 资源 投入 活动 ei ， 0 ， e0 ， j 称为 虚 工艺 活动 ； y ［ 0 ］ ＝ ［ x1 ， 0 ， x2 ， 0 ， … ， xm ， 0 ］ ， u ［ 1 ］ ＝ ［ x0 ， 1 ， x0 ， 2 ， … ， x0 ， n ］ 分别 表 机器 和 工件 的 投入 时刻 向量 或 矩阵 . 
+ 　 　 约定 ＝ ［ xi ， 0 ， xi ， 0 ］ ， ＝ ［ x0 ， j ， x0 ， j ］ ， 令 Ii ， j ＝ 引入 与 文 ［ 1 ］ 类似 的 参数 空间 Θ = I0 ， 1 × Ι 0 ， 2 × … × I0 ， n × I1 ， 0 × I1 ， 1 … × I1 ， n × … × Im ， 0 × Im ， 1 × … × Im ， n ， 让 V ( Θ ) 表示 超方体 Θ 的 顶点 集 . 
+ 　 　 对 容量 无限 的 缓冲区 系统 S ， 引入 极大 代数 运算 
+ 　 　 　 　 ( 1 ) 
+ 上式 中 tM （ ei ， j ） ， tP （ ei ， j ） 分别 表示 机器 Mi 加工 完毕 工件 Pj 而 释放 和 Pj 被 Mi 加工 完毕 而 释放 的 最早 时刻 ， 当 θ i ， j ＞ 0 时 ， 令 xi ， j ＝ tM （ ei ， j ） ＝ tP （ ei ， j ） . 
+ 　 　 根据 运算 ( 1 ) ， 使用 文 ［ 2 ］ 的 方法 建立 S 的 模块 网络结构 G ［ E ］ ＝ ［ G （ ei ， j ） ］ m × n ， 记有 网络结构 G ［ E ］ 的 系统 
+ S = ( ［ θ i ， j ］ m × n ， y ［ 0 ］ ， u ［ 1 ］ ， G ［ E ］ ） . 
+ 　 　 S 的 2mn 个 状态 tM （ ei ， j ） ， tP （ ei ， j ） 在 输入 y ［ 0 ］ 和 u ［ 1 ］ 下 ， 可以 通过 动态 规划 方程 ( 1 ) 在 模块 网络 G ［ E ］ 上 快速 迭代 出来 . 
+ 　 　 取 时钟 k 时 机器 的 投入 时刻 向量 
+ y ［ k － 1 ］ ＝ ［ x1 ， 0 （ k ） ， x2 ， 0 （ k ） ， … ， xm ， 0 （ k ） ］ 　 　 　 ( 2 ) 
+ 为 S 的 输入 ， 取 工件 的 投入 时刻 向量 
+ u ［ k ］ ＝ ［ u1 （ k ） ， u2 （ k ） ， … ， un （ k ） ］ = ［ x0 ， 1 （ k ） ， x0 ， 2 （ k ） ， … ， x0 ， n （ k ） ］ ( 3 ) 
+ 为 S 的 控制 向量 . 
+ 　 　 设 ［ θ i ， j ］ m × n 满足条件 i , ji （ 1 ≤ ji ≤ n ) 使得 θ i ， ji ＞ 0 ， j ＞ ji 时 θ i ， j ＝ 0 . 取 时钟 k 时 机器 的 释放 时刻 向量 
+ y ［ k ］ ＝ ［ y1 （ k ） ， y2 （ k ） ， … ， ym （ k ） ］ ＝ ［ x1 ， j1 （ k ） ， x2 ， j2 （ k ） ， … ， xm ， jm （ k ） ］ 
+ ( 4 ) 
+ 为 S 的 输出 ， 并 由式 ( 2 ) ， ( 3 ) 和 ( 4 ) 构造 开环 系统 
+ Sopen ＝ （ ［ θ i ， j ］ m × n ， y ［ k － 1 ］ ， u ［ k ］ ， G ［ E ］ ） ， 　 　 　 ( 5 ) 
+ 其中 将 yi （ k － 1 ） ＝ xi ， ji （ k － 1 ） 无 时延 地馈 作 时钟 k 时 Mi 的 输入 yi ( k ) 并取 某种 线性 状态 反馈 u ［ k ］ ＝ y ［ k － 1 ］ K 构成 闭环 输出 反馈 控制系统 
+ 　 　 　 ( 6 ) 
+ 其中 表示 由 G ［ E ］ 和 反馈 弧 构成 的 反馈 网络 
+ 3 　 定常 系统 的 几个 基本 引理 
+ 　 　 由式 ( 1 ) 和 L 的 定义 可以 证明 如下 的 引理 . 
+ 　 　 引理 1 . 　 定常 Sopen 有 性能 L ， 当且 仅 当 
+ tP ［ ei ， j ］ ≥ tP ［ ei ＋ 1 ， j － 1 ］ ， i ＝ 0 ， 1 ， … ， m － 1 ， j ＝ 1 ， 2 ， … ， n . 　 　 　 ( 7 ) 
+ 　 　 引理 2 . 　 定常 Sopen 有 性能 L ， 当且 仅 当 
+ ( 8 ) 
+ 下面 的 引理 虽然 是 文 ［ 3 ］ 定理 2 的 结论 ， 但 作为 引理 1 ， 2 的 推论 显得 更 自然 . 
+ 　 　 引理 3 . 　 定常 Sopen 有 性能 L ， 当且 仅 当 
+ 　 　 　 　 ( 9 ) 
+ 　 　 引理 4 . 　 若 K 由式 ( 9 ) 定义 ， u ［ k ］ ＝ y ［ k － 1 ］ K ， 则 Sclose 的 系统 矩阵 M 存在 唯一 的 特征值 
+ λ （ M ） ＝ ［ a1bj1 ， a2bj2 ， … ， aibji ， … ， ambjm ］ K1 　 　 　 ( 10 ) 
+ 和 属于 λ （ M ） 的 最小 特征向量 
+ 　 　 　 ( 11 ) 
+ 使得 
+ 　 　 　 ( 12 ) 
+ 当时 ， k ≥ 2 , 其中 
+ 
+ 　 　 证明 . 　 矩阵 M 可 由 y ［ 0 ］ 的 m 个 单位 脉冲 输入 ， 最优 L 控制 律 u ［ 1 ］ ＝ y ［ 0 ］ K 的 m 个 控制 响应 和 由 引理 2 给出 的 y ［ 1 ］ 的 m 个 输出 响应 来 构造 ， 表达式 为 M = Block ［ a1bj1K1 ， a2bj2K1 ， … ， ambjmK1 ］ . 因为 M 中 不 存在 ε （ － ∞ ） 元 ， 故 M 为 不可 约 矩阵 ， 其 特征值 必 存在 唯一 ， 又 因 
+ 
+ 故 λ （ M ） 是 M 的 唯一 特征值 ， y * ［ 0 ］ 是 属于 λ （ M ） 的 最小 特征向量 ； 当 不是 M 的 特征向量 时 ， 是 属于 λ （ M ） 的 特征向量 ； 最后 ， 从 y ［ 1 ］ ＝ λ （ M ） y ［ 0 ］ （ y ［ 0 ］ ＝ y * ［ 0 ］ ） , u ［ 2 ］ ＝ λ （ M ） u ［ 1 ］ 和 y ［ 2 ］ ＝ λ （ M ） y ［ 1 ］ （ y ［ 1 ］ ＝ y * ［ 1 ］ ） , u ［ 3 ］ ＝ λ （ M ） u ［ 2 ］ 出发 ， 逐项 递推 便 得到 结论 ( 12 ) . 证毕 . 
+ 4 　 区间 摄动 系统 的 鲁棒性 与 最优 鲁棒控制 
+ 　 　 由 引理 1 和 引理 2 可 导出 下面 定理 . 
+ 　 　 定理 1 . 　 Θ 上 摄动 Sopen ［ Θ ］ 有 L 鲁棒性 ， 当且 仅 当笑 取师 ㄓ 
+ 　 　 ( 13 ) 
+ 　 　 根据 定理 1 或文 ［ 1 ］ 的 定理 1 可以 证明 如下 定理 . 
+ 　 　 定理 2 . 　 Sopen ［ Θ ］ 有 L 鲁棒性 ， 当且 仅 当 
+ 　 　 　 　 ( 14 ) 
+ 　 　 令 xi ， 0 ＝ （ y （ k － 1 ） ） i ， x0 ， j ＝ （ u （ k ） ） j ， 可 改写 式 ( 14 ) 为 矩阵 形式 . 
+ 　 　 定理 3 . 　 Sopen ［ Θ ］ L 鲁棒性 的 Kharitonov - like 判据 ( 14 ) 有 矩阵 形式 
+ u ［ k ］ ≥ y ［ k － 1 ］ Kr , 　 　 　 ( 15 ) 
+ 其中 
+ 
+ 　 　 推论 1 . 　 u ［ k ］ ＝ y ［ k － 1 ］ Kr 是 Sopen ［ Θ ］ 的 最优 L 鲁棒控制 . 
+ 　 　 推论 2 . 　 Sclose ［ Θ ］ 的 最优 L 鲁棒控制 u ［ k ］ ＝ y ［ k － 1 ］ Kr 是 一类 线性 状态 反馈 . 
+ 　 　 定理 4 . 　 最优 L 鲁棒控制 系统 Sclose ［ Θ ］ 的 系统 矩阵 
+ 
+ 有 唯一 特征值 和 属于 λ （ Mr ) 的 最小 特征向量 且 λ （ Mr ) 满足 不等式 其中 
+ 
+ 　 　 证明 . 　 Mr ， λ （ Mr ) 的 构造 法 与 引理 4 中 M 和 λ （ M ） 的 造法 类似 ， 而 则 可 由 λ （ Mr ） 是 敏感 参数 的 非减 函数 得到 . 
+ 证毕 . 
+ 　 　 戴 世雄 　 1985 年于 武汉大学 空间 物理系 获 无线电 物理 硕士学位 ， 1994 年 到 美国 密西西比 大学 读 学位 ， 获 硕士学位 后 曾 在 一家 通讯 公司 任 射频 工程师 ， 近期 回国 在 中兴通讯 公司 的 一个 研究所 任职 . 感兴趣 的 研究 领域 为 通讯 系统 的 设计 与 优化 及 DEDS 的 建模 、 控制 与 应用 . 
+ 　 　 戴志勇 　 1962 年 毕业 于 四川大学 数学系 ， 1987 年于 武汉 纺织 工学院 评为 副教授 ， 感兴趣 的 研究 领域 为 排序 理论 及 DEDS 的 建模 与 控制 . 
+ 戴 世雄 （ 密西西比 大学 电机工程 系 　 美国 ） 
+ 戴志勇 （ 武汉 纺织 工学院 基础 部 　 武汉 430074 ） 
+ 参考文献 
+ ［ 1 ］ 　 赵千川 ， 郑 大钟 . 离散 事件 动态 系统 时序 的 鲁棒性 . 自动化 学报 ， 1997 ， 23 ( 4 ) ： 433 ～ 438 
+ ［ 2 ］ 　 戴志勇 ， 戴 世雄 . 一类 DEDS 的 建模 与 最优控制 . 见 ： 中国 控制 会议 论文集 ， 1995 ， 883 ～ 888 
+ ［ 3 ］ 　 陈文德 . 串行 生产线 无阻 赛 最优控制 与 调度 . 控制 与 决策 ， 1996 ， 11 ( 3 ) ： 374 ～ 377 
+ 收稿 日期 　 1998 - 03 - 23 
+ 修稿 日期 　 1999 - 06 - 07 

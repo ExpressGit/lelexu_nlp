@@ -1,0 +1,108 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 　 第 23 卷 　 第 6 期 　 Vol.23 　 No.6 　 1997 
+ 
+ 
+ 
+ 
+ 基于 磁通 观测器 的 转差 频率 型 
+ 异步电机 矢量 控制系统 
+ 李汉强 
+ 　 　 摘 　 要 　 从 异步电机 数学模型 出发 ， 提出 以 磁通 观测器 为 基础 的 控制 电流 源 驱动 转差 频率 型 异步电机 矢量 控制系统 的 数学模型 与 结构图 . 控制系统 数学 仿真 与 实验 说明 ， 本 方案 可以 改善 电机 定 、 转子 电阻 随 运行 温度 变化 时 的 动 、 静态 特性 . 
+ 　 　 关键词 　 磁通 观测器 ， 异步电机 ， 矢量 控制 ， 数字 仿真 . 
+ AFLUXOBSERVERBASEDSLIPFREQUENCYTYPEVECTOR 
+ CONTROLSYSTEMFORINDUCTIONMOTOR 
+ LIHANQIANG 
+ ( DepartmentofComputer & Automation , WuhanTransportationUniversity , Wuhan 　 430063 ) 
+ Abstract 　 Inthispaper , accordingtothemathematicalmodelofinductionmotor , theauthorprovidesthemathematicalmodelandstructurediagramforafluxobserverbasedvectorcontrolsystemofcontrolledcurrentsource - fedslipfrequencytypeinductionmotor . Simulationofthiscontrolsystemisgiven . Finallytheauthorprovesthatthismethodimprovesthetransientandstationarycharacteristicoftheresistancevalueofmotor ' sstatorandrotorwhenitvarieswithworkingtemperature . 
+ Keywords 　 Fluxobserver , inductionmotor , vectorcontrol , digitalsimulation . 
+ 1 　 引言 
+ 　 　 近年来 ， 异步电机 转差 频率 型 矢量 控制 作为 高性能 的 力矩 控制 已 在 很多 产业部门 得到 广泛应用 . 但是 ， 这种 控制 方法 在 计算机 控制器 中 转子 磁通 ψ * rd 与 转差 频率 ω * s 运算 中 含有 转子 项 参数 ［ 1 ］ ， 因此 系统对 参数 变化 敏感度 强 ， 尤其 是 随 运行 温度 变化 使 控制系统 力矩 不能 获得 所 期望 的 性能 . 在 电机 控制 领域 中 ， 应用 现代 控制 理论 ， 采用 磁通 观测器 的 异步电机 矢量 控制系统 可以 改善 系统 在 电机 参数 变化 时 的 静 、 动态 特性 . 
+ 2 　 控制系统 的 数学模型 
+ 2.1 　 异步电机 数学模型 
+ 　 　 在 旋转 坐标 d - q 轴系 下 的 异步电机 电压 方程式 为 
+ 　 　 　 　 　 　 ( 1 ) 
+ 转子 磁通 方程式 为 
+ 　 　 　 　 　 　 　 　 ( 2 ) 
+ 2.2 　 控制器 数学模型 
+ 　 　 控制器 内 电机 参数 用潮 硎 . 定子 电压 仿真 数学模型 为 
+ 　 　 　 ( 3 ) 
+ 　 　 按 最小 阶 观测器 构成 法 ， 采用 定子 电压 预测 误差 构成 磁通 观测器 
+ 　 　 　 　 　 　 　 ( 4 ) 
+ 　 　 观测器 增益 矩阵 K 采用 不 对称 结构 ， 对 转子 电阻 变化 为 最低 感度 ［ 2 ， 3 ］ . 式 中 e * sd , e * sq 为 控制器 指令 值 ； esd , esq 为 电机 实际 值 . 
+ 3 　 矢量 控制系统 的 构成 
+ 　 　 令 ψ * rq = 0 ， 由 ( 4 ) 式 得 
+ p ψ * rd = - σ * r ψ * rd + M * σ * ri * sd + K1 ( e * sd - esd ) - K2 ( e * sq - esq ) ， 　 　 　 　 　 　 　 ( 5 ) 
+ ω * = ω r + M * σ * ri * sq / ψ * rd + K2 ( e * sd - esd ) / ψ * rd + K1 ( e * sq - esq ) / ψ * rd . 　 　 　 　 ( 6 ) 
+ 　 　 由 ( 3 ) ， ( 5 ) ， ( 6 ) 式 构成 基于 磁通 观测器 的 转差 频率 型 异步电机 速度 闭环 矢量 控制系统 如图 1 所示 . 
+ 
+ 图 1 　 磁通 观测器 矢量 控制系统 结构图 
+ 4 　 数字 仿真 
+ 　 　 本文 对 电机 定 、 转子 电阻 随 运行 温度 变化 时 进行 数字 仿真 ， 研究 系统 的 静 、 动态 特性 . 
+ 4.1 　 控制系统 稳态 解析 式 
+ 　 　 控制系统 稳态 时 ， 令 ( 1 ) ， ( 2 ) ， ( 5 ) 式 中 微分 算子 p = 0 ， 则 得 系统 稳态 解析 式 
+ 　 　 ( 7 ) 
+ 式 中 　 a = M / Lr , 　 b = r * s - rs + ( M2 / Lr ) ( σ * r - σ r ) . 
+ 　 　 电机 实际 转矩 计算 式 
+ Te = PM ( i * sq ψ rd - i * sd ψ rq ) / ( 2Lr ) . 　 　 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ 　 　 计算机 指令 转矩 计算 式 
+ T * e = PMi * sq ψ * rd / ( 2Lr ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 9 ) 
+ 4.2 　 动态 数学模型 
+ 　 　 本 系统 速度 环 采用 PI 控制 ， PI 速度 控制器 数学模型 为 
+ 　 　 　 　 　 　 　 　 　 　 ( 10 ) 
+ 令 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 
+ 则 　 　 　 　 　 　 　 　 　 　 　 　 　 　 i * sq = Kp ( ω * r - ω r ) + KIe , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 11 ) 
+ pe = ω * r - ω r . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 12 ) 
+ 在 考虑 电阻 变化 时 ， rs ≠ r * s ， rr ≠ * r . 由 ( 3 ) — ( 1 ) 式 得 
+ e * sd - esd = bi * sd - a ( σ * r ψ * rd - σ r ψ rd - ω r ψ rq ) , 　 　 　 　 　 　 　 　 　 　 ( 13 ) 
+ e * sq - esq = bi * sq + a ( ω r ψ * rd - ω r ψ rd + σ r ψ rq ) . 　 　 　 　 　 　 　 　 　 　 ( 14 ) 
+ 　 　 电力 拖动 系统 运动 方程式 
+ 　 　 　 　 　 　 　 　 　 　 　 ( 15 ) 
+ 将 ( 8 ) 式 代入 ( 15 ) 式 ， 可 得 
+ 　 　 　 　 　 　 　 ( 16 ) 
+ 由 ( 2 ) ， ( 5 ) ， ( 6 ) ， ( 12 ) ， ( 16 ) 式 可 描述 控制系统 的 动态 数学模型 
+ px = f ( x , u , TL ) , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 17 ) 
+ 状态变量 　 　 　 　 　 　 　 　 　 x = [ ψ * rd , ψ rd , ψ rq , ω r , e ] T , 
+ u = [ i * sd , i * sq ] T . 
+ 4.3 　 线性 模型 
+ 　 　 假设 负载 转矩 TL 与 励磁 电流 i * sd 不变 ， 选择 状态变量 x = [ ψ * rd , ψ rd , ψ rq , ω r ] T ， 在 稳态 工作 点 运用 小 信号 扰动 法 ， 忽略 Δ 2 项 并 消去 稳态 项 ， 将 ( 2 ) ， ( 5 ) ， ( 16 ) 式微 偏 ， 导出 小 信号 线性 状态方程 ， 称为 线性 模型 ［ 4 ］ 
+ p Δ x1 = A1 Δ x1 + B1 Δ u + B2 Δ u2 , 　 　 　 　 　 　 　 　 　 　 　 ( 18 ) 
+ 式 中 　 　 　 　 　 　 　 　 　 　 　 Δ x1 = [ Δ ψ * rd , Δ ψ rd , Δ ψ rq , Δ ω r ] T , 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 Δ u = Δ i * sq , 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 Δ u2 = [ Δ ω * , Δ e * sd - Δ esd , Δ e * sq - Δ esq ] T , 
+ 
+ 
+ 将 ( 6 ) ， ( 13 ) ， ( 14 ) 式微 偏 ， 导出 
+ Δ u2 = Ux Δ x1 + Uu Δ u , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 19 ) 
+ 式 中 
+ 
+ 
+ 　 　 　 　 　 d = 1 + ( K2a ψ rq + K1a ψ * rd - K1a ψ rd ) / ψ * rd . 
+ 将 ( 19 ) 式 代入 ( 18 ) 式 ， 得到 电机 与 观测器 的 线性 模型 
+ p Δ x1 = ( A1 + B2Ux ) Δ x1 + ( B1 + B2Uu ) Δ u . 　 　 　 　 　 　 　 　 　 　 ( 20 ) 
+ 由 ( 11 ) ， ( 12 ) 式 得 速度 控制器 的 线性 模型 
+ p Δ e = Ax Δ x1 + Δ r , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 21 ) 
+ 式 中 　 　 　 　 　 　 　 　 　 　 　 Ax = [ 0 　 0 　 0 　 - 1 ] , 　 Δ r = Δ ω * r . 
+ 又 　 　 　 　 　 　 　 　 　 　 　 Δ u = Δ i * sq = Cx Δ x1 + KI Δ e + Kp Δ r , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 22 ) 
+ 式 中 
+ Cx = [ 0 　 0 　 0 　 - Kp ] . 
+ 将 ( 20 ) — ( 22 ) 式 合并 ， 得 控制系统 的 线性 模型 
+ p Δ x = A Δ x + B Δ r . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 23 ) 
+ 式 中 
+ 
+ 
+ 5 　 实验 装置 与 结果 
+ 　 　 PWM 逆变器 控制 电流 源 驱动 异步电机 矢量 控制系统 实验 结构图 如图 2 所示 . 图 3 ( a ) 与 ( b ) 分别 为 无 观测器 与 有 观测器 两种 情况 下 ， 控制器 中定 转子 电阻值 设定 为 rs / r * s = 1.5 ， rr / r * r = 1.5 时 ， 速度 指令 N * r 发生 150rpm 阶跃 时 的 动态 实验 曲线 . 当 转矩 电流 i * sq 指令 值 超过 15A 时 做 截止 处理 . 显然 ， 采用 观测器 的 矢量 控制系统 在 电阻 发生变化 的 情况 下 动态 响应 比 无 观测器 时为 快 . 
+ 
+ 图 2 　 控制系统 实验 结构图 
+ 　 　 　 　 　 　 
+ ( a ) 　 无 观测器 时 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( b ) 　 有 观测器 时 
+ 图 3 　 实验 曲线 ( N * = 100 — 250rpm ) 
+ 1 ) 　 湖北省 自然科学 基金 资助 项目 . 
+ 作者简介 ： 李汉强 　 1945 年生 ， 1968 年 上海交通大学 电机系 毕业 ， 日本 工学 博士 ， 现任 武汉 交通 科技 大学 自动控制 系 副教授 . 主要 从事 观测器 理论 与 系统 辨识 在 异步电机 矢量 控制系统 中 应用 的 研究 . 
+ 作者 单位 ： 武汉 交通 科技 大学 计算机 与 自动化系 　 武汉 　 430063 
+ 参考文献 
+ ［ 1 ］ 李汉强 . 微机 控制 电流 跟踪 矢量 调速 系统 . 武汉 水运 工程学院 学报 ， 1992 ， ( 2 ) ： 167 — 170 . 
+ [ 2 ] 　 堀洋 一 ， VincentCotter ， 茅阳 一 ， 诱导 电动机 の 磁束 オ ブ ザ バ に 关 す る 制御 理论 的 考察 . 电学 论 B ， 1986 ， 106 ( 11 ) ： 1001 — 1008 . 
+ [ 3 ] 　 堀洋 一 ， 梅野孝治 ， 铃木 裕 之 . 高速 低感度 磁束 オ ブ ザ バ に 基 づ く 磁界 才 リ エ ン テ シ ヨ ン 形 ベ ク ト ル 制御系 の 实现 . 电学 论 D ， 1989 ， 109 ( 10 ) ： 771 — 777 . 
+ 收稿 日期 　 1995 - 03 - 20 

@@ -1,0 +1,155 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 4 期 Vol.24 No.41998 
+ 
+ 
+ 
+ 
+ 严格 正则 多 输入 多 输出 对象 同时 镇定 1 ) 
+ 曹永岩 　 孙优贤 
+ 摘 　 要 　 使用 逆 LQ 方法 讨论 了 r 个 严格 正则 多 输入 多 输出 对象 的 同时 镇定 问题 ， 基于 矩阵 不等式 方法 得到 了 静态 输出 反馈 可 同时 镇定 的 充要条件 ， 本文 证明 r 个 对象 静态 输出 反馈 同时 镇定 等价 于 r 个 耦合 LQ 控制 问题 的 解 . 然后 ， 基于 迭代 线性 矩阵 不等式 技术 给出 了 一种 迭代 求解 方法 ， 并 给出 了 算例 . 
+ 关键词 　 同时 镇定 ， 代数 Riccati 不等式 ( ARI ) ， 静态 输出 反馈 ， 线性 矩阵 不等式 ( LMI ) . 
+ SIMULTANEOUSSTABILIZATIONOFTHE 
+ MIMOSTRICTLYPROPERPLANTS 
+ CAOYONGYAN 　 SUNYOUXIAN 
+ ( InstituteofIndustrialProcessControl , ZhejiangUniversity , Hangzhou310027 ) 
+ Abstract 　 BasedontheinverseLQapproach , thispaperaddressesthesiumltaneousstabilizabilityforrMIMOstrictlyproperplants . Somenecessaryandsufficientconditionsforthestaticoutputfeedbacksimultaneousstabilizationarederivedusingthematrixinequalitymethod . ItisproventhatthisproblemisequivalenttotheexistenceofthesolutionofrcoupledLQcontrolproblem . ThenaniterativealgorthmbasedontheLMItechniqueispresentedtoobtainthefeedbackgain . Theillustratedexamplesshowthatitisveryefficient . 
+ Keywords 　 Simultaneousstabilization , algebraicRiccatiinequality , outputfeedback , linearmatrixinequality . 
+ 1 　 输出 反馈 的 可 镇定 条件 
+ 　 　 考虑 n 阶 动态 系统 
+ x = Ax + Bu , 　 　 　 ( 1 ) 
+ 式 中 x ∈ n 表示 状态 向量 ， u ∈ m 控制 向量 ， A ， B 为 具有 合适 维数 的 常 矩阵 . 
+ 　 　 众所周知 ， 线性系统 ( 1 ) 可 状态 反馈 镇定 当且 仅 当 存在 矩阵 Q ＞ 0 , R ＞ 0 使得 如下 ARE 存在 唯一 解 P ＞ 0 . 
+ PA + ATP - PBR - 1BTP + Q = 0 , 
+ 或者说 存在 矩阵 P ＞ 0 , R ＞ 0 满足 如下 ARI 
+ PA + ATP - PBR - 1BTP ＜ 0 . 
+ 实际上 ， 如果 ( A ， B ) 可 镇定 ， 那么 对于 任意 Q ＞ 0 ， R ＞ 0 ， 上述 ARE 一定 存在 唯一 正定 解 P ＞ 0 ， 见文 ［ 2 ］ ， 对于 任意 R ＞ 0 ， 上述 ARI 一定 存在 一 可行 解 ， 见文 ［ 1 ， 2 ］ . 
+ 　 　 考虑 如下 具有 交叉 项 的 LQ 控制 问题 
+ v ( x0 ) = ∫ ∞ 0 ( xTQx + 2uTSx + uTRu ) dt . 　 　 ( 2 ) 
+ 其中 权 矩阵 Q ＞ 0 ， R ＞ 0 ， S 满足 
+ Q - STR - 1S ＞ 0 , 　 　 ( 3 ) 
+ 其解 为 
+ u = Kx , K = - R - 1 ( BTP + S ) , 
+ PA + ATP - ( BTP + S ) R - 1 ( BTP + S ) + Q = 0 . 　 　 　 ( 4 ) 
+ 引理 1 . 线性 时 不变 系统 ( 1 ) 可 状态 反馈 镇定 当且 仅 当 如下 等价 条件 之一 成立 ： 
+ 　 　 1 ) 存在 合适 维数 的 矩阵 P ＞ 0 , Q ＞ 0 , R ＞ 0 , S 使得 不等式 ( 3 ) 和 ARE ( 4 ) 成立 ； 
+ 　 　 ( 2 ) 存在 合适 维数 的 矩阵 P ＞ 0 ， R ＞ 0 ， S 满足 如下 具有 交叉 项 的 ARI 
+ PA + ATP - ( BTP + S ) R - 1 ( BTP + S ) + STR - 1S ＜ 0 . 　 　 　 ( 5 ) 
+ 　 　 证明 . 略 . 
+ 2 　 主要 结论 
+ 　 　 下面 考虑 r 个 严格 正则 对象 Gi 的 同时 镇定 问题 
+ i ( t ) = Aixi ( t ) + Biui ( t ) , yi ( t ) = Cixi ( t ) , 　 　 ( 6 ) 
+ 或者 
+ i ( t ) = Aixi ( t ) + Biui ( t ) , yi ( t ) = xi ( t ) . 　 　 　 ( 6 ′ ) 
+ 其中 状态 xi ∈ n , 输入 ui ∈ m , 输出 yi ∈ p , n 为 对象 Gi 的 阶 . 假定 
+ Ci = C , i = 1 , … , r , 　 　 ( 7 ) 
+ 并且 C 满 秩 . 这一 条件 并 不 严格 ， 对于 r 个 有理 严格 正则 对象 Gi ( s ) ， 我们 可以 得到 可 观测 形式 的 同阶 实现 . 另外 对于 许多 不 确定 系统 ， 仅 在 系统 矩阵 和 输入 矩阵 中 具有 不确定性 . 令 E 为 C 的 右 逆 ， 即 ， CE = Ip * 因为 C 满 秩 ， 所以 
+ E = CT ( CCT ) - 1 . 　 　 　 ( 8 ) 
+ 因此 E ⊥ = EC 为 关于 Im ( CT ) 的 直交 投影 矩阵 ， 并且 x ⊥ = E ⊥ x = Ey . 
+ 　 　 定理 1 . 给定 r 个 对象 ( 6 ) ， 它们 可 静态 输出 反馈 同时 镇定 当且 仅 当 存在 矩阵 Pi ＞ 0 , R ＞ 0 , Qi ＞ 0 , M 满足 如下 耦合 ARE 
+ PiAi + ATiPi - ( Si + BTiPi ) TR - 1 ( Si + BTiPi ) + Qi = 0 , i = 1 , … , r , 　 　 ( 9 ) 
+ Qi - STiR - 1Si ＞ 0 ， 　 　 ( 10 ) 
+ Si = ME ⊥ - BTiPi ; 　 　 ( 11 ) 
+ 并且 静态 输出 反馈 同时 镇定 增益 为 
+ K = - R - 1MCT ( CCT ) - 1 ; 　 　 ( 12 ) 
+ 或者 存在 Pi ＞ 0 ， R ＞ 0 ， M 满足 如下 耦合 ( 11 ) 约束 的 ARI 
+ PiAi + ATiPi - ( Si + BTiPi ) TR - 1 ( Si + BTiPi ) + STiR - 1Si ＜ 0 ， i = 1 , … , r . 　 　 ( 13 ) 
+ 证明 . 充分性 显然 . 仅 需 证明 必要性 . 若 这 r 个 对象 可 静态 输出 反馈 同时 镇定 ， 那么 一定 存在 状态 反馈 增益 F = KC 以及 r 个 矩阵 Pi ＞ 0 ， 使得 
+ xT ［ ( Ai + BiF ) TPi + Pi ( Ai + BiF ) ］ x ＜ 0 , x ≠ 0 , i = 1 , … , r . 
+ 可以 假定 F = ME ⊥ , M 为 一 合适 维数 的 任意 矩阵 ， 因此 上 式 等价 于 
+ xT ( ATiPi + PiAi ) x ＜ 0 , 　 x ∈ Ker ( F ) , 　 x ≠ 0 , 　 i = 1 , … , r . 
+ 定义 
+ 
+ 由文 ［ 3 ］ 知 ， 一定 有 α * i ＜ 0 ， i = 1 , … , r . 因此 α * ＜ ∞ , 即 α * 有 上界 . 因为 F = ME ⊥ , 故 对于 任意 α ＞ max ( 0 ， α * ) ， 都 有 
+ xT ( PiAi + ATiPi ) x ＜ α xT ( E ⊥ MTME ⊥ ) x , x ≠ 0 , i = 1 , … , r . 
+ 因此 对于 任意 对称 矩阵 R 满足 R - 1 α I , 一定 有 
+ xT ( PiAi + ATiPi ) x ＜ xT ( E ⊥ MTR - 1ME ⊥ ) x , x ≠ 0 , i = 1 , … , r 
+ 即 
+ PiAi + ATiPi - E ⊥ MTR - 1ME ⊥ ＜ 0 , i = 1 , … , r 
+ 这 也 意味着 存在 矩阵 Qi ＞ 0 满足 式 ( 9 ) . 由 定理 1 不等式 ( 10 ) 也 是 其一 必要条件 . 
+ 证毕 . 
+ 　 　 这 一定 理 意味着 ， 静态 输出 反馈 同时 镇定 可以 看作 r 个 耦合 LQ 控制 问题 存在 合适 解 Pi , Qi , R , Si ， 并 满足 耦合 约束 ( 11 ) . 
+ 　 　 系 1 . 给定 线性 时 不变 对象 ( A ， B ， C ) ， 可 静态 输出 反馈 镇定 ， 当且 仅 当 存在 矩阵 Q ＞ 0 ， P ＞ 0 , R ＞ 0 ， M 满足 如下 带 约束条件 的 ARE 
+ PA + ATp - ( S + BTP ) TR - 1 ( S + BTP ) + Q = 0 , 　 　 ( 14 ) 
+ Q - STR - 1S ＞ 0 , 　 　 　 ( 15 ) 
+ S = ME ⊥ - BTP , 　 　 ( 16 ) 
+ 或者 存在 P ＞ 0 ， R ＞ 0 ， M 满足 ( 16 ) 约束 的 ARI 
+ PA + ATP - ( S + BTP ) TR - 1 ( S + BTP ) + STR - 1S ＜ 0 . 　 　 　 ( 17 ) 
+ 　 　 系 2 . 给定 r 个 严格 正则 对象 Gi ， 它们 可 状态 反馈 同时 镇定 ， 当且 仅 当 存在 矩阵 Pi ＞ 0 , R ＞ 0 , Qi ＞ 0 , M 满足 如下 耦合 ARE 
+ PiAi + ATiPi - ( Si + BTiPi ) TR - 1 ( Si + BTiPi ) + Qi = 0 , i = 1 , … , r , 　 　 ( 18 ) 
+ Qi - STiR - 1Si ＞ 0 , Si = M - BTiPi ; 　 　 　 ( 19 ) 
+ 并且 状态 反馈 同时 镇定 控制 律 可取 为 
+ K = - R - 1M ; 　 　 ( 20 ) 
+ 或者 存在 矩阵 Pi ＞ 0 ， R ＞ 0 ， M 满足 如下 耦合 ARI 
+ PiAi + ATiPi - ( Si + BTiPi ) TR - 1 ( Si + BTiPi ) + STiR - 1Si ＜ 0 ， i = 1 , … , r , 　 　 ( 21 ) 
+ Si = M - BTiPi . 
+ 3 　 迭代 LMI 求解 算法 
+ 　 　 由 上节 可知 ， 静态 输出 反馈 镇定 可 转化 为 解带 约束 ( 16 ) 的 矩阵 不等式 ( 17 ) ， 静态 输出 反馈 同时 镇定 问题 可 转化 为 解带 约束 ( 11 ) 的 矩阵 不等式 ( 13 ) ， 状态 反馈 同时 镇定 问题 可 转化 为 解带 约束 ( 19 ) 的 矩阵 不等式 ( 21 ) . 显然 其 关键 为解 矩阵 不等式 ( 5 ) ， 因为 约束 ( 11 ) ， ( 16 ) ， ( 19 ) 均 为 线性 的 ， 仅 对 S 的 取值 范围 进行 约束 ， 这 在 LMI 中是 很 容易 实现 的 . 下面 我们 给出 一种 基于 LMI 技术 的 迭代 求法 . 
+ 　 　 显然 不等式 ( 5 ) 等价 为 
+ PA + ATP - PBR - 1BTP - STR - 1BTP - PBR - 1S ＜ 0 ， 　 　 ( 22 ) 
+ 实际上 这 是 一 非线性 矩阵 不等式 . 由 引理 1 的 说明 和 定理 1 的 证明 可知 ， 我们 可令 R = I ， 那么 ( 22 ) 就 成为 一个 BMI ( 双线性 矩阵 不等式 ) 了 . 下面 给出 它 的 一种 迭代 形式 的 等价 条件 . 
+ 　 　 定理 2 . BMI ( 22 ) 存在 可行 解 ( P ＞ 0 , S ) ， 当且 仅 当 
+ PA + ATP - 2PBR - 1BTP + ( BTP - S ) TR - 1 ( BTP - S ) ＜ 0 ， 　 　 ( 23 ) 
+ 证明 . 充分性 . 
+ PA + ATP - PBR - 1BTP - STR - 1BTP - PBRTS 
+ PA + ATP - PBR - 1BTP - STR - 1BTP - PBR - 1S + STR - 1S = 
+ PA + ATP - 2PBR - 1BTP + ( BTP - S ) TR - 1 ( BTP - S ) ＜ 0 . 
+ 　 　 必要性 . 不难 发现 ， 一定 存在 标量 ρ ＞ 1 ， 使得 
+ PA + ATP - PBR - 1BTP - STR - 1BTP - PBR - 1S + ρ - 2STR - 1S ＜ 0 ， 
+ 即 
+ PA + ATP - ( ρ 2 + 1 ) PBR - 1BTP + ( ρ BTP - ρ - 1S ) TR - 1 ( ρ BTP - ρ - 1S ) ＜ 0 . 　 　 ( 24 ) 
+ 因此 
+ PA + ATP - 2 ρ 2PBR - 1BTP + ( ρ BTP - ρ - 1S ) TR - 1 ( ρ BTP - ρ - 1S ) ＜ 0 . 
+ 用 P 代替 ρ 2P , 就 可 得到 不等式 ( 23 ) . 
+ 证毕 . 
+ 　 　 因为 - PBR - 1BTP 的 负号 ， ( 24 ) 不能 简化 为 一 LMI . 为了 处理 这 一项 ， 我们 引入 一 附加 变量 X . 因为 对于 同维 的 X ， P 总有 ( X - P ) TBR - 1BT ( X - P ) 0 ， 所以 
+ XTBR - 1BTP + PTBR - 1BTX - XTBR - 1BTXPTBR - 1BTP 　 　 ( 25 ) 
+ 不等式 成立 当且 仅 当 X = P . 因此 我们 得到 BMI ( 22 ) 有解 的 一个 充分条件 . 
+ ATP + PA - 2XBR - 1BTP - 2PBR - 1BTX + 2XBR - 1BTX + ( BTP - S ) TR - 1 ( BTP - S ) ＜ 0 　 　 ( 26 ) 
+ 　 　 定理 3 . BMI ( 22 ) 存在 一 可行 解 ( P ＞ 0 ， S ) 当且 仅 当 存在 X ＞ 0 ， 使得 矩阵 不等式 ( 26 ) 成立 . 
+ 　 　 证明 . 充分性 已证 ， 下面 证明 必要性 . 显然 ， 若 BMI ( 22 ) 存在 一 可行 解 ( P ＞ 0 , S ) ， 那么 一定 存在 正 实数 ε ＞ 0 满足 
+ ATP + PA - 2PBR - 1BTP + ( BTP - S ) TR - 1 ( BTP - S ) + ε I ＜ 0 . 
+ 选择 对称 矩阵 2BR - 1BT , 令 X = p - Δ X , Δ X = ε 1 / 2 - 1 / 2 , 那么 就 有 
+ 2 ( P - X ) BR - 1BT ( P - X ) ε I . 
+ 因此 矩阵 不等式 ( 26 ) 成立 . 
+ 证毕 . 
+ 　 　 由 Schur 补 ， 式 ( 26 ) 等价 于 如下 矩阵 不等式 
+ 
+ ( 27 ) 
+ 　 　 显然 ， X 固定 时 ， 式 ( 27 ) 为 关于 S 和 P 的 LMI 问题 . 然而 LMI ( 27 ) ( 假设 X 固定 时 ) 仅为 BMI ( 22 ) 的 一 充分条件 . 事实上 ， 如果 我们 找到 了 它 的 一 可行 解 ， 也 就 找到 了 BMI ( 22 ) 的 解 . 一般来说 它 无解 . 但是 我们 可以 利用 所谓 的 - α / 2 － 可 镇定 性 对 它 进行 放松 ， 即 得到 必要条件 
+ ATP + PA - α P - 2XBR - 1BTP - 2PBR - 1BTX + 2XBR - 1BTX 
+ + ( BTP - S ) TR - 1 ( BTP - S ) ＜ 0 . 
+ 基于 极点 逐步 左移 到 左半 平面 ， 我们 得到 如下 迭代 算法 . 
+ 　 　 步骤 1 . 令 i = 1 , R = I . 选择 Q ＞ 0 解 ARE 
+ ATP + PA - PBBTP + Q = 0 . 
+ 　 　 假定 其解 为 X . 
+ 　 　 步骤 2 . 解 关于 Pi , S , α i 的 优化 问题 OP1 ： 极小 化 满足 如下 LMI 约束 的 α i 
+ 
+ ( 28 ) 
+ Pi = PTi ＞ 0 　 　 ( 29 ) 
+ 　 　 步骤 3 . 解 关于 Pi , S 的 优化 问题 OP2 : 极小 化 trace ( Pi ) 并 满足 LMI 约束 ( 28 ) ， ( 29 ) . 
+ 　 　 步骤 4 . 如果 α iu0 ， ( P ， S ) 就是 一 可行 解 ， 算法 结束 . 
+ 　 　 步骤 5 . 如果 ‖ X - Pi ‖ ＜ δ ( 预先 给定 的 任意 小 的 正 实数 ) ， 转 步骤 6 ， 
+ 　 　 　 　 　 　 否则 令 X = Pi , i = i + 1 , 转 步骤 2 . 
+ 　 　 步骤 6 . 系统 可能 无 解 ， 算法 结束 . 
+ 　 　 OP1 是 一 广义 特征值 问题 ， 这 一步 保证 极点 的 逐步 左移 . 不等式 ( 25 ) 在 这 一 算法 中起 了 关键作用 . 对于 优化 问题 OP1 ， 在 每 一次 迭代 中其解 的 存在 性 都 由 ( 25 ) 保证 . 而且 α i 是 一 递减 序列 ， 因为 对于 满足 如下 不等式 的 任意 Pi ＞ 0 ， S 
+ ATPi + PiA - 2XBBTPi - 2PiBBTX + 2XBBTX - α iPi + 
+ ( BTPi - S ) T ( BTPi - S ) ＜ 0 ， 
+ 一定 有 
+ ATPi + PiA - 2PiBBTPi - α iPi + ( BTPi - S ) T ( BTPi - S ) ＜ 0 . 
+ 这就是说 下 一次 一定 可以 找到 解 α i + 1 α i ， 因为 Pi + 1 = Pi , α i + 1 = α i 就是 一解 . 
+ 4 　 示例 
+ 　 　 考虑 变 参数 系统 
+ 
+ 标称 工作 点为 θ 0 = 7 . 考虑 在 工作 点 θ 0 = 7 , θ 1 = 3 , θ 2 = 11 的 3 个 对象 的 同时 镇定 问题 
+ 
+ 使用 本文 算法 ， 经过 29 次 迭代 得到 M = ［ 2.57090 ］ , 
+ 
+ 闭环 特征值 分别 为 ｛ - 40.5506 , - 1.0203 ｝ , ｛ - 0.7855 ± 5.1388 i ｝ , ｛ - 113.0837 , - 0.4872 ｝ . 因此 K = - 2.5709 同时 镇定 这 3 个 对象 . 
+ 　 　 1 ) 国家自然科学基金 资助 项目 和 浙江大学 曹光彪 高科技 发展 基金 资助 项目 . 
+ 作者 单位 ： 工业 控制技术 国家 重点 实验室 ， 浙江大学 工业 控制技术 研究所 　 杭州 　 310027 
+ 参考文献 
+ 1 　 BoydSL , ELGhaoui , FeronE , BalakrishnanV . Linearmatrxinequalitiesinsystemandcontroltheory , SIAM , Philadelphia , 1994 
+ 2AndersonBDO , MooreJB . Optimalcontrol : LinearQuadraticMethods . EnglewoodCliffs , NJ : Prentice － Hall , 1990 
+ 3ChengD , MartinCF . Boundariesofconditionalquadraticforms - - acommenton “ Stabilizationviastaticoutputfeedback ” . IEEETrans . Autom . Contr . , 1995 , 40 ( 3 ) , 500 - 502 
+ 收稿 日期 　 1996 - 01 - 08 

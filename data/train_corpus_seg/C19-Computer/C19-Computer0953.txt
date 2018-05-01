@@ -1,0 +1,109 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 第 23 卷 第 5 期 Vol.23 No.51997 
+ 
+ 
+ 
+ 引用 广义 保持 器 的 采样系统 
+ — — 结构 性质 与 自 适应 鲁棒控制 1 ) 
+ 蔚润义 　 　 江 　 弘 
+ 摘要 　 研究 一类 线性 时变 不 确定 系统 的 采样 控制 . 分析 了 采用 的 广义 保持 器 和 离散 化 系统 的 结构 性质 ， 提出 了 考虑 微处理器 主频 和 字长 的 自 适应 鲁棒 采样 控制 方案 ， 证明 了 闭环 系统 的 稳定性 . 针对 倒 摆 系统 进行 了 计算机 仿真 研究 . 
+ 关键词 　 不 确定 系统 ， 采样 控制 ， 广义 保持 器 ， 自 适应 鲁棒控制 ， 倒 摆 系统 . 
+ SAMPLED - DATASYSTEMSWITHGENERALIZEDHOLDERS 
+ — — STRUCTURALPROPERTIESANDADAPTIVEROBUSTCONTROL 
+ YURUNYI 　 　 JIANGHONG 
+ ( DepartmentofAutomation , BeijingUniversityofChemicalTechnology , 
+ Beijing100029 ) 
+ Abstract 　 Thispaperstudiessampled - datacontrolproblemforaclassoflineartime - varyingsystems . Thepropertiesofthegeneralizedholdersandthediscretizedsystemsareanalyzed . Anadaptiverobustsampled - datacontrolschemeispresentedwithconsiderationsofcolckfrequencyandwordlengthofthemicroprocessor . Thestabilityoftheclosed - loopsystemsisproved . Simulationresultsaregivenforaninvertedpendulumsystem . 
+ Keywords 　 Uncertainsystems , sampled - datacontrol , generalizedholder , adaptiverobustcontrol , invertedpendulum . 
+ 1 　 引 　 言 
+ 　 　 近年来 ， 引用 非 周期 采样器 和 / 或 广义 保持 器 的 采样 控制系统 的 研究 取得 了 很大 的 进展 ［ 1 ］ . 本文 讨论 文献 ［ 3 ， 4 ］ 提出 的 广义 保持 函数 的 性质 及其 对 离散系统 结构 的 影响 ， 并 结合 微处理器 主频 和 字长 ， 研究 自 适应 鲁棒 采样 控制 的 实施 问题 . 对于 一类 具有 结构 不确定性 的 线性 时变 系统 ， 本文 提出 的 控制 方案 可以 根据 系统 的 运行 状态 ， 自动 调整 采样 间隔 和 增益 参数 ， 使 闭环 采样 控制系统 稳定 ， 并 研究 了 上述 方法 在 倒 摆 系统 中 的 应用 . 限于 篇幅 ， 省略 了 大部分 结论 的 证明 . 
+ 2 　 问题 的 陈述 
+ 　 　 考虑 单 输入 时变 不 确定 系统 
+ 
+ ( 1 ) 
+ 其中 　 x ( t ) ∈ Rn 为 系统 的 状态 ， u ( t ) ∈ R 输入 ； A , b 为 适当 维数 的 常 矩阵 ， Δ ( t ) 表示 不确定性 . 假定 标称 系统 
+ 
+ ( 2 ) 
+ 可控 且 具有 形式 
+ 
+ ( 3 ) 
+ 其中 α l ( l = 1 , 2 , … , n ) 为 常数 ， 并设 Δ ( t ) 具有 下 三角 结构 ， 即 Δ ( t ) = ( δ pq ( t ) ) , δ pq = 0 , p ＜ q . 设 及其 l ( l = 1 , … , n - 1 ) 阶 导数 均 有界 . 可以 证明 ， Δ ( t ) 的 这 一 结构 是 能 实现 鲁棒控制 的 最 一般 的 结构 . 
+ 　 　 本文 要 解决 的 问题 是 ， 对 不确定性 系统 ( 1 ) ， 设计 采样 控制器 及 自 适应控制 规律 ， 使 闭环 系统 鲁棒 稳定 . 
+ 3 　 结构 性质 与 鲁棒 稳定性 分析 
+ 　 　 对 连续 系统 进行 采样 ， 设 采样 时间 序列 为 { tm } ( m = 1 , 2 ， … ) 满足 且 第 m 次 采样 间隔 Tm = tm + 1 - tm ＞ 0 . 引入 广义 保持 函数 h ( t ) ∈ R1 × n ， 并 设计 数字 控制器 C ( z ) ， 便 构成 如图 1 所示 的 采样 控制系统 . 其中 
+ 
+ 图 1 　 采样 控制系统 结构 框图 
+ 　 　 周期 采样 时 ( Tm ≡ T ＞ 0 ( m = 1 , 2 , … ) ) , 标称 系统 ( 2 ) 离散 化后 的 状态方程 为 
+ 
+ ( 4 ) 
+ 其中 　 ( 与 h ( t ) 有关 ) . 
+ 　 　 记 μ l ( l = 1 , 2 , … , n ) 为 n 个 互异 的 正数 . 文献 ［ 3 ， 4 ］ 分别 设计 了 如下 的 广义 保持 器 ： 
+ 　 　 广义 保持 函数 1 
+ 
+ ( 5 ) 
+ 其中 　 γ 是 一 增益 参数 ； A0 与 式 ( 3 ) 中 A 完全相同 ， 只是 最后 一行 全为 零 ； k ( γ ) ∈ Rn × 1 使 σ ( A0 + bkT ( γ ) ) = { - μ l γ , l = 1 , 2 , … , n } ； 
+ 　 　 广义 保持 函数 2 
+ 
+ ( 6 ) 
+ 其中 　 为 以下 线性方程组 
+ 
+ ( 7 ) 
+ 的 解 . 因 μ l 互不 相同 ， 这些 解是 唯一 存在 的 . 
+ 　 　 引理 1 . 当 γ → ∞ 时 ， h1 ( t , γ ) 的 元素 h1ij ( t , γ ) 趋近 于 1 ， 2 ， … ， n 阶 脉冲 函数 的 线性组合 ； h2 ( t , γ ) 的 元素 hl ( t , γ ) 趋近 于 l 阶 脉冲 函数 . 
+ 　 　 引理 2 . 广义 保持 函数 h1 ( t , γ ) , h2 ( t , γ ) 的 传递函数 分别 为 
+ 　 ( 8 ) 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 9 ) 
+ 其中 　 且 H1 ( s ) 和 H2 ( s ) 均 无 传输 零点 . 
+ 　 　 引理 3 . 任选 上面 的 广义 保持 器 ， 离散系统 ( 4 ) 可控 ( 可 镇定 ) 的 充分条件 为 ( A ， b ) 可控 ( 可 镇定 ) ， 且 对 任意 有 λ i - λ l ≠ 2p π j / T ， 其中 C + 表示 右半 闭 平面 ， p 为 任意 整数 ， j 为 虚数 单位 . 
+ 　 　 引理 4 . 任选 上面 的 广义 保持 器 ， 记 λ ( γ ) 为 标称 离散系统 ( 4 ) 引入 单位 状态 反馈 vm = xm 后 闭环 系统 的 极点 ， 则 
+ 　 　 引入 反馈 控制 u ( t ) = h ( t - tm , γ m ) vm , vm = xm 后 ， 不 确定 采样 控制系统 ( 1 ) 为 
+ 
+ ( 10 ) 
+ 相应 的 闭环 离散系统 方程 为 
+ 
+ ( 11 ) 
+ 其中 　 为 系统 ( 1 ) 的 状态 转移 矩阵 ( 与 Δ ( t ) 有关 ) . 
+ 　 　 定理 1 . 任取 广义 保持 器如上 ， 对 任意 0 ＜ ε ＜ 1 ， 存在 常数 T * ＞ 0 ， γ * ＞ 0 , M ＞ 0 ， 使当 稳定 ， 指数 稳定 ， 且 
+ 
+ ( 12 ) 
+ 其中 Z + 为 自然数 集合 . 
+ 4 　 自 适应 规律 
+ 　 　 在 采样 控制系统 中 ， 作为 控制器 的 微处理器 有 主频 ( 记为 f0 ) 和 字长 ( 记为 N ) 的 限制 . 这样 ， 即使 不 考虑 完成 数据 采集 、 处理 、 输出 所 需 的 时间 ， 采样 间隔 也 只能 是 T0 = 1 / f0 的 整数倍 . 同样 ， 增益 参数 只能 是 的 整数倍 ， 其中 Γ ∈ R 表示 增益 的 上限 . 在 控制系统 设计 时 ， 一般 总是 比较 保守 地 选取 微处理器 ， 可 设 
+ 　 　 当 不确定性 函数 Δ ( t ) 及其 导数 的 变化 范围 未知 ， 或 在 系统 不同 的 操作 条件 下 它们 的 变化 范围 较大 时 ， 希望 系统 能够 根据 运行 情况 自动 调整 采样 间隔 Tm 和 广义 保持 器 h ( t - tm , γ m ) 中 的 增益 参数 γ m ， 不致于 太小 或太大 . 因此 ， 设计 如下 的 自 适应 规律 ： 
+ 
+ ( 13 ) 
+ 
+ ( 14 ) 
+ 其中 floor ( . ) , ceil ( . ) 分别 表示 向下 和 向上 取整 . σ T , σ γ , T0 , γ 0 ＞ 0 为 取定 的 正数 . 这样 ， 连续 系统 ( 1 ) ， 采样器 { tm } ， 广义 保持 器 ( 5 ) ( 或 ( 6 ) ) ， 自 适应 规律 ( 13 ) ， ( 14 ) 便 组成 了 自 适应 鲁棒 采样 控制系统 . 其 渐近 稳定 性质 下面 的 定理 给出 ： 
+ 　 　 定理 2 . 记在 初始条件 x ( t0 ) = x0 , T0 , γ 0 下 上述 闭环 采样系统 的 解为 xA ( t ; x0 , T0 , γ 0 ) = ( x ( t ) , Tm , γ m ) , 则 xA ( t ; x0 , T0 , γ 0 ) 有 界 ， 且 
+ 
+ ( 15 ) 
+ 　 　 证明 . 设 T * ， γ * 为 定理 1 中 给出 的 参数 ， 且 选择 数字 控制器 使 T0 ＜ T * , Γ ＞ γ * . 记 Tm = pmT0 , γ m = qm γ 0 ， 其中 pm , qm ∈ Z + , 则 有 
+ 
+ ( 16 ) 
+ 
+ ( 17 ) 
+ 　 　 显然 根据 定理 1 ， 并 利用 Tm , γ m , pm , qm 的 单调 性质 和 pm , qm 的 整数 性质 ， 可 分 下列 三种 情况 完成 证明 ： 
+ 　 　 1 ) 存在 mT , m γ ∈ Z + , 使 
+ 　 　 2 ) 对 任意 m ∈ Z + , 均 有 Tm ＞ T ; 
+ 　 　 3 ) 对 任意 m ∈ Z + , 均 有 γ m ＜ γ . 
+ 　 　 在 采样 控制系统 设计 时 ， 可以 利用 标称 系统 的 参数 来 简化 设计 并 改善 系统 过渡 过程 . 
+ 5 　 应用 
+ 　 　 研究 小车 上 倒 摆 系统 的 采样 控制 . 该 系统 的 动力学 方程 为 ［ 4 ］ 
+ ( 18 ) , ( 19 ) 
+ 其中 x1 , x2 分别 为 倒 摆 偏离 垂直 直线 的 角度 和 角速度 ， F 为 控制力 ， g 是 重力 加速度 ， mc , m 分别 为 小车 和 倒 摆 的 质量 ， l 为 倒 摆 的 有效 长度 . 
+ 　 　 根据 该 系统 的 线性化 系统 ， 可 设计 自 适应 采样 控制 ( 取 广义 保持 函数 2 ) 
+ ( 20 ) 
+ γ m , Tm 根据 自 适应 规律 ( 13 ) ， ( 14 ) 调整 ， 其中 参数 σ T , σ γ 用来 调节 过渡 过程 . 在 计算 仿真 中 ， 取 mc = 1.0 kg , m = 0.1 kg , l = 0.5 m ； σ T = 1 , σ γ = 0.5 , T0 = 0.001 , γ 0 = 40 / 210 . 
+ 　 　 应用 MATLAB 就 不同 初始条件 和 调节 参数 σ T , σ γ 的 仿真 结果表明 ： 1 ) 上述 的 采样 控制 方案 可以 实现 倒 摆 系统 的 镇定 ， 但 对 控制力 的 要求 较 高 ， 这 可能 是 引入 广义 保持 器及 高增益 反馈 的 弱点 ， 值得 进一步 研究 ； 2 ) 初始 偏转 角越 大 ， γ ∞ 越大 ， T ∞ 越小 ； 3 ) σ T ， σ γ 对系统 的 过渡 过程 有 较大 影响 ； 4 ) 如果 利用 了 系统 参数 的 近似值 ， 过渡 过程 可 得到 一定 的 改善 . 
+ 1 ) 　 国家自然科学基金 、 中科院 系统控制 开放 实验室 资助 项目 . 部分 内容 曾 在 1996 中国 控制 与 决策 学术年会 上 宣读 . 
+ 作者 单位 ： 北京化工大学 自动化系 　 北京 　 100029 
+ 参考文献 
+ 　 [ 1 ] 　 ArakiM . Recentdevelopmentsindigitalcontroltheory , In : Proc . of12thIFACCongress , Sydney , 1993 . 
+ 　 [ 2 ] 　 KambambaPT . controloflinearsystemsusinggeneralizedsampled - dataholdfunction , IEEETrans . Automat . Contr . , 1987 , AC - 32 : 772 — 783 . 
+ 　 [ 3 ] 　 OcahO , SezerME . Robustsampled - datacontrol . IEEETrans . Automat . Contr . , 1992 , AC - 37 : 1591 — 1597 . 
+ 　 [ 4 ] 　 YuR , OcahO , SezerME . Adaptiverobustsampled - datacontrolofaclassofsystemsunderstructuralperturbations . IEEEETrans . Automat . Contr . , 1993 , AC - 38 : 1707 — 1713 . 
+ 　 [ 5 ] 　 MiddletonR , FreudenburgJ . Non - pathologicalsamplingforgeneralizedsampled - dataholdfunctions , Automatica , 1995 , 31 : 315 — 319 . 
+ 　 [ 6 ] 　 KimJetal . Designingfuzzynetcontrollersusinggenecticalgorithms , IEEEControlSystemsMagazine , 1995 , 15 : 66 — 72 . 
+ 收稿 日期 　 1996 - 02 - 05 

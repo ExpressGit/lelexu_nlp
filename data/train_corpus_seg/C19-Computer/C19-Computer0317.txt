@@ -1,0 +1,153 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 1999 年 　 第 10 卷 　 第 11 期 　 Vol.10 　 No.11 　 1999 
+ 
+ 
+ 
+ 基于 故障 划分 的 并行 测试 生成 算法 
+ 曾芷德 　 曾献君 
+ 　 　 摘要 　 文章 从 理论 上 分析 了 提高 基于 故障 划分 的 并行 测试 生成 算法 的 加速 比 的 途径 . 在 此基础 上 ， 提出 了 把 相关 故障 识别 和 最 短 路径 敏化 相结合 的 基于 输出 扇入 锥 的 逆向 故障 划分 方法 BFPOC （ backwordfaultpartitioningofoutputfan - incones ） ， 并 把 该 方法 与 Banejee 推荐 的 基于 输入 扇出 锥 的 正向 故障 划分 方法 TFPIC （ towordfaultpartitioningofinputfan - outcones ） 和 常用 的 基于 故障 顺序 的 等 步长 划分 方法 EDPFS （ equaldistancepartitioningoffaultsequences ） 进行 了 实验 比较 . 结果表明 ， 在 大规模 并行处理 环境 下 ， BFPOC 方法 比后 两种 方法 有 明显 的 优势 ， 能 获得 更 高 的 加速 比 . 
+ 　 　 关键词 　 并行 测试 生成 ， 故障 并行 ， 故障 划分 ， 输出 扇入 锥 ， 输入 扇出 锥 ， 加速 比 . 
+ 　 　 中图法 分类号 　 TP338 
+ AParallelTestGenerationAlgorithmBasedonFaultPartitioning 
+ ZENGZhi - de 　 ZENGXian - jun 
+ ( DepartmentofComputerScience 　 NationalUniversityofDefenseTechnology 　 Changsha 　 410073 ) 
+ 　 　 Abstract 　 Inthispaper , theauthorsanalyzeintheoryhowtoincreasethespeed - upratioofparalleltestgenerationalgorithmbasedonfaultpartitioning . Theapproachofbackwardfaultpartitioningofoutputfan - incones ( BFPOC ) whichcombinestherelevantfaultrecognitionandshortestpathsensitization , ispresented . AndBFPOCiscomparedviaexperimentwiththeapproachoftowardfaultpartitioningofinputfan - outcones ( TFPIC ) proposedbyBanejeeandthegeneralone , equaldistancepartitioningoffaultsequence ( EDPFS ) . Theexperimentalresultsshowthatinlarge - scaleparallelprocessingenvironment , BFPOCcanreachhigherspeed - upratio , obvioussupertotheothertwoapproaches . 
+ 　 　 Keywords 　 Paralleltestgeneration , faultparallelism , faultpartitioning , outputfan - incones , inputfan - outcones , speed - upratio . 
+ 　 　 借助 并行处理 的 优势 来 对付 VLSI 测试 生成 时间 的 指数 复杂性 是 一种 可 供选择 的 方法 ［ 1 ］ . 大规模 并行处理 机 （ MPP ） 的 问世 和 工作站 机群 （ WSG ） 的 广泛 配置 ， 为 并行 测试 生成 的 实现 提供 了 良好 的 硬件 环境 . 但是 ， 要 把 测试 生成 这 类 原本 属于 串行 处理 的 算法 改造 成可 并行 运行 的 算法 并非易事 . 
+ 　 　 近 10 年来 ， 国内外 学者 除了 继续 致力于 提高 单机 测试 生成 系统 效率 的 研究 ［ 2 , 3 ］ 以外 , 还 进行 了 多机 并行 测试 生成 算法 的 研究 ， 并 先后 提出 了 基于 故障 并行 、 启发式 并行 、 搜索 空间 并行 、 功能 并行 和 电路 并行 等 多种 并行 测试 生成 方法 ， 也 报道 过 一些 关于 并行 测试 生成 的 原型 系统 . 例如 ， 按 初级 输入 扇出 锥 对 电路 故障 进行 集束 分组 的 并行 系统 ［ 4 ］ 、 按 启发式 并行 的 系统 ［ 5 ］ 、 对 难测 故障 按 搜索 空间 并行 的 系统 ［ 6 ］ 以及 对 时序电路 分别 按 故障 并行 ［ 7 ］ 、 按 搜索 空间 并行 ［ 8 ］ 和 按 电路 并行 ［ 9 ］ 的 系统 等等 . 这些 系统 参与 并行处理 的 处理机 数目 为 5 ～ 16 ， 属于 小规模 并行 . 它们 的 共同 特点 是 比较 重视 处理机 之间 的 动态 负载平衡 . 众所周知 ， 实现 动态 负载平衡 是 以 增加 处理机 之间 的 通信 开销 为 代价 的 . 理论 上 不难 证明 ， 实现 N 个 处理机 的 动态 负载平衡 所 需 通信 开销 的 时间 复杂性 为 O （ N2 ） . 这 表明 对 MPP 系统 （ N ≥ 128 ） ， 靠 实现 动态 负载平衡 来 提高 加速 比 可能 会 有 困难 . 为此 ， 我们 建议 把 研究 重点 放在 如何 提高 静态 负载平衡 上 ， 以 减少 依托 MPP 机 的 并行 测试 生成 系统 的 通信 开销 ， 提高 加速 比 . 我们 曾 提出 过 按 逻辑 相关性 的 大小 ， 把 被 测 电路 （ CUT ） 原有 的 以 初级输出 （ PO ） 为锥顶 的 P 个 输出 扇入 锥 分配 给 N 个 处理机 ， 进行 并行处理 的 优化 划分算法 — — 最小 递归 二分法 ［ 10 ］ ， 收到 了 较 好 的 效果 . 但是 ， 对 那些 反馈 线 很多 、 反馈 深度 很深 的 闭环 电路 ， 每个 输出 锥 基本 包含 整个 电路 . 此时 再 试图 将 电路 按 输出 锥 分块 将 是 徒劳 的 . 因此 ， 本文 研究 依托 MPP 机 的 基于 故障 静态 划分 的 并行 测试 生成 算法 . 
+ 1 　 关于 故障 并行 的 加速 比 
+ 　 　 假设 m × n 阶 矩阵 （ aij ） 为 CUT 的 故障 检测 矩阵 ， 其中 j = 1 , 2 , ... , n 与 CUT 的 目标 故障 集 SF 中 的 n 个 故障 对应 ， i = 1 , 2 , ... , m 与 检测 SF 的 完全 测试 集 ST 中 的 每个 测试 码 相对 应 . 
+ 
+ 　 　 我们 的 任务 是 把 SF 中 的 n 个 故障 平分 给 N 个 处理机 进行 并行 测试 生成 ， 希望 获取 最高 的 加速 比 . 此 任务 可 形式化 描述 如下 ： 
+ 　 　 把 矩阵 （ aij ） 按列 均 分成 N 个 m × n / N 阶的子 阵 （ bKil ） ， 其中 i = 1 , 2 , ... , m ； l = 1 , 2 , ... , n / N （ 或 ( n / N ） + 1 ） ； K = 1 , 2 , ... , N . 由于 此时 （ bKil ） 中 包含 了 一些 全零行 ， 按行 压缩 掉 这些 全零行 之后 ， 有 i = 1 , 2 , ... , mK ， 如果 假设 max { mK } = M ， 则 加速 比 
+ SP ＝ m （ tg + tf . mfs ) / ( M ( tg + tf . mfp ) ) . 
+ ( 1 ) 
+ 　 　 式 ( 1 ) 中 ， M ≤ m ， tg 为 生成 一个 测试 码所 需 的 平均 时间 ， tf 为 一个 测试 码 模拟 一个 故障 所 需 的 平均 时间 . 它们 由 CUT 的 复杂性 及 所用 的 测试 生成 （ TG ） 和 故障模拟 （ FS ） 算法 决定 ， 与 故障 划分 无关 . mfs 和 mfp 分别 为 在 串行 和 并行 生成 环境 下 ， 一个 测试 码 平均 需要 模拟 的 故障 数 . 为了 便于 分析 ， 我们 假设 ST 中 的 m 个 测试 码 完全 覆盖 SF 中 的 n 个 故障 ， 每个 测试 码 都 检测 n / m 个 故障 ， 于是 可以 导出 
+ mfs ＝ n （ m + 1 ） / 2m , 
+ mfp ＝ n （ M + 1 ） / ( 2N . M ) , 
+ SP ＝ N （ m （ 2tg + tf . n ） + tf . n ） / （ M （ 2tg . N + tf . n ） + tf . n ） . 
+ ( 2 ) 
+ 　 　 式 ( 2 ) 中 ， 只有 M 与 故障 划分 方法 有关 . 显然 ， 如果 在 对 （ aij ） 按列 划分 时能 使 M 取 最小值 ， 则 SP 为 最大值 ， 可 获得 最高 的 加速 比 . 
+ 　 　 如果 在 对 SF 划分 时 （ aij ） 是 已知 的 ， 则 获取 最高 加速 比 的 故障 划分 可 抽象化 为 纯数学 问题 ： 从 矩阵 （ aij ） 的 CNn 种列 组合 中 选取 使 M 最小 的 列 组合 . 此 问题 用 模拟退火 法 或 最小 递归 二分法 都 不难 解决 . 但是 ， 由于 进行 故障 划分 时 尚未 求出 ST ， （ aij ） 是 未知 的 ， 上述 方法 暂时 还 用不上 . 不过 ， 上述 分析 已 给 了 我们 一条 极 重要 的 启示 ： 具有 最高 加速 比 的 划分 ， 必须 是 能 使 每个 处理机 所分 得 的 故障 集 的 完全 测试 集 最小 （ 即 M 最小 ） 的 划分 . 为此 ， 在 进行 故障 划分 时 必须 充分考虑 故障 的 等价 性 、 相关性 和 独立性 . 
+ 　 　 VLSI 中 的 故障 ， 按 检测 每个 故障 的 完全 测试 集 的 相关性 ， 可以 分为 等价 故障 、 相关 故障 和 独立 故障 . 设 T α ， T β 分别 为 固定 故障 α ， β 的 完全 测试 集 ， 如果 存在 
+ T α ＝ T β ， 则 称 α , β 为 等价 故障 ； 
+ T α ≠ T β ， 但 T α ∩ T β ≠ ∮ ， 则 称 α , β 为 相关 故障 ； 
+ T α ∩ T β = ∮ ， 则 称 α , β 为 独立 故障 . 
+ 显然 ， 按 上述 定义 ， 不可 测 故障 属于 独立 故障 . 考虑 到 测试 生成 系统 （ testgenerationsystem , 简称 TGS ） 在 生成 CUT 的 目标 故障 表时 ， 对 等价 故障 已 进行 了 识别 和 归并 处理 ， 因此 , 在 划分 故障 时 不再 考虑 等价 故障 . 
+ 　 　 为 使 并行 测试 生成 算法 获得 较 高 的 加速 比 ， 划分 故障 时应 遵循 下列 3 条 基本 原则 ： 
+ 　 　 ( 1 ) 相关 故障 优先 分配 给 同一个 处理机 ； 
+ 　 　 ( 2 ) 独立 故障 优先 分配 给 不同 的 处理机 ； 
+ 　 　 ( 3 ) 各 处理机 处理 的 相关 故障 集 的 个数 及 故障 总数 基本相同 . 
+ 2 　 3 种 故障 划分 方法 
+ 　 　 不言而喻 ， 相关 故障 和 独立 故障 的 识别 是 故障 划分 的 关键 . 本文 提出 BFPOC ( backwordfaultpartitioningofoutputfan - incones ) 方法 ， 并 与 文献 ［ 1 ］ 推荐 的 TFPIC ( towordfaultpartitioningofinputfan - outcones ) 方法 和 较 常用 的 EDPFS ( equaldistancepartitioningoffaultsequences ) 方法 进行 比较 ， 分析 它们 的 优劣 , 现分述 如下 . 
+ 2.1 基于 输出 锥 的 逆向 划分 方法 （ BFPOC ） 
+ 　 　 该 方法 的 基本 思想 是 把 相关 故障 的 识别 与 最 短 路径 敏化 ［ 11 ］ 的 思想 相结合 . 具体 描述 如下 . 
+ 　 　 ( 1 ) 功能块 故障 分组 规则 
+ 假设 功能块 输出 s - a - 0 故障 的 组号 为 k ， s - a - 1 故障 的 组号 为 k + 1 ， 根据 功能块 的 功能 、 故障 相关性 和 最 短 路径 敏化 思想 ， 对 其 输入 故障 以及 与 输入 相连 的 扇 出源 故障 打 分组 标记 ： 
+ 　 　 〈 1 〉 或 （ 或非 ） 门 
+ 　 　 ① 级别 最低 的 输入 和 它们 的 先行 扇 出源 的 s - a - 0 故障 都 标记 k （ k + 1 ） ， s - a - 1 标记 k + 1 （ k ） ； 
+ 　 　 ② 设 其他 输入 共有 i 个 （ i = 1 ， 2 ， ... ） ， 则 这些 输入 的 s - a - 0 和 它们 各自 的 先行 扇 出源 的 s - a - 0 分别 标记 k + 2 （ k + 3 ） ， k + 4 （ k + 5 ） ， ... ， s - a - 1 则 标记 k + 1 （ k ） . 
+ 　 　 〈 2 〉 与 （ 与非 ） 门 
+ 　 　 ① 级别 最低 的 输入 及其 先行 扇 出源 的 s - a - 1 都 标记 k + 1 （ k ） ， s - a - 0 标记 k （ k + 1 ） ； 
+ 　 　 ② 设 其他 输入 共有 i 个 （ i = 1 ， 2 ， ... ） ， 则 这些 输入 的 s - a - 1 和 它们 各自 的 先行 扇 出源 的 s - a - 1 分别 标记 k + 3 （ k + 2 ） ， k + 5 （ k + 4 ） ， ... ， s - a - 0 则 标记 k （ k + 1 ） . 
+ 　 　 〈 3 〉 驱动 （ 非 ） 门 
+ 　 　 此门 输入 的 先行 扇 出源 s - a - 0 标记 k （ k + 1 ） ， s - a - 1 标记 k + 1 （ k ） . 
+ 　 　 〈 4 〉 对称 输入 的 复合门 
+ 　 　 ① 对 与 或 （ 与 或非 ） 门 ， 同一 与 门 输入 故障 分组 规则 同 与 （ 与非 ） 门 ， 不同 与 门 的 对称 输入 s - a - 1 分在 同 一组 . 
+ 　 　 ② 对 或 与 （ 或 与非 ） 门 ， 同一 或门 输入 故障 分组 规则 同 或 （ 或非 ） 门 ， 不同 或门 的 对称 输入 s - a - 0 分在 同 一组 . 
+ 　 　 〈 5 〉 其他 功能块 
+ 　 　 ① 对 级别 最低 的 输入 a ， 检查 输入 / 输出 连通 矩阵 . 如果 是 同 相连 通 ， 则 a 及其 先行 扇 出源线 s - a - 0 标记 k ， s - a - 1 标记 k + 1 ； 反 相连 通 ， 则 a 及其 先行 扇 出源线 s - a - 0 标记 k + 1 ， s - a - 1 标记 k ； 双 相连 通 ， 则 随机 地 按 同相 或 反 相对 待 ； 
+ 　 　 ② 对 其他 输入 bi ( i = 1 , 2 , ... ) ， 如果 是 同 相连 通 ， 则 bi 及其 先行 扇 出源 的 故障 s - a - 0 （ 1 ） 的 组号 为 k + i + 1 （ k + i + 2 ） ； 反 相连 通 ， 则 为 k + i + 2 （ k + i + 1 ） ； 双 相连 通 ， 则 随机 地 按 同相 或 反 相对 待 . 
+ 　 　 ( 2 ) 电路 故障 分组 过程 
+ 　 　 从 最 复杂 的 初级输出 （ PO1 ） 开始 ， 向 初级 输入 （ PI ） 逆向 遍历 该 输出 锥 的 每 一个 功能块 . 按 上述 规则 ， 在 每个 功能块 输出 故障 组号 的 基础 上 ， 对 它们 的 输入 及其 先行 扇 出源 的 故障 分组 . 逆向 最短 路径 敏化 思想 已 隐含 在 其中 . 
+ 　 　 ( 3 ) 故障 组号 分配 算法 
+ 　 　 〈 1 〉 同一个 故障 只 分配 一个组 号 ， 不同 故障 的 组号 不 允许 重迭 . 按此 原则 ， 各 输出 锥 之间 公共 的 故障 只 分配 一次 组号 . 
+ 　 　 〈 2 〉 为 避免 不同 故障 的 组号 重迭 ， 本文 提出 故障 组号 分配 算法 如下 ： 
+ 　 　 ① 一条 引线 分配 两个 邻接 数字 作为 两个 故障 的 组号 ， 即使 某条 引线 的 一个 或 两个 故障 已 被 等价 归并 掉 . 这里 的 “ 引线 ” 包括 PI ， 内部 功能块 的 输出 线 和 扇 出 个数 大于 1 的 扇 出源 的 扇 出 分线 . 
+ 　 　 ② 按 功能块 故障 分组 原则 判明 属于 同 一组 的 故障 ， 组号 向 最小 的 取齐 ； 不 属于 同 一组 的 故障 ， 保留 原组 号 不变 . 
+ 　 　 ( 4 ) 按 上述 规则 ， 编在 同 一组 的 故障 构成 一个 相关 故障 集 ； 不同 组 的 故障 的 相关性 和 独立性 ， 要 想 精确 描述 将 比较复杂 ， 但 总 的 趋势 是 独立性 大于 相关性 . 
+ 　 　 ( 5 ) 故障 向 处理机 分配原则 ： 同组 故障 应 分配 给 同一个 处理机 ， 不同 组 故障 应 分配 给 不同 的 处理机 ， 除非 考虑 处理机 负载平衡 需 进行 调整 时 例外 . 当 处理机 数 罟 收献 槭 时 ， 应使 分配 给 不同 处理机 的 故障 组数 基本相同 . 
+ 　 　 ( 6 ) 故障 划分 举例 
+ 　 　 例 1 : 图 1 的 电路 经 等价 归并 后 ， 共设 30 个 故障 ， 按 划分 规则 将 被 分为 15 组 ， 结果 如下 . 
+ 
+ 图 1 
+ 组 0 ： 　 a0 　 组 1 ： 　 　 　 b0 组 2 ： 　 　 　 f0 组 3 ： 　 组 4 ： 　 　 j0 
+ 组 5 ： 组 6 ： c0 组 7 ： g0 组 8 ： d0 组 9 ： e0 　 
+ 组 10 ： h0 组 11 ： i0 　 组 12 ： k0 组 13 ： 组 14 ： l0 　 
+ 
+ 　 　 这 30 个 故障 ， 用 ATGTA 系统 将 生成 8 个 测试 码 . 其中 有 4 个 冗余 故障 被 分 在 不同 组 . 
+ 2.2 　 基于 输入 锥 的 正向 划分 方法 （ TFPIC ） 
+ 　 　 本 方法 的 基本 思想 是 ： 从 一个 PI 出发 ， 沿着 其扇 出 后继 线 ， 向着 有关 的 PO 进行 搜索 ， 把 沿途 所 经 引线 构成 的 以 PI 为 顶 的 输入 锥 的 故障 ， 按照 反向 次数 分成 两组 ， 每 一组 也 构成 一个 相关 故障 集 . 各 输入 锥 之间 的 公共 故障 也 只 分配 一次 组号 . 显然 ， 
+ CUT 故障 总组 号 = 2 * PI 总数 . 
+ 　 　 当 把 故障 向 处理机 分配 时 ， 仍然 遵循 方法 1 的 原则 . 
+ 2.3 　 基于 CUT 故障 表中 故障 顺序 的 等 步长 划分 方法 （ EDPFS ） 
+ 　 　 CUT 故障 表中 故障 顺序 按 功能块 级别 从 低 到 高 排列 ， 每个 功能块 的 故障 按 输出 0 ， 1 故障 和 输入 0 ， 1 故障 排列 ， 输出 、 输入 严格 按端 号 顺序排列 . 所谓 等 步长 划分 是 指以 处理机 数目 N 为 步长 ， 把 CUT 的 n 个 故障 分成 N 份 ， 每份 含 故障 数 n / N 或 ( n / N ) + 1 ， 其中 第 i （ i = 1 , 2 , ... , N ） 个 处理机 分得 的 故障 序号 为 
+ j * N + i , j = 0 , 1 , 2 , ... , j * N + i ≤ n . 
+ 　 　 当 处理机 数目 达到 16 以上 时 ， 按 故障 顺序 等 步长 划分 ， 可以 把 绝大多数 功能块 的 输入 、 输出 故障 分给 不同 的 处理机 ， 这 与 经 等价 归并 之后 ， 同一 功能块 中 （ 不 含 异或门 ） 留下 的 故障 大部分 是 独立 故障 的 规律 相符 . 这 大概 是 该 方法 也 比较 有效 的 重要 原因 . 
+ 3 　 实验 结果 及 结论 
+ 3.1 实验 1 
+ 　 　 我们 在 单台 SUNULTRA2 上 建成 了 一个 并行 故障诊断 模拟系统 ， 一次 最多 可 模拟 256 个 处理机 的 并行 测试 生成 . 该 系统 用 有限 回溯 测试 模式 产生 方法 生成 测试 码 ， 用 同时 故障模拟 进行 故障 覆盖 . 我们 用此 系统对 ISCAS - 85 部分 电路 模拟 了 上述 3 种 划分 方法 的 效果 . 当 处理机 分别 为 4 、 16 、 64 、 256 时 , 测试 生成 的 加速 比 和 故障 覆盖率 结果 列在表 1 中 . 为 使 加速 比 的 比较 相对 合理 ， 我们 要求 单机 串行 、 多机 并行 所 得到 的 故障 覆盖率 应 基本相同 . 方法 1 和 方法 2 所用 的 预处理 时间 很少 ， 可 不予考虑 . 并行 生成 的 故障 覆盖率 是 把 各 处理机 生成 的 测试 码 集中 起来 进行 故障模拟 得到 的 ， 采用 的 是 测试 码 并行 、 单 故障 传播 的 快速 故障模拟 方法 ［ 12 ］ . 
+ 表 1 
+ 
+ 电路 
+ 名称 划分 
+ 方法 4 处理机 16 处理机 64 处理机 256 处理机 
+ 加速 比 故障 覆盖率 ( % ) 加速 比 故障 覆盖率 ( % ) 加速 比 故障 覆盖率 ( % ) 加速 比 故障 覆盖率 ( % ) 
+ C135512.8398 . 837.3699 . 3218.6799 . 3253.6299 . 51 
+ 22.5098 . 086.9599 . 1414.1399 . 2647.5299 . 26 
+ 32.6198 . 276.0698 . 8316.3499 . 4446.4799 . 26 
+ C190812.9799 . 297.1299 . 2917.3299 . 1536.9599 . 34 
+ 22.4999 . 154.6999 . 2412.6899 . 0630.5499 . 15 
+ 32.5199 . 016.2699 . 0113.6599 . 0634.2299 . 06 
+ C267013.0295 . 6510.2795 . 6527.5495 . 6549.5295 . 72 
+ 22.0095 . 475.6595 . 5112.4395 . 5833.0595 . 58 
+ 32.7595 . 518.7395 . 5124.9195 . 5140.6295 . 65 
+ C354012.8696 . 149.8596 . 1920.0296 . 1937.8996 . 25 
+ 22.7296 . 147.5896 . 169.0496 . 2215.6896 . 22 
+ 33.0696 . 037.7196 . 1616.8496 . 1929.9696 . 16 
+ C531512.9098 . 9110.7998 . 9420.0898 . 9637.7298 . 96 
+ 23.0898 . 809.1798 . 7812.0198 . 9423.5798 . 94 
+ 32.8298 . 758.3298 . 9414.6098 . 9632.7098 . 96 
+ C755213.2598 . 357.5198 . 3616.9298 . 3640.6398 . 36 
+ 23.2998 . 285.4998 . 349.7698 . 3624.5798 . 36 
+ 32.9598 . 336.8798 . 3616.4998 . 3332.6098 . 36 
+ 
+ 3.2 实验 2 
+ 　 　 我们 用 ATGTA 系统对 一个 25000 门 、 有 上 千条 反馈 线 的 ASIC 电路 采用 方法 1 进行 故障 划分 ， 模拟 了 4 处理机 并行 测试 生成 和 故障模拟 的 效果 . 结果 数据 列在表 2 中 ， 其中 TG 时间 为 SUN20 的 CPU 秒 ， 而 FS 时间 为 SUN4 的 CPU 秒 . 
+ 表 2 
+ 
+ TG / FS 方式 测试 码数 测试 码 长度 时间 ( s ) （ 加速 比 ） 故障 覆盖率 （ % ） 
+ TGFS 
+ 单 处理机 40001853217313 （ 1.0 ） 64102 （ 1.0 ） 96.65 
+ 4 处理机 4 * 1000194094462 （ 3.88 ） 15832 （ 4.05 ） 96.75 
+ 
+ 3.3 结论 
+ 分析 表 1 和表 2 的 数据 ， 可以 得出 下列 结论 . 
+ 　 　 ( 1 ) 平均 来看 ， 在 4 处理机 的 情况 下 ， 3 种 方法 的 效果 差别 不太大 . 
+ 　 　 ( 2 ) 当 处理机 数 达到 16 以上 时 ， 方法 1 的 加速 比 明显 优于 方法 2 和 方法 3 ， 所 达到 的 故障 覆盖率 与 单机 时 几乎 相同 （ 单机 覆盖率 请参阅 文献 ［ 3 ］ ） ， 比 方法 2 和 方法 3 略 好 一些 . 方法 2 是 文献 ［ 1 ］ 推荐 的 方法 . 但 我们 的 实验 结果 是 ， 当 处理机 数 较大 时 ， 它 不但 不如 本文 提出 的 方法 1 ， 甚至 比 方法 3 的 效果 还 差 . 
+ 　 　 ( 3 ) 方法 1 对于 6 个 ISCAS - 85 电路 取得 了 线性 加速 比 （ 直线 斜率 在 0.2 ～ 0.7 之间 ） 的 良好效果 . 特别 是 处理机 数为 256 时 ， 平均 加速 比 达到 42 ， 表明 该 方法 对 大规模 并行 测试 生成 将 有 明显 优势 . 
+ 　 　 ( 4 ) 表 2 说明 ， 方法 1 对于 时序电路 同样 有效 . 对 TG 与 FS 为 松散 耦合 的 系统 ， 4 处理机 并行 所 获得 的 加速 比 直线 斜率 等于 1 . 
+ 基金项目 ： 本文 研究 得到 国家自然科学基金 资助 . 
+ 作者简介 ： 曾芷德 , 1941 年生 , 教授 , 主要 研究 领域 为 数字 系统 故障诊断 与 容错 . 
+ 　 　 　 　 　 曾献君 , 1966 年生 , 博士 , 副教授 ， 主要 研究 领域 为 数字 系统 CAD . 
+ 作者 单位 ： 国防科学技术大学 计算机系 　 长沙 　 410073 
+ 本文 通讯联系 人 : 曾芷德 ， 长沙 410073 ， 国防科学技术大学 计算机系 
+ 参考文献 
+ 　 1 　 BanerjeeP . ParallelalgorithmforVLSI . Computer - AidedDesign . EnglewoodCliffs , NJ : Prentice - Hall , Inc . , 1994 
+ 　 2 　 李 忠诚 ， 潘榆奇 ， 闵应骅 . 一个 基于 电路 结构 分析 的 测试 产生 系统 — — SABATPG . 中国 科学 ( A 辑 ) , 1993 , 23 ( 2 ) : 189 ～ 196 
+ ( LiZhong - cheng , PanYu - qi , MinYing - hua . Astructureanalysisbasedtestgenerationsystem — — SABATPG . ScienceinChina ( seriesA ) , 1993 , 23 ( 2 ) : 189 ～ 196 ) 
+ 　 3 　 曾芷德 . ASIC 测试 生成 和 可测性 分析 系统 ATGTA . 计算机 学报 ， 1998 ， 21 （ 5 ） ： 448 ～ 455 
+ ( ZengZhi - de . ASICtestgenerationandtestabilityanalysissystem — — ATGTA . ChineseJournalofComputers , 1998 ， 21 （ 5 ） ： 448 ～ 455 ) 
+ 　 4 　 PatilS , BanerjeeP . Performancetrade - offsinaparalleltestgenerationfaultsimulationenvironment . IEEETransactionsonComputer - aidedDesignIntegratedCircuitsSystems , 1991 , 10 ( 12 ) : 1542 ～ 1558 
+ 　 5 　 ChandraSJ , PatelJH . Testgenerationinaparallelprocessingenvironment . In : LoprestiPVed . ProceedingsoftheInternationalConferenceonComputerDesign ( ICCD ' 88 ) . RyeBrook , NY : IEEEC , IEEECASandIEEEED , 1988.11 ～ 14 
+ 　 6 　 PatilS , BanerjeeP . Aparallelbranchandboundapproachtotestgeneration . IEEETransactionsonComputer - aidedDesignIntegratedCircuitsSystems , 1990 , 9 ( 3 ) : 313 ～ 322 
+ 　 7 　 AgrawalP , AgrawalVD , VillodoJ . SequentialCircuitTestGinerationonaDistributedSystem . In : NewtonARed . Proceedingsofthe30thDesignAutomationConference ( DAC ' 93 ) . Anaheim : ACM / IEEE , 1993.337 ～ 341 
+ 　 8 　 RamkumarB , BanerjeeP . ProperTest : portableparalleltestgenerationforsequentialcircuits . In : JonesIKed . ProceedingsoftheInternationalConferenceComputer - aidedDesign ( ICCAD ' 92 ) . WashingtonD . C : ComputerSocietyPress , 1992.220 ～ 223 
+ 　 9 　 ChanT . Distributedautomatictestpatterngeneration . In : TsaiYTed . ProceedingsoftheApplicationSpecificIntegratedCircuitsConference ( ASIC ' 92 ) . Rochester , NY : IEEERochesterSection , 1992.385 ～ 388 
+ 　 10 　 TaoJing , ZengZhi - de . AnetworkpartitioningalgorithmforparalleltestgenerationinVLSIcircuit . In : YangShu - zied . Proceedingsofthe4thInternationalConferenceonCAD / CG . Wuhan : SPIE ( USA ) , 1995.645 ～ 650 
+ 　 11 　 曾芷德 . 数字 系统 测试 与 可测性 . 长沙 ： 国防科学技术大学 出版社 ， 1992 
+ ( ZengZhi - de . TestingandTestabilityforDigitalSystems . Changsha : NationalUniversityofDefenseTechnologyPress , 1992 ) 
+ 　 12 　 刘 胜利 ， 曾芷德 . 组合 电路 故障模拟 加速 方法 的 研究 与 实现 . 见 ： 全国 第 10 届 CAD & CG 会议 论文集 . 北京 ： 航天 总公司 23 所 ， 1998 . A - 1 ～ A - 5 
+ ( LiuSheng - li , ZengZhi - de . Theresearchandrealizationofacceleratingfaultsimulationforcombinationalcircuits . In : Proceedingsofthe10thChineseCAD / CGConference . Beijing : InstituteNo.23 ofChinaAerospaceCorporation , 1998 . A - 1 ～ A - 5 ) 
+ 本文 1998 - 08 - 24 收到 原稿 , 1998 - 12 - 01 收到 修改稿 

@@ -1,0 +1,108 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 1999 年 第 10 卷 第 12 期 Vol.10 No.121999 
+ 
+ 
+ 
+ 模糊 神经网络 及其 在 时间 序列 分析 中 的 应用 
+ 周 春光 　 张冰 　 梁艳春 　 胡 成全 　 常迪 
+ 摘要 　 给出 了 一种 新型 的 模糊 神经网络 模型 . 该 模型 不 需要 领域专家 的 知识 进行 指导 ， 而是 通过 对 样本 竞争 分类 产生 模糊 规则 . 每类 样本 对应 于 一条 模糊 规则 ， 每条 模糊 规则 的 后件 部分 为 一个 对本类 样本 进行 过 学习 训练 的 神经网络 . 文章 以 模糊 神经网络 在 时间 序列 分析 中 的 应用 为例 ， 通过 与 传统 的 时间 序列 分析方法 以及 前向 神经网络 方法 的 对比 ， 说明 了 新型 模糊 神经网络 的 有效性 . 
+ 关键词 　 模糊 神经网络 , 模糊 系统 , 样本 , 竞争 分类 , 时间 序列 分析 . 
+ 中图法 分类号 　 TP18 
+ FuzzyNeuralNetworkandItsApplicationsinTimeSeriesAnalysis 
+ ZHOUChun - guang1ZHANGBing1LIANGYan - chun2HUCheng - quan1CHANGDi1 
+ 　 1 ( DepartmentofComputerScienceJilinUniversityChangchun130012 ) 
+ 　 2 ( DepartmentofMathematicsJilinUniversityChangchun130012 ) 
+ Abstract 　 Anewfuzzyneuralnetworkmodelispresentedinthispaper . Inthenewmodel , thefuzzyrulesaregeneratedthroughthecompetitiveclassificationofsampleswithouttheaidofdomainexperts . Oneclassofsamplesformsafuzzyrule . Theconsequentpartofeachfuzzyruleisafeedforwardneuralnetworktrainedusingthecorrespondingclassofsamples . Theapplicationofthefuzzyneuralnetworktotheanalysisoftimeseriesistakenasanexampletodemonstratetheeffectivenessofthefuzzyneuralnetworkthroughthecomparisonwiththeconventionalanalysisoftimeseriesandneuralnetworkmethods . 
+ Keywords 　 Fuzzyneuralnetwork , fuzzysystem , samples , competitiveclassification , timeseriesanalysis . 
+ 　 　 模糊 系统 （ fuzzysystem ） 是 基于 模糊 集合 的 理论 ， 它 对 复杂事物 进行 模糊 度量 、 模糊 识别 、 模糊推理 、 模糊控制 和 模糊 决策 . 目前 ， 模糊 系统 在 自动控制 、 信息处理 、 人工智能 、 图像识别 以及 心理学 、 社会学 、 语言学 等 方面 都 得到 了 广泛 的 应用 ［ 1 ］ . 模糊 系统 的 显著特点 是 能够 直接 地 表示 逻辑 ， 适合 于 直接 或 高级 的 知识 表达 ， 具有 较强 的 逻辑 功能 . 但是 ， 模糊 规则 的 确定 比较 困难 ， 通常 需要 领域专家 的 知识 进行 指导 . 
+ 　 　 人工神经网络 （ artificialneuralnetwork ） 能够 通过 学习 获得 用 数据 表达 的 知识 ， 除了 可以 记忆 已知 的 信息 之外 ， 还 具有 较强 的 概括 能力 和 联想 记忆 能力 . 有 一些 神经网络 模型 及 算法 已经 较为 成熟 并 达到 了 应用 水准 . 神经网络 在 智能 控制 、 模式识别 、 机器 视觉 、 连续 语音 识别 、 知识 处理 等 方面 都 取得 了 进展 ， 令人鼓舞 . 但是 ， 神经网络 中 的 知识 是 通过 网络 的 连接 权值 来 表达 的 ， 因而 难于 理解 和 分析 ［ 2 , 3 ］ . 
+ 　 　 随着 对 模糊 系统 和 神经网络 研究 的 深入 ， 两个 领域 间 相互 独立 的 关系 逐渐 改变 ［ 4 , 5 ］ . 模糊 系统 和 神经网络 的 相互 融合 导致 了 模糊 神经网络 （ fuzzyneuralnetwork ） 的 产生 . 模糊 神经网络 一经 产生 就 在 工业 控制 、 金融 时间 序列 分析 、 风险 评估 等 方面 得到 了 广泛 的 应用 ， 展现 了 广阔 的 应用 前景 . ［ 6 ～ 8 ］ 
+ 1 模糊 神经网络 
+ 1 ． 1 典型 的 模糊 神经网络 模型 
+ 　 　 比较 典型 的 网络 模型 有 ： 
+ 　 　 ( 1 ) HiroyukiOkada 等 人 提出 的 用于 金融风险 评估 的 模糊 神经网络 模型 ［ 7 ］ ， 如图 1 所示 . 网络 由 Sigmoid 型 节点 和 线性 节点 构成 . 通过 领域专家 知识 建立 模糊 模型 ， 得到 模糊 规则 ， 确定 网络 中 节点 的 连接 及其 权值 ； 用 单个 Sigmoid 型 神经元 表示 S 型 或 Z 型 隶属 度 函数 ， 用 两个 Sigmoid 型 神经元 实现 钟型 隶属 度 函数 ； 推理 结果 用 重心 法 进行 非 模糊化 ， 得到 精确 的 评估 结果 ； 并 可以 利用 系统 的 反馈 信息 对 网络 进行 训练 . 这种 网络 模型 的 模糊 规则 由 领域专家 给出 ， 能够 充分利用 领域专家 的 知识 ， 模糊 规则 易于 理解 ， 网络结构 简明 ， 具有 学习 能力 . 但是 ， 网络 互连 结构 及其 权值 的 确定 依赖于 领域专家 的 知识 ， 而 专家 知识 的 获取 较为 困难 ， 有时 ， 专家 的 知识 也 会 产生 不一致性 . 
+ 
+ 图 1 　 用于 金融风险 评估 的 模糊 神经网络 模型 
+ 　 　 ( 2 ) CaiYaling 等 人 提出 的 由 3 种 不同 类型 节点 构成 的 网络 模型 ［ 6 ］ . 此 网络 分为 隶属 函数 层 、 取小层 和 求和 层 ， 分别 由 三角形 隶属 函数 节点 ( TRAN - fuzzyneuron ) 、 取小 节点 ( MIN - fuzzyneuron ) 、 求和 节点 ( SUM - fuzzyneuron ) 组成 ， 使用 三角形 隶属 度 函数 . 隶属 函数 层 与 求和 层 分别 对应 于 网络 的 输入 和 输出 . 在 学习 过程 中 ， 每个 学习 样本 生成 一个 取小 节点 ， 用 五点 法 确定 隶属 度 函数 的 参数 以及 与 各层 节点 的 连接 权值 ， 形成 一条 规则 . 通过 学习 来 确定 取小层 的 节点 个数 . 该 网络 能够 对 学习 样本 快速 记忆 ， 不 需要 领域专家 知识 进行 指导 . 但是 ， 当 学习 样本 较多时 ， 规则 数量 较大 ， 拒识 情况 较 多 . 
+ 1.2 一种 新型 的 模糊 神经网络 模型 
+ 1.2 . 1 网络 模型 
+ 　 　 本文 提出 的 模糊 神经网络 模型 不 需要 领域专家 的 知识 进行 指导 ， 而是 通过 对 样本 竞争 分类 产生 模糊 规则 . 每类 样本 对应 于 一条 模糊 规则 ， 每条 规则 的 后件 部分 为 一个 对本类 样本 进行 学习 训练 的 前 向 神经网络 . 模糊 神经网络 由 4 层 不同 功能 的 节点 构成 ， 如图 2 所示 . 
+ 
+ 图 2 　 模糊 神经网络 模型 
+ 　 　 网络 包含 C 条 规则 ， 每条 模糊 规则 具有 以下 形式 ： 
+ 　 　 IFX1isL1jANDX2isL2jAND ... ANDXNisLNjTHENY = NETj ( X1 , X2 , ... , XN ) 
+ 其中 Lij 为 对应 于 输入 变量 Xi 的 第 j 个 语言 变量 ， NETj 为 第 j 条 规则 的 后件 神经网络 的 映射函数 ， i = 1 , ... , N ； j = 1 , ... , C . 
+ 　 　 网络 的 第 1 层为 语言 变量 隶属 度 函数 层 . 每个 输入 Xi 划分 为 C 个 语言 变量 ， 每 一个 节点 对应 于 一个 语言 变量 ， 节点 的 输出 为 隶属 度 函数 值 . 节点 的 传输 函数 为 
+ O1ij = μ Lij ( xi ) . 
+ 　 　 第 2 层为 取 最小 层 . 本层 节点 与 第 1 层 节点 给出 的 隶属 度值 进行 取 最小 或 代数 乘 操作 ， 得到 各条 规则 的 点火 强度 ( firingstrength ) . 节点 的 传输 函数 为 
+ 
+ 或者 
+ 
+ 其中 FSi 为 第 i 条 规则 的 点火 强度 ， i = 1 , ... , C . 
+ 　 　 第 3 层为 后件 神经 网络层 . 每条 规则 的 后件 部分 对应 于 一个 有 两层 隐层 的 前 向 神经网络 . 输入 向量 为 X = ( X1 , X2 , ... , XN ) ， 并 对 本类 样本 进行 学习 训练 . 后件 神经网络 的 输出 与 本 规则 的 点火 强度 相乘 作为 该层 的 输出 . 节点 的 传输 函数 为 
+ 
+ 其中 NETi 为 第 i 条 规则 的 后件 神经网络 的 映射函数 ， i = 1 , ... , C . 
+ 　 　 第 4 层为 非 模糊化 层 . 该层 对 各个 后 件 神经网络 的 输出 结果 用 重心 法 进行 非 模糊化 ， 产生 模糊 神经网络 的 输出 结果 . 节点 的 传输 函数 为 
+ 
+ 1.2 . 2 样本 竞争 分类 
+ 　 　 为了 确定 模糊 规则 前件 中 语言 变量 的 隶属 函数 ， 首先 对 学习 样本 进行 竞争 分类 . 假设 共有 M 个 输入 样本 T1 , T2 , ... , TM ， 其 输入 向量 为 Tk = ( Tk1 , Tk2 , ... , TkN ) ， k = 1 , ... , M . 用 如下 方法 对 输入 样本 进行 竞争 分类 . 
+ 　 　 （ 1 ） 在 输入 样本空间 中 投入 C 个 “ 种子 ” ， Si = ( Si1 , Si2 , ... , SiN ) ， i = 1 , ... , C . 
+ 　 　 （ 2 ） 对 每个 输入 样本 和 每个 种子 计算 具有 最小 Dik 值 的 种子 Si 就是 对 输入 样本 Tk 竞争 的 胜者 ， 即 输入 样本 Tk 是 第 i 类 的 成员 . 每个 输入 样本 只有 一个 竞争 胜者 ， 即 每个 输入 样本 只 属于 C 类中 的 某 一类 . 
+ 　 　 （ 3 ） 对 所有 的 样本 竞争 完毕 后 ， 对 每个 种子 根据 竞争 获胜 的 情况 , 按下式 进行 修正 . 
+ 
+ 其中 α 为 学习 率 ， 取较 小 的 正数 , Si 为 TK 竞争 的 胜者 . 
+ 　 　 （ 4 ） 如果 竞争 次数 已到 , 则 结束 ， 否则 转 （ 2 ） . 
+ 　 　 在 竞争 分类 过程 中 对 种子 进行 修正 ， 使 种子 在 竞争 所得 样本 的 共同 作用 下向 所得 样本 移动 . 经过 多次 竞争 和 修正 ， 种子 最终 稳定 在 竞争 所 得到 的 样本 中心 . 因为 每个 输入 样本 仅 有 一个 获胜者 ， 所以 每个 样本 仅 属于 一个 类 . 这样 , 经过 竞争 ， 学习 样本 分为 C 类 . 
+ 1.2 . 3 输入 变量 隶属 度 函数 的 确定 
+ 　 　 对于 C 类 学习 样本 ， 每 类 对应 于 一条 模糊 规则 . 模糊 规则 前件 中 语言 变量 的 隶属 度 函数 ( π 4 函数 ) 采用 如图 3 所示 的 梯形 函数 ， 其 形状 由 参数 a , b , c , d 来 确定 . 语言 变量 Lij 的 参数 由下式 确定 . 
+ 
+ 图 3 　 梯形 隶属 度 函数 
+ 
+ 
+ 输入 变量 X 的 隶属 度 计算 如下 . 
+ 
+ 1.2 . 4 模糊 规则 后 件 子网 的 训练 
+ 后 件 子网 采用 遗传算法 进行 训练 ［ 8 , 9 ］ . 每个 子网 学习 属于 本类 的 学习 样本 ， 训练 一定 次数 或 误差 满足要求 后 结束 训练 . 
+ 1.2 . 5 拒识 样本 的 处理 
+ 经过 竞争 ， 学习 样本 分为 C 类 ， N 维 输入 向量 的 每 一维 对应 C 个 语言 变量 ， 共有 CN 种 语言 变量 的 组合 ， 即 有 CN 条 规则 . 当 N 较大 时 ， C 条 规则 仅 是 CN 种 组合 的 一小部分 . 实际上 往往 会 发生 拒识 的 情况 ， 即 所有 规则 的 点火 强度 均 为 零 ， 所有 的 规则 都 没 被 激活 . 对于 拒识 样本 I = ( I1 , I2 , ... , IN ) ， 计算 I 与 每个 种子 的 距离 D * i = 以 1 / D * i 作为 各 规则 的 点火 强度 ， 模糊 神经网络 的 输出 结果 为 
+ 
+ 　 　 这样 ， 用 拒识 样本 与 各条 规则 对应 的 种子 （ 即类 的 中心 ） 的 距离 确定 规则 的 激活 程度 . 距离 越大 ， 样本 越 偏离 这 条 规则 ， 规则 的 激活 程度 越小 . 综合 所有 规则 的 结果 ， 用 重心 法 进行 非 模糊化 即可 得到 一个 能 代表 全体 规则 输出 结果 的 值 ， 从而 解决 了 样本 拒识 的 问题 . 
+ 2 实验 结果 
+ 　 　 将 本文 提出 的 模糊 神经网络 模型 用 在 时间 序列 分析 上 ， 并 和 一些 其他 的 方法 相 比较 以 验证 其 有效性 . 在 时间 序列 分析 和 系统 辩识 中 使用 的 参数 模型 中 ， ARMA ( autoregressivemovingaverage ) 自动 回归 滑动 平均 模型 ［ 10 ］ 是 重要 的 一种 ， 由于 ARMA 模型 的 建立 比较复杂 ， 在 实际 应用 中 常常 使用 AR ( autoregressive ) 模型 . 
+ 　 　 前向 神经网络 方法 是 把 时间 序列 预测 中 的 输入输出 模式 作为 网络 的 学习 样本 来 对应 网络 训练 ， 利用网络 的 学习 能力 从 样本 中 获取 知识 ， 从而 作出 预测 . 前向 神经网络 方法 的 主要 问题 是 当 样本 较多时 网络 的 训练 难以 收敛 . 
+ 　 　 本文 的 实验 使用 武汉市 1978 年 1 月 至 1987 年 12 月 的 月 平均气温 数据 ［ 10 ］ ， 共 120 个 数据 . 实验 用 的 模糊 神经网络 包含 4 条 规则 ， 后 件 子网 有 12 个 输入 ， 1 个 输出 ， 2 个 隐层 ， 隐层 单元 数均 为 30 . 用前 12 个 数据 作为 输入 ， 进行 向前 一步 预测 ， 得到 下 一个 数据 . 这样 ， 120 个 数据 可以 产生 108 个 输入输出 模式 ， 以 其中 前 90 个 模式 为 学习 样本 ， 其他 的 作为 测试 样本 . 每个 子网 用 遗传算法 训练 5000 代 . 模糊 神经网络 输出 结果 与 样本 输出 结果 的 比较 见图 4 所示 . 
+ 
+ 图 4 　 模糊 神经网络 输出 与 样本 输出 结果 的 比较 
+ 　 　 前向 神经网络 方法 使用 具有 12 个 输入 节点 、 1 个 输出 节点 、 40 个 单隐层 节点 的 网络 ， 网络 对 90 个 样本 进行 学习 训练 ， 其他 样本 用来 进行 测试 . 传统 的 时间 序列 分析方法 使用 AR （ 12 ） 模型 ， 用 12 个 数据 作为 输入 ， 进行 向前 一步 测试 ， 得到 下 一个 数据 . AR （ 12 ） 的 参数 确定 为 
+ 　 　 Xt = 0.728 Xt - 1 - 0.246 Xt - 2 - 0.080 Xt - 3 - 0.209 Xt - 4 - 0.203 Xt - 5 + 0.018 Xt - 6 - 0.375 Xt - 7 + 0.052 Xt - 8 + 0.007 Xt - 9 - 0.114 Xt - 10 + 0.043 Xt - 11 - 0.073 Xt - 12 . 
+ 　 　 3 种 方法 的 测试 结果 对 比如 图 5 所示 . 由 实验 结果 可以 看出 ， 本文 提出 的 模糊 神经网络 用于 时间 序列 分析 上 , 取得 了 较 好 的 效果 . 
+ 
+ 图 5 　 测试 结果 
+ 3 结论 
+ 　 　 本文 提出 的 模糊 神经网络 模型 不 需要 领域专家 的 知识 进行 指导 ， 通过 样本 的 竞争 分类 产生 模糊 规则 . 每条 模糊 规则 的 后件 部分 为 一个 前向 神经网络 ， 后 件 神经网络 用 遗传算法 对本类 样本 进行 学习 训练 ， 并且 较 好地解决 了 拒识 样本 的 处理 问题 . 本文 提出 的 模糊 神经网络 在 时间 序列 分析 中 进行 应用 ， 取得 了 较 好 的 效果 . 文章 通过 与 传统 的 时间 序列 分析方法 及前 向 神经网络 方法 的 对比 ， 说明 了 模糊 神经网络 的 实用性 和 有效性 . 
+ 　 　 在 本文 提出 的 模糊 神经网络 模型 中 ， 对于 种子 个数 的 确定 以及 隶属 度 函数 的 重叠 问题 仍 需要 进一步 的 研究 工作 来 解决 . 
+ * 本文 研究 得到 国家自然科学基金 和 国家教育部 符号计算 与 知识 工程 开放 实验室 资金 资助 . 
+ 作者简介 ： 周 春光 , 1947 年生 , 博士 ， 教授 ， 博士生 导师 ， 主要 研究 领域 为 神经网络 ， 图像处理 ， 遗传算法 . 
+ 　 　 　 　 　 张冰 , 1972 年生 , 助教 , 主要 研究 领域 为 遗传算法 ， 图像处理 ， 模式识别 . 
+ 　 　 　 　 　 梁艳春 , 1953 年生 , 博士 ， 教授 ， 博士生 导师 ， 主要 研究 领域 为 神经网络 ， 图像处理 ， 遗传算法 . 
+ 　 　 　 　 　 胡 成全 , 1957 年生 , 副教授 ， 主要 研究 领域 为 计算机 网络安全 与 加密 ， 信息管理系统 . 
+ 　 　 　 　 　 常迪 , 女 ， 1972 年生 , 助教 ， 主要 研究 领域 为小波 变换 ， 图像识别 ， 神经网络 . 
+ 本文 通讯联系 人 : 周 春光 ， 长春 130012 , 吉林大学 计算机科学 系 
+ 作者 单位 ： 周 春光 　 张冰 　 胡 成全 　 常迪 　 吉林大学 计算机科学 系 　 长春 　 130012 
+ 　 　 　 　 　 梁艳春 　 吉林大学 数学系 　 长春 　 130012 
+ E - mail : cgzhou @ mail . jlu . edu . cn 
+ 参考文献 
+ 　 　 1 　 LuoRF , ShaoHH , ZhangZJ . Fuzzy - neural - net - basedinferentialcontrolforahigh - puritydistillationcolumn . ControlEngineering . Practice , 1995 , 3 ( 1 ) : 31 ～ 40 
+ 　 　 2 　 WangDe - liang . Patternrecognition : neuralnetworkinperspective . IEEEEXPERTIntelligentSystem & TheirApplications , 1993 , 8 ( 4 ) : 52 ～ 60 
+ 　 　 3 　 KimHongbong , NamKwanghee . Objectrecognitionofone - DOFtoolsbyaback - propagationneuralnetwork . IEEETransactionsonNeuralNetwork , 1995 , 6 : 484 ～ 487 
+ 　 　 4 　 SatoruIsaka . Onneuralapproximationoffuzzysystem . In : ProceedingsofINCNN ' 92 , Vol1 . NewYork : IEEE , 1992 . I263 ～ I268 
+ 　 　 5 　 JokinenPetriA . Ontherelationsbetweenradialbasisfunctionnetworksandfuzzysystem . In : ProceedingsofINCNN ' 92 , Vol1 . NewYork : IEEE , 1992 . I220 ～ I225 
+ 　 　 6 　 CaiYaling , HonKeungKwan . Afuzzyneuralnetworkforfuzzyclassification . In : ProceedingsofASMESCI ' 94 . Wuhan : PressofHuazhongUniversityofScienceandTechnology , 1994.894 ～ 899 
+ 　 　 7 　 OkadaHiroyukietal . Initializingmultilayerneuralnetworkwithfuzzylogic . In : ProceedingsofINCNN ' 92 , Vol1 . NewYork : IEEE , 1992 . I239 ～ I244 
+ 　 　 8 　 XuHY , WangGZ , BairdCB . Afuzzyneuralnetworkstechniquewithfastbackpropagationlearning . In : ProceedingsofINCNN ' 92 , Vol1.1992 . I214 ～ I219 
+ 　 　 9 　 周 春光 ， 张冰 等 . 遗传算法 及其 在 训练 前向 神经网络 中 的 应用 . 小型 微型 计算机系统 , 1996 , 17 ( 6 ) : 54 ～ 58 
+ ( ZhouChun - guang , ZhangBingetal . Geneticalgorithmanditsapplicationintrainingfeedforwardneuralnetworks . ChineseMini - MicroSystems , 1996 , 17 ( 6 ) : 54 ～ 58 ) 
+ 　 10 　 杨 叔子 ， 吴雅 等 . 时间 序列 分析 的 工程 应用 . 武汉 : 华中理工大学 出版社 , 1992 
+ ( YangShu - zi , WuYaetal . EngineeringApplicationsofTimeSeriesAnalysis . Wuhan : PressofHuazhongUniversityofScienceandTechnology , 1992 ) 
+ 本文 1998 - 10 - 09 收到 原稿 , 1999 - 01 - 18 收到 修改稿 

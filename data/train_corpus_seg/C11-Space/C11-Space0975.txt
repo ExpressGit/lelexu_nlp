@@ -1,0 +1,144 @@
+航空 材料 学报 
+ JOURNALOFAERONAUTICALMATERIALS 
+ 1999 年 　 第 19 卷 　 第 2 期 　 Vol.19 　 No.2 　 1999 
+ 
+ 
+ 
+ 三层 结构 加氢 反应器 器壁 中 
+ 氢 扩散 的 数学模型 
+ 余 　 刚 　 张学元 　 杜 元龙 
+ 
+ 摘要 ： 根据 Devanathan - Stachurski 提出 的 电化学 渗氢 原理 ， 采用 专利 的 电化学 氢 探头 测定 氢 在 金属 中 渗透 速率 的 方法 ， 建立 了 氢 稳态 扩散 时 在 热壁 三层 结构 的 加氢 反应器 器壁 中 氢 浓度 计算 的 数学模型 。 在 反应器 的 运行 条件 下 ， 氢 渗透 过程 受 扩散控制 。 只要 检测 出氢 探头 在 一定 温度 下 的 稳态 渗氢 电流密度 i ∞ ， 通过 计算机程序 选择 适当 的 参数 输入 ， 应用 提出 的 计算公式 可 计算 单层 、 双层 或 三层 加氢 反应器 器壁 中 各 关键 界面 的 氢 浓度 及器 壁 径向 任意 指定 剖面 上 的 氢 浓度 分布 。 
+ 关键词 ： 氢 扩散 ; 加氢 反应器 ; 数学模型 
+ 中 图 分类号 ： TQ031.4 　 　 　 文献 标识码 ： A 　 　 　 文章 编号 ： 1005 - 5053 ( 1999 ) 02 - 0001 - 07 
+ Mathematicalmodelofhydrogendiffusionintreble 
+ layerstructurewallofhydrogenationreactors 
+ YUGang 　 　 ZHANGXue - yuan 　 　 DUYuan - long 
+ ( 1 . StateKeyLaboratoryforCorrosionandProtection , InstituteofCorrosionandProtectionofMetals , ChineseAcademyofSciences , Shenyang110015 , China ; 2 . ShenyangPolytechnicUniversity , Shenyang110023 , China ) 
+ Abstract ： BasedontheprincipleoftheelectrochemicalhydrogenpermeationpresentedbyDevanathan － Stachurski , themathematicalmodelforcalculatingthehydrogenconcentrationdistributioninthetreblelayerwallofhydrogenreactorattheconditionofsteadydiffusionofhydrogenwassuggestedbyusingtheelectrochemicalprobedescribedintheChineseInventionPatent : 95111971.0 fordetermininghydrogenpermeationrateinmetals . Theprocessofhydrogenpermeationwascontrolledbythehydrogendiffusionstepundertheoperationconditionofthereactor . Aslongasthesteadyhydrogenpermeationcurrentdensityi ∞ wasdetectedinthehydrogenprobeatagiventemperature , theinterfacehydrogenconcentrationsonthekeyinterfacesandhydrogendistributionatanygivenradialsectioninthesingle , doubleortreblelayerwallofhydrogenationreactorcouldbefoundbyapplyingthepresentedequationsthroughsuitableparametersinputofcomputerprogram . Thetheoreticalbaseswereprovidedfordetectingormonitoringtheconcentrationofatomichydrogeninthewallsofhydrogenationreactors . 
+ Keywords : hydrogendiffusion ; hydrogenationreactor ; mathematicalmodel 
+ 
+ 　 　 在 炼油 工业 中 越来越 多地 采用 加氢 脱硫 、 加氢裂化 和 加氢精制 等 加氢 工艺 ， 以 提高 轻油 回收率 和 油品 质量 。 加氢 反应器 的 筒体 主要 采用 中温 铬钼 型 抗氢钢 2.25 Cr1Mo , 筒体 结构 采用 整锻 、 锻焊 、 厚板 卷 焊 、 薄板 多 包扎 等 多种形式 。 反应器 最大 内径 可达 4 米 ， 壁厚 270 毫米 ， 长度 22 米 ， 反应器 运行 温度 633 ～ 723K ， 压力 7.1 ～ 27Mpa 。 由于 2.25 Cr1Mo 钢抗 硫化氢 腐蚀 和 抗连多 硫酸 腐蚀 的 性能 差 。 因此 ， 容器 内壁 多 采用 TP347 不锈钢 堆焊 层 或 TP309 + TP347 复合 堆焊 层 。 
+ 　 　 由于 反应器 长期 处于 高温高压 的 氢 环境中运行 ， 氢 受到 金属表面 的 物理 吸附 、 化学 吸附 ， 氢 分子 分解成 氢原子 ， 然后 溶入 金属 中 ， 并 向 内部 扩散 ， 与 金属 进行 交互作用 ， 使 金属材料 产生 氢脆 或 氢 腐蚀 。 石油化工 加氢 设备 由于 在 高温 环境 中 渗氢后 ， 发生 氢 损伤 和 滞后 断裂 的 事故 ［ 1 ～ 3 ］ 在 国内外 有 较 多 的 报道 , 可是 没有 一种 方法 能够 预示 或 监测 氢蚀 的 程度 。 避免 氢蚀 唯一 的 常规 做法 是 按照 经验 数据 组成 的 NELSON 图 ［ 4 ］ 来 选择 在 高温高压 条件 下 使用 的 材料 。 
+ 　 　 加氢 反应器 的 氢 破坏 与 在 高温 和 高压 下 进入 钢中 的 原子 氢 含量 密切相关 ， 研制 一种 能 检测 加氢 反应器 器壁 中 的 原子 氢 含量 的 探测仪 ， 来 预示 氢 积累 将要 发生 破坏 的 危险性 ， 可 及早 采取有效 的 措施 ， 防止 事故 的 发生 和 避免 造成 巨大 的 经济损失 。 
+ 　 　 1962 年 印度 电化学 科学家 Devanathan 和 Stachurski 提出 了 一种 电化学 方法 来 研究 氢 在 金属 中 的 渗透 速率 ［ 5 ， 6 ］ , 其 主要 结构 是 由 金属 箔 双面 电极 及 两侧 的 两个 电解槽 组成 。 箔 的 一侧 处于 自由 腐蚀 或 阴极 充氢 状态 , 另一侧 （ 表面 镀 催化剂 活性 层 钯 ) 则 在 0.1 mol . L - 1 的 氢氧化钠 中 处于 阳极 钝化 状态 , 采用 恒 电位 仪对 阳极 侧 施加 一个 氧化电位 , 能 将 由 充氢侧 扩散 过来 的 原子 氢氧化 掉 , 其 氧化 电流密度 就是 原子 氢 扩散 速率 的 直接 量度 . McBreen ［ 7 ］ 和 Chaudhari ［ 8 ］ 分别 提出 了 用 电化学 渗氢法 确定 氢 在 金属膜 中 扩散 的 扩散系数 和 渗氢 速率 的 数学模型 及 边界条件 。 Balaramachandran ［ 9 ］ 和 Yamakawa ［ 10 ］ 等 人 研究 了 在 0.2 mol . L - 1NaOH 溶液 中 采用 氧化汞 电极 为 参比电极 ， 氢 在 镀 钯 试样 上 氧化 的 最佳 氧化电位 。 Truax ［ 11 ］ 通过 在 一 双层结构 的 实际 反应器 的 器壁 外用 制造 反应器 时 就 焊接 好 的 集氢帽 收集 氢 ， 用 氩气 为 载体 进行 色 镨 分析 ， 测定 出氢 的 渗透 速率 ， 得到 氢 在 2.25 Cr - 1Mo 钢器 壁 中 的 最大 浓度 ， 它 与 利用 氢 扩散 方程 和 溶解度 方程 计算 得到 的 结果 十分 吻合 ， 而 三层 结构 的 加氢 反应器 的 氢 扩散 检测 的 方法 和 数学模型 至今 还 未 见 报道 。 
+ 　 　 本文 应用 电化学 氢 探头 检测 氢 渗透 速率 的 方法 ， 从 理论 上 阐述 使用 的 氢 探测仪 在 热壁 三层 结构 的 加氢 反应器 器 壁上 进行 实时 、 无损 、 在线 检测 原子 氢 含量 的 数学模型 。 
+ 1 　 氢 扩散 方程 及 电化学 检测 方法 
+ 1.1 　 氢 扩散 方程 
+ 　 　 若 晶体 中 存在 浓度梯度 , 则 实验 表明 , 通过 某一 截面 的 扩散 通量 J ( 即 单位 时间 内 通过 单位 面积 的 扩散 物质 的 质量 ) 和 该 平面 处 的 浓度梯度 成正比 , 即 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 （ 1 ） 　 　 
+ D 为 Fick 扩散系数 , 因为 J 指向 浓度 较 小 的 一方 ， 而 浓度梯度 指向 溶质 浓度 增加 方向 ， 故 ( 1 ) 式 中 需有 一 负号 ， 这 就是 Fick 第一 定律 ［ 12 ］ 。 
+ 
+ 图 1 . 氢 扩散 过程 示意图 
+ Fig.1 　 Theschematicdiagramofhydrogendiffusion 
+ 
+ 　 　 在 第一 定律 中 ， J 、 D 、 可以 是 常量 也 可是 变量 ， 如果 J 和 x 有关 ， 则 利用 Fick 第二 定律 来 描述 更为 合适 。 如图 1 所示 ， 某 组元延 x 方向 扩散 ， 试样 截面积 为 A ， 因 J ( x ) 是 单位 时间 通过 单位 面积 的 质量 , 故 Δ t 时间 内 通过 ab 面 ( 位置 x = x1 ) 流入 abcd 小 体积 元 中 的 质量 为 J ( x1 ) . A . Δ t 。 故 Δ t 时间 内 abcd 体积 元中 物质 质量 变化 为 
+ 　 　 　 　 J ( x1 ) . A . Δ t － J ( x2 ) . A . Δ t = － J ( x ) . A . Δ t 
+ 因为 c ( x , t ) 是 单位 体积 内 的 物质 的 质量 ， Δ c ( x , t ) 是 指 Δ x 范围 内 单位 体积 质量 的 改变 量 ， 故 在 abcd 体积 元 （ 其 体积 Δ x × A ） 中 质量 改变 量 为 Δ c . A . Δ x 。 上述 两种 方法 导出 的 扩散 物质 的 质量 改变 量 是 一致 的 ， 即 
+ 　 　 　 　 
+ 把 它 代入 （ 1 ） 式 就 得 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 　 　 
+ 如果 D 和 浓度 无关 ， 即 = 0 , 则 上式 为 Fick 第二 定律 的 表示 形式 ： 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 　 　 
+ 如果 一块 金属片 把 容器 分成 互不 相通 的 两室 , 其中 一边 充满 高压 氢气 ( p = p1 ) , 而 另一边 则 充满 低压 氢气 ( p = p0 ) . 这时 氢 将 从 高压 端 试样 面 进入 , 扩散 通过 试样 后 从 低压 端逸出 , 由于 两边 容器 中 的 压力 保持 不变 , 在 经过 一定 的 时间 后 , 单位 时间 内 从 高压 端 进入 的 氢量 就 等于 从 低压 端 离开 的 氢量 , 即 J 与 X 无关 , 扩散 达 稳态 。 从此 之后 ， 试样 中 各处 氢 的 浓度 也 不 随 时间 而 改变 . 即 = 0 , 代入 Fick 第二 定律 ( 3 ) 式 得 , , 故 = 常数 , 这样 。 其中 c1 和 c0 是 试样 两端 的 浓度 ， Δ x 是 试样 厚度 。 利用 Sieverts 定律 , S = 常数 , 当 两端 压力 恒定 , 浓度 也 恒定 时 , 则 可得 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 　 　 
+ 1.2 　 氢 渗透 的 电化学 检测 方法 
+ 　 　 杜 元龙 ［ 13 ］ 等 人 发明 的 电化学 氢 探头 如图 2 所示 ， 它 由 钯 合 金箔 ( 阳极 ) 和 氧化物 粉末 电极 ( 阴极 ) 浸 在 KOH 溶液 中 构成 。 即 
+ 　 　 　 　 PdAlloyFoil ｜ 0.2 mol . L - 1KOH ｜ MeO 
+ 
+ 图 2 　 氢 探头 原理 示意图 　 　 　 
+ 1 . 钢样 ； 2 . 钯 合金 片 ； 3 . 氢氧化钾 电解质 溶液 ； 4 . 金属 氧化物 电极 
+ Fig.2 　 Schematicdiagramofhydrogenprobe 
+ 1 . SteelCoupon ； 2 . PdAlloy ； 3 . KOHElectrolytesolution ； 4 . M / MOElectrode 
+ 　 　 2.25 Cr1Mo 钢体 中 的 氢原子 扩散 到 钯 合 金箔 上 ， 当 到达 接触 KOH 溶液 的 内 表面 时 ， 由于 阴 、 阳极 短路 ， 具有 高活性 表面 的 氧化物 粉末 阴极 可 为 阳极 提供 一个 稳定 的 氧化电位 ， 将 原子 氢氧化 成水 。 此时 ， 发生 下面 反应 ： 
+ 
+ 阴极 反应 MeO + H2O + 2e = 2OH － + Me 
+ 阳极 反应 　 　 　 2H + 2OH － = 2H2O + 2e 
+ 电池 反应 　 　 　 MeO + 2H = Me + H2O 
+ 
+ 　 
+ 　 　 利用 零阻 电流表 测量 氢 探头 在 短路 时 原子 氢 的 氧化 稳定 电流值 i ∞ （ A . m - 2 ） , 按 Fick 第一 定律 计算 反应器 壁中 原子 氢 的 浓度 c0 ( 质量 分数 浓度 , μ g . g - 1 ) 。 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 　 　 
+ ( 5 ) 式 中 ： L 是 试样 的 厚度 ， m ； F 是 法拉第 常数 ； D 是 氢 在 试样 中 的 扩散系数 ， m2 * s - 1 ； d 是 钢 的 密度 ， 7.86 Mg . m - 3 。 
+ 2 　 氢 在 三层 热壁 加氢 反应器 上 扩散 的 数学模型 
+ 　 　 根据 三层 结构 的 热壁 加氢 反应器 。 简化 成图 3 所 表示 的 ｜ 0TP347 ｜ 1TP309 ｜ 22.2 Cr - 1Mo ｜ 3 的 可 移动 的 原子 氢 扩散 过程 示意图 。 界面 “ 0 ” 为 反应器 内壁 表面 ， 界面 “ 1 ” 为 347 不锈钢 与 309 不锈钢 两 堆焊 层 之间 的 界面 ， 界面 “ 2 ” 为 309 不锈钢 与 2.25 Cr1Mo 抗氢钢 之间 的 界面 ， 界面 “ 3 ” 为 反应器 外 钯 合金 / KOH 溶液 之间 的 界面 。 
+ 
+ 图 3 　 氢 在 三层 加氢 反应器 壁中 扩散 示意图 
+ Fig.3 　 Theschematicdiagramofhydrogendiffusion 
+ inthetreblelayerwallofhydrogenationreactor 
+ 
+ 　 　 D . J . Truax 的 实验 结果 证明 ［ 11 ］ ： 在 反应器 的 运行 条件 下 ， 氢 渗透 过程 受 扩散控制 ， 界面 氢 浓度 呈 连续 分布 。 对于 稳态 扩散 , 各 扩散 界面 在 单位 时间 , 单位 面积 内 的 扩散 通量 J 是 相等 的 , 但 由于 不同 扩散 层 的 材质 不同 , 因其 D 值 不同 , 氢 在 不同 钢中 的 扩散 速率 就 不同 。 由 Fick 第一 定律 可 得 三个 界面 的 氢 扩散 通量 为 ： 
+ 　 　 　 　 J1 = - D1 ( c1 - c0 ) / L1 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 　 　 　 　 J2 = - D2 ( c2 - c1 ) / L2 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 7 ) 
+ 　 　 　 　 J3 = - D3 ( c3 - c2 ) / L3 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ 　 　 　 　 J1 = J2 = J3 = i ∞ / nF 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 9 ) 
+ 　 　 由于 是 稳态 扩散 , 氢原子 氧化 转移 的 电子 数 n = 1 。 由测 得 的 最大 稳定 电流密度 i ∞ 代入 上面 的 式子 得 : 
+ 　 　 　 　 i ∞ = - FD1 ( c1 - c0 ) / L1 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 
+ 　 　 　 　 c0 = i ∞ L1 / FD1 + c1 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 10 ) 
+ 　 　 　 　 i ∞ = - FD2 ( c2 - c1 ) / L2 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 
+ c1 = i ∞ L2 / FD2 + c2 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 11 ) 
+ 　 　 　 　 i ∞ = - FD3 ( c3 - c2 ) / L3 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 
+ 　 　 　 　 c2 = i ∞ L3 / FD3 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 12 ) 
+ 　 　 上述 （ 10 ） 、 （ 11 ） 、 （ 12 ） 三式 中当 c3 = 0 时 （ 扩散 到 集氢 面上 的 氢原子 立即 被 电离 ） , 只有 c0 , c1 , c2 是 未知数 , 故 方程组 有定解 。 先解 ( 12 ) 式 求出 c2 , 再解 ( 11 ) 式 求出 c1 , 最后 解 ( 10 ) 式 求出 c0 。 若 电流密度 、 扩散系数 、 钢板 厚度 的 单位 分别 为 i ∞ ( A . cm - 2 ) , D ( cm2 . s - 1 ) , L ( cm ) 。 则 以上 求得 的 氢原子 的 浓度 的 单位 为 mol ( H ) . cm - 3 。 
+ 　 　 电流密度 i ∞ 若 以 μ A . cm - 2 为 单位 的 数据表示 , 求 浓度 时要 转换 为 A . cm - 2 为 单位 参与 运算 , 则 需乘 一个 单位 变换 因子 10 － 6 。 
+ 　 　 　 　 c2 = i ∞ . L3.10 － 6 / FD3 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 
+ 　 　 　 　 　 = K2 . i ∞ . L3 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 13 ) 
+ 　 　 　 　 c1 = i ∞ . L2.10 － 6 / FD2 + c2 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 
+ 　 　 　 = ( K1 . L2 + K2 . L3 ) i ∞ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 14 ) 
+ 　 　 　 　 c0 = i ∞ . L1.10 － 6 / FD1 + c1 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 
+ = ( K0 . L1 + K1 . L2 + K2 . L3 ) . i ∞ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 15 ) 
+ 式 中 
+ 　 　 　 　 　 　 　 　 K2 = 10 － 6 / FD3 
+ 　 　 　 　 　 　 　 　 K1 = 10 － 6 / FD2 
+ 　 　 　 　 　 　 　 　 K0 = 10 － 6 / FD1 
+ 　 　 采用 单片微 机系统 作 数据处理 的 探测仪 ， 用 不同 温度 下 的 Ki 值 ， 按 （ 13 ） 、 （ 14 ） 、 （ 15 ） 式 计算 加氢 反应器 各界 面 的 浓度 。 若 使用 数据处理 能力 较强 的 系统 机 ， 温度 对 氢 在 钢中 的 扩散系数 的 数学 关系 表示 为 : Di ( T ) = D0iexp ( - Qi / RT ) 的 指数 形式 。 三种 加氢 反应器 钢材 的 氢原子 的 扩散系数 与 温度 的 关系 分别 为 : 
+ 
+ 　 　 2.25 Cr1Mo ［ 14 ］ D3 = 2.46 × 10 - 3exp ( - 2150 / T ) 　 　 　 　 　 　 　 　 　 　 　 　 ( 16 ) 
+ 　 　 309 ［ 15 ］ D2 = 4.70 × 10 - 3exp ( - 6442 / T ) 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 17 ) 
+ 　 　 347 ［ 16 ］ D1 = 5.97 × 10 - 3exp ( - 6633 / T ) 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 18 ) 
+ 　 　 T = 273 + t 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 19 ) 
+ 　 　 将 （ 16 ） 、 （ 17 ） 、 （ 18 ） 式 分别 代入 （ 13 ） 、 （ 14 ） 、 （ 15 ） 式 ， 得到 界面 浓度 计算公式 如下 ： 
+ 　 　 　 　 c2 = i ∞ . L3.10 - 6 / FD3 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 
+ = 4.213 × 10 - 9exp ［ 2150 / ( 273 + t ) ］ . i ∞ . L3 　 　 　 　 　 　 　 　 　 　 　 ( 20 ) 
+ 　 　 　 　 c1 = i ∞ . L2.10 - 6 / FD2 + c2 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 
+ = 2.205 × 10 - 9exp ［ 6442 / ( 273 + t ) ］ . i ∞ . L2 + c2 　 　 　 　 　 　 　 　 　 ( 21 ) 
+ 　 　 　 　 c0 = i ∞ . L1.10 - 6 / FD1 + c1 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 
+ = 1.736 × 10 - 9exp ［ 6633 / ( 273 + t ) ］ . i ∞ . L1 + c1 　 　 　 　 　 　 　 　 ( 22 ) 
+ 按 其 氢 浓度 分布 如图 4 所 表示 的 几何 关系 曲线 那样 ， 则 可 得到 如下 的 氢 浓度 分布 公式 ： 
+ 　 　 当 0 ≤ x ≤ L1 时 , 
+ 　 　 　 　 c ( x ) = c0 - ( c0 - c1 ) . x / L1 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 23 ) 
+ 　 　 当 L1 ≤ x ≤ L1 + L2 时 , 
+ 　 　 　 　 c ( x ) = c1 - ( c1 - c2 ) . ( x - L1 ) / L2 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 24 ) 
+ 　 　 当 L1 + L2 ≤ x ≤ L1 + L2 ＋ L3 时 , 
+ 　 　 　 　 c ( x ) = c2 - ( c2 - c3 ) . ( x - L1 - L2 ) / L3 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 25 ) 
+ 
+ 图 4 　 浓度 分布 示意图 
+ Fig.4 　 Theschematicdiagramofconcentrationdistribution 
+ 　 　 若 只有 单层 结构 的 反应器 ， 则 L1 和 L2 都 为 零 。 双层结构 ， 则 L2 为 零 。 通过 计算机程序 选择 适当 的 参数 输入 ， 应用 以上 公式 可 计算 单层 、 双层 或 三层 加氢 反应器 壁 的 各 关键 界面 的 氢 浓度 及器 壁 径向 上 的 氢 浓度 分布 。 
+ 3 　 结 　 论 
+ 　 　 在 反应器 的 运行 条件 下 ， 氢 渗透 过程 受 扩散控制 ， 界面 浓度 呈 连续 分布 。 只要 检测 出氢 探头 在 一定 温度 下 的 稳态 渗氢 电流密度 i ∞ ， 通过 计算机程序 选择 适当 的 参数 输入 ， 应用 （ 20 ） ～ （ 25 ） 式 可 计算 单层 、 双层 或 三层 结构 的 加氢 反应器 器壁 中 各 关键 界面 的 氢 浓度 及 氢 浓度 分布 ， 为 加氢 反应器 器壁 中 氢 渗透 原子 氢 浓度 的 检测 和 监测 提供 了 理论依据 。 
+ 注释 : 　 基金项目 ： 国家自然科学基金 ( 59760111254 ） 
+ 作者简介 ： 余刚 ( 1960 - ) ， 男 ， 博士 研究生 ， 沈阳 工业 大学 副教授 
+ 作者 单位 ： 余 　 刚 、 张学元 、 杜 元龙 ： 金属腐蚀 与 防护 国家 重点 实验室 , 中国科学院 金属腐蚀 与 防护 研究所 ， 沈阳 　 110015 ； 
+ 　 　 　 　 　 　 余 　 刚 ： 沈阳 工业 大学 ， 沈阳 　 110023 
+ 参考文献 ： 
+ ［ 1 ］ NISHIMURAR . CorrosionScience , 1996 ， 38 ： 611 ～ 621 
+ ［ 2 ］ YAMAKAWAK . JSocMaterSciJpn , 1976 ， 25 ： 1110 
+ ［ 3 ］ ISHIZUKAK ， CHIBAR . Tetsu - To - Hagane1970 , 56 ， 93 
+ ［ 4 ］ APIPublication941 , 3rdEdn . API . WashingtonD . C . ( May1983 ) 
+ ［ 5 ］ DEVANATHANMAVSTACHURSKIZ . ProceedingsoftheRoyalSociety , 1962 , A270 : 90 
+ ［ 6 ］ DEVANATHANMAV ， STACHURSKIZ . JournaloftheElectrochemicalSociety , 1964 ： 
+ 　 　 　 111 
+ ［ 7 ］ MCBREENJ . NANISL ， BECKW . JournaloftheElectrochemicalSociety , 1966 ， 11 ： 
+ 　 　 　 1218 ～ 1222 
+ ［ 8 ］ CHAUDHARIBS . CorrosionScience , 1990 , 30 ( 12 ) ： 1219 ～ 234 
+ ［ 9 ］ BALARAMACHADRANV . CorrosionScience , 1991 , 32 ( 2 ) ： 185 ～ 191 
+ ［ 10 ］ YAMAKAWA , ANewelectrochemicalhydrogenprobe ， ASTM , STP908 , 1986 , 221 ～ 236 
+ ［ 11 ］ DruaxDJ . HydrocarbonProcessing , 1978 , 57 ： 348 ～ 353 
+ ［ 12 ］ 褚武扬 . 氢 损伤 与 滞后 断裂 . 北京 ： 冶金工业 出版社 ， 1988 , 50 
+ ［ 13 ］ 中国 发明专利 : 95111971.0 
+ ［ 14 ］ ANDOS . ， YAMAKAWAK.11 thInternationalCorrosionCongress , ASM , Florence , Italy , 
+ 　 　 　 April , 1990 , 4 : 4.241 
+ ［ 15 ］ LOUTHANMRJr , DERRICKRG . CorrosionScience , 1975 , 15 ： 565 
+ ［ 16 ］ FLINTPS . USAECRepot , KAPL , 1951 ： 659 
+ 收稿 日期 ： 1999 - 01 - 28 ； 修订 日期 ： 1999 - 04 - 09 

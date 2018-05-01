@@ -1,0 +1,122 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1999 年 第 2 期 No.21999 
+ 
+ 
+ 
+ 催化 氧化 处理 糠醛 废水 
+ 吴林友 　 曹 中秋 　 韩光喜 　 程殿柱 　 蒋湘顺 
+ 　 　 摘要 ： 用 H2SO4 作 催化剂 , 过氧化氢 氧化 好氧法 , 再 经过 活性炭 吸附 和 离子交换 树脂 处理 , 使 好氧法 处理 过 的 糠醛 废水 CODCr 值 从 2320mg / L 降至 156mg / L , CODCr 去除率 达到 93.3% , 为 糠醛 废水处理 提供 了 科学依据 . 
+ 　 　 关键词 ： 糠醛 废水 ； 催化 氧化 ； 硫酸 ； 过氧化氢 ； 活性炭 
+ 　 　 中 图 分类号 ： X703 　 　 文献 标识码 ： A 　 　 文章 编号 ： 1000 - 6923 ( 1999 ) 02 - 0183 - 02 
+ Treatmentofafurfural - byproductwastewaterbycatalyticoxidationusingperhydrol . 
+ WULin - you 　 CAOZhong - qiu 　 HANGuang - xi 　 CHENGDian - zhu 　 JIANGXiang - shun 
+ ( CollegeofChemicalScienceandEngineering , LiaoningUniversity , Shenyang110036 , China ) . ChinaEnvironmentalScience.1999 , 19 ( 2 ) ： 183 ～ 184 
+ Abstract ： Thelaboratory - scaletreatmentofafurfural - byproductwastewaterbycatalyticoxidationusingsulfuricacidwithperhydrolwasinvestigated . Anewprocessofcatalyticoxidation - activedcarbonadsorption - ionexchangeresintechniquefortreatmentoffurfural - byproductwastewaterwasstudied . WithCODCrremovalefficienciesof ＞ 93% , CODCrwasreducedfrom2320mg / Lto156mg / L . 
+ Keywords ： furfural - byproductwastewater ； catalyticoxidation ； sulfuricacid ； perhydrol ； activedcarbon 
+ 　 　 以 玉米芯 为 原料 、 年产 2500t 的 糠醛 厂 排放 废水 约 7.5 万 t . 辽宁省 内 这样 的 工厂 约 35 家 , 每年 往 辽河 排放 废水 约 有 263 万 t , 严重 污染 辽河 水质 , 因此 急待 处理 糠醛 废水 . 文献 报道 了 处理 糠醛 废水 的 几种 方法 [ 1 , 2 ] , 其中 , 用厌 氧 方法 [ 3 ] 处理 糠醛 废水 , CODCr 去除率 约 达 90% . 而 沈阳 某 工厂 用 好 氧 方法 处理 糠醛 废水 , CODCr 去除率 仅为 87% 左右 , CODCr 值约 2320mg / L , 达 不到 废水 排放 标准 . 本文 所述 的 催化 氧化 法 , 经过 活性炭 吸附 和 离子交换 树脂 处理 糠醛 废水 后 , CODCr 的 去除率 达 93.3% , CODCr 值 可 从 2320mg / L 降至 156mg / L , pH 值约 为 7 , 达到 国家有关 规定 的 废水 排放 标准 . 该项 处理 技术 在 文献 中 尚未 见 报道 . 
+ 1 实验 方法 
+ 1.1 试验 水样 
+ 　 　 某厂 用 好 氧 方法 处理 过 的 糠醛 废水 , CODCr 值约 为 2320mg / L , pH 值约 为 6.5 , 总 酸度 0.00025 N . 
+ 1.2 实验 步骤 
+ 　 　 取 50mL 水样 , 加 一定量 的 H2SO4 和 33% 的 H2O2 , 加热 回流 , 冷却 后加 固体 Ca ( OH ) 2 调节 pH 值为 6.7 ～ 7.0 , 经砂 滤除 去 固体 物 , 滤液 经 活性炭 吸附 后 , 作 条件 实验 , 水样 按 常规 方法 测定 CODCr 值 [ 4 ] , 用 吸量管 准确 取 5mL 经 活性炭 吸附 后 的 滤液 , 通过 混合 离子交换 树脂 柱 ( 1cm × 20cm 玻璃 柱 ) , 再用 去离子水 冲洗 离子交换 树脂 柱 , 用 250mL 容量瓶 截取 约 240mL 流出 液 , 定容 250mL . 然后 准确 取出 50mL 溶液 , 测定 CODCr . 
+ 2 结果 和 讨论 
+ 2.1 实验 条件 
+ 　 　 2.1 . 1 酸度 对 CODCr 值 的 影响 在 加热 温度 为 100 ℃ , H2O21.00 mL 条件 下 , H2SO4 含量 对 CODCr 值 的 影响 见表 1 . 由表 1 可知 , 当 加入 0.40 mLH2SO4 时 , CODCr 值 最小 , 去除率 最大 . 酸 含量 低时 , 酸度 不够 , 酸 含量 高时 , 可能 会 有 部分 有机 化合物 发生 磺化 反应 , 不利于 活性炭 吸附 , 所以 CODCr 值 增大 , 去除率 降低 . 当酸 含量 为 0.4 mL 时 , 在 酸催化 下 , 糠醛 更 容易 被 H2O2 氧化 生成 有色 聚合物 , 更易 被 活性炭 吸附 , 所以 CODCr 值 最小 , 去除率 最大 . 
+ 表 1 不同 H2SO4 含量 对 CODCr 值 的 影响 
+ Table1InfluenceofvarioussulfuricacidcontentonCODCrvalue 
+ 
+ 浓 H2SO4 
+ ( mL ) CODCr 
+ ( mg / L ) CODCr 去除率 
+ ( % ) 
+ 0.1 
+ 0.2 
+ 0.4 
+ 0.6672 
+ 594 
+ 468 
+ 55870 
+ 74 
+ 80 
+ 76 
+ 
+ 
+ 2.1 . 2H2O2 加入 量 对 CODCr 值 的 影响 在 H2SO4 含量 为 0.4 mL , 加热 温度 为 100 ℃ 时 , H2O2 加入 量 对 CODCr 值 的 影响 见表 2 . 由表 2 可以 看出 , 加入 0.50 mL 时 , CODCr 值 最小 , CODCr 去除率 最大 . 再 增加 H2O2 , CODCr 值 几乎 不变 . 
+ 表 2H2O2 加入 量 对 CODCr 值 的 影响 
+ Table2InfluenceofvariousperhydrolcontentonCODCrvalue 
+ 
+ H2O2 
+ ( mL ) CODCr 
+ ( mg / L ) CODCr 
+ ( % ) 
+ 0.10 
+ 0.15 
+ 0.25 
+ 0.50 
+ 1.001024 
+ 867 
+ 726 
+ 468 
+ 47056 
+ 63 
+ 69 
+ 80 
+ 80 
+ 
+ 
+ 2.1 . 3 加热 温度 对 CODCr 值 的 影响 在 加入 0.40 mLH2SO4 , 0.50 mLH2O2 条件 下 , 加热 温度 对 CODCr 值 的 影响 见表 3 . 由表 3 可知 , 加热 温度 为 100 ℃ , CODCr 值 最小 , CODCr 去除率 最大 . 
+ 表 3 加热 温度 对 CODCr 值 的 影响 
+ Table3InfluenceofheatingtemperatureonCODCrvalue 
+ 
+ 加热 温度 
+ ( ℃ ) CODCr 
+ ( mg / L ) CODCr 去除率 
+ ( % ) 
+ 40 
+ 60 
+ 80 
+ 1002208 
+ 1873 
+ 868 
+ 4685 
+ 19 
+ 62 
+ 80 
+ 
+ 
+ 2.1 . 4 加热 时间 对 CODCr 值 的 影响 在 加入 0.40 mLH2SO4 , 0.50 mLH2O2 , 加热 温度 100 ℃ 条件 下 , 加热 时间 对 CODCr 值 的 影响 见表 4 . 由表 4 可知 , 加热 时间 为 5min 时 , CODCr 值 最小 , CODCr 去除率 最大 . 加热 时间 为 7min 时 , CODCr 值 几乎 不 变化 , 实际上 加热 5min 时 , H2O2 几乎 全部 分解 , 再 延长 加热 时间 已 无 意义 . 
+ 表 4 加热 时间 对 CODCr 值 的 影响 
+ Table4InfluenceofheatingtimeonCODCrvalue 
+ 
+ 加热 时间 
+ ( min ) CODCr 
+ ( mg / L ) CODCr 去除率 
+ ( % ) 
+ 1 
+ 3 
+ 5 
+ 72210 
+ 1200 
+ 468 
+ 4745 
+ 46 
+ 80 
+ 80 
+ 
+ 　 　 
+ 　 　 由 上述 实验 结果 看出 , 最佳 条件 为 加入 0.40 mLH2SO4 , 0.50 mLH2O2 , 加热 温度 100 ℃ , 加热 时间 5min . 
+ 2.2 水样 通过 混合 离子交换 树脂 柱 试验 
+ 　 　 在 上述 最佳 试验 条件 下 处理 的 水样 , 通过 离子交换 树脂 柱后 , 糠醛 废水 的 CODCr 值 从 2320mg / L 降至 156mg / L , CODCr 的 去除率 为 93.3% , 已达 国家有关 规定 的 标准 . 
+ 3 结论 
+ 　 　 采用 催化 氧化 联合 活性炭 吸附 和 混合 离子交换 树脂 法 处理 好 氧 方法 处理 过 的 糠醛 废水 , CODCr 为 156mg / L , CODCr 去除率 为 93.3% , pH 值约 为 7.0 , 出水 清澈 可 回用 . 
+ 致谢 ： 参加 工作 的 还有 本院 于 保强 , 王雅琴 同志 , 在 此 表示感谢 . 
+ 作者 单位 ： 吴林友 　 曹 中秋 　 韩光喜 　 程殿柱 　 蒋湘顺 （ 辽宁大学 化学 科学 与 工程学院 , 辽宁沈阳 110036 ） 
+ * 辽宁大学 化学 科学 与 工程学院 九 八届 毕业生 
+ 作者简介 ： 吴林友 ( 1945 - ) , 男 , 辽宁 营口 人 , 现任 辽宁大学 化学 科学 与 工程学院 环境 科学 与 工程系 副教授 , 主要 从事 有机 催化 研究 和 教学 工作 . 参加 国家自然科学基金 项目 . 主持 参加 7 项 辽宁省 教委 资助 项目 . 获 辽宁省 教委 科技进步 三等奖 2 项 , 通过 辽宁 省级 专家 鉴定 项目 1 项 . 发表 论文 40 篇 . 
+ 收稿 日期 ： 1998 - 06 - 29 
+ 参考文献 ： 
+ 　 [ 1 ] 陈玉莲 , 周广浚 . 膜分离 技术 在 糠醛 废水处理 中 的 应用 [ J ] . 石油化工 , 1987 , 16 ( 9 ) : 645 - 694 . 
+ 　 [ 2 ] 单逢源 . 农产物 有机化工 [ M ] . 济南 : 山东 出版社 , 1979.121 . 
+ 　 [ 3 ] Wirtz , RandallA , Dague , etal . Anaerobictreatmentoffurfural - tioductionwastemanage [ J ] . Wastewater , 1993 , 13 ( 4 ) : 309 - 315 . 
+ 　 [ 4 ] 蒋展鹏 , 祝万鹏 . 环境工程 监测 [ M ] . 北京 : 清华大学出版社 , 1990.299 - 301 . 

@@ -1,0 +1,124 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1999 年 　 第 25 卷 　 第 5 期 　 Vol.25 No.51999 
+ 
+ 
+ 
+ 
+ 非线性 分布 参数 系统 跟踪 控制 的 学习 算法 1 ) 
+ 谢 胜利 　 谢振东 　 韦 　 岗 
+ 摘 　 要 　 尝试性 地 将 学习 控制 方法 用于 一类 非线性 分布 参数 系统 的 跟踪 控制 上 ， 分别 获得 了 系统 轨线 于 L2 ( Ω ) 空间 ， W1 , 2 ( Ω ) 空间 中 跟踪 期望 目标 的 结果 . 所 给 的 学习 算法 避免 了 其 收敛性 要 依赖于 理想 输入 ud ( x , t ) 这一 不 确定 的 条件 ， 且 对系统 的 非线性 要求 只是 定性 的 而 不是 定量 的 ， 从而 使得 控制 具有 很强 的 鲁棒性 能 . 
+ 
+ 关键词 　 非线性 系统 ， 分布 参数 系统 ， 轨线 跟踪 ， 学习 控制 ， 算法 . 
+ LEARNINGALGORITHMFORTRACKINGCONTROLOF 
+ NONLINEARDISTRIBUTEDPARAMETERSYSTEMS 
+ XIEShengli 　 XIEZhendong 　 WEIGang 
+ ( CollegeofElectronicandInformationEngineering , SouthChinaUniversityof 
+ Technology , Guangzhou 　 510640 ) 
+ ( E - mail : adshlxie @ scut . edu . cn ) 
+ Abstract 　 Inthispaper , wediscusstheproblemoftrackingcontrolforaclassofnonlineardistributedparametersystemswithunknownparameters . Byusingtheiterativelearningcontrolmethod , wehavegiventhelearningalgorithmandthesufficientconditionsofprecisetrackingonL2 ( Ω ) spaceandW1 , 2 ( Ω ) space . Thealgorithmhaspreventeditsconvergencedependingonidealinputud ( x , t ) . Itsrequirementonthesystem ' snonlinearityisnotquantitativebutqualitative . Anditbringsstrongrobustperformancetothecontrolsystems . 
+ Keywords 　 Nonlinearsystems , distributedparametersystem , precisetracking , learningcontrol , algorithm . 
+ 1 　 引 　 言 
+ 　 　 自 Arimoto 等 人 ［ 1 ］ 针对 机器人 系统 的 特点 提出 了 学习 控制 方法 以来 ， 该 方法 已 在 控制 理论界 引起 了 广泛 的 关注 ， 其 应用 不仅 限于 机器人 控制 领域 ［ 8 — 10 ］ ， 而且 在 非线性 系统 的 鲁棒控制 上 也 有 了 较大 的 发展 ［ 2 ， 3 ］ . 这一 方法 正在 逐步形成 控制 理论 中 的 一个 新 方向 . 正是 因为 该 控制 方法 的 基本 理论 还 未 完全 建立 ， 故 在 目前 的 研究 中 还 存在 着 这样 或 那样 的 缺陷 或 不足 ［ 4 ］ ， 并且 相应 的 一些 改进 算法 也 在 逐步 出现 ［ 5 ］ ， 文献 ［ 6 ， 7 ］ 等 分别 用 学习 控制 方法 研究 柔性 关节 机器人 、 终端 受限 运动 机器人 的 轨道 跟踪 控制 时 ， 其 控制算法 的 收敛性 及 跟踪 误差 的 估计 都 依赖于 ud ( t ) — — 系统 相应 于 期望 输出 yd ( t ) 的 理想 输入 ， 但 在 实际 控制 过程 中 ud ( t ) 并 不是 具体 知道 的 ， 而且 正是 学习 控制 所 要 寻求 的 . 另外 ， 对带 柔性 连杆 的 机器人 通常 要用 偏 微分方程 所 代表 的 分布 参数 系统 模型 描述 ［ 8 — 10 ］ ， 且 很多 其它 实际 问题 的 描述 也 是 如此 ［ 11 — 13 ］ ， 故对 相应 的 非线性 分布 参数 系统 的 学习 控制 研究 及其 在 柔性 机器人 等 系统控制 中 的 应用 就是 有 必要 进行 探讨 的 . 限于 篇幅 ， 本文 只 针对 一般 非线性 分布 参数 系统 的 学习 控制 方法 进行 理论 上 的 研究 ， 关于 这一 方法 在 带 柔性 连杆 机器人 的 轨线 跟踪 控制 上 的 应用 ， 将 另文 讨论 . 
+ 2 　 问题 与 引理 
+ 　 　 考虑 如下 形式 的 分布 参数 系统 
+ 　 ( 1 ) 
+ 其中 Q ∈ Rn ， u ∈ Rm , y ∈ Rl , h ∈ Rm × l , f 与 g 是 相应 维数 的 向量 函数 ， 且 满足 
+ ‖ f ( t , Q1 , u1 ) - f ( t , Q2 , u2 ) ‖ ≤ Lf ( ‖ Q1 - Q2 ‖ + ‖ u1 - u2 ‖ ) , ‖ Jg ‖ ≤ Lg 　 ( 2 ) 
+ 而 Jg 是 g 对 Q 的 J - 矩阵 ： Jg = g ／ Q . 其中 Lf , Lg 是 不 具体 知道 的 ， 即 只 知道 f , g 的 一个 定性 而 不是 定量 的 性质 . D ∈ Rn × n 是 正 的 有界 对角 矩阵 ， 即 D = diga ( d1 , d2 , … ， dn ) ， 0 < pi ≤ di < ∞ , pi 是 已知 的 . Δ 是 区域 Ω 上 的 Laplace 算子 ， 而 Ω 是 Rq 中有界 的 开 子集 ， 其 边界 为 δ Ω . 
+ 　 　 本文 要 讨论 的 问题 为 ： 对 由 系统 ( 1 ) 描述 的 被控 对象 所 期望 的 理想 输出 yd ( x , t ) ， 要 寻求 与 之 相对 应 的 理想 输入 ud ( x , t ) . 由于 系统 的 不确定性 ， 对 理想 控制 ud ( x , t ) 不易 求得 ， 本文 将 通过 学习 控制 的 方法 来 逐步 寻求 ud ( x , t ) . 即 对 给定 的 目标 输出 yd ( x , t ) ， 寻求 输入 控制 uk ( x , t ) ， 使得 所 对应 的 系统 输出 yk ( x , t ) 满足 
+ ( 3 ) 
+ 且 输入 控制 uk ( x , t ) 是 可 根据 学习 确定 的 ， 其中 r . s . 表示 在 相应 空间 中 的 收敛 . 
+ 　 　 对系统 ( 1 ) 考虑 相应 的 初 边界条件 
+ ( 4 ) 
+ 其中 α = diga ( α 1 , α 2 , … , α n ) , β = diga ( β 1 , β 2 , … ， β n ) ， α i ≥ 0 ， β i ≥ 0 . υ 是 区域 Ω 边界 δ Ω 上 的 单位 外法 向量 . 
+ 　 　 对且 f ( . , t ) ∈ Rn ∩ L2 ( Ω ) ， t ∈ ［ 0 , T ］ 定义 
+ 
+ 其中 ‖ f ( . , t ) ‖ L2 是 普通 的 L2 - 范数 . 
+ 　 　 不难 证明 下述 两个 引理 
+ 　 　 引理 1 . 若 xi ∈ Rn ， 则 
+ 　 　 引理 2 . 若 ， 则 存在 ξ 1 > 1 使得 
+ 3 　 算法 及 收敛性 分析 
+ 　 　 对于 2 中 提出 的 问题 ， 我们 寻求 理想 控制 ud ( x , t ) 的 学习 控制算法 为 
+ 　 ( 5 ) 
+ 其中 ek ( x , t ) = yd ( x , t ) - yk ( x , t ) ， 而 yk ( x , t ) 是 系统 ( 1 ) 相应 于 第 k 次 输入 uk ( x , t ) 的 第 k 次 输出 ， Fi ( t ) , Gi ( t ) 是 待定 的 学习 矩阵 . 
+ 　 　 记 系统 相应 于 yd ( x , t ) 的 输入 与 状态 分别 为 ud ( x , t ) ， Qd ( x , t ) 即 
+ 　 ( 6 ) 
+ 及 相应 的 边界条件 ( 4 ) . 
+ 　 　 本文 还 规定 ， 在 学习 的 过程 中 ， 系统 的 状态 都 从 相同 的 初值 开始 ， 即 
+ Qm ( x , 0 ) = Q0 ( x ) , x ∈ Ω ; m = d , 1 , 2 , … 　 ( 7 ) 
+ 或 更 一般 的 
+ 　 ( 8 ) 
+ 另外 ， 注意 由 ( 2 ) 中 的 ‖ Jg ‖ ≤ Lg , 可 得 ‖ g ( t , Q1 ) - g ( t , Q2 ) ‖ ≤ Lg ‖ Q1 - Q2 ‖ . 
+ 　 　 定理 1 . 若 选取 学习 矩阵 Fi , Gi 满足 Fi ( t ) = I 且 2N η i < 1 ， 则 存在 η ∈ ( 0 , 1 ) 及 正数 M 使得 ‖ yd － yk ‖ L2 , λ ≤ M η k , k = 1 , 2 , … . 其中 
+ 　 　 证明 . 因 Fi ( t ) = I , 由 ( 5 ) 有 
+ ud ( x , t ) - uk + 1 ( x , t ) = ( Fi ( t ) - Gi ( t ) h ( t ) ) ( ud ( x , t ) - uk - i + 1 ( x , t ) ) - 
+ Gi ( t ) ( g ( t , Qd ( x , t ) - g ( t , Qk - i + 1 ( x , t ) ) ) . 　 ( 9 ) 
+ 从而 由 引理 1 有 
+ ( ud ( x , t ) - uk + 1 ( x , t ) ) T ( ud ( x , t ) - uk + 1 ( x , t ) ) ≤ 2N ［ η i ( ud ( x , t ) ) - uk - i + 1 ( x , t ) ) T ( ud ( x , t ) - uk - i + 1 ( x , t ) ) + μ iL2g ( Qd ( x , t ) - Qk - i + 1 ( x , t ) ) T ( Qd ( x , t ) - Qk - i + 1 ( x , t ) ) ］ , 　 ( 10 ) 
+ 其中 ， 关于 x 积分 上式 有 
+ 
+ 　 ( 11 ) 
+ 又 因为 
+ 　 ( 12 ) 
+ 用 ( Qd ( x , t ) - Qk ( x , t ) ) T 左乘 ( 12 ) 的 两边 有 
+ 　 ( 13 ) 
+ 对 x 积分 ( 13 ) 式 
+ 　 ( 14 ) 
+ 由 边界条件 及 D ， α ， β 均 为 正 的 对角 矩阵 ， 则 
+ 　 ( 15 ) 
+ 记 d = min ( d1 , d2 , … ， dn ) ， 由 ( 14 ) 及 ( 15 ) 有 
+ 　 ( 16 ) 
+ 由 Bellman - Gronwall 不等式 有 
+ 　 ( 17 ) 
+ 对 Lf 选取 适当 大 的 λ 使得 λ > 3Lf ， 再用 e - λ t 乘 ( 17 ) 的 两端 可 得 
+ 　 ( 18 ) 
+ 将 ( 18 ) 代入 ( 11 ) 中有 
+ 　 ( 19 ) 
+ 注意 ( 19 ) 右端 与 t 无关 ， 则 
+ 　 ( 20 ) 
+ 因 2N = 1 η i < 1 ， 则 存在 σ > 0 使得 2N ( η i + σ ) < 1 , 取 λ 还 使得 ( λ - 3Lf ) - 1 μ iLfL2g ≤ σ . 从而 
+ 　 ( 21 ) 
+ 再 由 引理 2 知 ， 存在 ξ 1 > 1 ， 对 ξ ∈ ( 1 , 1 + ξ 1 ) 有 
+ 　 ( 22 ) 
+ 而 由 r < 1 知 ， 存在 ξ 2 > 1 ， 使得 ξ ∈ ( 1 , 1 + ξ 2 ) 时 ， 有 r ξ < 1 . 取 ξ 3 = min ( ξ 1 , ξ 2 ) ， 则 对 ξ ∈ ( 1 , 1 + ξ 3 ) 有 r ξ < 1 且 ( 22 ) 也 成立 . 对此 ξ ， 用 ξ k + 1 乘 ( 20 ) 的 两边 有 
+ 　 ( 23 ) 
+ 其中 
+ . 
+ 注意 是 不减 的 ， 对式 ( 23 ) 的 两边 取上 确界 有 
+ 　 ( 24 ) 
+ 因 m2 < 1 ， 则 对 k ≥ 1 有 
+ 　 ( 25 ) 
+ 将 此 代入 式 ( 18 ) 有 
+ 　 ( 26 ) 
+ 其中 η = max ｛ r , ξ - 1 ｝ ， 再 注意 
+ ‖ yd - yk ‖ L2 , λ ≤ Lg ‖ Qd - Qk ‖ L2 , λ + h * ‖ ud - uk ‖ L2 , λ , 　 ( 27 ) 
+ 其中 ， 则 
+ 　 ( 28 ) 
+ 这 便是 要 证明 的 结论 . 
+ 　 　 定理 2 . 若 选取 学习 矩阵 Fi , Gi 满足 ： Fi ( t ) = I 且 2N η i < 1 ， 则 
+ 
+ 　 　 限于 篇幅 ， 证明 略 . 
+ 4 　 结束语 
+ 　 　 本文 对 一类 非线性 分布 参数 系统 的 跟踪 控制 问题 进行 了 讨论 ， 利用 学习 控制 的 方法 分别 获得 了 系统 轨线 于 L2 ( Ω ) 空间 和 W1 , 2 ( Ω ) 空间 中 跟踪 期望 目标 的 结果 ， 我们 所 给 的 算法 避免 了 其 收敛性 要 依赖于 ud 这一 不 确定 的 条件 ， 且 对系统 的 非线性 要求 只是 定性 的 而 不是 定量 的 ， 从而 拓宽 了 系统 的 鲁棒裕度 . 由于 学习 控制 这一 方法 用于 分布 参数 系统 上 的 研究 较 少 ， 因此 ， 我们 的 研究 也 只是 尝试性 的 ， 对于 更 深入 的 探讨 ， 需要 人们 共同努力 . 
+ 1 ) 国家自然科学基金 ( 69874013 ) 、 广东省 自然科学 基金 ( 980506 ) 资助 课题 . 
+ 作者简介 ： 谢 胜利 　 1958 年生 ， 控制 理论 与 控制工程 博士 ， 电子 与 通信 博士后 ， 华南理工大学 无线电 与 自动控制 研究所 教授 . 一直 从事 非线性 系统 的 稳定性 理论 、 振动 性 理论 、 周期 运动 、 变 结构 控制 、 迭代 学习 控制 及 自 适应 回波 信号 消除 领域 的 教学 与 科研工作 ， 在 国内外 学术刊物 上 发表 论文 近 70 篇 ， 出版 专著 ( 国家 九五 重点 图书 ) 一部 . 目前 感兴趣 的 领域 为 非线性 系统 迭代 学习 控制 理论 、 自 适应 多话 路 回波 信号 消除 理论 、 数字 预测 及 应用 等 . 
+ 　 　 　 　 　 谢振东 　 1966 年生 ， 华南理工大学 控制 理论 与 控制工程 博士生 . 于 非线性 系统 稳定性 、 迭代 学习 控制 、 变 结构 控制 方面 发表 论文 10 多篇 ， 曾 获 省级 优秀 教学 成果奖 和 自然科学 奖 . 目前 感兴趣 的 方向 是 非线性 系统 的 迭代 学习 控制 理论 及 2D 离散系统 的 变 结构 控制 . 
+ 　 　 　 　 　 韦 　 岗 　 1963 年生 ， 教授 ， 博士生 导师 、 华南理工大学 电子信息 学院 副 院长 、 电子 工程 系主任 、 广东省 “ 千 百十 人才 工程 ” 国家级 学术 带头人 。 在 国内外 发表 论文 40 多篇 ， 出版 学术著作 4 部 。 主要 研究 领域 为 信号处理 、 模式识别 、 非线性 系统 理论 及 应用 、 神经网络 等 。 
+ 作者 单位 ： 华南理工大学 电子 与 信息 学院 　 广州 　 510640 　 ( E - mail : adshlxie @ scut . edu . cn ) 
+ 参考文献 
+ 　 1 　 ArimotoS , KawamuraS , MiyazakiF . Betteringoperationofrobotsbylearning . J . RoboticSystem . , 1980 ， 1 — 22 ： 123 — 140 
+ 　 2 　 ChienCJ , LiuJS . AP - typeiterativelearningcontrollersforrobustoutputtrackingofnonlineartime - varyingsystems . Int . J . Control , 1996 ， 64 ( 2 ) ： 312 — 334 
+ 　 3 　 LeeHS , BienZ . Studyonrobustnessofiterativelearningcontrolwithnon - zeroinitialerror . Int . J . Control , 1996 ， 64 ( 3 ) ： 345 — 359 
+ 　 4 　 谢振东 ， 谢 胜利 ， 刘永清 . 离散系统 跟踪 控制 的 学习 算法 及 收敛性 . 系统工程 与 电子 技术 ， 1998 ， 20 ( 10 ) ： 45 — 48 
+ 　 5 　 XieShengli , FanXiaoping , WeiGang . Onlearningcontrolmethodfornonlinearsystems . In : Proc . Int . Con . OnSystemScienceEngineering . Beijing : ScientificandTechnicalDocumentsPublishingHouse , 1998.638 — 643 
+ 　 6 　 WangD . ASimpleiterativelearningcontrollerformanipulatorswithflexiblejoints . Automatic , 1995 ， 31 ( 9 ) ： 1341 — 1344 
+ 　 7 　 WangD , SohYC , CheanCC . Robustmotionandforcecontrolofconstrainedmanipulatorsbylearning . Automatic , 1995 ， 31 ( 2 ) ： 257 — 262 
+ 　 8 　 XiF , FentonRG . Couplingeffectofaflexiblelinkandaflexiblejoint . Int . J . ofRoboticsResearch , 1994 ， 13 ( 5 ) ： 443 — 453 
+ 　 9 　 樊晓平 ， 徐建 闽 ， 周其节 ， 梁天培 . 柔性 机器人 的 动力学 建模 及 控制 . 控制 理论 及 应用 ， 1997 ， 14 ( 3 ) ： 318 — 335 
+ 10 　 冯 德兴 ， 张维韬 . 梁 的 非线性 边界 反馈 镇定 . 中国 科学 ， 1995 ， 25A ( 6 ) ： 641 — 649 
+ 11 　 谢 胜利 . 具有 反馈 控制 的 密度 非 均匀分布 的 捕鱼 系统 平衡态 的 稳定性 . 自动化 学报 ， 1993 ， 19 ( 2 ) ： 207 — 212 
+ 12 　 谢 胜利 . 具有 扩散 的 螟虫 与 赤眼蜂 生态 模型 的 平衡 与 稳定 . 应用 数学 学报 ， 1996 ， 19 ( 3 ) ： 462 — 468 
+ 13 　 谢振东 ， 谢 胜利 ， 刘永清 . 分布 参数 系统 目标 跟踪 的 二阶 P - 型 学习 算法 . 暨南大学 学报 ， 1998 ， 19 ( 1 ) ： 60 — 64 
+ 收稿 日期 ： 1997 - 12 - 03 
+ 修稿 日期 ： 1999 - 03 - 19 

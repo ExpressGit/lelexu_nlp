@@ -1,0 +1,113 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 2000 　 Vol.11 　 No.2 　 P.260 - 264 
+ 
+ 
+ 
+ 近乎 最佳 的 Manhattan 型 Steiner 树 近似算法 
+ 马军 　 杨波 　 马绍汉 
+ 摘 　 要 ： 求解 最佳 的 Manhattan 型 Steiner 树 问题 ( minimumrectilinearSteinertree , 简记 为 MRST 问题 ) 是 在 VLSI 布线 、 网络通信 中 所 遇到 的 组合 优化 问题 , 同时 也 是 一个 NP - 难解 问题 . 该文 给出 对 该 问题 的 O ( n2 ) 时间 复杂性 的 近似算法 . 该 算法 在 最坏 情况 下 的 近似 比 严格 小于 3 / 2 . 计算机 实验 结果表明 , 所 求得 的 支撑 树 的 平均 费用 与 最佳 算法 的 平均 费用 仅 相差 0.8% . 该 算法 稍加 修改 , 可 应用 到 三维 或 多维 的 Manhattan 空间 对 Steiner 问题 求解 , 且 易于 在 并行 与 分布式 环境 下 编程 实现 . 
+ 关键词 ： Steiner 树 , 算法 复杂性 , 组合 优化 , 电路 布线 . 
+ 分类号 ： O157 
+ ANear - OptimalApproximationAlgorithmforManhattanSteinerTree 
+ MAJun 　 YANGBo 　 MAShao - han 
+ ( DepartmentofComputerScienceShandongUniversity , Ji ' nan , 250100 ) 
+ Abstract ： TheminimumrectilinearSteinertree ( MRST ) problemisanNP - completeproblemwhicharisesinVLSIwiring , networkroutingandmanycombinatorialoptimizationproblems . Inthispaper , anO ( n2 ) timecomplexityapproximationalgorithmforMRSTisproposed . Theapproximationratioofthealgorithmisstrictlylessthan3 / 2 . Thecomputerverificationofthealgorithmshowsthatthecostsoftheproducedspanningtreesareonly0.8% awayfromtheoptimal . Inaddition , thisalgorithmcanberevisedformultidimensionalManhattanspaceandimplementedinparallel / distributedenvironmentseasily . 
+ Keywords ： Steinertree , complexitytheory , combinatorialoptimization , circuitlayout ▲ 
+ 　 　 MRST ( minimumrectilinearSteinertree ) 问题 可 简述 为 : 设 Z 为 平面 上 给定 的 n 个 顶点 集合 , 对 Z 中 任意 两个 顶点 p1 = ( x1 , y1 ) , p2 = ( x2 , y2 ) , 其 连线 只 限于 水平 与 垂直 直线 . 其 连接 长度 定义 为 dist ( p1 , p2 ) = | x1 - x2 | + | y1 - y2 | ［ 1 ］ （ 称为 Manhattan 空间 距离 ） . 问题 是 如何 添加 平面 上 的 一个点 集 S , 以 得到 平面 上 的 一棵树 T . T 为 支撑 平面 顶点 集合 Z ∪ S 的 最小 生成 树 , 这里 , 支撑 树 T 的 费用 COST ( T ) 被 定义 为 所有 T 中 的 边 的 长度 之 和 ； T 被 称为 Steiner 树 ； S 中 的 顶点 被 称为 Steiner 顶点 . 若 S 为 空集 , T 被 称为 最小 生成 树 （ minimumspanningtree , 简称 MST ） . 图 1 给出 了 连接 4 个 顶点 的 MST 与其 所 对应 的 Steiner 树 . 
+ 
+ Fig.1 
+ 图 1 
+ 　 　 MRST 问题 是 一个 经典 的 组合 优化 问题 , 在 布线 等 领域 得到 了 较为 广泛 的 应用 ［ 1 ～ 6 ］ . 由于 MRST 的 精确 求解 属于 NP - 完全 问题 ［ 1 ］ , 故 研究 对 MRST 具有 快速 、 高 近似 比 的 近似算法 , 一直 得到 人们 的 重视 . 首先 , Hanan 证明 了 S 为 通过 Z 中 n 个 顶点 的 水平 与 垂直 直线 所 形成 的 交叉点 集 的 子集 , 如图 2 所示 ［ 3 ］ ； Suyder 证明 了 该 结论 在 更 高维 的 Manhattan 空间 也 成立 ［ 4 ］ ； 其次 , 人们 证明 了 MST 为 MRST 的 一个 相当 好 的 近似 解 , 满足 COST ( MST ) / COST ( MRST ) ≤ 3 / 2 ［ 1 ］ . 因此 , 人们 提出 不少 基于 MST 算法 思想 的 求解 MRST 的 近似算法 ［ 1 ］ , 使得 所 生成 的 支撑 树 的 平均 解 费用 可比 COST ( MST ) 减少 7 ～ 9% ［ 1 ］ . 然而 , 这些 算法 在 最坏 情况 下 的 近似 比 仍 为 3 / 2 . 因此 , 是否 存在 最坏 情况 下 近似 比 严格 小于 3 / 2 的 算法 , 就 成为 一个 公开 的 问题 ［ 5 ］ . 
+ 
+ Fig.2 　 Hanan ' stheorem 
+ 图 2 　 关于 Hanan 定理 的 说明 
+ 　 　 本文 给出 一个 新 的 MRST 近似算法 . 在 最坏 情况 下 , COST ( T ) / COST ( MRST ) < 3 / 2 . 计算机 上 的 实验 结果表明 , 新 算法 所 产生 的 支撑 树 , 其 平均 费用 可比 MST 改进 10.2% , 与 文献 ［ 6 ］ 所 给出 的 平均 最佳 算法 的 理论值 相比 , 仅 平均 相差 0.8% . 
+ 1 　 算法 与 实验 结果 
+ 　 　 在 下面 的 讨论 中 , 用 p , e 分别 表示 平面 上 的 一个 顶点 和 一条 边 . p 到 e 的 距离 dist ( p , e ) 定义 为 dist ( p , p ′ ) 的 最小值 , 其中 p ′ 为 e 上 的 任意 顶点 . 由于 边 e 可能 为 一条 折线 , 故用 三元组 ( p1 , p2 , p3 ) 表示 e , 其中 p1 , p3 分别 表示 e 的 两个 端点 、 p2 表示 中间 的 拐弯 点 . 根据 几何 意义 , 边 e , e ′ 之间 的 距离 定义 为 min { dist ( u , e ′ ) , dist ( v , e ) | u 为 e 的 三元组 表示 中 的 三点 之一 , 而 v 则 是 e ′ 的 三元组 表示 中 的 三点 之一 } . 
+ 　 　 ST 算法 . （ Steiner 树 近似 求解 算法 ） 
+ 　 　 输入 : 给定 平面 上 顶点 集合 Z 的 顶点 的 二维 坐标 ( xi , yi ) , 1 ≤ i ≤ n . 
+ 　 　 输出 : 支撑 Z ∪ S 顶点 的 树 T 的 边 及 S 中 的 Steiner 顶点 . 
+ 　 　 ∥ 使用 的 变量 为 : 对 顶点 i = ( xi , yi ) , 用 V ( i ) ( 1 ) = xi ; V ( i ) ( 2 ) = yi 表示 . 二维 数组 元素 W ( i , j ) 为 顶点 i , j 之间 的 Manhattan 距离 . 在 三元组 ( i , pi1 , pi2 ) 中 , Pi1 和 Pi2 分别 表示 Z ∪ S - { i } 中距 顶点 i 最近 和 次 最近 的 顶点 （ pi1 = pi2 , 若 Z 中 只有 一个 未 被 访问 顶点 ） . 函数 length ( i , pi1 , pi2 ) 表示 连接 3 个 顶点 的 MRST 子树 的 费用 . 
+ 　 　 步骤 1 . 
+ 　 　 ( 1.1 ) S : = ; L : = . 对 任意 两个 顶点 i , 标记 未 被 访问 . 根据 任意 两点 i , j 的 二维 坐标 , 计算 W ( i , j ) . 根据 数组 W , 计算 三元组 ( i , pi1 , pi2 ) . 在 如图 3 所示 的 3 种 连接 方法 中 , 找出 最短 连线 , 其 长度 记为 length ( i , pi1 , pi2 ) . 
+ 
+ Fig.3 　 Theoptimalconnectionsforthreeverticesbasedontheirpositions 
+ 图 3 　 基于 三点 相对 位置 的 最佳 连接 方法 
+ 　 　 ( 1.2 ) 若 Z 中 已 无 未 被 访问 顶点 , 转向 步骤 2 ； 
+ 　 　 ( 1.3 ) 在 未 被 访问 的 顶点 中 , 寻找 顶点 i , i 具有 目前 最小 的 length ( i , pi1 , pi2 ) 值 , 并 按 以下 两种 情况 进行 连接 : 
+ 　 　 情况 1.3 点均 未 被 访问 过 , 根据 它们 的 相互 位置 , 按图 3 所示 的 连接 方法 产生 3 点 最佳 连接 ； 标记 3 个 顶点 被 访问 过 和 属于 子树 Ti ; 若 按 图 3 ( a ) 或 ( c ) 进行 连接 , 则 把 产生 的 Steiner 顶点 送 S , 把 产生 的 树边 送 L . 
+ 　 　 情况 2 . 否则 , 寻找 连接 i 到 Pi1 或 L 中 的 某 一边 上 的 点 的 边 e , e 满足 其 长度 为 min { dist ( i , Pi1 ) , dist ( i , e ′ ) , dist ( i , e ″ ) | e ′ 为 L 中 与 顶点 相关联 的 边 ； e ″ 则 是 颠倒 e ′ 的 垂直 、 水平 连接 次序 之后 所 得到 的 边 } . 把 e 送 L , 标记 i 与 Pi1 属于 相同 的 子树 和 被 访问 过 标记 ； 若 e 的 一个 端点 为 Steiner 顶点 , 则 把 它 送 S . 
+ 　 　 ( 1.4 ) 对 每个 新 产生 的 Steiner 顶点 u , 计算 u 与 所有 尚未 访问 顶点 j 的 距离 d ( u , j ) ; 
+ 　 　 ifdist ( u , j ) < dist ( j , pi2 ) then { 
+ 　 　 　 　 ifdist ( u , j ) < dist ( j , pi1 ) then { pi2 = pi1 ; pi1 = u ; } 
+ 　 　 　 　 elsepi2 = u ; endif ; 
+ 　 　 　 　 修改 对应 的 三元组 ( j , pi1 , pi2 ) 及 函数 Length ( j , pi1 , pi2 ) 的 值 . } endif ; 
+ 　 　 ( 1.5 ) 转向 执行 步骤 ( 1.2 ) . 
+ 　 　 步骤 2 . 设在 步骤 1 后 , 形成 了 k 棵子 树 T1 , T2 , ... , Tk . 计算 边 e , 满足 e 可 产生 对 平面 两棵 子树 Ti 与 Tj , j ≠ i 边集 之间 的 最小 连接 边 , 1 ≤ i < j ≤ k . 通过 e 归并 两棵 子树 . 送 e 到 L , 若 e 的 一个 端点 为 Steiner 顶点 , 送 其 到 S . 重复 上述 过程 , 直到 平面 上 只有 一棵树 T . 
+ 　 　 步骤 3 . 输出 L 中 的 边 及 COST ( T ) . 结束 . 
+ 　 　 根据 传统 的 对 MRST 算法 近似 度 的 评价 方法 ［ 1 , 5 , 6 ］ , 我们 对 我们 的 算法 与 MST 算法 在 同一 输入 下 支撑 树 的 费用 进行 对比 , 见表 1 . 其中 n 个 顶点 是 由 计算机 随机 产生 在 一个 正方形 平面 内 . a 表示 正方形 的 边长 , r = COST ( T ) / COST ( MST ) , s 表示 算法 使用 的 Steiner 顶点 个数 . 
+ Table1 　 TheperformanceofalgorithmSTagainstMSTalgorithm 
+ 表 1 　 最小 支撑 树 算法 费用 与 本 算法 费用 比较 
+ 
+ na = 100a = 200 
+ COST ( MST ) COST ( T ) srCOST ( MST ) COST ( T ) sr 
+ 1024421940.89754160051660 . 860000 
+ 20365322100.882192829744100 . 897467 
+ 30478414140.8661091093934140 . 854529 
+ 40541489170.9038821032960180 . 930233 
+ 50628567170.90286612211082170 . 886159 
+ 60631594230.94136312981178260 . 907550 
+ 70720654280.90833314781335250 . 903248 
+ 80762688320.90288715371400340 . 910865 
+ 90797724320.90840716141467330 . 908922 
+ 100872793450.90940417261577430 . 913673 
+ 
+ 　 　 表 1 表明 ST 算法 所 产生 的 支撑 树 的 平均 费用 , 可 使用 MST 进行 近似 求解 改进 10.2% . 
+ 2 　 算法 的 理论 分析 
+ 　 　 显然 , 算法 ST 得到 了 一棵 关于 Z ∪ S 的 支撑 树 T . 下面 分析 算法 ST 所 产生 的 支撑 树对 MST 的 改进 以及 ST 算法 的 时间 复杂性 . 
+ 　 　 引理 2.1 . 当 | Z | ≤ 4 时 , COST ( T ) = COST ( MRST ) . 
+ 　 　 证明 : 显然 , 当 | Z | < 3 时 , 引理 成立 ； 当 | Z | = 3 时 , 去掉 对称性 , 只有 如图 3 所示 的 3 种 关于 3 个 顶点 的 相互 位置 . 设 C 表示 围住 3 个 顶点 的 长方形 R 的 周长 , 显然 , 从图 3 所 给出 的 连接 方法 中 所 选出 的 最 短 连接 的 长度 恰为 C / 2 , 为 构成 了 连接 这 3 个点 的 最小 费用 连接 , 故 为 一个 MRST . 
+ 　 　 当 | Z | = 4 时 , MRST 总为 一个 连接 3 点 费用 最少 的 子 MRST , 加上 剩余 一点 与 该子 MRST 边 的 水平 或 垂直 连线 组成 , 这 与 我们 的 算法 执行 相同 . 故 引理 也 成立 . 
+ 　 　 综上所述 , 引理 得证 . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 □ 
+ 　 　 由 引理 的 证明 过程 不难看出 , 对应 于 3 个点 的 MST , 均 有 COST ( MST ) ≥ C / 2 . 
+ 　 　 引理 2.2 . COST ( T ) ≤ COST ( MST ) ; COST ( T ) = COST ( MST ) 当且 仅 当 MST 是 一个 MRST . 
+ 　 　 证明 : 首先 证明 COST ( T ) ≤ COST ( MST ) . 根据 引理 2.1 , 当 | Z | ≤ 4 时 , 引理 成立 . 故可 在 下面 的 讨论 中 , 假设 | Z | > 4 . 
+ 　 　 由于 MRST 问题 是 几何 平面 上 基于 Manhattan 距离 的 Steiner 问题 , MRST 实质 上 是 用 平行 于 x 轴 和 y 轴 的 最 短线 段 连成 . 根据 Hanan 的 定理 , MRST 可以 通过 对 平面 进行 适当 划分 , 在 每个 小平面 上求 出 局部 的 MRST , 然后 通过 适当 连接 , 得到 全局 的 MRST . 在 本 算法 中 , 首先 利用 具有 最短 周长 的 可 围住 目前 集合 Z ∪ S 中 尚未 访问 过 的 任意 3 个 顶点 v1 , v2 , v3 的 长方形 R 对 平面 分区 , 在 R 内 生成 子树 Ti . 由 引理 2.1 可知 , Ti 为 R 内 的 MRST . 若 e = ( v4 , v5 ) , 表示 在 算法 结束 时 连接 Ti 与 其他 子树 的 一条 边 , 其中 v4 为 Ti 的 顶点 ； v5 为 其他 子 树上 的 顶点 . 由 ST 算法 步骤 ( 1.3 ) 中 的 情况 2 和 步骤 2 的 执行 可知 , e 为 连接 Ti 与 其他 子树 的 最 短边 . 设 R ′ 表示 围住 4 个 顶点 v1 , v2 , v3 , v5 的 长方形 , 由 R 的 周长 最短性 和 e 为 连接 v5 到 Ti 的 最 短边 以及 Kruskal 算法 对边 的 选取 ［ 7 ］ 推知 , 在 R ′ 上 生成 的 局部 MST 必为 全局 MST 的 一部分 . 由于 我们 的 算法 是 基于 Hanan 定理 的 执行 , 不难 穷 举出 基于 图 3 的 所有 e 与 Ti 可能 连接 的 情况 , 总有 算法 在 R ′ 上 生成 的 子树 费用 ≤ R ′ 上 对应 的 局部 MST 的 费用 . 由于 R 的 任意性 以及 在 ST 算法 步骤 2 中 , 对 森林 F 的 归并 过程 中 , 总是 选择 连接 两棵 子树 的 最 短边 进行 归并 , 可 推出 COST ( T ) ≤ COST ( MST ) . 
+ 　 　 根据 引理 2.1 和 算法 ST 的 执行 , 若 所 产生 的 支撑 树 T 为 一个 MST , 当且 仅 当 在 算法 结束 后 , 未 产生 任何 Steiner 顶点 ； 而 只要 MST 不是 MRST 的 解 , 算法 ST 必然 会 找到 一个 Steiner 顶点 , 使得 COST ( T ) ＜ COST ( MST ) . 
+ 　 　 基于 上述 讨论 , 引理 得证 . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 □ 
+ 　 　 定理 2.1 . 设 r = COST ( T ) / COST ( MST ) , 则 2 / 3 ≤ r ≤ 1 . 
+ 　 　 证明 : 根据 MRST 的 定义 , COST ( T ) ≥ COST ( MRST ) . 因 已知 COST ( MST ) ≤ 3 / 2COST ( MRST ) , 故有 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 □ 
+ 　 　 定理 2.2 . COST ( T ) / COST ( MRST ) < 3 / 2 . 
+ 　 　 证明 : 若 对 给定 的 n 个 顶点 , COST ( T ) < COST ( MST ) , 则 
+ 
+ 否则 , 基于 引理 2.2 , COST ( T ) / COST ( MRST ) = 1 < 3 / 2 . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 □ 
+ 　 　 定理 2.3 . ST 算法 的 时间 复杂性 为 O ( n2 ) . 
+ 　 　 证明 : 显然 , 在 ST 算法 中 , 步骤 ( 1.1 ) 的 操作数 为 O ( n2 ) , 并且 步骤 ( 1.2 ) ～ ( 1.4 ) 的 操作数 为 O ( n ) . 为 减少 步骤 2 的 时间 复杂性 , 我们 还 在 步骤 1 的 开始 部分 , 对 Z 中 的 每 一 顶点 v , 计算 v 与 Z - { v } 顶点 的 最 短 连接 边 . 每当 一棵 新子 树 生成 时 , 立即 计算 该子 树 与 其他 子树 相连 时 的 最 短 连接 边 . 即使 加上 上述 计算 , 步骤 1 的 时间 复杂性 仍为 O ( n2 ) . 
+ 　 　 在 步骤 2 中 , 基于 上述 已 在 步骤 1 中所 进行 的 计算 , 我们 可 在 O ( n ) 时间 找出 连接 两棵 子树 的 最 短边 . 显然 , 可 在 O ( 1 ) 时间 内 完成 两棵 子树 的 归并 . 因为 对 每 条边 可用 3 个 顶点 表示 , 每个 顶点 均 保留 与 其他 子树边 相连 的 最 短边 和 L 中 的 边数 为 O ( n ) , 故对 归并 后 的 新子 树 计算 与 其他 树边 相连 的 最 短边 时 , 也 可 在 O ( n ) 时间 内 完成 . 因此 , 步骤 2 的 一次 循环 可 在 O ( n ) 时间 内 完成 . 由于 最多 有 O ( n ) 次 循环 , 故 步骤 2 的 时间 复杂性 为 O ( n2 ) . 
+ 　 　 因 产生 的 Steiner 顶点 的 个数 不会 超过 n , 故 生成 树 的 边数 仍 为 O ( n ) , 所以 步骤 3 的 时间 复杂性 为 O ( n ) . 
+ 　 　 由 上述 讨论 , 定理 得证 . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 □ 
+ 　 　 本 算法 较 文献 ［ 6 ］ 的 算法 复杂性 减少 了 O ( n ) 因子 . 
+ 3 　 结束语 
+ 　 　 本文 给出 一个 求解 MRST 的 新 的 近似算法 , 与 以往 的 结果 相比 , 该 算法 在 最坏 情况 下 的 近似 比 严格 小于 3 / 2 , 并且 具有 较 好 的 时间 复杂性 . 计算机 运行 结果表明 , 所 产生 的 支撑 树 的 费用 , 仅 比 平均 最佳 算法 的 理论值 相差 0.8% , 不失为 一种 实用 算法 . 基于 Suyder 定理 , 对 新 算法 稍作 修改 , 便 可 适合 三维 和 多维 的 Manhattan 空间 对 MRST 问题 的 求解 . 由于 新 算法 中 的 主要 计算 为取 最小值 操作 , 该 算法 也 非常 便于 在 并行 与 分布式 环境 下 实现 ［ 8 ］ . 
+ 
+ 致谢 　 本文 作者 对 初审 与 复审 老师 提出 的 建设性 的 修改意见 深表 感谢 . ■ 
+ 基金项目 ： 本文 研究 得到 国家 863 高科技 项目 基金 ( No.863 - 306 - ZT06 - 01 - 4 ) 资助 . 
+ 作者简介 ： 马军 , 1956 年生 , 博士 , 教授 , 主要 研究 领域 为 算法 , 人工智能 , 并行计算 . 
+ 　 　 　 　 　 杨波 , 1975 年生 , 硕士生 , 主要 研究 领域 为 数据库 , 算法 . 
+ 　 　 　 　 　 马绍汉 , 1938 年生 , 教授 , 博士生 导师 , 主要 研究 领域 为 算法 , 人工智能 . 
+ 作者 单位 ： 马军 ( 山东大学 计算机科学 系 　 济南 　 250100 ) 
+ 　 　 　 　 　 杨波 ( 山东大学 计算机科学 系 　 济南 　 250100 ) 
+ 　 　 　 　 　 马绍汉 ( 山东大学 计算机科学 系 　 济南 　 250100 ) 
+ 参考文献 ： 
+ ［ 1 ］ HwangFK , RichardsDS , WinterP . TheSteinerTreeProblem . TheNetherlands : North - Holland , 1992.20 ～ 200 
+ ［ 2 ］ MaxemchukNF . Videodistributiononmulticastnetworks . IEEEJournalonSelectedAreasinCommunications , 1997 , 15 ( 3 ) : 357 ～ 372 
+ ［ 3 ］ HananM . OnSteiner ' sproblemwithrectilineardistance . JournalonAppliedMathematics , 1966 , 14 ( 6 ) : 255 ～ 265 
+ ［ 4 ］ SynderTL . AsimpleandfasteralgorithmfortherectilinearSteinerproblemingeneraldimension . In : RaviRed . ProceedingsoftheACMSymposiumonComputationalGeometry . NewYork : ACMPress , 1990.1340 ～ 1345 
+ ［ 5 ］ KahngAB , RobinsG . AnewclassofiterativeSteinertreeheuristicswithgoodperformance . IEEETransactionsonComputerAidedDesign , 1992 , 11 ( 7 ) : 893 ～ 902 
+ ［ 6 ］ SaloweJS , WarmeDM . AnexactrectilinearSteinertreealgorithm . In : YaoYYed . ProceedingsoftheIEEEInternationalConferenceonComputerDesign . Cambridge , MA : IEEEPress , 1993.472 ～ 475 
+ ［ 7 ］ AhoAV , HopcroftJE , UllmanJD . TheDesignandAnalysisofComputerAlgorithms . Reading , MA : Addison - WesleyPublishingCompany , 1975.172 ～ 176 
+ ［ 8 ］ MaJun , TakaokaT , MaShao - han . Parallelalgorithmsforaclassofgraphtheoreticproblems . TransactionsofInformationProcessingSocietyofJapan , 1994 , 35 ( 7 ) : 1235 ～ 1240 
+ 收稿 日期 ： 1998 - 08 - 31 
+ 修稿 日期 ： 1999 - 03 - 03 

@@ -1,0 +1,57 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 4 期 Vol.24 No.41998 
+ 
+ 
+ 
+ 
+ 一般 非线性 系统 的 相关 阶与 标准 形 1 ) 
+ 佘焱 　 张嗣 瀛 
+ 关键词 　 一般 非线性 系统 ， 标准 形 ， 相关 阶 . 
+ RELATIVEDEGREEANDNORMALFORMFORGENERAL 
+ NONLINEARCONTROLSYSTEMS 
+ SHEYAN 
+ ( Dept . ofInform . andContr . Eng . , ShanghaiJiaotongUniversity , Shanghai200030 ) 
+ ZHANGSIYING 
+ ( Dept . ofAutomaticcontrol , NortheastUniversity , Shenyang110006 ) 
+ Keywords 　 Nonlinearcontrolsystems , normalform , relativedegree . 
+ 1 　 引言 
+ 　 　 近 二十年 来 ， 由于 微分 几何 等 数学 工具 的 引入 ， 非线性 控制系统 的 理论 取得 了 长足进展 ， 一系列 重要 问题 得到 系统 的 处理 ［ 1 , 2 ］ . 但是 ， 绝大部分 结果 都 只 适用 于 仿射 非线性 系统 . 显然 ， 在 更 一般 的 系统 中 讨论 这些 问题 在 理论 和 应用 上 都 是 有 意义 的 ［ 3 - 5 ］ . 仿射 非线性 系统 的 相关 阶及 基于 相关 阶 的 标准 形在 解决 一些 重要 问题 时 ， 都 已 成为 一个 基本 假设 ， 得到 研究者 的 重视 ［ 6 ］ . 本文 的 主要 目的 是 对 一般 非线性 系统 导出 类似 的 标准 形 ， 从而 仿射 非线性 系统 的 众多 结果 可以 推广 到 更 一般 的 框架 中 . 
+ 
+ 2 　 主要 结果 
+ 　 　 考虑 系统 
+ = f ( x , u ) , 　 　 　 　 
+ y = h ( x ) . 　 　 　 ( 1 ) 
+ 其中 x ∈ Rn , u ∈ Rm , y ∈ Rp , pm , f ( x , u ) , h ( x ) 是 光滑 函数 . 
+ 　 　 定义 1 . 　 称 系统 ( 1 ) 在 点 ( x0 , u0 ) 具有 相对 阶 ｛ r1 , … , rp ｝ ， 如果 
+ ( i ) 在 点 ( x0 , u0 ) 的 某 邻域 
+ 　 　 ( 2 ) 
+ 其中 　 
+ ( ii ) p × m 阶 矩阵 
+ 　 　 ( 3 ) 
+ 　 　 在 ( x0 , u0 ) 的 秩为 p . 
+ 　 　 定理 1 . 　 设 系统 ( 1 ) 在 ( x0 , u0 ) 具有 相对 阶 ｛ r1 , … , rp ｝ ， 则 存在 x0 附近 的 坐标 变换 Φ ( x ) , 使 系统 ( 1 ) 在 新 坐标 下 具有 标准 形 
+ 　 　 　 ( 4 ) 
+ 其中 矩阵 在 ( x0 , u0 ) 的 秩为 p . 
+ 　 　 推论 1 . 　 设 系统 ( 1 ) 在 ( x0 , u0 ) 具有 相对 阶 ｛ r1 ， … , rp ｝ ， 则 存在 光滑 反馈 u = k ( x , v ) , u0 = k ( x0 , 0 ) 及 x0 附近 的 坐标 变换 Φ ( x ) ， 使 系统 ( 1 ) 在 新 坐标 下 具有 形式 
+ 
+ 令 ( 第 n + i 行为 1 ) ， i = 1 , … ， m ， 则 有 
+ 　 　 引入 系统 , 记 , 则 可 简记 为 ： 
+ 
+ 　 　 定理 2 . 　 设 系统 ( 1 ) 在 ( x0 , u0 ) 具有 相关 阶 ｛ r1 , … , rp ｝ , r = r1 + … , + rpn , 设 i1 , i2 , … , ip 为 ( x , u ) 中 在 ( x0 , u0 ) 线性 无关 的 p 列 ， Rn + m 上 的 分布 
+ 
+ 在 ( x0 , u0 ) 的 某 邻域 闭合 ， 则 存在 x0 附近 的 坐标 变换 Φ ( x ) , 使 系统 ( 1 ) 在 新 坐标 下 具有 标准 形 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 
+ 
+ 其中 m - p 维 向量 是 由 u 中 除去 分量 ui1 , … , uip 组成 ， 矩阵 在 ( x0 , u0 ) 的 秩为 p . 
+ 　 　 1 ) 国家自然科学基金 ， 中国 博士后 科学基金 和 辽宁省 科学技术 基金 资助 项目 . 
+ 作者 单位 ： 佘焱 ( 上海交通大学 信控系 　 上海 　 200030 ) 
+ 　 　 　 　 　 张嗣 瀛 ( 东北大学 自控 系 　 沈阳 　 110006 ) 
+ 参考文献 
+ 1 　 IsidoriA . Nonlinearcontrolsystems , Berlin : Springer - Verlag , 1989 
+ 2 佘焱 ， 张嗣 瀛 . 非线性 大 系统 的 分散 线性化 与 分散控制 . 自动化 学报 ( 待 发表 ) 
+ 3 　 佘焱 ， 张嗣 瀛 . 一般 非线性 系统 的 零 动态 、 标准 形与 局部 反馈 渐近 镇定 . 自动化 学报 ( 待 发表 ) 
+ 4 　 佘焱 ， 张嗣 瀛 . 一般 非线性 控制系统 的 局部 反馈 渐近 镇定 . 控制 与 决策 ( 待 发表 ) 
+ 5 　 ByrnesCI , HuX . Thezerodynamicsalgorithmforgeneralnonlinearststemsanditsapplicationinexactoutputtracking , J . ofMath . systems , EstimationandControl , 1993 , 3 ( 1 ) : 51 - 72 
+ 6HuX . Someresultsinnonlinearoutputregulationandfeedbackstabilization . Automatica , 1994 , 59 ( 4 ) : 1085 - 1093 
+ 收稿 日期 　 1996 - 07 - 15 

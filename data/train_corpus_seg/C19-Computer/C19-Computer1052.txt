@@ -1,0 +1,95 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 5 期 Vol.24 No.51998 
+ 
+ 
+ 
+ CMAC 最优设计 及其 算法 — — GA 技术 
+ 优化 CMAC 偏移 矢量 分布 1 ) 
+ 周 旭东 　 王国栋 
+ 摘 　 要 　 采用 GA ( GeneticAlgorithm ) 技术 实现 CMAC ( CerebellarModelArticulationController ) 最优设计 及 算法 . 该 方法 解决 了 CMAC 与其 学习 对象 的 整体 优化 问题 ， 具有 理论意义 和 实用价值 . 仿真 结果 证明 该 方法 是 成功 的 和 有效 的 . 对 不同 的 客观 对象 ( 如 空间 曲面 ) ， 可以 采用 GA 技术 找到 CMAC 的 最优 内部 表示 ( 偏移 矢量 分布 ) ， 实现 一般 CMAC 难以达到 的 精度 . 该 方法 比 Albus 的 CMAC 和 Parks 等 的 CMAC 学习效果 都 有 不同 程度 的 提高 ， 适合 于 要求 高精度 学习 的 情况 . 同时 给出 了 任意 偏移 矢量 分布 的 CMAC 算法 . 
+ 关键词 　 CMAC 最优设计 ， 遗传算法 ， 偏移 矢量 分布 . 
+ OPTIMALDESIGNANDALGORITHMOFCMAC — — 
+ OPTIMIZATIONOFCMACDISPLACEMENTVECTORS 
+ DISTRIBUTIONBYGENETICALGORITHM 
+ ZHOUXUDONG 　 　 WANGGUODONG 
+ ( StateKeyLaboratoryRollingTechnologyandAutomation , NortheasternUniversity , Shenyang 　 110006 ) 
+ Abstract 　 OptimaldesignandalgorithmofCMACareimplementedbygeneticalgorithm ( GA ) inthispaper . SuchamethodhassolvedtheoptimizationproblemconsideringbothCMACanditslearingobjects . Simulationsshowthattheproposedmethodissuccessfulandeffective . Fordifferentobjectslearned ( suchasspaceplanes ) , differentinternalpresentations ( displacementvectorsdistribution ) ofCMACcanbefoundbyGA , sothattheoptimalCMACpossesseshigherlearningprecisionthanthegeneralCMACcanreach . TheproposedmethodhassomeimprovementsonbothAlbus ' CMACandParks ' CMAC . Thismethodissuitabletothehighprecisionlearningproblem . TheCMACalgorithmforanydisplacementvectorsdistributionisalsoproposed . 
+ Keywords 　 OptimaldesignofCMAC , geneticalgorithm ( GA ) , cerebellarmodelarticulationcontroller ( CMAC ) , displacementvectorsdistribution . 
+ 1 　 引言 
+ 　 　 在 神经 网络应用 中 ， 面对 不同 的 客观 对象 ， 如何 设计 出 “ 最优 ” 的 网络结构 一直 是 研究者 关注 的 问题 之一 . 然而 人们 在 这方面 对 CMAC 所 做 工作 确不多 . 从 70 年代 J . S . Albus 提出 CMAC 以来 ［ 1 ］ ， CMAC 逐渐 应用 于 控制 . 在 1987 年 和 1990 年 由 Miller 等 把 CMAC 成功 地 应用 于 机器人 控制 中 ［ 2 ， 3 ］ ， 引起 控制 界及 神经网络 研究者 的 重视 . 由于 其 学习 速度 快 ( 比 BP 神经网络 快 一个 数量级 以上 ) ， 适合 于 实时控制 ， 使 之 成为 目前 控制 上 应用 最多 的 神经网络 之一 ， 在 1991 年 Parks 和 Militzer 给出 了 改进 的 CMAC 偏移 矢量 分布 ［ 4 ］ 并 给出 输入 维数 为 n = 2 , … ， 15 ， 泛化 参数 C = 2 , … ， 100 的 “ 最优 ” 偏移 矢量 表 . 其 “ 最优 ” 是 基于 最 邻近 基 函数 中心 距离 最小值 的 最大化 意义 的 ， 没有 考虑 CMAC 的 学习 对象 . Parks 和 Militzer 采用 大量 搜索 方法 . An 等 人 采用 启发式 方法 获得 了 同样 结果 ［ 5 ］ ， 也 没有 给出 N 维 CMAC 的 一般 算法 . 为此 ， 本 论文 采用 GA 技术 ［ 6 ］ 优化 CMAC 偏移 矢量 分布 ， 探索 其 整体 优化 问题 的 有效 解法 . 
+ 2 　 任意 偏移 矢量 分布 的 CMAC 及其 算法 
+ 2.1 　 Albus 的 CMAC 简介 
+ 　 　 Albus 的 CMAC 结构 如图 1 所示 ［ 1 ］ . 在 图 1 中 ， Ac 为 概念 存储单元 ， Ap 为 物理 存储单元 ， F ( Si ) 为 CMAC 的 输出 . 输入 状态 空间 s 中 的 每 一点 都 与 Ac 中 的 C 个 单元 相对 应 ， 也 与 Ap 中 的 C 个 存储单元 相对 应 ， 而 网络 的 输出 F ( Si ) 就是 这 C 个 单元 中 存储 数值 ( 网络 的 权重 ) 之 和 . 由于 每一 输入 样本 都 对应 于 Ac 和 Ap 上 的 C 个 存储单元 ， 因而 当 各 样本 分散 存储 在 Ac 和 Ap 中时 ， 就 有 在 s 中 比较 靠近 的 那些 样本 ， 在 Ac 和 Ap 中会 出现 交叠 现象 ， 这使 CMAC 的 输出 值 也 比较 靠近 ， 这种 现象 被 称为 CMAC 的 泛化 能力 ( Generalization ) . 
+ 
+ 
+ 图 1 　 CMAC 的 拓扑 结构 
+ 2.2 　 任意 偏移 矢量 分布 的 CMAC 及其 算法 
+ 　 　 定义 1 . 超 立方体 中心 矢量 ： d ( d0 ) ［ d1 , d2 , … ， dn ］ , 在 该 矢量 均匀分布 情况 下 有 ： ［ d1 , d2 , … ， dn ］ = ［ ( m . b1 ) modC , ( m . b2 ) modC , … ， ( m . bn ) modC ］ , 其中 ， d0 为 d 的 序号 ( d0 = 1 , … ， C ) ； n 为 输入 空间 维数 ； C 为 泛化 参数 ； dk 为 d 的 分量 ( k = 1 , … ， C ) ； m = 1 , … ， C ; mod 为模 运算 符号 . 
+ 
+ 　 　 定义 2 . 偏移 矢量 ： b = ［ b1 , b2 , … , bn ］ ， 其中 b1 = 1 . 它 是 有效 单元 的 感受 野 中心 位置 偏移 . 所谓 任意 偏移 矢量 分布 是 指 在 感受 野内 偏移 矢量 可以 任意 给定 . 
+ 　 　 1 ) 一维 CMAC 概念 映射 算法 
+ 　 　 一维 CMAC 矢量 的 拓扑 结构 如图 2 所示 . 并 假设 概念 映射 内存地址 编码 如图 2 所示 编码 . 则 可 归纳 出 如下 概念 映射 算法 ( Ac 地址 ) ： 
+ 
+ 
+ 图 2 　 一维 CMAC 矢量 拓扑 结构 
+ 注 . a 表示 Ac 地址 ， C = 3 ， b = ［ 1 ］ 
+ 　 　 ( 1 ) 
+ 　 　 2 ) 二维 CMAC 概念 映射 算法 
+ 　 　 二维 CMAC 矢量 的 拓扑 结构 参见 图 3 所示 . 并 假设 概念 映射 内存地址 编码 如图 3 所示 . 亦可 归纳 出 如下 概念 映射 算法 ( Ac 地址 ) 
+ 
+ 
+ 图 3 　 二维 CMAC 矢量 拓扑 结构 
+ 注 . a 表示 Ac 地址 ， C = 3 ， b = ［ 1 ， 1 ］ 
+ 　 　 ( 2a ) 
+ s = ［ I1 , I2 ］ . 　 　 ( 2b ) 
+ 　 　 3 ) N 维 CMAC 概念 映射 算法 
+ 　 　 将 二维 CMAC 概念 映射 算法 进行 推广 ， 即可 得到 N 维 CMAC 概念 映射 算法 ( Ac 地址 ) 
+ 　 　 ( 3a ) 
+ s = ［ I1 , … ， In ］ . 　 　 ( 3b ) 
+ 　 　 上述 公式 中 ， ri 为 第 i 坐标轴 内 节点 数 ， s 为 输入 矢量 ， Ii 为 s 第 i 坐标轴 输入 分量 ， a ( s , d0 ) 为 概念 映射 地址 . 
+ 　 　 式 ( 3 ) 的 特点 是 不仅 适合 于 任意 偏移 矢量 分布 的 CMAC ， 而且 适合 于 任意 超 立方体 中心 分布 的 CMAC ， 为 该 矢量 分布 研究 与 优化 提供 了 基本 算法 . 
+ 　 　 4 ) CMAC 物理 映射 算法 ap ( s , d0 ) = a ( s , d0 ) modM ， M 为 物理 内存大小 ( M 为 质数 ) . 
+ 　 　 5 ) CMAC 输出 算法 　 　 
+ 　 　 6 ) CMAC 学习 算法 　 , β 为 学习 率 ， ft 为 导师 信号 . 
+ 3 　 用 GA 设计 最优 CMAC 偏移 矢量 分布 
+ 　 　 采用 GA 技术 设计 CMAC 的 最优 偏移 矢量 分布 ， 并 考虑 CMAC 遍历 学习 空间 曲面 ， 使 累积 误差 平方和 最小 . 该 问题 属于 CMAC 与其 学习 对象 整体 优化 问题 . 
+ 　 　 采用 GA 进行 优化 设计 的 关键 是 如何 用 二进制 数 ［ 0 ， 1 ］ 组成 的 染色体 表达 具体 问题 ， 对 本文 来说 就是 如何 表达 N 维 CMAC 偏移 矢量 分布 ? 为了 简化 问题 表达 并 保证 该 矢量 分布 的 特点 ， 先 表达 基本 偏移 矢量 b = ( b1 , b2 , … , bn ) , bi ∈ ｛ 1 , 2 , … ， C ｝ ， n 为 输入量 维数 ， 然后 按照 如下 转换 算法 将 它 转换成 偏移 矢量 . 至此 可以 利用 上述 任意 偏移 矢量 CMAC 算法 ， 用 GA 技术 对 b 进行 优化 . 
+ 　 　 转换 原则 ： 取 感受 野内 第一点 坐标 为 ( 1 ， 1 ， … ， 1 ) ， 然后 在 此基础 上 加上 基本 偏移 矢量 ： b = ( b1 , b2 , … , bn ) , 当某 坐标值 超过 C 时 ， 使 其 重新 从 1 开始 计算 . 
+ 　 　 转换 算法 ： 　 dj = ( dj - 1 + bi ) modC ， ( i = 2 , … ， C ， j = 1 , … , n ) . 
+ 　 　 本文 问题 的 遗传算法 表达 
+ 　 　 1 ) 采用 一组 十进制 数 bi ∈ ［ 1 ， 2 ， … ， C ］ ； i = 1 , 2 , … , n ； 
+ 　 　 2 ) 将 十进制 数 bi 化成 二进制 数 Bi = ［ xi1 , xi2 ， … , xim ］ ; i = 1 , 2 , … ， n ; m 为 p ≥ log2 ( C ) 的 最小 表达 . 
+ 　 　 3 ) 本 问题 的 染色体 表达 
+ chromosome ［ B1 ， B2 ， … ， BC ］ 
+ ［ x11 ， x12 ， … ， x1m ］ ［ x21 ， x22 ， … ， x2m ］ ， … ， ［ xn1 ， xn2 ， … ， xnm ］ 
+ 　 　 采用 GA 方法 优化 的 目标 函数 为 ： Objfunc = CMAC 输出 累积 误差 平方和 ( 求 目标 函数 最小值 ) . 令 适应 值为 目标 函数 的 倒数 ， 即 Fitness = 1 / Objfunc . 
+ 　 　 采用 上述 方法 可以 达到 全局 最优 . 寻优 过程 需要 一定 的 计算 量 ， 但是 获得 的 最优 CMAC 确比 一般 CMAC 具有 更快 的 学习 速度 . 
+ 　 　 为了 验证 本文 方法 的 有效性 . 以 CMAC 学习 空间 曲面 ( 平面 f ( I1 , I2 ) = 1 和 正弦 曲面 f ( I1 , I2 ) = sin ( 2 π I1 × 10 ° ) × sin ( 2 π I2 × 10 ° ) ， 其中 I1 = 1 , 2 , … ， 36 . I1 , I2 单位 为 10 ° ) ， 使 其 累积 误差 平方和 最小 . CMAC 参数 为 ： n = 2 , r1 = 35 , r2 = 35 , C = 2 , 3 , 4 , 5 . 初始 CMAC 权重 空间 为 零 ， β = 0.7 ， 遍历 学习 次数 为 3 次 . 不 进行 杂散 处理 ； GA 参数 为 ： m = 2 , 2 , 3 , 3 ( 分别 对应 于 C = 2 , 3 , 4 , 5 ) , 群体 大小 Popsize = 10 ， 最大 代数 为 100 . 杂交 概率 为 pc = 0.6 ， 变异 概率 pm = 0.01 . 仿真 结果 如表 1 所示 . 
+ 表 1 　 各 CMAC 学习 空间 曲面 结果 ( 遍历 学习 3 次 累积 误差 平方和 Q ) 比较 
+ 
+ 对象 参数 本文 方法 Albus 方法 Parks 等 方法 
+ 　 偏移 矢量 Q 偏移 矢量 Q 偏移 矢量 Q 
+ f = 1 , C = 2 ( 11 ) ， ( 11 ) 0.0373 ( 11 ) ， ( 22 ) 5.7136 ( 11 ) ， ( 22 ) 5.7136 
+ f = S , C = 2 ( 11 ) ， ( 12 ) 1.3588 ( 11 ) ， ( 22 ) 1.3588 ( 11 ) ， ( 22 ) 1.3588 
+ f = 1 , C = 3 ( 11 ) ， ( 11 ) ， ( 11 ) 0.0083 ( 11 ) ， ( 22 ) ， ( 33 ) 16.4290 ( 11 ) ， ( 22 ) ， ( 33 ) 16.4290 
+ f = S , C = 3 ( 11 ) ， ( 32 ) ， ( 13 ) 2.5393 ( 11 ) ， ( 22 ) ， ( 33 ) 4.0420 ( 11 ) ， ( 22 ) ， ( 33 ) 4.0420 
+ f = 1 , C = 4 ( 11 ) ， ( 11 ) ， ( 11 ) ， ( 11 ) 0.0081 ( 11 ) ， ( 22 ) ， ( 33 ) ， ( 44 ) 13.9348 ( 11 ) ， ( 22 ) ， ( 33 ) ， ( 44 ) 13.9348 
+ f = S , C = 4 ( 11 ) ， ( 42 ) ， ( 13 ) ， ( 44 ) 2.8794 ( 11 ) ， ( 22 ) ， ( 33 ) ， ( 44 ) 3.2807 ( 11 ) ， ( 22 ) ， ( 33 ) ， ( 44 ) 3.2807 
+ f = 1 , C = 5 ( 11 ) ， ( 11 ) ， ( 11 ) ， ( 11 ) ， ( 11 ) 0.0810 ( 11 ) ， ( 22 ) ， ( 33 ) ， ( 44 ) ， ( 55 ) 10.0527 ( 11 ) ， ( 23 ) ， ( 35 ) ， ( 41 ) ， ( 53 ) 10.0527 
+ f = S , C = 5 ( 11 ) ， ( 32 ) ， ( 53 ) ， ( 14 ) ， ( 35 ) 2.0402 ( 11 ) ， ( 22 ) ， ( 33 ) ， ( 44 ) ， ( 55 ) 2.3253 ( 11 ) ， ( 23 ) ， ( 35 ) ， ( 41 ) ， ( 53 ) 6.8679 
+ 
+ 　 　 注 . f = S 表示 f ( I1 , I2 ) = sin ( 2 π I1 × 10 ° ) × sin ( 2 π I2 × 10 ° ) . 
+ 　 　 仿真 结果表明 本文 方法 是 成功 和 有效 的 . 对 不同 的 客观 对象 ， 可以 采用 GA 技术 找到 CMAC 最优 内部结构 表示 ( 偏移 矢量 分布 ) ， 达到 一般 CMAC 难以达到 的 精度 . 该 方法 比 Albus 的 CMAC 和 Parks 等 的 CMAC 学习效果 都 有 不同 程度 的 提高 . 特别 适合 要求 高精度 学习 的 情况 . 
+ 1 ) 中国 博士后 科学基金 资助 课题 . 
+ 作者简介 ： ： 周 旭东 　 男 ， 1963 年生 . 东北大学 副教授 ， 1995 年 获 北京科技大学 工学 博士学位 ， 1995 — 1997 在 东北大学 从事 博士后 研究 ， 后 留校 任教 . 已 发表 学术论文 二十多篇 . 目前 主要 研究 领域 为 神经网络 控制 、 神经网络 模式识别 和 遗传算法 的 理论 与 应用 研究 等 . 
+ 　 　 　 　 　 王国栋 　 男 ， 1942 年生 . 东北大学 教授 、 博士生 导师 ， 中国金属学会 轧钢 分会 理事 . 有 著作 《 板形 控制 与 板形 理论 》 、 《 现代 塑性 加工 力学 》 等 . 译著 《 板带 轧制 理论 和 实践 》 等 . 目前 主要 研究 领域 为 轧制 理论 、 工艺 和 自动化 、 人工智能 在 轧制 过程 中 的 应用 等 . 
+ 作者 单位 ： ( 东北大学 轧制 技术 及 连轧 自动化 国家 重点 实验室 　 沈阳 　 110006 ) 
+ 参考文献 
+ 　 1 　 AlbusJS . Datastorageinthecerebellarmodelarticulationcontroller ( CMAC ) . TransactionsoftheASME . JournalofDynamicSystemMeasurementandControl , 1975 , 97 : 228 - 233 
+ 　 2 　 MillerWT . Sensorbasedcontrolofroboticsmanipulatorsusingagenerallearningalgorithm . IEEETrans . RoboticsAutomat , 1987 , 3 ( 2 ) : 157 - 165 
+ 　 3 　 MillerWT , GlanzFH , KraftLG . CMAC : anassociativeneuralnetworkalternativetobackpropagation . In : ProceedingsoftheIEEE , 1990 , 78 : 1561 - 1567 
+ 　 4 　 ParksPC , MilitzerJ . Improvedallocationofweightsforassociativememorystorageinlearningcontrolsystems . In : Proceedingsofthe1stIFACSymposiumonDesignMethodsofControlSystems , Zurich : PergamonPress , Ⅱ , 1991 , 777 - 782 
+ 　 5 　 AnPCE , MillerWT , ParksPC . Designimprovementsinassociativememoriesforcerebellarmodelarticulationcontroller ( CMAC ) . In : ProceedingsoftheInternationalConferenceonArtificialNeuralNetworks , Helsinki , NorthHolland , Ⅱ , 1991 : 1207 - 1210 
+ 　 6 　 HollandJH . AdaptiveinNaturalandArtificialSystems . AnnArborMI : UniversityofMichiganPress , 1975 
+ 收稿 日期 　 1996 - 07 - 29 

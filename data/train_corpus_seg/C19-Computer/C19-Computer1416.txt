@@ -1,0 +1,163 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 第 23 卷 第 5 期 Vol.23 No.51997 
+ 
+ 
+ 
+ 基于 状态 观测器 的 非线性 相似 组合 
+ 大 系统 的 镇定 设计 1 ） 
+ 严星 刚 　 吕兴亚 　 张嗣 瀛 
+ 摘 　 要 　 研究 了 由 非线性 相似 子系统 经 时变 非线性 互联 而成 的 非线性 组合 大 系统 . 首先 ， 设计 出该 组合 大 系统 的 状态 观测器 ， 然后 ， 给出 一种 基于 此 观测器 所得 的 估计 状态 使 整个 大 系统 镇定 的 控制器 设计方案 ， 其 结果表明 相似 结构 能 简化 组合 大 系统 的 分析 与 设计 . 最后 ， 将 所得 结论 应用 于轴盘 传动系统 ， 仿真 结果表明 所得 方法 的 有效性 . 
+ 关键词 　 相似 组合 大 系统 ， 状态 观测器 ， 镇定 . 
+ OBSERVER - BASEDSTABILIZATIONFORNONLINEAR 
+ COMPOSITESYSTEMSWITHSIMILARITY 
+ YANXINGGANG 　 　 L ü XINGYA 　 　 ZHANGSIYING 
+ ( DepartmentofAutomaticControl , NortheastermUniversity , Shenyang 　 110006 ) 
+ Abstract 　 Thispaperstudiesnonlinearcompositelarge - scalesystemswithsimilarity , whichcontaintime - varyinginterconnections . First , akindofobserverispresentedforthesystmes . Then , theobserver - basedcontrollerswhichareusedtostabilizethelarge - scalesystemsaredesigned . Itshowsthatsimilarstructurecansimplifytheanalysisanddesignofsystems . Finally , theconclusionisappliedtoadisk - shaftsystemandthesimulationshowsthatourmethodiseffective . 
+ Keywords 　 Compositelarge - scalesystemswithsimilarity , stateobserver , stabilization . 
+ 1 　 引言 
+ 　 　 自 状态 空间 描述 被 引入 控制 领域 之后 ， 状态 反馈 镇定 取得 了 许多 研究成果 ［ 1 — 3 ］ . 由于 实际 系统 状态 的 不 可知性 ， 且 对 非线性 系统 ， 分别 用 估计 状态 和 真实 状态 镇定 可能 会 产生 不同 甚至 截然 相反 的 结论 ［ 3 ， 4 ］ . 所以 ， 研究 用 估计 状态 对 非线性 系统 进行 镇定 是 非常 必要 的 . 近年来 ， 基于 估计 状态 的 镇定 设计 对于 线性组合 大 系统 ［ 5 ， 6 ］ 及 非线性 系统 ［ 4 ， 7 ， 8 ］ 已 取得 了 一些 成果 ， 但 对于 非线性 组合 大 系统 ， 这方面 的 研究成果 极少 . 充分利用 系统 的 结构 属性 是 解决 特殊 非线性 组合 大 系统 有关 问题 的 有效途径 ， 如 级联 结构 ［ 1 ］ ， 对称 结构 ［ 2 ］ 以及 相似 结构 等 . 本文 将 对 一类 具有 相似 结构 的 非线性 组合 大 系统 给出 其用 估计 状态 进行 镇定 的 设计方案 ， 并 通过 仿真 实例 说明 所得 结论 的 有效性 . 
+ 2 　 系统 描述 及 预备 知识 
+ 　 　 引入 一些 记号 ： V ω n ( Ω ) — — Ω 上 的 n 维 解析 向量场 集合 ； Q > 0 — — Q 是 正定 阵 ； λ M ( A ) — — 矩阵 A 的 最大 奇异 值 ； λ m ( A ) — — 矩阵 A 的 最小 特征值 ； R + — — 非负 实数 集 . 
+ 　 　 考虑 两个 非线性 系统 
+ 
+ 其中 x , z ∈ Rn , u = ( u1 , u2 , … , um ) T , y ∈ Rm 分别 是 Σ 1 和 Σ 2 的 状态 ， 输入 和 输出 . 
+ 　 　 定义 1 . 如果 存在 x0 某 邻域 E 上 的 微分 同 胚 T ： x → z , 使得 系统 Σ 1 在 z 坐标 下 和 Σ 2 具有 相同 的 形式 ， 则 称 系统 Σ 1 在 E 上 相似 于 系统 Σ 2 ， 并称 T 为 Σ 1 到 Σ 2 的 相似 元 . 
+ 　 　 引理 1 ［ 4 ］ . 设在 区域 Θ 上 ， 系统 相似 ， 相似 ， 且 的 相似 元 相同 . 如果 Σ 2 是 Σ 1 的 状态 观测器 ， 则 的 状态 观测器 . 
+ 　 　 考虑 非线性 组合 大 系统 
+ 
+ ( 1 ) 
+ 其中 　 分别 是 第 i 个 子系统 的 状态 向量 ， 输入 和 输出 ， Gi ( xi ) = ( gi1 ( xi ) , gi2 ( xi ) , … , gim ( xi ) ) , fi ( xi ) , gij ( xi ) ∈ V ω n ( Ω i ) , Hi ( x , t ) ∈ V ω n ( Ω × R + ) 是 互联 项 ， 这里 Ω i 是 xi = 0 的 邻域 ， Ω = Ω 1 × Ω 2 × … × Ω N . 不失 一般性 ， 假设 fi ( 0 ) = Hi ( 0 , t ) = 0 , hij ( 0 ) = 0 , 其中 j = 1 , 2 , … , m , 　 x = col ( x1 , x2 , … , xN ) . 
+ 　 　 为了 研究 系统 ( 1 ) 的 基于 估计 状态 的 镇定 问题 ， 需要 引入 两个 基本 假设 
+ 　 　 A1 ) 　 非线性 组合 大 系统 ( 1 ) 的 N 个 孤立 子系统 是 彼此 相似 的 ； 
+ 　 　 A2 ) 　 非线性 组合 大 系统 ( 1 ) 有 一个 孤立 子系统 相似 于 能 控能观 的 线性系统 . 
+ 　 　 引理 2 ［ 9 ］ . 设 P 是 n 阶 正定 阵 ， 是 满足 Lipschitz 条件 的 n 维 向量 函数 ， 且 其 Lipschitz 常数 为 γ ， 则 对 任意 的 有 
+ 
+ 3 　 状态 观测器 的 设计 
+ 　 　 考虑 满足 假设 A1 ) ， A2 ) 的 系统 ( 1 ) . 此时 它 可 看作 由 相似 的 子系统 互联 而成 ， 称其为 相似 组合 系统 ， 由 假设 A1 ) ， A2 ) 易知 ， 系统 ( 1 ) 的 所有 孤立 子系统 均 相似 于 能 控能观 线性系统 
+ 
+ ( 2 ) 
+ 即 存在 微分 同 胚 
+ 
+ ( 3 ) 
+ ( T 可 由 几何 方法 直接 求 出 ) 使得 在 T 确定 的 坐标 z 下 相似 组合 大 系统 ( 1 ) 具有 形式 
+ 
+ ( 4 ) 
+ 其中 
+ 
+ ( 5 ) 
+ 由 ( A ， B ， C ) 的 能 控能 观性 知 ， 存在 矩阵 K 和 L 使得 A - BK 和 A - LC 均 为 Hurwitz 稳定 阵 ， 故对 任意 正定 阵 Q1 , Q2 , 下述 Lyapunov 方程 分别 有 唯一 正定 解 矩阵 P1 , P2 
+ ( A - LC ) TP1 + P1 ( A - LC ) = - Q1 , 
+ ( 6 ) 
+ ( A - BK ) TP2 + P2 ( A - BK ) = - Q2 . 
+ ( 7 ) 
+ 现在 构造 系统 
+ 
+ ( 8 ) 
+ 其中 i = 1 , 2 , … , N , L 由 ( 6 ) 式 确定 . 于是 ， 有如 下结论 ： 
+ 　 　 定理 1 . 设 系统 ( 1 ) 是 满足 假设 A1 ) ， A2 ) 的 非线性 组合 大 系统 ， 如果 
+ 　 　 i ) Ψ i ( z , t ) 在 T ( Ω ) 上 关于 t ∈ R + 一致 满足 Lipschitz 条件 ， 且 其 Lipschitz 常数 为 γ i ， 其中 Ψ i ( z , t ) 由 ( 5 ) 式 确定 ， i = 1 , 2 , … , N ; 
+ 　 　 ii ) Q1 - γ 2P21 - I > 0 , 其中 γ = max γ 1 , γ 2 , … , γ N ， P1 , Q1 由 ( 6 ) 式 确定 ， 则 ( 8 ) 式 是 ( 1 ) 式 的 渐近 状态 观测器 ， 即 
+ 　 　 证明 . 构造 系统 
+ 
+ ( 9 ) 
+ 其中 　 A ， B ， C 同 ( 2 ) 式 ， Ψ i 由 ( 5 ) 式 确定 ， L 由 ( 6 ) 式 确定 . 
+ 　 　 首先 ( 9 ) 是 系统 ( 4 ) 的 渐近 状态 观测器 . 事实上 ， 令则 误差 方程 为 
+ 
+ ( 10 ) 
+ 对系统 ( 10 ) ， 构造 正定 函数 由 ( 6 ) 式 及 引理 2 有 
+ 
+ 其中 　 　 e = ( eT1 , eT2 , … , eTN ) T . 再 由 定理 1 条件 ii ) 是 负定 的 ， 所以 ， 系统 ( 10 ) 渐近 稳定 ， 即 ( 9 ) 式 是 系统 ( 4 ) 的 渐近 状态 观测器 . 考察 系统 ( 1 ) ， ( 4 ) ， ( 8 ) 和 ( 9 ) 的 结构 形式 ， 容易 验证 ， 系统 ( 1 ) 和 ( 4 ) 相似 ， ( 8 ) 和 ( 9 ) 相似 ， 而 由 上述 分析 知 系统 ( 9 ) 是 系统 ( 4 ) 的 状态 观测器 ， 结合 引理 1 即得 ( 8 ) 式 为 系统 ( 1 ) 的 渐近 状态 观测器 . 
+ 4 　 基于 观测器 的 控制 设计 
+ 　 　 考虑 系统 ( 1 ) . 由 Ψ i ( z , t ) ∈ V ω n ( T ( Ω ) × R + ) 及 Ψ i ( 0 , t ) = 0 知 ［ 10 ， 11 ］ Ψ i ( z , t ) 可 表示 为 
+ 
+ ( 11 ) 
+ 定理 2 . 设 系统 ( 1 ) 是 满足 假设 A1 ) ， A2 ) 的 非线性 组合 大 系统 ， 如果 
+ 　 　 i ) Ψ i ( z , t ) 在 T ( Ω ) 上 关于 t ∈ R + 一致 满足 Lipschitz 条件 ， 且 其 Lipschitz 常数 为 γ i ; 
+ 　 　 ii ) Q1 - γ 2P21 - I > 0 ， 其中 γ = max { γ 1 , γ 2 , … , γ N } , P1 , Q1 由 ( 6 ) 式 镇定 ； 
+ 　 　 iii ) WT ( x ) + W ( x ) 在 区域 Ω 上 正定 ， 其中 W ( x ) = ( wij ) N × N , 
+ 
+ 则 系统 ( 1 ) 可用 观测器 ( 8 ) 给出 的 估计 状态 镇定 . 
+ 　 　 证明 . 首先 设计 控制器 
+ ui = KTi ( xi ) , 　 　 i = 1 , 2 , … , N . 
+ ( 12 ) 
+ 其中 　 K 由 ( 7 ) 式 确定 ， 考察 系统 
+ 
+ ( 13 ) 
+ 
+ ( 14 ) 
+ 
+ ( 15 ) , ( 16 ) 
+ 其中 　 L ， K 分别 由 ( 6 ) ， ( 7 ) 式 确定 . 显然 只 需 证明 系统 ( 13 ) — ( 16 ) 是 渐近 稳定 的 即可 . 
+ 　 　 构造 微分 同胚则 在 Di 确定 的 坐标 z 下 ， 系统 ( 13 ) — ( 16 ) 可 表示 为 
+ 
+ ( 17 ) 
+ 
+ ( 18 ) 
+ 
+ ( 19 ) , ( 20 ) 
+ 令 　 则 系统 ( 17 ) — ( 20 ) 的 渐近 稳定性 等价 于 系统 
+ 
+ 的 渐近 稳定性 . 对系统 ( 21 ) ， 构造 正定 函数 
+ 
+ 其中 　 P1 , P2 分别 由 ( 6 ) ， ( 7 ) 式 确定 ， α 是 待定 正常 数 . 则 
+ 
+ ( 22 ) 
+ 记 　 e = ( eT1 , eT2 , … , eTN ) T , z = ( zT1 , zT2 , … , zTN ) T , Ψ = ( Ψ T1 , Ψ T2 , … , Ψ TN ) T . 由 引理 2 得 
+ 
+ ( 23 ) 
+ 由 基本 不等式 及 ( 11 ) 式 有 
+ 
+ ( 24 ) 
+ 结合 ( 22 ) — ( 24 ) 式 即 得 
+ 
+ 由 定理 2 的 条件 ii ) 知 ， 存在 α 使得 α ( Q1 - γ 2P21 - I ) - λ M ( ( P2BK ) 2 ) I 正定 ， 结合 条件 iii ) 即知 负定 ， 所以 ， 系统 ( 21 ) 渐近 稳定 . 由于 微分 同 胚 不 影响 系统 的 渐近 稳定性 ， 故由 ( 21 ) 式 在 区域 T （ Ω ) 上 的 渐近 稳定性 即得 系统 ( 13 ) — ( 16 ) 在 区域 Ω 上 渐近 稳定 . 所以 系统 ( 1 ) 可用 ( 8 ) 式 给出 的 估计 状态 借助于 控制器 ( 12 ) 进行 镇定 . 
+ 5 　 仿真 例子 
+ 　 　 考虑 图 1 的 轴盘 传动系统 ， 其 动态 系统 模型 见 文献 ［ 12 ］ ， 当时 ， 轴盘 传动系统 的 动态 系统 模型 是 具有 相似 结构 的 组合 系统 
+ 
+ ( 25 ) , ( 26 ) 
+ 
+ ( 27 ) 
+ 
+ ( 28 ) 
+ 
+ 图 1 　 轴盘 传动系统 
+ 其中 输出 y1 , y2 是 添加 的 . 参考文献 ［ 12 ］ 选取 参数 
+ 则 设定 则 
+ 
+ 取则 系统 ( 25 ) — ( 28 ) 的 渐近 状态 观测器 为 
+ 
+ ( 29 ) 
+ 
+ 
+ ( 30 ) 
+ 由 观测器 ( 29 ) — ( 30 ) 所得 估计 状态 与 系统 ( 25 ) — ( 28 ) 的 状态 误差 的 误差 曲线 如图 2 . 其中 初值 输入 u1 = 10sint , u2 = - 3e - t . 
+ 
+ 图 2 　 误差 曲线 
+ 　 　 由 定理 2 知 ， 利用 观测器 ( 29 ) — ( 30 ) 所得 的 估计 状态 借助于 控制器 
+ 
+ ( 31 ) 
+ 能 使 系统 ( 25 ) — ( 28 ) 镇定 . 且 基于 估计 状态 反馈 的 响应 曲线 如图 3 所示 . 仿真 结果表明 本文 的 方法 是 有效 的 . 
+ 
+ 图 3 　 基于 观测器 的 状态 响应 曲线 x ( t ) 
+ 　 　 上述 研究 及 仿真 表明 ， 相似 结构 能 简化 大 系统 的 理论 分析 及 工程设计 . 由于 利用 了 几何 方法 对大 系统 的 孤立 子系统 进行 线性化 ， 所以 所得 结论 的 镇定 域 一般 比较 大 ， 通常 能 满足 实际 问题 的 需要 ， 这是 近似 线性化 方法 ［ 7 ， 8 ］ 所 不及 的 . 另外 ， 还 给出 了 处理 时变 非线性 互联 项 的 一种 方法 ， 该 方法 不但 适合 于 非线性 相似 组合 大 系统 ， 且 适合 于 更 广泛 的 一类 组合 大 系统 . 
+ 1 ) 　 国家自然科学基金 、 国家教委 博士点 基金 资助 项目 . 
+ 作者简介 ： 
+ 　 　 严星 刚 　 1964 年 生于 陕西 渭南 . 1985 年 在 陕西 师范大学 数学系 获 理学 学士 ， 1988 年 在 曲阜师范大学 运筹 与 控制 专业 获 理学 硕士 . 1992 年 在 青岛大学 数学系 晋升为 讲师 . 1994 年 9 月 考入 东北大学 自控 系 攻读 博士学位 . 主要 研究 方向 为 非线性 相似 组合 大 系统 的 结构 及 全息 控制 和 鲁棒控制 ， 包括 一般 非线性 控制系统 的 几何 理论 和 滑模 控制 理论 与 应用 . 
+ 　 　 吕兴亚 　 1965 年 生于 辽宁沈阳 . 分别 于 1987 年 、 1990 年 在 中国 纺织 大学 自动化系 获工学 学士 、 硕士学位 . 1994 年 9 月 考入 东北大学 自控 系 攻读 博士学位 . 主要 研究 方向 为 相似 组合 大 系统 的 结构 及 自 适应控制 和 鲁棒控制 . 
+ 　 　 张嗣 瀛 　 简介 见 本刊 第 21 卷 第 5 期 . 
+ 作者 单位 ： 东北大学 自动控制 系 　 沈阳 　 110006 
+ 参考文献 
+ 　 [ 1 ］ 　 QuZhihua , DaswsonDarrenM . Robustcontrolofcascadedandindividuallyfeedbacklinearizationnonlinearsystems . Automatica.1994 , 30 ( 6 ) : 1057 — 1064 . 
+ 　 [ 2 ] 　 YangGuanghong , ZhangSiying . Stabilizingcontrollersforuncertainsymmetriccompositesystems . Automatica.1995 , 30 ( 2 ) : 337 — 340 . 
+ 　 [ 3 ] 　 陈彭年 ， 韩正 之 ， 张钟俊 . 非线性 控制系统 镇定 的 若干 进展 . 控制 理论 与 应用 ， 1995 ， 12 ( 4 ) ： 401 — 409 . 
+ 　 [ 4 ] 　 井元伟 ， 严星 刚 ， 张嗣 瀛 . 基于 状态 观测器 的 伪 非线性 系统 的 镇定 与 设计 . 控制 与 决策 ， 1996 ， 11 ( 1 ) ： 28 — 33 . 
+ 　 [ 5 ] 　 ChaeSeog , BienZeungnam . Decentralizedobserver - basedstabilizationforaclassofinterconnectedsystems . Int . J . Contr . , 1989 , 50 ( 6 ) : 2365 — 2379 . 
+ 　 [ 6 ] 　 ChaiW , LohNank , PooAN . Stabilizinguncertaindiscrete - timesystemsbyobserver - basedcontrol . Int . J . SystSci . , 1994 , 25 ( 1 ) : 761 — 769 . 
+ 　 [ 7 ] 　 DelepautC , BastinG , GeversM . Stabilizationofnonlinearsystemsbymeansofstateestimatefeedback . In : Proceedingsofthe28thIEEEConferenceonDecisionandControl . Florida , 1989 , 1042 — 1046 . 
+ 　 [ 8 ] 　 NicosiaS , TomeiP , TornambeA . Observer - basedcontrolforaclassofnonlinearsystems . Int . J . Contr . , 1990 , 50 ( 6 ) : 553 — 566 . 
+ 　 [ 9 ] 　 RaghavanSekhar , HedrickJKarl . Observerdesignforaclassofnonlinearsystems , Int . J . Contr . , 1994 , 25 ( 6 ) : 1053 — 1066 . 
+ 　 [ 10 ] 　 ZhengDazhong , Decentralizedoutputstabilizationofinterconnectedsystemsusingoutputfeedback . IEEETransAutomatContr.1989 , 34 ( 12 ) : 1297 — 1300 . 
+ 　 [ 11 ] 　 严星 刚 ， 井元伟 ， 张嗣 瀛 . 一类 参数 不 确定 非线性 系统 的 鲁棒 稳定性 . 控制 理论 与 应用 . 1996 ， 13 ( 3 ) : 395 — 399 . 
+ 　 [ 12 ] 　 HanMC , ChenYH . Decentralizedrobustcontroldesignforsystemswithstronginterconnections . In : Proceedingsofthe1993AmericanControlConfernce.1993 , 3279 — 3283 . 
+ 收稿 日期 　 1995 - 12 - 14 

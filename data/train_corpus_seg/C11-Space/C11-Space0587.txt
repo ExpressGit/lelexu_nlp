@@ -1,0 +1,37 @@
+上海 航天 
+ AEROSPACESHANGHAI 
+ 2001Vol.18 No.2 P.15 - 23 
+ 
+ 
+ 
+ 
+ FY - 1C 卫星 10 通道 扫描 辐射计 
+ 郑亲波 　 翁垂骏 　 王维扬 　 龚惠兴 　 
+ 摘 　 要 ： 详细 介绍 了 用于 FY - 1C 卫星 的 10 通道 扫描 辐射计 系统 性能 、 光学 设计 、 电子学 设计 、 辐射 定标 和 主要 元 部件 的 指标 性能 以及 卫星 发射 后 的 在 轨 测试 结果 。 同时 还 与 当前 国际 同类 仪器 的 水平 进行 了 比较 。 
+ 关键词 ： 红外 遥感 系统 ； 红外扫描 系统 ； 辐射计 
+ 分类号 ： TN215 ; TP722.5 　 文献 标识码 ： A 
+ 文章 编号 ： 1006 － 1630 ( 2001 ) 02 － 0015 － 09 
+ 10 - BandScanningRadiometerofFY - 1CSatellite 
+ ZHENGQin - bo （ ShanghaiInstituteofTechnicalPhysics , ChineseAcademyofSciences , Shanghai200083 , China ） 　 
+ WENGChui - jun （ ShanghaiInstituteofTechnicalPhysics , ChineseAcademyofSciences , Shanghai200083 , China ） 　 
+ WANGWei - yang （ ShanghaiInstituteofTechnicalPhysics , ChineseAcademyofSciences , Shanghai200083 , China ） 　 
+ GONGHui - xing （ ShanghaiInstituteofTechnicalPhysics , ChineseAcademyofSciences , Shanghai200083 , China ） 　 
+ 
+ Abstract ： 10 - bandscanningradiometerisamainloadofFY - 1Cmeteorologicalsatellite . Thepaperintroducesopticdesign , electronicdesign , radiationcalibrationandperformanceofthecomponentindetail . Testingresultoftheremotesensoronafter - launchedsatelliteisgivenandcomparedwithsimilarsensorsabroad . 
+ Keywords ： Infraredremotesensingsystem ； Infraredscanningsystem ； Radiometer 
+ 作者简介 ： 郑亲波 ( 1944 - ) 男 ， 研究员 ， 博士生 导师 ， 上海市 宇航 学会 会员 ， 风云 一号 ( 02 批 ) 气象卫星 副总 设计师 ， 研究 领域 ： 空间 光电 遥感技术 。 
+ 作者 单位 ： 郑亲波 （ 中国科学院 上海 技术 物理 研究所 ， 上海 200083 ） 　 
+ 　 　 　 　 　 翁垂骏 （ 中国科学院 上海 技术 物理 研究所 ， 上海 200083 ） 　 
+ 　 　 　 　 　 王维扬 （ 中国科学院 上海 技术 物理 研究所 ， 上海 200083 ） 　 
+ 　 　 　 　 　 龚惠兴 （ 中国科学院 上海 技术 物理 研究所 ， 上海 200083 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ FY - 1B 气象卫星 在 轨 测试报告 [ R ] . 国家 卫星 气象 中心 , 1990 . 
+ ［ 2 ］ FY - 1C 气象卫星 在 轨 测试报告 [ R ] . 国家 卫星 气象 中心 , 1999 . 
+ ［ 3 ］ 三个 海洋 通道 的 在 轨 测试报告 [ R ] . 国家海洋局 二 所 , 1999 . 
+ ［ 4 ］ Advancedveryhighresolutionradiometer / 3 [ R ] . Nas - 530384 . 
+ ［ 5 ］ CharacteristicsoftheAVHRR / 3andHIRS / 3forNOAAK , L , M [ R ] . FourthConferenceonMeteorologyandOceanography , 1989 , 16 - 19 . 
+ 
+ 收稿 日期 ： 2000 年 10 月 25 日 
+ 修稿 日期 ： 2001 年 1 月 3 日 
+ 出版日期 ： 2001 年 4 月 25 日 

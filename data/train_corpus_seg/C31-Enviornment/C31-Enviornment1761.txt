@@ -1,0 +1,43 @@
+环境 科学研究 
+ RESEARCHOFENVIRONMENTALSCIENCES 
+ 2001Vol.14 No.3 P.29 - 32 
+ 
+ 
+ 
+ 
+ 偶氮染料 生产废水 的 处理工艺 技术 研究 
+ 李庄 　 曾 光明 　 高兴 斋 　 
+ 摘 　 要 ： 偶氮染料 废水 具有 高 CODCr 、 高 色度 、 有机物 成分 复杂 等 特点 。 根据 清污 分流 的 原则 ， 确定 处理工艺 方案 为 ： 首先 对 高浓度 偶氮染料 工艺 废水 采用 中 和 — 电解 — 臭氧 氧化 进行 预处理 后 ， 再 与 低浓度 废水 按 比例 混合 混凝 处理 。 经 大量 工艺 实验 确定 全 流程 工艺 条件 为 ： 废水 pH 中性 、 电解 电压 10V 、 电流密度 0.018 A / cm2 、 电解 时间 2h , O3 氧化 时间 为 2h ， 混凝剂 环保 1 # 和 3 # 浓度 各为 250mg / L 。 CODCr 、 色度 的 去除率 分别 可以 达到 99.6% ， 99.9% 。 可以 达标排放 。 
+ 关键词 ： 偶氮染料 ； 废水处理 ； 电解 ； O3 氧化 ； 混凝 
+ 分类号 ： X788 　 文献 标识码 ： A 
+ 文章 编号 ： 1001 - 6929 ( 2001 ) 03 - 0029 - 04 
+ StudyontheTreatmentProcessTechniqueofWastewaterfromAzoDyeProduction 
+ LIZhuang （ DepartmentofEnvironmentEngineeringandSciencesofHunanUniversity , Changsha410082 , China ） 　 
+ ZENGGuang - ming （ DepartmentofEnvironmentEngineeringandSciencesofHunanUniversity , Changsha410082 , China ） 　 
+ GAOXing - zhai （ InstituteofEnvironmentProtectionScienceofHunanProvince , Changsha410004 , China ） 　 
+ 
+ Abstract ： hewastewaterofazodyeischaracterizedwithhighCODCr , highcolorityandcomplicationoforganiccomponents . Accordingtothecharacteristicofthewastewater , thehighconcentrationwastewaterofazodyewasfirstlypre - treatedbyneutralization - electrolysis - ozonizationprocess , thenwascompoundedwithlowconcentrationwastewaterinproportion , andtreatedbycoagulatingprocess . Thewholeprocessoptimumconditionsweredeterminedasfollows : pHofneutrality , 10Vofelectrolysisvoltage , 0.018 A / cm2ofelectricalcurrentdensity , 2hofozonization , 250mg / Lofenvironment - protectingcoagulant1 # , 3 #. TheremovalratesofCODCrandcolorityare99.6% and99.9% respectively . Theeffluentqualitycanreachrequirementsofwastewaterdischargestandards . 
+ Keywords ： azodye ; wastewatertreatment ; electrolysis ; ozonization ; coagulant 
+ 基金项目 ： 湖南省 科委 科技 项目 
+ 作者简介 ： 李庄 ( 1968 - ) ， 女 ， 新疆 人 ， 助理 研究员 ， 硕士 研究生 . 
+ 作者 单位 ： 李庄 （ 湖南大学 环境 科学 与 工程系 ， 湖南 长沙 410082 ） 　 
+ 　 　 　 　 　 曾 光明 （ 湖南大学 环境 科学 与 工程系 ， 湖南 长沙 410082 ） 　 
+ 　 　 　 　 　 高兴 斋 （ 湖南省 环境保护 科学 研究所 ， 湖南 长沙 410004 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ 刘 华丽 . 印染 废水 的 生物 处理 技术 [ J ] . 环境 科学 与 技术 , 1996 , 72 ( 1 ) ： 42 . 
+ ［ 2 ］ 候毓汾 , 朱正华 , 王任 之 . 染料 化学 [ M ] . 北京 ： 化学工业 出版社 , 1994.40 . 
+ ［ 3 ］ 李家 珍 . 染料 、 染色 工业废水 处理 [ M ] . 北京 ： 化学工业 出版社 , 1997.6 . 
+ ［ 4 ］ 戴树桂 , 宋 文华 , 李彤 , 等 . 偶氮染料 结构 与其 生物降解 性关系 研究进展 [ J ] . 环境 科学 进展 , 1996 , 4 ( 6 ) ： 1 ～ 9 . 
+ ［ 5 ］ 安虎仁 , 钱易 , 顾夏声 , 等 . 厌氧 条件 下 染料 的 生物降解 性能 与 染料 废水处理 的 研究 [ J ] . 化工 环保 , 1994 , 14 ( 4 ) ： 200 ～ 204 . 
+ ［ 6 ］ 陈延禧 . 电解 工程 [ M ] . 天津 ： 科学出版社 , 1993.302 , 117 , 11 . 
+ ［ 7 ］ 西部 庆一 . 反应 性 染料 水溶液 の 电解法 に よ る 脱色 [ J ] . 电气化 学 , 1980 , 48 ( 4 ) ： 267 ～ 270 . 
+ ［ 8 ］ 中岛 保夫 . 金属 酸化 物型 电极 に よ る 着色 染料 废液 の 电解 脱色 法 の 检讨 [ J ] . 电气化 学 , 1994 , 62 ( 1 ) ： 1086 ～ 1088 . 
+ ［ 9 ］ McClungSM , LemleyAnnT . ElectrochemicaltreatmentandHPLCanalysisofwastewatercontainingaciddyes [ J ] . TextileChemistandColorist , 1994 , 26 ( 8 ) : 17 ～ 22 . 
+ ［ 10 ］ 钱 中坻 , 范秉宪 , 刘红雷 , 等 . 极谱法 对 酸性染料 还原性 的 研究 [ J ] . 染料 工业 , 1993 , 30 ( 5 ) ： 5 ～ 10 . 
+ ［ 11 ］ 冀滨弘 . 染料 工业废水 处理 的 现状 与 进展 [ J ] . 污染 防治 技术 , 1998 , 11 ( 4 ) ： 250 ～ 253 . 
+ ［ 12 ］ 胡文容 , 钱 梦 , 高廷耀 , 等 . 超声 强化 臭氧 氧化 偶氮染料 的 脱色 效能 [ J ] . 中国 给排水 , 1999 , 15 ( 11 ) ： 1 ～ 4 . 
+ ［ 13 ］ 国家环保局 . 水 和 废水 监测 分析方法 . 北京 ： 中国 环境 科学出版社 , 1989 . 
+ 
+ 收稿 日期 ： 2000 年 9 月 4 日 
+ 出版日期 ： 2001 年 5 月 30 日 

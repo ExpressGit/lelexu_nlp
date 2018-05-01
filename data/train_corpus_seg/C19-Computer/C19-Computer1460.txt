@@ -1,0 +1,62 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 　 第 23 卷 　 第 6 期 　 Vol.23 　 No.6 　 1997 
+ 
+ 
+ 
+ 
+ ( J , J ′ ) - 无损 因子 分解 中 的 若干 问题 研究 1 ) 
+ 裘聿皇 　 张本 勇 
+ 　 　 关键词 　 链式 散射 描述 ， ( J , J ′ ) - 无损 因子 分解 ， H ∞ 控制 问题 . 
+ ONSOMEPROBLEMSIN ( J , J ′ ) - LOSELESS 
+ FACTORIZATION 
+ QIUYUHUANG 　 　 ZHANGBENYONG 
+ ( InstituteofAutomation , 　 ChineseAcademyofSciences , 　 Beijing100080 ) 
+ Keywords 　 Chainscatteringdescription , ( J , J ′ ) - loselessfactorization , H ∞ control . 
+ 1 　 引言 
+ 　 　 在 文 ［ 1 ］ 中 利用 链式 散射 描述 ( CSD ) 求解 H ∞ 控制 问题 ， 曾 指出 ( J , J ′ ) - 无损 因子 分解 在 H ∞ 控制 问题 中起 了 关键作用 ， 文 ［ 2 — 4 ］ 也 有 类似 看法 . 基于 CSD 和 ( J , J ′ ) - 无损 因子 分解 ， 可以 给出 H ∞ 控制 问题 的 一个 简明 的 统一 框架 ， 避开 了 控制器 镇定 参数 化 和 模型 匹配 问题 ［ 5 ］ . 
+ 　 　 ( J ， J ′ ) - 无损 因子 分解 是 相当 一般 的 分解 ， 它 的 特例 包括 稳定 阵 的 内外 因子 分解 、 镇定 阵 的 Wiener - Hopf 分解 等 . 因此 ， 它 在 系统 理论 中 也 有 重要 意义 . 
+ 　 　 ( J ， J ′ ) - 无损 因子 分解 存在 的 必要条件 之一 是 存在 非异 方阵 D π ∈ R ( p + q ) × ( p + q ) 满足 
+ DT π Jp , qD π = DTJm , rD 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 如果 存在 ， 可 使用 D π 来 参数 化 ( J ， J ′ ) - 无损 因子 分解 的 因子 ， 其中 Jm , r = diag ｛ Im ， - Ir ｝ , Jp , 
+ q = diag ｛ Ip , - Iq ｝ , m ≥ p ≥ 0 , r ≥ q ≥ 0 , D ∈ R ( m + r ) × ( p + q ) . 
+ 　 　 文 ［ 3 ， 7 ］ 等 讨论 了 状态 空间 上 基于 Riccati 方程 计算 ( J ， J ′ ) - 无损 因子 分解 . Tsai ［ 7 ］ 和 Kimura ［ 4 ］ 都 仅 对 D 的 一种 特殊 情况 给出 D π 的 一个 解 ， 这 不 适合 实际 的 控制器 设计 计算 . 本文 对 一般 情形 指出 方程 ( 1 ) 有解 的 条件 及其 数值 算法 . 该 算法 已经 在 Matlab 环境 中 实现 ， 并 用于 我们 开发 的 基于 链式 散射 描述 ( CSD ) 求解 H ∞ 控制 问题 的 程序 中 . 
+ 　 　 正如 Kwarkernaak 所 指出 ［ 9 ］ ， 目前 已有 的 解决 H ∞ 控制 问题 的 方法 的 假设 条件 均 不 完全一致 ， 研究 这些 方法 的 相互 联系 将会 促进 对 H ∞ 控制 的 理解 . 本文 研究 了 基于 链式 散射 描述 ( CSD ) 求解 H ∞ 控制 问题 的 方法 与 经典 的 DGKF 方法 假设 条件 的 联系 ， 发现 CSD 方法 中 D π 存在 的 假设 与 DGKF 方法 的 假设 条件 A2 是 一致 的 . 
+ 2 　 矩阵 方程 ： XTJp , qX = S 有解 的 充要条件 及 算法 
+ 　 　 由 惯性 定理 易知 ， 矩阵 方程 
+ XTJp , qX = S 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 有解 的 充要条件 是 ： S 恰有 p 个 正 的 特征值 和 q 个 负 的 特征值 . 其中 X ∈ R ( p + q ) × ( p + q ) 为 非异 方阵 ， Jp , q = diag ｛ Ip , - Iq ｝ , S 为实 对称 阵 . 由此 得 求解 方程 ( 2 ) 的 算法 如下 ： 
+ 　 　 ( 1 ) 将 S 进行 正交 分解 ， S = U Λ UT ， 其中 Λ 为 对角 阵 ， 其 对角 元素 可能 正负 交叉 排列 ， U 为 正交 矩阵 . 
+ 　 　 ( 2 ) 判断 方程 是否 有解 ， 如果 Λ 恰有 p 个 正 的 特征值 和 q 个 负 的 特征值 ， 继续 ； 否则 方程 无 解 ， 退出 . 
+ 　 　 ( 3 ) 将 S 化为 S = U1 Λ 1UT1 ， 其中 Λ 1 = diag ｛ Λ p , - Λ q ｝ , Λ p = diag ｛ λ 1 , … ， λ p ｝ , Λ q = diag ｛ Λ p + 1 , … ， Λ p + q ｝ , λ i ＞ 0 . 实际 计算 时 ， 为 使 Λ 的 前 p 个 特征值 为 正 ， 后 q 个 特征值 为 负 ， 只 需 交换 Λ 的 主 对角线 元素 和 U 的 相应 列即 得 Λ 1 和 U1 ， U1 仍然 为 正交 矩阵 . 
+ 　 　 ( 4 ) 解即 为 X = diag ｛ Λ 1 / 2p ｝ , Λ 1 / 2q ｝ UT1 , 其中 Λ 1 / 2p = diag ｛ λ 1 / 21 , … λ 1 / 2p ｝ , Λ 1 / 2q = diag ｛ λ 1 / 2p + 1 ， … ， λ 1 / 2p + q ｝ . 
+ 　 　 从 算法 可以 看出 ， 解 X 一般 不 唯一 ， 因此 方程 ( 1 ) 中 D π 一般 不 唯一 . 
+ 　 　 计算 实例 . 
+ 
+ 采用 本文 的 算法 ， ( 用 Matlab 语言 实现 ) 计算 出 方程 ( 2 ) 的 解 X 为 
+ 
+ 3 　 D π 矩阵 存在 的 假设 与 DGKF 方法 的 假设 条件 A2 的 关系 
+ 　 　 这里 利用 关于 方程 ( 1 ) 的 可 解性 结果 ， 研究 基于 链式 散射 描述 求解 H ∞ 控制 问题 的 CSD 方法 与 经典 的 DGKF 方法 假设 条件 的 联系 . 考虑 DGKF ［ 6 ， 8 ］ 方法 的 广义 对象 
+ 
+ 在 DGKF 方法 中 的 假设 条件 通常 可以 归纳如下 ： 
+ 　 　 A1 . ( 2 , 2 , 2 ) 可 镇定 和 可 检测 ； 
+ 　 　 A2.12 列满 秩 ， 21 行满 秩 ； 
+ 　 　 A3 . rank = n + p , 　 rank = n + q , ω ∈ R . 
+ 　 　 设 D21 为 可逆 方阵 ， 转换 为 链式 散射 描述 的 系统 
+ 
+ 由 上节 和 ( 1 ) 式 ， D π 存在 当且 仅 当 
+ 
+ 有 p 个 正 的 特征值 和 q 个 负 的 特征值 ， 也 即 T1212 ＞ 0 ， ( - 121 ) T - 121 ＞ 0 . 这 显然 满足 假设 条件 A2 . 
+ 1 ) 国家自然科学基金 资助 课题 . 
+ 作者 单位 ： 中国科学院自动化研究所 　 北京 　 100080 
+ 参考文献 
+ ［ 1 ］ 　 裘聿皇 ， 季红彬 . 链式 散射 描述 与 线性 分式 变换 . 自动化 学报 ， 1994 ， 20 ( 2 ) ： 146 - 153 . 
+ ［ 2 ］ 　 BallJA , CohenN . ThesensitivityminimizationonanH ∞ norm : parameterizationofalloptimalsolution . Int . J . Control , 1987 , 46 ( 4 ) : 785 - 916 . 
+ ［ 3 ］ 　 XinXin , FengChunbo . ( J , J ′ ) - Losslessfactorization - revisited . 控制 理论 与 应用 ， 1995 ， 12 ( 1 ) ： 95 - 100 . 
+ ［ 4 ］ 　 KimuraH . Chain - scatteringrepresentation , J - losslessfactorizaitonandH ∞ control . JournalofMathematicalSystem , EstimationandControl , 1994 . 
+ ［ 5 ］ 　 裘聿皇 . 用 链式 散射 描述 处理 H ∞ 问题 . 见 ： 自动化 学会 第四届 学术会议 文集 ， 珠海 ， 1993 年 11 月 . 
+ ［ 6 ］ 　 DoyleJCetal . State - spacesolutiontostandardH ∞ andH2controlproblems , IEEETrans . AutomaticControl , 1989 , 34 ( 8 ) : 831 - 847 . 
+ ［ 7 ］ 　 TsaiMC , PostlethwaiteI . OnJ - loselesscomprimefactorizationandH ∞ control . Int . J . ofRobustandNonlinearControl , 1991 , 1 ( 1 ) : 47 - 68 . 
+ ［ 8 ］ 　 GloverK , DoyleJC . State - spaceformulaeforallstabilizingcontrollersthatsatifyanH ∞ - normboundedandrelationtorisksensitivity . Systems & ControlLetters , 1988 , 11 : 167 - 172 . 
+ ［ 9 ］ 　 HKwarkernaak . RobustcontrolandH ∞ optimization . Automatica , 1993 , 29 : 255 - 273 . 
+ 收稿 日期 　 1995 - 11 - 17 

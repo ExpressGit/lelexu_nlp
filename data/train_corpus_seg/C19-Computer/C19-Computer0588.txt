@@ -1,0 +1,97 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 第 23 卷 第 5 期 Vol.23 No.51997 
+ 
+ 
+ 
+ 用 含 动态 隐层 的 前馈 网 辨识 
+ 非线性 系统 1 ) 
+ 鲍晓红 　 　 贾 英民 
+ 摘要 　 用 含 动态 隐层 的 前馈 网对 非线性 系统 建立 全局 成立 的 输入输出 模型 ， 证明 了 这种 辨识 结构 的 可行性 ， 网络 学习 算法 为 动态 BP 法 . 
+ 关键词 　 前馈 网 ， 辨识 ， 动态 BP 算法 . 
+ NONLINEARSYSTEMIDENTIFICATIONUSINGFEEDFORWARD 
+ NEURALNETWORKSWITHRECURRENTHIDDENLAYER 
+ BAOXIAOHONG 　 　 JIAYINGMIN 
+ ( TheSeventhResearchDivision , BeijingUniversity 
+ ofAeronauticsandAstronautics , Beijing100083 ) 
+ Abstract 　 Thispaperpresentsafeedforwardneuralnetworkwhichcontainsadynamichiddenlayer ( RHNN ) forthemodelingofanonlinearsystemandthefeasibilityofthisapproachisproved . ThelearningalgorithmisthedynamicBP . InthesimulationacomparisonbetweenRHNNandRFNNformodelinganonlinearsystemismade . 
+ Keywords 　 Feedforwardneuralnetworks , systemidentification , dynamicBPalgorithm . 
+ 1 　 引 　 言 
+ 　 　 人们 在 用 神经网 辨识 非线性 系统 方面 已 做 了 大量 工作 ， 这些 工作 大都 建立 在 非线性 动态 系统 的 输入输出 模型 上 ［ 1 ］ ， 并用 增加 了 输出 时延 反馈 的 多层 前馈 网 ( RFNN ) 来 逼近 它 ， 效果显著 . 但 值得注意 的 是 这种 输入输出 模型 是从 离散 非线性 状态方程 推出 的 局部 成立 的 模型 ［ 1 ］ ， 对原 状态方程 中 的 输入输出 而言 在 全局 上 并不一定 有 此 关系 ， 针对 这个 问题 ， 本文 提出 用 含 动态 隐层 的 前馈 网 ( RHNN ) 直接 对用 状态方程 描述 的 非线性 系统 的 输入输出 关系 建立 网络 模型 ， 学习 算法 为 动态 BP 法 ， 并 在 仿真 中 对 此种 系统 的 输入输出 关系 分别 用 RFNN 和 RHNN 进行 了 辨识 比较 ， 结果表明 后者 能 更 准确 地 辨识 这种 系统 . 
+ 2 　 用 神经网 对 非线性 系统 建模 
+ 　 　 一类 广泛应用 的 非线性 系统 可以 在 大 范围 内 ( 全局 ) 用 如下 模型表示 ： 
+ x ( k + 1 ) = f ( x ( k ) , u ( k ) ) , y ( k ) = h ( x ( k ) , u ( k ) ) . 
+ ( 1 ) , ( 2 ) 
+ 其中 为 系统 内部 状态 ； 为 系统 输入 ； 为 输出 ； f ， h 为 连续函数 . 
+ 　 　 设 系统 ( 1 ) ， ( 2 ) 满足 如下 假设 ： 
+ 　 　 H1 ) 对于 有限 的 M ( 正整数 ) ， 恒有 ‖ x ( M ) ‖ + ‖ y ( M ) ‖ ＜ ∞ ， 即 系统 是 稳定 的 ； 
+ 　 　 H2 ) f , h 满足 Lipschitz 条件 ， 即 系统 的 解是 唯一 的 . 
+ 　 　 定理 1 . 对 满足 H1 ) , H2 ) 的 非线性 系统 ( 1 ) 和 ( 2 ) ， 可以 用 一个 带 动态 隐层 的 四层 前馈 网 ( 如图 1 所示 ) 在 k ∈ [ 0 , M ] 内以 任意 精度 逼近 其 输入输出 特性 ， 即 对 使 
+ 
+ ( 3 ) 
+ 
+ 图 1 　 RHNN 示意图 
+ 　 　 证明 . 用 两个 三层 前馈 网 NNf , NNh 分别 逼近 f ( . ) , h ( . ) . 对 NNf ， 其 参数 Wf = { 1Wf , 2Wf , 1b } , 其中 1Wf ∈ Rn1 × ( n + r ) , 2Wf ∈ Rn × n1 , 1b ∈ Rn1 . 对 NNh ， 其 参数 Wh = { 1Wh , 2Wh , 2b } , 1Wh ∈ Rn2 × ( n + r ) , 2Wh ∈ Rm × n2 , 2b ∈ Rn2 , 则 有 
+ 
+ ( 4 ) 
+ 其中 若 x = ( x1 , … , xn ) T , g ( x ) = ( g ( x1 ) , … , g ( xn ) ) T , 
+ 
+ 令则 有 
+ 
+ ( 5 ) 
+ 又 
+ 
+ ( 6 ) 
+ 再令 则 有 
+ 
+ ( 7a ) 
+ 
+ ( 7b ) 
+ 
+ ( 7c ) 
+ 　 　 又 由 文献 ［ 2 ］ 中 定理 1 ， 存在 相应 维数 的 权值 矩阵 W * f , W * h 使得 ( 3 ) 式 成立 ， 则 由 上述 推导 和 定义 ， 存在 1W * , 2W * , 3W * , HW * , uW * , 1b * , 2b * ， 使 ( 3 ) 式 成立 . 
+ 3 　 网络 的 学习 算法 
+ 　 　 设 Θ 表示 神经网 中 所有 待求 的 权及 阈值 ， 为 简单 计 ， 只 对 MISO 系统 推导 ， MIMO 系统 类似 . 令 预报 误差 定义 目标 函数 
+ 
+ ( 8 ) 
+ N 是 数据 长度 . 则 有 
+ 
+ 式 中 η 为 迭代 步长 ， 取对 各权值 的 导数 . 
+ 　 　 把 动态 神经网 写 为 和 式 
+ 
+ 注意 到 隐层 的 动态性 ， 对 Θ 中 的 不同 分量 ， 有 
+ 
+ 
+ 其中 
+ 
+ 因 Ψ ( k , Θ ) 是 动态 的 所以 又 叫 动态 BP 法 . 
+ 4 　 仿真 与 分析 
+ 　 　 例 . 
+ 
+ 　 　 分别 用 RFNN 的 串 并 法 和 本文 RHNN 的 并联 法 对此 系统 的 输入输出 关系 辨识 ， 若 事先 已知 yp 与 u1 , 2 无 直接 关系 ， 可令 uW = 0 . 仿真 参数 及 结果 如表 1 、 图 2 、 图 3 所示 . 
+ 表 1 
+ 
+ 　 RFNN ( 串 并 法 辨识 ) RHNN ( 并联 辨识 ) 
+ 算法 BP 法 ， η = 0.05 动态 BP 法 ， η = 0.25 
+ 网络结构 4 - 45 - 12 - 10 - 8 - 1 
+ 训练 输入 
+ 训练 步数 k = 20 , 000k = 20 , 000 
+ 预测 输入 
+ 预测 结果 图 2 图 3 
+ 结论 1 ) 2 ) 
+ 
+ 
+ 
+ 图 2 　 用 RFNN 的 预测 结果 
+ 
+ 图 3 　 用 RHNN 的 预测 结果 
+ 　 　 由 上例 及其 它 大量 仿真 可 得 如下 结论 ： 
+ 　 　 1 ) RFNN 对 满足 状态方程 的 非线性 系统 的 输入输出 关系 的 全局 逼近 能力 不强 . 
+ 　 　 2 ) RHNN 对 这种 输入输出 关系 的 描述 能力 比较 强 . 且 此 关系 的 逼近 精度 与 训练 输入 的 频带 有关 ， 若 预测 输入 在 训练 输入 频带 附近 则 预测 精度高 . 
+ 　 　 本文 提出 用 含 动态 隐层 的 四层 前馈 网对 非线性 系统 进行 辨识 ， 证明 了 此 方案 的 可行性 . 网络 学习 算法 为 动态 BP 法 . 仿真 表明 此种 结构 的 网络 通过 学习 对 满足 状态方程 的 非线性 系统 的 输入输出 关系 能 进行 较 好 的 辨识 . 
+ 1 ) 　 国家自然科学基金 资助 项目 . 
+ 作者 单位 ： 北京航空航天大学 第七 研究室 　 北京 　 100083 
+ 参考文献 
+ 　 [ 1 ] 　 LeontaritisIJ , BillingsSA . Input - outputparametricmodelsfornonlinearsystems , partI : Deterministicnon - linearsystems . Int . J . Control , 1985 , 41 ( 2 ) : 303 — 328 . 
+ 　 [ 2 ] 　 刘延年 ， 冯纯伯 . 用 神经网络 进行 非线性 离散 动态 系统 辨识 的 可行性 . 控制 理论 与 应用 ， 1994 ， 11 ( 4 ) ： 413 — 420 . 
+ 收稿 日期 　 1995 - 08 - 17 

@@ -1,0 +1,111 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 5 期 Vol.24 No.51998 
+ 
+ 
+ 
+ 一种 基于 多 分辨 分析 的 脉冲响应 辨识 方法 1 ) 
+ 张建刚 　 张 　 杰 　 毛剑琴 
+ 摘 　 要 　 提出 了 一种 基于 正交 基 展开 方法 的 脉冲响应 辨识 方法 — — 正交 尺度 变换 法 . 这种 方法 以 正交 尺度 函数 展开 的 形式 表示 脉冲响应 函数 ， 对 信号 进行 正交 尺度 变换 ， 并 使用 最小 二乘类 参数 辨识 方法 估计 参数 . 仿真 结果 验证 了 理论 的 正确性 和 方法 的 可行性 . 
+ 关键词 　 多 分辨 分析 ， 正交 尺度 函数 ， 正交 尺度 变换 ， 脉冲响应 . 
+ PULSERESPONSEIDENTIFICATIONAPPROACH 
+ BASEDONMULTIRESOLUTIONANALYSIS 
+ ZHANGJIANGANG 　 　 ZHANGJIE 　 　 MAOJIANQIN 
+ ( TheSeventhDivision , BeijingUniversityofAeronautics & Astronautics , Beijing100083 ) 
+ Abstract 　 Inthispaper , anorthonormalscaletransformationapproachisproposed , whichisapulseresponseidentificationapproachbasedonorthonormalbasisexpansion . Inthisapproach , theorthonormalscalingfunctionexpansionisemployedtoexpresspulseresponse , theinput / outputsignalsaretransformedusingorthonormalscaletransformation , andtheparametersareidentifiedbymeansofLSmethod . Finally , thesimulationresultshaveshownthatthisapproachisfeasible . 
+ Keywords 　 Multiresolutionanalysis , orthonormalscalingfunction , orthonormalscaletransformation , pulseresponse . 
+ 1 　 引言 
+ 　 　 Eykhoff 在 文献 ［ 1 ］ 中 提出 了 线性系统 脉冲响应 的 辨识 的 正交 函数 展开 方法 — — 学习 法 ， 对于 确定性 过程 ， 这种 方法 具有 良好 的 收敛性 . 
+ 　 　 本文 讨论 采用 正交 尺度 函数 展开 表示 脉冲响应 的 辨识 方法 . 正交 尺度 函数 在 频域 和 时域 都 是 紧支 的 ， 尺度 变换 的 局部性 好 ， 因而 具有 良好 的 时频 特性 . 对 信号 进行 正交 尺度 变换 ， 可以 得到 简洁 的 表达形式 ， 并 使用 最小 二乘类 辨识 方法 . 这种 方法 对 确定性 过程 和 随机 过程 都 得到 较 好 的 辨识 精度 . 
+ 2 　 多 分辨 分析 
+ 2.1 　 多 分辨 分析 
+ 　 　 定义 1 ［ 2 ］ . 所谓 多 分辨 分析 ， 是 指 满足 下列 条件 的 一个 子 空间 族 ｛ Vj ｝ ∞ j = - ∞ . 
+ 　 　 1 ) 　 … V - 1V0V1 肌 
+ 　 　 2 ) 　 closL2 ( R ) ( ∪ Vj ) = L2 ( R ) , closL2 ( R ) ( * ) 表示 在 L2 ( R ) 中 的 闭包 . 
+ 　 　 3 ) 　 f ( x ) ∈ Vjf ( 2x ) ∈ Vj + 1 , j ∈ Z . 
+ 　 　 4 ) 　 f ( x ) ∈ Vjf ( x + 2 - j ) ∈ Vj , j ∈ Z . 
+ 　 　 5 ) 　 存在 一个 函数 ⅵ 铡 蔞 0 ， 使 ｛ φ ( . - k ) ; k ∈ Z ｝ 是 具有 Riesz 界 A 与 B 的 V0 的 一个 Riesz 基 . 令 
+ ⅵ 誮 , k ∶ = 2j / 2 φ ( 2jx - k ) , 
+ 对于 每个 j ∈ Z , 函数 族 
+ ｛ φ j , k : k ∈ Z ｝ 
+ 也 是 具有 Riesz 界 A ， B 的 Vj 的 一个 Riesz 基 . 这样 的 φ 称为 尺度 函数 . 
+ 　 　 定义 2 ［ 2 ］ . φ 是 一个 正交 尺度 函数 是 指 ， φ 不仅 生成 L2 ( R ) 的 一个多 分辨 分析 ， 而且 还 满足要求 
+ 〈 φ ( . - k ) , φ ( . - l ) 〉 = δ k , l , 
+ 其中 δ k , l 定义 为 
+ 
+ 2.2 　 多 分辨 分析 中 的 函数 逼近 
+ 　 　 根据 多 分辨 分析 定义 中 性质 2 ) ， 每个 f ( x ) ∈ L2 ( R ) 对 某个 j ∈ Z , 通过 f ( x ) 在 Vj 中 的 投影 Pjf 逼近 f ( x ) . 由 多 分辨 分析 定义 中 性质 5 ) 可 得 
+ 
+ 其中 ｛ φ j , k , k ∈ Z ｝ 为 Vj 的 一组 标准 正交 基 ， cfjk = 〈 f , ⅵ 誮 , k 〉 . 
+ 2.3 　 正交 尺度 函数 的 自 相关 函数 
+ 　 　 定理 1.1 ) 正交 尺度 函数 的 自 相关 函数 
+ 
+ 也 是 一个 尺度 函数 ， 但 不是 正交 尺度 函数 ； 
+ 　 　 2 ) 由 F ( τ ) 生成 的 函数 族 ｛ Fj , k ， k ∈ Z ｝ 生成 多 分辨 分析 ｛ VFj ｝ ∞ j = - ∞ ， 其中 Fj , k 的 定义 为 Fj , k = 2j / 2F ( 2jx - k ) . 
+ 　 　 证明 略 . 
+ 2.4 　 零均 平稳 随机 信号 的 正交 尺度 变换 性质 
+ 　 　 定理 2 . 平稳 随机 信号 v ( t ) 均值 为 零 ， 方差 为 σ 2 ， 其 正交 尺度 变换 系数 序列 ｛ cvjk ｝ ∞ k = - ∞ ， 仍为 零均 平稳 随机 过程 ， 方差 小于 σ 2 ， 且 方差 随 j 增大 而 增大 . 当 v ( t ) 为 高斯 白噪时 ， ｛ cvjk ｝ ∞ k = - ∞ 亦 为 零均 白噪 ， 方差 为 σ 2 . 其中 cvjk = 〈 v ( t ) , φ j , k 〉 . 
+ 　 证明 略 . 
+ 3 　 正交 尺度 变换 法 
+ 　 　 对于 含 噪声 的 LTI 因果 系统 ， 如果 脉冲响应 已知 ， 则 系统 可 描述 为 
+ 　 ( 1 ) 
+ 其中 y ( t ) 为 输出 ， u ( t ) 为 输入 ， v ( t ) 为 干扰 项 . 
+ 3.1 　 正交 尺度 变换 法 
+ 　 　 当 系统 稳定 时 ， 可以 用 脉冲响应 函数 在 Vj 中 的 投影 来 逼近 g ( t ) 
+ 　 ( 2 ) 
+ 　 　 以 Pjg 代替 ( 1 ) 式 中 的 g ( t ) ， 则 可以 得到 一个 逼近 公式 ， 其中 由 g ( t ) - Pjg 所 产生 的 误差 加入 干扰 项 v ( t ) 中 ， 则 有 
+ 
+ 　 　 对 公式 两边 取 正交 尺度 变换 ， 可 得 
+ 　 　 ( 3 ) 
+ 其中 　 　 ( 4 ) ， ( 5 ) ， ( 6 ) 
+ 　 　 极小 化 下列 准则 函数 
+ 
+ 可以 得到 α k , k = 0 , 1 , … , L 的 最小 二乘 估计值 ， 其中 N 为 采样 点数 . 
+ 3.2 　 参数 选择 
+ 　 　 1 ) 　 j 的 选择 
+ 　 　 a ) 对 ( 2 ) 式 作 Fourier 变换 ， 可 得 
+ 
+ ⅵ 誮 , k 的 频带 比 ⅵ 绽 ┱ 2j 倍 ， 要求 ⅵ 誮 , k 的 频带 至少 覆盖 g ( t ) 的 频带 ； 
+ 　 　 b ) 定义 ε = ‖ g - Pjg ‖ ， 当 j 越大时 ε 越小 ， g ( t ) 的 逼近 精度 越高 ； 
+ 　 　 c ) 由 定理 2 可知 ， 对于 非白噪 的 均值 为 零 ， 方差 为 σ 2 平稳 随机 信号 v ( t ) ， 当 j 越大时 ， 噪声 的 正交 尺度 变换 系数 序列 ｛ cvjk ｝ ∞ k = - ∞ 的 方差 越大 ， 越 接近 σ 2 . 
+ 　 　 j 的 选择 要 同时 兼顾 a ) , b ) , c ) 三项 . 采样 周期 T 可以 取作 2 - j . 
+ 　 　 2 ) 　 L 的 选择 . 要求 Pjg 覆盖 过程 的 过渡 过程 ， 若 过程 的 过渡 过程 时间 为 Ts ， 则 L 的 选择 应 满足 Ts / T 芁 . 另外 L 不宜 选得 过 大 ， 否则 会 降低 数值 计算精度 并 加大 计算 量 . 
+ 3.3 　 对 信号 的 降噪 处理 
+ 　 　 噪声 为 高斯 白噪时 ， 最小 二 乘法 得到 的 是 无偏 一致 估计量 . 为 提高 估计 的 性能 ， 在 预处理 中 对 信号 进行 降噪 处理 . 例如 可用 Stein 无偏 风险 估计 法 进行 降噪 . 
+ 3.4 　 正交 尺度 变换 法 的 一般 步骤 
+ 　 　 1 ) 　 预估 过程 的 过渡 过程 时间 Ts . 过程 频带 ω s 及 最高 工作频率 fmax . 
+ 　 　 2 ) 　 按下式 选择 采样 周期 T ， 参数 长度 L ， 分辨率 j 
+ 
+ 其中 ω ⅵ 誷 为 尺度 函数 ⅵ ( t ) 的 频带 . 
+ 　 　 3 ) 　 采集 数据 集 O ( N ) = ｛ ( u ( 0 ) , y ( 0 ) ) , ( u ( 1 ) , y ( 1 ) ) , … , ( u ( N ) , y ( N ) ) ｝ . 
+ 　 　 4 ) 　 据式 ( 4 ) ， ( 6 ) 计算 
+ 　 　 5 ) 　 使用 Stein 无偏 风险 估计 法 降噪 . 
+ 　 　 6 ) 　 使用 最小 二 乘法 估计 参数 α k , k = 0 , 1 , … , L ， 计算 脉冲响应 函数 的 估计值 . 
+ 3.5 　 与 相关 分析法 的 比较 
+ 　 　 对于 含 噪声 过程 ， 使用 相关 分析法 ［ 5 ］ 辨识 脉冲响应 可以 得到 比较 好 的 结果 . 但 与 本文 提出 的 方法 相比 ( 相同 例子 ) ， 仿真 结果表明 ， 本文 的 方法 较 相关 分析法 在 此例 中 的 辨识 精度 提高 了 一个 量级 . 
+ 4 　 仿真 
+ 　 　 例 . 　 考虑 过程 ［ 3 ］ 　 
+ 　 　 过程 的 过渡 过程 时间 Ts 为 50s . 采用 Daubechies2 阶 正交 小 波及 相应 尺度 函数 ［ 4 ］ . 选择 采样 周期 T = 0.5 s ， 参数 长度 L = 100 ， 分辨率 j = 1 . 辨识 数据 长度 N = 800 ， 采样 时间 为 400s . 输入 信号 采用 零均 白噪 ， 噪声 采用 高斯 白噪 . 
+ 　 　 图 1 为 不 含 噪声 时 g ( t ) , ( t ) 及 e ( t ) = g ( t ) - ( t ) 的 图形 . e ( t ) 的 方差 为 5.73 × 10 - 7 . 
+ 　 　 图 2 为 含 噪声 时 辨识 结果 图形 ， 噪信 比为 18% 时 e ( t ) 方差 为 1.12 × 10 - 6 ， 信噪比 为 33% 时 e ( t ) 方差 为 3.88 × 10 - 6 . 
+ 
+ 
+ 
+ 
+ 图 1 　 不 含 噪声 时 辨识 结果 
+ 
+ 
+ 
+ 图 2 　 含 噪声 时 辨识 结果 
+ 　 　 由 仿真 结果 可以 看出 ， 本文 提出 的 方法 对 确定性 系统 和 随机性 系统 都 能 得到 较 好 的 精度 . 
+ 5 　 结 　 语 
+ 　 　 本文 讨论 的 脉冲响应 正交 尺度 变换 方法 是 基于 多 分辨 分析 的 一种 逼近 方法 . 这种 方法 利用 多 分辨 分析 所 构造 的 正交 尺度 函数 的 级数 形式 来 逼近 系统 的 脉冲响应 函数 . 由于 正交 尺度 函数 具有 良好 的 时频 特性 ， 从而 使 辨识 方法 能够 结合 传统 的 时域 与 频域 辨识 方法 的 优点 . 本文 提出 的 方法 适用 于 确定性 过程 和 随机性 过程 ， 计算机 数值 仿真 显示 出 这种 方法 具有 较 好 的 辨识 精度 . 并 验证 文中 所述 该 方法 理论依据 的 正确性 和 算法 步骤 的 可行性 . 
+ 1 ) 国家自然科学基金 重点 资助 项目 
+ 作者 单位 ： ( 北京航空航天大学 第七 研究室 　 北京 　 100083 ) 
+ 参考文献 
+ 　 1 　 EykhoffD . System - Identification - ParameterandStateEstimation . NewYork : JohnWiley & Sons , INC.1974 
+ 　 2 　 崔锦泰 . 小波 分析 导论 . 西安 ： 西安交通大学 出版社 ， 1992.162 — 163 ， 304 — 305 
+ 　 3 　 方崇智 ， 萧德云 . 过程 辨识 . 北京 ： 清华大学出版社 ， 1988.119 — 120 
+ 　 4 　 DaubechiesI . OrthonormalBasesofCompactlySupportedWavelets . CommunicationsonPureandAppliedMathematics , 1988 , XLI ： 909 — 996 
+ 　 5 　 LjungL . 系统 辨识 — — 使用者 的 理论 . 上海 ： 华东师范大学出版社 ， 1987 
+ 收稿 日期 　 1997 - 01 - 31 

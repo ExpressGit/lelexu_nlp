@@ -1,0 +1,89 @@
+环境 科学 学报 
+ ACTASCIENTIAECIRCUMSTANTIAE 
+ 1999 年 　 第 19 卷 　 第 4 期 　 Vol.19 　 No.4 　 1999 
+ 
+ 
+ 
+ 温敏性 线型 共聚物 对 金属 离子 的 吸附 
+ 张剑波 　 
+ 摘要 　 利用 合成 的 NIPAAm - AAc 温敏性 线型 共聚物 研究 了 其 对 无机 金属 离子 的 吸附 性能 ， 以期 应用 于 水污染 的 治理 . 结果表明 其有 明显 的 浓集 效果 ， 在 pH = 4 时 ， 对 Y3 + 、 Er3 + 和 UO2 + 2 的 浓集率 分别 达到 84% 、 65% 和 56% ， 相应 的 浓集量 分别 为 11.2 mg . g - 1 、 4.45 mg . g - 1 和 11.3 mg . g - 1 ， 并 讨论 了 影响 浓集 的 条件 和 吸附 机理 . 
+ 关键词 　 温敏性 线型 共聚物 ； 金属 离子 ； 浓集 . 
+ Absorptivityoftemperaturesensitivitylinearcopolymerstometalionsindiluteaqueoussolution 
+ ZHANGJianbo 
+ ( DepartmentofTechnicalPhysics , PekingUniversity , Beijing100871 ) 
+ Abstract 　 Absorptivityoflinearcopolymerstometalionswasstudiedindiluteaqueoussolution . Theconditionsofconcentrationweregivenandthemechanismwasdiscuses . TheconcentrationeffectofpolyNIPAAm - co - AAc ) washigherthanthatofpolyNIAAm , whichwasfoundnotonlyforEr3 + butforUO2 + 2andCr ( VI ) . BecausepolyNIPAAmisnonionizingpolymerwhichwasnotinfluencedbypH . Onthecontrary , ionizationofpoly ( NIPAAm - co - AAc ) tookplaceathighpH . ThehydrolysisofthesemetalswassuggestedinthepHrangeof2to4 . ConcentrationeffectofcopolymerforUO2 + 2wasfoundatpH3 . TheconcentrationyieldincreasedrapidlywithalittleincreaseinpH , becausesix - element - ringcompoundofCOOHwithUO2 + 2wasformed . TheconcentrationeffectwasobservedforEr3 + , UO2 + 2andCr ( VI ) . 
+ Keywords 　 temperaturesensitivitycopolymers , metal , absorptivity . 
+ 　 　 
+ 1 　 前言 
+ 　 　 水溶性 温度 敏感性 聚合物 ( watersolubletemperaturesensitivepolymer ) 具有 低 临界 相 转变 温度 LCST ( lowercriticalsolutiontemperature ) ， 在 此 温度 以上 ， 聚合物 则 以 沉淀 析出 ， 并且 此 过程 可逆 . 由于 具有 这一 特性 其 被 广泛应用 于 化学 分离 ， 生物 分子 耦合 ， 药物 纯化 等 方面 ［ 1 ， 2 ］ ， 而 将 其 对 无机 金属 离子 的 吸附 性能 应用 于 环境污染 的 治理 ， 却是 一个 崭新 的 领域 . 
+ 　 　 本文 研究 以 N - 异丙基 丙烯酰胺 ( NIPAAm ) 为 主体 的 聚合物 对 金属 离子 的 吸附 性能 ， 采用 新 的 思路 ， 寻找 高效 、 清洁 、 低成本 的 除污 方法 . 此法 的 特点 在于 ， 利用 材料 的 温度 敏感性 及 聚合 溶解 艹 恋淼目 赡 嫘裕 便于 实现 材料 的 反复 利用 和 废弃 资源 的 再生 . 在 考虑 到 各种 可能 影响 因素 的 基础 上 ， 通过 不同 聚合物 在 不同 条件 下 对 金属 离子 吸附 状况 的 研究 ， 发现 在 一定 pH 条件 下 其 对 Y3 + 、 Er3 + 、 UO2 + 2 和 Cr ( Ⅵ ) 具有 良好 的 吸附 效果 . 
+ 
+ 2 　 实验 部分 
+ 2.1 　 仪器 和 试剂 
+ 　 　 仪器 ： 721 型 分光 光度计 ( 上海 第三 分析 仪器厂 ) ： pHS3 型 酸度计 ( 上海 第二 分析 仪器厂 ) ， 60Co - γ 辐射源 ( 北京大学 技术 物理系 ) . 
+ 　 　 试剂 ： N - 异丙基 丙烯酰胺 ( NIPAAm ， 美国 Kodak 公司 ) ； 丙烯酸 ( AAc , 北京 化工厂 ) ， 使用 前经 减压蒸馏 纯化 ； Y3 + 、 Er3 + 、 UO2 + 2 ( 北京 化工厂 ) ； Cr ( Ⅵ ) ( 上海 浦江 化工厂 ) ； 其他 试剂 均 为 AR 级 . 
+ 2.2 　 温敏性 共聚物 ( PNIPAAm / AAc ) 的 合成 
+ 　 　 将 NIPAAm ( 0.08 g / mL ) 溶于 四氢呋喃 ( THF ) 中 振荡 使 之 溶解 后取 9mL ， 加入 1mL 的 丙烯酸 ( AAc , 0.08 g / mL ) 共 10mL 置于 内径 为 14mm 的 辐照 管中 ， 通高 纯氮除 氧 15min ， 封管 ， 室温 下用 60Co - γ 辐照 ( 剂量率 38.4 Gy / min ， 总 计量 3kGy ) ［ 3 — 6 ］ . 辐照 后 的 溶液 用 5 倍 的 乙醚 使 聚合物 沉淀 ， 静置 ， 过滤 ， 用 乙醚 洗涤 2 — 3 次后 ， 即得 PNIPAAm / AAc ( 9 ∶ 1 ， W / W ) 的 线型 共聚物 . 
+ 2.3 　 对 金属 离子 吸附 的 测定 
+ 　 　 在 高于 其 临界温度 ( LCST ) 时 聚合物 可以 与 金属 离子 一起 被 沉淀 下来 ， 经对 金属 离子 分离 后 ， 聚合物 又 可 重复使用 ， 这 对 污水净化 ， 资源 回收 有着 重要 的 意义 . 定量 量取 一定 浓度 的 金属 离子 溶液 ( C0 ) 于 烧杯 中 ， 加入 一定量 的 聚合物 ， 调节 pH 值 ， 将 烧杯 置于 水浴 中 加热 达到 相 转变 温度 ( LCST ) 出现 沉淀 ， 保持 加热 5 — 10min ， 用 热 漏斗 过滤 ， 滤液 收集 在 另 一 烧杯 中 ( 经 加热 后 滤液 无 浑浊 ， 则 表示 温敏 线型 聚合物 已 回收 完全 ) ， 测 滤液 中 离子 浓度 ( C ) ， 则 浓集率 R = ( C0 - C ) / C0 × 100% . 
+ 　 　 Y3 + 、 Er3 + 、 UO2 + 2 采用 铀 试剂 Ⅲ 比色法 ， Cr ( Ⅵ ) 则 用二苯 卡巴 肼 ( λ = 550nm ) 显色 反应 测其 浓度 . 
+ 
+ 
+ 图 1 　 溶液 pH 值 与 PNIPAAm / AAc 的 LCST 及 浓集率 R 的 关系 
+ Fig.1 EffectofpHonLCSTandConcentrationRateofPNIPAAm / AAc 
+ 3 　 结果 与 讨论 
+ 3.1 　 溶液 pH 对 吸附 的 影响 
+ 　 　 线型 PNIPAAm / AAc 共聚物 具有 温敏性 ， 在 不同 pH 测定 其 LCST 值 ， 随 pH 值 的 升高 LCST 增高 ( 见图 1 ) ， 其 原因 在于 当 pH 值 上升 ， 有利于 线型 共聚物 中 羧基 COOH 的 解离 ， 当 分子 中 COO - 增多 ， 极性 增大 ， 分子 间 斥力 增大 ， 易溶 于水 而 不易 沉淀 ， 故 LCST 值 上升 . 而 线型 共聚 PNIPAAm / AAc 中 COO - 的 增多 ， 对 阳离子 的 引力 增大 ， 也 将 影响 对 离子 的 浓集 . 分别 固定 C0 ( Er3 + ) = 4.00 × 10 - 4mol / L , C0 ( Y3 + ) = 3.85 × 10 - 4mol / L , C0 ( UO2 + 2 ) = 3.74 × 10 - 4mol / L , PNIPAAm / AAc 聚合物 量 为 5g . L - 1 ， 改变 pH 值 ， 测其 对 浓集率 的 影响 ， 结果 见图 1 . 
+ 　 　 由图 1 可见 随 pH 值 上升 ， PNIPAAm / AAc 对 各 离子 的 浓集率 增加 ， 对 Er3 + ， Y3 + 和 UO2 + 2 的 最大 浓集率 分别 为 84% 、 65% 和 56% ， 相应 的 浓集量 分别 为 11.2 mg . g - 1 、 4.45 mg . g - 1 ， 和 11.3 mg . g - 1 . 存在 羧基 的 PNIPAAm / AAc 之所以 有 较 强 的 吸附 能力 ， 这是 由于 二元 线型 共聚物 能 与 金属 离子 形成 稳定 的 螯合物 . 在 研究 过程 中 ， 曾用 PNIPAAm 聚合物 进行 对比 实验 ， 其 对 Y3 + 、 Er3 + 的 浓集 能力 明显 小于 共聚物 PNIPAam / AAc 的 浓集 能力 ； 对 UO2 + 2 则 未 见 有 吸附 作用 . 聚合物 对 阳离子 的 作用 与 离子 的 大小 及 络合 方式 有关 ， Y3 + 、 Er3 + 与 UO2 + 2 相比 体积 要 小得多 ， 可 配位 成 八面体 ， — COO - 的 存在 利于 络合物 的 生成 ； 而 UO2 + 2 的 配位 一般 为 六角 双 锥形 ， 使得 络 合体 的 体积 很大 ， 从而 降低 了 浓集 作用 ； 对 PNIPAAm / AAc 来讲 ， 随 pH 升高 ， 共聚物 中 — COO - 增加 ， 对 阳离子 的 引力 增加 ， 促进 与 UO2 + 2 的 络合 ， 从而 对 铀 浓集 有利 ， 螯合物 的 结构 示意图 为 ： 
+ 
+ 在 以下 的 实验 中 ， 选取 pH = 3 ， 使 共聚物 有 较 适宜 的 沉淀 温度 . 
+ 3.2 　 离子 初始 浓度 对 浓集率 的 影响 
+ 　 　 在 pH = 3 ， PNIPAAm / AAc 量 为 5g . L - 1 时 ， 改变 溶液 的 初始 离子 浓度 ， 其 浓集率 变化 见表 1 、 表 2 . 
+ 表 1 　 不同 Er3 + 浓度 下 PNIPAAm / AAc 的 浓集率 
+ Table1ConcentrationrateofPNIPAAm / AAcatvariousEr3 + concentration 
+ 
+ C0 , mg . L - 15.8512 . 520.126 . 833.540 . 2 
+ 浓集率 ， % 88.076 . 059.040 . 038.025 . 0 
+ 浓集量 ， mg . g - 11.031 . 902.372 . 142.552 . 01 
+ 
+ 表 2 　 不同 Y3 + 浓度 下 PNIPAAm / AAc 的 浓集率 
+ Table2ConcentrationRateofPNIPAAm / AAcatvariousY3 + concentration 
+ 
+ C0 , mg . L - 13.297 . 1210.714 . 217.819 . 9 
+ 浓集率 ， % 81.073 . 065.060 . 047.039 . 0 
+ 浓集量 ， mg . g - 10.531 . 041.391 . 701.671 . 55 
+ 
+ 　 　 由表 1 、 表 2 可见 ， 随着 Er3 + 、 Y3 + 离子 初始 浓度 增加 ， 聚合物 对 其 浓集率 下降 ， 但 浓集量 有所增加 ， 表明 在 离子 浓度 较 低 的 情况 下 ， PNIPAAm / AAc 的 浓集量 并未 饱和 ， 但 由于 平衡 的 存在 ， 也 不能 吸附 所有 离子 ； 随着 离子 浓度 的 增加 ， 浓集率 趋向 降低 ， 说明 共聚物 对 离子 的 吸附 会 趋向 饱和 . 
+ 3.3 　 聚合物 用量 的 影响 
+ 　 　 固定 体系 C0 ( Er3 + ) = 2.0 × 10 - 4mol . L - 1 , C0 ( Y3 + ) = 2.0 × 10 - 4mol . L - 1 和 pH = 3.5 ， 浓集率 随 聚合物 用量 的 变化 见图 2 . 
+ 
+ 
+ 图 2 　 聚合物 用量 与 浓集率 R 的 关系 
+ Fig.2 RelationshipbetweenamountofpolymersandconcentrationrateR 
+ 　 　 由图 2 可见 ， 当 PNIPAAm 用于 Er3 + 、 Y3 + 浓集时 ， 浓集率 随 聚合物 用量 的 增加 而 缓慢 上升 ， 最终 达到 平衡 ， 吸附 曲线 与 一般 固体 表面 吸附 规律 相符 ， 符合 兰缪尔 方程 ； 而 PNIPAAm / AAc ( W / W , 9 / 1 ) 共聚物 对 Er3 + 、 Y3 + 的 浓集 除了 表面 吸附 外 ， 还 与 二元 共聚物 中 的 羧基 有关 . — COOH 离解 后 ， 对 阳离子 有强 的 电荷 引力 ， 与其 络合 能力 增强 ， 随着 共聚物 量 的 增加 ， 对 Er3 + 、 Y3 + 的 吸附 呈 线性 上升 . 
+ 　 　 可以 预计 ， 对 PNIPAAm / AAc 共聚物 ， 增加 其 AAc 的 含量 ， 将 有利于 对 金属 离子 的 吸附 ， 但 考虑 到 共聚物 的 合成 及 保持 其 温度 敏感 特性 等 因素 ， 在 合成 时 选择 NIPAAm ∶ AAc 为 9 ∶ 1 ( W / W ) . 
+ 3.4 　 聚合物 对 Cr ( Ⅵ ) 的 吸附 
+ 　 　 Cr ( Ⅵ ) 是 污水 、 污泥 中 常见 的 污染物 ， 对 其 治理 一般 采用 电解法 ， 但 效果 并 不 理想 ， 故 寻找 高效 、 清洁 、 简便 的 除 Cr ( Ⅵ ) 方法 是 一 重要 课题 . 经对 Cr ( Ⅵ ) 用 温敏性 线型 聚合物 吸附 沉淀 的 初步 尝试 ， 其 结果 示于 表 3 中 . 
+ 表 3 　 不同 分子量 的 PNIPAAm 和 PNIPAAm / AAc 对 Cr ( Ⅵ ) 的 浓集 
+ Table3ConcentrationRateofPNIPAAmandPNIPAAm / AAcforCr ( Ⅵ ) 
+ 
+ PNIPAAmPNIPAAm / AAc ( W / W , 9 / 1 ) 
+ 分子量 浓集率 R , % 分子量 浓集率 R , % 
+ 4.0 × 10439.84 . 0 × 104 ～ 100 
+ 2.2 × 10589.08 . 0 × 105 ～ 100 
+ 4.2 × 10593.2 
+ 
+ 　 　 * C0 [ Cr ( Ⅵ ) ] = 10mg . mL - 1 , pH = 3.0 　 PNIPAAm 和 PNIPAAm / AAc 用量 均 为 1% ( W / W ) 
+ 　 　 由表 可见 ， 合成 的 线性 聚合物 和 共聚物 对稀 水溶液 中 Cr ( Ⅵ ) 都 有 明显 的 吸附 作用 ， 其中 PNIPAAm / AAc 共聚物 中 由于 存在 对 Cr ( Ⅵ ) 有 络合 能力 的 羧基 ， 所以 其 浓集率 明显 高于 线型 PNIPAam 均 聚物 . 对 PNIPAAm 均 聚物 而言 ， 其 分子量 增加 能 明显提高 对 Cr ( Ⅵ ) 的 吸附 能力 ， 而 共聚物 中 由于 AAc 的 存在 使 其 对 Cr ( Ⅵ ) 的 浓集 能力 相当 高 ( ～ 100% ) ， 因此 再 提高 分子量 则 无 显著 差异 ， 详细 机理 有待 进一步 研究 . 以上 结果表明 ， 温敏性 线型 共聚物 吸附 去除 污水 中 的 Cr ( Ⅵ ) 具有 良好 应用 前景 . 
+ 作者 单位 ： ( 北京大学 技术 物理学 系 ， 北京 　 100871 ) 
+ 参考文献 
+ 　 1 　 LeviValuev , OlgaN , Lefirovaetal . Targeteddeliveryofdrugprovidedbywater - solublepolymericsystemswithlowcriticalsolutiontemperature ( LCST ) . JBioactiveandCompatiblePolymers , 1994 , 9 ( 1 ) : 5 
+ 　 2 　 AllanSHoffman . Appliationsofthermallyreversiblepolymersandhydrogelsintherapeuticsanddiagnostics . JControlledRelease , 1989 , 6 ( 1 ) : 297 
+ 　 3 　 NoriyasaNagaoka , AgnezaSafianj , MasaruYoshidaetal . Synthesisofpoly ( N - isopropylamide ) hydrogelsbyradiationpolymerizationandcrosslinking . Macromolecules , 1993 , 26 ( 26 ) : 7386 — 7388 
+ 　 4 　 MccormickCL , BlackmonKP . Water - solublecopolymers . XIX . CopolymersofAcrylamidewithSodium3 - ( N - propyl ) acrylamido - 3 - Methylbutanoate : Synthesisandcharacterization . JMacromolSci - Chem.1986 , A23 ( 12 ) : 1451 — 1467 
+ 　 5 　 翟 茂林 ， 伊 　 敏 ， 哈鸿飞 . 辐射 技术 在 温度 敏感性 水 凝胶 合成 改性 中 的 应用 . 同位素 ， 1995 , 8 ( 2 ) : 124 
+ 　 6 　 YiM , LiJ , HaHF . Radiationpreparationofthewater - solubletemperaturesensitivepolymersinorganicsolvents . RadiatPhysChem , 1993 , 46 ( 4 — 6 ) : 855 
+ 1997 - 09 - 29 收到 原稿 
+ 1998 - 05 - 14 收到 修改稿 
+ 
+ 

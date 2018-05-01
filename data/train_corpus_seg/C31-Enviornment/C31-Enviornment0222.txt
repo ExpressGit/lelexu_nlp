@@ -1,0 +1,116 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1998 年 第 18 卷 第 2 期 No.2 Vol.181998 
+ 科技期刊 
+ 
+ 不同 状态 MnO2 对 废水 中 As ( III ) 的 吸附 研究 * 
+ 陈 　 红 　 ( 浙江大学 环境 科学 与 工程系 , 杭州 310027 ) 
+ 叶兆杰 　 方 　 士 　 ( 浙江农业大学 环保 系 , 杭州 310029 ) 
+ 刘巽 镶 　 ( 中国科学院 半导体 研究所 , 北京 100083 ) 
+ 文 　 摘 　 利用 MnO2 对 含 As ( III ) 废水 进行 了 吸附 实验 , 结果表明 , MnO2 对 As ( III ) 有着 较强 的 吸附 能力 , 其 饱和 吸附 量 为 44.06 mg / g ( δ - MnO2 ) 和 17.9 mg / g ( ε - MnO2 ) , 阴离子 的 存在 使 MnO2 吸附 量 有所 下降 , 一些 阳离子 ( 如 Ga3 + 、 In3 + ) 可 增加 其 吸附 量 , 吸附 后 的 MnO2 经 解吸 后 可 重复使用 。 
+ 关键词 　 MnO2 　 As ( III ) 　 吸附 
+ ThestudyonadsorptionofAs ( III ) fromwastewaterbydifferenttypesofMnO2 . ChenHong ( DepartmentofEnvironmentalScienceandEngineering , ZhejiangUniversity , Hangzhou310027 ) ; YeZhaojie , FangShi ( DepartmentofEnvironmentalProtection , ZhejiangAgriculturalUniversity , Hangzhou310029 ) ; LiuXunXiang ( Semi - conductorResearchInstitute , TheChineseAcademyofScience , Beijing100083 ) . ChinaEnvironmentalScience.1998 , 18 ( 2 ) : 126 ～ 130 
+ Abstract — AdsorptionofAs ( III ) fromwastewaterbyMnO2hasbeenstudied . TheresultsshowthatMnO2possessesstrongadsorbingpropertiestoAs ( III ) . Thesaturatedadsorptionamountis44.04 mg / g ( δ - MnO2 ) and17.9 mg / g ( ε - MnO2 ) . Anionsreducetheadsorptionamountandsomecationsenhancetheadsorptionamount . TheusedMnO2canbereused . 
+ Keywords : MnO2 　 As ( III ) 　 adsorption 
+ 　 　 砷 在 医药 、 农业 、 陶瓷 和 玻璃 工业 中 被 广泛应用 , 随着 现代 工农业 生产 的 发展 , 含 砷 废水 的 排放量 日趋 增加 。 含 砷 废水 治理 主要 有 化学法 和 物化 法 两大类 , 化学法 除 砷 如 铁盐 沉淀法 〔 1 〕 、 硫化物 沉淀法 〔 2 〕 、 铁 氧化 法等 , 适用 于 高浓度 含 砷 废水 , 生成 的 污泥 易 造成 二次污染 。 对于 处理量 不 大 ， 浓度 较 低 , 组成 单纯 且 有 较 高 回收 价值 的 废水 , 一般 采用 物化 法 ， 如用 巯基 螯合树脂 处理 As ( III ) 〔 3 〕 、 优质 的 天然 珊瑚 可选择性 吸附 废水 中 As ( V ) 〔 4 〕 、 用活 氧化铝 滤层 来 吸附 去除 饮用水 中 的 砷 〔 5 〕 。 一般 地 ， 天然 矿物质 如 膨润土 、 活性炭 、 沸石 等 吸附 As ( III ) 的 能力 较 低 , 处理 前常先 将 As ( III ) 氧化 成 As ( V ) , 以 提高 去除率 。 本 实验 利用 MnO2 的 氧化 、 吸附 特性 ， 直接 对 含 As ( III ) 的 废水 进行 了 吸附 实验 ， 并 就 其 吸附 特性 进行 研究 ， 为 实际 应用 提供 一定 的 依据 。 
+ 1 　 实验 部分 
+ 1.1 　 仪器 与 试剂 
+ 　 　 实验 中 δ - MnO2 按 Mckenie . R . Min 方法 合成 ， ε - MnO2 由 市场 购买 而 得 ， 经 X - Ray 鉴定 为 ε - MnO2 。 
+ 　 　 仪器 有 722 型 分光 光度计 ， pH - 3 酸度计 ， 多级 可调 恒温 振荡器 ， 砷化氢 发生器 ， 其它 常规 仪器 。 
+ 　 　 其它 常规 试剂 ( AR ) 。 
+ 1.2 　 实验 方法 和 分析方法 
+ 　 　 于 塑料瓶 中 加入 10mg / L 的 As ( III ) 溶液 , MnO2 浓度 为 1g / L , 20 ℃ , 恒温 振荡 。 
+ 1.2 . 1 　 吸附 动力学 　 As ( III ) 溶液 100mL , 加入 不同 类型 的 MnO2 进行 不同 时间 下 的 砷 吸附 实验 ， 干 过滤 ， 用 巯基 棉 分离 滤液 中 的 As ( III ) 和 As ( V ) ， 分别 测定 滤液 和 分离 液中 的 As 。 
+ 1.2 . 2 　 pH 值 的 影响 　 As ( III ) 溶液 100mL , 内含 0.01 MNaNO3 作为 支持 电解质 , 调 pH2 ～ 10 , 加 MnO2 , 振荡 2h , 干 过滤 , 测定 溶液 中 As 。 
+ 1.2 . 3 　 吸附平衡 实验 　 配制 一系列 As ( III ) 的 初始 浓度 5 ～ 80mg / L , 加 MnO2 , 振荡 2h , 干 过滤 ， 测定 溶液 中 As 。 
+ 1.2 . 4 　 温度 的 影响 　 配制 溶液 浓度 为 10mg / L 的 As ( III ) 溶液 ， 进行 不同 温度 下 的 吸附 动力学 实验 。 
+ 1.2 . 5 　 阴离子 的 影响 实验 　 用 不同 阴离子 ( PO3 - ４ 、 SO2 - ４ 、 NO - ３ 、 Cl - ) 在 不同 浓度 ( 10 - 1 ～ 10 - 2M ) 下 进行 吸附 影响 实验 。 
+ 1.2 . 6 　 阳离子 的 影响 实验 　 用 不同 阳离子 ( Na + 、 K + 、 Ga3 + 、 In3 + ) 进行 吸附 影响 实验 ， 不同 Ga3 + , In3 + 离子 浓度 共存 ( Ga3 + / As3 + , In3 + / As3 + : 0.1 / 1 , 1 / 1 , 10 / 1 ) 时 的 吸附 影响 实验 。 
+ 1.2 . 7 　 解吸 和 再生 实验 　 MnO2 在 10mg / LAs ( III ) 中 达 吸附平衡 后 , 干 过滤 , 用 蒸馏水 洗涤 附着 在 MnO2 表面 的 As , 选用 不同 解吸 剂 ( 1MNaOH 、 1MHCl 、 1MNaH2PO4 、 1M 葡萄糖 ) ， 进行 解吸 实验 。 
+ 1.2 . 8 　 实验 用 废水 的 配制 　 称取 1.731 g 亚砷酸钠 ( NaAsO2 ) 溶于 水中 ， 并定 容至 1000mL ， 即得 1000mg / L 的 AsO - ２ 溶液 ( 以 As 计 ) ， 使用 时 稀释 。 
+ 1.2 . 9 　 实验 中 As 的 测定 采用 SDDC - Ag 法 。 
+ 2 　 试验 结果 与 分析 
+ 2.1 　 吸附 动力学 
+ 表 1 　 δ - MnO2 、 ε - MnO2 的 物理性质 比较 
+ Table1 　 Comparingofphysicalpropertyof δ - MnO2 、 ε - MnO2 
+ 
+ 品种 PZC 比 表面积 ( m2 / g ) 结晶 性能 
+ δ - MnO22.3248 差 
+ ε - MnO23.843 . 2 较差 
+ 
+ 　 　 为 观察 不同 状态 锰 氧化物 对 As ( III ) 的 吸附 能力 ， 对 两种 不同 状态 MnO2 进行 了 比较 试验 , δ - MnO2 是 自然界 土壤 和 底泥 中 最 常见 的 锰 化合物 ， 特别 在 酸性 和 碱性 的 表土层 。 ε - MnO2 在 矿床 中 常见 。 由于 两种 MnO2 性质 上 的 差异 ( 见表 1 ) ， 其 吸附 能力 显著 不同 ， δ - MnO2 吸附 As ( III ) 的 能力 大于 ε - MnO2 , 见图 1 。 
+ 
+ 图 1 　 MnO2 吸附 动力学 曲线 
+ Fig.1 　 KineticcurvesofadsorptionofAs ( III ) byMnO2 
+ 
+ 图 2 　 溶液 中 As ( III ) 的 减少 与 时间 的 关系 
+ Fig.2 　 DecreasecurvesofAs ( III ) insolution 
+ 　 　 从图 1 中 可以 看出 , As ( III ) 在 MnO2 表面 的 吸附 反应 在 开始 的 30min 已 基本 达 平衡 。 MnO2 吸附 砷 开始 时 是 一个 快 反应 段 , 这时 表面 吸附 起 主要 作用 , 即 MnO2 直接 从 溶液 中 吸附 As ( III ) ， 30min 以后 反应 极为 缓慢 ， 这 可能 是 表面 吸附 的 As 向 内部 扩散 的 过程 起 主要 作用 。 
+ 　 　 溶液 中 As ( III ) 浓度 的 降低 速率 在 开始 30min 内较 快 ， 30min 以后 较慢 ( 见图 2 ) 。 
+ 　 　 比较 图 1 ， 图 2 ， 可以 看出 ， 砷 的 吸附 反应 在 30min 以后 达 平衡 ， 但 溶液 中 As ( III ) 仍 逐渐 降低 ， 也就是说 ， 当 吸附 达 平衡 后 ， 溶液 中 As ( 总 ) ( As ( III ) + As ( V ) ) 是 不变 的 ， 而 其中 As ( III ) 与 As ( V ) 的 比例 在 不断 地 变化 ， 且 As ( III ) 的 减少 与 As ( V ) 的 增加 ， 具有 对应 的 关系 。 MnO2 对 As ( III ) 的 吸附 实际 包括 氧化 和 吸附 两个 过程 , MnO2 的 吸附 是 As ( III ) 和 As ( V ) 总和 。 
+ 2.2 　 等温 吸附平衡 
+ 　 　 MnO2 ( δ - MnO2 与 ε - MnO2 ) 吸附 As ( III ) 的 能力 随着 溶液 初始 浓度 的 升高 而 增大 ， 当 初始 浓度 > 50mg / L 时 , 吸附 量 的 增加 逐渐 减慢 ( 见图 3 ) 。 用 Langmiur 吸附 方程 对 其 进行 回归 拟合 , Langmiur 方程 的 线性 形式 如下 ： 
+ 　 　 　 　 C / X = 1 / KXm + C / Xm 
+ 式 中 ： X 为 吸附 的 As 总量 ( mg / g ) ; Xm 为 最大 吸附 量 ( mg / g ) ; C 为 平衡 溶液 浓度 ( mg / L ) ; K 为 常数 。 
+ 
+ 图 3 　 ε - MnO2 及 δ - MnO2 吸附 等温线 
+ Fig.3 　 Adsorptionisothermcurveof ε - MnO2and δ - MnO2 
+ 表 2 　 MnO2 吸附 As ( III ) 的 参数 
+ Table2 　 AdsorptionparametersofMnO2 
+ 
+ 参数 Langmiur 方程 KXmr 
+ 　 C / X = 1 / KXm + C / Xm 
+ δ - MnO2C / X = 0.5570 + 0.0227 C0.04044 . 060.9056 
+ ε - MnO2C / X = 1.2097 + 0.0559 C0.04617 . 900.9373 
+ 
+ 　 　 表 2 是 统计 拟合 的 结果 ， 相关系数 0.9056 ～ 0.9373 , 均达 P < 0.01 显著 水平 。 同时 ， 还 可 得出 MnO2 的 最大 吸附 量 分别 为 : 44.06 mg / g ( δ - MnO2 ) 和 17.9 mg / g ( ε - MnO2 ) 。 
+ 2.3 　 pH 值 的 影响 
+ 　 　 MnO2 对 As ( III ) 的 吸附 能力 随着 pH 值 的 升高 而 下降 ( 见图 4 ) 。 根据 Hingston 对 阴离子 的 吸附 机制 研究 结果 〔 6 〕 , MnO2 对 As 的 吸附 可能 是非 专性 吸附 反应 ， 也就是说 MnO2 的 吸附 只 与 pH 值 有关 而 与 亚砷酸 的 pK 值 无关 。 
+ 2.4 　 温度 的 影响 
+ 　 　 图 5 是 温度 对 MnO2 吸附 As ( III ) 的 影响 ， 从中 可以 看出 ， 温度 升高 ， MnO2 的 吸附 量 略有 下降 。 温度 影响 有 两个 方面 ， 其一 是 加快 反应 ， 其二 是 改变 平衡位置 。 升高 温度 即能 促进 吸附 ， 也 能 促进 解析 。 温度 升高 ， 使 更 多 的 砷 获得 外界 能量 ， 克服 障碍 参与 吸附 反应 ， 同时 也 有利于 紧 束缚态 砷 从 固相 表面 脱逃 ， 一般 低温 情况 下 吸附 作用 强些 〔 7 〕 。 实验 也 证实 了 这 一点 。 
+ 
+ 图 4 　 pH 值 对 ε - MnO2 吸附 As ( III ) 的 影响 
+ Fig.4 　 EffectofpHontheamountofAs ( III ) adsorbedby ε - MnO2 
+ 
+ 图 5 　 温度 对 ε - MnO2 吸附 As ( III ) 的 影响 
+ Fig.5 　 EffectoftemperatureontheamountofAs ( III ) adsorbedby ε - MnO2 
+ 2.5 　 阴离子 的 影响 
+ 　 　 选择 几种 常见 的 阴离子 ( PO3 - ４ 、 Cl - 、 NO - ３ 、 SO2 - ４ ) 进行 吸附 影响 实验 ， 见图 6 ， 可以 看出 在 整个 pH 值 范围 内 ， PO3 - ４ 、 Cl - 、 NO - ３ 、 SO2 - ４ 使 MnO2 吸附 能力 均 有所 降低 , 相对来说 , Cl - 、 NO - ３ 、 SO2 - ４ 的 影响 较 小 ， PO3 - ４ 在 较 低浓度 时 就 影响 亚砷酸 根 的 吸附 ， PO3 - ４ 对 亚砷酸 根有 较 强 的 置换 作用 。 
+ 
+ 图 6 　 不同 阴离子 在 不同 pH 值下 对 ε - MnO2 吸附 As ( III ) 的 影响 
+ Fig.6 　 EffectsofpHandanionsontheamountofAs ( III ) adsorbedby ε - MnO2 
+ ( a ) 阴离子 浓度 10 - 2M ; ( b ) 阴离子 浓度 10 - 1M 
+ 　 　 经典 的 双电层 理论 指出 〔 8 〕 ， 非 专性 吸附 阴离子 如 Cl - 、 NO - ３ 等 只能 代换 物理 吸附 的 亚砷酸 根 ， 代换 发生 在外 Helmholtz 层 ， 而 OH - 、 PO3 - ４ 等 专性 吸附 阴离子 则 能 代换 内 Helmoltz 层 吸附 的 亚砷酸 根 。 这 也 说明 了 As 与 MnO2 之间 的 吸附 不是 简单 的 库仑 引力 ， 而是 通过 配位 离子交换 反应 。 
+ 　 　 各种 阴离子 对 MnO2 吸附 As ( III ) 的 影响 顺序 为 : PO3 - ４ > SO2 - ４ > Cl - > NO - ３ 
+ 2.6 　 阳离子 的 影响 
+ 表 3 　 不同 浓度 的 Ga3 + 、 In3 + 离子 共存 对 As ( III ) 吸附 的 影响 
+ Table3 　 EffectsofGa3 + 、 In3 + ontheamountofAs ( III ) adsorbedbyMnO2 
+ 
+ 离子 种类 Ga3 + / As3 + In3 + / As3 + 
+ 离子 浓度 比 0 / 10.1 / 11 / 110 / 10 / 10.1 / 11 / 110 / 1 
+ 去除率 ( % ) 42.3434860 . 742.345 . 648.958 
+ 
+ 　 　 常见 阳离子 如 Na + 、 K + 对 MnO2 吸附 As ( III ) 几乎 没 影响 。 对 Ga3 + 、 In3 + 等离子 共存 下 的 试验 表明 , Ga3 + 、 In3 + 离子 的 存在 使 MnO2 吸附 As ( III ) 的 能力 稍 有 增加 ( 见表 3 ) 。 这 与 Ga3 + 、 In3 + 的 物化 性质 相似 有关 , Ga3 + 、 In3 + 等离子 在 pH = 3 时 ， 就 分别 形成 胶体沉淀 ， Ga3 + 、 In3 + 浓度 愈高 ， 生成 的 胶体沉淀 愈 明显 ， 它们 形成 的 为 两性 氢氧化物 ， 在 pH 值为 中性 时 ， 胶体 表面 带有 大量 正电荷 ， 可以 吸附 亚砷酸 根 离子 。 
+ 2.7 　 解析 和 再生 实验 
+ 　 　 常用 的 解析 剂 有 酸 ( 如 HCl 、 H2SO4 ) ， 碱 ( NaOH ) 和 其他 一些 盐类 。 
+ 
+ 图 7 　 MnO2 的 重复 除 砷 能力 
+ Fig.7 　 TheabilityofremovingAs ( III ) byregeneratedMnO2 
+ 　 　 由于 As ( III ) 在 MnO2 表面 是 氧化 - 吸附 同时 进行 ， 除 选择 1MHCl 、 1MNaOH 、 1MNaH2PO4 外 ， 还 选择 了 一种 还原剂 葡萄糖 作为 解析 剂 。 结果表明 ， NaOH 溶液 是 有效 的 解析 剂 ， 解析 率为 98% 左右 , 其次 为 HCl , 能 解析 60% , 葡萄糖 溶液 仅 解析 37.5% 。 也就是说 , 吸附 As ( III ) 后 的 MnO2 可用 1MNaOH 来 解析 浓缩 。 解析 后 的 MnO2 对 As ( III ) 几乎 没有 吸附 作用 , 但用 1MHCl 浸泡 后 , 能 恢复 对 As ( III ) 的 吸附 能力 , 见图 7 。 
+ 3 　 结语 
+ 　 　 利用 MnO2 直接 吸附 去除 As ( III ) 是 可行 的 ， 其 吸附 作用 实际 包括 氧化 和 吸附 两个 过程 ; 不同 状态 的 MnO2 , 由于 其 物理性质 的 差异 , 吸附 能力 有 显著 不同 ; 其 吸附 符合 Langmiur 方程 。 
+ 　 　 被 MnO2 吸附 后 的 As ( III ) 可用 NaOH 溶液 来 解析 浓缩 ， 解析 后 的 MnO2 用 HCl 浸泡 后 , 可 恢复 对 As ( III ) 的 吸附 能力 。 
+ 　 　 有关 MnO2 吸附 去除 As ( III ) 的 工业 应用 , 还有 待 进一步 的 试验 。 
+ 参考文献 
+ 1 　 黄远传 . 环境 与 开发 , 1993 , 8 ( 1 ) : 10 ～ 12 
+ 2 　 蒋 云龙 . 环境 科学 , 1985 , 6 ( 1 ) : 15 ～ 20 
+ 3 　 HiroabiEgawa , etal . SeparationScienceandTechnology , 1985 , 20 ( 9 , 10 ) : 653 ～ 664 
+ 4 　 MaedaShgern , etal . SeparationScienceandTechnology , 1990 , 25 ( 5 ) : 547 ～ 555 
+ 5 　 李树猷 等 . 环境 与 健康 杂志 , 1991 , 8 ( 4 ) ： 165 ～ 167 
+ 6 　 MckenzieRM ， etal . MineralogicalMagazine , 1971 , 38 : 493 ～ 502 
+ 7 　 袁 可能 . 土壤 化学 . 北京 : 农业 出版社 , 1990 
+ 8 　 安德森 ( 美 ) . 水溶液 吸附 化学 . 北京 ： 科学出版社 , 1989 
+ 作者简介 
+ 陈 　 红 　 女 , 1968 年 8 月生 。 现任 浙江大学 环境 科学 与 工程系 讲师 。 主要 从事 废水 治理 的 教学 与 科研工作 。 承担 GaAs 材料 生产 中 废液 和 废气 无毒 排放 工艺 等 课题 。 发表 论文 2 篇 。 
+ 收稿 日期 ： 1997 - 06 - 16 
+ * 国家自然科学基金 资助 项目 

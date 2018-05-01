@@ -1,0 +1,88 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 5 期 vol.24 No.51998 
+ 
+ 
+ 
+ 含 结构 不 确定 系统 的 变 结构 
+ 鲁棒 自 适应控制 1 ) 
+ 林 　 岩 　 　 张 　 杰 　 　 毛剑琴 
+ 摘 　 要 　 讨论 了 含 结构 不 确定 SISO 系统 的 变 结构 模型 参考 鲁棒 自 适应控制 问题 ， 提出 了 一种 新 的 变 结构 控制 方法 ， 使得 ： 1 ) 系统 在 同时 含 参数 及 结构 不确定性 时 ， 跟踪 误差 仍能 在 有限 时间 内 收敛 到 零 ； 2 ) 无须 假设 参考模型 为 SPR ( 严格 正实 ) 函数 . 理论 分析 与 数值 仿真 结果 是 一致 的 . 
+ 关键词 　 自 适应控制 ， 变 结构 控制 ， 鲁棒控制 . 
+ VARIABLESTRUCTUREROBUSTADAPTIVECONTROL 
+ WITHUNMODELLEDDYNAMICS 
+ LINYAN 　 　 ZHANGJIE 　 　 MAOJIANQIN 
+ ( TheSeventhResearchDivision ( Systems & Control ) , BeijingUniversity 
+ ofAeronauticsandAstronautics ， Beijing 　 100083 ) 
+ Abstract 　 Inthispaper , anewvariablestructurerobustmodelreferenceadaptivecontrol ( VSMRAC ) schemeisproposed , whichdealswithaclassofSISOplantsunderparameterandunmodelleddynamicaluncertainties . Itisshownthatevenwiththeexistenceofunmodelleddynamics , theoutputtrackingerrorwillconvergetozeroinfinitetime , andtheSPR ( strictlypositivereal ) conditionforreferencemodelisnotrequired . Numericalsimulationisprovidedtosupportthetheoreticaldevelopments . 
+ Keywords 　 Variablestructurecontrol , adaptivecontrol , unmodelleddynamicaluncertainty . 
+ 1 　 引言 
+ 　 　 近年来 ， 国内外 一些 学者 将 变 结构 控制 理论 用于 被控 对象 含 参数 不 确定 时 的 模型 参考 自 适应 控制系统 设计 ， 取得 了 一批 重要 成果 ［ 1 ］ ， 其 突出 特点 是 ： 系统 具有 良好 的 过渡 过程 品质 和 对 干扰 的 鲁棒性 . 但变 结构 控制 在 处理 含 结构 不 确定 情形 时 的 结果 并 不 理想 ［ 2 ， 3 ］ . 文中 设 同时 含 参数 和 结构 不 确定 被控 系统 为 
+ y ( t ) = G ( s ) ［ u ( t ) + d ( y , t ) ］ = Gp ( s ) ( 1 + μ Δ G ( s ) ) ［ u ( t ) + d ( y , t ) ］ = 
+ kp ( np ( s ) / dp ( s ) ) ( 1 + μ Δ G ( s ) ) ［ u ( t ) + d ( y , t ) ］ , 　 　 ( 1 ) 
+ 满足 假设 ： a1 ) 仅 输入 信号 u ( t ) 及 输出 信号 y ( t ) 是 可 测量 的 ； a2 ) 扰动 项 d ( y , t ) 满足 ｜ d ( y , t ) ｜ ≤ f ( y , t ) , f ( y , t ) 为 一 已知 的 有界 连续函数 ； a3 ) Gp ( s ) 为 相对 阶 n * = 1 的 最小 相位 系统 ， kp , np ( s ) , dp ( s ) 的 系数 均 为 未知 常数 ， 但 属于 一个 已知 的 紧集 S ， 并且 恒有 kp ＞ 0 以及 np ( s ) , dp ( s ) 为 互质 首一 多项式 ； a4 ) Δ G ( s ) 为 一 稳定 正则 传递函数 ， 其所 对应 脉冲响应 函数 的 1 - 范数 已知 并 有界 ， 即 存在 γ 1 , 使 ‖ h1 ( t ) ‖ 1 : = ‖ L - 1 ( Δ G ( s ) ) ‖ 1 ≤ γ 1 ＜ ∞ , 这里 ， “ L - 1 ” 
+ 拉氏 逆变换 算子 ， 
+ 　 　 设 模型 参考 系统 为 
+ yM ( t ) = M ( s ) r ( t ) = kM ( nM ( s ) / dM ( s ) ) r ( t ) . 　 　 ( 2 ) 
+ 满足 假设 ： a5 ) kM ＞ 0 ; nM ( s ) ， dM ( s ) 分别 为 n - 1 阶及 n 阶 首一 Hurwitz 多项式 ； 参考 输入 信号 r ( t ) 分段 连续 且 有界 . 
+ 　 　 系统结构 如图 1 所示 . 由图 1 可得 被控 对象 的 控制 信号 为 
+ u ( t ) = T ω ( t ) + uvs ( t ) , 　 ( 3 ) 
+ 
+ 
+ 图 1 　 变 结构 自 适应 系统 结构图 
+ 其中 ∶ = ［ , 0 , ( 1 ) T , ( 2 ) T ］ T , ∶ = kM / p , ∈ R2n , ω ( t ) ∶ = ［ r , y , υ T1 , υ T2 ］ T , ω ( t ) ∈ R2n , , uvs ( t ) 的 定义 将 在 下面 给出 ， 信号 υ 1 ( t ) , υ 2 ( t ) 由 如下 输入 / 输出 滤波器 产生 ： 1 ( t ) = Λ υ 1 ( t ) + gu ( t ) , 2 ( t ) = Λ υ 2 ( t ) + gy ( t ) , Λ 　 ∈ R ( n - 1 ) × ( n - 1 ) , g ∈ Rn - 1 , 满足 det ( Is - Λ ) = nM ( s ) . 熟知 ， 当 uvs ( t ) ≡ 0 , d ( y , t ) ≡ 0 以及 ( a3 ) 成立 时 存在 常 向量 θ * = ［ k * , θ * 0 , ( θ * 1 ) T , ( θ * 2 ) T ］ T , 使 y ( t ) = G ( s ) ｜ μ = 0u ( t ) = Gp ( s ) ［ ( θ * ) T ω ( t ) ］ = M ( s ) r ( t ) . 
+ 　 　 文中 设 控制 信号 u ( t ) 中常 向量 作为 上述 θ * 的 一个 任意 预先 给定 的 估计值 ， 而 uvs ( t ) 为 欲 设计 的 变 结构 律 ， 即 在 满足 上述 各 假设 时 ， 跟踪 误差 e ( t ) ∶ = y ( t ) - yM ( t ) 能 在 uvs ( t ) 的 控制 下 在 有限 时间 内 趋向于 零 ， 即 进入 滑动 模态 . 
+ 2 　 主要 结果 
+ 　 　 首先 给出 由图 1 所示 变 结构 自 适应 系统 的 跟踪 误差 表达式 
+ 　 　 引理 1 . 设 系统结构 如图 1 所示 ， 则 跟踪 误差 e ( t ) 可 表示 为 
+ e ( t ) = M ( s ) ( kp / kM ) ［ h ( ω , d , μ ) + μ Δ G ( s ) ( 1 - d1 ( s ) / nM ( s ) ) uvs ( t ) + uvs ( t ) ］ , 　 　 ( 4 ) 
+ 其中 
+ 
+ 　 　 证明 . 根据 图 1 ， 利用 Mason 公式 即可 得 结论 ， 详细 证明 过程 在 此 略去 . 
+ 　 　 引理 2 ［ 4 ］ . 设 c ( t ) = ( s ) v ( t ) = kg ［ b ( s ) / a ( s ) ］ v ( t ) 为 一 严格 正则 系统 ， a ( s ) , b ( s ) 为 互质 首一 多项式 且 kg ≠ 0 . 若令 ( s ) 之 相对 阶为 n * ， 则 必有 n * 阶 的 首一 多项式 γ ( s ) 以及 一阶数 小于 b ( s ) 的 多项式 ρ ( s ) ， 使 a ( s ) = γ ( s ) b ( s ) + ρ ( s ) ， 进而 有 c ( t ) = ( kg / γ ( s ) ) v ( t ) - ( ρ ( s ) / ( γ ( s ) b ( s ) ) ) c ( t ) . 
+ 　 　 将 ( 4 ) 式 中 M ( s ) 按 引理 2 展开 ， 并 根据 ( a5 ) ， 知其 相对 阶 n * = 1 ， 设 dM ( s ) = γ ( s ) nM ( s ) + ρ ( s ) = ( s + p ) nM ( s ) + ρ ( s ) ， 经 整理 后 得到 
+ ( t ) = - pe ( t ) + kp ［ ( ω , d , e , μ ) + ε ( t ) + μ Δ G ( s ) ( 1 - d1 ( s ) / nM ( s ) ) uvs ( t ) + uvs ( t ) ］ 　 　 ( 5 ) 
+ 这里 ， ( ω , d , e , μ ) = 　 ∶ h ( ω , d , μ ) - ［ ρ ( s ) / ( kpnM ( s ) ) ］ e ( t ) . 上式 中 增加 了 一项 ε ( t ) , ε ( t ) 依 指数 速度 收敛 到 零 ， 表示 非零 初始条件 对系统 的 影响 . 作者 感兴趣 的 是 上式 中 p 符号 . 
+ 　 　 引理 3 . 设 参考模型 M ( s ) ( 参见 ( a5 ) ) 中 ， 多项式 nM ( s ) , dM ( s ) 分别 为 nM ( s ) = sn - 1 + b1Msn - 2 + … + b ( n - 1 ) M , dM ( s ) = sn + a1Msn + 1 + … + anM ， 那么 ， 若 a1M ＞ b1M ， 则 ( 5 ) 式 中 p ＞ 0 ; 若 a1M ≤ b1M , 则 ( 5 ) 式 中 p ≤ 0 ； 特别 ， 若 M ( s ) 为 SPR 函数 ， 则 必有 p ＞ 0 . 
+ 　 　 证明 . 按 引理 2 将 dM ( s ) 展开 成 dM ( s ) = ( s + p ) nM ( s ) + ρ ( s ) 后 ， 易知 p = a1M - b1M ， 于是 上述 结论 成立 为 显然 ； 特别 ， 当 M ( s ) 为 SPR 函数 时 ， 由 文献 ［ 5 ］ 之 结果 不难 推 得 此时 必有 p ＞ 0 . 
+ 　 　 下面 推导 变 结构 律 uvs ( t ) . 首先 对 ( 5 ) 式 中 ( ω ， d , e , μ ) 进行 估计 . 由 假设 ( a1 ) - ( a5 ) 以及 d1 ( s ) / nM ( s ) , ρ ( s ) / nM ( s ) 均 为 已知 的 稳定 且 严格 正则 的 传递函数 ， 于是 不难 求出 在 t ∈ ［ 0 , ∞ ］ 上 的 连续函数 fi ( t ) , i = 1 , 2 , 3 , 4 , 5 , 使 之 满足 如下 估计 ： 
+ ｜ T ω ( t ) + ( 1 - d1 ( s ) / nM ( s ) ) d ( y , t ) ｜ ≤ f1 ( t ) , 　 ｜ ρ ( s ) / ( kpnM ( s ) ) e ( t ) ｜ ≤ f2 ( t ) ; 　 　 ( 6 ) 
+ 令 β 1 ( t ) = ( 1 - d1 ( s ) / nM ( s ) ) f ( y , t ) , 于是 ， ( ω , d , e , μ ) 中 
+ 　 　 ( 7 ) 
+ 其中 h1 ( t ) 之 定义 见 假设 ( a4 ) . 
+ 　 　 ( 8 ) 
+ 上式 中 ， 作者 利用 了 β 1t ( τ ) 为 连续函数 这一 事实 . 令 β 2 ( t ) = ( 1 - d1 ( s ) / nM ( s ) ) T ω ( t ) ， 则 与 ( 7 ) 式 推导 类似 地 ， 有 
+ μ ｜ Δ G ( s ) ( 1 - d1 ( s ) / nM ( s ) ) T ω ( t ) ｜ ≤ μ ( γ 1 ‖ β 2t ( τ ) ‖ ∞ = 　 ∶ μ f4 ( t ) , 　 μ ≥ 0 . 　 　 ( 9 ) 
+ 　 　 在 uvs ( t ) 的 设计 中 ， 还 需要 考虑 到 p ≤ 0 ( 参见 ( 5 ) 式 ) 时 的 情形 . 此时 必须 对 μ ( / kpm ) × Δ G ( s ) ( 1 - d1 ( s ) / nM ( s ) ) e ( t ) 进行 估计 ， 这里 kpm 为 km 的 下界 ， 由 假设 ( a3 ) 不难 求得 . 预选 ＞ ｜ a1M - b1M ｜ , 令 β 3 ( t ) = ( 1 - d1 ( s ) / nM ( s ) ) e ( t ) ， 与 ( 7 ) 式 推导 类似 ， 有 
+ 　 　 ( 10 ) 
+ 记 , 那末 ， 根据 以上 讨论 及 ( ω , d , e , μ ) 之 定义 ， 不难 证明 ｜ ( ω , d , e , μ ) ｜ ≤ α ( t , μ ) , 及 ｜ ( ω , d , e , μ ) + μ ( / kpm ) Δ G ( s ) ( 1 - d1 ( s ) / nM ( s ) ) e ( t ) ｜ ≤ ( t , μ ) . 特别 需要 指出 的 是 ， 当 上 两个 不等式 右端 取 常数 μ = μ * ＞ 0 时 ， 其 对 所有 μ ∈ ［ 0 , μ * ］ 仍然 成立 . 进一步 ， 令 ‖ h2 ( t ) ‖ 1 = ‖ L - 1 ［ ( 1 - d1 ( s ) / nM ( s ) ) ］ ‖ 1 ≤ γ 2 , 有 
+ 　 　 定理 1 . 若 系统 ( 1 ) 及 参考 系统 ( 2 ) 满足 假设 ( a1 ) - ( a5 ) . 取 μ * ＞ 0 ， 使 0 ＜ 1 - μ * γ 1 γ 2 ＜ 1 , 记 α ( t ) = ∶ α ( t , μ * ) ， ( t ) = ∶ ( t , μ * ) ， 那末 ， 当变 结构 控制 律 uvs ( t ) 如下 时 ： 
+ 　 　 ( 11 ) 
+ 对 所有 μ ∈ ［ 0 , μ * ］ ， 误差 e ( t ) 必在 有限 时间 内 收敛 到 零 ， 即 进入 滑动 模态 ， 且 滑动 平面 恰为 e ( t ) ≡ 0 . 这里 ‖ α t ( τ ) ‖ ∞ , ‖ ( τ ) ‖ ∞ 的 定义 与 ( 8 ) 式 相同 ， Δ 为 任意 大于 零 的 常数 . 
+ 　 　 证明 . 因 篇幅 有限 ， 详细 证明 参见 文献 ［ 6 ］ . 进而 ， 当 μ = 0 ， 即 无 结构 不确定性 存在 时 ， 可得 比 ( 11 ) 式 更 简单 的 控制 律 
+ 　 　 定理 2 . 设 系统 ( 1 ) 及 参考 系统 ( 2 ) 满足 假设 ( a1 ) , ( a2 ) , ( a3 ) , 及 ( a5 ) 且 μ = 0 . 如取 变 结构 控制 律 
+ 　 　 ( 12 ) 
+ 则 e ( t ) 必在 有限 时间 内 达到 零 ， 即 进入 滑动 模态 . 这里 ， f1 ( t ) 、 f2 ( t ) 由 ( 6 ) 式 描述 ， 、 kpm 及 Δ 的 定义 与 定理 1 相同 . 
+ 　 　 证明 . 略 . 
+ 3 　 数值 仿真 结果 
+ 　 　 本节 将 通过 数值 仿真 例子 验证 上 节 理论 分析 的 正确性 . 
+ 　 　 例 . 采用 与 文献 ［ 3 ］ 类似 的 数学模型 . 设 被控 对象 为 
+ 
+ 干扰 d ( y , t ) = 0.2 cost ； 理想 参考模型 为 M ( s ) = ( s + 1 ) / ( s2 + 5s + 6 ) . 本文 取 μ * = 0.1 ， 这比 文献 ［ 3 ］ 中取 μ * = 0.01 大 10 倍 . 取 r ( t ) 为 峰值 ± 3 的 方波 时 的 仿真 结果 如图 2 所示 . 将 本文 与 文献 ［ 3 ］ 的 仿真 结果 比较 不难 发现 ， 即使 在 允许 的 结构 不 确定 大 10 倍 的 情况 下 ， 本文 的 结果 仍 优于 文献 ［ 3 ］ 的 结果 . 
+ 
+ 
+ ( a ) 　 含 结构 不 确定 系统 uvs ( t ) 图 
+ 
+ 
+ ( b ) 　 含 结构 不 确定 系统 e ( t ) , y ( t ) , yM ( t ) 图 
+ 图 2 
+ 1 ) 国家自然科学基金 资助 项目 . 
+ 作者 单位 ： ( 北京航空航天大学 第七 研究室 　 北京 　 100083 ) 
+ 参考文献 
+ 　 1 　 HsuLetal . AnalysisanddesignofI / Obasedvariableadaptivecontrol . IEEETrans . , 1994 , AC - 39 ( 1 ) : 4 - 21 
+ 　 2 　 CostaRR , HsuL . RobustnessofVS - MRACwithrespecttounmodelleddynamicsandexternaldisturbances . Int . J . ofAdapt . andSign.1992 , 6 ： 19 - 33 
+ 　 3 　 FuL . Newapproachtorobustmodelreferenceadaptivecontrolforaclassofplants . Int . J . Control , 1991 , 53 ( 6 ) : 1359 - 1367 
+ 　 4 　 MorseAS . Athree - dimentionaluniversalcontrollerfortheadaptivestabilizationofanystrictlyproperminimum - phasesystemwithrelativedegreenotexeedingtwo . IEEETrans . , 1985 ， AC - 30 ( 12 ) : 1188 - 1191 
+ 　 5 　 IoannouL , TaoG . Frequencydomainconditionsforstrictlypositiverealfunctions . IEEETrans . , 1987 , AC - 32 ( 1 ) : 53 - 54 
+ 　 6 　 LinYan , ZhangJie , MaoJianqin . Variablestructurerobustadaptivecontrolwithunmodelleddynamics . In : 36thIEEEConferenceonDecisionandControl , SanDiego , 1997 : 3243 — 3249 
+ 收稿 日期 　 1997 - 02 - 04 

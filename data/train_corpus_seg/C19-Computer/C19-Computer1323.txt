@@ -1,0 +1,90 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 2000 　 Vol.26 　 No.3 　 P.419 - 422 
+ 
+ 
+ 
+ 区间 系统 的 离散 鲁棒 Kalman 滤波 
+ 张勇 　 史忠科 炒 鞴 谥 小 ≈ 茏 匀 
+ 摘 　 要 　 着重 研究 区间 系统 的 鲁棒 滤波 问题 . 通过 等价 变换 ， 将 区间 系统 转换 为 对应 的 矩阵 范数 不 确定 系统 ， 并 据此 导出 区间 系统 的 鲁棒 滤波 算法 . 该 算法 为 一 离散 验后 （ aposteriori ） 滤波 算法 ， 它 能 保证 区间 系统 的 滤波 误差 有界 . 理论 分析 和 实际 计算 结果表明 ， 本 算法 能 达到 比验 前 （ apriori ） 滤波 小得多 的 滤波 误差 的 方差 上界 . 
+ 关键词 　 鲁棒 滤波 , 区间 系统 , 鲁棒 识别 , 状态 估计 . 
+ ROBUSTKALMANFILTERINGFORTHEDISCRETE - TIME 
+ INTERVALSYSTEM 
+ ZHANGYong 　 　 SHIZhongke 　 　 DAIGuanzhong 
+ ( InstituteofAirTrafficManagement , NPU , Xi ' an 　 710072 ) 
+ ZHOUZiquan 
+ ( ChinaFlightTestEstablishment , Xi ' an 　 710089 ) 
+ Abstract 　 ThispaperdealswiththerobustKalmanfilteringmethodforthediscrete - timeintervalsystem . Byequivalenttransformation , theintervalsystemistransformedtoanuncertainsystemwithmatrixnormbounds . ThenaposteriorirobustKalmanfilterisproposed , whichcanguaranteeavarianceboundofthefilteringerror . Bothanalysisandpracticalcomputingshowthatthisfiltercangetamuchlowervarianceboundthanapriorionecan . 
+ Keywords 　 Robustfiltering , intervalsystem , robustidentification , stateestimation . 
+ 1 　 引言 
+ 　 　 区间 系统 是 指 系统 状态 矩阵的元 素 在 一些 确定 区间 内 变化 的 系统 . 这类 系统 在 实际 中 广泛 存在 ， 如 电机 控制系统 等 . 近年来 ， 关于 区间 系统 的 鲁棒控制 问题 已 取得 许多 成果 ［ 1 , 2 ］ ， 但 关于 区间 系统 的 鲁棒 滤波 研究 尚 不多见 . 另一方面 ， 含 不 确定 模型 误差 系统 的 鲁棒 Kalman 滤波 问题 得到 了 广泛 地 研究 ， 并 取得 了 不少 的 成果 ［ 3 ］ . 但 这些 成果 都 以 考虑 验前 （ apriori ） 滤波 的 形式 为主 ， 较 少 使用 验后 ( aposteriori ) 滤波 的 算法 . 由于 Kalman 滤波 验后 算法 的 精度 比验 前 算法 高 ， 故 研究 鲁棒 条件 下 的 验后 滤波 算法 具有 很大 的 实际意义 . 
+ 2 　 问题 描述 
+ 　 　 考虑 如下 离散 区间 系统 
+ xk + 1 = Axk + Bwk , 　 　 　 　 　 　 　 　 　 ( 1a ) 
+ yk = Cxk + vk , 　 　 0 ≤ k ≤ N - 1 . 　 　 　 ( 1b ) 
+ 上式 中 状态 xk ∈ Rn ； 输出 yk ∈ Rr ; 系统 噪声 向量 wk 的 噪声 强度 为 W ≥ 0 ， 观测 噪声 向量 vk 的 强度 为 V > 0 ， 它们 都 与 系统 状态 无关 ； B 和 C 为 适当 维数 的 矩阵 ， A 为 系统 状态 转移 矩阵 ， 它 的 参数 不能 准确 确定 ， 但 已知 它们 属于 某些 确定 的 区间 ， 即 
+ 　 　 　 　 ( 2 ) 
+ 这里 L 和 U 分别 为 A 中 各 元素 的 下界 和 上界 组成 的 矩阵 . 
+ 　 　 可以 方便 地 证明 ［ 2 ］ ， 区间 矩阵 A 可 等价 地 表示 为 如下 矩阵 不 确定 的 形式 
+ A = A0 + HFE , 　 　 蠪 FT ≤ In2 , 　 　 　 ( 3a ) 
+ 其中 A0 = ( U + L ) / 2 ， 令 G = ( U - L ) / 2 ， 则 G 中 的 元素 Gij ≥ 0 ， 
+ 　 　 　 ( 3b ) 
+ 　 　 ( 3c ) 
+ ei 是 第 i 个 元素 为 1 的 单位 列 向量 ， F 为 n2 × n2 阶 对角 矩阵 ， In2 表示 n2 阶 单位矩阵 . 
+ 　 　 这样 ， 区间 系统 的 滤波 问题 就 转化 为 不 确定 系统 ( 1 ) 和 ( 3 ) 的 滤波 问题 . 参考 标准 的 Kalman 滤波 算法 ， 本文 采用 具有 如下 结构 的 验后 滤波 公式 
+ 　 　 　 ( 4 ) 
+ 式 中 为 系统 状态 的 滤波 结果 ， Ae , k + 1 和 Ke , k + 1 分别 为 滤波器 的 状态 矩阵 和 增益 矩阵 . 
+ 3 　 鲁棒验 后 滤波 算法 
+ 　 　 参照 系统 ( 1 ) ， ( 3 ) 和 滤波 方程 （ 4 ） , 定义 状态 的 估计 误差 ek = xk - ， 则 有 
+ ek + 1 = ( I - Ke , k + 1C ) ［ Ae , k + 1ek + ( A0 - Ae , k + 1 + HFE ) xk + Bwk ］ - Ke , k + 1vk + 1 . 　 　 　 　 ( 5 ) 
+ 　 　 考虑 扩展 状态 系统 η k = ［ xTk 　 eTk ］ T ， 则 其 运动 方程 为 
+ 　 　 　 　 　 ( 6 ) 
+ 其中 
+ 
+ 　 　 容易 验证 扩展 系统 的 状态 方差 阵 Xk = E ｛ η k η Tk ｝ 满足 Xk ≤ ， 这里 是 满足 如下 迭代 方程 的 正定 解 
+ 　 　 　 ( 8 ) 
+ 这里 λ > 0 为 任意 实数 ， ( P ) 表示 矩阵 P 的 最大 奇异 值 ， 其他 参数 的 定义 同前 . 
+ 　 　 将 上式 中 的 按 x 和 e 的 维数 分解成 如下 四块 子 矩阵 
+ 　 　 　 　 ( 9 ) 
+ 　 　 显然 ， 区间 系统 ( 1 ) 的 滤波 误差 方差 满足 
+ 　 　 　 ( 10 ) 
+ 　 　 现需 合理 选择 Ae , k + 1 和 Ke , k + 1 以 保证 ｛ Qk ｝ 序列 最小 ， 由此 本文 得到 以下 主要 结果 . 
+ 　 　 定理 1 . 如果 对 任一 实数 λ > 0 , 有 满足 下式 的 正定 解 Rk 存在 
+ 　 　 　 ( 11 ) 
+ 则 区间 系统 ( 1 ) 的 滤波 方程 ( 4 ) 中 ， 选择 
+ Ae , k + 1 = A0 , 　 　 　 　 　 　 　 　 　 ( 12a ) 
+ Ke , k + 1 = PkCT ( V + CPkCT ) - 1 　 　 　 　 ( 12b ) 
+ 能 保证 区间 系统 的 滤波 误差 上 界 序列 ｛ Qk ｝ 达到 极小 ， 且 Qk 满足 如下 迭代 方程 
+ 
+ 其中 k = ( ERkET ) 为 矩阵 ERkET 的 最大 奇异 值 . 
+ 　 　 证明 . 将 ( 8 ) 式 中 的 按 分块 形式 展开 ， 按 ( 12 ) 式 选择 Ae , k + 1 可 保证 12 , k = 22 , k 成立 ， 这 意味着 滤波 误差 ek 与 状态 估计值 无关 ， 从而 可 达到 最优 的 状态 估计值 ［ 3 ］ . 再 由 22 , k + 1 对 Ke , k + 1 求 极值 ， 即可 得 Ke , k + 1 的 表达式 . 然后 将 Ae , k + 1 和 Ke , k + 1 代入 分块 矩阵 22 , k + 1 ， 经过 一定 的 矩阵 运算 ， 即可 得到 方程 （ 13 ） . 方程 （ 11 ） 由 11 , k + 1 子块 的 方程 直接 得来 . 证毕 . 
+ 　 　 本 算法 在 计算 形式 上 与 标准 Kalman 滤波 结构 相似 ， 公式 中 的 Pk 对应 于 标准 Kalman 滤波 中 的 验前 方差 阵 （ 预测 方差 ） ， 而 Qk 对应 于验 后 方差 阵 ( 滤波 方差 ) . 由 （ 13 ） 式 知 ， 验后 滤波 方差 阵 Qk 一定 小于 验前 滤波 方差 阵 Pk . 另外 ， HHT 和 ( ERkET ) 可 直接 算 得 
+ 　 　 　 ( 14 ) 
+ 　 　 　 ( 15 ) 
+ 当 系统 维数 较 高时 ， 可 采用 ( 14 ) 和 ( 15 ) 式 代入 定理 中 计算 ， 以 减少 计算 困难 . 
+ 4 　 计算 实例 
+ 　 　 考虑 如下 形式 的 区间 系统 
+ 　 　 　 ( 16a ) 
+ yk = ［ - 10010 ］ xk + vk , 　 　 　 　 　 ( 16b ) 
+ 其中 噪声 wk , vk 的 强度 为 W = 1 ， V = 100 . 现 需要 对 状态 向量 xk 的 第一个 分量 x1 , k 进行 滤波 处理 . 采用 （ 13 ） 式 ， 算 得 稳态 滤波 误差 的 方差 上界 为 1.43 ， 而 对应 的 验前 滤波 误差 上界 为 85.94 . 另外 ， 我们 还 在 矩阵 A 分别 取为 区间 矩阵 的 中心 、 上界 和 下界 三种 情况 下 ， 计算 了 鲁棒 滤波 误差 方差 的 真实 值 ， 并 与 标准 Kalman 滤波 的 结果 进行 了 比较 ， 结果 见表 1 . 从表中 可见 ， 当 系统 矩阵 有 偏差 时 ， 本文 提出 的 滤波 算法 有 较大 的 优越性 . 
+ 表 1 　 E ｛ ( x1 - 1 ) 2 ｝ 的 真实 值 比较 
+ 
+ 滤波 算法 A = A0A = A0 + GA = A0 + G 
+ 标准 Kalman 滤波 0.0262 . 561.38 
+ 验后 鲁棒 滤波 0.840 . 870.81 
+ 
+ 5 　 结论 
+ 　 　 本文 研究 了 区间 系统 的 鲁棒 滤波 问题 ， 并 给出 了 对应 的 鲁棒验 后 滤波 算法 ， 它 能 保证 区间 系统 滤波 误差 的 方差 在 一定 的 范围 之内 . 理论 分析 和 实际 算例 都 表明 ， 本 算法 能 得到 比鲁棒验 前 滤波 算法 更 小 的 估计 误差 方差 上界 . 与 标准 Kalman 滤波 算法 相比 ， 当 系统 矩阵 有 偏差 时 ， 本 算法 有 较大 的 优越性 . 
+ 国家自然科学基金 、 国防 基金 资助 项目 . 
+ 　 　 张 　 勇 　 1965 年生 ， 西北工业大学 博士生 ， 曾 获 国家教委 、 航空航天 工业 科技 进步奖 四项 ， 主要 研究 方向 为 鲁棒控制 和 鲁棒 滤波 、 交通 控制 、 信号处理 和 信息 融合 等 . 
+ 　 　 史忠科 　 1956 年生 ， 工学 博士 ， 教授 ， 博士生 导师 . 近年来 主持 了 30 余项 实际 控制系统 的 研究 . 16 项 成果 已经 通过 了 部级 技术鉴定 ； 获 国家教委 、 航空航天 工业 科技 进步奖 10 项 ， 在 国内外 刊物 上 发表 论文 80 余篇 ， 在 国内外 学术会议 上 发表 论文 50 余篇 ， 出版 专著 5 部 . 主要 研究 领域 为 随机 控制 、 智能 控制 、 飞行 力学 、 交通 控制 等 . 
+ 张勇 （ 西北工业大学 空中 交通管理 研究所 　 西安 　 710072 　 E - mail : zkeshi @ nwpu . edu . cn ） 
+ 史忠科 （ 西北工业大学 空中 交通管理 研究所 　 西安 　 710072 ） 
+ 戴冠 中 （ 西北工业大学 空中 交通管理 研究所 　 西安 　 710072 ） 
+ 周自全 （ 中国 飞行 试验 研究院 　 西安 　 710089 ） 
+ 参考文献 
+ ［ 1 ］ 　 SohCB . Robuststabilityofdynamicintervalmatrices . ControlTheoryandAdvancedTechnology , 1994 , 10 : 73 ～ 80 
+ ［ 2 ］ 　 吴 方向 ， 史忠科 ， 戴冠 中 . 区间 系统 的 H ∞ 鲁棒控制 . 自动化 学报 , 1999 , 25 ( 2 ) ： 
+ ［ 3 ］ 　 YahaliTheodor , UriShaked . Robustdiscrete - timeminimumvariancefiltering . IEEETrans . SignalProcess , 1996 , 44 ( 2 ) : 181 ～ 189 
+ 收稿 日期 　 1998 - 07 - 27 
+ 修稿 日期 　 1999 - 03 - 10 

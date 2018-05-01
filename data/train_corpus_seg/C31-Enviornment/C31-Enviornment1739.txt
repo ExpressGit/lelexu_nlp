@@ -1,0 +1,38 @@
+环境 科学研究 
+ RESEARCHOFENUIRONMENTALSCIENCES 
+ 2001Vol.14 No.2 P.36 - 40 
+ 
+ 
+ 
+ 
+ 附载 型 复合 光催化剂 TiO2 . Al2O3 / beads 降解 有机磷 农药 
+ 张新荣 　 杨平 　 赵梦月 　 
+ 摘 　 要 ： 研究 以四 异丙醇 钛 ［ Ti ( iso - OC3H7 ) 4 ］ 、 异丙醇 铝为 原料 ， 以 空心 玻璃 微球 为 载体 ， 用 溶胶 - 凝胶 法 制备 可 漂浮 附载 型 复合 光催化剂 TiO2 . Al2O3 / beads 的 过程 。 用该 光催化剂 降解 有机磷 农药 ， 并 与 光催化剂 DegussaP - 25TiO2 光 活性 进行 比较 。 结果表明 ， 附载 型 复合 光催化剂 活性 显著 提高 ， 最高 光 活性 为 同样 降解 条件 下 ， 同样 含量 DegussaP - 25TiO2 光 活性 的 1.4 倍 ， 且 TiO2 . Al2O3 组分 摩尔 比 存在 最佳值 。 同时 还 研究 了 TiO2 . Al2O3 / beads 对 有机磷 农药 的 吸附性 ， 并用 XRD 和 TEM 对 附载 型 复合 光催化剂 进行 表征 。 
+ 关键词 ： 复合型 光催化剂 ； 　 TiO2 . Al2O3 ； 　 玻璃 微珠 ； 　 农药 
+ 分类号 ： X786 　 文献 标识码 ： A 
+ 文章 编号 ： 1001 - 6929 ( 2001 ) 02 - 0036 - 05 
+ PhotocatalyticDegradationofOrganophosphorousPesticidesUsingCompositePhotocatalystTiO2 . Al2O3AttachedtotheHollowGlassMicrobeads 
+ ZHANGXin - rong （ DepartmentofAppliedChemistry , 　 HarbinInstituteofTechnology , 　 Harbin 　 150001 , 　 China ） 　 
+ YANGPing （ CollegeofChemicalEngineering , 　 ZhengzhouUniversityofTechnology , 　 Zhengzhou 　 450002 , 　 China ） 　 
+ ZHAOMeng - yue （ CollegeofChemicalEngineering , 　 ZhengzhouUniversityofTechnology , 　 Zhengzhou 　 450002 , 　 China ） 　 
+ 
+ Abstract ： ThispaperstudiesthepreparationofTiO2 . Al2O3compositephotocatalystattachedtothehollowglassmicrobeadssurfacebySol - geltechniqueusingtitaniumtetraisopropoxide ［ Ti ( iso - OC3H7 ) 4 ］ andtriisopropylorganophosphorousasmaterial . Thephotocatalyticdegradationoforganophosphorouspesticideisstudied , whilecomparingthephotoactivityofTiO2 . Al2O3 / beadswiththephotoactivityofDegussaP - 25TiO2 . Theresultsshowthatthebestcompositephotocatalystproduces1.4 timesofphotoactivityofP - 25TiO2 , andthemoleratiosofTiO2 . Al2O3havethebestvalue . Moreover , theadsorptionofTiO2 . Al2O3 / beadsisstudied , andthecompositephotocatalystsarecharacterizedbyXRDandTEM . 
+ Keywords ： compositephotocatalyst ; 　 TiO2 . Al2O3 ; 　 hollowglassmicrobeads ; 　 pesticide 
+ 基金项目 ： 国家科委 重点 科技 攻关项目 ( 920 - 05 - 02 ) 
+ 作者简介 ： 张新荣 ( 1971 - ) ， 女 ， 河南 太康县 人 ， 博士 研究生 . 
+ 作者 单位 ： 张新荣 （ 哈尔滨工业大学 应用 化学系 ， 黑龙江 哈尔滨 　 150001 ） 　 
+ 　 　 　 　 　 杨平 （ 郑州 工业 大学 化工学院 ， 河南 郑州 　 450002 ） 　 
+ 　 　 　 　 　 赵梦月 （ 郑州 工业 大学 化工学院 ， 河南 郑州 　 450002 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ 　 HoffmannMR , MartinST , BahnemannDW . Environmetalapplicationofsermiconductorphototcatalysis [ J ] . ChenRev , 1995 , 95 : 69 ～ 96 . 
+ ［ 2 ］ 　 OllisDF , PelizzettiE , SerponeN . Destructionofwatercontaminants [ J ] . EnvironSciTechnol ， 1991 , 9 : 1529 ～ 1532 . 
+ ［ 3 ］ 　 MuneerM , philipR , DasS . Photocatalyticdegradationofwastewaterpollutantstitaniumdioxide - mediatedoxidationofatextileacidblue40 # [ J ] . ResChemIntermed , 1997 , 23 ( 3 ) : 233 ～ 246 . 
+ ［ 4 ］ 　 张 彭义 ， 余刚 ， 蒋展鹏 . 半导体 光催化剂 及其 改性 技术 进展 [ J ] . 环境 科学 进展 ， 1997 ， 5 ( 3 ) ： 1 ～ 10 . 
+ ［ 5 ］ 　 ChenSF , ZhaoMY . PhotocatalyticdegradationoforganophosphorouspesticidesusingTiO2supportedonfiberglass [ J ] . Microchem , 1996 , 54 ( 2 ) : 54 ～ 58 . 
+ ［ 6 ］ 　 ZhaoMY , ChenSF . PhotocatalyticdegradationoforganophosphorouspesticidesusingTiO2thinfilm [ J ] . ChemTechnolBiotechnol , 1995 , 64 : 339 ～ 344 . 
+ ［ 7 ］ 　 CarlA , AllenJB . ImprovedphotocatalyticactivityandcharacterizationofmixedTiO2 / Al2O3materials [ J ] . PhyChem ， 1997 , 101 , 2611 ～ 2616 . 
+ ［ 8 ］ 　 JochsonNB , WangCM . AttachmentofTiO2powderstomicrobeadsactivityoftheTiO2 - coatbeadsinthephotoassistedoxidationofethanoltoacetaldehyde [ J ] . Electro - ChemSoc , 1991 , 138 ( 12 ) : 3660 ～ 3664 . 
+ 
+ 收稿 日期 ： 2000 年 6 月 27 日 
+ 出版日期 ： 2001 年 3 月 30 日 

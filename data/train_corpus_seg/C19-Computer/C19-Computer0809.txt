@@ -1,0 +1,106 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 2000 　 Vol.26 　 No.1 　 P.74 - 78 
+ 
+ 
+ 
+ 随机 控制系统 稳态 Kalman 滤波器 新 算法 
+ 邓 自立 　 刘玉梅 
+ 摘要 应用 现代 时间 序列 分析方法 ， 基于 受控 的 自 回归 滑动 平均 ( CARMA ) 新息 模型 ， 提出 了 随机 控制系统 稳态 Kalman 滤波器 增益 的 两种 新 算法 ， 避免 了 求解 Riccati 方程 . 为 保证 滤波器 的 渐近 稳定性 ， 给出 了 选择 滤波 初值 的 两个 公式 . 仿真 例子 说明 了 新 算法 的 有效性 . 
+ 关键词 随机 控制系统 ， 稳态 Kalman 滤波器 增益 算法 ， 渐近 稳定性 ， 现代 时间 序列 分析 . 
+ NEWALGORITHMSOFSTEADY 睸 TATEKALMANFILTER 
+ FORSTOCHASTICCONTROLSYSTEMS 
+ DENGZili 
+ ( InstituteofAppliedMathematics , HeilongjiangUniversity , Harbin150080 ) 
+ LIUYumei 
+ ( DepartmentofAviation , CivilAviationInstituteofChina , Tianjin300300 ) 
+ AbstractUsingthemoderntimeseriesanalysismethod , basedonthecontrolledautoregressivemovingaverage ( CARMA ) innovationmodel , twonewalgorithmsofsteady 瞫 tateKalmanfiltergainforstochasticcontrolsystemsarepresented , wherethesolutionoftheRiccatiequationisavoided . Inordertoensuretheas 
+ ymptoticstabilityofthefilter , twoformulaeofsettinginitialfilteringestimatearegiven . Asimulationexampleshowstheeffectivenessofthenewalgorithms . 
+ KeywordsStochasticcontrolsystems , algorithmsofsteadystateKalmanfiltergain , asymptoticstability , moderntimeseriesanalysis . 
+ 1 引言 
+ 　 　 许多 不同 类型 随机 最优控制 器 设计 要求 计算 稳态 Kalman 滤波器 ［ 1 ］ . 但 经典 稳态 Kalman 滤波器 要求 解 复杂 的 Riccati 方程 . 对此 ， 本文 用 现代 时间 序列 分析方法 ［ 2 ］ ， 以 CARMA 新息 模型 作为 工具 取代 了 Riccati 方程 ， 提出 了 带 控制 项 的 稳态 Kalman 滤波器 新 算法 . 考虑 离散 线性 随机 控制系统 
+ И x ( t + 1 ) = Φ x ( t ) + Bu ( t ) + Γ w ( t ) ， 　 ( 1 ) 
+ y ( t ) = Hx ( t ) + v ( t ) ， ( 2 ) 
+ 其中 状态 x ( t ) ∈ Rn ， 观测 y ( t ) ∈ Rm ， 控制 u ( t ) ∈ RP . 
+ 　 　 假设 1 . w ( t ) ∈ Rr 和 v ( t ) 是 带 零 均值 的 白 噪声 ： 
+ 　 ( 3 ) 
+ 其中 E 为 数学 期望 ， ′ 为 转置 号 ， 
+ 　 　 假设 2 . 系统 是 完全 可观 的 ， 即 
+ 　 ( 4 ) 
+ 其中 β 是 可 观测 性 指数 . ( 4 ) 式 等价 于 Ω 列满 秩 ［ 3 ］ ， 
+ И ( 5 ) 
+ 　 　 假设 3 ( u ( t ) , u ( t - 1 ) ， … ) 是 已知 的 ， 或 u ( t ) 为 反馈 控制 ， 即 u ( t ) 是 ( y ( t ) , y ( t - 1 ) ， … ) 的 线性 函数 . 
+ 　 　 问题 是 基于 ( y ( t ) , y ( t - 1 ) ， … ； u ( t - 1 ) , u ( t - 2 ) ， … ) 求 x ( t ) 的 稳态 Kalman 滤波器 
+ 2 獵 ARMA 新息 模型 和 引理 
+ 　 　 记 Ii 为 i × i 单位 阵 ， 由式 ( 1 ) 和 式 ( 2 ) 有 
+ И y ( t ) = ［ H ( In - q - 1 Φ ) - 1Bq - 1 , H ( In - q - 1 Φ ) - 1 Γ q - 1 ］ ［ u ′ ( t ) , w ′ ( t ) ］ ′ + v ( t ) ， ( 6 ) 
+ 其中 q - 1 为 单位 滞后 算子 . 引入 左素 分解 
+ 　 ( 7 ) 
+ 式 中 是 形如 的 多项式 矩阵 ， Xi 为 系数 阵 ， nx 为阶 ， 且 将 式 ( 7 ) 代入 式 ( 6 ) 有 CARMA 新息 模型 
+ 　 ( 8 ) 
+ 其中 是 稳定 的 ［ 4 ］ ， D0 = Im ， 新息 ε ( t ) 是 零 均值 ， 方差 阵为 Q ε 的 白 噪声 . D ( q - 1 ) 和 Q ε 可用 Gevers 和 Wouters ［ 2 ］ 算法 求得 . 为 保证 D ( q - 1 ) 的 稳定性 ， 由谱 分解 定理 ［ 5 ］ ， 假设 无 行列式 零点 在 单位 圆上 的 左 因式 . 
+ 　 　 ε ( t ) 可 由 ( 8 ) 式 取 初值 ( ε ( t0 - 1 ) , … ， ε ( t0 - nd ) ) 递推 计算 为 
+ 　 ( 9 ) 
+ 　 　 引理 1 ［ 4 ］ . 　 ( 10 ) 
+ 其中 且 有 递推 式 
+ 　 ( 11 ) 
+ 　 . ( 12 ) И 
+ 　 　 引理 2 ［ 4 ］ . 对 任意 整数 N ， 有白 噪声 估值 器 
+ 　 ( 13 ) 
+ 　 　 引理 3 ［ 6 ］ . 状态 x ( t ) 有 非 递推 表达式 
+ 　 ( 14 ) 
+ 其中 Ω 由式 ( 5 ) 定义 ， 且 将 伪 逆 Ω # = ( Ω ′ Ω ) - 1 Ω ′ 分块 表示 为 
+ А ( 15 ) 
+ 若 Φ 非异 ， 定义 Ψ = Φ - 1 ， T = - Φ - 1B , L = - Φ - 1 Γ ， 则 有 
+ 　 ( 16 ) 
+ 这里 规定 Ψ i = 0 ( i < 0 ) ， 且 j ≥ 0 Θ 和 Θ i 定义 为 
+ 　 ( 17 ) 
+ 　 ( 18 ) 
+ 3 主要 结果 
+ 　 　 定理 1 . 系统 ( 1 ) ～ ( 2 ) 在 假设 1 ～ 3 下 ， 稳态 Kalman 滤波器 为 
+ А ( 19 ) 
+ 　 ( 20 ) 
+ 这里 ， 稳态 Kalman 滤波器 增益 K 的 两种 新 算法 为 
+ 　 ( 21 ) 
+ 　 ( 22 ) 
+ 证明 . 由式 ( 1 ) 和 射影 公式 ［ 2 ］ 有 
+ 　 ( 23 ) 
+ 　 ( 24 ) 
+ 　 ( 25 ) 
+ 将式 ( 24 ) 代入 式 ( 23 ) 得式 ( 19 ) . 由式 ( 13 ) 得式 ( 20 ) . 将式 ( 14 ) 和 ( 16 ) 代入 式 ( 25 ) 并 利用 引理 1 得式 ( 21 ) 和 ( 22 ) . 
+ 　 　 由式 ( 19 ) 和 ( 9 ) 看到 ， 的 计算 与 滤波 初值 和 新息 初值 ( ε ( t0 - 1 ) ， … ， ε ( t0 - nd ) ) 两者 有关 . 可 证明 ： 若 Φ 是 稳定 的 矩阵 ， 则 关于 这 两种 初值 是 渐近 稳定 的 ， 即 它 渐近 地 与 这 两种 初值 选取 无关 ， 从而 可任意 设置 这 两种 初值 . 假如 Φ 是 不 稳定 矩阵 ， 则 可 适当 选择 滤波 初值 关于 新息 初值 是 渐近 稳定 的 . 
+ 　 　 定理 2 . 在 定理 1 的 条件 下 ， 对应 于 增益 K 的 算法 式 ( 21 ) 或 ( 22 ) ， 若 取式 ( 19 ) 的 初值 
+ 为 
+ 　 ( 26 ) 
+ 或 
+ 　 ( 27 ) 
+ 则 式 ( 19 ) 关于 新息 初值 是 渐近 稳定 的 . 
+ 　 　 证明 . 类似 于 文献 ［ 3 ］ 的 证明 ， 从略 . 
+ 　 　 注意 式 ( 20 ) ， ( 23 ) ， ( 24 ) 和 还 可 得到 稳态 Kalman 预报 器新 算法 ， 推导 留给 读者 。 
+ 4 仿真 例子 
+ 　 　 应用 式 ( 19 ) ， ( 20 ) ， ( 30 ) ， ( 31 ) 的 仿真 结果 如图 1 和 图 2 所示 . 
+ 
+ 图 1x1 ( t ) 和 稳态 Kalman 滤波器 
+ 
+ 图 2x2 ( t ) 和 稳态 Kalman 滤波器 
+ 　 　 考虑 随机 控制系统 ( 1 ) ～ ( 2 ) ， 其中 x ( t ) = ［ x1 ( t ) , x2 ( t ) ］ ′ ， 
+ 　 ( 28 ) 
+ v ( t ) = 0.1 w ( t ) + ξ ( t ) , u ( t ) = 2 玸 in ( 2 π t ／ 300 ) . ( 29 ) И 
+ 上式 中 w ( t ) 和 ξ ( t ) 是 零 均值 、 方差 为 的 独立 高斯 白 噪声 . 易知 S = 0.1 . CARMA 新息 模型 为 
+ 　 ( 30 ) 
+ 且 新息 方差 由式 ( 21 ) 和 ( 26 ) 可 求得 
+ 　 ( 31 ) 
+ 国家自然科学基金 资助 项目 ( 69774019 ) . 
+ 邓 自立 1938 年生 ， 1962 年 毕业 于 黑龙江 大学 数学系 ， 现为 黑龙江 大学 应用 数学 研究所 教授 . 主要 研究 领域 为 状态 估计 ， 最优 滤波 ， 信号处理 ， 反 卷积 等 . 发表 论文 150 余篇 . 
+ 刘玉梅 1971 年生 ， 1997 年于 黑龙江 大学 获 自动控制 理论 及 应用 专业 硕士学位 ， 现为 中国民航 学院 航行 系 教师 ， 主要 研究 领域 为 状态 估计 ， Kalman 滤波 等 . 
+ 邓 自立 ( 黑龙江 大学 应用 数学 研究所 哈尔滨 150080 ) 
+ 刘玉梅 ( 中国 民用航空 学院 航行 系 天津 300300 ) 
+ 参考文献 
+ 1 ， VuKM . Discreteoptimalstochasticcontrollersanditsforms . Int . J . SystemsScience , 1990 ， 21 ( 3 ) ： 567 ～ 577 
+ 2 ， 邓 自立 ， 郭 一新 . 现代 时间 序列 分析 及其 应用 . 北京 ： 知识出版社 ， 1989 ， 54 ～ 70 
+ 3 ， 邓 自立 ， 刘玉梅 . 一类 稳态 Kalman 滤波器 及其 渐近 稳定性 . 信息 与 控制 ， 1998 ， 27 ( 1 ) ： 26 ～ 31 
+ 4 ， DengZL , ZhangHSetal . Optimalandself 瞭 uningwhitenoiseestimatorswithapplicationstodeconvolutionandfilteringproblems . 獳 utomatica , 1996 ， 32 ( 2 ) ： 199 ～ 216 
+ 5 ， NewmannMM , RobertsAP . Polynomialoptimizationofstochasticdiscretetime 
+ controlforunstableplants . Int . J . Control , 1996 ， 51 ( 6 ) ： 1363 ～ 1386 
+ 6 ， 邓 自立 ， 胡萍 等 . 非 递推 最优 状态 估计 的 几种 统一 算法 . 见 ： 1998 中国 控制 与 决策 学术年会 论文集 . 大连 ： 大连海事大学 出版社 . 1998 ， 250 ～ 254 
+ 收稿 日期 1997 - 09 - 29 收修稿 日期 1998 - 07 - 25 

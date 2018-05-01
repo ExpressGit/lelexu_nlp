@@ -1,0 +1,66 @@
+　 自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 第 23 卷 第 3 期 vol.23 No.31997 
+ 
+ 
+ 
+ 离散 事件 系统 的 一种 N 步 在线 监控 策略 1 ) 
+ 古 天龙 　 高 衿 畅 　 周 春晖 
+ 　 　 摘 　 要 　 文中 给出 了 离散 事件 系统 的 一种 N 步 在线 监控 策略 . 其 特点 是 控制策略 取决于 系统 当前 运行 的 N 步 后继 运行 投影 或 预测 ， 无需 计算 非能控 语言 的 上限 能 控子 语言 ， 通过 适当 选取 N ， 仍 可 保证系统 的 最优 运行 . 同时 还 给出 了 与 之 相关 的 一些 理论 结果 . 
+ 　 　 关键词 　 离散 事件 系统 ， 监控器 ， 综合 . 
+ N - STEPON - LINESUPERVISORYCONTROLOF 
+ DISCRETEEVENTSYSTEMS 
+ GUTIANLONG 
+ ( DepartmentofComputer , GuilinInstituteofElectronicTechnology , Guilin541004 ) 
+ GAOJINCHANGZHOUCHUNHUI 
+ ( InstituteofIndustrialProcessControl , ZhejiangUniversity , Hangzhou310027 ) 
+ 　 　 AbstractAN - stepon - linesupervisorycontrolmethodfordiscreteeventsystemsisproposed . ThismethodischaracterizedbycalculatingthenextcontrolactiononthebasisofaN - stepprojectionofthebehaviorandachievingoptimalsupervisorycontrolwithoutcalculatingthesupremalcontrollablesublanguage . Sometheoreticproblemsaboutthismethodarealsodiscussed . 
+ 　 　 KeywordsDiscreteeventsystems , supervisors , synthesis . 
+ 　 　 1 　 引言 
+ 　 　 对于 具有 事件 集 Σ ( Σ = Σ c ∪ Σ u , Σ c ∩ Σ u = , Σ c 为 能控 事件 集 , Σ c 为 不能 控 事件 集 ) 和 状态 集 Q ， 始于 初态 q0 ∈ Q ， 依据 δ : Σ × Q → Q ( 状态 转移 函数 ， δ ( σ , q ) = q ′ 表示 事件 σ 将 状态 q 转移 至 状态 q ′ ) 变化 的 离散 事件 问题 可用 自动机 G = ( Σ ， Q ， δ , q0 ) 描述 . 以 Σ * 表示 事件 集 Σ 上 的 事件 串集 ( 包括 控串 ε ) ， δ 则 可 扩展 为 δ ： Σ * × Q → Q ［ 1 ， 2 ］ . 离散 事件 问题 G 的 运行 特性 为 语言 L ( G ) = ｛ s ｜ s ∈ Σ * , δ ( s , q0 ) 有 定义 ｝ . 对于 事件 串 s = σ 1 σ 2 … σ k ∈ Σ * ， 称 事件 串 σ 1 σ 2 … σ j ( j ≤ k ) 为 事件 串 s 的 前缀 ， 以 pre ( s ) 表示 事件 串 s 的 所有 前缀 构成 的 集合 . 以 ｜ s ｜ 表示 事件 串 s 的 长度 ( 事件 串中 事件 出现 次数 ) ， ｜ s ｜ = σ 1 σ 2 … σ k ｜ = k . 语言 K Σ * 的 闭包 定义 为 = ｛ s ｜ ( t ∈ Σ * ) t ∈ K ∧ s ∈ pre ( t ) ｝ . 对于 K Σ * ， 如果 Σ u ∩ L ( G ) , 则 称 K 为 能控 语言 ( 对于 L ( G ) 和 Σ u ) . 对于 非能控 语言 K ， 可用 其 上限 能 控子 语言 K ↑ 来 近似 ［ 2 ］ . 离散 事件 问题 G 的 监控器 为 Γ ： Σ → 2 Σ ， 或者 Γ ： Σ * → 2 Σ . 以 γ ( s ) 表示 事件 串 s 后 的 监控 策略 ( 能 发生 事件 的 集合 ) . 受控 离散 事件 问题 G 的 运行 特性 用 L ( G ， γ ) 表示 . 
+ 　 　 在 Ramadge 和 Wonham 等 学者 提出 的 离散 事件 问题 的 逻辑 监控 理论 中 ［ 1 ， 2 ］ ， 监控器 的 综合 要求 ： 受控对象 以及 期望 合法 运行 特性 的 有限 自动机 模型 . 对于 非能控 语言 性能指标 ， 还 需要 计算 上限 能 控子 语言 . 如果 问题 的 规模 较大 ， 则 会 出现 计算 困难 、 甚至 不 可能 . Chung 等 提出 了 LLP 在线 监控 的 思想 ［ 3 ］ . 本文 给出 一种 较之于 LLP 在线 监控 策略 更为 有效 的 N 步 在线 监控 策略 . 
+ 　 　 2 　 N 步 在线 监控 
+ 　 　 2.1 　 监控 策略 的 描述 
+ 　 　 N 步 在线 监控 策略 的 基本 思想 是 ： 根据 系统 当前 运行 ( 设 执行 完 事件 串 s ) 下 后继 运行 的 N 步 投影 或 预测 ( 时变 、 非 确定 离散 事件 问题 的 N 步 后继 运行 只能 通过 预测 而 获得 ) 和 指标 语言 K ， 求解 当前 运行 历史 s 下 的 控制策略 γ N ( s ) ( 后继 运行 情况 的 N 步 投影 或 预测 为 一 N 级树 ) . 对于 语言 L ( G ) Σ * ， 事件 串 s ∈ Σ * ， N ∈ Z + ( 正整数 ) ， 引入 如下 语言 运算 
+ L ( G ) / s = ｛ t ｜ t ∈ Σ * ) st ∈ L ( G ) ｝ , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 
+ L ( G ) ｜ N = ｛ t ｜ t ∈ Σ * ) t ∈ L ( G ) ∧ ｜ t ｜ ≤ N ｝ , 　 　 　 　 　 　 　 　 　 　 　 　 
+ L ( G ) / s ｜ N = ｛ t ｜ t ∈ Σ * ) st ∈ L ( G ) ∧ ｜ t ｜ ≤ N ｝ . 　 　 　 　 　 　 　 　 　 　 
+ 进一步 定义 如下 受 阻止 事件 串集 ( 子 语言 ) 
+ 
+ 系统 运行 至 s 下 的 反馈 控制策略 ( 允许 发生 事件 集合 ) 为 
+ γ N ( s ) = L ( G ) / s ｜ 1 - ( F / s ｜ N1 ∪ F / s ｜ N2 ∪ F / s ｜ N3 ) ｜ 1 
+ 离散 事件 系统 在 给定 语言 指标 K 下 的 N 步 在线 监控 运行 特性 为 
+ ε ∈ L ( G , γ N ) ， 　 
+ ( s ∈ L ( G , γ N ) ( σ ∈ γ N ( s ) ) s σ ∈ L ( G , γ N ) . 
+ 　 　 2.2 　 一些 理论 结果 
+ 　 　 命题 1 . 当且 仅 当 ↑ ≠ Φ , L ( G , γ N ) ↑ . 
+ 　 　 命题 2 . 当且 仅 当 ( σ ∈ Σ u ∩ L ( G ) ｜ 1 ) ( w ∈ Σ * u ) σ w ∈ L ( G ) ∧ σ w ∈ , 则 ↑ ≠ Φ . 
+ 　 　 命题 3 . L ( G ， γ N ) L ( G , γ N + 1 ) . 
+ 　 　 命题 4 . 如果 ↑ ≠ Φ , N ≥ Nu ( L ( G ) ) + 2 , 则 L ( G ， γ N ) = ↑ . 其中 Nu ( L ( G ) ) = max ｛ ｜ t ｜ ｜ t ∈ Σ * u ) ( u , ν ∈ Σ * ) ut ν ∈ L ( G ) ｝ . 
+ 　 　 为了 将 N 步 在线 监控 策略 同 LLP 监控 策略 进行 比较 ， 以 γ Ncons ( s ) , γ Noptm ( s ) 分别 表示 LLP 监控器 中 保守 、 乐观 策略 下 ， 系统 运行 至 事件 串 s 的 反馈 控制 ( 允许 发生 事件 集合 ) . LLP 监控 的 保守 和 乐观 策略 是 对 N 级树中 悬挂 ( pending ) ［ 3 ］ 串 所 采取 的 “ 极端 ” 决策 ( 阻止 或者 发生 ) . N 步 在线 监控 策略 则 是 充分利用 悬挂 串所含 信息 ( 串 的 能 控性 ) 的 一种 折衷 决策 ( 如果 某 悬挂 串中 包含 多于 一个 能控 事件 ， 则 称 其 为 能控 悬挂 串 ； 反之 ， 则 称为 不能 控 悬挂 串 . 能控 悬挂 串 可以 发生 、 不能 控 悬挂 串 受到 阻止 ) . 显然 γ Ncons ( s ) γ N ( s ) γ Noptm ( s ) ， 并 有 如下 命题 . 
+ 　 　 命题 5 . L ( G ， γ Ncons ) L ( G , γ N ) L ( G , γ Noptm ) . 
+ 　 　 命题 5 表明 ， 在 保证系统 可靠 运行 下 ， N 步 在线 监控 策略 较之于 LLP 监控 策略 允许 系统 有 更 大限度 的 运行 ( 由 文献 ［ 3 ］ 知 ， L ( G ， γ Ncons ) K ↑ 以及 K ↑ L ( G , γ Noptm ) , 亦 即 乐观 控制策略 γ Noptm ( s ) 下 受控系统 会 出现 受禁 运行 特性 ) . 
+ 　 　 由于 篇幅 所 限 ， 上述 几个 命题 的 证明 从略 ( 可 参阅 文献 ［ 4 ］ 的 有关 章节 ) . 
+ 　 　 示例 . 图 1a 所示 离散 事件 系统 G ， 其中 事件 集 为 Σ = ｛ α , θ , β ｝ ， 能控 事件 集 为 Σ c = ｛ α , θ ｝ . 控制 指标 语言 K = ( β 2 + α β ) θ β . 
+ 
+ 图 1 　 离散 事件 系统 的 例 
+ 由 命题 2 ， 因为 , 所以 ↑ ≠ Φ . 本例 中 Nu ( L ( G ) ) = 2 , 选取 N = 4 . 监控 策略 综合 如下 ： 
+ 　 　 s = ε ( q = 0 ) : F / s ｜ N2 = F / s ｜ N3 = Φ , γ 4 ( ε ) = L ( G ) / ε ｜ 1 = ｛ α , β ｝ ; 
+ 　 　 s = α ( q = 1 ) : F / s ｜ N2 = F / s ｜ N3 = Φ , γ 4 ( α ) = L ( G ) / α ｜ 1 = ｛ β ｝ ; 　 
+ 　 　 s = α β ( q = 2 ) : F / s ｜ N2 = Φ , F / s ｜ N3 = ｛ θ β β ｝ , γ 4 ( α β ) = L ( G ) / α β ｜ 1 - ｛ θ ｝ = Φ ; 
+ 　 　 s = β ( q = 6 ) : F / s ｜ N3 = Φ , F / s ｜ N2 = ｛ θ ｝ , γ 4 ( β ) = L ( G ) / β ｜ 1 - ｛ θ ｝ = ｛ β ｝ ; 
+ 　 　 s = β β ( q = 2 ) : F / s ｜ N2 = Φ , F / s ｜ N3 = ｛ θ β β ｝ , γ 4 ( β β ) = L ( G ) / β β ｜ 1 - ｛ θ ｝ = Φ . 
+ 　 　 同理 可 计算 出 其它 事件 串 s 下 当前 运行 的 控制策略 . 系统 在 N 步 在线 监控 策略 下 的 运行 特性 L ( G , γ 4 ) 示于 图 1b ， 显然 L ( G ， γ 4 ) = ↑ . 
+ 　 　 3 　 讨论 
+ 　 　 N 步 在线 监控 策略 中 ， 系统 当前 运行 s 下 的 控制策略 是 基于 该 运行 历史 的 后继 运行 的 N 步 投影 或 预测 . 在 这 一点 上 类似 于 文献 ［ 3 ］ 中 LLP 监控 的 思想 . 但是 ， 由于 N 步 在线 监控 中 所 采取 的 控制策略 的 不同 ， 使 其 体现 出较 LLP 监控 有 如下 两 方面 优点 ： ( 1 ) 在 保证系统 可靠 运行 下 ， 允许 系统 有 更 大限度 的 运行 ( 命题 5 ) ； ( 2 ) 监控 策略 综合 时 ， 无需 计算 非能控 指标 语言 的 上限 能 控子 语言 ， 但 通过 适当 选取 N 仍 可 保证系统 的 最优 运行 K ↑ ( 命题 4 ) . 
+ 　 　 N 步 在线 监控 策略 综合 中 ， F / s ｜ N1 , F / s ｜ N2 和 F / s ｜ N3 的 计算 工作量 相当于 LLP 监控 综合 中 fNK 和 fN ［ 3 ］ a 的 计算 工作量 . 由于 N 步 在线 监控 策略 的 综合 无需 实施 fN ［ 3 ］ ↑ 的 计算 ， 故 N 步 在线 监控 策略 较 LLP 监控 策略 在 计算 上 更为 有效 . 
+ 　 　 N 的 选取 对于 N 步 在线 监控 策略 的 运行 效果 有 较大 的 影响 . 对于 运行 特性 L ( G ) 可 完全 预知 的 离散 事件 问题 ， 可 通过 命题 4 选取 N ， 以 确保 系统 的 最优 运行 . 然而 ， 对于 时变 非 确定 离散 事件 问题 ， L ( G ) 是 无法 完全 预知 的 ， N 步 在线 监控 策略 就 不 一定 能 保证系统 的 最优 运行 . 只能 通过 选取 尽可能 大 的 N ( 计算 或 在线 实施 允许 下 ) ， 来 达到 较 好 的 系统 运行 . 
+ 1 ) 广西 自然科学 基金 资助 项目 . 
+ 作者 单位 ： 古 天龙 ： 桂林 电子 工业 学院 计算机系 　 桂林 　 541004 
+ 　 　 　 　 　 高 衿 畅 ， 周 春晖 ： 浙江大学 工业 控制技术 研究所 　 杭州 　 310027 
+ 参考文献 
+ 　 ［ 1 ］ RamadgePJ , WonhamWM . Supervisorycontrolofaclassofdiscreteeventprocesses . SIAMJ . ControlOptim . , 1987 , 25 ( 1 ) : 206 — 230 . 
+ 　 ［ 2 ］ WonhamWM , RamadgePJ . Onthesupremalcontrollablesublanguageofagivenlanguage . SIAMJ . ControlOpti . , 1987 , 25 ( 3 ) : 637 — 659 . 
+ 　 ［ 3 ］ ChungSL , LafortuneS , LinF . Limitedlookaheadpolicesinsupervisorycontrolofdiscreteeventsystems . IEEETrans . onAutoma . Control , 1992 , 37 ( 2 ) : 1921 — 1935 . 
+ 　 ［ 4 ］ 古 天龙 . 复杂 工业 过程 中 离散 事件 问题 的 若干 新 研究 ［ 学位 论文 ］ . 杭州 ： 浙江大学 ， 1995 . 
+ 收稿 日期 1994 - 12 - 19 

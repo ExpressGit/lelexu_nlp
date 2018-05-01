@@ -1,0 +1,113 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1999 年 第 25 卷 第 6 期 Vol.25 No.61999 
+ 
+ 
+ 
+ 一种 基于 扩张 原理 的 模糊 模型 
+ 及其 辨识 方法 1 ) 
+ 陈怡欣 　 萧德云 
+ 摘 　 要 　 提出 一种 新 的 基于 LR 型 模糊 数 及其 运算 的 模糊 模型 结构 — — 扩展 的 TSK 模型 ( ETSK 模型 ) . 借助于 LR 型 模糊 数 隶属 函数 图形 的 面积 和 重心 横坐标 这 两个 “ 数字 特征 ” ， 导出 了 ETSK 模型 的 输入输出 解析 表达式 ， 并 证明 了 ETSK 模型 与 变权 TSK 模型 的 等价关系 ， 同时 给出 一种 对 ETSK 模型 规则 后件 的 参数 辨识 方法 . 仿真 辨识 实验 结果表明 ， ETSK 模型 的 辨识 效果 和 预报 精度 更优 . 
+ 关键词 　 模糊 辨识 ， LM 模型 ， TSK 模型 ， ETSK 模型 . 
+ ANEXTENSION - PRINCIPLE - BASEDFUZZYMODEL 
+ ANDITSIDENTIFICATIONALGORITHM 
+ CHENYixin 　 XIAODeyun 
+ ( DepartmentofAutomation , TsinghuaUniversity , Beijing 　 100084 ) 
+ Abstract 　 AnextendedTSKmodel — — ETSKmodel , basedonLRtypefuzzynumbersandtheirextendedoperations , isproposedinthispaper . Theinput - outputanalyticexpressionisprovedandaparameteridentificationalgorithmisalsoconstructedtoidentifytheareasandgravitycentersofthemembershipfunctionsofLRtypefuzzynumbers . AkindofvariableweightTSKmodelwhichisequivalenttotheETSKmodelisalsodeduced . SimulationshowsthattheETSKmodelcangiveoutmoreaccuratelong - rangepredictionsthananLMmodelandaTSKmodel . 
+ Keywords 　 Fuzzyidentification , LMmodels , TSKmodels , ETSKmodels . 
+ 1 　 引言 
+ 　 　 模糊 模型 是 模糊集 与 模糊 逻辑 在 系统 建模 中 的 一种 应用 ［ 1 ］ ， 它 为 一些 复杂 、 不确定性 的 系统 提供 了 一种 有效 的 建模 方法 . 从 模型 结构 上 说 ， 模糊 模型 可 分成 两类 ： 基于 规则 描述 的 模糊 模型 和 不 基于 规则 描述 的 模糊 模型 . 前者 主要 有 语言 模型 ( LinguisticModels , LM ) ［ 2 ］ 和 Takagi - Sugeno - Kang 模型 ( TSK 模型 ) ［ 2 ］ ； 后者 包括 模糊 回归 模型 ( FuzzyRegressionModels ) ［ 3 ］ 和 模糊 神经网络 模型 ( FuzzyNeuor - NetworkModels ) ［ 4 ］ . 
+ 　 　 LM 模型 是 用 一组 由 模糊 谓词 构成 的 IF - THEN 规则 来 描述 一个 系统 的 ， 规则 的 后件 与 前件 都 是 模糊集 ， 对 不确定性 的 描述 能力 比较 强 ； TSK 模型 也 称作 局部 回归 模型 ( LocalRegressiveModel ) , 其 规则 的 后件 一般 为 某种 函数 表达式 ， 是 输入 变量 的 确定 函数 . TSK 模型 较 LM 模型 精度 更高 . 
+ 　 　 本文 基于 LR 型 模糊 数 ［ 5 ］ 及其 扩张 运算 的 扩展 ， 构造 一种 新 的 模糊 模型 结构 ， 它 既 具有 LM 模型 对 不稳定性 的 描述 能力 ， 又 具有 TSK 模型 的 精度 ， 称 这种 模型 为 ETSK 模糊 模型 ( ExtendedTSKmodel ) , 它 是 LM 模型 和 TSK 模型 的 扩充 和 综合 . 
+ 2 　 扩展 的 TSK 模型 — — ETSK 模型 
+ 2.1 　 ETSK 模型 的 基本 框架 
+ 　 　 称 规则 描述 如下 的 模糊 模型 
+ 　 　 ( 1a ) 
+ 　 　 ( 1b ) 
+ 为 扩展 的 TSK 模型 ， 简称 ETSK 模型 . 其中 xj ∈ R1 为 ETSK 模型 的 输入 变量 ， Y 为 ETSK 模型 的 模糊 输出 ， Aij 为 输入 论域 上 的 模糊集 ， aij 为 LR 型 模糊 数 ( i = 1 , … ， m ; j = 1 , … , n ) , 分别 表示 基于 扩张 原理 的 模糊 数 的 数量 积 和 加法 运算 . 
+ 　 　 从 形式 上 看 ， ETSK 模型 是 TSK 模型 的 直接 扩充 ， 它 把 规则 后 件 线性 函数 中 的 系数 扩展 成 了 模糊 数 ， 从而 使 每条 规则 的 后件 成为 模糊 线性 函数 . 这一 扩充 带来 了 实质性 的 变化 ， 使 ETSK 模型 可以 兼蓄 LM 模型 和 TSK 模型 的 优点 . 
+ 　 　 如果 模型 ( 1 ) 的 规则 后 件 采用 模糊 ARMA 描述 ， 则 可 得到 如下 的 ETSK 模型 ， 它 可 用于 描述 一个 动态 系统 . 
+ 　 　 ( 2a ) 
+ 　 　 ( 2b ) 
+ 上式 中 y ( k - 1 ) , … , y ( k - p ) , u ( k ) , … , u ( k - q ) ∈ R1 为 ETSK 模型 的 输入 变量 ； Y 为 模糊集 ， 是 ETSK 模型 的 模糊 输出 ； Aij 和 Bit 为 输入 论域 上 的 模糊集 ； aij 和 bit 为 LR 型 模糊 数 ( i = 1 , … , m ; j = 1 , … , p , t = 0 , … , q ) ; 分别 为 模糊 数 的 数量 积 和 加法 运算 . 
+ 2.2 　 ETSK 模型 的 解析 描述 
+ 　 　 对于 式 ( 1 ) 所 描述 的 ETSK 模型 ， 可以 证明 如下 定理 及 推论 . 
+ 　 　 定理 1 . 给定 一个 模糊 系统 F ： Rp + q + 1 → R1 ， 其 规则 描述 如式 ( 2 ) . 若 规则 后件 中 的 模糊 数 aij 和 bit ( i = 1 , … ， m ; j = 1 , … , p ; t = 0 , … , q ) 均 为 LR 型 模糊 数 ， 采用 重心 法 清晰化 ， 则 其 输入输出 解析 式 为 
+ 　 　 ( 3 ) 
+ 上式 中 y ( k ) 为 k 时刻 输出 值 ， 它 是 总 模糊 输出 Y 的 重心 ； h = ［ y ( k - 1 ) , … , y ( k - p ) , ﹗ ( k ) , u ( k - 1 ) , … , u ( k - q ) ］ T 为 输入 向量 ； ｜ h ｜ = ［ ｜ y ( k - 1 ) ｜ , … , ｜ y ( k - p ) ｜ , ｜ u ( k ) ｜ , … ， ｜ u ( k - q ) ｜ ］ T ， 且 定义 
+ 
+ 上式 中为 对应 模糊 数 的 隶属 函数 曲线 与 横坐标轴 所围 图形 的 面积 ( 简称 面积 ) ； , 为 对应 图形 的 重心 的 横坐标 ( 简称 重心 ) . 
+ 　 　 推论 1 . 若 saij = sbit = const ＞ 0 ( i = 1 , … , m ; j = 1 , … , p ; t = 0 , … , q ) , 
+ 则 
+ 　 　 ( 4 ) 
+ 此时 ETSK 模型 等价 于 TSK 模型 ， 即 TSK 模型 是 ETSK 模型 的 一种 特例 . 
+ 2.3 　 变权 TSK 模型 
+ 　 　 从 形式 上 看 ， 由于 ETSK 模型 引入 了 LR 型 模糊 数 及其 扩张 运算 ， 所以 扩展 了 TSK 模型 . 通过 定理 2 将 可 看出 ， 这种 扩展 本质 上 相当于 对 TSK 模型 的 规则 进行 加权 处理 ， 即 ETSK 模型 等价 于 一种 变权 TSK 模型 ， 其 模型 描述 如下 ： 
+ 　 　 ( 5a ) 
+ 　 　 ( 5b ) 
+ 上式 中 y ( k ) 为 模型 输出 变量 ； Aij 和 Bit 为 输入 论域 上 的 模糊集 ； ω i ( h ) ∈ R1 为 第 i 条 规则 的 权值 ， h 输入 向量 ； y ( k - j ) , u ( k - t ) , gaij , gbit ∈ R1 , i = 1 , … , m , j = 1 , … , p , t = 0 , … , q . 
+ 　 　 定理 2 . 一个 模糊 系统 F ： Rp + q + 1 → R1 , 其 规则 描述 如式 ( 5 ) . 若 
+ 
+ 则 它 与 式 ( 2 ) 所 描述 的 ETSK 模型 具有 相同 的 输入输出 表达式 ， 即 
+ 　 　 ( 6 ) 
+ 其中 α i , h , ｜ h ｜ , si 和 gi 的 定义 与 定理 1 相同 . 
+ 　 　 由 定理 2 可以 看出 ， ETSK 模型 对 TSK 模型 的 扩展 ， 相当于 对 TSK 模型 的 规则 进行 加权 处理 . 权值 由 输入 向量 h 和 面积 参数 si 确定 ， 而 规则 后件 只 由 输入 向量 h 和 重心 参数 gi 决定 . 定理 2 将 ETSK 模型 中 的 模糊 数 及其 扩展 运算 转化 为 普通 实数 的 运算 . 
+ 2.4 　 ETSK 模型 特点 
+ 　 　 1 ) 从 推论 1 可以 看出 ETSK 是 TSK 模型 的 扩充 ， 因此 它 保持 了 TSK 模型 的 优点 . 当后 件 中 LR 型 模糊 数 的 面积 均 相同 时 ， 面积 参数 可以 消 去 ， 重心 参数 即 是 TSK 模型 中 的 线性 系数 ， 此时 TESK 模型 就是 TSK 模型 . 当 规则 后件 的 模糊 线性 函数 蜕化 为 模糊 常数 或 普通 实数 时 ， ETSK 模型 就 成为 LM 模型 或 常用 的 单点 集 输出 模型 . 
+ 　 　 2 ) 把 语言 规则 的 后件 表示 成 LR 型 模糊 数 及其 运算 的 模糊 线性 函数 ， 使得 ETSK 模型 推理 结果 为 模糊 输出 ， 因而 它 保持 了 LM 模型 的 特点 ， 削弱 了 TSK 模型 对 输出 结果 的 限制 . 
+ 　 　 3 ) 在 规则 后件 中 引入 LR 型 模糊 数 及其 扩张 运算 ， 似乎 增加 了 计算 量 . 不过 抓住 模糊 数 的 面积 和 重心 这 两个 参数 ， 不 考虑 隶属 函数 的 具体 形状 ， 计算 量 的 增加 会 十分 有限 . 
+ 　 　 4 ) 定理 2 避免 了 ETSK 模型 的 模糊 数 扩展 运算 ， 并 指明 ETSK 模型 对 TSK 模型 扩展 的 本质 — — LR 型 模糊 数 及其 扩张 运算 的 引入 相当于 对 TSK 模型 规则 进行 动态 加权 . 权值 由 输入 向量 h 和 面积 参数 si 确定 ， 规则 后件 则 由 输入 向量 h 和 重心 参数 gi 决定 . 
+ 3 　 ETSK 模型 的 辨识 方法 
+ 　 　 ETSK 模型 的 辨识 分为 结构 辨识 和 参数 辨识 ， 其中 结构 辨识 是 指 对 输入 论域 进行 模糊 划分 ， 参数 辨识 是 对 规则 后件 的 LR 模糊 数 ( 模糊 数 的 面积 参数 si 和 重心 参数 gi ) 进行 辨识 . 结构 辨识 可 通过 模糊 聚类分析 等 方法 实现 . 本节 只 讨论 在 输入 论域 划分 确定 的 前提 下 ， 规则 后件 的 参数 辨识 问题 . 
+ 3.1 　 重心 参数 gi 的 辨识 
+ 　 　 由于 输入 论域 的 划分 已经 确定 ， 所以 对于 输入 向量 h ， 根据 定理 1 中 α i 的 定义 可以 求 出 α i . 保持 si 不变 ， 则 式 ( 3 ) 可 写成 
+ 　 　 ( 7 ) 
+ 其中 . 式 ( 7 ) 为 最小 二乘 格式 ， 其中 y ( k ) 和 H 为 可测 变量 ， 利用 最小 二乘类 辨识 算法 可 对 参数 向量 G 进行 辨识 . 
+ 3.2 　 面积 参数 si 的 辨识 
+ 　 　 对于 输入 向量 h , 保持 gi 不变 ， 则 式 ( 3 ) 可 写成 
+ 　 　 ( 8 ) 
+ 其中 H1 = ［ d1 ｜ h ｜ T , d2 ｜ h ｜ T , … , dm ｜ h ｜ T ］ T , di = α ihTg1 , H2 = ［ α 1 ｜ h ｜ T , α 2 ｜ h ｜ T , … , α m ｜ h ｜ T ］ T , ㏒ = ［ sT1 , sT2 , … sTm ］ T . 式 ( 8 ) 中 y ( k ) , H1 和 H2 为 可测 变量 ， 利用 梯度 校正 法可 对 参数 向量 S 进行 辨识 . 
+ 　 　 综上所述 ， ETSK 模型 的 参数 辨识 算法 框图 如图 1 所示 . 
+ 
+ 
+ 图 1 　 ETSK 模型 参数 辨识 算法 框图 
+ 4 　 仿真 研究 
+ 　 　 考虑 如下 非线性 系统 模型 
+ y ( k ) = 0.3 y ( k - 1 ) u ( k - 2 ) - 0.7 y ( k - 2 ) + 0.4 u ( k - 1 ) cos ( 0.7 y ( k - 1 ) ) + 
+ 0.3 u3 ( k - 1 ) + 0.3 y3 ( k - 1 ) , 
+ 输入 u ( k ) 为 ［ - 1 ， 1 ］ 均匀分布 的 随机 信号 ， 初始值 y ( 0 ) = y ( - 1 ) = u ( 0 ) = u ( - 1 ) = 0 . 用前 300 组 数据 进行 模型 辨识 ， 用后 300 组 数据 进行 模型 检验 . y ( k - 1 ) , y ( k - 2 ) , u ( k - 1 ) 和 u ( k - 2 ) 对应 的 论域 划分 如图 2 所示 . 
+ 
+ 
+ 图 2 　 y ( k - 1 ) , y ( k - 2 ) , u ( k - 1 ) 和 u ( k - 2 ) 的 论域 划分 
+ 经 参数 辨识 ， 得到 的 LM 模型 由 36 条 规则 ( 规则 后件 为 单点 集 ) 描述 ： 
+ 　 　 IFy ( k - 1 ) is 负 ANDy ( k - 2 ) is 负 ANDu ( k - 1 ) is 负 ANDu ( k - 2 ) is 负 THENy ( k ) = 0.5109 ， 
+ 　 　 IFy ( k - 1 ) is 负 ANDy ( k - 2 ) is 负 ANDu ( k - 1 ) is 负 ANDu ( k - 2 ) is 正 THENy ( k ) = - 0.8717 ， 
+ 　 　 ALSO … … ALSO ， 
+ 　 　 IFy ( k - 1 ) is 正 ANDy ( k - 2 ) is 正 ANDu ( k - 1 ) is 正 ANDu ( k - 2 ) is 正 THENy ( k ) = 0.1102 . 
+ 　 　 得到 的 TSK 模型 由 3 条 规则 描述 ： 
+ 　 　 IFy ( k - 1 ) is 负 THENy ( k ) = 0.2413 y ( k - 1 ) - 0.6724 y ( k - 2 ) + 0.5107 u ( k - 1 ) - 0.2376 u ( k - 2 ) ALSO , 
+ 　 　 IFy ( k - 1 ) is 零 THENy ( k ) = - 0.1279 y ( k - 1 ) - 0.7159 y ( k - 2 ) + 0.6112 u ( k - 1 ) - 0.0294 u ( k - 2 ) ALSO , 
+ 　 　 IFy ( k - 1 ) is 正 THENy ( k ) = 0.3263 y ( k - 1 ) - 0.6679 y ( k - 2 ) + 0.4439 u ( k - 1 ) + 0.3145 u ( k - 2 ) . 
+ 　 　 利用 第 3 节 的 辨识 方法 ， 经 300 步 辨识 ， 得到 由 3 条 规则 描述 的 ETSK 模型 ： 
+ 
+ 
+ 
+ 其中 ( * , * ) 为 模糊 数 的 简化 记法 ， 前者 表示 模糊 数 的 面积 ， 后者 表示 模糊 数 的 重心 . 图 3 给出 LM 模型 、 TSK 模型 和 ETSK 模型 的 辨识 结果 比较 . 
+ 
+ 
+ 图 3 　 LM 模型 、 TSK 模型 和 ETSK 模型 的 辨识 结果 比较 
+ 由图 3 可见 ， ETSK 模型 的 辨识 结果 最好 ， 其 输出 预报 误差 的 均值 E ｛ e ( k ) ｝ 和 方差 Var ｛ e ( k ) ｝ 均 为 最小 . 仿真 还 证实 ， 不同 步数 的 预报 结果 也 是 ETSK 模型 最好 . 
+ 5 　 结论 
+ 　 　 ETSK 模糊 模型 是 LM 模型 和 TSK 模型 的 扩充 和 发展 . 当 规则 后件 中 LR 型 模糊 数 的 面积 均 相同 时 ， 面积 参数 消 去 ， 重心 参数 即 成为 TSK 模型 中 的 线性 系数 . 这时 ETSK 模糊 模型 就是 TSK 模糊 模型 . 当 规则 后件 的 模糊 线性 函数 蜕化 为 模糊 常数 或 普通 实数 时 ， TESK 模糊 模型 是 LM 模型 或 常用 的 单点 集 输出 模型 . ETSK 模型 的 规则 后件 是 LR 型 模糊 数 及其 运算 的 模糊 线性 函数 ， 这 在 一定 程度 上 综合 了 LM 模型 和 TSK 模型 的 优点 ， 提高 了 模糊 模型 对 不确定性 系统 的 描述 能力 . ETSK 模糊 模型 推理 结果 为 模糊 输出 ， 它 保持 有 LM 模型 的 特点 ， 削弱 了 TSK 模型 对 输出 结果 的 限制 . ETSK 模型 的 输出 与 LR 型 模糊 数 的 面积 和 重心 两组 参数 有关 ， 这 表明 它 比 TSK 模型 有 更 强 的 表现力 . 由于 抓住 了 模糊 数 的 面积 和 重心 这 两个 参数 ， 无须 考虑 隶属 函数 的 具体 形状 ， 使 ETSK 模型 的 计算 量 增加 不大 . ETSK 模型 的 辨识 算法 也 易于 实现 . 
+ 1 ) 国家自然科学基金 ( No.6947012 ) 、 中国工程物理研究院 科学技术 基金 ( No.960643 ) 和 高等学校 博士 学科点 专项 科研 基金 ( No.97000339 ) 资助 项目 . 
+ 作者简介 ： 陈怡欣 　 1995 年 毕业 于 北京工业大学 自动化系 ， 1998 年 在 清华大学 自动化系 获 硕士学位 ， 现在 美国 攻读 博士学位 . 主要 研究 模糊 模型 结构 及 模糊 模型 的 辨识 和 控制 方法 . 
+ 　 　 　 　 　 萧德云 　 1970 年 毕业 于 清华大学 ， 现为 清华大学 自动化系 教授 、 博士生 导师 . 主要 研究 计算机 过程 控制系统 、 模糊 辨识 建模 、 生产 过程 故障诊断 、 大型 连续 工业 CIMS 等 . 
+ 作者 单位 ： 清华大学 自动化系 　 北京 　 100084 
+ 参考文献 
+ 1 　 PedryczW . FuzzyModelling : ParadigmsandPractice . USABoston : KluwerAcademicPublishers , 1996.3 ～ 20 
+ 2 　 SugenoM , YasukawaT . Afuzzy - logic - basedapproachtoqualitativemodeling . IEEETransactionsonFuzzySystems , 1993 , 1 ( 1 ) : 7 ～ 31 
+ 3 　 TanakaH , UejimaS , AsaiK . Linearregressionanalysiswithfuzzymodel . IEEETransactionsonSystems , ManandCybernetics , 1982 , 12 ( 6 ) : 903 ～ 907 
+ 4 　 PedryczW . FuzzySetsEngineering . BocaRaton : CRCPress , 1995 , 29 ～ 70 
+ 5 　 DuboisD , PradeH . FuzzySetsandSystems : TheoryandApplications . NewYork : AcademicPress , Inc . , 1980 , 36 ～ 66 
+ 6 　 MizumotoM . Min - max - gravitymethodversusproduct - sum - gravitymethodforfuzzycontrols . In : ProceedingsfourthIFSACongress , Brussels , 1991 , 127 ～ 130 
+ 收稿 日期 　 1997 - 07 - 14 　 收 修改稿 日期 　 1998 - 09 - 28 

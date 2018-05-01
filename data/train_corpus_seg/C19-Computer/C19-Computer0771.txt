@@ -1,0 +1,98 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1999 年 　 第 25 卷 　 第 5 期 　 Vol.25 No.51999 
+ 
+ 
+ 
+ 
+ 区间 系统 的 H ∞ 鲁棒控制 1 ) 
+ 吴 方向 　 史忠科 　 戴冠 中 
+ 关键词 　 区间 系统 ， H ∞ 控制 ， 鲁棒 镇定 ， 干扰 抑制 . 
+ H ∞ ROBUSTCONTROLFORINTERVALSYSTEMS 
+ WUFangxiang 　 SHIZhongke 　 DAIGuanzhong 
+ ( DepartmentofAutomaticControl , NorthwesternPolytechnicalUniversity , Xi ' an 　 710072 ) 
+ Keywords 　 Intervalsystem , H ∞ control , robuststabilization , disturbanceattenuation . 
+ 1 　 引 　 言 
+ 　 　 实际 工程 控制系统 中 存在 着 各种 不确定性 和 干扰 ， 其中 有 一类 不确定性 可 描述 为 系统 的 状态 矩阵 的 各个 元素 在 一些 确定 的 区间 内 变化 ， 这 就是 所谓 区间 控制系统 . 例如 ， 飞机 运动 系统 、 电机 控制系统 、 以及 各种 T - S 型 模糊 控制系统 ［ 9 ］ 均 可 视为 区间 控制系统 . 近年来 ， 关于 区间 系统 鲁棒 稳定性 和 H ∞ 鲁棒控制 理论 的 研究 已 取得 了 许多 成果 ［ 1 — 8 ］ . 但 关于 区间 控制系统 的 鲁棒 镇定 和 干扰 抑制 问题 研究 的 还 不 多 . 本文 将 利用 H ∞ 鲁棒控制 理论 中 的 Riccati 方程 方法 ， 研究 区间 控制系统 鲁棒 镇定 的 同时 并 将 干扰 抑制 到 一定 水平 的 问题 . 
+ 2 　 预备 知识 
+ 　 　 考虑 区间 控制系统 
+ 　 ( 1a ) 
+ z ( t ) = Cx ( t ) + Du ( t ) , 　 ( 1b ) 
+ 其中 x ∈ Rn 为 状态 向量 ， u ∈ Rm 为 控制 向量 ， z ∈ Rq 为 评价 信号 ， w ∈ Rp 为 平方 可积 的 干扰信号 ， B ， C ， D 为 适当 维数 的 常数 矩阵 ， A 为 状态 矩阵 . A 中 的 元素 不能 完全 确定 ， 但是 ， 它们 属于 某些 确定 的 区间 ， 即 
+ A ∈ ［ P , Q ］ = ｛ A ∈ Rn × n ｜ pij ≤ aij ≤ qij , i , j = 1 , … , n ｝ , 　 ( 1c ) 
+ 其中 P ， Q 为 确定 的 矩阵 . 令 
+ 　 ( 2 ) 
+ 显然 ， H 的 每 一个 元素 都 是非 负数 . 可以 验证 ( 见 附录 A ) ， 区间 矩阵 ( 1c ) 可 等价 地 表示 为 下列 形式 ： 
+ ［ P , Q ］ = ｛ A = A0 + E ∑ F ｜ ∑ = diag ［ ε 11 ， … ， ε 1n ， … … ， ε n1 ， … ， ε nn ］ ｝ ， 　 ( 3 ) 
+ 其中 
+ │ ε ij │ ≤ 1 ， i ， j = 1 ， … ， n ， 
+ 
+ 
+ 这里 ei ( i = 1 , … , n ) 为 第 i 个 元素 是 1 其余 元素 为 零 的 单位 列 向量 ， E 为 n × n2 阶 矩阵 ， F 为 n2 × n 阶 矩阵 ， ∑ 为 n2 × n2 阶 对角 矩阵 ， 并且 ∑ T ∑ ≤ In2 ， In2 表示 n2 阶 单位矩阵 . 
+ 　 　 本文 研究 的 问题 是 ： 如何 设计 线性 状态 反馈 控制器 
+ u ( t ) = Kx ( t ) ， 　 ( 4 ) 
+ 使 区间 控制系统 ( 1 ) 满足 如下 性能指标 ： 
+ 　 　 1 ) 当 ω = 0 时 ， 对 A ∈ ［ P , Q ］ ， 闭环 系统 内部 稳定 ， 即 A + BK 渐近 稳定 ； 
+ 　 　 2 ) 对于 A ∈ ［ P , Q ］ ， 闭环 系统 满足 
+ ‖ Tz ω ( j ω ) ‖ ∞ ≤ γ ， 　 ( 5 ) 
+ 其中 Tz ω ( s ) = ( C + DK ) ( sI - A - BK ) - 1B1 为 闭环 系统 的 干扰 到 评价 信号 的 传递函数 . γ ＞ 0 为 给定 常数 ， 表示 系统 抑制 干扰 的 水平 . 
+ 3 　 区间 系统 的 H ∞ 鲁棒控制 
+ 　 　 为 简化 数学 推导 ， 本文 仅 考虑 在 式 ( 1b ) 中 D = 0 　 的 情形 . 对此 ， 有如 下结论 ： 
+ 　 　 定理 1 . 　 对于 给定 的 γ ＞ 0 ， 如果 存在 常数 ε > 0 ， λ > 0 ， 使 代数 Riccati 不等式 方程 
+ AT0X + XA0 + X ( λ - 2EET + γ - 2B1BT1 - ε - 2BBT ) X + λ 2FTF + CTC < 0 　 ( 6 ) 
+ 有 对称 正定 解 X ， 那么 存在 状态 反馈 阵 K ， 使 闭环 系统 ( 1 ) ， ( 4 ) 同时 满足 性能指标 1 ) ， 2 ) . 在 这种 情况 下 
+ 　 ( 7 ) 
+ 　 　 证明 . 设 X 是 式 ( 6 ) 的 对称 正定 解 ， 由于 ∑ T ∑ ≤ In2 ， 以及 
+ ( λ - 1ETX - λ ∑ F ) T ( λ - 1ETX - λ ∑ F ) ≥ 0 ， 
+ 很 容易 得到 
+ ( E ∑ F ) TX + X ( E ∑ F ) ≤ λ - 2XEETX + λ 2FTF . 　 ( 8 ) 
+ 令 　 　 
+ 由式 ( 8 ) 
+ ATKX + XAK + γ - 2XB1BT1X + CTC 
+ 　 = AT0X + XA0 + ( E ∑ F ) TX + X ( E ∑ F ) - ε - 2XBBTX + γ - 2XB1BT1X + CTC 
+ 　 ≤ AT0X + XA0 + λ - 2XEETX + λ 2FTF - ε - 2XBBTX + γ - 2XB1BT1X + CTC . 
+ 那么 由式 ( 6 ) ， 下列 不等式 
+ ATKX + XAK + γ - 2XB1BT1X + CTC < 0 ， 　 蠥 　 ∈ ［ P ， Q ］ 　 ( 9 ) 
+ 成立 . 由 Lyapunov 稳定性 理论 ， 从式 ( 9 ) 可 得 线性 状态 反馈 器使 闭环 系统 ( 1 ) ， ( 4 ) 满足 性能指标 1 ) . 下面 证明 闭环 系统 满足 性能指标 2 ) . 
+ 　 　 式 ( 9 ) 等价 于 
+ - ( jI ω - AK ) 砐 - X ( jI ω - AK ) + γ - 2XB1BT1X + CTC < 0 ， ω ≥ 0 ， A ∈ ［ P ， Q ］ 　 ( 10 ) 
+ 这里 上标 * 表示 复数 矩阵 的 共轭 转置 . 对式 ( 10 ) 两边 左乘 BT1 ［ ( jI ω - AK ) 常 - 1 ， 右乘 ( jI ω - AK ) - 1B1 ， 并令 Y ( j ω ) = BTX ( jI ω - AK ) - 1B1 ， 那么 整理 可 得 
+ - Y ( j ω ) - Y * ( j ω ) + γ - 2Y * ( j ω ) Y ( j ω ) + T * z ω ( j ω ) Tz ω ( j ω ) ≤ 0 . 　 ( 11 ) 
+ 进一步 ， 有 
+ T * z ω ( j ω ) Tz ω ( j ω ) ≤ γ 2I - γ 2I + Y ( j ω ) + Y * ( j ω ) - γ - 2Y * ( j ω ) Y ( j ω ) 
+ = γ 2I - ［ γ I - γ - 1Y ( j ω ) ］ * ［ γ I - γ - 1Y ( j ω ) ］ ≤ γ 2I . 　 ( 12 ) 
+ 由 H ∞ 范数 的 定义 ［ 7 ］ ， 式 ( 12 ) 等价 于式 ( 5 ) ， 即 闭环 系统 满足 性能指标 2 ) . 证毕 . 
+ 　 　 注记 . 尽管 E ， F 都 是 高阶 矩阵 ， 但是 在 定理 1 中 只须 计算 EET ， FTF ， 而 它们 均 为 n 阶 对角 矩阵 ， 具体 地 
+ 　 ( 13 ) 
+ 
+ 4 　 结 　 论 
+ 　 　 作者 给出 了 区间 系统 H ∞ 鲁棒 镇定 的 充分条件 ， 这个 条件 不仅 保证 闭环 区间 系统 内部 稳定 ， 而且 保证 区间 系统 的 H ∞ 范数 在 一定 的 界内 ， 即 对 干扰 的 抑制 达到 一定 的 水平 . 根据 所 给 的 充分条件 ， 通过 解 一个 代数 Riccati 不等式 方程 ， 很 容易 得到 H ∞ 鲁棒 镇定 的 控制 律 . 值得一提的是 求解 代数 Riccati 不等式 方程 在 H ∞ 控制 中 已有 标准 的 工具 . 
+ 1 ) 国家自然科学基金 和 航空 院校 自选 课题 基金 资助 项目 . 
+ 作者简介 ： 吴 方向 　 男 ， 1966 年生 . 分别 于 1990 年 和 1993 年 在 大连理工大学 应用 数学系 获得 学士学位 和 硕士学位 ， 1998 年 获 西北工业大学 自动控制 理论 及 应用 专业 博士学位 . 现为 西北工业大学 自动控制 系 副教授 . 感兴趣 的 研究 方向 ： 模糊控制 、 鲁棒控制 、 非线性 控制 以及 复杂 控制系统 的 稳定性 分析 及 应用 等 . 
+ 　 　 　 　 　 史忠科 　 男 ， 1956 年生 . 毕业 于 西北工业大学 ， 获 博士学位 . 现为 西北工业大学 自动控制 系 教授 、 博士生 导师 . 目前 的 研究 领域 ： 估计 、 辩识 方法 、 鲁棒控制 、 智能 控制 、 交通 控制 等 . 
+ 　 　 　 　 　 戴冠 中 　 男 ， 1937 年生 . 西北工业大学 教授 、 现任 校长 ， “ 控制 理论 及 控制工程 ” 学科 博士生 导师 . 目前 的 研究 方向 ： 具有 通讯 网络 的 大 系统 理论 、 智能 控制 与 应用 、 并行处理 与 并行 仿真 计算机 、 控制 理论 在 信号处理 中 的 应用 等 . 
+ 作者 单位 ： 西北工业大学 自动控制 系 　 西安 　 710072 
+ 参考文献 
+ 1 　 BialasS . Anecessaryandsufficientconditionforthestabilityofintervalmatrices . Int . J . Contr . , 1983 ， 37 ( 4 ) ： 717 — 722 
+ 2 　 BarmishBRetal . Counter - exampletoarecentresultonthestabilityofintervalmatricesbyBialas . Int . J . Contr . , 1984 ， 39 ( 5 ) ： 1103 — 1104 
+ 3 　 JuangYTetal . Root - locusapproachtothestabilityanalysisofintervalmatrices . Int . J . Contr . , 1987 ， 46 ( 3 ) ： 817 — 822 
+ 4 　 HanQLetal . Counter - exampleto ‘ Root - locusapproachtothestabilityanalysisofintervalmatrices ' . Int . J . Contr . , 1990 ， 51 ( 2 ) ： 499 — 500 
+ 5 　 SohCB . Robuststabilityofdynamicintervalmatrices . ControlTheoryandAdvancedTechnology , 1994 ， 10 ( 1 ) : 73 — 80 
+ 6 　 KhargonekerPPetal . Robuststabilizationofuncertainlinearsystems : QuadraticstabilizabiltyandH ∞ controltheory . IEEETrans . Automat . Contr . , 1990 ， 35 ( 3 ) : 356 — 361 
+ 7 　 DoyleJCetal . State - spacesolutiontostandardH2andH ∞ controlproblem . IEEETrans . Automat . Control , 1989 ， 34 ( 8 ) ： 831 — 847 
+ 8 　 FrancisBA . AcourseinH ∞ controltheory , NewYork : Springer - Verlag , 1987 
+ 9 　 GaoSGetal . Analysisanddesignoffuzzycontrolsystemsusingdynamicfuzzyglobalmodels . FuzzySetandSystem , 1995 ， 75 ( 1 ) ： 47 — 62 
+ 附录 A 
+ 　 　 区间 矩阵 的 表达式 ( 1c ) 和 表达式 ( 3 ) 等价 性 的 证明 . 为了 叙述 起 见 ， ［ P , Q ］ ( 1c ) 记 作 表达式 ( 1c ) 定义 的 矩阵 集合 ， ［ P , Q ］ ( 3 ) 记 作 表达式 　 ( 3 ) 定义 的 矩阵 集合 . 
+ 　 　 由式 ( 1c ) ， ( 2 ) 可知 ， 对 A ∈ ［ P , Q ］ ( 1c ) ， 均 可 等价 的 表示 为 
+ 　 ( a1 ) 
+ 这里 Hij 表示 第 i 行第 j 列 元素 为 hij ， 其余 元素 为 零 的 n × n 维 矩阵 ， - 1 ≤ ε ij ≤ 1 ( 1 ≤ i , j ≤ n ) . 容易 验证 ， 可 将 Hij 分解 为 
+ 　 ( a2 ) 
+ 将式 ( a2 ) 代入 式 ( a1 ) ， 由 矩阵 E ， F ， ∑ 的 定义 ， 可 得 
+ 　 ( a3 ) 
+ 式 ( a1 ) — ( a3 ) 说明 ， 
+ 　 　 另一方面 ， 由于 上述 式 ( a1 ) — ( a3 ) 的 推导 过程 步步 可逆 ， 所以 可以 得到 
+ 
+ 　 　 综上所述 ， ［ P , Q ］ ( 1c ) = ［ P , Q ］ ( 3 ) ， 即 区间 矩阵 的 表达式 ( 1c ) 和 表达式 ( 3 ) 是 等价 的 . 
+ 收稿 日期 ： 1997 - 08 - 11 
+ 修稿 日期 ： 1998 - 06 - 08 

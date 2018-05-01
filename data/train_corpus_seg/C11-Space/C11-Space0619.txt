@@ -1,0 +1,25 @@
+上海 航天 
+ AEROSPACESHANGHAI 
+ 2001Vol.18 No.1 P.16 - 21 
+ 
+ 
+ 
+ 
+ 可 贮存 推进剂 火箭 增压 气体 与 泵 入口 压力 关系 研究 
+ 廖少英 　 
+ 摘 　 要 ： 根据 氦气 和 氮气 在 可 贮存 推进剂 中 的 溶解度 与 发动机 泵 入口 压力 关系 ， 以及 对 美国 上面 级 火箭 " 阿金纳 " 增压 系统 的 分析 、 计算 和 研究 ， 对 我国 可 贮存 推进剂 上面 级 火箭 的 发动机 泵 入口 压力 要求 和 增压 输送 系统 进行 分析 和 研究 。 认为 采用 氦气 增压 ， 我国 可 贮存 推进剂 上面 级 火箭 发动机 氧化剂 泵 入口 压力 要求 可以 大幅度 地 降低 ， 较大 地 提高 火箭 的 运载 能力 。 并 提出 相应 的 改进 建议 。 
+ 关键词 ： 可 贮存 火箭 推进剂 ； 氦气 ； 氮气 ； 泵 入口 压力 ； 增压 气体 
+ 分类号 ： V434 +. 212 　 文献 标识码 ： A 
+ 文章 编号 ： 1006 － 1630 （ 2001 ） 01 － 0016 － 06 
+ TheAnalyticalResearchofRelationshipBetweentheHeliumorNitrogenPressurizationandtheEnginePumpInletPressureforStorablePropellantRocket 
+ Abstract ： Thispaperattemptfromrelationshipbetweentheheliumornitrogensolubilityinthestorablepropellantandenginepumpinletpressure , aswellasanalysis , computationandresearchfortheAgenapressurizationsystemoftheupperstagerocketoftheAmericatoanalyzeandstudyenginepumpinletpressurerequirementsofourcountry ' sstorablepropellantupperstagerocketandthepressurizationsystem . Theauthorconsidersthatadoptingtheheliumpressurizationcandecreasegreatlytheenginepumpinletpressureoftheupperstagerocket , andconsiderablyincreasetransportcapacityoftherocket . Thispaperalsoputsforwardaproposalofthecorrespondingimprovements . 
+ Keywords ： Storablerocketpropellant ; Helium ; Nitrogen ; Pumpinletpressure ; Pressurizedgas 
+ 作者简介 ： 廖少英 （ 1936 － ） ， 男 ， 研究员 ， 研究 领域 ： 宇航 动力系统 。 
+ 作者 单位 ： 廖少英 （ 上海 航天技术 研究院 805 所 ， 上海 200245 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ GokcenNA . SolubilityofN2 ( g ) inliquidN2H4 ( CH3 ) 2N2H2 , 50Wt% N2H4 ＋ 50Wt% ( CH3 ) 2N2H2andN2O4 [ R ] . AerospaceCorp . InternalReport . 
+ ［ 2 ］ CarterWK , Piperje . ReusableAgenastudy [ R ] . Vol.2 : Techbical , NASAN74 - 32285 . NASA - CR - 120362 , LMSC - D383059 - Vol.2 . 
+ ［ 3 ］ Atlas - AgenaflightperformanceevaluationfortheorbitingGEOphysicalobservatoryOGO - Vmission [ R ] . NASATMX - 1967 . 
+ 收稿 日期 ： 2000 年 8 月 12 日 
+ 出版日期 ： 2001 年 2 月 25 日 

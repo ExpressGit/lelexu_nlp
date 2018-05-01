@@ -1,0 +1,77 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 　 第 23 卷 　 第 6 期 　 Vol.23 　 No.6 　 1997 
+ 
+ 
+ 
+ 
+ 一类 FMS 的 最佳 活 Petri 网 模型 的 综合 
+ 邢科义 　 李俊民 　 胡保生 
+ 　 　 摘 　 要 　 利用 Petri 网为 一类 柔性制造系统 建模 ， 并 讨论 避免 系统 死锁 问题 . 通过 Petri 网 模型 的 结构 分析 ， 证明 了 系统 产生 死锁 的 一个 充分 必要条件 . 给出 了 避免 死锁 的 最佳 控制器 ， 它 可以 通过 给 系统 的 Petri 网 模型 增加 一些 新 的 位置 与 相应 的 弧来 实现 . 从而 导出 了 这类 制造 系统 的 最佳 活 Petri 网 模型 . 
+ 　 　 关键词 　 柔性制造系统 ， Petri 网 ， 避免 死锁 控制 . 
+ SYNTHESISOFOPTIMALLIVEPETRINET 
+ MODELSFORACLASSOFFMS 
+ XINGKEYI 　 LIJUNMING 
+ ( Dept . ofAppliedMathematics , XidianUniversity , Xi à n 　 710071 ) 
+ HUBAOSHENG 
+ ( SystemsEngineeringInstitute , Xi à nJiaotongUniversity , Xi à n 　 710049 ) 
+ Abstract 　 Inthispaper , thePetrinetmodelforaclassofflexiblemanufacturingsystemsisconstructed , andthedeadlockprobleminFMSisdiscussed . WeproveanecessaryandsufficientconditionforlivenessofsystemmodelandpresentandoptimaldeadlockavoidancecontrollerwhichisaPetrinet . Thecontrolledclosed - loopsystemsmaybemodeledbylivePetrinets . 
+ Keywords 　 FMS , Petrinet , deadlockavoidancecontrol . 
+ 1 　 引言 
+ 　 　 在 柔性制造系统 ( FMS ) 中 ， 各种 工件 的 加工过程 是 并行 进行 的 ， 这些 并行 加工过程 竞相 利用 有限 的 系统资源 . 如不加 限制 ， 这种 竞争 关系 可能 会 导致系统 死锁 ， 使 某些 加工过程 永远 不会 进行 完毕 . 在 FMS 中 ， 死锁 是 应 首先 解决 的 问题 . 文 ［ 1 － 3 ］ 对 一类 FMS 进行 Petri 网 建模 ， 其中 文 ［ 1 ， 2 ］ 给出 了 避免 死锁 的 充分性 算法 ， 文 ［ 3 ］ 给出 了 避免 死锁 的 最优控制 策略 . 文 ［ 4 ］ 则 对 更 大 一类 FMS 的 Petri 网 模型 给出 了 一个 保守 的 避免 死锁 的 控制策略 . 本文 考虑 与 文 ［ 4 ］ 相同 的 一类 FMS ， 用 Petri 网为 系统 建模 ， 给出 系统 死锁 的 充分 必要条件 ， 提出 一个 避免 死锁 的 最优控制 策略 . 这一 策略 可以 通过 在 Petri 网 模型 上 增加 一些 ( 控制 ) 位置 和 相应 的 弧来 实现 . 从而 给出 了 系统 活 的 Petri 网 模型 的 综合 方法 . 
+ 2 　 加工 系统 的 Petri 网 模型 
+ 　 　 Petri 网是 一个 三元组 G = ( P , T , F ) , 其中 P 为 位置 集 ， T 为 变迁 集 ， F ( P × T ) ∪ ( T × P ) 为 弧集 . 有关 Petri 网 的 定义 及 运行 规则 等 ， 请参阅 文 ［ 5 ］ . 设 x ∈ P ∪ T , 令 · x = { y ∈ P ∪ T ｜ ( y , x ) ∈ F } , x · = { y ∈ P ∪ T ｜ ( x , y ) ∈ F } . 具有 初始 标识 m0 的 二元 对 ( G ， m0 ) 称为 标记 Petri 网 . 如果 m ( p ) ≥ 1 , p ∈ · t , 记作 m ［ t ＞ ， 称 变迁 t ∈ T 在 标识 m 下 使 能 . 在 m 下 引发 t 后 产生 新 的 标识 m ′ ， 记作 m ［ t ＞ m ′ . 用 R ( G ， m0 ) 表示 m0 可达 标识 之集 . 设 XP ， m ∈ R ( G , m0 ) , 令 m ( X ) = m ( p ) . 如果 在 R ( G ， m ) 中 不 存在 使 t 使能 的 标识 ， 称 变迁 t 在 标识 m 下 是 死 的 . 如果 在 每个 m ∈ R ( G ， m0 ) 下 ， t 都 不是 活 的 ， 称 t 是 死 的 . 如果 每个 变迁 都 是 活 的 ， 称 标记 网 ( G ， m0 ) 是 活 的 . 
+ 　 　 本文 讨论 的 FMS 是 具有 n 种 资源 r1 ， … ， rn ， 能 加工 k 种 工件 的 制造 系统 . 工件 的 一种 加工过程 是 由 一系列 操作 组成 ； 一种 工件 可以 有 几种 加工过程 ； 每个 操作 就是 资源 的 一次 利用 . 假设 每个 操作 仅 利用 一个 资源 ， 工件 的 加工过程 可用 Petri 网 建模 ， 即用 一个 位置 代表 一次 操作 ， 用 变迁 的 引发 表示 前 一 操作 的 结束 、 后 一 操作 的 开始 . 用 位置 pi0 存放 要 加工 或 加工 完 的 第 i 种 工件 . 故 第 i 种 工件 的 加工 Petri 网是 一个 强 连通 状态机 Ni = ( Pi ∪ { pi0 } , Ti , Fi ) , 其中 Pi ≠ 是 操作 位置 集 ， pi0Pi , 
+ Ni 的 每个 有 向 圈 都 包含 pi0 . 
+ 　 　 对 每种 资源 r 设置 一个 位置 ， 仍记 为 r . 用 R 记 所有 资源 位置 之集 . 当 操作 p ∈ Pi 利用 资源 r 时 ， 增加 弧 ( r , t ) ， t ∈ · p 和 ( t , r ) ， t ∈ p · ， 则 系统 的 Petri 网 模型 为 G = ( P ∪ P0 ∪ R , T , F ) ， 其中 P = Pi , P0 = { p10 , p20 , … ， pk0 } , T = Ti ( k 为 工件 种类 个数 ) ， F 为 所有 弧之集 . 
+ 　 　 例 1 . 　 在 具有 5 种 资源 r1 , r2 , … ， r5 , 加工 两种 工件 的 系统 中 ， 第一种 工件 的 加工 资源 序为 r1r2r1r2 或 r1r3r4r2 ， 第二种 工件 的 资源 序为 r5r4r3 . 则 两种 工件 的 加工 Petri 网 与 系统 的 Petri 网 模型 可由图 1 ( a ) , ( b ) , ( c ) 分别 表示 . 
+ 
+ 图 1 　 ( a ) ， ( b ) 为 两种 工件 加工过程 Petri 网 ， ( c ) 为 简单 加工 系统 Petri 网 
+ 　 　 设 系统 Petri 网 具有 可行 的 初始 标识 m0 ， 即当 p ∈ P0 ∪ R 时 , m0 ( p ) ≥ 1 ； 当 p ∈ P 时 ， m0 ( p ) = 0 . 为 方便 计 ， 用 ( p ) t , ( r ) t , t ( p ) 和 t ( r ) 分别 表示 · t ∩ P , · t ∩ R , t · ∩ P 和 t · ∩ R . 这些 记号 可 扩展 到 集 XT 上 ， 如 ( r ) X = ( r ) t 等 . 
+ 3 　 系统 死锁 的 条件 
+ 　 　 设 m ∈ R ( G , m0 ) , 用 D ( m ) 表示 在 m 下 所有 使 m ( ( p ) t ) ≥ 1 的 死变迁 t 的 集合 . 则 D ( m ) ∩ · P0 = . 
+ 　 　 定理 1 . 设 ( G , m0 ) = ( P ∪ P0 ∪ R , T , F , m0 ) 是 系统 标识 Petri 网 模型 ， m ∈ R ( G , m0 ) . 如果 D ( m ) ≠ ， 则 存在 非 空集 DD ( m ) \ ( · P0 ∪ P · 0 ) , 使得 ( r ) D = D ( r ) , ( ( p ) D ) · D , 而且 m ( ( p ) D ) = m0 ( ( r ) D ) . 
+ 　 　 证明 . 设 r ∈ ( r ) D ( m ) , 则 存在 t ∈ D ( m ) 使得 ( r ) t = r ， 故 m ( r ) = 0 . 令 T1 = { t ∈ T ｜ m ( ( p ) t ) ≥ 1 , t ( r ) = r } , 则 m ( ( p ) T1 ) = m0 ( r ) , T1D ( m ) ; 否则 必有 ti ∈ T1 ， m ′ ∈ R ( G , m ) 使得 m ′ ［ ti ＞ m ″ . 故 m ″ ( r ) = 1 , m ″ ［ t ＞ ， 矛盾 . 由 ti ∈ T1 ≠ 知 r = t ( r ) i ∈ D ( m ) ( r ) , 故 ( r ) D ( m ) D ( m ) ( r ) . 
+ 　 　 由 D ( m ) ≠ 得 D1D ( m ) \ P · 0 ≠ . 当 ( r ) D1 = D1 ( r ) 时取 D = D1 . 现设 ( r ) D1 ≠ D1 ( r ) , 任取 r ∈ D ( r ) 1 \ ( r ) D1 , 令 D2 = D1 \ { t ∈ D1 ｜ t ( r ) = r } , 则 D2 ≠ . 当 ( r ) D2 ≠ D ( r ) 2 时 ， 再 重复 以上 过程 . 因 资源 有限 ， 则 存在 有限 非 空集 列 DkDk - 1 … D1D ( m ) , 使得 Di ≠ ， ( r ) Dk = D ( r ) k . 取 D = Dk , 由 D ( m ) 的 定义 ， 有 m ( ( p ) D ( m ) ∩ ( p ) ( · r ) ) = m0 ( r ) , r ∈ ( r ) D ( m ) . 设 r ∈ ( r ) D = D ( r ) , t ∈ D ( m ) , t ( r ) = r , 则 t ∈ D , m ( ( p ) D ) = m0 ( ( r ) D ) . 
+ 　 　 现证 ( ( p ) D ) · D . 设 t ∈ D , 当 ｜ ( ( p ) t ) · ｜ = 1 时 ， ( ( p ) t ) · = t ∈ D . 设 ｜ ( ( p ) t ) · ｜ ≥ 2 , t ( r ) = r , t1 ≠ t , t1 ∈ ( ( p ) t ) · , 则 t1 ∈ D ( m ) ; 否则 ， 有 m ′ ∈ R ( G , m ) , 使得 m ′ ［ t1 ＞ m ″ , m ″ ( r ) = 1 . 故有 t ′ ∈ D , ( r ) t ′ = r , m ″ ［ t ′ ＞ ， 矛盾 . 由 t1 ∈ D ( m ) 得 m ( ( r ) t1 ) = 0 . 设 ( r ) t1 = r1 , 则 存在 t2 ∈ D ( m ) , t ( r ) 2 = r1 , 
+ ( r ) t2 = r2 , 而且 m ( ( p ) D ( m ) ∩ ( p ) ( · r2 ) ) = m0 ( r2 ) . 类似 地 ， 存在 t3 ∈ D ( m ) , t ( r ) 3 = r2 , ( r ) t3 = r3 使得 m ( ( p ) D ( m ) ∩ ( p ) ( · r3 ) ) = m0 ( r3 ) , … . 重复 分析 ， 得 D ( m ) 中 的 变迁 列 t1 , t2 ， … ， 使得 t ( r ) i + 1 = ri , 
+ ( r ) ti = ri , m ( ( p ) D ( m ) ∩ ( p ) ( · ri ) ) = m0 ( ri ) . 则 存在 整数 k , l , k ＞ l , rk = rl . 于是 ri ∈ ( r ) D ( m ) ∩ D ( m ) ( r ) , ti ∈ D . 故 ( ( p ) D ) · D . 
+ 　 　 令 V ( G ) = { DT \ ( · P0 ∪ P · 0 ) ｜ ( r ) D = D ( r ) , ( ( p ) D ) · D } . 
+ 　 　 在 图 1 ( c ) 所示 的 Petri 网中 ， V ( G ) = { D1 , D2 , D3 , D4 , D5 } , 其中 D1 = { t2 , t3 } , D2 = ｛ t6 , t10 ｝ ， D3 = { t1 , t2 , t3 , t5 , t6 , t7 , t10 } , D4 = { t1 , t2 , t3 , t5 , t6 , t7 } , D5 = { t1 , t2 , t5 , t6 , t10 } . 
+ 　 　 推论 1 . 系统 标记 Petri 网 模型 ( G , m0 ) 是 活 的 充要条件 为 m ( ( p ) D ) ≤ m0 ( ( r ) D ) - 1 , m ∈ R ( G , m0 ) , D ∈ V ( G ) . 
+ 　 　 设 D ∈ V ( G ) , 令 I ( D ) = · ( ( p ) D ) \ D , H ( D ) = · ( D ( p ) \ ( p ) D ) ∩ D . 称 V1 = ｛ D1 , … ， Dn ｝ V ( G ) 为 W 链 ； 若 Dk ∈ V1 , 存在 Di , Dj ∈ V1 , ti , tj ∈ T 使得 ti ∈ Di ∩ I ( Dk ) , tj ∈ I ( Dj ) ∩ Dk , 并称 ( r ) I ( D1 ) ∩ … ∩ ( r ) I ( Dn ) 中 的 资源 为 关键 资源 . 
+ 4 　 避免 系统 死锁 的 Petri 网 控制器 
+ 　 　 考虑 可能 出现 死锁 的 系统 标记 Petri 网 ( G , m0 ) . 这里 要 为 系统 设计 一个 控制器 ， 以 保证 在 受控系统 中 不会 出现 死锁 . 由 推论 1 知 ， 必须 使得 对 任何 D ∈ V ( G ) 和 任何 可 达 标识 m 都 有 m ( ( p ) D ) ≤ m0 ( ( r ) D ) - 1 . 这是 受控系统 活 的 必要条件 ， 但 不是 充分 的 . 当 D1 , D2 ∈ V ( G ) , D1D2 , ( r ) D1 = ( r ) D2 时 ， m ( ( p ) D2 ) ≤ m0 ( ( r ) D2 ) - 1 意味着 m ( ( p ) D1 ) ≤ m0 ( ( r ) D1 ) - 1 . 令 V ′ = { D1 ∈ V ( G ) ｜ 存在 D2 ∈ V ( G ) , D1D2 , 
+ ( r ) D1 = ( r ) D2 } . 如果 D0 , D ∈ V ( G ) , D0D , ( D \ D0 ) ( r ) ∩ ( r ) D0 = , 则 m ( ( p ) D0 ) ≤ m0 ( ( r ) D0 ) - 1 意味着 m ( ( p ) D ) ≤ m0 ( ( r ) D ) - 1 . 令 V ″ = { D ∈ V ( G ) ｜ 存在 D0 ∈ V ( G ) , D0D , 使得 ( D \ D0 ) ( r ) ∩ ( r ) D0 = ｝ , 
+ ( G ) = V ( G ) \ ( V ′ ∪ V ″ ) . 
+ 　 　 情形 A . 每种 关键 资源 至少 有 两个 资源 . 
+ 　 　 定义 1 　 设 ( G , m0 ) 是 系统 标记 Petri 网 模型 . 控制器 C 是 一个 标记 Petri 网 C = ( Pc , T , Fc , mc ) ， 其中 Pc = { pD ｜ D ∈ ( G ) } , Fc = { ( pD , t ) ｜ t ∈ I ( D ) , D ∈ ( G ) } ∪ { ( t , pD ) ｜ t ∈ H ( D ) , D ∈ ( G ) } , mc ( pD ) = m0 ( ( r ) D ) - 1 . 
+ 　 　 受控系统 是 C 和 ( G , m0 ) 的 合成 网 ， 记 作 ( Gc , mco ) = ( P ∪ P0 ∪ R ∪ Pc , T , F ∪ Fc , mco ) , 其中 mco ( p ) = m0 ( p ) , p ∈ P ∪ P0 ∪ R , mco ( p ) = mc ( p ) , p ∈ Pc . 在 ( Gc , mco ) 中 ， 用 ( c ) t 和 t ( c ) 分别 记 · t ∩ Pc 和 t · ∩ Pc . 设 m ∈ R ( Gc , mco ) , 令 Dc ( m ) = { t ∈ T ｜ t 在 m 下 是 死 的 而且 m ( ( p ) t ) ≥ 1 } . 
+ 　 　 引理 1 . 设 m ∈ R ( Gc , mco ) , 如果 Dc ( m ) ≠ ， 则 存在 t ∈ Dc ( m ) , ( r ) t = r 及 pD ∈ ( c ) t 使得 m ( r ) ≥ 1 , m ( pD ) = 0 . ( 证明 从略 ) 
+ 　 　 定理 2 . 设在 系统 Petri 网 ( G , m0 ) 中 ， 对 每种 关键 资源 r , m0 ( r ) ≥ 2 , 则 C 是 避免 系统 死锁 的 最优控制 器 ， 即 C 对 ( G , m0 ) 的 限制 是 最小 的 . 从而 ( Gc , mco ) 是 系统 的 最佳 活 的 Petri 网 模型 . 
+ 　 　 证明 . 对 每个 D ∈ ( G ) , 限制 ( p ) D 中托 肯数 不 超过 m0 ( ( r ) D ) - 1 是 保证 ( Gc , mco ) 活 的 必要条件 . 而 C 仅 使 这 一 必要条件 成立 ， 故若 ( Gc , mco ) 是 活 的 ， 则 C 就是 最小 限制 的 避免 死锁 控制器 . 因此 这里 仅 需 证明 ( Gc , mco ) 是 活 的 . 
+ 　 　 设 m ∈ R ( Gc , mco ) 使 Dc ( m ) ≠ ， 则 由 引理 1 ， 存在 t1 ∈ Dc ( m ) 及 pD1 ∈ ( c ) t1 使得 m ( ( r ) t1 ) ≥ 1 , m ( pD1 ) = 0 . 设 ( r ) t1 = r1 , 则 m ( ( p ) D1 ) = m0 ( D1 ( r ) ) - 1 , S ( r1 ) = { t ∈ D1 ｜ ( r ) t = r1 } ≠ . 注意 t1D1 , 则 可 证明 存在 t2 ∈ S ( r1 ) 使得 m ( ( p ) t2 ) ≥ 1 ； 否则 ， 在 D1 \ ( S ( r1 ) ∪ S1 ) 中有 D ∈ V ( G ) 使得 DD1 , m ( ( p ) D ) = m0 ( ( r ) D ) , 其中 S1 = { t ∈ ( I ( D1 ) ( p ) ) · ｜ t ( r ) = r1 } , 这 是 不 可能 的 . 由 m ( ( p ) t2 ) ≥ 1 , m ( ( r ) t2 ) = m ( r1 ) ≥ 1 及 t2 ∈ Dc ( m ) 知 ， 有 D2 ∈ ( G ) 使得 t2 ∈ I ( D2 ) , m ( ( p ) D2 ) = m0 ( ( r ) D2 ) - 1 . 类似 从 t1 和 D1 导出 t2 和 D2 ， 可 从 t2 和 D2 导出 t3 和 D3 ， 使得 t3 ∈ I ( D3 ) , m ( ( p ) D3 ) = m0 ( ( r ) D3 ) - 1 . 重复 分析 得到 ( G ) 的 一个 序列 D1 , D2 ， … ， 使得 r1 = ( r ) ti ∈ ( r ) I ( Di ) , i = 1 , 2 , … . 则 在 D1 , D2 , … ， 中必 存在 W 链 ， 设为 V1 = { D1 , … , Dk } , r1 是 关键 资源 ， m0 ( r1 ) ≥ 2 , 故 存在 u1 ∈ D1 使得 u ( r ) 1 = r1 , m ( ( p ) u1 ) ≥ 1 , u1 ∈ Di , i = 1 , 2 , … ， k ， ( r ) u1 = r2 ∈ D ( r ) 1 ∩ … ∩ D ( r ) k , m ( r2 ) = 0 . 若 u ∈ D1 , u ( r ) = r2 , m ( ( p ) u ) ＞ 0 , 则 u ∈ Di , i = 1 , … ， k . 因 r ∈ D ( r ) 1 , 存在 资源 列 r1 , r2 , … , rl = r 和 变迁 列 t1 , t2 , … , tl 使得 ri = t ( r ) i , ( r ) ti = ri + 1 , m ( ( p ) ti ) ≥ 1 , 故 D ( r ) 1D ( r ) 2 ∩ … D ( r ) l , { t ∈ D1 ｜ m ( ( p ) t ) ≥ 1 } D2 ∩ … Dl . 同理 ， D ( r ) iD ( r ) 1 ∩ … ∩ D ( r ) i - 1 ∩ D ( r ) i + 1 ∩ … ∩ D ( r ) l , { t ∈ Di ｜ m ( ( p ) t ) ≥ 1 } D1 ∩ … ∩ Di - 1 ∩ Di + 1 ∩ … ∩ Dl . 但 t2 ∈ D1 , t2 ∈ I ( D2 ) , m ( ( p ) t2 ) ＞ 0 , t2D2 , 矛盾 表明 Dc ( m ) = , ( Gc , mco ) 是 活 的 . 
+ 　 　 情形 B . 有 关键 资源 r , m0 ( r ) = 1 . 
+ 　 　 称 D ∈ ( G ) 与 W 链 { D1 , … , Dl } 无关 ， 如果 D ∩ Di = , ( r ) D ∩ ( r ) Di = , i = 1 , 2 , … , l . 于是 ( G ) 可 分为 两 部分 ， 即 1 = { D ∈ ( G ) ｜ D 与 任何 W 链 无关 } 和 2 = ( G ) \ 1 . 
+ 　 　 定义 2 . 设 ( G , m0 ) 是 系统 标记 Petri 网 模型 ， 定义 控制器 C ′ 为 一 标记 Petri 网 C ′ = ( Pc , T , Fc , mc ) ， 其中 Pc = { pD ｜ D ∈ ( G } 是 控制 位置 集 ， Fc = { ( pD , t ) ｜ t ∈ I ( D ) , D ∈ ( G ) } ∪ { ( t , pD ) ｜ t ∈ H ( D ) , D ∈ ( G ) } , mc ( pD ) 定义 为 ( 1 ) 当 D ∈ 1 时 ， mc ( pD ) = m0 ( ( r ) D ) - 1 , 令 L ( D ) = m0 ( ( r ) D ) ; ( 2 ) 在 2 上 ， mc 是 递归 定义 的 . 当 D ∈ 2 不是 2 中 两个 元素 的 并 时 ， mc ( pD ) = L ( D ) - 1 , L ( D ) = m0 ( ( r ) D ) . 当 D = Di , Di ∈ 2 , l ≥ 2 , mc ( pDi ) 已有 定义 时 ， mc ( pD ) = L ( D ) - 1 , 其中 L ( D ) = ( ( p ) D ) , 是 ( G , m0 ) 的 一个 使 L ( D ) 取得 最大值 而 满足 ( ( p ) Di ) ≤ L ( Di ) - 1 ( i = 1 , … , l ) 的 可达 标识 . 
+ 　 　 受控系统 是 C ′ 和 ( G , m0 ) 的 合成 网 ( G ′ c , m ′ co ) = ( P ∪ P0 ∪ R ∪ Pc , T , F ∪ Fc , m ′ co ) , 其中 m ′ co ( p ) = m0 ( p ) , P ∈ P ∪ P0 ∪ R , m ′ co ( p ) = mc ( p ) , p ∈ Pc . 
+ 　 　 定理 3 . 设 ( G , m0 ) 是 系统 标记 Petri 网 模型 ， 则 ( G ′ c , m ′ co ) 是 活 的 . 证明 与 定理 2 类似 ， 从略 . 
+ 　 　 例 2 . 考虑 图 1 ( c ) 所示 的 Petri 网 G ， 取 初始 标识 m0 ( p ) = 5 , p ∈ R , m0 ( p ) = 20 , p ∈ P 及 m0 ( p ) = 0 , p ∈ P . V ( G ) = { D1 , … , D5 } , D4D3 , ( r ) D3 = ( r ) D4 . D2D5 , ( D5 \ D2 ) ( r ) ∩ ( r ) D2 = , 故 ( G ) = { D1 , 
+ D2 , D3 } , 避免 系统 死锁 的 最佳 控制器 是 如图 2 所示 的 标记 Petri 网 . 
+ 
+ 图 2 　 Petri 网 控制器 
+ 5 　 结论 
+ 　 　 本文 基于 Petri 网 模型 讨论 在 一类 FMS 中 避免 死锁 的 问题 . 给出 了 系统 死锁 的 充分 必要条件 . 提出 了 一种 基于 Petri 网 模型 综合 避免 系统 死锁 控制器 的 新 方法 . 所 得到 的 控制器 不仅 保证 了 受控系统 的 活性 ， 而且 允许 系统资源 的 极大 利用 . 这种 控制器 的 另 一 特点 是 它 可以 通过 给 系统 的 Petri 网 模型 增加 一些 控制 位置 和 相应 弧来 实现 ， 从而 受控系统 具有 活 的 Petri 网 模型 . 虽然 综合 控制器 算法 的 复杂性 与 ( G ) 有关 ， 但 这种 综合 过程 是 离线 进行 的 ， 而且 仅 进行 一次 ， 故 复杂性 问题 并 不是 本文 方法 的 障碍 . 
+ 1 ) 国家自然科学基金 和 西安交通大学 机械制造 系统工程 国家 重点 实验室 基金 资助 课题 . 
+ 作者简介 ： 邢科义 　 1957 年 出生 ， 1981 年 毕业 于 西北大学 ， 1994 年 在 西安交通大学 获 博士学位 . 现为 西安电子科技大学 副教授 . 研究 方向 为 离散 事件 动态 系统 理论 、 Petri 网 理论 与 应用 . 
+ 　 　 　 　 　 李俊民 　 1965 年 出生 ， 1989 年 在 西安电子科技大学 获 硕士学位 . 现为 西安交通大学 博士 研究生 . 主要 研究 方向 为 自 适应控制 、 动态 系统优化 控制 与 智能 控制 . 
+ 　 　 　 　 　 胡保生 　 西安交通大学 教授 、 博士生 导师 ， 机械制造 系统工程 国家 重点 实验室 学术 委员会 主任 ， IEEE 高级 会员 ， 《 MathematicalReview 》 评论员 . 
+ 作者 单位 ： 邢科义 、 李俊民 ： 西安电子科技大学 应用 数学系 　 西安 　 710071 ) 
+ 　 　 　 　 　 胡保生 ： 西安交通大学 系统工程 研究所 　 西安 　 710049 
+ 参考文献 
+ ［ 1 ］ 　 BanaszakZA , KroghB . Deadlockavoidanceinflexiblemanufacturingsystemswithconcurrentlycompetingprocessflows . IEEETrans . RoboticsandAutomation , 1990 , 6 ( 6 ) : 720 - 734 . 
+ ［ 2 ］ 　 HsiehFS , ChangSC . Dispatching - drivendeadlockavoidancecontrollersynthesisforFMS . IEEETrans . RoboticsandAutomation , 1994 , 10 ( 2 ) : 252 - 261 . 
+ ［ 3 ］ 　 XingKY ， HuBS , ChenHX . DeadlockavoidancepolicyforFMS , inPetrinetsinflexibleandagileautomation , M . C . Zhou ( Ed ) , Boston : KluwerAcademic , 1995 , 239 - 263 . 
+ ［ 4 ］ 　 EzpeletaJ , ColomJM , MartinezJ . APetrinetbaseddeadlockpreventionpolicyforflexiblemanufacturingsystems . IEEETrans . RoboticsandAutomation , 1995 , 11 ( 2 ) : 173 - 184 . 
+ ［ 5 ］ 　 PetersonJL . Petri 网 理论 与 系统模拟 ， 吴哲辉 译 . 徐州 ： 中国矿业大学 出版社 ， 1989 . 
+ 收稿 日期 　 1995 - 07 - 13 

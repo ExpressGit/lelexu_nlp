@@ -1,0 +1,143 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 　 第 23 卷 　 第 6 期 　 Vol.23 　 No.6 　 1997 
+ 
+ 
+ 
+ 
+ 联想 记忆 神经网络 的 一个 有效 学习 算法 
+ 梁学斌 　 吴 立德 　 俞俊 
+ 　 　 摘 　 要 　 提出 一种 新 的 联想 记忆 网络 模型 的 有效 学习 算法 ， 它 具有 下述 特点 ： ( 1 ) 可以 全部 存储 任意 给定 的 训练 模式 集 ， 即 对于 训练 模式 的 数目 和 它们 之间 相关性 的 强弱 没有 限制 ； ( 2 ) 最小 的 训练 模型 吸引 域 达到 最大 ； ( 3 ) 在 ( 2 ) 的 基础 上 ， 每个 训练 模式 具有 尽可能 大 的 吸引 域 ； ( 4 ) 联想 记忆 神经网络 是 全局 稳定 的 . 大量 的 计算机 仿真 实验 结果 充分说明 所 提出 的 学习 算法 比 已有 算法 具有 更强 的 存储 能力 和 联想 容错 能力 . 
+ 　 　 关键词 　 联想 记忆 网络 ， 训练 模式 集 ， 全部 存储 ， 最大 吸引 域 ， 全局 稳定性 . 
+ ANEFFICIENTLEARNINGALGORITHMFORASSOCIATIVE 
+ MEMORYNEURALNETWORK 
+ LIANGXUEBIN 　 　 WULIDE 　 　 YUJUN 
+ ( Dept . ofComputerScience ， FudanUniversity , 　 Shanghai 　 200433 ) 
+ Abstract 　 Anewandefficientlearningalgorithmofasociativememoryneuralnetworkisproposed , withthefollowingcharacteristics : ( 1 ) itcanstoreanygiventrainingpatternsetnomatterhowmuchandwhatcorrelationamongthemmaybe ; ( 2 ) thesmallestdomainofattractionoftrainingpatternsismaximized ; ( 3 ) eachdomainofattractionoftrainingpatternsisguaranteedtobeaslargeaspossible ; ( 4 ) thedesignedassociativememorynetworkisgloballystable . Alargenumberofcomputerexperimentalresultsconfirmthatouralgorithmpossessesmorepowerfulstorageabilityandmorefault - tolerancecapabilitythanexistingones . 
+ Keywords 　 Associativememory , 　 trainingpatternset , 　 totalstorageability , 　 maximizeddomainofattraction , 　 globalstability . 
+ 1 　 引言 
+ 　 　 联想 记忆 神经网络 可 分为 有 自 反馈 和 无自 反馈 两种 模型 ， 它 具有 信息 记忆 和 信息 联想 的 功能 ， 能够 从 部分 信息 或 有 适当 畸变 的 信息 联想 出 相应 的 存储 在 联想 记忆 神经网络 中 的 完整 的 记忆 信息 ［ 1 ， 2 ］ . 其 性能 主要 是 由 具体 的 学习 算法 来 决定 . 
+ 　 　 至今 ， 已经 提出 了 不少 关于 联想 记忆 神经网络 的 学习 算法 ， 主要 有 Hebbian 学习 算法 ［ 3 ］ 、 投影 学习 算法 ［ 4 ］ 、 Gardner 学习 算法 ［ 5 ］ 、 最小 重叠 学习 算法 ［ 6 ］ 、 Ho - Kashyap 学习 算法 ［ 7 ］ 、 神经元 或 训练 模式 加权 学习 算法 ［ 8 ］ 和 优化 学习 算法 ［ 9 ］ 等 . 其中 只有 优化 学习 算法 严格 考虑 了 如何 提高 联想 记忆 神经网络 的 存储 能力 和 联想 容错 能力 . 
+ 　 　 基于 文献 ［ 9 ］ 的 思想 ， 本文 提出 了 设计 联想 记忆 网络 的 极大 极小 准则 ， 它 要求 设计 出 的 对称 连接 权阵 应 使得 网络 最小 的 记忆 模式 吸引 域 达到 最大 . 并 进一步 发展 了 综合 联想 记忆 网络 的 一个 有效 学习 算法 ， 它 具有 如下 特点 ： ( 1 ) 可以 全部 存储 任意 给定 的 训练 模式 集 ； ( 2 ) 最小 的 训练 模式 吸引 域 达到 最大 ； ( 3 ) 在 ( 2 ) 的 基础 上 ， 每个 训练 模式 具有 尽可能 大 的 吸引 域 ； ( 4 ) 网络连接 权阵 是 主 对角 元为 1 的 对称 阵 ， 因此 所 设计 出 的 联想 记忆 神经网络 是 全局 稳定 的 ［ 11 ］ . 
+ 2 　 无自 反馈 网络 模型 训练 式 集 的 基本 约束 
+ 　 　 联想 记忆 神经网络 模型 是 由 N 个 互联 神经元 组成 的 非线性 动力系统 . 网格 状态 v = ( v1 , … , vN ) t ， 其中 vi ( i = 1 , 2 , … , N ) 表示 第 i 个 神经元 的 状态 ， 取值 空间 是 { - 1 , 1 } ； 网络连接 权阵 W = ( Wij ) N × N , 其中 Wij 表示 从 第 j 个 神经元 到 第 i 个 神经元 的 连接 权 . 联想 记忆 神经网络 模型 可 表述 为 ［ 1 ］ 
+ 　 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 其中 v ′ i = ( v ′ 1 , … , v ′ N ) t 表示 下 一 时刻 的 状态 向量 ， 非线性 函数 sgn ( x ) 定义 为 当 x ≥ 0 时为 1 ， 而 当 x < 0 时为 - 1 . 
+ 　 　 若 网络连接 权阵 W 满足 Wij = Wji ( i , j = 1 , 2 , … , N ) ， 且 Wii = 0 ( i = 1 , 2 , … , N ) ， 即 连接 权阵 是 一个 具有 零 对角 的 实 对称 阵 ， 则 称为 Hopfield 网络 ［ 1 ］ . 
+ 　 　 设有 M 个 不同 的 训练 模式 ， 即 x1 ， x2 , … ， xM ， 其中 xu = ( xu1 , … , xuN ) t , u = 1 , 2 , … , M . 它们 成为 系统 ( 1 ) 的 稳定 吸引 子 等价 于 对 所有 u = 1 , 2 , … , M ， 都 成立 
+ 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 　 　 文献 ［ 11 ］ 已 证明 ， Hopfield 网络 的 存储容量 不 超过 N ， 即 对于 任何 正整数 M ， 若 M > N ， 则 一定 存在 M 个 训练 模式 ， 它们 不 可能 同时 是 Hopfield 网络 的 稳定 吸引 子 . 
+ 　 　 本节 的 结果 是 ， 即使 M ≤ N ， 若 M 个 不同 训练 模式 同时 成为 Hopfield 网络 的 稳定 吸引 子 ， 则 必须 满足 如下 基本 约束 ( FundamentalConstraint , FC ) ： 任意 两个 不同 的 训练 模式 至少 有 两个 分量 不同 . 若不然 ， 则 存在 某 两个 不同 训练 模式 刚好 有且 只有 一个 分量 不同 . 由于 Hopfield 网络 无自 反馈 ， 故 这 两个 训练 模式 必然 是 同一个 训练 模式 ， 这 就 出现 了 矛盾 . 
+ 　 　 由于 有些 训练 模式 间 的 分类 仅靠 某个 模式 分量 ， 如 汉字 “ 王 ” 和 “ 玉 ” ， “ 已 ” 和 “ 己 ” 等 . 因此 ， 上述 基本 约束 ( FC ) 反映 了 Hopfield 网络 在 存储 能力 方面 的 局限性 . 
+ 　 　 以下 不妨 称 连接 权阵 是 零 对角 实 对称 阵 的 网络 为 无自 反馈 的 Hopfield 网络 ， 称 连接 权阵 是 具有 非零 对角 元 的 实 对称 阵 的 网络 为 有 自 反馈 的 Hopfield 网络 . 有 自 反馈 的 Hopfield 网络 可以 存储 任意 给定 的 训练 模式 集 ［ 4 ］ ， 问题 的 实质 在于 如何 使 每个 训练 模式 具有 尽量 大 的 吸引 域 . 
+ 3 　 稳定 吸引 子 和 联想 容错性 分析 
+ 　 　 Hopfield 网络 的 连接 权阵 可 由 Hebbian 学习 准则 确定 ， 即 
+ 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ Hebbian 学习 准则 主要 是 为了 模拟 生物 神经网络 工作 原理 而 提出 的 ［ 3 ］ ， 并 不是 从 联想 记忆 人工神经网络 的 工程设计 准则 出发 . 它 通常 只能 存储 相关性 较弱 的 训练 模式 集 . 
+ 　 　 定理 1 . M 个 不同 训练 模式 x1 , x2 , … , xM 成为 系统 ( 1 ) 的 稳定 吸引 子 的 充分条件 是 对 所有 u = 1 , 2 , … , M 都 成立 
+ 　 　 　 　 　 　 ( 4 ) 
+ 　 　 定理 2 . 设 xu ( u ∈ { 1 , 2 , … , M } ) 是 系统 ( 1 ) 的 一个 记忆 模式 ， x 是 一个 畸变 模式 ， H ( x , xu ) 表示 x 和 xu 之间 的 Hamming 距离 . 若 H ( x , xu ) < Fui / ( 2Wmi ) , i ∈ { 1 , 2 , … , N } , 则 x 一步 迭代 联想 出 xui ， 其中 . 
+ 　 　 证明 . 即要 证明 xi ‘ = xui . 该 等式 成立 的 一个 充分条件 是 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 注意 到 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 由于 　 　 　 　 　 　 　 　 　 　 
+ 故由 ( 6 ) 式 得 　 　 　 　 　 　 　 
+ 从而 不等式 ( 5 ) 成立 . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 证毕 . 
+ 　 　 为了 书写 和 结论 简洁 ， 且 不 影响 结论 的 实质 ， 文后 均 假定 对于 所有 i = 1 , 2 , … , N , Wij ( j = 1 , 2 , … N ) 不全 为 0 ， 且 Wmi = 1 . 这样 ， Fui 值越 大 ， 则 xu 的 第 i 个 分量 的 联想 容错性 就 越强 . 类似 的 定性 讨论 也 可 参考文献 ［ 6 ， 12 ］ . 
+ 令 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 7 ) 
+ 　 　 推论 1 . 设 xu ( u ∈ { 1 , 2 , … , M } ) 是 系统 ( 1 ) 的 一个 记忆 模式 ， x 是 一个 畸变 模式 . 若 H ( x , xu ) < Fu / 2 ， 则 一步 迭代 联想 出 xu . 
+ 　 　 由 推论 1 可知 ， Fu / 2 是 记忆 模式 xu 的 吸引 域 半径 的 一个 下界 . 
+ 4 　 极大 极小 设计 准则 和 两个 学习 算法 
+ 　 　 设 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ 则 F / 2 是 最小 的 记忆 模式 吸引 域 的 半径 的 一个 下界 . 
+ 　 　 从 数学 上 ， 极大 极小 设计 准则 可 表示 为 下列 有 约束 不可 微 优化 问题 
+ 
+ 即 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 9 ) 
+ 其中 argmax 的 约束条件 是 Wij = Wji , 且 ｜ Wij ｜ ≤ 1 ; 　 i , j = 1 , 2 , … , N . 
+ 　 　 将 ( 9 ) 式 中 的 Wij ( i > j ; 　 i , j = 1 , 2 , … , N ) 都 变化 成 Wji ， 则 这个 约束 不可 微 优化 问题 含有 N ( N + 1 ) / 2 个 自由 变量 ， 即 Wij ， 而 argmax 的 约束条件 是 ｜ Wij ｜ ≤ 1 . 因此 ， 有 约束 不可 微 优化 问题 ( 9 ) 等价 于 下列 线性规划 问题 ： 
+ ( P ) max ( z ) , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 10 ) 
+ 并 带有 约束条件 
+ ( C1 ) Fui ≥ z , 　 i = 1 , 2 , … , N ; 　 u = 1 , 2 , … , M ; 　 　 　 　 　 　 　 　 　 　 ( 11 ) 
+ ( C2 ) ｜ Wij ｜ ≤ 1 , 　 i ≤ j ; 　 i , j = 1 , 2 , … , N . 　 　 　 　 　 　 　 　 　 　 ( 12 ) 
+ 线性规划 问题 ( 10 ) — ( 12 ) 可以 用 单纯形 方法 来 求解 . 由于 单纯形 方法 相对 较 复杂 ， 特别 是 在 N 和 M 都 比较 大时 . 为此 ， 本文 将 提出 更 有效 的 简单 方法 . 
+ 　 　 现对 ( 9 ) 式 作 分析 
+ 　 　 　 ( 13 ) 
+ 其中 第二个 等 号 利用 了 Fui 只 与 Wij ( j = 1 , 2 , … , N ) 有关 的 事实 ， 和 分别 表示 在 约束 ( C2 ) 和 ( C3 ) 下求 最大值 ， ( C3 ) 定义 为 
+ ( C3 ) 　 　 ｜ Wij ｜ ≤ 1 , 　 j = 1 , 2 , … , N . 　 　 　 　 　 　 　 　 　 　 　 　 ( 14 ) 
+ 由于 min ( a + b ) ≥ min ( a ) + min ( b ) ( 其中 a 和 b 是 变量 ) ， 故由 ( 13 ) 式 得 
+ 　 　 　 　 　 　 　 ( 15 ) 
+ 易知 约束 优化 问题 
+ 　 　 　 　 　 　 　 　 　 　 　 ( 16 ) 
+ 的 解是 
+ 　 　 　 　 　 　 　 　 ( 17 ) 
+ 　 　 由 不等式 ( 15 ) 可知 ， ( 17 ) 式 是 不可 微 优化 问题 ( 9 ) 式 的 一个 次优 解 . 
+ 　 　 Hopfield 联想 记忆 网络 的 连接 权 可以 由 ( 17 ) 式 来 确定 ， 该 规则 就 称为 快速 学习 算法 . 它 具有 下述 特点 ： 
+ 　 　 1 ) 可以 存储 任意 给定 的 训练 模式 集 ， 且 具有 一定 的 联想 容错 能力 ［ 13 ］ ； 
+ 　 　 2 ) 可以 用作 其它 约束 优化 迭代 算法 的 初值 ； 
+ 　 　 3 ) 设计 出 的 连接 权值 为 - 1 ， 0 或 1 ， 特别 是 ， 主 对角 权 元素 全为 1 ， 故 网络 易于 硬件 实现 和 光学 实现 . 
+ 　 　 设 f 是 线性规划 问题 ( 10 ) — ( 12 ) 的 解 . 线性规划 问题 ( 10 ) — ( 12 ) 等价 于 在 约束条件 
+ ( C4 ) ｜ Wij ｜ ≤ 1 　 ( i < j ; 　 i , j = 1 , 2 , … , N ) 　 　 　 　 　 　 　 　 　 　 ( 18 ) 
+ 下 求解 线性 不等式 组 　 　 　 　 　 Fui ≥ f 　 ( i = 1 , 2 , … , N ; 　 u = 1 , 2 , … , M ) ; 　 　 　 　 　 　 　 　 　 ( 19 ) 
+ 而 在 无 约束条件 下 求解 线性 不等式 组 ( 19 ) 可用 感知器 算法 ［ 14 ］ . 
+ 　 　 设 训练 模式 的 学习 序列 是 x1 , x2 , … xM , … , x1 , x2 , … , xM , … , 即 是 一个 循环 学习 序列 . 感知器 算法 按此 循环 顺序 接受 训练 模式 xu ( u ∈ { 1 , 2 , … , M } ) ， 且 按 下列 规则 来 修改 连接 权 ： 对于 i = 1 , 2 , … , N ， 有 
+ 　 　 　 　 　 ( 20 ) 
+ 其中 t 是 算法 迭代 次数 ， q > 0 是 任意 正数 ， Wij 的 迭代 初值 可以 任意 选定 . 
+ 　 　 为 使得 每个 训练 模式 具有 一定 大小 的 吸引 域 ， 在 感知器 算法 ( 20 ) 中须 加入 约束条件 ( C4 ) . 同时 ， 将 快速 学习 算法 ( 17 ) 的 结果 作为 连接 权阵 的 迭代 初值 ， 并且 只 对 初值 为 0 的 非 对角 权 元素 进行 优化 迭代 . 在 此基础 上 ， 再 使得 每个 训练 模式 具有 尽量 大 的 吸引 域 . 
+ 　 　 本文 的 约束 感知器 优化 学习 算法 可 总结 如下 ： 
+ 　 　 ( 1 ) 初始化 . Wij ( 0 ) ( i < j ; 　 i , j = 1 , 2 , … , N ) 由 快速 学习 算法 ( 17 ) 确定 ， f ( 0 ) = 1 , 并 选取 学习 因子 q ， 迭代 次数 δ 1 和 δ 2 ； 
+ 　 　 ( 2 ) 学习 . 设从 循环 学习 序列 x1 , x2 , … xM , … , x1 , x2 , … , xM , … , 接受 到 训练 模式 xu ( u ∈ { 1 , 2 , … , M } ， 则 对于 i = 1 , 2 , … , N ， 按下式 来 修改 Wij ( t ) ( i < j ; 　 j = 1 , 2 , … , N ) 
+ 　 　 　 　 ( 21 ) 
+ 其中 函数 Φ ( x ) 定义 为 当 x > 1 时为 1 ， 当 x < - 1 时为 - 1 ， 否则 为 x . 每 完成 一个 循环 序列 { x1 , x2 , … , xM } ， 就 称为 迭代 一次 ； 
+ 　 　 ( 3 ) 判断 . 若 算法 ( 21 ) 收敛 ， 即 Fui ≥ f ( i = 1 , 2 , … , N ; u = 1 , 2 , … , M ) 时 的 迭代 次数 小于 δ 1 ， 则 f = f + 1 ， 转 至 步骤 ( 2 ) ； 若 算法 ( 21 ) 迭代 次数 超过 δ 1 后 仍 不 收敛 ， 则 Wij 返回 算法 ( 21 ) 式 迭代 之前 的 值 ， 并 转至 步骤 4 ； 
+ 　 　 ( 4 ) 增大 每个 训练 模式 的 吸引 域 . 设 fu = f , u = 1 , 2 , … , M . 设从 循环 学习 序列 x1 , x2 , … xM , … , x1 , x2 , … , xM ， … ， 接受 到 训练 模式 xu , u ∈ { 1 , 2 , … , M } ， 则 对于 i = 1 , 2 , … , N ， 按下式 来 修改 Wij ( t ) ( i < j ; j = 1 , 2 , … , N ) 
+ 　 　 　 ( 22 ) 
+ 每 完成 一个 循环 序列 { x1 , x2 , … xM } ， 就 称为 迭代 一次 . 
+ 　 　 每 迭代 一次 ， 且 迭代 次数 小于 δ 2 时 ， 对于 u = 1 , 2 , … , M ， 按 如下 规则 递增 fu ： 若 Fui ≥ fu ( i = 1 , 2 , … , N ) ， 且 Fu ′ i ≥ fu ′ - 1 ( u ′ ≠ u , u ′ = 1 , 2 , … , M ; 　 i = 1 , 2 , … , N ) , 则 fu = fu + 1 ， 并且 迭代 次数 重新 从 0 开始 ， 返回 步骤 ( 4 ) ； 
+ 　 　 若 算法 ( 22 ) 式 在 迭代 次数 超过 δ 2 后 ， 所有 fu ( u = 1 , 2 , … , M ) 都 不能 再作 递增 ， 则 Wij 返回 算法 ( 22 ) 式 迭代 之前 的 值 ， 并 结束 算法 . 
+ 5 　 计算机 实验 结果 
+ 　 　 实验 中取 q = 1 / N ， δ 1 = δ 2 = 40 . 设 
+ 　 　 　 ( 23 ) 
+ Fmax , Fmin 和 Fave 可 用作 统计 量 来 定量 客观 地 评价 Hopfield 联想 记忆 学习 算法 的 联想 容错 能力 . Fmax , Fmin 和 Fave 越大 ， 则 说明 算法 的 联想 容错 能力 越强 . 
+ 　 　 第一组 实验 的 训练 模式 集是 汉字 “ 己 ” 、 “ 已 ” 和 “ 巳 ” ， 如图 1 所示 . 用 快速 学习 算法 可以 记忆 该 训练 模式 集 . Hebbian 学习 规则 和 文献 ［ 9 ］ 的 优化 学习 算法 都 不能 存储 这个 训练 模式 集 . 这 是因为 ， “ 己 ” 和 “ 已 ” 以及 “ 己 ” 和 “ 巳 ” 的 Hamming 距离 均 为 1 . 实验 结果表明 Hebbian 学习 规则 的 联想 结果 是 3 个 训练 模式 都 联想 到 模式 “ 己 ” . 表 1 是 快速 学习 算法 和 本文 优化 学习 算法 的 联想 容错 能力 比较 . 由表 1 可知 ， 快速 学习 算法 和 本文 优化 学习 算法 在 此 特例 下 ， 具有 相同 的 联想 容错 能力 . 
+ 
+ 图 1 　 实验 1 训练 模式 集 
+ 表 1 　 两种 算法 的 联想 容错 能力 比较 
+ 　 FmaxFminFave 
+ 快速 学习 算法 98.001 . 0096.06 
+ 本文 优化 学习 算法 98.001 . 0096.06 
+ 
+ 　 　 第二组 实验 的 训练 模式 集是 英文字母 “ A ” — “ H ” ， 如图 2 所示 ， 对于 8 组 训练 模式 集 { A } ， { A , B } , { A , B , C } , { A , B , C , D } , { A , B , C , D , E } , { A , B , C , D , E , F } , { A , B , C , D , E , F , G } 和 { A , B , C , D , E , F , G , H } 分别 用 本文 优化 学习 算法 和 文献 ［ 9 ］ 的 优化 学习 算法 进行 学习 . 表 2 是 两种 优化 学习 算法 的 容错 能力 比较 ， 其中 M 表示 上述 8 组 训练 模式 集 分别 所含 的 模式 个数 . 由表 1 和 2 的 结果 可知 ， 本文 优化 学习 算法 比 文献 ［ 9 ］ 的 优化 学习 算法 具有 更强 的 联想 容错 能力 ， 同时 说明 快速 学习 算法 的 结果 作为 迭代 算法 的 初值 可 大大提高 迭代 算法 的 联想 容错性 . 
+ 
+ 图 2 　 实验 2 训练 模式 集 
+ 表 2 　 两种 优化 学习 算法 的 联想 容错 能力 比较 
+ M12345678 
+ Fmax ( 本文 ) 10057.0049 . 7840.4736 . 0636.2833 . 6230.38 
+ Fmax ( 文献 ［ 9 ］ ) 9942.5634 . 6314.7014 . 8314.8314 . 4117.88 
+ Fmax ( 快速 算法 ) 10057.0042 . 0038.0033 . 0033.0031 . 0027.00 
+ Fmin ( 本文 ) 10043.0033 . 3414.0814 . 1913.8311 . 0812.02 
+ Fmin ( 文献 ［ 9 ］ ) 9942.0032 . 0313.0413 . 0811.0010 . 0110.01 
+ Fmin ( 快速 算法 ) 10043.0015 . 001.001 . 001.001 . 001.00 
+ Fave ( 本文 ) 10050.9840 . 5125.7822 . 2221.8419 . 6317.66 
+ Fave ( 文献 ［ 9 ］ ) 9942.3232 . 7713.7513 . 8111.8610 . 9411.00 
+ Fave ( 快速 算法 ) 10050.9829 . 2622.5815 . 3814.1212 . 029.56 
+ 
+ 作者简介 ： 梁学斌 　 1997 年 1 月 获 复旦大学 计算机软件 专业 博士学位 . 现 从事 计算机 智能 领域 的 研究 工作 ， 在 国内外 已 发表 论文 30 余篇 . 
+ 　 　 　 　 　 吴 立德 　 复旦大学 计算机科学 系 教授 ， 博士生 导师 . 从事 计算机 视觉 和 计算机 语言学 方面 的 研究 ， 已 发表 论文 100 余篇 ， 著作 多部 . 
+ 　 　 　 　 　 俞 　 俊 　 复旦大学 计算机科学 系 研究生 ， 主要 学习 计算机 视觉 和 图象 编码 . 
+ 作者 单位 ： 复旦大学 计算机科学 系 　 上海 　 200433 
+ 参考文献 
+ ［ 1 ］ 　 HopfieldJJ . Neuralnetworksandphysicalsystemswithemergentcollectivecomputationalabilitie , In : Proc . Natl . Acad . Sci . , U . S . A . , 1982 , 79 ( 4 ) : 2554 — 2558 . 
+ ［ 2 ］ 　 MichelAN , FarrellJA . Associativememoriesviaatrificialneuralnetworks . IEEEControlSyst . Mag . , 1990 , 10 ( 4 ) : 6 — 17 . 
+ ［ 3 ］ 　 HebbianDO . Theorganizationofbehavior . NewYork : Wiley , 1949 . 
+ ［ 4 ］ 　 PersonnazL , GuyonI , DreyfusG . Collectivecomputationalpropertiesofneuralnetworks : newlearningmechanisms . Phys . Rev . A , 1986 , 34 ( 5 ) : 4217 — 4228 . 
+ ［ 5 ］ 　 GardnerE . Thespaceofinteractionsinneuralnetworkmodels . J . Phys . A : Math . Gen . , 1988 , 21 : 257 — 270 . 
+ ［ 6 ］ 　 KrauthW , MezardM . LearningAlgorithmswithOptimalStabilityinNeuralNetworks . J . Phys . A : Math . Gen . , 1987 , 20 : 745 — 752 . 
+ ［ 7 ］ 　 HassounMH , YoussefAM . Highperformancerecordingalgorithmforhopfeildmodelassociativememories . OpticalEng . , 1989 , 28 ( 1 ) : 46 — 54 . 
+ ［ 8 ］ 　 WangT , ZhuangXH , XingXL . Aneuron - weightedalgorithmanditshardwareimplementationinassociativememories . IEEETrans . Computer , 1993 , 42 ( 5 ) : 636 — 640 . 
+ ［ 9 ］ 　 WangT . LearningofHopfieldassociativememorybyglobalminimization . Int . J . PatternRecog . Artif . Intell . , 1993 , 7 ( 3 ) : 559 — 567 . 
+ ［ 10 ］ 　 AtiyaA , Abu - MostafaYS . Ananalogfeedbackassociativememory . IEEETrans . NeuralNetworks , 1993 , ( 4 ) : 117 — 126 . 
+ ［ 11 ］ 　 GolesE . FogelmanF , PellegrinD . Decreasingenergyfunctionsasatoolforstudyingthresholdnetworks . DiscreteAppl . Math . , 1985 , 12 : 261 — 277 . 
+ ［ 12 ］ 　 AbbottLF , KeplerTB . Optimallearninginneuralnetwrokmemories . J . Phys . A : Math . Gen . , 1989 , 22 : 711 — 717 . 
+ ［ 13 ］ 　 梁学斌 ， 吴 立德 . 综合 联想 记忆 神经网络 的 外积 取 等 准则 . 通信 学报 ， 1995 ， 16 ( 2 ) ： 1 — 6 . 
+ ［ 14 ］ 　 TouJT , GonzalezRC . Patternrecognitionprinciples . Massachusetts : Addison - Wesley , 1977.165 — 168 . 
+ 收稿 日期 　 1994 - 12 - 25 

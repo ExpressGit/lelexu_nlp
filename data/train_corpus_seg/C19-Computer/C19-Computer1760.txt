@@ -1,0 +1,95 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 1999 年 第 19 卷 第 3 期 Vol.19 No.31999 
+ 
+ 
+ 
+ 计算 两类 网络 的 可靠性 的 多项式 时间 算法 
+ 孔繁 甲 　 王光兴 　 张祥德 
+ 摘 　 要 　 定义 了 两类 有 向 网络 — — ORC - 网络 和 IRC - 网络 , 并且 提出 一个 计算 它们 的 根 通信 可靠性 ( 网络 的 一个 特定 结点 ( 根点 ) 能 与 其余 每个 结点 通信 的 概率 ) 的 多项式 时间 算法 . 对于 ORC - 网络 和 IRC - 网络 , 该 算法 的 时间 复杂度 分别 是 O ( ｜ E ｜ ) 和 O ( ｜ V ｜ * ｜ E ｜ ) , 这里 , ｜ V ｜ , ｜ E ｜ 分别 表示 网络 所 含 结点 和 边 的 数量 . 
+ 关键词 　 网络 , 可靠性 , 算法 , 算法 复杂性 . 
+ 中图法 分类号 　 TP302 
+ APolynomialTimeAlgorithmforComputingReliabilityof 
+ TwoClassesofNetworks 
+ KONGFan - jia 　 ZHANGXiang - de 
+ DepartmentofMathematicsNortheasternUniversityShenyang110006 
+ WANGGuang - xing 
+ DepartmentofComputerScienceNortheasternUniversityShenyang110006 
+ Abstract 　 Inthispaper , twoclassesofdirectednetworks — — ORC - networksandIRC - networksaredefined , andapolynomialtimealgorithmispresentedforcomputingtheirrootedcommunicationreliability , i . e . theprobabilitythataspecifiedvertex , rootvertex , cancommunicatewithallothervertices . ThecomplexityofthealgorithmforORC - networksandIRC - networksisO ( ｜ E ｜ ) andO ( ｜ V ｜ * ｜ E ｜ ) respectively , where ｜ V ｜ and ｜ E ｜ arethenumberofverticesandofedgesofnetworksrespectively . 
+ Keywords 　 Network , reliability , algorithm , algorithmcomplexity . 
+ 　 　 网络 的 根 通信 可靠性 是 指 网络 的 一个 特定 结点 ( 称作 根点 ) 能 与 所有 其他 结点 通信 的 概率 . 这是 计算机网络 中 一个 很 重要 的 问题 . 人们 对此 已经 进行 了 广泛 的 研究 ［ 1 ～ 4 ］ . 本文 将 定义 两类 特殊 的 有 向 网络 , 并 提出 一个 计算 它们 的 根 通信 可靠性 的 多项式 时间 算法 . 
+ 1 定义 、 记号 、 假设 
+ 　 　 设 G = ( V , E ) 是 一个 有向图 , v , w ∈ V . 如果 w 是 与 v 所 关联 的 一条 边 的 另 一个 端点 , 称 w 是 v 的 一个 邻 结点 ( neighbor ) . B ( v ) 表示 所有 v 的 邻 结点 组成 的 集合 . 如果 v 有且 仅 有 两个 邻 结点 , 称 v 是 2 - 邻 结点 . 如果 存在 一条 边 ( v , w ) ∈ E , 称 w 是 v 的 一个 出邻 结点 ( out - neighbor ) , v 是 w 的 一个 入邻 结点 ( in - neighbor ) . Vi ( v ) 和 Vo ( v ) 分别 表示 v 的 所有 入邻 结点 和 出邻 结点 组成 的 集合 . Ei ( v ) 表示 由 所有 进入 v 的 边 组成 的 集合 . 如果 v 有且 仅 有 一个 入邻 结点 ( 不 考虑 其出 邻 结点 ) , 称 v 是 1 - 入邻 结点 ; 如果 v 没有 出邻 结点 , 称 v 是 0 - 出邻 结点 . 设 s 是 G 的 根点 , 由于 同一个 有 向 网络 G , 若 指定 不同 的 根点 , 它 的 根 通信 可靠性 也 不同 . 为了 方便 , 我们 定义 G 连同 其根点 s 为 一个 RC - 网络 , 用 Gs = ( V , E , s ) 表示 . 于是 , 同一个 网络 指定 不同 的 根点 得到 不同 的 RC - 网络 . 一个 只 含有 根点 的 RC - 网络 称为 平凡 RC - 网络 . 如果 s 能 到达 每 一个 其他 结点 , 称 这 是 一个 可达 RC - 网络 . 一个 RC - 网络 的 根 通信 可靠性 由 R ( Gs ) 表示 . 下面 我们 定义 ORC - 网络 与 IRC - 网络 . 在 定义 以前 , 首先 介绍 3 个 网络 变换 . 
+ 　 　 . 2 - 邻 结点 变换 : 设 v 是 G 的 一个 2 - 邻 结点 , 它 的 两个 邻 结点 分别 是 u , w . 如果 u 和 w 分别 是 v 的 一个 入邻 结点 和 一个 出邻 结点 , 那么 , G 增加 一条 边 ( u , w ) ; 如果 w 和 u 分别 是 v 的 一个 入邻 结点 和 一个 出邻 结点 , 那么 , G 增加 一条 边 ( w , u ) ; 删除 结点 v . 
+ 　 　 . 0 - 出邻 结点 变换 : 设 v 是 G 的 一个 0 - 出邻 结点 , 或者 v 仅 有 一个 邻 结点 , 那么 , 删除 结点 v . 
+ 　 　 . 1 - 入邻 结点 变换 : 设 v 是 G 的 一个 1 - 入邻 结点 , u 是 v 的 入 邻 结点 , 那么 , 删除 所有 其 两个 端点 是 u 和 v 的 边 , 用 u 代替 v 且 将 原来 与 v 关联 的 所有 边 与 u 关联 . 
+ 　 　 ORC - 网络 : 一个 可达 的 RC - 网络 , 它 能 通过 连续 地 对 非 根点 进行 2 - 邻 结点 和 0 - 出邻 结点 变换 , 得到 一个 平凡 的 RC - 网络 . 
+ 　 　 IRC - 网络 : 一个 可达 的 RC - 网络 , 它 能 通过 连续 地 对 非 根点 进行 2 - 邻 结点 、 0 - 出邻 结点 和 1 - 入邻 结点 变换 , 得到 一个 平凡 的 RC - 网络 . 
+ 　 　 限于 篇幅 , 其他 的 定义 、 记号 、 假设 请 参看 文献 ［ 1 , 2 , 5 ］ . 
+ 2 两类 网络 的 性质 和 可靠性 保护 缩减 
+ 　 　 下面 , 我们 证明 任 一带 有 一个 根点 的 串并联 有 向 网络 和 无圈 有 向 网络 均 是 ORC - 网络 . 在 证明 该 结论 以前 , 首先 提出 两个 引理 . 
+ 　 　 引理 1 . 任何 一个 含有 两个 以上 结点 的 串并联 有 向 网络 至少 含有 两个 2 - 邻 结点 . 
+ 　 　 证明 : 参看 文献 ［ 3 , 5 ］ , 限于 篇幅 , 这里 从略 . 
+ 　 　 引理 2 . 任何 一个 无圈 有 向 网络 G 至少 含有 一个 0 - 出邻 结点 . 
+ 　 　 证明 : 限于 篇幅 , 这里 从略 . 
+ 　 　 定理 1 . 任何 一个 带有 根点 的 串并联 有 向 网络 或 一个 带有 根点 的 无圈 有 向 网络 , 如果 它们 是 可达 的 , 则 一定 是 ORC - 网络 . 
+ 　 　 证明 : 设 Gs 是 一个 带有 根点 s 的 可达 串并联 有 向 网络 . 若 Gs 只 含有 两个 结点 , 那么 非根点 的 结点 一定 可 进行 0 - 出邻 结点 变换 , 使 Gs 变成 一个 平凡 的 RC - 网络 . 若 Gs 含有 两个 以上 结点 , 由 引理 1 , 总 存在 两个 2 - 邻 结点 . 所以 总 存在 一个 非根点 的 2 - 邻 结点 , 对 其 进行 2 - 邻 结点 变换 , 然后 再 进行 所有 可能 的 0 - 出邻 结点 变换 . 如果 变换 后 的 Gs 不是 一个 平凡 RC - 网络 , 那么 , Gs 仍 是 一个 串并联 有 向 网络 . 重复 上述 过程 , 最后 可 将 Gs 变成 平凡 RC - 网络 . 对于 带有 根点 s 的 无圈 有 向 网络 , 由 引理 2 , 总 存在 一个 0 - 出邻 结点 . 因为 Gs 是 可达 RC - 网络 , 根点 s 不是 0 - 出邻 结点 , 对 所有 0 - 出邻 结点 连续 进行 0 - 出邻 结点 变换 , Gs 能 变成 平凡 RC - 网络 . 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 □ 
+ 　 　 为了 计算 ORC - 网络 和 IRC - 网络 的 根 通信 可靠性 , 下面 给出 两个 新 的 可靠性 保护 缩减 ( reliability - preservingreduction ) , 简称 缩减 . 
+ 　 　 ( 1 ) 0 - 出邻 结点 缩减 : 让 v 是 Gs 的 一个 0 - 出邻 结点 , 或者 v 仅 有 一个 邻 结点 , 它 既 是 出邻 结点 , 又 是 入 邻 结点 . 如果 Gs 删除 结点 v 后 生成 G ′ s , 那么 R ( Gs ) = Ω R ( G ′ s ) , 这里 Ω = 1 - ∏ ei ∈ Ei ( v ) qei . 
+ 　 　 ( 2 ) 1 - 入邻 结点 缩减 : 让 v 是 Gs 的 一个 1 - 入邻 结点 , u 是 v 的 入 邻 结点 . 如果 删除 两个 端点 分别 是 u 和 v 的 所有 边 , 用 u 代替 v , 将 原来 与 v 关联 的 边 现在 与 u 关联 生成 G ′ s . 那么 R ( Gs ) = Ω R ( G ′ s ) , 这里 Ω = p ( u , v ) . 
+ 3 算法 和 它 的 时间 复杂性 
+ 　 　 下面 提出 一个 算法 , 它 可以 识别 一个 RC - 网络 是否是 ORC - 网络 或 IRC - 网络 . 如果 是 , 算法 计算 其根 通信 可靠性 R ( Gs ) , 否则 , 给出 一个 非 IRC - 网络 的 信息 . 算法 中 用到 的 并联 缩减 与 2 - 邻 结点 缩减 请参阅 文献 ［ 1 , 2 , 5 ］ . 
+ 　 　 算法 . 
+ 　 　 输入 : 输入 一个 RC - 网络 Gs = ( V , E , s ) 和 每 条边 e 的 可靠性 pe . 
+ 　 　 输出 : 如果 Gs 是 IRC - 网络 , 输出 R ( Gs ) , 否则 输出 Gs 不是 IRC - 网络 的 信息 . 
+ 　 　 Begin 
+ 　 　 1 . 使用 深度 优先 搜索 法 检查 Gs 是否是 可达 的 , 若 不是 , Print ( “ Gs 是 一个 不可 达 RC - 网络 , R ( Gs ) = 0 ” ) . 
+ 　 　 2 . f ← 1.0 , stack ← V - s , 标记 V 中 每个 结点 “ in ” . 
+ 　 　 3 . { 识别 2 - 邻 结点 与 0 - 出邻 结点 并 进行 相应 的 缩减 } . 
+ 　 　 While ( stack ≠ ) do 
+ 　 　 Begin 
+ 　 　 ( a ) 从 stack 中 取出 一个 结点 v , 标记 它 “ out ” . 
+ 　 　 ( b ) 按 顺序 一个 接 一个 地 考查 入 或 出 v 的 边 , 分别 记录 考查 过 的 v 的 入 邻 结点 与 邻 结点 的 数量 , 直到 发现 v 的 出邻 结点 数量 大于 0 , 同时 v 的 邻 结点 数量 大于 2 { 说明 结点 v 既 不是 2 - 邻 结点 , 也 不是 0 - 出 结点 } , 或者 入 与 出 v 的 所有 边 都 已 考查 完毕 为止 . 在 这个 过程 中 , 若 出现 并联 边 , 同时 进行 并联 边 缩减 . 
+ 　 　 ( c ) If ( ｜ No ( v ) ｜ = 0 或者 ｜ B ( v ) ｜ ≤ 2 ) then 
+ 　 　 Begin 
+ 　 　 Ⅰ . 将 B ( v ) 中 标记 “ out ” 的 结点 标记 “ in ” 加入 stack . 
+ 　 　 Ⅱ . If ( ｜ N0 ( v ) ｜ = 0 或者 ｜ B ( v ) ｜ = 1 ) , then 进行 0 - 出邻 结点 缩减 . 
+ 　 　 Else { v 是 一个 2 - 邻 结点 } 进行 2 - 邻 结点 缩减 . 
+ 　 　 Ⅲ . f = f * Ω . 
+ 　 　 End . 
+ 　 　 End . 
+ 　 　 4 . IfGs 是 平凡 RC - 网络 , thenPrint ( “ Gs 是 一个 ORC - 网络 , R ( Gs ) 是 ” f ) , stop . 
+ 　 　 5 . stack ← V - s , 标记 V - s 中 每个 结点 “ in ” . 
+ 　 　 6 . { 识别 2 - 邻 结点 , 0 - 出邻 结点 和 1 - 入邻 结点 , 并 进行 相应 的 缩减 } . 
+ 　 　 While ( stack ≠ ) do 
+ 　 　 Begin 
+ 　 　 ( a ) 从 stack 中 取出 一个 结点 v , 标记 它 “ out ” . 
+ 　 　 ( b ) 按 顺序 一个 接 一个 地 考查 入 或 出 v 的 边 , 分别 记录 所 考查 过 的 v 的 入 邻 结点 与 出邻 结点 的 数量 , 直到 发现 v 的 出邻 结点 的 数量 大于 0 , 同时 v 的 入 邻 结点 数量 大于 1 , 并且 v 的 邻 结点 数量 大于 2 { 说明 结点 v 既 不是 2 - 邻 结点 , 也 不是 0 - 出邻 结点 和 1 - 入邻 结点 } , 或者 与 v 关联 的 边 已经 考查 完毕 为止 . 在 这个 过程 中 , 当 出现 并联 边时 , 同时 也 进行 并联 缩减 . 
+ 　 　 ( c ) If ( ｜ No ( v ) ｜ = 0 或 ｜ B ( v ) ｜ = 2 或 ｜ Ni ( v ) ｜ = 1 ) . 
+ 　 　 Begin 
+ 　 　 Ⅰ . 将 B ( v ) 中 标记 “ out ” 的 结点 标记 “ in ” , 将 它们 加入 stack . 
+ 　 　 Ⅱ . If ( ｜ No ( v ) ｜ = 0 ) { v 是 一个 0 - 出邻 结点 } then 进行 0 - 出邻 结点 缩减 . 
+ 　 　 Elseif ( ｜ B ( v ) ｜ = 2 ) { v 是 一个 2 - 邻 结点 } then 进行 2 - 邻 结点 缩减 . 
+ 　 　 else { v 是 一个 1 - 入邻 结点 } 进行 1 - 入邻 结点 缩减 . 
+ 　 　 Ⅲ . f = f * Ω . 
+ 　 　 End . 
+ 　 　 7 . IfGs 是 一个 平凡 RC - 网络 thenPrint ( “ Gs 是 一个 IRC - 网络 , R ( Gs ) 是 ” , f ) , stop . 
+ 　 　 ElsePrint ( “ Gs 不是 一个 IRC - 网络 ” ) , stop . 
+ 　 　 End 
+ 　 　 下面 我们 讨论 算法 的 复杂性 . 
+ 　 　 定理 2 . 算法 计算 ORC - 网络 Gs 和 IRC - 网络 Gs 的 根 通信 可靠性 R ( Gs ) 的 时间 复杂度 分别 是 O ( ｜ E ｜ ) 和 O ( ｜ V ｜ . ｜ E ｜ ) , 这里 , ｜ V ｜ , ｜ E ｜ 分别 表示 Gs 的 结点 和 边 的 数量 . 
+ 证明 : 由于 证明 较长 , 限于 篇幅 , 我们 仅 证明 一个 关键 事实 , 即 在 第 3 步 , 最多 有 ｜ E ｜ + 3 ｜ V ｜ 个 结点 通过 stack . 开始 ｜ V ｜ - 1 个 结点 加入 stack , 每 执行 一次 2 - 邻 结点 缩减 删除 一个 结点 , 且 最 多 有 两个 结点 加入 stack . 所以 进行 所有 2 - 邻 结点 缩减 后 , 最多 2 ｜ V ｜ 个 结点 加入 stack . 每 执行 一次 0 - 出邻 结点 缩减 , 最 多 ｜ E * ｜ 个 结点 加入 stack , 这里 , ｜ E * ｜ 是 进行 0 - 出邻 结点 缩减 所 删除 边 的 数量 . 所以 , 执行 所有 0 - 出邻 结点 缩减 后 , 最多 有 ｜ E ｜ 个 结点 加入 stack . 总共 最多 有 ｜ E ｜ + 3 ｜ V ｜ 个 结点 通过 stack . 完整 的 证明 请参阅 文献 ［ 2 , 3 ］ , 这里 从略 . 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 □ 
+ 　 　 作者 孔繁 甲 , 1963 年生 , 博士 ， 副教授 , 主要 研究 领域 为 网络 可靠性 , 容错 计算 . 王光兴 , 1937 年生 , 教授 ， 博士生 导师 , 主要 研究 领域 为 计算机 应用 , 计算机 通信 . 张祥德 , 1963 年生 , 博士 , 副教授 ， 主要 研究 领域 为 组合 数学 ， 网络通信 . 
+ 　 　 本文 通讯联系 人 : 孔繁 甲 ， 沈阳 110006 , 东北大学 数学系 
+ 作者 单位 ： 孔繁甲 张祥德 ： 东北大学 数学系 　 沈阳 　 110006 
+ 　 　 　 　 　 王光兴 ： 东北大学 计算机科学 系 　 沈阳 　 110006 
+ 　 
+ 参考文献 
+ ［ 1 ］ PageLB , PerryJE . Reliabilityofdirectednetworksusingthefactoringtheorem . IEEETransactionsonReliability , 1989 , 38 ( 5 ) : 556 ～ 562 
+ ［ 2 ］ AgrawalA , SatyanarayanaA . Networkreliabilityanalysisusing2 - connecteddigraphreductions . Networks , 1985 , 15 ( 3 ) : 239 ～ 256 
+ ［ 3 ］ PolitofT , SatyanarayanaA . Efficientalgorithmsforreliabilityanalysisofplanarnetworks — — asurvey . IEEETransactionsonReliability , 1986 , 35 ( 3 ) : 252 ～ 258 
+ ［ 4 ］ ZhaoLian - chang , KongFan - jia . Anewformulaandanalgorithmforreliabilityanalysisofnetwork . MicroelectronicReliability , 1997 , 37 ( 3 ) : 511 ～ 518 
+ ［ 5 ］ AgrawalA , SatyanarayanaA . AnO ( ｜ E ｜ ) timealgorithmforcomputingthereliabilityofaclassofdirectednetworks . OperationsResearch , 1984 , 32 ( 3 ) : 493 ～ 515 
+ （ 1998 - 03 - 12 收稿 ） 

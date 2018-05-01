@@ -1,0 +1,244 @@
+自动化 学报 
+ AGTAAUTOMATICASINICA 
+ 1999 年 第 25 卷 第 2 期 Vol.25 No.21999 
+ 
+ 
+ 
+ 一类 非线性 系统 的 自 适应控制 方法 1 ) 
+ 周 　 锐 　 　 韩曾 晋 
+ 摘 　 要 　 非线性 系统 的 模型 参考 自 适应控制 是 自 适应 理论 的 一个 新 的 发展 方向 ， 目前 针对 可 反馈 线性化 的 系统 已经 取得 了 很多 研究成果 . 但 以往 采用 的 方法 要求 系统对 未知 参数 是 线性 的 ， 且 计算 复杂度 随 系统 阶次 或 相对 阶 的 升高 而 升高 . 给出 一种 新 的 非线性 模型 参考 自 适应 跟踪 控制 方法 ， 证明 了 无需 未知 参数 以 线性 形式 存在 ， 而 只 要求 回归 向量 对 参数 满足 一定 的 Lipschitz 条件 即可 保证系统 具有 期望 的 特性 . 
+ 关键词 　 反馈 线性化 ， 相对 阶 ， 模型 参考 自 适应 跟踪 控制 ， 回归 向量 . 
+ ADAPTIVECONTROLOFAKINDOFNONLINEARSYSTEMS 
+ ZHOURui 　 　 HANZengjin 
+ ( Dept . ofAutomation , TsinghuaUniv . ， Beijing 　 100084 ) 
+ Abstract 　 　 Thepresentmodelreferenceadaptivecontrolmethodsfornonlinearaffinesystemsrequirethatthenonlinearsystemshouldbelineartotheunknownparametervector , andthatthereshouldnotbeunknownparametersintheoutputequation . Ontheotherhand , thehighertherelativedegreeortheorderofthenonlinearsystem , themorecomplicatedthecontrolandparameterupdatelaw . Toovercomethosedrawbacksanovelmodelreferenceadaptivenonlineartrackingcontrolschemeisproposedinthepaper . Itisprovedthatthecontrollercanreachexpectedperformancesinthenonlinearparameterizationcase , providedthattheregressorvectorsatisfiescertainLipschitzcondition . 
+ Keywords 　 Nonlinearaffinesystem , feedbacklinearization , modelreferenceadaptivetrackingcontrol , regressorvector . 
+ 1 　 引言 
+ 　 　 目前 ， 自 适应控制 理论 的 研究 有 两个 发展 方向 ， 一是 鲁棒 广义 自 适应控制 ， 二是 非线性 模型 参考 自 适应控制 ［ 1 ］ . 后者 是 最近 兴起 的 一个 研究 领域 ， 由于 缺少 一般 的 非线性 系统 的 系统 研究 手段 ， 所以 迄今为止 ， 非线性 模型 参考 自 适应控制 只能 针对 某类 特殊 的 系统 . 其中 仿射 型 非线性 系统 受到 普遍 关注 . 
+ 　 　 通过 坐标 变换 和 非线性 状态 反馈 可以 将 仿射 型 非线性 系统 变换 成 正则 型 ［ 2 ］ ， 从而 实现 输入 到 状态 的 线性化 . 但是 这种 变换 基于 非线性 项 的 精确 对消 ， 因此 当 系统 存在 未知 参数 时 ， 精确 对消 不能 成立 ， 输入 和 输出 就 不再 呈 线性关系 . 此时 ， 要 镇定 该 系统 并 使 之 性能 达到 预期 的 要求 ， 可以 采用 模型 参考 自 适应 跟踪 控制 ［ 3 — 10 ］ . 
+ 　 　 以前 提出 的 自 适应 跟踪 控制 方法 ［ 4 — 10 ］ 存在 两 方面 的 局限 ： 第一 ， 要求 系统对 未知 参数 是 线性 的 ； 且 输出 不 受 未知 参数 的 影响 . 具体地说 ， 系统 应有 形式 
+ 
+ ( 1 ) 
+ 式 中 θ i 为 未知 参数 ； 第二 ， 控制器 的 计算 复杂度 随 系统 阶次 或 相对 阶 的 升高 而 升高 . 对 低阶 情况 尚 可以 写出 解析 表达式 ， 对 高阶 系统 就 很 难 推导 ， 有些 方法 还 引入 许多 待定 参数 . 这些 都 给 系统 实现 带来 困难 . 
+ 　 　 本文 试图 突破 上述 局限 ， 对 更 一般 的 可 反馈 线性化 的 非线性 系统 
+ 
+ ( 2 ) 
+ 建构 模型 参考 自 适应 跟踪 控制器 . 
+ 　 　 注记 1 . 文中 用到 如下 符号 ： 
+ 　 　 1 ) ｜ x ｜ 2 = xTx ; ‖ x ‖ t = sup τ ≤ t ｜ x ( τ ) ｜ 指 截尾 L ∞ 范数 ； 
+ 　 　 2 ) β 表示 一类 函数 ， β ∈ L2 ∩ L ∞ ， 且 t → ∞ 时 β → 0 ； 
+ 　 　 3 ) G 是 一个 ( 很大 的 ) 界 ， K ( . ) 表示 一个 有界 正 函数 ； 
+ 　 　 4 ) 表示 f 的 估计值 . 
+ 2 　 问题 的 提出 
+ 　 　 考察 单 输入 单 输出 非线性 系统 
+ 
+ ( 3 ) 
+ 其中 x ∈ Rn , f , g , h 是 光滑 函数 ， θ ∈ Ω ( Ω 为 Rp 上 的 一个 紧集 ) 是 系统 中 存在 的 未知 参数 . 令 f ( 0 , θ ) = 0 , 则 x0 = 0 是 系统 的 平衡点 . 
+ 　 　 如果 系统 ( 3 ) 具有 不 受 θ 影响 的 相对 阶 r ( 全文 遵循 此 假设 ) ， 那么 在 x0 的 一个 邻域 中 可 将 其 变换 成 如下 正则 型 ( normalform ) : 
+ 
+ ( 4 ) 
+ 
+ ( 5 ) 
+ 其中 满足 
+ 　 　 如果 还有 h ( 0 , θ ) = 0 ， 那么 
+ 
+ ( 6 ) 
+ 称为 系统 ( 3 ) 的 零 动态 . 
+ 　 　 对系统 ( 4 ) ， ( 5 ) 如果 令 控制 为 
+ 
+ ( 7 ) 
+ 那么 y 和 v 之间 将 呈 线性关系 . 为了 进一步 保证 y ( t ) 跟踪 参考 输出 ym ( t ) ， 可以 取 
+ 
+ ( 8 ) 
+ 其中 α 1 ， … ， α r 的 选择 应 使得 为 Hurwitz 多项式 . 
+ 　 　 对 这种 情形 文献 ［ 5 ］ 中 证明 了 如下 命题 
+ 　 　 命题 1 . 如果 非线性 系统 ( 3 ) 或 其 等价 系统 ( 4 ) ， ( 5 ) 的 零 动态 ( 6 ) 指数 稳定 . 并且 ψ ( z1 , z2 ) 对 z1 , z2Lipschitz 连续 ， 则 只要 ym , , … ， 有 界 ， 控制 律 ( 7 ) ， ( 8 ) 就 能 保证 x 有界 ， 且 t → ∞ 时 y ( t ) → ym ( t ) . 
+ 　 　 注记 2 . 从 文献 ［ 5 ］ 中 的 证明 可知 ， 在 满足 命题 1 的 前题 条件 时 ， ｜ z2 ｜ ≤ L ｜ z1 ｜ , L ＞ 0 . 这 一点 将 在 以下 的 证明 中 用到 . 
+ 　 　 命题 1 说明 ， θ 已知 时 ， 系统 ( 3 ) 可以 通过 控制 律 ( 7 ) ， ( 8 ) 有 界 跟踪 参考 输出 . 现在 的 问题 是 在 θ 未知 ， 从而 也 未知 时 ， 如何 建构 控制器 ， 仍然 保证 式 ( 3 ) 有 界 跟踪 参考 输出 . 
+ 3 　 相对 阶为 1 时 的 自 适应控制 
+ 　 　 首先 ， 考虑 系统 ( 3 ) 的 相对 阶为 1 时 的 情况 . 由 这个 条件 ， 有 
+ 
+ ( 9 ) 
+ 其中 Lgh ≠ 0 . 
+ 　 　 设 θ 的 估计值 为 ， 由于 假设 系统 的 相对 阶不受 θ 的 影响 ， 所以 Lgh 的 估计 也 不 为 零 ， 那么 在 控制 律 ( 7 ) ， ( 8 ) 中 可用 代替 θ . 即令 
+ 
+ ( 10 ) 
+ 其中 α 1 ＞ 0 . 再 将 式 ( 10 ) 代入 式 ( 9 ) 整理 后 得到 
+ 
+ ( 11 ) 
+ 其中 Lgh , Lfh 是 θ 的 非线性 函数 ， 而 ， 是 的 非线性 函数 . 
+ 　 　 应用 附录 中 的 引理 1 可得 
+ 
+ ( 12 ) 
+ 其中 令 e = y - ym , ⅵ = θ - , 则 由式 ( 11 ) ， ( 12 ) 有 
+ 
+ ( 13 ) 
+ 其中 回归 向量 为 
+ 
+ 假设 有 
+ 
+ ( 14 ) 
+ 记 . 由于 回归 向量 需要 估计 ， 参考文献 ［ 11 ， 12 ］ 中 提出 的 σ 修正 法 ， 取自 适应 律为 
+ 
+ ( 15 ) 
+ 从而 可 得 如下 定理 ： 
+ 　 　 定理 1 . 当 系统 ( 3 ) 的 相对 阶为 1 时 ， 若 系统 具有 指数 稳定 的 零 动态 ， 且 ( 13 ) 式 中 的 回归 向量 W 满足 式 ( 14 ) ， 那么 只要 ym , 有 界 ， 通过 控制 律 ( 10 ) 和 自 适应 律 ( 15 ) ， 就 可以 保证系统 状态 x 有界 ， 且 t → ∞ 时 y ( t ) → ym ( t ) . 
+ 　 　 证明 . 取 Lyapunov 函数 为 
+ 
+ ( 16 ) 
+ 从式 ( 13 ) ， ( 15 ) 得 
+ 
+ ( 17 ) 
+ 再 由 ( 14 ) 式 得 
+ 
+ ( 18 ) 
+ 所以 e , ⅵ 铡 蔐 ∞ . 又 因为 , 所以 e ∈ L2 . 由 e , ym 的 有界性 ， 可以 保证 y 有界 ， 再 由 注记 2 知 x 有界 . 从而 由 ( 13 ) 式 可得 有界 . 最后 根据 Barbalat 定理 ［ 12 ］ ， 有 t → ∞ 时 e → 0 ， 即 t → ∞ 时 y ( t ) → ym ( t ) . 
+ 4 　 相对 阶 大于 1 时 的 自 适应控制 
+ 　 　 当 系统 ( 3 ) 的 相对 阶 大于 1 ( 不妨 设为 r ) 时 ， 自 适应 跟踪 控制 问题 比 相对 阶为 1 时 更为 复杂 ， 即使 对 参数 以 线性 形式 存在 的 系统 ， 解决 起来 也 比较 棘手 . 文献 ［ 5 ］ 中要 增加 原有 参数 的 乘积 项来 作为 新 的 参数 ( 从而 增加 了 参数 的 个数 ) ， 而 文献 ［ 8 ］ 中 相对 阶越 大 ， 控制器 就 越 复杂 . 但是 ， 从 下文 将 看到 ， 随着 相对 阶 的 升高 ， 给出 的 控制器 的 复杂度 并 没有 明显 加大 . 
+ 　 　 由于 θ 未知 ， 用 θ 的 估计值 来 代替 它 ， 结合 式 ( 7 ) ， ( 8 ) 设计 控制 律为 
+ 
+ ( 19 ) 
+ 
+ ( 20 ) 
+ 因为 系统 的 相对 阶为 r , 所以 有 
+ 
+ ( 21 ) 
+ 将式 ( 19 ) ， ( 20 ) 代入 式 ( 21 ) ， 可 得 
+ 
+ 
+ ( 22 ) 
+ 式 中 
+ 　 　 同 相对 阶为 1 时 的 处理 方法 一样 ， 有 
+ 
+ ( 23 ) 
+ 
+ ( 24 ) 
+ 其中 , i = 1 , … , r . 于是 式 ( 22 ) 可以 写成 
+ 
+ ( 25 ) 
+ 式 中 . 和 相对 阶为 1 时 一样 ， 假设 
+ 
+ ( 26 ) 
+ 令是 稳定 的 ) ， 则 式 ( 25 ) 可以 写成 
+ 
+ ( 27 ) 
+ 再 引入 增广 误差 ［ 5 ， 13 ］ 
+ 
+ ( 28 ) 
+ e1 是 可以 获得 的 信号 . 如果 θ 为 定常 参数 ， 且 由于 M ( S ) 稳定 ( 故可 略去 初值 的 影响 ) ， 那么 e1 又 可以 写成 
+ 
+ ( 29 ) 
+ 即 
+ 
+ ( 30 ) 
+ 从 ( 26 ) 式 以及 合理 选择 M ( S ) , 可以 推出 
+ 
+ ( 31 ) 
+ 在 式 ( 30 ) 中 ， 令 . 结合 文献 ［ 5 ］ 中 采用 的 规范化 梯度 算法 和 上节 采用 的 σ 修正 法 ， 取自 适应 律为 
+ 
+ ( 32 ) 
+ 其中 于是 有 如下 命题 ： 
+ 　 　 命题 2 .. 
+ 　 　 证明 . 令 Lyapunov 函数 为 V = ⅵ 誘 ⅵ 眨 则 
+ 
+ ( 33 ) ] 
+ 所以 
+ 
+ 而 
+ 
+ 
+ ( 34 ) 
+ 所以 ⅰ 蔐 2 . 
+ 又 因为 
+ 
+ ( 35 ) 
+ 所以 . 考察 , 由 前面 的 证明 可知 , 而 有界 ， . 
+ 最后 得到 以下 定理 
+ 　 　 定理 2 . 系统 ( 3 ) 的 相对 阶 r 大于 1 时 ， 选择 合适 的 M ( S ) ， 采用 控制 ( 19 ) ， ( 20 ) ， 如果 该 系统 的 零 动态 指数 稳定 ， f , g 关于 x , W ( . ， θ , ) 关于 θ 是 Lipschitz 的 ， 且 W ( . ) ， K ( . ) 对 x 及 有 有界 偏 导数 . 取 参数 自 适应 律 ( 32 ) ， 只要 ym , … ， y ( r ) m 有界 ， 就 可以 保证 x , W , 有 界 ， 且 t → ∞ 时 y ( t ) → ym ( t ) . 
+ 　 　 证明 . 1 ) 参看 文献 ［ 3 ］ 有 
+ 
+ ( 36 ) , ( 37 ) 
+ 
+ ( 38 ) , ( 39 ) 
+ 
+ ( 40 ) , ( 41 ) 
+ 且 W ， φ TW 是 正则 的 . 
+ 　 　 　 　 2 ) 考察 由式 ( 40 ) 和 W 的 正则 性 ， 可知 有 界 ， 所以 一致 连续 . 
+ 又 因为 而由式 ( 41 ) 有 有界 ， 故 所以 根据 Barbalat 定理 ， 有 t → ∞ 时即 
+ 
+ ( 42 ) 
+ 　 　 　 　 3 ) 因为 由式 ( 36 ) 有 
+ 
+ ( 43 ) 
+ 再由式 ( 38 ) ， ( 42 ) 有 
+ 
+ ( 44 ) 
+ 考虑 到 ( 39 ) 式 ， 得 
+ 
+ ( 45 ) 
+ 对系统 e = M ( S ) ⅵ 誘 W 应用 附录 中 的 引理 2 ， 则 有 
+ 
+ ( 46 ) 
+ 代入 式 ( 45 ) ， 得到 
+ 
+ ( 47 ) 
+ 因为 t → ∞ 时 β → 0 所以 e → 0 . 从而 证明 了 y ( t ) → ym ( t ) , 同时 证明 了 W ， ， x 有界 . 
+ 　 　 定理 2 的 意义 在于 ， 给出 了 一般 仿射 型 非线性 系统 的 模型 参考 自 适应 跟踪 控制 的 建构 方法 . 在 这里 完全 不必 要求 参数 以 线性 的 形式 存在 ( 这是 以往 文章 通常 的 必要条件 ) ， 也 不必 要求 原 系统 可以 化为 某种 规则 型 ( 如 参数 严格 反馈 型 ［ 9 ］ ) . 
+ 5 　 示例 及 仿真 
+ 　 　 例 1 . 考虑 如下 系统 
+ 
+ ( 48 ) 
+ 其中 未知 参数 θ 1 ∈ ［ 1 , 2 ］ , θ 2 ∈ ［ 1 , 2 ］ , x ∈ ［ 1 , ∞ ) . 该 系统 是 相对 阶为 1 的 不 稳定 的 非线性 系统 . 当 参数 已知 时 ， 可以 用 反馈 线性化 方法 镇定 该 系统 . 但 参数 未知 时 ， 该 方法 就 不可 使用 . 通过 仿真 发现 ， 只要 θ 1 ， θ 2 稍 有 误差 ， 系统 就 会 失稳 . 为此 引入 非线性 自 适应控制 令 参考模型 为 ： 由 以上 提出 的 方法 ， 设计 控制 量 为 ： 设计 自 适应 律为 ： 其中 当 θ 1 = 1.5 、 θ 2 = 1.5 时 ， 系统 仿真 结果 如图 1 ， 图 2 
+ 
+ ( a ) 采用 自 适应控制 前 ， θ 1 ， θ 2 稍 有 误差 ， 系统 就 会 失稳 
+ 
+ ( b ) 采用 自 适应控制 后 实际 输出 能 跟踪 参考 输出 
+ 图 1 　 采用 和 未 采用 非线性 自 适应控制 的 仿真 结果 对比 
+ 
+ 图 2 　 采用 非线性 自 适应控制 时 参数估计 的 仿真 结果 
+ 　 　 例 2 . 
+ 
+ ( 49 ) 
+ 其中 θ 1 ∈ ［ 1 ， 2 ］ ， x1 ∈ ［ 1 ， ∞ ) ， x2 ∈ ［ 1 ， ∞ ) . 这是 一个 相对 阶为 2 的 非线性 系统 ， 采用 第四节 提出 的 方法 来 设计 自 适应 跟踪 控制器 . 
+ 　 　 1 ) 令 参考模型 为 ： 
+ 　 　 2 ) 通过 计算 得到 控制 量 ： 
+ 　 　 3 ) 由式 ( 23 ) — ( 25 ) 计算 出 回归 向量 为 ： 
+ 　 　 4 ) 参考 式 ( 26 ) ， ( 31 ) 估计 出有界 正 函数 ： 
+ 　 　 5 ) 按式 ( 32 ) 设计 自 适应 律 ： 
+ 其中 . 
+ 　 　 当 θ = 1.5 时 ， 系统 仿真 结果 如图 3 和 图 4 所示 . 
+ 
+ ( a ) 采用 自 适应控制 前 系统 有静差 
+ 
+ ( b ) 采用 自 适应控制 后 实际 输出 能 跟踪 参考 输出 
+ 图 3 　 采用 和 未 采用 非线性 自 适应控制 的 仿真 结果 对比 
+ 
+ 图 4 　 采用 非线性 自 适应 跟踪 控制 后 参数 收敛 到 真值 
+ 6 　 结 　 论 
+ 　 　 本文 对 一般 的 可 通过 状态 反馈 线性化 的 非线性 系统 提出 了 一种 模型 参考 自 适应 跟踪 控制器 设计 方法 . 该 方法 的 优点 是 对系统 中 参数 的 表达 没有 特殊要求 ， 即 不必 要求 它们 以 线性 的 形式 存在 ， 而 只要 回归 向量 满足 一定 的 Lipschitz 条件 即可 . 
+ 　 　 系统 的 相对 阶为 1 时 ， 采用 了 σ 修正 法 ［ 11 ， 12 ］ 来 建构 自 适应 律 ； 系统 的 相对 阶 大于 1 时 ， 引入 增广 误差 并 结合 规范化 梯度 算法 ［ 5 ］ 和 σ 修正 法 ［ 11 ， 12 ］ 构造 自 适应 律 . 本文 提出 的 方法 比 以往 的 方法 更为 简单 . 值得一提的是 ， 和 以往 大部分 方法 一样 ， 本文 提出 的 自 适应控制 要求 系统 全部 状态 可测 . 当 系统 某些 状态 不可 测时 ， 如何 构成 控制器 和 状态 观测器 是 有待 研究 的 课题 . 
+ 1 ) 国家教委 “ 211 ” 资助 项目 . 
+ 作者简介 ： 周 　 锐 　 男 ， 1971 年 3 月 出生 . 1993 年 在 清华大学 自动化系 获工学 学士学位 . 同年 在 该系 攻读 博士学位 至今 . 主要 研究 领域 为 非线性 自 适应控制 及其 应用 ， 电气传动 和 电力 电子 . 
+ 　 　 　 　 　 韩曾 晋 　 清华大学 自动化系 教授 、 博士生 导师 . 主要 研究 领域 为 自 适应控制 、 智能 控制 、 离散 事件 动态 系统 、 混合 动态 系统 及 电气传动 系统 等 。 已 发表 著作 三部 、 论文 百余篇 。 曾 获 国家教委 科技进步 一等奖 及 国家 科技进步 二等奖 。 
+ 作者 单位 ： 清华大学 自动化系 　 北京 　 100084 
+ 参考文献 
+ 1 　 LandauID . Evolutionofadaptivecontrol . ASMEJournalofDynamicSystems , Measurement , andControl , 1993 , 115 ： 381 — 391 
+ 2 　 IsidoriA . NonlinearControlSystems.2 ndEdition . NewYork : Springer - Verlag , 1991 
+ 3 　 RuiZ , ZengjinH . Amodelreferenceadaptivecontrolschemeforfeedbacklinearizablesystems . In : Proc . ofIEEESMC ' 96 , Beijing , China , 1996.825 - 830 
+ 4 　 NamK , ArapostathisA . Amodelreferenceadaptivecontrolschemeforpure - feedbacknonlinearsystems . IEEETrans . Automat . Contr . , 1988 , 33 ( 9 ) : 803 - 811 
+ 5 　 SastryS , IsidoriA . Adaptivecontroloflinearizablesystems . IEEETrans . Automat . Contr . , 1989 , 34 ( 11 ) : 1123 - 1131 
+ 6 　 KanellakopoulosI , KokotoviPV , MorseAS . Systematicdesignofadaptivecontrollersforfeedbacklinearizablesystems . IEEETrans . Automat . Contr . , 1991 , 36 ( 11 ) : 1241 - 1253 
+ 7 　 KokotovicPV , KrsticM , KanellakopoulosI . Backsteppingtopassivity : recursivedesignofadaptivesystems . In : Proc . of31stIEEECDC . Tusson , Arizona : IEEE , 1992.3276 - 3280 
+ 8 　 MarinoR , TomeiP . Globaladaptiveoutput - feedbackcontrolofnonlinearsystems , Part Ⅰ , Ⅱ . IEEETrans . Automat . Contr . , 1993 , 38 ( 1 ) : 17 - 48 
+ 9 　 KrsticM , KokotovicPV . Observer - basedschemesforadaptivenonlinearstate - feedbackcontrol . Int . J . Control , 1994 , 59 ( 6 ) : 1373 - 1381 
+ 10 　 KanellakopoulosI . Passiveadaptivecontrolofnonlinearsystems . InternationalJournalofAdaptiveControlandSignalProcessing , 1993 , 7 ( 5 ) : 339 - 352 
+ 11 　 NarendraKS , AnnaswamyAM . Anewadaptivelawforrobustadaptationwithoutpersistentexcitation . IEEETrans . Automat . Contr . , 1985 , AC - 30 : 193 - 216 
+ 12 　 韩曾 晋 . 自 适应控制 . 北京 ： 清华大学出版社 ， 1995 
+ 13 　 MonopoliRV . Modelreferenceadaptivecontrolwithanaugmentederrorsignal . IEEETrans . Automat . Contr . , 1974 , AC - 19 : 474 - 484 
+ 14 　 OrtegaJM , RheinboldtWC . IterativeSolutionofNonlinearEquationsinSeveralVariables . NewYork - London : AcademicPress , 1970 
+ 附录 
+ 　 　 引理 1 . ( 文献 ［ 14 ］ p.71 ) . f ( y ) 是 Rm 到 R 上 的 实值 函数 ， 若 对 m ∈ ( 0 ， 1 ) 连续 ， 则 有 
+ 　 　 引理 2 . ( 文献 ［ 5 ］ BOBI 稳定 ) . 
+ 　 　 令 y = H ( s ) u 是 真的 最小 相位 线性系统 的 输出 ， 如果 输入 u , ∈ L ∞ e , 并且 输入 u 是 正则 的 ， 即 
+ 收稿 日期 　 1996 - 12 - 02 
+ 收 修改稿 日期 　 1997 - 07 - 20 

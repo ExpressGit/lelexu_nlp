@@ -1,0 +1,129 @@
+　 自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 第 23 卷 第 3 期 vol.23 No.31997 
+ 
+ 
+ 
+ 非线性 NARMAX 模型 的 
+ ARMAX 模型 全局 线性化 
+ 秦 　 滨 　 韩志刚 
+ 　 　 摘 　 要 　 提出 了 基于 NARMAX 模型 的 非线性 系统 的 全局 线性化 方法 . 该 方法 用 时变 的 ARMAX 模型 近似 描述 非线性 NARMAX 模型 . 证明 了 这 一 线性化 方法 的 有界性 ， 并 给出 了 相应 的 实现 方法 . 仿真 结果 说明 了 该 方法 的 有效性 . 
+ 　 　 关键词 　 非线性 系统 ， NARMAX 模型 ， ARMAX 模型 ， 全局 线性化 . 
+ THEGLOBALLINEARIZATIONOFNARMAXMODELS 
+ VIAARMAXMODELS 
+ QINBIN 
+ ( DepofAutomation , ShanghaiJiaoTongUniversity , Shanghai200030 ) 
+ HANZHIGANG 
+ ( InstituteofAppliedMathematics , HeilongjiangUniversity , Harbin150080 ) 
+ 　 　 Abstract 　 Inthispaper , alinearizationmethodforcomplexandunknownnonlinearsystemsrepresentedbyNARMAXmodelsispresentedbyusingapproximationARMAXmodels . Thelimitationandconstructionmethodarediscussedatthesametime . Thesimulationresultshowstheefficiencyofthismethod . 
+ 　 　 Keywords 　 Nonlinearsystems , NARMAXmodels , ARMAXmodels , globallinearization . 
+ 　 　 1 　 问题 的 提出 
+ 　 　 模型 已知 与 未知 非线性 系统 的 线性化 方法 是 截然不同 的 . 对于 模型 已知 的 非线性 系统 的 线性化 方法 ， 如文 ［ 1 ， 2 ］ 的 微分 几何 精确 线性化 方法 和 自 适应 反馈 线性化 方法 、 文 ［ 3 ］ 的 基于 状态 观测器 的 线性化 方法 等 . 这些 方法 不仅 要求 模型 结构 已知 而且 要求 严格 的 条件 . 对于 仅 知道 模型 阶数 上界 的 系统 ， 多 采用 数值 或 函数 逼近 的 方法 . 如文 ［ 4 － 6 ］ 采用 的 是 分段 线性化 的 方法 ， 文 ［ 7 ， 8 ］ 采用 的 是 样条 函数 的 方法 . 文 ［ 9 ］ 提出 一种 大 范围 嵌入 线性化 的 思想 ， 并 证明 了 单 输入 单 输出 非线性 系统 的 嵌入 线性 模型 族 的 存在 性 . 文 ［ 10 ］ 提出 一种 适用性 较强 的 局部 ARMAX 模型 线性化 方法 ， 并 讨论 了 该 方法 的 可行性 及 有界性 . 文 ［ 11 ］ 的 平衡 与非 平衡 多 模态 ARMAX 模型 的 线性化 方法 也 具有 较强 的 适用性 . 本文 提出 一种 非线性 系统 连续 区域 全局 线性化 的 思想 . 采用 一 族 线性 时变 ARMAX 模型 近似 描述 非线性 NARMAX 模型 ， 并 给出 了 工作 点 的 选取 及 提高 精度 的 方法 . 由于 采用 了 虚拟 噪声 补偿 技术 使该 方法 可以 适用 于 具有 较强 动态 特性 的 非线性 系统 . 
+ 　 　 非线性 系统 的 NARMAX 模型 是 由 Leontaritis 和 Billings 在 1985 年 提出 的 ［ 12 ］ ， 并且 指出 满足 一定 条件 的 非线性 系统 可以 用 NARMAX 模型 描述 
+ y ( t ) = f ( y ( t - 1 ) , … ， y ( t - p ) , u ( t - 1 ) , … , u ( t - g ) , 　 　 　 　 　 　 　 　 　 
+ e ( t - 1 ) , … , e ( t - r ) ) + e ( t ) . 　 　 　 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 其中 e ( t ) ∈ ERm 是 零 均值 白 噪声 ； y ( t ) ∈ YRm 是 输出 向量 ； u ( t ) ∈ URn 是 输入 向量 ； 且 n ≥ m . 
+ 　 　 为了 讨论 方便 ， 定义 如下 的 m ( p + r ) + ng 维 向量 
+ φ ( t - 1 ) = ［ y τ ( t - 1 ) ， … ， y τ ( t - p ) , u τ ( t - 1 ) , … ， u τ ( t - g ) , 
+ e τ ( t - 1 ) , … ， e τ ( t - r ) ］ τ ． 
+ 因此 φ ( t - 1 ) ∈ Φ = Yp × Ug × Er ， 则 ( 1 ) 式 可以 写成 
+ y ( t ) = f ( φ ( t - 1 ) ) + e ( t ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 对 非线性 模型 ( 2 ) 可 采用 函数 逼近 的 方法 得到 误差 有界 的 线性 模型 . 
+ 　 　 2 　 非线性 系统 的 全局 线性化 
+ 　 　 为了 得到 ( 2 ) 式 的 线性 多项式 逼近 模型 ， 首先 给出 一个 函数 序列 
+ ｛ ρ i : Φ → ［ 0 ， 1 ］ ｝ ∞ i = 0 ． 
+ 其中 ρ i ( φ ) 不全 为 零 ， φ ∈ Φ . 这样 ， 可以 得到 下面 的 等式 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 进一步 引入 函数 
+ 
+ 则 可以 定义 
+ 　 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 其中 f ( φ i ) 为 f ( ) 在 φ i 处 的 取值 . 如果 取 
+ 
+ 由 ( 4 ) 和 ( 2 ) 式 可知 ， ( ) 与 f ( ) 在 每个 φ i 处 具有 相同 的 值 . 因此 ， 由 下面 的 插值 定理 知 ‖ ( ) - f ( ) ‖ 在 Φ 上 是 有界 的 . 
+ 　 　 定理 1 . ［ 13 ］ 若 f 在 Φ 上 是 n 阶 连续 可微 的 ， 对于 一个 次数 小于 n 的 多项式 P , 当 它 在 Φ 上 的 n 个 结点 φ i 处 插值 于 f ， 则 有 
+ 
+ 其中 　 
+ 　 　 定理 2 . 对于 非线性 NARMAX 模型 ( 2 ) ， 如果 f 关于 是 一次 可微 的 ， 它 可以 描述 为 下面 的 形式 
+ 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 其中 
+ 　 　 　 
+ 　 　 　 ( 6 ) 
+ 　 　 证明 . 由 ( 4 ) 式 及 定理 1 ， f ( φ ) 可以 写成 
+ 　 　 　 　 　 　 　 　 　 　 　 　 ( 7 ) 
+ 并且 取 f ( φ i ) 为 f ( ) 在 φ i 处 的 泰勒 展开 ［ 10 ］ ， 即 
+ 
+ 选取 φ i = ( t ) , 则 定理 得证 . 
+ 　 　 定理 3 . 对于 非线性 NARMAX 模型 ( 2 ) ， 如果 f 关于 是 一次 可微 的 ， 则 可以 将 其 近似 地用 无限 个 ARMAX 模型 描述 ， 即 
+ NARMAX ( p , g , r ) ≌ ARMAX ( p , g , r , t ) . 　 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ 其中 “ ≌ ” 表示 近似 等于 ； ARMAX ( p , g , r , t ) 表示 线性 时变 的 自 回归 滑动 平均 模型 . 
+ 　 　 证明 . 为了 便于 说明 问题 ， 仅 以单 输入 单 输出 系统 为例 . 由 ( 5 ) ， ( 6 ) 式 直接 可 得 
+ 　 　 　 ( 9 ) 
+ 其中 
+ 
+ 这里 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 证毕 . 
+ 　 　 3 　 全局 线性化 的 有界性 及 收敛性 
+ 　 　 由 定理 2 和 3 可知 ， 采用 ( 5 ) 式 线性化 存在 着 误差 Δ ( ( t - 1 ) ) . 下面 的 定理 将 说明 其 有界性 . 
+ 　 　 定理 4 . 对于 由 ( 2 ) 式 描述 的 非线性 系统 ， 如果 f ( ( t ) ) 在 每个 工作 点处 是 p + 1 次 可微 的 ， 则 有 
+ ‖ y ( t ) - ( t ) ‖ 2 ＜ M ＜ ∞ . 
+ 其中 为 p 次 泰勒 展开 . 
+ 证明 . 由 泰勒 定理 知 
+ 
+ 其中 N 是 Δ ( ( t - 1 ) ) 的 上界 . 设 ‖ ( t ) - ( t - 1 ) ‖ p + 12 的 上界 为 Δ ， 则 有 
+ 　 　 　 　 　 　 　 　 证毕 . 
+ 　 　 由 上面 的 定理 还 可以 得到 以下 推论 . 
+ 　 　 推论 1 . 对于 由 ( 2 ) 式 描述 的 非线性 系统 ， 如果 f ( ( t ) ) 在 ( t ) 处 是 2 次 可微 的 ， 则 由 ( 6 ) 式 得到 的 线性 描述 ( t ) ， 对于 任意 ε ＞ 0 ， 存在 K ， 只要 ‖ φ ( t ) - φ ( t - 1 ) ‖ 22 ＜ K , 就 有 ‖ y ( t ) - ( t ) ‖ 2 ＜ ε . 
+ 　 　 推论 2 . 对于 由 ( 2 ) 式 描述 的 非线性 系统 ， 如果 f ( ( t ) ) 在 ( t ) 处 是 p + 1 次 可微 的 ， 则 有 ‖ y ( t ) - p + 1 ( t ) ‖ 2 ＜ ‖ y ( t ) - p ( t ) ‖ 2 ． 其中 p ( t ) 是 f ( ( t ) ) 在 ( t ) 处 的 p 次 泰勒 展开 . 
+ 　 　 推论 1 和 2 分别 给出 两种 提高 线性化 精度 的 方法 ， 即 缩小 采样 间隔 和 增加 泰勒 展开 次数 . 显然 ， 增加 泰勒 展开 次数 将 导致 逼近 模型 的 复杂化 和 非线性 化 . 因此 ， 适当 选择 采样 频率 以 得到 理想 的 线性化 模型 具有 指导意义 ， 并且 在 工程 上 易于 实现 . 
+ 　 　 4 　 非线性 系统 全局 线性化 的 实现 
+ 　 　 由 ( 9 ) 式 可知 ， 非线性 系统 ( 1 ) 可以 描述 为 
+ ( t ) = A ( t ) ( t - 1 ) + B ( t ) u ( t - 1 ) + C ( t ) e ( t - 1 ) + e ( t ) . 　 　 　 　 ( 10 ) . 
+ 其中 A ( t ) = A0 ( t ) + A1 ( t ) q - 1 + A2 ( t ) q - 2 + … + Apq - p ； B ( t ) = B0 ( t ) + B1 ( t ) q - 1 + B2 ( t ) q - 2 + … + Bgq - g ； C ( t ) = C0 ( t ) + C1 ( t ) q - 1 + C2 ( t ) q - 2 + … + Crq - r ； y ( t ) ∈ YRm ； u ( t ) ∈ URn ； e ( t ) ∈ ERm ； Ai ( t ) , Bi ( t ) , Ci ( t ) 分别 是 时变 的 矩阵 . 
+ 　 　 由 前面 的 叙述 可知 ， 相应 的 线性化 ARMAX 模型 的 参数 是 未知 的 . 
+ 　 　 由 ( 9 ) ， ( 10 ) 式 知 
+ 　 　 ( 11 ) 
+ 其中 ( t ) = Δ ( ( t - 1 ) ) + e ( t ) . 这样 ， 可以 将 ( t ) 看成 虚拟 有色 噪声 . 假设 ( t ) 服从 平稳 的 AR 模型 ， 则 有 
+ ( t ) = P ( t ) ξ ( t ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 12 ) 
+ 其中 P ( t ) = 1 + α 1 ( t ) q - 1 ＋ α 2 （ t ) q - 2 ＋ … + α l ( t ) q - l ， ξ ( t ) 是 虚拟 白 噪声 . 
+ 　 　 把 ( 12 ) 式 代入 ( 11 ) 式 得 
+ y ( t ) = A ( t ) y ( t - 1 ) + B ( t ) u ( t - 1 ) + C ( t ) e ( t ) + P ( t ) ξ ( t ) . 
+ 不失 一般性 ， 假设 e ( t ) 与 ξ ( t ) 不 相关 ， 则 有 
+ y ( t ) = A ( t ) y ( t - 1 ) + B ( t ) u ( t - 1 ) + C ′ ( t ) e ′ ( t ) + e ′ ( t ) . 　 　 　 　 　 ( 13 ) 
+ 其中 e ′ ( t ) 是 虚拟 白 噪声 ， 
+ C ′ ( t ) = C ′ 0 ( t ) + C ′ 1 （ t ) q - 1 ＋ … ＋ C ′ s ( t ) q - s ． 
+ 　 　 对于 ( 13 ) 式 中 的 参数 ， 可以 采用 带 遗忘 因子 的 广义 最小 二 乘法 辨识 . 值得注意 的 是 ， 虽然 ( 13 ) 式 与 ( 10 ) 式 形式 上 是 相同 的 ， 但 它们 存在 着 本质 的 区别 . 如果 原 系统 不 存在 模型 噪声 时 ， 线性化 后 的 模型 仍然 有 虚拟 模型 噪声 存在 . 
+ 　 　 5 　 仿真 例子 
+ 　 　 考虑 如下 阶数 为 2 的 单 输入 单 输出 非线性 系统 
+ y ( t ) = 0.3 y ( t - 1 ) u ( t - 1 ) + 0.6 y ( t - 2 ) 
+ + 2sin4 ( u ( t - 1 ) ) + cos ( u ( t - 2 ) ) + e ( t ) . 
+ 由 ( 13 ) 式 知 ， 上 式 可以 用 如下 的 ARMAX 模型 逼近 
+ y ( t ) = a1 ( t ) y ( t - 1 ) + a2 ( t ) y ( t - 2 ) + b1 ( t ) u ( t - 1 ) + b2 ( t ) u ( t - 2 ) 
+ + c1 ( t ) e ( t - 1 ) + c2 ( t ) e ( t - 2 ) + e ( t ) . 
+ 采用 带 遗忘 因子 的 广义 最小 二 乘法 可 得 近似 的 估计 模型 
+ 
+ 仿真 结果 见图 1 和 图 2 所示 . 由此可见 ， 文中 给出 的 方法 是 可行 的 ， 并且 误差 是 有界 的 . 
+ 
+ 图 1 　 y ( t ) 与 ( t ) 
+ 
+ 图 2 　 
+ 　 　 6 　 结论 
+ 　 　 本文 给出 的 基于 NARMAX 模型 的 线性化 方法 具有 较强 的 适用性 . 该 方法 是 一种 “ 黑箱 ” 线性化 方法 ， 比较 适合 于 复杂 的 、 模型 未知 的 非线性 系统 ， 如 化工 生产 过程 、 炼油 生产 过程 、 制药 过程 等 . 由于 该 方法 可以 直接 得到 非线性 系统 的 ARMAX 近似 模型 ， 因此 易于 得到 相应 的 自 适应控制 律 . 这是 文中 方法 最 突出 的 优点 . 但 由于 时变 参数 的 辨识 并 不是 一件 容易 的 事 ， 因此 该 方法 的 具体 实现 方法 还 有待于 进一步 研究 . 
+ 作者简介 ： 秦 　 滨 　 1966 年生 . 1996 年 获 东北大学 自控 系 博士学位 . 现在 上海交通大学 自动化系 从事 博士后 研究 工作 . 主要 研究 方向 为 非线性 系统 的 辨识 、 自 适应控制 与 鲁棒控制 . 
+ 　 　 　 　 　 韩志刚 　 1934 年生 . 黑龙江 大学教授 、 东北大学 兼职 教授 ， 博士生 导师 . 主要 研究 方向 为 非线性 系统 辨识 及 自 适应控制 ， 多层 递阶 方法 及 无 模型 控制 . 
+ 作者 单位 ： 秦滨 ： 上海交通大学 自动化系 　 上海 　 200030 
+ 　 　 　 　 　 韩志刚 ： 黑龙江 大学 应用 数学 研究所 　 哈尔滨 　 150080 
+ 参考文献 
+ 　 ［ 1 ］ AndrewT , KadiyalaR , KokotovicP , SastryS . Indirecttechniquesforadaptiveinput - outputlinearizationofnon - linearsystems . Int . J . Control , 1991 , 53 ( 1 ) : 190 - 222 . 
+ 　 ［ 2 ］ SastryS , IsidoriA . Adaptivecontrolofnonlinearsystems . IEEETrans . AutomaticControl , 1989 , 34 ( 11 ) : 1123 - 1131 . 
+ 　 ［ 3 ］ DawsonDM , QuZ , CarrollJC . Onthestateobserverandoutputfeedbackproblemfornonlinearuncertaindynamicsystem . Systems & ControlLetters , 1992 , 18 ( 3 ) : 217 - 222 . 
+ 　 ［ 4 ］ SkeppstedtA , LjungL , MillnertM . Constructionofcompositemodelsfromobservereddata . Int . J . Control , 1992 , 55 ( 1 ) : 141 - 152 . 
+ 　 ［ 5 ］ BillingsSA , VoonWSF . Correlationbasedmodelvaliditytestfornonlinearmodels . Int . J . Control , 1986 , 44 ( 2 ) : 235 - 244 . 
+ 　 ［ 6 ］ BillingsSA , VoonWSF . Piecewiselinearidentificationofnonlinearsystems . Int . J . Control , 1987 , 46 ( 2 ) : 215 - 235 . 
+ 　 ［ 7 ］ FriedmanJH . Multivariableadaptiveregressionsplines . TheAnnalofStatistics , 1991 , 19 ( 1 ) : 1 - 141 . 
+ 　 ［ 8 ］ TolleH , ParksPC , ErsuE , HormelM , MilitzerJ . Learningcontrolwithinterpolatingmemories - generalideas , designlay - out , theoreticalapplicachesandpricaticalapplications . Int . J . Control , 1992 , 56 ( 2 ) : 291 - 317 . 
+ 　 ［ 9 ］ 韩志刚 . 天气 系统 的 建模 与 预报 . 控制 理论 与 应用 ， 1986 ， 3 ( 2 ) ： 64 - 71 . 
+ 　 ［ 10 ］ JohanseTA , BjarneAF . ContructingNARMAXmodelsusingARMAXmodels . Int . J . Control , 1993 , 58 ( 7 ) : 1125 - 1153 . 
+ 　 ［ 11 ］ 周超俊 等 . 非线性 系统 的 多 模态 ARMAX 模型 — — 一种 基于 插值 理论 的 模型 . 自动化 学报 ， 1995 ， 21 ( 2 ) ： 137 — 144 . 
+ 　 ［ 12 ］ LeontaritisIJ , BillingsSA . Input - outputparametricmodelsfornonlinearsystems , Part Ⅰ ： deterministicnonlinearsystems ; Part Ⅱ : stachasticnon - linearsystems . Int . J . Control , 1985 , 41 ( 1 ) : 303 - 344 . 
+ 　 ［ 13 ］ ChereyEW . Introductiontoapproximationtheory , McGraw - HillBook , Co . , 1966 . 
+ 收稿 日期 　 1994 - 12 - 07 

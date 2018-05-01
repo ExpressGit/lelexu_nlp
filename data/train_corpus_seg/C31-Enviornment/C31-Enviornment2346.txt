@@ -1,0 +1,110 @@
+环境 科学 学报 
+ ACTASCIENTIAECIRCUMSTANTIAE 
+ 1999 年 　 第 19 卷 第 1 期 Vol.19 　 No.11999 
+ 
+ 
+ 
+ 西湖 底泥 不同 供氧 条件 下 有机质 降解 及 CO2 与 CH4 释放 速率 的 模拟 研究 
+ 　 　 周启星 　 朱荫湄 　 
+ 摘要 　 采用 密闭 培养 实验 装置 于 室温 ( 25 ℃ 左右 ) 及 pH 为 7.5 条件 下 ， 对 西湖 底泥 中 有机质 完全 降解 及 转化 为 CO2 和 CH4 的 速率 进行 了 模拟 研究 . 结果表明 ， 在 西湖 湖水 现有 供氧 水平 ( 5.0 — 8.6 mg ( O2 ) / L ) 条件 下 ， 底泥 中 有机质 完全 降解 的 速率 最为 缓慢 ， 培养 期间 ( 42 天 ) 平均 只有 0.72 mg ( C ) / ( kg * d ) . 当 湖水 供氧 水平 进一步 上升 ( 8.6 → 12.0 → 16.0 mg ( O2 ) / L ) , CO2 释放 速率 增加 ， 最大值 可 达到 8.7 mg ( C ) / ( kg * 周 ) ; 当 湖水 供氧 水平 下降 ( 8.6 → 0mg ( O2 ) / L ) , CH4 释放 速率 加快 ， 最大值 可 达到 4.6 mg ( C ) / ( kg * 周 ) . 
+ 关键词 　 底泥 ； 有机质 ； 完全 降解 速率 . 
+ SimulatedstudiesondegradationoforganicmatterandreleaseofCO2andCH4insedimentfromthewestlakeundervariousoxygen - supplyconditions 
+ ZHOUQixing , ZHUYinmei 
+ CollegeofNaturalResourcesandEnvironmentalSciences , ZhejiangAgriculturalUniversity , Hangzhou310029 
+ Abstract 　 RatesofcompletedegradationoforganicmatterinsedimentfromtheWestLakeanditschangesintoCO2andCH4weresimulativelystudiedwiththeclosed - cultureexperimentalinstallation . Underthecurrentoxygen - supplylevel ( 8.6 mg ( O2 ) / L ) oftheWestLakewater , therateofcompletedegradationoforganicmatterinthesedimentwasslowest . Theaveragedegradationratewasonly0.72 mg ( C ) * kg - 1 * d - 1duringthewholeculturetime . ThereleaserateofCO2increasedwiththeincrease ( 8.6 → 12.0 → 16.0 mg ( O2 ) / L ) inoxygen - supplylevelsoftheWest - Lakewater . ThemaximumreleaserateofCO2wasupto8.7 mg ( C ) * kg - 1 * week - 1undertheexperimentalconditions . ThereleaserateofCH4alsospeededupwhendissolvedoxygeninwaterdecreased . ThemaximumreleaserateofCH4wasupto4.6 mg ( C ) * kg - 1 * week - 1undertheairtightculturecondition . 
+ Keywords 　 sediment , organicmatter , completedegradationrate . 
+ 　 　 西湖 位于 杭州市 近郊 ， 为 国家级 著名 风景 、 游览 湖泊 ， 面积 5.6 km2 . 近年来 ， 由于 采取 了 “ 环湖 截污 ” 和 “ 钱塘江 引水 ” 等 一系列 工程 整治 措施 ， 虽然 在 一定 程度 上 改善 了 西湖 水质 ， 但 湖泊 底泥 中 有机质 含量 仍然 很 高 ( 平均 含量 达到 16.7% ) ， 底泥 中所含 的 养分 因 有机质 降解 不断 释放 进入 上 覆 水中 ， 湖泊 富营养化 问题 没有 得到 根本 的 解决 ［ 1 ， 2 ］ . 针对 这一 现状 ， 我们 采用 实验室 模拟 方法 对 西湖 底泥 中 有机质 降解 情况 进行 了 研究 ， 考察 了 同一 水温 及 相同 pH 值 但 不同 供氧 水平 下 湖泊 底泥 中 有机质 完全 降解 及 CO2 和 CH4 等 气体 的 形成 与 释放 速率 . 
+ 1 　 材料 与 方法 
+ 表 1 　 试样 的 基本 理化 性状 及 培养 试验 的 初始条件 
+ 　 Table1Basicphysicalandchemicalpropertiesoftestedsamplesandinitialconditionsoftheculturetest 
+ 
+ 基本 性质 试 　 样 
+ 底 泥水 
+ pH7.347 . 62 
+ 有机质 ， % 21.3 
+ 有机 碳 ， % 12.7 
+ 含水率 ， % 81.3 
+ DO ， mg ( O2 ) / L 　 9.16 
+ 总氮 mg / L1.36 × 1042.10 
+ NH + 4 - N , mg / L 　 0.45 
+ CO2 , mg / L 　 24.9 
+ 大肠菌群 ， 个 / L 　 8456 
+ 
+ 1.1 　 材料 
+ 　 　 随 采样 船用 网兜 于 湖心 采取 一定 数量 的 表层 沉积物 ， 用 塑料桶 采取 一定 数量 的 湖水 . 其中 ， 底泥 静置 过夜 沥去 水分 后 ， 用 塑料瓶 密封 与 湖水 分别 置于 5 ℃ 左右 的 冰箱 内 待用 . 表 1 为 底泥 和 水样 的 某些 基本 理化 性质 . 
+ 1.2 　 方法 
+ 　 　 分别 称取 湿重 为 500g 底泥 ， 量取 800mL 湖水 ， 置于 5000mL 以 锥形瓶 为 主体 的 特制 实验 装置 中 ( 图 1 ) ， 以 形成 溶解氧 为 8.6 mg ( O2 ) / L 、 pH 为 7.5 的 封闭 体系 . 然后 ， 在 该 体系 的 基础 上 ， 分 以下 4 种 处理 进行 为期 6 周 的 模拟实验 ［ 3 ， 4 ］ . 
+ 
+ 
+ 图 1 　 有机质 降解 密闭 培养 装置 示意图 
+ Fig.1 Diagramofaclosed - cultureinstallationforthedegradationoforganicmatter 
+ 　 　 　 ( 1 ) 自始至终 不向 体系 通入 氧气 ， 但 每天 轻轻 摇动 ( 尽量 不 扰动 底泥 为准 ) 若干次 ， 这 期间 水层 溶解氧 逐渐 降至 0mg ( O2 ) / L ； ( 2 ) 每当 水层 中 溶解氧 降至 5.0 mg / L ， 就 向 体系 边 摇动 边通入 纯氧 ， 使 溶液 溶解氧 恢复 至 8.6 mg ( O2 ) / L ； ( 3 ) 先 向 水层 通入 纯氧 使 溶液 溶解氧 上升 至 12.0 mg ( O2 ) / L 后 ， 每当 水层 溶解氧 下降 至 10.0 mg ( O2 ) / L 时 ， 就 向 体系 边 摇动 边 补充 氧气 使 溶液 溶解氧 恢复 至 12.0 mg ( O2 ) / L ； ( 4 ) 先 向 水层 通入 纯氧 使 溶液 溶解氧 上升 至 16.0 mg ( O2 ) / L 后 ， 每当 水层 溶解氧 下降 至 12.0 mg ( O2 ) / L ， 就 向 体系 边 摇动 边 补充 纯氧 使 溶液 溶解氧 恢复 至 16.0 mg ( O2 ) / L . 
+ 　 　 其中 ， 每一 处理 重复 2 次 ， 在 遮光 及 室温 ( 即 实验 水温 控制 在 25 ℃ 左右 ) 下 进行 . 每隔 一周 用 微量 针筒 抽取 一定 数量 的 气体 ， 用 气相 色谱法 测定 CO2 和 CH4 的 浓度 ［ 5 ， 6 ］ . 
+ 2 　 结果 与 讨论 
+ 2.1 　 不同 供氧 水平 对 底泥 中 有机质 降解 的 影响 
+ 　 　 从 热力学 观点 来看 ， 底泥 中所含 的 有机质 是 不 稳定 的 ， 它 迟早 总要 被 氧化 成 CO2 或 还原 为 CH4 ， 而 使 固定 于 其中 的 养分 物质 ( 包括 N ， P 和 微量元素 ) 从 底泥 中 释放出来 ［ 7 ， 8 ］ . 也就是说 ， 随着 底泥 中 有机质 的 不断 降解 ， N 、 P 和 微量元素 得以 释放 ， 致使 湖泊 的 富营养化 现象 更为 明显 . 
+ 　 　 然而 ， 实验 表明 ， 在 温度 、 pH 基本 不变 的 情况 下 ， 这一 环境 生态 化学 过程 受 系统 中 氧气 供应 状况 ( 即 Eh 变化 ) 的 影响 . 从表 2 可以 看出 ， 不论 在 培养 的 头 1 周 ， 还是 在 培养 的 最后 1 周 ， 有机质 矿化 产物 ( CO2 和 CH4 之 和 ) 累积 浓度 都 以 湖水 溶解氧 为 5.0 — 8.6 mg ( O2 ) / L 时为 最低 . 也就是说 ， 在 与 湖水 现有 供氧 水平 ( 5.0 — 8.6 mg ( O2 ) / L 相同 的 情况 下 ， 有机质 降解 速率 最低 ， 随 时间 变化 的 动态 回归方程 为 ： Y1 = 0.61 t + 7.15 　 ( r = 0.984 ， n = 7 ) . 其中 ， Y1 为 培养 体系 中 有机质 矿化 产物 CO2 和 CH4 之 和 的 累积 浓度 ( mg ( C ) / L ) ， t 为 培养 时间 ( d ) . 
+ 表 2 　 不同 供氧 条件 下 有机质 矿化 产物 的 累积 浓度 ( mg ( C ) / L ) * 
+ Table2Cumulativeconcentrationofmineralizedproductsfromorganicmatterundervariousoxygen - supplyconditions 
+ 处理 培养 时间 ， 周 
+ 123456 
+ 密闭 ( 8.6 → 0mg ( O2 ) / L ) 9.916 . 721.726 . 732.036 . 3 
+ 5.0 — 8.6 mg ( O2 ) / L9.416 . 221.626 . 129.030 . 4 
+ 10.0 — 12.0 mg ( O2 ) / L9.518 . 024.229 . 032.635 . 3 
+ 12.0 — 16.0 mg ( O2 ) / L10.018 . 728.335 . 540.543 . 9 
+ 　 　 * 本 实验 所有 处理 ， 当 t = 0 时 ， Y1 = 7.0 mg ( C ) / L 
+ 　 　 表 2 还 表明 ， 当 体系 溶解氧 进一步 增加 ， 由于 有利于 有机质 转化 为 CO2 ， 有机质 降解 速率 加快 . 当 体系 溶解氧 分别 为 10.0 — 12.0 和 12.0 — 16.0 　 mg ( O2 ) / L 时 ， 有机质 矿化 随 时间 变化 的 动态 回归方程 分别 为 ： Y1 = 0.73 t + 6.90 ( r = 0.987 , n = 7 ) 或 Y1 = 0.96 t + 6.13 ( r = 0.989 , n = 7 ) . 可见 ， 有机质 降解 速率 随 湖水 中 溶解氧 增加 而 增加 . 
+ 　 　 而 在 密闭 条件 下 ， 即 水层 溶解氧 由 8.6 mg ( O2 ) / L 降至 0mg ( O2 ) / L 时 ， 体系 因 缺氧 导致 有机质 转化 为 CO2 的 循环 支路 受到 抑制 ， 而 这种 厌氧 环境 则 促进 了 CH4 的 形成 ， 有机质 降解 速率 仍然 有所增加 ， 随 时间 变化 的 回归方程 为 ： Y1 = 0.73 t + 6.14 ( r = 0.998 , n = 7 ) . 
+ 　 　 根据上述 回归方程 的 计算 表明 ， 湖泊 底泥 中 有机质 降解 是 一 非常 缓慢 的 过程 ， 密闭 或 补充 氧气 均 在 一定 程度 上 有助于 底泥 中 有机质 的 降解 . 但是 ， 西湖 周围 还 存在 着 地表 径流 ， 外界 随时 都 有 一定 数量 的 有机质 输入 湖水 中 ， 以及 湖水 中 还有 一部分 无机 碳 转化 为 有机 碳 ， 它们 通过 沉降 富集 在 底泥 中 ， 致使 西湖 底泥 中 有机质 含量 一直 维持 在 很 高 的 水平 . 
+ 2.2 　 不同 供氧 条件 下 底泥 中 CO2 释放 速率 
+ 　 　 湖水 中 溶解氧 的 增加 ， 有利于 底泥 中 有机质 转化 为 CO2 . 而且 ， 随着 培养 时间 的 延长 ， 这种 趋势 愈为 明显 . 从 第 1 周 产生 的 CO2 累积 浓度 来看 ， 密闭 ( 湖水 溶解氧 由 8.6 降至 0mg ( O2 ) / L ) 条件 下为 7.8 mg ( C ) / L ， 而 湖水 溶解氧 上升 至 12.0 — 16.0 mg ( O2 ) / L 时 达到 8.4 mg ( C ) / L ， 两者 相差 不大 . 但是 ， 以后 各周 由于 CO2 产生 的 量 随 湖水 溶解氧 增加 而 增加 ， 致使 到 了 第 6 周后 ， 密闭 条件 下 CO2 累积 浓度 仅为 16.7 mg ( C ) / L ， 而 湖水 溶解氧 为 12.0 — 16.0 mg ( O2 ) / L 的 处理 CO2 累积 浓度 则 高达 38.7 mg ( C ) / L ( 表 3 ) ， 后者 为 前者 的 2.32 倍 . 回归 分 
+ 表 3 　 不同 供氧 条件 下 有机质 转化 为 CO2 的 累积 浓度 ( mg ( C ) / L ) * 
+ Table3CumulativeconcentrationofCO2fromorganicmatterundervariousoxygen - supplyconditions 
+ 
+ 处理 培养 时间 ， 周 回归方程 
+ 123456 
+ 密闭 ( 8.6 → 0mg ( O2 ) / L ) 7.812 . 214.315 . 816.516 . 7Y2 = 0.26 t + 7.41 ( r = 0.951 , n = 7 ) 
+ 5.0 — 8.6 mg ( O2 ) / L7.011 . 615.017 . 619.119 . 7Y2 = 0.35 t + 6.48 ( r = 0.974 , n = 7 ) 
+ 10.0 — 12.0 mg ( O2 ) / L7.614 . 218.822 . 525.227 . 4Y2 = 0.54 t + 6.16 ( r = 0.986 , n = 7 ) 
+ 12.0 — 16.0 mg ( O2 ) / L8.416 . 024.731 . 335.738 . 7Y2 = 0.84 t + 5.45 ( r = 0.988 , n = 7 ) 
+ 
+ 　 　 * 对于 所有 处理 ， 当 t = 0 时 ， Y2 = 6.7 mg ( C ) / L ； Y2 为 培养 时间 有机质 转化 为 CO2 的 累积 浓度 ( mg ( C ) / L ) ， t 为 时间 ( d ) 
+ 析 也 表明 ， 在 实验 条件 下 ， 底泥 中 有机质 转化 为 CO2 的 速率 ， 既 是 时间 的 函数 ， 又 受 不同 供氧 水平 的 影响 . 
+ 
+ 
+ 图 2 　 不同 供氧 条件 下 底泥 中 有机质 降解 转化 为 CO2 的 速率 
+ Fig.2 RateoforganicmatterinsedimentdegradingintoCO2undervariousoxygen - supplyconditions 
+ 从图 2 则 可以 看出 ， 在 培养 的 头 1 周内 ， 4 种 处理 的 CO2 周 释放 速率 大致 相等 ， 为 7.0 — 8.4 mg ( C ) / kg ； 在 培养 的 第 2 周 ， 8.6 — 0mg ( O2 ) / L 和 5.0 — 8.6 mg ( O2 ) / L 两 处理 的 CO2 周 释放 速率 接近 ， 而 10.0 — 12.0 mg ( O2 ) / L 和 12.0 — 16.0 mg ( O2 ) / L 两 处理 的 CO2 周 释放 速率 大体 接近 ； 在 培养 的 第 3 周 ， 12.0 — 16.0 mg ( O2 ) / L 处理 的 CO2 周 释放 速率 达到 最大值 ， 为 8.7 mg ( C ) / kg ； 到 了 第 3 周 以后 ， 各 处理 的 CO2 周 释放 速率 虽然 明显 与 供 氧 水平 的 增加 有关 ， 但 就 同一 处理 来说 ， 其 CO2 周 释放 速率 均 呈 下降 趋势 . 特别 当 溶解氧 为 8.6 — 0mg ( O2 ) / L 条件 下 ， 到 了 第 6 周后 ， CO2 周 释放 速率 只有 0.2 mg ( C ) / kg . 
+ 2.3 　 不同 供氧 条件 下 底泥 中 CH4 释放 速率 
+ 　 　 与 CO2 的 释放 速率 相反 ， 当 湖水 中 溶解氧 增加 时 ， 有机质 转化 为 CH4 的 速率 呈 减少 趋势 . 
+ 　 　 当不向 水层 通入 溶解氧 的 情况 下 ， 体系 中 CH4 的 释放 速率 在 培养 的 头 1 周 最低 ， 其 累积 浓度 为 2.1 mg ( C ) / L ； 以后 各周 由于 有机质 转化 为 CH4 的 速率 加快 ， 到 了 第 6 周后 ， 体系 中 CH4 的 累积 浓度 达到 19.6 mg ( C ) / L ( 表 4 ) ； 从 培养 的 整个 时间 来看 ， 当不向 水层 通入 溶解氧 的 情况 下 体系 中 CH4 的 累积 浓度 随 时间 变化 的 动态 回归方程 为 ： Y3 = 0.47 t + 1.27 ( r = 0.989 , n = 7 ) . 其中 ， Y3 为 培养 时间 内 有机质 转化 为 CH4 的 累积 浓度 ( mg ( C ) / L ) ， t 为 时间 ( d ) . 
+ 表 4 　 不同 供氧 条件 下 有机质 转化 为 CH4 的 累积 浓度 ( mg ( C ) / L ) * 
+ Table4CumulativeconcentrationofCH4fromorganicmatterunderdifferentoxygen - supplyconditions 
+ 
+ 处理 培养 时间 ， 周 回归方程 
+ 123456 
+ 密闭 ( 8.6 → 0mg ( O2 ) / L ) 2.14 . 57.410 . 915.519 . 6 　 
+ 5.0 — 8.6 mg ( O2 ) / L2.44 . 66.68 . 59.910 . 7Y3 = 0.26 t + 0.67 ( r = 0.991 n = 7 ) 
+ 10.0 — 12.0 mg ( O2 ) / L1.93 . 85.46 . 57.47 . 9Y3 = 0.19 t + 0.74 ( r = 0.982 n = 7 ) 
+ 12.0 — 16.0 mg ( O2 ) / L1.62 . 73.64 . 34.85 . 2Y3 = 0.12 t + 0.68 ( r = 0.978 n = 7 ) 
+ 
+ 　 　 * 对于 所有 处理 ， t = 0 时 ， Y3 = 0.2 mg ( C ) / L 
+ 　 　 图 3 表明 ， 在 培养 的 头 1 周内 ， 以 5.0 — 8.6 mg ( O2 ) / L 处理 的 CH4 周 释放 速率 最大 ， 为 2.4 mg ( C ) / kg ; 以后 各周 均 以 8.6 — 0mg ( O2 ) / L ( 密闭 ) 处理 的 CH4 周 释放 速率 最大 ， 到 了 第 6 周后 达到 极大值 ， 为 4.6 mg ( C ) / kg ； 而且 ， 随着 不同 处理 中 溶解氧 的 增加 ， CH4 周 释放 速率 降低 . 特别 是 12.0 — 16.0 mg ( O2 ) / L 的 处理 ， 在 培养 的 最后 1 周 ， 其 CH4 周 释放 速率 仅为 0.4 mg ( C ) / kg . 　 　 
+ 
+ 
+ 图 3 　 不同 供氧 条件 下 底泥 中 有机质 降解 转化 为 CH4 的 速率 
+ Fig.3 RateoforganicmatterinsedimentturningintoCH4underdifferentoxygen - supplyconditions 
+ 3 　 结论 
+ 　 　 西湖 底泥 中 有机质 降解 是 一 非常 缓慢 的 环境 生态 化学 过程 ， 在 温度 和 pH 不变 的 情况 下 ， 不同 供氧 水平 对 这 一 过程 发生 重要 影响 . 在 西湖 湖水 现有 供氧 水平 ( 5.0 — 8.6 mg ( O2 ) / L ) 条件 下 的 任 一时间 内 ， 底泥 中 有机质 降解 速率 均 最小 . 当 湖水 中 溶解氧 进一步 增加 ， 底泥 中 CO2 的 释放 速率 加快 . 其中 ， 湖水 溶解氧 为 10.0 — 12.0 mg ( O2 ) / L 处理 的 CO2 周 释放 最大 速率 达到 7.6 mg ( C ) / kg ， 湖水 溶解氧 为 12.0 — 16.0 mg ( O2 ) / L 处理 的 CO2 周 释放 最大 速率 达到 8.7 mg ( C ) / kg . 相反 ， 在 密闭 ( 即 溶解氧 全部 被 消耗 ) 情况 下 ， CH4 的 周 释放 最大 速率 可 达到 4.6 mg ( C ) / kg ， 这就是说 ， 厌氧 环境 由于 加速 了 CH4 的 形成 ， 在 总体 上 也 增加 了 有机质 的 降解 速率 . 
+ * 浙江省 自然科学 基金 和 中国科学院 南京 土壤 所 土壤圈 物质 循环 开放 研究 实验室 资助 项目 
+ 作者 单位 ： 周启星 　 朱荫湄 　 浙江农业大学 环境 与 资源 学院 ， 杭州 310029 
+ 参考文献 
+ 　 ［ 1 ］ 　 金相灿 等 . 中国 湖泊 富营养化 . 北京 ： 中国 环境 科学出版社 ， 1990 
+ 　 ［ 2 ］ 　 陈宜宜 等 . 西湖 底泥 中酶 活性 与 养分 释放 的 关系 . 浙江农业大学 学报 ， 1997 ， 23 ( 2 ) ： 171 — 174 
+ 　 ［ 3 ］ 　 刘鸿亮 等 . 湖泊 富营养化 调查 规范 . 北京 ： 中国 环境 科学出版社 ， 1990 
+ 　 ［ 4 ］ 　 CornfieldAH . Asimpletechniquefordetermingmineralizationofcarbonduringincubationofsoilstreatedwithorganicmaterials . PlantandSoil , 1961 , 14 : 90 — 93 
+ 　 ［ 5 ］ 　 国家 环境保护局 . 环境监测 分析方法 . 北京 ： 中国 环境 科学出版社 ， 1986 
+ 　 ［ 6 ］ 　 柳庸行 . 气 相色谱 在 环境监测 分析 中 的 应用 . 北京 ： 中国 环境 科学出版社 ， 1986 
+ 　 ［ 7 ］ 　 GibsonCE , StewartDA . NutrientcyclesinLoughNeagh . In : WoodRB , SmithRV ( eds ) . LoughNeagh : KluwerAcademicPublishers , 1993 : 171 — 201 
+ 　 ［ 8 ］ 　 陶澍 等 . 我国 东部 主要 河流 河水 腐殖酸 的 起源 、 含量 及 地域 分异 规律 . 环境 科学 学报 ， 1988 ， 8 ( 3 ) ： 286 — 290 
+ 1997 - 07 - 16 收到 原稿 　 1997 - 12 - 09 收到 修改稿 

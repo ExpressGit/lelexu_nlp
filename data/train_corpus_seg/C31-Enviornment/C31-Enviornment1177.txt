@@ -1,0 +1,90 @@
+环境 科学 学报 
+ ACTA 　 SCIENTIAE 　 CIRCUMSTANTIAE 
+ 1998 年 2 月 第 18 卷 第 2 期 科技期刊 
+ 白洋淀 底泥 腐殖质 的 表征 及光 化学反应 
+ 郁志勇 　 王文华 　 彭 　 安 
+ ( 中国科学院 生态环境 研究 中心 ， 环境 水化学 国家 重点 实验室 ， 北京 100085 ) 
+ 
+ 关键词 　 腐殖质 ； 单线 态氧 ( 1O2 ) ； 自由基 ( ROO * 、 HO * ) ； 光 化学反应 . 
+ CHARACTERIZATIONANDPHOTOREACTIONOFHUMICSUB - 
+ STANCESFROMSEDIMENTSINBAIYANGDIAN 
+ 
+ YuZhiyong , WangWenhua , PengAn 
+ ( StateKeyLaboratoryofEnvironmentalAquaticChemistry , ResearchCenterforEco - EnvironmentalSciences , 
+ ChineseAcademyofSciences , Beijing100085 ) 
+ 
+ ABSTRACT 　 Humicsubstance ( includingfulvicacidthatissolubleinacidandbase , andhumicacidthatisonlysolubleinbasebutinsolubleinacid ) fromsedimentsinBaiyangdianwasextractedandcharacterizedbyelementaryanalysis , IR , UV , FL , andEPR . Theresultsshowedthatthereare - COOH , - OH , andbenzeneringsinthestructuresofFAandHA . Exposureofthesystemtosimulatedsunlight , FAconcentrationinthe10ppmFAsystemreducedsrapidly . Agreatnumberofsingletoxygenandfreeradicalsproducedintheprocess . Fe2 + , Fe3 + , andAl3 + , especialtheformertwoions , canacceleratetheprocess . 
+ Keywords 　 humicsubstance , singletoxygen ( 1O2 ） , freeradical ( ROO * ， HO * ) ， photochemicalreaction . 
+ 
+ 　 　 腐殖质 是 动植物 经过 长期 的 物理 、 化学 、 生物 作用 而 形成 的 复杂 有机物 ， 水体 、 底泥 、 土壤 等 都 含有 腐殖质 . 腐殖质 是 大分子 聚合物 ， 具有 非常复杂 的 化学 结构 . 根据 溶解 性质 ， 可以 把 腐殖质 分为 3 个级 分 ： 富里 酸 ( 既 溶于 酸 又 溶于 碱 ) ， 胡敏酸 ( 只 溶于 碱 而 不 溶于 酸 ) ， 腐黑物 ( 在 酸 和 碱 中 都 不 溶解 ) . 本文 首先 对 从 白洋淀 底泥 提取 的 富里 酸 和 胡敏酸 进行 简单 的 表征 ， 接着 研究 其 水溶 级 分富里 酸 的 光 化学反应 . 有关 进入 白洋淀 水域 的 氯酚 与 其中 腐殖质 的 相互作用 ， 另文 介绍 . 
+ 
+ 1 　 实验 部分 
+ 1.1 　 试剂 
+ 　 　 呋喃 甲醇 ( 简记 FFA ) 为 化学纯 ， 使用 前重 蒸 . 异丙苯 ( 简记 CUM ) 、 CH2Cl2 、 FeSO4 * 7H2O 、 Fe2 ( SO4 ) 3 * xH2O ( 含 Fe22% ) 、 Al2 ( SO4 ) 3 * 18H2O 均 为 分析 纯 . 
+ 1.2 　 腐殖质 的 提取 
+ 　 　 从 白洋淀 底泥 提取 富里 酸 ( FA ) 和 胡敏酸 ( HA ) ， 方法 见 文献 ［ 1 ］ . 本文 稍作 修改 ， 即 把 HCl 改为 H2SO4 以 避免 向 体系 引入 Cl 元素 . 
+ 1.3 　 腐殖质 的 表征 
+ 　 　 元素 分析方法 参见 文献 ［ 1 ］ . 红外 光谱 、 紫外 光谱 、 荧光 光谱 仪器 条件 及 测定 见 文献 ［ 1 ］ . 顺 磁共振 谱 ： 在 VarianE - 109 型 顺 磁共振 谱 上 测定 . 
+ 1.4 　 FA 浓度 的 测定 
+ 　 　 根据 FA 的 荧光 特性 ， 用 荧光 光度法 测量 FA 的 浓度 ， 荧光 光度计 型号 为 ShimadzuRF - 520 . 测量 波长 为 ： Ex = 387nm ， Em = 476nm . 
+ 1.5 　 光 化学反应 体系 
+ 　 　 Ⅰ ： 10ppmFA , Ⅱ ： 10ppmFA + 1ppmFe2 + , Ⅲ ： 10ppmFA + 1ppmFe3 + ， Ⅳ ： 10ppmFA + 1ppmAl3 +. 体系 pH 值为 5.5 . 
+ 　 　 当 测定 单线 态氧时 ， 加入 呋喃 甲醇 ( FFA ) ， 使 其 浓度 为 20ppm ； 当 测定 自由基 时 ， 加入 异丙苯 ( CUM ) ， 使 其 浓度 为 40ppm . 设无 光照 为 对照组 . 
+ 1.6 　 模拟 太阳光 条件 下 ， 单线 态氧及 自由基 的 测定 
+ 　 　 测定方法 同 文献 ［ 2 ］ . 
+ 
+ 2 　 结果 与 讨论 
+ 2.1 　 腐殖质 的 表征 
+ 　 　 表 1 为 富里 酸 ( FA ) 和 胡敏酸 ( HA ) 的 元素 分析 数据 ( 已 扣除 灰分 ) . 从表 1 可以 看到 ： FA 
+ 表 1 　 FA 和 HA 的 元素 分析 ( 质量 百分比 ) 
+ Table1TheelementalanalysisofFAandHA 
+ 
+ 　 C , % H , % N , % O , % C / H ( 原子 比 ) 
+ FA29.334 . 931.8063 . 940.50 
+ HA48.035 . 432.1744 . 370.74 
+ 
+ 含 O 、 C 元素 较 多 ； HA 含 C 、 O 元素 较 多 . 与 一般 土壤 及 泥炭 腐殖质 相 比较 ， 白洋淀 底泥 腐殖质 中 O 、 N 、 H 的 含量 较 多 ， 而 含 C 量少 一些 ［ 1 ］ . 
+ 
+ 　 　 图 1 为 腐殖质 的 红外 光谱 图 . 从图 1 可以 看到 ： FA 和 HA 在 3300cm - 1 的 宽 吸收 对应 缔合 — OH 的 伸缩 振动 ， 1700cm - 1 的 吸收 对应 - COOH 基团 的 CO 的 伸缩 振动 ， 1100cm - 1 的 吸收 比较复杂 ， 对应 着 脂肪醇 、 醚 、 硫醇 基 振动 ［ 3 ］ . 
+ 　 　 
+ 
+ 
+ 图 1 　 FA 和 HA 的 红外 光谱 
+ Fig.1 　 IRspectraofFAandHA 
+ 
+ 
+ 图 2 　 腐殖质 的 紫外 光谱 
+ Fig.2 　 UVspectraofhumicsubstance 
+ 图 2 为 腐殖质 的 紫外 光谱 . 从图 2 可以 看到 ： 随 波长 减小 呈 单调 上升 的 趋势 ， 表明 其中 含有 芳香 结构 ［ 1 ］ ； 图 3 为 腐殖质 的 荧光 光谱 . 腐殖质 具有 荧光 性 ， 对于 研究 其 结构 和 用于 分析 测定 都 是 有 意义 的 . 在 腐殖质 的 顺 磁共振 谱 中 ( 图略 ) ， HA 的 谱 图 是 超氧 离子 的 信号 ， 其 g 因子 约 为 2.0032 ； FA 的 谱 图为 超氧 离子 和 半醌 自由基 的 信号 ， 其 g 因子 分别 约 为 2.0032 和 2.0001 . 
+ 2.2 　 光照 条件 下 ， FA 浓度 的 变化 
+ 　 　 图 4 是 在 不同 体系 中 游离 FA 浓度 变化 的 情况 ( 图中 1 — 4 分别 为 无 光照 Ⅰ — Ⅳ 体系 ； 5 — 8 分别 为 模拟 太阳 光照 Ⅰ — Ⅳ 体系 ) . 在 光照 下 ， FA 结构 发生变化 ， 产生 单线 态氧 和 自由基 . 从图 4 可以 看到 ： ( 1 ) 无光时 ， 体系 Ⅰ 中 10ppmFA 浓度 降低 很小 . 与 体系 Ⅰ 相 比较 ， 体系 Ⅱ 、 Ⅲ 、 Ⅳ 在 T = 0 时所 对应 的 荧光 吸收 都 较 低 . 这 表明 Fe2 + 、 Fe3 + 、 Al3 + 都 与 FA 存在 着 相互作用 ， 形成 配合 物 ， 从而 使 游离 FA 的 浓度 降低 . ( 2 ) 在 模拟 太阳光 照射 下 ， FA 浓度 降低 幅度 较大 ， Fe2 + 、 Fe3 + \ , Al3 + 能够 加速 FA 的 浓度 降低 . 
+ 
+ 
+ 图 3 　 腐殖质 的 荧光 光谱 
+ Fig.3 　 FLspectraofhumicsubstance ( a ) emission ( b ) excitation 
+ 
+ 
+ 图 4 　 在 无 光照 和 模拟 太阳光 照射 下 ， 反应 体系 中 FA 浓度 与 时间 的 关系 
+ Fig.4 　 RelationbetweentheconcentrationofFA 
+ andtimeinthereactionsystemwithoutlightandexposuretosimulatedsunlight 
+ 2.3 　 光照 条件 下 ， 单线 态氧 （ 1O2 ) 的 测定 
+ 
+ 
+ 图 5 　 在 无 光照 和 模拟 太阳光 照射 下 ， 反应 体系 中 FFA 浓度 与 时间 的 关系 
+ ( 1 — 8 的 含义 同图 4 ) 
+ Fig.5 　 RelationbetweentheresidualrateofFFA 
+ andtimeinthereactionsystemwithoutlight 
+ andexposuretosimulatedsunlight 
+ 图 5 为 FA 体系 在 无光 和 在 模拟 太阳光 照射 时 呋喃 甲醇 ( FFA ) 与 时间 的 关系 . FFA 剩余 率越 大 ， 表示 产生 的 单线 态氧越 少 . 从图 5 可以 看到 ： ( 1 ) 无光时 ， FA 体系 产生 的 单线 态氧 很少 ， Fe2 + \ , Fe3 + \ , Al3 + 对 之 影响 不大 . ( 2 ) 在 模拟 太阳光 照射 时 ， 随着 时间 的 延长 ， FA 体系 产生 的 单线 态氧 逐渐 增加 ， Fe2 + 、 Fe3 + 、 Al3 + 能够 加速 该 体系 中 单线 态氧 的 产生 . 尤以 Fe2 + 、 Fe3 + 的 作用 明显 ， 且 表现 出 的 性质 相似 . 这 与 图 4 中 FA 浓度 降低 的 趋势 相对 应 . 
+ 2.4 　 光照 条件 下 ， 自由基 ( HO * 、 ROO * ) 的 测定 
+ 
+ 
+ 图 6 　 在 无 光照 和 模拟 太阳光 照射 下 ， 反应 体系 中 CUM 浓度 与 时间 的 关系 
+ ( 1 — 8 的 含义 同图 4 ) 
+ Fig.6 　 RelationbetweentheresidualrateofCUMandtimeinthereactionsystem 
+ withoutlightandexposuretosimulatedsunlight 
+ 图 6 为 FA 体系 在 无光 和 在 模拟 太阳光 照射 时 异丙苯 ( CUM ) 与 时间 的 关系 . CUM 剩余 率越 大 ， 表示 产生 的 自由基 越少 . FA 光反应 中 自由基 的 产生 及 变化趋势 与 单线 态氧 的 情况 相似 . 
+ 参考文献 
+ 　 1 　 彭 　 安等 . 水体 腐殖酸 及其 络合物 . 环境 科学 学报 ， 1981 ， 1 ( 2 ) ： 126 
+ 　 2 　 郁志勇 等 . 4 - 氯 苯酚 在 水溶液 中 的 光 化学反应 . 环境 科学 学报 ， 1997 ， 17 ( 3 ) : 312 
+ 　 3 　 成绍鑫 等 . 腐殖酸 化学性质 和 结构 分析 . 腐殖酸 , 1995 ， 4 ： 32 

@@ -1,0 +1,170 @@
+信息 与 控制 
+ InformationandControl 
+ 1999 年 　 第 28 卷 　 第 1 期 　 Vol.28 　 No.1 　 1999 
+ 
+ 
+ 
+ 一种 新 的 离散系统 最优 闭环 极点 配置 方法 
+ 冯 冬青 　 　 谢宋 和 
+ 
+ 　 　 摘 　 要 　 分析 了 LQ 逆 问题 解 的 存在 条件 ， 以便 合理 选择 期望 的 闭环 极点 ， 使 之 成为 一组 最优 极点 ． 提出 了 一种 以 离散系统 LQ 逆 问题 分析 为 基础 的 新 的 最优控制 系统 设计 方法 ， 得到 了 开环 、 闭环 特征 多项式 系数 与 加权 矩阵 之间 的 解析 关系 ， 只要 给定 一组 期望 闭环 极点 ， 即可 确定 与 之 对应 的 加权 矩阵 Q 和 R ， 从而 得到 一个 具有 指定 极点 的 最优控制 系统 ． 
+ 　 　 关键词 　 离散系统 ， 最优控制 ， LQ 逆 问题 ， 闭环 极点 配置 
+ ANEWMETHODFORTHEOPTIMALCLOSED - LOOPPOLE 
+ ASSIGNMENTOFDISCRETE - TIMESYSTEMS 
+ FENGDongqing 
+ ( Information & ControlInstitute , ZhengzhouUniversityofTechnology , Zhengzhou450002 ) 
+ XIESonghe 
+ ( DepartmentofControlEngineering , ZhengzhouInstituteofLightIndustry , Zhengzhou450002 ) 
+ Abstract 　 Inthispaper , theexistentconditionsofthesolutionstoLQinverseproblemareanalysedsoastochoosethedesiredclosed - looppoles , whichbecomeasetofoptimalpoles . AnewdesignmethodforoptimalcontrolsystemsispresentedbasedontheanalysisoftheLQinverseproblemfordiscrete - timesystems . Theanalyticalrelationshipamongthecoefficientsofopen - loopandclosed - loopcharacteristicpolynomialsandtheweightingmatricesisobtained . Givenasetofdesiredclosed - looppoles , theweightingmatricesQandRareatoncedeterminedcorrespondingtothesepoles , andanoptimalcontrolsystemisobtainedwithprescribedpoles . 
+ Keywords 　 discrete - timesystem , optimalcontrol , LQinverseproblem , closed - looppoleassignment 
+ 
+ 1 　 引言 
+ 　 　 考虑 一个 线性 定常 可控 系统 
+ X ( k + 1 ) = AX ( k ) + BU ( k ) 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 其中 A 和 B 分别 是 n × n 维 、 n × m 维 常数 矩阵 ． 
+ 　 　 所谓 最优 极点 配置 问题 ， 就是 要 确定 一个 状态 反馈 矩阵 F 
+ U ( k ) = - FX ( k ) 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 使 对应 的 闭环 系统 
+ X ( k + 1 ) = ( A - BF ) X ( k ) AcX ( k ) 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 具有 一组 预先指定 的 最优 闭环 极点 zc1 ， zc2 ， … ， zcn ， 并且 使 某个 线性 二次 型 性能指标 （ 4 ） 极小 ． 
+ 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 式 中 Q ≥ 0 , R ＞ 0 ． 
+ 
+ 　 　 显然 ， 该 问题 包含 两个 主要 方面 ： 首先 ， 给定 的 { zci , i = 1 , 2 , … , n } 和 ( A , B ) 满足 什么 条件 ， 才 存在 实现 指定 极点 配置 的 最优 反馈 F ． 其次 ， 已知 { zci ， i = 1 ， 2 ， … ， n } 是 一组 最优 极点 ， 如何 确定 F ． 
+ 　 　 早期 的 最优 极点 配置 方法 主要 是 以 “ 极点 移动 ” 为 基础 的 数值 方法 ［ 1 ， 2 ］ ， 存在 两个 方面 的 不足 ： 其一 ， 在 迭代 计算 过程 中要 解 非线性 代数方程 ， 工作量 大且 精度 不高 ； 其二 ， 不能 保证 Q ≥ 0 ． 最近 提出 的 解析 方法 ［ 3 ～ 5 ］ 有所 进展 ， 但 还 不 完善 ， 限制 条件 多 ， 计算 过程 比较复杂 ． 本文 在 以往 研究 ［ 6 ～ 10 ］ 的 基础 上 ， 从 LQ 逆 问题 着眼 ， 通过 将 系统 （ A ， B ） 变换 成 可控 标准 形 ， 得到 了 加权 矩阵 、 闭环 与 开环 特征 多项式 系数 之间 的 解析 关系 ， 比较 圆满 地 解决 了 离散系统 的 最优 极点 配置 问题 ， 有助于 彻底解决 LQ 逆 问题 解 的 存在 性 和 唯一性 ． 其 主要 优点 是 不必 求解 复杂 的 Riccati 方程 ， 可以 很 容易 地 确定 要求 的 F 和 对应 的 Q 和 R ， 且 限制 条件 少 ． 
+ 2 　 LQ 逆 问题 解 存在 的 条件 
+ 　 　 事实上 ， 并非 任何 一个 稳定 的 反馈 增益 F 都 可以 构成 最优 闭环 系统 ． 同样 ， LQ 最优设计 并 不能 任意 配置 极点 ， 因此 ， 并 不是 任何 一组 稳定 的 闭环 极点 都 能 成为 最优 极点 ， 它们 必须 满足 一定 的 条件 ． 文 [ 6 ] 中 的 必要条件 也 可 推广 到 多 变量 系统 ． 
+ 令 
+ 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 　 　 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 则 有 
+ 　 　 定理 1 　 设 zoi ， zci ( i = 1 , 2 , … , n ) 分别 是 系统 （ 1 ） 和 （ 3 ） 的 开环 极点 和 最优 闭环 极点 ， 则 有 下述 不等式 成立 
+ 　 　 　 　 　 　 　 　 　 　 ( 7 ) 
+ 　 　 定理 2 　 若 ai , bi ( i = 0 , 1 , 2 , … , n ) 分别 是 系统 （ 1 ） 和 （ 3 ） 的 开环 特征 多项式 系数 和 最优 闭环 特征 多项式 系数 ， 则 有 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ 　 　 定理 3 　 对于 单 输入 可控 系统 （ 1 ） ， 指定 极点 zc1 , zc2 , … , zcn 是 一组 最优 极点 的 充分条件 是 ： （ 9 ） 式 确定 的 Q ≥ 0 ． 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 9 ) 
+ 
+ 　 　 证明 　 由 最优控制 理论 有 
+ a0Pc ( z ) Pc ( z - 1 ) / b0 = P0 ( z ) P0 ( z - 1 ) + [ adj ( a - 1In - A ) ] TQ [ adj ( ZIn - A ) B ] 　 　 　 　 　 　 ( 10 ) 
+ 而 对于 可控 标准 形 （ A , B ） ， 有 
+ adj ( zIn - A ) B = [ i , z , ... zn - 1 ] T 
+ 因此 ， 当 Q 取 （ 9 ） 式 ， R = r ＞ 0 时 ， 将 可 实现 指定 极点 的 配置 ． 由于 单 输入 可控 系统 均 能 经非 奇异 线性变换 转换 为 可控 标准 形 （ 15 ） ， 故 定理 3 成立 ． 
+ 3 　 LQ 逆 问题 的 参数 化 公式 
+ 　 　 与 系统 （ 1 ） 和 性能指标 （ 4 ） 对应 的 Riccati 方程 为 
+ P = ATPA - ATPB ( R + BTPB ) - 1BTPA + Q 　 　 　 　 　 　 　 　 　 　 　 　 ( 11 ) 
+ 利用 Hamilton 矩阵 的 性质 ［ 5 ］ ， 不难 得到 LQ 逆 问题 的 参数 化 公式 ． 
+ 　 　 定理 4 　 使 闭环 系统 （ 3 ） 具有 指定 极点 的 加权 矩阵 Q 和 反馈 矩阵 F 可以 分别 参数 化 表示 为 
+ Q = T2T - 11 - ATT2ST - 11 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 12 ) 
+ F = ( R + BTT2T - 11B ) - 1BTT2T - 11A 　 　 　 　 　 　 　 　 　 　 　 　 ( 13 ) 
+ 　 　 式 中 矩阵 S 为 特征值 集合 是 { zci , i = 1 , 2 , … , n } 的 实矩阵 ， 且 参数 阵 T1 和 T2 满足 如下 约束条件 
+ 　 　 1 ） T1 是非 奇异 方阵 
+ 　 　 2 ） T1 和 T2 满足 Sylvester 方程 
+ AT1 - T1S = BR - 1BTT2S , R ＞ 0 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 14 ) 
+ 　 　 3 ） 由 T1 和 T2 以及 S 确定 的 Q ≥ 0 
+ 　 　 由 定理 4 可见 ， LQ 逆 问题 的 求解 转化 为 寻找 满足 上述 约束条件 的 参数 阵 T1 ， T2 和 S ． 
+ 4 　 单 输入 系统 的 LQ 逆 问题 分析 
+ 　 　 对于 任何 一个 单 输入 可控 系统 ， 总 存在 一个 非 奇异 线性变换 ， 使 之 成为 下述 可控 标准 形 ． 
+ 　 　 　 　 　 　 　 　 　 　 ( 15 ) 
+ 　 　 根据 定理 4 可选 T1 = In ， R = 1 ， 且 S 选择 为 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 16 ) 
+ 则 （ 14 ） 式 简化 为 
+ A - S = BBTT2S 
+ ( 17 ) 
+ 由 （ 17 ） 式 可 求得 
+ tn , j = a0b1 / b0 - a1 , ( i = 1 , 2 , … , n ) 
+ 不难 得到 ： 当 T2 = TT2 时 ， Q = QT , 且 
+ Qi , j = ti , j - ti - 1 , j - 1 + a0bi - 1bj - 1 / b0 - ai - 1aj - 1 
+ 式 中 ti , j 和 Qi , j 分别 表示 矩阵 T2 和 Q 的 第 i 行第 j 列 元素 ． 根据 定理 4 有单 输入 系统 的 LQ 逆 问题 参数 化 结果 如下 ： 
+ 　 　 定理 5 　 对于 一个 单 输入 可控 系统 （ A , B ） ， 使 对应 的 闭环 系统 具有 指定 极点 { zci , i = 1 , 2 , … , n } 的 加权 矩阵 Q 为 
+ Q = CTC 
+ 其中 C 表示 可控 标准 形 变换 矩阵 ， 满足 
+ i , j = ti , j - ti - 1 , j - 1 + a0bi - 1bj - 1 / b0 - ai - 1aj - 1 
+ 式 中 ti , j = tj , i ， 且 当 i 或 j ≤ 0 时 ， ti , j = 0 ； 当 0 < i 和 j < n 时 ， ti , j 为 自由 参数 ； 当 i 或 j = n 时 ， 有 
+ tn , i = ti , n = a0bi / b0 - ai 　 　 ( i = 1 , 2 , … , n ) 
+ 显然 ， 文 [ 3 ] 的 结论 只是 本文 定理 5 的 一个 特例 ． 
+ 5 　 多 变量 系统 的 最优 极点 配置 
+ 　 　 对于 多 变量 系统 而言 ， 一个 很 自然 的 思路 是 将 其 转化 为 类似 的 若干个 单 变量 系统 来 处理 ． 在 下述 多 变量 系统 可控 标准 形下 ， 比较 圆满 地 解决 了 若干年 来 悬而未决 的 历史 遗留问题 ． 
+ 　 　 引理 1 对于 多 变量 可控 系统 （ A , B ） , 假定 rank ( B ) = m , 且 将 矩阵 B 的 第 i 列 写成 i ， 则 至少 存在 一组 克 罗内克 常数 σ 1 , σ 2 , … , σ m 同时 满足 下述 3 个 条件 ： 
+ 　 　 ( 1 ) 　 σ i ≥ 1 , ( i = 1 , 2 , … , m ) 
+ 　 　 ( 2 ) 　 
+ 　 　 ( 3 ) 　 det ( T5 ) ≠ 0 
+ 　 　 式 中 
+ 　 　 引理 2 　 在 可控 系统 （ A , B ） 的 矩阵 Qn = [ BAB … an - 1B ] 中 ， 若 按 后述 原则 从中 选择 n 个 线性 独立 的 列 ， 即 ： 当 Qn 的 第 i 列 不能 用 位于 其 左边 的 列 线性 表示 时则 采用 ， 而 能 用 位于 其 左边 的 列 线性 表示 时则 不 采用 ． 那么 将 得到 一个 由 所 选列经 适当 交换 位置 后 构成 的 非 奇异 矩阵 T12 ， 且 为 
+ 
+ 　 　 式 中 σ 1 , σ 2 , … , σ m 满足 引理 1 中 的 3 个 条件 ． 
+ 　 　 引理 3 　 对于 多 输入 可控 系统 ， 若 按 引理 2 的 方法 确定 σ i , ( i = 1 , 2 , … , m ) ， 则 存在 线性变换 （ T , G ） , 使 T - 1AT 成为 分块 形 三角 阵 ， 且 有 T - 1BG = block － diag { B1B2 … Bm } ． 
+ 式 中 , Bi = [ 0 , 0 , ... , 1 ] T ∈ R σ × 1 
+ 
+ 式 中 Aii 表示 T - 1AT 的 第 i 个 对角线 矩阵 块 ， “ * ” 表示 不 一定 为 0 的 实数 ． 
+ 　 　 引理 1 ～ 3 的 证明 相当 复杂 ， 详见 文献 的 有关 内容 ． 
+ 　 　 定理 6 　 不妨 设 线性变换 （ T1 , G ） 使 ( A , B ) 成为 
+ 
+ 则 使 闭环 系统 具有 指定 极点 { zci , i = 1 , 2 , … , n } 的 状态 反馈 增益 矩阵 F 为 
+ F = ( R + BTT2T1 - 1B ) - 1BTT2T - 11A 
+ 与 之 对应 的 加权 矩阵 为 
+ Q = T2T - 11 - ATT2ST - 11 
+ R = G - TG - 1 
+ 式 中 S 由下式 确定 
+ 
+ 其中 Sii 是 一个 由 第 i 组 σ i 个 指定 极点 所 确定 的 特征 多项式 （ 子 式 ） 的 系数 构成 的 形如 （ 16 ） 式 的 第 3 标准 形 矩阵 ， Sij 由下式 确定 
+ Sij = ( Iii + BiBTiTii ) - 1Aij , 　 ( i ＞ j ) 　 　 　 　 　 　 　 　 　 ( 18 ) 
+ 式 中 Iii 式 是 σ i × σ i 单位 阵 ， Tii ∈ R σ i × σ i 是 对称 阵 ， 且 满足 如下 方程 ． 
+ Aii - Sii = BiBTiTiiSii , 　 　 ( i = 1 , 2 , … , m ) 　 　 　 　 　 　 　 　 　 ( 19 ) 
+ 同时 　 　 　 　 　 　 T2 = T - T1block - diag { T11 , T22 , … , Tmm } 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 20 ) 
+ 　 　 证 　 （ 14 ） 式 两边 同时 左乘 T - 11 ， 则 有 
+ T - 11AT1 - S = T - 11BGGTBTT - T1 ( TT1T2 ) S 
+ 即 
+ T - 11AT1 - S = ( T - 11BG ) ( T - 11BG ) T ( TT1T2 ) S 
+ 令 
+ T - 11T2 = block - diag { T11 , T22 , … , Tmm } , 且 Tii = TTii 
+ 则 有 
+ 
+ ⅰ ⅰ 
+ 　 　 因此 有 （ 18 ） 式 和 （ 19 ） 式 ， 证毕 ． 
+ 6 　 例子 
+ 　 　 　 　 　 　 　 　 　 　 　 　 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 21 ) 
+ 因此 ， 应 选择 第 1 ， 2 ， 4 列 ， 且 σ 1 = 1 ， σ 2 = 2 ． 同时 也 可 求得 线性变换 阵 T1 为 
+ 
+ 因此 
+ 
+ 若 指定 闭环 极点 分别 为 - 0.2 和 ± 0.2 j ， 即 
+ Pc ( z ) = ( z + 0.2 ) [ ( z + 0.2 j ) ( z - 0.2 j ) ] 
+ 因此 ， S11 = - 0.2 , T11 = 4 
+ 
+ 
+ 由 定理 6 可 求得 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 22 ) 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 23 ) 
+ 
+ 式 中 当 23 ＜ t1 , 1 ＜ 99 时 ， Q ＞ 0 ． 因此 ， LQ 逆 问题 有 无数 解 ， 且 不难 验证 ： 
+ λ ( A - BF ) = { - 0.2 , 0.2 j , - 0.2 j } 
+ 当取 t1 , 1 ＝ 24 时 ， 有 
+ 　 　 　 　 　 　 　 　 　 　 　 　 ( 24 ) 
+ 把 （ 23 ） 、 （ 24 ） 和 （ 21 ） 式 代入 （ 11 ） 式 求得 P ， 再 由 F = ( R + BTPB ) - 1BTPA 求得 的 F 与 ( 22 ) 式 完全相同 ． 
+ 作者 单位 ： 冯 冬青 ： 郑州 工业 大学 信息 与 控制 研究所 　 郑州 　 450002 
+ 　 　 　 　 　 　 谢宋 和 ： 郑州 轻工业 学院 控制 工程系 　 郑州 　 450002 
+ 作者简介 ： 冯 冬青 ， 40 岁 ， 男 ， 硕士 ， 副教授 ． 研究 领域 为 生产 过程 计算机控制 ， 智能 控制 ． 
+ 　 　 　 　 　 谢宋 和 ， 34 岁 ， 男 ， 副教授 ． 研究 领域 为 线性 多 变量 系统 理论 ， 模糊控制 ， 智能 控制 
+ 参考文献 
+ 1 　 AminNH . OptimalDiscreteSystemwithPrescribedEigenvalues . Int . J . Control , 
+ 　 　 1984 , 40 ( 4 ) ： 783 ～ 794 
+ 2 　 FujinakaT , KatayawaT . Discrete - timeOptimalRegulatorwithClosed - LoopPoles 
+ 　 　 inaPrescribedRegion . Int . J . Control , 1988 , 47 ( 5 ) ： 1307 ～ 1321 
+ 3 　 王耀青 . 离散系统 最优 调节器 的 逆 问题 ． 控制 与 决策 ， 1988 ， 3 ( 1 ) ： 52 ～ 53 
+ 4 　 王耀青 ， 吕勇 哉 ． 具有 给定 闭环 极点 的 最优控制 系统 设计 ． 信息 与 控制 ， 1989 ， 18 ( 3 ) ： 
+ 　 　 41 ～ 45 
+ 5 　 喻 铁军 ， 戴冠 中 ． 指定 闭环 特征值 的 最优控制 系统 参数 化 设计 ． 控制 与 决策 ， 1989 ， 4 ( 4 ) ： 
+ 　 　 18 ～ 22 
+ 6 　 谢宋 和 ． 二次 型 最优 离散系统 的 两个 必要条件 ． 控制 理论 与 应用 ， 1991 ， 8 ( 1 ) ： 64 ～ 67 
+ 7 　 谢宋 和 ． 有关 《 指定 闭环 特征值 的 最优控制 系统 参数 化 设计 》 文中 定理 2 的 一个 反例 ． 控制 
+ 　 　 与 决策 ， 1991 ， 6 ( 6 ) ： 480 ～ 481 
+ 8 　 谢宋 和 ． 关于 《 具有 指定 闭环 特征值 的 离散 时间 最优 调节器 的 设计 》 一文 的 反例 ． 控制 理 
+ 　 　 论 与 应用 , 1993 , 10 ( 1 ) ： 118 ～ 119 
+ 9 　 冯 冬青 ， 谢宋 和 ． 最优 离散 控制系统 的 参数 化 设计 ． 郑州 工学院 学报 ， 1993 , 14 ( 1 ) ： 96 ～ 101 
+ 10 　 冯 冬青 ， 谢宋 和 ． 关于 二次 型 最优 极点 配置 的 几个 问题 ． 郑州 工学院 学报 ， 1995 , 16 ( 1 ) ： 
+ 　 　 57 ～ 63 
+ 11 　 须田信 英 等 著 ， 曹长 修译 ． 自动控制 中 的 矩阵 理论 ， 科学出版社 ， 1979 
+ 
+ 收稿 日期 ： 1998 - 01 - 20 

@@ -1,0 +1,86 @@
+计算机 研究 与 发展 
+ JOURNALOFCOMPUTERRESEARCHANDDEVELOPMENT 
+ 1999 年 第 36 卷 第 8 期 Vol.36 No.81999 
+ 
+ 
+ 
+ 用 结构 性质 分开 复杂 类 
+ 吕义忠 
+ 摘 　 要 　 NP ( 或 Co - NP ) 是否 包含 在 P / poly 中 的 问题 迄今 仍为 开 问题 . 80 年代 初 证明 了 如果 NP 罰 / poly ， 则 PH = Σ 2 . 最近 ， 又 有 了 如果 NPP / poly ， 则 PH = ZPP 的 证明 . 文中 将 借助于 广义 一阶 逻辑 及其 上 的 模型 论以 证明 存在 NP ( 或 Co - NP ) 中 的 语言 ， 它们 没有 多项式 大小 的 线路 . 
+ 关键词 　 结构 复杂性 ， 广义 一阶 逻辑 ， 图论 
+ 中图法 分类号 　 TP301.5 
+ SEPARATINGCOMPLEXITYCLASSESBYTHEIRSTRUCTURALPROPERTIES 
+ LYi - Zhong 
+ ( DepartmentofComputerScience , NanjingUniversityofAeronauticsandAstronautics , Nanjing210016 ) 
+ ( StateKeyLaboratoryforNovelSoftwareTechnology , NanjingUniversity , Nanjing210093 ) 
+ Abstract 　 WhetherNP ( orCo - NP ) P / polyisstillanopenproblem . Intheearly1980 ' s , ithasbeenprovedthatifNPP / polythenPH = Σ 2 . Recently , ithasbeenprovedthatifNPP / polythenPH = ZPP . Inthepaperhere , itisprovedbymeansoftheextendedfirst - orderlogicandmodeltheoryonitthattherearesomelanguagesinNP ( orCo - NP ) whichdonothavepolynomialcircuits . 
+ Keywords 　 structuralcomplexity , extendedfirst - orderlogic , graphtheory 
+ 1 　 引 　 言 
+ 　 　 非 一致 计算 模型 能否 判定 NP 完全 语言 的 问题 迄今 尚未 得到 解决 ［ 1 ～ 4 ］ . 1980 年 Karp 和 Lipton ［ 2 ］ 以及 Pippenger ［ 5 ］ 等 人 引进 了 基于 多项式 长度 有 界 函数 的 非 一致 复杂 类 P / poly 并且 证明 它 恰 与 多项式 大小 线路 的 复杂 类 相同 . 与此同时 ， Karp , Lipton 和 Sipser 等 人 证明 ， 如果 NPP / poly ， 则 PH = Σ 2 ［ 2 ， 6 ］ . 当前 ， Kbler 和 Watanabe 证明 ， 如果 一个 自可 归约 集有 多项式 大小 线路 ， 则 它 属于 ZPP ( 从而 NP ) ， 因而 ， PH = Σ 1 ［ 3 ］ . 本文 基于 上述 结果 ， 引进 了 简单 可数 无穷 图 逼近 接受 等 新 概念 以 进一步 探讨 NP ( 或 Co - NP ) 与 P / poly 之间 的 关系 ， 并且 借助于 广义 一阶 逻辑 及其 上 的 模型 论 ， 证明 了 在 NP ( 或 Co - NP ) 中 存在 无 多项式 大小 线路 的 语言 . 
+ 2 　 定 　 义 
+ 　 　 设 字母表 Σ = { 0 , 1 } ， 又 设为 包括 空字 ( 记 为 “ λ ” ) 在内 的 Σ 上 的 一切 有 穷串 的 集合 ， 再设 N ＋ 为 全体 正整数 的 集合 ， 则 存在 双射 ， 使得 任何 串当且 仅 当 正整数 . 因此 ， 中 的 串 可 按 N ＋ 排序 并且 特记 其为 . 
+ 　 　 我们 定义 简单 可数 无穷 图 G = 〈 V , e 〉 ， 其中 ， 顶点 集 V 固定 为 可数 无穷 集 ， 边 关系 e 为 V 上 的 一个 对称 的 二元关系 ［ 7 ， 8 ］ . 设 ， 则 可定义 G 的 点 诱导 子图 并且 简记 其为 . 我们 称为 Gn 的 编码 ( 这里 视 e ( i , j ) 为 二 进值 “ 0 ” 或 “ 1 ” 并且 约定 g ( 1 ) = λ ) ， 又称 g 为 G 的 编码 函数 . 显然 ， 同一个 图 的 e 和 g 应 满足 确定 的 关系 ， 它 可用 广义 一阶 语言 表述 如下 ： 设 G = 〈 V , e 〉 ， 则 g 为 G 的 编码 函数 当且 仅 当 ( 该 事实 记 为 ( * ) ) ， 这里 ， 逻辑 函数 BIT ( x , y ) = y 的 第 x 位二 进值 ［ 9 ， 10 ］ . 
+ 　 　 我们 须 使用 非 一致 复杂 类 P / poly , 其 定义 为 ， 其中 ， poly 为 多项式 长度 有 界 函数 集 ， 即 ， 存在 多项式 p , 使得 对 任何 自然数 n , | f ( n ) | ≤ p ( n ) ［ 1 ， 4 ］ . 
+ 3 　 布尔 线路 和 逼近 接受 
+ 　 　 设 G 为 简单 可数 无穷 图 ( 以后 简称 其为 无穷 图 ) ， 又 设 g 为 G 的 编码 函数 ， 再设 { Cm } m ≥ 1 为 多项式 大小 的 线路 簇 ［ 1 ， 4 ］ ， 则 有 以下 定义 ： 
+ 　 　 定义 1 . 若 存在 k ∈ N ＋ 使得 对 任何 n ∈ N ＋ 均 有 { Cm } m ≥ 1 接受 〈 k , g ( n ) 〉 ， 则 说 G 被 { Cm } m ≥ 1 逼近 接受 . 
+ 　 　 定义 2 . 设 C 为 无穷 图 的 集合 . 若 对 任何 无穷 图 G 均 有 ， G ∈ C 当且 仅 当 G 被 { Cm } m ≥ 1 逼近 接受 ， 则 说 集合 C 被 { Cm } m ≥ 1 逼近 接受 . 
+ 　 　 引理 1 . 对 任何 集合 A Σ * ， A 有 多项式 大小 线路 当且 仅 当 A ∈ P / poly ［ 1 ， 2 ， 4 ， 5 ］ . 
+ 　 　 引理 2 . 设 C 为 无穷 图 G 的 集合 ， 又 设 g 为 G 的 编码 函数 ， 则 C 被 多项式 大小 的 线路 逼近 接受 当且 仅 当 存在 多项式 时间 谓词 h 和 多项式 有 界 函数 f 使得 对 任何 无穷 图 G 均 有 ： G ∈ C 当且 仅 当 
+ 　 　 证明 . ( 必要性 ) 设 C 被 多项式 大小 的 线路 簇 { Cm } m ≥ 1 逼近 接受 ， 又 设 { Cm } m ≥ 1 接受 的 集合 为 A ， 则 由 引理 1 ， A ∈ P / poly ， 故 按 定义 ， 存在 多项式 时间 谓词 h ( P 中 集合 B 的 特征函数 ) 和 多项式 有 界 函数 f ， 使得 对 任何 无穷 图 G 均 有 
+ 
+ 　 　 ( 充分性 ) 由 假设 条件 中 的 h 和 f 便 能 决定 一个 P / poly 中 的 集合 A ′ 并且 由 引理 1 便 得 ， A ′ 必 被 某个 多项式 大小 的 线路 簇 { C ′ m } m ≥ 1 所 接受 . 因此 ， 又 由 假设 条件 即得 ： 逼近 接受 . 故依 定义 2 ， C 被 { C ′ m } m ≥ 1 逼近 接受 . 
+ 证毕 . 
+ 4 　 用 结构 性质 分开 复杂 类 
+ 　 　 Watanabe 用 “ 多 一 归约 下 封闭 ” 这一 结构 性质 分开 了 复杂 类 NP 与 DEXT . 本文 则 用 “ 不含 k 阶 完全 子图 ” 这一 结构 性质 来 讨论 NP ( 或 Co - NP ) 与 P / poly 的 分开 问题 . 
+ 　 　 定理 1 . 设 S = { G | G 为 无穷 图且 存在 正整数 r 使得 G 不含 完全 子图 Kr } ， 则 S 不 被 任何 多项式 大小 的 线路 逼近 接受 . 
+ 　 　 证明 . ( 反证法 ) 反设 S 被 多项式 大小 的 线路 { Cm } m ≥ 1 逼近 接受 ， 则 由 引理 2 ， 存在 多项式 谓词 h 和 多项式 有 界 函数 f ， 使得 对 任何 无穷 图 G 均 有 
+ 
+ 　 　 显然 ， 在 反证法 的 假设 下 ， h 和 f 是 固定 不变 的 ， 同样 ， 配对 函数 〈 x , y 〉 和 求 长度 函数 | x | 也 是 固定 不变 的 . Immerman 在 讨论 有穷 模型 时 ， 将 固定 不变 的 谓词 和 函数 都 归入 广义 一阶 语言 中 ( 如 BIT ， s , ≤ , o , max 等 ) ， 使 它们 变成 中 的 逻辑 谓词 和 逻辑 函数 ［ 9 ］ . 现在 我们 讨论 可数 模型 ， 故 同样 可 将 固定 不变 的 h , f , 〈 x , y 〉 和 | x | 归入 广义 中 . 于是 可简化 式 ( 1 ) 为 
+ 
+ 其中 ， A 为 广义 一阶 语言 中 的 一阶 公式 . 
+ 　 　 同样 地 ， 如果 将 固定 不变 的 BIT ， D ( x ) ( 即 x - 1 ) ， H ( x ) ( 即 x / 2 ) 和 加法 “ + ” 放入 中 ， 则 前述 ( * ) 可简化 为 
+ g 为 G 的 编码 函数 　 
+ 其中 ， B 为 上 的 一阶 公式 . 
+ 　 　 最后 ， 显然 有 
+ 
+ 现在 ， 分别 记式 ( 2 ) 、 ( 3 ) 和 ( 4 ) 右边 的 一阶 句子 为 ， 则 它们 所含 的 中 的 非 逻辑 符号 仅为 e 和 g ， 即型 τ = { e , g } ［ 9 ， 10 ］ . 
+ 　 　 今设 上 的 句子 的 无穷 集 为 
+ 
+ 不失 一般性 ， 可 设 Γ 的 任一 有穷 子集 为 
+ 
+ 则 只要 令图 G ′ 为 由 完全 图 Km 和 可数 无穷 多个 孤立 点 组成 的 无穷 图 ， 那末 ， 由 G ′ 确定 的 e ′ 和 g ′ 将 满足 ψ , χ , φ 1 ， φ 2 ， … ， φ m . 换言之 ， Γ 是 有 穷 可 满足 的 . 因此 ， 由紧 致性 定理 即得 Γ 有 可数 模型 u ( 注意 ： Γ 是 可数 的 ) ［ 7 ］ . 显然 ， 仍 可 将 u 的 论域 视为 Σ ＋ . 现在 可 得 以下 3 个 结论 ： 
+ 　 　 ( 1 ) u 中 的 关系 e 和 函数 g 应当 满足 χ ， 故 g 为 对应 于 e 的 无穷 图 的 编码 函数 . 
+ 　 　 ( 2 ) u 应 满足 ψ ， 故 存在 正整数 r ， 使得 e 对应 的 无穷 图中 不 含 r 阶 完全 子图 Kr . 
+ 　 　 ( 3 ) u 应 满足 φ 1 ， φ 2 ， … ， φ m ， … ， 即 由 e 对应 的 无穷 图中 应含 . 显然 ， ( 2 ) 和 ( 3 ) 矛盾 ， 这 便 证明 了 我们 的 定理 . 
+ 证毕 . 
+ 　 　 定理 2 . 设 T = { 〈 r , g 〉 | r 为 正整数 且 g 为 不 含子 图 Kr 的 无穷 图 的 编码 函数 } ， 则 . 
+ 　 　 证明 . ( 反证法 ) 反设 T ∈ P / poly ， 则 存在 多项式 谓词 h 和 多项式 有 界 函数 f 使得 ， 
+ 
+ 　 　 现在 ， 对于 定理 1 中 的 S ， 我们 有 
+ 
+ 现在 ， 由 引理 2 即得 S 被 多项式 大小 的 线路 逼近 接受 ， 这 便 与 定理 1 矛盾 ， 得证 . 
+ 证毕 . 
+ 　 　 定理 3 . 并非 Co - NP 中 的 集合 皆 有 多项式 大小 的 线路 . 
+ 　 　 证明 . 已知 定理 2 中 的 T ∈ Co - NP ［ 1 ， 4 ， 6 ］ . 如果 T 有 多项式 大小 的 线路 ， 则 由 引理 1 即得 T ∈ P / poly ， 这 便 与 定理 2 矛盾 ， 得证 . 
+ 证毕 . 
+ 　 　 定理 4 . 并非 NP 中 的 集合 皆 有 多项式 大小 的 线路 . 
+ 　 　 证明 . 因为 对补 运算 封闭 ， 故 ， 即 NP 中 集合 无 多项式 大小 的 线路 . 
+ 证毕 . 
+ 基金项目 ： 本 课题 得到 国家自然科学基金 ( 项目编号 6983003 ) 项目 资助 
+ 作者简介 ： 吕义忠 ， 男 ， 1937 年生 ， 教授 ， 主要 从事 数理逻辑 与 计算 复杂性 方面 的 研究 工作 
+ 作者 单位 ： 吕义忠 　 南京航空航天大学 计算机科学 与 工程系 　 南京 　 210016 
+ 　 　 　 　 　 　 　 　 　 南京大学 计算机软件 新 技术 国家 重点 实验室 　 南京 　 210093 ) 
+ 参考文献 
+ 1 　 　 BalcazarJL , DiazJ , GabarroJ . StructuralComplexity . Heidelberg : Springer - Verlag , 1988 ( I ) , 1990 ( II ) 
+ 2 　 　 KarpR , LiptonR . Someconnectionsbetweennon - uniformanduniformcomplexityclasses . In : Procof12thACMSymponTheoryofComputing . Heidelberg : Springer - Verlag , 1980.302 ～ 309 
+ 3 　 　 KblerJ , WatanabeO . NewcollapseconsequencesofNPhavingsmallcircuits . LectureNotesinComputerScience # 944 . NewYork : Springer - Verlag , 1995 , 196 ～ 207 
+ 4 　 　 L ü Yizhong , SunHuicheng . ThePrincipleofStructuralComplexity . Nanjing : NanjingUniversityPress , 1995 
+ 5 　 　 PippengerN . Onsimultaneousresourcebounds . In : Proc20thIEEESympFoundationsofComputerScience . Heidelberg : Springer - Verlag , 1979.307 ～ 311 
+ 6 　 　 SipserM . Acomplexitytheoreticapproachtorandomness . In : Proc15thAnnACMSymponTheoryofComputing . Heidelberg : Springer - Verlag , 1983.330 ～ 335 
+ 7 　 　 BondyJA , MurtyUSR . GraphTheorywithApplications . Amsterdam : North - Holland , 1976 
+ 8 　 　 WilsonRJ . IntroductiontoGraphTheory , ThirdEdition , NewYork : LongmanInc , 1985 
+ 9 　 　 ImmermanN , Descriptiveandcomputationalcomplexity . In : HartmanisJed . ComputationalComplexityTheory , ProcofSymposiainAppliedMathematics , Vol38 . Georgia : AmericanMathematicalSociety , 1989.75 ～ 91 
+ 10 　 　 MalitzJ . IntroductiontoMathematicalLogic . Heidelberg : Springer - Verlag , 1979 
+ 收到 日期 ： 1997 - 11 - 21 
+ 改稿 日期 ： 1998 - 09 - 07 

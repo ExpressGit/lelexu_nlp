@@ -1,0 +1,112 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1998 年 第 18 卷 第 4 期 No.4 Vol.181998 
+ 科技期刊 
+ 
+ 氧化 * 热化学 脱硫 研究 
+ 冷 　 宏 　 张芝涛 　 白希尧 　 （ 大连海事大学 科学技术 研究院 ， 大连 116026 ） 
+ 文 　 摘 　 热化学 脱硫 法 因 铵盐 回收率 低 、 产物 不 稳定 ， 无法 解决 实用化 问题 。 氧化 热 化学法 应用 超强 脉冲 电场 产生 高浓度 、 高能量 的 活性 粒子 ， 使 SO2 在 氧化 过程 中 生成 H2SO4 ， 与 NH3 进行 热 化学反应 ， 生成 稳定 的 固体 微粒 ( NH4 ) 2SO4 ， 用电 收尘 器 加以 回收 。 脱除 率 、 回收率 可达 90% 左右 ， 脱除 1m3 烟气 中 SO2 耗能 为 4Wh ， 实现 了 干法 高效 脱硫 。 一次 投资 大幅度 减少 ， 回收 铵盐 基本上 抵消 了 药品费 和 电费 。 
+ 关键词 　 热化学 　 氧化 　 活性 粒子 　 回收率 
+ StudyonremovalofSO2byoxidized * thermalchemicalmethod . LengHong , ZhangZhitao , BaiXiyao . ( ScientificandTechnologicalResearchInstitute , DalianMaritimeUniversity ， Dalian116026 ) . ChinaEnvironmentalScience.1998 , 18 ( 4 ) : 324 ～ 327 
+ Abstract — RemovalofSO2bythermalchemicalmethodcannotbeappliedduetolowcollectionefficiencyofammoniumsaltsandunstableproducts . Oxidized * thermalchemicalmethodappliesultra - highpulseelectricfieldtoproduceactivatedparticlesofhighconcentration 、 highenergy , sothatSO2isoxidizedtoproduceH2SO4andfurtherformstablesolidparticles ( NH4 ) 2SO4afterthermalchemicalreactionwithNH3 , whichiscollectedinelectrostaticprecipitator ( EP ) . TherateofSO2removalandcollectionisupto90% , andenergyconsumptionin1m3fluegasis4Wh . Therefore , theSO2removalofhigheffectivedrymethodisrealized . Withthismethod , theonceinvestmentisdiminishedgreatly , andtheexpensesforadditiveNH3andelectricityareoffsettedbytheprofitsofthecollectionammoniumsalts . 
+ Keywords : thermalchemistry 　 oxidization 　 activatedparticles 　 collectionefficiency 
+ 　 　 从 烟气 中 脱除 SO2 的 技术 ， 已 在 多方面 获得 发展 ， 每种 方法 各具 优缺点 。 普遍认为 把 SO2 转化 成为 有用 物质 加以 回收 ， 是 一种 理想 方法 。 但 到 目前为止 ， 已 发展 的 所有 回收 方法 总 生产成本 比 抛弃 法高 。 科学 工作者 近 10 余年 来 正 着手 研究 一种 低成本 高效率 的 回收 法 。 日本 原子力 研究所 早就 研究 一种 干法 回收 法 〔 1 〕 ， 它 应用 电子 加速器 产生 高速 电子 ( 1MeV ) 碰撞 烟气 产生 OH 、 O 、 HO2 等 氧化 自由基 ， 使 烟气 中 SO2 氧化 ， 与 H2O 生成 H2SO4 ， 再用 NH3 气体 中 和 生成 ( NH4 ) 2SO4 ， 进入 半 工业 规模 实验 阶段 。 它 的 缺点 是 电子 加速器 庞大 ， 存在 辐射 污染 ， 还 需 在 反应器 外 设置 2m 厚 防辐射 层 ， 一次性 投资 偏高 ， 耗能 偏 大 。 为此 日本 增田闪 一 教授 研究 成功 高 电压 窄 脉冲 电晕 放电 等离子体 化学法 脱硫 技术 〔 2 〕 ， 该法 回收率 低于 10 ％ ， 运行 费用 高 ， 烟气 温度 高于 54 ℃ 时 ， 排放 出 的 气态 ( NH4 ) 2SO3 又 成为 新 的 污染源 。 东京大学 定 方正 毅 教授 〔 3 〕 提出 高 电压 窄 脉冲 电晕 放电 等离子体 化学法 脱硫 是 热 化学法 ， 反应 产物 是 ( NH4 ) 2SO3 ， 在 烟气 温度 高于 54 ℃ 时 ， ( NH4 ) 2SO3 是 以 气体 存在 ， 极 不 稳定 ， 无法 回收 。 
+ 　 　 热化学 是 一项 古典 化学 方法 〔 4 〕 ， 由于 该法 存在 两种 以上 气体 NH3 与 SO2 在 气相 有效 混合 接触 效果 差 ； 烟气 中 低 含量 O2 气 很 难 把 SO2 氧化 成 SO3 ； NH3 和 SO2 是 在 气相 分子 间 反应 ， 在 54 ℃ 以上 时 产生 气态 铵盐 ， 难以 收集 等 问题 ， 因此 无法 实际 应用 。 
+ 1 　 氧化 * 热化学 脱硫 原理 
+ 　 　 对 氧化 器中 电场 供给 超强 脉冲 电场 ， 电子 从 外加 脉冲 电场 获得 几十 eV 能量 ， 电子 和 烟气 分子 之间 发生 非 弹性 有效 碰撞 ， 在 电场 中 产生 高能量 、 高浓度 非 平衡 等离子体 ， 产生 大量 的 活性 粒子 （ 氧化 自由基 ） 。 
+ 　 　 在 氧化 器中 的 氧化 过程 发生 如下 化学反应 ： 
+ 
+ 　 　 烟气 中 SO2 氧化 生成 H2SO4 后 注入 化学反应 器 ， 在 化学反应 器中 注入 NH3 气体 ， 将 发生 如下 热 化学反应 ： 
+ 
+ 　 　 在 化学反应 器中 生成 ( NH4 ) 2SO4 固体 微粒 ， 用 回收 器 加以 收集 。 回收 器 可以 使 微细 的 气溶胶 状 的 铵盐 粗化 100 倍 以上 ， 微粒 趋进 集尘 极 的 速度 大幅度提高 ， 将 有效 地捕 集 微细 铵盐 。 
+ 2 　 氧化 * 热化学 脱硫 实验 方法 
+ 2.1 　 实验 装置 
+ 
+ 图 1 　 氧化 * 热化学 脱硫 工艺流程 示意 
+ Fig.1 　 Schematicdiaguamofexperimentalequipmentfor 
+ removalofSO2byoxidized * thermal 
+ chemicalmethod 
+ 　 　 1 . 气体 混合器 2 . 加热器 3 . 调湿 器 4 . 冷却塔 5 . 氧化 器 6 . 热 化学反应 器 7 . 回收 器 8 . 风机 9 . 湿度 控制器 10 . 水汽 产生器 11 . 温度 控制器 12 . 脉冲 电源 13 . NH3 气 供给 器 14 . 直流电源 15 . NH3 浓度 控制器 A 、 B 、 C 、 D 、 E 、 F 均 为 测试点 
+ 　 　 氧化 * 热化学 脱硫 实验 装置 如图 1 所示 。 把 N2 、 O2 、 CO2 、 SO2 和 水汽 在 气体 混合器 ( 1 ) 中 混合 ， 在 加热器 ( 2 ) 把 实验 气体 加温 到 100 ～ 150 ℃ ， 出口 气体 送入 调湿 器 ( 3 ) , 用 冷却塔 ( 4 ) 把 实验 气体 降温 到 实验 要求 温度 ， 经 增湿 降温 的 烟气 送入 氧化 器 ( 5 ) 氧化 烟气 中 。 应用 脉冲 电场 强度 140kV / cm ， 脉冲 上升 速率 4.8 kV / ns 的 超强 脉冲 在 氧化 器中 发生 激烈 脉冲 放电 ， 产生 大量 氧化 自由基 ， 使 SO2 充分 氧化 成 SO3 ， 与 H2O 生成 气态 H2SO4 。 从 氧化 器 ( 5 ) 入口处 ( D ) 测得 SO2 的 摩尔 数 输送到 NH3 浓度 控制器 ( 15 ) ， 去 控制 NH3 的 供给量 。 使 H2SO4 与 NH3 充分 进行 热 化学反应 ， 产生 ( NH4 ) 2SO4 微粒 ， 把 剩余 NH3 的 浓度 控制 在 20mg / L 范围 内 。 产生 ( NH4 ) 2SO4 的 雾状 微粒 在 回收 器 ( 7 ) 中 回收 ， 经振打 落到 料斗 内 ， 净化 后 烟气 用 风机 引风 经 烟筒 外排 出去 。 
+ 2.2 　 实验 条件 
+ 　 　 实验 气体 是 由 Air 、 SO2 、 H2O 、 O2 、 CO2 等 气体 组成 ， 试料 气体 流量 200Nm3 / h ， 采用 高 电压 脉冲 加 到 氧化 器 的 电极 上 ， 在 氧化 器中 脉冲 电场 强度 将 达到 140kV / cm ， 上升 速率 4.8 kV / ns 。 加 到 回收 器 的 直流电 场 强度 800kV / m 。 
+ 　 　 采用 的 仪器仪表 ： QGS - 10 型 红外线 分析仪 检测 SO2 气体 浓度 ； GXH - 105 型 红外线 分析仪 检测 NH3 气体 浓度 ； DX - 100 型 离子 色谱仪 ； 安普 300 型 环境污染 检测仪 ； SWX2 型 温度 测试仪 ； KTMT 型 湿度 测试仪 等 。 
+ 3 　 结果 与 讨论 
+ 3.1 　 气体 温度 与 脱除 率 关系 
+ 　 　 气体 成分 为 N2 / O2 / CO2 / H2O ， 配比 70.7 / 1.8 / 9.9 / 17.6 vol% ， NH3 / SO2 摩尔 比为 2 ， SO2 浓度 为 3.16 g / m3 。 气体 温度 对 SO2 脱除 率 影响 如图 2 所示 ， 气体 温度 低于 70 ℃ 或 高于 100 ℃ 时 ， 脱除 率 几乎 不 受 温度 影响 ； 在 70 ℃ ～ 100 ℃ 之间 影响 较大 ， 随 温度 增加 而 降低 。 因此 ， 气体 温度控制 在 70 ℃ ～ 80 ℃ 为 适宜 。 
+ 
+ 图 2 　 气体 温度 与 SO2 脱除 率 关系 曲线 
+ Fig.2 　 Relationofgastemperatureagainstremoval 
+ efficiencyofSO2 
+ 3.2 　 湿度 对 脱除 率 的 影响 
+ 　 　 气体 温度 100 ℃ ， 其 成分 为 N2 / O2 / CO2 ， 配比 为 83.8 / 3.6 / 12.6 vol% ， SO2 的 浓度 为 3.43 g / m3 ， 注入 NH3 / SO2 摩尔 比为 2 。 氧化 * 热 化学法 的 脱除 率 与 湿度 关系 如表 1 所示 ， 烟气 湿度 大 脱除 率高 ， 所以 脱除 率受 湿度 影响 较大 。 
+ 表 1 　 湿度 对 脱除 率 的 影响 
+ Table1 　 Effectofhumidityonremovalefficiency 
+ 
+ 湿度 
+ ( % RH ) 原始 浓度 
+ ( g / m3 ) 反应 后 浓度 
+ ( g / m3 ) 脱除 率 
+ ( % ) 
+ 01.0540 . 59843.3 
+ 17.60 . 7690.07390 . 6 
+ 
+ 3.3 　 O2 浓度 对 脱除 率 的 影响 
+ 　 　 气体 成分 为 N2 / CO2 / H2O ， 配比 为 70.7 / 11.7 / 17.6 vol ％ ， 烟气 温度 23 ℃ ， NH3 / SO2 摩尔 比为 2 。 实验 结果 如图 3 所示 ， 当 烟气 中 O2 含量 从 2 ％ 到 20.3 ％ 时 ， 随着 O2 浓度 增加 ， SO2 脱除 率 略有 增加 ， SO2 脱除 率 基本上 在 90 ％ 左右 。 因此 ， 只要 烟气 中 O2 含量 高于 2 ％ 时 ， 就 可以 满足 化学反应 对 氧气 的 需求量 。 
+ 
+ 图 3 　 O2 浓度 与 SO2 脱除 率 的 关系 曲线 
+ Fig.3 　 RelationofO2concentrationagainstremoval 
+ efficiencyofSO2 
+ 3.4 　 NH3 注入 量 对 SO2 脱除 率 的 影响 
+ 　 　 气体 成分 为 N2 / O2 / CO2 / H2O , 配比 为 70.7 / 1.8 / 9.9 / 17.6 vol ％ ， 烟气 温度 13 ℃ ， SO2 浓度 为 4.64 g / m3 。 实验 结果 如图 4 所示 ， NH3 注入 量 对 SO2 脱除 率 影响 较大 。 NH3 / SO2 摩尔 比为 2 时 ， 曲线 处于 拐点 ， 当 NH3 / SO2 摩尔 比 高于 2 时 ， 脱除 率 可 达到 90 ％ 以上 ， 变化 平稳 ； 而 低于 2 时 ， 则 脱除 率 较 低 ， 与 NH3 注入 量 呈 正比 关系 ， 由 化学反应 过程 中 对 NH3 的 需求量 所 决定 的 。 因此 ， NH3 注入 量 必须 满足 反应 的 最低 需要量 ， 从 经济 方面 考虑 ， NH3 / SO2 摩尔 比可选 在 2.2 左右 。 
+ 
+ 图 4 　 NH3 注入 量 与 SO2 脱除 率 关系 曲线 
+ Fig.4 　 RelationofinjetquantityofNH3againstremoval 
+ efficiencyofSO2 
+ 3.5 　 生成物 成分 分析 
+ 　 　 气体 成分 为 N2 / O2 / CO2 / H2O ， 配比 为 70.1 / 2.6 / 9.7 / 17.6 vol ％ ， 浓度 为 3.28 g / m3 ， NH ３ / SO2 摩尔 比为 2.2 ， 实验 温度 为 72 ℃ 。 烟气 脱硫 后 在 回收 器中 收集 大量 粉体 ， 其中 ( NH4 ) 2SO4 和 （ NH4 ） 2SO ３ 含量 比 对 实验 来说 是 十分 重要 的 ， 因此 应对 生成物 进行 成分 分析 。 从 氧化 回收 器 内壁 及 电晕 极上 分别 采取 一定量 的 样品 ， 用 DX - 100 型 离子 色谱仪 进行 分析 和 检测 。 电晕 极上 的 样品 中 ( NH4 ) 2SO4 含量 高达 97 ％ ， 反应器 内壁 上 的 样品 ( NH4 ) 2SO4 含量 为 88% 。 
+ 3.6 　 生成物 ( NH4 ) 2SO4 的 回收 实验 
+ 　 　 烟气 脱硫 后 生成物 的 回收 实验 条件 同 上 ， 实验 结果 如表 2 。 实验 运行 6min 后 ， 11.9 ℃ 时 在 回收 器 内壁 及 电晕 极上 共 回收 84.0 g ( NH4 ) 2SO4 。 高温 回收率 低于 低温 ， 在 71.8 ℃ 时 ， 回收率 可达 88.5% 。 
+ 表 2 　 烟气 脱硫 后 生成物 的 回收率 
+ Fig.2 　 Collectionefficiencyofproductsaftertheremoval 
+ SO2fromfluegas 
+ 
+ 烟气 温度 硫铵 理论 产生 量 硫铵 实验 回收 量 硫铵 回收率 
+ ( ℃ ) ( g ) ( g ) ( % ) 
+ 11.988 . 384.095 . 0 
+ 71.888 . 378.188 . 5 
+ 
+ 　 注 ： 铵盐 回收率 ： 实验 回收 量 ( g ) / 理论 回收 量 ( g ) 
+ 
+ 3.7 　 气体 流速 对 脱除 率 的 影响 
+ 　 　 气体 成分 为 N2 / O2 / CO2 / H2O ， 配比 为 70.6 / 1.8 / 10.0 / 13.6 vol ％ ， SO2 浓度 为 2.99 g / m3 ， NH3 / SO2 摩尔 比为 2 ， 实验 温度 为 23 ℃ 。 实验 结果 如图 5 ， 在 热 化学反应 器中 气体 的 流速 对 SO2 脱除 率 无 显著 影响 ， 当 气体 流速 增加 时 ， SO2 脱除 率 逐渐 降低 ， 气体 流速 在 0.2 ～ 0.8 m / s 之间 时 ， SO2 脱除 率 基本上 可 保持 在 90% 左右 。 
+ 3.8 　 氧化 * 热 化学法 的 能耗 
+ 　 　 实验 气体 成分 为 N2 / O2 / CO2 / H2O ， 气体 流量 200m3 / h ， 配比 为 70.6 / 1.8 / 9.9 / 17.7 vol% ， 温度 为 54 ℃ ， 实验 结果 如表 3 。 由表 3 可知 ， 每 立方米 消耗 电能 为 4.21 ～ 4.40 Wh 。 
+ 
+ 图 5 　 气体 流速 与 SO2 脱除 率 关系 曲线 
+ Fig.5 　 Relationofgasvelocityagainstremoval 
+ efficiencyofSO2 
+ 表 3 　 氧化 * 热化学 脱硫 能耗 
+ Table3 　 EnergyconsumptionofSO2removalbyoxidized * thermalchemicalmethod 
+ 
+ 原始 浓度 
+ ( g / m3 ) 反应 后 浓度 
+ ( g / m3 ) 一次 电耗 ( Wh ) 消耗 电能 
+ ( Wh / m3 ) 
+ 氧化 器热 化学反应 器 氧化 回收 器 合计 
+ 4.530 . 418100698794.40 
+ 2.540 . 217900528424.21 
+ 
+ 4 　 结论 
+ 　 　 氧化 * 热 化学法 实现 了 把 有害物质 SO2 转化成 有用 物质 铵盐 加以 回收 ， 解决 了 多年 困扰 热 化学法 、 窄 脉冲 电晕 放电 等离子体 化学法 生成物 — 铵盐 回收 问题 ， 解决 了 热 化学法 脱硫 的 实用化 问题 。 SO2 脱除 率 和 铵盐 回收率 均 在 90 ％ 左右 , 每 处理 1m3 烟气 能耗 4Wh 左右 。 
+ 　 　 氧化 * 热 化学法 使 运行 成本 降低 ， 回收 铵盐 价值 抵消 了 加入 的 NH3 和 电费 外 ， 还 略有 节余 。 实现 了 低成本 高效率 干法 脱除 SO2 。 
+ 
+ 参考文献 
+ 1 　 青木 慎治 . 电子 ヒ - ム 排 ガ ス 处理 技术 . 燃料 及 燃烧 ， 1990 , 47 ( 3 ) ： 23 ～ 26 
+ 2 　 增田闪 一 . パ ル ス に よ ゐ ガ ス 脱硫 * 脱硝 に 关 す る 化学反应 － PPCP と SPCP ぉ よ ぴ そ の 应用 . 静电 气 学会 志 ， 1990 , 14 ( 6 ) ： 473 ～ 476 
+ 3 　 定 方正 毅 ， ヨ - ロ ツ パ に お け ゐ 环境 保全 の た め の 放电 应用 研究 . 静电 气 学会 志 , 1995 , 19 ( 4 ) ： 281 ～ 282 
+ 4 　 SlackAV . Sulfurdioxideremovalfromwastegases . Ridge , N . J . ： PressofNoyesDevelpmentCorporation , 1971 
+ 
+ 作者简介 　 　 　 
+ 冷 　 宏 　 男 ， 1968 年 9 月生 。 讲师 。 主要 从事 脱硫 研究 工作 及 臭氧 发生 的 研究 工作 。 参加 国家 “ 八五 ” 攻关项目 “ 高压 静电 等离子体 脱硫 脱硝 研究 ” 、 辽宁省 科学技术 基金项目 “ 常压 非 平衡 等离子体 活化 水 养鱼 研究 ” 等 多项 国家 及 省部级 项目 。 发表 论文 5 篇 。 
+ 收稿 日期 ： 1997 - 10 - 27 

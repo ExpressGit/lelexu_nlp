@@ -1,0 +1,106 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 4 期 Vol.24 No.41998 
+ 
+ 
+ 
+ 
+ 直接 辨识 扰动 模型 的 内模 极点 配置 自 适应控制 
+ 刘贺平 
+ 摘 　 要 　 给出 了 直接 在 辨识 器中 估计 扰动 模型 和 过程 模型 参数 的 算法 ， 扰动 模型 用于 极点 配置 自 适应控制 ， 根据 内部 模型 原理 消除 未知 确定 扰动 . 由于 使用 了 与 常规 方法 不同 的 观测 向量 ， 因而 省去 了 分离 扰动 模型 的 计算 过程 . 这种 方法 可 适用 于 多个 扰动 频率 的 情况 ， 且 辨识 器 的 阶数 不 超过 常规 辨识 器 . 分析 了 参数 的 可 辨识 性 和 系统 的 稳定性 . 
+ 关键词 　 辨识 ， 确定 扰动 ， 极点 配置 ， 自 适应控制 . 
+ ADAPTIVEPOLEPLACEMENTCONTROLLERWITH 
+ DIRECTLYESTIMATINGDISTURBANCEMODEL 
+ 
+ LIUHEPING 
+ ( BeijingUniversityofScience & Technology , Beijing100083 ) 
+ Abstract 　 Anewalgorithmwhichdirectlyidentifiesparametersofdisturbancemodelandplantmodelinanestimatorisgiven . Thedisturbancemodelisusedforadaptivepoleplacementcontrollerbasedontheinternalmodelprinciplesothatthedisturbancescanbeeliminated . Becausetheidentifingwayisdifferentfromcommonlyusedones , itisnotneededtoseparatethedisturbancemodel . Themethodcanbeusedinthesituationwherethedisturbancesareofmanyfrequencies , andthedegreeoftheestimatorisnothigherthanthatofthecommonone . Thepersistentspanningofobservingsignalandsystemstabilityanalysisarealsogiven . 
+ Keywords 　 Identification , deterministicdisturbances , poleplacement , adaptivecontrol . 
+ 1 　 前 　 言 
+ 　 　 在 极点 配置 自 适应控制 中 ， 消除 未知 确定 扰动 的 影响 一直 是 被 关心 的 课题 . 特别 是 正弦波 类型 周期性 扰动 ， 由于 扰动 模型 参数 和 控制 对象 零点 参数 在 辨识 、 分离 上 的 复杂性 ， 有 一些 算法 往往 是 以 扰动 模型 已知 为 前提 的 ［ 1 ］ . 近些年 ， 一些 文献 对模型 未知 的 情况 也 进行 了 研究 ， 提出 了 将 扰动 模型 与 过程 零点 进行 分离 的 方法 ， 并 在 改进 求取 扰动 模型 方面 做 了 努力 ， 使 模型 分离 计算 过程 有所 简化 ［ 2 ］ ， Palaniswami ［ 3 ］ 利用 分离 出 的 扰动 模型 估计值 代替 真值 构成 观测 向量 来 直接 辨识 过程 零点 参数 . 这种 方法 减少 了 辨识 参数 的 个数 ， 简化 了 分离 模型 的 计算 ， 但 没有 给出 被控 对象 高于 二阶 、 扰动 频率 多于 一个 情况 时 的 解决办法 . 
+ 　 　 上述 各种 方案 ， 虽然 计算方法 各异 ， 但 分离 模型 都 是 必须 的 . 随着 系统 阶数 或 扰动 频率 的 增加 ， 将 加大 分离 的 计算 量 和 难度 . 本文 提出 一种 能够 直接 辨识 出 扰动 模型 及 控制 对象 零点 参数 的 极点 配置 自 适应 控制算法 ， 因此 ， 无需 对模型 再行 分离 . 从而 简化 了 计算 过程 . 扰动 的 频率 可以 是 多种 的 情况 . 
+ 2 　 受控系统 描述 
+ 　 　 设 含有 确定性 扰动 的 控制 对象 模型 可用 下列 差分 方程 描述 ， 
+ A ( z － 1 ) y ( t ) = z － dB ( z － 1 ) u ( t ) + d ( t ) . 　 　 　 ( 1 ) 
+ 式 中 分别 表示 t 时刻 系统 的 输入 、 输出 信号 . Z － 1 为 一步 延迟 算子 ， d ( t ) 为 分段 连续 有界 的 确定性 扰动 信号 ， 这里 取 
+ 　 　 ( 2 ) 
+ 其中 ， degD ( z － 1 ) = 2n ω . 
+ 　 　 根据 极点 配置 控制器 设计 的 需要 ， 设 ( 1 ) 式 所示 系统 中 B ( z － 1 ) 与 A ( z － 1 ) D ( z － 1 ) 互质 ； 延迟时间 d ≥ 1 ， 且 为 已知 整数 ； n , m , n ω 已知 . 
+ 3 　 扰动 模型 及 过程 系统 参数 的 估计 方法 
+ 　 　 对于 ( 1 ) 式 描述 的 系统 ， 常规 的 方法 是 将 其 改写 成 以下 形式 ， 
+ A ′ ( z － 1 ) y ( t ) = z － dB ′ ( z － 1 ) u ( t ) . 　 　 ( 3 ) 
+ 式 中 A ′ ( z － 1 ) = A ( z － 1 ) D ( z － 1 ) , 　 B ′ ( z － 1 ) = B ( z － 1 ) D ( z － 1 ) . 再 由此 模型 估计 出 A ′ ( t , z － 1 ) 和 B ′ ( t , z － 1 ) ， 为了 构成 抑制 扰动 的 极点 配置 控制器 ， 还 需要 将 B ′ ( t , z － 1 ) 分离 为 B ( t , z － 1 ) 和 D ( t , z － 1 ) . 本文 采取 以下 措施 ， 可 省去 分离 计算 过程 . 首先 ， 将 扰动 模型 写成 以下 形式 
+ 　 ( 4 ) 
+ 设 m ≤ n ， 利用 ( 4 ) 式 将 B ( z － 1 ) D ( z － 1 ) 重新 构造 ， 使 ( 1 ) 式 得到 如下 的 参数 化 结构 
+ 　 ( 5 ) 
+ 定义 
+ 　 ( 6 ) 
+ 于是 由 ( 5 ) 和 ( 6 ) 式 得到 
+ 
+ 采用 适当 的 辨识 器 即可 得到 模型 的 估计 A ′ ( t , z － 1 ) , B ( t , z － 1 ) , D ( t , z － 1 ) . 
+ 　 　 在 辨识 器中 Φ 1 ( t - 1 ) 与 ( 3 ) 式 对应 的 Φ ( t - 1 ) 具有 不同 的 形式 ， 是 用 相同 的 输出 信号 和 控制 信号 重新 组合而成 的 ， 因此 需要 考察 是否 能够 维持 与 Φ ( t - 1 ) 相同 的 辨识 特性 . 
+ 　 　 定义 1 . 　 由 P 维 向量 信号 Φ ( k ) 组成 的 向量 集合 ｛ Φ ( k ) , N ｝ = ｛ Φ ( k ) , Φ ( k + 1 ) ， … ， Φ ( k + N - 1 ) ｝ ， 如果 存在 有界 的 正整数 N ， 对于 所有 的 k 可 张成 的 最大 空间 的 维数 是 P ， 则 称 其 为 具有 P . S . ( PersistentlySpanning ) 性 ［ 4 ］ . P . S . 性 保证 了 可 辨识 性 . 
+ 　 　 定理 1 . 辨识 方程 ( 7 ) 式 中 的 观测 向量 Φ 1 ( t - 1 ) 与 常规 的 观测 向量 Φ ( t - 1 ) 具有 相同 P . S . 性 的 充要条件 是 min ｛ m , n ｝ ≤ 1 . 
+ 　 　 证明 . 充分性 . 设 Φ ( t - 1 ) 具有 P . S . 性 ， 则 有 
+ rank ｛ Φ ( t - 1 ) , N ｝ = n + m + 1 + 4n ω = dim θ , 
+ 而 ｛ Φ 1 ( t - 1 ) , N ｝ 可 表示 成 ｛ Φ ( t - 1 ) ， N ｝ 的 变换 形式 
+ ｛ Φ 1 ( t - 1 ) ， N ｝ = Γ ｛ Φ ( t - 1 ) ， N ｝ . 　 　 ( 8 ) 
+ 其中 
+ 
+ 
+ Г ∈ R ［ m + n + 1 + ( 3 + m ) n ω ］ × ( n + m + 1 + 4n ω ) ， Г 矩阵 的 左上角 为 ( n + 2n ω ) 阶 单位矩阵 ， 记为 I ， 右下方 为 ( m + 1 ) ( n ω + 1 ) × ( 2n ω + m + 1 ) 阶 矩阵 ， 记 为 Г 1 . 当 m = 1 时 ， Г 1 是 ( 2 + 2n ω ) × ( 2 + 2n ω ) 阶满 秩 方阵 . m = 0 时 ， Г 1 成为 ( n ω + 1 ) × ( 2n ω + 1 ) 阶行 满 秩 矩阵 ， 综合 两种 情况 可知 ， Г 实现 了 行满 秩 变换 ， 则 有 
+ rank ｛ Φ 1 ( t - 1 ) , N ｝ = dim θ 1 ， 　 　 m ≤ 1 . 　 　 ( 9 ) 
+ 　 　 必要性 . m ＞ 1 时 ， Г 为 列满 秩 矩阵 ， rank Г = n + m + 1 + 4n ω ， 可 得 
+ rank ｛ Φ 1 ( t - 1 ) , N ｝ = n + m + 1 + 4n ω ＜ dim θ 1 ， 　 　 m ＞ 1 ， 　 　 ( 10 ) 
+ 这 就 证明 了 m ≤ 1 的 必要性 . 对于 n ≤ 1 的 情况 分析 的 结果 是 相同 的 . 
+ 证毕 . 
+ 　 　 定理 1 不仅 说明 min ｛ m , n ｝ ≤ 1 时 Φ 1 ( t - 1 ) 与 Φ ( t - 1 ) 具有 相同 的 P . S . 性 ， 而且 由于 dim θ 1 ≤ dim θ ， 说明 需 辨识 的 参数 个数 不 多于 Φ ( t - 1 ) 的 情况 . 
+ 
+ 4 　 自 适应 控制算法 及 闭环 系统 性质 
+ 　 　 控制 对象 和 扰动 模型 参数 未知 时 ， 利用 辨识 的 参数 按下式 确定 t 时刻 的 控制 信号 . 
+ D ( t , z － 1 ) L ( t , z － 1 ) u ( t ) = H ( t , z － 1 ) yr ( t ) - R ( t , z － 1 ) y ( t ) , 　 　 ( 11 ) 
+ A ′ ( t , z － 1 ) L ( t , z － 1 ) + z － dB ( t , z － 1 ) R ( t , z － 1 ) = T ( z － 1 ) . 　 　 ( 12 ) 
+ 其中 T ( z － 1 ) 渐近 稳定 ， 用来 指定 闭环 系统 极点 . yr ( t ) 为 参考 输入 信号 ， H ( t , z － 1 ) 是 前置 补偿器 ， 为 消除 稳态 误差 而 设置 . 当 参考 输入 渐近 为 常值 时 可 设定 为 
+ H ( t , 1 ) = T ( 1 ) / B ( t , 1 ) . 　 　 ( 13 ) 
+ 　 　 定理 2 . 　 本文 提出 的 自 适应 控制算法 使 控制系统 满足 ： 
+ 　 　 1 ) ‖ Φ 1 ( t - 1 ) ‖ ＜ ∞ ， 　 　 t ; 
+ 　 　 2 ) 　 ( ε 1 为 估计 误差 ) ； 
+ 　 　 3 ) 
+ 　 　 证明 . 由 定理 1 的 结论 可知 ： 由 Φ 1 ( t - 1 ) 构成 的 辨识 器 由于 维持 了 P . S . 性 不变 ， 因此 ， 与 采用 Φ ( t - 1 ) 的 算法 具有 相同 的 参数 辨识 性质 . 由 ( 7 ) 式 的 第一 式 估计 误差 可 写成 
+ ε 1 ( t ) = A ( t , z － 1 ) D ( t , z － 1 ) y ( t ) - z － dB ( t , z － 1 ) D ( t , z － 1 ) u ( t ) , 　 　 ( 14 ) 
+ 引用 估计值 可 将 ( 1 ) 式 表示 为 
+ A ( t , z － 1 ) y ( t ) - z － dB ( t , z － 1 ) u ( t ) = d ′ ( t ) + ε ′ 1 ( t ) . 　 　 ( 15 ) 
+ 比较 ( 14 ) 、 ( 15 ) 式 可知 ， d ′ ( t ) 相当于 d ( t ) 的 估计值 ， ε ′ 1 ( t ) 相当于 未 建模 动态 ， 且 满足 
+ D ( t , z － 1 ) d ′ ( t ) = 0 , 　 　 　 ( 16 ) 
+ ε 1 ( t ) = D ( t , z － 1 ) ε ′ 1 ( t ) . 　 ( 17 ) 
+ 由 ( 15 ) 式 及 自 适应控制 律 ( 11 ) 式 可 得到 闭环 系统 ， 再 将 ( 16 ) 式 代入 ， 则 
+ 　 ( 18 ) 
+ 考虑 到 ( 17 ) 式 的 关系 ， 并且 由 参数 辨识 的 有界性 及 yr ( t ) , d ′ ( t ) 有 界 ， T ( z － 1 ) 渐近 稳定 ， 则 y ( t ) , u ( t ) 关于 ε 1 ( t ) 线性 有 界 ， 根据 辨识 性质 ［ 5 ］ 
+ 
+ 及 文献 ［ 5 ］ 的 基本 引理 6.2 . 1 可 得出 1 ) 和 2 ) 的 结论 . 由 特征方程 ( 18 ) 可 得 
+ T ( z － 1 ) ［ y ( t ) - yr ( t ) ］ = L ( t , z － 1 ) ε 1 ( t ) + ［ z － dB ( t , z － 1 ) H ( t , z － 1 ) - T ( z － 1 ) ］ yr ( t ) . 
+ 根据 ( 13 ) 式 ， 上 式 右边 的 第二项 t → ∞ 的 极限 等于零 . 由于 T ( z － 1 ) 渐近 稳定 ， 及 ε 1 ( t ) → 0 ， 辨识 参数 有 界 ， 则 有 ， 此即 定理 2 的 3 ) . 
+ 证毕 . 
+ 5 　 数值 仿真 结果 
+ 　 　 利用 本文 提出 的 控制算法 对 一 不 稳定 的 非 最小 相位 系统 
+ ( 1.0 - 2.1 z － 1 + 1.1 z － 2 ) y ( t ) = z － 1 ( 1.0 + 1.2 z － 1 ) u ( t ) + d ( t ) 
+ 进行 了 数值 仿真 ， 系统 参数 和 扰动 模型 按 未知 处理 ， d ( t ) 为 正弦 扰动 ， 采样 周期 取 相对值 T = 1 ， 仿真 结果 示于 图 1 和 图 2 . 图 1 为 扰动 频率 单一 ， d ( t ) = 0.1 sin ω t 的 情况 . 在 t = 65 时 ， 角频率 从 ω = 0.5 突变 成 ω = 0.3 . 图 2 是 扰动 中 含有 2 种 频率 ， d ( t ) = 0.1 sin0.5 t + 0.1 sin0.3 t 的 情况 . 参考 输入 采用 幅值 为 1 的 周期 方波 . 在 t ＜ 25 的 初期 对 控制 信号 进行 了 u ( t ) ≤ 0.3 的 限幅 . 从 两种 情况 的 仿真 结果 可以 看出 ， 控制系统 对 扰动 体现 了 很 强 的 抑制 能力 . 无论是 动态 特性 还是 静态 特性 都 取得 了 满意 的 效果 . 
+ 
+ 
+ 　 　 　 　 　 ( a ) 系统 输出 响应 　 　 　 　 　 　 　 　 ( b ) 控制 信号 过程 
+ 图 1 　 n ω = 1 时 的 仿真 结果 
+ 
+ 　 　 　 　 　 
+ 　 　 　 　 ( a ) 系统 输出 响应 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( b ) 控制 信号 过程 
+ 
+ 图 2 　 n ω = 2 时 的 仿真 结果 
+ 6 　 结论 
+ 　 　 在 极点 配置 自 适应控制 中 ， 直接 对 未知 扰动 模型 及 过程 零点 参数 分别 进行 辨识 的 方法 ， 可 减少 模型 分离 的 计算 . 本文 提供 的 算法 可 适用 于 多种 未知 频率 确定 扰动 的 情况 ， 辨识 器 的 阶数 不 多于 常规 型 辨识 器 . 但 为了 保持 辨识 器 的 P . S . 性而 付出 了 一定 的 代价 ， 即 应用 条件 为 min ｛ m , n ｝ ≤ 1 . 
+ 作者 单位 ： 北京科技大学 自动化系 　 北京 100083 
+ 参考文献 
+ 1 　 JaneckiD . DirectAdaptivePolePlacementforPlantsHavingPurelyDeterministicDisturbances . IEEE , Trans . AutomaticControl , 1987 , AC － 32 ( 2 ) : 187 - 189 
+ 2 　 刘贺平 ， 孙一康 . 抑制 未知 确定 扰动 的 极点 配置 自 适应控制 ， 自动化 学报 ， 1996 ， 22 ( 4 ) : 401 - 409 
+ 3 　 PalaniswamiM . AdaptiveInternalModelforDisturbanceRejectionandControl . IEEPROCEEDINGS － D , 1993 , 140 ( 1 ) : 51 - 59 
+ 4 　 ShinakaS , TanakaK , SuzukiT . ASimbleOrderDeterminationMethodBasedonaGeneralizedAdaptiveLaw . int , J . ofcontrol , 1985 ， 41 ( 4 ) ： 1037 - 1050 
+ 5 　 GoodwinGC , SinKS . AdaptiveFilteringPredictionandControl . NJ : Prentice － hall , 1984 
+ 收稿 日期 　 1996 － 07 － 18 

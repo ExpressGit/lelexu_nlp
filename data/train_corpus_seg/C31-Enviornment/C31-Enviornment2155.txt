@@ -1,0 +1,83 @@
+环境 科学研究 
+ RESEARCHOFENUIRONMENTALSCIENCES 
+ 2001Vol.14 No.2 P.57 - 61 
+ 
+ 
+ 
+ 
+ 水 环境 中 微囊 藻 毒素 研究进展 
+ 张维昊 　 徐小清 　 丘昌强 　 
+ 摘 　 要 ： 随着 水体 污染 和 富营养化 进程 的 加剧 ， 淡水 水华 暴发 的 频率 和 强度 亦 趋 严重 ， 笔者 综述 了 有 毒水 华 发生 过程 中 释放 的 主要 次级 代谢物 — — 微囊 藻 毒素 的 研究 现状 。 该 毒素 是 一类 具有 多种 异构体 的 环状 多肽 物质 。 由于 其 毒性 大 、 分布 广 、 结构 稳定 ， 从而 成为 水 环境 中 的 潜在 危害 物质 。 对 微囊 藻 毒素 的 产生 、 迁移 及 转化 途径 的 研究 已 成为 关注 热点 。 微囊 藻 毒素 作为 安全性 评价 的 风险 因子 ， 其 分析方法 主要 有 液相 色谱 和 酶 联 免疫 法等 。 为 改善 水源 水质 ， 逐步 发展 了 包括 物理 、 化学 、 生物 等 手段 的 控制 方法 。 在 总结 国内外 研究 的 基础 上 ， 根据 我国 实情 ， 提出 了 微囊 藻 毒素 在 大型 富营养化 湖泊 治理 中 的 研究 内容 和 方向 。 
+ 关键词 ： 淡水 水华 ； 　 微囊 藻 毒素 ； 　 安全性 评价 ； 　 控制 方法 
+ 分类号 ： X171.5 　 文献 标识码 ： A 
+ 文章 编号 ： 1001 - 6929 ( 2001 ) 02 - 0057 - 05 
+ AdvanceinStudyonMicrocystinsinAquaticEnvironment 
+ ZHANGWei - hao （ InstituteofHydrobiology , CAS ， Wuhan 　 430072 , 　 China ） 　 
+ XUXiao - qing （ InstituteofHydrobiology , CAS ， Wuhan 　 430072 , 　 China ） 　 
+ QIUChang - qiang （ InstituteofHydrobiology , CAS ， Wuhan 　 430072 , 　 China ） 　 
+ 
+ Abstract ： Thefrequencyandintensityoffreshwaterbloomgrowworseasthepollutionandeutrophicationoffreshwatersbecomemoreandmoreserious . Therecentstudyofmicrocystinsispresent , whichisthemainsecondarymetabolitesproducedbytoxicbloom . Thistoxinisaclassofmonocyclicheptapeptideswithmanydifferentisomerides . Ithasbecomepotentialhazardousmaterialinaquaticenvironmentsforitstoxic , distributionandstability . Thefateofmicrocystinsalsobecamethefocusofresearch . Astheriskfactorofsafeassessment , themainassaymethodsareHPLCandenzyme - linkedimmunosorbentassays ( ELISAs ) . Thecontrolmethodsusingphysical , chemicalandbiologicalwayshavebeendevelopedtoimprovethewatersupplyquality . ThetrendofresearchaboutmicrocystinsisdiscussedbasedonthesituationofChina , whichisanurgentneedtotherestorationofthelargeeutrophicatedlakes . 
+ Keywords ： freshwaterbloom ; 　 microcystins ; 　 safeassessment ; 　 controlmethod 
+ 基金项目 ： 国家科技部 与 云南省政府 招标 课题 ( DCH - 01 - 001 ) 
+ 作者简介 ： 张维昊 ( 1971 - ) ， 男 ， 安徽 合肥人 ， 博士 研究生 . 
+ 作者 单位 ： 张维昊 （ 中国科学院 水生 生物 研究所 ， 湖北 武汉 　 430072 ） 　 
+ 　 　 　 　 　 徐小清 （ 中国科学院 水生 生物 研究所 ， 湖北 武汉 　 430072 ） 　 
+ 　 　 　 　 　 丘昌强 （ 中国科学院 水生 生物 研究所 ， 湖北 武汉 　 430072 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ 　 IngridC , JamieB . ToxicCyanobacteriainwater [ M ] . LondonandNewYork . E & FNSponPublisher , 1999 , 416 . 
+ ［ 2 ］ 　 SusanDR . Wateranalysis [ J ] . AnalChem , 1999 , 71 ( 2 ) : 181R ～ 215R . 
+ ［ 3 ］ 　 吴为 梁 . 林毅雄 ， 刘丽萍 ， 等 . 滇池 水体 中 主要 藻种 毒素 研究 [ J ] . 云南 环境 科学 ， 1997 ， 2 ： 26 ～ 29 . 
+ ［ 4 ］ 　 董传辉 ， 俞顺章 ， 陈刚 ， 等 . 江苏 几个 地区 与 某湖 周围 水厂 不同 类型 水 微囊 藻 毒素 调查 [ J ] . 环境 与 健康 杂志 ， 1998 ， 3 ： 111 ～ 113 . 
+ ［ 5 ］ 　 孟玉珍 ， 张丁 ， 王 兴国 ， 等 . 郑州市 水源 水 藻类 和 藻类 毒素 污染 调查 [ J ] . 卫生 研究 ， 1999 ， 2 ： 100 ～ 101 . 
+ ［ 6 ］ 　 DawsonRM . TheToxicologyofMicrocystins [ J ] . Toxicon , 1998 , 36 ( 4 ) : 953 ～ 962 . 
+ ［ 7 ］ 　 LeeT ， ChenY , ChouH , etal . FirstreportofmicrocystinsinTaiwan [ J ] . Toxicon , 1998 , 36 ( 2 ) : 247 ～ 255 . 
+ ［ 8 ］ 　 WirsingB , HoffmannL . FirstreportontheidentificationofmicrocystininawaterbloomcollectedinBelglum [ J ] ． SystematicandAppliedMicrobiology , 1998 , 21 ( 1 ) : 23 ～ 27 . 
+ ［ 9 ］ 　 李效宇 ， 宋立荣 ， 刘 永定 . 微囊 藻 毒素 的 产生 、 检测 和 毒理学 研究 [ J ] . 水生 生物学 报 ， 1999 ， 5 ： 517 ～ 523 . 
+ ［ 10 ］ 　 FrazierKColvinE , PouriaS , etal . Microcystintoxicosisincattleduetoovergrowthofblue - greenalgae [ J ] . VetHumanToxico , 1998 , 40 ( 1 ) : 23 ～ 24 . 
+ ［ 11 ］ 　 MezK , BeattieKA , HendriksJGA , etal . IdentificationofamicrocystininbenthiccyobacterialinkedtocattledeathsonalpingpasturesinSwitzerland [ J ] . EurJPhycol , 1997 , 32 ( 1 ) : 111 ～ 117 . 
+ ［ 12 ］ 　 PouriaS . AfatalmicrocystinintoxicationinhaemodialysisunitinCaruaru [ J ] . BrazilLancet , 1998 , 352 ( 2 ) : 21 ～ 26 . 
+ ［ 13 ］ 　 吴静 ， 朱惠刚 . 藻 毒素 与 健康 效应 的 研究进展 [ J ] . 上海 环境 科学 ， 1999 ， 18 ： 331 ～ 334 . 
+ ［ 14 ］ 　 LipmannL . Norilosomalpolypepitidesynthesisonpolyenzymetemplates [ J ] . AccChemRes , 1973 , 6 ( 3 ) : 361 ～ 367 . 
+ ［ 15 ］ 　 VasconcelosVM , CarmichaelWW , CrollB , etal . HepatotoxicmicrocystindiversityincyanobacterialbloomscollectedinPortugueseFreshwaters [ J ] . WatRes.1996 , 30 ( 10 ) : 2377 ～ 2384 . 
+ ［ 16 ］ 　 YasunoM , SugayaY , OkadaM , etal . VariationsinthetoxicityofMicrocystisspeciestoMotnamacrocopa [ J ] . PhcologicalResearch , 1998 , 46 ( 1 ) : 31 ～ 36 . 
+ ［ 17 ］ 　 MaagdG , HendriksJ , SijmD , etal . pH - dependenthydrophobicityofthecyanobacteriatoxinmicrocystinLR [ J ] . WatRes , 1999 , 33 ( 5 ) : 677 ～ 680 . 
+ ［ 18 ］ 　 SongL , SanoT . Microcystinprodictionofmicrocystisviridis ( cyanobacteria ) underdifferentcultureconditions [ J ] . PhycologicalResearch , 1998 , 46 ( 1 ) : 19 ～ 23 . 
+ ［ 19 ］ 　 OhkuboN , YagiO , OkadaM . EffectofhumicandfulvicacidsonthegrowthofMicrocystisaeruginosa [ J ] . EnvironmentalTechnology , 1998 , 19 ( 6 ) : 611 ～ 617 . 
+ ［ 20 ］ 　 HartJ , FawellJK , CrollB . Thefateofbothintra - andextracellulartoxinsduringdrinkwatertreatment [ J ] . WaterSupply , 1998 , 16 ( 5 ) : 611 ～ 616 . 
+ ［ 21 ］ 　 LahtiK , RapalaJ , HolmesC , etal . Persistenceofcyanobacterialhepatotoxinmicrocystin - LRinparticulatematerialanddussolvedinlakewater [ J ] . WatRes , 1997 , 31 ( 8 ) : 1005 ～ 1012 . 
+ ［ 22 ］ 　 LawtonLA , MaagdG , HendriksJ , etal . Removalofcyanobacterialtoxins ( microcystins ) andcyanobacterialcellsfromdrinkingwaterusingdomesticwaterfilters [ J ] . WatRes , 1998 , 32 ( 4 ) : 633 ～ 638 . 
+ ［ 23 ］ 　 RivasseauC , LamA , FedorakP , etal . Determinationofsomephysicochemicalparametersofmicrocystins ( cyanobacterialtoxins ) andtracelevelanalysisinenvironmentalsamplesusingliquidchromatography [ J ] . JChromatographyA , 1998 , 799 ( 1 ) : 155 ～ 169 . 
+ ［ 24 ］ 　 LambertTW , HolmesCFB , HrudeySE . Adsorptionofmicrocystin - LRbyactivatedcarbonandremovalinfullscalewatertreatment [ J ] . WatRes , 1996 , 30 ( 8 ) : 1411 ～ 1422 . 
+ ［ 25 ］ 　 Feitz , A , LawtonLA , MaagdG , etal . Photocatalyticdegradationofthebluegreenalgaetoxinmicrocystin - LRinanaturalorganic - aqueousmatrix [ J ] . EnvironSciTechnol , 1999 , 33 ( 2 ) : 243 ～ 248 . 
+ ［ 26 ］ 　 TsujiKT , WatanukiF . Stabilityofmicrocystinsfromcyanobacteria - IV . Effectofchlorinationondecomposition [ J ] . Toxicon , 1997 , 35 ( 7 ) : 1033 ～ 104.1 . 
+ ［ 27 ］ 　 CousinsIT , BealingDJ . SuttonA , etal . Biodegradationofmicrocystin - LRbyindigenousmixedbacterialpopulations [ J ] . WatRes , 1996 , 30 ( 3 ) : 481 ～ 485 . 
+ ［ 28 ］ 　 InamoriY , SugiuraN , IwamiN . Degradationofthetoxiccyanobacteriummicrocystisviridisusingpredaceousmicro - animalscombinedwithbacteria [ J ] . PhycologicalResearch , 1998 , 46 ( 1 ) : 37 ～ 44 . 
+ ［ 29 ］ 　 LamA , FedorakP . Biotransformationofthecyanobacterialhepatotoxinmicrocystin - LR , asdeterminedbyHPLCandproteinphosphatasebioassay [ J ] . EnvironSciTechnol , 1995 , 29 ( 2 ) : 242 ～ 246 . 
+ ［ 30 ］ 　 BojanS , GorazdK , JanaBB , etal . Theroleofmicrocystinsinheavycyanobacterialbloomformation [ J ] . JPlanktonRes , 1998 , 20 ( 6 ) : 691 ～ 708 . 
+ ［ 31 ］ 　 TencalaF , DietrichD , LagosN , etal . Biochemicalcharacterizationofmicrocystintoxicityinrainbowtrout ( Oncorhinchusmykiss ) [ J ] . Toxicon , 1997 , 35 ( 5 ) : 583 ～ 595 . 
+ ［ 32 ］ 　 何家莞 ， 何振荣 ， 俞家禄 . 有毒 铜绿 微囊 藻 对 鱼 和 蚤 的 毒性 [ J ] . 湖泊 科学 ， 1997 ， 9 ： 49 ～ 57 . 
+ ［ 33 ］ 　 GaeteV , CaneloE , LagosN , etal . Inhibitoryeffectofmicrocystisaeruginosatoxinonionpumpofthegilloffreshwaterfish [ J ] . Toxicon , 1994 , 32 ( 1 ) : 121 ～ 127 . 
+ ［ 34 ］ 　 AndersenRJ , LuuHA . Chemicalandbiologicalevidencelinksmicrocystinstosalmonnet - penliverdisease [ J ] . Toxicon , 1993 , 31 ( 11 ) : 1315 ～ 1323 . 
+ ［ 35 ］ 　 BuryNR , GaeteV , CaneloE , etal . Theeffectofthecyanobacteriummicrocystisaeruginosa , thecyanobacterialtoxinmicrocystin - LRandammoniaongrowthrateandionicregulationofbrowntrout ( salmotruttaL . ) [ J ] . JFish , 1995 , 46 ( 9 ) : 1042 ～ 1054 . 
+ ［ 36 ］ 　 刘 建康 ， 谢平 . 揭开 武汉 东湖 蓝藻 水华 消失 之迷 [ J ] . 长江流域 资源 与 环境 ， 1999 ， 8 ： 312 ～ 316 . 
+ ［ 37 ］ 　 DattaS , JanaBB . Controlofbloominatropicallake : grazingefficiencyofsomeherbivorousfishes [ J ] . JFishBiology , 1998 , 53 ( 1 ) : 12 ～ 24 . 
+ ［ 38 ］ 　 AlvaroA , VitorV , VasconcelosV , etal . DynamicsofmicrocystinsinthemusselMytilusgalloprovincialis [ J ] . Toxicon , 1999 , 37 ( 9 ) : 1041 ～ 1052 . 
+ ［ 39 ］ 　 FischerW , DietrichD , AlvaroA , etal . Pathologicalandbiochemicalcharacterizationofmicrocystin - inducedhepatopancreasandkidneydamageincarp ( Cyprinuscarpio ) [ J ] . ToxicolApplPharmacol , 2000 , 164 ( 1 ) : 73 ～ 81 . 
+ ［ 40 ］ 　 WilliamsE , DaweM , FischerW , etal . Bioaccumulationandclearanceofmicrocystinsfromsaltwatermussels , Mytilusedulis , andinvivoevidenceforcovalentlyboundmicrocystinsinmusseltissues [ J ] . Toxicon , 1997 , 35 ( 11 ) : 1617 ～ 1625 . 
+ ［ 41 ］ 　 AmorimA , VasconcelosV , VitorV , etal . DynamicsofmicrocystinsinthemusselMytilusgalloprovincialis [ J ] . Toxicon , 1999 , 37 ( 9 ) : 1041 ～ 1052 . 
+ ［ 42 ］ 　 BuryNR , NewlandsAD . Invivoandinvitrointestinaltransportof3H - microcystin - LR . Acyanobacterialtoxin , inrainbowtrout ( Oncorhynchusmykiss ) [ J ] . AquaticToxicology , 1998 , 42 ( 1 ) : 139 ～ 148 . 
+ ［ 43 ］ 　 FawellJ . Thetoxicityofcyanobacterialtoxinsinthemouse : Microcystin - LR [ J ] . Humanexperimentaltoxicology , 1999 , 37 ( 8 ) : 1041 ～ 1052 . 
+ ［ 44 ］ 　 SturgeonS , TownerR , PelanderA , etal . Invivoassessmentofmicrocystin - LRinducedhepatotoxicityintheratusingprotonnuclearmagneticresonance ( 1H - NMR ) imaging [ J ] . Biochimica & biophysicaacta , 1999 , 144 ( 2 ) : 227 ～ 232 . 
+ ［ 45 ］ 　 PelanderA , OjanperaI . Screeningforcyanobacterialtoxinsinbloomandstrainsamplesbythinlayerchromatography [ J ] . WatRes , 1996 , 30 ( 10 ) : 1464 ～ 1470 . 
+ ［ 46 ］ 　 FontalOI , VieytesMR . Afluorescentmicroplateassayformicrocystin - LR [ J ] . AnalyticalBiochemistry , 1999.269 ( 2 ) : 289 ～ 296 . 
+ ［ 47 ］ 　 HaradaKL , MurataH , PelanderA , etal . Massspectrometricscreeningmethodformicrocystinsincyanobacterial [ J ] . Toxicon , 1996 , 34 ( 5 ) : 701 ～ 710 . 
+ ［ 48 ］ 　 MahakhantA , SanoT , RatanachotP . DetectionofmicrocystinsfromcyanobacterialwaterbloominThallandfreshwater [ J ] . PhycologicalResearch , 1998 , 46 ( 1 ) : 31 ～ 36 . 
+ ［ 49 ］ 　 HonkanenRE , CaplanFR , Developmentofaproteinphosphatases - basedassayforthedetectionofphosphataseinhibitorsincrudewholecell / animalextracts [ J ] . Toxicon , 1996 , 34 ( 2 ) : 307 ～ 308 . 
+ ［ 50 ］ 　 RivasseauC , RacaudP , FaweelJ , etal . EvalutionofanELISAkitforthemonitoringofmicrocystins ( cyanobacterialtoxins ) inwaterandalgaeenvironmentalsampales [ J ] . EnvironSciTechnol , 1999 , 33 ( 12 ) : 1520 ～ 1527 . 
+ ［ 51 ］ 　 WirsingB , FluryT , GaeteV , etal . EstimationofthemicrocystincontentincyanobacterialfieldsamplesfromGermanlakesusingthecolorimetricprotein - phosphaaseinhibitionassayandRP - HPLC [ J ] . EnvironToxic , 1999 , 14 ( 1 ) : 23 ～ 28 . 
+ ［ 52 ］ 　 KondoF , MatsumotoH , YamadaS , etal . Immunoaffinitypurificationmethodfordetectionandquantificationofmicrocystinsinlakewater [ J ] . Toxicon , 2000 , 38 ( 6 ) : 813 ～ 823 . 
+ ［ 53 ］ 　 AngelineL , EllieP , DavidS , etal . Chemicalcontrolofhepatotoxicphytoplanktonblooms : implicationsforhumanhealth [ J ] . WatRes , 1995 , 29 ( 12 ) : 1845 ～ 1854 . 
+ 
+ 收稿 日期 ： 2000 年 6 月 8 日 
+ 出版日期 ： 2001 年 3 月 30 日 

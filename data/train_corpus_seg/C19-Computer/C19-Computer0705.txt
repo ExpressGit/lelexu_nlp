@@ -1,0 +1,77 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 5 期 Vol.24 No.51998 
+ 
+ 
+ 
+ 非线性 系统 的 PD 型 迭代 学习 控制 1 ) 
+ 孙明轩 　 黄宝健 　 张学智 
+ 关键词 　 初始条件 问题 ， 迭代 学习 控制 ， 非线性 系统 . 
+ PD - TYPEITERATIVELEARNINGCONTROLFOR 
+ ACLASSOFNONLINEARSYSTEMS 
+ SUNMINGXUAN 　 　 HUANGBAOJIAN 　 　 ZHANGXUEZHI 
+ ( Xi ' anInstituteofTechnology , Xi ' an 　 710032 ) 
+ Keywords 　 Initialconditionproblem , iterativelearningcontrol , nonliearsystems . 
+ 1 　 引言 
+ 　 　 运用 迭代 学习 控制技术 设计 控制器 时 ， 只 需要 通过 重复 操作 获得 的 受控对象 的 误差 或 误差 导数 信号 . 在 这种 控制技术 中 ， 迭代 需从 某 初始 点起 进行 . 初始 点指 初始状态 或 初始 输出 . 所谓 初始条件 是 指 在 每次 迭代 时 ， 为 保证 控制系统 的 收敛性 ， 对系统 迭代 初始 点 的 重复 定位 操作 所 限定 的 条件 . 一种 常见 的 初始条件 是 在 每次 迭代 时 ， 保证 迭代 初态 与 期望 初态 一致 ［ 1 ， 2 ］ . 但 实际 的 重复 定位 操作 往往 会 导致 迭代 初态 相对 于 期望 初态 产生 偏移 . 目前 ， 在 已 发表 的 文献 中 ， 没有 给出 过 存在 初态 偏移 情形 下 D 型 或 PD 型 非线性 迭代 学习 控制系统 的 极限 轨迹 ［ 3 ， 4 ］ . 然而 ， 给出 其 极限 轨迹 可 使 人们 认识 到 初态 偏移 对系统 跟踪 性能 的 影响 . 
+ 2 　 主要 结果 
+ 　 　 考虑 在 重复 操作 环境中运行 的 非线性 系统 
+ k ( t ) = f ( xk ( t ) , t ) + B ( xk ( t ) , t ) uk ( t ) , 　 ( 1a ) 
+ yk ( t ) = g ( xk ( t ) , t ) , 　 　 ( 1b ) 
+ 式 中 t ∈ ［ 0 , T ］ ， 下标 k 记 迭代 次数 ； xk ( t ) ∈ Rn ， uk ( t ) ∈ Rr , yk ( t ) ∈ Rm 分别 为 系统 的 状态 、 控制 和 输出 向量 . f : Rn × ［ 0 ， T ］ → Rn ， B ： Rn × ［ 0 , T ］ → Rn × r 关于 t 分段 连续 ， g = ［ g1 ， … ， gm ］ T ： Rn × ［ 0 , T ］ → Rm 关于 t , x 可微 . 
+ 　 　 采用 PD 型 学习律 
+ uk + 1 ( t ) = uk ( t ) + Γ ( yk ( t ) , t ) ( k ( t ) + Lek ( t ) ) ， 　 　 ( 2 ) 
+ 式 中 ek ( t ) = yd ( t ) - yk ( t ) , yd ( t ) 为 给定 的 期望 轨迹 . Γ ( . ， . ) ∈ Rr × m ， L ∈ Rm × m 为 增益 矩阵 . 
+ 　 　 引理 1 . 对于 x1 , x2 ∈ Rn 及 t ∈ ［ 0 , T ］ , 存在 常数 ξ i ∈ ［ 0 ， 1 ］ ， i = 1 , 2 , … , m ， 使得 
+ 
+ 　 　 引理 2 . 实数 序列 ｛ ak ｝ 定义 为 ak + 1 ≤ ρ ak + bk ， k = 0 ， 1 ， 2 ， … ， 其中 ， ｛ bk ｝ 为 给定 的 实数 干扰 序列 . 若 0 ≤ ρ ＜ 1 ， 且 
+ 　 　 证明 . 作 变换 . 这样 ， 对于 任意 的 k ≥ 1 ， 有 
+ 
+ 由于 0 ≤ ρ ＜ 1 ， 则 
+ 
+ 因此 ， 结合 sk 的 定义 ， 可证 得 结论 . 
+ 　 　 定理 1 . 若 由 ( 1 ) ， ( 2 ) 式 描述 的 迭代 学习 控制系统 满足 
+ 　 　 A1 ) 　 对于 任意 给定 的 初态 x0 ， y 砫 ( t ) = yd ( t ) + e - Lt ( g ( x0 , 0 ) - yd ( 0 ) ) ， t ∈ ［ 0 , T ］ 可 达 ； 
+ 　 　 A2 ) 　 f ( . ， . ) ， B ( . ， . ) , gt ( . ， . ) ， gx ( . ， . ) 关于 x 满足 一致 全局 Lipschitz 条件 ； 
+ 　 　 A3 ) 　 B ( . ， . ) , gx ( . ， . ) 在 Rn × ［ 0 , T ］ 上 有界 ； 
+ 　 　 A4 ) 　 存在 增益 矩阵 Γ ( . ， . ) ∈ Rr × m ， 使得 ‖ I - Γ ( g ( x , t ) , t ) gx ( x , t ) B ( x , t ) ‖ ∞ ≤ ρ ＜ 1 ， 小 ( x , t ) ∈ Rn × ［ 0 , T ］ ； 
+ 　 　 A5 ) 　 系统 初态 渐近 重复 limk → ∞ xk ( 0 ) = x ° , 则 limk → ∞ yk ( t ) = y * d ( t ) , t ∈ ［ 0 , T ］ . 
+ 　 　 证明 . 取一 控制 输入 u * d ( t ) , t ∈ ［ 0 , T ］ 使得 系统 初态 位于 x0 时 的 输出 为 y 砫 ( t ) ， 相应 的 状态 记为 x * d ( t ) . 为了 简便 ， 下面 略写 函数 的 时间 变量 t ， 并记 Δ u * k ( t ) = u * d ( t ) - uk ( t ) , e * k ( t ) = y 砫 ( t ) - yk ( t ) , Δ x * k ( t ) = x * d ( t ) - xk ( t ) . 由 ( 1 ) 式 、 ( 2 ) 式 及 引理 1 知 
+ 　 　 ( 3 ) 
+ 式 中 ξ i ∈ ［ 0 , 1 ］ ， i = 1 , 2 , … ， m . 计算 ( 3 ) 式 两端 的 λ 范数 ， 可 得 
+ 　 　 ( 4 ) 
+ 式 中 ， γ = b г ( kgt + kgxbd + bgx ( kf + kBbud ) + bLbgx ) . 其中 0 ＜ kh ＜ ∞ ， h ∈ ｛ f , B , gt , gx ｝ 为 相应 函数 的 Lipschitz 常数 ， 0 ＜ bh ＜ ∞ ， h ∈ ( B , gx ) 为 相应 函数 的 一致 界 ， 
+ 
+ 　 　 下面 利用 状态方程 ( 1a ) ， 给出 关于 迭代 状态 的 估计 
+ 
+ 
+ 　 　 　 　 　 B ( xk ( τ ) ， τ ) ‖ ∞ ‖ u 砫 ( τ ) ‖ ∞ + ‖ B ( xk ( τ ) ， τ ) ‖ ∞ ‖ Δ u 砶 ( τ ) ‖ ∞ ) d τ . 
+ 　 　 计算 上 式 两端 的 λ 范数 ， 可 得 
+ 　 　 ( 5 ) 
+ 式 中取 λ 足够 大 ， 使得 
+ 1 - ( kf + kBbud ) O ( λ － 1 ) ＞ 0 . 
+ 将 ( 5 ) 式 代入 ( 4 ) 式 
+ 　 　 ( 6 ) 
+ 式 中 . 当 选择 λ 足够 大时 ， ρ ＜ 1 蕴涵 . 因此 ， 由 引理 2 知 
+ 　 　 ( 7 ) 
+ 又 由 及 初始条件 A5 ) 知 ， 此即 证得证 毕 . 
+ 　 　 上述 定理 表明 ， 当选 取 － L 为 稳定 矩阵 时 可 改善 系统 的 跟踪 性能 ； 通过 在 给定 的 期望 轨迹 前 拼接 一段 轨迹 ， 即可 实现 给定 轨迹 的 跟踪 . 做到 这 一点 只 要求 迭代 足够 多次 后 保证 初始条件 是 渐近 重复 的 . 进一步 容易 给出 以下 推论 . 
+ 　 　 推论 1 . 若 由 ( 1 ) ， ( 2 ) 式 描述 的 迭代 学习 控制系统 满足 假设 ( A1 ) — ( A4 ) ， 并且 
+ 
+ 成立 ， 则 系统 迭代 输出 误差 一致 收敛 ， 即 
+ 
+ 　 　 推论 2 . 对于 由 ( 1 ) ， ( 2 ) 式 描述 的 学习 控制系统 施加 D 型 学习律 
+ uk + 1 ( t ) = uk ( t ) + Γ ( yk ( t ) , t ) k ( t ) , 
+ 如果 该 学习 控制系统 满足 假设 ( A1 ) — ( A4 ) ， 则 有 
+ 
+ 推论 2 推广 了 文献 ［ 2 ］ 的 收敛性 结果 ， 这 对于 机器人 控制系统 是 有 实际意义 的 . 
+ 3 　 结论 
+ 　 　 在 D 型 学习律 作用 下 ， 文中 所 讨论 的 非线性 系统 的 迭代 输出 会 收敛 于 一 极限 轨迹 ， 它 与 期望 输出 轨迹 存在 一 恒定 偏差 . PD 型 学习律 作用 下 的 极限 轨迹 表明 ， 通过 在 学习律 中 增加 P 型 成份 ， 可 有效 地 减小 这种 偏差 . 这一 结果 是 在 初态 渐近 重复 的 条件 下 得到 的 . 进一步 地 ， 当 初始 输出 满足 渐近 严格 重复 时 可 保证系统 迭代 输出 误差 的 一致 收敛性 . 它 放宽 了 现有 文献 中 对 每 一次 迭代 所 要求 的 一致性 初始条件 . 这种 渐近 条件 使得 操作者 在线 调整 初始 点以 提高 跟踪 精度 的 做法 在 理论 上 得到 保证 . 因此 ， 采用 这种 学习律 是 抑制 初始 点 偏移 影响 的 一种 有效 手段 . 
+ 1 ) 国家自然科学基金 资助 项目 . 
+ 作者 单位 ： ( 西安 工业 学院 电子系 　 西安 　 710032 ) 
+ 参考文献 
+ 　 1 　 ArimotoS , KawamuraS , MiyazakiF . Betteringoperationofrobotsbylearning . J . ofRoboticSystems , 1984 , 1 ( 2 ) : 123 _ 140 
+ 　 2 　 HauserJ . LearningControlforaClassofNonlinearSystems . In : Proc . ofthe26thIEEEConf . onDecisionandControl , LosAngeles , CA.1987 : 859 — 860 
+ 　 3 　 PorterB , MohamedSS . Iterativelearningcontrolofpartiallyirregularmultivariableplantswithinitialstateshifting . Int . J . ofSystemsScience , 1991 , 22 ( 2 ) : 229 — 235 
+ 　 4 　 LeeHS , BienZ . Studyonrobustnessofiterativelearningcontrolwithnon - zeroinitialerror . Int . J . ofControl , 1996 , 64 ( 3 ) : 345 — 359 
+ 收稿 日期 　 1996 － 07 － 25 

@@ -1,0 +1,30 @@
+城市 环境 与 城市 生态 
+ URBANENVIRONMENT & URBANECOLOGY 
+ 1999 年 第 12 卷 第 5 期 Vol.12 No.51999 
+ 
+ 
+ 
+ 系统 评价 EM 菌液 在 生活 污水处理 中 的 应用 效果 
+ 孟范平 ， 李桂芳 ， 李 科林 
+ 　 　 摘要 ： 采用 在 生活 污水 中投 加 有效 微生物 群 （ EM ） 的 方法 ， 系统 评价 了 EM 对 污水 中 三类 常见 污染物 去除率 的 影响 。 结果表明 ： ① 好 氧 条件 下 ， EM 显著 提高 污水 CODcr 去除率 的 适宜 加入 量 （ VEM / V 污水 ） 为 5 / 10000 - 1 / 1000 ， 增幅 达 10% ； 厌氧 条件 下 ， EM 对 污水 CODcr 的 去除 没有 促进作用 。 ② EM 在 好 氧 条件 下能 显著 或 极 显著 提高 污水 NH4 + - N 的 硝化 程度 ， 当 EM 加入 量 为 5 / 1000 时 效果 最好 ， 增幅 达 37.62% ； 厌氧 条件 下 ， 当 加入 量 为 1 / 10000 - 1 / 1000 时 ， 能极 显著 增强 污水 的 反 硝化作用 ， NO3 - - N 的 去除率 约 提高 14% 。 ③ EM 加入 量 大于 5 / 1000 时 ， 才能 显著 提高 污水 的 除 磷 能力 。 由此 提出 ， 在 处理 污水 时 ， 应 根据 处理 要求 ， 选择 适宜 的 EM 加入 量 。 
+ 　 　 关键词 ： 有效 微生物 群 （ EM ） ； 生活 污水 ； 化学 需氧量 （ CODcr ） ； 氨氮 （ NH4 + - N ） ； 总磷 （ T - P ） 
+ 　 　 中 图 分类号 ： X172 　 　 文献 标识码 ： A 　 　 文章 编号 ： 1002 - 1264 ( 1999 ) 05 - 0004 - 04 
+ ASystematicStudyontheEffectofEffectiveMicroorganisms ( EM ) 
+ ontheRemovalofPollutantsfromDomesticSewage 
+ MENGFan - ping ， LIGui - fang ， LIKe - lin 
+ ( CollegeofResources & Environment , CentralSouthForestryUniversity , Zhuzhou412006 ) 
+ Abstract ： TheeffectofEffectiveMicroorganisms ( EM ) ontheremovalofthreemainkindsofpollutantsfromdomesticsewage ( DS ) wasstudiedbyaddingEMintoDS . Itshowedthat : ① Inaerobiccondition , EMaddition ( VEM / VDS ) between5 / 10000 - 1 / 1000raisedtheremovalrateofCODcrsignificantlywithanincrementofabout10% ; however , inanaerobiccondition , EMhadnoremarkableeffectonCODcrremoval . ② 5 / 1000ofEMadditioncouldenhancethenitrificationinDSsignificantlywithalargestincrementof37.62% ofNH4 + - Nremovalrate ; EMadditionbetween1 / 10000 - 1 / 1000alsopromotedthedenitrificationwithanincrementofabout14% ofNO3 - - Nremoval . ③ RemovalrateofphosphorusfromDSwasincreasedsignificantlywhenEMadditionsurpassed5 / 1000 . Therefore , suitableEMadditionneedtobechosentomeetwithdifferentpurposesofwastewatertreatment . 
+ Keywords ： effectivemicroorganisms ( EM ) ； 　 domesticsewage ； 　 chemicaloxygendemand ( COD ) ； 　 ammonianitrogen ( NH4 + - N ) ； 　 totalphosphorus ( T - P ) 
+ 　 　 有效 微生物 群 （ EffectiveMicroorganisms ， 简称 EM ） 自 1978 年 问世 以来 ， 受到 了 许多 行业 专家 、 学者 的 青睐 ， 并 在 饲料 发酵 、 禽舍 除臭 等 方面 获得 了 极好 的 效果 ， 它 在 环境污染 治理 方面 也 有 独特 的 效果 ［ 1 ］ 。 在 此前 曾 采用 正交 试验 研究 了 投加 EM 对 生活 污水 中 有机物 的 降解 能力 ［ 2 ］ ， 发现 EM 有效 去除 生活 污水 中 有机物 的 最适 条件 是 ： 水温 25 ℃ ， 曝气 时间 HRT / 3 ， 菌液 加入 量 （ VEM / V 污水 ） 为 1 / 10000 ， 进水 pH 为 8.0 。 在 此 条件 下 ， 污水 经过 较 短时间 （ 2d ） 处理 即能 达到 较 高 的 COD 、 BOD 去除率 ， 比不加 EM 而要 达到 同等 处理 效果 的 时间 缩短 了 1 / 2 。 这 说明 EM 的确 能 提高 生活 污水 中 有机物 的 降解 能力 。 但是 ， 它 对 污水 中 含氮 、 磷 污染物 的 净化 能力 如何 以及 厌氧 条件 下 是否 也 能 起到 同样 的 较 好 效果 。 本文 将 就 这些 问题 做 详细 的 探讨 。 
+ 1 　 材料 和 方法 
+ 1.1 　 材料 
+ 　 　 供试 污水 为 中南林学院 教工 南区 的 生活 污水 （ 经 化粪池 预处理 ） ， 污染 特征 见 文献 ［ 2 ］ 。 
+ 　 　 EM 由湖 南岳 阳 微生物 制剂 厂 提供 （ 液态 ） 。 
+ 1.2 　 水质 监测 方法 
+ 　 　 污水处理 前后 CODcr 、 NH4 + - N 、 NO3 - - N 、 NO2 - - N 、 T - P 等 污染物 的 分析 按 文献 ［ 3 ］ 的 规定 进行 ， 即 ： CODcr — — 重铬酸钾 法 、 NH4 + - N — — 纳氏 试剂 分光 光度法 、 NO3 - - N — — 酚二 磺酸 分光 光度法 、 NO2 - - N — — 萘 乙二胺 分光 光度法 、 T - P — — 过 硫酸钾 氧化 — 钼 锑 抗 分光 光度法 。 
+ 1.3 　 EM 加入 与 污水处理 方法 
+ 　 　 EM 与 污水 好 氧 处理 ： 在 污水排放 口处 采集 一定量 的 生活 污水 ， 静置 半小时 后 ， 取 上层 污水 分装 于 15 只 1000 　 mL 广口 瓶 中 ， 每 瓶装 1000 　 mL ， 然后 将 15 只广口 瓶 分为 五组 （ 即 每组 设 3 个 重复 ） ， 分别 按 VEM / V 污水 为 0 、 1 / 10000 、 5 / 10000 、 1 / 1000 和 5 / 1000 的 比例 加入 EM 菌液 ， 并 充分 混匀 ， 在 室温 条件 下 ， 用 AR - 6500 型 充气泵 对 污水 曝气 24 　 h ， 测定 曝气 前后 污水 中 5 种 污染物 的 浓度 ， 并据 每 一组 污染物 的 平均 浓度 计算 相应 的 去除率 。 
+ 　 　 EM 与 污水 厌氧 处理 ： 方法 与 好 氧 处理 类似 ， 不同之处 是 处理 组数 为 4 组 ， 即 ： VEM / V 污水 分别 是 0 、 1 / 10000 、 1 / 1000 和 1 / 100 。 另外 ， EM 加入 后 ， 立即 密塞 ， 保持 厌氧 24h 。 
+ 2 　 结果 与 讨论 
+ 2.1 　 投加 EM 对 污水 CODcr 去除 效果 的 影响 
+ 　 　 CODcr 是 反映 污水 有机 污染 程度 的 主要 指标 。 从图 1 ( a ) 可以 看出 ， 不加 EM 的 对照组 的 污水 CODcr 由 处理 前 的 453.79 　 mg / L 降为 220.66 mg / L ， 去除率 为 51.37% 。 同 对照 相比 ， 随着 污水 中 EM 加入 量 的 增加 ， 曝气 24 　 h 后 污水 中 的 CODcr 逐渐 降低 ， 特别 是 VEM / V 污水 的 比值 为 5 / 10000 和 1 / 1000 两个 处理 组 的 CODcr 浓度 与 对照 的 差异 达到 了 显著 水平 （ 相应 的 去除率 分别 达到 59.99% 和 60.42% ） ， 表明 EM 中 的 有效 菌 能够 促进 污水 中 有机物 的 降解 。 但是 ， 当 VEM / V 污水 比值 达到 5 / 1000 时 ， 处理 后 污水 的 CODcr 与 对照 相差无几 ， 这 可能 是因为 EM 本身 含有 一定量 的 CODcr （ EM 菌液 中 含有 大量 的 糖蜜 ， 据测定 ， EM 菌液 的 CODcr 浓度 在 30000 - 40000 　 mg / L ） ， 当 污水 中 EM 加入 量 较大 时 ， 必然 会 显著 提高 供试 污水 的 原有 浓度 ， 而且 其 提高 比例 大于 微生物 数 

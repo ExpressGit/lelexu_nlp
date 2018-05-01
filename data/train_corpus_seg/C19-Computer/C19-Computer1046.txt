@@ -1,0 +1,79 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 4 期 Vol.24 No.41998 
+ 
+ 
+ 
+ 
+ 一类 不 确定 时滞 系统 的 鲁棒 H ∞ 控制器 设计 1 ) 
+ 王景成 　 苏 宏业 　 褚健 
+ 关键词 　 线性 时滞 系统 ， 鲁棒 H ∞ 控制 ， 不确定性 ， 静态 状态 反馈 ， 二次 稳定性 . 
+ ROBUSTH ∞ CONTROLLERDESIGNFORUNCERTAINLINEARSYSTEMSWITHDELAYEDSTATEANDCONTROL 
+ WANGJINGCHENG 
+ ( Dept . ofAutomation , ShanghaiJiaoTongUniversity , Shanghai200030 ) 
+ SUHONGYECHUJIAN 
+ ( InstituteofIndustrialProcessControl , ZhejiangUniversity , Hangzhou310027 ) 
+ Keywords 　 Time - delaysystems , robustH ∞ control , uncertainty , staticstatefeedback , quadraticstabilization . 
+ 1 　 引言 
+ 　 　 H ∞ 控制 理论 取得 了 很多 令人瞩目 的 结果 ［ 1 ］ . 本文 将 进一步 考虑 采用 H ∞ 范数 约束条件 来 处理 结构 已知 的 不确定性 . 近年来 ， 在 这 一方面 已经 得到 了 一些 结果 ［ 2 , 3 , 4 , 5 ］ . 本文 将 研究 状态 和 控制 存在 定常 时滞 、 并且 在 系统 状态 矩阵 、 控制 矩阵 、 时滞 状态 矩阵 和 时滞 控制 矩阵 中 存在 参数 不确定性 的 线性 不 确定 系统 的 鲁棒 H ∞ 控制 问题 ， 在 处理过程 中 ， 不确定性 矩阵 不必 满足 匹配 条件 . 在 时域 中 ， 将 采用 二次 型 稳定性 概念 来 处理 线性 不 确定 系统 ； 在 频域 中 ， 将 采用 系统 H ∞ 范数 定义 来 处理 . 通过 求解 一个 ARE 可以 得到 静态 状态 反馈 控制 律 ， 该 控制 律 保证 了 闭环 系统 的 二次 型 稳定性 、 并且 满足 从 干扰 输入 到 控制 输出 的 H ∞ 范数 约束 . 
+ 
+ 2 　 问题 描述 
+ 　 　 考虑 下述 方程 描述 的 线性 时滞 不 确定 系统 
+ 　 ( 1 ) 
+ 这里 x ( t ) ∈ Rn 是 状态 向量 ， u ( t ) ∈ Rm 是 控制 输入 向量 ， w ( t ) ∈ Rp 是 属于 L2 ［ 0 , ∞ ) 空间 的 干扰 输入 向量 ， z ( t ) ∈ Rq 是 控制 输出 向量 ， , 是 具有 合适 维数 的 用以 表述 系统 不确定性 的 实矩阵 ， A0 , A1 , B0 , B1 , D 和 E 是 具有 合适 维数 的 已知 实矩阵 ， h1 和 h2 是非 负 常数 . 假设 静态 状态 反馈 控制 律为 
+ u ( t ) = Kx ( t ) , 　 　 ( 2 ) 
+ 　 　 ( 3 ) 
+ 这里 ε 是 待定 的 正 实数 ， R ∈ Rm × m 是 待定 的 正定 加权 矩阵 ， P ∈ Rn × n 是 后文 将 定义 的 正定 矩阵 . 则 从 干扰 输入 向量 w ( t ) 到 控制 输出 向量 z ( t ) 的 闭环 传递函数 为 
+ ( 4 ) 
+ 　 　 故鲁棒 H ∞ 控制器 设计 可 表述 为 ， 确定 正定 对称 矩阵 P 使 闭环控制 系统 稳定 并且 保证 对于 给定 的 正常 数 γ 满足 约束条件 Hzw ( s ) ∞ γ . 
+ 3 　 主要 结论 
+ 　 　 定义 1 ［ 2 ］ . 　 给定 系统 ( 1 ) ( 当 u ( t ) = 0 , w ( t ) = 0 时 ) ， 如果 存在 一 正定 对称 矩阵 P 和 正常 数 α ， 使得 对于 容许 的 不确定性 ， Lyapunov 函数 V ( x ) = xTPx 的 导数 对于 所有 的 ( x , t ) ∈ Rn × R 满足条件 
+ 　 　 ( 5 ) 
+ 则 称此 系统 二次 型 稳定 . 如果 存在 一个 状态 反馈 控制 u ( t ) = Kx ( t ) 使式 ( 1 ) 和 ( 2 ) 组成 的 闭环 系统 ( 当 w ( t ) = 0 时 ) 二次 型 稳定 ， 则 称此 系统 状态 反馈 二次 型 能 稳定 . 
+ 　 　 假设 系统 ( 1 ) 的 不确定性 结构 为 
+ Δ A0 = H1F1 , Δ A1 = H2F2 , Δ B0 = G1F3 , Δ B1 = G2F4 , 　 　 ( 6 ) 
+ FiFTiI , i = 1 , 2 , 3 , 4 . 　 　 　 ( 7 ) 
+ 那么 有 下述 的 结果 . 
+ 　 　 定理 1 . 　 假设 干扰 输入 为 零 输入 ， 如果 对于 正常 数 ε 和 正定 对称 矩阵 R 存在 一个 正定 对称 矩阵 P 满足 下述 的 矩阵 不等式 
+ ( 8 ) 
+ 那么 由 ( 1 ) 和 ( 2 ) 式 组成 的 闭环 系统 二次 型 稳定 . 
+ 　 　 证明 . 为 方便 起 见 ， 定义 xh1 = x ( t - h1 ) 和 xh2 = x ( t - h2 ) . 假定 零 干扰 输入 ， 将 ( 2 ) 式 的 控制 输入 代入 ( 1 ) 式 ， 则 闭环 反馈系统 变为 
+ ( t ) = ( A0 + H1F1 ) x + ( A1 + H2F2 ) xh1 + ( B0 + G1F3 ) Kx + ( B1 + G2F4 ) Kxh2 . 
+ 　 　 选择 该 系统 的 Lyapunov 函数 为 
+ L = xTPx + 2 ∫ tt - h1xTxd θ + 2 ∫ tt - h2xTKTKxd θ . 
+ 　 　 考虑 到 ( 7 ) 式 以及 不等式 2xTyxTx + yTy ( x 和 y 是 合适 维数 的 向量 ) ， 进一步 可以 得到 
+ ( 9 ) 
+ 　 　 将 ( 3 ) 式 代入 ( 9 ) 式 可得 . 故 如果 对于 正常 数 ε 和 正定 对称 矩阵 R 存在 正定 对称 矩阵 P ， 并且 满足 不等式 ( 8 ) ， 则 必 存在 正常 数 c 满足 . 由 定义 1 可知 ， 此 闭环 系统 二次 型 稳定 . 
+ 证毕 . 
+ 　 　 定理 2 . 　 对于 给定 的 正常 数 γ ， 假设 对于 正常 数 ε 和 正定 对称 矩阵 R 存在 正定 对称 矩阵 P 满足 下述 的 矩阵 不等式 
+ 
+ ( 10 ) 
+ 那么 由 ( 1 ) 和 ( 2 ) 式 组成 的 闭环 系统 二次 型 稳定 并且 满足 约束条件 Hzw ( s ) ∞ γ . 
+ 证明 . 由 定理 1 可知 ， 本 定理 证明 可 归结为 证明 不等式 Hzw ( s ) ∞ γ . 
+ 　 　 显然 ， 存在 一 正定 对称 矩阵 Q 满足 
+ 
+ ( 11 ) 
+ 这里 
+ 
+ 　 　 为 方便 后文 叙述 ， 定义 下述 记号 ： 
+ 
+ 　 　 则 ( 11 ) 变为 
+ ( 12 ) 
+ 　 　 显然 T ( j ω ) 可逆 ， 故 可定义 记号 
+ U ( j ω ) = DTPT - 1 ( j ω ) P . 
+ 　 　 对 ( 12 ) 式 左 乘 γ DTT - * ( j ω ) , 右乘 T - 1 ( j ω ) D , 则 有 
+ 
+ 　 　 即 Hzw ( s ) ∞ γ . 
+ 证毕 . 
+ 　 　 注 1 . 文献 ［ 4 ］ 给出 了 状态 和 控制 同时 存在 时滞 、 无 参数 不确定性 的 线性 时 不变 系统 的 静态 状态 反馈 H ∞ 控制器 设计 结果 . 其 结果 不 考虑 不确定性 ， 因此 是 本节 结果 的 一个 特例 ， 但 其 对于 确定性 系统 的 保守 性应 小 一些 . 
+ 　 　 注 2 . 文献 ［ 5 ］ 处理 了 状态 和 控制 同时 存在 时变 时滞 、 并 含有 不确定性 的 线性系统 的 静态 状态 反馈 稳定性 问题 ， 其 结果 虽然 考虑 了 不确定性 ， 但 没有 考虑 到鲁棒 H ∞ 性能 约束 ， 若 不 考虑 时变 时滞 影响 ， 它 也 是 本节 结果 的 一个 特例 ( 当 D = 0 ， E = 0 ， γ → ∞ 时 ) . 
+ 　 　 1 ) 国家自然科学基金 资助 项目 ( No.69604006 ) . 
+ 作者 单位 ： 王景成 ( 上海交通大学 自动化系 　 上海 　 200030 ) 
+ 　 　 　 　 　 苏 宏业 　 褚健 ( 浙江大学 工业 控制技术 研究所 　 杭州 　 310027 ) 
+ 参考文献 
+ 1 　 DoyleJC , GloverK , KhargonekarPP , FrancisBA . State - spacesolutiontostandardH2andH ∞ controlproblem . IEEETrans . Automat . Control , 1989 , 34 ( 8 ) : 881 - 897 
+ 2KhargonekarPP , PetersenIR , ZhouK . Robuststabilizationofuncertainlinearsystems : quadraticstabilizabilityandH ∞ controltheory . IEEETrans . Automat . Control , 1990 , 35 ( 3 ) : 356 - 361 
+ 3XieL , SouzaCE . RobustH ∞ controlforlinearsystemswithnorm - boundedtime - varyinguncertainty . IEEETrans . Automat . Control , 1992 , 37 ( 8 ) : 1188 - 1191 
+ 4ChoiHH , ChungMJ . MemorylessH ∞ controllerdesignforlinearsystemswithdelayedstateandcontrol . Automatica , 1995 , 31 ( 6 ) : 917 - 919 
+ 5ChoiHH , ChungMJ . Memorylessstabilizationofuncertaindynamicsystemswithtime - varyingdelayedstatesandcontrols . Automatica , 1995 , 31 ( 9 ) : 1349 - 1351 
+ 收稿 日期 　 1996 - 01 - 02 

@@ -1,0 +1,104 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1998 年 第 18 卷 第 4 期 No.4 Vol.181998 
+ 科技期刊 
+ 
+ 癸二酸 生产 中单 钠盐 溶液 的 脱色 及 萃取 — 吸附 法 处理 含酚 废水 
+ 魏凤玉 　 邓传芸 　 虞文良 　 ( 合肥工业大学 化工学院 ， 合肥 230009 ) 
+ 张绍 锦 　 刘小玲 　 ( 合肥 化工厂 ， 合肥 230009 ) 
+ 文 　 摘 　 癸二酸 生产 中以 活性炭 对 癸二酸 单 钠盐 溶液 脱色 时 ， 产品 收率 低 、 生产成本 高 。 本文 采用 以 凹凸棒石 粘土 为 基体 的 新型 吸附剂 对 癸二酸 单 钠盐 溶液 进行 脱色 。 结果表明 ， 在 脱色剂 用量 为 2 ％ 、 脱色 温度 90 ℃ 、 脱色 时间 30min 条件 下 ， 脱色 率为 85.3 ％ 、 
+ 产品 产率 为 92.0 ％ ， 且 该 吸附剂 价廉 易得 ， 经 蒸汽 再生 后 可 反复 使用 ， 可 用于 癸二酸 单 钠盐 溶液 的 脱色 。 同时 提出 了 用 萃取 — 吸附 法 处理 癸二酸 生产 中 含酚 废水 的 工艺流程 ， 萃取 相 ( 含酚 ) 无需 反萃 可 直接 回 用于 原 生产 中 ， 该法 具有 明显 的 经济效益 与 环境效益 。 
+ 关键词 　 凹凸棒石 　 癸二酸 　 萃取 — 吸附 　 脱色 　 含酚 废水 
+ Thedecolourisationofsodiumsebacicsolutionandthetreatmentofphenolicwastewaterbyextraction - adsorptionfromsebacicacidmanufacture . WeiFengyu , DengChuanyun , YuWenliang ( TheFacultyofChemicalEngineering , HefeiUniversityofTechnology , Hefei230009 ) ； ZhangShaojin , LiuXiaoling ( HefeiChemicalFactory , Hefei230009 ) . ChinaEnvironmentalScience.1998 , 18 ( 4 ) : 371 ～ 373 
+ Abstract — Whenthesolutionofsodiumsebacatefromsebacicacidmanufactureisdecolorisedwithactivatedcarbonadsorption , theproductivitywaslowandthecostwashigh . Experimentalstudiesonthedecolourisationofsodiumsebacicsolutionbyadsorptionwithanewadsorbentmadeofattapulgiteclayhavebeencarriedout . Theresultsindicatedthatwiththisnewadsorbenttheefficiencyofdecolourisationwas85.3 ％ andtheproductivityofsebacicacidwas92.0 ％ undertheconditionof2 ％ ofadsorbentamountusedwith30minofreactiontimeat90 ℃ . Theadsorbentischeapandcanbereusedafterretreactedwithsteam , soitispossibletodecoloriseonthesolutionofsodiumsebacatebythisnewadsorbent . Atthesametime , thetreatmentprocessonthephenolicwastewaterbymeansofextraction - adsorptionwasdetermined . Theextractentphase ( containingphenol ) needn ' tbereextractedandcouldberecycledtotheproductionprocesswithremarkableenvironmentalandeconomicbenefits . 
+ Keywords : attapulgite 　 sebacicacid 　 extraction - adsorption 　 decolourisation 　 phenolicwastewater 
+ 　 　 由 蓖麻油 为 原料 生产 癸二酸 过程 中 ， 传统 的 脱色 工艺 是 用 粉末 活性炭 吸附 ， 活性炭 在 脱除 溶液 中 有机 色素 和 混酯 的 同时 ， 也 吸附 了 部分 癸二酸 单 钠盐 ， 使 产品 得率 较 低 ， 生产成本 高 。 凹凸棒石 粘土 （ 以下 简称 凹土 ） 是 一种 具有 特殊 纤维状 晶体 形态 的 粘土矿 物 ， 在 我国 储量 丰富 ， 它 具有 较大 的 比 表面积 和 内 表面 ， 吸附 作用 较强 ， 已 广泛 用于 石油 和 油脂 的 脱色 〔 1 〕 、 印染 废水 和 造纸 废水 的 吸附 脱色 〔 2 〕 等 。 本文 采用 以 凹凸棒石 粘土 为主 的 新型 吸附剂 对 癸二酸 单 钠盐 溶液 脱色 。 同时 ， 在 癸二酸 生产 中 排放 大量 的 含酚 废水 ， 若不经 处理 直接 排放 ， 不仅 会 损失 大量 的 原料 甲酚 ， 而且 会 严重 污染环境 。 处理 含酚 废水 的 方法 很多 ， 有 络合 萃取 法 〔 3 〕 、 液 膜法 〔 4 〕 等 。 为 充分 回收 利用 废水 中 的 酚 ， 减少 环境污染 ， 提出 了 用 萃取 — 吸附 工艺 处理 癸二酸 生产 中 的 含酚 废水 ， 取得 了 较 好 的 效果 。 
+ 1 　 实验 方法 
+ 1.1 　 分析方法 
+ 　 　 脱色 率 采用 分光 光度法 ； 水相中 挥发 酚 采用 溴化 滴定法 ； CODCr 采用 标准 重铬酸钾 法 〔 5 〕 。 
+ 
+ 1.2 　 试剂 与 仪器 
+ 　 　 凹凸棒石 粘土 由 安徽 明光 石粉 厂产 ； 721 - 分光 光度计 ， 工业 马沸炉 ， F - 26 ( Ⅲ ) 前 挤式 双螺杆 挤 条机 , 吸附 、 再生 塔 （ 自制 ） 。 
+ 1.3 　 吸附剂 生产 工艺流程 
+ 
+ 1.4 　 水 处理 工艺流程 
+ 
+ 2 　 结果 与 讨论 
+ 2.1 　 新型 吸附剂 的 研制 
+ 　 　 为了 提高 凹土 的 吸附 能力 ， 采用 高温 活化 法 ， 以 除去 粘土 中 的 杂质 ， 增大 粘土 的 孔隙 度及 比表面 ； 在 粘土 中 加入 粘接剂 可 提高 吸附剂 的 机械 强度 ， 便于 再生 ； 加入 发泡剂 可 增大 吸附剂 的 孔径 和 孔隙 ， 从而 增大 吸附剂 的 比 表面积 ， 提高 吸附剂 的 吸附 和 脱色 能力 。 新型 脱色剂 的 配方 为 ： 凹凸棒石 粘土 、 发泡剂 、 粘接剂 和 水 。 将 以上 组分 按 比例 混合 ， 在 F - 26 ( Ⅲ ) 双螺杆 挤 条机 挤出 造粒 、 焙烧 活化 后 即 为 No.26 吸附剂 。 
+ 2.2 　 No.26 吸附剂 对 癸二酸 单 钠盐 溶液 的 脱色 
+ 2.2 . 1 　 脱色剂 用量 的 确定 （ 表 1 ） 　 由表 1 可知 ， 随着 脱色剂 用量 加大 ， 脱色 率 提高 ， 但 用量 多 ， 所 需 搅拌 功率 增大 ， 颗粒 破损 率 提高 ， 生产成本 增大 。 故 选择 脱色剂 用量 为 2 ％ 。 
+ 2.2 . 2 　 脱色 时间 的 确定 （ 表 2 ） 　 由表 2 可知 ， 随着 脱色 时间 的 延长 ， 脱色 率 提高 ， 当 时间 达 30min 后 ， 脱色 率 基本 保持 不变 ， 故 选择 脱色 时间 为 30min 。 
+ 表 1 　 脱色剂 用量 对 脱色 率 的 影响 
+ Table1 　 Influenceofadsorbentquantityondecolourisation 
+ 
+ 脱色剂 用量 （ ％ ） 脱色 率 （ ％ ） 脱色剂 用量 （ ％ ） 脱色 率 （ ％ ） 
+ 179.4594 . 1 
+ 285.3695 . 3 
+ 388.8795 . 9 
+ 491.1 
+ 
+ 表 2 　 脱色 时间 对 脱色 率 的 影响 
+ Table2 　 Influenceoftimeondecolourisation 
+ 
+ 时间 （ min ） 脱色 率 （ ％ ） 时间 （ min ） 脱色 率 （ ％ ） 
+ 1064.15088 . 8 
+ 2073.56089 . 4 
+ 3085.37090 . 0 
+ 4088.2 
+ 
+ 2.2 . 3 　 脱色 温度 的 确定 （ 表 3 ） 　 由表 3 可知 ， 脱色 温度 对 脱色 率 的 影响 较为 复杂 。 这是 由于 吸附 过程 中 ， 吸附 与 解吸 处于 动平衡 中 ， 低温 有利于 液相 中 的 吸附 质 附着 于 吸附剂 表面 ， 而 高温 有利于 解吸 过程 的 进行 ， 但 从 吸附 动力学 角度看 吸附 、 解吸 速度 均 随着 温度 升高 而 增大 。 根据 癸二酸 实际 生产工艺 条件 ， 选定 适宜 的 吸附 温度 为 90 ℃ 。 
+ 表 3 　 脱色 温度 对 脱色 率 的 影响 
+ Table3 　 Influenceoftemperatureondecolourisation 
+ 
+ 温度 （ ℃ ） 脱色 率 （ ％ ） 温度 （ ℃ ） 脱色 率 （ ％ ） 
+ 2578.87079 . 4 
+ 3078.28082 . 4 
+ 4076.59085 . 3 
+ 6075.9 
+ 
+ 　 　 从 以上 讨论 可 看出 ， 当 脱色剂 用量 2 ％ ， 脱色 温度 90 ℃ ， 脱色 时间 30min 时 ， 脱色 率达 85.3 ％ ， 此时 癸二酸 单 钠盐 产率 达 92.0 ％ ， 比 活性炭 脱色 时产率 提高 约 12 ％ ， 产率 的 提高 从而 降低 了 生产成本 。 
+ 2.2 . 4 　 吸附剂 再生 ( 表 4 ） 　 吸附剂 使用 一定 时间 后 ， 吸附 达 饱和 ， 失去 脱色 能力 ， 必须 经过 再生 ( 解吸 ) 后 才能 重复使用 。 采用 过热 蒸汽 再生 法 进行 再生 ， 由表 4 可知 ， 吸附剂 经过 脱色 、 再生 可 反复 使用 12 次 ， 其 脱色 率 无 明显 下降 ， 总 损失率 约 为 3.3 ％ 。 
+ 表 4 　 吸附剂 的 再生 
+ Table4 　 Retroactionofadsorbent 
+ 
+ 再生 次数 脱色 率 （ ％ ） 再生 次数 脱色 率 （ ％ ） 
+ 　 182.8782 . 8 
+ 279.0882 . 8 
+ 384.7971 . 0 
+ 484.010 　 　 84.0 
+ 580.911 　 84.0 
+ 681.712 　 80.9 
+ 
+ 　 注 ： 脱色 条件 ： 温度 90 ℃ ， 时间 30min ， 吸附剂 用量 2 ％ ； 再生 条件 ： 温度 120 ℃ ， 时间 60min ； 固定床 ： 高 150mm ， 内径 100mm 
+ 2.3 　 萃取 — 吸附 法 处理 癸二酸 生产 中 含酚 废水 
+ 　 　 癸二酸 生产废水 中 甲酚 浓度 很 高 ， 采用 萃取 法 可回收 甲酚 。 经 反复 实验 ， 萃取 剂 选择 为 生产 癸二酸 的 原料 蓖麻油 ， 这样 所得 萃取 相 ( 蓖麻油 ＋ 酚 ) 不需 进行 反 萃取 而 直接 回原 生产 中 ， 既 达到 了 废水 治理 的 目的 ， 又 可回收 甲酚 ， 实现 “ 清洁 生产 ” 。 萃取 后 的 低浓度 含酚 废水 再经 No.26 吸附剂 处理 ， 结果 见表 5 。 
+ 表 5 　 萃取 — 吸附 法 处理 含酚 废水 的 试验 结果 
+ Table5 　 Experimentalresultsonthephenolic 
+ wastewaterbyextraction - adsorption 
+ 
+ 项目 　 原 废水 　 萃取 后 去除率 　 吸附 后 去除率 总 去除率 
+ 　 ( mg / L ) 　 ( mg / L ) ( ％ ) 　 ( mg / L ) ( ％ ) ( ％ ) 
+ CODCr 　 　 6840.0411 . 893.9848 . 5 　 88.2299 . 30 
+ 酚类 　 　 2316.4138 . 394.0319 . 5 　 85.9099 . 20 
+ 
+ 　 　 由表 5 可见 ， 废水 经 萃取 — 吸附 法 处理 后 ， CODCr 总 去除率 达 99.3 ％ ， 甲酚 回收率 达 94.0 ％ 。 该 废水 若用 碱 将 pH 值 由 1 ～ 2 调至 8 ～ 9 ， 则 可 循环 使用 。 
+ 2.4 　 吸附 容量 的 确定 — 吸附 等温线 
+ 
+ 图 1 　 吸附 量 q 与 平衡 浓度 Ce 的 关系 
+ Fig.1 　 Relationshipofadsorptioncapacitywith 
+ equilibriumconcentration 
+ 　 　 在 95 ℃ 下 ， 取 定量 经 萃取 后 的 废水 ， 加入 不同 量 的 吸附剂 ， 测定 吸附 达 平衡 时 溶液 中酚 的 浓度 Ce ( mg / L ) 与 吸附 量 q （ mg / g ） ， 结果 见图 1 。 logq 与 logCe 为 一 线性关系 ， 由 最小 二 乘法 求得 其 关系式 为 ： q = 2.59 Ce0.5088 ， 相关系数 r = 0.9994 , 说明 No.26 吸附剂 的 吸附 等温线 符合 Frendlich 定律 ， 且 可见 该 吸附剂 对 含 酚类 废水 的 吸附 作用 是 有效 的 。 
+ 3 　 结论 
+ 3.1 　 No.26 型 吸附剂 对 癸二酸 单 钠盐 溶液 脱色 是 可行 的 ， 最佳 工艺 条件 为 ： 脱色剂 用量 2 ％ 、 脱色 温度 90 ℃ 、 脱色 时间 30min ， 该 条件 下 脱色 率达 85.3 ％ 、 产品 得率 92.0 ％ ， 超过 活性炭 脱色 时 产品 得率 约 12 ％ ， 较大 地 降低 了 生产成本 。 
+ 3.2 　 No.26 型 吸附剂 用 120 ℃ 过热 蒸汽 再生 后 可 反复 使用 12 次 以上 ， 总 损失率 为 3.3 ％ ， 且 再生 操作 方便 简单 、 劳动强度 低 。 因此 ， No.26 型 吸附剂 可 代替 癸二酸 生产 中 活性炭 脱色 。 
+ 3.3 　 蓖麻油 萃取 — No.26 吸附剂 吸附 法 处理 癸二酸 生产 中 含酚 废水 ， CODCr 去除率 达 99.3% ， 甲酚 回收 利用率 达 94.0% ， 萃取 相 不 需要 反 萃取 ， 因此 该法 具有 明显 的 经济效益 和 环境效益 。 
+ 参考文献 
+ 1 　 虞文良 ， 邓传芸 . 浸出 油厂 废水处理 实验 研究 . 合肥工业大学 学报 ， 1994 , 17 ( 5 ) : 156 ～ 161 
+ 2 　 陈 天虎 ， 张国生 ， 范文 元 . 凹凸棒石 粘土 处理 印染 废水 研究 . 环境污染 与 防治 ， 1995 , 17 ( 1 ) : 24 ～ 26 
+ 3 　 杨义燕 ， 党广悦 ， 王 　 陈等 . 络合 萃取 法 处理 癸二酸 生产 中 的 含酚 废水 . 化工 环保 ， 1997 , 17 ( 1 ) : 135 ～ 139 
+ 4 　 万印华 ， 王向德 ， 张秀娟 等 . 液 膜法 处理 和 回收 多种 废水 高浓度 酚 的 研究 . 水 处理 技术 ， 1991 , 17 ( 4 ) : 30 ～ 35 
+ 5 　 奚旦立 ， 孙裕生 ， 刘 秀英 编 . 环境监测 . 北京 ： 高等教育出版社 ， 1995.389 
+ 作者简介 
+ 魏凤玉 　 女 ， 1963 年 6 月生 。 现为 合肥工业大学 化工学院 讲师 。 主要 从事 化学工程 教学 与 研究 工作 。 承担 过 “ 氨基 J 酸 工业废水 的 处理 ” 、 “ 2 - 萘酚 钠盐 母液 废水 的 处理 ” 、 “ 癸二酸 生产 过程 中单 钠盐 溶液 脱色 及 含酚 废水 脱酚 的 研究 ” 等 项目 的 研究 工作 。 发表 论文 5 篇 。 
+ 收稿 日期 ： 1997 - 09 - 30 

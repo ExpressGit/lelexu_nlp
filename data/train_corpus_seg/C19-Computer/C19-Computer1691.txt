@@ -1,0 +1,103 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 2000 　 Vol.11 　 No.4 　 P.427 - 434 
+ 
+ 
+ 
+ 
+ 基于 形式化 方法 的 因特网 路由 协议 的 一致性 测试 
+ 毕军 　 吴建平 
+ 摘要 　 并发 数表 组合 表述 法 ( 并发 TTCN ) 是 可以 描述 并发 测试 行为 的 测试 表述 法 . 该文 提出 一种 基于 并发 TTCN 的 分布式 路由 协议 的 测试方法 . 首先 讨论 路由 协议 实体 的 测试 结构 ， 然后 给出 基于 并发 TTCN 测试 系统 的 设计 . 最后 介绍 了 测试 集 的 设计 . 
+ 关键词 　 一致 行 测试 ， 分布式系统 ， 路由 协议 ， 因特网 ， 并发 数表 组合 表述 法 . 
+ 中图法 分类号 　 TP393 
+ 　 AFormalApproachtoConformanceTestingofInternet 
+ RoutingProtocols 
+ BIJun 　 WUJian - ping 
+ 　 （ DepartmentofComputerScienceandTechnology 　 TsinghuaUniversity 　 Beijing 　 100084 ） 
+ 　 Abstract 　 　 ConcurrentTTCN ( treeandtabularcombinednotation ) isatestnotationthatcanhandleconcurrenttestbehaviors . ThispaperproposesanapproachtotheconformancetestingofdistributedroutingprotocolsbasedonconcurrentTTCN . Itfirstdiscussesthetestarchitecturefortheroutingprotocolentity , andthentheconcurrentTTCNbasedtestsystemdesignispresented . Finally , thispaperintroducesthetestsuitedesign . 
+ 　 Keywords 　 Conformancetesting , distributedsystem , routingprotocol , internet , concurrentTTCN . 
+ 　 　 OSPFnowisthemostimportantroutingprotocolandiswidelyusedintheInternet . ThequalityoftheOSPFproductswouldinfluencethestabilityofnetworksanditisreallynecessarytogivetheconformancetestassessmentofOSPFrouters . However , theroutingfunctionsarerealizedbythecooperationofdistributedrouters . ThenhowtoformallyspecifyandtesttheconcurrentbehaviorsofOSPFrouterisachallengetothetraditionalprotocoltestmethodsandtestsystems . InRefs . [ 1 , 2 ] , someproblemsofconformancetestingindistributedsystemswerestudied . Theentityindistributedsystemsismorecomplexandgeneralthantraditionalpeer - to - peerprotocolentity . Anentityindistributedsystemsisassociatedwithasetofinteractionpointsandasetofconcurrentbehaviorsattheseinteractionpoints . Inthispaper , wepresentaspecificationmodelcalledconcurrentexternalbehaviorexpression ( CEBE ) tospecifytheentity . CEBEcoulddirectlyspecifytheconcurrentexternalbehaviorsatdifferentinteractionpointsofanentityandreducetheinternalstates , actionsanddata . ThereforeitisanidealmodeltoformallyspecifytheentityinacomplexdistributedsystemandtogenerateconcurrentTTCN ( C - TTCN ) testsuite . Moreover , weformallydefinetestsystembasedonC - TTCNoperationalsemantics . TheabovemethodshavebeenputintopracticebyusinganintegratedtestsystemPITSandanautomatictestgenerationtoolTUGENtotestCISCO4700router . 
+ 　 　 Therestofthispaperisorganizedasfollows . InSection1 , wegiveouttheabstracttestarchitecture . ThenwediscussthetestsystemdesignandtestsuitegenerationinSections2and3respectively . Finally , weconcludethispaperinSection4 . 
+ 1 　 AbstractTestArchitecture 
+ 　 　 TheTreeandTabularCombinedNotation ( TTCN ) isrecommendedbyISOtodescribeabstracttestsuite . C - TTCNisanextensionofTTCN , thatallowsthetestsystemtoexecuteatestcasebyseveraltestcomponents ( TCs ) runninginparallel . Atesterconsistsofexactlyonemaintestcomponent ( MTC ) andanynumberofparalleltestcomponents ( PTCs ) . TCsarelinkedbycoordinationpoints ( CPs ) capableofconveyingcoordinationmessages ( CMs ) . CommunicationsofTCswiththeenvironmentarethroughthepointsofcontrolandobservation ( PCOs ) . C - TTCNisverysuitableforthespecificationofasystemconsistingofseveraltesters , whilethisisthecommoncaseinroutingtesting . ThetestarchitectureisadescriptionoftheenvironmentinwhichIUT ( ImplementationunderTest ) istested . Forarouterentity , therearekconcurrentbehaviorswhichhappenatinteractionpoints . Ifandonlyifallthesebehaviorsconformtothebehaviorsofitsspecification , itisaconformanceimplementation . Thenthetestarchitectureshoulddealwiththeseconcurrentbehaviorsatseveralinteractionpoints . Weconstructtheabstracttestarchitectureaccordingtothisfeature . Itconsistsofatestsystem , anentityundertest , atestcontext , severalPCOsandseveralinteractionpoints . ThetestsystemistheimplementationofatestsuitewritteninC - TTCN . Itcarriesouttheexperimentsbyexecutingtestcasesandobservingresults . TheinteractionsoftheIUTwithitsenvironmenttakeplaceatinteractionpoints ( IPs ) . ThetestsystemcommunicateswiththeIUTindirectly : throughthetestcontext . Thepoints , wherethetestercommunicateswiththetestcontextandinthiswayindirectlycontrolsandobservestheIUT , arecalledthePointsofControlandObservation ( PCOs ) . ExecutionofatestcasestartswiththeexecutionofMTC . ItistheconcernofMTCtosetupallPTCs , andtomanageallPCOsandCPstobeconnectedto . PTCscanbecreatedbyMTCondemand . A ‘ create ’ operationassociatesaPTCwithabehaviortree . ThenewlycreatedPTCstartsexecutionofitsassignedbehaviortreeconcurrentlywithMTC . MTCmayexplicitlyterminateaPTCbyexecutinga ‘ down ’ operation . 
+ 2 　 C - TTCNBasedTestSystem 
+ 2.1 　 Preliminaries 
+ 　 　 Definition2.1 . ALabeledTransitionSystem ( LTS ) isa4 - tuple 〈 S , L , T , s0 〉 . ( 1 ) Sisacountable , non - emptysetofstates . ( 2 ) Lisacountablesetofobservableevents . ( 3 ) TS × ( L ∪ { τ } ) × Sisasetoftransitions , where τ denotesanunobservableevent . Element ( s , u , s ′ ) inTcanalsobewrittenas : wheres , s ′ ∈ S , u ∈ L ∪ { τ } . ( 4 ) s0 ∈ Sistheinitialstate . 
+ 　 　 WeuseLTSs ( L ) todenotethesetofallpossiblelabeledtransitionsystemsoverL . TraceisacommonconceptinLTS , Definition2.2 givesoutitsdefinitionandsomeusefulnotation . 
+ Definition2.2 . Let 〈 S , L , T , s0 〉 beanLTTS . L ′ = L ∪ { τ } containsallobservableandunobservableevents . s , s ′ , s1 , s2 , ... , sn , sn + 1 ∈ S , u1 , u2 , ... , un ∈ L ′ . Let σ = u1 。 u2 。 ． ． ． 。 unbeasequenceoflabelsinL ′ . ‘ 。 ’ denotesconcatenation , then σ issaidtobeatraceoverL ′ . L ′ * denotesthesetofallpossibletracesoverL ′ . Wefurtherhavethefollowingnotations : 
+ 　 　 。 
+ 　 　 。 ifistheconcatenationofzeroormore τ ; 
+ 　 　 
+ 　 　 InLTSmodel , eventsinLaretreatedinthesamewaynomatterwhattheymean . Inordertodistinguishinputeventsfromoutputevents , akindofLTScalledinput - outputtransitionsystemisintroduced . 
+ Definition2.3 . AnInput - OutputTransitionSystem ( IOTS ) pisanLTSinwhichthesetofeventsLispartitionedintoinputeventsLiandoutputeventsLo , whereelementsinLiareeventsacceptedbythisLTSfromitsenvironment , andelementsinLoareeventssenttoitsenvironmentbythisLTS . IOTSpsatisfies : p ∈ LTSs ( L ) , L = Li ∪ LoandLi ∩ Lo = Φ . IOTSs ( Li , Lo ) representsthesetofallpossibleinput - outputlabeledtransitionsystemsoverinputeventsLiandoutputeventsLo . IOTSs ( Li , Lo ) LTSs ( Li ∪ Lo ) . 
+ 　 　 Definition2.4 . Input - queueoperatorisaunaryoperator ［ 。 ］ σ i : IOTSs ( Li , Lo ) → IOTSs ( Li , Lo ) , where σ i ∈ L 砳 . LetTS ∈ IOTSs ( Li , Lo ) , then ［ TS ］ σ iisdefinedbytheaxiomA1andinferencerulesI1 , I2andI3 : 
+ 
+ 　 　 Wewillname [ S ] σ iastheInput - BufferedTransitionSystem ( IBTS ) . Foracommoncommunicationsystem , wecanmodelitsbehaviorbyonlyoneInput - BufferedTransitionSystem . Whileconsideringcommunicationsystemwhosefunctionisperformedbyseveralconcurrentsparts , weneedagroupofIBTSstomodelitsbeheviors . Thenweintroduceaformaldefinitionofcommunicationsystemintehfollowing . 
+ Definition2.5 . AcommunicationsystemconsistingofnconcurrententitiescanbemodeledbyanIOTS Σ : 〈 S Σ , { Ext } × N × L Σ , i ∪ N × { Ext } × L Σ , o , Tr , s Σ , 0 〉 , where ( 1 ) S Σ isthestatesetofthisIOTS , elementinS Σ canberepresentedby 〈 s1 , s2 , ... , sn 〉 , where1 ≤ i ≤ n , siisthestateofi - thIBTSthatisdefinedoverinputactionsID × ID × LiandoutputactionsID × ID × Lo , ID = { Ext , 1 , 2 , ... , n } ; ( 2 ) L Σ , i , L Σ , oarethesetofinputactionsandthesetofoutputactionsofthiscommunicationsystemrespectively ; ( 3 ) Extistheidentificationoftheoutsideenvironmentofthiscommunicationsystem ; ( 4 ) N = { 1 , 2 , ... , n } , eachnumberinNrepresentsanIBTS ; ( 5 ) s Σ , 0istheinitialstate , s Σ , 0 = 〈 s1 , 0 , s2 , 0 , ... , sn , 0 〉 , si , 0istheinitialstateofi - thIBTS ; ( 6 ) TransitionssetTrisinferredfromthefollowingaxiomandrules : 
+ 
+ 2.2 　 TheC - TTCNbasedtestsystemdesign 
+ 　 　 Wewilluse “ communicationsystem ” indefinition2.5 toformallydescribetheinteractionbetweentestsystemandIUT . TodesigntheC - TTCNbasedtestsystem , weshouldstudytheoperationalsemanticsofC - TTCNfirst . InaC - TTCNtestcase , thebehaviorofeachtestcomponentisexpressedwithaTestBehaviorTree ( TBE ) , whichisatree - likepresentationoftemporalrelationsbetweentestevents . 
+ 　 　 Definition2.6 . TBEB = defstop | exit | id ? a ; B | id ! y ; B | B ［ ］ B | BB | ［ q ］ ; B | ( I : = val ) ; B | ( B ) | starttidval ; B | canceltid ; B ｜ timeouttid ; B | createidB | doneid . 
+ 　 　 Definition2.7 . ATestComponent ( TC ) isavirtualmachinethatcanperformtheevaluationoftestbehaviorexpressions . ItcanbemodeledbyanIBTS : ［ ( ctl ， sto ) ］ σ i . ( 1 ) ctlisaTBEspecifyingthebehaviorsofthisTC . ( 2 ) stoisthetestcontextofthistestcomponent , sto = { ( i , v ) | ( i , v ) ∈ MEM = Ident × Value } . IdentandValuearethesetsofidentifiersandvaluesrespectively . Elementsinstoarepairsofidentifierandvalue , eachelementcorrespondstoavariableorconstantintestsuiteanditsvalue . ( 3 ) σ iistheinput - bufferedqueueofthistestcomponent . TheinitialstateofthisTCisTC0 = ［ ( TBETC , sto0 ) ］ ε , whereTBETCisthecompletebehaviorspecificationofthisTC . sto0denotestheinitialsituationofthetestcontextand ε representsthattheinput - bufferedqueueisempty . 
+ 　 　 Definition2.8 . ATestSystem ( TS ) isasystemthatcanperformtheevaluationofatestcasespecifiedinC - TTCN . Itcontainsonemaintestcomponentandzeroormoreoptionalparalleltestcomponents . Itsrunningcanbemodeledbyacommunicationsystem : 〈 STS , { Ext ∪ Tim } × N × LTS , i ∪ N × { Ext ∪ ( Tim } × LTS , o , Tran , sTS , 0 〉 where ( 1 ) thestateofTSinSTSisthecombinationofthestatesofntestcomponents : 〈 TC1 , TC2 , ... , TCn 〉 , TCirepresentsthestateoftestcomponenti , TCi = ［ ( TBEi , sto ) ］ σ i ; ( 2 ) sTS , 0istheinitialstateofthisTS , sTS , 0 = 〈 TCi , 0 | 1 ≤ i ≤ n 〉 , whereTCi , 0istheinitialstateoftestcomponenti ; ( 3 ) thesetofinputactionsofthisTSis { Ext ∪ Tim } × N × LTS , i , andthesetofoutputactionsisN × { Ext ∪ Tim } × LTS , o ; ( 4 ) identifierExtrepresentstheoutsideenvironmentofthistestsystem ; ( 5 ) Timrepresentsthetimingsystem ; ( 6 ) Nisthesetofnaturalnumber { 1 , 2 , .. , n } whichisusedtoidentifyeachtestcomponentand τ denotesunobservableactions ; ( 7 ) Tranisthesetoftransitionsthataredefinedbythefollowingaxiomsandreferencerules : 
+ 
+ 
+ 
+ 
+ 　 　 Fortheconvenienceofdiscussion , wesupposethatsystemsundertestcanalsobemodeledbyacommunicationsystem . Whentesting , itconsistsofmanyinterfacesconnectedtothetestsystem . 
+ Definition2.9 . Thesystemundertest ( SUT ) isacommunicationsystem Σ thatconsistsoflotsofInput - BufferedTransitionSystems . Σ isdenotedby 〈 SSIUT , { Ext } × N × LTS , o ∪ N × { Ext } × LTS , i , Tran , sSUT , 0 〉 , where : ( 1 ) thestateof Σ isobtainedfromthestatesoftwoIBTSs , sSUT = 〈 sIUT1 , sIUT2 , ... , sIUTn 〉 , wheresIUT1 , sIUT2 , ... , sIUTnarethestatesofthebehaviorsateachinteractionpoint , respectively ; ( 2 ) theinitialstateof Σ issSUT , 0 = 〈 sIUT1 , 0 , sIUT2 , 0 , ... , sIUTn , 0 〉 , wheresIUT1 , 0 , sIUT2 , 0 , ... , sIUTn , 0aretheinitialstatesofthebehaviorsateachinteractionpoint , respectively ; ( 3 ) thesetofinputactionsto Σ is { Ext } × { 1 , ... , n } × LTS , o , correspondingtotheoutputactionsfromTS ; ( 4 ) thesetofoutputactionsfrom Σ is { 1 , ... , n } × { Ext } × LTS , i , correspondingtotheinputactiontoTS , τ isanunobservableaction ; ( 4 ) Tranisthesameasindefinition2.9 . 
+ 　 　 ThetestingprocesscanbedescribedbysynchronouscommunicationsbetweenTSandSUT . Weuseasynchronousoperator ‘ ‖ ’ toexpressthatwhenTS ( orSUT ) sendsoutanaction , SUT ( orTS ) willreceiveitatthesametime ( theyaresynchronousatthisaction ) . WecanusesTS , 0 ‖ sSUT , 0todescribethewholetestexecutionprocess . Thesynchronousoperationcanberepresentedasfollows : 
+ 
+ 　 　 Theresultoftestexecutionisatrace σ ofsTS , 0 ‖ sSUT , 0thatsatisfiestheaboveoperationrules . Givenatestcaset , theexecutionresultoftinaTSdefinedaboveisatrace σ : Run ( t , SUTs ) = σ , where 
+ 
+ 　 　 Thefinaltestverdictofthiscasetisbasedonthecorrespondingverdictoftheistrace σ . 
+ 3 　 C - TTCNTestSuiteGeneration 
+ 3.1 　 BasicdefinitionsofCEBE 
+ 　 　 Inthissection , weproposeanentityspecificationmodelCEBE . ItisanextensionofEBEpresentedinRef . [ 3 ] . TheessenceofbothEBEandCEBEistodescribethedatainadditiontothecontrolbehaviorfromtheviewpointoutsidethesystem . Byeliminatingtheinternalactions , thespecificationofCEBEcouldbeobtainedfromETS ( theextensionofETSpresentedinRef . [ 4 ] ) , whichcouldbetranslatedfromLOTOSandEstelle . Therefore , theCEBEmaybetranslatedfromthestandardFDTs . 
+ Definition3.1 . ACEBEisa7 - tuple 〈 S , G , Σ , A , R , s0 , v0 〉 , where : ( 1 ) Sisafinitesetofexternalstates , whoseelementsarepausestatesofinteractionsexchangedbetweentheentityanditsexternalenvironment ; ( 2 ) GisasetofgatesoverwhichaCEBEcancommunicate ; ( 3 ) Σ isthesetofdataonCEBE ( seebelow ) ; ( 4 ) AisasetofexternalactionsonCEBE ( seebelow ) ; ( 5 ) Risasetoflogicrelationsoftransitionsbetweenexternalstates ( seebelow ) ; ( 6 ) s0 ∈ Sistheinitialstateoftheentity , whichrepresentstheinitialexternalstate ; ( 7 ) v0isthesetofinitialassignments ( initialvaluesofallvariablesandtimers ) of Σ . 
+ 　 　 Definition3.2 . Σ = IO ∪ VAR ∪ CONS ∪ TIMER ∪ PARAisasetofdataonCEBE , where : ( 1 ) IOisthesetofinputoroutputevents ( i . e . , theASPsandPDUs ) ; ( 2 ) VARisthesetofvariables ( thetypeofvariablesincludesinteger , boolean , octetstring , bitstringandsoon ) ; ( 3 ) CONSisthesetofconstants ( thetypeofconstantsincludesinteger , boolean , octetstring , bitstringandsoon ) ; ( 4 ) TIMERisthesetoftimers ( secondandmicrosecond ) ; ( 5 ) PARAisthesetofparametersofeventsinIO . Foranevente ∈ IO , theparametersp1 , p2 , ... , pnaredenotedase . p1 , e . p2 , ... , e . pn , eisdenotedase ( e . p1 , e . p2 , ... , e . pn ) . 
+ 　 　 Definition3.3 . AbehaviorbiselementsgofGwithalistofinputandoutputeventsandtheirvaluedeclaration . Thenthesetofbisdenotedas : B = { 〈 gi , ? ri ( ri . p1 , ri . p2 , ... , ri . pn ) , ! si ( si . p1 , si . p2 , ... , si . pn ) 〉 | gi ∈ G , ri , si ∈ IO , ri . pi , si . pi ∈ PARA } , wheresymbol “ ! ” indicatestheoutputofaneventsitoexternalenvironmentandsymbol “ ? ” indicatestheinputofaneventri . Theabsenceofriorsicouldbedenotedassymbol “ - ” , forexample , b = 〈 gi , ? ri ( ri . p1 , ri . p2 , ... , ri . pn ) , ! - 〉 . Herewegivesomenotations : ( 1 ) b1b2 ... bn , thebehaviorsaresequential ; ( 2 ) b1 ［ ］ b2 ［ ］ ... ［ ］ bn , thebehaviorsareequallyvalidalternatives ( choice ) ; ( 3 ) b1 ‖ b2 ‖ ... ‖ bn , thebehaviorsareparallel . 
+ 　 　 Definition3.4 . ActionsAarethesetofconcurrentbehaviors . A = { ai | ai ∈ A } , ai = defbj ∈ B | ai ［ ］ ai | aiai | ai ‖ ai | ( ai ) , wheretheoperatorprecedenceis ‘ ( ) ’ > ‘ ［ ］ ’ > ‘ ’ > ‘ ’ . 
+ Definition3.5 . TransitionrelationRS × A × S × P × PowerSet ( O ) × PowerSet ( F ) isthesetoftransitionrelationswhere ( 1 ) Aisthesetofactions ; ( 2 ) SisthesetofstatesoftheCEBE ; ( 3 ) P ( Σ ) : PowerSet ( Σ ) → { TRUE , FALSE } isthesetofpredicatefunctions ( = , ≥ , ≤ , > , < , ∧ , ∨ , ┐ , Timeout , etc . ) ; ( 4 ) O ( Σ ) : PowerSet ( Σ ) → PowerSet ( Σ ) isthesetofoperationfunctions ( : = , + , - , * , / , StartTimer , CancelTimer , etc . ) ; ( 5 ) F ( Σ ) : PowerSet ( Σ ) → PowerSet ( Σ ) isthesetoffunctions ( i . e . max ( ) , min ( ) , etc . ) . 
+ 　 　 Theintuitivemeaningofatransitionr ∈ RisthatifCEBEisinstatesandtheenablingactionaisoffered , thentheenablingpredicatepisevaluatedonthecurrentassignmentofvariables . Whenpistrue , CEBEwillgointoanewstates ′ andtheenvironmentisupdatedbytheoperationoandfunctionf . TheabsenceofpredicatecouldbedenotedasTRUE , absenceofoperationorfunctioncouldbedenotedasNIL . 
+ 3.2 　 CEBEbasedtestsequencederivation 
+ 　 　 Thetestsequencederivationstrategyisdefinedastwosteps : 
+ Step1 . IdentifyallpossiblevalidIPs ( interactionpath ) . AnIPistheexternallyobservabletrackonwhichasequenceofinteractionsbetweentheentityanditsexternalenvironmentoccurs , startingfromtheinitialexternalstates0andendingatthesamestate . Anyinteractionloop ( orcycle ) inanIPistraveledonlyonce . Interactionpathwithloopisaninteractionpathinwhichoneormoreloopinteractionsexist . 
+ 　 　 Step2 . GenerateSIPs ( I / OSubpath ) fromtheaboveIPsbycheckingthedependenciesbetweentransitionsineachIP . AnSIPistheexternallyobservabletrackr1 , ... , rkinanIP , where : 
+ 1 . r1 = 〈 sr1 , ar1 , s ′ r1 , pr1 , Or1 , Fr1 〉 isthefirsttransitionrelationwhichsatisfies : 
+ a ) apredicatepr1 ( Σ pr1 ) , and / or 
+ 　 　 b ) asetofoperations { ... , or1i ( Σ or1i ) , ... } , and / or 
+ 　 　 c ) asetoffunctions { ... , fr1i ( Σ fr1i ) , ... } ; 
+ 　 　 2 . rk = 〈 srk , ark , s ′ rk , prk , Ork , Frk 〉 isobtainedwhenlogicalrelationssatisfy : 
+ 　 　 
+ 　 　 b ) apredicatepk ( Σ prk ) , and / or 
+ 　 　 c ) asetofoperations { ... , okj ( Σ orkj ) , ... } and / or 
+ 　 　 d ) asetoffunctions { ... , fkj ( Σ frkj ) , ... } . 
+ 3.3 　 TheC - TTCNtestsuitegeneration 
+ 　 　 BasedontheSIP , atesttreewiththecorrectness , nondeterminsticanddefensebranchescanbederived , andthreekindsofverdicts ( PASS , FAILandINCONC ) areassignedtoeachleafofthetesttree . ThetesttreecanbemappedtoatestcaseinC - TTCN . Finally , thesetestcasesaregroupedaccordingtosomerules , andaremappedtoacompletetestsuiteinC - TTCN . Tounderstandthealgorithm , hereweuseTBEtodescribetherulesforC - TTCNgeneration . 
+ Rule1 . EachSIPismappedtooneC - TTCNtestcase . 
+ Rule2 . InoneSIP , ifthereareseveralrelationsr1 , r2 , ... , rn , thenattachtreei + 1totreei . 
+ 　 　 TBEM : r1r2 ... rn 
+ 　 　 Rule3 . Inactionaofrelationr , ifb1b2 ... bn , thenb1 , b2 , ... , bnarebehaviorsanditissuccessfullycompletedifbi + 1happensimmediatelyafterthesuccessfulcompletionofbi ( i = 1 , 2 , ... , n - 1 ) . 
+ 　 　 TBEM ： createP1TBE1 ; startt1 ; ( CP1 ? CM - 1 ; downP1 ; stop ) [ ] ( timeoutt1 ; stop ) 
+ TBE1 ： b1b2 ... bn ( CPi ! CM - i ; stop ) 
+ Rule4 . Inactionaofrelationr , ifb1 ［ ］ b2 ［ ］ ... ［ ］ bn , thenanalternativeismatchedifthebehaviorbicorrespondingtothealternativehappensfirst . 
+ 　 　 TBEM ： createP1TBE1 ; startt1 ; ( CP1 ? CM - 1 ; downP1 ; stop ) [ ] ( timeoutt1 ; stop ) 
+ TBE1 ： ( b1 ( CPi ! CM - i ; stop ) ) [ ] ( b2 ( CPi ! CM - i ; stop ) ) [ ] ... [ ] ( bn ( CPi ! CM - i ; stop ) 
+ Rule5 . Inactionaofrelationr , ifb1 ‖ b2 ‖ ... ‖ bn , thenb1 , b2 , ... , bnarestartedinparallelandtheparalleltreecompletesonlyifb1 , b2 , ... , bncomplete . 
+ 　 　 TBEM ： createP1TBE1 ; ... ; createPnTBEn ; startt1 ; ( CP1 ? CM - 1 ; downP1 ; startt2 ; ( ... ; ( CPn ? CM - n ; donePn ; stop ) [ ] ( timeouttn ; stop ) ) ; ... ) [ ] ( timeoutt2 ; stop ) [ ] ... [ ] ( CPn ? CM - n ; downPn ; startt2 ; ( ...... ) [ ] ( timeoutt2 ; stop ) ) [ ] ( timeoutt1 ; stop ) 
+ 　 　 TBEi ： bi ( CPi ! CM - i ; stop ) 
+ 　 　 Rule6 . Ineachbehaviorbofactionainarelationr , thereexists 〈 gi , ? ri ( ri . p1 , ri . p2 , ... , ri . pn ) , ! si ( si . p1 , si . p2 , ... , si . pn ) 〉 , then 
+ 　 　 TBEi : gi ! ri ; gi ? si ; CP1 ! CM - 1 ; stop 
+ Rule7 . Inthedeclarationpart , thetimer , variableandconstantcouldbemappedfromTIMER , VAR , andCONSwiththeinitialvaluefromv0 . 
+ 　 　 Rule8 . Indeclarationpart , ASP , PDUcouldbemappedfromIOwithparametersPARAfortheevents . 
+ 　 　 Rule9 . Inconstraintpart , thetimer , variable , ASPandPDUcouldbemappedfromeacheventei ( ei . p1 , ei . p2 , ... , ei . pn ) inbwiththevaluesofparameters . 
+ 4 　 Conclusions 
+ 　 　 Inthispaper , weuseC - TTCNtomeettheneedsofOSPFroutingprotocoltesting . TherealtestingisaccomplishedbyanintegratedtestsystemPITSoverSunworkstationandwithSolarisoperatingsystem . PITSisageneralsystemwithC - TTCNoperationalschematicsbasedtestexecution . Infuture , wewouldperformmorerealteststoverifyourmethods , testgenerationtoolandtestsystem . TheCEBEandC - TTCNbasedconceptsandmethodinthispapermaybefurtherusedintheareaofconformancetestingindistributedsystems . Forexample , CEBEcouldbeusedtomodelmostentitiesinOSI , TCP / IPandODP . 
+ 毕军 （ 清华大学 计算机科学 与 技术 系 北京 100084 ） 　 
+ 吴建平 （ 清华大学 计算机科学 与 技术 系 北京 100084 ） 
+ References 
+ 1 ， PickinSetal . Anapproachtothevalidationofopenobject - baseddistributedapplications . In : BaumgartenBed . TestingofCommunicatingSystems . London : KluwerAcademicPublisher , 1996 , 9 : 115 ～ 121 
+ 2 ， WongACY , ChansonST , CheungSCetal . Aframeworkfordistributedobject - orientedtesting . In : HigashinoTed . FormalDescriptionTechniques . London : KluwerAcademicPublisher , 1997 , 10 : 39 ～ 56 
+ 3 ， WuJ , ChansonST . Testingsequencederivationbasedonexternalbehaviorexpression . In : ChansonSTed . IFIPInternationalWorkshoponProtocolTestSystems . Norh - Hollan : Chap & Hall , 1989 
+ 4 ， WuJ , ChansonST . TranslationfromLOTOSandEstellespecificationstoextendedtransitionsystemanditsverification . In : HogrefeDed . IFIPInternationalConferenceonFormalDescriptionTechniquesforDistributedSystems . North - Holland : Chap & Hall , 1989 

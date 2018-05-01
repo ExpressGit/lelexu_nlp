@@ -1,0 +1,102 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1999 年 第 19 卷 第 6 期 Vol.19 No.61999 
+ 
+ 
+ 
+ 反 硝化 条件 下 微生物 降解 地下水 中 的 苯 和 甲苯 
+ 吴 玉成 　 钟佐 燊 　 张 建立 
+ 摘要 ： 利用 实验室 含水层 物质 微 环境 实验 , 对 地下水 中 常见 有机 污染物 苯 和 甲苯 在 厌氧反 硝化 条件 下 的 微生物 降解 进行 了 研究 . 通过 10 种 方案 实验 结果 的 分析 对比 表明 , 在 强化 反 硝化 条件 下 , 微生物 利用 NO3 - 作为 电子 受体 降解 苯 和 甲苯 ; 降解 苯 和 甲苯 的 反 硝化细菌 来自 于 含水层 物质 ; 微生物 所 需要 的 宏量 营养 由 苯 、 甲苯 和 硝酸盐 提供 , 而 微生物 所 需要 的 其他 痕量 元素 来自 于 含水层 物质 ; 环境 的 酸碱 条件 对 微生物 降解 具有 重要 影响 , pH 值过 高 ( pH > 10 ) 或 过 低 ( pH < 4 ) 均 抑制 微生物 降解 过程 的 进行 . 这些 结论 对 研究 地下水 有机 污染 及其 生物 治理 具有 一定 的 理论 和 实际 指导意义 . 
+ 关键词 ： 地下水 有机 污染 ； 苯 ； 甲苯 ； 反 硝化 条件 ； 微生物 降解 
+ 中 图 分类号 ： X131.1 文献 标识码 ： A 
+ Microbialdegradationofbenzeneandtolueneingroundwaterunderenhanceddenitrifyingcondition . 
+ WUYu - cheng 
+ ( InstituteofAtmosphericPhysics , ChineseAcademyofSciences , Beijing100080 , China ) 
+ ZHONGZuo - xin 　 ZHANGJian - li 
+ ( DepartmentofEnvironmentalScience , ChinaUniversityofGeosciences , Beijing100083 , China ) . ChinaEnvironmentalScience.1999 , 19 ( 6 ) ： 505 ～ 509 
+ Abstract ： Thebiodegradationofbenzeneandtoluenewasstudiedbyaquifermaterialmicrocosmexperimentinlaboratoryunderenhanceddenitrifyingconditions . Basedontheanalysesandcontrastoftheexperimentresults , thefollowingimportantconclusionswereobtained . Microorganismscanutilizenitrateaselectronacceptortodegradebenzeneandtolueneunderenhanceddenitrifyingconditions ; thedenitriferscomefromtheaquifermaterial ; themacro - nutrientmicroorganismsneededisprovidedbythebenzene , tolueneandnitrateandthetraceelementscomefromtheaquifermaterial ; environmentalconditionshavegreateffectonbiodegradationofbenzeneandtolueneandthepHinhibitsbiodegradationstronglywhenitistoohigh ( pH > 10 ) ortoolow ( pH < 4 ) . 
+ Keywords ： groundwaterorganicpollution ； benzene ； toluene ； denitrifyingcondition ； microbialdegradation 
+ 　 　 石油 及 各种 燃料油 的 溢洒 与 泄漏 以及 地下 储油 设施 ( 罐 ) 的 渗漏 导致 地下水 遭受 芳香烃 污染 在 全球 范围 内 日渐 严重 , 其中 苯 和 甲苯 等 单环 芳香烃 污染物 最受 人们 关注 , 因为 它们 均 是 石油 及 各种 燃料油 中 水溶性 最好 的 化合物 , 构成 了 地下水 中 最为 常见 的 有机 污染物 . 受 芳香烃 污染 , 地下水 对 人们 的 健康 构成 了 严重 地 威胁 , 苯 对 人体 具有 致癌 作用 [ 1 - 4 ] , 苯 和 甲苯 百万分之一 致癌 概率 含量 分别 为 0.67 、 1mg / L [ 5 ] . 因此 , 关于 地下水 遭受 芳香烃 污染 及其 治理 已 成为 水文地质 学者 和 环境 学者 研究 的 热点问题 之一 , 其中 如何 去除 污染物 、 恢复 含水层 是 最受 关注 的 重点 . 
+ 　 　 地下水 有机 污染 自 70 年代 中后期 才 开始 引起 人们 的 普遍 重视 , 目前 尚无 成熟 且 经济 有效 的 治理 方法 . 在 以往 治理 地下水 有机 污染 的 工作 中 , 抽出 处理 方法 ( pumpandtreatmethod ) 被 普遍 采用 , 但 这种 方法 不仅 耗时 而且 费用 极其 昂贵 , 因此 , 自 80 年代 以来 , 人们 一直 在 寻求 和 探索 治理 地下水 有机 污染 更为 经济 有效 的 技术 . 生物 治理 ( bioremediation ) 技术 就是 其中 的 一种 , 尽管 这种 技术 目前 尚 不 十分 成熟 , 但 它 是 利用 地下水 环境 中 的 微生物 降解 有机 污染物 的 一种 技术 , 可以 施行 原位 治理 , 并 以 其 技术 可行 和 成本 相对 低廉 而 被 人们 普遍 接受 [ 5 , 6 ] , 具有 广泛 的 发展前景 . 
+ 　 　 反 硝化 条件 下 有机 污染物 的 微生物 降解 是 反 硝化细菌 在 厌氧 条件 下 利用 有机 污染物 作为 自身 生长 繁殖 的 碳源 与 能源 , 以 硝酸 根 ( NO3 - ) 作为 电子 受体 , 将 有机 污染物 降解 为 无害 产物 如 CO2 和 H2O 等 的 过程 . 在 近 20 年 的 时间 里 , 国外 特别 是 欧美 等 国家 的 许多 学者 在 这方面 开展 了 大量 的 研究 和 探讨 [ 7 - 12 ] , 而 国内 在 这方面 的 研究 尚未 见 报道 . 本 研究 利用 含水层 物质 、 通过 室内 模拟实验 , 在 加强 反 硝化 条件 下 对 地下水 中 常见 有机 污染物 苯 和 甲苯 的 微生物 降解 性 及其 影响 因素 进行 了 研究 , 旨在 为 开发 地下水 有机 污染 生物 治理 技术 提供 科学依据 . 
+ 1 　 含水层 物质 微 环境 实验 
+ 1.1 实验 物质 及微 环境 的 形成 
+ 　 　 含水层 物质 取自 北京 西郊 永定河 冲积扇 地面 以下 2m 处 . 实验 所用 苯 、 甲苯 和 硝酸钾 等 均 为 北京 化工厂 生产 的 分析 纯 . 实验 用水 为 地质 大学 ( 北京 ) 自备井 地下水 . 
+ 　 　 微 环境 采用 70mL 具塞磨口 三角瓶 , 瓶 中 加入 湿 含水层 岩样 20g . 为 模拟 含水层 污染 羽状 体中 的 厌氧 环境 , 首先 采用 高纯 氮气 通过 曝气 技术 制备 厌 氧基 液 , 并 将 装有 含水层 岩样 的 微 环境 置于 厌氧箱 中 进行 充分 曝气 , 最后 在 厌氧箱 中 形成 微 环境 . 
+ 1.2 实验 方案 
+ 　 　 反 硝化 菌 生长 繁殖 过程 中 , 以 有机 碳 作为 碳源 和 能源 , 以 NO3 - 作为 电子 受体 . 依据 反 硝化 条件 下 有机 污染物 微生物 降解 定量 关系式 [ 4 ] , 根据 加入 苯 和 甲苯 的 量 确定 出所加 苯 和 甲苯 全部 降解 对 NO3 - 的 理论 需求量 , 同时 考虑 若干 要素 设计 了 10 种 实验 方案 ( 表 1 ) . 在 不同 方案 中 分别 加入 足量 ( 理论 需求量 ) NO3 - 、 半量 NO3 - 和 不加 NO3 - 进行 实验 . 在 方案 7 的 微 环境 中 加入 HgCl2 , 用于 无菌 控制 . 
+ 表 1 含水层 物质 微 环境 实验 方案 
+ Table1Schemesofaquifermaterialmicrocosmexperiment 
+ 实验 
+ 方案 微 环境要素 
+ 无岩样 有 岩样 蒸馏水 地下水 加入 苯 加入 
+ 甲苯 足量 
+ NO3 - 半量 
+ NO3 - 不 加 
+ NO3 - 加 
+ HgCl2pH > 10pH < 4 
+ 1v 　 v 　 vvv 　 　 　 　 　 
+ 2v 　 　 vvvv 　 　 　 　 　 
+ 3 　 vv 　 vvv 　 　 　 　 　 
+ 4 　 v 　 vvv 　 　 v 　 　 　 
+ 5 　 v 　 vvv 　 v 　 　 　 　 
+ 6 　 v 　 vvvv 　 　 　 　 　 
+ 7 　 v 　 vvvv 　 　 v 　 　 
+ 8 　 v 　 vvvv 　 　 　 v 　 
+ 9 　 v 　 vvvv 　 　 　 　 v 
+ 10 　 v 　 v 　 　 v 　 　 　 　 　 
+ 
+ 1.3 苯 和 甲苯 微生物 降解 的 监测 
+ 　 　 按 所 制定 的 10 种 方案 共 制备 10 组 100 个微 环境 , 将 这些 微 环境 置于 15 ± 2 ℃ 的 环境 中 避光 保存 . 通过 定时 检测 微 环境 中苯 、 甲苯 和 NO3 - 的 浓度 变化 判断 微生物 降解 是否 发生 , 每 进行 一次 检测 , 用 掉 一批 微 环境 , 照 此 实验 共 持续 64.4 d . 对 苯 和 甲苯 采用 气 相色谱 检测 , 利用 硝酸 根 电极 法测定 NO3 - . 
+ 2 　 结果 与 讨论 
+ 2.1 在 强化 反 硝化 条件 下苯 和 甲苯 的 降解 
+ 　 　 实验 结果 ( 表 2 ) 显示 , 在 方案 3 、 5 、 6 中 , 苯 的 去除率 分别 为 85% , 60% , 82% , 甲苯 的 去除率 分别 为 94% , 52% , 86% , 同时 NO3 - 在 3 个 方案 中 的 去除率 均 为 99% . 实验 过程 中 , 苯 和 甲苯 的 去除 与 NO3 - 的 去除 具有 一致 的 对应 关系 , 见图 1 中 ( 3 ) , ( 5 ) , ( 6 ) . 这 说明 实验 中 发生 了 反 硝化作用 , 反 硝化细菌 利用 苯 和 甲苯 中 的 有机 碳 作为 自己 生长 繁殖 的 碳源 与 能源 , 使 其 得以 降解 去除 . 方案 7 的 实验 结果 从 相反 的 角度 说明 了 这 一 问题 , 在 方案 7 中 , 苯 、 甲苯 和 NO3 - 的 去除率 要 低 得 多 , 这 是因为 微 环境 中 加入 的 HgCl2 几乎 杀死 了 反 硝化细菌 , 反 硝化作用 无从 发生 , 所以 苯 、 甲苯 和 NO3 - 几乎 不 被 去除 , 见图 1 中 ( 7 ) . 而 在 方案 10 中 , 未 加入 苯 和 甲苯 , 结果 NO3 - 始终 不 被 去除 见图 1 中 ( 10 ) , 其 原因 是 缺少 有机 碳源 , 反 硝化 菌 无法 生长 繁殖 , 反 硝化作用 不 发生 . 在 方案 4 中 , 尽管 有 苯 和 甲苯 作为 微生物 生长 繁殖 的 碳源 与 能源 , 但 由于 NO3 - 含量 很 低 ( 仅 11.2 mg / L , 为 地下水 背景 值 ) , 无 足够 的 电子 受体 , 反 硝化作用 也 无法 进行 , 故苯 和 甲苯 不 被 去除 , 见图 1 中 ( 4 ) . 
+ 表 2 各 方案 中苯 、 甲苯 、 NO3 - 的 去除 百分率 ( % ) 
+ Table2Percentdepletionofbenzeneandtolueneinindividualscheme ( % ) 
+ 实验 方案 苯 甲苯 NO3 - 
+ 初值 ( mg / L ) 终值 ( mg / L ) 去除率 初值 ( mg / L ) 终值 ( mg / L ) 去除率 初值 ( mg / L ) 终值 ( mg / L ) 去除率 
+ 138.4935 . 50842.6737 . 6112443.9369 . 217 
+ 239.5638 . 80243.5345 . 000443.9352 . 620 
+ 338.495 . 598542.672 . 594443.94 . 499 
+ 442.1539 . 75649.9543 . 791211.20 . 992 
+ 530.9212 . 386032.7815 . 8452189.90 . 899 
+ 639.566 . 908243.535 . 9886443.92 . 899 
+ 736.2524 . 573237.6730 . 2420443.9414 . 37 
+ 832.1125 . 042237.4331 . 3916443.9414 . 37 
+ 925.1420 . 421928.0323 . 6216464.8386 . 617 
+ 10 　 　 　 　 　 　 404.9386 . 64 
+ 
+ 
+ 
+ 图 1 各 实验 方案 苯 、 甲苯 和 NO3 - 随 时间 变化 
+ Fig.1 Benzene , tolueneandnitrateversustimeinindividualexperimentscheme 
+ 图 1 中 各图 ( 10 除外 ) 左 纵坐标 表示 苯 和 甲苯 浓度 ; 右 纵坐标 为 NO3 - 浓度 ( mg / L ) ; 横坐标 表示 时间 ( d ) 
+ 　 　 苯 和 甲苯 在 方案 5 中 的 去除率 明显 低于 方案 3 和 6 中 的 去除率 , 其 原因 是 在 方案 5 中 加入 的 NO3 - 仅 相当于 理论 需求量 的 一半 , 当 NO3 - 被 耗尽 以后 , 反 硝化作用 无法 继续 进行 , 故有 苯 和 甲苯 只 去除 60% 和 52% 的 实验 结果 . 然而 , 通过 对比 可以 发现 , 在 方案 5 中 , 降解 发生 的 滞后 期要 比 在 方案 6 中 的 短 , 见图 1 中 ( 5 ) , ( 6 ) , 究其原因 可能 是 反 硝化 菌 长期 生长 在 低 NO3 - 浓度 的 环境 中 , 对于 相对 低 的 NO3 - 浓度 更 易于 适应 的 缘故 . 
+ 2.2 反 硝化 菌源 对 苯 、 甲苯 生物降解 的 影响 
+ 　 　 实验 结果显示 , 苯 、 甲苯 和 NO3 - 在 方案 1 , 2 中 几乎 不 被 去除 , 见图 1 中 ( 1 ) , ( 2 ) , 而 在 方案 3 和 6 中均 得以 去除 . 方案 1 与 方案 3 相比 及 方案 2 与 方案 6 相比 , 只是 存在 微 环境 中加 与 未加 含水层 岩样 的 区别 , 其它 条件 完全相同 , 但 方案 1 , 2 中 不 发生 反 硝化作用 , 方案 3 和 方案 6 中 却 发生 反 硝化作用 , 由此 可以 推断 , 降解 苯 和 甲苯 的 反 硝化细菌 来自 于 含水层 物质 . 
+ 2.3 营养物 及 环境 条件 对 微生物 降解 的 影响 
+ 　 　 方案 3 采用 蒸馏水 配制 基液 、 方案 6 采用 地下水 配制 基液 , 在 这 2 个 方案 中 , 除 在 基液 中 加入 苯 、 甲苯 和 NO3 - 外 , 并未 加入 其它 营养物质 , 实验 均 产生 了 反 硝化作用 . 从而 说明 , 反 硝化细菌 所 需要 的 宏量 营养物质 如碳 、 氢 、 氧 、 氮 等 来自 所 加入 的 苯 、 甲苯 和 硝酸盐 , 至于 微生物 所 需要 的 其他 痕量 元素 如 锰 、 铁 、 铜 等 由 含水层 物质 提供 . 
+ 　 　 发生 在 地下水 环境 中 的 微生物 降解 作用 严格 受 各种 环境 条件 控制 和 影响 , 作者 特别 对 环境 酸碱 条件 的 影响 进行 了 实验 研究 . 结果表明 , 方案 8 , 方案 9 中苯 、 甲苯 和 NO3 - 几乎 不 被 去除 , 见图 1 中 ( 8 ) , ( 9 ) , 说明 环境 中 的 pH 值过 高 ( pH > 10 ) 或 过 低 ( pH < 4 ) 均 抑制 微生物 降解 作用 的 进行 . 所以 , 进行 野外 研究 时 , 深入研究 各种 环境 条件 尤为重要 , 对于 因 各种 污染 造成 pH 值过 高 或 过 低 的 场地 施行 生物 治理 时 , 需 考虑 加入适量 缓冲 物质 调节 pH 值 , 以利于 微生物 降解 进行 . 
+ 3 　 结论 
+ 3.1 在 强化 的 反 硝化 条件 下 , 微生物 可 利用 NO3 - 作为 电子 受体 降解 苯 和 甲苯 . 在 遭受 芳香烃 污染 的 含水层 中 , 缺少 足够 的 电子 受体 是 地下水 污染 羽状 体中 苯 和 甲苯 长期存在 的 重要 原因 之一 . 
+ 3.2 通过 对 各种 方案 实验 结果 分析 对比 证明 , 降解 苯 和 甲苯 的 反 硝化细菌 存在 于 含水层 物质 中 . 
+ 3.3 环境 的 酸碱 条件 对 微生物 降解 有 重大 影响 , pH 值过 高 ( pH > 10 ) 或 过 低 ( pH < 4 ) 均 抑制 微生物 降解 作用 的 产生 . 
+ 3.4 微生物 所 需要 的 宏量 营养 由 苯 、 甲苯 和 NO3 - 提供 , 痕量 元素 来自 于 含水层 物质 . 
+ 基金项目 ： 国家自然科学基金 资助 项目 ( 49772159 ) 
+ 作者简介 ： 吴 玉成 ( 1960 - ) , 男 , 辽宁 锦州 人 , 中国科学院 大气物理 研究所 博士后 . 主要 从事 水资源 、 水 环境 和 气候变化 对 水文 水资源 影响 的 研究 工作 , 发表 论文 6 篇 . 
+ 作者 单位 ： 吴 玉成 　 中国科学院 大气物理 研究所 , 北京 100080 
+ 　 　 　 　 　 钟佐 燊 　 张 建立 　 中国地质大学 环境 科学系 , 北京 100083 
+ 参考文献 
+ 　 [ 1 ] 　 EdwardsEA , DunjaGrbic - Galic . Completemineralizationofbenzenebyaquifermicroorganismsunderstrictlyanaerobicconditions [ J ] . AppliedandEnvironmentalMicrobiology , 1992 , 58 ( 8 ) : 2663 - 2666 . 
+ 　 [ 2 ] 　 RaelJ , SheltonS , Member , etal . Permeablebarrierstoremovebenzene : candidatemediaevaluation [ J ] . JournalofEnvironmentalEngineering , 1995 / May : 411 - 415 . 
+ 　 [ 3 ] 　 KazumiJ , CaldwellME , SuflitaJM , etal . Anaerobicdegradationofbenzeneindiverseanoxicenvironments [ J ] . EnvironmentalScience & Technology , 1997 , 31 ( 3 ) : 813 - 818 . 
+ 　 [ 4 ] 　 BallHA , ReinhardM . Monoaromatichydrocarbontransformationunderanaerobicconditionsatsealbeach , California : LaboratoryStudies [ J ] . EnvironmentalToxicologyandChemistry , 1996 , 15 ( 4 ) : 114 - 122 . 
+ 　 [ 5 ] 　 NiazMohammed , AllaylaRI , NakhlaGF , etal . State - of - artreviewofbioremediationstudies [ J ] . J . Environ . Sci . Health , 1997 , A31 ( 7 ) : 1547 - 1574 . 
+ 　 [ 6 ] 　 NoonanDC , CurtisJT . Groundwaterremediation , petroleum [ M ] . Michigan : LewisPublishers , 1990 . 
+ 　 [ 7 ] 　 KuhnEP , ColbergPJ , SchnoorJL , etal . Microbialtransformationsofsubstitutedbenzenesduringinfiltrationofriverwatertogroundwater : LaboratoryColumnStudies [ J ] . Environ . Sci . Technol . , 1985 , 19 ( 10 ) : 961 - 968 . 
+ 　 [ 8 ] 　 ZeyerJ , KuhnEP , SchwarzenbachRP . Rapidmicrobialmineralizationofbenzeneand1 , 3 - dimethylbenzeneintheabsenceofmolecularoxygen [ J ] . AppliedandEnvironmentalMicrobiology , 1986 , 52 ( 4 ) : 944 - 947 . 
+ 　 [ 9 ] 　 KuhnEP , ZeyeJR , EicherP , etal . Anaerobicdegradationofalkylatedbenzeneindenitrifyinglaboratoryaquifercolumns [ J ] . AppliedandEnvironmentalMicrobiology , 1988 , 54 ( 2 ) : 490 - 496 . 
+ 　 [ 10 ] 　 Chih - MingKao , BordenRC . Site - specificvariabilityinBTEXbiodegradationunderdenitrifyingconditions [ J ] . GroundWater , 1997 , 35 ( 2 ) : 305 - 311 . 
+ 　 [ 11 ] 　 MajorDW , MayfieldCI , BarkerJF . Biotransformationofbenzenebydenitrificationinaquifersand [ J ] . GroundWater , 1988 , 26 ( 1 ) : 8 - 14 . 
+ 　 [ 12 ] 　 HutchinsSR , DownsWC , WilsonJT , etal .. Effectofnitrateaddationonbiorestorationoffuel - contaminatedaquifer : FieldDemonstration [ J ] . GroundWater , 1991 , 29 ( 4 ) : 571 - 580 . 
+ 收稿 日期 ： 1999 - 02 - 10 

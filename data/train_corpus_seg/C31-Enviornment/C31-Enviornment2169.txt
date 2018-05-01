@@ -1,0 +1,38 @@
+环境 科学研究 
+ RESEARCHOFENVIRONMENTALSCIENCES 
+ 2001Vol.14 No.3 P.24 - 28 
+ 
+ 
+ 
+ 
+ 广州市 I / M 计划 升级 及其 在 机动车 NOx 减排 中 的 效果 
+ 邵敏 　 张 远航 　 孙 永福 
+ 摘 　 要 ： 以 广州市 为例 ， 系统地 讨论 了 机动车 污染 控制 中 的 检查 维护 计划 ( I / M ) 。 评估 了 广州市 现行 的 I / M 计划 的 实施 情况 及 存在 的 问题 ， 针对 广州市 NOx 污染 控制目标 ， 提出 了 广州市 I / M 计划 升级 的 技术 考虑 ， 并 对 建议 的 两种 加载 I / M 计划 ASM 和 IM240 进行 了 初步 的 费用 效果 分析 。 
+ 关键词 ： 检查 维护 计划 ； 机动车 ； 污染 控制 ； 费效 分析 
+ 分类号 ： X32.012 　 文献 标识码 ： A 
+ 文章 编号 ： 1001 - 6929 ( 2001 ) 03 - 0024 - 05 
+ TheUpgradeofI / MSysteminGuangzhouandItsEffectsinVehicularNOxEmissionAbatement 
+ Abstract ： TakingGuangzhouforthecasestudy , thispaperdiscussedsystematicallyI / Msystemforvehicularemissioncontrol . TheeffectandproblemsofcurrentI / MsysteminGuangzhouwereassessed . AimingattheairqualitytargetofNOxinGuangzhou , twoloadedtestI / Msystems , namely , ASMandIM240weresuggested . Thecost - effectivenessofthesetwoupgradedI / Msystemswasanalyzed . 
+ Keywords ： inspectionandmaintenancesystem ( I / M ) ; vehicular ; pollutioncontrol ; cost - effectiveanalysis 
+ 作者简介 ： 孙 永福 ( 1956 - ) ， 男 ， 北京市 人 ， 北京大学 博士 研究生 . 
+ 作者 单位 ： 邵敏 （ 北京大学 环境 科学 中心 环境模拟 与 污染 控制 国家 重点 联合 实验室 ， 北京 100871 ） 　 
+ 　 　 　 　 　 张 远航 （ 北京大学 环境 科学 中心 环境模拟 与 污染 控制 国家 重点 联合 实验室 ， 北京 100871 ） 　 
+ 　 　 　 　 　 孙永宝福 （ 北京大学 环境 科学 中心 环境模拟 与 污染 控制 国家 重点 联合 实验室 ， 北京 100871 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ ZhangYuanhang , ShaoKesheng , TangXiaoyan , etal . ThestudyofurbanphotochemicalsmogpollutioninChina [ J ] . ActaScientiarumNaturaliumUniversitatisPekinensis , 1998 : 34 ( 2 ～ 3 ) : 392 ～ 400 . 
+ ［ 2 ］ 谢绍东 . 广州市 机动车 排气 污染 研究 [ R ] . 北京大学 博士后 工作 报告 . 北京 ： 北京大学 , 1998.47 ～ 512 . 
+ ［ 3 ］ FAsif , SWChristopher , PWMichael . Airpollutionfrommotorvehicles , standardsandtechnologiesforcontrollingemissions [ J ] . Washington : TheWorldBank , 1996 . 
+ ［ 4 ］ WilliamMPidgeon , DanielJSampson , PaulHBurbageIV . Evaluationofafour - modesteady - statetestwithaccelerationsimulationmodesasanalternativeinspectionandmaintenancetestforenhancedI / Mprograms [ J ] . Michigan : EPA - AA - AQAB - 93 - 01 , 1993 . 
+ ［ 5 ］ USEPA . EPAI / MBriefingBook : Everythingyoueverwantedtoknowaboutinspectionandmaintenance [ J ] . Washington : EPA - AA - EPSD - IM - 94 - 1226 , UnitedStatesEnvironmentalProtectionAgency , OfficeofAirandRadiationWashington , D . C.1995 . 
+ ［ 6 ］ Accelerationsimulationmodetestprocedures , emissionstandards , qualitycontrolrequirements , andequipmentspecifications — — TechnicalGuidance [ J ] . Michigan : EPA - AA - RSPD - IM - 96 - 2 , 1996 . 
+ ［ 7 ］ High - techI / Mtestprocedures , emissionstandards , qualitycontrolrequirements , andequipmentspecifications : IM240andfunctionalevaporativesystemtests — — RevisedTechnicalGuidance [ J ] . Michigan : EPA - AA - RSPD - IM - 96 - 1 , 1996 . 
+ ［ 8 ］ IM240 & evaporationtechnicalguidance [ J ] . Michigan : EPA420 - R - 00 - 007 , 2000 . 
+ ［ 9 ］ ThomasCAustin , LarrySherwood . Developmentofimprovedloaded - modetestproceduresforinspectionandmaintenanceprograms [ J ] . Government / IndustryMeetingandExposition , Washington , DC , 1989 . 
+ ［ 10 ］ [ 10 [ J ] ] WeaverCS , LMChan . AnalysisofCARBASMandIM240Data , memorandum , engine , fuelandemissionsengineering [ J ] . California : Inc . Sacramento , 1994 . 
+ ［ 11 ］ [ 11 [ J ] ] RobLee , JoannaPedley , ChristineHobbs . Fuelqualityonheavydutydieselemissions : Aliteraturereview [ J ] . InternationalFallFuelsandLubricantsMeetingandExpositionSanFrancisco , California : October , 1998 . 
+ ［ 12 ］ [ 12 [ J ] ] MichaelPWalsh . MotorvehiclepollutioncontrolinChina : Anurbanchallenge [ J ] . Washington : consultantreport , 1995.105 ～ 151 . 
+ ［ 13 ］ [ 13 [ J ] ] ChanL , MReale . EmissionsfactorsgeneratedfromMOBILE5a . Engine , Fuel , andEmissionsEngineering [ J ] . Califonia : SacramentoInc . , 1994 . 
+ 
+ 收稿 日期 ： 2000 年 11 月 10 日 
+ 出版日期 ： 2001 年 5 月 30 日 

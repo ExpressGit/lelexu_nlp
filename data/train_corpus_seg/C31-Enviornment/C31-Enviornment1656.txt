@@ -1,0 +1,92 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1999 年 　 第 19 卷 　 第 4 期 　 Vol.19 　 No.4 　 1999 
+ 
+ 
+ 
+ 不同 菌源 的 微生物 对 邻苯二甲酸 二异 丁酯 ( DIBP ) 生物降解 性 的 比较 
+ 曾锋 　 傅家 谟 　 盛国英 　 杨惠芳 
+ 摘要 ： 为 有效 地 解决 邻苯二甲酸 酯类化合物 的 环境污染问题 . 从 处理 石化 厂 废水 的 活性污泥 中 分离 出 1 株 邻苯二甲酸 酯 降解 菌 FS1 和 处理 焦化厂 废水 的 活性污泥 中 分离 出 2 株 邻苯二甲酸 酯 降解 菌 FS2 、 FS3 . 研究 了 邻苯二甲酸 酯 降解 菌 FS1 、 FS2 、 FS3 对 邻苯二甲酸 二异 丁酯 的 最适 降解 条件 , 并 比较 其 降解 特性 . 邻苯二甲酸 酯 降解 菌 FS1 、 FS2 、 FS3 最适 酸度 分别 为 pH6.5 ～ 8.0 、 7.0 ～ 8.0 和 7.0 ～ 8.0 ; 温度 为 20 ～ 35 ℃ 、 15 ～ 35 ℃ 和 15 ～ 35 ℃ . 邻苯二甲酸 酯 降解 菌 FS1 、 FS2 、 FS3 对 邻苯二甲酸 二异 丁酯 的 降解 反应 符合 一级 动力学 特征 , 其半寿期 ： FS1 < FS2 < FS3 . 邻苯二甲酸 酯 降解 菌 FS1 是 一株 高效 的 邻苯二甲酸 二异 丁酯 降解 菌 . 
+ 关键词 ： 邻苯二甲酸 二异 丁酯 ； 微生物 ； 生物降解 ； 降解 动力学 
+ 中 图 分类号 ： X172 文献 标识码 ： A 文章 编号 ： 1000 - 6923 ( 1999 ) 04 - 0322 - 04 
+ Thecomparativestudyofbiodegradabilityofdiisobutylphthalate ( DIBP ) bymicroorganismsfromdifferentbacteriasources . 
+ ZENGFeng1 , FUJia - mo1 , SHENGGuo - ying1 , YANGHui - fang2 ( 1 . StateKeyLaboratoryofOrganicGeochemistry , GuangdongKeyLaboratoryofEnvironmentalProtectionandResourcesUtilization , GuangzhouInstituteofGeochemistry , ChineseAcademySciences , Guangzhou510640 , China ； 2 . InstituteofMicrobiology , ChineseAcademySciences , Beijing100080 , China ) . ChinaEnvironmentalScience.1999 , 19 ( 4 ) ： 322 ～ 324 
+ Abstract ： Themicrobialdegradationcharacteristicsofdiisobutylphthalate ( DIBP ) wereinvestigatedbystrainsFS1 , FS2andFS3isolatedfromtheactivatedsludgeatapetrochemicalfactoryandpyrochemicalfactory . TheoptimumpHvaluesofthestrainsFS1 , FS2 , FS3fordegradingDIBPare6.5 ～ 8.0 , 7.0 ～ 8.0 and7.0 ～ 8.0 ; thetemperaturesare20 ～ 35 ℃ , 15 ～ 35 ℃ and15 ～ 35 ℃ respectively . ThedegradationofDIBPbythestrainsFS1 , FS2 , FS3canbedescribedbythefirst – orderreactionmodel . Primarybiodegradationhalf - livesofDIBPareFS1 < FS2 < FS3 . TheexperimentalresultsdemonstratethatthestrainFS1hasstrongabilityofdegradingDIBP . 
+ Keywords ： DIBP ； microorganismbiodegradation ； degradationkinetics 
+ 　 　 邻苯二甲酸 酯 是 一类 普遍 使用 的 化学 工业品 [ 1 ] . 由于 其 大量 生产 和 广泛应用 , 邻苯二甲酸 酯类化合物 已 成为 日益严重 的 环境 问题 , 而 引起 世界 各国 的 特别 关注 [ 2 ] . 邻苯二甲酸 酯类 有机 污染物 在 土壤 、 沉积物 、 废水 中 的 生物降解 性 研究 已有 报道 [ 3 - 7 ] . 为 有效 地 处理 邻苯二甲酸 酯类化合物 的 环境污染问题 , 提高 邻苯二甲酸 酯类 有机 污染物 的 生物降解 效率 . 本 试验 从 处理 石化 厂 废水 的 活性污泥 中 分离 出 1 株 邻苯二甲酸 酯 降解 菌 FS1 及 处理 焦化厂 废水 的 活性污泥 中 分离 出 2 株 邻苯二甲酸 酯 降解 菌 FS2 、 FS3 . 研究 了 邻苯二甲酸 酯 降解 菌 FS1 、 FS2 、 FS3 对 DIBP 的 最适 降解 条件 , 并 比较 了 其 降解 特性 . 
+ 1 材料 与 方法 
+ 1.1 培养基 
+ 　 　 K2HPO4 。 3H2O1g / L , NaCl1g / L , NH4NO30.5 g / L , MgSO4H20147H2O0.4 g / L , CaCl2H20215142H2O0.1 g / L , FeCl30.01 g / L , pH7 , 121 ℃ 湿热 灭菌 30min . DIBP . 
+ 1.2 菌种 
+ 　 　 分别 取 处理 石化 厂 废水 的 活性污泥 、 焦化厂 废水 的 活性污泥 于 含 60mg / L 邻苯二甲酸 酯 ( 邻苯二甲酸 二甲酯 、 邻苯二甲酸 二 乙酯 、 邻苯二甲酸 二 丁酯 、 邻苯二甲酸 二异 丁酯 、 邻苯二甲酸 二正 辛酯 、 邻苯二甲酸 二 ( 乙基 己基 ) 酯 各为 10mg / L ) 的 无机盐 培养液 中 , 30 ℃ 下 振荡 培养 7 天 , 逐步 转接 至 120 、 240 、 360symbol126s10.51200 mg / L 邻苯二甲酸 酯 的 无机盐 培养液 后 , 平板 划线 纯化 , 从 处理 石化 厂 废水 的 活性污泥 中 获得 1 株 邻苯二甲酸 酯 降解 菌 FS1 和 处理 焦化厂 废水 的 活性污泥 中 获得 2 株 邻苯二甲酸 酯 降解 菌 FS2 、 FS3 . 
+ 1.3 生物降解 试验 
+ 　 　 取 菌株 一环于 100mL 活化 富集 培养基 中 ( 3g / L 牛肉 膏 、 5g / L 蛋白 胨 、 NaCl5g / L 、 pH7 , 121 ℃ 湿热 灭菌 30min ) 振荡 培养 12 ～ 24h , 离心分离 ( 10000r / min ) 5min , 收集 菌体 , 用 pH7 、 0.02 mol / L 的 Na2HPO4 - NaH2PO4 缓冲液 洗涤 3 次 , 再用 0.02 mol / LNa2HPO4 - NaH2PO4 缓冲液 将 菌体 配成 pH 值为 7 的 菌 悬液 . 
+ 　 　 吸取 1mL20% 的 菌 悬液 于 含 100mg / LDIBP 的 50mL 无机盐 培养液 中 , 30 ℃ 振荡 培养 , 并用 不 加 菌体 的 培养液 进行 对照 试验 . 
+ 1.4 分析方法 
+ 1.4 . 1 样品 处理 于 试样 瓶 中 加入 20mL 二氯甲烷 , 振荡 萃取 10min , 收集 有机 相 . 水相 再 用 20mL 二氯甲烷 萃取 3 次 , 合并 有机 相 , 无水 Na2SO4 干燥 , 浓缩 至 5mL . 用 HP6890 型 气相色谱仪 测定 DIBP 的 含量 . 
+ 1.4 . 2HP6890 型 气相色谱仪 条件 HP5 柱 ( 30m × 320symbol10910.5 m × 0.25 symbol10910.5 m ) , 柱温 从 60 ℃ ( 以 35 ℃ / min 的 速率 ) 升到 230 ℃ ; FID 检测器 , 温度 300 ℃ ; 进样 口 温度 260 ℃ , 进样量 1symbol10910.5 L . 
+ 2 结果 与 讨论 
+ 2.1 菌株 FS1 、 FS2 、 FS3 对 DIBP 的 最适 降解 条件 
+ 　 　 测定 在 不同 pH 值 、 温度 、 菌种 量 、 振荡 速率 等 条件 下 , 菌株 FS1 、 FS2 、 FS3 对 DIBP 降解 的 影响 . 菌株 FS1 、 FS2 、 FS3 对 DIBP 的 最适 降解 条件 见表 1 . 
+ 表 1 菌株 FS1 、 FS2 、 FS3 对 DIBP 的 最适 降解 条件 
+ Table1TheoptimumconditionsofDIBPbiodegradationbythestrainsFS1 , FS2 , FS3 
+ 菌株 pH 值 温度 
+ ( ℃ ) 菌种 量 
+ ( % ) 振荡 速率 
+ ( r / min ) 
+ FS16.5 ～ 8.020 ～ 350.02 ～ 4.560 ～ 135 
+ FS27.0 ～ 8.015 ～ 350.02 ～ 4.560 ～ 135 
+ FS37.0 ～ 8.015 ～ 350.02 ～ 4.560 ～ 135 
+ 
+ 2.2 菌株 FS1 、 FS2 、 FS3 对 DIBP 降解 反应 的 动力学 分析 
+ 　 　 试验 在 pH 值 7.5 , 菌种 量 为 0.4% ( w / v ) 和 100r / min 速率 条件 下 , 考察 菌株 FS1 、 FS2 、 FS3 对 初始 浓度 为 25 、 50 、 100 、 150 、 200 、 300mg / L 的 DIBP 降解 率 , 结果 见图 1 . 
+ 
+ 图 1 菌株 FS1 、 FS2 、 FS3 对 不同 浓度 DIBP 的 降解 率 ( 30 ℃ ) 
+ Fig.1 DIBPbiodegradationofdifferentconcentrationsbythestrainFS1 , FS2 , FS3 ( 30 ℃ ) 
+ 　 　 假设 菌株 FS1 、 FS2 、 FS3 对 DIBP 的 生物降解 遵循 一级 反应 动力学 方程 , 即 : 
+ lnC = － kt + A 
+ ( 1 ) 
+ 式 中 : k 为 DIBP 降解 速率 的 动力学 常数 ; C 为 DIBP 的 浓度 ; t 为 DIBP 的 生物降解 时间 , A 为 常数 . 
+ 根据 图 1 结果 可得表 2 的 动力学 方程 . 
+ 表 2 菌株 FS1 、 FS2 、 FS3 对 DIBP 的 生物降解 反应 
+ 动力学 方程 
+ Table2KineticequationsofDIBPbiodegradationbythestrainsFS1 , FS2 , FS3 
+ 菌株 DIBP 浓度 
+ ( mg / L ) 动力学 方程 半寿期 t1 / 2 ( h ) 相关系数 r 
+ FS125lnC = － 0462t + 3.2215 . 000.9452 
+ 50lnC = － 0460t + 3.9115 . 060.9374 
+ 100lnC = － 0459t + 4.6115 . 100.9337 
+ 150lnC = － 0436t + 5.0115 . 890.9416 
+ 200lnC = － 0368t + 5.3018 . 830.9268 
+ 300lnC = － 0298t + 5.7023 . 250.9365 
+ FS225lnC = － 0260t + 3.2226 . 650.9522 
+ 50lnC = - 0.0260 t + 3.9126 . 650.9617 
+ 100lnC = － 0256t + 4.6127 . 070.9738 
+ 150lnC = － 0254t + 5.0127 . 280.9455 
+ 200lnC = － 0232t + 5.3029 . 900.9672 
+ 300lnC = － 0206t + 5.7033 . 640.9463 
+ FS325lnC = － 0206t + 3.2233 . 640.9814 
+ 50lnC = － 0204t + 3.9133 . 970.9627 
+ 100lnC = － 0202t + 4.6134 . 310.9426 
+ 150lnC = － 0203t + 5.0134 . 130.9611 
+ 200lnC = － 0192t + 5.3036 . 090.9573 
+ 300lnC = － 0180t + 5.7038 . 500.9518 
+ 
+ 　 　 由表 2 可知 , 菌株 FS1 、 FS2 、 FS3 对 DIBP 的 生物降解 反应 符合 一级 动力学 特征 , 其半寿期 t1 / 2 : FS1 < FS2 < FS3 . 菌株 FS1 对 DIBP 具有 高效 的 降解 作用 , 是 一株 高效 的 DIBP 降解 菌 [ 1 ] . 对于 菌株 FS1 、 FS2 , 当 DIBP 的 初始 浓度 大于 150mg / L 时 , 降解 速率 常数 k 值 随 初始 的 DIBP 浓度 增加 而 降低 , 说明 高浓度 DIBP 对 其 降解 有 抑制作用 , 且 随 DIBP 初始 浓度 增加 而 增加 . 而 菌株 FS3 对 DIBP 生物降解 浓度 具有 较大 的 适宜 范围 . 
+ 3 结论 
+ 3.1 从 处理 石化 厂 废水 的 活性污泥 中 分离 的 邻苯二甲酸 酯 降解 菌 FS1 和 处理 焦化厂 废水 的 活性污泥 中 分离 的 邻苯二甲酸 酯 降解 菌 FS2 、 FS3 均 能 以 DIBP 作为 唯一 碳源 和 能源 生长 . 菌株 FS1 降解 最适 酸度 pH 值为 6.5 ～ 8.0 , 温度 为 20 ～ 35 ℃ ; 菌株 FS2 、 FS3 降解 最适 酸度 为 pH 值 7.0 ～ 8.0 , 温度 为 15 ～ 35 ℃ . 菌种 量 、 振荡 速率 对 DIBP 的 降解 有 一定 的 影响 . 
+ 3.2 菌株 FS1 、 FS2 、 FS3 对 DIBP 的 生物降解 反应 符合 一级 动力学 特征 , 其半寿期 t1 / 2 : FS1 < FS2 < FS3 . 菌株 FS1 是 一株 高效 的 DIBP 降解 菌 . 对于 菌株 FS1 和 FS2 , 当 DIBP 的 初始 浓度 大于 150mg / L 时 , 降解 速率 常数 k 值 随 初始 的 DIBP 浓度 增加 而 降低 . 菌株 FS3 对 DIBP 的 生物降解 浓度 具有 较大 的 适宜 范围 . 
+ 基金项目 ： 国家 自然科学 重点 基金 资助 项目 ( 49632060 ) ; 广东省 自然科学 重点 基金 资助 项目 ( 963043 ) 
+ 作者简介 ： 曾锋 ( 1964 - ) , 男 , 广东 河源 人 , 讲师 , 中国科学院 广州 地球化学 研究所 有机 地球化学 国家 重点 实验室 和 广东省 环境 资源 利用 与 保护 重点 实验室 博士 研究生 , 主要 从事 环境 分析化学 、 环境 微生物学 的 研究 . 主持 完成 江西省 青年 科学 基金项目 的 研究 工作 . 发表 论文 28 篇 . 
+ 作者 单位 ： 曾锋 　 傅家 谟 　 盛国英 　 中国科学院 广州 地球化学 研究所 有机 地球化学 国家 重点 实验室 和 广东省 环境 资源 利用 与 保护 重点 实验室 , 广东 广州 510640 ； 
+ 杨惠芳 　 中国科学院 微生物 研究所 , 北京 100080 ) 
+ 参考文献 
+ [ 1 ] CharlesAS , PetersonDR , ParkertonTF , etal . Theenvironmentalfateofphthalateesters : aliteraturereview [ J ] . Chemosphere , 1997 , 35 ( 4 ) : 667symbol457.5749 . 
+ [ 2 ] 叶常明 . 环境 中 的 邻苯二甲酸 酯 [ J ] . 环境 科学 进展 , 1993 , 1 ( 2 ) : 36symbol457.547 . 
+ [ 3 ] 陈英旭 , 沈 东升 , 胡志强 等 . 酞酸酯 类 有机 毒物 在 土壤 中 降解 规律 的 研究 [ J ] . 环境 科学 学报 , 1997 , 17 ( 3 ) : 340symbol457.5345 . 
+ [ 4 ] ScheunertID , VocjelD , SchmitzerJ , etal . Biomineralizationratesof14C - labelledorganicchemicalsinaerobicandanaerobicsuspendedsoil [ J ] . Chemosphere , 1987 , 16 ( 5 ) : 1031symbol457.51041 . 
+ [ 5 ] O ' GradyDP , HowardPH , WernerAF . Activatedsludgebiodegradationof12commercialphthalateesters [ J ] . Appl . Environ . Microbiol . , 1985 , 49 ( 2 ) : 443symbol457.5445 . 
+ [ 6 ] YanH , YeCG , YeCQ . KineticsofphthalateesterbiodegradationbyChlorellapyrenoidsa [ J ] . Environ . Toxicol . Chem . , 1995 , 14 ( 6 ) : 931symbol457.5938 . 
+ [ 7 ] ChauretC , InnissWE , MayfieldCI . Biotransformationat10 ℃ ofdi - n - butylphthalateinsubsurfacemicrocosms [ J ] . GroundWater , 1996 , 34 ( 5 ) : 791symbol457.5794 . 
+ 
+ 收稿 日期 ： 1998 - 12 - 21 

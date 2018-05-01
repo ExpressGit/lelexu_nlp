@@ -1,0 +1,36 @@
+上海 航天 
+ AEROSPACESHANGHAI 
+ 2001Vol.18 No.3 P.5 - 7 , 14 
+ 
+ 
+ 
+ 
+ 多项式 逼近 在 介质 柱 宽角 RCS 快速 计算 中 的 应用 
+ 童 创明 　 周后 型 　 洪伟 　 
+ 摘 　 要 ： 基于 多项式 函数 逼近 ( PAOF ) 技术 和 矩量 法 ( MOM ) ， 快速 预测 任意 形状 非 均匀 介质 柱体 的 单站 雷达 散射截面 ( RCS ) 方向 图 。 首先 采用 MOM 求解 介质 柱 的 电场 积分 方程 及其 有关 角度 导数 方程 ， 得到 介质 柱 在 某 一 给定 方向 入射波 照射 下 的 极化 电流 及其 有关 角度 导数 的 极化 电流 ， 然后 利用 PAOF 技术 ， 将 任一 角度 入射波 照射 下 的 极化 电流 表示 为 系数 待定 的 多项式 幂级数 形式 ， 并 根据 函数 的 泰勒 展开 确定 级数 的 待定 系数 ， 由此 可 获得 介质 柱 在 任一 角度 入射波 照射 下 的 极化 电流 ， 进而 计算 出 RCS 方向 图 。 计算 结果表明 ， PAOF 完全 能 逼近 MOM 精确 计算 的 曲线 。 
+ 关键词 ： 矩量 法 ； 多项式 函数 逼近 ； 雷达 散射截面 ； 介质 柱 
+ 分类号 ： TN011 　 文献 标识码 ： A 
+ 文章 编号 ： 1006 - 1630 ( 2001 ) 03 - 0005 - 03 
+ ApplicationofPolynomialApproximationintheFastCalculationofWideAngleRCSofDielectricCylinders 
+ TONGChuang - ming （ StateKeyLab . ofMillimeterWaves , Dept . ofRadioEngineering , SoutheastUniversity , NanjingJiangsu210096 , China ） 　 
+ ZHOUHou - xing （ StateKeyLab . ofMillimeterWaves , Dept . ofRadioEngineering , SoutheastUniversity , NanjingJiangsu210096 , China ） 　 
+ HONGWei （ StateKeyLab . ofMillimeterWaves , Dept . ofRadioEngineering , SoutheastUniversity , NanjingJiangsu210096 , China ） 　 
+ 
+ Abstract ： Themethodofmoments ( MOM ) inconjunctionwiththepolynomialapproximationoffunctions ( PAOF ) techniqueisappliedtopredictthemono - staticradarcrosssection ( RCS ) patternofanarbitrarilyshapedtwo - dimensionaldielectriccylinder . Theelectricfieldintegralequation ( EFIE ) ofadielectriccylinderirradiatedatagivendirectionbyradarelectromagnetic ( EM ) waveissolvedusingMOMtoobtainthepolarizationcurrentofthedielectriccylinder . InthePAOFtechnique , thepolarizationcurrentatagivenangleisexpandedinaTaylor ' series . Thepolarizationcurrentisobtainedatanyanglewithintheangularrange , whichisinturnusedtocalculateRCSofthe2 - Ddielectriccylinder . ItwasobservedthatAWEcouldresultinconsiderableCPUtimesaving . 
+ Keywords ： Methodofmoments ; Polynomialapproximationoffunctions ; Radarcrosssection ; Dielectriccylinder 
+ 
+ 基金项目 ： 国家杰出青年基金 项目 （ 69625102 ） 
+ 作者简介 ： 童 创明 （ 1964 - ） ， 男 ， 博士后 ， 研究 领域 ： 雷达 目标 特性 。 
+ 作者 单位 ： 童 创明 （ 东南大学 无线电 工程系 毫米波 国家 重点 实验室 ， 江苏 南京 210096 ） 　 
+ 　 　 　 　 　 周后 型 （ 东南大学 无线电 工程系 毫米波 国家 重点 实验室 ， 江苏 南京 210096 ） 　 
+ 　 　 　 　 　 洪伟 （ 东南大学 无线电 工程系 毫米波 国家 重点 实验室 ， 江苏 南京 210096 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ [ 美 ] HarringtonRF , 王尔杰 等 译 . 计算 电磁场 的 矩量 法 [ M ] . 北京 : 国防工业 出版社 , 1981 . 
+ ［ 2 ］ 徐献瑜 , 李家 楷 , 徐国 良 . Pad è 逼近 概论 [ M ] . 上海 : 上海 科学技术 出版社 , 1990 . 
+ ［ 3 ］ 徐利治 , 王仁宏 , 周蕴时 . 函数 逼近 的 理论 与 方法 [ M ] . 上海 : 上海 科学技术 出版社 , 1990 . 
+ ［ 4 ］ RichmondJH . Scatteringbyadielectriccylinderofarbitrarycrosssectionshape [ J ] . IEEETran . AP , 1965 , ( 5 ) : 334 - 341 . 
+ 
+ 收稿 日期 ： 2000 年 6 月 9 日 
+ 修稿 日期 ： 2000 年 9 月 4 日 
+ 出版日期 ： 2001 年 3 月 1 日 

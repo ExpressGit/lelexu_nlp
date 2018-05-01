@@ -1,0 +1,141 @@
+计算机 工程 
+ COMPUTERENGINEERING 
+ 1999 年 第 25 卷 第 5 期 Vol.25 No.51999 
+ 
+ 
+ 
+ 一种 新颖 的 菜单 设计 技术 
+ 邵明 
+ 摘要 介绍 一种 有 热键 响应 的 下拉菜单 设计 技术 ， 主要 介绍 了 其 设计 思想 及 实现 原理 。 具有 效率高 ， 美观大方 等 特点 。 
+ 关键词 下拉菜单 热键 Borland C++ 3.1 
+ ANewTechniqueforDesigningMenu 
+ ShaoMing 
+ （ QingdaoArchitectureEngineeringInstitute ， MechanicalandElectricalEngineeringDepartmentQingdao266520 ） 
+ [ Abstract ] Thisessayintroducesthedesigningofpull - dowmmenuwithhotkeystorespondto ， andputsemphasisonideasofhowtodisignitandprinciplesofhowtomakeitwork 。 Ithascharacteristicsofhighefficiency ， pleasingtotheeyeandsoon 。 
+ [ Keywords ] Pull - dowmmenu ； Hotkey ； Borland C++ 3.1 
+ 　 　 在 应用程序 中 , 用户 最先 接触 到 的 就是 应用程序 中 的 菜单 系统 , 菜单 系统 设计 好坏 不但 反映 了 应用程序 中 的 功能模块 的 组织 水平 , 同时 也 反映 了 应用程序 的 用户 友善 性 。 而 目前 大多数 菜单 设计 技术支持 两种 对 菜单项 的 选择 : 一种 是 使用 键盘输入 一个 与 菜单项 相关 的 字母 或 数字键 , 称为 热键 ; 另 一种 则 是 利用 光标键 或 其它 定位 设备 将 菜单 光标 移动 到 指定 菜单项 并 按 下 回车 或 鼠标 按钮 。 对 热键 的 响应 只 局限于 包含 该 菜单项 的 菜单 处于 活动 期间 才 可 使用 , 不能 响应 其它 子 菜单 中 的 热键 , 这 在 一定 程度 上 影响 菜单 选择 的 执行 效率 。 笔者 在 实际 应用 系统 开发 过程 中 设计 的 多级 下拉式 菜单 , 可 随时 响应 不同 级子 菜单 中 的 热键 , 大大提高 菜单 执行 效率 。 
+ 1 固定式 下拉菜单 
+ 　 　 本 菜单 系统 采用 的 是 固定式 下拉菜单 , 这是 一种 根 菜单 固定 显示 在 屏幕 顶部 , 其子 菜单 在 使用 时才 在 屏幕 上弹 出 的 一种 下拉菜单 。 若 一个 应用程序 的 命令 系统 需要 使用 一个 如图 1 所示 的 二级 菜单 ， 每一 菜单 对 菜单项 的 选择 除 常用 的 选择 方法 之外 , 对 一些 常用 菜单项 设置 了 一些 热键 , 这样 无论 当前 菜单 光标 处于 哪 一级 子 菜单 中 , 都 可不 通过 菜单 层层 选择 , 而 直接 按 热键 来 选择 该 菜单项 。 对于 本 菜单 系统 设置 如下 热键 ： 
+ 
+ 图 1 菜单 示意图 
+ 　 　 ALT _ F 、 ALT _ E 、 ALT _ G 分别 选择 主 菜单 的 各 菜单项 ; ALT _ X , F2 , F3 分别 选择 File 子 菜单 中 的 Quit , Save , Load 项 。 如何 实现 以上 热键 的 处理 , 是 菜单 设计 的 关键技术 。 
+ 2 菜单 设计 技术 
+ 2.1 设计 合理 的 数据结构 
+ 　 　 为了 描述 一个 菜单 , 必须 精心组织 一个 数据结构 , 其 内容 包括 菜单 内容 , 菜单 显示 属性 , 菜单 的 位置 和 大小 , 菜单 的 选择 属性 等 。 如图 1 菜单 结构 ， 笔者 进行 如下 设计 ： 
+ 　 　 ( 1 ) 设计 存放 每个 菜单 信息 的 结构 
+ 　 　 structscreen { 
+ 　 　 unsignedcharleft , top , right , bottom ; / * 菜单 显示 区域 左上角 , 右下角 坐标 * / 
+ 　 　 charbar _ position ; 　 　 　 　 　 ／ * 当前 菜单项 在子 菜单 中 的 排列 序号 * ／ 
+ 　 　 　 char * * menu _ message ; 　 　 　 / * 菜单 内容 * / 
+ 　 　 　 charmenu _ attr ; 　 　 　 　 　 ／ * 菜单项 数 * / 
+ 　 　 　 charcommands ; 　 　 　 　 　 　 ／ * 本级 菜单 热键 字符串 * ／ 
+ 　 　 intscreen _ buff ; } ; 　 　 　 　 ／ * 记录 保存 菜单 覆盖 区 屏幕 信息 的 缓冲区 首址 * / 
+ 　 　 每个 菜单 具体 设置 如下 ： 
+ structscreenmain _ menu = { 0 , 0 , 79 , 0 , 0 , prompt0 , 3 , " FEG " , NULL } , 
+ 　 file _ menu = { 1 , 1 , 14 , 8 , 0 , file _ prompt , 6 , " LSWUOQ " , NULL } , 
+ 　 　 　 edit _ menu = { 12 , 1 , 25 , 6 , 0 , edit _ prompt , 3 , " UEC " , NULL } , 
+ 　 　 　 graph _ menu = { 21 , 1 , 34 , 7 , 0 , graph _ prompt , 4 , " LMBC " , NULL } , 
+ null _ screen = { 0 , 0 , 0 , 0 , 0 , NULL , 0 , NULL , NULL } ; 
+ 　 　 其中 每一子 菜单 的 提示信息 为 ： 
+ char * prompt0 [ ] = { " File " , " Edit " , " Grapher " } ; 
+ char * file _ prompt [ ] = { " LoadF2 " , " SaveF3 " , " Writeto " , " QuitAlt _ x " } ; 
+ char * edit _ prompt [ ] = { " Undo " , " Erase " , " Copy " } ; 
+ char * graph _ prompt [ ] = { " Line " , " Move " , " Box " , " Circle " } ; 
+ 　 　 ( 2 ) 设置 如下 结构 描述 每一 菜单项 
+ 　 　 　 structnode { intup , down , left , right ; 
+ 　 　 / * 记录 父 菜单项 ， 子 菜单 第一 菜单项 ； 本 菜单 上 一个 ， 下 一个 菜单项 在 结构 数组 中 位置 * / 
+ 　 　 structscreen * owner _ screen ; / * 该 菜单项 下级 子 菜单 的 描述 信息 * ／ 
+ 　 　 int ( * sub _ function ) ( ) ; } ; ／ * 选择 该 菜单项 时应 执行 的 函数 * ／ 
+ 　 　 定义 一个 结构 数组 , 数组 每一 元素 存放 一个 菜单项 信息 : 
+ 　 　 structnodenodes [ ] = { { - 1 , 1 , - 1 , - 1 , & main _ menu , select _ subtask } , 
+ 　 　 / * 1File 项 * / 　 　 { 0 , 4 , 3 , 2 , & file _ menu , select _ subtask } , 
+ 　 　 / * 2Edit 项 * / 　 　 { 0 , 8 , 1 , 3 , & edit _ menu , select _ subtask } , 
+ 　 　 / * 3Grapher 项 * / 　 　 { 0 , 11 , 2 , 1 , & graph _ menu , select _ subtask } , 
+ 　 　 / * 4Load 项 * / 　 　 { 1 , - 1 , 7 , 5 , & null _ screen , load _ file } , 
+ 　 　 / * 5Save 项 * / 　 　 { 1 , - 1 , 4 , 6 , & null _ screen , save _ file } , 
+ 　 　 / * 6Writeto 项 * / 　 　 { 1 , - 1 , 5 , 7 , & null _ screen , NULL } , 
+ 　 　 / * 7Quit 项 * / 　 　 { 1 , - 1 , 6 , 4 , & null _ screen , exit _ system } , 
+ 　 　 / * 8Undo 项 * / 　 　 { 2 , - 1 , 10 , 9 , & null _ screen , NULL } , 
+ 　 　 / * 9Erase 项 * / 　 　 { 2 , - 1 , 8 , 10 , & null _ screen , exit _ system } , 
+ 　 　 / * 10Copy 项 * / 　 　 { 2 , - 1 , 9 , 8 , & null _ screen , NULL } , 
+ 　 　 / * 11Line 项 * / 　 　 { 3 , - 1 , 14 , 12 , & null _ screen , NULL } , 
+ 　 　 / * 12Move 项 * / 　 　 { 3 , - 1 , 11 , 13 , & null _ screen , NULL } , 
+ 　 　 / * 13Box 项 * / 　 　 { 3 , - 1 , 12 , 14 , & null _ screen , NULL } , 
+ 　 　 / * 14Circle 项 * / 　 　 { 3 , - 1 , 13 , 11 , & null _ screen , NULL } } ; 
+ 　 　 某 菜单项 若有 下级 子 菜单 , 则 选择 该 菜单项 时 执行 的 函数 是 菜单 管理 与 驱动程序 select _ subtask ( ) , 该 函数 处理 用户 按键 , 若 是 光标 移动 键 , 则 把 菜单 光标 移至 相应 的 菜单项 上 , 若 为 选择 , 则 返回 菜单项 在 菜单 中 的 排列 序号 , 若 按 ESC 键 , 函数 返回值 为 - 1 ； 否则 执行 该 菜单项 相关 函数 , 这些 函数 应 设置 返回值 为 - 1 , 以便 完成 该 功能 后退 到 上 一级 菜单 。 
+ 　 　 ( 3 ) 设置 一 堆栈 记录 菜单 选择 路径 , 便于 响应 某一 热键 或 按 Esc 键时 恢复 每一子 菜单 所 覆盖 的 区域 。 
+ 　 　 structscreen * screen _ stackc [ 20 ] , * current _ menu ; / * 堆栈 ， 当前 活动 菜单 * / 
+ 　 　 intscreen _ sp = - 1 , current _ node ; / * 堆栈 指针 及 当前 菜单项 在 结构 数组 中 的 位置 * / 
+ 2.2 主要 函数 设计 技术 
+ 　 　 ( 1 ) 主 函数 
+ 　 　 　 main ( ) 
+ 　 　 　 { intret _ code , i , j ; 
+ 　 　 　 ...... / * 完成 初始化 界面 * / 
+ 　 　 　 setjmp ( ebuf ) ; / * 设置 函数 间 跳转 点 * / 
+ 　 　 　 do { current _ menu = nodes [ current _ node ] . owner _ screen ; 
+ 　 　 　 　 push _ screen ( current _ menu ) ; 
+ 　 　 　 ret _ code = nodes [ current _ node ] . sub _ function ( ) ; 
+ 　 　 　 　 if ( ret _ code = = - 1 ) { pop _ screen ( current _ menu ) ; 
+ 　 　 　 　 　 　 current _ node = nodes [ current _ node ] . up ; } 
+ 　 　 elsecurrent _ node = nodes [ current _ node ] . down + ret _ code ; 
+ 　 　 } while ( 1 ) ; } 
+ 　 　 ( 2 ) 压栈 函数 : 把 当前 子 菜单 信息 压入 堆栈 , 并且 在 指定 位置 显示 该子 菜单 
+ 　 　 voidpush _ screen ( structscreen * sc ) 
+ 　 　 　 { inti , j , mode ; 
+ 　 　 　 for ( j = 0 ; j < = screen _ sp ; j ++ ) if ( sc = = screen _ stack [ j ] ) return ; 
+ 　 　 　 screen _ sp ++ ; screen _ stack [ screen _ sp ] = sc ; 
+ 　 　 　 if ( sc = = & null _ screen ) return ; 
+ 　 　 　 mode = ( sc = = & main _ menu ) ? 1 : 0 ; 
+ 　 　 　 disp _ menu ( sc , mode ) ; } / * 显示 子 菜单 , 主 菜单 固定 在 屏幕 第一行 , 下拉菜单 垂直 显示 * / 
+ 　 　 ( 3 ) 弹栈 函数 : 返回 上 一级 菜单 , 并且 恢复 菜单 履盖 区域 屏幕 信息 
+ 　 　 　 voidpop _ screen ( structscreen * sc ) 
+ 　 　 　 { screen _ sp - - ; 
+ 　 　 　 if ( sc = = & null _ screen ) return ; 
+ 　 　 　 if ( sc = = & main _ menu ) { draw _ cursor _ bar ( & main _ menu , main _ menu . bar _ position , 0 ) ; 
+ 　 　 　 　 　 　 　 　 return ; } / * 主 菜单 只须 重显 光带 点 * / 
+ 　 　 　 puttext ( sc - > left + 1 , sc - > top + 1 , sc - > right + 2 , sc - > bottom + 2 , sc - > screen _ buffer ) ; 
+ 　 　 　 free ( sc - > screen _ buffer ) ; } 
+ 　 　 ( 4 ) 接受 输入 键值 函数 ： 接收 输入 键 ， 若 为 热键 ， 则 进行 热键 处理 
+ 　 　 intget _ key ( void ) 
+ 　 　 { inttemp ; 
+ 　 　 in . h . ah = 0x00 ; int86 ( 0x16 , & in , & out ) ; 
+ 　 　 temp = ( out . h . al = = 0 ) ? out . h . ah + 256 : out . h . al ; 
+ 　 　 switch ( temp ) { 
+ 　 caseF2 : caseF3 : caseALT _ F : caseALT _ E : caseALT _ G : 
+ 　 　 　 caseALT _ X : break ; 
+ 　 　 　 　 caseCURSOR _ LEFT : 
+ 　 　 　 　 　 caseCURSOR _ RIGHT : if ( current _ node < = 3 && current _ node > = 1 ) break ; 
+ 　 　 　 　 elsereturn ( temp ) ; 
+ 　 　 　 　 default : return ( temp ) ; } 
+ 　 　 　 　 hot _ key = temp ; hot _ key _ handle ( ) ; } 
+ 　 　 其中 主 菜单 为 活动 时 , 左右 光标键 是 移 向下 一 菜单项 ; 否则 为 热键 , 拉 下 其父 菜单 下 一 菜单项 的 子 菜单 。 
+ 　 　 ( 5 ) 热键 处理函数 
+ 　 　 inthot _ key _ handle ( ) 
+ 　 　 　 { inti , j , temp [ 10 ] , temp _ sp , father , hot _ node ; 
+ 　 　 　 switch ( hot _ key ) { 
+ 　 　 　 caseF2 : hot _ node = 5 ; break ; 
+ 　 　 　 caseF3 : hot _ node = 4 ; break ; 
+ 　 　 　 caseCURSOR _ LEFT : hot _ node = nodes [ current _ node ] . left ; break ; 
+ 　 　 　 caseCURSOR _ RIGHT : hot _ node = nodes [ current _ node ] . right ; break ; 
+ 　 　 　 caseALT _ F : hot _ node = 1 ; break ; 
+ 　 　 　 caseALT _ E : hot _ node = 2 ; break ; 
+ 　 　 　 caseALT _ G : hot _ node = 3 ; break ; 
+ 　 　 　 caseALT _ X : hot _ node = 9 ; break ; } / * switch * / 
+ 　 　 　 / * 恢复 选择 路径 下 各子 菜单 覆盖 区 ， 退至根 结点 * / 
+ 　 　 　 for ( j = screen _ sp ; j > = 0 ; j - - ) pop _ screen ( screen _ stack [ j ] ) ; 
+ 　 　 　 screen _ sp = - 1 ; current _ node = 0 ; 
+ 　 　 　 / * temp 纪录 的 是 热键 对应 的 菜单项 及父 菜单 中 相应 菜单项 在 各自 菜单 中 的 序号 * / 
+ 　 　 　 for ( temp _ sp = 0 , j = hot _ node ; j ! = current _ node ; ) { 
+ 　 　 father = nodes [ j ] . up ; temp [ temp _ sp ++ ] = j - nodes [ father ] . down ; 
+ 　 　 　 j = father ; } temp _ sp - - ; 
+ 　 　 　 / * 沿着 热键 选择 路径 ， 执行 到 热键 对应 菜单项 处 * / 
+ 　 　 　 for ( j = temp _ sp ; j > = 0 ; j - - ) { 
+ 　 　 　 　 nodes [ current _ node ] . owner _ screen - > bar _ position = temp [ j ] ; 
+ 　 　 　 　 push _ screen ( nodes [ current _ node ] . owner _ screen ) ; 
+ 　 　 　 　 current _ node = nodes [ current _ node ] . down + temp [ j ] ; } 
+ 　 　 　 　 longjmp ( ebuf , 1 ) ; } / * 跳 到 主程序 处 ， 执行 热键 对应 函数 * / 
+ 3 结束语 
+ 　 　 鉴于 篇幅 所 限 ， 只 介绍 二级 下拉菜单 生成 技术 ， 若 要 设计 更 多层次 的 下拉菜单 ， 只 需 在 结构 数组 中 再 加上 每个 菜单 中 的 各 菜单项 描述 信息 即可 ， 本 程序 用 C语言 编写 ， 代码 效率高 ， 执行 速度 快 。 
+ 作者简介 ： 邵明 女 ， 女 ， 35 岁 ， 讲师 ， 主攻 数据库 及其 应用 ， 软件开发 
+ 作者 单位 ： 青岛 建工 学院 机电 系 青岛 266520 
+ 收稿 日期 ： 1998 - 12 - 02 修回 日期 ： 1999 - 01 - 21 

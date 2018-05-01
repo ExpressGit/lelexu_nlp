@@ -1,0 +1,66 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 5 期 Vol.24 No.51998 
+ 
+ 
+ 
+ 连续 时间 回归 网络 的 稳定性 分析 
+ 张兰玲 　 刘贺平 　 孙一康 
+ 关键词 　 连续 回归 神经网络 ， 渐近 稳定 ， 绝对 稳定 . 
+ STABILITYANALYSISFORCONTINUOUS - TIME 
+ RECURRENTNEURALNETWORKS 
+ ZHANGLANLING 　 LIUHEPING 　 　 SUNYIKANG 
+ ( DepartmentofAutomation , BeijingUniversityofScienceandTechnology , Beijing 　 100083 ) 
+ Keywords 　 Continuous - timerecurrentneuralnetwork , asymptoticstability , absolutestability . 
+ 1 　 引言 
+ 　 　 回归 网络 稳定性 的 分析 大多 是 采用 李亚普诺 夫 直接 法 ［ 1 ］ ， 这种 方法 的 关键在于 李亚普诺 夫 函数 的 选择 ， 由于 目前 还 没有 系统地 构造 李亚普诺 夫 函数 的 方法 ， 用 直接 法分析 网络 的 稳定性 无疑 是 比较 困难 的 . 本文 基于 Gersgorin 定理 ， 以 一类 连续 回归 神经网络 为例 ， 讨论 网络 渐近 稳定 和 绝对 稳定 的 充分条件 ， 这种 方法 通过 对 网络 参数 的 简单 运算 判断 网络 的 稳定性 . 
+ 2 　 平衡点 的 存在 性及 变换 
+ 　 　 本文 研究 如下 形式 的 连续 回归 神经网络 
+ 　 　 ( 1 ) 
+ 其中 y = ［ y1 ( t ) , y2 ( t ) , … , yn ( t ) ］ T ∈ Rn 为 神经元 的 状态 矢量 ， σ ( . ) 是 tanh 函数 ， A = diag ［ a1 , a2 , … , an ］ ∈ Rn × n 是 常值 矩阵 ( ai ＞ 0 , i = 1 , … , n ) ， i = ［ I1 , I2 , … , In ］ T ∈ Rn 为 神经元 的 外部 常值 输入 矢量 ， W = ［ wi , j ］ n × n ∈ Rn × n 是 网络 的 连接 权 矩阵 . 
+ 　 设 ye 为 神经 网络系统 ( 1 ) 的 一个 平衡点 ， 则 
+ ye = A － 1 σ ( Wye ) + A － 1i . 　 　 ( 2 ) 
+ 　 　 定义 映射 ⅵ ( y ) = A － 1 σ ( Wy ) + A － 1i ， 若 y 澄 映射 ⅵ 盏 囊桓霾 欢点 ， 则 
+ y = A － 1 σ ( Wy ) + A － 1i . 　 　 ( 3 ) 
+ 　 　 比较 ( 2 ) ， ( 3 ) 两 式 可见 ， 映射 ⅵ 盏 牟欢点 即 为 神经 网络系统 ( 1 ) 的 平衡点 . 
+ 　 　 引理 1 . ( 布劳 韦尔 不动点 定理 ) ［ 2 ］ 设 Hn = ［ a , b ］ n 为 Rn 的 闭集 ， f : Hn → Hn 是 一个 连续函数 ， 则 f 在 Hn 中 至少 有 一个 不动点 . 
+ 　 　 定理 1 . 考虑 神经网络 动态 系统 ( 1 ) ， 对于 任意 的 外部 输入 i ， 常值 矩阵 A 及 连接 矩阵 W ， 在 Rn 中 构造 闭集 K = y : y - A － 1i ∞ ≤ ｜ A － 1 ｜ ∞ . T ， ， 则 系统 在 K 中 至少 有 一个 平衡点 . 
+ 　 　 证明 . 由 映射 ⅵ 占 癟 的 定义 可 得 
+ ⅵ ( y ) - A － 1i ∞ ‖ A － 1 σ ( Wy ) ∞ ≤ ｜ A － 1 ｜ ∞ . σ ( Wy ) ∞ ≤ ｜ A － 1 ｜ ∞ . T . 　 ( 4 ) 
+ 　 　 由 σ ( Wy ) 的 连续性 、 K 的 定义 及 引理 1 可知 ， ⅵ 赵 贙 中 至少 有 一个 不动点 ， 即 系统 ( 1 ) 在 K 中 至少 有 一个 平衡点 . 
+ 　 　 分析 系统 的 稳定性 时 ， 对 不 为 0 的 平衡点 ， 首先 要 进行 变换 . 
+ 　 　 设 ye = ［ y1e ， y2e ， … ， yne ］ T 为 系统 ( 1 ) 的 一个 平衡点 ， 令 z = y - ye ， g ( Wz ) = σ ( Wy ) - σ ( Wye ) ， o = Wz = ［ o1 , o2 , … , on ］ T ， 则 
+ = f ( z ) = - Az + g ( Wz ) = - Az + g ( o ) ， 　 　 ( 5 ) 
+ 则 系统 ( 5 ) 的 平衡点 z = 0 与 系统 ( 1 ) 的 平衡点 ye 相对 应 . 
+ 3 　 连续 回归 网络 的 渐近 稳定性 
+ 　 　 引理 2 . ( Gersgoring 定理 ) ［ 3 ］ 设 B = ［ bij ］ ∈ Mn ， ( Mn 为 n × n 的 复 矩阵 集合 ) ， 又 设 表示 B 的 各 去 心 绝对 行 和 ， 则 B 的 所有 特征值 s 都 位于 n 个 圆盘 的 并 中 ， ( C 为 复数 域 ) . 又 若 ｜ bij ｜ + Ri ( B ) ＜ 1 ( 1 ≤ i ≤ n ) ， 则 B 的 所有 特征值 s 都 位于 单位 圆内 . 
+ 　 　 引理 3 . ［ 4 ］ 对于 非线性 自治 系统 ， 假设 f ( 0 ) = 0 ， 且 f 连续 可微 ， 定义 D = ， 若 D 的 所有 特征值 均 具有 负实部 ， 则 平衡点 0 是 渐近 稳定 的 . 
+ 　 　 定理 2 . 对于 神经网络 动态 系统 ( 1 ) ， 设 ye 是 它 的 一个 平衡点 ， 若 网络 的 连接 权 满足 则 平衡点 ye 渐近 稳定 . 
+ 　 　 证明 . 先 考虑 神经网络 动态 系统 ( 5 ) ， 其雅 可比 矩阵 J 为 
+ 
+ 　 　 设 r ( s ) 为 特征值 s 的 实部 ， 由 引理 2 得 
+ 
+ 　 　 由 引理 3 及 对应 关系 易知 ， 系统 ( 1 ) 的 平衡点 Ye 渐近 稳定 . 
+ 4 　 连续 回归 网络 的 绝对 稳定性 
+ 　 　 定义 1 ［ 1 ］ . 考虑 神经 网络系统 ( 1 ) ， 若 对 任意 的 外部 输入 i ， 确定 的 常值 矩阵 A 及 连接 矩阵 W ， 系统 只有 唯一 的 渐近 稳定 的 平衡点 ， 则 称 系统 绝对 稳定 . 
+ 　 　 引理 4 . ［ 5 ］ 设 Hn = ［ a , b ］ n 为 Rn 的 闭集 ， f : Hn → Hn 是 一个 连续函数 ， 若 f ( x ) 雅 可比 矩阵 的 特征值 均 在 单位 圆内 ， 则 f 是 压缩 映射 ， 这时 ， f ( x ) 在 Hn 中 只有 唯一 的 不动点 . 
+ 　 　 定理 3 . 考虑 神经 网络系统 ( 1 ) ， 对于 任意 的 外部 输入 I ， 常值 矩阵 A 及 连接 矩阵 W ， K 的 定义 同 定理 1 ， 若 ye 为 系统 的 一个 平衡点 ， 则 ye ∈ K . 
+ 　 　 由 ( 3 ) 式 及 K 的 定义 可知 结论 成立 . 
+ 　 　 定理 4 . 考虑 神经 网络系统 ( 1 ) ， 对于 任意 的 外部 输入 i ， 确定 的 常值 矩阵 A ， 若 网络 的 连接 权 满足 ， 则 系统 只有 唯一 一个 平衡点 . 
+ 　 　 证明 . 映射 ⅵ 盏 难 趴 杀染 卣 驦 为 
+ 
+ 若 
+ 则 ｜ Lii ｜ + Ri ( L ) ＜ 1 　 　 　 ( i = 1 , 2 , … ， n ) . 
+ 　 　 由 引理 2 、 引理 4 得 ⅵ ( y ) 在 K 上 只有 一个 不动点 ， 即 系统 ( 1 ) 在 K 上 只有 一个 平衡点 ， 结合 定理 3 可知 ， 系统 只有 唯一 一个 平衡点 . 
+ 　 　 定理 5 . 考虑 神经 网络系统 ( 1 ) ， 对于 任意 的 外部 输入 i ， 确定 的 常值 矩阵 A ， 若 网络 的 连接 权 满足 ， 系统 绝对 稳定 . 
+ 　 　 由 定理 2 、 4 及 定义 1 可证 结论 成立 . 
+ 5 　 结论 
+ 　 　 本文 采用 Gersgorin 定理 讨论 了 连续 回归 神经网络 渐近 稳定 及 绝对 稳定 的 充分条件 . 该 方法 通过 对 网络 的 连接 权 进行 简单 计算 来 判定 网络 的 稳定性 ， 是 一种 通用 的 简单 、 方便 的 分析方法 ， 具有 实际 应用 价值 . 
+ 作者 单位 ： ( 北京科技大学 自动化系 　 北京 　 100083 ) 
+ 参考文献 
+ 　 1 　 MatsuokaK . Stabilityconditionsfornonlinearcontinuousneuralnetworkswithasymmetricconnectionweights . NeuralNetworks ， 1992 ， 5 ( 3 ) ： 495 — 500 
+ 　 2 　 DevaneyRL . AnIntroductiontoChaoticDynamicSystems . Addison - Wesleypublishingcompany , 1984 
+ 　 3 　 合恩 RA ， 约翰逊 CA . 矩阵 分析 . 天津 ： 天津大学 出版社 ， 1989 ， 杨奇译 
+ 　 4 　 VidyasagarM . NonlinearSystemsAnalysis . EnglewoodCliffs . Newjersey : Prentice - HallInc , 1978 
+ 　 5 　 JinL , NikiforukPN , GaptaMM . Absolutestabilityconditionsfordiscrete - timerecurrentneuralnetworks . IEEETrans . NeuralNetworks , 1994 , 5 ( 6 ) : 954 — 963 
+ 收稿 日期 　 1996 － 09 － 26 

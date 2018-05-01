@@ -1,0 +1,97 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 　 第 23 卷 　 第 6 期 　 Vol.23 　 No.6 　 1997 
+ 
+ 
+ 
+ 
+ 两步 H ∞ 辨识 算法 的 一个 近似 最优 的 误差 上 界 
+ 王书宁 
+ 　 　 摘要 　 利用 逼近 理论 中 的 n - 宽度 和 Bernstain 不等式 ， 以 一般性 的 窗口 系数 为 变量 ， 对鲁棒 辨识 中 的 两步 H ∞ 辨识 算法 ， 建立 了 一个 近似 最优 的 误差 上 界 函数 . 该 函数 是 窗口 系数 的 凸函数 ， 它 不仅 可 用于 计算 任意 窗口 系数 对应 的 辨识 误差 上 界 ， 还 为 优化 选择 两步 H ∞ 辨识 算法 的 窗口 系数 提供 了 可行 途径 . 
+ 　 　 关键词 　 鲁棒 辨识 ， 最坏 情况 下 的确 定型 辨识 ， H ∞ 辨识 ， 两步 H ∞ 辨识 算法 . 
+ AQUASI - OPTIMALUPPERERRORBOUNDFORTWO - STAGEH ∞ 
+ IDENTIFICATIONALGORITHMS 
+ WANGSHUNING 
+ ( Dept . ofAutomation , TsinghuaUniversity , Beijing100084 ) 
+ Abstract 　 Bymakinguseofn - widthinapproximationtheoryandBernstain ' sinequality , aquasi - optimaluppererrorboundfortwo - stageH ∞ identificationalgorithmsofrobustidentificationisestablishedinthispaper , whichisanexplictfunctionofgeneralwindowcoefficients . Thefunctionisconvexwithrespecttowindowcoefficients . Itnotonlycanbeusedforcomputationofuppererrorboundscorrespondingtoanyconcretewindowcoefficients , butalsosuppliesafeasiblewayforchoosingwindowcoefficientsoftwo - stageH ∞ identificationalgorithmswithoptimizationtechniques . 
+ Keywords 　 Robustidentification , worst - case / deterministicidentification , H ∞ identificatioin , two - stageH ∞ identificationalgorithms . 
+ 1 　 引言 
+ 　 　 两步 H ∞ 辨识 算法 产生 于 文献 ［ 1 ］ ， 后经 文献 ［ 2 , 3 ］ 的 发展 ， 成为 解决 频域 H ∞ 鲁棒 辨识 问题 的 一类 算法 . 迄今 ， 对 该 算法 的 研究 基本上 都 局限于 对 具体 的 窗口 系数 推导 辨识 误差 上 界 ， 以 证明 相应 算法 的 收敛性 . 这些 上 界 一般 比较 保守 ［ 2 ］ ， 不能 据 其 大小 比较 不同 窗口 系数 的 优劣 . 为此 ， 本文 以 一般性 窗口 系数 为 变量 ， 建立 了 一个 近似 最优 的 误差 上 界 函数 . 它 不仅 为 计算 任意 窗口 系数 对应 的 辨识 误差 上 界 提供 了 便利 ， 还 可 直接 用于 优化 选择 窗口 系数 . 
+ 　 　 本文 采用 以下 符号 约定 ： CN 表示 起始 下标 为 0 的 全体 N 维复 向量 的 集合 ； L ∞ 表示 满足 ‖ h ‖ L ∞ : = ｜ h ( z ) ｜ ＜ ∞ 的 复变 函数 组成 的 赋范 空间 ； QN : = { h , h ∈ L ∞ ｜ h ( z ) = hkzk } ; H ∞ 表示 满足 ‖ h ‖ H ∞ : = ｜ h ( z ) ｜ ＜ ∞ 的 解析 函数 组成 的 赋范 空间 ； PN : = { h , h ∈ H ∞ ｜ h ( z ) = hkzk } ; 由于 ‖ h ‖ H ∞ = ‖ h ‖ L ∞ , h ∈ H ∞ , 将 统一 用 ‖ h ‖ ∞ : = ｜ h ( ejw ) ｜ 表示 L ∞ 和 H ∞ 的 范数 ， 其中 j 表示 ； 对 任意 的 x ∈ CN ， xk 总 表示 其 分量 ； 对 任意 的 h ∈ H ∞ ， hk 总 表示 其 Taylor 系数 . 
+ 2 　 预备 知识 
+ 2.1 　 H ∞ 辨识 问题 
+ 　 　 设 被 辨识 系统 为 离散 、 稳定 、 因果 、 线性 时 不变 的 单 变量 系统 . 假定 ： 1 ) 系统 脉冲响应 { hk } ∞ k = 0 构成 的 传递函数 h ( z ) : = hkzk 属于 先验 模型 集 H ( M , ρ ) : = { h , h ∈ H ∞ ｜ h ( z ) ｜ ≤ M , ｜ z ｜ ＜ ρ } ， 其中 M ＞ 0 和 ρ ＞ 1 给定 ； 2 ) 对 任意 的 N ＞ 0 ， 可 得到 受 污染 的 频域 观测 数据 EN ( h , η ) ∈ CN ， 满足 ENt ( h , η ) = h ( ) + η t , 0 ≤ t ≤ N - 1 ， 其中 η ∈ BN ( ε ) : = { η , η ∈ CN ｜ ｜ η t ｜ ≤ ε , 0 ≤ t ≤ N - 1 } 是 未知 噪声 ， ε ＞ 0 给定 . 要求 ： 1 ) 设计 算法 : CNH ∞ ， 使能 用 ( EN ( h , η ) ) 逼近 h ; 2 ) 确定 在 最坏 情况 下 可能 产生 的 辨识 误差 eN ε ( ) : = sup { ‖ ( EN ( h , η ) ) - h ‖ ∞ ｜ s . t . h ∈ H ( M , ρ ) , η ∈ 
+ BN ( ε ) } 的 上界 ， 并 分析 eN ε ( ) 可否 随着 N 趋于 无穷 和 ε 趋于 零而 趋于 零 ， 具有 这种 性质 的 算法 称为 收敛 的 算法 . 
+ 2.2 　 两步 H ∞ 辨识 算法 
+ 　 　 用 FN : CNCN 表示 离散 Fourier 变换 ， 即 FNk ( y ) : = ， 0 ≤ k ≤ N - 1 ， y ∈ CN . 对 任意 的 整数 m 和 0 ≤ k ≤ N - 1 ， 规定 FNk + mN ( y ) = FNk ( y ) . 定义 映射 nx1 : CNL ∞ 和 * : L ∞ H ∞ 如下 ： 
+ 
+ 其中 n 为 给定 的 正整数 ， { xk } n - 1k = - ( n - 1 ) 为 给定 的 窗口 系数 . 所谓 两步 H ∞ 辨识 算法 即 由 映射 nx2 ( EN ( h , η ) ) : = * ( nx1 ( EN ( h , η ) ) ) 生成 所 需 模型 . 容易 证明 ［ 3 ］ 
+ eN ε ( nx2 ) ≤ 2eN ε ( nx1 ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 此外 ， * 完全 由 Nehari 定理 所 确定 ［ 4 ］ . 可见 ， nx2 的 性能 实际上 只 取决于 窗口 系数 x 的 选择 . 
+ 2.3 　 几个 引理 
+ 　 　 引理 1 . ［ 5 ］ 若 M ＞ 0 , ρ ＞ 1 ， 则 对 任意 正整数 N 和 h ∈ H ( M , ρ ) ， 成立 
+ 
+ 其中 Γ N ρ : H ∞ H ∞ 定义 为 ( Γ N ρ ( h ) ) ( z ) = ( 1 - ρ 2 ( k - N ) ) hkzk . 
+ 　 　 引理 2 . 对 任意 的 a ∈ CN 和 b ∈ CN ， 成立 
+ 
+ 其中 HN ( M , ρ ) : = { h , h ∈ PN ｜ ( α N ρ k ) 2 ｜ hk ｜ 2 ≤ M2 } , α N ρ k : = ρ k ( 1 - ρ 2 ( k - N ) ) - 1 , 0 ≤ K ≤ N - 1 . 
+ 　 　 证明 . 首先 利用 Cauchy 不等式 可 得 
+ 
+ 　 　 　 　 　 ( 2 ) 
+ 此外 ， 令 其中 t 和 t 分别 表示 at 和 bt 的 共轭复数 . 取 h0 ∈ PN 为 容易 验证 
+ h0 ∈ HN ( M , ρ ) , η 0 ∈ BN ( ε ) , 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 　 　 　 　 　 　 ( 4 ) 
+ 结合 ( 2 ) — ( 4 ) 式 ， 知 本 引理 成立 . 
+ 　 　 引理 3 . 对 任意 的 h ∈ QN 和 满足 n ＞ 4 π ( N - 1 ) 的 正整数 n ， 成立 
+ 
+ 　 　 证明 . 引理 的 左半 不等式 显然 成立 . 只证 其 右半 不等式 . 记令 不难看出 
+ ｜ h ( ej ω ) ｜ = ｜ f ( ω ) ｜ , 0 ≤ ω ≤ 2 π . 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 对 任意 的 0 ≤ l ≤ n - 1 ， 利用 f ( ω ) 的 实部 和 虚部 在 处 的 一阶 Taylor 展开 及 Bernstain 不等式 ［ 6 ］ ， 有 
+ 
+ 可以 推 得 
+ 
+ 在 上式 两边 对于 l 求 最大 ， 注意 到 , 可 得 
+ 　 　 　 　 　 　 ( 6 ) 
+ 最后 ， 将 ( 5 ) 式 代入 ( 6 ) 式 可得欲证 之 不等式 . 
+ 3 　 主要 结果 
+ 　 　 为 论述 方便 ， 将 两步 H ∞ 辨识 算法 中 的 n 取为 N ， 对 n = mN , m ＞ 1 的 情况 可 类似 处理 . 
+ 　 　 定理 1 . 对 任意 算法 ， 成立 
+ 
+ 其中 η ∈ BN ( ε + M ρ - N ) } . 
+ 　 　 证明 . 对 任意 的 h ∈ H ( M , ρ ) 和 η ∈ BN ( ε ) ， 令 0 ≤ t ≤ N - 1 . 由 引理 1 知 
+ ‖ h - Γ N ρ ( h ) ‖ ∞ ≤ M ρ - N , d ∈ BN ( ε + M ρ - N ) . 　 　 　 　 　 　 　 　 　 　 ( 7 ) 
+ 此外 ， 利用 Parseval 等式 可 得 
+ 
+ 所以 ， Γ N ρ ( h ) ∈ HN ( M , ρ ) . 再 注意 到 EN ( h , η ) = EN ( Γ N ρ ( h ) , d ) , 结合 ( 7 ) 式 可 最终 推 得 
+ 
+ 　 　 定理 2 . 如果 m ＞ 4 π ， 则 有 
+ 
+ 其中 γ 0 ( x , ω ) : = x0 ， γ k ( x , ω ) : = xk + xk - Ne - jN ω , 1 ≤ k ≤ N - 1 . 
+ 　 　 证明 . 对 任意 的 h ∈ HN ( M , ρ ) 和 η ∈ BN ( ε + M ρ - N ) ， 利用 
+ 
+ 可以 得到 
+ 
+ 注意 到 对 FNk ( EN ( h , η ) ) 在 k ＜ 0 和 k ≥ N 时 的 规定 ， 可 得 
+ 
+ 对 上式 利用 引理 2 可 直接 得到 
+ 　 　 　 ( 8 ) 
+ 另一方面 ， 由于 Nx1 ( EN ( h , η ) ) - h ∈ QN ， 利用 引理 3 可得 
+ 　 　 　 ( 9 ) 
+ 最后 ， 注意 到 及 , ω ， 在 ( 9 ) 式 关于 h 和 η 求上 确界 ， 并 利用 ( 8 ) 式 ， 可 得到 本 定理 的 结论 . 
+ 　 　 由 以上 定理 和 ( 1 ) 式 ， 立即 可 得 以下 推论 . 
+ 　 　 推论 1 . 对 任意 一组 窗口 系数 x ， 成立 
+ 
+ 其中 m 为 满足 m ＞ 4 π 的 任意 整数 . 
+ 4 　 结束语 
+ 　 　 为 获得 推论 1 采取 了 两种 保守 的 处理 方法 ： 第一 ， 利用 引理 1 将 h ( z ) 的 无穷 尾项 转换 为 一个 其 H ∞ 范数 不 大于 M ρ - N 的 未知量 ； 第二 ， 用 各 ht 的 不等式 约束 ρ 2t ｜ ht ｜ 2 ≤ M2 代替 不易 处理 的 原始 约束 ｜ ht ρ tejt ω ｜ ≤ M , ω . 文献 中 一般 采用 Cauchy 估计 ρ t ｜ ht ｜ ≤ M , t 处理 以上 问题 . 由于 Cauchy 估计 可以 从 ρ 2t ｜ ht ｜ 2 ≤ ρ 2t ｜ ht ｜ 2 ≤ M2 推出 ， 而 从 Cauchy 估计 出发 只能 得到 无穷 尾项 的 如下 上 界 ｜ htejt ω ｜ ≤ ｜ ht ｜ ≤ M ρ - N ( 1 - p - 1 ) - 1 . 因此 ， 本文 建立 的 上界 应 更 接近 误差 上 确界 . 
+ 　 　 此外 ， 是 x 的 凸函数 ， 而 凸 规划 问题 存在 一般 有效 的 求解 算法 . 因此 ， 推论 1 建立 的 上界 不仅 为 计算 任意 一组 与 窗口 系数 对应 的 辨识 误差 上 界 提供 了 便利 ， 还 为 优化 选择 窗口 系数 提供 了 可行 途径 . 
+ 1 ) 得到 国家自然科学基金 和 教委 博士点 基金 资助 课题 . 
+ 作者 单位 ： 清华大学 自动化系 　 北京 　 100084 
+ 参考文献 
+ [ 1 ] 　 HelmickiAJ , JacobsonCA , NettCN . Controlorientedsystemidentification : aworst - case / deterministicapproachinH ∞ . IEEETrans . AutomaticControl , 1991 , 36 ( 10 ) : 1163 - 11276 . 
+ [ 2 ] 　 PartingtonJR . RobustidentificationandinterpolationinH ∞ . Int . J . Control.1991 , 54 ( 5 ) : 1281 - 1290 . 
+ [ 3 ] 　 GuG , KhargonekarPP . AclassofalgorithmsforidentificaitoninH ∞ . Automatica , 1992 , 28 ( 2 ) : 299 - 312 . 
+ [ 4 ] 　 YoungNJ . AnIntroductiontoHilbertSpace , NewYork : CambridgeUniversityPress , 1988 . 
+ [ 5 ] 　 GuG . SuboptimalalgorithmsforworstcaseidentificationinH ∞ andmodelvalidation , IEEETrans . AutomaticControl , 1994.39 ( 8 ) : 1657 - 1661 . 
+ [ 6 ] 　 BeckenbachEF , BellmanR . Inequalities , Berlin : Springer - Verlag , 1983 . 
+ 收稿 日期 1995 - 09 - 06 

@@ -1,0 +1,86 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 　 第 23 卷 　 第 4 期 　 Vol.23 　 No.4 　 1997 
+ 
+ 
+ 
+ 点发 序列 问题 的 控制策略 1 ) 
+ 邢科义 　 李俊民 　 许祥 秦 　 胡保生 
+ 　 　 摘 　 要 　 在 离散 事件 系统 的 Petri 网 模型 下 ， 讨论 是否 存在 控制策略 使得 仅 有 希望 的 序列 使能 ， 而 又 保持 事件 的 并发 性 的 问题 . 证明 了 存在 这种 策略 的 必要 充分条件 是 给定 的 目标 序列 集是 可控 的 . 在 目标 序列 集 不 可控 而 所 考虑 的 序列 集都 是 Petri 网点 发 序列 集时 ， 提出 了 综合 给定 序列 集 的 极大 可控 子 序列 集 生成器 的 方法 . 
+ 　 　 关键词 　 点发 序列 问题 ， Petri 网 ， 控制策略 . 
+ THECONTROLSTRATEGYFORTHEFIRINGSEQUENCEPROBLEM 
+ XINGKEYILIJUNMINXUXIANGQIN 
+ ( DepartmentofAppliedMathematics , XIDIANUniversity , Xi ′ an710071 ) 
+ HUBAOSHENG 
+ ( SystemsEngineeringInstitute , Xi ′ anJiaotongUniversity , Xi ′ an710049 ) 
+ AbstractInthispaperweusePetrinetstomodeladiscreteeventsystem , anddiscusswhetherornotthereexistsacontrolstrategybywhichonlythespecifiedtargetfiringsequencescanbeenabled . Itisprovedthatanecessaryandsufficientconditionfortheexistenceofsuchstrategyisthatthesetofthespecifiedtargetfiringsequencesarecontrollable . ForthecasewherethefiringsequencesetsinvolvedarePetrinetfiringsequencesetswepresentamethodforsynthesizingacontrolstrategybywhichtheclosedloopsystemcangeneratethesupremalcontrollablesubsetofagivenfiringsequenceset . 
+ KeywordsFiringsequenceproblem , Petrinet , controlstrategy . 
+ 1 　 引 　 言 
+ 　 　 在 离散 事件 系统控制 理论 中 ， Ramadge 和 Wonham ［ 1 ］ 在 自动机 语言 下 研究 了 各种 控制 问题 ， 讨论 了 监督控制 ， 即使 闭环 系统 沿 目标语言 演化 的 动态 控制器 的 存在 性 ， 给出 了 监控器 的 综合 方法 . 但 事件 的 并发 性是 不能 用 自动机 语言 来 描述 的 ， 从而 被 排除 在 他们 研究 的 情形 之外 . 
+ 　 　 Petri 网 ( P - 网 ) 是 模拟 分析 并发 事件 系统 的 有力 工具 ， 它 能 清楚 地 描述 事件 的 相关性 和 独立性 ， 以及 事件 的 并发 性 . Ichikawa 和 Ushio ［ 2 ， 3 ］ 仅 在 一些 特殊 情况 下 讨论 了 基于 P - 网 的 控制 问题 . 本文 在 一般 的 P - 网中 讨论 点发 序列 问题 ， 在 系统 行为 和 希望 行为 都 是 P - 网 序列 集时 ， 给出 了 问题 的 控制策略 存在 的 必要 充分条件 ， 以及 综合 方法 . 提出 了 接受 极大 可控 子 序列 集 的 受控系统 的 构造方法 . 
+ 2 　 Petri 网点 发 序列 集 ， 控制策略 
+ 　 　 本文 讨论 P - 网 N = ( P , T , I , O , m0 ) ［ 4 ］ 中 几个 变迁 可以 同时 点发 数次 的 情形 ， 即 在 标识 m 下点 发 的 变迁 全体 是 一个 变迁 袋 . 用 T ∞ 表示 T 上 的 所有 变迁 袋 的 集合 . b ∈ T ∞ 称为 在 m 下 是 状态 使能 的 ， 如果 对 所有 p ∈ P ， 有 # ( p , t ) ≤ m ( p ) ， 其中 # ( u , v ) = 在 m 下 ， 状态 使能 的 变迁 袋 b 的 点 发使 系统 由 m 变为 状态 m ′ ， m ′ ( p ) = m ( p ) +# ( t , p ) - # ( p , t ) , 记作 m 〔 b ＞ m ′ . 用 R ( N , m0 ) 记 N 的 可 由 m0 到达 的 标识 之集 . T ∞ * 表示 所有 变迁 袋 序列 之集 . 记号 m 〔 b ＞ m ′ 自然 地 可 扩展 到 T ∞ * 上 . 从 m0 可 依次 点发 的 变迁 袋 序列 之集 就是 N 生成 的 点发 序列 集 L ( N ) = { σ ∈ T ∞ * ｜ m0 〔 σ ＞ 有 定义 } . 
+ 　 　 变迁 集可 分为 可控 变迁 集 Tc 和 不 可控 变迁 集 Tu , T = Tc ∪ Tu . 本文 考虑 形式 为 V ： R ( N ， m0 ) → 的 控制策略 . V 把 m 映射 为 可控 变迁 袋 的 集合 V ( m ) . 变迁 袋 b 称为 在 标识 m 和 策略 V 下 控制 使能 ， 如果 当 b = bu ∪ bc , bu ∈ , c0 ∈ 时 ， bc ∈ V ( m ) . 在 闭环 系统 V / N 中 ， 只有 状态 和 控制 同时 使能 的 变迁 袋 可以 点发 . 记号 m 〔 σ , V ＞ m ′ 表示 m 〔 σ ＞ m ′ 在 V / N 中 的 扩展 . 在 闭环 系统 中 ， V 可以 看作 是从 T ∞ * 到 的 映射 ， 即当 m0 〔 σ , V ＞ m 时 ， V ( σ ) = V ( m ) ， 否则 V ( σ ) 无 定义 . V / N 生成 的 点发 序列 集为 L ( V / N ) = { σ ∈ T ∞ * ｜ m0 〔 σ , V ＞ 有 定义 } . 
+ 　 　 P - 网 的 一条 不 可控 路 是 P - 网图 中 的 一条 有 向 路 ， 其上 所有 变迁 都 是 不 可控 的 . 若 一条 路 除端 节点 外是 不 可控 的 ， 则 称 其 为 内部 不 可控 路 . 
+ 3 　 点发 序列 问题 及其 控制策略 
+ 　 　 本文 所 考虑 的 系统 行为 L 和 目标 行为 K 都 是 P - 网点 发 序列 集 ， 即 有 P - 网 NL 和 NK ， 使得 L = L ( NL ) , K = L ( NK ) . 
+ 　 　 定义 1 . 设 控制系统 的 模型 为 P - 网 N = ( P , T , I , O , m0 ) ， 希望 行为 是 序列 集 KL ( N ) ， 点发 序列 问题 就是 综合 控制策略 V ， 使得 闭环 结构 V / N 具有 行为 K ， 即 K ( V / N ) = ( K 的 前缀 闭包 ) . 进一步 地称 N 可 控制 到 K . 
+ 　 　 定义 2 . 设 KL ( N ) ， 称 K 关于 L ( N ) 可控 ， 如果 对 任意 的 σ ∈ K 及 bc ∈ ， 若 σ bc ∈ K ， 则 对 任意 的 bu ∈ ， 有 σ ( bc ∪ bu ) ∩ L ( N ) . 
+ 　 　 定理 1 . 给定 受控 P - 网 N ， 设 KL ( N ) 是 P - 网点 发 序列 集 ， 则 N 可 控制 到 K 的 充分 必要条件 是 K 关于 L ( N ) 是 可控 的 . 
+ 　 　 证明 . 必要性 . 设 存在 策略 V ， 使得 L ( V / N ) = K . 设 σ ∈ K , bc ∈ , σ bc ∈ K , m0 〔 σ , V ＞ m , 于是 σ bc ∈ L ( V / N ) , bc ∈ V ( m ) 且 在 m 下 bc 状态 使能 . 设 bu ∈ ， 若 σ ( bc ∪ bu ) ∈ L ( N ) ， 则 bu ∪ bc 是 在 m 下 状态 使能 ， 从而 σ ( bu ∪ bc ) ∈ L ( V / N ) = K . 故 K 关于 L ( N ) 是 可控 的 . 
+ 　 　 充分性 . 定义 策略 V 在 σ ∈ K 时 ， V ( σ ) = { bc ∈ ｜ σ bc ∈ K } ， 否则 V ( σ ) 无 定义 . 首先 证明 KL ( V / N ) . 由于 空列 既 在 K 中 又 在 L ( V / N ) 中 ， 故只 需证 对 每个 σ ∈ K ∩ L ( V / N ) ， 若 σ b ∈ K , 则 σ b ∈ L ( V / N ) 即可 . 设 σ ∈ K ∩ L ( V / N ) , σ b ∈ K , m0 〔 σ , V ＞ m ， b = bc ∪ bu ， 则 σ bc ∈ K ， 故 bc ∈ V ( σ ) = V ( m ) 是 控制 使能 的 ， 又 σ b ∈ KL ( N ) . 于是 σ b ∈ L ( V / N ) . 
+ 　 　 再证 L ( V / N ) K . 设 σ ∈ L ( V / N ) ∩ K , b = bu ∪ bc , bc ∈ ， bu ∈ σ b ∈ L ( V / N ) ， 则 bc ∈ V ( σ ) ， 由 V 的 定义 ， σ bc ∈ K . 又 σ b ∈ L ( V / N ) L ( N ) 及 K 关于 L ( N ) 可控 ， 则 σ b = σ ( bu ∪ bc ) ∈ K . 于是 K = L ( V / N ) . 
+ 　 　 定义 P - 网 NK = ( PK , T , IK , OK , mK0 ) 和 NL = ( PL , T , IL , OL , mL0 ) 的 同步 合成 网 NK * NL = ( PK ∪ PL , T , IK ∪ IL , OK ∪ OL , m0 ) . 其中 当 p ∈ PK 时 ， m0 ( p ) = mK0 ( p ) ， 当 p ∈ PL 时 ， m0 ( p ) = mL0 ( p ) . 若 L ( NK ) L ( NL ) , 则 L ( N ) = L ( NK ) . 故 以后 设 N = NK 且 NL 是 NK 的 子网 . 于是 N 的 标识 m 可 写成 m = ( mL , mK / L ) ， mL 是 NL 的 标识 ， mK / L 是 m 在 PPL 上 的 限制 . 
+ 　 　 当 K 关于 L 不 可控 时 ， 希望 在 K 中 找 一个 极大 子 序列 集 K1 ， 使得 K1 关于 L ( NL ) 可控 . 若 K1 , K2K 都 是 关于 L 可控 ， 则 K1 ∪ K2 也 可控 ， 故 极大 可控 子 序列 集 唯一 存在 ， 记作 SupC ( K ) . 我们 希望 综合 N 的 一个 控制策略 V ， 使得 L ( V / N ) = SupC ( K ) . 
+ 　 　 考虑 条件 ： 对 p ∈ P / PL 及 标识 m ∈ R ( N , m0 ) ， 
+ 
+ 其中 
+ 
+ 记号 A . ( N ) 和 . A ( N ) 分别 表示 P - 网 N 中 AP ∪ T 的 所有 输入 元素 与 输出 元素 之集 . 
+ 　 　 若有 p ∈ PL 及 m ∈ R ( N , m0 ) 使得 ( FC ) 成立 ， 则 K 是 不 可控 的 . 因此 对 每个 p ∈ PPL ， 要 禁止 使 ( FC ) 成立 的 标识 m . 
+ 　 　 设 Tc = { t1 , … , tn } ， 定义 bc ∈ 的 特征向量 为 Ψ ( bc ) = ( a1 , … , an ) ， 其中 ai 是 bc 中 包含 的 ti 的 个数 . 
+ 　 　 令 . 这里 ， 把 ( RC ) 中 的 m 用 m ′ 代替 ， 则 得 ( RC ′ ) ， R0 ( N , m , bc ) = { m ′ ｜ m 〔 b1 σ ＞ m ′ , b1bc , σ ∈ } . 
+ 　 　 若有 p ∈ PPL 及 m 使得 fp ( m , Ψ ( bc ) ) ＞ 0 ， 则 有 m ′ = ( m ′ L , m ′ K / L ) ∈ R0 ( N , m , bc ) , 使得 ( FC ) 成立 . 故设 fp ( m0 , Ψ ( φ ) ) ≤ 0 对 所有 p ∈ P ＼ PL 成立 . 
+ 　 　 令 m ( Tc ) = { bc ∈ ｜ m 〔 bc ＞ 有 定义 } 
+ 　 　 B ( m ) = { bc ∈ m ( Tc ｜ b ′ cbc , bu ∈ ， 
+ 　 　 若 mL 〔 b ′ c ∪ bu ＞ 有 定义 ， 则 m 〔 b ′ c ∪ bu ＞ 有 定义 } 
+ 　 　 定义 控制策略 ( m ) = { bc ∈ B ( m ) ｜ p ∈ P ＼ PL , fp ( m , Ψ ( bc ) ) ≤ 0 } . 
+ 　 　 定理 2 . 设 K 和 L 分别 是 P - 网 N 和 NL 的 点发 序列 集 ， KL ， NL 是 N 的 子网 ， 控制策略 如 上 定义 ， 则 L ( / N ) 是 关于 L 可控 的 ， 而且 % Sup% C ( K ) = L ( / N ) . 
+ 　 　 证明 . 　 设 σ ∈ L ( / N ) ∩ L , m0 〔 σ ＞ m = ( mL , mK / L ) , b = bu ∪ bc , bu ∈ , bc ∈ ， 若 σ bc ∈ L ( / N ) ， σ b ∈ L ( NL ) ， 则 bc 在 ( m ) 下 控制 使能 ， bc ∈ B ( m ) ， 故对 b ′ u ∈ , 若 bc ∪ b ′ u 在 mL 下 状态 使能 ， 则 在 m 下 也 状态 使能 ， σ b ∈ L ( / N ) . 即 L ( / N ) 关于 L 是 可控 的 . 
+ 　 　 设 σ ∈ L ( N ) , σ L ( / N ) , σ = b1b2 … , 则 存在 l ∈ Z , 使得 σ ′ = b1 … bl ∈ L ( / N ) ， 而 σ ′ bl + 1L ( / N ) ， 设 m0 〔 σ ′ ＞ m ， bl + 1 = bc ∪ bu ， bc ∈ , bu ∈ ， 则 bc ( m ) . 于是 必有 ( 1 ) bcB ( m ) 或 ( 2 ) 存在 p ∈ P ＼ PL ， 使得 fp ( m , Ψ ( bc ) ) ＞ 0 ， 之一 成立 . 
+ 　 　 若 ( 1 ) 成立 ， 则 存在 b ′ cbc 及 bu ∈ ， 使得 b ′ c ∪ bu 在 mL 下 而 不 在 m 下 状态 使能 ， 于是 σ ′ ( b ′ c ∪ bu ) ∈ L ( NL ) ， 而 σ ′ ( b ′ c ∪ bu ) K . 又 b ′ cbc ∈ m ( Tc ) , σ ′ b ′ c ∈ K ， 故 σ 不 可能 在 任何 关于 L 可控 的 子 序列 集中 . 
+ 　 　 若 ( 2 ) 成立 ， 则 存在 p ∈ P ＼ PL ， b ′ cbc 和 δ ≤ ， 使得 m 〔 b ′ c δ ＞ m ′ , m ′ ( p ) ＜ . 设 lt = min { pi ( t ) ｜ pi ∈ . t ( NL ) } , t ∈ p . ( N ) ∩ Tu ， 使得 以上 不等式 成立 ， 令 = { ｜ t ∈ p . ( N ) } , 则 在 m ′ L 下 状态 使能 ， 但 在 m ′ 下 不是 状态 使能 . 故 σ ′ b ′ c δ ∈ L ＼ K . 又 δ ∈ , σ ′ b ′ c ∈ K ， 则 σ ′ b ′ c 和 σ ′ bc 都 不 在 K 的 关于 L 可控 的 子 序列 集中 . 
+ 　 　 总上 所述 ， L ( / N ) 是 极大 的 而且 ( / N ) = SupC ( K ) . 
+ 　 　 由 定理 2 可知 ， 综合 及 SupC ( K ) 的 关键 是 确定 fp ( m , Ψ ( bc ) ) . 
+ 　 　 对 p ∈ P ＼ PL ， 定义 P . ( N ) 的 控制 子网 为 = ( Pp , Tp , Ip , Op ) ， 其中 Pp 是 由 P 的 所有 的 到 p . ( N ) 有 不 可控 路 的 位置 组成 ， Tp = . Pp ( N ) , Ip = I ∩ ( Pp × Tp ) , Op = O ∩ ( Tp ∩ Pp ) . 
+ 　 　 设 b ′ cbc ， 令 gp ( m , Ψ ( b ′ c ) = max - m ′ ( p ) ｜ m 〔 b ′ c ＞ m " , m ′ ∈ R0 ( N , m " , φ ) } ， 则 fp ( m , Ψ ( bc ) ) = , 所以 以下 只要 给出 gp ( m , λ ) 即可 ， 其中 λ = ( λ t1 , λ t2 , … ， λ tn ) ∈ Zn . 
+ 　 　 因仅 是 m ′ 的 函数 ， 故记作 Xp0 ( m ′ ) . 设从 m 到 m ′ 的 过程 中 ， t 点发 λ t 次 . 令 l ( pi ) = m ( pi ) + λ t ， 则 m ′ ( pi ) = l ( pi ) - λ t . 为 简单 设 { t ∈ Tn ｜ . t ( N ) = φ } = φ . 
+ 　 　 情形 Ⅰ . 　 中 没有 不 可控 圈 . 此时 gp ( m , λ ) 的 综合 过程 如下 ： 
+ 　 　 算法 A . 　 令 Xp0 = Xp0 ( m ′ ) , 其中 m ′ ( pi ) = l ( pi ) - λ t . 
+ 　 　 = { t ∈ p . ( N ) ｜ 从 t 到 p . ( N ) 没有 长度 大于 1 的 不 可控 路 } . 
+ 　 　 S0 = Φ , T0 = p . ( N ) ＼ , P0 = . ( ( p . ( N ) ) ∩ Tu ) ( N ) ， 
+ 　 　 对 i = 0 , 1 , … , 重复 以下 三步 ， 直到 算法 结束 . 
+ 　 　 ( a ) 以 λ t = min { p ( t ) ｜ p ∈ . t ( N ) } , t ∈ ∩ Tu , 代入 Xpi 得 X ′ p ( i + 1 ) ， 
+ 令 　 , 
+ 　 　 从 ( N ) 到 ∩ Tu 的 所有 不 可控 路 的 弧全 在 中 } ， 
+ 　 　 
+ 　 　 ( b ) 在 以下 条件 下取 的 极大值 ， 并记 极大值 为 . 
+ 　 　 是 整数 . 
+ 　 　 得 Xp ( i + 1 ) , 
+ 令 　 
+ 　 　 i + 1 = { t ∈ ｜ 从 t 到 ∩ Tu 的 所有 内部 不 可控 路 的 弧全 在 Si + 1 中 } ， 
+ 　 　 Ti + 1 = - i + 1 . 
+ 　 　 如果 = Φ , 则 令 gp ( m , λ ) = Xp ( i + 1 ) ， 算法 结束 . 
+ 　 　 因 没有 不 可控 圈 ， 则 在 有限 步内 算法 结束 . 
+ 　 　 情形 Ⅱ . 中有 不 可控 圈 . 此时 在 每个 不 可控 圈上 取一 变迁 ， 用 D 记 这些 变迁 之集 . 如有 必要 ， 用 pt ′ p ′ t 代替 弧 ( p , t ) 或用 tp ′ t ′ p 代替 ( t , p ) ， 使得 D ∩ ( N ) = Φ ， 视 增加 的 变迁 t ′ 为 不 可控 的 ， 而 D 中 的 变迁 为 可控 的 . 此时 可 利用 算法 A ， 但 在 ( a ) 中 ， 要 用 { } 代替 ， 其中 ， 0 ≤ λ t ≤ min { p ( t ) ｜ p ∈ . t ( N ) } , t ∈ ∩ D . 当 Xpi 是 m 和 λ t ， t ∈ Tc ， 的 函数 时 ， 算法 结束 . 
+ 4 　 结论 
+ 　 　 本文 讨论 了 点发 序列 问题 的 控制策略 存在 的 必要 充分条件 . 提出 了 综合 这 类 策略 的 一个 新 方法 . 给出 了 能 生成 给定 P - 网点 发 序列 集 的 极大 可控 子 序列 集 的 受控系统 的 构造方法 . 本文 所 采用 的 方法 避开 了 生成 和 分析 状态 空间 ， 仅以 P - 网 的 结构 为 基础 ， 这是 对文 ［ 3 ］ 的 状态 空间 法 的 很大 改进 ， 并 解决 了 其 未能 解决 的 问题 . 
+ 1 ) 　 国家自然科学基金 和 西安交通大学 机械制造 系统工程 国家 重点 实验室 基金 资助 项目 . 
+ 作者 单位 : 邢科义 　 李俊民 　 许祥 秦 　 西安电子科技大学 应用 数学系 　 西安 　 710071 
+ 　 　 　 　 　 胡保生 　 西安交通大学 系统工程 研究所 　 西安 　 710049 
+ 参考文献 
+ [ 1 ] RamadgePJ , WonhamWM . Supervisorycontrolofaclassofdiscreteeventprocesses . SIAMJ . ControlandOptimization , 1987 , 25 ( 1 ) : 206 - 230 . 
+ [ 2 ] IchikawaA , etal .. Reachabilityandcontrolofdiscreteeventsystemsrepresentedbyconflict - freePetrinets . Proc . Int . Symp . CircuitsSyst . , Kyoto , Japan1985 , 2 : 487 - 490 . 
+ [ 3 ] UshioT . OncontrollabilityofcontrolledPetrinets . Control - theoryandadvancedtechnology , 1989 , 5 ( 3 ) : 265 - 275 . 
+ [ 4 ] PetersonJL . Petrinettheoryandthemodelingofsystems . EnglewoodCliffs , NJ : Prentice - Hall , 1981 . 
+ 收稿 日期 　 1994 - 04 - 08 

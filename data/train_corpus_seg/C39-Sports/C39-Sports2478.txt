@@ -1,0 +1,45 @@
+中国 体育 科技 
+ CHINASPORTSCIENCEANDTECHNOLOGY 
+ 1999 年 第 35 卷 第 10 期 Vol.35 No.101999 
+ 
+ 
+ 
+ 发球区 扩大 对 战术 组成 率 的 影响 及其 对策 
+ 李禄田 
+ 摘要 ： 本文 通过 对 1996 年 全国 女子 排球 锦标赛 ( 甲 A ) 8 个队 发球 站位 、 发球 线路 、 落点 及 发球 效果 的 技术 统计 ， 分析 了 发球区 扩大 后 发球 的 站位 、 线路 、 落点 对 一攻 战术 组成 率 的 影响 。 统计 结果 经 X2 检验 表明 ： 发球 的 攻击性 与 发球 的 站位 无关 ， 而 与 发球 的 线路 与 落点 高度 相关 。 其中 ， 斜线 发向 插 上 二传 站位 区 的 球 攻击性 最大 ， 发 向 二传 站位 侧面 对应 区 的 球 攻击性 最小 。 本文 对 如何 利用 发球区 的 扩大 加强 发球 的 攻击性 ， 如何 提高 一攻 的 战术 组成 率 进行 了 探索 。 
+ 关键词 ： 排球 ∥ 发球 ∥ 一攻 ∥ 战术 ∥ 影响 
+ TheInfluencesandCounter - measuresoftheBroadenedServiceAreaontheRatiooftheAchievedTacticalFirstAttacks 
+ LiLutian 
+ Abstract : Inthisarticle , theauthormakesthetechnicalstatisticsontheserviceposition , serviceroutes , ballfallingpositionfor8womenvolleyballteamsinthe1996nationalwomenvolleyballleague , andanalyzestheinfluenceontheratiooftheachievedtacticalfirstattacks . ThestatisticaldataisexaminedbyX2 . Theresultshowsthattheattackforcehasnothingtodowiththeserviceposition , butmuchtodowiththeserviceroutesandthefallingpoint . Amongthem , theservedballalongtheslantingroutetotherunningsetterhasthegreatestattackforce , whereastheservedballtotheslantingoppositeareaofthesetterhastheleast . Theauthorhasmadeprobeonhowtoenhancetheattackforcebybroadeningtheservicearea , andhowtoimprovethesuccessfulrateoftheachievedtacticalfirstattacks . 
+ Keywords : volleyball ∥ service ∥ firstattack ∥ tactics ∥ influence 
+ 1 　 前言 
+ 　 　 当前 ， 排球 运动 正 处在 攻 强于 守 的 攻防 不 平衡 状态 ， 尤其 是 三点 攻 的 一攻 战术 组成 率过 高 ， 导致 一攻 扣 死率 高 ， 使 排球比赛 攻防 转换 回合 少 ， 影响 了 比赛 的 观赏性 。 为了 解决 影响 排球 运动 发展 的 这 一 因素 ， 自 1995 年 起 ， 国际排联 将 竞赛 规则 做 了 一系列 修改 。 其中 ， “ 发球区 扩大 为 端线 后 9m 宽 的 地区 ， 延至 无障碍 区 的 终端 ” ， 使 原来 端线 后 右侧 3m 宽 的 发球区 扩大 了 3 倍 。 其 修改 的 目的 是 为了 加强 发球 的 攻击性 ， 抑制 一攻 的 战术 组成 率 ， 促使 排球 运动 向 攻守 平衡 的 方向 发展 。 
+ 　 　 为了 探索 发球区 扩大 后 对 一攻 战术 组成 率 的 影响 ， 在 1996 年 全国 女子 排球 锦标赛 ( 漳州 赛区 ) 期间 ， 随机 对甲 A 组 江苏 、 浙江 、 福建 、 上海 、 中国 邮电 、 八一 、 天津 、 四川 8 个队 共 46 局 比赛 ， 对方 二传 后排 插上 站位 时 的 发球 站位 、 线路 与 落点 、 发球 效果 进行 了 技术 统计 。 
+ 2 　 统计 方法 
+ 　 　 1 . 由于 快球 掩护 下 的 三点 进攻 是 一攻 扣 死率 最高 的 战术 形式 ， 而 女排 又 普遍 采用 5 人 接发球 站位 ， 所以 ， 本文 只 对 二传 后排 插上 时 的 发球 站位 、 发球 线路 与 落点 、 发球 效果 进行 统计 。 
+ 　 　 2 . 组成 有效 的 一攻 战术 要 具备 三个 基本 条件 ： 1 ) 一传 将球 送到 网前 预定 的 二传 位置 ； 2 ) 二传 及时 地取 位于 球下 ； 3 ) 扣 快球 队员 及时 跑动 到位 。 本文 把 三者 具备 ， 组成 有效 的 快球 进攻 或 起到 了 掩护 作用 作为 组成 一攻 战术 的 标准 。 
+ 　 　 3 . 在 端线 后 无障碍 区 的 边沿 处 ， 用 颜色 鲜明 的 标记 将 9m 宽 的 发球区 平 分为 3 等份 。 右侧 3m 宽 的 区域 ( 原 发球区 ) 定为 右 发球区 ； 左侧 3m 宽 的 区域 定为 左 发球区 ； 中间 为 中 发球区 。 以 发球 队员 击球 时脚 的 着 地 位置 ( 或 起跳点 ) 确定 其 发球 站位 区域 。 
+ 　 　 4 . 发球 落点 以 插 上 二传 的 站位 为 基准点 。 由于 发球 队员 击球 时 ， 插上 二传 即 迅速 起动 到 网前 ， 球过 网后 落点 均 在 二传 身后 ， 所以 ， 我们 把 直线 发到 插上 二传 站位 区域 的 球 简称 为 “ 直后 区 ” ； 斜线 发到 插上 二传 站位 区域 的 球 简称 为 “ 斜 后区 ” ； 落点 在 插 上 二传 站位 侧面 对应 场区 的 球 简称 为 “ 侧 对区 ” 。 
+ 3 　 研究 方法 
+ 　 　 本文 采用 数理统计 法 和 对比 分析法 。 将 统计数字 按 不同 发球区 站位 发球 和 不同 线路 与 落点 的 发球 ， 分别 进行 发球 效果 的 百分比 计算 ， 通过率 的 X2 检验 ， 对比 分析 发球 效果 ， 探索 发球区 扩大 后 对 一攻 战术 组成 率 的 影响 。 
+ 表 1 　 1996 年 全国 女子 排球 锦标赛 发球 技术 统计 总表 
+ 
+ 发球 站位 线路 与 落点 一攻 战术 组成 能 　 　 攻破 　 　 攻 得 　 　 分失 　 　 误 Σ 
+ 次数 % 次数 % 次数 % 次数 % 次数 % 
+ 　 直后 区 6043.23223 . 0117.9117 . 92518.0139 
+ 右 发球区 斜 后区 5138.13828 . 41511.21410 . 41611.9134 
+ 　 侧 对区 21566.05918 . 1195.8144 . 3195.8326 
+ 　 直后 区 5148.62725 . 71514.387 . 643.8105 
+ 中 发球区 斜 后区 1932.21728 . 81423.7610 . 235.159 
+ 　 侧 对区 9357.83723 . 0148.7138 . 042.5161 
+ 　 直后 区 5348.22825 . 487.398 . 21210.9110 
+ 左 发球区 斜 后区 4153.91519 . 71013.279 . 23476 
+ 　 侧 对区 13262.33817 . 9199.0136 . 1104.7212 
+ Σ 　 715 　 291 　 125 　 95 　 96 　 1322 
+ 
+ 4 　 结果 与 分析 
+ 　 　 从表 2 中 得知 ， 右 ( 原 发球区 ) 、 中 、 左 三个 发球区 发球 的 一攻 战术 组成 率 分别 是 54.5% 、 50.2% 、 56.8% ， 通过率 的 X2 检验 ， 3 个 发球区 站位 发球 的 一攻 战术 组成 率 比较 ， 差异 均 不 显著 ( p ＞ 0.05 ) ( 表 3 ) ， 3 个区 的 发球 得分率 也 不 显著 ( p ＞ 0.05 ) 。 表明 发球区 扩大 后 ， 发球 的 攻击性 与 发球 站位 无关 。 
+ 表 2 　 1996 年 全国 女子 排球 锦标赛 运动员 不同 站位 发球 效果 比较 一览表 
+ 
+ 发球 站位 一攻 战术 组成 能 　 　 攻破 　 　 攻 得 　 　 分失 　 　 误 Σ 
+ 次数 % 次数 % 次数 % 次数 < font 

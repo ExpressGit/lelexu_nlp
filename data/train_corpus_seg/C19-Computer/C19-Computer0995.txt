@@ -1,0 +1,155 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 1 期 Vol.24 No.11998 
+ 
+ 
+ 
+ 具有 多 非线性 和 多 未 建模 动态 
+ 系统 的 鲁棒 绝对 稳定性 
+ 田玉平 
+ 摘 　 要 　 研究 了 同时 具有 多个 扇形 非线性 环节 和 多个 未 建模 动态 的 多 变量 系统 的 鲁棒 绝对 稳定性 . 用 带有 Popov 乘子 的 线性 分式 变换 模型 对 线性 和 非线性 不确定性 进行 了 统一 处理 . 得到 了 系统 的 鲁棒 绝对 稳定性 判据 ， 并 将 这 一 判据 的 计算 化为 凸 优化 问题 ， 最后 给出 了 计算 示例 . 
+ 关键词 　 鲁棒 绝对 稳定性 ， 多 非线性 ， 未 建模 动态 ， 多 变量 Popov 判据 . 
+ ROBUSTABSOLUTESTABILITYOFSYSTEMSWITHMULTIPLE 
+ NONLINEARITIESANDUNMODELEDDYNAMICS 
+ TIANYUPING 
+ ( DepartmentofAutomaticControl , SoutheastUniversity , Nanjing210018 ) 
+ Abstract 　 Thispaperdiscussestherobustabsolutestabilityofmultivariablesystemswithmultiplesector - boundednonlinearitiesandunmodeleddynamics . Linearandnonlinearuncertaintiesarehandledbyaunifiedlinearfractionaltransformation ( LFT ) modelwithPopovmultipliers . Arobustabsolutestabilitycriterionisobtainedforthediscussedsystems . Aconvexoptimizationprocedureisproposedtocomputethegivencriterion . Finally , anillustrativeexampleisgiventoshowtheefficiencyoftheobtainedcriterion . 
+ Keywords 　 Robustabsolutestability , multiplenonlinearities , unmodeleddynamics , multivariablePopovcriterion . 
+ 1 　 引言 
+ 　 　 具有 无 记忆 非线性 环节 的 Lur ′ e 系统 的 绝对 稳定性 在 60 年代 得到 了 广泛 而 深入 的 研究 ［ 1 ， 2 ］ . Popov 判据 是 这 一 领域 中 最 著名 的 成就 之一 ［ 2 ］ . 这一 判据 在 文 ［ 3 ］ 中 被 进一步 推广 到 具有 多个 非线性 环节 的 系统 中 . 
+ 　 　 近年来 ， 受 鲁棒控制 理论 发展 的 推动 ， 不少 学者 开始 研究 当 线性 模型 含有 不确定性 时 系统 的 鲁棒 绝对 稳定性 问题 . 文 ［ 4 ， 5 ］ 等 受 Kharitonov 定理 ［ 6 ］ 的 启发 ， 研究 了 含 区间 参数 不确定性 的 单 变量 Lur ′ e 系统 ， 给出 了 鲁棒 绝对 稳定性 的 一些 顶点 检验 条件 . 然而 ， 由于 这种 方法 的 基本 工具 是 多项式 族 的 鲁棒性 分析 ， 所以 很难 推广 到 多 变量 系统 中 . 
+ 　 　 本文 直接 从小 增益 定理 出发 ， 运用 等价 回路 变换 方法 ， 首先 进一步 改进 了 文 ［ 3 ］ 的 多 变量 Popov 判据 ， 进而 通过 对系统 中 线性 分式 变换 结构 的 分析 ， 给出 了 同时 含有 多个 非线性 环节 和 多个 未 建模 动态 系统 的 鲁棒 绝对 稳定性 判据 . 这一 判据 具有 与 多 变量 Popov 判据 完全相同 的 简洁 形式 . 最后 我们 将 多 变量 Popov 判据 的 计算 化为 一个 凸 优化 问题 . 
+ 2 　 含 多个 未 建模 动态 系统 的 鲁棒 Popov 判据 
+ 2.1 　 多 变量 Popov 判据 的 改进 
+ 　 　 含 多个 非线性 环节 的 系统 可以 通过 等价 变换 表示 为 如图 1 所示 的 形式 . 其中 M ( s ) 是 稳定 传递函数 矩阵 ， 记作 M ( s ) ∈ RHm × m ∞ . fi ( σ i ) ( i = 1 , … , m ) 是 无 记忆 连续 非线性 函数 ， 满足 扇形 条件 
+ 0 ≤ σ ifi ( σ i ) ≤ 2 σ 2i , 　 　 fi ( 0 ) = 0 . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 
+ 
+ 图 1 　 多 非线性 系统 
+ 对于 上述 多 非线性 系统 ， 文 ［ 3 ］ 给出 了 判别 其 绝对 稳定性 的 多 变量 Popov 判据 . 下面 我们 说明 该 结果 仍 有 进一步 改进 的 余地 . 为此 引入 两个 矩阵 集 和 一个 引理 . 
+ Q1 = { diag [ q1 , … , qm ] ∶ qi ∈ R , i = 1 , … , m } , 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ D1 = { diag [ d1 , … , dm ] ∶ di ∈ R , di ＞ 0 , i = 1 , … , m } . 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 　 　 对 G ( j ω ) ∈ Cn × n ， 其复 共轭 转置 记 为 表示 其 最大 奇异 值 . 
+ 　 　 引理 1 . 若 存在 δ ＞ 0 使得 则 对 任意 α ＞ 0 ， 若 G ( j ω ) + α I 非 奇异 ， 则 必有 
+ 　 　 证 . 由 可得 
+ 
+ 由于 G ( j ω ) + α I 非 奇异 ， 故对 任意 ω ∈ R 有 
+ 
+ 所以 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 证毕 . 
+ 　 　 于是 我们 可 将 多 变量 Popov 判据 改进 为 定理 1 . 
+ 　 　 定理 1 . 设 M ( s ) ∈ RH ∞ ， 若 存在 Q ∈ Q1 ， D1 ∈ D1 和 δ ＞ 0 ， 使得 对 任意 ω ∈ R 有 
+ I - ( I + j ω Q1 ) D1M ( j ω ) D - 11 - D - 11M * ( j ω ) D1 ( I - j ω Q1 ) ≥ δ I ＞ 0 , 　 　 　 　 　 　 　 ( 4 ) 
+ 则 图 1 所示 的 多 非线性 系统 是 绝对 稳定 的 . 
+ 　 　 证 . 首先 对图 1 所示 系统 进行 如图 2 所示 的 等价 变换 . 
+ 
+ 
+ 图 2 　 多 非线性 系统 的 等价 变换 
+ 记图 中 H1 和 H2 的 增益 分别 为 γ ( H1 ) 和 γ ( H2 ) . 由于 M ( s ) ∈ RH ∞ ， 由 小 增益 定理 ［ 9 ］ 知 ， 图 1 所示 系统 绝对 稳定 的 充分条件 是 γ ( H1 ) 。 γ ( H2 ) ＜ 1 . 由于 ( I + sQ1 ) - 1 ， D - 11 和 D1 均 是 对角 阵 ， 容易 算出 在 假设 ( 1 ) 下 有 γ ( H1 ) ≤ 1 . 而 H2 的 增益 为 
+ 
+ 由于 由 引理 1 可知 γ ( H2 ) ＜ 1 . 　 　 证毕 . 
+ 　 　 注 1 . 与 经典 的 多 变量 Popov 判据 相比 ， 定理 1 中 引入 了 尺度 矩阵 D1 ， 通过 对 尺度 矩阵 D1 的 寻优 ， 可 挖掘出 多 变量 系统 中 更 多 的 结构 信息 ， 以 减少 保守 性 . 显然 经典 的 多 变量 Popov 判据 是 定理 1 取 D = I 的 特殊 情况 . 
+ 2.2 　 鲁棒 Popov 判据 
+ 　 　 下面 研究 多 非线性 系统 中 线性 部分 含有 多个 未 建模 动态 的 情况 . 这样 的 系统 通过 等价 变换 可以 用图 3 所示 的 结构 来 表示 . 
+ 
+ 
+ 图 3 　 含 多个 未 建模 动态 的 多 非线性 系统 
+ 　 　 在 上述 系统 中 ， 对 非线性 环节 fi ( σ i ) 的 假设 同 ( 1 ) . 未 建模 动态 
+ 记 
+ 
+ 若 对 任意 Δ ( s ) ∈ B Δ ( s ) ， 含未 建模 动态 的 多 非线性 系统 是 绝对 稳定 的 ， 则 称 系统 是 鲁棒 绝对 稳定 的 . 
+ 　 　 按 非线性 部分 和 未 建模 动态 部分 的 维数 对 M ( s ) 进行 分块 
+ 
+ 其中 M11 ( s ) ∈ RHm × m ∞ , M12 ∈ RHm × ( N - m ) ∞ ， M21 ∈ RH ( N - m ) × m ∞ ， M22 ∈ RH ( N - m ) × ( N - m ) ∞ . 记图 3 中 从 u 到 v 的 传函 矩阵 为 φ l ( M , Δ ) ， 容易 得到 
+ φ l ( M , Δ ) = M11 ( s ) + M12 ( s ) Δ ( s ) ( I - M22 ( s ) Δ ( s ) ) - 1M21 ( s ) . 　 　 　 　 　 　 　 　 ( 5 ) 
+ 上 式 通常 被称作 M 和 Δ 的 下 线性 分式 变换 . 
+ 　 　 由 定理 1 知 ， 图 3 所示 系统 鲁棒 绝对 稳定 的 充分条件 是 存在 Q1 ∈ Q1 , D1 ∈ D1 和 δ ＞ 0 ， 使得 对 任意 Δ ( s ) ∈ B Δ ( s ) 和 任意 ω ∈ R 有 
+ I - ( I + j ω Q1 ) D1 φ l ( M ( j ω ) , Δ ( j ω ) ) D - 11 - D - 11 φ * L ( M ( j ω ) , Δ ( j ω ) ) D1 ( I - j ω Q1 ) 
+ ≥ δ I ＞ 0 . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 但 由于 上述 条件 中 含有 不确定性 Δ ( j ω ) ， 实际上 变得 无法 检验 . 为了 得到 含 多个 未 建模 动态 系统 的 鲁棒 绝对 稳定性 判据 ， 需作 如下 一些 准备 工作 . 记 
+ 　 　 　 　 ( 7 ) 
+ D = { diag ∶ D1 ∈ D1 , D2 ∈ D2 } , 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ Q = { diag ∶ Q1 ∈ Q1 } . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 9 ) 
+ 　 　 　 　 　 　 　 ( 10 ) 
+ 　 　 　 　 　 　 　 　 　 　 ( 11 ) 
+ 下面 的 引理 是 Redheffer30 多年 前 的 一个 结果 . 
+ 　 　 引理 2 ［ 7 ］ . 若 存在 D = diag ∈ D ， 使得 则 必有 
+ 　 　 1 ) 
+ 　 　 2 ) 
+ 　 　 此外 ， 记 
+ 　 　 　 　 　 　 　 ( 12 ) 
+ 则 有 下述 引理 . 
+ 　 　 引理 3 . 
+ 　 
+ 　 　 证 . 容易 看出 ， 是 图 4 所示 系统 中 从 ( u ′ 1 , u ′ 2 ) T 到 ( v ′ 1 , v ′ 2 ) T 的 传递 矩阵 . 于是 可以 将 表示 为 如图 5 所示 的 形式 . 由于 Q = diag ， 故图 5 与 图 6 是 等价 系统 . 写出 图 6 系统 中 从 u1 到 v1 的 传递函数 为 ( I - ( I + j ω Q1 ) φ l ( M , Δ c ) ) - 1 ( I + j ω Q1 ) φ l ( M , Δ c ) . 故 引理 得证 . 
+ 
+ 
+ 图 4 　 的 结构 
+ 
+ 
+ 图 5 　 的 结构 
+ 
+ 
+ 图 6 　 ( I - ( I + j ω Q1 ) φ l ( M , Δ c ) ) - 1 ( I + j ω Q1 ) φ l ( M , Δ c ) 的 结构 
+ 至此 ， 可以 给出 图 3 所示 系统 鲁棒 绝对 稳定 的 充分条件 . 
+ 　 　 定理 2 . 若 存在 Q1 ∈ Q1 , D1 ∈ D1 和 δ ＞ 0 ， 使得 对 任意 ω ∈ R 存在 D2 ∈ D2 ， 当取 
+ Q = diag 和 D = diag 时有 
+ 
+ 则 含有 多个 未 建模 动态 的 多 非线性 系统 ( 如图 3 所示 ) 是 鲁棒 绝对 稳定 的 . 
+ 　 　 证 . 根据 引理 1 ， 由 定理 条件 可知 
+ 
+ 由于 Q 和 D 均 为 对角 阵 ， 可 交换 ， 于是 可 将 上式 中 D 和 D - 1 提出 ： 
+ 　 　 　 　 　 　 　 ( 13 ) 
+ 根据 引理 2 上式 意味着 
+ 　 　 　 　 　 　 　 　 　 　 　 　 ( 14 ) 
+ 其中 22 由 下列 矩阵 分块 得到 . 
+ 
+ 由于 Q = diag , 从 和 的 定义 可得 22 = M22 . 所以 
+ 
+ 考虑 到 Mij ( s ) ∈ RH ∞ ， i ， j = 1 , 2 . 故上式 意味着 
+ 　 　 根据 引理 2 ， ( 13 ) 式 还 意味着 
+ 
+ 运用 引理 3 得 
+ 
+ 即 　 　 
+ 以下 按 定理 1 的 证明 方法 可知 系统对 任意 Δ ∈ B Δ ( s ) 是 绝对 稳定 的 . 
+ 3 　 多 变量 Popov 判据 的 凸 优化 算法 
+ 　 　 在 运用 多 变量 Popov 判据 时 ， 一般 采用 作图 法 ［ 8 ］ . 这种 方法 通常 要求 系统 满足 一定 的 对角 占优 条件 . 另外 ， 用 这种 方法 很难 同时 考虑 本文 中 D 和 Q 两个 矩阵 的 作用 . 下面 我们 将 多 变量 Popov 判据 的 计算 化为 一个 凸 优化 问题 . 
+ 　 　 在 定理 1 和 定理 2 中均 是 要 寻找 D ∈ D 和 Q ∈ Q ， 使得 对 任意 ω ∈ R 有 
+ 
+ 上 式 等价 于 
+ 
+ 由于 映射 ( D , Q ) → ( D2 , DQD ) 是从 D × Q → D × Q 上 的 双射 ， 故上式 等价 于 D ∈ D , Q ∈ Q ， 使得 对 有 
+ 　 　 　 　 　 　 　 　 ( 15 ) 
+ 若 固定 D 中 第一个 元素 d1 = 1 ， 并令 
+ 
+ 其中 λ max ( 。 ) 表示 Hermite 矩阵 的 最大 特征值 ， 则 条件 ( 15 ) 等价 于 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 16 ) 
+ 容易 证明 ， T ( D ， Q ) 是 关于 矩阵 D ， Q 的 凸函数 . 但 函数 的 偏 导数 却 很 难 计算 ， 甚至 不 存在 . 为 解决 ( 16 ) 式 中 的 优化 问题 ， 可 利用 仅 基于 函数 值 计算 的 直接 寻优法 ， 如 Rosenbrock 方法 、 DSC 方法 、 Powell 方法 等 ［ 10 ］ . 下面 是 用 DSC 方法 计算 多 变量 Popov 判据 的 一个 例子 . 
+ 　 　 设图 3 系统 中 m = 2 ， n = 1 ， 即 含有 两个 非线性 环节 和 一个 未 建模 动态 ， 非线性 环节 满足 
+ 0 ≤ σ ifi ( σ i ) ≤ 2 σ 2i , fi ( 0 ) = 0 , i = 1 , 2 . 
+ 未 建模 动态 Δ ( s ) ∈ RH ∞ ， 且 ‖ Δ ( s ) ‖ ∞ ≤ 1 . 系统 矩阵 为 
+ 
+ 取 D = diag [ 1 , d2 , d3 ] 和 Q = diag [ q1 , q2 , 0 ] ， 对 T ( D ， Q ) 极小 化得 Dop = diag [ 1 , 9.0 , 1.21 ] ， Qop = diag [ 0.2 , 1.08 , 0 ] . T ( Dop , Qop ) = - 9.38 ＜ 0 . 故 系统 是 鲁棒 绝对 稳定 的 . 图 7 给出 了 
+ 随 ω 变化 的 曲线 . 
+ 
+ 
+ 图 7 　 λ max 随 ω 变化 的 曲线 
+ 4 　 结论 
+ 　 　 1 ) 通过 引入 尺度 矩阵 D ， 可以 进一步 挖掘出 多 变量 系统 的 结构 信息 ， 以 减少 多 变量 Popov 判据 的 保守 性 . 
+ 　 　 2 ) 在 有 多个 未 建模 动态 存在 的 情况 下 ， 本文 得到 了 与 多 变量 Popov 判据 同样 简洁 的 鲁棒 绝对 稳定性 判据 . 
+ 　 　 3 ) 多 变量 Popov 判据 可以 通过 解 一个 凸 优化 问题 来 计算 . 
+ 1 ) 　 国家自然科学基金 资助 项目 . 
+ 作者简介 ： 田玉平 　 1964 年生 . 1986 年 毕业 于 清华大学 自动化系 ， 获 学士学位 . 1991 年 在 莫斯科 动力 学院 获 博士 ( D . Ph . ) 学位 ， 1996 年 又 获 俄罗斯 技术 科学 博士 ( D . Sc . ) 学位 . 现为 东南大学 自动控制 系 教授 . 主要 研究 兴趣 是 鲁棒控制 ， 非线性 系统控制 ， 混沌 控制 及 应用 等 . 
+ 作者 单位 ： 东南大学 自动控制 系 　 南京 　 210018 
+ 参考文献 
+ [ 1 ] 　 AizermanMA , GantmakherFR . AbsoluteStabilityofNonlinearControlSystems . Moscow : PressofAcademyofSciences , 1963 . 
+ [ 2 ] 　 PopovVM . Onabsolutestabilityofnonlinearautomaticcontrolsystems . AvtomaticaiTelemekhanika , 1961 , 22 : 961 - 979 . 
+ [ 3 ] 　 JulyEI , LeeBW . Theabsolutestabilityofsystemswithmanynonlinearities . AvtomaticaiTelemekhanika , 196526 : 945 - 965 . 
+ [ 4 ] 　 ChapellatHetal . Onrobustnonlinearstabilityofintervalcontrolsystems . IEEETrans . AutomControl , 1991 , 36 : 59 - 67 . 
+ [ 5 ] 　 DahlehMetal . OntherobustPopovcriterionforintervalLur ′ esystem . IEEETrans . AutomControl , 1993 , 38 : 1400 - 1405 . 
+ [ 6 ] 　 KharitonovVL . Asymptoticstabilityofanequilibriumpositionofafamilyofsystemsoflineardifferentialequation . Differentsal ′ nyeUravneniya.1978 , 14 : 2086 - 2088 . 
+ [ 7 ] 　 ReahefferR . Onacertainlinearfractionaltransformation . J . Math . Phys . , 1960 , 39 : 269 - 286 . 
+ [ 8 ] 　 MeesAI , AthertonDP . ThePopovcriterionformultiloopfeedbacksystems . IEEETrans . AutomControl , 1980 , 25 : 924 - 928 . 
+ [ 9 ] 　 高为炳 . 非线性 控制系统 导论 . 北京 ： 科学出版社 ， 1991.394 - 398 . 
+ [ 10 ] 　 叶庆凯 . 控制系统 计算机辅助 设计 . 北京 ： 北京大学出版社 ， 1990.81 - 88 . 
+ 收稿 日期 　 1995 - 03 - 25 

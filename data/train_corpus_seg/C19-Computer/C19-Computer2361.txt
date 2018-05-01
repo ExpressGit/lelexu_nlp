@@ -1,0 +1,141 @@
+计算机 研究 与 发展 
+ JOURNALOFCOMPUTERRESEARCHANDDEVELOPMENT 
+ 1999 年 第 36 卷 第 8 期 Vol.36 No.81999 
+ 
+ 
+ 
+ GLCA 算法 的 收敛性 分析 
+ 李晶 皎 　 张 　 俐 　 姚 天顺 
+ 摘 　 要 　 模糊 聚类分析 算法 能够 通过 目标 函数 准确 地用 公式 表述 聚类 准则 ， 从而 较 好地解决 分类 问题 . GLCA 算法 与 具有 代表性 的 模糊 聚类分析 算法 FCM 相 比较 其 特点 是 ： 不 需要 选择权 指数 ， 并 把 概率密度 扩充 到 模糊 测度 . 本文 对 GLCA 算法 进行 了 收敛性 分析 ， 证明 了 GLCA 算法 的 不 收敛性 ， 同时 给出 了 GLCA 算法 不 收敛 的 例子 . 
+ 关键词 　 GLCA 算法 ， 收敛性 ， 目标 函数 
+ 中图法 分类号 　 TP391 
+ CONVERGENCEANALYSISOFTHEG λ CLUSTERINGALGORITHM 
+ LIJing - Jiao , ZHANGLi , andYAOTian - Shun 
+ ( SchoolofInformationScienceandEngineering , NortheasternUniversity , Shenyang110006 ) 
+ Abstract 　 Theclusteringmethodscanexactlydescribeclusteringcriterionwithformulationsbytheobjectivefunction . Theclassificationproblemcanbebettersolved . IncomparisonwiththerepresentativefuzzyC - means ( FCM ) algorithm , theadvantageoftheg λ clusteringalgorithm ( GLCA ) isthattheselectionofweightingexponentisnotrequiredanditextendstheprobabilitydensitytothefuzzymeasure . Inthepaperheretheconvergenceanalysisoftheg λ clusteringalgorithmisconducted , thedivergenceoftheg λ clusteringalgorithmisproved , andthenon - convergentexampleispresented . 
+ Keywords 　 GLCAalgorithm , convergence , objectivefunction 
+ 　 　 在 各种 聚类分析 方法 中 , 目标 函数 方法 能够 较 准确 地用 公式 表述 聚类 准则 , 而 应用 模糊 理论 可以 使 一些 聚类 问题 得到 较 合理 的 解决 . 因此 ， 许多 学者 从事 模糊 聚类分析 算法 的 研究 ［ 1 , 2 ］ , 其中 具有 代表性 的 算法 是 Bezdek 的 FCM ［ 3 ］ 聚类分析 算法 . 由于 模糊 聚类分析 算法 能够 较 好地解决 分类 问题 ， 因而 在 图像识别 、 矢量 量化 和 语音 识别 ［ 4 ］ 等 方面 得到 应用 . 
+ 　 　 由 波兰 学者 Leszczynski ［ 5 ］ 发表 在 “ FuzzySetsandSystems ” 的 GLCA 算法 ( theg λ clusteringalgorithm ( 简称 GLCA ) ) 使用 Sugeno 的 g λ 测度 的 性质 进行 聚类分析 ， 将 该 算法 与 Bezdek 提出 的 FCM 算法 相 比较 ， GLCA 算法 的 优点 是 ： 不 需要 选择权 指数 ， 并 把 概率密度 扩充 到 模糊 测度 . 
+ 　 　 我们 在 使用 GLCA 算法 对 一些 样本 集 进行 聚类分析 时 发现 GLCA 算法 有 不 收敛 的 问题 . 因此 本文 从 理论 上 证明 GLCA 算法 的 不 收敛性 ， 并 给出 了 不 收敛 的 例子 . 首先 简单 地 介绍 一下 GLCA 算法 . 
+ 1 　 GLCA 算法 
+ 　 　 Leszczynski 利用 Sugeno 的 g λ 测度 的 性质 完成 模糊 聚类分析 . 
+ 　 　 定义 1 . GLCA 算法 的 目标 函数 . 
+ 
+ 其中 G = { gij } 是 模糊 密度 矩阵 ， n 是 样本数 ， k 是 聚类 中心 个数 ， dij 是从 样本 xj 至 第 i 类 中心 的 距离 ， gij 是 xj 对 第 i 类 中心 的 隶属 程度 ， 它 满足 下列 条件 ： 
+ 
+ 　 　 为了 求解 J ( G ， V ) 的 最小值 ， 我们 引入 了 Lagrangian 乘 子集合 { α j } , 则 Lagrangian 函数 为 
+ 
+ 由式 ( 3 ) 和 ， 我们 得到 
+ 
+ 
+ 其中 
+ 由式 ( 2 ) 和 式 ( 5 ) ， 可以 得到 λ j 的 约束条件 是 
+ 
+ 　 　 GLCA 算法 如下 ： 
+ 　 　 ① 给定 每个 样本 xj 的 初始值 ， 设置 G = ｛ gij ｝ 的 初始值 ， 迭代 次数 收敛 阈值 e ; 
+ 　 　 ② 用式 ( 4 ) 计算 vi ； 
+ 　 　 ③ 根据 式 ( 6 ) 调节 λ j ； 
+ 　 　 ④ 用式 ( 5 ) 计算 G ； 
+ 　 　 ⑤ 如果 那么 结束 ； 否则 L = L + 1 并 转向 ② ； 如果 xj 满足 , 则 xj 属于 第 i 类 . 
+ 2 　 GLCA 算法 的 收敛性 分析 
+ 　 　 为了 证明 GLCA 算法 不 满足 收敛性 条件 ， 我们 用 类似 于 Bezdek 证明 FCM 算法 ［ 6 ］ 收敛 的 方法 ( zangwill 定理 ［ 7 ］ ) 来 证明 GLCA 算法 不 满足 收敛性 条件 . 
+ 　 　 如果 GLCA 算法 是 收敛 的 ， 那么 GLCA 算法 应 满足 zangwill 定理 的 3 个 条件 ， 其中 zangwill 定理 第一个 条件 是 J ( G ， V ) 是 下降 函数 ； 若 J ( G ， V ) 是 下降 函数 ， 则 下面 的 命题 应该 成立 . 
+ 　 　 命题 ： 如果 GLCA 算法 收敛 ， 那么 对于 给定 的 V ， L ( G ) = J ( G , V ) , 当且 仅 当用式 ( 5 ) 计算 是 L 的 严格 局部 极小 点 . 
+ 　 　 如果 GLCA 算法 不 收敛 ， 那么 命题 将 不 成立 ， 且 不能 满足 收敛 条件 . 
+ 　 　 证明 . 为了 去掉 不等式 约束 0 ≤ gij ≤ 1 ， 令 
+ 　 　 　 因此 gij ≥ 0 且 有 gij ≤ 1 
+ 　 　 我们 可以 重写 Lagrangian 函数 ： 
+ 
+ 　 　 如果 是 L 的 极小 点 ， 0 那么 有 
+ 也 就是 
+ 　 　 ( 1 ) 
+ 　 　 ( 2 ) 　 由 ( 1 ) 和 ( 2 ) 可 得 
+ 　 　 ( 3 ) 
+ 同乘 并用 式 ( 3 ) ， 可 得 
+ 　 　 ( 4 ) 
+ 消 去 变量 l 并 再 使用 式 ( 3 ) ， 可 得 
+ 　 　 ( 5 ) 
+ 由 ( 4 ) 可 得 
+ 　 　 ( 6 ) 
+ 将 ( 5 ) 代入 ( 6 ) ， 得到 
+ 因此 G 陈足式 ( 5 ) 的 必要条件 . 
+ 　 　 为了 证明 充分性 ， 我们 需要 考虑 在 处 L 的 的 Hessian 矩阵 ， 也 就是 
+ 
+ 其中 
+ 因此 ， 则 L 在 处 的 Hessian 矩阵 是 实 对称 矩阵 . 
+ 
+ H ( ) 的 主子 式 是 ： 
+ 
+ 也 就是 
+ 因此 矩阵 H ( ) 在 G 炒 Σ 皇 钦定 矩阵 ， 不是 L 的 严格 局部 极小 点 ， 故 命题 不 成立 . 
+ 　 　 由于 GLCA 算法 不 满足 收敛 定理 的 条件 ， 所以 GLCA 算法 不 收敛 . 
+ 3 　 实例 分析 
+ 
+ 
+ 图 1 　 数据 样本 集 和 FCM 算法 的 聚类 结果 
+ 　 　 我们 给出 一个 GLCA 算法 不 收敛 的 实例 ， 人为 给定 的 样本 集如图 1 所示 ， 对 这组 数据 分别 用 FCM 算法 和 GLCA 算法 进行 聚类分析 （ FCM 算法 的 权 指数 m = 2 ， 阈值 e = 0.0005 ； GLCA 算法 的 阈值 e = 0.0005 ) . 
+ 　 　 在 两种 算法 中 ， 给定 的 初始值 V （ 0 ） 均 是 相同 的 . 当 k = 3 时 结果 如表 1 所示 ， 此时 两种 算法 的 结果 基本相同 ， 目标 函数 均 是 下降 的 . 当 k = 8 时 结果 如表 2 所示 ， 对于 FCM 算法 目标 函数 是 下降 的 ， 聚类分析 结果 如图 1 所示 ； 对于 GLCA 算法 ， 由于 它 的 不 收敛 ， 使得 初始值 对 结果 影响 很大 ， 当 给定 的 初始值 V （ 0 ） 比较 接近 于 最终 结果 V 呈 保 珿 LCA 算法 能够 得出 聚类分析 结果 ， 但 目标 函数 不是 递减 的 ； 当 任意 给定 的 初始值 V （ 0 ） 时 ， 不但 目标 函数 不是 递减 的 ， 而且 也 无法 得到 正确 的 结果 . 
+ 表 1 　 目标 函数 J 和 聚类 中心 V 
+ 
+ FCM 算法 GLCA 算法 
+ 迭代 次数 目标 函数 J 误差 e 目标 函数 J 误差 e 
+ 01505.34 * * * 1998.38 * * * 
+ 1762.5190 . 97417606.2042 . 29654 
+ 2661.2040 . 15323598.0402 . 74E - 02 
+ 3657.9174 . 99E - 03598.6796 . 11E - 04 
+ 4657.7931 . 88E - 04589.8863 . 50E - 04 
+ 
+ 
+ 
+ 初始 V ( 0 ) FCM 算法 GLCA 算法 
+ V1iV2iV1iV2iV1iV2i 
+ 833.4054 . 7463.3494 . 232 
+ 18426.4863 . 64625.5553 . 306 
+ 141216.91416 . 55815.90616 . 243 
+ 
+ 　 
+ 表 2 　 目标 函数 J 和 聚类 中心 V 
+ 
+ FCM 算法 GLCA 算法 
+ 迭代 次数 目标 函数 J 误差 e 目标 函数 J 误差 e 
+ 0240.44 * * * 4.823 * * * 
+ 1151.7170 . 584824.8110 . 806 
+ 296.4760 . 572615.2390 . 628 
+ 391.6845 . 23E - 03183.8690 . 917 
+ 491.3683 . 46E - 03567.3320 . 676 
+ 591.3393 . 12E - 042026.720 . 720 
+ 6 * * * * * * 507.0972 . 997 
+ 7 　 　 1560.110 . 675 
+ 8 　 　 620.2351 . 515 
+ 9 　 　 1590.9970 . 6102 
+ 
+ 
+ 
+ 初始 V ( 0 ) FCM 算法 GLCA 算法 
+ V1iV2iV1iV2iV1iV2i 
+ 241.4430 . 9853.8292 . 984 
+ 261.0347 . 98123.1422 . 062 
+ 446.5525 . 46523.6031 . 898 
+ 21221.0842 . 34521.9382 . 281 
+ 24227.1031 . 15921.7422 . 299 
+ 20428.9917 . 24923.2831 . 887 
+ 141611.57917 . 7824.1151 . 884 
+ 161620.06716 . 0922.2622 . 235 
+ 
+ 　 
+ 　 　 此外 ， 通过 运用 GLCA 算法 对 一些 样本 集 进行 聚类分析 ， 我们 发现 当 k 取值 较 小时 ， 如 k = 2 , 3 ， 能够 得到 正确 的 结果 ； 而 当 k 值 较大 时 ， 如 k = 6 , 7 , 8 , … ， 一般 不能 得到 收敛 结果 . 
+ 　 　 从表 2 的 结果 我们 看到 GLCA 算法 不能 得到 正确 结果 ， 目标 函数 也 不 收敛 ， 通过 这个 不 收敛 的 例子 ， 也 说明 GLCA 算法 是 不 收敛 的 . 
+ 基金项目 : 本 课题 得到 国家自然科学基金 ( 项目编号 69683004 ， 69675019 ) 资助 
+ 作者简介 : 李晶 皎 ， 女 ， 1964 年 3 月生 ， 副教授 ， 博士 ， 研究 方向 为 语音 识别 、 人工智能 、 智能 人机接口 . 张俐 ， 女 ， 1961 年 5 月生 ， 副教授 ， 博士 研究生 ， 研究 方向 为 语音 识别 、 计算 语言学 . 姚 天顺 ， 男 ， 1934 年 5 月生 ， 教授 ， 博士生 导师 ， 研究 方向 为 人工智能 、 计算 语言学 、 智能 人机接口 . 
+ 作者 单位 ： 李晶 皎 　 张 　 俐 　 姚 天顺 　 东北大学 信息科学 与 工程学院 　 沈阳 　 110006 
+ 参考文献 
+ 1 　 HathawayJRetal . Relationdualsofthec - meansclusteringalgorithms . PatternRecognition , 1989 , 22 ( 2 ) : 205 ～ 212 
+ 2 　 BezdekJCetal . NumericalcomparisonoftheRFCMandAPalgorithmsforclusteringrelationaldata . PatternRecognition , 1991 , 24 ( 8 ) : 783 ～ 791 
+ 3 　 BezdekJC . FCM : Thefuzzyc - meansclusteringalgorithm . Computers & Geosciences , 1984 , 10 ( 2 ) : 191 ～ 203 
+ 4 　 马小辉 等 . 基于 分段 模糊 C - 均值 的 连续 密度 HMM 语音 识别 模型 参数估计 . 声学 学报 ， 1997 , 22 ( 6 ) : 550 ～ 554 
+ ( MaXiaohuietal . Thesegmentalfuzzyc - meansalgorithmforestimatingparametersofcontinuousdensityhiddenMarkovmodels . ACTAAcustica ( inChinese ) , 1997 , 22 ( 6 ) : 550 ～ 554 ) 
+ 5 　 LeszczynskiK . Sugeno ' sfuzzymeasureandclustering . FuzzySetsandSystems , 1985 , 15 ( 1 ) : 147 ～ 158 
+ 6 　 BezdekJC . AconvergencetheoremforthefuzzyISODATAclusteringalgorithm . IEEETransonPAMI , 1980 , 2 ( 1 ) : 1 ～ 8 
+ 7 　 ZangwillW . NonlinearProgramming , AUnifiedApproach . EnglewoodCliffs , NJ : Prentice - Hall , 1969 
+ 收到 日期 ： 1997 - 11 - 19 
+ 修改 日期 ： 1998 - 03 - 23 

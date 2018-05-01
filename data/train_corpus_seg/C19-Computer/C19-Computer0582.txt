@@ -1,0 +1,94 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 第 23 卷 第 5 期 Vol.23 No.51997 
+ 
+ 
+ 
+ 一类 不 确定 非线性 相似 组合 系统 的 
+ 结构 全息 鲁棒控制 1 ) 
+ 严星 刚 　 高立群 　 张嗣 瀛 
+ 摘 　 要 　 对于 参数 不 确定 非线性 相似 组合 大 系统 ， 利用 增加 辅助 控制器 的 方法 ， 设计 出 易于 实现 的 结构 全息 鲁棒控制 器 . 结果表明 相似 结构 能 简化 系统 的 分析 与 设计 ， 相似 结构 与 全息 特性 密切相关 . 最后 ， 仿真 算例 表明 结果 的 有效性 . 
+ 关键词 　 相似 组合 系统 ， 渐近 稳定 ， 鲁棒控制 ， 相关度 . 
+ HOLOGRAPHICROBUSTCONTROLFORNONLINEARSIMILAR 
+ COMPOSITESYSTEMSWITHUNCERTAINPARAMETERS 
+ YANXINGGANG 　 　 GAOLIQUN 　 　 ZHANGSIYING 
+ ( DepartmentofAutomaticControl , NortheasternUniversity , Shenyang 　 110006 ) 
+ Abstract 　 Inthispaper , byaddingauxiliarycontrollers , aholographicrobuststabilizingcontrollerisdesignedforaclassofnonlinearsimilarcompositesystemswithuncertainparameters . Itfollowsthatsimilarstructurecansimplifytheanalysisanddesignofcompositesystemsanditiscloselyconnectedwithholographicproperty . Finally , numericalsimulationispresentedtoillustratethevalidityofthispaper . 
+ Keywords 　 Similarcompositesystems , asymptoticstability , robustcontrol , relativedegree . 
+ 1 　 引言 
+ 　 　 非线性 组合 大 系统 是 复杂 系统 之一 ， 由于 其 高维 性及 非线性 特性 导致 其 分析 与 控制 问题 相当 复杂 ， 但 对于 具有 特定 结构 的 系统 ， 如 级联 系统 ［ 1 ］ ， 对称 系统 ［ 2 ］ ， 相似 系统 等 ， 可 利用 其 自身 的 结构 属性 . 近年来 ， 相似 系统 的 研究 已 取得 了 一些 成果 ［ 3 - 7 ］ ， 这 类 系统 有着 广泛 的 实际 背景 ， 如 自然 形成 的 生物 、 社会 等 系统 ， 人们 设计 的 多臂 机器人 、 电力 、 互联 物理 等 系统 ［ 3 ］ . 由于 相似 系统 的 良好 结构 属性 ， 可 设计 一种 控制器 ， 其 结构 能 代表 每个 控制器 的 结构 信息 ， 利用 该 控制器 通过 修正 相似 参量 ， 即可 设计 出使 整个 系统 稳定化 的 鲁棒控制 器 . 分析表明 ， 相似 结构 能 简化 组合 系统 控制器 的 工程设计 ， 特别 当 子系统 个数 较多时 ， 其 优越性 更为 明显 . 
+ 2 　 相似 组合 系统分析 
+ 　 　 用 C ∞ ( Rn ) 表示 Rn 上 的 C ∞ 函数 集 ， Gl ( m , C ∞ ( Rn ) ) 表示 C ∞ ( Rn ) 上 的 元素 组成 的 m 阶非 奇异 阵集 ， V ( Rn ) 表示 Rn 上 C ∞ 向量场 集 . 
+ 　 　 考虑 不 确定 系统 
+ 
+ ( 1 ) 
+ 其中 xi ∈ Rn , ui , yi ∈ Rm 分别 是 第 i 个 子系统 的 状态 ， 输入 和 输出 ， θ 1 ∈ Ω 1 , θ 2 ∈ Ω 2 是 不 确定 参数 ， 是 紧集 ， Gi ( xi ) = ( gi1 ( xi ) , … ， gim ( xi ) ) ， fi ( xi ) , gij ( xi ) ∈ V ( Rn ) ( i = 1 , 2 , … , N , j = 1 , 2 , … ， m ) , Ri ( xi , θ 1 ) , Φ i ( x , θ 2 ) 是 光滑 或 分块 光滑 的 ， Φ i ( x , θ 2 ) 是 互联 项 ， 不失 一般性 ， 设 
+ 　 　 定义 1 . 如果 存在 xi0 某 邻域 上 的 微分 同 胚 zi = Ti ( xi ) 及 α i ( xi ) ∈ C ∞ ( Ω i ) , β i ( xi ) ∈ Gl ( m , C ∞ ( Ω i ) ) ( i = 1 , 2 , … , N ) 使 系统 ( 1 ) 与 ui = α i ( xi ) + β i ( xi ) vi 组成 的 闭环 系统 在 z 坐标 下 具有 如下 形式 ： 
+ 
+ ( 2a ) 
+ 
+ ( 2b ) 
+ 其中 则 称 系统 ( 1 ) 是 Ω = Ω 1 × Ω 2 × … Ω N 上 的 相似 组合 系统 ， 并称 Ti , α i , β i 为 系统 ( 1 ) 的 第 i 个 子系统 的 相似 参量 . 
+ 　 　 定义 2 . 如果 存在 控制器 
+ u = u ( x , T , α , β ) ， 
+ ( 3 ) 
+ 使得 由 ui = u ( x , Ti ( xi ) , α i ( xi ) , β i ( xi ) ) 与 系统 ( 1 ) 构成 的 闭环 系统 在 x0 点 渐近 稳定 ， 则 称 ( 3 ) 式 为 系统 ( 1 ) 的 结构 全息 稳定化 控制器 ， 简称 全息 控制器 . 
+ 　 　 命题 1 . 若 系统 ( 1 ) 的 每个 孤立 子系统 在 x0 ( x0 = col ( x10 , x20 , … , xN0 ) ) 具有 相同 的 相关度 r = { r1 , r2 , … , rm } , 且 则 系统 ( 1 ) 是 x0 某 邻域 上 的 组合 相似 系统 . 
+ 3 　 结构 全息 鲁棒控制 
+ 　 　 定理 1 . 设 Eiq = Span { adkfigij ( xi ) ｜ 0 ≤ k ≤ q , 1 ≤ j ≤ m } , rankGi ( xi0 ) = m ( i = 1 , 2 , … , N ) , Ω i 是 xi0 的 一个 邻域 ， Ω = Ω 1 × Ω 2 × … Ω N 是 x0 的 邻域 ， 如果 
+ 　 　 i ) Eiq ( i = 1 , 2 , … , N , q = 0 , 1 , 2 , … ， n - 2 ) 是 Ω i 上 的 非 奇异 对合 分布 ， dimEin - 1 = n ( i = 1 , 2 , … , N ) 且 Ein - 1 在 xi0 非 奇异 。 
+ 　 　 ii ) 对 任意 的 x ∈ Ω 及 i = 1 , 2 , … ， N ， 
+ 
+ 则 系统 ( 1 ) 在 区域 Ω 上 存在 结构 全息 鲁棒控制 器 . 
+ 　 　 证明 . 考虑 系统 ( 1 ) ， 由 条件 i ) 知 ［ 8 ］ ， 存在 函数 λ i1 ( xi ) , λ i2 ( x \ + i ) , … , λ im ( xi ) 使 系统 
+ 
+ ( 这里 λ i ( xi ) = ( λ i1 ( xi ) , … ， λ im ( xi ) ) 称为 伪 输出 ) 均 具有 相同 的 相关度 r = { r1 , r2 , … ， rm } , 且 不妨 设 yi ( xi ) = λ i ( xi ) , 且 yi ( xi0 ) = 0 . 由 命题 1 知 ， 系统 ( 1 ) 是 相似 组合 系统 ， 每个 孤立 子系统 的 相关度 均 为 且 其 相似 参量 Ti , α i , β i ( i = 1 , 2 , … , N ) 可 由 文献 ［ 8 ］ 求 出 ， 令 D = ( TT1 , TT2 , … , TTN ) : x → z , 结合 条件 ii ) 即知 ， 系统 ( 1 ) 与 反馈 ui = α i ( xi ) + β i ( xi ) vi 组成 的 闭环 系统 在 z 坐标 下 具有 如下 结构 形式 ［ 8 ］ 
+ 
+ ( 4 ) 
+ 其中 ( Aj , Bj ) 是 Brunovsky 标准型 ， Cj = ( 10 … 0 ) 1 × rj , ( j = 1 , 2 , … m ) . 故 存在 1 × rj 矩阵 Kj , 使 Aj + BjKj 是 渐近 稳定 的 . 于是 对 任意 的 rj 阶 正定 阵 Qj ， 下述 Lyapunov 方程 有 唯一 正定 解 矩阵 Pj ， 
+ ( Aj + BjKj ) TPj + Pj ( Aj + BjKj ) = - Qj , 　 　 j = 1 , 2 , … , m . 
+ ( 5 ) 
+ 　 　 构造 全息 控制器 
+ u = ua + ub + uc , 
+ ( 6 ) 
+ 其中 
+ 
+ 这里 K = diag { K1 , K2 , … , Km } , Bj , Pj , Kj 满足 ( 4 ) 式 ， ρ j1 ( x ) = maxisup θ 1 ∈ Ω 1 { Lij ( xi , θ 1 ) } , ρ j2 ( x ) = maxisup θ 2 ∈ Ω 2 { Hij ( x , θ 2 ) } , Lij ( xi , θ 1 ) . Hij ( x , θ 2 ) 分别 是 Li ( xi , θ 1 ) . Hi ( x , θ 2 ) 的 第 j 个 分量 ， j = 1 ， 2 ， … ， m ， i = 1 ， 2 ， … ， N . 
+ 　 　 下证 ( 6 ) 式 是 ( 1 ) 式 的 结合 全息 鲁棒控制 器 . 由 ρ 1 , ρ 2 的 结构 形式 知 ， 只 需证 
+ ui = uia + uib + uic , 　 　 　 i = 1 , 2 , … ， N ， 
+ ( 7 ) 
+ 与 系统 ( 1 ) 构成 的 闭环 系统 在 x0 点 渐近 稳定 ， 其中 
+ 
+ 其中 Ti = ( ( Ti1 ) T , ( Ti2 ) T , … , ( Tim ) T ) . 由于 微分 同 胚 不 影响 系统 的 渐近 稳定性 ， 所以 ， 只 需证 系统 
+ 
+ ( 8 ) 
+ 在 z = 0 渐近 稳定 即可 . 
+ 　 　 对系统 ( 8 ) ， 构造 Lyapunov 函数 
+ 
+ ( 9 ) 
+ 其中 由 Pj 的 正 定性 易知 ， V ( z ) 是 D ( Ω ) 上 的 正定 函数 ， 且 
+ 
+ ( 10 ) 
+ 其中 uibj , uicj 分别 是 uib , uic 的 第 j 个 分量 ， 由 ρ 1 ( x ) , ρ 2 ( x ) 的 定义 知 ， 对 一切 i = 1 , 2 , … ， N ， j = 1 , 2 , … ， m 有 
+ 　 
+ ( 11 ) 
+ 由 ( 10 ) ， ( 11 ) 式 及 uibj , uicj 的 定义 即知 
+ 
+ 结合 Qj ( j = 1 , 2 , … ， m ) 的 正 定性 即得 负定 ， 所以 z = 0 是 ( 8 ) 式 的 渐近 稳定 平衡点 . 故 ( 6 ) 式 是 系统 ( 1 ) 的 结构 全息 鲁棒控制 器 . 
+ 　 　 注 . 从 定理 证明 可 看出 ， uib 和 uic 是 为 抑制 不 确定 项 的 扰动 引入 的 辅助 控制器 . 定理 证明 是 构造性 的 ， 它 提供 了 结构 全息 控制器 的 设计方案 . 
+ 4 　 仿真 算例 
+ 考虑 非线性 组合 大 系统 
+ 
+ ( 12a ) 
+ 
+ ( 12b ) 
+ 
+ ( 12c ) 
+ 其中 不 确定 参数 的 扰动 范围 为 如下 的 已知 集合 ： 
+ 
+ 直接 验证 知 ( 12 ) 式 是 相似 组合 系统 ， r = { 2 , 1 } ， 且 相似 参量 可选为 
+ 
+ 设定 K1 = ( - 2 , - 2 ) , K2 = - 1 , 取故 所求 结构 全息 控制器 为 
+ 
+ ( 13 ) 
+ 其中 

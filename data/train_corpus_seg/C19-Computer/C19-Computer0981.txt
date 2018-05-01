@@ -1,0 +1,86 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 　 第 23 卷 　 第 6 期 　 Vol.23 　 No.6 　 1997 
+ 
+ 
+ 
+ 
+ 2 - D 奇异 系统 无穷远 极点 与 状态 响应 公式 
+ 杜春玲 　 杨成 梧 
+ 　 　 摘 　 要 　 针对 二维 奇异 系统 的 一般 模型 ( 2 - DSGM ) , 提出 无穷远 极点 的 概念 ， 进而 探讨 了 无穷远 极点 与 状态 响应 公式 的 关系 ， 给出 状态 响应 公式 成立 的 充要条件 . 
+ 　 　 关键词 　 2 - D 奇异 系统 ， 无穷远 极点 ， 状态 响应 公式 . 
+ INFINITEPOLEANDSTATERESPONSEFORMULA 
+ FOR2 - DSINGULARSYSTEMS 
+ DUCHUNLING 　 　 YANGCHENGWU 
+ ( SchoolofPowerEngineering & Dynamics , NanjingUniversityofScience & Technology , Nanjing210094 ) 
+ Abstract 　 Thispaperpresentstheconceptoftheinfinitepolefor2 - Dsingularsystems . Therelationshipbetweentheinfinitepoleandthestateresponseformulaisdiscussed . Andasufficientandnecessaryconditionforthestateresponseformulatobetenableisgiven . 
+ Keywords 　 2 - Dsingularsystems , infinitepole , stateresponseformula . 
+ 1 　 引言 
+ 　 　 自 Roesser 等 人 提出 2 - DRoesser 模型 ( 2 - DRM ) 以来 ， Attasi , Fornasini 和 Marchesini 先后 在 不同 背景 下 提出 更为 一般 的 模型 ， 而 Kurek 则 集 前人 之 大成 ， 从 理论 上 抽象 概括 出 最为 一般 的 2 - D 状态 空间 模型 ( 2 - DGM ) . 自 这 几种 较为 流行 的 二维 系统 模型 被 推广 为 奇异 模型 以来 ， 使 奇异 系统 的 发展 已 颇具规模 ， 其 应用 前景 也 十分 广阔 ， 诸如 应用 于 图象处理 等 领域 . 然而 ， 到 目前为止 尚未 有人 提出 2 - D 奇异 系统 无穷远 极点 这一 重要 问题 . 对 其 状态 响应 的 研究 ， 以 Kaczorek 为 代表 ， 在 文献 ［ 1 — 3 ］ 中作 了 大量 工作 ， 但 并 没有 考虑 到 无穷远 极点 问题 . 而 无穷远 极点 的 性质 决定 了 其 所 推导 的 状态 响应 公式 的 成立 与否 . 
+ 2 　 2 - DSGM 无穷远 极点 定义 
+ 　 　 考虑 2 - DSGM 
+ Ex ( i + 1 , j + 1 ) = A0x ( i , j ) + A1x ( i + 1 , j ) + A2x ( i , j + 1 ) 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 + B0u ( i , j ) + B1u ( i + 1 , j ) + B2u ( i , j + 1 ) , 　 　 　 　 　 　 　 　 ( 1 ) 
+ y ( i , j ) = Cx ( i , j ) + Du ( i , j ) . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 边界条件 为 x ( i , 0 ) , x ( 0 , j ) , ( i , j ) ≥ ( 0 ， 0 ) 为 二元 整值 坐标 ； x , u , y ， 分别 为 状态 、 输入 和 输出 向量 ， x ∈ Rn ； E ， Ai , Bi , C , D 分别 为 各具 适当 维数 的 常值 实矩阵 ， 且 detE = 0 , E , Ai 满足 正则 束 条件 
+ det ( z1z2E - A0 - z1A1 - z2A2 ) 0 . 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 　 　 定义 1 . 　 称 ( 0 ， 0 ) 为 系统 ( 1 ) 的 无穷远 及 左侧 无穷远 和 右侧 无穷远 极点 系指 ， 当 ( z1 ， z2 ) = 
+ ( 0 , 0 ) 及 ( λ , 0 ) 和 ( 0 ， μ ) 时有 
+ det ( E - z2A1 - z1A2 - z1z2A0 ) = 0 . 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 3 　 2 - D 多项式 的 零点 性质 
+ 　 　 定义 2 . 　 称 2 - D 多项式 f ( z1 , z2 ) ∈ R ［ z1 , z2 ］ 关于 z1 = 0 ( 或 z2 = 0 ) 是 本原 的 ， 系指 
+ f ( 0 , z2 ) 0 　 　 ( 或 f ( z1 , 0 ) 0 ) . 　 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 而称 f ( z1 ， z2 ) 关于 原点 ( 0 ， 0 ) 是 本原 的 ， 系指 它 关于 z1 = 0 , z2 = 0 均 为 本原 的 . 这里 R ［ z1 ， z2 ］ 为 z1 ， z2 的 实 系数 多项式 环 . 
+ 　 　 引理 1 . 　 设 2 - D 多项式 f ( z1 , z2 ) ∈ R ［ z1 , z2 ］ 关于 z2 = 0 是 本原 的 ， 如果 f ( 0 , 0 ) = 0 , 则 对于 ε ＞ 0 充分 小 ， 就 δ ＞ 0 ， 使得 对 ｜ z2 ｜ ＜ δ ， 在 ｜ z1 ｜ ＜ ε 内均 至少 存在 一点 z1 = ( z2 ) ， 有 
+ f ( ( z2 ) , z2 ) = 0 . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 　 　 证明 . 将 f ( z1 , z2 ) 视为 1 - D 多项式 环 R ［ z2 ］ ［ z1 ］ 中 的 元 ， 则 由 f ( z1 , 0 ) 0 及 f ( 0 , 0 ) = 0 知 ： ( i ) f ( z1 , 0 ) 至少 存在 一个 零点 z1 = 0 ; ( ii ) 零点 z1 = 0 是 孤立 的 ， 从而 只要 ε ＞ 0 充分 小 ， 由 2 - D 多项式 的 连续性 和 ｜ z1 ｜ = ε ， ｜ z2 ｜ ≤ r ( r ＞ 0 ) 的 紧性 知 ， 只要 取 δ = δ ( ε ) ＞ 0 充分 小 ， 就 有 
+ ｜ f ( z1 , z2 ) ｜ ≥ C ＞ 0 ， ｜ z1 ｜ = ε , ｜ z2 ｜ ＜ δ . 　 　 　 　 　 　 　 　 　 　 ( 7 ) 
+ 由此 及 解析 函数 零点 个数 定理 ［ 4 ］ 知 ， 对 ｜ z2 ｜ ＜ δ ， f ( z1 , z2 ) ∈ R ［ z2 ］ ［ z1 ］ 在 ｜ z1 ｜ ＜ ε 内 的 零点 个数 为 
+ 　 　 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ 此式 表明 n ( z2 ) 在 ｜ z2 ｜ ≤ δ 内 是 z2 的 连续函数 ［ 5 ］ ， 但 n ( z2 ) 取整 值且 n ( 0 ) 至少 为 1 . 证毕 . 
+ 　 　 推论 1 . 　 若 2 - D 多项式 f ( z1 , z2 ) ∈ R ［ z1 , z2 ］ 关于 ( 0 ， 0 ) 是 本原 的 ， 且 f ( 0 , 0 ) = 0 , 则 对 r ＞ 0 必有 λ 0 ， μ 0 , 0 ＜ ｜ λ 0 ｜ ≤ r , 0 ＜ ｜ μ 0 ｜ ≤ r , 使得 
+ f ( λ 0 , μ 0 ) = 0 . 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 9 ) 
+ 　 　 推论 2 . 　 设 2 - D 多项式 f ( z1 , z2 ) ∈ R ［ z1 , z2 ］ 关于 ( 0 ， 0 ) 是 本原 的 ， 则 对 r ＞ 0 ， 
+ f ( z1 , z2 ) 0 　 　 ( 0 ＜ ｜ z1 ｜ ≤ r , 0 ＜ ｜ z2 ｜ ≤ r ) 　 　 　 　 　 　 　 　 　 ( 10 ) 
+ 与 
+ f ( z1 , z2 ) 0 　 　 ( ｜ z1 ｜ ≤ r , ｜ z2 ｜ ≤ r ) 　 　 　 　 　 　 　 　 　 　 　 ( 11 ) 
+ 等价 . 证明 由 推论 1 直接 可得 . 
+ 　 　 推论 3 . 　 设 f ( z1 , z2 ) ∈ R ［ z1 ， z2 ］ ， 则 必有 ( z1 , z2 ) ∈ R ［ z1 , z2 ］ , 使得 
+ f ( z1 , z2 ) = zn11zn22 ( z1 , z2 ) . 　 　 　 　 　 　 　 　 　 　 　 ( 12 ) 
+ 其中 f ( z1 , z2 ) 关于 ( 0 ， 0 ) 本原 ， 且 
+ f ( z1 , z2 ) ≠ 0 ， 0 ＜ ｜ z1 ｜ ≤ r , 0 ＜ ｜ z2 ｜ ≤ r . 　 　 　 　 　 　 　 　 　 　 ( 13 ) 
+ 当且 仅 当 
+ ( z1 , z2 ) ≠ 0 ， ｜ z1 ｜ ≤ r , ｜ z2 ｜ ≤ r . 　 　 　 　 　 　 　 　 　 　 　 ( 14 ) 
+ 　 　 证明 由 2 - D 多项式 本原 分解 定理 ［ 6 ］ 及 推论 2 即得 . 
+ 4 　 无穷远 极点 与 状态 的 响应 公式 
+ 　 　 由 ( 12 ) 式 知 ， ( 4 ) 式 左端 必 能 表示 成 zn11zn22 ( z1 , z2 ) 的 形式 ， 此时 称 f ( z1 ， z2 ) 具有 容度 zn11zn22 ［ 7 ］ ， ( n1 , n2 ) ≤ ( n , n ) . 
+ 　 　 定义 3 . 　 设 f ( z1 ， z2 ) 具有 容度 zn11zn22 ， 称 系统 ( 1 ) 的 无穷远 极点 是 正则 ( 或非 奇异 ) 的 ， 系指 ( 0 , 0 ) ≠ 0 ， 此时 正则 无穷远 极点 的 阶数 定义 为 ( n1 ， n2 ) . 
+ 　 　 引理 2 . 　 2 - DSGM 的 特征 矩阵 
+ G ( z1 , z2 ) = ( z1z2E - z1A1 - z2A2 - A0 ) 　 　 　 　 　 　 　 　 　 　 　 　 ( 15 ) 
+ 的 逆 可展 为 
+ 　 　 　 　 ( 16 ) 
+ 当且 仅 当 系统 ( 1 ) 具有 ( n1 ， n2 ) 阶 正则 无穷远 极点 . 
+ 　 　 证明 . 
+ 　 　 充分性 . 设 ( 1 ) 式 具有 ( n1 , n2 ) 阶 正则 无穷远 极点 ， 则 由 ( z1 ， z2 ) 的 连续性 知 ， 存在 充分 小 的 r ＞ 0 ， 使得 
+ ( z1 , z2 ) ≠ 0 , ｜ z1 ｜ ≤ r , ｜ z2 ｜ ≤ r . 　 　 　 　 　 　 　 　 　 　 　 ( 17 ) 
+ 从而 
+ 　 　 　 ( 18 ) 
+ 在 ｜ z - 11 ｜ ≤ r , ｜ z - 12 ｜ ≤ r 内 解析 ， 则 ( 18 ) 式 左端 可展 为 
+ 　 　 　 　 　 　 　 　 　 　 　 　 ( 19 ) 
+ 于是 G - 1 ( z1 , z2 ) 可 表示 为 ( 16 ) 式 的 形式 . 
+ 　 　 必要性 . 设 G - 1 可展 为 ( 16 ) 式 ， 则 易知 ， 如 有 λ - 10 , μ - 10 使得 ( 16 ) 式 收敛 ， 则 幂级数 
+ 　 　 　 　 　 　 　 　 　 　 　 　 ( 20 ) 
+ 亦 收敛 ， 从而 在 ｜ z1 ｜ ≤ ｜ λ 0 ｜ , ｜ z2 ｜ ≤ ｜ μ 0 ｜ 内 解析 ， 这里 k = nk - 1 . 另一方面 ， 若设 系统 ( 1 ) 具有 容度 zn11 , zn22 , 则 若 系统 ( 1 ) 存在 奇异 无穷远 极点 ， 则 由 ( 18 ) 式 及 推论 1 知 ， 这 与 在 ( 0 ， 0 ) 域 内 的 解析性 矛盾 ， 因此 系统 ( 1 ) 必 不 存在 奇异 无穷远 极点 . 
+ 　 　 由此 ， 可 得 如下 重要 结论 . 
+ 　 　 定理 . 　 Kaczorek ［ 3 ］ 给出 的 2 - DSGM 的 状态 响应 公式 成立 ， 当且 仅 当该 2 - DSGM 不 存在 奇异 无穷远 极点 . 
+ 　 　 至此 ， 不难 导出 存在 奇异 无穷远 极点 下 的 2 - DSGM 的 状态 响应 公式 ， 限于 篇幅 从略 . 
+ 1 ) 国家自然科学基金 资助 项目 . 
+ 作者 单位 ： 南京 理工大学 动力 工程学院 　 南京 　 210094 
+ 参考文献 
+ ［ 1 ］ 　 KaczorekT . Thesingulargeneralmodelof2 - Dsystemsanditssolution . IEEETrans . Autom . Control , 1988 , 33 ( 8 ) : 1060 - 1061 . 
+ ［ 2 ］ 　 KaczorekT . ExistenceanduniquenessofsolutionandCaley - Hamiltontheoremforgeneralsingularmodelof2 - Dsystems . BulletinofthePolishAcademyofSci . , Tech . , 1989 , 36 ( 2 ) : 275 - 278 . 
+ ［ 3 ］ 　 KaczorekT . Generalformulaandminimumenergycontrolforthegeneralsingularmodelof2 - Dsystems . IEEETrans . Autom . Control , 1990 , 35 ( 4 ) : 433 - 436 . 
+ ［ 4 ］ 　 余家 荣 . 复变 函数 ， 北京 ： 人民教育出版社 ， 1980 , 124 - 126 . 
+ ［ 5 ］ 　 SvashnikovA , TikhonovA . Thetheoryoffunctionsofacomplexvariable . Moscow : MirPublishers , 1978 , 53 - 54 . 
+ ［ 6 ］ 　 杨成 梧 ， 邹云 . 2 - D 线性 离散系统 . 北京 ： 国防工业 出版社 ， 1995 , 298 - 302 . 
+ 收稿 日期 　 1995 - 09 - 18 

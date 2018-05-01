@@ -1,0 +1,39 @@
+环境 科学研究 
+ RESEARCHOFENVIRONMENTALSCIENCES 
+ 2001Vol.14 No.1 P.31 - 33 , 40 
+ 
+ 
+ 
+ 
+ 煤灰 预处理 - 好 氧 生物 技术 处理 有机 废水 的 研究 
+ 李武 　 董有 　 夏 文林 　 
+ 摘 　 要 ： 介绍 了 煤灰 预处理 - 好 氧 生物 技术 对 有机 废水 的 处理 研究 。 结果表明 ， 当 有机 废水 中 CODCr 为 1162mg / L ， SS 为 382mg / L 时 ， 该 技术 对 有机 废水 CODCr 的 去除率 达 96.9% ， 悬浮物 的 去除率 达 91.5% ， 处理 废水 的 运行 费用 为 0.22 元 / t 。 
+ 关键词 ： 煤灰 ； 　 好 氧 生物 处理 ； 　 生物 流化床 ； 　 有机 废水 
+ 分类号 ： X703 　 文献 标识码 ： A 
+ 文章 编号 ： 1001 - 6929 ( 2001 ) 01 - 0031 - 03 
+ ThestudyoftheOrganicWastewaterTreatmentUsingCoalAshPre - TreatmentandAerobicBiologicalTechnology 
+ LIWu （ WuhanEnvironmentalProtectionResearchAcademy , MinistryofMetallurgicalIndustryandStateEnvironmentalProtectionAdministration , 　 Wuhan430081 , China ） 　 
+ DONGYou （ WuhanEnvironmentalProtectionResearchAcademy , MinistryofMetallurgicalIndustryandStateEnvironmentalProtectionAdministration , 　 Wuhan430081 , China ） 　 
+ XIAWen - lin （ WuhanEnvironmentalProtectionResearchAcademy , MinistryofMetallurgicalIndustryandStateEnvironmentalProtectionAdministration , 　 Wuhan430081 , China ） 　 
+ Abstract ： Thispaperintroducesthestudyoftheorganicwastewatertreatmentusingcoalashpretreatmentandaerobicbiologicaltechnology . Theresultsshowthatusingthetechnology , theremovalratioofCODCroforganicwastewateris96.9% , theremovalratioofSSis91.5% ， andtherunningfeeis0.22 yuanpertonwastewater , whenthedrainingorganicwastewaterCODCrandSSconcentrationis1162mg / Land382mg / Lrespectively . 
+ Keywords ： coalash ; 　 aerobicbiologicaltreatment ; 　 biologicalfluidizedbed ; 　 organicwastewater 
+ 作者简介 ： 李武 ( 1965 - ) ， 男 ， 湖北 武汉市 人 ， 高级 工程师 . 
+ 作者 单位 ： 李武 （ 冶金工业部 　 国家环保总局 　 武汉 环境保护 研究院 ， 湖北 武汉 　 430081 ） 　 
+ 　 　 　 　 　 董有 （ 冶金工业部 　 国家环保总局 　 武汉 环境保护 研究院 ， 湖北 武汉 　 430081 ） 　 
+ 　 　 　 　 　 夏 文林 （ 冶金工业部 　 国家环保总局 　 武汉 环境保护 研究院 ， 湖北 武汉 　 430081 ） 　 
+ 参考文献 ： 
+ ［ 1 ］ 董保澍 . 固体废物 的 处理 与 利用 ［ M ］ . 北京 ： 冶金工业 出版社 ， 1988.42 ～ 43 . 
+ ［ 2 ］ 高荫阁 . 给水 排水 新 技术 ［ M ］ . 天津 ： 中国 华北 市政 设计院 ， 1988.28 ～ 31 . 
+ ［ 3 ］ WeberWJ . BiologicalfluidizedbedforBODandnitrogenremoval ［ J ］ . JournalWPCF , 1978 , 50 ( 4 ) : 718 ～ 728 . 
+ ［ 4 ］ TheodoreCStathis . Fluidizedbedbiologicalwastewatertreatment ［ J ］ . JournalofEnergyEngineering , 1980 , 106 ( EEI ) : 227 ～ 241 . 
+ ［ 5 ］ DavidK . Dynamicmodelofnitrificationinfluidizedbed ［ J ］ . EnvironEng , 1989 , 115 ( 5 ) : 910 ～ 929 . 
+ ［ 6 ］ 辛亮 明 . 用 三相 生物 流化床 处理 炼油 废水 ［ J ］ . 化工 环保 ， 1986 ， 6 ( 4 ) ： 194 ～ 199 . 
+ ［ 7 ］ 沈 永明 . 生物 粒子 流化床 处理工艺 及其 研究进展 ［ J ］ . 环境 科学 丛刊 ， 1980 ， 10 ： 22 ～ 35 . 
+ ［ 8 ］ 汪群慧 . 污水 生物 处理 技术 进展 ［ J ］ . 工业 水 处理 ， 1990 ， 10 ( 3 ) ： 3 ～ 6 . 
+ ［ 9 ］ 邵林 . 流化床 处理 抗生素 制药 废水 ［ J ］ . 上海 环境 科学 ， 1987 ， 6 ( 9 ) ： 61 ～ 64 . 
+ ［ 10 ］ 周平 ， 钱易 . 内 循环 三相 生物 流化床 反应器 的 相 含率 及 氧 传递 特性 研究 ［ J ］ . 环境 科学 学报 ， 1996 ， 16 ( 2 ) ： 211 ～ 215 . 
+ ［ 11 ］ HeijnenJJ . Developmentandscale - upanaerobicbiofilmair - liftsuspensionreactor ［ J ］ . WaterSciTechnol , 1993 , 27 : 253 ～ 261 . 
+ ［ 12 ］ EtzenspergerM . Phenoldegradationinathree - pHasebiofilmfluidizedSandbedreactor ［ J ］ . BioprocessEngineering , 1989 , 4 ( 4 ) : 175 ～ 181 . 
+ ［ 13 ］ 顾夏声 ， 李献文 . 水 处理 微生物学 基础 ［ M ］ . 北京 ： 中国 建筑 工业 出版社 ， 1979.35 ～ 36 . 
+ 收稿 日期 ： 1999 年 5 月 15 日 
+ 出版日期 ： 2001 年 1 月 30 日 

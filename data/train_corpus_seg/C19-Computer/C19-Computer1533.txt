@@ -1,0 +1,82 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 5 期 Vol.24 No.51998 
+ 
+ 
+ 
+ 离散 非线性 时变 系统 开 闭环 PI 型 迭代 
+ 学习 控制 律 及其 收敛性 
+ 皮道映 　 孙优贤 
+ 摘 　 要 　 对于 具有 重复 运动 性质 的 对象 ， 迭代 学习 控制 是 一种 有效 的 控制 方法 . 针对 一类 离散 非线性 时变 系统 在 有限 时域 上 的 精确 轨迹 跟踪 问题 ， 提出 了 一种 开 闭环 PI 型 迭代 学习 控制 律 . 这种 迭代 律 同时 利用 系统 当前 的 跟踪 误差 和 前次 迭代 控制 的 跟踪 误差 修正 控制 作用 . 给出 了 所 提出 的 学习 控制 律 收敛 的 充分 必要条件 ， 并 采用 归纳法 进行 了 证明 . 最后 用 仿真 结果 对 收敛 条件 进行 了 验证 . 
+ 关键词 　 迭代 学习 控制 ， 非线性 时变 系统 ， 收敛性 . 
+ ANOPEN - CLOSED - LOOPPI - TYPEITERATIVELEARNING 
+ CONTROLSCHEMEFORDISCRETENONLINEARTIME - 
+ VARYINGSYSTEMSANDITSCONVERGENCE 
+ PIDAOYING 　 SUNYOUXIAN 
+ ( NationalKeyLaboratoryofIndustrialControlTechnology , Instituteof 
+ IndustrialProcessControl , ZhejiangUniversity , Hangzhou 　 310027 ) 
+ Abstract 　 Iterativelearningcontrolisaneffectiveapproachtothecontrolofprocessesthatarerepetitiveinnature . Inthispaper , anopen - closed - loopPI - typeiterativelearningcontrolschemefortheprecisetrackingcontrolofaclassofdiscretenonlineartime - varyingsystemsoverafinitetimeintervalispresented . Theschemeupdatescontrolinputwithtrackingerrorsofbothcurrentandlastiterationssimultaneously . Sufficientandnecessaryconditionswhichguaranteetheconvergenceoftheschemearegivenandthenprovedwithinductivemethod . Finally , theconditionsareverifiedwithsimulationresults . 
+ Keywords 　 Iterativelearningcontrol , nonlineartime - varyingsystem , convergence . 
+ 1 　 引言 
+ 　 　 由于 迭代 学习 控制 简单 有效 ， 近年来 已有 许多 学者 对 其 进行 了 深入 的 理论 研究 ［ 1 － 3 ］ . 本文 研究 如下 具有 重复 运动 性质 的 离散 非线性 时变 系统 
+ 　 　 ( 1 ) 
+ 式 中 xk ( i ) , uk ( i ) , yk ( i ) 分别 为 系统 第 k 次 运行 时 在 i 时刻 的 状态值 、 输入 值 和 输出 值 ； f ， g ， D 为 具有 适当 维数 的 矩阵 或 矩阵 函数 . 要求 系统 在 时间 区间 ［ 0 , N ］ 上 跟踪 期望 输出 yd ( i ) ， 所 提出 的 开 闭环 PI 型 迭代 学习 控制 律为 
+ 　 　 ( 2 ) 
+ 式 中 Lj ( i ) 为 系统 在 i 时刻 的 学习 系数 矩阵 ； δ yk ( i ) = yd ( i ) - yk ( i ) 为 系统 跟踪 误差 ； α 为开 闭环 结合 系数 . 本文 给出 并 证明 了 系统 ( 1 ) ， ( 2 ) 收敛 的 充要条件 . 
+ 2 　 开 闭环 PI 型 迭代 学习 控制 的 收敛性 
+ 　 　 定理 1 . 设 被控 系统 ( 1 ) 在 时间 区间 ［ 0 ， N ］ 中 的 任一 时刻 i 均 满足 下列 条件 
+ 　 　 1 ) f ， g 连续 ； 
+ 　 　 2 ) 存在 理想 控制 ud ( i ) 使得 系统 的 状态 和 输出 为 期望值 xd ( i ) , yd ( i ) 且 ud ( i ) 唯一 ； 
+ 　 　 3 ) 每次 重复 运行 时 的 初始状态 误差 ｛ δ xk ( 0 ) ｝ k ≥ 0 为 一 收敛 到 零 的 序列 ； 
+ 　 　 4 ) 矩阵 〔 1 + ( 1 - α ) L0 ( i ) D ( i ) 〕 是 可逆 的 ( 其中 ： I 为 适当 维数 的 单位 阵 ) ； 
+ 　 　 5 ) Lj ( i ) 有 界 ( j ∈ ［ 1 , i ］ ) . 则 对 任意 初始 控制 u0 ( i ) ， 系统 ( 1 ) ， ( 2 ) 收敛 的 充分条件 为 
+ ρ ( 〔 I + ( 1 - α ) L0 ( i ) D ( i ) 〕 - 1 〔 I - α L0 ( i ) D ( i ) 〕 ) ＜ 1 , 　 i ∈ ［ 0 , N ］ 　 ( 3 ) 
+ 式 中 ρ ( . ) 表示 谱 半径 . 收敛 的 必要条件 为 
+ ρ ( 〔 I + ( 1 - α ) L0 ( 0 ) D ( 0 ) 〕 - 1 〔 I - α L0 ( 0 ) D ( 0 ) 〕 ) ＜ 1 . 　 　 ( 4 ) 
+ 　 　 证明 . 先 证明 充分性 ， 定义 辅助 函数 ［ 1 ］ 
+ 　 　 ( 5 ) 
+ 由 条件 1 ) 有 
+ 　 　 ( 6 ) 
+ 令 δ xk ( i ) = xd ( i ) - xk ( i ) , δ uk ( i ) = ud ( i ) - uk ( i ) ， 根据 式 ( 1 ) ， ( 2 ) ， ( 5 ) 及 条件 4 ) 可 得 
+ δ xk ( i + 1 ) = f1 ( i , δ xk ( i ) , δ uk ( i ) ) , 　 　 ( 7 ) 
+ δ yk ( i ) = g1 ( i , δ xk ( i ) ) + D ( i ) δ uk ( i ) , 　 　 ( 8 ) 
+ 　 　 ( 9 ) 
+ 用 归纳法 证明 学习 控制 收敛 . 当 i 取 集合 ［ 0 ］ 中 的 任一 元素 ， 即 i = 0 时 ， 由式 ( 6 ) ， ( 9 ) ， 条件 2 ) ， 条件 3 ) ， 条件 5 ) 及 文献 ［ 1 ］ 中 引理 3.7 不难 推 得 
+ 　 ( 10 ) 
+ 设当 i 取 集合 ［ 0 ， 1 ， … , m ］ 中 的 任一 元素 时开 闭环 PI 型 学习 控制 是 收敛 的 . 即 
+ 　 　 ( 11 ) 
+ 则 当 i 取 集合 ［ 0 , … , m , m + 1 ］ 中 的 任一 元素 时 ， 要 证明 开 闭环 PI 型 学习 控制 是 收敛 的 ， 只 需证 i = m + 1 时开 闭环 PI 型 学习 控制 是 收敛 的 即可 . 由式 ( 6 ， 7 ， 11 ) 有 
+ 　 　 ( 12 ) 
+ 由式 ( 6 ) ， ( 9 ) ， ( 11 ) ， ( 12 ) 、 条件 5 ) 及 文献 ［ 1 ］ 引理 3.7 可 推得 
+ 　 ( 13 ) 
+ 由式 ( 12 ) ， ( 13 ) 及 条件 2 ) 有 
+ 　 　 ( 14 ) 
+ 由式 ( 10 ) ， ( 11 ) ， ( 14 ) 可知 开 闭环 PI 型 学习 控制 是 收敛 的 . 充分性 得证 . 
+ 　 　 再证 必要性 . 用 反证法 ， 设 系统 ( 1 ) ， ( 2 ) 收敛 且式 ( 4 ) 不 成立 . 由 条件 1 ) ， 取 学习 控制 的 理想 初态 情况 δ xk ( 0 ) = 0 　 ( k = 0 , 1 , 2 , … ) , 由式 ( 6 ) ， ( 9 ) 有 
+ δ uk + 1 ( 0 ) = ( 〔 I + ( 1 - α ) L0 ( 0 ) D ( 0 ) 〕 - 1 〔 I - α L0 ( 0 ) D ( 0 ) 〕 ) k + 1 δ u0 ( 0 ) . 　 　 ( 15 ) 
+ 因 式 ( 4 ) 不 成立 ， 故 靓 膗 0 ( 0 ) ≠ 0 使得 δ uk + 1 ( 0 ) ≠ 0 ( k ≥ 0 ) , 这 与 假设 学习 控制 收敛 矛盾 . 
+ 　 　 注 . 根据 文献 ［ 1 ］ 的 研究 结果 ， 在 ρ ( . ) 较 小时 系统 收敛 速度 较快 . 因此 应 选择 合适 的 α 值 ， 在 满足 定理 条件 4 ) 的 前提 下 使 ρ ( . ) 的 值 尽可能 小 . 
+ 3 　 开 闭环 PI 型 迭代 学习 控制 仿真 
+ 　 　 设 被控 非线性 时变 对象 的 动态 方程 为 
+ 
+ 要求 在 t ∈ ［ 0 , 8 ］ 内 跟踪 期望 输出 
+ 　 　 取 
+ 
+ 
+ 由于 ρ ( 〔 I + L0 ( i ) D 〕 - 1 ) = 2.291 ＞ 1 , ρ ( I - L0 ( i ) D ) = 2.4365 ＞ 1 ， 故 单独 采用 开环 或 闭环 PI 型 学习 控制 时 系统 都 将 是 发散 的 ； 而 ρ ( 〔 I + ( 1 - α ) L0 ( i ) D 〕 - 1 〔 I - α L0 ( i ) D 〕 ) = 0.471 ＜ 1 ， 因此 采用 开 闭环 PI 型 学习 控制 时 系统 将 是 收敛 的 ， 仿真 结果 ( 图 1 ) 表明 系统 经过 7 次 迭代 学习 控制 后 达到 跟踪 目的 . 图 2 给出 了 参数 α 变为 - 0.3 后 的 仿真 曲线 ， 此时 ρ ( 〔 I + ( 1 - α ) L0 ( i ) D 〕 - 1 〔 I - α L0 ( i ) D 〕 ) = 0.656 , 系统 经过 30 次 迭代 控制 后 达到 跟踪 目的 . 这些 仿真 结果 证实 了 前 一节 理论 判断 的 正确性 . 
+ 
+ 
+ 图 1 　 α = - 0.48 时 每次 迭代 的 跟踪 误差 绝对值 
+ 总和 变化 曲线 
+ 
+ 
+ 图 2 　 α = - 0.3 时 每次 迭代 的 跟踪 误差 绝对值 
+ 总和 变化 曲线 
+ 4 　 结论 
+ 　 　 容易 看出 ， 文献 ［ 1 ］ 的 定理 4.3 ， 4.7 ， 4.13 ， 4.15 和 文献 ［ 2 ］ 的 定理 1 均 为 本文 定理 1 的 特例 . 理论 分析 和 仿真 结果表明 ： 开 闭环 PI 型 迭代 学习 控制 律 的 收敛 条件 与 状态方程 的 具体 形式 无关 ； 在 矩阵 Lj ( i ) ( j ≠ 0 ) 有界 的 条件 下 学习 控制 收敛 与否 与 这些 矩阵 元素 值 的 大小 无关 ； 参数 α 对 学习 控制 收敛 的 速度 有 直接 的 影响 . 
+ 作者 单位 ： ( 浙江大学 工业 控制技术 国家 重点 实验室 、 工业 控制技术 研究所 　 杭州 　 310027 ) 
+ 参考文献 
+ 　 1 　 林辉 . 迭代 学习 控制 理论 研究 ［ 博士学位 论文 ］ . 西安 ： 西北工业大学 自动控制 系 ， 1992 
+ 　 2 　 皮道映 ， 孙优贤 . 离散 非线性 系统 开 闭环 P 型 迭代 学习 控制 律 及其 收敛性 . 控制 理论 与 应用 ， 1997 ， 14 ( 2 ) ： 157 - 161 
+ 　 3 　 HeinzingerGetal . Stabilityoflearningcontrolwithdisturbancesanduncertaininitialconditions . IEEETrans . Autom . Control , 1992 , AC - 37 ( 1 ) : 110 - 114 
+ 收稿 日期 　 1996 - 01 - 26 

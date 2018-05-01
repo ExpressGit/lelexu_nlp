@@ -1,0 +1,85 @@
+环境 科学 学报 
+ ACTA 　 SCIENTIAE 　 CIRCUMSTANTIAE 
+ 1998 年 2 月 第 18 卷 第 2 期 科技期刊 
+ 农药 微生物 降解 性 与 农药 疏 水性 参数 间 的 相关性 
+ 虞 云龙 
+ ( 中国科学院 广州 地球化学 研究所 有机 地球化学 国家 重点 实验室 ， 广州 510640 ) 
+ 陈鹤鑫 　 樊德方 
+ ( 浙江农业大学 植保 系 ， 杭州 310029 ) 
+ 
+ 摘要 　 在 纯 培养 条件 下 ， 产碱菌 属 ( Alcaligenessp . ) 广谱性 降解 菌 YF11 对 对硫磷 、 甲基对硫磷 、 杀螟 松 、 氰戊菊酯 、 溴氰菊酯 、 甲 氰 菊酯 、 氯 氰 菊酯 、 三氟氯 氰 菊酯 、 氯 菊酯 的 降解 速率 的 差异 主要 是 由 各 杀虫剂 的 疏 水性 参数 的 不同 引起 的 ， 两者之间 存在 较 好 的 相关性 ： logK = 2.21 - 0.26 logKow , r = 0.9739 . 
+ 关键词 　 农药 微生物 降解 ； 疏 水性 参数 ； 产碱菌 ； 构效 关系 . 
+ RELATIONBETWEENDEGRADABILITYOFPESTICIDESBY 
+ MICROORGANISMANDTHEIRPARTITIONCOEFFICIENTSINn - OCTANOL - WATER 
+ 
+ YuYunlong 
+ ( StateKeyLabofOrganicChemistry & GuangdongKeyLabofEnviron . Protection & ResourcesUtilization , GuangzhouInstituteofGeochemistry , ChineseAcademyofSciences , Guangzhou510640 ) 
+ ChenHexin , FanDefang 
+ ( Dept . ofPlantProtection , ZhejiangAgriculturalUniversity , Hangzhou310029 ) 
+ 
+ ABSTRACT 　 Inpure - culturesystem , thedifferencesamongdegradativeratesofparathion - methyl , parathion , fenitrothion , fenpropathrin , deltamethrin , fenvalerate , permethrin , cyhalothrion , andcyperthrinbythebroad - spectrumbacterialstrainAlcaligenessp . YF11aremainlycausedbythen - octanolwaterpartitioncoefficient ( logKow ) . Alinearrelationbetweentherates ( K ) andn - octanol - watercoefficients ( logKow ) hasbeenobtainedasfollow : 
+ logK = 2.21 - 0.26 logKow ， 　 　 r = 0.9739 
+ Keywords 　 biodegradationofpesticide , partitioncoefficient , Alcaligenessp . , QSAR . 
+ 　 　 大量 研究 已经 证明 环境 中 有机 污染物 的 分子 反应 能力 与其 结构 及 物理化学 性质 有关 、 环境 中 化合物 对 生物 或 生物 目标 分子 间 的 作用 服从 化学反应 基本定律 、 化合物 在 生物体 内 的 分布 与 传递 过程 可 近似 地用 Henry 定律 加以 描述 ［ 1 ］ . 定量 构效 关系 ( QSAR ) 应用 于 农药 及 有机 化合物 环境 行为 的 研究 已 获得 许多 定性 定量 规律 ［ 2 — 5 ］ ， 在 农药 及 有机 化合物 的 微生物 降解 性 方面 却 未 取得 多少 进展 ， 其 主要 原因 在于 能 同时 降解 多种 农药 或 有机 化合物 的 降解 菌 很少 . 我们 在 前期工作 中 分离 到 能 同时 降解 多种 农药 的 产碱菌 属 ( Alcaligenes 　 sp . ) 广谱性 降解 菌 YF11 ［ 6 ］ ， 本文 利用 降解 菌 YF11 进行 农药 微生物 降解 性 试验 ， 探讨 农药 微生物 降解 性 与 农药 疏 水性 参数 的 关系 . 
+ 
+ 1 　 材料 与 方法 
+ 1.1 　 菌种 
+ 　 　 产碱菌 属 ( Alcaligenessp . ) 广谱性 降解 菌 YF11 ［ 6 ］ . 
+ 1.2 　 农药 降解 试验 
+ 　 　 将 产碱菌 属 ( Alcaligenessp . ) 广谱性 降解 菌 YF11 接种 于 含 氰戊菊酯 ( 100mg / L ) 的 普通 液体 培养基 ( 蛋白 胨 ， 10g ; 牛肉 膏 ， 5g ; NaCl ， 5g ； 蒸馏水 ， 1L ； pH , 7.2 ) 中 ， 30 ℃ 培养 过夜 ， 离心 收集 菌体 ， 菌体 用 2 × 10mL 的 0.02 mol / LNa2HPO4 - NaH2PO4 缓冲液 ( A ) 洗涤 ， 再用 同一 缓冲液 制成 菌体 悬浊液 并 测定 其 OD415nm 值 . 定量 接种 于 含 已知 农药 浓度 的 培养液 ( B ) ( MgSO4 * 7H2O ， 0.04 g ; FeSO4 * 7H2O ， 0.002 g ; K2HPO4 , 0.2 g ; ( NH4 ) 2SO4 , 0.2 g ； CaSO4 , 0.08 g ; 蒸馏水 ， 1L ； pH , 7.0 ) 中 ， 总 体积 为 3mL ， 30 ℃ 黑暗 培养 . 定时 取出 一份 ， 拟 除虫菊 酯 用 石油醚 ( 60 — 90 ℃ ) 提取 、 有机磷 用 CH2Cl2 提取 浓缩 后 转入 丙酮 ， 用气 相色谱 测定 农药 含量 . 每一 试验 重复 3 次 ， 另设 不加 菌液 的 对照 试验 . 
+ 　 　 气 相色谱 测定 条件 ： 拟 除虫菊 酯 杀虫剂 ， GC - 9A ， ECD ； 3mm × 1m 的 3% OV - 101 / chromosorbWAW - DMCS ( 80 — 100 目 ) 柱 ； 进样 口 ， 280 ℃ ； 柱温 ， 230 ℃ ； 检测器 ， 280 ℃ ； 载气 ( N2 ) ， 60mL / min . 有机磷 杀虫剂 ， sigma2000 — GC , NPD ; 2mm × 1m 的 5% OV - 17 / chromosorbWDMCS ( 60 — 80 目 ) 柱 ； 进样 口 ， 230 ℃ ； 柱温 ， 220 ℃ ； 检测器 ， 250 ℃ ； 载气 ( N2 ) ， 3psi ; 空气 ， 15.2 psi ; 氢气 ， 20.0 psi . 
+ 
+ 
+ 图 1 　 降解 菌 YF11 对 各 农药 的 降解 
+ 温度 30 ℃ ； 生物量 ( OD415nm ) ： 0.20 ； 农药 浓度 ： A — 对硫磷 ， 100mg / L ; B — 杀螟 松 ， 100mg / L ; C — 氯 氰 菊酯 ， 50mg / L ； D — 氯 菊酯 ， 50mg / L ; E — 三氟氯 氰 菊酯 ， 50mg / L ； F — 氰戊菊酯 ， 50mg / L ； G — 甲基对硫磷 ， 100mg / L ； H — 甲 氰 菊酯 ， 50mg / L ; I — 溴氰菊酯 ， 50mg / L 
+ Fig.1 　 Biodegradationofpesticidesby 
+ Alcaligenessp . YF11 
+ 2 　 结果 与 讨论 
+ 　 　 农药 浓度 为 30 — 100mg / L 时 ， 降解 菌 YF11 对 农药 的 降解 速率 与 农药 浓度 无关 ， 农药 浓度 随 时间 的 变化 可用 下列 方程 描述 ［ 6 ］ ： 
+ = K 其中 K = k * ［ M ］ 
+ 式 中 ， ［ S ］ 为 农药 浓度 ； ［ M ］ 为 生物量 ； k 为 降解 速率 常数 . 
+ 　 　 在 降解 菌 YF11 生物量 ( OD415nm ) 为 0.20 时 ， YF11 对 100mg / L 的 对硫磷 、 甲基对硫磷 、 杀螟 松 和 50mg / L 的 氰戊菊酯 、 溴氰菊酯 、 甲 氰 菊酯 、 氯 氰 菊酯 、 三氟氯 氰 菊酯 、 氯 菊酯 的 降解 曲线 见图 1 . 表 1 为 各 农药 相应 的 降解 动力学 参数 . 
+ 　 　 各 农药 的 降解 速率 的 对 数值 logK 对 各 农药 疏 水性 参数 logKow ( 表 1 ) 作图 可得 一 直线 ( 图 2 ) ： 
+ logK = 2.21 - 0.26 logKow ， 　 r = 0.9739 
+ 表明 降解 菌 YF11 对 对硫磷 、 甲基对硫磷 、 杀螟 松 、 氰戊菊酯 、 溴氰菊酯 、 氯 氰 菊酯 、 三氟氯 氰 菊酯 、 氯 菊酯 的 降解 速率 随着 其疏 水性 参数 logKow 的 减小 而 增大 ， 也就是说 降解 菌 YF11 对 各 农药 的 降解 性 的 差异 主要 是 由 各 农药 的 疏 水性 参数 决定 的 . 
+ 表 1 　 降解 菌 YF11 降解 各 农药 的 动力学 参数 和 各 农药 疏 水性 参数 
+ Table1KineticdataofdegradationofpesticidesbyAlcaligenessp . 
+ YF11andtheirpartitioncoefficientinn - octanol - water 
+ 
+ 农 　 药 初始 浓度 ， 
+ mg / L 初始 菌量 
+ ( OD415nm ) C = K * t + blogK * ow 
+ K ， 
+ μ mol / ( L * h ) b 
+ μ mol / ( L * h ) r 
+ 甲基对硫磷 1000.2028 . 55379.60 . 99533.00 
+ 对硫磷 1000.2016 . 15354.60 . 97973.83 
+ 杀螟 松 1000.2020 . 86357.70 . 99193.40 
+ 氰戊菊酯 500.205 . 00120.00 . 99596.41 
+ 溴氰菊酯 500.209 . 24135.30 . 99514.6 
+ 三氟氯 氰 菊酯 500.203 . 04108.00 . 98967.0 
+ 甲 氰 菊酯 500.208 . 01113.80 . 98915.1 
+ 氯 氰 菊酯 500.202 . 47110.10 . 98806.6 
+ 氯 菊酯 500.203 . 84123.10 . 99906.1 
+ 
+ 　 　 场 ∨ ┮ ┦ 杷 性 参数 由 德国 生物 研究 中心 柏林 生态 研究所 所长 Prof . Pestemer 测定 提供 
+ 
+ 
+ 图 2 　 降解 菌 YF11 对 农药 的 降解 性 与 农药 疏 水性 间 的 相关性 
+ A — 甲基对硫磷 ， B — 杀螟 松 ， C — 对硫磷 ， D — 溴氰菊酯 ， E — 甲 氰 菊酯 ， F — 氯 菊酯 ， G — 氰戊菊酯 ， H — 氯 氰 菊酯 ， I — 三氟氯 氰 菊酯 
+ Fig.2 　 Alcaligenessp . YF11and 
+ theirpartitioncoefficients 
+ 　 　 在 自然环境 中 农药 的 微生物 降解 受 多种 因素 ( pH 、 温度 、 湿度 、 有机质 含量 、 农药 理化 性质 等 ) 的 影响 . 为此 ， 本 研究 采用 纯 培养 系统控制 条件 下 测定 降解 菌 YF11 对 各 农药 的 降解 性 ， 考察 降解 菌 YF11 对 各 农药 的 的 降解 性 与 农药 疏 水性 参数 间 的 相关性 . 当 微生物 对 有机 化合物 的 降解 作用 是 由 其 胞内酶 引起 时 ， 微生物 降解 的 整个 过程 可以 分为 3 个 步骤 ［ 7 ］ ： 化合物 在 微生物 细胞膜 表面 的 吸附 ， 这是 一种 动态平衡 ； 吸附 在 细胞膜 表面 的 化合物 进入 膜 内 ， 在 生物量 一定 时 ， 化合物 对 细胞膜 的 穿透率 决定 了 化合物 穿透 细胞膜 的 量 ； 化合物 进入 微生物 细胞膜 内 与 降解 酶 结合 发生 酶 促 降解 ， 这是 一个 快速 过程 ， 一般 认为 该 过程 不会 成为 限速 步骤 . 研究 已经 表明 ， 当 细胞 中 存在 足够 的 降解 酶 时 ， 微生物 对 不同 有机 化合物 的 降解 速率 取决于 化合物 对 细菌 细胞膜 的 穿透率 ， 而 化合物 的 这种 穿透率 与其 疏 水性 参数 密切相关 ［ 7 — 9 ］ . 我们 的 实验 已经 证实 降解 菌 YF11 对 农药 的 降解 作用 是 其 胞内酶 引起 的 ， 且 其 胞内酶 对 两类 不同 结构 的 农药 均 具有 较强 的 降解 能力 ［ 6 ］ . 因此 ， 测试 农药 的 降解 速率 主要 取决于 其疏 水性 参数 ， 随着 三氟氯 氰 菊酯 、 氯 氰 菊酯 、 氰戊菊酯 、 氯 菊酯 、 甲 氰 菊酯 、 溴氰菊酯 、 对硫磷 、 杀螟 松 、 甲基对硫磷 的 疏 水性 参数 logKow 的 变化 引起 降解 菌 YF11 对 其 降解 的 速率 的 规律性 变化 . Banerjee 等 在 酚 、 氯代酚 、 苯甲醚 、 氯代 苯甲醚 、 间苯二酚 、 氯代 间苯二酚 、 苯甲酸 、 对甲 苯酚 的 微生物 降解 中 证实 了 类似 的 变化规律 ［ 9 ］ . 但是 ， 并非 疏 水性 参数 logKow 越小 降解 速率 越大 ， 有机 化合物 对 细胞膜 的 穿透 要求 合适 的 疏 水性 ， 氯代酚 等 化合物 的 微生物 降解 速率 先 随着 疏 水性 的 降低 而 增大 ， 疏 水性 进一步 降低 降解 速率 又 减小 ， 在 logKow 为 2 左右 降解 速率 最大 ［ 9 ］ . 可以 预计 ， 降解 菌 YF11 对 农药 的 降解 速率 随着 农药 疏 水性 的 降低 也 会 出现 最大值 而后 呈 下降 趋势 . 
+ 
+ 3 　 结语 
+ 　 　 产碱菌 属 ( Alcaligenessp . ) 广谱性 降解 菌 YF11 对拟 除虫菊 酯 和 一 硫代磷酸 酯 杀虫剂 的 降解 速率 的 差异 主要 是 由 各 化合物 的 疏 水性 参数 引起 的 ， 即 降解 菌 YF11 对 可降解 杀虫剂 的 降解 速率 主要 决定 于 该 杀虫剂 的 疏 水性 参数 
+ 参考文献 
+ 　 1 　 白 迺 彬 . 定量 构效 关系 ( QSAR ) 在 环境 化学 中 的 进展 与 方法 . 环境 科学 ， 1990 ， 11 ( 2 ) ： 62 — 67 
+ 　 2 　 白 迺 彬 . 定量 构效 关系 在 环境 化学 中 应用 . 环境 科学 ， 1990 ， 11 ( 5 ) ： 66 — 70 
+ 　 3 　 莫汉 宏 ， 杨克武 ， 安凤春 等 . 农药 和 其它 有机 化合物 环境参数 的 相关性 及其 预测 . 环境 化学 ， 1994 ， 13 ( 5 ) ： 401 — 408 
+ 　 4 　 BinteinS , DevillersJ . QSARfororganicchemicalsorptioninsoilandsediments . Chemosphere , 1994 , 28 : 1171 — 1188 
+ 　 5 　 BrusseauML . UsingQSARtoevaluatephenomenologicalmodelsforsorptionoforganiccompoundsbysoil . EnvironToxicolChem ， 1993 , 42 : 1835 — 1846 
+ 　 6 　 虞 云龙 . 农药 的 微生物 降解 性及 酶 促 降解 ［ 博士学位 论文 ］ . 浙江农业大学 ， 1995 
+ 　 7 　 YonezawaY , UrushigawaY . Chemico - biologicalinteractionsinbiologicalpurificationsystem . Chemospere , 1979 , 8 : 139 — 142 
+ 　 8 　 解天民 . 结构 活性 关系 ( SARs ) 在 环境 化学 中 的 运用 — — 有机化学 品 环境 危害性 预测 . 环境 化学 ， 1986 ， 5 ( 2 ) ： 1 — 9 
+ 　 9 　 BanerjeeS , HowrdPH , RosengergAMetal . Developmentofageneralkineticmodelforbiodegradationanditsapplicatontochlorophenolsandrelatedcompounds . EnvironSciTechnol ， 1984 , 18 : 416 — 422 

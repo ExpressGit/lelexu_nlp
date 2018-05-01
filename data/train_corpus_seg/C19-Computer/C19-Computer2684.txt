@@ -1,0 +1,156 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 1999 年 　 第 10 卷 　 第 10 期 　 Vol.10 　 No.10 　 1999 
+ 
+ 
+ 
+ 延迟 离散 神经网络 动态 特征 的 矩阵 判据 
+ 邱 深山 　 徐晓飞 　 李 春生 　 刘 明珠 
+ 
+ 摘要 　 该文 利用 延迟 离散 网络 的 状态 转移 方程 与 矩阵 不等式 的 等价 性 研究 网络 的 动力学 性质 . 对于 具有 任意 连接 权阵 的 网络 , 文章 给出 了 周期 为 1 和 2 的 极限 环 存在 的 一些 条件 . 同时 , 对于 周期 为 1 , 2 和 4 的 一些 特殊 极限 环 给出 了 存在 的 条件 , 还 得到 了 网络 不 存在 任何 不动点 的 充分条件 , 即 只有 极限 环 的 充分条件 . 计算机 模拟实验 表明 其 结果 是 正确 的 . 
+ 关键词 　 神经网络 , 稳定性 , 延迟 , 极限 环 . 
+ 中图法 分类号 　 TP183 
+ MatrixCriterionforDynamicAnalysisinDiscreteNeuralNetworkswithDelay 
+ QIUShen - shan1XUXiao - fei1LIChun - sheng2LIUMing - zhu3 
+ 1 ( DepartmentofComputerScienceandEngineeringHarbinInstituteofTechnologyHarbin150001 ) 
+ 2 ( DepartmentofComputerScienceDaqingPetroleumInstituteAnda151400 ) 
+ 3 ( DepartmentofMathematicsHarbinInstituteofTechnologyHarbin150001 ) 
+ AbstractThedynamicsofdiscreteneuralnetworkwithdelayarestudiedinthispaperusingamatrixinequalitywhichisshowntobeequivalenttothestatetransitionequationofthenetwork . Forthenetworkwitharbitraryweightmatrix , theconditionsfortheexistenceofcycleoflength1and2arepresented . Also , theconditionsfortheexistenceofspecialcycleoflength1 , 2and4 , forhavingnoanystablestatesareachieved . Computersimulationsdemonstratethatthetheoreticalanalysisiscorrect . 
+ KeywordsNeuralnetwork , stability , delay , cycle . 
+ 
+ 　 　 Hopfield 网络 是 人工神经网络 模型 中 最 有 影响 、 应用 最 成功 的 模型 之一 , 其 稳定性 理论 已经 得到 了 比较 充分 的 研究 [ 1 ～ 7 ] , 为 实际 应用 奠定 了 理论 基础 . 最 具有 吸引力 的 方面 是 它 作为 NP - 完全 问题 的 一种 有效 算法 ( 顶点 覆盖 问题 ( vertexcoverproblem ) [ 6 ] 、 独立 集 问题 ( maximalindependentsetproblem ) 、 最大 集团 问题 ( maximumcliqueproblem ) [ 6 ] 等 ) . 从 离散 动力学 和 联想 记忆 的 观点 来看 , 除了 网络 不动点 之外 , 其他 动力学 特征 , 如 极限 环 , 仍 可 作为 联想 设计 的 一种 可行 方案 , 并 提出 了 用 离散 Hopfield 神经网络 的 极限 环来 表达 概念 的 思想 [ 7 ] . 从 离散 动力学 的 观点 考察 离散 Hopfield - 型 网络 , 文献 [ 4 ] 给出 了 仅 有 4 周期 极限 环 的 网络 构造方法 , 在 文献 [ 5 ] 中 给出 了 存在 2n 周期 极限 环 的 网络 特征 , 其他 动力学 特征 的 研究 比较 少 , 其 主要 原因 是 该 网络 作为 联想 设计 、 优化 计算 在 动力学 上 的 追求 目标 是 不动点 . 我们 在 文献 [ 8 ] 中 讨论 了 离散 延迟 网络 异步 运行 规则 下 的 全局 稳定性 , 实验 计算 表明 , 延迟 神经网络 具有 极其丰富 的 动力学 行为 . 我们 认为 , 只有 对 网络 演化 的 动力学 性质 深入 了解 , 才能 充分发挥 网络 潜在 的 优势 , 有益于 网络 的 设计 和 应用 . 本文 从 延迟 离散 网络 的 状态 转移 方程 与 矩阵 不等式 的 等价 性 出发 来 研究 其 动力学 性质 . 
+ 1 　 延迟 离散 Hopfield - 型 网络 
+ 　 　 一阶 延迟 离散 Hopfield - 型 网络 是 由 n 个 完全 互联 的 神经元 构成 [ 8 ] , 每个 神经元 i 在 任意 时刻 t 拥有 两种 存储状态 : vi ( t ) , vi ( t - 1 ) 其中 vi ( t - 1 ) 表示 对 历史 状态 的 记忆 , 也就是说 网络 具有 时间 结构 . 它 可 由 两个 n × n 阶 矩阵 w0 , w1 及 一个 n 维 阈值 向量 θ = ( θ 1 θ 2 … θ n ) T 唯一 确定 , 简记 为 N = ( w0W1 , θ ) . w0ij 表示 当前 状态 神经元 j 与 神经元 i 的 连接 权值 , w0ij 表示 在 延迟 状态 神经元 j 与 i 的 连接 权值 , t + 1 为 第 i 个 神经元 的 阈值 . 神经元 i 在 t + 1 时刻 的 状态 可 依据 如下 演化 规则 计算 . 
+ 　 　 　 　 　 　 　 　 　 ( 1 ) 
+ 其中 , fi 为 阈值 函数 . 
+ 　 　 当 延迟 离散 Hopfield - 型 网络 N = ( w0w1 , θ ) 的 延迟 权阵 w1 = On × n 时 , 即 为 离散 Hopfield - 型 网络 N = （ w ， θ ） . 若 w0ii 称 延迟 离散 Hopfield - 型 网络 ( 式 ( 1 ) ) 为 无自 反馈 的 [ 1 ～ 6 ] ． 
+ 　 　 易证 [ 5 ] , 对于 任意 满足 式 ( 1 ) 的 阈值 函数 fi , 一定 存在 一个 阈值 函数 gi , 对于 任意 x0 ， x1 ∈ Bn ≡ { v : v = ( v1 , v2 … , vn ) T , vi ∈ { - 1 , 1 } } , x0 = ( x01 , x02 … , x0n ) T , x0 = ( x11 , x12 … , x1n ) T , fi = gi , 其中 定义 gi 如下 : 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 我们 称 gi 为 严格 阈值 函数 . 下面 我们 总 假设 fi 为 严格 阈值 函数 . 
+ 　 　 一阶 延迟 离散 神经网络 N = ( w0w1 , ) 可由 下式 演化 规则 来 刻画 : 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 其中 . 简记 为 
+ V ( t + 1 ) = f ( w0v ( t ) + w1v ( t - 1 ) - ) . v ( 0 ) , v ( 1 ) ∈ Bn , t = 1 , 2 , … 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 　 　 f 的 第 i 个 分量 为 . 因为 由 所有 向量 为 fi ( i = 1 , 2 , … , n ) 组成 的 集合 为 一个 有限 集 , 故由式 ( 4 ) 决定 的 任意 序列 v ( k ) ( K = 0 , 1 , … ) 一定 为 周期 序列 ( 相当于 网络 N = ( w0w1 , ) 并行 演化 ) , 称为 极限 环 . 周期 为 1 的 极限 环 称为 不动点 , 详细 定义 如下 . 
+ 　 　 定义 . 一阶 延迟 离散 Hopfield - 型 网络 N = ( w0w1 , ) 的 一个 状态 v * ∈ B 称为 稳定 状态 ( 或称 不动点 ) , 对 任意 i , 1in , 有 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 5 ) 
+ 成立 , 其中 v * = ( v * 1 , v * 2 … , v * n ) T . 
+ 　 　 向量 v ( t ) 为 网络 在 t 时刻 的 状态 , 式 ( 4 ) 为 描述 网络 动态 特性 的 状态 转移 方程 . 向量 v ( t ) , v ( t - 1 ) 分别 代表 网络 在 t , t - 1 时刻 的 状态 . 状态 空间 由 2n 个 向量 组成 . 我们 用 | A | 代表 由 A 的 元素 的 绝对值 构成 的 矩阵 而 不是 它 的 行列式 , 即 | A | = ( | α ij | ) n × n . 
+ 2 　 不动点 与 极限 环 的 存在 条件 
+ 2.1 矩阵 不等式 
+ 　 　 下面 的 引理 给出 了 状态 转移 方程式 ( 4 ) 与 矩阵 不等式 的 等价 性 . 
+ 　 　 引理 . 考虑 网络 N = ( w0w1 , ) , 如果 v ( 0 ) , v ( 1 ) ∈ Bn , Dk 是 一个 n × n 阶 对角 元素 为 ± 1 的 对角 矩阵 , 亦 即 
+ Dk ∈ ≡ { D | D = diag ( d1 , d2 … dn ) , di = } ± 1 , 
+ 满足 vk = DkJ , 那么 
+ Dk + 1w0DkJ + Dk + 1w1Dk - 1J - Dk + 1 > 0 , 　 　 　 k = 1 , 2 , .... 　 　 　 　 　 　 　 ( 6 ) 
+ 反过来 , 如果 Dk 满足 式 ( 6 ) , 那么 v ( k ) = DkJ 一定 是 N = ( w0w1 , ) 的 状态 向量 , 其中 向量 J = ( 1.1 , ... , 1 ) T . 
+ 　 　 实际上 , 引理 将 一阶 延迟 离散 Hopfield - 型 网络 N = ( w0w1 , ) 由 状态 转移 方程式 ( 4 ) 决定 的 序列 v ( k ) , k = 0 , 1 , ... 转化 为式 ( 6 ) , 避免 了 对 阈值 函数 fi 的 处理 . 
+ 　 　 证明 : 设 V ( K ) = DkJ , k = 0 , 1 , ... , 那么 Dk + 1J = F ( W0DkJ + w1Dk - 1J - ) , k = 1 , 2 , ... , 则 J = ( Dk + 1 ) - 1FV ( W0DkJ + ) w1Dk - 1J - = Dk + 1f ( w0DkJ + w1Dk - 1J - ) . 因为 Dk 的 每 一 元素 均 为 ± 1 , 所以 若 Dk + 1 的 第 i 个 对角 元 是 + 1 ( - 1 ) , 那么 向量 w0DkJ + w1Dk - 1 - 的 第 i 个 元素 一定 大于 0 ( 小于 0 ) , 从而 得出 
+ Dk + 1w0DkJ + Dk + 1w1Dk - 1J - Dk + 1 > 0 . 
+ 反之 , 如果 式 ( 6 ) 对于 Dk ∈ 成立 , 那么 W0DkJ + w1Dk - 1J - 的 第 i 个 元素 一定 与 Dk - 1 的 第 i 个 对角 元同 号 , 从而 Dk + 1w0DkJ + w1Dk - 1J - > 0 , 亦 即 
+ Dk + 1J = f ( w0DkJ + w1Dk - 1J - ) 
+ 　 　 从而 , N = ( w0w1 , ) 有 状态 向量 v ( K ) = DkJ , k = 1 , 2 , .... □ 
+ 2.2 周期 为 1 的 极限 环 ( 不动点 ) 
+ 　 　 定理 1 . N = ( w0w1 , ) 存在 周期 为 1 的 极限 环 ( 不动点 v = D ) 的 充要条件 是 Dw0DJ + Dw1DJ - D ＞ 0 . 这里 , v = D , D 是 一个 n × n 阶 对角 元为 ± 1 的 对角 矩阵 . 
+ 　 　 证明 : 充分性 . 若 Dw0DJ + Dw1DJ - D ＞ 0 , 则 由 引理 可知 v ( k - 1 ) = Dk - 1J = DJ , v ( k + 1 ) = Dk + 1J = DJ , v ( k - 1 ) = v ( k ) , v = D 为 不动点 . 
+ 　 　 必要性 . 如果 N = ( w0w1 , ) 存在 周期 为 1 的 极限 环 , 那么 一定 存在 一个 整数 k0 , 对 所有 k > k0 , 使 v ( k - 1 ) = v ( k ) = v ( k + 1 ) , 故知 , 对 所有 k > k0 , Dk + 1 = Dk = Dk - 1 , 令 Dk = D 则 由 引理 可知 , Dw0DJ + Dw1DJ - D ＞ 0 . □ 
+ 　 　 这里 应 注意 , 并 不是 所有 的 网络 都 有 不动点 , 有 的 网络 有 可能 只有 极限 环 , 具体情况 我们 将 在 后面 讨论 . 
+ 　 　 下面 我们 将 给出 有关 不动点 的 更 精细 的 结果 . 
+ 　 　 定理 2 . 考虑 网络 N = ( w0w1 , ) , 并且 假设 D ∈ 则 有如 下结论 . 
+ 　 　 ( 1 ) 如果 存在 一个 矩阵 D , 满足 : 
+ | w0 | J + | w1 | J + D < 0 　 　 　 ( | w0 | J + | w1 | J - D < 0 ) 　 　 　 　 　 　 　 　 ( 7 ) 
+ 那么 网络 有且 仅 有 一个 不动点 v = DJ ( v = - DJ ) . 
+ 　 　 ( 2 ) 如果 存在 一个 矩阵 D , 满足 
+ Dw0DJ + Dw1DJ - | | , 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ 那么 网络 至少 有 两个 不动点 v1 = DJ , v2 = - DJ 
+ 　 　 ( 3 ) 如果 
+ 　 　 　 　 　 　 　 　 　 　 ( 9 ) 
+ 那么 网络 有 2n 个 不动点 , Dj = DjJ , Dj ∈ , j = 1 , 2 , ... , 2n , 即 2n 个 n 维二值 向量 全是 网络 的 不动点 . 
+ 　 　 证明 : ( 1 ) 设 D0D1 ∈ , 则 , 由 假设 可知 
+ . 　 　 　 　 　 　 　 　 ( 10 ) 
+ 令 v ( 0 ) = D0J , v ( 1 ) = D1J , V ( 2 ) = DJ , 则 对 任意 的 初始 向量 v ( 0 ) , v ( 1 ) , 由式 ( 7 ) 、 ( 10 ) 可知 , 网络 都 收敛 到 v ( 2 ) , 并且 是 唯一 的 , 若取 D0 = D1 = D , 得出 Dw0Dj + Dw1Dj - D , 从而 f ( v ( 2 ) , v ( 2 ) ) = v ( 2 ) 即 v ( 2 ) 为 网络 N = ( w0w1 , ) 的 不动点 . 同理可证 , 当 满足 Dw0DJ + Dw1Dj - | | > 0 时 , 结论 仍然 成立 . 
+ 　 　 ( 2 ) 假设 D 满足条件 式 ( 8 ) , 因为 | | ± D , 可知 
+ Dw0DJ + Dw1DJ - DDw0DJ + Dw1DJ - | | > 0 , 　 　 　 　 　 　 　 　 　 　 ( 11 ) 
+ Dw0DJ + Dw1DJ + DDw0DJ + Dw1DJ - | | > 0 . 　 　 　 　 　 　 　 　 　 　 ( 12 ) 
+ 从而 令 v1 = DJ , v2 = - DJ , 当式 ( 11 ) 成立 时 得到 v1 = f ( w0v1 + v1v1 - ) ; 当式 ( 12 ) 成立 时 得到 v2 = f ( w0v2 + v1v2 - ) , 因为 式 ( 11 ) 、 ( 12 ) 同时 成立 , 故 两个 不动点 v1 = DJ , v2 = - DJ 同时 存在 , 即 网络 至少 有 两个 不动点 v1 , v2 . 
+ 　 　 ( 3 ) 设 di = ＋ 1 , i = 1 , 2 , ... , n 那么 对于 任意 di , dj 的 组合 , 以下 不等式 均 成立 . 
+ 
+ 从而 
+ 
+ 上述 不等式 左 端的 矩阵 形式 为 Dw0DJ + Dw1DJ - D > 0 , D = diag ( d1d2 , ... dn ) ∈ , 由 定理 1 知 , 网络 有 一个 周期 为 1 的 极限 环 v = DJ , 因为 恰好 有 2n 个 不同 的 矩阵 D ∈ , 从而 结论 成立 . 　 　 　 　 　 　 　 　 　 □ 
+ 　 　 如果 网络 N = ( w0w1 , ) 满足 定理 2 中 的 式 ( 9 ) , 那么 网络 只有 不动点 , 因为 状态 空间 有 2n 个 向量 , 而 每 一个 均 为 不动点 , 将 文献 [ 5 ] 的 相应 结论 推广 到 延迟 网络 . 
+ 　 　 推论 1 . 若 网络 N = ( w0w1 , ) 的 权 矩阵 w0 ， w1 其 对应 元素 同 号 , 那么 网络 有 2n 个 不动点 的 充要条件 是 定理 2 ( 3 ) 中 的 条件 , 式 ( 9 ) 成立 . 
+ 　 　 证明 : 充分性 证明 同 定理 2 , 可用 反证法 来 证明 必要性 , 从略 . 
+ 2.3 周期 为 2 的 极限 环 
+ 　 　 下面 的 定理 给出 了 周期 为 2 的 极限 环 存在 条件 . 
+ 　 　 定理 3 . 网络 N = ( w0w1 , ) 有 一 周期 为 2 的 极限 环 v1 ， v2 当且 仅 当 
+ 　 　 ( a ) D2w0D1J + D2w1D2J - D2 > 0 ; 
+ 　 　 ( b ) 向量 D1w0D1J + D1w1D2J - D1 第 i 个 分量 与 D2w0D2J + D2w1D2J - D2 的 第 i 个 分量 同 号 , 这里 vj = DjJ , Dj ∈ , J = 1 , 2 . 
+ 　 　 证明 : 由 引理 , 网络 有 一 周期 为 2 的 极限 环 v1 , v2 当且 仅 当 
+ D2W0D1J + D2w1D2J - D2 > 0 , D1w0D2J + D1w1D1J - D1 > 0 
+ 因为 D1D2 = D1D2 = I ( 单位矩阵 ) 且 D1 , D2 可 互换 , 则 上述 不等式 可 写成 
+ D1D2 （ D1w0D1J + D1w1D2J - D1 > 0 , D1D2 ( D2w2D2J + D2w1D2J - D1 ) > 0 
+ 易知 定理 成立 . □ 
+ 2.4 　 特殊 极限 环 的 存在 条件 
+ 　 　 我们 考虑 如下 几个 条件 : 
+ 　 　 ( 1 ) , ( 2 ) , 
+ 　 　 ( 3 ) , ( 4 ) , 
+ 　 　 ( 5 ) , ( 6 ) , 
+ 其中 i , j = 1 , 2 . 
+ 　 　 推论 2 . 如果 存在 D 同时 满足条件 ( 1 ) , ( 2 ) , 则 网络 N = ( w0w1 , ) 有 极限 环 . 
+ 推论 3 . 如果 上述 条件 ( 3 ) , ( 4 ) 同时 成立 , 则 网络 有 4 个 周期 为 2 的 极限 环 . 如果 ( 5 ) , ( 6 ) 同时 成立 , 则 网络 有 两个 周期 为 4 的 极限 环 . 
+ 　 　 由 上述 讨论 可知 , 网络 N = ( w0w1 , ) 有着 非常 丰富 的 动力学 性质 , 所以 网络 联想 记忆 的 设计 问题 并非 一定 要 使 待 记忆 的 样本 为 网络 的 不动点 , 可以 将 其 设计 为 极限 环 , 将 关联性 较强 的 待 记忆 样本 编码 到 一个 极限 环上 . 所以 研究 网络 N = ( w0w1 , ) 的 极限 环 存在 及 分布 是 非常 有 意义 的 研究课题 . 
+ 2.5 不 存在 不动点 的 条件 
+ 　 　 由 前面 讨论 可知 , 如果 不 存在 D ∈ , 满足 | w0 | J + | w1 | J ± D , 则 网络 没有 不动点 . 下面 我们 将 直接 从 网络 本身 的 参数 出发 考虑 这个 问题 . 
+ 　 　 定理 4 . 若 i0 使得 , 则 网络 N = ( w0w1 , ) 没有 不 
+ 动点 . 
+ 　 　 注意 , 定理 4 中 的 条件 只是 充分条件 , 不是 必要 的 . 同时 也 说明 了 在 该 条件 下 , 网络 只有 周期 大于 1 的 极限 环 , 推广 了 文献 [ 5 ] 的 结论 . 另 一个 需要 注意 的 方面 是 , 我们 讨论 的 网络 演化 规则 是 全 并行 的 , 其他 演化 规则 ( 如 串行 、 部分 并行 等 ) 意义 下 的 相应 结论 , 我们 将 另文 讨论 . 
+ 3 　 实验 结果 
+ 　 　 下面 以 定理 4 为例 , 随机 选择 满足条件 的 权值 和 阈值 进行 实验 , 结果表明 结论 是 正确 的 . 同时 还 给出 了 延迟 项 调整 策略 . 图 1 圆圈 中 的 值 表示 神经元 的 状态 编码 为 十进制 值 , 如 ( - 1 - 1 - 1 - 1 ) → 0 ( - 1 - 11 - 1 ) → 2 , ( - 1 - 111 ) → 3 , ( 1111 ) → 15 , A → 表示 初态 为 A , 箭头 所指 的 方向 为 网络 演化 的 终止 状态 ; , , 其 方向 相反 的 两个 箭头 所指 的 状态值 构成 极限 环 . 
+ 　 　 图 1 所 表示 的 是 延迟 网络 N = ( w0w1 , ) 的 演化 结果 , 其中 
+ . 
+ 
+ 图 1 
+ 　 　 因为 , 所以 N = ( w0w1 , ) 满足 定理 4 的 条件 , 经 计算 得出 16 种 初值 演化 的 结果 , 如图 1 所示 , 其中 没有 稳定 态 , 仅 有 周期 为 2 的 极限 环 . 实验 说明 定理 4 成立 . 实验 中 还 随机 产生 了 满足 定理 1 ～ 3 条件 的 权阵 , 经 计算 得知 结论 成立 . 具体 算例 从略 . 
+ 4 　 结论 
+ 　 　 本文 主要 讨论 了 离散 延迟 神经网络 的 有关 理论 , 得到 了 如下 结果 : 
+ 　 　 ( 1 ) 本文 将 文献 [ 2 , 5 ] 的 部分 结果 推广 到 离散 延迟 神经网络 ; 
+ 　 　 ( 2 ) 对于 具有 任意 连接 权阵 的 网络 , 得到 了 周期 为 1 和 2 的 极限 环 的 存在 性 的 一些 条件 ; 
+ 　 　 ( 3 ) 本文 给出 了 其 周期 为 1 , 2 和 4 的 一些 特殊 的 极限 环 的 存在 条件 ; 
+ 　 　 ( 4 ) 本文 还 给出 了 网络 不 存在 任何 不动点 , 即 只有 极限 环 的 充分条件 ; 
+ 　 　 ( 5 ) 计算机 模拟实验 表明 , 本文 得到 的 定理 结论 是 正确 的 . 
+ 注释 ： 本文 研究 得到 国家自然科学基金 资助 。 
+ 作者简介 ： 邱 深山 ： 1962 年生 , 博士 , 讲师 , 主要 研究 领域 为 人工智能 , 小 波 分析 , 神经网络 及应 其 
+ 　 　 　 　 　 　 　 　 　 　 应用 , 机器 学习 
+ 　 　 　 　 　 徐晓飞 ： 1962 年生 , 博士 , 教授 , 博士生 导师 , 主要 研究 领域 为 人工智能 CIMS . 　 
+ 　 　 　 　 　 李 春生 ： 1960 年生 , 副教授 , 主要 研究 领域 为 模式识别 , 人工智能 , 神经网络 及其 应 
+ 　 　 　 　 　 　 　 　 　 用 , POSC 
+ 　 　 　 　 　 刘 明珠 ： 1941 年生 , 博士 , 教授 , 博士生 导师 , 主要 研究 领域 为延 微分方程 数值 解 , 神经 
+ 　 　 　 　 　 　 　 　 　 计算 , 小 波 分析 
+ 作者 单位 ： 邱 深山 、 徐晓飞 ： 哈尔滨工业大学 计算机科学 与 工程系 哈尔滨 150001 
+ 　 　 　 　 　 李 春生 ： 大庆 石油学院 计算机科学 系 安达 151400 
+ 　 　 　 　 　 刘 明珠 ： 哈尔滨工业大学 数学系 哈尔滨 150001 
+ 参考文献 
+ 1 　 HopfieldJJ . Neuralnetworksandphysicalsystemswithemergentcollective 
+ 　 　 computationalabilities . ProceedingsofNationalAcademyofScienceUSA , 1982 , 
+ 　 　 ( 79 ) : 2554 ～ 2558 
+ 2 　 BrownDP . Matrixtestforperiod1and2limitcyclesindiscretethreshold 
+ 　 　 networks . IEEETransactionsonSystemsManCybernation , 1992 , 22 ( 3 ) : 552 ～ 554 
+ 3 　 BruckJ . OntheconvergencepropertiesoftheHopfieldmodel . Proceedingsof 
+ 　 　 IEEE , 1990 , 78 ( 10 ) : 1579 ～ 1585 
+ 4 　 BruckJ , GoodmanJW . Ageneralizedconvergencetheoremforneuralnetworks . IEEE 
+ 　 　 TransactionsonInformationTheory , 1988 , 34 ( 5 ) : 1089 ～ 1092 
+ 5 　 梁学斌 , 吴 立德 . 二进 Hopfield 型 神经网络 的 记忆 容量 . 电子学 报 , 1996 , 24 ( 4 ) : 21 ～ 33 
+ 　 　 ( LiangXue - bin , WuLi - de . MemorycapacityofbinaryHopfieldtypeneuralnetwork . 
+ 　 　 ActaElectronicaSinica , 1996 , 24 ( 4 ) : 21 ～ 33 ) 
+ 6 　 ArunJ . ApproximatingmaximumcliquewithaHopfieldnetwork . IEEETransactions 
+ 　 　 onNeuralNetworks , 1995 , 6 ( 3 ) : 724 ～ 735 
+ 7 　 刘晓鸿 , 戴汝为 . 建立 Hopfield 型 神经网络 的 一般 方法 . 自动化 学报 , 1996 , 22 ( 3 ) : 301 ～ 307 
+ 　 　 ( LiuXiao - hong , DaiRu - wei . GeneralmethodsofconstructionofHopfieldneural 
+ 　 　 networks . ActaAutomaticaSinica , 1996 , 22 ( 3 ) : 301 ～ 307 ) 
+ 8 　 邱 深山 , 徐晓飞 , 马瑞民 . 延迟 离散 Hopfield 型 神经网络 收敛性 分析 . 清华大学 学报 , 1998 , 28 
+ 　 　 ( s2 ) : 131 ～ 134 
+ 　 　 ( QiuShen - shan , XuXiao - fei , MaRui - min . Convergentanalysisofdiscrete 
+ 　 　 Hopfieldtypeneuralnetworkswithdelay . JournalofTsinghuaUniversity , 1998 , 
+ 　 　 28 ( s2 ) : 131 ～ 134 ) 
+ 收稿 日期 : 19998 - 09 - 03 修稿 日期 : 1998 - 12 - 03 

@@ -1,0 +1,93 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1997 年 第 23 卷 第 5 期 Vol.23 No.51997 
+ 
+ 
+ 
+ 一类 非线性 MIMO 不 确定 系统 的 
+ 动态 输出 反馈 镇定 1 ) 
+ 梅生伟 　 秦化 淑 　 洪奕光 
+ 摘 　 要 　 考察 其 标称 系统 的 相对 阶 大于 { 1 ， 1 ， … ， 1 } 同时 含 匹配 和 非 匹配 不确定性 的 MIMO 非线性 系统 的 动态 输出 反馈 镇定 问题 . 文中 直接 用 Lyaunov 方法 构造 一类 输出 反馈 动态 补偿器 ， 该 补偿器 可以 实现 对 所论 非线性 不 确定 系统 的 动态 输出 反馈 渐近 镇定 . 
+ 关键词 　 动态 非线性 补偿 ， 动态 输出 反馈 ， 不确定性 . 
+ DYNAMICOUTPUTFEEDBACKSTABILIZATIONFORACLASSOF 
+ NONLINEARUNCERTAINSYSTEMS 
+ MEISHENGWEI 　 　 QINHUASHU 　 　 HONGYIGUANG 
+ ( InstituteofSystemsScience , AcademiaSinica , Beijing 　 100080 ) 
+ Abstract 　 ThispaperstudiesthedynamicoutputfeedbackstabilizationproblemforacalssofMIMOnonlinearsystems , whosenominalsystem ' svectorrelativedegree ＞ { 1 , 1 , … , 1 } andwhichcontainsmatchinganddismatchinguncertainties . AkindofdynamiccompensatorbyLyapunovmethodisdesignedderectly , whichrealizesdynamicoutputfeedbackstabilizationofnon - linearuncertainsystems . 
+ Keywords 　 Dynamicnonlinearcompensation , dynamicoutputfeedback , uncertainty . 
+ 1 　 引言 
+ 　 　 考察 同时 含有 结构 匹配 和 结构 非 匹配 不确定性 的 非线性 系统 
+ 
+ ( 1 ) 
+ 其中 x ∈ Rn ， u = ( u1 , … , um ) T ∈ Rm , y = ( y1 , … , ym ) T ∈ Rm 分别 表示 系统 的 状态 ， 控制 输入 和量 测 输出 ； f , gi 和 h 分别 为 光滑 矢量 函数 ， g ( x ) = { g1 ( x ) , … , gm ( x ) } ; f ( 0n ) = 0n , h ( 0n ) = 0m , g ( 0n ) ≠ 0n × m . 其中 ， △ f ( x ) 是非 匹配 不确定性 ， △ g ( x ) 是 匹配 不确定性 ， 即 满足 匹配 条件 ： △ g ( x ) = g ( x ) e1 ( x ) ∈ Span { g1 ( x ) , … , gm ( x ) } . 这里 e1 ( x ) ∈ Rm 是 光滑 向量 函数 . 
+ 　 　 通常 称 系统 
+ 
+ ( 2 ) 
+ 为 不 确定 非线性 系统 ( 1 ) 的 标称 系统 . 以下 假定 系统 ( 2 ) 在 原点 有 向量 相对 阶 
+ 
+ 　 　 对 非线性 系统 ( 1 ) 进行 动态 非线性 补偿 研究 ， 其 重要 意义 无论 在 控制 理论 还是 在 工程 应用 都 是 显而易见 的 . 系统 的 动态 非线性 补偿 通过 动态 输出 反馈 镇定 来 实现 ， 所谓 不 确定 非线性 系统 的 动态 输出 反馈 镇定 是 指 ： 
+ 　 　 定义 1.1 　 称 非线性 不 确定 系统 ( 1 ) 能 用 动态 输出 反馈 镇定 ， 如果 存在 
+ 
+ ( 3 ) 
+ 使得 式 ( 1 ) ， ( 3 ) 构成 的 闭环 系统 零解 渐近 稳定 . 这里 θ ∈ Rs ； α ∈ C1 ( U1 , Rm ) ； β ∈ C1 ( U2 , Rs ) , β ( 0s , 0m ) = 0 ； U1 , U2 分别 为 Rs , Rs + m 空间 原点 的 某 一开 邻域 ； s 是 某 一 正整数 . 
+ 　 　 文献 ［ 1 - 3 ， 5 ］ 研究 了 系统 Σ ( h , f ， g ) 为 线性系统 Σ ( C , A , B ) 时 的 鲁棒 镇定 问题 ， 其中 文献 ［ 1 ， 2 ］ 用 静态 输出 反馈 ， 文献 ［ 3 ， 5 ］ 设计 动态 补偿器 ， 文献 ［ 4 ］ 在 系统 ( 1 ) ( SISO 情形 ) 可以 部分 线性化 的 条件 下 ， 具体 构造 出 一种 动态 输出 反馈 补偿器 . 在 此 动态 补偿器 的 作用 下 ， 含 结构 匹配 和 结构 非 匹配 不确定性 的 非线性 系统 成为 Lyapunov 意义 下 局部 渐近 稳定 的 . 但 本文 只 讨论 了 SISO 情形 ， 并且 结论 依赖于 文中 的 一类 非线性 系统 渐近 稳定 的 结果 及 相应 的 定理 ， 证明 过程 较为 繁琐 . 这里 直接 应用 Lyapunov 方法 对 MIMO 情形 的 非线性 系统 构造 一类 动态 输出 反馈 控制 律 ， 其 相应 的 闭环 系统 是 Lyapunov 意义 下 稳定 的 . 
+ 2 　 主要 结果 
+ 　 　 首先 ， 根据 系统 ( 1 ) ， ( 2 ) 所 设 条件 ， 有 下述 结果 ： 
+ 　 　 定理 2.1 　 存在 一个 局部 坐标 变换 和 状态 反馈 ， 使得 系统 ( 1 ) 具有 如下 的 形式 ： 
+ 
+ ( 4 ) 
+ 其中 z = ( z1 , … , zr ) T ∈ Rr ; w = ( w1 , … , wn - 1 ) T ∈ Rn - r ; ξ 1 ( . ) 和 ξ 2 ( . ) 是 不确定性 部分 ; A = blockdiag ( A11 , A22 , … ， Amm ) , B = blockdiag ( b1 , b2 , … , bm ) , 
+ 
+ zi = ( zi1 , zi2 , … , ziri ) T , 1 ≤ i ≤ m ; q ( w , z ) 是 光滑 向 量值 函数 . 
+ 　 　 定理 2.2 　 假设 系统 ( 4 ) 满足 
+ 　 　 1 ) 不确定性 系统 ( 4 ) 的 零 动态 指数 渐近 稳定 , 
+ 　 　 2 ) 
+ 这里 则 系统 ( 4 ) 可用 如下 形式 的 动态 补偿器 
+ 
+ ( 5 ) 
+ 进行 动态 输出 反馈 镇定 . 
+ 这里 
+ 
+ 是 Hurwitz 向量 ； 是 Hurwitz 向量 ； 1 ≤ i ≤ m ; P1 是 矩阵 方程 P1A1 + AT1P1 = - I 的 正定 对称 解 矩阵 ； A1 = A - BLd 是 稳定 矩阵 ， 是 取定 的 正数 ； N5 是 v0 ( θ ) = BTP1 θ ［ φ 2 ( ‖ BTP1 θ ‖ ) + 1 ］ 在 θ 处 的 局部 Lipschitz 常数 . 
+ 　 　 证明 . 根据 条件 1 ) ， 由 Lyapunov 逆定理 ， 存在 正定 函数 V0 ( w ) 满足 ： 
+ 这里 c1 , c2 , c3 , c4 都 是 正常 数 . 
+ 　 　 下面 考察 在 动态 补偿器 ( 5 ) 作用 于 系统 ( 4 ) 所成 的 闭环 系统 ： 
+ 
+ ( 6 ) 
+ 设 e = θ - z , e = ( e1 , … , er ) T ∈ Rr , 则 系统 ( 6 ) 可以 改写 为 
+ 
+ ( 7 ) 
+ 这里 是 稳定 矩阵 ， 
+ 从而 存在 P2 满足 下述 矩阵 方程 ： AT2P2 + P2A2 = - λ 1 + σ . I ， σ ＞ 0 是 待定 的 常数 . 
+ 　 　 取 标量 函数 其中 λ ＞ 0 待定 . 显然 V ( w , z , e ) 是 关于 变量 ( w , z , e ) 的 正定 函数 . 又 因为 q ( w , z ) , v1 ( z ) 光滑 ， 故 局部 存在 Lipschitz 常数 N3 ， N5 使 下列 式子 成立 ： 
+ 
+ ( 8 ) 
+ 　 　 计算 V ( w , z , e ) 沿 系统 ( 7 ) 的 全 导数 
+ 
+ 
+ 
+ 这里 0 ＜ ε 1 ＜ c3 . 
+ 　 　 考察 上述 不等式 ， 取则 当 λ 充分 大时 ， 一定 存在 正常 数 k1 和 k2 使下式 成立 ： 
+ 
+ ( 9 ) 
+ 这时 当 ‖ eTP2B ‖ ＜ η ， 存在 正常 数 k3 ， k4 使下式 成立 ： 
+ 
+ ( 10 ) 
+ 这里 k3 ＜ k1 , k4 ＜ k2 . 又 因为 
+ 
+ 所以 存在 正常 数 k5 ， 使下式 成立 ： 
+ 
+ ( 11 ) 
+ 从而 由式 ( 9 - 11 ) 可 得 
+ 
+ ( 12 ) 
+ 因此 系统 ( 7 ) 是 Lyapunov 意义 下 局部 渐近 稳定 的 ， 进而 根据 定义 1.1 ， 说明 系统 ( 1 ) 可用 动态 输出 反馈 镇定 . 
+ 1 ) 　 本文 得到 国家自然科学基金 资助 . 
+ 作者 单位 ： 中国科学院 系统 科学 研究所 　 北京 　 100080 
+ 参考文献 
+ ［ 1 ］ 　 DawsonDM , QuZ , CarrollJC . Ontheobservationandoutputfeedbackproblemsfornonlinearuncertaindynamicalsystems . SystemsandControlLetters , 1992 , 18 : 217 — 222 . 
+ ［ 2 ］ 　 EmelyamerSV . Outputfeedbackstabilizationofuncertainlantsavariablestructuresystemsapproach . IntJofControl , 1992 , 55 : 61 — 81 . 
+ ［ 3 ］ 　 陈彭年 . 非线性 系统 反馈 镇定 ( 博士论文 ) . 上海 ： 上海交通大学 ， 1994 . 
+ ［ 4 ］ 　 梅生伟 . 仿射 非线性 不 确定 系统 的 鲁棒控制 ( 博士论文 ) . 北京 ： 中国科学院 系统 科学 研究所 ， 1996 ， 64 — 71 . 
+ ［ 5 ］ 　 PralyL , AndreanovelBDCorronJM . Lyapunovdesignofstabilitycontrollersforcascededsystems . In : Proc.28 th . IEEEConferenceonDecisionandControl . Tampa . F1 , 1989 , 217 — 223 . 
+ 收稿 日期 　 1995 - 10 - 12 

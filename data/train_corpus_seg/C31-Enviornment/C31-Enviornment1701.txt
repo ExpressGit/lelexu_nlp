@@ -1,0 +1,114 @@
+中国 环境 科学 
+ CHINAENVIRONMENTALSCIENCE 
+ 1999 年 第 19 卷 第 6 期 Vol.19 No.61999 
+ 
+ 
+ 
+ 用 流动 电流 技术 研究 聚硅 氯化铝 混凝剂 的 电动 特性 
+ 高 宝玉 　 王占生 　 汤鸿霄 
+ 摘要 ： 采用 流动 电流 ( SC ) 技术 , 研究 比较 了 聚 硅 氯化铝 ( PASC ) 与 聚合 氯化铝 ( PAC ) 的 电动 特性 . 研究 结果表明 , 在 PASC 中 , 由于 带 负电荷 的 聚 硅酸 与 铝 水解 聚合 产物 间 的 相互作用 , 使得 PASC 的 电中 和 能力 较 PAC 有所 下降 , 其 下降 程度 与 PASC 的 碱化 度 ( B ) 和 Al / Si 摩尔 比 密切相关 , B 值 和 Al / Si 摩尔 比越 小 , 则 PASC 的 电中 和 能力 就 越弱 . 制备 工艺 对 PASC 的 电中 和 能力 稍 有 影响 . 
+ 关键词 ： 聚硅 氯化铝 ( PASC ) 混凝剂 ； 流动 电流 ( SC ) ； 电动 特性 ; 碱化 度 ( B ) ； Al / Si 摩尔 比 
+ 中 图 分类号 ： X123 文献 标识码 ： A 
+ Electrokineticcharacteristicofflocculantpolyaluminumsilicatechloride ( PASC ) bystreamingcurrentmeasurement . 
+ GAOBao - yu 
+ ( DepartmentofEnvironmentalEngineering , ShandongUniversity , Jinan250100 , China ) 
+ WANGZhan - sheng 
+ ( DepartmentofEnvironmentalScienceandEngineering , TsinghuaUniversity , Beijing100084 , China ) 
+ TANGHong - xiao 
+ ( StateKeyLaboratoryofEnvironmentalAquaticChemistry , ResearchCenterforEco - EnvironmentalScience , ChineseAcademyofSciences , Beijing100085 , China ) . ChinaEnvironmentalSciences.1999 , 19 ( 6 ) ： 
+ Abstract ： Theelectrokineticcharacteristicofpolyaluminumsilicatechloride ( PASC ) andpolyaluminumchloride ( PAC ) werestudiedandcomparedbystreamingcurrent ( SC ) measurement . Theexperimentalresultsshowthattheinteractionbetweenpolysilicicacidcharacterizednegativechargeandhydrolyzedaluminumspeciesresultsinthedecreaseinthecharge - neutralizingabilityofPASC , incomparisonwithPAC . Thedecreaseinthecharge - neutralizingabilityofPASChascloserelationwiththebasicity ( B ) andAl / SimolarratioinPASC . ThelesstheBvalueandAl / Simolarratio , thelowerthecharge - neutralizingabilityofPASC . ThepreparationtechniqueforPASCaffectsthecharge - neutralizationofPASCtoalittleextent . 
+ Keywords ： flocculantpolyaluminumchloride ( PASC ) ； streamingcurrent ( SC ) ; electrokineticcharacteristic ； basicity ( B ) ； Al / Simolarratio 
+ 　 　 对 无机 高分子 混凝剂 而言 , 水 处理 中 混凝 过程 的 研究 , 一般 包括 两个 方面 : 一是 作为 混凝剂 的 无机 金属 盐 的 水解 － 聚合 过程 、 水解 聚合 形态 及 转化 规律 的 研究 ; 二是 混凝剂 水解 产物 作用 于 胶体 颗粒 引起 胶体 脱稳 过程 研究 . 由于 胶体 颗粒 的 脱稳 状况 与 投加 的 混凝剂 的 荷电 情况 密切相关 , 所以 在 第二个 问题 的 研究 中 , 往往 把 混凝剂 本身 的 电动 特性 作为 一个 首要 的 且 十分 重要 的 研究 内容 . 目前 , 流动 电流 ( StreamingCurrent , SC ) 测定 技术 和 显微 电泳技术 已 作为 研究 混凝剂 电动 特性 以及 判断 混凝 效果 的 两个 重要 手段 [ 1 - 3 ] . 显微 电泳技术 是 在 一 外加 电场 下 观察 带电 颗粒 的 移动 速度 , 进而 可 计算 出 胶体 颗粒 的 zeta 电位 的 一种 技术 . zeta 电位 是 反映 胶体 电动 特性 的 重要 参数 , 可 作为 水 处理 混凝 过程 中 投药 后 胶体 物质 脱稳 程度 的 有效 指标 , 同时 也 是 研究 和 探讨 混凝 机理 的 重要 方法 . 但 zeta 电位 的 测定 在 一般 情况 下 存在 着 测定 困难 、 精度 较 低 、 重复性 较差 、 无法 用于 在线 和 连续 监测 等 缺点 , 所以 近年来 , SC 这一 电动 参数 逐渐 被 广泛 用于 研究 混凝剂 的 电动 特性 以及 混凝剂 对 胶体 颗粒 表面 的 电荷 作用 效果 [ 2 , 4 ] . 水体 中 所有 电动 现象 都 是 由于 双电层 中 的 电荷 随 液体 作 相对 于 固体 表面 流动 所 引起 的 . zeta 电位 是 胶体 迁移 时 与 溶液 间 滑动 界面 处 的 电位 , 代表 胶体 颗粒 扩散 层 的 电荷 情况 , 一般 近似 认为 等于 扩散 层 的 电位 . 而 SC 是 由于 液体 相对 于 固体 表面 运动 时 , 双电层 中 的 扩散 层 与 固定 层 相对 分离 的 结果 [ 2 ] . 所以 , zeta 电位 与 SC 具有 理论 上 的 线性相关 特性 [ 5 ] , SC 和 zeta 电位 都 可以 定量 反映 无机 混凝剂 在 水中 的 荷电 情况 以及 对 胶体 颗粒 表面 的 电荷 作用 效果 . 
+ 　 　 本文 采用 流动 电流 测定 技术 , 研究 比较 聚硅 氯化铝 ( PASC ) 与 聚合 氯化铝 ( PAC ) 水解 聚合 产物 的 电动 特性 , 为 进一步 研究 PASC 的 混凝 效果 及 作用 机理 奠定 理论 基础 . 
+ 1 　 实验 仪器 和 实验 方法 
+ 1.1 实验 仪器 
+ 　 　 Orion720 型 精密 pH 计 , SC － 30S 型 流动 电流 检测器 ( SCD ) . 
+ 1.2 PASC 的 制备 
+ 　 　 分别 采用 共聚 和 复合 法 制备 PASC ( 共 ) 和 PASC ( 复 ) , 详见 文献 [ 6 ] . 
+ 1.3 SC 测定方法 [ 2 ] 
+ 　 　 在 一 容积 为 2.5 L 的 烧杯 中 注入 2L1 ： 1 的 去离子水 后 , 将 流动 电流 检测器 探头 全部 浸入 水中 , 并 插入 pH 电极 . 实验 过程 用 磁力 搅拌器 进行 快速 搅拌 , 开启 SCD , 待 稳定 后 记录 其 初始 SC 值 、 pH 值及 相应 流动 电流 的 变化 . 实验 中 , 用 0.1 mol / L 盐酸 或 氢氧化钠 溶液 调节 至 稳定 的 pH 值 . 
+ 2 　 结果 与 讨论 
+ 2.1 PASC 与 PAC 样品 的 SC 值 比较 
+ 　 　 图 1 ～ 图 3 分别 是 向 水中 投加 不同 碱化 度 ( B ) 的 PAC 和 不同 B 值及 Al / Si 摩尔 比 的 PASC 后 SC 响应值 随投加 浓度 的 变化 . 由于 SC 实际上 是 水中 胶体 微粒 在 探头 表面 的 吸附 并 产生 双电层 结构 的 结果 , 而 固体 探头 的 表面 一般 均 带 负电荷 , 因此 SC 初始 负值 即 为 活塞 柱 表面 电荷 值 . 由图 1 ～ 图 3 可见 , PAC 及 PASC 的 SC 响应值 均 随其 投加量 的 增加 而 逐渐 升高 , 但 在 相同 投加量 条件 下 , 同一 B 值 的 PAC 的 SC 响应值 均 高于 PASC 的 响应值 . 对 PASC 而言 , Al / Si 摩尔 比越 高 , 其 SC 响应值 就 越 大 ； 随着 B 值 的 增加 , 在 相同 Al / Si 摩尔 比 情况 下 PASC ( 共 ) 与 PASC ( 复 ) 之间 SC 的 差值 逐渐 缩小 . 这 说明 向 铝 盐 中 引入 带 负电荷 的 聚 硅酸 后 , 使 其 SC 响应值 降低 , 且 引入 的 聚 硅酸 越 多 , 产品 的 电荷 值 就 下降 越 多 , 制备 工艺 对 PASC 的 荷电 情况 稍 有 影响 , 随着 B 值 的 升高 , 制备 工艺 的 影响 就 变得 越 不 明显 . 上述 B 值 、 Al / Si 摩尔 比及 制备 工艺 对 样品 SC 响应值 的 影响 情况 可 由 在 等电点 ( SC = 0 ) 时 各 样品 所 需 的 投加量 表现 出来 ( 见表 1 ) . 从表 1 看出 , 达 SC = 0 时 所 需 投加 的 样品 量 随 B 值 的 升高 而 逐渐 降低 , 在 相同 B 值下 , 则 需 投加 较 PAC 更 多 的 PASC 样品 量 才能 达 SC = 0 的 等电点 , 且 Al / Si 摩尔 比越 低 , 需 投加 的 PASC 样品 量 就 越 多 ； 达 等电点 时 PAC 与 PASC 投加量 之间 的 差值 随 B 值 的 增大 而 缩小 , 制备 工艺 对 低 Al / Si 摩尔 比 的 PASC 样品 的 电中 和 能力 影响 较大 , 但 对 高 Al / Si 摩尔 比 的 PASC 样品 的 影响 较 小 . 
+ 
+ 图 1 　 B = 1.0 时 PAC 与 PASC ( 共 ) 的 SC 随 浓度 的 变化 
+ Fig.1 ThevariancesofSCvalueofPACandPASCwithdosageatB = 1.0 
+ — ■ — PAC 　 — ● — PASCA1 / Si = 5.0 ( 共 ) 　 — ▲ — PASCA1 / Si = 5.0 ( 复 ) 
+ — — PASCA1 / Si = 10 ( 共 ) 　 — ◆ — PASCA1 / Si = 10 ( 复 ) 
+ — + — PASCA1 / Si = 15 ( 共 ) 　 — × — PASCA1 / Si = 15 ( 复 ) 
+ 
+ 图 2B = 1.5 时 PAC 与 PASC ( 共 ) 和 PASC ( 复 ) 的 SC 随 浓度 的 变化 
+ Fig.2 ThevariancesofSCvalueofPACandPASCwithdosageatB = 1.5 
+ 
+ 图 3B = 2.0 时 PAC 与 PASC ( 共 ) 和 PASC ( 复 ) 的 SC 随 浓度 的 变化 
+ Fig.3 ThevariancesofSCvalueofPACandPASCwithdosageatB = 2.0 
+ 表 1 溶液 的 SC = 0 时 各 样品 所 需 的 投加量 
+ Table1TherequireddosageofcoagulantsatSC = 0 
+ 碱化 度 ( B ) 样品 投加量 ( mg / L ) 
+ B = 1.0 PAC 
+ PASC ( 共 ) Al / Si = 5 
+ PASC ( 共 ) Al / Si = 10 
+ PASC ( 共 ) Al / Si = 150.04 
+ 0.107 
+ 0.07 
+ 0.053 
+ B = 1.5 PAC 
+ PASC ( 共 ) Al / Si = 5 
+ PASC ( 复 ) Al / Si = 5 
+ PASC ( 共 ) Al / Si = 10 
+ PASC ( 复 ) Al / Si = 10 
+ PASC ( 共 ) Al / Si = 15 
+ PASC ( 复 ) Al / Si = 150.035 
+ 0.067 
+ 0.058 
+ 0.046 
+ 0.039 
+ 0.037 
+ 0.036 
+ B = 2.0 PAC 
+ PASC ( 共 ) Al / Si = 5 
+ PASC ( 复 ) Al / Si = 5 
+ PASC ( 共 ) Al / Si = 10 
+ PASC ( 复 ) Al / Si = 10 
+ PASC ( 共 ) Al / Si = 15 
+ PASC ( 复 ) Al / Si = 150.028 
+ 0.048 
+ 0.060 
+ 0.034 
+ 0.036 
+ 0.031 
+ 0.032 
+ B = 2.5 PAC 
+ PASC ( 共 ) Al / Si = 5 
+ PASC ( 共 ) Al / Si = 10 
+ PASC ( 共 ) Al / Si = 150.024 
+ 0.041 
+ 0.033 
+ 0.030 
+ 
+ 　 　 虽然 在 上述 实验 中 所 检测 出 的 SC 值 是 活塞 与 混凝剂 二者 综合 作用 的 结果 , 但 它 却 直接 反映 了 PAC 与 PASC 混凝剂 在 投加 到 水中 后 的 水解 聚合 形态 所带 电荷 电量 的 差别 , 反映 了 B 值 、 Al / Si 摩尔 比 和 制备 工艺 对 混凝剂 水解 聚合 产物 的 荷 电量 的 影响 情况 . 
+ 2.2 PAC 与 PASC 水解 产物 的 SC 值 与 溶液 pH 值 的 关系 
+ 　 　 当向 水中 投加 0.15 mmol / L 的 混凝剂 后 , 充分 混合 并 在 流动 电流值 稳定 不变 时 , 逐渐 滴加 稀盐酸 或稀 氢氧化钠 溶液 , 并 检测 其 SC 值 随 pH 值 的 变化 , 结果 见图 4 ～ 图 5 . 由图 4 可见 , PAC 与 PASC 样品 的 SC 值 随 pH 值 的 变化规律 是 一致 的 , 但 PASC 样品 的 SC 响应值 低于 PAC 样品 的 SC 响应值 . 在 pH < 5.0 的 酸性 水溶液 中 , 混凝剂 样品 水解 产物 的 SC 值 随 pH 值 的 升高 而 增加 , pH 值 在 5.0 ～ 6.0 之间 时 , SC 达 最大值 , 然后 随 pH 值 的 升高 而 降低 . 从图 5 可见 , 对于 B = 2.0 的 混凝剂 样品 , PAC 的 SC 响应值 最大 , 在 pH 值为 8.9 左右 时 SC = 0 , PASC 的 响应值 随 Al / Si 摩尔 比 的 降低 而 逐渐 下降 , 且 复合 法 制备 的 样品 其 SC 值 下降 的 幅度 大于 共聚 法 制备 样品 的 SC 值 下降 幅度 , PASC ( 共 ) 与 PASC ( 复 ) 样品 间 SC 的 差值 随 Al / Si 摩尔 比 的 降低 而 增大 . 当 Al / Si = 15 时 , PASC ( 共 ) 与 PASC ( 复 ) 都 在 pH 值为 8.7 左右 时 SC = 0 ； 当 Al / Si = 10 时 , PASC ( 共 ) 与 PASC ( 复 ) 都 在 pH 值为 8.4 左右 时 SC = 0 ； 而 对 Al / Si = 5.0 的 PASC 样品 , PASC ( 共 ) 与 PASC ( 复 ) 分别 在 pH 值为 7.6 和 7.4 左右 时 SC 响应值 为 零 . 从图 5 可知 , 对于 Al / Si = 10 的 PASC ( 共 ) 样品 , 其 SC 响应值 随 B 值 的 升高 而 增加 , B 值 分别 为 1.0 、 1.5 、 2.0 和 2.5 时 , SC = 0 时 的 pH 值则 分别 为 6.9 、 7.9 、 8.4 、 和 8.5 左右 . 图 4 ～ 图 5 的 结果 进一步 表明 了 B 值 、 Al / Si 摩尔 比及 制备 工艺 都 影响 PASC 混凝剂 水解 产物 的 荷 电量 . 
+ 
+ 图 4B = 2.0 的 PAC 、 PASC ( 共 ) 和 PASC ( 复 ) 的 SC 值 随 pH 值 的 变化 
+ Fig.4 VarianceofSCofPACandPASCwithpHvalueatB = 2.0 
+ 
+ 图 5Al / Si = 10 时 不同 B 值 的 PASC ( 共 ) 的 SC 值 随 pH 值 的 变化 
+ Fig.5 VarienceofSCofPASCwithpHatAl / Si = 10anddifferentBvalue 
+ 3 　 结论 
+ 　 　 PASC 是 一 阳离子 型 无机 高分子 混凝剂 . 与 PAC 比较 , 由于 在 PASC 中 引入 了 带 负电荷 的 聚 硅酸 , 并且 由于 聚 硅酸 与 铝 水解 聚合 产物 间 的 相互作用 [ 7 ] , 使得 PASC 达到 等电点 时 的 pH 值向 低 pH 值 方向 移动 , 其 移动 幅度 密切 与 Al / Si 摩尔 比 和 B 值 有关 , 其 B 值 和 Al / Si 摩尔 比越 低 , 则 达到 等电点 时 的 pH 值 就 越 低 . 制备 工艺 对 PASC 的 电中 和 能力 稍 有 影响 . 
+ 　 　 所以 , 在 PASC 的 制备 中 , 应该 控制 适宜 的 Al / Si 摩尔 比 , 否则 , 由于 其电中 和 能力 下降 较大 , 这 将 影响 其 混凝 效果 . 
+ 基金项目 ： 国家自然科学基金 项目 ( 59878036 ) ; “ 九五 ” 国家 科技 攻关项目 ( 96 - 909 - 03 - 02 ) 
+ 作者简介 ： 高 宝玉 ( 1961 - ) , 男 , 山东 鄄城 人 , 博士 , 山东大学 环境 工程系 副教授 . 主要 从事 水 处理 药剂 及 工业废水 治理 研究 工作 . 先后 主持 或 参加 了 国家自然科学基金 课题 “ 新型 混凝剂 聚硅 氯化铝 的 制备 及 性能 ” 、 国家 “ 九五 ” 科技攻关 专题 “ 水厂 絮凝 技术 集成化 系统 ” 、 国家环保局 科技 三项 费用 课题 “ 环境 样品 微波 溶样 器 的 研制 ” 、 中国 石化总公司 科技 项目 “ 聚硅 氯化铝 混凝剂 处理 炼油厂 含油 废水 ” 、 山东省 科技 项目 “ 高效 多功能 有机 高分子 絮凝剂 的 研制 及 中试 ” 、 山东省 自然科学 基金 ” 聚 硅酸 硫酸铝 混凝剂 的 研究 ” 等 十余项 课题 的 研究 工作 , 获 省部级 奖励 多项 . 已 公开 发表 论文 70 余篇 . 
+ 作者 单位 ： 高 宝玉 　 山东大学 环境 工程系 , 山东 济南 250100 
+ 　 　 　 　 　 王占生 　 清华大学 环境 科学 与 工程系 , 北京 100084 
+ 　 　 　 　 　 汤鸿霄 　 中国科学院 生态环境 中心 国家 重点 水化学 实验室 , 北京 100085 
+ 参考文献 
+ 　 [ 1 ] 　 BlackAP , ChenC . Electrophreticstudyofcoagulationandflocculationofriversedimentsuspensionswithaluminumsulfate [ J ] . J . Am . WaterWorksAss . , 1965 , 57 : 354 － 360 . 
+ 　 [ 2 ] 　 曲九辉 . 流动 电流 特性 的 研究 [ D ] . 哈尔滨 ： 哈尔滨 建筑 工程学院 , 1992 . 
+ 　 [ 3 ] 　 TangHX , LuanZK . Featuresandmechannismforcoagulation － flocculationprocessesofpolyaluminumchloride [ J ] . J . Environ . Sci . , 1995 , 7 ( 2 ) : 204 － 211 
+ 　 [ 4 ] QuJH . Electrokineticchemicalcharacteristicsofhumicanddannicacidseffectingonthenaturalwateranditscoagulation [ J ] . J . Environ . Sci , 1997 , 9 ( 1 ) : 71 － 79 . 
+ 　 [ 5 ] 　 DentelSK . Coagulationcontrolinwatertreatment [ J ] . CRCCriticalReviewsinEnvironmentalcontrol , 1991 , 21 ( 1 ) : 41 － 47 . 
+ 　 [ 6 ] 高 宝玉 , 王占生 , 汤鸿霄 . 聚硅 氯化铝 ( PASC ) 混凝剂 的 颗粒 大小 及 分子量 分布 [ J ] . 中国 环境 科学 , 1999 , 19 ( 4 ) : 297 - 300 
+ 　 [ 7 ] 　 RowattE , WilliamsRJP . Theinteractionofaluminumwithsilicicacidinthepresenceandabsenceofaphosphorylatedprotein [ J ] . CoordinationChemistryReviews , 1996 , 149 : 167 － 177 
+ 收稿 日前 ： 1999 - 03 - 29 

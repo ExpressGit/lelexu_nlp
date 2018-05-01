@@ -1,0 +1,105 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 1998 年 第 24 卷 第 4 期 Vol.24 No.41998 
+ 
+ 
+ 
+ 
+ 非线性 系统 的 实现 与 最小 阶 问题 1 ) 
+ 郑毓蕃 　 曾晓东 
+ 摘 　 要 　 在 系统 的 微分 域 及 相应 的 微分 向量 空间 上 定义 了 一个 非 交换 的 多项式 环 ( 算子 环 ) ， 并 利用 这个 环 定义 非线性 系统 的 传递函数 . 用 微分 向量 空间 为 工具 ， 讨论 单 输入 / 单 输出 非线性 系统 的 实现 问题 . 主要 结果 回答 了 ： 1 ) 在 什么 条件 下 ， 不同 的 输入 / 输出 微分方程 有 相同 ( 等价 ) 的 实现 ； 2 ) 在 未知 实现 的 条件 下 ， 如何 确定 输入 / 输出 微分方程 最小 实现 的 阶数 . 覆盖 了 线性系统 理论 的 相关 结果 . 
+ 关键词 　 非线性 系统 ， 实现 ， 微分 向量 空间 ， 非交换环 ， 传递函数 . 
+ REALIZATIONANDMINIMALORDERFORNONLINEARSYSTEMS 
+ ZHENGYUFAN 
+ ( InstituteofSystemsScience , EastChinaNormalUniversity , Shanghai200062 ) 
+ ZENGXIAODONG 
+ ( Dept . ofAutomation , SichuanUnionUniversity , Chengdu610065 ) 
+ Abstract 　 Therealizationproblemsforsingle － input / single － outputdifferentialequationsarediscussedwithintheframeworkofdifferentialvectorspace . Mainresultsofthisworkanswertwofundamentalquestions : ( 1 ) underwhatconditionsdifferentinput / outputdifferentialequationshavethesamerealization ; ( 2 ) howtocalculatetheorderoftheminimalrealizationofinput / outputdifferentialequationswithoutknowingitsrealization . Inordertosolvetheseproblemsthenotionoftransferfunctionfornonlinearsystemsisdefinedoveranon － commutativepolynomialring . Thedescriptionofnonlinearrealizationproblemsisfullyincorporatedwiththatofthelinearcontroltheory . 
+ Keywords 　 Nonlinearsystem , realization , differentialvectorspace , non － commutativering , transferfunction . 
+ 1 　 引言 
+ 　 　 实现 问题 是 控制 理论 中 一个 基本 问题 . 对于 非线性 系统 的 实现 问题 ， 七十年代 末 ， Fliess ［ 1 ］ 回答 了 如何 由 生成 级数 形式 的 输入 / 输出 方程 构造 状态 空间 方程 的 实现 . 以后 其他 作者 ［ 2 ， 3 ］ 将 这方面 工作 做 得 更为 完善 . 
+ 　 　 本文 讨论 了 输入 / 输出 微分方程 的 实现 以及 最小 实现 的 阶 计算 问题 . 这些 问题 已有 一些 研究 结果 ， 例如 文 ［ 4 ］ 给出 了 非线 系统 实现 的 一个 定义 ， 并 给出 了 输入 / 输出 微分方程 存在 状态 空间 实现 的 一个 必要 但 非 充分 的 条件 . 文 ［ 5 ］ 讨论 了 最小 实现 的 阶 . 
+ 　 　 本文 讨论 单 输入 / 单 输出 微分方程 
+ 　 　 ( 1 ) 
+ 其中 u 是 输入 变量 ， y 是 输出 变量 . k , r 是 函数 中 关于 y , u 的 最高 导数 阶 ， 且 k ＞ r . 
+ 　 　 问题 1 . 不同 的 输入 / 输出 方程 ， 满足 什么 条件 它们 具有 等价 的 仿射 状态 空间 实现 
+ = f ( x ) + g ( x ) u , 　 y = h ( x ) . 　 　 　 ( 2 ) 
+ 　 　 回答 这个 问题 并非易事 ， 考察 以下 三个 方程 
+ - yu = 0 . 　 　 ( 3 ) 
+ 　 　 ( 4 ) 
+ 　 　 ( 5 ) 
+ 及 三个 状态 空间 方程 
+ 　 ( 6 ) ， ( 7 ) ， ( 8 ) 
+ 　 　 消 去 状态变量 x ， 式 ( 6 ) ， ( 7 ) ， ( 8 ) 分别 导出 式 ( 3 ) ， ( 4 ) ， ( 5 ) . 按文 ［ 2 ］ 的 定义 ， 式 ( 6 ) ， ( 7 ) ， ( 8 ) 分别 是 式 ( 3 ) ， ( 4 ) ， ( 5 ) 的 实现 . 容易 验证 ： 式 ( 3 ) 的 任意 解 ( y ( t ) , u ( t ) ) 必为 式 ( 4 ) ， ( 5 ) 的 解 . 那么 根据 线性系统 的 理论 ， 式 ( 7 ) ， ( 8 ) 也 是 式 ( 3 ) 的 实现 . 进一步 式 ( 6 ) ， ( 7 ) ， ( 8 ) 应该 是 式 ( 3 ) ， ( 4 ) ， ( 5 ) 中任 一个 方程 的 三个 不同 形式 ， 但 又 彼此 等价 的 实现 . 对 非线性 系统 ， 这个 结论 是 不 对 的 . 因为 式 ( 8 ) 是 一个 能观 ， 能控 的 系统 ， 所以 式 ( 8 ) 本身 是 一个 最小 实现 ( 参阅 文 ［ 6 ］ ， 这样 式 ( 8 ) 不 可能 是 式 ( 3 ) 的 实现 . 式 ( 7 ) 是 ( 4 ) 的 一个 实现 ， 对 ( 7 ) 作能 控性 分解 就 发现 ， 式 ( 7 ) 与 ( 6 ) 都 是 ( 3 ) 的 实现 . 这样 ( 6 ) ， ( 7 ) ， ( 8 ) 这 三个 实现 之间 并 不 存在 等价 性 . 
+ 　 　 问题 2 . 给定 一个 可 实现 的 输入 / 输出 方程 ， 如何 计算 它 的 最小 实现 的 阶数 而 无需 构造 它 的 实现 . 
+ 　 　 在 线性系统 理论 中 ， 上述 二 问题 是 通过 寻找 输入 / 输出 方程 的 既 约 传递函数 而 作出 回答 的 . 同样 ， 本文 引入 非线性 输入 / 输出 方程 传递函数 的 概念 ， 然后 用 它 来 回答 第一个 问题 ， 进一步 回答 第二个 问题 . 
+ 
+ 2 　 预备 知识 
+ 　 　 假定 方程 ( 1 ) 中 ⅵ 帐 潜淞康 木植 拷 馕 龊 数 ， 且 满足 φ ( 0 ， 0 ， … ， 0 ) = 0 , 采用 文 ［ 7 ］ 中 的 数学 符号 和 概念 . 令为 y , , … , y ( k ) , u , … , u ( r ) , … 为 自变量 的 亚纯 函数 的 全体 所 组成 的 函数 域 . 根据 方程 ( 1 ) ， 又 是 一个 微分 域 . 在 上 生成 一个 微分 向量 空间 
+ 　 ( 9 ) 
+ 有 两个 子 空间 ， 分别 称为 ( 1 ) 的 输入 与 输出 微分 向量 空间 
+ 　 ( 10 ) 
+ 对 方程 ( 1 ) 两边 取全 微分 ， 得到 公式 
+ 　 　 ( 11 ) 
+ 在 上 定义 微分 算子 它 满足 以下 性质 ： 令 s0 是 恒等 算子 ， k1 ， 
+ skdy : = dy ( k ) , skdu : = du ( k ) . 　 　 ( 12 ) 
+ 记 ［ s ］ 为 上 的 多项式 环 ， 将 ( 11 ) 记 为 
+ 　 　 ( 13 ) 
+ 其中 
+ 
+ 这样 ( 13 ) 可简化 为 P ( s ) dy = Q ( s ) du , 其中 
+ 
+ 根据 文 ［ 8 ］ ， ［ s ］ 是 满足 Ore 条件 的 非交换环 . 因此 ， ［ s ］ 可以 扩张 为 分式 环 ( s ) . 也 即 ( s ) 中 在 任意 一个 非 零元 R ( s ) ， 均 存在 其 ( 左 ) 逆元 R - 1 ( s ) . 
+ 　 　 ［ s ］ 中 的 两个 对元 ( P1 ( s ) , Q1 ( s ) ) , ( P2 ( s ) , Q2 ( s ) ) 称为 等价 的 ， 如果 存在 D ( s ) ∈ ［ s ］ ， 使得 P1 ( s ) = D ( s ) P2 ( s ) , Q1 ( s ) = D ( s ) Q2 ( s ) . 那么 D ( s ) 称为 ( P1 ( s ) , Q1 ( s ) ) 的 左公 因子 . 如果 D ( s ) ∈ ， 则 D ( s ) 称为 “ 常数 ” . 因为 P ( s ) ≠ 0 , 式 ( 13 ) 又 可 记为 
+ dy = P - 1 ( s ) Q ( s ) du = H ( s ) du , H ( s ) ∈ ( s ) . 　 　 ( 14 ) 
+ H ( s ) 则 称式 ( 1 ) 的 一个 传递函数 . 如果 式 ( 1 ) 是 线性 常 系数 微分方程 ， 那么 由 上述 方法 定义 的 H ( s ) 与 线性系统 理论 中 定义 的 传递函数 完全一致 . 对 线性系统 退化 为 实数 域 R ， ［ s ］ 的 一个 重要 性质 是 运用 欧几里得 算法 可以 求 出 两个 多项式 P ( s ) 与 Q ( s ) 的 最大 ( 左 ) 公 因子 ( g . c . l . d ） ［ 8 ］ . 
+ 　 　 给定 系统 ( 1 ) ， 定义 了 相关 的 微分 域 ， 微分 向量 空间 E 及 多项式 环 ［ s ］ . 
+ 　 　 定义 1 . 系统 ( 1 ) 的 传递函数 H ( s ) = P - 1 ( s ) Q ( s ) 称为 既约 的 ， 如果 P ( s ) , Q ( s ) 的 g . c . l . d 是 ［ s ］ 中 的 常数 . 
+ 　 　 根据 文 ［ 8 ］ ， 任给 中 的 元 φ ( 一个 函数 ) ， 算子 s 与 φ 的 乘积 s φ 也 是 一个 算子 ， 满足 
+ 　 　 ( 15 ) 
+ 以式 ( 3 ) 定义 的 ［ s ］ 为例 ： 对式 ( 3 ) 求全 微分 则 有 sdy - ydu = 0 . 在 它 的 两边 再用 s 作用 一次 ： s2dy - sydu = 0 . 考察 第二项 
+ 
+ 即 sy = ys + ， 它 满足 ( 15 ) 式 . 
+ 　 　 分别 计算 式 ( 3 ) ， ( 4 ) ， ( 5 ) 的 传递函数 ， 则 有 
+ 根据 ( 15 ) 式 ， , 因而 H1 ( s ) 有 相同 的 既 约 传递函数 . 用 欧几里得 算法 验证 ， H3 ( s ) 是 既 约 分式 . 因此 ， 式 ( 3 ) ， ( 4 ) ， ( 5 ) 不 具有 相互 等价 的 实现 . 从而 对 问题 1 ， 我们 有 下面 的 结论 . 
+ 　 　 定理 1 . 不同 输入 / 输出 方程 具有 等价 仿射 状态方程 实现 ， 如果 它们 具有 相同 的 既 约 传递函数 . 
+ 
+ 3 　 最小 实现 的 阶 
+ 　 　 由文 ［ 6 ］ 知 ， 一个 实现 是 最小 实现 当且 仅 当 它 是 能控 ， 能观 的 . 给定 方程 ( 2 ) ， 消 去 状态变量 x 而 得到 的 输入 / 输出 微分方程 ( 1 ) 表征 了 式 ( 2 ) 的 能观 部分 . 式 ( 2 ) 不能 观 部分 对 ( 1 ) 是 没有 任何 影响 的 . 给定 输入 / 输出 系统 ( 1 ) ， 如果 它 可 实现 ， 我们 可以 通过 计算 它 的 既 约 传递函数 来求 最小 实现 的 阶 . 本节 用 另 一种 方法 ， 由 方程 ( 1 ) 计算 它 的 最小 实现 的 阶 . 
+ 　 　 首先 由 方程 ( 1 ) 的 “ 可 实现 性 ” ， 可 改写 成 以下 形式 ［ 3 ］ 
+ y ( k ) = φ 0 ( y , … , y ( k - 1 ) , u , … , u ( r - 1 ) ) + φ 1 ( y , … , y ( k - 1 ) , u , … , u ( r - 1 ) ) u ( r ) . 　 　 ( 16 ) 
+ 令令 v = u ( r ) 看作 新 的 输入 变量 ， 在 增广 状态 下 ， ( 16 ) 式 可以 记 为 
+ 　 　 ( 17 ) 
+ 简记 ( 17 ) 式 为 　 　 　 　 　 　 　 　 ( 18 ) 
+ 其中 　 　 　 　 　 　 
+ 如果 式 ( 2 ) 是 式 ( 1 ) 的 能观 实现 ， 则 式 ( 2 ) 可 ( 动态 ) 扩张 为 
+ 　 　 　 ( 19 ) 
+ 　 　 这样 ， 式 ( 16 ) 或 ( 17 ) 与 ( 19 ) 是 同一个 系统 在 不同 状态 坐标系 下 的 两个 表现 . 运用 文 ［ 7 ］ 中 的 符号 和 概念 ， 令 是 由 , v , ， … 为 自变量 的 亚纯 函数 域 . 
+ 
+ 　 　 对系统 ( 18 ) 定义 ［ 9 ］ 
+ 　 　 ( 20 ) 
+ 　 　 引理 1 ［ 9 ］ . 对系统 ( 18 ) 的 子 空间 链 满足 下 式 
+ 　 　 ( 21 ) 
+ 其中 
+ 　 　 如果 ， 则 ∞ 称为 式 ( 18 ) 的 不能 控微 分子 空间 . 记 . 
+ 　 　 定理 2 . 系统 ( 1 ) 的 最小 实现 阶数 为 
+ 　 　 ( 22 ) 
+ 　 　 证明 . 由于 式 ( 19 ) 是 ( 2 ) 的 动态 扩张 . 式 ( 19 ) 与 ( 2 ) 具有 相同 的 能观 性质 ， 即 ( 19 ) 是 能观 系统 . 在 ( 19 ) 中 ， w1 , … , wr 是 能控 状态变量 ， 式 ( 19 ) 与 ( 2 ) 有 相同 的 不能 控 状态变量 . 因为 式 ( 19 ) 与 式 ( 18 ) ( 或式 ( 17 ) ) 是 同一 系统 ， ( 17 ) 的 不能 控微 分子 空间 应 与 ( 2 ) 的 不能 控子 空间 必然 相同 . 正好 是 系统 ( 2 ) 的 能 控能观 子系统 的 阶数 . 所以 m 是 式 ( 1 ) 的 最小 实现 的 阶数 . 
+ 　 　 下面 我们 来求 方程 ( 3 ) ， ( 4 ) ， ( 5 ) 的 最小 实现 的 阶 . 
+ 　 　 易知 方程 ( 3 ) 的 扩展 仿射 系统 为 　 = zu , 　 y = z . 很 容易 得到 1 = = span ｛ dz ｝ , 2 = φ , 3 = … = ∞ = φ , 所以 = 0 , 又 k = 1 , 所以 m = k - = 1 ， 即 为 ( 3 ) 的 最小 实现 的 阶 . 
+ 　 　 同样 有 ( 4 ) 的 扩展 仿射 系统 为 很 容易 得到 1 = = span ｛ dz1 , dz2 , dw ｝ , 2 = span ｛ dz1 , d ( z2 - z1w ) ｝ , 3 = span ｛ d ( z2 - z1w ) ｝ , … , ∞ = span ｛ d ( z2 - z1w ) ｝ , 所以 = 1 , 又 k = 2 , 所以 m = k - = 1 , 即 为 式 ( 4 ) 的 最小 实现 的 阶 . 
+ 　 　 式 ( 5 ) 的 扩展 仿射 系统 为 　 很 容易 得到 1 = = span ｛ dz1 , dz2 , dw ｝ , 2 = span ｛ dz1 ｝ , 3 = , … , ∞ = 所以 = 0 , 又 k = 2 , 所以 m = k - = 2 即 为 式 ( 5 ) 的 最小 实现 的 阶 . 
+ 　 　 1 ) 国家自然科学基金 资助 项目 ， 国家教委 博士点 基金 资助 项目 . 
+ 作者 单位 ： 郑毓蕃 ( 华东师范大学 系统 科学 研究所 　 上海 　 200062 ) 
+ 　 　 　 　 　 曾晓东 ( 四川 联合 大学 自动化系 　 成都 　 610065 ) 
+ 参考文献 
+ 1 　 FliessM . RealizationofnonlinearsystemsandabstracttransitiveLiealgebras . Bull . oftheAmericanMathematicalSociety.2 , 1980 
+ 2JakubczykB . Realizationtheoryfornonlinearsystems ; threeapproaches , inAlgebraicandGeometricMethodsinNonlinearControlTheory . M . FliessandM . Hazewinkel , eds . , Reidel , Dordrecht , 1986.3 - 13 
+ 3WangY , SontagS . Generatingseriesandnonlinearsystems : analyticaspects , localrealizability , andi / orepresentations . ForumMath.41992 , 299 - 322 
+ 4PECrouchandF . Lamnabhi － Lagarrigue . Realizationsofinput － outputdifferentialequations , RecentAdvancesinMathematicalTheoryofSystems , Control , NetworksandSignalProcessing Ⅱ ProceedingMTNS － 91 . MitaPress , 1992.259 - 264 
+ 5ZhengYF , LiuP , ZinoberA , Moog , C . Whatisthedimensionofminimalrealizationofanonlinearsystem ? , Procedingsofthe34thConferenceonDecision & Control , 4239 - 4244 , 1995 
+ 6IsidoriA . Nonlinearcontrolsystems : anintroduction , 2ndEdition . Berlin : Spring － Verlag , 1989 
+ 7Benedetto . DiM . D , GrizzleJ . W . Moog . C . H . Rankinvariantofnonlinearsystems , SIAM . J . Contr , Opt . , 1989 , 27 : 658 - 672 
+ 8OreO . Theoryofnon － commutativepolynomials . Ann . ofMathematics , 1933 , 34 : 480 - 508 
+ 9ZhengYF ， CaoL . Completeinvariantofnonlinearcontrolsystems . Proc . IFACNOLCOS － 95 , 1995 
+ 收稿 日期 　 1995 - 10 - 12 

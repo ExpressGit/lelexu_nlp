@@ -1,0 +1,36 @@
+环境 科学研究 
+ RESEARCHOFENVIRONMENTALSCIENCES 
+ 2001Vol.14 No.1 P.36 - 40 
+ 
+ 
+ 
+ 
+ 一株 芽孢 杆菌 所产 絮凝剂 的 研究 
+ 胡筱敏 　 邓述 波 　 牛力 东 　 罗茜 　 
+ 摘 　 要 ： 从 土壤 中 分离 筛选 得到 一株 能 产生 高效 微生物 絮凝剂 ( MBF ) 的 芽孢 杆菌 A - 9 。 A - 9 的 培养 实验 表明 ， 培养基 的 碳源 、 氮源 、 初始 pH 是 影响 MBFA9 絮凝 活性 的 主要 因素 。 絮凝 实验 结果表明 ， 用 MBFA9 处理 高岭土 悬浮液 ， 效果 明显 优于 其他 种类 MBF ， 且 不 需 添加 Ca2 + 及 Al3 + 等 助凝剂 ， 用量 也 仅 为 一般 MBF 用量 的 1 / 10 ～ 1 / 100 ； 处理 含泥 河水 、 硫化染料 废水 、 淀粉厂 黄浆 废水 ， 悬浮物 及 COD 的 去除率 明显 高于 聚 丙烯酰胺 等 传统 的 化学 絮凝剂 。 
+ 关键词 ： 絮凝 ； 　 水 处理 ； 　 微生物 ； 　 微生物 絮凝剂 
+ 分类号 ： X703.1 　 文献 标识码 ： A 
+ 文章 编号 ： 1001 - 6929 ( 2001 ) 01 - 0036 - 05 
+ StudyofEfficientBioflocculantProducedbyaBacillusStrain 
+ HUXiao - min （ SchoolofResourcesandCivilEngineering , NortheasternUniversity , Shenyang110006 , China ） 　 
+ DENGShu - bo （ SchoolofResourcesandCivilEngineering , NortheasternUniversity , Shenyang110006 , China ） 　 
+ NIULi - dong （ EnvironmentalProtectionBureauofShenyangEconomicandTechnologicalDevelopmentZone , Shenyang110141 , China ） 　 
+ LUOQian （ SchoolofResourcesandCivilEngineering , NortheasternUniversity , Shenyang110006 , China ） 
+ Abstract ： AbacillusstrainnamedA - 9 , whichcanproducebioflocculantwithhighflocculatingactivity , wasscreenedfromfertilesoil . ThetestresultsofcultureforA - 9showthatthecarbonsourcesnitrogensourcesandinitialpHoftheculturalmediumhaveimportanteffectsontheflocculatingactivityofMBFA9 . MBFA9canflocculateGaolingsuspensionbetterthanotherbioflocculantswithoutsynergisticeffectsofCa2 + , Al3 + andotheragents , anditsdoseisabout1 / 10 ～ 1 / 100ofotherbioflocculants . Thetestsoftreatmentofriverwaterwithsiltsuspension , sulfurdyeswastewaterandyellowwastewaterfromstarchfactorywerecarriedout . ItwasfoundthatMBFA9hashigherclearanceofsuspendedsolidandCODcomparedwithpolyacryamide . 
+ Keywords ： flocculation ; 　 watertreatment ; 　 microorganism ; 　 microbialflocculant ( MBF ) 
+ 基金项目 ： 国家自然科学基金 ( 59574010 ) 资助 项目 ； 辽宁省 自然科学 基金 ( 211 ) 资助 项目 
+ 作者简介 ： 胡筱敏 ( 1958 - ) ， 男 ， 江西 乐平市 人 ， 教授 ， 博士 . 
+ 作者 单位 ： 胡筱敏 （ 东北大学 资源 与 土木工程 学院 ， 辽宁沈阳 　 110006 ） 　 
+ 　 　 　 　 　 邓述 波 （ 东北大学 资源 与 土木工程 学院 ， 辽宁沈阳 　 110006 ） 　 
+ 　 　 　 　 　 牛力 东 （ 沈阳 经济 技术开发区 环境保护局 ， 辽宁沈阳 　 110141 ） 　 
+ 　 　 　 　 　 罗茜 （ 东北大学 资源 与 土木工程 学院 ， 辽宁沈阳 　 110006 ） 　 
+ 参考文献 ： 
+ ［ 1 ］ 邓述 波 ， 胡筱敏 ， 罗茜 . 寄生 曲霉 产生 絮凝剂 的 培养 条件 及其 絮凝 特性 ［ J ］ . 应用 与 环境 生物学 报 ， 1998 ， 4 ( 4 ) ： 405 ～ 408 . 
+ ［ 2 ］ HiroshiShimofuruya , KuniedaYoshikiko , SuzukiJiro , etal . Theproductionofflocculatingsubstance ( s ) bystreptomycesgriseus ［ J ］ . BiosciBiotechBiochem , 1996 , 60 ( 3 ) : 489 ～ 500 . 
+ ［ 3 ］ RyuichroKuraneYasuhiroNohata . Microbialflocculantionofwasterliquidandoilemulsionbyabioflocculantfromalcaligeneslatus ［ J ］ . AgricBiolChem , 1991 , 55 ( 4 ) : 1127 ～ 1129 . 
+ ［ 4 ］ RyuichiroKurane , HatamochiKazuhiro , KakunoTadashi , etal . Purificationandcharacterizationofliquidbioflocculantproducedbyrhodococcuserythropolis ［ J ］ . BiociBiotechBiochem , 1995 , 59 ( a ) : 1652 ～ 1656 . 
+ ［ 5 ］ 王镇 ， 王孔星 . 几株 微生物 絮凝剂 产生 菌 的 特性 研究 ［ J ］ . 微生物学 报 ， 1995 ， 35 ( 2 ) ： 121 ～ 129 . 
+ ［ 6 ］ 李智良 ， 张本 兰 ， 裴健 . 微生物 絮凝剂 产生 菌 的 筛选 及 相关 废水 絮凝 效果 实验 ［ J ］ . 应用 与 环境 微生物学 报 ， 1997 ， 3 ( 1 ) ： 67 ～ 70 . 
+ ［ 7 ］ 二宫 英治 ， 木崎忠重 ， 花团 香一 . 一有 孢子 细菌 生产 高 粘性 多糖 ［ J ］ . 日本 农芸 化学 杂志 ， 1968 ， 42 ( 7 ) ： 431 ～ 434 . 
+ 收稿 日期 ： 1999 年 12 月 27 日 
+ 出版日期 ： 2001 年 1 月 30 日 

@@ -1,0 +1,33 @@
+上海 航天 
+ AEROSPACESHANGHAI 
+ 2001Vol.18 No.3 P.22 - 25 
+ 
+ 
+ 
+ 
+ 超 高空 系缆 气球 的 空气 动力 特性 试验 研究 
+ 蔡 国华 　 
+ 摘 　 要 ： 介绍 自然 形状 和 流线 形状 两种 高空 系缆 气球 的 空气 动力 特性 。 着重 探讨 攻角 和 雷诺数 对 升力 、 阻力 和 俯仰 力矩 的 影响 。 指出 ： 合理 、 良好 的 气动 外形 （ 具备 可靠 的 稳定性 和 最小 阻力 ） ， 对 提高 抗风 能力 、 增加 留空 时间 都 有 重要 意义 。 
+ 关键词 ： 系缆 气球 ； 风洞试验 ； 雷诺数 效应 ； 空气 动力 特性 
+ 分类号 ： V211.24 　 文献 标识码 ： A 
+ 文章 编号 ： 1006 - 1630 ( 2001 ) 03 - 0022 - 04 
+ AerodynamicExperimentsofExtremelyHighAltitudeTetheredBalloons 
+ CAIGuo - hua （ BeijingInstituteofAerodynamics , Beijing100074 ， China ） 　 
+ 
+ Abstract ： ThereportpresentsaerodynamicpropertiesofthetetheredballoonsinthenaturalandstreamlinedshapeatsomefixedaltitudeandputsemphasisonexplorationoftheeffectsofangleofattackandReynoldsnumberonlift , dragandpitchingmomentoftheballoons . Areasonableandexcellentaerodynamicconfigurationwiththereliablestabilityandminimumdragissignificantforstrengtheningthecapabilityagainstthegustandpro1ongingtheoperationtimeatsuchahighaltitude . 
+ Keywords ： Tetheredballoon ; Windtunneltest ； Reynoldsnumbereffect ; Aerodynamicproperty 
+ 
+ 作者简介 ： 蔡 国华 （ 1939 - ） ， 男 ， 研究员 ， 研究 领域 ： 空气 动力学 试验 
+ 作者 单位 ： 蔡 国华 （ 北京 空气 动力 研究所 ， 北京 100074 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ EulerAJ , BadeershaSS , SchroederLD . Veryhigha1titudetetheredballoonfeasibilitystudy [ R ] . AIAA - 95 - 16l2 . 
+ ［ 2 ］ KrausanJA . Investigationofvariousparametersaffectingaltitudeperformanceoftetheredaerostats [ R ] . AIAA - 95 - 1625 . 
+ ［ 3 ］ BadeshaS , EulerA , SchroederL . Veryhighaltitudetetheredballoonparametricsensitivitystudy [ R ] . AIAA - 95 - 1625 . 
+ ［ 4 ］ 上海 航天局 科技情报 所 . 航天 产品设计 标准 手册 [ C ] . 航天工业部 第七 ○ 八 研究所 , 1984 . 
+ ［ 5 ］ 蔡 国华 . 高空 系缆 气球 空气 动力 特性 风洞试验 大纲 [ R ] . 北京 空气 动力 研究所 , 1998 . 
+ ［ 6 ］ TekronyKL . Windtunneltestsofnaturalshapeballoonmode1 [ R ] . AmesAeronanuticalLaboratoryofNASA , AD - 667563 . 
+ ［ 7 ］ 张佛生 . FK4 飞艇 （ 1 ∶ 20 ） 模型 测力 试验 [ R ] . 北京 空气 动力 研究所 , 1990 . 
+ 
+ 收稿 日期 ： 1999 年 10 月 11 日 
+ 出版日期 ： 2001 年 3 月 1 日 

@@ -1,0 +1,66 @@
+自动化 学报 
+ ACTAAUTOMATICASINICA 
+ 2000 　 Vol.26 　 No.3 　 P.382 - 386 
+ 
+ 
+ 
+ 工业 过程 广义 稳态 优化 控制算法 的 
+ 收敛性 研究 
+ 罗 旭光 　 万 百五 
+ 摘 　 要 　 根据 Zangwill 全局 收敛 理论 ， 定义 了 求解 工业 过程 广义 稳态 优化 控制 问题 的 算法 赖以 依托 的 点 - 集 映射 关系 ； 在 此基础 上 ， 证明 了 算法 的 解 序列 能够 使得 工业 过程 广义 稳态 优化 控制 问题 的 目标 函数 在 其 相应 集合 上 是 一个 Zangwill 函数 ， 从而 证明 了 工业 过程 广义 稳态 优化 控制算法 具有 全局 收敛性 . 
+ 关键词 　 工业 过程 广义 稳态 ， 点 - 集 映射 ， Zangwill 函数 ， 全局 收敛性 
+ RESEARCHONTHECONVERGENCEOFGENERALIZED 
+ STEADY - STATEOPTIMIZINGCONTROLALGORITHM 
+ FORINDUSTRIALPROCESSES 
+ LUOXuguang 　 　 WANBaiwu 
+ ( SystemsEngineeringInstitute , Xi ' anJiaotongUniversity , Xi ' an 　 710049 ) 
+ Abstract 　 　 AccordingtotheZangwill ' sglobalconvergencetheory , apoint - to - setmappingwhichsupportsthealgorithmsolvingthegeneralizedsteady - stateoptimizingcontrolproblem ( GOP ) isdefined . Inlightofthedefinition , itisprovedthatthesequenceofpointsgeneratedbythealgorithmcanguaranteethattheobjectivefunctionofGOPproblemisdescentonitsownset . Namely , thealgorithmsolvingthegeneralizedsteady - stateoptimizingcontrolproblemisgloballyconvergent . 
+ Keywords 　 Generalizedsteadystateofindustrialprocess , point - to - setmapping , Zangwillfunction , globalconvergence . 
+ 1 　 引言 
+ 　 　 针对 工业 过程 广义 稳态 的 优化 控制 问题 ( GOP ) ， 文 ［ 1 ］ 给出 了 一种 基于 模型 求解 的 广义 稳态 优化 控制算法 ( AMOP ) ， 并 对 仿真 算例 进行 了 数值 计算 . 本文 则 根据 Zangwill 全局 收敛 理论 ［ 2 ］ ， 对文 ［ 1 ］ 给出 的 迭代 算法 AMOP 的 收敛性 进行 了 深入分析 . 为了 运用 Zangwill 全局 收敛 理论 ， 首先 对 设定 点 与 广义 稳态 之间 的 点 - 集 映射 关系 进行 了 严密 恰当 地 定义 . 在 此基础 上 ， 证明 了 工业 过程 广义 稳态 优化 控制算法 AMOP 在 满足 一定 的 条件 下 ， 具有 全局 收敛性 ， 即 总 能够 选择 一个 适当 的 增益 ε , 使得 由 算法 AMOP 产生 的 解 序列 是 可行 的 ， 它 使 目标 函数 在 每 一次 迭代 中均 朝着 减小 的 方向 改变 . 
+ 2 　 Zangwill 全局 收敛 理论 
+ 　 　 为了 引入 Zangwill 全局 收敛 定理 ， 首先 给出 如下 若干 定义 . 
+ 　 　 定义 1 ［ 2 ， 3 ］ . 设 A 是 集合 X 上 的 一个 算法 ， Γ X 是 A 的 一个 解集 ， 称 X 上 的 连续函数 Z ( * ) 是 A 在 X 上 的 Zangwill 函数 ， 如果 满足 
+ 　 　 1 ) 若 x Γ , y ∈ A ( x ) , 则 Z ( y ) ＜ Z ( x ) ; 　 2 ) 若 x ∈ Γ , y ∈ A ( x ) , 则 Z ( y ) ≤ Z ( x ) . 
+ 　 　 定义 2 ［ 3 ］ . 设 A : X → Y 是 一个点 - 集 映射 ， 如果 在 点 x ∈ X 处 ， 有 xk → x , xk ∈ X ; yk → y , ykY ， 使得 y ∈ A ( x ) ， 则 称点 - 集 映射 A 在 x ∈ X 处 是 闭 的 ； 如果 它 在 X 中 每 一点 是 闭 的 ， 则 称点 - 集 映射 A 在 X 上 是 闭 的 . 
+ 　 　 定理 1 ［ 2 ， 3 ］ ( Zangwill 全局 收敛 定理 ) . 设 A 是 X 上 由 一个点 - 集 映射 定义 的 迭代 算法 ， 给定 初始 点 x0 ∈ X , 由 算法 A 产生 的 序列 ｛ xk ｝ ∞ k = 0 满足 xk + 1 ∈ A ( xk ) ， 又 设 算法 A 的 解集 为 Γ X . 如果 1 ) 所有 的 xk 均 属于 紧集 SX ， 2 ) 在 X 上 存在 一个 Zangwill 函数 Z ( ． ) ， 3 ) 点 - 集 映射 A 在 点 x ∈ X 处 是 闭 的 ， 如果 x Γ , 则 算法 A 的 迭代 运算 要么 停止 在 一个 解 ∈ Γ 上 ， 要么 ｛ xk ｝ 的 任一 收敛 子列 的 极限 是 A 的 一个 解 . 
+ 3 　 广义 稳态 优化 控制算法 的 全局 收敛性 
+ 　 　 由 定理 1 可知 ， 一个 迭代 算法 是否 全局 收敛 ， 只须 看 该 算法 是否 满足 Zangwill 全局 收敛 定理 的 三个 条件 . 由于 工业 过程 广义 稳态 优化 控制 问题 GOP 的 复杂性 ， 在 进行 迭代 算法 收敛性 证明 之前 ， 还 需 引入 如下 两个 引理 . 
+ 　 　 引理 1 ［ 3 ］ . 设 A : X → Y 是 一个点 - 点 映射 ， B ： Y → Z 是 一个点 - 集 映射 ， 如果 A 在 点 x ∈ X 处 是 连续 的 ， B 在 A ( x ) 处 是 闭 的 ， 则 组合 映射 C = B ． A 在 点 x ∈ X 处 是 闭 的 . 
+ 　 　 定义 3 ［ 3 ］ . 设 x ∈ X ， 称 向量 d ∈ X 是 在 点 x 处 的 可行方向 ， 如果 存在 一个 ＞ 0 ， 使得 
+ 
+ 　 　 引理 2 ［ 3 ］ . ( Luenberger 最优性 一阶 必要条件 ) . 设 S 是 X 的 一个 子集 ， f ∈ C1 是 S 上 的 一个 函数 ， 如果 x 是 f 在 S 上 的 一个 极小 点 ， 那么 对于 任意 的 可行方向 d ∈ X ， 则 有 f ′ ( x ) ． d ≥ 0 . 
+ 　 　 定义 4 . 设 广义 稳态 优化 控制算法 AMOP 产生 的 映射 为 A : 
+ 　 　 式 中 C 是 GOP 问题 的 设定 点 容许 集合 . 那么 ， 映射 A 可 进一步 定义 为 
+ 　 　 1 ) u : 
+ 　 　 　 ( 1 ) 
+ 即 对于 vL ∈ C , 寻找 一个 cL ， 使得 cL ∈ c ( vL ) C ; 如果 c ( vL ) 是 一个 单点 集时 ， 则 意味着 对于 v ∈ C , 有 一个 c = c ( v ) 糃 , 从而 在 C × C 上 确定 了 一个点 ( v , c ) ； 
+ 　 　 2 ) 根据 广义 稳态 优化 控制算法 AMOP 的 第 3 步 ， 即 
+ vL + 1 = vL + ε L ( cL - vL ) ； 　 　 　 ( 2 ) 
+ 　 　 令 τ ≤ ε L ≤ B ( v ) , τ ＞ 0 , 其中 B ( v ) 是 v 的 函数 ， 从而 有 如下 的 点 - 集 映射 
+ 　 　 　 ( 3 ) 
+ 即 对于 给定 的 vL 和 cL ， 寻找 一个 vL + 1 ， 使得 vL + 1 ∈ e ( v ) ； 
+ 　 　 3 ) 根据上述 对 映射 u 和 w 的 定义 可知 ， 由 算法 AMOP 产生 的 映射 A 是 两者 的 组合 ， 即 
+ 
+ 　 　 定理 2 . 对于 文 ［ 1 ］ 提出 的 工业 过程 广义 稳态 优化 控制 问题 ( GOP ) ， 如果 满足 文 ［ 1 ］ 的 假设 1 和 假设 2 的 条件 ， 并且 
+ 　 　 1 ) 设定 点 容许 集合 C = ｛ c ∈ Ri : D ( c ) ≤ 0 ｝ 是 紧集且 是 凸 的 ， 其中 D : Ri → Rp ; 
+ 　 　 2 ) q ( ． ) 关于 c 是 可导 的 ， 并且 在 C 上 满足 Lipschitz 条件 ， 即 存在 常数 δ ＞ 0 ， 使得 
+ 
+ 式 中 ‖ ． ‖ 为 欧氏 范数 ； 
+ 　 　 3 ) 在 C 上 可导 ， 并且 在 C 上 一致 单调 ， 即 存在 常数 α ＞ 0 ， 使得 则 有 
+ 　 　 ( i ) 如果 选择 
+ 　 　 　 ( 4 ) ， ( 5 ) 
+ 那么 ， 点 - 集 映射 A 在 C ＼ Ω 上 是 闭 的 ， 其中 Ω C 是 广义 稳态 优化 控制算法 AMOP 的 解集 ， 即 
+ 
+ 　 　 ( ii ) 由 算法 AMOP 产生 的 解 序列 ｛ vL ｝ 满足 过程 约束条件 ， 并且 使得 GOP 问题 的 目标 函数 满足 　 
+ 　 　 证明 . 
+ 　 　 ( i ) 考虑 映射 u , 由于 C 是 紧集且 是 凸 的 ， 根据 题设 条件 ( 3 ) ， 在 C 上 一致 单调 ， 所以 对于 v ∈ C , c ( v ) 是 一个 单点 集 ， 即 有 c = c ( v ) ， 因此 u 在 C 上 是 一个点 - 点 连续 映射 ； 再 考虑 映射 w ， 因为 α ＞ 0 , v ∈ C ， 选择 τ , β 使 满足 式 ( 5 ) ， 即 
+ 　 　 根据 式 ( 4 ) ， 得 τ ≤ B ( v ) ； 另一方面 ， 对于 ( v , c ) ∈ C × C , c ≠ v ， 设 
+ 并记 dL = cL - vL , 则 当 L 充分 大时 ， 有 从而 y = v + ε ． d . 
+ 　 　 又 因为 根据 式 ( 3 ) ， 得 y ∈ e ( v ) . 再 由 定义 2 可知 ， 映射 w 在 点 ( v , c ) 处 是 闭 的 ； 而 v ∈ C , c ∈ C 在 C 上 是 任意 的 ， 所以 w 在 C × C 上 是 闭 的 . 
+ 　 　 根据 映射 u 的 连续性 和 w 的 闭性 ， 由 引理 1 可知 点 - 集 映射 A = w ． u , 　 c ≠ v ， 在 v ∈ C 是 闭 的 ， 亦 即 映射 A ： C 　 ∈ 　 v → A ( v ) ∈ 2C 在 C ＼ Ω 上 是 闭 的 . 
+ 　 　 ( ii ) 根据 题设 条件 ( 2 ) 以及 C 的 凸性 ， 可 得 下面 不等式 ［ 4 ］ 
+ 　 　 　 ( 6 ) 
+ 设 vL ∈ C , vL + 1 ∈ C ， 则 由式 ( 2 ) 和 ( 6 ) ， 得 
+ 　 　 ( 7 ) 
+ 式 中 cL ∈ c ( vL ) ， 因为 cL 是 MOP 问题 在 给定 vL ∈ C 时 的 最 优点 ， 因此 MOP 问题 应 满足 Luenberger 最优性 一阶 必要条件 ( 引理 2 ) ， 即 

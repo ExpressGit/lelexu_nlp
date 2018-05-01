@@ -1,0 +1,111 @@
+环境 科学 学报 
+ ACTA 　 SCIENTIAE 　 CIRCUMSTANTIAE 
+ 1998 年 5 月 第 18 卷 第 5 期 科技期刊 
+ 钴 氧化物 纳米 催化剂 的 制备 及 对 N2O 的 分解 * 
+ ( 郭 　 林 ) 
+ ( ( 中国科学院 高能物理 所 同步 辐射 实验室 ， 北京 100039 ) ) 
+ 　 　 ( 吴 　 波 　 庄亚辉 ) 
+ ( ( 中国科学院 生态环境 研究 中心 ， 北京 100085 ) ) 
+ 李前 树 　 朱鹤孙 
+ ( 北京理工大学 材料 研究 中心 ， 北京 ， 100081 ) 
+ 
+ 摘要 　 用微 乳液 法 制备 了 表面 经 硬脂酸 ( ST ) 修饰 的 4 种 不同 价态 的 钴 氧 化合物 纳米 微粒 . 初步 摸索 了 合成 的 最佳 条件 ， 利用 XRD 、 TEM 、 IR 等 测试 手段 对 制备 的 钴 纳米 催化剂 的 物相 、 粒子 的 形貌 和 粒度 及 钴 氧化物 纳米 微粒 与 表面 活性剂 有机 基团 间 的 结合 方式 进行 了 表征 ， 结果表明 制得 的 纳米 微粒 呈 球状 、 粒度 随 热处理 温度 升高 而 增大 ， COO - 与 Co ( Ⅱ ， Ⅲ ) 离子 间 以 化学键 相结合 . 利用 流动 法 固定床 反应器 研究 了 钴 氧化物 纳米 催化剂 对 N2O 的 催化 分解 活性 ， 实验 结果表明 ， 在 350 ℃ 焙烧 制得 的 Co2O3 纳米 粒子 对 N2O 的 催化 分解 有 较 好 的 催化活性 . 
+ 关键词 　 钴 氧 化合物 ； 纳米 微粒 ； N2O 催化 分解 . 
+ PREPARATIONOFCOBALTOXIDENANOPARTICLESCATALYSTANDITSCATALYTICACTIVITYFORTHEN2ODECOMPOSITIONREACTION 
+ 
+ GuoLin 
+ ( InstituteofHighEnergyPhysics , ChinesAcademyofSciences , Beijing100039 ) 
+ WuBo , ZhuangYahui 
+ ( ResearchCenterforEco - EnvironmentalSciences , ChineseAcademyofSciences , Beijing100085 ) 
+ LiQianshu , ZhuHesun 
+ ( ResearchCenterforMaterialScience , BeijingInstituteofTechnology , Beijing100081 ) 
+ 
+ ABSTRACT 　 Thepreparationoffourkindsofcobalt ( Ⅱ , Ⅲ ) oxidenanoparticlescatalystwhichthesurfaceweremodifiedbystearicacidusingmicroemulsionmethodswerereported . Themostfavorableexperimentalconditionsforthepreparationofnanoparticleswerestudied . Thenanoparticlessize , phaseandtheconnectwaybetweenthenanoparticlesandthestericacidwerecharacterizedusingtheTEM , FTIR , XRD . Theexperimentsindicatethatthenanoparticlestaketheshapeofsphereandthenanoparticles ' sizeincreaseswiththecalcitetemperature . Theconnectingwaybetweencobaltionandthecalcitebond . Wealsostudiedthecatalyticactivityofcobalt ( Ⅱ , Ⅲ ) oxidenanoparticlesforN2Odecompositionreactionusingthefixedbedreactoroffluidmethod . Theresultsshowthatthesamplecalcinedon350 ℃ hasthebestcatalysisactivity . 
+ Keywords 　 cobalt ( Ⅱ , Ⅲ ) oxide , nanoparticles , N2Odecomposition . 
+ 　 　 
+ 1 　 引言 
+ 　 　 大气 中 的 一氧化二氮 ( N2O ) 是 氮 循环 的 重要 组成部分 ， 它 是 一种 温室 气体 ， 对 地球 辐射 平衡 的 影响 估计 为 CO2 的 10% — 15% ［ 1 ］ . 在 对流层 ， N2O 很 稳定 ， 停留时间 长达 120 年 ， 当 传输 到 平流层 中 ， 它 可 转化成 NO ， 进而 引起 臭氧层 的 破坏 . N2O 在 大气 中 的 背景 浓度 ， 由 工业革命 前 的 280 — 290ppb 增至 1990 年 的 310ppb ［ 2 ］ ， 并且 仍 以 每年 约 0.2% — 0.3% 的 速率 增加 . 随着 人们 环保 意识 的 不断 增强 ， 研究 能够 减少 N2O 向 大气 中 排放 的 有效 方法 具有 十分 重要 的 理论 和 实际意义 . 
+ 　 　 催化 是 纳米 粒子 应用 的 重要 领域 之一 ， 利用 纳米 粒子 甚高 的 比 表面积 与 活性 ， 可以 显著 地 提高 催化 效率 . 近十年 来 ， 超微 粒子 作为 催化剂 已有 一些 应用 ， 利用 不同 方法 制备 超微 粒子 作为 催化剂 用于 不同 化学反应 的 研究 一直 是 催化 研究 的 热点 之一 ， 实验 结果表明 超微 粒子 作为 催化剂 效果 明显 优于 相应 的 体相 材料 ， 国际 上 已 将 超微 粒子 作为 第四代 催化剂 进行 研究 与 开发 ［ 3 — 6 ］ . 
+ 　 　 将 钴 氧化物 纳米材料 作为 催化剂 用来 催化 分解 N2O 至今 还 未 见 报导 . 本文 利用微 乳液 法 可以 通过 控制 溶剂 用量 和 表面 活性剂 用量 及 适宜 的 反应 条件 ， 获得 粒径 分布 窄 、 粒度 小 ， 且 表面 包覆 有机 官能团 的 纳米材料 的 特点 ［ 7 — 10 ］ ， 在 不同 热处理 条件 下 制备 了 CoO 、 Co2O3 ( 含 少量 CoO ) 、 和 Co3O4 纳米 催化剂 样品 ， 研究 了 钴 氧化物 纳米 催化剂 对 该 反应 的 催化作用 . 
+ 　 　 
+ 2 　 实验 部分 
+ 2.1 　 纳米 催化剂 的 制备 
+ 　 　 将 一定 浓度 的 CoCl2 水溶液 加入 到 100mL 的 二甲苯 溶液 中 ， 在 搅拌 下 加入 一定 体积 的 硬脂酸 ( ST ) 的 乙醇溶液 ， 搅拌 0.5 h ， 保持 上述 搅拌 速度 ， 用滴液 漏斗 向 此 混合 体系 中 加入 一定 浓度 的 NaOH 水溶液 ， 全部 滴 加完 后 ， 继续 搅拌 0.5 h ， 静止 3h ， 取 上层 紫罗兰色 透明 溶液 回流 1h 除 结构 水 ， 减压蒸馏 得 紫罗兰色 透明 有机 凝胶 ， 110 ℃ 烘干 . 最佳 条件 下制 得 的 样品 在 空气 中 分别 在 200 ℃ 、 300 ℃ 、 350 ℃ 、 400 ℃ 、 450 ℃ 、 500 ℃ 温度 下 焙烧 1h ， 分别 以 a , b , c , d , e , f 表示 . 
+ 2.2 　 催化剂 的 表征 
+ 　 　 用 721 型 分光 光度计 测定 水相中 Co2 + 含量 ， 计算 有机 相 的 萃取 率 . 用 HITACHI - 800 型 透射 电子显微镜 测定 纳米 微粒 的 粒径 大小 和 形状 . 用 PE - 1600 型 FTIR 红外光谱仪 测 200 ℃ 及 350 ℃ 处理 得 纳米 微粒 样品 的 红外 光谱 . 用 日本 岛津 XD - 3 A型 X射线 衍射 仪 测定 钴 纳米 微粒 的 五 相及 随 焙烧 温度 改变 的 变化 情况 . 
+ 2.3 　 催化剂 活性 的 评价 
+ 　 　 纳米 微粒 催化剂 对 N2O 的 催化活性 的 考察 在 流动 法 固定床 反应器 上 进行 . 反应 温度 300 ℃ — 400 ℃ ， 反应 产物 用 SP - 3410 气相 色谱分析 ， 电子 捕获 检测器 . 
+ 
+ 3 　 结果 与 讨论 
+ 3.1 　 NaOH 的 用量 及 硬脂酸 ( ST ) 的 用量 对 萃取 率及 粒度 的 影响 
+ 　 　 本 实验 试剂 的 浓度 分别 为 ： CoCl2 ( 0.1 mol / L ) ， ST ( 0.01 mol / L ) ， NaOH ( 0.1 mol / L ) ， 固定 CoCl2 的 体积 为 20mL ， 二甲苯 的 体积 为 100mL . 当 研究 ［ OH - ］ 对 萃取 率及 粒度 的 影响 时 ， ST 的 用量 为 25mL . NaOH 及 ST 加入 量 对 萃取 率及 粒度 的 影响 如表 1 和表 2 所示 . 
+ 表 1 　 NaOH 加入 量 对 萃取 率及 粒度 的 影响 
+ Table1TheeffectofOH - capacityontheextractingefficiencyandnanoparticlesize 
+ 
+ 样品 编号 123456 
+ NaOH 体积 , mL789101112 
+ 萃取 率 ， % 64.368 . 175.384 . 576.262 . 4 
+ 粒度 ， nm9.0 ± 2.07 . 5 ± 1.56 . 2 ± 1.05 . 0 ± 0.66 . 4 ± 1.08 . 5 ± 1.8 
+ 
+ 　 　 由表 1 可知 ， 当 NaOH 量 不足 时 沉淀 剂量 少 ， 不足以 生成 足够 的 CoO 超 微粒 ， 萃取 率低 ， 且 在 高速 搅拌 的 条件 下 OH - 进入 水核少 ， 形成 的 颗粒 小 ， 分布 较窄 . 当 NaOH 过多时 ， 使 微粒 带有 一定 的 负电荷 ， 影响 ST 的 包覆 ， 使 萃取 率 降低 ， 我们 制得 的 用 十二 烷基苯 磺酸钠 ( DBS ) 包覆 得 CoO 纳米 微粒 也 遵从 上面 的 规律 ［ 11 ］ . 本 实验 条件 下 最佳 NaOH 用量 为 10mL 左右 . 
+ 
+ 表 2 　 ST 加入 量 对 萃取 率及 粒度 的 影响 
+ Table2Theeffectofstearicacidcapacityontheextractingefficiencyandnanoparticlesize 
+ 
+ 样品 编号 123456 
+ ST 体积 , mL152025303540 
+ 萃取 率 ， % 48.462 . 280.185 . 375.966 . 4 
+ 粒度 ， nm17.0 ± 2.012 . 0 ± 1.57 . 0 ± 1.55 . 0 ± 0.58 . 0 ± 1.014 . 0 ± 2.0 
+ 
+ 　 　 由表 2 看出 ， ST 的 用量 直接 影响 微粒 的 疏水 性质 . 当 ST 用量 不足 时 ， 由于 不能 完全 包覆 ， 使 萃取 率低 ， 粒子 的 平均 粒径 大且 分布 宽 ， 随着 ST 加入 量 的 增加 ， 萃取 率 增加 ， 粒径 变小 且 趋于 单 分散 ， 萃取 率达 最大值 时 ， 单层 包覆 完全 . 继续 加入 ， 由于 多层 吸附 及 乳化 作用 ， 使 微粒 的 疏 水性 降低 导致 萃取 率 下降 ， 最佳 ST 的 用量 为 30mL 左右 . 
+ 3.2 　 物相 的 组成 与 粒径 
+ 　 　 选则 最佳 条件 下 制备 的 样品 ， 分别 在 200 ℃ 、 300 ℃ 、 350 ℃ 、 400 ℃ 热处理 1h 后 进行 XRD 的 测试 ， 所得 样品 谱 图 如图 1 所示 . 
+ 　 　 
+ 
+ 
+ 图 1 　 样品 的 X射线 衍射 谱 图 
+ a.200 ℃ b.300 ℃ c.350 ℃ d.400 ℃ 
+ Fig.1 XRDPatternofCoOUFP 
+ 由图 可知 ， 200 ℃ 热处理 的 样品 ( a ) ， XRD 谱线 出线 宽化 现象 ， 但 图谱 中 的 峰尖 位置 尚 能 确定 ， 与 CoO 的 标准 谱线 相比 衍射角 略微 有所 增大 . 这是 由于 制得 的 样品 粒度 非常 小及 结晶 不 完全 的 缘故 ， 据 文献 ［ 11 ］ 及 JCPDS 卡 ( 9 - 402 ) 可知 此时 生成 的 为 CoO . 由 300 ℃ 热处理 ( b ) 的 XRD 谱线 看 ， 衍射 峰 除了 具有 与 200 ℃ 样品 的 衍射 峰峰 位 位置 几乎 完全相同 的 几个 峰 ( 此时 峰 变窄 强度 增强 说明 结晶度 增加 ) 外 ， 又 出现 几个 新峰 ， 由 文献 ［ 12 ］ 及 与 标准 卡 对照 可知 ， 此时 制得 的 样品 中 含有 少量 的 Co2O3 . 对于 350 ℃ 热处理 的 样品 ( c ) 来讲 则 CoO 则 逐渐 转变 为 Co2O3 . 在 400 ℃ 温度 下 热处理 后 样品 ( d ) 转变 为 Co3O4 . 
+ 　 　 图 2 为 最佳 条件 下制 得 的 200 ℃ ( a ) 及 350 ℃ ( c ) 样品 的 透射电镜 ( TEM ) 图 . 
+ 
+ 
+ 图 2 　 样品 a 和 样品 c 纳米 微粒 的 透射电镜 照片 
+ Fig.2 TEMPhotographofsampleaandc 
+ 
+ 
+ 图 3 　 样品 a , c 纳米 微粒 的 红外 光谱 
+ ( a.200 ℃ 样品 c.350 ℃ 样品 ) 
+ Fig.3 IRspectraofsampleaandc 
+ 由图 2 可知 200 ℃ 制得 的 CoO 及 350 ℃ 制得 的 含有 少量 CoO 的 Co2O3 纳米 微粒 近似 呈 球形 对称 状 ， 且 粒度 分布 较 均匀 . 按 统计分析 ， 所制 得 的 样品 的 粒径 为 5nm 和 11nm . 
+ 3.3 　 ST 与 CoO 超微 粒子 间 的 结合 方式 
+ 　 　 图 3 为 200 ℃ 热处理 ( a ) 和 350 ℃ 热处理 ( c ) 制得 的 固体 粉末 样品 的 红外 图谱 . 
+ 　 　 由图 中 a ( 200 ℃ ) 可 看出 ， 在 590cm - 1 附近 的 峰 为 Co — O 键 的 伸缩 振动 吸收 峰 ， 3000 ， 2900 ， 1460 ， 1370cm - 1 附近 4 个 带 对应 CH3CH2 伸缩 振动 ， 720cm - 1 对应 ( CH2 ) n ( n ≥ 4 ) 的 弯曲 振动 ， 而 对应 于 硬脂酸 的 羰基 伸缩 振动 带 1700cm - 1 则 基本 消失 取而代之 的 为 1550 — 1430cm - 1 对应 于 COO — Co2 + 的 伸缩 振动 ， 而 位于 928cm - 1 的 — OH 的 弯曲 振动 完全 消失 ， 这 表明 ， ST 以 羧基 ( COO — ) 形式 结合 于 CoO 纳米 微粒 的 表面 . 对于 样品 c ( 350 ℃ ) 来讲 ， 除 与 样品 a 谱线 相同 外 ， 在 580cm - 1 处 显示 出 一个 对应 于 Co3 + 的 弱 伸缩 振动 ， 由 文献 ［ 12 ］ 可知 ， 样品 中 含有 Co2O3 成分 . 红外 光谱 的 分析 结果 与 XRD 的 分析 结果 是 相符合 的 . 
+ 3.4 　 催化剂 活性 
+ 　 　 图 4 示出 不同 焙烧 温度 下制 得 的 催化剂 样品 在 不同 的 反应 温度 时 对 N2O 催化 分解 的 活性 . 
+ 
+ 
+ 图 4 　 样品 的 催化活性 
+ ( GHSV = 15000h - 1 , 0.10 g 催化剂 ) 
+ Fig.4 Thecatalyticactivitiesofthesamples 
+ 为了 使 每个 样品 在 反应 过程 中物 相 保持 不变 ， 每个 样品 的 反应 温度 不 高于 它 的 焙烧 温度 . 如 ： 对于 300 ℃ 制备 的 CoO 样品 ， 我们 仅 考察 它 在 300 ℃ 的 催化活性 ， 而 对于 350 ℃ 制备 的 样品 ， 则 我们 考察 其 300 ℃ 、 325 ℃ 和 350 ℃ 3 个 温度 的 催化活性 ； 对于 400 ℃ ， 450 ℃ ， 500 ℃ 条件 下 制备 的 3 种 样品 d 、 e 、 f ， 我们 分别 考察 它们 在 300 ℃ 、 325 ℃ 、 350 ℃ 和 400 ℃ 的 催化活性 . 通过 上述 实验 ， 可以 得到 以下几点 结论 ： 
+ 　 　 1 . 从 几条 催化活性 曲线 来看 ， 大致 可以 分为 两类 ： 即 焙烧 温度 为 350 ℃ 及 400 ℃ 的 样品 为 一类 ， 450 ℃ 和 500 ℃ 的 样品 为 另一类 . 第一类 的 催化剂 的 催化活性 随着 反应 温度 的 升高 而 升高 ， 另一类 则 其 催化活性 先随 温度 的 升高 而 升高 ， 然而 又 随着 温度 的 升高 而 下降 . 
+ 　 　 2.350 ℃ 焙烧 条件 下 制备 的 催化剂 ， 在 反应 温度 为 300 ℃ 、 325 ℃ 和 350 ℃ 时 表现 出 最好 的 催化活性 . 
+ 　 　 3.400 ℃ 焙烧 出 的 催化剂 样品 在 反应 温度 为 300 ℃ 和 350 ℃ 时 表现 出 的 活性 与 350 ℃ 焙烧 的 样品 催化活性 相差 10% 左右 ， 而 450 ℃ 和 500 ℃ 条件 下 制备 出 的 样品 的 催化剂 在 350 ℃ 反应 温度 下 的 催化活性 要 比 300 ℃ 反应 温度 下 的 催化活性 高出 20% . 
+ 　 　 4 . 焙烧 温度 为 400 ℃ ， 450 ℃ 及 500 ℃ 的 催化剂 材料 在 反应 温度 低于 350 ℃ 时 ， 其 催化活性 表现 出随 焙烧 温度 的 升高 ， 其 催化活性 随之 增大 的 规律 . 
+ 　 　 从 上述 的 讨论 可知 ， 对于 N2O → N2 + O2 反应 ， 样品 b , c , d , e , f 纳米 微粒 皆 具有 良好 的 催化作用 ， 其中 以 Co2O3 纳米 微粒 催化剂 ( 含有 少量 的 CoO ) 对 N2O 分解 的 催化 效果 最佳 . 这个 结果 不能 单纯 用 量子 尺寸 效应 引起 的 比 表面积 增大 来 解释 ， 因为 ， 对于 样品 c 其 粒径 要 较 样品 b 要 大 ， 其比 表面积 要 小于 样品 b ， 即 c 的 比 表面积 小 ， 催化活性 却 大 ； 由 400 ℃ 热处理 得到 的 样品 主要 为 Co3O4 ， 其 催化活性 要 较 样品 c 小 ， 所以 ， Co2O3 纳米 微粒 对 氧化亚氮 的 催化 分解 有 较 高 的 催化作用 . 
+ * 国家自然科学基金 ( 29477277 ) 及 高等学校 博士点 基金 ( B - 8 - 532000 ) 资助 课题 
+ 
+ 参考文献 
+ 　 1 　 联合国环境规划署 ， 刘重业 等 译 . 世界 环境 数据 手册 . 北京 ： 中国 科学技术 出版社 ， 1990 ： 19 — 20 
+ 　 2 　 BabrO , ProbertSD . Nitronsoxideintheearch ' satmosphone . AppliedEnergy , 1992 , 41 ( 3 ) : 177 — 200 
+ 　 3 　 DeStefanisA , TomlinsonAAG . Nanostructuredmesoporoussilides : fromcolloidstomoleculardynamic . MaterialsSciencesForum , 1995 , 40 ( 235 — 238 ) ： 901 — 910 
+ 　 4 　 PajorkGM . Aerogel - catalysis . AppliedCati , 1991 , 72 ( 1 — 2 ) ： 217 
+ 　 5 　 BrowerWE , MontesJrAJ . Nitricoxidereductioncatalyzedbymechanicallyalloyednickel - zirconiumpowder . MaterialsSciencesForum , 1995 , 40 ( 235 — 238 ) ： 935 — 940 
+ 　 6 　 HagfeldA , GratzelM . Light - inducedredoxreactioninnanocrystallinesystems . ChemRev , 1995 , 95 ( 1 ) : 49 — 75 
+ 　 7 　 ModesS , LianosP . Luminescenceprobestudyoftheconditionsaffectingcolloidalsemiconductorgrowthinreversemicellesandwater - in - oilmicroemulsions . JPhysChem , 1989 , 93 : 5854 
+ 　 8 　 MotteL , PetieCetal . Synthesisofcadmiumsulfideinsituincadumiumbis ( ethyl - 2 - hexyl ) sulfosuccinatereversemicelle : polydispersityandphontochemicalreaction . Langmuir , 1992 , 8 : 1049 
+ 　 9 　 KarayigitogluCF , TataMetal . ModificationofCdSnanoparticlecharacteristicsthroughsynthesisinreversedmicellesandexposuretoenhancedgaspressuresandreducedtemperatures . ColloidsandSurfacesA , 1994 , 82 : 151 
+ 10DominicWalsh , StephenMann . Chemicalsynthesisofmicroskeletalcalciumphosphateinbicontinuousmicroemulsions . ChemMater , 1996 , 8 : 1944 
+ 11 郭 　 林 ， 武永军 ， 关荐 伊 ， 邹炳锁 . CoO 纳米 微粒 的 制备 与 表征 . 仪器仪表 学报 ， 1996 ， 1 ： 233 
+ 12 　 王晓慧 ， 王子 臣 ， 赵幕愚 . Co2O3 超 微粒 的 制备 及 表征 . 高等学校 化学 学报 ， 1991 , 129 ( 11 ) : 1423 

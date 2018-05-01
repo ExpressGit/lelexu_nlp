@@ -1,0 +1,234 @@
+软件 学报 
+ JOURNALOFSOFTWARE 
+ 2000 　 Vol.11 　 No.2 　 P.143 - 158 
+ 
+ 
+ 
+ 用 语言 云 模型 发掘 关联 规则 
+ 李德 毅 　 邸凯昌 　 李德 仁 　 史雪梅 
+ 摘 　 要 ： 该文 提出 用 语言 云 模型 用于 KDD 中 知识 表达 和 不确定性 处理 , 引入 了 多维 云 模型 作为 一维 模型 的 扩展 . 语言 云 的 数字 特征 量 将 语言 值 的 模糊性 和 随机性 用 统一 的 方式 巧妙 地 综合 到 一起 , 基于 云 模型 的 概念 层次结构 可以 跨越 定量 和 定性 知识 之间 的 鸿沟 . 为了 发现 强 关联 规则 , 属性 值要 在 较 高 的 概念 层上 泛化 , 同时 允许 相邻 属性 值 或 语言 项间 有 重叠 . 这种 软 划分 可以 模仿 人类 的 思想 , 使 发现 的 知识 具有 稳健性 . 将 基于 云 模型 的 泛化 方法 与 Apriori 算法 结合 起来 , 从 空间 数据库 中 发掘 关联 规则 . 试验 显示 了 其 有效性 、 高效性 和 灵活性 . 
+ 关键词 ： 语言 云 模型 , 关联 规则 , Apriori 算法 , 虚拟 云 , 空间数据 发掘 . 
+ 分类号 ： TP311 
+ MiningAssociationRuleswithLinguisticCloudModels 
+ LIDe - yi 
+ ( InstituteofChinaElectronicSystemEngineeringBeijing100036 ) 
+ DIKai - chang 　 LIDe - ren 
+ ( SchoolofInformationEngineeringWuhanTechnicalUniversityofSurveyingandMappingWuhan430070 ) 
+ SHIXue - mei 
+ ( DepartmentofComputerScienceHongKongPolytechnicUniversityHongKong ) 
+ Abstract ： ThispaperpresentslinguisticcloudmodelsforknowledgerepresentationanduncertaintyhandlinginKDD . Multi - dimensionalcloudmodelsareintroducedastheextensionofone - dimensionalones . Thedigitalcharacteristicsoflinguisticcloudswellintegratethefuzzinessandrandomnessoflinguistictermsinaunifiedway . Conceptualhierarchiesbasedonthemodelscanbridgethegapbetweenquantitativeknowledgeandqualitativeknowledge . Inordertodiscoverstrongassociationrules , attributevaluesaregeneralizedathigherconceptlevels , allowingoverlappingbetweenneighborattributevaluesorlinguisticterms . Andthiskindofsoftpartitioningcanmimichumanbeing ' sthinking , whilemakingthediscoveredknowledgerobust . CombiningthecloudmodelbasedgeneralizationmethodwithApriorialgorithmforminingassociationrulesfromaspatialdatabaseshowsthebenefitsineffectiveness , efficiencyandflexibility . 
+ Keywords ： Linguisticcloudmodel , associationrules , Apriorialgorithm , virtualcloud , spatialdatamining . ▲ 
+ 　 　 KDD ( knowledgediscoveryindatabases ) , ordatamining , isthenon - trivialextractionofimplicit , previouslyunknown , andpotentiallyusefulknowledgefromlargenumberofsmall , veryspecificinstances ［ 1 , 2 ］ . Miningassociationrulesisanimportantissueinapplications . Atypicalexampleofanassociationruleinretailindustryislike “ 90% customerswhobybreadandbutteralsobuymilk ” . Suchrulesareveryusefulformarketerstodevelopandimplementcustomizedmarketingprogramsandstrategies . 
+ 　 　 TheproblemofminingassociationruleswasfirstintroducedinRef . ［ 3 ］ . Sincethen , variousalgorithmshavebeenproposedanddeveloped , suchasAIS ［ 3 ］ , SETM ［ 4 ］ , Apriori ［ 5 ］ , DHP ［ 6 ］ , FUP ［ 7 ］ , FUP2 ［ 8 ］ , etc . Amongthealgorithmsreported , Aprioriisaninfluentialone . Itmakesmultiplepassesoverthetransactiondatafordiscoveringlargeitemsets . Inthefirstpass , itcountsthesupportsofindividualitemsanddeterminesthelarge1 - itemsets . Ineachsubsequentpass , anumberofcandidatelargeitemsaregeneratedbasedonthelargeitemsetsfoundinthelastpass , andthentheactualsupportsforthecandidateitemsetsarecountedbyscanningthedata . Theprocesscontinuesuntilnonewlargeitemsetsarefound . ApriorioutperformsAISandSETMbyafactorofthreeforsmallproblemstomorethananorderofmagnitudeforlargeproblems ［ 5 ］ . DHPalgorithmuseshashingtechniquetofurtherreducethenumberofcandidateitemsets ［ 6 ］ . 
+ 　 　 SrikantandAgrawalintroducedtheproblemofminingquantitativeassociationrulesinlargerelationaltablescontainingbothquantitativeandcategoricalattributes ［ 9 , 10 ］ . TheassociationrulesminedfromtransactiondataarereferredtoasBooleanassociationrulesbecauseatransactionconsistsofbinaryattributes ( items ) . TheymappedthequantitativeassociationrulesproblemintoBooleanassociationrulesbyrepresentingeachattributewithasmanyfieldsasthenumberofattributevaluesinsteadofjustonefield . Ifthedomainofvaluesforaquantitativeapproachislarge , onecanfirstpartitionthevaluesintointervalsandthenmapeach 〈 attribute , interval 〉 pairtoaBooleanattribute . Andthen , anyalgorithmforfindingBooleanassociationrulescanbeusedtofindquantitativeassociationrules . 
+ 　 　 Theproblemofmaintainingassociationrules , orincrementalminingofassociationrules , wasfirststudiedinRefs . ［ 7 , 11 ］ . TheFUPalgorithmwasproposedtoupdatetheassociationrulesinadatabasewhennewtransactionswereaddedtothedatabase . Itstoresthecountsofallthelargeitemsetsfoundinapreviousminingoperationtoreducetheworkofgeneratingcandidatelargeitemsets . FUP2isageneralizationofFUP . Itcanupdatetheexistingassociationruleswhentransactionsareaddedanddeletedfromthedatabase ［ 8 ］ . BothFUPandFUP2areefficient . 
+ 　 　 Theabovealgorithmsalldiscoverassociationrulesatasingleconceptlevel . TheproblemofminingmultiplelevelassociationruleswasstudiedinRef . ［ 12 ］ . Itextendedtheexistingsinglelevelassociationrule 　 miningalgorithmsandexploredthetechniquesforsharingdatastructuresandintermediateresultsacrosslevels . AsimilarworkwasreportedinRef . ［ 13 ］ . ItdiscoveredassociationrulesatanylevelofthetaxonomybyextensionoftheApriorialgorithm . 
+ 　 　 Parallelminingofassociationrules ［ 14 ～ 16 ］ , metaruleguidedminingofmultidimensionalassociationrules ［ 17 ］ , miningofspatialassociationrules ［ 18 ］ , havealsobeenstudiedrecently . 
+ 　 　 Asawhole , researchersinKDDpaymuchattentiontodevelopingandimplementingefficientdataminingtechniques , whilestudiesonknowledgerepresentationinKDDareseldomreported ［ 19 ～ 22 ］ . Tomaketheknowledgeminedfromdatabasesunderstandableandsimilartothedescriptionofhumanexperts , weneedarepresentationthatcanintegratequantitativeknowledgeandqualitativeknowledgeandhandleuncertaintywithrandomnessandfuzziness . InRefs . ［ 23 , 24 ］ , alinguisticcloudmodelwaspresentedtomeettheserequirements . Themathematicaldescriptionofacloudintegratesthefuzzinessandrandomnessoflinguistictermsinaunifiedway . Knowledgerepresentationbasedonthismodelbridgesthegapbetweenqualitativeknowledgeandquantitativeknowledge . Mappingbetweenquantitativesandqualitativesknowledgebecomesmucheasierandinterchangeable ［ 24 ］ . 
+ 　 　 Therestofthispaperisorganizedasfollows . InSection1 , wedescribethelinguisticcloudmodelandextendittotwo - ormulti - dimensionalones . InSection2 , weexploretheapplicationofthemodeltomineassociationrulesatanyhigherlevelofconceptualhierarchiesfromaspatialdatabasebymeansofApriorialgorithm . AnexperimentalresultisgiventoshowthediscoveredassociationrulesathigherlevelsminedfromaChinesegeospatialandeconomicdatabase . TheconclusionsarebriefedinSection3 . 
+ 
+ 1ALinguisticCloudModel 
+ 1.1 Linguisticatomsandcompatibilityfunctions 
+ 　 　 Ourpointofdepartureinthispaperistorepresentlinguistictermsinlogicalsentencesorrules . Weimaginealinguisticvariablethatissemanticallyassociatedwithalistofallthelinguistictermswithinauniverseofdiscourse . Forexample , “ age ” isalinguisticvariableifitsvaluesare “ young ” , “ middleage ” , “ old ” , “ veryold ” , andsoforth , ratherthanthenaturalnumbers . Inthemoregeneralcases , alinguisticvariableisaquintuple : 
+ { X , T ( x ) , U , S , CX ( u ) } 
+ Xisthenameofthevariable . T ( x ) istheterm - setofX ; thatis , thecollectionofitslinguisticvalues . Uisauniverseofdiscourse . SisasyntacticgeneratorthatgeneratesthetermsinT ( x ) . CX ( u ) isacompatibilityfunction . ItdenotestherelationshipbetweenatermxinT ( x ) andU . Moreprecisely , thecompatibilityfunctionmapstheuniverseofdiscourseintotheinterval ［ 0 , 1 ］ foreachuinU . 
+ 　 　 Thecompatibilityvaluehasarelationshipwithbothfuzzylogicandprobability . ConsiderasetoflinguistictermsTinauniverseofdiscourseU , forexample , thelinguisticterm “ young ” intheinterval ［ 0 , 100 ］ . Thecompatibilityof “ 28yearsold ” with “ young ” is0.7 . Withthefuzzylogicpointofview , thecompatibilityvalue “ 0.7 ” isanindicationofthepartialmembershipwithwhichtheelement “ age - value28 ” belongstothefuzzyconcept “ young ” . Tounderstandtherelationshipwithprobabilityontheotherhand , thecorrectinterpretationofthecompatibilityvalue “ 0.7 ” , givenbyone ' sconception , isthatitismerelysubjectiveindication . Humanknowledgedoesnotconformtosuchafixedcrispmembershipdegree “ 0.7 ” at “ age - value28 ” . Butthereisalwaysatendencyshowingthatthemembershipdegreeat “ age - value28 ” isastablerandomnumber , underwhichasubjectiveprobabilitydistributionisobeyed . Thedegreeofcompatibilitytakesonrandomvaluesitself . Thistypeofrandomnessisadheredtothefuzziness . 
+ 　 　 Regardingsyntacticgeneration , weshallusuallyassumethatalinguisticvariableisstructuredinthesensethatitisassociatedwithtworules . Thefirstistheatomgeneratorrule . Itspecifiesthemannerinwhichalinguisticatom , whichcannotbeslicedintoanysmallerparts , maybegenerated . Thesecond , thesemanticrule , specifiesaprocedureforcomputingcompositelinguisticterms , basedonlinguisticatoms . 
+ 　 　 Inadditiontolinguisticatoms , alinguistictermmayinvolveconnectives ( suchas “ and ” , “ or ” , “ either ” , and “ neither ” ) , thenegation ( “ not ” ) andthehedges ( suchas “ very ” , “ moreorless ” , “ completely ” , “ quite ” , “ fairly ” , “ extremely ” and “ somewhat ” ) . Thelinguisticconnectives , hedgesandnegationmaybetreatedas ( someformof ) softoperatorsthatmodifythemeaningoftheiroperands — — linguisticatoms , inasoftcomputingfashiontobecomecompositelinguisticterms . Thatisthebusinessofthesemanticrule . 
+ 1.2 Theconceptoflinguisticclouds 
+ 　 　 Cloudmodelisamodeloftheuncertaintransitionbetweenalinguistictermofaqualitativeconceptanditsnumericalrepresentation . Inshort , itisamodeloftheuncertaintransitionbetweenqualitativesandquantitatives . 
+ 　 　 LetUbethesetU = { u } , astheuniverseofdiscourse , andTalinguistictermassociatedwithU . ThemembershipdegreeofuinUtothelinguistictermT , CT ( u ) , isarandomnumberwithastabletendency . CT ( u ) takesthevaluesin ［ 0 , 1 ］ . AcompatibilitycloudisamappingfromtheuniverseofdiscourseUtotheunitinterval ［ 0 , 1 ］ . Thatis , 
+ CT ( u ) : U → ［ 0 , 1 ］ , u ∈ Uu → CT ( u ) . 
+ 　 　 Figure1showsappropriatecompatibilitycloudsforthelinguisticterms “ about20 ” , “ teenager ” and “ twenty - something ” fromtheterm - setofthelinguisticvariable “ Age ” . Thegeometryofthecompatibilitycloudisagreataidinunderstandingtheuncertaintyofthetransitionbetweenalinguistictermanditsnumericalrepresentation . Firstofall , themappingfromallu ∈ Utotheinterval ［ 0 , 1 ］ isaone - pointtomulti - pointtransition , producingacompatibilitycloud , ratherthanamembershipcurve . Traditionally , themembershipfunctionofafuzzysetisaone - pointtoone - pointmappingfromaspaceUtotheunitinterval ［ 0 , 1 ］ . Afterthemappingtheuncertaintyofanelementbelongingtothefuzzyconceptbecomescertaintothatdegree , aprecisenumber . Theuncertaincharacteristicsoftheoriginalconceptarenotpassedontothenextstepofprocessingatall . Secondly , anyparticulardropofthecloudmaybepaidlittleattentionto . However , thetotalshapeofthecloud , whichisvisible , elastic , boundlessandmovable , ismostimportant . Thatiswhyweusetheterminology “ cloud ” tonameit . Thirdly , theMEC ( mathematicalexpectedcurve ) ofacompatibilitycloudmaybeconsideredasitsmembershipfunctionfromthefuzzysettheorypointofview . Finally , thedefinitionhaseffectivelyintegratedthefuzzinessandrandomnessofalinguisticterminaunifiedway . 
+ 
+ Fig.1 Variouslinguistictermsforthelinguisticvariable “ Age ” 
+ 1.3 Digitalcharacteristicsofacloud 
+ 　 　 Thenormalcompatibilitycloudsaremostusefulinrepresentinglinguisticatomsbecausenormaldistributionshavebeensupportedbyresultsineverybranchofbothsocialsciencesandnaturalsciences . Anormalcompatibilitycloudcharacterizesthequalitativemeaningofalinguisticatomwiththreedigitalcharacteristics : 
+ A ( Ex , En , D ) 
+ whereEx , En , andDaretheexpectedvalue , entropyanddeviationofthecloudrespectively . Agivenset { Ex , En , D } uniquelydefinesaparticularcompatibilitycloudA . 
+ 　 　 TheexpectedvalueExofacompatibilitycloudisthepositionatUcorrespondingtothecenterofgravityofthecloud . Inotherwords , theelementExintheuniverseofdiscourseisfullycompatiblewiththelinguisticatomA . ItisveryeasytodetermineExinpracticalapplications . 
+ 　 　 TheentropyEnofalinguisticatomisameasureofthefuzzinessoftheconceptwithintheuniverseofdiscourse . TheentropyofalinguisticatomisdefinedbythebandwidthoftheMEC ( mathematicalexpectedcurve ) ofthenormalcompatibilitycloudshowinghowmanyelementsintheuniverseofdiscoursecouldbeacceptedtothelinguisticatom . TheMECofthenormalcompatibilitycloudtoalinguisticatomAis : 
+ 
+ 　 　 ThedeviationDisameasureofrandomnessofthecompatibilityfunction . Lookingatthenormalcompatibilitycloudindetailweseethatitsthicknessisuneven . Closetothewaist , thedegreeofcompatibilityismostdispersed , whileatthetopandbottomthefocusingismuchbetter . Therefore , themaximumdeviationDreallycomesfromtherandomnessofthecompatibilitydegreeatthewaistpartofthecloud . 
+ 　 　 Itshouldbenoticedthatthetop , bottom , andwaistofacloud , however , donotneedtobepreciselydefinedatall . Thethreedigitalcharacteristicsaregoodenoughtorepresentanormalcompatibilitycloud . 
+ 1.4 Two - Dimensionalandmulti - dimensionallinguisticclouds 
+ 　 　 Followingtheaboveideas , weextendthelinguisticcloudmodeltotwo - dimensionalone . LetUbethesetU = { x , y } , astheuniverseofdiscourse , andTalinguistictermassociatedwithU . ThemembershipdegreeofuinUtothelinguistictermT , CT ( x , y ) , isarandomnumberwithastabletendency . CT ( x , y ) takesthevaluesin ［ 0 , 1 ］ . Atwo - dimensionalcompatibilitycloudisamappingfromthetwo - dimensionaluniverseofdiscourseUtotheunitinterval ［ 0 , 1 ］ . Thatis , 
+ CT ( x , y ) : U → ［ 0 , 1 ］ , ( x , y ) ∈ U ( x , y ) → CT ( x , y ) . 
+ 　 　 Theconceptof2 - Dcloudsispicturedasthree - dimensionalgraphics . Figure2isasurfaceplotofa2 - Dcloudcorrespondingtothelinguisticterm “ central ” . Wecanseethatitislikeagravemoundorahill , itissmoothandslopesgentlyatthetopandfoot , butitisruggedandroughatthehill - side . Thisindicatesthatthedegreeofcompatibilityismoredispersedatthehill - side , whilemorefocusedatthetopandfoot . Therefore , the2 - Dcloudisthenaturalextensionofthe1 - Dcloud . 
+ 
+ Fig.2 A2 - Dcloudcorrespondingtothelinguisticterm “ central ” 
+ 　 　 Supposethetwodimensionsofauniverseofdiscourseareindependent , thenthetwo - dimensionalnormalcompatibilitycloudforalinguistictermintheuniverseischaracterizedwithsixdigitalcharacteristics : 
+ A ( Ex , Enx , Dx , Ey , Eny , Dy ) 
+ whereExandEyaretheexpectedvalues , EnxandEnyareentropies , andDxandDyarethedeviationsinthetwodimensionsxandyrespectively . Similartothatinone - dimensioncase , ( Ex , Ey ) correspondstothecenterofgravityofthe2 - Dcloud . EnxandEnyarethemeasuresofthefuzzinessoftheconcept . TheyaredefinedbythebandwidthsoftheMES ( mathematicalexpectedsurface ) ofthe2 - Dcloud . TheMESofthe2 - Dnormalcompatibilitycloudtoalinguisticatomis : 
+ 
+ whereDxandDyarethemeasuresofrandomnessofthetwo - dimensionalcompatibilityfunction . 
+ 　 　 TheprojectionofanMEStothex - yplaneisanellipse ( oracircleifEnxequalsEny ) . Whentheaxesoftheellipsearenotparalleltoxandyaxesrespectively , wemayaddadigitalcharacteristic θ todescribethecloudwhichistheanglebetweenthecorrespondingaxes . Thiscloudisreferredtoasrotatedcloud , whiletheunrotatedcloudisconsideredtobestandardcloud . Figure3showstheshadowsofthedropsofarotatedcloud . If ( xi , yi , μ i ) arethedropsofastandard2 - Dcloud , then ( x ′ i , y ′ i , μ i ) arethedropsoftherotatedcloud , where ( x ′ i , y ′ i ) arecomputedasfollows , 
+ x ′ i = ( xi - Ex ) cos θ - ( yi - Ey ) sin θ + Ex , 
+ y ′ i = ( xi - Ex ) sin θ + ( yi - Ey ) cos θ + Ey . 
+ 
+ Fig.3 Shadowsofarotated2 - Dcloud 
+ 　 　 Wecanextendthelinguisticcloudmodeltomulti - dimensionalonefurther . Supposeauniverseofdiscoursehasndimensionsthatareindependentfromeachother . Then - dimensionalnormalcompatibilitycloudforalinguistictermintheuniverseischaracterizedwith3ndigitalparameters : 
+ A ( E1 , En1 , D1 , E2 , En2 , D2 , ... , En , Enn , Dn ) , 
+ whereE1 , E2 , ... , Enaretheexpectedvalues , En1 , En2 , , ... , Ennaretheentropieswhichrepresentthefuzzinessoftheconcept , andD1 , D2 , ... , Dnarethedeviationswhicharetherandomnessmeasuresoftheconcept . TheMEHS ( mathematicalexpectedhypersurface ) ofthemulti - dimensionalnormalcompatibilitycloudtoalinguisticatomis : 
+ 
+ 　 　 Thetwo - andmulti - dimensionalcloudmodelsaremainlyusedfortwopurposesindatamining : knowledgerepresentationandsoftcomputing . Forexample , “ southeast ” isrepresentedbya2 - Dcloud , and “ warmcolor ” isrepresentedbya3 - Dcloudbecauseacoloriscomposedofthreecomponents : red , greenandblue . Thesoft “ and ” operationof “ higheducation ” and “ highincome ” canbecomputedbya2 - Dcloudmodel . Theissueofcloudmodelbasedsoftcomputingwillbediscussedinafurthercomingpaper . 
+ 1.5 　 Cloudgenerators 
+ 　 　 GiventhreedigitalcharacteristicsEx , En , andDtorepresentalinguisticatom , thegeneratorcouldproduceasmanydropsofthecloudasyoulike . Allthedropsobeythepropertiesdescribedabove . Figure4 ( a ) showsa1 - Dcloudgenerator . Correspondingly , givensixdigitalcharacteristicsEx , Enx , Dx , Ey , Eny , andDy , torepresentatwo - dimensionallinguisticatom , the2 - Dcloudgeneratorcouldproduceanynumberofdropsofclouds . Clouddropsarethree - dimensionalpoints ( xi , yi , μ i ) , where ( xi , yi ) sobeyatwo - dimensionalnormaldistributionand μ i ′ sobeyaone - dimensionaldistribution . Figure4 ( b ) showsa2 - Dcloudgenerator . 
+ 
+ Fig.4 　 Cloudgenerator 
+ 　 　 Clouddropsmaybegeneratedonconditions . Figure5 ( a ) showsthegeneratorproducingdropsunderagivennumericalvalueuintheuniverseofdiscourse , U ; whileFig.5 ( b ) showsthegeneratorundertheconditionofagivenmembershipdegree μ . AllthedropsgeneratedinFig.5 ( a ) havethesamevalueuintheuniverseofdiscourse , andnormaldistributedmembershipdegree μ i ; whereasallthedropsgeneratedinFig.5 ( b ) havethesamemembershipdegree μ , andnormaldistributednumericalvaluesuiintheuniverseofdiscourse . Afuzzyruleinaspatialdatabase , suchas , “ Ifelevationislow , thentheroaddensityishigh ” , canberepresentedbytwoforwardcloudgeneratorsunderconditionsofattributevaluesandmembershipdegreesrespectively . 
+ 
+ Fig.5 　 Generatoronconditions ( 1 - Dmodel ) 
+ 　 　 Similarly , 2 - Dcloudgeneratormayproduceclouddropsonconditions . AllthedropsgeneratedinFig.6 ( a ) havethesamevalue ( x , y ) , andnormaldistributedmembershipdegrees μ i ; whereasallthedropsgeneratedinFig.6 ( b ) havethesamemembershipdegree μ , andnormaldistributedvalues ( xi , yi ) alongthemembershipellipserelatedto μ . 
+ 
+ Fig.6 　 Generatoroncondition ( 2 - Dmodel ) 
+ 　 　 Itisnaturaltothinkaboutthegeneratormechanisminaninverseway . Givenalimitedsetofdrops , dropi ( ui , μ i ) , assamplesofacompatibilitycloud , thethreedigitalcharacteristicsEx , En , andDcouldbeproducedtorepresentthecorrespondinglinguisticatom ( seeFig.7 ( a ) ) . The2 - DbackwardcloudgeneratorisillustratedinFig.7 ( b ) . Thetwokindsofatomgeneratorsmaybecalledforwardandbackwardgeneratorsrespectively . TheatomgeneratorsimplementedinbothhardwareandsoftwarehavebeenapatentedinventioninChina . Thecombinationofthetwokindsofgeneratorscanbeusedinterchangeablytobridgethegapbetweenquantitativeknowledgeandqualitativeknowledge . 
+ 
+ Fig.7 　 Backwardcloudgenerator 
+ 　 　 Whenrulesarediscoveredfordatabases , wecanusetheuncertaintyreasoningmechanismincloudtheoryforpredictivedatamining . Whenaninputvalueenterstherulegroup , anuncertaintyvalueisproducedbycombingtheconditionalforwardandbackwardcloudgeneratorsandvirtualcloudconstructionmethods . Asignificantadvantageovertheconventionalpredictionindataminingisthatthereisaninherentuncertaintyinthecaseofchainingrules . 
+ 
+ 2MiningAssociationRuleswithLinguisticCloudModel 
+ 2.1 Problemdescription 
+ 　 　 LetI = { i1 , i2 , ... , im } beasetofliterals , calleditems . LetDbeadatabaseoftransactions , whereeachtransactionTisasetofitemssuchthatTI . ForagivenitemsetXIandagiventransactionT , wesaythatTcontainsXifandonlyifXT . AnassociationruleisanimplicationoftheformXY , whereXI , YIandX ∩ Y = . TheruleXYholdsinthedatabasesDwithconfidencecifc% oftransactionsinDthatcontainXalsocontainY . TheruleXYhassupportsinthedatabaseDifs% oftransactionsinDcontainX ∪ Y . 
+ 　 　 GivenadatabaseoftransactionsD , theproblemofminingassociationrulesistogenerateallassociationrulesthathavesupportandconfidencegreaterthanuser - specifiedminimumsupportandminimumconfidencerespectively . 
+ 2.2 Attributegeneralizationbasedonlinguisticcloudsandvirtualclouds 
+ 2.2 . 1AttributeGeneralization 
+ 　 　 Generally , strongrulesarelikelytoexistathighconceptlevels . Especiallywhenattributesarenumerical , miningattheprimarylevelmaynotgeneratestrongruleswithlargeminimumsupportandminimumconfidencethresholdsormaygeneratemanyuninterestingruleswithsmallthresholds . Inthiscase , itispreferabletogeneralizetheattributesfirstandthenmineruleswiththegeneralizeddata . Thiskindofattributegeneralizationproblemisalsocalledcontinuousdatadiscretization . 
+ 　 　 Thecommonlyusedmethodforcontinuousdatadiscretizationistomapthecontinuousdatatononoverlappingintervalsorareas , thatistosaytheattributespacesarepartitionedcrisply . Overlapsbetweenneighborintervalsarenotallowedinthismethod , sowerefertothismethodascrisppartitionmethod . Figure8 ( a ) showsacrisppartitionofatwo - dimensionalattributespace . Thespaceispartitionedintoninenonoverlappingrectangles , eachrectanglecorrespondstoauniquelabelwhichcanbeconsideredtobealinguistictermorageneralizedattributevalue . Butifanexpertmakesthepartition , uncertaintyisalwaysadheredtoit . Innaturallanguage , thelinguistictermsassociatedwithalinguisticvariableoftenoverlapandhaveambiguousboundary . Forexample , “ young ” and “ middleage ” havesomeoverlap , anditisdifficulttopartitionthemwithacrispagevalue . Differentexpertsmaymakedifferentpartitionsononehand , andthesepartitionshavestabletendenciesontheotherhand . Humanbeingscanpartitiontheattributespaceflexiblyandallowoverlappingareabetweenneighborlinguisticterms . Obviously , thepartitionmechanismofhumanbeingisnotmimickedbythecrisppartitionmethod . 
+ 
+ Fig.8 Attributespacepartition 
+ 　 　 Withthelinguisticcloudmodel , eachattribute ( orseveralrelevantattributes ) isconsideredasalinguisticvariable . Severallinguisticcloudsaregivenforeachlinguisticvariabletorepresentlinguistictermsofthelinguisticvariable . Thecloudsmaybeinteractivelyspecifiedbytheuserorautomaticallygeneratedbyanalyzingthehistogramoftheattributevalues . Ourmethodallowsoverlappingareabetweenneighborclouds . Figure8 ( b ) showsthesameattributespacepartitionedbynine2 - Dlinguisticclouds . Atthecenterofeachcloud , thecorrespondingattributevalueisfullycompatiblewiththelinguisticterm , whichispicturedbyblackpoints . Whileatthemiddleoftwoneighborclouds , theimageisgray , itindicatestheoverlappingareaandambiguousboundarybetweenthetwoclouds . Sothecloudbasedgeneralizationmethodcanbereferredtoasasoftpartitionmethod . 
+ 　 　 SupposecloudsA1 ( Ex1 , En1 , D1 ) , A2 ( Ex2 , En2 , D2 ) , ... , AN ( ExN , EnN , DN ) aregivenforanumericalattribute . InputtheattributevalueutothecloudgeneratorsCG1 , CG2 , ... , CGN , andwegettheoutputs μ 1 , μ 2 , ... , μ N , whicharethecompatibilityvaluesofuwithA1 , A2 , ... , ANrespectively . Themaximumcompatibilityvalueisretrieved , anduisassignedtoAiif μ iisthemaximum . Iftwocompatibilityvalues , say μ iand μ j , arebothequaltothemaximum , uisassignedtoAiorAjrandomly . ThismechanismisillustratedinFig.9 . Inasimilarway , two - dimensionalattributespacecanbepartitionedby2 - Dcloudssoftly . Forexample , xandypositionsaregeneralizedtotwo - dimensionallinguisticterms , “ southwest ” , “ southeast ” , “ northeast ” , “ central ” , etc . 
+ 
+ Fig.9 　 Themechanismforassigninganattributevaluetoalinguisticatom 
+ 　 　 Weknowfromthepropertiesofthecloudgeneratorthat μ 1 , μ 2 , ... , μ Narerandomnumberswithstabletendency , ratherthanfixedvalues . Therefore , thesameattributevalueswithintheoverlappingareaoftwoneighborcloudsmaybeassignedtodifferentcloudsatdifferentoccasions . Thisisjustlikewhathumanbeingsdo , thusthesoftpartitionmethodcanmimichumanbeing ' sthinkingbetterthanthecrisppartitionmethod . 
+ 　 　 Notonlynumericalattributesbutalsothenominalandcategoricalattributes , canbegeneralizedwiththecloudmodel , andtheattributescanbegeneralizedtomultipleconceptlevels . Thisistheworkofvirtuallinguisticatomsandvirtualclouds . 
+ 2.2 . 2Virtualclouds 
+ 　 　 Inourpreviouspapers , wehaveintroducedtheconceptofvirtuallinguisticatomandpresentedthevirtualcloudconstructionmethods ［ 24 , 25 ］ . Therearetwokindsoflinguisticclouds : floatingcloudsandsynthesizedclouds . 
+ 　 　 Supposewehavetwoneighborlinguisticatoms , A1 ( Ex1 , En1 , D1 ) andA2 ( Ex2 , En2 , D2 ) , overthesameuniverseofdiscourseU . Avirtualfloatinglinguisticatom , A ( Ex , En , D ) , maybelocatedatanypointubetweenthetwocloudsinUusingthefollowingdefinition : 
+ 
+ 　 　 Fromageometricalpointofview , thisdefinitionsatisfiesthepropertythatwhenthevirtualcloudisfloatingtowardsA1 , itwillbemoreandmoreaffectedbyA1 , whilelessandlessaffectedbyA2 , tilltotallyoverlappedatthepositionofA1 , andviceversa . Inotherwords , thevirtualcloudconstructedatubetweenEx1andEx2intheuniverseofdiscourseisabalancefrombothsidesofA1andA2onadistancebasedweighting . 
+ 　 　 Floatingcloudsareveryusefulwhentheuserspecifiedcloudsforalinguisticvariablearenotenoughtocovertheuniverseofdiscourse . Theremaybesomeblankareasbetweensomeclouds . Asaresult , themaximumcompatibilityvaluesoftheattributewithintheseareasmustbeequaltozeroorverysmall . Theseattributevaluescannotbeassignedtoanycloud . Generatingfloatingcloudsintheblankareascaneasilysolvetheaboveproblem . Infact , theonlyindispensableworkoftheuseristospecifykeycloudsatthekeypositions . Othercloudscanbeautomaticallygeneratedbythefloatingcloudconstructionmethod . 
+ 　 　 Themechanismof1 - Dfloatingcloudconstructioncanbeextendedto2 - Donenaturally . Supposewehavethreeneighborlinguisticatoms , Ai ( Exi , Enxi , Dxi , Eyi , Enyi , Dyi ) , i = 1 , 2 , 3 , overthesame2 - DuniverseofdiscourseU . P1 ( Ex1 , Ey1 ) , P2 ( Ex2 , Ey2 ) andP3 ( Ex3 , Ey3 ) formatriangle Δ P1P2P3 . A2 - Dvirtualfloatinglinguisticatom , A ( Ex , Enx , Dx , Ey , Eny , Dy ) maybelocatedatanypointp ( x , y ) inthetriangle . Thefloatingcloudisconstructedbasedonthefollowingidea : points ( Ex1 , Ey1 , z1 ) , ( Ex2 , Ey2 , z2 ) , ( Ex3 , Ey3 , z3 ) formaplane , thezvalueatp ( x , y ) isdeterminedbytheintersectionpointoftheplaneandthelinethatpassingthroughpandperpendiculartothex - yplane , wherezrepresentsEnx , Eny , DxandDy . Theplaneequationis : 
+ 
+ WecaneasilygettheexplicitrepresentationbyexpandingtheequationandreplacingzbyEnx , Eny , Dx , Dyrespectively . Weomittheexpandingprocesshere . 
+ 　 　 The2 - Dvirtualcloudisabalanceforthethreeclouds . Theclosertoonecloud , themoreinfluencebythatcloud . Giventhekeycloudsoverauniverseofdiscourse , aTIN ( triangulatedirregularnetwork ) canbeautomaticallyconstructedtocontrolthegenerationoffloatingclouds . Whenapointp ( x , y ) isgiventogenerateafloatingcloud , thetrianglewhichcontainspisretrievedfromtheTINfirst , andthenthefloatingcloudisconstructedbythethreecloudscorrespondingtotheverticesofthetriangle . 
+ 　 　 Asynthesizedcloudisusedtosynthesizelinguistictermsintoageneralizedone . Forexample , theconceptof “ teenager ” maybeconsideredastheparentnodeoftheconcepts “ about14yearsold ” and “ about18yearsold ” inaconcepthierarchy . 
+ 　 　 Supposewehavetwoneighborlinguisticatoms , A1 ( Ex1 , En1 , D1 ) andA2 ( Ex2 , En2 , D2 ) , overthesameuniverseofdiscourseU . Avirtuallinguisticatom , A ( Ex , En , D ) , maybecreatedbysynthesizingthetwoatomsusingthefollowingdefinition : 
+ 
+ whereEn ′ 1andEn ′ 2arecalculatedasfollows . 
+ 　 　 SupposeMECA1 ( u ) andMECA2 ( u ) arethemathematicalexpectedcurvesofA1andA2respectively . Let 
+ 
+ then , 
+ 
+ 　 　 Fromageometricalpointofview , En1andEn2aretheareascoveredbyMECA1andMECA2reducedbyafactorof . En ′ 1andEn ′ 2aretheareascoveredbyMEC ′ A1andMEC ′ A2reducedbyafactorof . MEC ′ A1andMEC ′ A2aretheunoverlappedpartsofMECA1andMECA2whicharecreatedbycuttingthecurvesattheintersectionpointofthecurves . SowecallEn ′ 1andEn ′ 2entropycuts . Thesynthesizedcloudistheentropycutweightedaverageofthetwoclouds . 
+ 　 　 The2 - Dsynthesizedcloudsareconstructedinasimilarway . Supposethetwodimensionsofauniverseofdiscourseareindependent , thenwecancalculatethedigitalcharacteristicsintwodimensionsseparately.2 - Dsynthesizedcloudsalsoobeythepropertiesdescribedabovefromthegeometricalpointofview . 
+ 　 　 Ifweusethemechanismofsynthesizedcloudconstructionrecursivelyfromlowconceptlevelstohighconceptlevels , wecangetconcepthierarchiesforlinguisticvariables . Thehighertheconceptlevels , thelessthenumberoflinguisticatoms . Tillthetoplevel , thereisonlyonelinguisticatom “ any ” . 
+ 　 　 Inbrief , thelinguisticcloudmodelandthemechanismofvirtualcloudconstructionprovideanewsolutiontodatapreprocessingforminingassociationrules . Combiningtheexistingalgorithmsforminingassociationruleswiththeconcepthierarchies , wecanmineassociationrulesatanyconceptleveloratmultipleconceptlevels . 
+ 2.3 Experimentanddiscussion 
+ 　 　 Inordertoverifythefeasibilityandeffectivenessofthelinguisticcloudmodelinminingassociationrules , weconductedexperimentusingaspatialdatabaseaboutthegeospatialandeconomicinformationinChina ( seeTable1 ) . Whatweareinterestedinistherelationbetweenthegeospatialinformationandeconomicsituation . Thetaskrelevantdataareextractedfromthelargedatabasebyspatialquery . Ithassixattributes , x , y , elevation , roaddensity , distancetothesea , andaverageincomeperyear . Thedatasizeisabout600Kbytes . Thelocationsxandyareplanimetricrectangularcoordinates , whicharetransformedfromgeographicalcoordinates ( longitudesandlatitudes ) . Theattributesareallnumerical , amongwhichroaddensityisrepresentedbytheaveragetotalroadlengthpersquarekilometer . ThespatialdatabaseismanagedbyGeographicInformationSystem , Arc / Info . Thedetailofspatialqueryofthespatialdatabaseisomittedherebecauseofthespacelimitation . Afterquery , thetaskrelevantdataareorganizedasarelationaldatabaseorarelationtable ( seeTable1 ) . 
+ Table1TheexperimentaldatabaseonChinesegeospatialand 
+ economicdataforminingassociationrules 
+ 
+ citynamexyelevationroaddensity 
+ ( m / km2 ) distanceto 
+ sea ( km ) averageincome 
+ peryear 
+ Shanghai1091708.292420920 . 2227.82950 . 0619.3316000 
+ Guangzhou349979.581450967 . 29200.41916 . 1860.0618000 
+ Wenzhou1038667.521992814 . 9751.97848 . 4924.5117000 
+ Beijing549675.773333817 . 1029.821049 . 66149.2412000 
+ Changchun1224839.093828302 . 91187.72899 . 34458.458000 
+ Huhehot102736.673447929 . 212300.30485 . 09581.907500 
+ Lanzhou - 562917.302877368 . 663503.85460 . 901439.415600 
+ Xining - 838688.232972462 . 094297.27402 . 571619.544800 
+ Urumqi - 1818150.513904377 . 653603.35349 . 922590.174900 
+ Kuerle - 1979809.333676153 . 433501.82178 . 712700.183800 
+ Zhengzhou292923.522706200 . 5069.83911 . 39538.718200 
+ Laohekou131264.702430429 . 5786.35398 . 55762.524200 
+ Lhasa - 1865697.222363864 . 176202.52280 . 812200.324800 
+ Naqu - 1780113.142496994 . 965897.91168 . 972098.593700 
+ Changsha292923.521897906 . 39208.59792 . 15720.798100 
+ Xianning435563.672183186 . 66175.14581 . 12698.015500 
+ ..................... 
+ 
+ 　 　 Sincetheattributesareallnumerical , therearelotsofdistinctvaluesforeachattribute . Itisimpossibletodiscoverstrongassociationrulesattheprimaryleveldirectly . Therefore , wedefinelinguisticatomsforattributegeneralization . Weconsiderxandyattributesasonelinguisticvariable “ location ” , andspecifyeight2 - Dlinguisticatomsforit , suchas “ southwest ” , “ northeast ” , “ northbyeast ” , “ southeast ” , “ northwest ” , “ north ” , “ south ” and “ central ” , mostofthemarerotatedclouds . Otherattributesareconsideredtobe1 - Dlinguisticvariables . Threelinguisticatomsaredefinedforeachattribute , suchas “ low ” , “ middle ” and “ high ” for “ elevation ” , “ roaddensity ” , and “ averageincomeperyear ” ; “ close ” , “ middle ” and “ far ” for “ distancetothesea ” . Thelinguisticatoms “ low ” and “ close ” arehalf - downclouds , “ high ” and “ far ” arehalf - upcloudsasdescribedinRefs . ［ 24 , 25 ］ . Neighborlinguisticatomsforeachlinguisticvariablehavesomeoverlaps . 
+ 　 　 Theattributegeneralizationprocessisstraightforwardandsimple : thedatabaseisscannedonlyonce , andtheconsumingtimeislinearwiththesizeofthedatabase . Afterattributegeneralization , manydifferenttuplesattheprimarylevelbecomeidenticalatthehigherconceptlevelandaremergedtoonetuple , thusthedatabaseshrinksprominently . Anewattribute “ count ” isaddedintothegeneralizeddatabasetorecordthenumbersofprimarytuplesmergedtoit . Thisattributeisnottreatedasa “ real ” attributewhenminingrules . Itisjustusedforcountingthesupportsoftheitemsets . Thegeneralizedandreduceddatabasemakesthesucceedingprocesseasyandfast . Anyexistingalgorithmforminingassociationrules , suchasApriori , canbeappliedtothegeneralizeddatabase . 
+ 　 　 WedevelopedtheApriorialgorithmonPC . TheimplementationwasslightlydifferentfromthestandardApriori ［ 5 ］ inthatitcandealwithrelationaltabledirectlysothatrelationaltableneednotbetransformedtobinarytransactions ［ 9 ］ . Thegeneralizeddatabaseisminedwiththeminimumsupport6% andminimumconfidence75 ％ . Eightlarge4 - itemsetsareminedatthegeneralizeddatabase . Eightassociationrulesaregeneratedwiththe “ averageincomeperyear ” astheseccedentandtheconjunctionofotherattributesastheantecedent . Therulescanbedescribedintheformofproductionrules , suchas : 
+ 　 　 Rule1 . Iflocationis “ southeast ” , roaddensityis “ high ” , anddistancetotheseais “ close ” , thenaverageincomeis “ high ” . 
+ 　 　 Rule2 . Iflocationis “ northbyeast ” , roaddensityis “ high ” , anddistancetotheseais “ close ” , thenaverageincomeis “ high ” . 
+ 　 　 Rule3 . Iflocationis “ northeast ” , roaddensityis “ high ” , anddistancetotheseais “ middle ” , thenaverageincomeis “ middle ” . 
+ 　 　 Rule4 . Iflocationis “ north ” , roaddensityis “ middle ” , anddistancetotheseais “ middle ” , thenaverageincomeis “ middle ” . 
+ 　 　 Rule5 . Iflocationis “ northwest ” , roaddensityis “ low ” , anddistancetotheseais “ far ” , thenaverageincomeis “ low ” . 
+ 　 　 Rule6 . Iflocationis “ central ” , roaddensityis “ high ” , anddistancetotheseais “ middle ” , thenaverageincomeis “ middle ” . 
+ 　 　 Rule7 . Iflocationis “ southwest ” , roaddensityis “ low ” , distancetotheseais “ far ” , thenaverageincomeislow . 
+ 　 　 Rule8 . Iflocationis “ south ” , roaddensityis “ high ” , distancetotheseais “ middle ” , thenaverageincomeis “ middle ” . 
+ 　 　 Theserulesarevisualizedasellipseswithdifferentcolorsgraduallychangingtograyfromthecentersoftheellipses ( seeFig.10 ) . Thenumbersmarkedontheellipsesaretherulenumbers . 
+ 
+ Fig.10 Discoveredassociationrulesfor “ averageincome ” 
+ 　 　 Asintermediateresults , large2 - itemsetsand3 - itemsetsarediscoveredduringtheminingprocess . Theassociationrulesgeneratedfromthemarealsointerestinganduseful . Forexample , thefollowingrulesdemonstratetherelationbetweentheroaddensityandelevationandlocation . TherulesarevisualizedinFig.11 . 
+ 
+ Fig.11 Discoveredassociationrulesfor “ roaddensity ” 
+ 　 　 Rule1 . Ifelevationis “ low ” , thenroaddensityis “ high ” . 
+ 　 　 Rule2 . Ifelevationis “ high ” , thenroaddensityis “ low ” . 
+ 　 　 Rule3 . Ifelevationis “ middle ” andlocationis “ northwest ” , thenroaddensityis “ low ” . 
+ 　 　 Rule4 . Ifelevationis “ middle ” andlocationis “ north ” , thenroaddensityis “ middle ” . 
+ 　 　 Inordertodiscovermulti - levelassociationrules , weusethevirtualcloudconstructionmethodtogeneralizetheattribute “ location ” further . Twovirtualcloudsaregeneralizedbysynthesizing “ northwest ” and “ southwest ” to “ thewest ” , “ south ” and “ central ” to “ southandcentralChina ” . Asaresult , theeightrulesinFigure10arereducedtosixrules , inwhichrules1 , 2 , 3 , 4arethesame , rules5 , 7andrules6 , 8aregeneralizedtothefollowingnewrule5andrule6respectively . ThesixrulesarevisualizedinFig.12 . 
+ 
+ Fig.12 Discoveredassociationrulesfor “ averageincome ” atahigherconceptlevel 
+ 　 　 Rule5 . Iflocationis “ thewest ” , roaddensityis “ low ” , anddistancetotheseais “ far ” , thenaverageincomeis “ low ” . 
+ 　 　 Rule6 . Iflocationis “ southandcentralChina ” , roaddensityis “ high ” , anddistancetotheseais “ middle ” , thenaverageincomeis “ middle ” . 
+ 　 　 Itshouldbenotedthattheserulesareuncertaininthatthesupportsandconfidencesareslightlydifferentatdifferentoccasions . Thatistosay , becauseofthepropertiesofthelinguisticcloudsandtheoverlapsofneighborclouds , theattributegeneralizationresultsindifferentgeneralizedrelationtablesinwhichthecountsofthetuplesareslightlydifferentatdifferentoccasions . Ifweusetheconventionalgeneralizationmethod , wesimplyspecifyseveralthresholdsfortheattributes . Thegeneralizedrelationtableisidenticalatanyoccasion , andsoaretherules . Thiscrisppartitionmethodignorestheuncertaintyinthegeneralizationprocess . Therefore , thecloudbasedgeneralizationmethodissuperiortotheconventionalmethodinholdinguncertainties . Theaboveresultsshowtheeffectivenessofthelinguisticcloudmodelforthepreprocessinginminingassociationrules . Thatis , thecloudmodelbasedgeneralizationcanmimichumanbeing ' sthinking , whilemakingthediscoveredknowledgerobust . 
+ 　 　 Theattributegeneralizationbasedonthecloudmodelisstraightforwardandefficient , Aprioriisefficient , andthecombinationofthemisatwo - stepprocess : attributegeneralizationfirstandruleminingnext . Therefore , thewholeprocessisefficient . Ofcourse , theattributegeneralizationmethodcanbecombinedwithanyexistingefficientalgorithmforminingassociationrulesatanyabstractleveloratmultipleconceptlevels . Miningmultiplelevelassociationrulescanbecarriedoutintop - downorbottom - upmanner . Theconcepthierarchiesareautomaticallygeneratedbasedonthemechanismsofsynthesizedcloudconstruction , theusershouldspecifyenoughlinguisticatomsatarelativelylowlevel . 
+ 　 　 Theextensivestudyofthelinguisticcloudmodelandthecombinationorintegrationwiththeotherassociationruleminingalgorithms , suchasincrementalminingalgorithms , parallelminingalgorithms , etc . , arethefuturedirectionsofourwork . Forexample , wecanspecifytheminimumsupportandminimumconfidenceaslinguisticatomstoholdtheuncertaintyintheprocessofassociationrulemining , howeverwespecifiedthetwothresholdsasfixedvaluesintheexperiment . 
+ 　 　 Inthemeantime , thelinguisticcloudmodelandtheattributegeneralizationmethodprovideageneralwayfordatapreprocessinginKDD . Forexample , theconcepthierarchygenerationmethodcanbecombinedwithattributeorientedinductionmethod ［ 19 , 26 ］ todiscovermanykindsofknowledge . TheintegrationofthelinguisticcloudmodelwiththeotherKDDalgorithmsisalsoanimportantissueforfurtherstudy . 
+ 
+ 3Conclusion 
+ 　 　 MiningofassociationrulesisanimportanttaskinKDD . Thelinguisticcloudmodelisintroducedtoenhancetheexistingalgorithms . Thetwo - dimensionalandevenmulti - dimensionallinguisticcloudmodelsarepresentedastheextensionoftheprevious1 - Dmodel . Themathematicalrepresentationof2 - Dlinguisticatomswithsixdigitalparametersforuncertaintyisgiventoexploretheessentialuncertaintywithbothfuzzinessandrandomness . Themodelisusedtogeneralizeattributevaluesfordatapreprocessingofminingassociationrules . Cloudmodelbasedgeneralizationallowstheoverlappingareabetweenneighborlinguisticterms , anditisasoftpartitionofattributespacesthatcanmimichumanbeing ' sthinkingbetterthanthecrisppartitionmethod . Themechanismofvirtualcloudconstructionprovidesageneralwayforattributegeneralizationatmultipleconceptlevels . CombiningthecloudmodelbasedgeneralizationmethodwithApriorialgorithmcanmineassociationrulesatanyconceptleveloratmultipleconceptlevels . Theexperimentshowsthebenefitsofeffectiveness , efficiencyandflexibilityofthelinguisticcloudmodelforminingassociationrules . ■ 
+ 基金项目 ： TheresearchissupportedbytheNationalNaturalScienceFoundationofChina ( 国家自然科学基金 , No.49631050 ) andbytheNationalLaboratoryforInformationEngineeringinSurveying , MappingandRemoteSensing ( 测绘 遥感信息 工程 国家 重点 实验室 , WKL ( 97 ) 0302 ) . 
+ 作者简介 ： LIDe - yiwasbornin1944 . HeisaprofessoranddoctoralsupervisoroftheInstituteofChina 
+ 　 　 　 　 　 ElcetronicSystemEngineering . Hiscurrentresearchareasincludecomputerengineeringandartificial 
+ 　 　 　 　 　 inteligence . 
+ 　 　 　 　 　 DIKai - changwasbornin1967 . HeisaPh . D . studentatSchoolofInformation 
+ 　 　 　 　 　 Engineering , WuchanTechnicalUniversityofSurveyingandMapping ( WTUSM ) . Hiscurrent 
+ 　 　 　 　 　 researchinterestsincludespatialdataminingandknowledgediscovery , integrationofremotesensing 
+ 　 　 　 　 　 andGeographicInformationSystem ( GIS ) 
+ 　 　 　 　 　 LIDe - renwasbornin1939 . HeisaprofessoranddoctoralsupervisorofWuhanTechnical 
+ 　 　 　 　 　 UniversityofSurveyingandMapping . HeismemberofboththeChineseAcademyofSciencesand 
+ 　 　 　 　 　 theChineseAcademyofEngineering . Hiscurrnetresearchareasincluderemotesensing , GIS , Global 
+ 　 　 　 　 　 PositioningSystem ( GPS ) andtheirintegration . 
+ 　 　 　 　 　 SHIXue - meiwasbornin1967 . HereceivedaPh . D . degreeinComputerSciencefromHongKong 
+ 　 　 　 　 　 PolytechnicUniversityin1998 . Hiscurrentinterestsaredataminingandfinancialanalysis . 
+ 作者 单位 ： 李德 毅 ( 中国 电子 系统工程 研究所 　 北京 　 100036 ) 
+ 　 　 　 　 　 邸凯昌 ( 武汉 测绘 科技 大学 信息 工程学院 　 武汉 　 430070 ) 
+ 　 　 　 　 　 李德 仁 ( 武汉 测绘 科技 大学 信息 工程学院 　 武汉 　 430070 ) 
+ 　 　 　 　 　 史雪梅 ( 香港理工大学 计算机系 　 香港 ) 
+ References ： 
+ ［ 1 ］ FayyadUM , Piatetsky - ShapiroG , SmythPetal . AdvancesinKnowledgeDiscoveryandDataMining . AAAI / MITPress , 1996 
+ ［ 2 ］ FayyadUM , Piatetsky - ShapiroG , SmythP . Knowledgediscoveryanddatamining : towardsaunifyingframework . In : Proceedingsofthe2ndInternationalConferenceonKnowledgeDiscoveryandDataMining ( KDD - 96 ) . Portland , Oregon , 1996 
+ ［ 3 ］ AgrawalR , ImielinskiT , SwamiA . Miningassociationrulesbetweensetsofitemsinlargedatabases . In : ProceedingsoftheACMSIGMODConferenceonManagementofData . Washington , DC , 1993 
+ ［ 4 ］ HoutsmaM , SwamiA . Set - OrientedMiningofAssociationRules . ResearchReportRJ9567 , IBMAlmadenResearchCenter , SanJose , California , 1993 
+ ［ 5 ］ AgrawalR , SrikantR . Fastalgorithmsforminingassociationrulesinlargedatabases . In : Proceedingsofthe20thInternationalConferenceonVeryLargeDataBases.1994 . 478 ～ 499 
+ ［ 6 ］ ParkJS , ChenMS , YuPS . Aneffectivehash - basedalgorithmforminingassociationrules . In : Proceedingsofthe1995ACM - SIGMODInternationalConferenceonManagementofData . SanJose , CA , 1995.175 ～ 186 
+ ［ 7 ］ CheungDW , HanJ , NgVetal . Maintenanceofdiscoveredassociationrulesinlargedatabases : anincrementalupdatingtechnique . In : Proceedingsofthe1996InternationalConferenceonDataEngineering . NewOrleans , Louisiana , 1996 
+ ［ 8 ］ CheungDW , LeeSD , KaoB . Ageneralincrementaltechniqueformaintainingdiscoveredassociationrules . In : Proceedingsofthe5thInternationalConferenceonDatabaseSystemsforAdvancedApplications . Melbourne , Australia , 1997 
+ ［ 9 ］ SrikantR , AgrawalR . Miningquantitativeassociationrulesinlargerelationaltables . In : ProceedingsoftheACMSIGMODConferenceonManagementofData . Montreal , Canada , 1996 
+ ［ 10 ］ AgrawalR , GhoshS , ImielinskiTetal . Anintervalclassifierfordatabaseminingapplications . In : Proceedingsofthe18thInternationalConferenceonVeryLargeDataBases.1992 . 560 ～ 573 
+ ［ 11 ］ CheungDW , NgV , TamBW . Maintenanceofdiscoveredknowledge : acaseinmulti - levelassociationrules . In : Proceedingsofthe2ndInternationalConferenceonKnowledgeDiscoveryandDataMining ( KDD - 96 ) . Portland , Oregon , 1996 
+ ［ 12 ］ HanJ , FuY . Discoveryofmultiple - levelassociationrulesfromlargedatabases . In : Proceedingsofthe21stInternationalConferenceonVeryLargeDataBases.1995 . 420 ～ 431 
+ ［ 13 ］ SrikantR , AgrawalR . Mininggeneralizedassociationrules . In : Proceedingsofthe21stVLDBConference . Z ü rich , Switzerland , 1995 
+ ［ 14 ］ ParkJS , ChenMS , YuPS . Efficientparalleldataminingforassociationrules . In : Proceedingsofthe4thInternationalConferenceonInformationandKnowledgeManagement.1995 . 31 ～ 36 
+ ［ 15 ］ CheungDW , HanJ , NgVetal . Afastdistributedalgorithmforminingassociationrules . In : Proceedingsofthe4thInternationalConferenceonParallelandDistributedInformationSystem ( PDIS - 96 ) . MiamiBeach , 1996 
+ ［ 16 ］ CheungDW , NgV , FuAWetal . Efficientminingofassociationrulesindistributeddatabases . IEEETransactionsonKnowledgeandDataEngineering , 1996 , 8 ( 6 ) : 911 ～ 922 
+ ［ 17 ］ KamberM , HanJ , ChiangJY . Metarule - guidedminingofmulti - dimensionalassociationrulesusingdatacubes . In : Proceedingsofthe3rdInternationalConferenceonKnowledgeDiscoveryandDataMining . NewportBeach , California , 1997 
+ ［ 18 ］ KoperskiK , HanJ . Discoveryofspatialassociationrulesingeographicinformationdata - bases . In : Proceedingsofthe4thInternationalSymp . onLargeSpatialDatabases ( SSD ' 95 ) . Portland , Maine , 1995.47 ～ 66 
+ ［ 19 ］ HanJ . Dataminingtechniques . In : ProceedingsoftheACM - SIGMOD ' 96ConferenceonTutorial . June1996 
+ ［ 20 ］ ChenMS , HanJ , YuPS . Datamining : anoverviewfromdatabaseperspective . IEEETransactionsonKnowledgeandDataEngineering , 1997 
+ ［ 21 ］ DiKai - chang , LiDe - ren . KDDanditsapplicationandextensioninGIS . In : Proceedingsofthe2ndAnnulMeetingofChineseAssociationofGIS . Beijing , 1996 
+ ［ 22 ］ DiKai - chang , LiDe - yi , LiDe - ren . Knowledgerepresentationanddiscoveryinspatialdatabasesbasedoncloudtheory . ProceedingsoftheInternationalArchivesofPhotogrammetryandRemoteSensing , 1998 , 32 ( 3 / 1 ) : 544 ～ 551 
+ ［ 23 ］ LiDe - yi , ShiXue - mei , MengHai - jun . Membershipcloudsandcloudgenerators . TheResearchandDevelopmentofComputers , 1995 , 42 ( 8 ) : 32 ～ 41 
+ ［ 24 ］ LiDe - yi , HanJ , ChanEetal . Knowledgerepresentationanddiscoverybasedonlinguisticatoms . In : Proceedingsofthe1stPacific - AsiaConferenceonKDD & DM . Singapore , 1997 
+ ［ 25 ］ LiDe - yi , CheungDW , ShiXue - meietal . Uncertaintyreasoningbasedoncloudmodelsincontrollers . ComputersandMathematicswithApplications , ElsevierScience , 1998 , 35 ( 3 ) : 99 ～ 123 
+ ［ 26 ］ HanJ , CaiY , CerconeN . Data - drivendiscoveryofquantitativerulesinrelationaldatabases . IEEETransactionsonKnowledgeandDataEngineering , 1993 , 5 : 29 ～ 40 
+ received1997 - 12 - 26 
+ accepted1998 - 08 - 05 

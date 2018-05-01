@@ -1,0 +1,59 @@
+环境 科学研究 
+ RESEARCHOFENVIRONMENTALSCIENCES 
+ 2001Vol.14 No.3 P.62 - 64 
+ 
+ 
+ 
+ 
+ 垃圾焚烧 重金属 污染物 的 控制 现状 
+ 葛俊 　 徐旭 　 张若冰 　 陆胜勇 　 池涌 　 严 建华 　 
+ 摘 　 要 ： 采用 焚烧法 处理 城市 固体 垃圾 ， 在 我国 正 逐渐 得到 推广 和 应用 。 而 焚烧 所 带来 的 重金属 污染 已 广泛 引起 国内外 专家 的 关注 。 文中 从 焚烧 前 、 焚烧 中 、 焚烧 后 三 方面 评述 了 国内外 近些年来 所 发展 的 重金属 污染物 的 控制技术 及其 相应 的 机理 ， 重点 介绍 了 吸附 技术 。 
+ 关键词 ： 城市 固体 垃圾 ； 　 重金属 ； 　 焚烧 ； 　 吸附 
+ 分类号 ： X705 　 文献 标识码 ： A 
+ 文章 编号 ： 001 - 6929 ( 2001 ) 03 - 0062 - 03 
+ CurrentControlStatusofHeavyMetalsfromMSWIncineration 
+ GEJun （ InstituteforThermalPlantEngineering , ZhejiangUniversity , Hangzhou310027 , China ） 　 
+ XUXu （ InstituteforThermalPlantEngineering , ZhejiangUniversity , Hangzhou310027 , China ） 　 
+ ZHANGRuo - bin （ InstituteforThermalPlantEngineering , ZhejiangUniversity , Hangzhou310027 , China ） 　 
+ LUSheng - yong （ InstituteforThermalPlantEngineering , ZhejiangUniversity , Hangzhou310027 , China ） 　 
+ CHIYong （ InstituteforThermalPlantEngineering , ZhejiangUniversity , Hangzhou310027 , China ） 　 
+ YANJian - hua （ InstituteforThermalPlantEngineering , ZhejiangUniversity , Hangzhou310027 , China ） 　 
+ 
+ Abstract ： Nowadaysincinerationisgraduallybeingusedtodisposemunicipalsolidwaste ( MSW ) inChina . However , theissueaboutthesecondaryenvironmentpollutioncausedbyheavymetalsemittedfromincinerationhasarousedwideattentionsofmanyexpertsathomeandabroad . Thispaperreviewsthecontroltechnologydevelopedduringthepastyearsinthreeaspects , thatis , before , duringandaftertheincineration , andthecorrelativemechanismsarealsodiscussedwithemphasisonabsorptiontechnology . 
+ Keywords ： municipalsolidwaste ; 　 heavymetal ; 　 incineration ; 　 absorption 
+ 
+ 基金项目 ： 国家 重点 自然科学 基金 资助 项目 ( N59836210 ) ； 浙江省 青年 科技人才 专项资金 资助 ( RC99041 ) 
+ 作者简介 ： 葛俊 ( 1976 - ) ， 男 ， 江苏 南通人 ， 硕士 研究生 . 
+ 作者 单位 ： 葛俊 （ 浙江大学 热能 工程 研究所 ， 浙江 杭州 310027 ） 　 
+ 　 　 　 　 　 徐旭 （ 浙江大学 热能 工程 研究所 ， 浙江 杭州 310027 ） 　 
+ 　 　 　 　 　 张若冰 （ 浙江大学 热能 工程 研究所 ， 浙江 杭州 310027 ） 　 
+ 　 　 　 　 　 陆胜勇 （ 浙江大学 热能 工程 研究所 ， 浙江 杭州 310027 ） 　 
+ 　 　 　 　 　 池涌 （ 浙江大学 热能 工程 研究所 ， 浙江 杭州 310027 ） 　 
+ 　 　 　 　 　 严 建华 （ 浙江大学 热能 工程 研究所 ， 浙江 杭州 310027 ） 　 
+ 
+ 参考文献 ： 
+ ［ 1 ］ 陈尚兵 , 金浩 . 城市 垃圾焚烧 处理 中 重金属 和 有机 氯化物 的 二次污染 与 防治 [ J ] . 环境 导报 , 1998 , 6 ： 7 ～ 10 . 
+ ［ 2 ］ 宋宝增 . 城市 生活 垃圾焚烧 发电 [ J ] . 四川 环境 , 1998 , ( 17 ) 4 ： 17 ～ 22 . 
+ ［ 3 ］ 生活 垃圾焚烧 污染 控制 标准 . 国家环境保护总局 文件 , 环发 [ 2000 ] 46 号 , 2000 - 03 - 01 . 
+ ［ 4 ］ WilliamPLinak , JostOLWendt . Metalemissionsfromincineration : Mechanismsandcontrol [ J ] . ProgEnergyCombustiSci , 1993 , 19 : 145 ～ 185 . 
+ ［ 5 ］ 邓志文 . 我国 垃圾焚烧 处理 现状 及其 发展 方向 初探 [ J ] . 环境 与 开发 , 1999 , ( 14 ) 3 ： 31 ～ 35 . 
+ ［ 6 ］ 王志刚 , 张淑娟 , 陈新庚 . 广州市 城市 生活 垃圾 分类 收集 研究 [ J ] . 环境 科学 动态 , 1999 , 3 ： 26 ～ 27 . 
+ ［ 7 ］ FloydHasselriis , AnthonyLicata . AnalysisofHeavyMetalemissiondatafrommunicipalwastecombustion [ J ] . JournalofHazardousMaterials , 1996 , 47 : 77 ～ 102 . 
+ ［ 8 ］ ThomasDBrown , DennisNSmith , RichardAHargis , etal . Mercurymeasurementanditscontrol : Whatweknow , havelearned , andneedtofurtherinvestigate [ J ] . JournaloftheAir & WasteManagementAssociation , 1999 , 49 : 628 ～ 640 . 
+ ［ 9 ］ LibertiL , NotarnicolaM , AmicarelliV . MercuryremovalwithpowderedactivatedcarbonfromfluegasesattheCorianomunicipalssolidwasteincinerationplant [ J ] . WasteManageRes , 1998 , ( 16 ) 2 : 183 ～ 189 . 
+ ［ 10 ］ WalterMShaub . MercuryemissionfromMSWincinerators : AnassessmentofthecurrentsituationintheUnitedStatesandforestoffutureemissions [ J ] . Resources , ConservationandRecucling , 1993 , 9 : 31 ～ 59 . 
+ ［ 11 ］ FranksbMeserole , RamsayChang , ToddRCarey . Modelingmercuryremovalbysorbentinjection . JouranloftheAir & WasteManagementAssociation , 1999 , 49 : 694 ～ 704 . 
+ ［ 12 ］ SagrarioMendiotoz , IsabelGuijarroM , VicfntaMunoz . MercuryretrievalfromFlueGasbyMonolithicAfsorbentsBasedonSulfurizedSepiolite [ J ] . EnvironSciTechnol , 1999 , 33 : 1697 ～ 1702 . 
+ ［ 13 ］ UberoiM , PUNJAKWA , SHADMANF . Thekineticsandmechanismofalkaliremovalfromflluegasesbysolidsorbents [ J ] . ProgEnergyCombustSci , 1990 , 16 : 205 ～ 211 . 
+ ［ 14 ］ PratimBiswas , MichaelRZachariah . insituimmobilizationofleadspeciesincombustionenvironmentsbyinjectionofgasphasesilicasorbentprecursors [ J ] . EnviornScitechnol , 1997 , ( 31 ) 9 : 2455 ～ 2463 . 
+ ［ 15 ］ WuChang - yu , Leetai - gyu , GlendonTyree . CaptureofmercuryincombustionsystemsbyInsitu - generatedtitaniaparticleswithUVirradiation [ J ] . EnvionEnginSci , 1998 , ( 15 ) 2 : 137 ～ 148 . 
+ ［ 16 ］ HoTC , ChenJM , HopperJT . Novelfluidizedbedbechnologyformetalemissionscontrolduringwasteincineration [ C ] . TheSecondAsianConferenceonFluidized - BedandThree - PhaseReactors , 1991 : 136 ～ 143 . 
+ ［ 17 ］ 王韶林 编译 . 日本 垃圾焚烧 灰 处理 现状 [ J ] . 环境 科学 动态 , 1995 , 1 ： 26 ～ 27 . 
+ ［ 18 ］ JakobA , StuckiS , KuhnP . Evaporationofheavymetalsduringtheheattreatmentofmunicipalsolidwasteincinerationflyash [ J ] . EnvironSciTechnol , 1995 , 29 : 2429 ～ 2436 . 
+ ［ 19 ］ ChrisChan , CharlesQJia , JohnWGraydon . ThebehaviourofselectedheavymetalsinMSWincinerationelectrostaticprecipitatorashduringroastingwithchlorinationagents [ J ] . JournalofHazardousMaterials , 1996 , 50 : 1 ～ 13 . 
+ ［ 20 ］ ChrisCYChan , DonaldWKirk . BehaviourofmetalsundertheconditionsofroastingMSWincineratorflyashwithchlorinatingagents [ J ] . JournalofHazardousMaterials , 1999 , ( B ) 64 : 75 ～ 89 . 
+ ［ 21 ］ 蒋 建国 , 王伟 , 赵翔龙 , 等 . 重金属 螯合剂 处理 焚烧 飞灰 的 稳定化 技术 研究 [ J ] . 环境 科学 , 1999 , ( 20 ) 3 ： 13 ～ 17 . 
+ ［ 22 ］ ElizabethGutierrez , ThomasinCMiller , JoseR . CharacterizationofImmobilizecPoly - L - asparatateasaMetalChelator [ J ] . EnvironSciTechnol , 1999 , 33 : 1664 ～ 1670 . 
+ 
+ 收稿 日期 ： 2000 年 7 月 31 日 
+ 出版日期 ： 2001 年 5 月 30 日 

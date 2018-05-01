@@ -1,0 +1,25 @@
+环境 科学研究 
+ RESEARCHOFENVIRONMENTALSCIENCES 
+ 2001Vol.14 No.1 P.59 - 60 
+ 
+ 
+ 
+ 
+ 应急 监测 水中 N - 甲基 哌嗪 的 气相 色谱法 
+ 张莘民 　 程滢 　 徐朝 　 
+ 摘 　 要 ： 采用 气 相色谱 直接 进样 法测定 了 水中 N - 甲基 哌嗪 ， 在 3min 内 完成 整个 分析 过程 。 直接 进 水样 经 毛细管柱 分离 水中 的 N - 甲基 哌嗪 ， 用 GC / FID 测定 ， 以 保留 时间 定性 ， 峰高 定量 。 在 浓度 范围 为 8.44 ～ 80.32 mg / L 时 ， 相对 标准偏差 为 1.8% ～ 2.9% ， 标准偏差 为 0.19 ～ 1.5 mg / L 。 样品 加标 回收率 为 81% 。 标准 曲线 的 相关系数 为 0.9992 。 检出限 为 0.08 mg / L 。 
+ 关键词 ： 应急 监测 ； 　 气 相色谱 ； 　 直接 进样 ； 　 N - 甲基 哌嗪 ； 　 水 
+ 分类号 ： X830.7 　 文献 标识码 ： A 
+ 文章 编号 ： 1001 - 6929 ( 2001 ) 01 - 0059 - 02 
+ EmergencyMonitoringofN - methylPiperazineintheWaterbyGC 
+ ZHANGXin - min （ TaizhouMunicipalEnvironmentalMonitoringStation , 　 Taizhou 　 225300 ， 　 China ） 　 
+ CHENGYing （ TaizhouMunicipalEnvironmentalMonitoringStation , 　 Taizhou 　 225300 ， 　 China ） 　 
+ XUChao （ TaizhouMunicipalEnvironmentalMonitoringStation , 　 Taizhou 　 225300 ， 　 China ） 　 
+ Abstract ： DeterminationofN - methylpiperazineinthewaterbydirectinjectiongaschromatography ( GC ) . Themethodcompletedthewholeanalyticprocessin3min . TheN - methylpiperazinehasbeendeterminatedbycapollarycolumnGC / FIDwithdirectinjection . Thesampleisqualitativelydeterminedbyretentiontimeandquantitativelydeterminedbypeak - heightextendstandardmethod . Whentheaverageconcentrationrangeis8.44 ～ 80.32 mg / L , therelativedeviationis1.8% ～ 2.9% , andthestandarddeviationis0.19 ～ 1.50 mg / L . Therecoveryrateofsampleis81% , thecorrelationcoefficientis0.9992 , andthedeterminationlimitis0.08 mg / L . 
+ Keywords ： emergencymonitoring ; 　 gaschromatography ; 　 N - methylpiperazine ; 　 water 
+ 作者简介 ： 张莘民 ( 1943 - ) ， 男 ， 江苏 泰兴市 人 ， 高级 工程师 . 
+ 作者 单位 ： 张莘民 （ 泰州市 环境监测 中心站 ， 　 江苏 泰州 　 225300 ） 　 
+ 　 　 　 　 　 程滢 （ 泰州市 环境监测 中心站 ， 　 江苏 泰州 　 225300 ） 　 
+ 　 　 　 　 　 徐朝 （ 泰州市 环境监测 中心站 ， 　 江苏 泰州 　 225300 ） 　 
+ 收稿 日期 ： 2000 年 1 月 10 日 
+ 出版日期 ： 2001 年 1 月 30 日 

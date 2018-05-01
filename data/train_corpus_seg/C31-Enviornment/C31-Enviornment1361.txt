@@ -1,0 +1,162 @@
+环境 科学 学报 
+ ACTASCIENTIAECIRCUMSTANTIAE 
+ 1999 年 第 19 卷 第 5 期 Vol.19 No.51999 
+ 
+ 
+ 
+ 城市 生活 垃圾 典型 组分 的 热解 动力学 模型 研究 
+ 李 　 斌 　 谷月玲 　 严 建华 　 徐 　 旭 　 池 　 涌 　 蒋 旭光 　 倪明江 　 岑可法 
+ 摘要 　 对 城市 生活 垃圾 中 的 典型 组分 进行 热重 特性 试验 ， 根据 热 失重 曲线 得出 了 反应 力学 参数 及 反应 速率 控制 方程 ， 进而 提出 了 一个 通用 的 反应 速率 函数 式 ， 提出 热解 指数 这个 指标 来 表征 垃圾 的 热解 特性 . 结果表明 ： 1 . 垃圾 组分 中 ， 塑料 、 橡胶 、 植物 类厨 余热 解 符合 三段 模型 ， 其余 组分 符合 二段 热解 模型 ， 在 不同 的 温度 范围 内 ， 热解 的 反应 机理 是 不同 的 ， 且 反应 动力学 参数 也 不 相同 . 2 . 同 一种 组分 ， 影响 其 反应 速率 的 主要 因素 是 反应 动力学 常数 ， 升温 速率 改变 时 ， 反应 速率方程 中 的 函数 式 并 不 改变 ， 改变 的 只是 反应 动力学 常数 . 3 . 在 加热 速率 相同 的 情况 下 ， 塑料 最 容易 热解 ， 提高 加热 速率 ， 热解 指数 增加 . 
+ 关键词 　 热解 动力学 ； 垃圾 ； 热重 分析 . 
+ Thermaldecompositionkineticsmodeloftherepresentativecompositionofmunicipalsolidwaste 
+ LIBin , GUYueling , YANJianhua , XUXu , CHIYong , JIANGXuguang , NIMingjiang , CENKefa ( InstituteofThermalPowerEngineering , ZhejiangUniversity , Hangzhou310027 ) 
+ Abstract 　 Thethermaldecompositionkineticsparametersandthecontrollingequationsofthecompositionofsolidwastewasderivedthroughsolidwasterthermalgravimetricanalysisofninerepresentativecompositionsofsolidwaste . Ageneralthermaldecompositionrateequationwasdeduced , andthethermaldecompositioncharacteristicsofthesolidwastecompositionweredescribedbyusingthermaldecompositionindex . Theresultsshowthat ( 1 ) thethermaldecompositionmechanismandthereactionkineticsparameteraredifferentfromeachotherwithinthecertainrangeoftemperature . Threecompositionsofthesolidwaste , plastics , rubber , andvegetalkitchentrash , conformwithathree - stagemodel , whiletheothercompositionswithatwo - stagemodel ; ( 2 ) themainfactorsaffectingthereactionratearereactionkineticsparameters , whileheatingrate ( ＜ 50 ℃ / min ) doesnotchangethereactionrateequationbutchangesthereactionkineticsparameters ; ( 3 ) itismosteasyforplasticstobedecomposedandincreasingheatingrateishelpfulforthermaldecomposition . 
+ Keywords 　 thermaldecompositionkinetics , solidwaste , thermalgravimetricanalysis . 
+ 　 　 垃圾 热解 是 近几年 发展 起来 的 一项 处理 生活 垃圾 的 新 技术 ， 该项 技术 具有 洁净 、 处理 彻底 、 能源 利用率 高等 特点 . 采用 热 天平 研究 垃圾 热解 可以 求得 反应 动力学 参数 ， 进而 为 建立 热解 综合 模型 提供 基础 数据 . LasseHolstSorensen ［ 1 ］ , JuanMignelJimenez - Mateos ［ 2 ］ , PaoloDavini ［ 3 ］ 采用 热重法 研究 煤 、 煤焦 和 炭黑 的 反应 特性 ； YingGangPan ［ 4 ］ 采用 热重法 研究 贫煤 与 生物质 混合物 的 热解 特性 ； KimihitoNarukawaetal ［ 5 ］ 通过 对 废物 衍生 燃料 ( RDF ) 进行 热 天平 试验 ， 得出 了 RDF 的 三 阶段 动力学 模型 ， 采用 热 天平 研究 城市 生活 垃圾 的 热解 特性 的 报道 并 不 常见 . 本 研究 对 9 种 典型 垃圾 组分 进行 了 热 天平 试验 ， 采用 积分法 ， 通过 选择 气固 反应 机理 方程 ， 求解 反应 动力学 参数 ， 减少 了 数据处理 的 误差 . 
+ 1 　 试验设备 及 试验 方法 
+ 　 　 由于 原生 垃圾 成分 复杂 ， 且 随 季节 和 气候 的 改变 而 波动 ， 为了 使 研究 结果 更 具有 普遍性 和 代表性 ， 本文 选出 垃圾 中 的 9 种 典型 组分 进行 热 天平 试验 . 试样 工业 分析 如表 1 所示 . 热 天平 为 TGD - 5000 微分 差热 天平 ， 试样 粒度 0.5 — 1.0 mm , 加入 热 天平 的 试样 质量 为 0 — 10mg ， 加热 速率 为 10 ℃ / min 、 20 ℃ / min 和 50 ℃ / min , 气氛 为 高纯 氮气 . 为了 消除 水分 蒸发 对 热 分析 的 影响 ， 样品 都 是 经过 空气 干燥 的 . 
+ 表 1 　 9 种 垃圾 组分 的 工业 分析 
+ Table1Approximateanalysisoftheninecompositionsofsolidwaste 
+ 
+ 名称 水分 ， % 灰分 ， % 挥发 分 ， % 固定 炭 ， % 
+ 废橡胶 1.9042 . 7853.062 . 23 
+ 废 皮革 6.738 . 6975.029 . 56 
+ 废塑料 0.788 . 6779.1911 . 36 
+ 废纸 张 2.648 . 1389.200 . 03 
+ 瓜皮 类 13.864 . 0759.8322 . 24 
+ 化纤 4.641 . 4185.618 . 34 
+ 杂草 10.8322 . 3652.5714 . 24 
+ 植物 类 厨余 14.554 . 0060.1421 . 31 
+ 落叶 8.566 . 0668.1017 . 28 
+ 
+ 2 　 垃圾 的 热解 特性 分析 
+ 　 　 首先 定义 α 为 试样 消耗 份额 ： α = ( W0 - W ) / ( W0 - W ∞ ) 式 中 ， W0 ： 试样 初始 质量 ； W : 试样 在 温度 为 T 时 的 质量 ； W ∞ ： 试样 最终 质量 . 
+ 　 　 α - T 和 - T 可以 由 TG 及 DTG 曲线 计算 得到 . 
+ 　 　 为了 综合 描述 垃圾 中 各 组分 的 热解 特性 ， 本文 提出 一个 表征 热解 特性 的 指标 — — 热解 指数 ， 其 定义 如下 ： I = ( d α / dt ) max ) / ( Tmax . Δ T ) 
+ 式 中 ， α ： 试样 消耗 份额 ; d α / dtmax ： 最大 失重 率 ； Tmax ： 对应 于 最大 失重 率 的 温度 ； Δ T = T2 - T1 ; T1 : 开始 失重 时 的 温度 ； T2 ： 终止 失重 时 的 温度 . 显然 ， T1 和 Tmax 越小 ， 挥发份 释放 越 早 ； d α / dtmax 越大 ， Δ T 、 Tmax 越小 ， 总体 热解 反应 进行 过程 越 集中 ， 反之 ， 则 不易 热解 . 表 2 列出 了 不同 垃圾 组分 的 T1 、 d α / dtmax 、 Tmax 、 T2 和 垃圾 热解 指数 I ， 可见 ， 加热 速率 提高 ， 热解 指数 增大 ， 垃圾 越 容易 热解 ， 垃圾 热解 指数 还 与 垃圾 粒度 、 传热 传质 等 因素 有关 . 
+ 表 2 　 不同 垃圾 组分 热解 过程 中 的 特征 点及 热解 指数 
+ Table2Characteristicspointandthermaldecompositionindexofthermalcompositionofsolidwasteatvariousheatingrate 
+ 
+ 垃圾 组分 
+ 名 　 　 称 加热 速率 ， 
+ ℃ / minT1 , ℃ T2 , ℃ Tmax , ℃ ( d α / dt ) max 
+ % / minI , × 10 - 6 
+ 
+ 植物 类 厨余 101709002700.06980 . 354 
+ 植物 类 厨余 501809803300.32101 . 216 
+ 落叶 101709203300.18720 . 756 
+ 落叶 502209603600.21120 . 793 
+ 废橡胶 101607807600.06870 . 146 
+ 废橡胶 202007807900.10630 . 232 
+ 废橡胶 501708603900.22290 . 828 
+ 废塑料 102205503000.11531 . 165 
+ 废塑料 202405503200.23972 . 417 
+ 废塑料 502505503300.63546 . 418 
+ 杂草 102109003300.06490 . 285 
+ 废 皮革 101804903400.05880 . 558 
+ 废纸 张 102409203400.16070 . 695 
+ 化纤 101908803600.12650 . 509 
+ 瓜皮 类 101709703100.04080 . 164 
+ 
+ 3 　 热解 动力学 模型 
+ 　 　 假设 在 无限 短 的 时间 间隔 内 ， 非 等温过程 可 看作 等温过程 ， 垃圾 的 总体 热解 速率 可以 表示 如下 ： 
+ d α / dt = k . f ( α ) = 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 
+ A . exp ( - E / RT ) . f ( α ) 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 2 ) 
+ 式 中 ， A ： 指前 因子 ； k ： 反应 速率 常数 ， min - 1 ; R ： 气体 常数 ， 8.31 J / ( mol . K ) ; E ： 活化能 ， kJ / mol ; T ： 温度 ， K ； f ( α ) ： 固体 反应物 中未 反应 产物 与 反应 速率 有关 的 函数 ， 它 的 大小 取决于 反应 机理 . 
+ 　 　 热 天平 实验 数据处理 方法 有 微分 法 和 积分法 ， 采用 微分 法来 处理 实验 数据 ， 其 优点 是 简单 方便 ， 不足之处 是 要 用到 DTG 曲线 ， DTG 曲线 的 影响 因素 复杂 ， 易 导致 增大 数据处理 的 误差 . 垃圾 热解 是 一个 复杂 的 反应 过程 ， 认为 垃圾 热解 反应 是 一级 或 二级 反应 是 不 准确 的 . 在 不同 温度 条件 下 ， 垃圾 热解 的 反应 机理 是 不同 的 . 由于 积分法 不 存在 这个 问题 ， 本 研究 选用 积分法 处理 实验 数据 . 
+ 表 3 　 常见 的 气固 反应 的 机理 方程式 ， kt = F ( α ) 
+ Table3Generalgas - solidreactionequations , kt = F ( α ) 
+ 
+ 函数 序号 反应 机理 方程式 反应 速率 函数 式 f ( α ) 
+ 1 α 2 = ktf ( α ) = α - 1 / 2 
+ 2 ( 1 - α ) ln ( 1 - α ) + α = ktf ( α ) = ( - ln ( 1 - α ) ) - 1 
+ 3 ［ 1 - ( 1 - α ) 1 / 3 ] + 2 = ktf ( α ) = 3 / 2 ( 1 - α ) 2 / 3 ( 1 - ( 1 - α ) 1 / 3 ) - 1 
+ 4 ( 1 - 2 / 3 α ) - ( 1 - α ) 2 / 3 = ktf ( α ) = 3 / 2 ( ( 1 - α ) - 1 / 3 ) - 1 
+ 5 ( ( 1 + α ) 1 / 3 - 1 ) 2 = ktf ( α ) = 3 / 2 ( 1 + α ) 2 / 3 ( ( 1 + α ) 1 / 3 - 1 ) - 1 
+ 6 ( ( 1 - α ) - 1 / 3 - 1 ) 2 = ktf ( α ) = 3 / 2 ( 1 - α ) 4 / 3 ( ( 1 - α ) 1 / 3 - 1 ) - 1 
+ 7 - ln ( 1 - α ) = ktf ( α ) = 1 - α 
+ 81 - ( 1 - α ) 1 / 2 = ktf ( α ) = 2 ( 1 - α ) 1 / 2 
+ 91 - ( 1 - α ) 1 / 3 = ktf ( α ) = 3 ( 1 - α ) 2 / 3 
+ 10 α = ktf ( α ) = 1 
+ 11 ( 1 - α ) - 1 / 2 - 1 = ktf ( α ) = 2 ( 1 - α ) 3 / 2 
+ 12 ( 1 - α ) - 1 - 1 = ktf ( α ) = ( 1 - α ) 2 
+ 133 / 2 ［ 1 - ( 1 - α ) 2 / 3 ] = ktf ( α ) = ( 1 - α ) 1 / 3 
+ 142 [ ( 1 - α ) - 1 / 2 - 1 ] = ktf ( α ) = ( 1 - α ) 3 / 2 
+ 15 - ln ( α / ( 1 - α ) ) = ktf ( α ) = α ( 1 - α ) 
+ 
+ 　 　 首先 令 
+ 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 3 ) 
+ 加热 速率 , 由式 ( 2 ) 和 式 ( 3 ) 可 得 ： 
+ 　 　 　 　 　 　 　 　 　 ( 4 ) 
+ 
+ ( 5 ) 
+ 式 中 ， Ei ( - x ) 为 指数 积分 ； T 为 对应 于 α = α ( t ) 的 温度 . 
+ 对式 ( 4 ) 两边 取 对数 ： 
+ 　 　 　 　 　 　 　 　 　 ( 6 ) 
+ 式 ( 6 ) 右端 与 温度 无关 ， 而 左端 与 温度 有关 ， 近似 认为 - logP ( x ) 是 1 / T 的 线性 函数 ， 则 logF ( α ) 也 必然 是 1 / T 的 线性 函数 ， 从式 ( 5 ) 可 看出 ， P ( x ) 既 与 温度 T 有关 又 与 E 有关 . 
+ Maccallum 和 Tanner ［ 6 ］ 给出 了 P ( x ) 的 表达式 ： 
+ 　 　 　 　 ( 7 ) 
+ 将式 ( 7 ) 代入 式 ( 6 ) 后 得 ： 
+ 　 　 　 　 　 　 　 　 　 　 ( 8 ) 
+ 把 α - T 数据 代入 表 3 中 的 F ( α ) 的 函数 式 ， 从 logF ( α ) 对应 于 1 / T 的 数据 中 ， 在 某 一 确定 的 温度 范围 内 可以 找到 一个 函数 F ( α ) ， 使得 logF ( α ) 和 1 / T 成 线性关系 ， 根据 式 ( 8 ) 即可 算 出 动力学 参数 E 和 A . 温度 区间 的 划分 依据 如下 ： ( 1 ) 当 T ≤ 120 ℃ 或 当 d α / dt = 0 时 ， 认为 没有 发生 化学反应 . ( 2 ) 当 d α / dt ≠ 0 时 ， 认为 试样 发生 化学反应 ， 引起 失重 . ( 3 ) 在 试样 发生 化学反应 过程 中 ， 若 存在 一点 T0 ， 使得 T0 点 左侧 和 右侧 的 logF ( α ) - 1 / T 直线 的 斜率 不 相等 ， 认为 T0 点 左侧 和 右侧 服从 不同 的 反应 机理 或 服从 相同 的 反应 机理 但 动力学 参数 不 相同 . 
+ 　 　 通过 对 热 天平 实验 数据 的 分析 和 处理 ， 可以 看出 ， 垃圾 组分 的 热解 动力学 模型 可以 用 一个 方程式 来 概括 ， 即 
+ 　 ( 9 ) 
+ 对式 ( 9 ) 中 的 m 、 n 、 p 和 q 取 不同 的 值 ， 即可 得到 垃圾 中 的 典型 组分 在 不同 温度 范围 内 的 热解 模型 . 
+ 4 　 结果 分析 与 讨论 
+ 　 　 分析 得出 的 不同 试样 的 部分 反应 动力学 参数 及其 对应 的 反应 速率 控制 方程 ( 见表 4 ) . 将式 ( 4 ) 的 级数 展开 为 ： 
+ 　 　 　 　 　 ( 10 ) 
+ 取 第一项 近似 为 ： P ( x ) = e - x / x2 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 ( 11 ) 
+ 将式 ( 11 ) 代入 式 ( 3 ) 可 得 
+ 　 　 　 　 　 　 　 　 　 　 　 　 ( 12 ) 
+ 由式 ( 12 ) 可 得到 α - α ( T ) 的 关系式 ， 
+ 表 4 　 垃圾 组分 的 热解 动力学 参数 ( 高温区 段 ) 
+ Table4Thermaldecompositionkineticsparametersofsolidwasteswithinthehightemperaturerange 
+ 
+ 垃圾 组分 
+ 名 　 称 加热 速率 , 
+ ℃ / min 温度 区间 ， 
+ ℃ E , 
+ kJ / molA , 
+ min - 1 反应 速率 控制 
+ 制 方程式 f ( α ) 相关 
+ 系数 
+ 废橡胶 10690 — 780168.13 E + 08f ( α ) = α ( 1 - α ) 0.9842 
+ 20700 — 7801788E + 08f ( α ) = α ( 1 - α ) 0.9979 
+ 50690 — 8601145E + 05f ( α ) = α ( 1 - α ) 0.9718 
+ 废塑料 10420 — 55049.063660 f ( α ) = ( 1 - α ) 20.9793 
+ 20450 — 55086.242 E - 06f ( α ) = ( 1 - α ) 20.9958 
+ 50430 — 550672E + 05f ( α ) = ( 1 - α ) 20.9431 
+ 废纸 10380 — 92034.970 . 069f ( α ) = α - 1 / 20.9992 
+ 瓜皮 10400 — 9703.3120 . 166f ( α ) = α - 1 / 20.9575 
+ 化纤 10390 — 8801.9230 . 253f ( α ) = ( - ln ( 1 - a ) ) - 10.9926 
+ 废 皮革 10490 — 9402.4230 . 222f ( α ) = α - 1 / 20.9813 
+ 杂草 10380 — 9003.6730 . 232f ( α ) = α - 1 / 20.9995 
+ 植物 类 厨余 10700 — 90027.151 . 377f ( α ) = ( - ln ( 1 - a ) ) - 10.9917 
+ 50500 — 9801.7061 . 051f ( α ) = ( - ln ( 1 - a ) ) - 10.9464 
+ 落叶 10480 — 9206.3630 . 217f ( α ) = α - 1 / 20.9867 
+ 50530 — 9601.1311 . 662f ( α ) = α - 1 / 20.9826 
+ 
+ 比如 废橡胶 热解 ( 加热 速率 ： 10 ℃ / min ) 符合 三段 热解 模型 ， 即 
+ 
+ ( 13 ) 
+ 
+ 
+ 图 1 　 废橡胶 的 热解 失重 过程 ( 10 ℃ / min ) 
+ Fig.1 Thermaldecompositionprocessofwasterubbleatheatingrate10 ℃ / min 
+ 从图 1 中 可以 看出 ， 式 ( 13 ) 能 较 好 地 反映 橡胶 试样 的 热解 失重 过程 . 
+ 5 　 结论 
+ 　 　 1 . 垃圾 组分 中 ， 塑料 、 橡胶 、 植物 类厨 余热 解 符合 三段 模型 ， 其 特征 是 ： 植物 类 厨余 和 塑料 的 活化能 ： E 低 ＞ E 高 ＞ E 中 ， 橡胶 的 活化能 ： E 高 ＞ E 低 ＞ E 中 ； 瓜皮 类 、 皮革 类 、 废纸 、 杂草 、 树叶 、 化纤 等 符合 二段 热解 模型 ， 其 特征 是 ： E 低 ＞ E 高 ； 在 不同 的 温度 范围 内 ， 热解 的 反应 机理 是 不同 的 ， 且 反应 动力学 参数 各不相同 . 
+ 　 　 2 . 同 一种 物质 ， 影响 其 反应 速率 的 主要 因素 是 反应 动力学 常数 ， 升温 速率 改变 时 ， 反应 速率方程 中 的 函数 式 f ( α ) 并 不 改变 ， 改变 的 只是 反应 动力学 常数 E 和 A . 
+ 　 　 3 . 垃圾 热解 过程 可由式 f ( α ) = { 3 / 2 ( 1 + α ) 2 / 3 ( ( 1 + α ) 1 / 3 - 1 ) - 1 } m . α n . ( 1 - α ) p . [ - ln ( 1 - α ) ] q 来 描述 其 热解 速率 ， 根据 实验 得出 的 反应 动力学 参数 以及 m 、 n 、 p 和 q 的 不同 取值 可 得出 垃圾 热解 的 动力学 模型 . 
+ 　 　 4 . 本文 提出 热解 指数 来 综合 描述 垃圾 中 各 组分 的 热解 难易 程度 ： 1 ) 在 加热 速率 为 10 ℃ / min 的 情况 下 ， 塑料 最 容易 热解 ， 其他 组分 热解 由易到难 依次 为 ： 树叶 ， 废纸 ， 皮革 ， 化纤 ， 植物 类 厨余 ， 瓜皮 类 ， 橡胶 ； 2 ) 对于 塑料 、 橡胶 、 厨余 和 落叶 等 组分 ， 提高 加热 速率 ( ＜ 50 ℃ / min ) ， 热解 指数 增加 ， 说明 提高 加热 速率 ， 对 加速 热解 过程 是 有益 的 . 
+ 本文 得到 了 浙江大学 曹光彪 高科技 发展 基金 资助 
+ 作者 单位 : 浙江大学 热能 工程 研究所 ， 杭州 　 310027 
+ 参考文献 
+ 1 　 LasseHolstSorensenetal . Determinationofreactivityparameterofmodelcarbons , cokes , andflame - chars . Fuel , 1996 , 75 ( 1 ) : 31 — 38 
+ 2 　 JuanMignelJimenez - Mateosetal . Characterizationofpetroleumsbitumensandtheirfractionbythermogravimetricanalysisanddifferentialscanningcalorimetry . Fuel , 1996 , 75 ( 15 ) : 1691 — 1700 
+ 3PaoloDavinietal . Investigationofthecombustionofparticlesofcoal . Fuel , 1996 , 75 ( 9 ) : 1083 — 1088 
+ 4YingGangPan . Pyrolysisofblendofbiomasswithpoorcoal . Fuel , 1996 , 75 ( 4 ) : 412 — 418 
+ 5KimihitoNarukawaetal . In : FDSPreto ( ed ) . JapaneseRDF - firedpowergenerationsystemandfundermentalresearchonRDFcombustion . Procof14thIntConfonFBCASME.1997 . 633 — 637 
+ 6MaccallumJR , TannerJ . ThekineticsofthermogravimetryEurPolymerJ , 1970 , 6 : 1033 
+ 1998 - 04 - 06 收到 原稿 
+ 1999 - 03 - 09 收到 修改稿 
