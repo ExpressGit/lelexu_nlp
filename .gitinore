@@ -1,0 +1,7 @@
+*.zip
+
+cv*.txt
+
+t10k-*.gz
+train-images-*.gz
+train-labels-*.gz

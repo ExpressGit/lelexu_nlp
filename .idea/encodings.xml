@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../mahcine_learning/data/test_corpus/C3-Art/C3-Art1464.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../mahcine_learning/data/test_corpus/C3-Art/C3-Art1468.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../mahcine_learning/data/test_corpus/C3-Art/C3-Art1470.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../mahcine_learning/data/test_corpus/C3-Art/C3-Art1475.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../mahcine_learning/data/test_corpus/C3-Art/C3-Art1481.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../mahcine_learning/data/test_corpus/C31-Enviornment/C31-Enviornment2413.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../mahcine_learning/data/test_corpus/C31-Enviornment/C31-Enviornment2421.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../mahcine_learning/data/test_corpus/C4-Literature/C4-Literature53.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../mahcine_learning/data/train_corpus/C17-Communication/C17-Communication01.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../mahcine_learning/data/train_corpus/C3-Art/C3-Art0002.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../mahcine_learning/data/train_corpus/C3-Art/C3-Art0003.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../mahcine_learning/data/train_corpus/C3-Art/C3-Art0005.txt" charset="GBK" />
+  </component>
+</project>
